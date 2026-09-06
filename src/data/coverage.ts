@@ -33,19 +33,22 @@ export const searchLogs: Record<string, SearchLog> = {
     nextSearch: "GOLD — isolate 2055+4055; Demand 22 remainder is not police-only",
   },
   karnataka: {
-    lastDocument: "Not typed. Hub: finance.karnataka.gov.in budget volumes 2026-27",
-    urlTried: "https://finance.karnataka.gov.in/192/budget-volumes-2026-27/en",
-    nextSearch: "Expenditure Vol-1 Home — isolate 2055 + 4055 (often lakhs)",
+    lastDocument: "Expenditure Volume-1 2026-27 Demand 05 Home — 2055 + 4055 GOLD",
+    urlTried: "https://finance.karnataka.gov.in/uploads/EXPVOL1_1772787253.pdf",
+    nextSearch: "GOLD — statewide object 01 योग if a printed total appears",
   },
   kerala: {
-    lastDocument: "Not typed. Hub: budget.kerala.gov.in",
-    urlTried: "https://budget.kerala.gov.in",
-    nextSearch: "Demand XII Police — isolate 2055 + 4055",
+    lastDocument:
+      "Opened AFS 2026-27 Statement B/C on 2026-09-07. 2055 Demand XII and 4055 exist in thousands. Demand XII detailed estimates PDF not found at Vol_1/XII paths. Not GOLD this pass — next is the Demand XII volume.",
+    urlTried: "https://www.budget.kerala.gov.in/keralabudgetdoc/2026_27/AFS.pdf",
+    nextSearch:
+      "Demand XII Police detailed estimates 2026-27 — confirm 2055+4055 page totals against AFS (BE 2055 6,57,95,289 thousands; 4055 5,46,000 thousands)",
   },
   odisha: {
-    lastDocument: "Not typed. Hub: finance.odisha.gov.in",
-    urlTried: "https://finance.odisha.gov.in",
-    nextSearch: "Demand 01 Home D-01 2026-27 — isolate 2055 + 4055",
+    lastDocument:
+      "Opened Demand 01 Home 2026-27 (thousands) on 2026-09-07. 2055 Police is printed (BE 7,100,94,20 thousands including charged). 4055 is not a major head in this Demand (capital is 4059/4216 mixed). Not GOLD this pass until 4055 is isolated or 2055-only is shipped as the printed equivalent.",
+    urlTried: "https://finance.odisha.gov.in/sites/default/files/2025-08/D-01.pdf",
+    nextSearch: "Isolate 4055 if it lives under 4059/4216 with a Police line; else ship 2055-only GOLD from D-01 p. 5 abstract",
   },
   rajasthan: {
     lastDocument: "Volume pages not tied. Salary desk-sums unsafe without page.",

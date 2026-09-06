@@ -91,11 +91,11 @@ describe("desk-median of GOLD compare peers", () => {
       assert.equal(side?.tier, "gold");
       assert.ok(!p.money.citationId.startsWith("prs-"));
     }
-    assert.ok(!peers.some((p) => p.slug === "karnataka"));
+    assert.ok(peers.some((p) => p.slug === "karnataka"));
     assert.ok(!peers.some((p) => p.slug === "rajasthan"));
     assert.ok(!peers.some((p) => p.slug === "andhra-pradesh"));
     const ka = resolveSide("karnataka");
-    assert.equal(ka?.tier, "index");
+    assert.equal(ka?.tier, "gold");
   });
 
   it("N matches the resolver count, not a hardcoded 6", () => {

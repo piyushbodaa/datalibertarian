@@ -32,6 +32,7 @@ import { stations } from "./telangana/stations.ts";
 import { wb2055Gross, wb2055Net, wb4055, wbArms, wbClothing, wbFunctional, wbSalariesDesk } from "./west-bengal/police.ts";
 import { gj2055, gj2055Minors, gj4055, gjFunctional } from "./gujarat/police.ts";
 import { tn2055, tn4055, tnDemand22Voted, tnFunctional } from "./tamil-nadu/police.ts";
+import { ka109, ka2055, ka4055, kaDemand05Home, kaFunctional } from "./karnataka/police.ts";
 import { jurisdictions } from "./states.ts";
 
 const allMoney = [
@@ -77,6 +78,11 @@ const allMoney = [
   ...tn4055.amounts,
   ...tnFunctional.amounts,
   ...tnDemand22Voted.amounts,
+  ...ka2055.amounts,
+  ...ka4055.amounts,
+  ...kaFunctional.amounts,
+  ...ka109.amounts,
+  ...kaDemand05Home.amounts,
 ];
 
 describe("every figure has a living citation", () => {
@@ -134,6 +140,7 @@ describe("every figure has a living citation", () => {
       "wb-demand68-2026-27",
       "gj-home-2026-27",
       "tn-demand22-2026-27",
+      "ka-expvol1-2026-27",
       "union-bag-2026-27",
       "desk-median",
       "prs-andhra-pradesh",
@@ -274,6 +281,7 @@ describe("GOLD modules copy pack figures", () => {
     assert.equal(jurisdictions.find((j) => j.slug === "west-bengal")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "gujarat")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "tamil-nadu")?.tier, "gold");
+    assert.equal(jurisdictions.find((j) => j.slug === "karnataka")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "rajasthan")?.tier, "index");
     assert.equal(jurisdictions.find((j) => j.slug === "andhra-pradesh")?.tier, "blocked");
     assert.equal(jurisdictions.find((j) => j.slug === "delhi")?.tier, "empty");
@@ -293,6 +301,21 @@ describe("GOLD modules copy pack figures", () => {
       .map((l) => l.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!.crore)
       .reduce((s, n) => s + n, 0);
     assert.equal(Math.round(minorSum * 100) / 100, run.crore);
+  });
+
+  it("Karnataka Expenditure Volume-1 isolates 2055+4055 from Demand 05 Home", () => {
+    const run = ka2055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const cap = ka4055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const hero = kaFunctional.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const district = ka109.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const mixed = kaDemand05Home.amounts[0];
+    assert.equal(run.rupees, 120_944_194_000);
+    assert.equal(cap.rupees, 4_530_000_000);
+    assert.equal(hero.rupees, run.rupees + cap.rupees);
+    assert.equal(district.rupees, 89_570_248_000);
+    assert.ok(mixed.crore > hero.crore);
+    assert.ok(!hero.citationId.startsWith("prs-"));
+    assert.notEqual(Math.round(hero.crore), 11461);
   });
 
   it("Tamil Nadu Demand 22 isolates 2055+4055 from the mixed demand", () => {
@@ -330,15 +353,15 @@ describe("GOLD modules copy pack figures", () => {
     const ka = resolveSide("karnataka")!;
     assert.equal(mh.tier, "gold");
     assert.equal(up.tier, "gold");
-    assert.equal(ka.tier, "index");
-    assert.equal(Object.keys(ka.bag).length, 0);
+    assert.equal(ka.tier, "gold");
+    assert.ok(ka.bag["police-functional"]);
+    assert.ok(!ka.bag["police-functional"]!.amounts[0].citationId.startsWith("prs-"));
     const rows = compareRows(mh, up, "2026-27", "be");
     const functional = rows.find((r) => r.field.id === "police-functional")!;
     assert.ok(functional.left && functional.right && functional.mid);
     assert.ok(!functional.left.citationId.startsWith("prs-"));
     assert.ok(!functional.right.citationId.startsWith("prs-"));
     assert.ok(functional.mid.money.citationId.startsWith("desk-median"));
-    assert.ok(!functional.mid.peers.some((p) => p.slug === "karnataka"));
     const run = rows.find((r) => r.field.id === "2055")!;
     assert.ok(run.left && run.right);
     const salaries = rows.find((r) => r.field.id === "obj-01");

@@ -18,6 +18,7 @@ const GOLD_IDS = [
   "wb-demand68-2026-27",
   "gj-home-2026-27",
   "tn-demand22-2026-27",
+  "ka-expvol1-2026-27",
   "union-bag-2026-27",
 ];
 
@@ -242,6 +243,11 @@ export function SourcesPage() {
           <li className="docket-slip text-ink/80">
             <strong>Tamil Nadu Police</strong> — Demand 22 Interim Budget 2026-27, thousands converted
             to crore. Hero is 2055 + 4055 only. The voted Demand 22 total is mixed and quieter.
+          </li>
+          <li className="docket-slip text-ink/80">
+            <strong>Karnataka Police</strong> — Expenditure Volume-1 2026-27, Demand 05 Home. Figures
+            printed in lakhs (crore = lakhs ÷ 100). Hero is 2055 + 4055. Demand 05 Home total is
+            mixed and quieter. PRS Police is INDEX, not this hero.
           </li>
           <li className="docket-slip text-ink/80">
             <strong>Union total expenditure</strong> — Budget at a Glance 2026-27, item 9. ₹53,47,315

@@ -187,6 +187,21 @@ export const citations: Record<string, Citation> = {
     notes:
       "Figures printed in crore of rupees. Demand 043 is 2055 only. 4055 is printed under Demand 046 among other Home capital — only the 4055 line is taken as Police capital, not Demand 046 total. Jails 2056 and courts 2014 are not Police.",
   },
+  "ka-expvol1-2026-27": {
+    id: "ka-expvol1-2026-27",
+    title:
+      "Detailed Budget Estimates of Expenditure for the year 2026-27 — Volume 1, Demand 05 Home",
+    publisher: "Finance Department, Government of Karnataka",
+    fiscalYear: "2026-27",
+    url: "https://finance.karnataka.gov.in/uploads/EXPVOL1_1772787253.pdf",
+    pages:
+      "Demand 05 Home abstract (printed p. 3); 2055 HOA total printed p. 82; 2055-00-109-1-01 printed p. 78; 4055 HOA total printed p. 96",
+    table: "2055 Police; 4055 Capital Outlay on Police — not Demand 05 Home total",
+    accessedOn: "2026-09-07",
+    short: "KA Expenditure Vol-1",
+    notes:
+      "Figures printed in lakhs of rupees. Converted to crore by dividing by 100. Confirmed against Annual Financial Statement 2026-27 Statement 1 (2055 printed p. 8; 4055 printed p. 13), https://finance.karnataka.gov.in/uploads/AFS2026-27_1772786694.pdf. Demand 05 Home also prints 2014, 2056 jails, 2070, 2235, 4059 and 4070 — those are not Police. Hero is 2055 + 4055 only.",
+  },
   "tn-demand22-2026-27": {
     id: "tn-demand22-2026-27",
     title: "Detailed Demand for Grant — Demand No. 22 Police (Home, Prohibition and Excise), Interim Budget 2026-2027",

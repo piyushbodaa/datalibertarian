@@ -128,6 +128,46 @@ Units: **thousands**. Crore = thousands ÷ 10,000.
 
 Functional Police BE 2026-27 = 12,435.9957 + 353.5408 = **12,789.5365**. Demand 22 voted total 13,576.7223 is mixed — not the hero.
 
+## Karnataka — Expenditure Volume-1, Demand 05 Home, 2026-27
+
+Extract date: 2026-09-07
+
+Ledger: https://finance.karnataka.gov.in/uploads/EXPVOL1_1772787253.pdf
+Confirm: Annual Financial Statement 2026-27 https://finance.karnataka.gov.in/uploads/AFS2026-27_1772786694.pdf (Statement 1, 2055 printed p. 8; 4055 printed p. 13)
+
+Printed unit: **lakhs**. Crore = lakhs ÷ 100.
+
+### 2055 Police — Demand 05 Home HOA total (Volume-1 printed p. 82)
+
+| Series | Printed (lakhs) | Crore |
+|---|---|---|
+| Actuals 2024-25 | 9,11,606.08 | 9,116.0608 |
+| Budget 2025-26 | 11,01,107.12 | 11,011.0712 |
+| Revised 2025-26 | 10,86,767.99 | 10,867.6799 |
+| Budget 2026-27 | 12,09,441.94 | 12,094.4194 |
+
+### 4055 Capital Outlay on Police (Volume-1 printed p. 96)
+
+| Series | Printed (lakhs) | Crore |
+|---|---|---|
+| Actuals 2024-25 | 31,623.61 | 316.2361 |
+| Budget 2025-26 | 45,018.00 | 450.1800 |
+| Revised 2025-26 | 47,117.57 | 471.1757 |
+| Budget 2026-27 | 45,300.00 | 453.0000 |
+
+Functional Police BE 2026-27 = 12,094.4194 + 453.0000 = **12,547.4194**. Not Demand 05 Home total 13,956.7285. Not Transport. Not PRS.
+
+### 2055-00-109-1-01 District establishment (Volume-1 printed p. 78)
+
+| Series | Printed (lakhs) | Crore |
+|---|---|---|
+| Actuals 2024-25 | 7,08,854.52 | 7,088.5452 |
+| Budget 2025-26 | 8,21,933.01 | 8,219.3301 |
+| Revised 2025-26 | 8,27,068.01 | 8,270.6801 |
+| Budget 2026-27 | 8,95,702.48 | 8,957.0248 |
+
+Object 01 statewide योग not typed. Named stations not printed.
+
 ## Union Budget at a Glance 2026-27
 
 Source: https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf

@@ -171,6 +171,11 @@ export function HomePage() {
           </Link>
         </li>
         <li>
+          <Link to="/karnataka/police" className="live-tag no-underline text-ink">
+            Karnataka · GOLD
+          </Link>
+        </li>
+        <li>
           <Link to="/union/police" className="live-tag no-underline text-ink">
             Union Demand 51 · GOLD
           </Link>

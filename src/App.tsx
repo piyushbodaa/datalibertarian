@@ -7,6 +7,7 @@ import { GramPage } from "./pages/Gram";
 import { SearchPage } from "./pages/Search";
 import { TracePage } from "./pages/Trace";
 import { GjPolicePage } from "./pages/GjPolice";
+import { KaPolicePage } from "./pages/KaPolice";
 import { HomePage } from "./pages/Home";
 import { MunicipalPage } from "./pages/Municipal";
 import { PolicePage } from "./pages/Police";
@@ -49,6 +50,7 @@ export default function App() {
         <Route path="/west-bengal/police" element={<WbPolicePage />} />
         <Route path="/gujarat/police" element={<GjPolicePage />} />
         <Route path="/tamil-nadu/police" element={<TnPolicePage />} />
+        <Route path="/karnataka/police" element={<KaPolicePage />} />
         <Route path="/states/maharashtra/police" element={<Navigate to="/maharashtra/police" replace />} />
         <Route path="/:slug/police" element={<EmptyPolicePage />} />
         <Route path="*" element={<Navigate to="/" replace />} />

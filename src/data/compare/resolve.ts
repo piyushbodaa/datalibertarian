@@ -10,6 +10,7 @@ import {
 } from "../maharashtra-police";
 import { gj2055, gj2055Minors, gj4055, gjFunctional } from "../gujarat/police";
 import { tn2055, tn4055, tnDemand22Voted, tnFunctional } from "../tamil-nadu/police";
+import { ka109, ka2055, ka4055, kaDemand05Home, kaFunctional } from "../karnataka/police";
 import { tgObject010 } from "../telangana/police";
 import { up2055Voted, up4055, upFunctional, upSalariesDesk } from "../uttar-pradesh/police";
 import { wb2055Net, wb4055, wbFunctional, wbSalariesDesk } from "../west-bengal/police";
@@ -175,6 +176,15 @@ export function resolveSide(slug: string | undefined): CompareSide | undefined {
       "mixed-grant": tnDemand22Voted,
     });
   }
+  if (slug === "karnataka") {
+    return goldState(slug, {
+      "police-functional": kaFunctional,
+      "2055": ka2055,
+      "4055": ka4055,
+      "109": ka109,
+      "mixed-grant": kaDemand05Home,
+    });
+  }
 
   const log = searchLogFor(j);
   return {
@@ -283,6 +293,7 @@ export function isCrossLayer(a: CompareSide, b: CompareSide): boolean {
 export function suggestedPairs(): [string, string][] {
   return [
     ["maharashtra", "uttar-pradesh"],
+    ["maharashtra", "karnataka"],
     ["maharashtra", "west-bengal"],
     ["maharashtra", "telangana"],
     ["maharashtra", "gujarat"],
