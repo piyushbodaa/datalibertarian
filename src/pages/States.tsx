@@ -16,7 +16,10 @@ import {
   getIndexRow,
   indexPoliceLines,
 } from "../data/prs-index/afs-police";
+import { coverageCounts } from "../data/coverage";
+import { gjFunctional } from "../data/gujarat/police";
 import { type Jurisdiction, jurisdictions, tierLabel, type PoliceTier } from "../data/states";
+import { tnFunctional } from "../data/tamil-nadu/police";
 import { tgObject010 } from "../data/telangana/police";
 import { upFunctional } from "../data/uttar-pradesh/police";
 import { wbFunctional } from "../data/west-bengal/police";
@@ -32,7 +35,8 @@ const TIER_CLASS: Record<PoliceTier, string> = {
 export function StatesPage() {
   const states = jurisdictions.filter((j) => j.kind === "state");
   const uts = jurisdictions.filter((j) => j.kind === "ut");
-  const goldN = jurisdictions.filter((j) => j.tier === "gold").length;
+  const cov = coverageCounts();
+  const goldN = cov.gold;
   const indexN = indexPoliceLines.length;
   const mh = pickAmount(functionalPolice, HEADLINE_YEAR, HEADLINE_SERIES);
   const run = pickAmount(police2055, HEADLINE_YEAR, HEADLINE_SERIES);
@@ -40,8 +44,10 @@ export function StatesPage() {
   const up = pickAmount(upFunctional, "2026-27", "be");
   const tg = pickAmount(tgObject010, "2026-27", "be");
   const wb = pickAmount(wbFunctional, "2026-27", "be");
+  const gj = pickAmount(gjFunctional, "2026-27", "be");
+  const tn = pickAmount(tnFunctional, "2026-27", "be");
   const mhIndex = getIndexRow("maharashtra");
-  if (!mh || !run || !cap || !up || !tg || !wb || !mhIndex) {
+  if (!mh || !run || !cap || !up || !tg || !wb || !gj || !tn || !mhIndex) {
     throw new Error("Missing state headline figures");
   }
 
@@ -51,7 +57,8 @@ export function StatesPage() {
       <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">State Governments</h1>
       <p className="mt-3 max-w-2xl text-ink">
         {goldN} GOLD White Book ledgers. {indexN} INDEX envelopes from PRS AFS Police functional.
-        EMPTY and BLOCKED doors have no invented rupee.
+        {cov.blocked} BLOCKED · {cov.empty} EMPTY. No invented rupee. GOLD and INDEX are different
+        slips — never one India-total.
       </p>
 
       <section className="mt-8 border-y border-ink/20 py-8">
@@ -83,6 +90,18 @@ export function StatesPage() {
             name="Telangana Police"
             note="Law+Home object 010 desk-sum — not Demand X Home"
             money={tg}
+          />
+          <GoldRow
+            to="/gujarat/police"
+            name="Gujarat Police"
+            note="Demand 043 2055 + 4055 line from Demand 046"
+            money={gj}
+          />
+          <GoldRow
+            to="/tamil-nadu/police"
+            name="Tamil Nadu Police"
+            note="Demand 22 slices · 2055 + 4055 — not the mixed demand"
+            money={tn}
           />
         </ul>
         <div className="mt-6">

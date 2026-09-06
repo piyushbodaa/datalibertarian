@@ -19,7 +19,10 @@ export function MunicipalPage() {
           No hatch · no guessed rupee
         </div>
         <p className="mt-5 max-w-2xl text-sm text-ink/70">
-          Next city, later: Brihanmumbai civic PDFs — labelled civic, never as Police.
+          City police is usually <strong>state</strong> police. Mumbai Police sits in the Maharashtra
+          White Book (2055 + 4055), not the BMC. Civic books — water, roads, schools, and any
+          municipal chowkidar line — are civic, never Police. Next city, later: Brihanmumbai civic
+          PDFs, labelled civic.
         </p>
       </section>
 

@@ -23,6 +23,8 @@ import { tgArms220, tgCity4055, tgObject010 } from "./telangana/police.ts";
 import { commissionerates, cpHero, getCommissionerate } from "./telangana/commissionerates.ts";
 import { stations } from "./telangana/stations.ts";
 import { wb2055Gross, wb2055Net, wb4055, wbArms, wbClothing, wbFunctional, wbSalariesDesk } from "./west-bengal/police.ts";
+import { gj2055, gj2055Minors, gj4055, gjFunctional } from "./gujarat/police.ts";
+import { tn2055, tn4055, tnDemand22Voted, tnFunctional } from "./tamil-nadu/police.ts";
 import { jurisdictions } from "./states.ts";
 
 const allMoney = [
@@ -57,6 +59,14 @@ const allMoney = [
   ...wbSalariesDesk.amounts,
   ...wbArms.amounts,
   ...wbClothing.amounts,
+  ...gj2055.amounts,
+  ...gj4055.amounts,
+  ...gjFunctional.amounts,
+  ...gj2055Minors.flatMap((l) => l.amounts),
+  ...tn2055.amounts,
+  ...tn4055.amounts,
+  ...tnFunctional.amounts,
+  ...tnDemand22Voted.amounts,
 ];
 
 describe("every figure has a living citation", () => {
@@ -110,6 +120,8 @@ describe("every figure has a living citation", () => {
       "tg-law-home-2026-27-cyberabad",
       "tg-law-home-2026-27-hod",
       "wb-demand68-2026-27",
+      "gj-home-2026-27",
+      "tn-demand22-2026-27",
       "prs-andhra-pradesh",
     ]) {
       assert.ok(citations[id], `missing ${id}`);
@@ -246,11 +258,37 @@ describe("GOLD modules copy pack figures", () => {
     assert.equal(jurisdictions.find((j) => j.slug === "uttar-pradesh")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "telangana")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "west-bengal")?.tier, "gold");
+    assert.equal(jurisdictions.find((j) => j.slug === "gujarat")?.tier, "gold");
+    assert.equal(jurisdictions.find((j) => j.slug === "tamil-nadu")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "rajasthan")?.tier, "index");
-    assert.equal(jurisdictions.find((j) => j.slug === "tamil-nadu")?.tier, "index");
     assert.equal(jurisdictions.find((j) => j.slug === "andhra-pradesh")?.tier, "blocked");
     assert.equal(jurisdictions.find((j) => j.slug === "delhi")?.tier, "empty");
     assert.equal(apLastFound.be2425.crore, 7874);
     assert.equal(apLastFound.actual2425.crore, 7695);
+  });
+
+  it("Gujarat Demand 043 2055 + isolated 4055", () => {
+    const run = gj2055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const cap = gj4055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const hero = gjFunctional.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    assert.equal(run.crore, 9055.62);
+    assert.equal(cap.crore, 964.73);
+    assert.equal(Math.round(hero.crore * 100) / 100, 10020.35);
+    assert.ok(!run.citationId.startsWith("prs-"));
+    const minorSum = gj2055Minors
+      .map((l) => l.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!.crore)
+      .reduce((s, n) => s + n, 0);
+    assert.equal(Math.round(minorSum * 100) / 100, run.crore);
+  });
+
+  it("Tamil Nadu Demand 22 isolates 2055+4055 from the mixed demand", () => {
+    const run = tn2055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const cap = tn4055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const mixed = tnDemand22Voted.amounts[0];
+    const hero = tnFunctional.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    assert.equal(run.rupees, 124_359_957_000);
+    assert.equal(cap.rupees, 3_535_408_000);
+    assert.ok(mixed.crore > hero.crore);
+    assert.ok(!hero.citationId.startsWith("prs-"));
   });
 });

@@ -149,6 +149,32 @@ export const citations: Record<string, Citation> = {
     notes:
       "Amounts copied from phase1. Page numbers for these HoDs were not in the paste — not invented. Missing year-columns are gaps, not zeros.",
   },
+  "gj-home-2026-27": {
+    id: "gj-home-2026-27",
+    title: "Budget Estimates of Home Department for 2026-2027 — Demand 043 Police",
+    publisher: "Finance Department, Government of Gujarat",
+    fiscalYear: "2026-27",
+    url: "https://financedepartment.gujarat.gov.in/Documents/Bud-Eng_1542_2026-2-18_594.pdf",
+    pages: "printed 1–3 (demand-cum-major heads / summary by major heads); printed 21 (2055 I-Summary minors)",
+    table: "2055 Police Demand 043; 4055 Capital outlay on Police (under Demand 046, isolated)",
+    accessedOn: EXTRACT_DATE,
+    short: "GJ Home Book",
+    notes:
+      "Figures printed in crore of rupees. Demand 043 is 2055 only. 4055 is printed under Demand 046 among other Home capital — only the 4055 line is taken as Police capital, not Demand 046 total. Jails 2056 and courts 2014 are not Police.",
+  },
+  "tn-demand22-2026-27": {
+    id: "tn-demand22-2026-27",
+    title: "Detailed Demand for Grant — Demand No. 22 Police (Home, Prohibition and Excise), Interim Budget 2026-2027",
+    publisher: "Finance Department, Government of Tamil Nadu",
+    fiscalYear: "2026-27",
+    url: "https://financedept.tn.gov.in/ta/my-documents/2020/07/DemandBook_22-2.pdf",
+    pages: "cover; Demand 22 summary (rupees in thousands)",
+    table: "2055 Police; 4055 Capital Outlay on Police — not the mixed Demand 22 voted total",
+    accessedOn: EXTRACT_DATE,
+    short: "TN Demand 22",
+    notes:
+      "Figures printed in thousands of rupees. Converted to crore by dividing by 10,000. Demand 22 also prints 2014, 2015, 2051, 2052, 2059, 2070, 2235 and other heads — those are not Police. Hero is 2055 + 4055 only.",
+  },
   "wb-demand68-2026-27": {
     id: "wb-demand68-2026-27",
     title: "West Bengal Budget Publication 2026 — Demand 68 (2055 / 4055 slices)",

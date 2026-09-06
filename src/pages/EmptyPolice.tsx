@@ -1,8 +1,9 @@
 import { Link, Navigate, useParams } from "react-router-dom";
 import { CitationFootnote } from "../components/CitationChip";
 import { Money } from "../components/Money";
+import { searchLogFor } from "../data/coverage";
 import { apLastFound, getIndexLine } from "../data/prs-index/afs-police";
-import { getJurisdiction, tierLabel } from "../data/states";
+import { type Jurisdiction, getJurisdiction, tierLabel } from "../data/states";
 
 export function EmptyPolicePage() {
   const { slug } = useParams();
@@ -44,6 +45,7 @@ export function EmptyPolicePage() {
             </p>
           ) : null}
           {j.indexNote ? <p className="mt-4 text-sm text-ink/70">{j.indexNote}</p> : null}
+          <SearchNote j={j} />
         </div>
         <section className="mt-10 text-sm text-ink/70">
           <h2 className="font-display text-lg font-semibold text-ink">Footnotes</h2>
@@ -91,6 +93,7 @@ export function EmptyPolicePage() {
         </section>
         <section className="mt-10 text-sm text-ink/70">
           <h2 className="font-display text-lg font-semibold text-ink">Footnotes</h2>
+          <SearchNote j={j} />
           {ap ? (
             <ol className="mt-3 max-w-2xl list-decimal space-y-4 pl-5">
               <CitationFootnote citationId={apLastFound.be2425.citationId} />
@@ -133,6 +136,7 @@ export function EmptyPolicePage() {
             as a state White Book.
           </p>
         ) : null}
+        <SearchNote j={j} />
       </section>
       <p className="mt-8">
         <Link to="/states" className="file-cta">
@@ -144,5 +148,35 @@ export function EmptyPolicePage() {
         <Link to="/sources">How a figure gets onto the page</Link>
       </p>
     </article>
+  );
+}
+
+function SearchNote({ j }: { j: Jurisdiction }) {
+  const log = searchLogFor(j);
+  return (
+    <dl className="mt-5 max-w-2xl space-y-2 text-sm text-ink/70">
+      <div>
+        <dt className="text-[0.7rem] font-semibold uppercase tracking-[0.14em] text-ink/45">
+          Last document searched
+        </dt>
+        <dd className="mt-0.5">{log.lastDocument}</dd>
+      </div>
+      <div>
+        <dt className="text-[0.7rem] font-semibold uppercase tracking-[0.14em] text-ink/45">
+          URL tried
+        </dt>
+        <dd className="mt-0.5 break-all">
+          <a href={log.urlTried} rel="noreferrer" target="_blank">
+            {log.urlTried}
+          </a>
+        </dd>
+      </div>
+      <div>
+        <dt className="text-[0.7rem] font-semibold uppercase tracking-[0.14em] text-ink/45">
+          Next search
+        </dt>
+        <dd className="mt-0.5">{log.nextSearch}</dd>
+      </div>
+    </dl>
   );
 }

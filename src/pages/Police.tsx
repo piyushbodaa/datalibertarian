@@ -17,6 +17,7 @@ import {
   police4055,
   stateTotalExpenditure,
 } from "../data/maharashtra-police";
+import { TraceRail } from "../components/TraceRail";
 import { formatCrore, SERIES_PLAIN } from "../lib/money";
 
 export function PolicePage() {
@@ -111,6 +112,34 @@ export function PolicePage() {
       </section>
 
       <RankedHatch items={police2055Lines} fiscalYear={HEADLINE_YEAR} series={HEADLINE_SERIES} />
+
+      <section className="carbon-sheet mt-10 px-4 py-6 sm:px-6">
+        <p className="kicker text-ochre">Object heads · not typed</p>
+        <h2 className="mt-2 font-display text-xl font-semibold">Object 01 under 109 not opened</h2>
+        <p className="mt-3 max-w-2xl text-sm text-ink/75">
+          The White Book I-Summary of 2055 minors is typed. Object 01 salaries under 109 District
+          Police is not typed this pass — detailed object pages were not opened. We do not guess
+          object 01, and we do not divide district police by N stations.
+        </p>
+      </section>
+
+      <TraceRail
+        stops={[
+          { id: "book", label: "Book", detail: "Home Department White Book 2026-27" },
+          { id: "major", label: "2055 + 4055", money: hero, detail: "Functional Police. Not Grant B-1." },
+          { id: "run", label: "Major 2055", money: run },
+          {
+            id: "object",
+            label: "Object 01 Salaries",
+            empty: "Object heads not typed — detailed White Book pages not on disk this pass.",
+          },
+          {
+            id: "station",
+            label: "Named police station",
+            empty: "The book stops at the minor-head grain. Mumbai Police is state police, not BMC.",
+          },
+        ]}
+      />
 
       <section className="carbon-sheet mt-14 px-4 py-6 sm:px-6">
         <p className="kicker text-ochre">Related grant · quieter</p>

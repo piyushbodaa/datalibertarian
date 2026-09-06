@@ -11,6 +11,7 @@ import {
   police2055,
   police4055,
 } from "../data/maharashtra-police";
+import { coverageCounts } from "../data/coverage";
 import { INDEX_SERIES, INDEX_YEAR, indexPoliceLines } from "../data/prs-index/afs-police";
 import { EXTRACT_DATE } from "../data/sources";
 import {
@@ -28,6 +29,7 @@ export function HomePage() {
   const mhCap = pickAmount(police4055, HEADLINE_YEAR, HEADLINE_SERIES);
   const union = pickAmount(demand51Net, UNION_HEADLINE_YEAR, UNION_HEADLINE_SERIES);
   if (!mh || !mhRun || !mhCap || !union) throw new Error("Missing live headline figures");
+  const cov = coverageCounts();
 
   return (
     <article>
@@ -59,6 +61,16 @@ export function HomePage() {
         <li>
           <Link to="/west-bengal/police" className="live-tag no-underline text-ink">
             West Bengal · GOLD
+          </Link>
+        </li>
+        <li>
+          <Link to="/gujarat/police" className="live-tag no-underline text-ink">
+            Gujarat · GOLD
+          </Link>
+        </li>
+        <li>
+          <Link to="/tamil-nadu/police" className="live-tag no-underline text-ink">
+            Tamil Nadu · GOLD
           </Link>
         </li>
         <li>
@@ -176,7 +188,10 @@ export function HomePage() {
         <section className="docket-door">
           <p className="kicker">States</p>
           <h2 className="mt-2 font-display text-xl font-semibold tracking-tight">State Governments</h2>
-          <p className="mt-1 text-sm text-ink/70">4 GOLD ledgers · 27 INDEX envelopes. We do not guess.</p>
+          <p className="mt-1 text-sm text-ink/70">
+            {cov.gold} GOLD · {cov.index} INDEX · {cov.blocked} BLOCKED · {cov.empty} EMPTY. We do
+            not guess.
+          </p>
           <div className="mt-3">
             <Money money={mh} size="row" />
           </div>

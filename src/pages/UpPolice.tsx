@@ -3,6 +3,8 @@ import { CitationChip, CitationFootnote } from "../components/CitationChip";
 import { HeadSplit } from "../components/HeadSplit";
 import { Money } from "../components/Money";
 import { pickAmount } from "../data/maharashtra-police";
+import { TraceRail } from "../components/TraceRail";
+import { RankedHatch } from "../components/RankedHatch";
 import { up2055Voted, up4055, upFunctional, upSalariesDesk, upUniforms } from "../data/uttar-pradesh/police";
 
 export function UpPolicePage() {
@@ -61,7 +63,28 @@ export function UpPolicePage() {
           Arms named object: <strong>not found</strong>.
           <CitationChip citationId={hero.citationId} />
         </p>
+        <RankedHatch
+          compact
+          items={[upSalariesDesk]}
+          fiscalYear="2026-27"
+          series="be"
+          shareOf={run}
+          title="Object 01 salaries (desk-sum)"
+          note="Share of 2055 voted printed. Remainder of 2055 is other objects not fully typed. Desk-sum, not a printed योग."
+        />
       </section>
+      <TraceRail
+        stops={[
+          { id: "book", label: "Book", detail: "Grant 26 Home (Police) 2026-27" },
+          { id: "major", label: "2055 voted + 4055 योग", money: hero },
+          { id: "object", label: "Object 01 वेतन (desk-sum)", money: sal, detail: "Desk-sum of printed object lines — not the 2055 printed total." },
+          {
+            id: "station",
+            label: "Named police station",
+            empty: "The book stops at object heads. We do not divide that total by N stations.",
+          },
+        ]}
+      />
       <section className="mt-12 text-sm text-ink/70">
         <h2 className="font-display text-lg font-semibold text-ink">Footnotes</h2>
         <ol className="mt-3 max-w-2xl list-decimal space-y-4 pl-5">

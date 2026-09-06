@@ -74,4 +74,56 @@ MHA ministry total BE 2026-27 **2,55,233.53** from SBE summary — not a police 
 
 ## Telangana
 
-Law & Home volume 2026-27 is on telangana.gov.in. Home Department grant (~₹11,907 cr) is **not police-only** (includes jails and other home services). 2055 + 4055 not typed this pass. Door is empty.
+Law & Home volume 2026-27. Statewide Police hero is object 010 desk-sum (not Demand X Home). Commissionerate HoDs are separate GOLD doors. Named stations EMPTY.
+
+## Gujarat — Home Department Budget Estimates 2026-27
+
+Source: https://financedepartment.gujarat.gov.in/Documents/Bud-Eng_1542_2026-2-18_594.pdf
+Units: **crore** as printed.
+
+### 2055 Police — Demand 043 (printed p. 3 / p. 21)
+
+| Series | Crore |
+|---|---|
+| Actuals 2024-25 | 7,617.4658 |
+| Budget 2025-26 | 8,538.32 |
+| Revised 2025-26 | 8,053.66 |
+| Budget 2026-27 | 9,055.62 |
+
+2055 I-Summary minors BE 2026-27 sum to 9,055.62 (001 87.81 … 109 District 8,242.91 … 800 29.10).
+
+### 4055 Capital outlay on Police — printed under Demand 046, isolated
+
+| Series | Crore |
+|---|---|
+| Actuals 2024-25 | 512.3896 |
+| Budget 2025-26 | 1,490.25 |
+| Revised 2025-26 | 1,212.57 |
+| Budget 2026-27 | 964.73 |
+
+Functional Police BE 2026-27 = 9,055.62 + 964.73 = **10,020.35**. Not Home Department total 13,465.75. Not Demand 046 total.
+
+## Tamil Nadu — Demand 22 Police, Interim Budget 2026-27
+
+Source: https://financedept.tn.gov.in/ta/my-documents/2020/07/DemandBook_22-2.pdf
+Units: **thousands**. Crore = thousands ÷ 10,000.
+
+### 2055 Police
+
+| Series | Printed (thousands) | Crore |
+|---|---|---|
+| Actuals 2024-25 | 10,763,07,20 | 10,763.0720 |
+| Budget 2025-26 | 12,305,50,74 | 12,305.5074 |
+| Revised 2025-26 | 11,490,23,20 | 11,490.2320 |
+| Budget 2026-27 | 12,435,99,57 | 12,435.9957 |
+
+### 4055 Capital Outlay on Police
+
+| Series | Printed (thousands) | Crore |
+|---|---|---|
+| Actuals 2024-25 | 137,72,02 | 137.7202 |
+| Budget 2025-26 | 408,18,53 | 408.1853 |
+| Revised 2025-26 | 408,18,63 | 408.1863 |
+| Budget 2026-27 | 353,54,08 | 353.5408 |
+
+Functional Police BE 2026-27 = 12,435.9957 + 353.5408 = **12,789.5365**. Demand 22 voted total 13,576.7223 is mixed — not the hero.

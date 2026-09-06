@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { CitationFootnote } from "../components/CitationChip";
+import { coverageCounts } from "../data/coverage";
 import { citations, EXTRACT_DATE } from "../data/sources";
 
 const GOLD_IDS = [
@@ -15,11 +16,14 @@ const GOLD_IDS = [
   "tg-law-home-2026-27-cyberabad",
   "tg-law-home-2026-27-hod",
   "wb-demand68-2026-27",
+  "gj-home-2026-27",
+  "tn-demand22-2026-27",
 ];
 
 export function SourcesPage() {
   const gold = GOLD_IDS.map((id) => citations[id]).filter(Boolean);
   const index = Object.values(citations).filter((c) => c.id.startsWith("prs-"));
+  const cov = coverageCounts();
 
   return (
     <article className="max-w-2xl">
@@ -82,6 +86,38 @@ export function SourcesPage() {
       </section>
 
       <section className="mt-10">
+        <h2 className="font-display text-xl font-semibold tracking-tight">Coverage</h2>
+        <p className="mt-3 text-sm text-ink/75">
+          Counted from the jurisdiction registry — not hardcoded. {cov.gold} GOLD · {cov.index}{" "}
+          INDEX · {cov.blocked} BLOCKED · {cov.empty} EMPTY. Union Demand 51 is a Centre door, not
+          a state rank. We never sum GOLD + INDEX + Demand 51 into All-India Police.
+        </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="font-display text-xl font-semibold tracking-tight">Where the book stops</h2>
+        <ul className="mt-4 list-none space-y-3 p-0">
+          <li className="docket-slip text-ink/80">
+            Public Demand volumes print major heads, minor heads, object heads, and sometimes named
+            units (a commissionerate, a battalion). They almost never print “this police station
+            received ₹X.”
+          </li>
+          <li className="docket-slip text-ink/80">
+            Object 01 Salaries, when printed, is the last honest public destination for pay at that
+            grain. We do not then split it across named thanas.
+          </li>
+          <li className="docket-slip text-ink/80">
+            Named police-station rupees exist only if a government book prints that station as its
+            own line. Telangana Law+Home prints commissionerate HoD totals, not Bachupally PS.
+          </li>
+          <li className="docket-slip text-ink/80">
+            “All their bills” in public data usually means object-head and scheme lines, not vendor
+            invoices. We do not scrape private payroll.
+          </li>
+        </ul>
+      </section>
+
+      <section className="mt-10">
         <h2 className="font-display text-xl font-semibold tracking-tight">GOLD LIVE</h2>
         <ul className="mt-4 list-none space-y-3 p-0">
           <li className="docket-slip text-ink/80">
@@ -106,6 +142,14 @@ export function SourcesPage() {
             &amp; Hill Affairs. Kolkata/HQ salaries sit inside statewide object 01.
           </li>
           <li className="docket-slip text-ink/80">
+            <strong>Gujarat Police</strong> — Home Book 2026-27. Demand 043 is 2055 (₹9,055.62 cr BE
+            2026-27). 4055 (₹964.73 cr) is isolated from Demand 046. Not Home Department total.
+          </li>
+          <li className="docket-slip text-ink/80">
+            <strong>Tamil Nadu Police</strong> — Demand 22 Interim Budget 2026-27, thousands converted
+            to crore. Hero is 2055 + 4055 only. The voted Demand 22 total is mixed and quieter.
+          </li>
+          <li className="docket-slip text-ink/80">
             <strong>Union Demand 51 Police</strong> — Notes on Demands. Headline is the demand net
             total (₹1,73,802.53 cr BE 2026-27). Not all Indian police. Not summed into states.
           </li>
@@ -124,8 +168,8 @@ export function SourcesPage() {
             Actuals found; later years are percent of spend.
           </li>
           <li className="docket-slip text-ink/80">
-            <strong>Rajasthan / Tamil Nadu</strong> — INDEX only this pass. Unsafe desk-sums and
-            missing later-year Demand PDFs stay off the GOLD ledger.
+            <strong>Rajasthan</strong> — INDEX only this pass. Salary desk-sums stay off GOLD until a
+            clean page cite.
           </li>
           <li className="docket-slip text-ink/80">
             Karnataka and Gujarat object-head depth — GAP on disk. INDEX headline only.

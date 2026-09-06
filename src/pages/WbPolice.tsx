@@ -3,6 +3,8 @@ import { CitationFootnote } from "../components/CitationChip";
 import { HeadSplit } from "../components/HeadSplit";
 import { Money } from "../components/Money";
 import { pickAmount } from "../data/maharashtra-police";
+import { RankedHatch } from "../components/RankedHatch";
+import { TraceRail } from "../components/TraceRail";
 import {
   wb2055Gross,
   wb2055Net,
@@ -74,7 +76,29 @@ export function WbPolicePage() {
             </dd>
           </div>
         </dl>
+        <RankedHatch
+          compact
+          showAll
+          items={[wbSalariesDesk, wbArms, wbClothing]}
+          fiscalYear="2026-27"
+          series="be"
+          shareOf={run}
+          title="Typed object heads"
+          note="Share of 2055 net. Object 01 is a desk-sum. Remainder of 2055 is not fully typed. Kolkata/HQ salaries sit inside statewide 01."
+        />
       </section>
+      <TraceRail
+        stops={[
+          { id: "book", label: "Book", detail: "Demand 68 — 2055 / 4055 slices, not whole Home & Hill Affairs" },
+          { id: "major", label: "2055 net + 4055", money: hero },
+          { id: "object", label: "Object 01 salaries (desk-sum)", money: sal },
+          {
+            id: "station",
+            label: "Named police station",
+            empty: "108 Kolkata/HQ salaries sit inside statewide 01. The book does not print a station allotment.",
+          },
+        ]}
+      />
       <section className="mt-12 text-sm text-ink/70">
         <h2 className="font-display text-lg font-semibold text-ink">Footnotes</h2>
         <ol className="mt-3 max-w-2xl list-decimal space-y-4 pl-5">

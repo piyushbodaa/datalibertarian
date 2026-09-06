@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { CitationFootnote } from "../components/CitationChip";
 import { Money } from "../components/Money";
 import { pickAmount } from "../data/maharashtra-police";
+import { TraceRail } from "../components/TraceRail";
 import { tgArms220, tgCity4055, tgObject010 } from "../data/telangana/police";
 
 export function TgPolicePage() {
@@ -43,6 +44,19 @@ export function TgPolicePage() {
           </dd>
         </div>
       </dl>
+      <TraceRail
+        stops={[
+          { id: "book", label: "Book", detail: "Law+Home volume — Police object 010 desk-sum, not Demand X Home" },
+          { id: "object", label: "Object 010 (desk-sum)", money: hero },
+          { id: "unit", label: "Named commissionerate HoD", detail: "Separate GOLD doors. Not added into this statewide object." },
+          {
+            id: "station",
+            label: "Named police station",
+            empty: "Law+Home prints commissionerate HoD totals. Bachupally PS is EMPTY — we do not divide an HoD by N stations.",
+          },
+        ]}
+      />
+
       <p className="mt-8">
         <Link to="/telangana/commissionerates" className="file-cta">
           <span className="file-cta-notch" aria-hidden="true" />

@@ -2,9 +2,11 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import { SiteFrame } from "./components/SiteFrame";
 import { DelhiPolicePage } from "./pages/DelhiPolice";
 import { EmptyPolicePage } from "./pages/EmptyPolice";
+import { GjPolicePage } from "./pages/GjPolice";
 import { HomePage } from "./pages/Home";
 import { MunicipalPage } from "./pages/Municipal";
 import { PolicePage } from "./pages/Police";
+import { TnPolicePage } from "./pages/TnPolice";
 import { SourcesPage } from "./pages/Sources";
 import { StatesPage } from "./pages/States";
 import { TgCommissioneratePage } from "./pages/TgCommissionerate";
@@ -36,6 +38,8 @@ export default function App() {
         <Route path="/telangana/:cp/stations" element={<TgStationIndexPage />} />
         <Route path="/telangana/:cp" element={<TgCommissioneratePage />} />
         <Route path="/west-bengal/police" element={<WbPolicePage />} />
+        <Route path="/gujarat/police" element={<GjPolicePage />} />
+        <Route path="/tamil-nadu/police" element={<TnPolicePage />} />
         <Route path="/states/maharashtra/police" element={<Navigate to="/maharashtra/police" replace />} />
         <Route path="/:slug/police" element={<EmptyPolicePage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
