@@ -8,8 +8,8 @@ export function MunicipalPage() {
         Municipal Corporations
       </h1>
       <p className="mt-3 max-w-2xl text-ink">
-        Civic spend — water, roads, schools — is not police. Mumbai Police is in the Maharashtra
-        state books, not the corporation.
+        Civic PDFs not typed. City police sits in state books. Civic spend is not Police, and it is
+        not added into Union or Gram.
       </p>
 
       <section className="carbon-sheet mt-10 px-4 py-8 sm:px-6">

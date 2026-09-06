@@ -263,6 +263,34 @@ a:hover {
   border-left-color: var(--carbon);
 }
 
+.docket-door.layer-union {
+  border-left-color: var(--rust);
+}
+
+.docket-door.layer-state {
+  border-left-color: var(--carbon);
+}
+
+.docket-door.layer-municipal {
+  border-left-color: var(--ochre);
+}
+
+.docket-door.layer-gram {
+  border-left-color: var(--zinc);
+}
+
+.docket-door.bone {
+  background: var(--paper-shade);
+  border-left-style: dashed;
+}
+
+.layer-caption {
+  max-width: 35ch;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: var(--zinc);
+}
+
 .index-slip {
   background: var(--paper-shade);
   box-shadow: inset 0 0 0 1px var(--rule);

@@ -18,6 +18,7 @@ const GOLD_IDS = [
   "wb-demand68-2026-27",
   "gj-home-2026-27",
   "tn-demand22-2026-27",
+  "union-bag-2026-27",
 ];
 
 export function SourcesPage() {
@@ -86,6 +87,31 @@ export function SourcesPage() {
       </section>
 
       <section className="mt-10">
+        <h2 className="font-display text-xl font-semibold tracking-tight">Four layers, four books</h2>
+        <ul className="mt-4 list-none space-y-3 p-0">
+          <li className="docket-slip text-ink/80">
+            <strong>Union</strong> — Budget at a Glance total expenditure. Demand 51 is Police only,
+            a smaller inner ledger.
+          </li>
+          <li className="docket-slip text-ink/80">
+            <strong>State</strong> — one cited state book at a time (Maharashtra Pink Book total on
+            Home). Not the sum of 28 Pink Books.
+          </li>
+          <li className="docket-slip text-ink/80">
+            <strong>Municipal</strong> — civic PDFs. EMPTY until a corporation total is typed. City
+            police sits in state books.
+          </li>
+          <li className="docket-slip text-ink/80">
+            <strong>Gram</strong> — village / PRI books. EMPTY until an FC RLB grant or head 2515
+            line is typed. Not a station share and not a GP-count average.
+          </li>
+        </ul>
+        <p className="mt-3 text-sm text-ink/70">
+          These four are never added into one India-total on this site.
+        </p>
+      </section>
+
+      <section className="mt-10">
         <h2 className="font-display text-xl font-semibold tracking-tight">Coverage</h2>
         <p className="mt-3 text-sm text-ink/75">
           Counted from the jurisdiction registry — not hardcoded. {cov.gold} GOLD · {cov.index}{" "}
@@ -148,6 +174,10 @@ export function SourcesPage() {
           <li className="docket-slip text-ink/80">
             <strong>Tamil Nadu Police</strong> — Demand 22 Interim Budget 2026-27, thousands converted
             to crore. Hero is 2055 + 4055 only. The voted Demand 22 total is mixed and quieter.
+          </li>
+          <li className="docket-slip text-ink/80">
+            <strong>Union total expenditure</strong> — Budget at a Glance 2026-27, item 9. ₹53,47,315
+            cr BE 2026-27. Not Demand 51. Not the states.
           </li>
           <li className="docket-slip text-ink/80">
             <strong>Union Demand 51 Police</strong> — Notes on Demands. Headline is the demand net

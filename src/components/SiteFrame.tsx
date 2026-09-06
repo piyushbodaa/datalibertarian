@@ -18,7 +18,7 @@ export function SiteFrame({ children }: { children: ReactNode }) {
               Data Libertarian
             </span>
             <span className="mt-1 block text-[0.65rem] font-medium uppercase tracking-[0.16em] text-zinc sm:mt-0 sm:ml-3 sm:inline">
-              Union · States · Municipal
+              Union · State · Municipal · Gram
             </span>
           </NavLink>
           <nav className="flex flex-wrap gap-x-5 gap-y-2">
@@ -34,6 +34,9 @@ export function SiteFrame({ children }: { children: ReactNode }) {
             <NavLink to="/municipal" className={link}>
               Municipal
             </NavLink>
+            <NavLink to="/gram" className={link}>
+              Gram
+            </NavLink>
             <NavLink to="/sources" className={link}>
               Method
             </NavLink>
@@ -47,7 +50,7 @@ export function SiteFrame({ children }: { children: ReactNode }) {
       <footer className="mx-auto max-w-6xl border-t border-ink/15 px-4 py-6 text-xs text-ink/55 sm:px-6">
         <p>
           Figures extracted {EXTRACT_DATE} from official budget documents. Every number on this site
-          has a citation. Empty doors have no number. This is not an NGO tracker.
+          has a citation. Empty doors have no number. Not NGOs.
         </p>
         <p className="mt-1">
           <NavLink to="/sources">How the numbers were taken from the books</NavLink>

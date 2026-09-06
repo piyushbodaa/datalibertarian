@@ -6,17 +6,19 @@ import { CitationChip } from "./CitationChip";
 type Props = {
   police: Money;
   state: Money;
+  compact?: boolean;
 };
 
-export function ShareSplit({ police, state }: Props) {
+export function ShareSplit({ police, state, compact = false }: Props) {
   const share = (police.crore / state.crore) * 100;
   const rest = 100 - share;
 
   return (
-    <figure className="mt-8">
+    <figure className={compact ? "mt-4" : "mt-8"}>
       <ChartCaption title="Share of Maharashtra’s budgeted spending">
-        Police (2055 + 4055) against the state’s total expenditure in the same Budget column. Two
-        official books — do not mix them with Grant B-1.
+        {compact
+          ? "Same state, two printed objects, not India."
+          : "Police (2055 + 4055) against the state’s total expenditure in the same Budget column. Two official books — do not mix them with Grant B-1."}
         <CitationChip citationId={police.citationId} />
         <CitationChip citationId={state.citationId} />
       </ChartCaption>

@@ -16,6 +16,12 @@ import {
   demand51Revenue,
   mhaTotalBe2627,
 } from "./union/demand-51.ts";
+import {
+  unionCapitalExpenditure,
+  unionRevenueExpenditure,
+  unionTotalExpenditure,
+} from "./union/budget-at-a-glance.ts";
+import { LAYERS } from "./layers.ts";
 import { delhiEstInfra } from "./union/delhi-police.ts";
 import { apLastFound, INDEX_ROWS, indexPoliceLines } from "./prs-index/afs-police.ts";
 import { up2055Voted, up4055, upFunctional, upSalariesDesk, upUniforms } from "./uttar-pradesh/police.ts";
@@ -39,6 +45,9 @@ const allMoney = [
   ...demand51Capital.amounts,
   ...demand51Groups.flatMap((l) => l.amounts),
   mhaTotalBe2627,
+  ...unionTotalExpenditure.amounts,
+  ...unionRevenueExpenditure.amounts,
+  ...unionCapitalExpenditure.amounts,
   ...delhiEstInfra.amounts,
   ...indexPoliceLines.flatMap((l) => l.amounts),
   apLastFound.be2425,
@@ -104,6 +113,8 @@ describe("every figure has a living citation", () => {
     assert.ok(mh && d51);
     assert.equal(Math.round(mh.crore * 100) / 100, 33116.49);
     assert.equal(d51.crore, 173802.53);
+    const pink = stateTotalExpenditure.find((a) => a.fiscalYear === "2026-27" && a.series === "be");
+    assert.equal(pink?.crore, 769466.87);
   });
 
   it("keeps required GOLD and INDEX citations (does not freeze the old 5-key list)", () => {
@@ -122,6 +133,7 @@ describe("every figure has a living citation", () => {
       "wb-demand68-2026-27",
       "gj-home-2026-27",
       "tn-demand22-2026-27",
+      "union-bag-2026-27",
       "prs-andhra-pradesh",
     ]) {
       assert.ok(citations[id], `missing ${id}`);
@@ -290,5 +302,23 @@ describe("GOLD modules copy pack figures", () => {
     assert.equal(cap.rupees, 3_535_408_000);
     assert.ok(mixed.crore > hero.crore);
     assert.ok(!hero.citationId.startsWith("prs-"));
+  });
+
+  it("Union Budget at a Glance total is not Demand 51", () => {
+    const total = unionTotalExpenditure.amounts.find(
+      (a) => a.fiscalYear === "2026-27" && a.series === "be",
+    )!;
+    const rev = unionRevenueExpenditure.amounts.find(
+      (a) => a.fiscalYear === "2026-27" && a.series === "be",
+    )!;
+    const cap = unionCapitalExpenditure.amounts.find(
+      (a) => a.fiscalYear === "2026-27" && a.series === "be",
+    )!;
+    const d51 = demand51Net.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    assert.equal(total.crore, 5347315);
+    assert.equal(rev.crore + cap.crore, total.crore);
+    assert.ok(total.crore > d51.crore);
+    assert.equal(LAYERS.length, 4);
+    assert.ok(LAYERS.filter((l) => l.empty).length >= 2);
   });
 });

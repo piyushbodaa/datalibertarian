@@ -2,6 +2,7 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import { SiteFrame } from "./components/SiteFrame";
 import { DelhiPolicePage } from "./pages/DelhiPolice";
 import { EmptyPolicePage } from "./pages/EmptyPolice";
+import { GramPage } from "./pages/Gram";
 import { GjPolicePage } from "./pages/GjPolice";
 import { HomePage } from "./pages/Home";
 import { MunicipalPage } from "./pages/Municipal";
@@ -29,6 +30,7 @@ export default function App() {
         <Route path="/union/delhi-police" element={<DelhiPolicePage />} />
         <Route path="/states" element={<StatesPage />} />
         <Route path="/municipal" element={<MunicipalPage />} />
+        <Route path="/gram" element={<GramPage />} />
         <Route path="/sources" element={<SourcesPage />} />
         <Route path="/maharashtra/police" element={<PolicePage />} />
         <Route path="/uttar-pradesh/police" element={<UpPolicePage />} />

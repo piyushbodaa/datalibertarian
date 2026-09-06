@@ -10,6 +10,8 @@ type Props = {
   caption?: string;
   title?: string;
   compact?: boolean;
+  /** Horizontal bars only — no tall SVG. For the home poster. */
+  barsOnly?: boolean;
 };
 
 const SERIES_HATCH: Record<string, { fill: string; hatch: string; stroke: string }> = {
@@ -24,6 +26,7 @@ export function PrintedColumns({
   caption = "Each bar is Police running costs plus capital (2055 + 4055) as the White Book prints it. Actuals, Budget, and Revised are different kinds of figure — not one trend. Empty years are not filled in.",
   title = "Four columns as printed",
   compact = false,
+  barsOnly = false,
 }: Props) {
   const columns = BOOK_COLUMNS.map((col) => {
     const r = pickAmount(run, col.fiscalYear, col.series);
@@ -60,7 +63,7 @@ export function PrintedColumns({
         {citationId ? <CitationChip citationId={citationId} /> : null}
       </ChartCaption>
 
-      <ol className="max-w-3xl space-y-4 sm:hidden">
+      <ol className={barsOnly ? "max-w-3xl space-y-3" : "max-w-3xl space-y-4 sm:hidden"}>
         {columns.map((col) => {
           const hatch =
             col.series === "actual" ? "hatch-rust" : col.series === "re" ? "hatch-ochre" : "hatch-carbon";
@@ -88,7 +91,7 @@ export function PrintedColumns({
 
       <svg
         viewBox={`0 0 ${vbW} ${vbH}`}
-        className="hidden w-full max-w-3xl min-h-[300px] text-ink sm:block"
+        className={barsOnly ? "hidden" : "hidden w-full max-w-3xl min-h-[300px] text-ink sm:block"}
         role="img"
         aria-labelledby="printed-cols-title printed-cols-desc"
       >

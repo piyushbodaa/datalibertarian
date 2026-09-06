@@ -127,3 +127,17 @@ Units: **thousands**. Crore = thousands ÷ 10,000.
 | Budget 2026-27 | 353,54,08 | 353.5408 |
 
 Functional Police BE 2026-27 = 12,435.9957 + 353.5408 = **12,789.5365**. Demand 22 voted total 13,576.7223 is mixed — not the hero.
+
+## Union Budget at a Glance 2026-27
+
+Source: https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf
+Units: crore as printed. Item 9 Total Expenditure (10+13).
+
+| Series | Crore |
+|---|---|
+| Actuals 2024-25 | 46,52,867 |
+| Budget 2025-26 | 50,65,345 |
+| Revised 2025-26 | 49,64,842 |
+| Budget 2026-27 | 53,47,315 |
+
+Revenue + capital = total for each series. Not Demand 51. Not the sum of the states.

@@ -39,6 +39,19 @@ export const citations: Record<string, Citation> = {
     notes:
       "Used only for the state total against which Police share is shown. Direct PDF: BudgetBooksPDF1/2026-2027/Budget in Brief (Pink Book).pdf",
   },
+  "union-bag-2026-27": {
+    id: "union-bag-2026-27",
+    title: "Budget at a Glance 2026-2027",
+    publisher: "Ministry of Finance, Government of India",
+    fiscalYear: "2026-27",
+    url: "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf",
+    pages: "1–2 (prose); table p. 3, item 9 Total Expenditure (10+13)",
+    table: "9. Total Expenditure; 10. On Revenue Account; 13. On Capital Account",
+    accessedOn: EXTRACT_DATE,
+    short: "Budget at a Glance",
+    notes:
+      "Figures printed in crore of rupees. Union total expenditure is not Demand 51 Police, not the sum of the states, and not an India grand total of Union+State+Municipal+Gram.",
+  },
   "union-sbe51-2026-27": {
     id: "union-sbe51-2026-27",
     title: "Notes on Demands for Grants, 2026-2027 — Demand No. 51, Police",
