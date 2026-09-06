@@ -33,3 +33,11 @@ export function formatMoneyShort(m: Money): string {
 export function seriesYearLabel(m: Money): string {
   return `${SERIES_LABEL[m.series]} FY ${m.fiscalYear}`;
 }
+
+/** White Book print order — mixed series, not one trend. */
+export const BOOK_COLUMNS: { fiscalYear: string; series: Series }[] = [
+  { fiscalYear: "2024-25", series: "actual" },
+  { fiscalYear: "2025-26", series: "be" },
+  { fiscalYear: "2025-26", series: "re" },
+  { fiscalYear: "2026-27", series: "be" },
+];

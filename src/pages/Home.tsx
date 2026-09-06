@@ -1,4 +1,8 @@
 import { Link } from "react-router-dom";
+import { HeadSplit } from "../components/HeadSplit";
+import { Money } from "../components/Money";
+import { PrintedColumns } from "../components/PrintedColumns";
+import { RankedHatch } from "../components/RankedHatch";
 import {
   functionalPolice,
   HEADLINE_SERIES,
@@ -8,8 +12,6 @@ import {
   police2055Lines,
   police4055,
 } from "../data/maharashtra-police";
-import { Money } from "../components/Money";
-import { ShareStripe } from "../components/ShareStripe";
 import { SERIES_PLAIN } from "../lib/money";
 
 export function HomePage() {
@@ -20,18 +22,18 @@ export function HomePage() {
 
   return (
     <article>
-      <p className="m-0 text-[0.7rem] uppercase tracking-[0.22em] text-tyrian">Gazette ledger</p>
-      <h1 className="mt-3 max-w-3xl font-display text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
+      <p className="kicker">Maharashtra docket</p>
+      <h1 className="mt-2 max-w-3xl font-display text-[2.05rem] font-semibold leading-[1.12] tracking-tight sm:text-5xl">
         Government money is your money. The books are public. They are not readable.
       </h1>
-      <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink">
+      <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink sm:text-lg">
         Data Libertarian opens official government accounts so an ordinary person can see where a
         rupee was put. This is not a tracker of charities or NGOs. It is taxpayer money, as written
         in the state&rsquo;s own budget.
       </p>
 
-      <section className="mt-12 border-y border-ink/20 py-8">
-        <h2 className="font-display text-2xl font-semibold">Maharashtra Police spending</h2>
+      <section className="mt-8 border-y border-ink/20 py-6 sm:py-8">
+        <h2 className="font-display text-2xl font-semibold tracking-tight">Maharashtra Police spending</h2>
         <p className="mt-3 max-w-2xl text-ink/80">
           One state. One department of the books: Police. The number below is{" "}
           {SERIES_PLAIN[hero.series]} for FY {hero.fiscalYear} — running costs plus buildings and
@@ -40,31 +42,15 @@ export function HomePage() {
         <div className="mt-6">
           <Money money={hero} size="hero" showSeries />
         </div>
-        <dl className="mt-8 max-w-xl divide-y divide-ink/15 border-y border-ink/20 text-sm">
-          <div className="flex justify-between gap-4 py-2.5 pl-0">
-            <dt>of which running costs (2055)</dt>
-            <dd className="m-0">
-              <Money money={run} size="row" />
-            </dd>
-          </div>
-          <div className="flex justify-between gap-4 py-2.5">
-            <dt>of which capital (4055)</dt>
-            <dd className="m-0">
-              <Money money={cap} size="row" />
-            </dd>
-          </div>
-        </dl>
-        <ShareStripe
-          items={police2055Lines}
-          fiscalYear={HEADLINE_YEAR}
-          series={HEADLINE_SERIES}
-        />
+
+        <PrintedColumns run={police2055} cap={police4055} />
+        <HeadSplit run={run} cap={cap} />
+        <RankedHatch items={police2055Lines} fiscalYear={HEADLINE_YEAR} series={HEADLINE_SERIES} />
+
         <p className="mt-8">
-          <Link
-            to="/maharashtra/police"
-            className="inline-block border-b-2 border-tyrian pb-0.5 text-[0.8rem] font-semibold uppercase tracking-[0.16em] text-tyrian no-underline hover:border-ink hover:text-ink"
-          >
-            Open the full police ledger →
+          <Link to="/maharashtra/police" className="file-cta">
+            <span className="file-cta-notch" aria-hidden="true" />
+            Open the full police ledger
           </Link>
         </p>
       </section>

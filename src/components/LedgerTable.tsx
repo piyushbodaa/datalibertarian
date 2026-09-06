@@ -20,9 +20,9 @@ export function LedgerTable({ items, caption }: Props) {
     <div>
       <p className="mb-3 max-w-xl text-sm text-ink/70">{caption}</p>
       <div className="overflow-x-auto border border-ink/20 md:hidden">
-        <table className="w-full min-w-[22rem] border-collapse text-left text-[0.7rem]">
+        <table className="w-full min-w-[22rem] border-collapse text-left text-[0.72rem] leading-snug">
           <thead>
-            <tr className="border-b-2 border-tyrian">
+            <tr className="border-b-2 border-rust">
               <th className="px-2 py-2 font-sans">Line</th>
               {COLS.map((c) => (
                 <th key={`m-${c.fiscalYear}-${c.series}`} className="px-1 py-2 text-right font-sans font-semibold">
@@ -59,12 +59,12 @@ export function LedgerTable({ items, caption }: Props) {
       <div className="hidden overflow-x-auto border border-ink/20 md:block">
         <table className="w-full min-w-[44rem] border-collapse text-left text-sm">
           <thead>
-            <tr className="border-b-2 border-tyrian bg-ink/[0.03]">
+            <tr className="border-b-2 border-rust bg-ink/[0.03]">
               <th className="sticky left-0 bg-paper px-3 py-2 font-sans font-semibold">Line</th>
               {COLS.map((c) => (
                 <th
                   key={`${c.fiscalYear}-${c.series}`}
-                  className={`px-3 py-2 text-right font-sans font-semibold ${c.fiscalYear === "2026-27" ? "bg-khaki/20" : ""}`}
+                  className={`px-3 py-2 text-right font-sans font-semibold ${c.fiscalYear === "2026-27" ? "bg-ochre/15" : ""}`}
                 >
                   <span className="block">{SERIES_LABEL[c.series]}</span>
                   <span className="block text-[0.7rem] font-normal uppercase tracking-wide text-ink/55">
@@ -77,7 +77,7 @@ export function LedgerTable({ items, caption }: Props) {
           <tbody>
             {items.map((item) => (
               <tr key={item.id} className="border-b border-ink/15">
-                <th className="sticky left-0 bg-inherit px-3 py-2 font-sans font-normal">
+                <th className="sticky left-0 bg-paper px-3 py-2 font-sans font-normal">
                   <span className="block">{item.plainLabel}</span>
                   <span className="block text-[0.7rem] uppercase tracking-wide text-ink/50">
                     {item.officialName}
@@ -88,7 +88,7 @@ export function LedgerTable({ items, caption }: Props) {
                   return (
                     <td
                       key={`${item.id}-${c.fiscalYear}-${c.series}`}
-                      className={`px-3 py-2 text-right ${c.fiscalYear === "2026-27" ? "bg-khaki/15" : ""}`}
+                      className={`px-3 py-2 text-right ${c.fiscalYear === "2026-27" ? "bg-ochre/10" : ""}`}
                     >
                       {m ? (
                         <>

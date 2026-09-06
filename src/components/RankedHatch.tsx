@@ -1,6 +1,7 @@
 import type { LineItem, Series } from "../data/maharashtra-police";
 import { pickAmount } from "../data/maharashtra-police";
 import { formatMoneyShort } from "../lib/money";
+import { ChartCaption } from "./ChartCaption";
 import { CitationChip } from "./CitationChip";
 
 type Props = {
@@ -9,7 +10,7 @@ type Props = {
   series: Series;
 };
 
-export function ShareStripe({ items, fiscalYear, series }: Props) {
+export function RankedHatch({ items, fiscalYear, series }: Props) {
   const rows = items
     .map((item) => {
       const amount = pickAmount(item, fiscalYear, series);
@@ -30,7 +31,7 @@ export function ShareStripe({ items, fiscalYear, series }: Props) {
       id: r.item.id,
       label: r.item.plainLabel,
       crore: r.amount.crore,
-      money: r.amount,
+      citationId: r.amount.citationId,
     })),
   ];
   if (otherSum > 0) {
@@ -38,20 +39,20 @@ export function ShareStripe({ items, fiscalYear, series }: Props) {
       id: "other",
       label: `Other heads (${other.length} lines)`,
       crore: otherSum,
-      money: { ...rows[0].amount, crore: otherSum, rupees: Math.round(otherSum * 10_000_000) },
+      citationId,
     });
   }
 
+  const seriesWord = series === "be" ? "budget" : series === "re" ? "revised" : "actuals";
+
   return (
-    <section className="mt-10">
-      <h2 className="font-display text-xl font-semibold">Where the police rupee sits</h2>
-      <p className="mt-1 max-w-2xl text-sm text-ink/70">
+    <figure className="mt-10">
+      <ChartCaption title="Where the police rupee sits">
         Ranked against the largest line (district police). Running costs only (head 2055, voted),{" "}
-        {fiscalYear} {series === "be" ? "budget" : series === "re" ? "revised" : "actuals"}. Same
-        document, same year.
+        {fiscalYear} {seriesWord}. Same document, same year. Lines under 2% are grouped as other.
         <CitationChip citationId={citationId} />
-      </p>
-      <ol className="mt-5 space-y-3">
+      </ChartCaption>
+      <ol className="mt-2 space-y-3.5">
         {display.map((r) => {
           const pct = (r.crore / total) * 100;
           const width = (r.crore / max) * 100;
@@ -60,16 +61,24 @@ export function ShareStripe({ items, fiscalYear, series }: Props) {
               <div className="flex items-baseline justify-between gap-3 text-sm">
                 <span className="min-w-0">{r.label}</span>
                 <span className="num shrink-0 text-ink/80">
-                  {pct.toFixed(1)}% · {formatMoneyShort(r.money)}
+                  {pct.toFixed(1)}% · {formatMoneyShort({ ...rows[0].amount, crore: r.crore, rupees: Math.round(r.crore * 10_000_000) })}
+                  <CitationChip citationId={r.citationId} compact />
                 </span>
               </div>
-              <div className="mt-1 h-px w-full bg-ink/15">
-                <div className="h-px bg-tyrian" style={{ width: `${width}%` }} />
+              <div
+                className="mt-1.5 h-5 w-full bg-ink/[0.05]"
+                role="img"
+                aria-label={`${r.label}, ${pct.toFixed(1)} percent, ₹${r.crore.toFixed(2)} crore`}
+              >
+                <div
+                  className="hatch-carbon h-5 border border-carbon/50"
+                  style={{ width: `${width}%` }}
+                />
               </div>
             </li>
           );
         })}
       </ol>
-    </section>
+    </figure>
   );
 }

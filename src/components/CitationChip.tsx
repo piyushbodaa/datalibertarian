@@ -17,7 +17,7 @@ export function CitationChip({ citationId, compact }: Props) {
   return (
     <a
       href={`#cite-${c.id}`}
-      className="citation-chip ml-1 inline-flex items-baseline gap-1 align-super text-[0.65rem] font-semibold uppercase tracking-[0.12em] text-tyrian no-underline hover:text-stamp"
+      className="citation-chip ml-1 inline-flex items-baseline gap-0.5 align-super text-[0.62rem] font-semibold uppercase tracking-[0.1em] text-rust no-underline hover:text-ochre"
       title={`${c.title}${c.pages ? ` — p. ${c.pages}` : ""}`}
     >
       <span aria-hidden="true">†</span>

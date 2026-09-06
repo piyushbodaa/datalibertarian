@@ -3,13 +3,29 @@
 @tailwind utilities;
 
 :root {
-  --paper: #f3ede1;
-  --ink: #1c1915;
-  --tyrian: #8e1d32;
-  --khaki: #c6b48a;
-  --slate: #3e6a68;
-  --stamp: #b05a2a;
-  --rule: rgb(28 25 21 / 0.14);
+  --paper: #e7e3d8;
+  --ink: #161816;
+  --carbon: #3a403c;
+  --rust: #a33a22;
+  --ochre: #b8893a;
+  --zinc: #4e6460;
+  --rule: rgb(22 24 22 / 0.16);
+  --grid: rgb(22 24 22 / 0.045);
+  --paper-shade: #ddd8cb;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #161816;
+    --ink: #e7e3d8;
+    --carbon: #c5cbc6;
+    --rust: #d56a4c;
+    --ochre: #d4a24a;
+    --zinc: #8aa8a3;
+    --rule: rgb(231 227 216 / 0.16);
+    --grid: rgb(231 227 216 / 0.05);
+    --paper-shade: #1f2220;
+  }
 }
 
 html {
@@ -21,35 +37,175 @@ body {
   min-height: 100vh;
   color: var(--ink);
   background-color: var(--paper);
-  background-image: radial-gradient(rgb(198 180 138 / 0.22) 0.6px, transparent 0.7px);
-  background-size: 7px 7px;
-  font-family: "Source Sans 3", system-ui, sans-serif;
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 24px 24px;
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
   font-feature-settings: "kern" 1, "liga" 1;
 }
 
 ::selection {
-  background: rgb(142 29 50 / 0.18);
+  background: rgb(163 58 34 / 0.18);
 }
 
 a {
-  color: var(--slate);
+  color: var(--zinc);
 }
 
 a:hover {
-  color: var(--stamp);
-}
-
-.masthead-rule {
-  height: 3px;
-  background: var(--tyrian);
-}
-
-.hairline {
-  border-color: var(--rule);
+  color: var(--rust);
 }
 
 .num {
   font-family: "IBM Plex Mono", ui-monospace, monospace;
   font-variant-numeric: tabular-nums;
   letter-spacing: -0.02em;
+}
+
+.kicker {
+  margin: 0;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--rust);
+}
+
+.docket-spine {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 40;
+  width: 6px;
+  height: 100%;
+  background: var(--rust);
+}
+
+@media (min-width: 640px) {
+  .docket-spine {
+    width: 10px;
+  }
+}
+
+.docket-root {
+  padding-left: 6px;
+}
+
+@media (min-width: 640px) {
+  .docket-root {
+    padding-left: 10px;
+  }
+}
+
+.file-tab {
+  width: 4.25rem;
+  height: 10px;
+  margin-bottom: -1px;
+  background: var(--ochre);
+  clip-path: polygon(0 0, 82% 0, 100% 100%, 0 100%);
+}
+
+.citation-chip {
+  position: relative;
+  padding-left: 0.55rem;
+}
+
+.citation-chip::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.2em;
+  width: 0.28rem;
+  height: 0.55em;
+  background: var(--rust);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 40% 52%);
+}
+
+.file-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  border-bottom: 2px solid var(--rust);
+  padding-bottom: 0.15rem;
+  color: var(--rust);
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.file-cta:hover {
+  color: var(--ink);
+  border-color: var(--ink);
+}
+
+.file-cta-notch {
+  width: 0.55rem;
+  height: 1rem;
+  background: var(--ochre);
+  clip-path: polygon(0 0, 100% 18%, 100% 82%, 0 100%);
+}
+
+.carbon-sheet {
+  background: var(--paper-shade);
+  box-shadow: inset 0 0 0 1px var(--rule);
+  border-left: 3px solid var(--rust);
+}
+
+.hatch-carbon {
+  background-color: rgb(58 64 60 / 0.2);
+  background-image: repeating-linear-gradient(
+    -45deg,
+    var(--carbon) 0 2px,
+    transparent 2px 6px
+  );
+}
+
+.hatch-ochre {
+  background-color: rgb(184 137 58 / 0.28);
+  background-image: repeating-linear-gradient(
+    45deg,
+    var(--ochre) 0 2px,
+    transparent 2px 6px
+  );
+}
+
+.hatch-rust {
+  background-color: rgb(163 58 34 / 0.28);
+  background-image: repeating-linear-gradient(
+    90deg,
+    var(--rust) 0 2px,
+    transparent 2px 5px
+  );
+}
+
+.hatch-zinc {
+  background-color: rgb(78 100 96 / 0.1);
+  background-image: repeating-linear-gradient(
+    -45deg,
+    var(--zinc) 0 1px,
+    transparent 1px 6px
+  );
+}
+
+@media (prefers-color-scheme: dark) {
+  .hatch-carbon {
+    background-color: rgb(197 203 198 / 0.14);
+  }
+  .hatch-ochre {
+    background-color: rgb(212 162 74 / 0.18);
+  }
+  .hatch-rust {
+    background-color: rgb(213 106 76 / 0.16);
+  }
+  .hatch-zinc {
+    background-color: rgb(138 168 163 / 0.1);
+  }
+}
+
+.docket-slip {
+  border-left: 2px solid var(--rust);
+  padding-left: 1rem;
 }
