@@ -10,6 +10,7 @@ import { GjPolicePage } from "./pages/GjPolice";
 import { KaPolicePage } from "./pages/KaPolice";
 import { KlPolicePage } from "./pages/KlPolice";
 import { OdPolicePage } from "./pages/OdPolice";
+import { ApPolicePage } from "./pages/ApPolice";
 import { HomePage } from "./pages/Home";
 import { MunicipalPage } from "./pages/Municipal";
 import { PolicePage } from "./pages/Police";
@@ -55,6 +56,7 @@ export default function App() {
         <Route path="/karnataka/police" element={<KaPolicePage />} />
         <Route path="/kerala/police" element={<KlPolicePage />} />
         <Route path="/odisha/police" element={<OdPolicePage />} />
+        <Route path="/andhra-pradesh/police" element={<ApPolicePage />} />
         <Route path="/states/maharashtra/police" element={<Navigate to="/maharashtra/police" replace />} />
         <Route path="/:slug/police" element={<EmptyPolicePage />} />
         <Route path="*" element={<Navigate to="/" replace />} />

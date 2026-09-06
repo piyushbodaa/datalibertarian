@@ -92,8 +92,8 @@ describe("desk-median of GOLD compare peers", () => {
       assert.ok(!p.money.citationId.startsWith("prs-"));
     }
     assert.ok(peers.some((p) => p.slug === "karnataka"));
+    assert.ok(peers.some((p) => p.slug === "andhra-pradesh"));
     assert.ok(!peers.some((p) => p.slug === "rajasthan"));
-    assert.ok(!peers.some((p) => p.slug === "andhra-pradesh"));
     const ka = resolveSide("karnataka");
     assert.equal(ka?.tier, "gold");
   });

@@ -231,6 +231,33 @@ export const citations: Record<string, Citation> = {
     notes:
       "Accounts 2024-25 printed in rupees. Budget / Revised / next Budget printed in thousands of rupees (crore = thousands ÷ 10,000). Hero is 2055 + 4055 only. Demand XII also prints 2062 Vigilance — that is not Police. Demand XII detailed volume URL was not found this pass.",
   },
+  "ap-afs-2026-27": {
+    id: "ap-afs-2026-27",
+    title:
+      "Annual Financial Statement & Explanatory Memorandum on Budget 2026-27 — Statements D and E (2055 / 4055)",
+    publisher: "Finance Department, Government of Andhra Pradesh",
+    fiscalYear: "2026-27",
+    url: "https://apfinance.gov.in/...Bud@et26-27/documents/Volume-I-1.pdf",
+    pages: "Statement D printed p. 15 (2055 Police); Statement E printed p. 22 (4055 Capital Outlay on Police)",
+    table: "2055 Police; 4055 Capital Outlay on Police — statewide, not one Head of Department",
+    accessedOn: "2026-09-07",
+    short: "Andhra Pradesh budget",
+    notes:
+      "Figures printed in lakhs of rupees (e.g. 8272,23.46). Converted to crore by stripping commas and dividing by 100. Hero is 2055 + 4055. Jails 2056 is not Police. DG&IG Police Total 2055 in Volume-III-3 is one HoD, not the statewide line. Official budget.html href uses the path ...Bud@et26-27.",
+  },
+  "ap-vol3-3-2026-27": {
+    id: "ap-vol3-3-2026-27",
+    title: "Detailed Estimates of Expenditure 2026-27 — Volume-III/3, Law Department & Home Department",
+    publisher: "Finance Department, Government of Andhra Pradesh",
+    fiscalYear: "2026-27",
+    url: "https://apfinance.gov.in/...Bud@et26-27/documents/Volume-III-3.pdf",
+    pages: "Demand X Home summary printed p. 54 (net voted total)",
+    table: "Demand X Home Administration — mixed (jails, fire, printing, home guards, prosecutions)",
+    accessedOn: "2026-09-07",
+    short: "Andhra Pradesh Home demand",
+    notes:
+      "Rupees in lakhs. Demand X net voted BE 2026-27 9164,94.68 is not Police. Used only as the quieter Home-grant figure.",
+  },
   "od-d01-2026-27": {
     id: "od-d01-2026-27",
     title: "Demand for Grants 2026-2027 — Demand No. 01 Home Department",

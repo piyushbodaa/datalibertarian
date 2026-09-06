@@ -36,6 +36,7 @@ import { tn2055, tn4055, tnDemand22Voted, tnFunctional } from "./tamil-nadu/poli
 import { ka109, ka2055, ka4055, kaDemand05Home, kaFunctional } from "./karnataka/police.ts";
 import { kl2055, kl4055, klFunctional } from "./kerala/police.ts";
 import { od2055, odDemand01, odFunctional } from "./odisha/police.ts";
+import { ap2055, ap4055, apDemandX, apFunctional } from "./andhra-pradesh/police.ts";
 import { jurisdictions } from "./states.ts";
 
 const allMoney = [
@@ -93,6 +94,10 @@ const allMoney = [
   ...od2055.amounts,
   ...odFunctional.amounts,
   ...odDemand01.amounts,
+  ...ap2055.amounts,
+  ...ap4055.amounts,
+  ...apFunctional.amounts,
+  ...apDemandX.amounts,
 ];
 
 describe("every figure has a living citation", () => {
@@ -153,6 +158,8 @@ describe("every figure has a living citation", () => {
       "ka-expvol1-2026-27",
       "kl-afs-2026-27",
       "od-d01-2026-27",
+      "ap-afs-2026-27",
+      "ap-vol3-3-2026-27",
       "union-bag-2026-27",
       "union-rec-annex9-2026-27",
       "desk-median",
@@ -297,8 +304,8 @@ describe("GOLD modules copy pack figures", () => {
     assert.equal(jurisdictions.find((j) => j.slug === "karnataka")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "kerala")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "odisha")?.tier, "gold");
+    assert.equal(jurisdictions.find((j) => j.slug === "andhra-pradesh")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "rajasthan")?.tier, "index");
-    assert.equal(jurisdictions.find((j) => j.slug === "andhra-pradesh")?.tier, "blocked");
     assert.equal(jurisdictions.find((j) => j.slug === "delhi")?.tier, "empty");
     assert.equal(apLastFound.be2425.crore, 7874);
     assert.equal(apLastFound.actual2425.crore, 7695);
@@ -344,6 +351,22 @@ describe("GOLD modules copy pack figures", () => {
     assert.equal(actual.rupees, 45_097_484_486);
     assert.ok(!hero.citationId.startsWith("prs-"));
     assert.notEqual(Math.round(hero.crore), 5098);
+  });
+
+  it("Andhra Pradesh AFS isolates statewide 2055+4055, not one HoD, not Demand X", () => {
+    const run = ap2055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const cap = ap4055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const hero = apFunctional.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const mixed = apDemandX.amounts[0];
+    const actual = ap2055.amounts.find((a) => a.fiscalYear === "2024-25" && a.series === "actual")!;
+    assert.equal(run.rupees, 82_722_346_000);
+    assert.equal(cap.rupees, 2_948_591_000);
+    assert.equal(hero.rupees, run.rupees + cap.rupees);
+    assert.equal(actual.rupees, 75_115_868_000);
+    assert.ok(mixed.crore > hero.crore);
+    assert.ok(!hero.citationId.startsWith("prs-"));
+    assert.notEqual(Math.round(hero.crore), 7874);
+    assert.notEqual(Math.round(run.crore), 5557);
   });
 
   it("Odisha Demand 01 isolates 2055; 4055 is not a major head", () => {

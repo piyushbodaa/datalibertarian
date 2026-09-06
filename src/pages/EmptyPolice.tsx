@@ -1,7 +1,7 @@
 import { Link, Navigate, useParams } from "react-router-dom";
 import { CitationFootnote } from "../components/CitationChip";
 import { Money } from "../components/Money";
-import { apLastFound, getIndexLine } from "../data/prs-index/afs-police";
+import { getIndexLine } from "../data/prs-index/afs-police";
 import { getJurisdiction, tierLabel } from "../data/states";
 
 export function EmptyPolicePage() {
@@ -46,7 +46,6 @@ export function EmptyPolicePage() {
   }
 
   if (j.tier === "blocked") {
-    const ap = j.slug === "andhra-pradesh";
     return (
       <article>
         <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">
@@ -55,30 +54,9 @@ export function EmptyPolicePage() {
         <section className="carbon-sheet mt-8 px-4 py-6 sm:px-6">
           <h2 className="mt-2 font-display text-xl font-semibold">{tierLabel(j.tier)}</h2>
           <p className="mt-3 max-w-2xl text-sm text-ink/75">{j.blockReason}</p>
-          {ap ? (
-            <dl className="mt-5 max-w-xl divide-y divide-ink/15 border-y border-ink/20 text-sm">
-              <div className="flex justify-between gap-4 py-2.5">
-                <dt>Last found · 2024-25 plan</dt>
-                <dd>
-                  <Money money={apLastFound.be2425} size="row" />
-                </dd>
-              </div>
-              <div className="flex justify-between gap-4 py-2.5">
-                <dt>Last found · spent 2024-25</dt>
-                <dd>
-                  <Money money={apLastFound.actual2425} size="row" />
-                </dd>
-              </div>
-            </dl>
-          ) : null}
         </section>
         <section className="mt-10 text-sm text-ink/70">
           <h2 className="font-display text-lg font-semibold text-ink">Footnotes</h2>
-          {ap ? (
-            <ol className="mt-3 max-w-2xl list-decimal space-y-4 pl-5">
-              <CitationFootnote citationId={apLastFound.be2425.citationId} />
-            </ol>
-          ) : null}
           <p className="mt-6">
             <Link to="/states">All states</Link>
             {" · "}

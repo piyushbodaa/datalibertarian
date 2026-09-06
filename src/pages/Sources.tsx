@@ -21,6 +21,8 @@ const GOLD_IDS = [
   "ka-expvol1-2026-27",
   "kl-afs-2026-27",
   "od-d01-2026-27",
+  "ap-afs-2026-27",
+  "ap-vol3-3-2026-27",
   "union-bag-2026-27",
   "union-rec-annex9-2026-27",
 ];

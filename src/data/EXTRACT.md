@@ -240,3 +240,30 @@ Units: crore as printed. Union (Centre) stock only — not state debt.
 | Budget 2026-27 | 31 March 2027 | 2,14,82,050 |
 
 External debt at historical rate of exchange, as printed. Not a live ticker.
+
+## Andhra Pradesh — AFS 2026-27
+
+Source: https://apfinance.gov.in/...Bud@et26-27/documents/Volume-I-1.pdf
+Printed unit: **lakhs**. Crore = (commas stripped) ÷ 100.
+
+### 2055 Police — Statement D printed p. 15
+
+| Series | Printed (lakhs) | Crore |
+|---|---|---|
+| Actuals 2024-25 | 7511,58.68 | 7,511.5868 |
+| Budget 2025-26 | 7699,57.71 | 7,699.5771 |
+| Revised 2025-26 | 7717,51.77 | 7,717.5177 |
+| Budget 2026-27 | 8272,23.46 | 8,272.2346 |
+
+### 4055 Capital Outlay on Police — Statement E printed p. 22
+
+| Series | Printed (lakhs) | Crore |
+|---|---|---|
+| Actuals 2024-25 | 183,20.71 | 183.2071 |
+| Budget 2025-26 | 195,63.99 | 195.6399 |
+| Revised 2025-26 | 235,29.75 | 235.2975 |
+| Budget 2026-27 | 294,85.91 | 294.8591 |
+
+Functional Police BE 2026-27 = 8,567.0937 crore. Jails 2056 is not Police. DG&IG Total 2055 in Volume-III-3 is one HoD, not this statewide line.
+
+Demand X Home net voted BE 2026-27 9164,94.68 lakhs (₹9,164.9468 cr) from Volume-III-3 printed p. 54 is mixed. PRS 2024-25 ₹7,874 / ₹7,695 stays warehouse only.

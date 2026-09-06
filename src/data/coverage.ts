@@ -18,9 +18,9 @@ export type SearchLog = {
 /** Per-slug search log for INDEX / EMPTY / BLOCKED doors. */
 export const searchLogs: Record<string, SearchLog> = {
   "andhra-pradesh": {
-    lastDocument: "PRS AFS Police functional — 2024-25 BE/Actuals only; later years percent of spend",
-    urlTried: "https://prsindia.org/budgets/states/andhra-pradesh-budget-analysis-2026-27",
-    nextSearch: "apfinance.gov.in Home detailed volume — isolate 2055 + 4055, not percent of spend",
+    lastDocument: "AFS 2026-27 Statement D 2055 + Statement E 4055 GOLD (Volume-III-3 Demand X is mixed)",
+    urlTried: "https://apfinance.gov.in/...Bud@et26-27/documents/Volume-I-1.pdf",
+    nextSearch: "GOLD — statewide object-head salaries योग if a printed total appears",
   },
   gujarat: {
     lastDocument: "Home Department Budget Estimates 2026-27, Demand 043 Police + 4055 line",

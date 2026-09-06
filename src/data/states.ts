@@ -14,14 +14,7 @@ export type Jurisdiction = {
 };
 
 export const jurisdictions: Jurisdiction[] = [
-  {
-    slug: "andhra-pradesh",
-    name: "Andhra Pradesh",
-    kind: "state",
-    tier: "blocked",
-    blockReason:
-      "Only 2024-25 BE ₹7,874 cr and Actuals ₹7,695 cr found. Later years are percent of spend — we do not convert percent to rupees.",
-  },
+  { slug: "andhra-pradesh", name: "Andhra Pradesh", kind: "state", tier: "gold" },
   { slug: "arunachal-pradesh", name: "Arunachal Pradesh", kind: "state", tier: "index" },
   { slug: "assam", name: "Assam", kind: "state", tier: "index" },
   { slug: "bihar", name: "Bihar", kind: "state", tier: "index" },
