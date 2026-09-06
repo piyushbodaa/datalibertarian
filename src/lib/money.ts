@@ -1,0 +1,35 @@
+import type { Money, Series } from "../data/maharashtra-police";
+
+export const SERIES_LABEL: Record<Series, string> = {
+  actual: "Actuals",
+  be: "Budget",
+  re: "Revised",
+};
+
+export const SERIES_PLAIN: Record<Series, string> = {
+  actual: "what was booked in the books",
+  be: "the plan voted at the start of the year",
+  re: "the mid-year revision of the plan",
+};
+
+export function formatCrore(crore: number): string {
+  const rounded = Math.round(crore * 100) / 100;
+  const [int, frac] = rounded.toFixed(2).split(".");
+  return `${Number(int).toLocaleString("en-IN")}.${frac}`;
+}
+
+export function formatRupeeLine(m: Money): string {
+  return `₹${m.rupees.toLocaleString("en-IN")}`;
+}
+
+export function formatMoneyShort(m: Money): string {
+  if (m.crore > 0 && m.crore < 1) {
+    const lakh = Math.round(m.crore * 10000) / 100;
+    return `₹${lakh.toLocaleString("en-IN")} lakh`;
+  }
+  return `₹${formatCrore(m.crore)} crore`;
+}
+
+export function seriesYearLabel(m: Money): string {
+  return `${SERIES_LABEL[m.series]} FY ${m.fiscalYear}`;
+}

@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: #f3ede1;
+  --ink: #1c1915;
+  --tyrian: #8e1d32;
+  --khaki: #c6b48a;
+  --slate: #3e6a68;
+  --stamp: #b05a2a;
+  --rule: rgb(28 25 21 / 0.14);
+}
+
+html {
+  background: var(--paper);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--ink);
+  background-color: var(--paper);
+  background-image: radial-gradient(rgb(198 180 138 / 0.22) 0.6px, transparent 0.7px);
+  background-size: 7px 7px;
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+::selection {
+  background: rgb(142 29 50 / 0.18);
+}
+
+a {
+  color: var(--slate);
+}
+
+a:hover {
+  color: var(--stamp);
+}
+
+.masthead-rule {
+  height: 3px;
+  background: var(--tyrian);
+}
+
+.hairline {
+  border-color: var(--rule);
+}
+
+.num {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
