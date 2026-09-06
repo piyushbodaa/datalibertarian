@@ -48,9 +48,10 @@ export const searchLogs: Record<string, SearchLog> = {
     nextSearch: "Isolate a Police line under 4059/4216 if one is printed",
   },
   rajasthan: {
-    lastDocument: "Volume pages not tied. Salary desk-sums unsafe without page.",
-    urlTried: "https://finance.rajasthan.gov.in/website/StateBudget2627.aspx",
-    nextSearch: "Vol 2b / 3a — 2055 printed total with page; do not ship unsafe desk-sum",
+    lastDocument:
+      "Opened Vol1.pdf and Vol2b.pdf on 2026-09-07. OCR of Hindi major-head pages is not a clean 2055 total with a tied page. Budget at a Glance 'Police Department ₹556.16 cr' is a speech slice, not 2055. Left INDEX.",
+    urlTried: "https://finance.rajasthan.gov.in/docs/budget/statebudget/2026-2027/Vol2b.pdf",
+    nextSearch: "Vol2b 2055 वृहद योग with printed page; Vol3a 4055. Do not use ₹556.16 cr glance slice.",
   },
   punjab: {
     lastDocument: "Not typed",

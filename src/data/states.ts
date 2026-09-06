@@ -47,7 +47,7 @@ export const jurisdictions: Jurisdiction[] = [
     kind: "state",
     tier: "index",
     indexNote:
-      "We have not typed a clean salaries page from the official book yet.",
+      "We opened the 2026-27 general-services volume. A clean police total with a page number is still needed before we put an official figure here.",
   },
   { slug: "sikkim", name: "Sikkim", kind: "state", tier: "index" },
   { slug: "tamil-nadu", name: "Tamil Nadu", kind: "state", tier: "gold" },
