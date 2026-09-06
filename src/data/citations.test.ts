@@ -22,6 +22,7 @@ import {
   unionTotalExpenditure,
 } from "./union/budget-at-a-glance.ts";
 import { LAYERS } from "./layers.ts";
+import { compareRows, intersectYears, resolveSide } from "./compare/resolve.ts";
 import { delhiEstInfra } from "./union/delhi-police.ts";
 import { apLastFound, INDEX_ROWS, indexPoliceLines } from "./prs-index/afs-police.ts";
 import { up2055Voted, up4055, upFunctional, upSalariesDesk, upUniforms } from "./uttar-pradesh/police.ts";
@@ -320,5 +321,29 @@ describe("GOLD modules copy pack figures", () => {
     assert.ok(total.crore > d51.crore);
     assert.equal(LAYERS.length, 4);
     assert.ok(LAYERS.filter((l) => l.empty).length >= 2);
+  });
+
+  it("compare resolver uses cited GOLD only", () => {
+    const mh = resolveSide("maharashtra")!;
+    const up = resolveSide("uttar-pradesh")!;
+    const ka = resolveSide("karnataka")!;
+    assert.equal(mh.tier, "gold");
+    assert.equal(up.tier, "gold");
+    assert.equal(ka.tier, "index");
+    assert.equal(Object.keys(ka.bag).length, 0);
+    const rows = compareRows(mh, up, "2026-27", "be");
+    const functional = rows.find((r) => r.field.id === "police-functional")!;
+    assert.ok(functional.left && functional.right);
+    assert.ok(!functional.left.citationId.startsWith("prs-"));
+    assert.ok(!functional.right.citationId.startsWith("prs-"));
+    const run = rows.find((r) => r.field.id === "2055")!;
+    assert.ok(run.left && run.right);
+    const salaries = rows.find((r) => r.field.id === "obj-01");
+    assert.ok(salaries?.right);
+    assert.equal(salaries?.left, undefined);
+    const years = intersectYears(mh, up);
+    assert.ok(years.some((y) => y.fiscalYear === "2026-27" && y.series === "be"));
+    const civic = resolveSide("municipal")!;
+    assert.equal(civic.tier, "empty");
   });
 });

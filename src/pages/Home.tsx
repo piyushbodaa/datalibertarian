@@ -128,7 +128,18 @@ export function HomePage() {
         </section>
       </div>
 
-      <ul className="mt-10 flex flex-wrap gap-2" aria-label="GOLD police ledgers">
+      <p className="mt-8 flex flex-wrap gap-6">
+        <Link to="/compare?left=maharashtra&right=uttar-pradesh" className="file-cta">
+          <span className="file-cta-notch" aria-hidden="true" />
+          Compare two books
+        </Link>
+        <Link to="/search" className="file-cta">
+          <span className="file-cta-notch" aria-hidden="true" />
+          Search the typed heads
+        </Link>
+      </p>
+
+      <ul className="mt-8 flex flex-wrap gap-2" aria-label="GOLD police ledgers">
         <li>
           <Link to="/maharashtra/police" className="live-tag no-underline text-ink">
             Maharashtra · GOLD

@@ -25,6 +25,12 @@ export function SiteFrame({ children }: { children: ReactNode }) {
             <NavLink to="/" className={link} end>
               Home
             </NavLink>
+            <NavLink to="/compare" className={link}>
+              Compare
+            </NavLink>
+            <NavLink to="/search" className={link}>
+              Search
+            </NavLink>
             <NavLink to="/union" className={link}>
               Union
             </NavLink>
@@ -50,7 +56,7 @@ export function SiteFrame({ children }: { children: ReactNode }) {
       <footer className="mx-auto max-w-6xl border-t border-ink/15 px-4 py-6 text-xs text-ink/55 sm:px-6">
         <p>
           Figures extracted {EXTRACT_DATE} from official budget documents. Every number on this site
-          has a citation. Empty doors have no number. Not NGOs.
+          has a citation. Empty doors have no number. Compare never mixes unlike books. Not NGOs.
         </p>
         <p className="mt-1">
           <NavLink to="/sources">How the numbers were taken from the books</NavLink>

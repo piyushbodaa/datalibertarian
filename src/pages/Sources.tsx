@@ -87,6 +87,24 @@ export function SourcesPage() {
       </section>
 
       <section className="mt-10">
+        <h2 className="font-display text-xl font-semibold tracking-tight">How compare works</h2>
+        <ul className="mt-4 list-none space-y-3 p-0">
+          <li className="docket-slip text-ink/80">
+            Two books, same layer. We print the lines both books printed. If one book is silent, the
+            row stays blank — not zero.
+          </li>
+          <li className="docket-slip text-ink/80">
+            INDEX envelopes are not compare fodder. Cross-layer pairs (a state White Book vs Union
+            Demand 51) carry a “not like-for-like” banner and are not a ranking.
+          </li>
+          <li className="docket-slip text-ink/80">
+            Search is a client-side index over typed LineItems. Zero hits means not in the typed
+            books. Trace is a rail of printed grains; stations stay EMPTY unless a book named them.
+          </li>
+        </ul>
+      </section>
+
+      <section className="mt-10">
         <h2 className="font-display text-xl font-semibold tracking-tight">Four layers, four books</h2>
         <ul className="mt-4 list-none space-y-3 p-0">
           <li className="docket-slip text-ink/80">

@@ -1,8 +1,11 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import { SiteFrame } from "./components/SiteFrame";
+import { ComparePage } from "./pages/Compare";
 import { DelhiPolicePage } from "./pages/DelhiPolice";
 import { EmptyPolicePage } from "./pages/EmptyPolice";
 import { GramPage } from "./pages/Gram";
+import { SearchPage } from "./pages/Search";
+import { TracePage } from "./pages/Trace";
 import { GjPolicePage } from "./pages/GjPolice";
 import { HomePage } from "./pages/Home";
 import { MunicipalPage } from "./pages/Municipal";
@@ -25,6 +28,10 @@ export default function App() {
     <SiteFrame>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/compare" element={<ComparePage />} />
+        <Route path="/search" element={<SearchPage />} />
+        <Route path="/trace/:layer/:slug" element={<TracePage />} />
+        <Route path="/trace/:slug" element={<TracePage />} />
         <Route path="/union" element={<UnionPage />} />
         <Route path="/union/police" element={<UnionPolicePage />} />
         <Route path="/union/delhi-police" element={<DelhiPolicePage />} />
