@@ -20,6 +20,8 @@ import { delhiEstInfra } from "./union/delhi-police.ts";
 import { apLastFound, INDEX_ROWS, indexPoliceLines } from "./prs-index/afs-police.ts";
 import { up2055Voted, up4055, upFunctional, upSalariesDesk, upUniforms } from "./uttar-pradesh/police.ts";
 import { tgArms220, tgCity4055, tgObject010 } from "./telangana/police.ts";
+import { commissionerates, cpHero, getCommissionerate } from "./telangana/commissionerates.ts";
+import { stations } from "./telangana/stations.ts";
 import { wb2055Gross, wb2055Net, wb4055, wbArms, wbClothing, wbFunctional, wbSalariesDesk } from "./west-bengal/police.ts";
 import { jurisdictions } from "./states.ts";
 
@@ -47,6 +49,7 @@ const allMoney = [
   ...tgObject010.amounts,
   ...tgArms220.amounts,
   ...tgCity4055.amounts,
+  ...commissionerates.flatMap((c) => c.combined.amounts),
   ...wb2055Net.amounts,
   ...wb2055Gross.amounts,
   ...wb4055.amounts,
@@ -103,6 +106,9 @@ describe("every figure has a living citation", () => {
       "union-sbe51-2025-26",
       "up-grant26-2026-27",
       "tg-law-home-2026-27",
+      "tg-law-home-2026-27-hyd",
+      "tg-law-home-2026-27-cyberabad",
+      "tg-law-home-2026-27-hod",
       "wb-demand68-2026-27",
       "prs-andhra-pradesh",
     ]) {
@@ -162,6 +168,51 @@ describe("GOLD modules copy pack figures", () => {
     assert.equal(tgCity4055.amounts[0].crore, 132.25);
     assert.notEqual(be26.crore, 11906.83);
     assert.notEqual(be26.crore, 10188.01);
+  });
+
+  it("Telangana commissionerates are HoD GOLD, not state 010, not station money", () => {
+    const hyd = getCommissionerate("hyderabad-city")!;
+    const cyber = getCommissionerate("cyberabad")!;
+    const racha = getCommissionerate("rachakonda")!;
+    const malka = getCommissionerate("malkajgiri")!;
+    const future = getCommissionerate("future-city")!;
+    assert.equal(
+      hyd.combined.amounts.find((a) => a.fiscalYear === "2025-26")?.crore,
+      2096.08,
+    );
+    assert.equal(
+      hyd.combined.amounts.find((a) => a.fiscalYear === "2026-27")?.crore,
+      2125.85,
+    );
+    assert.equal(
+      cyber.combined.amounts.find((a) => a.fiscalYear === "2025-26")?.crore,
+      742.57,
+    );
+    assert.equal(
+      cyber.combined.amounts.find((a) => a.fiscalYear === "2026-27")?.crore,
+      787.86,
+    );
+    assert.equal(racha.combined.amounts.find((a) => a.fiscalYear === "2025-26")?.crore, 684.61);
+    assert.equal(racha.combined.amounts.find((a) => a.fiscalYear === "2026-27"), undefined);
+    assert.equal(malka.combined.amounts.find((a) => a.fiscalYear === "2026-27")?.crore, 751.69);
+    assert.equal(future.combined.amounts.find((a) => a.fiscalYear === "2026-27")?.crore, 118.14);
+    const o010 = tgObject010.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    assert.notEqual(cpHero(hyd).crore, o010.crore);
+    assert.notEqual(cpHero(hyd).crore, 9641);
+    const printedSum = commissionerates
+      .flatMap((c) => c.combined.amounts.filter((a) => a.fiscalYear === "2026-27"))
+      .reduce((s, a) => s + a.crore, 0);
+    assert.notEqual(Math.round(printedSum * 100) / 100, o010.crore);
+    assert.notEqual(Math.round(printedSum * 100) / 100, 11906.83);
+  });
+
+  it("named stations have no rupee field", () => {
+    assert.equal(stations.length, 1);
+    assert.equal(stations[0].slug, "bachupally");
+    assert.equal(stations[0].cp, "cyberabad");
+    assert.equal(stations[0].tier, "empty");
+    assert.ok(!("amounts" in stations[0]));
+    assert.ok(!("crore" in stations[0]));
   });
 
   it("West Bengal Demand 68 slices", () => {

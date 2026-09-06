@@ -11,6 +11,9 @@ const GOLD_IDS = [
   "union-sumsbe-2026-27",
   "up-grant26-2026-27",
   "tg-law-home-2026-27",
+  "tg-law-home-2026-27-hyd",
+  "tg-law-home-2026-27-cyberabad",
+  "tg-law-home-2026-27-hod",
   "wb-demand68-2026-27",
 ];
 
@@ -94,6 +97,11 @@ export function SourcesPage() {
             Home. Hyderabad city police is not added in. City 4055 is labelled city.
           </li>
           <li className="docket-slip text-ink/80">
+            <strong>Telangana commissionerates</strong> — Law+Home HoD combined establishment +
+            schemes (Hyderabad City, Cyberabad, Rachakonda, Malkajgiri, Future City). Not summed.
+            Not INDEX 9,641. Named police stations (Bachupally PS) are EMPTY — not in Demand books.
+          </li>
+          <li className="docket-slip text-ink/80">
             <strong>West Bengal Police</strong> — Demand 68 slices 2055 / 4055 only, not whole Home
             &amp; Hill Affairs. Kolkata/HQ salaries sit inside statewide object 01.
           </li>
@@ -128,6 +136,10 @@ export function SourcesPage() {
           </li>
           <li className="docket-slip text-ink/80">
             Municipal corporations — civic books later. Mumbai Police is state police, not BMC.
+          </li>
+          <li className="docket-slip text-ink/80">
+            Named Telangana police stations (Bachupally PS and any other named PS) — EMPTY. Law+Home
+            prints commissionerate HoD totals. We do not divide an HoD by N stations.
           </li>
         </ul>
       </section>

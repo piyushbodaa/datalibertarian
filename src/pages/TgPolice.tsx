@@ -43,6 +43,13 @@ export function TgPolicePage() {
           </dd>
         </div>
       </dl>
+      <p className="mt-8">
+        <Link to="/telangana/commissionerates" className="file-cta">
+          <span className="file-cta-notch" aria-hidden="true" />
+          Commissionerate HoDs (not this statewide object)
+        </Link>
+      </p>
+
       <section className="carbon-sheet mt-10 px-4 py-6 sm:px-6">
         <p className="kicker text-ochre">Blocked as Police</p>
         <h2 className="mt-2 font-display text-xl font-semibold">Demand X Home is not Police</h2>

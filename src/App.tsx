@@ -7,7 +7,11 @@ import { MunicipalPage } from "./pages/Municipal";
 import { PolicePage } from "./pages/Police";
 import { SourcesPage } from "./pages/Sources";
 import { StatesPage } from "./pages/States";
+import { TgCommissioneratePage } from "./pages/TgCommissionerate";
+import { TgCommissioneratesPage } from "./pages/TgCommissionerates";
 import { TgPolicePage } from "./pages/TgPolice";
+import { TgStationEmptyPage } from "./pages/TgStationEmpty";
+import { TgStationIndexPage } from "./pages/TgStationIndex";
 import { UnionPage } from "./pages/Union";
 import { UnionPolicePage } from "./pages/UnionPolice";
 import { UpPolicePage } from "./pages/UpPolice";
@@ -27,6 +31,10 @@ export default function App() {
         <Route path="/maharashtra/police" element={<PolicePage />} />
         <Route path="/uttar-pradesh/police" element={<UpPolicePage />} />
         <Route path="/telangana/police" element={<TgPolicePage />} />
+        <Route path="/telangana/commissionerates" element={<TgCommissioneratesPage />} />
+        <Route path="/telangana/:cp/stations/:station" element={<TgStationEmptyPage />} />
+        <Route path="/telangana/:cp/stations" element={<TgStationIndexPage />} />
+        <Route path="/telangana/:cp" element={<TgCommissioneratePage />} />
         <Route path="/west-bengal/police" element={<WbPolicePage />} />
         <Route path="/states/maharashtra/police" element={<Navigate to="/maharashtra/police" replace />} />
         <Route path="/:slug/police" element={<EmptyPolicePage />} />

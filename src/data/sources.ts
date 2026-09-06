@@ -109,7 +109,45 @@ export const citations: Record<string, Citation> = {
     accessedOn: EXTRACT_DATE,
     short: "TG Law+Home",
     notes:
-      "Police object 010 is not Demand X Home. Home Department totals 10,188.01 (2025-26) and 11,906.83 (2026-27) are not Police. Hyderabad CP is not added into the statewide object.",
+      "Police object 010 is not Demand X Home. Home Department totals 10,188.01 (2025-26) and 11,906.83 (2026-27) are not Police. Hyderabad CP is not added into the statewide object. Commissionerate HoDs are separate GOLD doors — not station allotments.",
+  },
+  "tg-law-home-2026-27-hyd": {
+    id: "tg-law-home-2026-27-hyd",
+    title: "Telangana Budget Estimates 2026-27 — Law & Home — Commissioner of City Police, Hyderabad",
+    publisher: "Finance Department, Government of Telangana",
+    fiscalYear: "2026-27",
+    url: "https://www.telangana.gov.in/wp-content/uploads/2026/05/Law-and-Home.pdf",
+    pages: "82–85 (establishment); 136–141 (schemes)",
+    table: "Commissioner of City Police, Hyderabad — combined establishment + schemes (MH 108)",
+    accessedOn: EXTRACT_DATE,
+    short: "TG Law+Home · Hyd CP",
+    notes:
+      "HoD total. Not statewide Police object 010. Not a police-station allotment. Prior-year BE 2025-26 is the reprinted column in this volume.",
+  },
+  "tg-law-home-2026-27-cyberabad": {
+    id: "tg-law-home-2026-27-cyberabad",
+    title: "Telangana Budget Estimates 2026-27 — Law & Home — Commissioner of Cyberabad Police",
+    publisher: "Finance Department, Government of Telangana",
+    fiscalYear: "2026-27",
+    url: "https://www.telangana.gov.in/wp-content/uploads/2026/05/Law-and-Home.pdf",
+    pages: "94–96 (establishment); schemes in the same volume",
+    table: "Commissioner of Cyberabad Police — combined establishment + schemes (MH 109)",
+    accessedOn: EXTRACT_DATE,
+    short: "TG Law+Home · Cyberabad",
+    notes:
+      "HoD total. Not Bachupally PS. Not statewide object 010. Individual police-station allotments are not printed.",
+  },
+  "tg-law-home-2026-27-hod": {
+    id: "tg-law-home-2026-27-hod",
+    title: "Telangana Budget Estimates 2026-27 — Law & Home — commissionerate HoDs",
+    publisher: "Finance Department, Government of Telangana",
+    fiscalYear: "2026-27",
+    url: "https://www.telangana.gov.in/wp-content/uploads/2026/05/Law-and-Home.pdf",
+    table: "Rachakonda / Malkajgiri / Future City HoD combined totals as printed in Law+Home",
+    accessedOn: EXTRACT_DATE,
+    short: "TG Law+Home · HoD",
+    notes:
+      "Amounts copied from phase1. Page numbers for these HoDs were not in the paste — not invented. Missing year-columns are gaps, not zeros.",
   },
   "wb-demand68-2026-27": {
     id: "wb-demand68-2026-27",
