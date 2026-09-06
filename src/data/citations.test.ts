@@ -9,6 +9,13 @@ import {
   police4055,
   stateTotalExpenditure,
 } from "./maharashtra-police.ts";
+import {
+  demand51Capital,
+  demand51Groups,
+  demand51Net,
+  demand51Revenue,
+  mhaTotalBe2627,
+} from "./union/demand-51.ts";
 
 const allMoney = [
   ...functionalPolice.amounts,
@@ -17,6 +24,11 @@ const allMoney = [
   ...grantB1.amounts,
   ...stateTotalExpenditure,
   ...police2055Lines.flatMap((l) => l.amounts),
+  ...demand51Net.amounts,
+  ...demand51Revenue.amounts,
+  ...demand51Capital.amounts,
+  ...demand51Groups.flatMap((l) => l.amounts),
+  mhaTotalBe2627,
 ];
 
 describe("every figure has a living citation", () => {
@@ -53,6 +65,17 @@ describe("every figure has a living citation", () => {
       "mh-appropriation-2025-26",
       "mh-home-whitebook-2026-27",
       "mh-pink-book-2026-27",
+      "union-sbe51-2026-27",
+      "union-sumsbe-2026-27",
     ]);
+  });
+
+  it("Union hero is Demand 51 net, not the whole Home Ministry", () => {
+    const hero = demand51Net.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be");
+    assert.ok(hero);
+    assert.ok(mhaTotalBe2627.crore > hero.crore);
+    const rev = demand51Revenue.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const cap = demand51Capital.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    assert.equal(Math.round((rev.crore + cap.crore) * 100) / 100, hero.crore);
   });
 });

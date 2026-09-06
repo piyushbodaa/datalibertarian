@@ -7,6 +7,7 @@ import { CitationChip } from "./CitationChip";
 type Props = {
   run: LineItem;
   cap: LineItem;
+  caption?: string;
 };
 
 const SERIES_HATCH: Record<string, { fill: string; hatch: string; stroke: string }> = {
@@ -15,7 +16,11 @@ const SERIES_HATCH: Record<string, { fill: string; hatch: string; stroke: string
   re: { fill: "var(--ochre)", hatch: "url(#hatch-ochre)", stroke: "var(--ochre)" },
 };
 
-export function PrintedColumns({ run, cap }: Props) {
+export function PrintedColumns({
+  run,
+  cap,
+  caption = "Each bar is Police running costs plus capital (2055 + 4055) as the White Book prints it. Actuals, Budget, and Revised are different kinds of figure — not one trend. Empty years are not filled in.",
+}: Props) {
   const columns = BOOK_COLUMNS.map((col) => {
     const r = pickAmount(run, col.fiscalYear, col.series);
     const c = pickAmount(cap, col.fiscalYear, col.series);
@@ -47,9 +52,7 @@ export function PrintedColumns({ run, cap }: Props) {
   return (
     <figure className="mt-8">
       <ChartCaption title="Four columns as printed">
-        Each bar is Police running costs plus capital (2055 + 4055) as the White Book prints it.
-        Actuals, Budget, and Revised are different kinds of figure — not one trend. Empty years are
-        not filled in.
+        {caption}
         {citationId ? <CitationChip citationId={citationId} /> : null}
       </ChartCaption>
 
@@ -289,7 +292,7 @@ export function PrintedColumns({ run, cap }: Props) {
 }
 
 function yTicks(max: number): number[] {
-  const step = 10_000;
+  const step = max > 80_000 ? 50_000 : 10_000;
   const ticks: number[] = [];
   for (let v = 0; v <= max; v += step) ticks.push(v);
   const last = ticks[ticks.length - 1] ?? 0;

@@ -18,15 +18,21 @@ export function SiteFrame({ children }: { children: ReactNode }) {
               Data Libertarian
             </span>
             <span className="mt-1 block text-[0.65rem] font-medium uppercase tracking-[0.16em] text-zinc sm:mt-0 sm:ml-3 sm:inline">
-              Maharashtra · extracted 6 Sept 2026
+              Union · States · Municipal
             </span>
           </NavLink>
-          <nav className="flex gap-5">
+          <nav className="flex flex-wrap gap-x-5 gap-y-2">
             <NavLink to="/" className={link} end>
               Home
             </NavLink>
-            <NavLink to="/maharashtra/police" className={link}>
-              Maharashtra Police
+            <NavLink to="/union" className={link}>
+              Union
+            </NavLink>
+            <NavLink to="/states" className={link}>
+              States
+            </NavLink>
+            <NavLink to="/municipal" className={link}>
+              Municipal
             </NavLink>
             <NavLink to="/sources" className={link}>
               Method
@@ -40,8 +46,8 @@ export function SiteFrame({ children }: { children: ReactNode }) {
       <main className="mx-auto max-w-6xl px-4 py-9 sm:px-6 sm:py-10">{children}</main>
       <footer className="mx-auto max-w-6xl border-t border-ink/15 px-4 py-6 text-xs text-ink/55 sm:px-6">
         <p>
-          Figures extracted {EXTRACT_DATE} from official Maharashtra budget documents. Every number
-          on this site has a citation. This is not an NGO tracker.
+          Figures extracted {EXTRACT_DATE} from official budget documents. Every number on this site
+          has a citation. Empty doors have no number. This is not an NGO tracker.
         </p>
         <p className="mt-1">
           <NavLink to="/sources">How the numbers were taken from the books</NavLink>

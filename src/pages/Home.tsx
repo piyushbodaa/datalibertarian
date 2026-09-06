@@ -1,65 +1,73 @@
 import { Link } from "react-router-dom";
-import { HeadSplit } from "../components/HeadSplit";
-import { Money } from "../components/Money";
-import { PrintedColumns } from "../components/PrintedColumns";
-import { RankedHatch } from "../components/RankedHatch";
-import {
-  functionalPolice,
-  HEADLINE_SERIES,
-  HEADLINE_YEAR,
-  pickAmount,
-  police2055,
-  police2055Lines,
-  police4055,
-} from "../data/maharashtra-police";
-import { SERIES_PLAIN } from "../lib/money";
 
 export function HomePage() {
-  const hero = pickAmount(functionalPolice, HEADLINE_YEAR, HEADLINE_SERIES);
-  const run = pickAmount(police2055, HEADLINE_YEAR, HEADLINE_SERIES);
-  const cap = pickAmount(police4055, HEADLINE_YEAR, HEADLINE_SERIES);
-  if (!hero || !run || !cap) throw new Error("Missing headline figure");
-
   return (
     <article>
-      <p className="kicker">Maharashtra docket</p>
+      <p className="kicker">Carbon docket · India</p>
       <h1 className="mt-2 max-w-3xl font-display text-[2.05rem] font-semibold leading-[1.12] tracking-tight sm:text-5xl">
         Government money is your money. The books are public. They are not readable.
       </h1>
       <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink sm:text-lg">
         Data Libertarian opens official government accounts so an ordinary person can see where a
-        rupee was put. This is not a tracker of charities or NGOs. It is taxpayer money, as written
-        in the state&rsquo;s own budget.
+        rupee was put. This is not a tracker of charities or NGOs. Three sets of books: the Union,
+        the states, and municipal corporations.
       </p>
 
-      <section className="mt-8 border-y border-ink/20 py-6 sm:py-8">
-        <h2 className="font-display text-2xl font-semibold tracking-tight">Maharashtra Police spending</h2>
-        <p className="mt-3 max-w-2xl text-ink/80">
-          One state. One department of the books: Police. The number below is{" "}
-          {SERIES_PLAIN[hero.series]} for FY {hero.fiscalYear} — running costs plus buildings and
-          equipment, as printed under heads 2055 and 4055.
-        </p>
-        <div className="mt-6">
-          <Money money={hero} size="hero" showSeries />
-        </div>
-
-        <PrintedColumns run={police2055} cap={police4055} />
-        <HeadSplit run={run} cap={cap} />
-        <RankedHatch items={police2055Lines} fiscalYear={HEADLINE_YEAR} series={HEADLINE_SERIES} />
-
-        <p className="mt-8">
-          <Link to="/maharashtra/police" className="file-cta">
-            <span className="file-cta-notch" aria-hidden="true" />
-            Open the full police ledger
-          </Link>
-        </p>
-      </section>
+      <nav className="mt-10 grid gap-0 border-y border-ink/20" aria-label="Budget doors">
+        <Door
+          to="/union"
+          kicker="Centre"
+          title="Union Government"
+          body="The Union Budget. First ledger: Demand 51 Police — Central Armed Police Forces, Delhi Police, the Intelligence Bureau. Not the states’ police books."
+        />
+        <Door
+          to="/states"
+          kicker="States and Union Territories"
+          title="State Governments"
+          body="Each state’s own budget. Maharashtra Police is live. Other states are listed; we do not invent a number before the White Book is typed."
+        />
+        <Door
+          to="/municipal"
+          kicker="Cities"
+          title="Municipal Corporations"
+          body="Civic books — water, roads, schools. City police in India is usually state police, not the corporation. No municipal totals until a city’s PDFs are read."
+        />
+      </nav>
 
       <p className="mt-10 max-w-2xl text-sm text-ink/65">
-        A rupee is voted, revised, or booked — those labels stay on the number. Later: other
-        states and Union books, same method. Not NGOs.{" "}
-        <Link to="/sources">How the White Book was read</Link>.
+        A rupee is voted, revised, or booked — those labels stay on the number. Worked example:{" "}
+        <Link to="/maharashtra/police">Maharashtra Police</Link>.{" "}
+        <Link to="/sources">How the books are read</Link>.
       </p>
     </article>
+  );
+}
+
+function Door({
+  to,
+  kicker,
+  title,
+  body,
+}: {
+  to: string;
+  kicker: string;
+  title: string;
+  body: string;
+}) {
+  return (
+    <Link
+      to={to}
+      className="group block border-b border-ink/15 py-6 no-underline last:border-b-0 text-ink hover:text-ink"
+    >
+      <p className="kicker">{kicker}</p>
+      <h2 className="mt-2 font-display text-2xl font-semibold tracking-tight group-hover:text-rust">
+        {title}
+      </h2>
+      <p className="mt-2 max-w-2xl text-sm text-ink/75">{body}</p>
+      <p className="file-cta mt-4">
+        <span className="file-cta-notch" aria-hidden="true" />
+        Open this door
+      </p>
+    </Link>
   );
 }

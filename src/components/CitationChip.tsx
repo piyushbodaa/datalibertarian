@@ -12,7 +12,11 @@ export function CitationChip({ citationId, compact }: Props) {
       ? "Home White Book"
       : citationId === "mh-pink-book-2026-27"
         ? "Budget in Brief"
-        : "Appropriation Act";
+        : citationId === "union-sbe51-2026-27"
+          ? "Demand 51 PDF"
+          : citationId === "union-sumsbe-2026-27"
+            ? "SBE summary"
+            : "Appropriation Act";
 
   return (
     <a

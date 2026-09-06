@@ -1,8 +1,12 @@
 # Data Libertarian
 
-A public ledger of government spending in India. This prototype covers **Maharashtra Police** only.
+A public ledger of government spending in India. Carbon Docket UI. Doors: **Union · States · Municipal**.
 
-This is not an NGO or grant tracker. It follows taxpayer money through official state books.
+This is not an NGO or grant tracker. It follows taxpayer money through official books.
+
+**Live ledgers:** Maharashtra Police (2055 + 4055); Union Demand 51 Police.
+
+**Not live:** other states (honest empty doors); municipal totals.
 
 ## Run
 
@@ -18,10 +22,4 @@ npm run build
 
 ## Data
 
-Figures are typed from the Maharashtra Home Department White Book (Civil Budget Estimates 2026-27, Part II) and Budget in Brief. See `src/data/EXTRACT.md`. Every number in the UI carries a citation.
-
-## Scope
-
-In: Maharashtra Police (heads 2055 + 4055), with Grant B-1 shown separately as not police-only.
-
-Out: Union Demand 51, other states, municipalities, user accounts.
+See `src/data/EXTRACT.md`. Every number in the UI carries a citation. Empty doors have no rupee.

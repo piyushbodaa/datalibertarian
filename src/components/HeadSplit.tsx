@@ -6,18 +6,28 @@ import { CitationChip } from "./CitationChip";
 type Props = {
   run: Money;
   cap: Money;
+  title?: string;
+  note?: string;
+  runLabel?: string;
+  capLabel?: string;
 };
 
-export function HeadSplit({ run, cap }: Props) {
+export function HeadSplit({
+  run,
+  cap,
+  title = "Running costs and capital, this plan",
+  note = "Same Budget column as the headline. Capital is a thin slice — that is the book, not a drawing error.",
+  runLabel = "Running costs · 2055",
+  capLabel = "Capital · 4055",
+}: Props) {
   const total = run.crore + cap.crore;
   const runPct = (run.crore / total) * 100;
   const capPct = (cap.crore / total) * 100;
 
   return (
     <figure className="mt-8">
-      <ChartCaption title="Running costs and capital, this plan">
-        Same Budget column as the headline. Capital is a thin slice — that is the book, not a
-        drawing error.
+      <ChartCaption title={title}>
+        {note}
         <CitationChip citationId={run.citationId} />
       </ChartCaption>
       <div
@@ -33,11 +43,15 @@ export function HeadSplit({ run, cap }: Props) {
       </div>
       <dl className="mt-3 flex max-w-3xl flex-wrap gap-x-8 gap-y-1 text-sm">
         <div>
-          <dt className="inline text-ink/70">Running costs · 2055 · {runPct.toFixed(1)}%</dt>
+          <dt className="inline text-ink/70">
+            {runLabel} · {runPct.toFixed(1)}%
+          </dt>
           <dd className="ml-2 inline num">₹{formatCrore(run.crore)} crore</dd>
         </div>
         <div>
-          <dt className="inline text-ochre">Capital · 4055 · {capPct.toFixed(1)}%</dt>
+          <dt className="inline text-ochre">
+            {capLabel} · {capPct.toFixed(1)}%
+          </dt>
           <dd className="ml-2 inline num">₹{formatCrore(cap.crore)} crore</dd>
         </div>
       </dl>

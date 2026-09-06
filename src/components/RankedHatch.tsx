@@ -8,9 +8,20 @@ type Props = {
   items: LineItem[];
   fiscalYear: string;
   series: Series;
+  title?: string;
+  note?: string;
+  /** If set, percentages are of this cited total, not of the listed rows alone. */
+  shareOf?: { crore: number };
 };
 
-export function RankedHatch({ items, fiscalYear, series }: Props) {
+export function RankedHatch({
+  items,
+  fiscalYear,
+  series,
+  title = "Where the police rupee sits",
+  note,
+  shareOf,
+}: Props) {
   const rows = items
     .map((item) => {
       const amount = pickAmount(item, fiscalYear, series);
@@ -19,7 +30,8 @@ export function RankedHatch({ items, fiscalYear, series }: Props) {
     .filter((r): r is { item: LineItem; amount: NonNullable<ReturnType<typeof pickAmount>> } => r !== null)
     .sort((a, b) => b.amount.crore - a.amount.crore);
 
-  const total = rows.reduce((s, r) => s + r.amount.crore, 0);
+  const listed = rows.reduce((s, r) => s + r.amount.crore, 0);
+  const total = shareOf?.crore ?? listed;
   if (total <= 0) return null;
   const citationId = rows[0].amount.citationId;
   const max = rows[0].amount.crore;
@@ -47,9 +59,9 @@ export function RankedHatch({ items, fiscalYear, series }: Props) {
 
   return (
     <figure className="mt-10">
-      <ChartCaption title="Where the police rupee sits">
-        Ranked against the largest line (district police). Running costs only (head 2055, voted),{" "}
-        {fiscalYear} {seriesWord}. Same document, same year. Lines under 2% are grouped as other.
+      <ChartCaption title={title}>
+        {note ??
+          `Ranked against the largest line (district police). Running costs only (head 2055, voted), ${fiscalYear} ${seriesWord}. Same document, same year. Lines under 2% are grouped as other.`}
         <CitationChip citationId={citationId} />
       </ChartCaption>
       <ol className="mt-2 space-y-3.5">

@@ -38,6 +38,30 @@ export const citations: Record<string, Citation> = {
     notes:
       "Used only for the state total against which Police share is shown. Direct PDF: BudgetBooksPDF1/2026-2027/Budget in Brief (Pink Book).pdf",
   },
+  "union-sbe51-2026-27": {
+    id: "union-sbe51-2026-27",
+    title: "Notes on Demands for Grants, 2026-2027 — Demand No. 51, Police",
+    publisher: "Ministry of Finance, Government of India",
+    fiscalYear: "2026-27",
+    url: "https://www.indiabudget.gov.in/doc/eb/sbe51.pdf",
+    pages: "176–180",
+    table: "Demand No. 51 Police — Grand Total (net) and printed groups",
+    accessedOn: EXTRACT_DATE,
+    notes:
+      "Figures printed in crore of rupees. Union Demand 51 is Central Armed Police Forces, Delhi Police, Intelligence Bureau and related Union police heads — not all Indian police, and not the whole Ministry of Home Affairs.",
+  },
+  "union-sumsbe-2026-27": {
+    id: "union-sumsbe-2026-27",
+    title: "Notes on Demands for Grants, 2026-2027 — Summary of Contents",
+    publisher: "Ministry of Finance, Government of India",
+    fiscalYear: "2026-27",
+    url: "https://www.indiabudget.gov.in/doc/eb/sumsbe.pdf",
+    pages: "Ministry of Home Affairs block",
+    table: "Ministry of Home Affairs total (Demands 49–59)",
+    accessedOn: EXTRACT_DATE,
+    notes:
+      "Used only to show that the Ministry of Home Affairs as a whole is larger than Demand 51 Police. Not a police headline.",
+  },
   "mh-appropriation-2025-26": {
     id: "mh-appropriation-2025-26",
     title:

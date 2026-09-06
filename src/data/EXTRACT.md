@@ -61,4 +61,17 @@ Budget at a Glance, item 7, rupees in crore as printed: 2026-27 BE **7,69,466.87
 
 - District police *salaries* as a separate object-head (01) — not extracted from the detailed pages in this pass. The 109 District Police Force total is shown instead.
 - Scheme-only Home & Police outlay from the budget speech.
-- Union Demand 51.
+
+## Union Demand 51 Police (2026-27)
+
+Source: Notes on Demands for Grants 2026-2027, https://www.indiabudget.gov.in/doc/eb/sbe51.pdf pages 176–180. Unit: crore as printed.
+
+Net Grand Total: Actuals 2024-25 1,46,634.82; BE 2025-26 1,60,391.06; RE 2025-26 1,62,283.39; BE 2026-27 **1,73,802.53**.
+
+Revenue + capital = net for each series. Groups (CAPF, Delhi Police, J&K Police, IB, Border Infra, Police Infra) typed from the same PDF.
+
+MHA ministry total BE 2026-27 **2,55,233.53** from SBE summary — not a police headline.
+
+## Telangana
+
+Law & Home volume 2026-27 is on telangana.gov.in. Home Department grant (~₹11,907 cr) is **not police-only** (includes jails and other home services). 2055 + 4055 not typed this pass. Door is empty.

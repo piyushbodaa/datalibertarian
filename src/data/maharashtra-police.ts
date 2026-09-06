@@ -14,7 +14,7 @@ export type LineItem = {
   id: string;
   plainLabel: string;
   officialName: string;
-  head: "2055" | "4055" | "B-1" | "total";
+  head: string;
   parentId?: string;
   amounts: Money[];
 };
