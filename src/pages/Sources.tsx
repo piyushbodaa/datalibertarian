@@ -19,6 +19,7 @@ const GOLD_IDS = [
   "gj-home-2026-27",
   "tn-demand22-2026-27",
   "ka-expvol1-2026-27",
+  "kl-afs-2026-27",
   "union-bag-2026-27",
 ];
 
@@ -244,6 +245,11 @@ export function SourcesPage() {
             <strong>Karnataka Police</strong> — Expenditure Volume-1 2026-27, Demand 05 Home. Figures
             printed in lakhs (crore = lakhs ÷ 100). Hero is 2055 + 4055. Demand 05 Home total is
             mixed and quieter. PRS Police is INDEX, not this hero.
+          </li>
+          <li className="docket-slip text-ink/80">
+            <strong>Kerala Police</strong> — Annual Financial Statement 2026-27, Statements B and C.
+            Accounts in rupees; estimates in thousands. Hero is 2055 + 4055 (Demand XII slices).
+            Jails and vigilance are not Police.
           </li>
           <li className="docket-slip text-ink/80">
             <strong>Union total expenditure</strong> — Budget at a Glance 2026-27, item 9. ₹53,47,315

@@ -168,6 +168,35 @@ Functional Police BE 2026-27 = 12,094.4194 + 453.0000 = **12,547.4194**. Not Dem
 
 Object 01 statewide योग not typed. Named stations not printed.
 
+## Kerala — Annual Financial Statement 2026-27, Demand XII slices
+
+Extract date: 2026-09-07
+
+Ledger: https://www.budget.kerala.gov.in/keralabudgetdoc/2026_27/AFS.pdf
+Statement B printed p. 24–25 (2055 Police); Statement C printed p. 38–39 (4055).
+
+Accounts 2024-25 printed in **rupees**. Budget / Revised / next Budget printed in **thousands**. Crore = thousands ÷ 10,000 for estimates; crore = rupees ÷ 1,00,00,000 for accounts.
+
+### 2055 Police — Demand XII total (voted + charged)
+
+| Series | Printed | Unit | Crore |
+|---|---|---|---|
+| Actuals 2024-25 | 4,50,97,48,486 | rupees | 4,509.7484486 |
+| Budget 2025-26 | 5,04,46,702 | thousands | 5,044.6702 |
+| Revised 2025-26 | 5,08,47,679 | thousands | 5,084.7679 |
+| Budget 2026-27 | 6,57,95,289 | thousands | 6,579.5289 |
+
+### 4055 Capital Outlay on Police — Demand XII
+
+| Series | Printed | Unit | Crore |
+|---|---|---|---|
+| Actuals 2024-25 | 37,82,06,415 | rupees | 37.8206415 |
+| Budget 2025-26 | 5,34,899 | thousands | 53.4899 |
+| Revised 2025-26 | 10,25,107 | thousands | 102.5107 |
+| Budget 2026-27 | 5,46,000 | thousands | 54.6000 |
+
+Functional Police BE 2026-27 = 6,579.5289 + 54.6000 = **6,634.1289**. Not jails 2056. Not vigilance 2062. Demand XII detailed volume not found. PRS 2025-26 ₹5,098 is INDEX, not this hero.
+
 ## Union Budget at a Glance 2026-27
 
 Source: https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf

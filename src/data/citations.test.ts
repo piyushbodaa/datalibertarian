@@ -33,6 +33,7 @@ import { wb2055Gross, wb2055Net, wb4055, wbArms, wbClothing, wbFunctional, wbSal
 import { gj2055, gj2055Minors, gj4055, gjFunctional } from "./gujarat/police.ts";
 import { tn2055, tn4055, tnDemand22Voted, tnFunctional } from "./tamil-nadu/police.ts";
 import { ka109, ka2055, ka4055, kaDemand05Home, kaFunctional } from "./karnataka/police.ts";
+import { kl2055, kl4055, klFunctional } from "./kerala/police.ts";
 import { jurisdictions } from "./states.ts";
 
 const allMoney = [
@@ -83,6 +84,9 @@ const allMoney = [
   ...kaFunctional.amounts,
   ...ka109.amounts,
   ...kaDemand05Home.amounts,
+  ...kl2055.amounts,
+  ...kl4055.amounts,
+  ...klFunctional.amounts,
 ];
 
 describe("every figure has a living citation", () => {
@@ -141,6 +145,7 @@ describe("every figure has a living citation", () => {
       "gj-home-2026-27",
       "tn-demand22-2026-27",
       "ka-expvol1-2026-27",
+      "kl-afs-2026-27",
       "union-bag-2026-27",
       "desk-median",
       "prs-andhra-pradesh",
@@ -282,6 +287,7 @@ describe("GOLD modules copy pack figures", () => {
     assert.equal(jurisdictions.find((j) => j.slug === "gujarat")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "tamil-nadu")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "karnataka")?.tier, "gold");
+    assert.equal(jurisdictions.find((j) => j.slug === "kerala")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "rajasthan")?.tier, "index");
     assert.equal(jurisdictions.find((j) => j.slug === "andhra-pradesh")?.tier, "blocked");
     assert.equal(jurisdictions.find((j) => j.slug === "delhi")?.tier, "empty");
@@ -316,6 +322,19 @@ describe("GOLD modules copy pack figures", () => {
     assert.ok(mixed.crore > hero.crore);
     assert.ok(!hero.citationId.startsWith("prs-"));
     assert.notEqual(Math.round(hero.crore), 11461);
+  });
+
+  it("Kerala AFS isolates 2055+4055 from Demand XII", () => {
+    const run = kl2055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const cap = kl4055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const hero = klFunctional.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const actual = kl2055.amounts.find((a) => a.fiscalYear === "2024-25" && a.series === "actual")!;
+    assert.equal(run.rupees, 65_795_289_000);
+    assert.equal(cap.rupees, 546_000_000);
+    assert.equal(hero.rupees, run.rupees + cap.rupees);
+    assert.equal(actual.rupees, 45_097_484_486);
+    assert.ok(!hero.citationId.startsWith("prs-"));
+    assert.notEqual(Math.round(hero.crore), 5098);
   });
 
   it("Tamil Nadu Demand 22 isolates 2055+4055 from the mixed demand", () => {

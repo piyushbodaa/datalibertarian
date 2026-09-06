@@ -32,14 +32,7 @@ export const jurisdictions: Jurisdiction[] = [
   { slug: "himachal-pradesh", name: "Himachal Pradesh", kind: "state", tier: "index" },
   { slug: "jharkhand", name: "Jharkhand", kind: "state", tier: "index" },
   { slug: "karnataka", name: "Karnataka", kind: "state", tier: "gold" },
-  {
-    slug: "kerala",
-    name: "Kerala",
-    kind: "state",
-    tier: "index",
-    indexNote:
-      "We opened the 2026-27 totals booklet. A detailed police volume is still needed before we put an official figure here.",
-  },
+  { slug: "kerala", name: "Kerala", kind: "state", tier: "gold" },
   { slug: "madhya-pradesh", name: "Madhya Pradesh", kind: "state", tier: "index" },
   { slug: "maharashtra", name: "Maharashtra", kind: "state", tier: "gold" },
   { slug: "manipur", name: "Manipur", kind: "state", tier: "index" },

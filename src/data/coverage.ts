@@ -38,11 +38,9 @@ export const searchLogs: Record<string, SearchLog> = {
     nextSearch: "GOLD — statewide object 01 योग if a printed total appears",
   },
   kerala: {
-    lastDocument:
-      "Opened AFS 2026-27 Statement B/C on 2026-09-07. 2055 Demand XII and 4055 exist in thousands. Demand XII detailed estimates PDF not found at Vol_1/XII paths. Not GOLD this pass — next is the Demand XII volume.",
+    lastDocument: "AFS 2026-27 Statement B 2055 + Statement C 4055 — Demand XII GOLD",
     urlTried: "https://www.budget.kerala.gov.in/keralabudgetdoc/2026_27/AFS.pdf",
-    nextSearch:
-      "Demand XII Police detailed estimates 2026-27 — confirm 2055+4055 page totals against AFS (BE 2055 6,57,95,289 thousands; 4055 5,46,000 thousands)",
+    nextSearch: "GOLD — Demand XII detailed volume if a statewide salaries योग is printed",
   },
   odisha: {
     lastDocument:

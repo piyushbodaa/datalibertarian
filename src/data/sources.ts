@@ -205,6 +205,19 @@ export const citations: Record<string, Citation> = {
     notes:
       "Figures printed in lakhs of rupees. Converted to crore by dividing by 100. Confirmed against Annual Financial Statement 2026-27 Statement 1 (2055 printed p. 8; 4055 printed p. 13), https://finance.karnataka.gov.in/uploads/AFS2026-27_1772786694.pdf. Demand 05 Home also prints 2014, 2056 jails, 2070, 2235, 4059 and 4070 — those are not Police. Hero is 2055 + 4055 only.",
   },
+  "kl-afs-2026-27": {
+    id: "kl-afs-2026-27",
+    title: "Annual Financial Statement 2026-2027 — Statements B and C (2055 / 4055, Demand XII)",
+    publisher: "Finance Department, Government of Kerala",
+    fiscalYear: "2026-27",
+    url: "https://www.budget.kerala.gov.in/keralabudgetdoc/2026_27/AFS.pdf",
+    pages: "Statement B printed p. 24–25 (2055 Police); Statement C printed p. 38–39 (4055 Capital Outlay on Police)",
+    table: "2055 Police total (voted + charged); 4055 Capital Outlay on Police — not jails 2056, not vigilance 2062",
+    accessedOn: "2026-09-07",
+    short: "Kerala budget",
+    notes:
+      "Accounts 2024-25 printed in rupees. Budget / Revised / next Budget printed in thousands of rupees (crore = thousands ÷ 10,000). Hero is 2055 + 4055 only. Demand XII also prints 2062 Vigilance — that is not Police. Demand XII detailed volume URL was not found this pass.",
+  },
   "tn-demand22-2026-27": {
     id: "tn-demand22-2026-27",
     title: "Detailed Demand for Grant — Demand No. 22 Police (Home, Prohibition and Excise), Interim Budget 2026-2027",
