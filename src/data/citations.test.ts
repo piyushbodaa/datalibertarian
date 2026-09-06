@@ -34,6 +34,7 @@ import { gj2055, gj2055Minors, gj4055, gjFunctional } from "./gujarat/police.ts"
 import { tn2055, tn4055, tnDemand22Voted, tnFunctional } from "./tamil-nadu/police.ts";
 import { ka109, ka2055, ka4055, kaDemand05Home, kaFunctional } from "./karnataka/police.ts";
 import { kl2055, kl4055, klFunctional } from "./kerala/police.ts";
+import { od2055, odDemand01, odFunctional } from "./odisha/police.ts";
 import { jurisdictions } from "./states.ts";
 
 const allMoney = [
@@ -87,6 +88,9 @@ const allMoney = [
   ...kl2055.amounts,
   ...kl4055.amounts,
   ...klFunctional.amounts,
+  ...od2055.amounts,
+  ...odFunctional.amounts,
+  ...odDemand01.amounts,
 ];
 
 describe("every figure has a living citation", () => {
@@ -146,6 +150,7 @@ describe("every figure has a living citation", () => {
       "tn-demand22-2026-27",
       "ka-expvol1-2026-27",
       "kl-afs-2026-27",
+      "od-d01-2026-27",
       "union-bag-2026-27",
       "desk-median",
       "prs-andhra-pradesh",
@@ -288,6 +293,7 @@ describe("GOLD modules copy pack figures", () => {
     assert.equal(jurisdictions.find((j) => j.slug === "tamil-nadu")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "karnataka")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "kerala")?.tier, "gold");
+    assert.equal(jurisdictions.find((j) => j.slug === "odisha")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "rajasthan")?.tier, "index");
     assert.equal(jurisdictions.find((j) => j.slug === "andhra-pradesh")?.tier, "blocked");
     assert.equal(jurisdictions.find((j) => j.slug === "delhi")?.tier, "empty");
@@ -335,6 +341,18 @@ describe("GOLD modules copy pack figures", () => {
     assert.equal(actual.rupees, 45_097_484_486);
     assert.ok(!hero.citationId.startsWith("prs-"));
     assert.notEqual(Math.round(hero.crore), 5098);
+  });
+
+  it("Odisha Demand 01 isolates 2055; 4055 is not a major head", () => {
+    const run = od2055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const prior = od2055.amounts.find((a) => a.fiscalYear === "2025-26" && a.series === "be")!;
+    const hero = odFunctional.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const mixed = odDemand01.amounts[0];
+    assert.equal(run.rupees, 71_009_420_000);
+    assert.equal(Math.round(prior.crore), 6831);
+    assert.equal(hero.rupees, run.rupees);
+    assert.ok(mixed.crore > hero.crore);
+    assert.ok(!hero.citationId.startsWith("prs-"));
   });
 
   it("Tamil Nadu Demand 22 isolates 2055+4055 from the mixed demand", () => {

@@ -197,6 +197,24 @@ Accounts 2024-25 printed in **rupees**. Budget / Revised / next Budget printed i
 
 Functional Police BE 2026-27 = 6,579.5289 + 54.6000 = **6,634.1289**. Not jails 2056. Not vigilance 2062. Demand XII detailed volume not found. PRS 2025-26 ₹5,098 is INDEX, not this hero.
 
+## Odisha — Demand 01 Home 2026-27
+
+Extract date: 2026-09-07
+
+Ledger: https://finance.odisha.gov.in/sites/default/files/2025-08/D-01.pdf
+Printed unit: **thousands**. Crore = thousands ÷ 10,000.
+
+### 2055 Police (abstract printed p. 3)
+
+| Series | Printed (thousands) | Crore |
+|---|---|---|
+| Actuals 2024-25 | 5,238,57,54 | 5,238.5754 |
+| Budget 2025-26 | 6,831,05,32 | 6,831.0532 |
+| Revised 2025-26 | 6,840,30,42 | 6,840.3042 |
+| Budget 2026-27 | 7,100,94,20 | 7,100.9420 |
+
+Voted 7,097.9420 + charged 3.00 = 7,100.9420. 4055 is **not** a major head in this Demand (capital is 4059/4216 mixed — not taken). Demand 01 total 11,028.5589 is mixed. PRS 2025-26 ₹6,831 is INDEX.
+
 ## Union Budget at a Glance 2026-27
 
 Source: https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf

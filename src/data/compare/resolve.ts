@@ -12,6 +12,7 @@ import { gj2055, gj2055Minors, gj4055, gjFunctional } from "../gujarat/police";
 import { tn2055, tn4055, tnDemand22Voted, tnFunctional } from "../tamil-nadu/police";
 import { ka109, ka2055, ka4055, kaDemand05Home, kaFunctional } from "../karnataka/police";
 import { kl2055, kl4055, klFunctional } from "../kerala/police";
+import { od2055, odDemand01, odFunctional } from "../odisha/police";
 import { tgObject010 } from "../telangana/police";
 import { up2055Voted, up4055, upFunctional, upSalariesDesk } from "../uttar-pradesh/police";
 import { wb2055Net, wb4055, wbFunctional, wbSalariesDesk } from "../west-bengal/police";
@@ -193,6 +194,13 @@ export function resolveSide(slug: string | undefined): CompareSide | undefined {
       "4055": kl4055,
     });
   }
+  if (slug === "odisha") {
+    return goldState(slug, {
+      "police-functional": odFunctional,
+      "2055": od2055,
+      "mixed-grant": odDemand01,
+    });
+  }
 
   const log = searchLogFor(j);
   return {
@@ -307,6 +315,7 @@ export function suggestedPairs(): [string, string][] {
     ["maharashtra", "gujarat"],
     ["maharashtra", "tamil-nadu"],
     ["maharashtra", "kerala"],
+    ["maharashtra", "odisha"],
   ];
 }
 

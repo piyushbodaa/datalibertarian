@@ -130,6 +130,7 @@ export function HomePage() {
           ["/tamil-nadu/police", "Tamil Nadu"],
           ["/karnataka/police", "Karnataka"],
           ["/kerala/police", "Kerala"],
+          ["/odisha/police", "Odisha"],
           ["/union/police", "Centre police"],
         ].map(([to, name]) => (
           <li key={to}>

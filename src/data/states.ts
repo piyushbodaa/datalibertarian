@@ -39,14 +39,7 @@ export const jurisdictions: Jurisdiction[] = [
   { slug: "meghalaya", name: "Meghalaya", kind: "state", tier: "index" },
   { slug: "mizoram", name: "Mizoram", kind: "state", tier: "index" },
   { slug: "nagaland", name: "Nagaland", kind: "state", tier: "index" },
-  {
-    slug: "odisha",
-    name: "Odisha",
-    kind: "state",
-    tier: "index",
-    indexNote:
-      "We opened the Home demand. Running costs are printed; buildings and gear are not a separate police line in that book.",
-  },
+  { slug: "odisha", name: "Odisha", kind: "state", tier: "gold" },
   { slug: "punjab", name: "Punjab", kind: "state", tier: "index" },
   {
     slug: "rajasthan",

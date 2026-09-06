@@ -25,6 +25,7 @@ import { upFunctional } from "../data/uttar-pradesh/police";
 import { wbFunctional } from "../data/west-bengal/police";
 import { kaFunctional } from "../data/karnataka/police";
 import { klFunctional } from "../data/kerala/police";
+import { odFunctional } from "../data/odisha/police";
 import { formatCrore } from "../lib/money";
 
 const TIER_CLASS: Record<PoliceTier, string> = {
@@ -50,8 +51,9 @@ export function StatesPage() {
   const tn = pickAmount(tnFunctional, "2026-27", "be");
   const ka = pickAmount(kaFunctional, "2026-27", "be");
   const kl = pickAmount(klFunctional, "2026-27", "be");
+  const od = pickAmount(odFunctional, "2026-27", "be");
   const mhIndex = getIndexRow("maharashtra");
-  if (!mh || !run || !cap || !up || !tg || !wb || !gj || !tn || !ka || !kl || !mhIndex) {
+  if (!mh || !run || !cap || !up || !tg || !wb || !gj || !tn || !ka || !kl || !od || !mhIndex) {
     throw new Error("Missing state headline figures");
   }
 
@@ -74,6 +76,7 @@ export function StatesPage() {
           <GoldRow to="/tamil-nadu/police" name="Tamil Nadu" money={tn} />
           <GoldRow to="/karnataka/police" name="Karnataka" money={ka} />
           <GoldRow to="/kerala/police" name="Kerala" money={kl} />
+          <GoldRow to="/odisha/police" name="Odisha" money={od} />
         </ul>
         <div className="mt-6">
           <HeadSplit run={run} cap={cap} title="Maharashtra police, this plan" note="Running the force vs buildings and gear." />

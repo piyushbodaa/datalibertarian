@@ -4,6 +4,7 @@ import { gj2055, gj2055Minors, gj4055, gjFunctional } from "../data/gujarat/poli
 import { tn2055, tn4055, tnDemand22Voted, tnFunctional } from "../data/tamil-nadu/police";
 import { ka109, ka2055, ka4055, kaDemand05Home, kaFunctional } from "../data/karnataka/police";
 import { kl2055, kl4055, klFunctional } from "../data/kerala/police";
+import { od2055, odDemand01, odFunctional } from "../data/odisha/police";
 import { tgObject010, tgArms220, tgCity4055 } from "../data/telangana/police";
 import { up2055Voted, up4055, upFunctional, upSalariesDesk, upUniforms } from "../data/uttar-pradesh/police";
 import { wb2055Net, wb4055, wbFunctional, wbSalariesDesk, wbArms, wbClothing } from "../data/west-bengal/police";
@@ -77,6 +78,9 @@ const ENTRIES: Entry[] = [
   { item: klFunctional, entity: "Kerala Police", href: "/kerala/police" },
   { item: kl2055, entity: "Kerala Police", href: "/kerala/police" },
   { item: kl4055, entity: "Kerala Police", href: "/kerala/police" },
+  { item: odFunctional, entity: "Odisha Police", href: "/odisha/police" },
+  { item: od2055, entity: "Odisha Police", href: "/odisha/police" },
+  { item: odDemand01, entity: "Odisha Demand 01 Home", href: "/odisha/police" },
   { item: unionTotalExpenditure, entity: "Union Budget at a Glance", href: "/union" },
   { item: demand51Net, entity: "Centre Police", href: "/union/police" },
   { item: demand51Revenue, entity: "Centre Police", href: "/union/police" },

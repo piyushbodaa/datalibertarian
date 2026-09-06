@@ -43,10 +43,9 @@ export const searchLogs: Record<string, SearchLog> = {
     nextSearch: "GOLD — Demand XII detailed volume if a statewide salaries योग is printed",
   },
   odisha: {
-    lastDocument:
-      "Opened Demand 01 Home 2026-27 (thousands) on 2026-09-07. 2055 Police is printed (BE 7,100,94,20 thousands including charged). 4055 is not a major head in this Demand (capital is 4059/4216 mixed). Not GOLD this pass until 4055 is isolated or 2055-only is shipped as the printed equivalent.",
+    lastDocument: "Demand 01 Home 2026-27 — 2055 GOLD (4055 not a major head; 4059/4216 mixed)",
     urlTried: "https://finance.odisha.gov.in/sites/default/files/2025-08/D-01.pdf",
-    nextSearch: "Isolate 4055 if it lives under 4059/4216 with a Police line; else ship 2055-only GOLD from D-01 p. 5 abstract",
+    nextSearch: "Isolate a Police line under 4059/4216 if one is printed",
   },
   rajasthan: {
     lastDocument: "Volume pages not tied. Salary desk-sums unsafe without page.",

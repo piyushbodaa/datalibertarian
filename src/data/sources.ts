@@ -218,6 +218,19 @@ export const citations: Record<string, Citation> = {
     notes:
       "Accounts 2024-25 printed in rupees. Budget / Revised / next Budget printed in thousands of rupees (crore = thousands ÷ 10,000). Hero is 2055 + 4055 only. Demand XII also prints 2062 Vigilance — that is not Police. Demand XII detailed volume URL was not found this pass.",
   },
+  "od-d01-2026-27": {
+    id: "od-d01-2026-27",
+    title: "Demand for Grants 2026-2027 — Demand No. 01 Home Department",
+    publisher: "Finance Department, Government of Odisha",
+    fiscalYear: "2026-27",
+    url: "https://finance.odisha.gov.in/sites/default/files/2025-08/D-01.pdf",
+    pages: "printed p. 1 (schedule 2055 voted+charged); printed p. 3 abstract 2055 four columns",
+    table: "2055 Police total — not Demand 01 Home; 4055 is not a major head in this Demand",
+    accessedOn: "2026-09-07",
+    short: "Odisha budget",
+    notes:
+      "Figures printed in thousands of rupees. Converted to crore by dividing by 10,000. Hero is 2055 only. Capital in this Demand is 4059 Public Works and 4216 Housing — mixed, not taken as Police buildings. Jails 2056 and courts 2014 are not Police.",
+  },
   "tn-demand22-2026-27": {
     id: "tn-demand22-2026-27",
     title: "Detailed Demand for Grant — Demand No. 22 Police (Home, Prohibition and Excise), Interim Budget 2026-2027",
