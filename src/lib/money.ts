@@ -16,21 +16,23 @@ export function fromCrore(
 }
 
 export const SERIES_LABEL: Record<Series, string> = {
-  actual: "Actuals",
-  be: "Budget",
-  re: "Revised",
+  actual: "Spent",
+  be: "Plan",
+  re: "Updated",
 };
 
 export const SERIES_PLAIN: Record<Series, string> = {
-  actual: "what was booked in the books",
-  be: "the plan voted at the start of the year",
-  re: "the mid-year revision of the plan",
+  actual: "what was spent",
+  be: "the plan for the year",
+  re: "the updated plan mid-year",
 };
 
 export function formatCrore(crore: number): string {
   const rounded = Math.round(crore * 100) / 100;
   const [int, frac] = rounded.toFixed(2).split(".");
-  return `${Number(int).toLocaleString("en-IN")}.${frac}`;
+  const whole = Number(int).toLocaleString("en-IN");
+  if (frac === "00") return whole;
+  return `${whole}.${frac}`;
 }
 
 export function formatRupeeLine(m: Money): string {
@@ -46,7 +48,7 @@ export function formatMoneyShort(m: Money): string {
 }
 
 export function seriesYearLabel(m: Money): string {
-  return `${SERIES_LABEL[m.series]} FY ${m.fiscalYear}`;
+  return `${SERIES_LABEL[m.series]} ${m.fiscalYear}`;
 }
 
 /** White Book print order — mixed series, not one trend. */

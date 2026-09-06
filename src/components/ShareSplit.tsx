@@ -15,12 +15,11 @@ export function ShareSplit({ police, state, compact = false }: Props) {
 
   return (
     <figure className={compact ? "mt-4" : "mt-8"}>
-      <ChartCaption title="Share of Maharashtra’s budgeted spending">
+      <ChartCaption title={compact ? "Police share of this state book" : "Police vs the rest of this state book"}>
         {compact
-          ? "Same state, two printed objects, not India."
-          : "Police (2055 + 4055) against the state’s total expenditure in the same Budget column. Two official books — do not mix them with Grant B-1."}
-        <CitationChip citationId={police.citationId} />
-        <CitationChip citationId={state.citationId} />
+          ? `Police is ${share.toFixed(1)}% of this one state book.`
+          : "Police running costs and buildings against the state’s whole budget for the same year."}
+        <CitationChip citationId={police.citationId} compact />
       </ChartCaption>
       <div
         className="flex h-10 w-full max-w-3xl overflow-hidden border border-carbon/40"
@@ -32,7 +31,7 @@ export function ShareSplit({ police, state, compact = false }: Props) {
           style={{ width: `${share}%` }}
         />
         <div className="hatch-zinc flex h-full min-w-0 flex-1 items-center px-3 text-xs sm:text-sm">
-          Police {share.toFixed(1)}% of the state books · rest {rest.toFixed(1)}%
+          Police {share.toFixed(1)}% · Everything else {rest.toFixed(1)}%
         </div>
       </div>
       <dl className="mt-3 flex max-w-3xl flex-wrap gap-x-8 gap-y-2 text-sm">
@@ -41,7 +40,7 @@ export function ShareSplit({ police, state, compact = false }: Props) {
           <dd className="ml-2 inline num">₹{formatCrore(police.crore)} crore</dd>
         </div>
         <div>
-          <dt className="inline text-ink/70">Rest of the books · {rest.toFixed(1)}%</dt>
+          <dt className="inline text-ink/70">Everything else · {rest.toFixed(1)}%</dt>
           <dd className="ml-2 inline num">₹{formatCrore(state.crore - police.crore)} crore</dd>
         </div>
       </dl>

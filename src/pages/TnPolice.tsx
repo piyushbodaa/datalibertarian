@@ -26,76 +26,72 @@ export function TnPolicePage() {
 
   return (
     <article>
-      <p className="kicker">GOLD · Demand 22 slices · 2055 + 4055</p>
-      <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">
-        Tamil Nadu Police spending
-      </h1>
+      <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">Tamil Nadu Police</h1>
       <p className="mt-4 max-w-2xl text-ink">
-        Interim Budget 2026-27, Demand 22. Headline is heads <strong>2055</strong> plus{" "}
-        <strong>4055</strong> as printed (thousands converted to crore). Demand 22 also carries
-        courts, elections, secretariat, public works and other home services — those are not Police.
+        What the state budget set aside to run the police and to build or buy for them. The larger
+        Home grant also carries courts and other offices — those are not Police.
       </p>
 
       <div className="mt-8 border-y border-ink/20 py-8">
-        <p className="kicker text-ink/50">Budget estimate · FY {hero.fiscalYear}</p>
+        <p className="text-sm text-ink/55">2026-27 plan</p>
         <div className="mt-3">
-          <Money money={hero} size="hero" showSeries />
+          <Money money={hero} size="hero" />
         </div>
+        <p className="mt-4 max-w-xl text-sm text-ink/70">
+          Running costs ₹{formatCrore(run.crore)} crore · Buildings and gear ₹
+          {formatCrore(cap.crore)} crore.
+        </p>
       </div>
 
       <PrintedColumns
         run={tn2055}
         cap={tn4055}
-        caption="Each bar is 2055 plus 4055. Printed in thousands; shown in crore. Actuals, Budget, and Revised are not one trend."
+        caption="Spent, plan, updated plan, and next plan. Printed in thousands; shown in crore."
       />
       <HeadSplit run={run} cap={cap} />
 
       <section className="carbon-sheet mt-10 px-4 py-6 sm:px-6">
-        <p className="kicker text-ochre">Related demand · quieter</p>
-        <h2 className="mt-2 font-display text-xl font-semibold">Demand 22 is not police-only</h2>
+        <h2 className="mt-2 font-display text-xl font-semibold">The Home grant is not only police</h2>
         <p className="mt-3 max-w-2xl text-sm text-ink/75">
-          The voted Demand 22 total includes 2014, 2015, 2051, 2052, 2059, 2070, 2235 and other
-          heads. Do not treat it as Police spending. The Police number above is 2055 + 4055.
+          The Assembly also votes a larger Home grant that includes courts and other offices. That
+          bigger number is not Police.
         </p>
         <p className="mt-4 text-ink/80">
-          Demand 22 voted, FY {mixed.fiscalYear} budget: <Money money={mixed} size="row" />
+          Home grant, {mixed.fiscalYear} plan: <Money money={mixed} size="row" />
         </p>
       </section>
 
       <section className="carbon-sheet mt-8 px-4 py-6 sm:px-6">
-        <p className="kicker text-ochre">Object heads · not typed</p>
-        <h2 className="mt-2 font-display text-xl font-semibold">Object 01 not a statewide योग</h2>
+        <h2 className="mt-2 font-display text-xl font-semibold">Salaries not split by station</h2>
         <p className="mt-3 max-w-2xl text-sm text-ink/75">
-          Object-head pages exist in the Demand book under each establishment. A statewide salaries
-          योग is not typed this pass. Named police stations are not printed as allotments.
+          A statewide salaries total is not typed here. Named police stations are not printed as
+          allotments.
         </p>
       </section>
 
       <TraceRail
         stops={[
-          { id: "book", label: "Book", detail: "Demand No. 22 Police, Interim Budget 2026-27" },
-          { id: "major", label: "2055 + 4055", money: hero, detail: "Functional Police. Not the mixed Demand 22 total." },
-          { id: "run", label: "Major 2055", money: run },
-          { id: "cap", label: "Major 4055", money: cap },
+          { id: "book", label: "Book", detail: "Tamil Nadu state budget, Home, 2026-27" },
+          { id: "major", label: "Police", money: hero, detail: "Running the force plus buildings and gear." },
+          { id: "run", label: "Running costs", money: run },
+          { id: "cap", label: "Buildings and gear", money: cap },
           {
             id: "object",
-            label: "Object 01 Salaries",
-            empty: "Object heads not typed as a statewide योग — detailed pages not summed.",
+            label: "Salaries",
+            empty: "A statewide salaries total is not typed here.",
           },
           {
             id: "station",
             label: "Named police station",
-            empty: "The book stops at the major-head grain typed here. We do not divide that total by N stations.",
+            empty: "The book stops here. We do not divide that total by the number of stations.",
           },
         ]}
       />
 
       <section className="index-slip mt-10">
-        <p className="kicker">INDEX · PRS AFS</p>
         <p className="mt-3 max-w-2xl text-sm text-ink/75">
-          PRS AFS Police functional for Tamil Nadu, FY 2025-26 budget, is ₹
-          {idx.be2526.toLocaleString("en-IN")} crore. That is a different slip — not this Demand 22
-          2055+4055 hero of ₹{formatCrore(hero.crore)} crore (FY 2026-27 budget).
+          A research summary lists Tamil Nadu police at ₹{idx.be2526.toLocaleString("en-IN")} crore
+          for 2025-26. That is not this official 2026-27 plan of ₹{formatCrore(hero.crore)} crore.
         </p>
       </section>
 
@@ -105,7 +101,8 @@ export function TnPolicePage() {
           <CitationFootnote citationId={hero.citationId} />
         </ol>
         <p className="mt-6">
-          <Link to="/states">States</Link> · <Link to="/sources">Method</Link>
+          Account codes in the book: 2055 (running), 4055 (buildings).{" "}
+          <Link to="/states">All states</Link> · <Link to="/sources">Method</Link>
         </p>
       </section>
     </article>

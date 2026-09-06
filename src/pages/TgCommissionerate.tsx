@@ -13,17 +13,15 @@ export function TgCommissioneratePage() {
 
   return (
     <article>
-      <p className="kicker">GOLD · Law+Home · HoD</p>
       <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">{unit.name}</h1>
       <p className="mt-3 max-w-2xl text-ink">
-        {unit.hod}. Combined <strong>establishment + schemes</strong> as printed under major head{" "}
-        {unit.majorHead}. This is a commissionerate HoD total — not statewide Police object 010,
-        not Demand X Home, and not a police-station allotment.
+        {unit.hod}. Pay and schemes as printed for this city-police office. Not the statewide
+        police number, not the whole Home grant, and not a named police station.
       </p>
 
       <div className="mt-8 border-y border-ink/20 py-8">
-        <p className="kicker text-ink/50">
-          Combined HoD · {SERIES_LABEL[hero.series]} FY {hero.fiscalYear}
+        <p className="text-sm text-ink/55">
+          {SERIES_LABEL[hero.series]} {hero.fiscalYear}
         </p>
         <div className="mt-3">
           <Money money={hero} size="hero" showSeries />
@@ -43,19 +41,16 @@ export function TgCommissioneratePage() {
 
       {unit.missingYears.map((gap) => (
         <section key={gap.fiscalYear} className="carbon-sheet mt-10 px-4 py-6 sm:px-6">
-          <p className="kicker text-ochre">Year not in the book</p>
-          <h2 className="mt-2 font-display text-xl font-semibold">FY {gap.fiscalYear} is not printed</h2>
+          <h2 className="mt-2 font-display text-xl font-semibold">{gap.fiscalYear} is not in the book</h2>
           <p className="mt-3 max-w-2xl text-sm text-ink/75">{gap.reason}</p>
-          <div className="mt-6 border border-dashed border-ink/25 px-3 py-6 text-center text-[0.7rem] uppercase tracking-[0.16em] text-ink/40">
-            No hatch · no guessed rupee
-          </div>
+          <p className="mt-4 text-sm text-ink/60">No figure yet.</p>
         </section>
       ))}
 
       <p className="mt-8">
         <Link to={`/telangana/${unit.slug}/stations`} className="file-cta">
           <span className="file-cta-notch" aria-hidden="true" />
-          Police stations — not in the Demand books
+          Named stations — not in the book
         </Link>
       </p>
 
@@ -65,11 +60,11 @@ export function TgCommissioneratePage() {
           <CitationFootnote citationId={unit.citationId} />
         </ol>
         <p className="mt-6">
-          <Link to="/telangana/commissionerates">All commissionerates</Link>
+          <Link to="/telangana/commissionerates">City police books</Link>
           {" · "}
-          <Link to="/telangana/police">Telangana Police (statewide object 010)</Link>
+          <Link to="/telangana/police">Telangana Police</Link>
           {" · "}
-          <Link to="/sources">Sources</Link>
+          <Link to="/sources">Method</Link>
         </p>
       </section>
     </article>

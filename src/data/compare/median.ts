@@ -63,7 +63,7 @@ export function medianOf(
     url: "https://datalibertarian.in/compare",
     table: `Median of ${n} typed GOLD LineItems`,
     accessedOn: EXTRACT_DATE,
-    short: `MEDIAN OF ${n}`,
+    short: `Middle of ${n}`,
     notes: peers
       .map((p) => `${p.slug} · ${p.money.citationId} · ₹${p.money.rupees.toLocaleString("en-IN")}`)
       .join("; "),
@@ -92,7 +92,10 @@ export function medianOf(
 }
 
 export function grainLabel(grain: CompareGrain, layer: LayerId): string {
-  if (grain === "city") return "city-police slices";
-  if (grain === "station") return "named police stations";
-  return `${layer} books`;
+  if (grain === "city") return "city police books";
+  if (grain === "station") return "named stations";
+  if (layer === "state") return "state books";
+  if (layer === "union") return "Centre books";
+  if (layer === "municipal") return "city books";
+  return "village books";
 }

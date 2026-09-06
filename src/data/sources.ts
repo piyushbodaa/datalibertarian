@@ -22,7 +22,7 @@ export const citations: Record<string, Citation> = {
     url: "https://datalibertarian.in/sources",
     table: "Median of typed GOLD LineItems sharing layer, field, series, year",
     accessedOn: EXTRACT_DATE,
-    short: "MEDIAN OF N",
+    short: "Middle of the books",
     notes:
       "Not a printed government total. Median of GOLD books on this machine that printed the same line. Even N uses the mean of the two central books. Never a per-station share.",
   },
@@ -36,6 +36,7 @@ export const citations: Record<string, Citation> = {
     pages: "2–3, 6, 11–12 (Demand B-1)",
     table: "Summary by Major Heads; Demand B-1; 2055 Police I-Summary",
     accessedOn: EXTRACT_DATE,
+    short: "Maharashtra budget",
     notes:
       "Figures printed in thousands of rupees. Converted to crore by dividing by 10,000. Direct PDF: BudgetBooksPDF1/2026-2027/Departmentwise Publication/B-Home Dept.pdf",
   },
@@ -48,6 +49,7 @@ export const citations: Record<string, Citation> = {
     pages: "Budget at a Glance",
     table: "Item 7. Total Expenditure (2+5)",
     accessedOn: EXTRACT_DATE,
+    short: "Maharashtra totals",
     notes:
       "Used only for the state total against which Police share is shown. Direct PDF: BudgetBooksPDF1/2026-2027/Budget in Brief (Pink Book).pdf",
   },
@@ -60,7 +62,7 @@ export const citations: Record<string, Citation> = {
     pages: "1–2 (prose); table p. 3, item 9 Total Expenditure (10+13)",
     table: "9. Total Expenditure; 10. On Revenue Account; 13. On Capital Account",
     accessedOn: EXTRACT_DATE,
-    short: "Budget at a Glance",
+    short: "Union budget",
     notes:
       "Figures printed in crore of rupees. Union total expenditure is not Demand 51 Police, not the sum of the states, and not an India grand total of Union+State+Municipal+Gram.",
   },
@@ -73,6 +75,7 @@ export const citations: Record<string, Citation> = {
     pages: "176–180",
     table: "Demand No. 51 Police — Grand Total (net) and printed groups",
     accessedOn: EXTRACT_DATE,
+    short: "Centre police budget",
     notes:
       "Figures printed in crore of rupees. Union Demand 51 is Central Armed Police Forces, Delhi Police, Intelligence Bureau and related Union police heads — not all Indian police, and not the whole Ministry of Home Affairs.",
   },
@@ -110,7 +113,7 @@ export const citations: Record<string, Citation> = {
     pages: "Demand No. 51",
     table: "Delhi Police establishment + infrastructure (prior-year BE 2024-25)",
     accessedOn: EXTRACT_DATE,
-    short: "Demand 51 PDF 2025-26",
+    short: "Centre police",
     notes: "Used only for Delhi Police 2024-25 Budget column in the est+infra series.",
   },
   "up-grant26-2026-27": {
@@ -121,7 +124,7 @@ export const citations: Record<string, Citation> = {
     url: "https://budget.up.nic.in/PDF26_27/Gr26.pdf",
     table: "2055 voted printed; 4055 योग; object 01 वेतन desk-sum; object 51 वर्दी",
     accessedOn: EXTRACT_DATE,
-    short: "UP Grant 26",
+    short: "Uttar Pradesh budget",
     notes: "Object 22 is hospitality, not arms. 2055-01 is a desk-sum of object lines, not the printed 2055 total.",
   },
   "tg-law-home-2026-27": {
@@ -132,7 +135,7 @@ export const citations: Record<string, Citation> = {
     url: "https://www.telangana.gov.in/wp-content/uploads/2026/05/Law-and-Home.pdf",
     table: "Police object 010 (desk-sum); object 220; City Police 4055",
     accessedOn: EXTRACT_DATE,
-    short: "TG Law+Home",
+    short: "Telangana budget",
     notes:
       "Police object 010 is not Demand X Home. Home Department totals 10,188.01 (2025-26) and 11,906.83 (2026-27) are not Police. Hyderabad CP is not added into the statewide object. Commissionerate HoDs are separate GOLD doors — not station allotments.",
   },
@@ -145,7 +148,7 @@ export const citations: Record<string, Citation> = {
     pages: "82–85 (establishment); 136–141 (schemes)",
     table: "Commissioner of City Police, Hyderabad — combined establishment + schemes (MH 108)",
     accessedOn: EXTRACT_DATE,
-    short: "TG Law+Home · Hyd CP",
+    short: "Hyderabad city police",
     notes:
       "HoD total. Not statewide Police object 010. Not a police-station allotment. Prior-year BE 2025-26 is the reprinted column in this volume.",
   },
@@ -158,7 +161,7 @@ export const citations: Record<string, Citation> = {
     pages: "94–96 (establishment); schemes in the same volume",
     table: "Commissioner of Cyberabad Police — combined establishment + schemes (MH 109)",
     accessedOn: EXTRACT_DATE,
-    short: "TG Law+Home · Cyberabad",
+    short: "Cyberabad police",
     notes:
       "HoD total. Not Bachupally PS. Not statewide object 010. Individual police-station allotments are not printed.",
   },
@@ -170,7 +173,7 @@ export const citations: Record<string, Citation> = {
     url: "https://www.telangana.gov.in/wp-content/uploads/2026/05/Law-and-Home.pdf",
     table: "Rachakonda / Malkajgiri / Future City HoD combined totals as printed in Law+Home",
     accessedOn: EXTRACT_DATE,
-    short: "TG Law+Home · HoD",
+    short: "Telangana city police",
     notes:
       "Amounts copied from phase1. Page numbers for these HoDs were not in the paste — not invented. Missing year-columns are gaps, not zeros.",
   },
@@ -183,7 +186,7 @@ export const citations: Record<string, Citation> = {
     pages: "printed 1–3 (demand-cum-major heads / summary by major heads); printed 21 (2055 I-Summary minors)",
     table: "2055 Police Demand 043; 4055 Capital outlay on Police (under Demand 046, isolated)",
     accessedOn: EXTRACT_DATE,
-    short: "GJ Home Book",
+    short: "Gujarat budget",
     notes:
       "Figures printed in crore of rupees. Demand 043 is 2055 only. 4055 is printed under Demand 046 among other Home capital — only the 4055 line is taken as Police capital, not Demand 046 total. Jails 2056 and courts 2014 are not Police.",
   },
@@ -198,7 +201,7 @@ export const citations: Record<string, Citation> = {
       "Demand 05 Home abstract (printed p. 3); 2055 HOA total printed p. 82; 2055-00-109-1-01 printed p. 78; 4055 HOA total printed p. 96",
     table: "2055 Police; 4055 Capital Outlay on Police — not Demand 05 Home total",
     accessedOn: "2026-09-07",
-    short: "KA Expenditure Vol-1",
+    short: "Karnataka budget",
     notes:
       "Figures printed in lakhs of rupees. Converted to crore by dividing by 100. Confirmed against Annual Financial Statement 2026-27 Statement 1 (2055 printed p. 8; 4055 printed p. 13), https://finance.karnataka.gov.in/uploads/AFS2026-27_1772786694.pdf. Demand 05 Home also prints 2014, 2056 jails, 2070, 2235, 4059 and 4070 — those are not Police. Hero is 2055 + 4055 only.",
   },
@@ -211,7 +214,7 @@ export const citations: Record<string, Citation> = {
     pages: "cover; Demand 22 summary (rupees in thousands)",
     table: "2055 Police; 4055 Capital Outlay on Police — not the mixed Demand 22 voted total",
     accessedOn: EXTRACT_DATE,
-    short: "TN Demand 22",
+    short: "Tamil Nadu budget",
     notes:
       "Figures printed in thousands of rupees. Converted to crore by dividing by 10,000. Demand 22 also prints 2014, 2015, 2051, 2052, 2059, 2070, 2235 and other heads — those are not Police. Hero is 2055 + 4055 only.",
   },
@@ -223,7 +226,7 @@ export const citations: Record<string, Citation> = {
     url: "https://finance.wb.gov.in/writereaddata/Budget_Publication/2026_bp22.pdf",
     table: "2055 Gross/Net; 4055; object 01 desk-sum; objects 22 and 25",
     accessedOn: EXTRACT_DATE,
-    short: "WB Demand 68",
+    short: "West Bengal budget",
     notes: "Not the whole Home & Hill Affairs demand. Kolkata/HQ 108 salaries sit inside statewide 01.",
   },
 };
@@ -267,9 +270,9 @@ for (const p of PRS_INDEX) {
     url: `https://prsindia.org/budgets/states/${p.slug}-budget-analysis-2026-27`,
     table: "Police functional expenditure (AFS)",
     accessedOn: EXTRACT_DATE,
-    short: "PRS AFS",
+    short: "Research summary",
     notes:
-      "INDEX only — not a state White Book or Demand extract. Discovery aid. Do not treat as GOLD LIVE.",
+      "Research summary only — not the official state book. Not used as the main number.",
   };
 }
 
@@ -281,9 +284,9 @@ citations["prs-andhra-pradesh"] = {
   url: "https://prsindia.org/budgets/states/andhra-pradesh-budget-analysis-2026-27",
   table: "Police functional — last found 2024-25 BE and Actuals",
   accessedOn: EXTRACT_DATE,
-  short: "PRS AFS",
+  short: "Research summary",
   notes:
-    "BLOCKED for 2025-26 / 2026-27: later years are percent of spend. We do not convert percent to rupees. Not a White Book extract.",
+    "Can't read a clean number for 2025-26 / 2026-27: later years are percent of spend. We do not convert percent to rupees.",
 };
 
 const generatedCitations: Record<string, Citation> = {};

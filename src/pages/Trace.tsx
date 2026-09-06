@@ -2,6 +2,7 @@ import { Link, Navigate, useParams } from "react-router-dom";
 import { TraceRail } from "../components/TraceRail";
 import { pickAmount } from "../data/maharashtra-police";
 import { resolveSide } from "../data/compare/resolve";
+import { tierLabel } from "../data/states";
 
 export function TracePage() {
   const { slug, layer } = useParams();
@@ -21,16 +22,17 @@ export function TracePage() {
 
   return (
     <article>
-      <p className="kicker">Trace · where this book stops</p>
       <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">{side.entity.name}</h1>
       <p className="mt-3 max-w-2xl text-ink">
-        A rail of printed grains. Dashed stops are not printed. We do not draw arrows between two
-        states — Compare does that.
+        How far this book goes. A blank stop means the book did not print that line — not that it
+        spent zero.
       </p>
       {side.tier !== "gold" ? (
         <section className="carbon-sheet mt-8 px-4 py-6 sm:px-6">
-          <p className="kicker text-ochre">{side.tier}</p>
-          <p className="mt-2 text-sm text-ink/75">{side.note ?? "No GOLD ledger typed for this book."}</p>
+          <h2 className="mt-2 font-display text-xl font-semibold">{tierLabel(side.tier)}</h2>
+          <p className="mt-2 text-sm text-ink/75">
+            {side.note ?? "We have not read this book yet."}
+          </p>
         </section>
       ) : (
         <TraceRail
@@ -38,28 +40,24 @@ export function TracePage() {
           stops={[
             { id: "book", label: "Book", detail: side.entity.name },
             functional
-              ? { id: "functional", label: "Police functional", money: functional }
-              : { id: "functional", label: "Police functional", empty: "Not printed as a functional Police total on this machine." },
+              ? { id: "functional", label: "Police", money: functional }
+              : { id: "functional", label: "Police", empty: "Not printed as a police total in this book." },
             run
-              ? { id: "2055", label: "2055 running costs", money: run }
-              : { id: "2055", label: "2055 running costs", empty: "Not isolated in this book." },
+              ? { id: "2055", label: "Running costs", money: run }
+              : { id: "2055", label: "Running costs", empty: "Not isolated in this book." },
             cap
-              ? { id: "4055", label: "4055 capital", money: cap }
-              : { id: "4055", label: "4055 capital", empty: "Not isolated in this book." },
+              ? { id: "4055", label: "Buildings and gear", money: cap }
+              : { id: "4055", label: "Buildings and gear", empty: "Not isolated in this book." },
             district
-              ? { id: "109", label: "109 District Police", money: district }
-              : { id: "109", label: "109 District Police", empty: "Minor head not typed." },
+              ? { id: "109", label: "District police", money: district }
+              : { id: "109", label: "District police", empty: "Not typed in this book." },
             obj
-              ? { id: "obj", label: "Object 01 salaries", money: obj, detail: "Desk-sum if so labelled on the ledger." }
-              : {
-                  id: "obj",
-                  label: "Object 01 salaries",
-                  empty: "Object heads not typed as a statewide योग.",
-                },
+              ? { id: "obj", label: "Salaries", money: obj }
+              : { id: "obj", label: "Salaries", empty: "A statewide salaries total is not typed here." },
             {
               id: "station",
-              label: "Named police station / GP",
-              empty: "The book stops here. We do not divide a total by N stations or N panchayats.",
+              label: "Named police station",
+              empty: "The book stops here. We do not divide a total by the number of stations.",
             },
           ]}
         />
@@ -67,7 +65,7 @@ export function TracePage() {
       <p className="mt-8">
         <Link to={side.entity.href} className="file-cta">
           <span className="file-cta-notch" aria-hidden="true" />
-          Open the ledger
+          Open this book
         </Link>
       </p>
       <p className="mt-6 text-sm">

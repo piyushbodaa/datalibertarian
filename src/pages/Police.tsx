@@ -18,7 +18,7 @@ import {
   stateTotalExpenditure,
 } from "../data/maharashtra-police";
 import { TraceRail } from "../components/TraceRail";
-import { formatCrore, SERIES_PLAIN } from "../lib/money";
+import { formatCrore } from "../lib/money";
 
 export function PolicePage() {
   const hero = pickAmount(functionalPolice, HEADLINE_YEAR, HEADLINE_SERIES);
@@ -40,26 +40,20 @@ export function PolicePage() {
 
   return (
     <article>
-      <p className="kicker">GOLD · White Book · 2055 + 4055</p>
-      <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">
-        Maharashtra Police spending
-      </h1>
+      <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">Maharashtra Police</h1>
       <p className="mt-4 max-w-2xl text-ink">
-        This is what the state books call Police: pay and running costs (head{" "}
-        <strong>2055</strong>) plus buildings and equipment (head <strong>4055</strong>). It is not
-        the entire Home Department. Mumbai Police is state police, not a municipal budget.
+        What the state budget set aside to run the police and to build or buy for them. Not the
+        whole Home department. Mumbai Police sits here, not in the city corporation book.
       </p>
 
       <div className="mt-8 border-y border-ink/20 py-8">
-        <p className="kicker text-ink/50">
-          {hero.series === "be" ? "Budget estimate" : hero.series} · FY {hero.fiscalYear}
-        </p>
+        <p className="text-sm text-ink/55">2026-27 plan</p>
         <div className="mt-3">
           <Money money={hero} size="hero" />
         </div>
         <p className="mt-4 max-w-xl text-sm text-ink/70">
-          {SERIES_PLAIN[hero.series]}. Running costs ₹{formatCrore(run.crore)} crore
-          <CitationChip citationId={run.citationId} compact /> plus capital ₹
+          Running costs ₹{formatCrore(run.crore)} crore
+          <CitationChip citationId={run.citationId} compact /> · Buildings and gear ₹
           {formatCrore(cap.crore)} crore
           <CitationChip citationId={cap.citationId} compact />.
         </p>
@@ -72,7 +66,7 @@ export function PolicePage() {
       <dl className="mt-10 divide-y divide-ink/15 border-y border-ink/20">
         <div className="flex flex-col gap-1 py-4 sm:flex-row sm:items-baseline sm:justify-between">
           <dt>
-            <span className="font-display text-lg font-semibold">Running costs · 2055</span>
+            <span className="font-display text-lg font-semibold">Running costs</span>
             <span className="mt-0.5 block text-sm text-ink/65">Pay, stations, investigation, training.</span>
           </dt>
           <dd className="m-0 sm:text-right">
@@ -81,7 +75,7 @@ export function PolicePage() {
         </div>
         <div className="flex flex-col gap-1 py-4 sm:flex-row sm:items-baseline sm:justify-between">
           <dt>
-            <span className="font-display text-lg font-semibold">Capital · 4055</span>
+            <span className="font-display text-lg font-semibold">Buildings and gear</span>
             <span className="mt-0.5 block text-sm text-ink/65">Buildings, vehicles, equipment.</span>
           </dt>
           <dd className="m-0 sm:text-right">
@@ -93,20 +87,12 @@ export function PolicePage() {
       <section className="mt-12">
         <h2 className="font-display text-2xl font-semibold tracking-tight">The police ledger</h2>
         <p className="mt-2 max-w-2xl text-sm text-ink/70">
-          <span className="hidden md:inline">
-            Columns are four official series from the same White Book.{" "}
-          </span>
-          <span className="md:hidden">
-            Each line shows the FY 2026-27 budget first, then revised, prior budget, and actuals
-            underneath.{" "}
-          </span>
-          <strong>Actuals</strong> is money booked. <strong>Budget</strong> is the plan.{" "}
-          <strong>Revised</strong> is the mid-year plan. Amounts in crore of rupees.
+          Spent, plan, updated plan, and next plan. Amounts in crore.
         </p>
         <div className="mt-6">
           <LedgerTable
             items={[police2055, police4055, ...police2055Lines]}
-            caption="2055 net total, 4055 capital, then 2055 voted lines as printed."
+            caption="Running costs, buildings and gear, then the printed lines under running costs."
           />
         </div>
       </section>
@@ -114,47 +100,41 @@ export function PolicePage() {
       <RankedHatch items={police2055Lines} fiscalYear={HEADLINE_YEAR} series={HEADLINE_SERIES} />
 
       <section className="carbon-sheet mt-10 px-4 py-6 sm:px-6">
-        <p className="kicker text-ochre">Object heads · not typed</p>
-        <h2 className="mt-2 font-display text-xl font-semibold">Object 01 under 109 not opened</h2>
+        <h2 className="mt-2 font-display text-xl font-semibold">Salaries not split by station</h2>
         <p className="mt-3 max-w-2xl text-sm text-ink/75">
-          The White Book I-Summary of 2055 minors is typed. Object 01 salaries under 109 District
-          Police is not typed this pass — detailed object pages were not opened. We do not guess
-          object 01, and we do not divide district police by N stations.
+          District police is in the book as a statewide line. We do not divide it by the number of
+          stations.
         </p>
       </section>
 
       <TraceRail
         stops={[
-          { id: "book", label: "Book", detail: "Home Department White Book 2026-27" },
-          { id: "major", label: "2055 + 4055", money: hero, detail: "Functional Police. Not Grant B-1." },
-          { id: "run", label: "Major 2055", money: run },
+          { id: "book", label: "Book", detail: "Maharashtra state budget, Home, 2026-27" },
+          { id: "major", label: "Police", money: hero, detail: "Running the force plus buildings and gear." },
+          { id: "run", label: "Running costs", money: run },
           {
             id: "object",
-            label: "Object 01 Salaries",
-            empty: "Object heads not typed — detailed White Book pages not on disk this pass.",
+            label: "Salaries",
+            empty: "A statewide salaries total is not typed here.",
           },
           {
             id: "station",
             label: "Named police station",
-            empty: "The book stops at the minor-head grain. Mumbai Police is state police, not BMC.",
+            empty: "The book does not print a rupee for each station. Mumbai Police is state police, not BMC.",
           },
         ]}
       />
 
       <section className="carbon-sheet mt-14 px-4 py-6 sm:px-6">
-        <p className="kicker text-ochre">Related grant · quieter</p>
         <h2 className="mt-2 font-display text-xl font-semibold text-ink/80">
-          Grant B-1 is not police-only
+          The Assembly also votes a larger Home grant
         </h2>
         <p className="mt-3 max-w-2xl text-sm text-ink/70">
-          The Assembly votes Grant B-1, labelled &ldquo;Police Administration.&rdquo; That grant
-          also includes <strong>courts</strong> (Administration of Justice, head 2014) and{" "}
-          <strong>other home services</strong> (head 2070). Do not treat it as Police spending. The
-          Police number above is 2055 + 4055.
+          That bigger number includes courts and other offices. It is not Police. The Police number
+          above is running costs plus buildings and gear.
         </p>
         <p className="mt-4 text-ink/80">
-          Grant B-1 total, FY {b1.fiscalYear} {b1.series === "be" ? "budget" : b1.series}:{" "}
-          <Money money={b1} size="row" />
+          Home grant, 2026-27 plan: <Money money={b1} size="row" />
         </p>
       </section>
 
@@ -166,10 +146,10 @@ export function PolicePage() {
           ))}
         </ol>
         <p className="mt-6 max-w-2xl">
-          INDEX (PRS AFS Police functional, FY 2025-26 budget) lists Maharashtra at ₹33,743 crore.
-          That is a different book and year-column — not this White Book hero of ₹
-          {formatCrore(hero.crore)} crore. <Link to="/states">INDEX hatch</Link>. Method:{" "}
-          <Link to="/sources">Sources</Link>.
+          Account codes in the book: 2055 (running), 4055 (buildings).{" "}
+          <Link to="/states">All states</Link>
+          {" · "}
+          <Link to="/sources">Method</Link>.
         </p>
       </section>
     </article>

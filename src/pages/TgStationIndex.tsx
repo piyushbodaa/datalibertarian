@@ -10,28 +10,24 @@ export function TgStationIndexPage() {
 
   return (
     <article>
-      <p className="kicker">EMPTY · stations not in Demand books</p>
       <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">
-        {unit.name} · stations
+        {unit.name} stations
       </h1>
       <section className="carbon-sheet mt-8 px-4 py-6 sm:px-6">
-        <p className="kicker text-ochre">Honesty slip</p>
-        <h2 className="mt-2 font-display text-xl font-semibold">Stations not enumerated in budget books</h2>
+        <h2 className="mt-2 font-display text-xl font-semibold">Stations are not in the book</h2>
         <p className="mt-3 max-w-2xl text-sm text-ink/75">
-          Law+Home prints commissionerate HoD totals. Individual police-station allotments are not
-          in the public Demand books. We do not invent a station share, and we do not divide the
-          HoD total by N stations.
+          The state book prints a total for this city-police office. Individual police-station
+          allotments are not in it. We do not invent a station share, and we do not divide the
+          office total by the number of stations.
         </p>
-        <div className="mt-6 border border-dashed border-ink/25 px-3 py-8 text-center text-[0.7rem] uppercase tracking-[0.16em] text-ink/40">
-          No hatch · no guessed rupee
-        </div>
+        <p className="mt-4 text-sm text-ink/60">No figure yet.</p>
       </section>
 
       {named.length ? (
         <section className="mt-10">
-          <h2 className="font-display text-xl font-semibold tracking-tight">Named EMPTY doors</h2>
+          <h2 className="font-display text-xl font-semibold tracking-tight">Named stations</h2>
           <p className="mt-2 max-w-2xl text-sm text-ink/70">
-            A named station here is a drill endpoint, not a printed allotment.
+            A named station here is a door, not a printed allotment.
           </p>
           <ul className="mt-4 divide-y divide-ink/15 border-y border-ink/20">
             {named.map((s) => (
@@ -42,9 +38,7 @@ export function TgStationIndexPage() {
                 >
                   {s.name}
                 </Link>
-                <span className="text-[0.7rem] font-semibold uppercase tracking-[0.14em] text-ochre">
-                  EMPTY
-                </span>
+                <span className="text-sm text-ink/55">Not ready</span>
               </li>
             ))}
           </ul>
@@ -54,7 +48,7 @@ export function TgStationIndexPage() {
       <p className="mt-8">
         <Link to={`/telangana/${unit.slug}`} className="file-cta">
           <span className="file-cta-notch" aria-hidden="true" />
-          Back to the {unit.name} HoD ledger
+          Back to {unit.name}
         </Link>
       </p>
     </article>

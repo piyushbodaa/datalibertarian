@@ -10,7 +10,6 @@ import {
   pickAmount,
   stateTotalExpenditure,
 } from "../data/maharashtra-police";
-import { EXTRACT_DATE } from "../data/sources";
 import {
   UNION_TOTAL_SERIES,
   UNION_TOTAL_YEAR,
@@ -38,19 +37,15 @@ export function HomePage() {
 
   return (
     <article>
-      <p className="kicker">Live dockets · extracted {EXTRACT_DATE}</p>
       <h1 className="mt-2 font-display text-[1.85rem] font-semibold leading-[1.15] tracking-tight sm:text-4xl">
         Union. State. City. Village.
       </h1>
-      <p className="layer-caption mt-3">
-        Four layers, four books. They are not added into one India-total.
-      </p>
+      <p className="layer-caption mt-3">These are four different books. Do not add them.</p>
 
       <div className="mt-8 grid gap-5 sm:grid-cols-2">
         <section className="docket-door layer-union">
-          <p className="kicker">Union</p>
-          <h2 className="mt-2 font-display text-xl font-semibold tracking-tight">Union Government</h2>
-          <p className="layer-caption mt-1">Budget at a Glance · total expenditure · FY {unionTotal.fiscalYear} plan</p>
+          <h2 className="font-display text-xl font-semibold tracking-tight">Union</h2>
+          <p className="layer-caption mt-1">What Delhi’s Union budget planned to spend, 2026-27</p>
           <div className="mt-4">
             <Money money={unionTotal} size="hero" showSeries />
           </div>
@@ -59,140 +54,88 @@ export function HomePage() {
             barsOnly
             run={unionRevenueExpenditure}
             cap={unionCapitalExpenditure}
-            title="Booked · plan · mid-year · next plan"
-            caption="Same Budget at a Glance. Revenue plus capital. Not Demand 51. Not the states."
+            title="Spent · plan · updated · next plan"
+            caption=""
           />
           <p className="mt-3 text-sm text-ink/70">
-            Police demand only: <Money money={policeDemand} size="row" />
+            Centre police only: <Money money={policeDemand} size="row" />
           </p>
           <p className="mt-4">
             <Link to="/union" className="file-cta">
               <span className="file-cta-notch" aria-hidden="true" />
-              Open the Union ledger
+              Open the Union book
             </Link>
           </p>
         </section>
 
         <section className="docket-door layer-state">
-          <p className="kicker">State</p>
-          <h2 className="mt-2 font-display text-xl font-semibold tracking-tight">State Governments</h2>
-          <p className="layer-caption mt-1">One state book — Maharashtra total expenditure</p>
+          <h2 className="font-display text-xl font-semibold tracking-tight">State</h2>
+          <p className="layer-caption mt-1">Maharashtra’s whole budget, 2026-27</p>
           <div className="mt-4">
             <Money money={mhState} size="hero" showSeries />
           </div>
-          <p className="mt-2 text-[0.7rem] uppercase tracking-[0.14em] text-zinc">
-            {cov.gold} GOLD · {cov.index} INDEX · {cov.blocked} BLOCKED · {cov.empty} EMPTY
+          <p className="mt-2 text-sm text-ink/65">
+            {cov.gold} states read from official books. Rest not ready.
           </p>
           <ShareSplit compact police={mhPolice} state={mhState} />
           <p className="mt-4">
             <Link to="/states" className="file-cta">
               <span className="file-cta-notch" aria-hidden="true" />
-              Open the state index
+              All states
             </Link>
           </p>
         </section>
 
         <section className="docket-door bone layer-municipal">
-          <p className="kicker text-ochre">Municipal</p>
-          <h2 className="mt-2 font-display text-xl font-semibold tracking-tight">Municipal Corporations</h2>
-          <p className="layer-caption mt-3">Civic PDFs not typed. City police sits in state books.</p>
-          <div className="mt-6 border border-dashed border-ink/25 px-3 py-10 text-center text-[0.7rem] uppercase tracking-[0.16em] text-ink/40">
-            No hatch · no guessed rupee
-          </div>
+          <h2 className="font-display text-xl font-semibold tracking-tight">City</h2>
+          <p className="mt-3 max-w-[40ch] text-sm text-ink/75">No city book typed yet.</p>
           <p className="mt-4">
             <Link to="/municipal" className="file-cta">
               <span className="file-cta-notch" aria-hidden="true" />
-              Why this door is empty
+              Why city is empty
             </Link>
           </p>
         </section>
 
         <section className="docket-door bone layer-gram">
-          <p className="kicker" style={{ color: "var(--zinc)" }}>
-            Gram
-          </p>
-          <h2 className="mt-2 font-display text-xl font-semibold tracking-tight">Gram Panchayats</h2>
-          <p className="layer-caption mt-3">Village books not typed.</p>
-          <p className="mt-2 max-w-[35ch] text-[0.75rem] text-zinc">
-            Next search: XV FC RLB grant 2026-27 + state PR demand 2515.
-          </p>
-          <div className="mt-6 border border-dashed border-ink/25 px-3 py-10 text-center text-[0.7rem] uppercase tracking-[0.16em] text-ink/40">
-            No hatch · no guessed rupee
-          </div>
+          <h2 className="font-display text-xl font-semibold tracking-tight">Village</h2>
+          <p className="mt-3 max-w-[40ch] text-sm text-ink/75">No village book typed yet.</p>
           <p className="mt-4">
             <Link to="/gram" className="file-cta">
               <span className="file-cta-notch" aria-hidden="true" />
-              Why this door is empty
+              Why village is empty
             </Link>
           </p>
         </section>
       </div>
 
       <p className="mt-8 flex flex-wrap gap-6">
-        <Link to="/compare?left=maharashtra&right=uttar-pradesh" className="file-cta">
+        <Link to="/compare?left=maharashtra&right=karnataka" className="file-cta">
           <span className="file-cta-notch" aria-hidden="true" />
-          Compare two books
+          Compare two states
         </Link>
         <Link to="/search" className="file-cta">
           <span className="file-cta-notch" aria-hidden="true" />
-          Search the typed heads
+          Search
         </Link>
       </p>
 
-      <ul className="mt-8 flex flex-wrap gap-2" aria-label="GOLD police ledgers">
-        <li>
-          <Link to="/maharashtra/police" className="live-tag no-underline text-ink">
-            Maharashtra · GOLD
-          </Link>
-        </li>
-        <li>
-          <Link to="/uttar-pradesh/police" className="live-tag no-underline text-ink">
-            Uttar Pradesh · GOLD
-          </Link>
-        </li>
-        <li>
-          <Link to="/telangana/police" className="live-tag no-underline text-ink">
-            Telangana · GOLD
-          </Link>
-        </li>
-        <li>
-          <Link to="/west-bengal/police" className="live-tag no-underline text-ink">
-            West Bengal · GOLD
-          </Link>
-        </li>
-        <li>
-          <Link to="/gujarat/police" className="live-tag no-underline text-ink">
-            Gujarat · GOLD
-          </Link>
-        </li>
-        <li>
-          <Link to="/tamil-nadu/police" className="live-tag no-underline text-ink">
-            Tamil Nadu · GOLD
-          </Link>
-        </li>
-        <li>
-          <Link to="/karnataka/police" className="live-tag no-underline text-ink">
-            Karnataka · GOLD
-          </Link>
-        </li>
-        <li>
-          <Link to="/union/police" className="live-tag no-underline text-ink">
-            Union Demand 51 · GOLD
-          </Link>
-        </li>
-        <li>
-          <Link to="/union/delhi-police" className="live-tag no-underline text-ink">
-            Delhi Police · Union
-          </Link>
-        </li>
+      <ul className="mt-8 flex flex-wrap gap-x-4 gap-y-2 text-sm" aria-label="States we have read">
+        {[
+          ["/maharashtra/police", "Maharashtra"],
+          ["/uttar-pradesh/police", "Uttar Pradesh"],
+          ["/telangana/police", "Telangana"],
+          ["/west-bengal/police", "West Bengal"],
+          ["/gujarat/police", "Gujarat"],
+          ["/tamil-nadu/police", "Tamil Nadu"],
+          ["/karnataka/police", "Karnataka"],
+          ["/union/police", "Centre police"],
+        ].map(([to, name]) => (
+          <li key={to}>
+            <Link to={to}>{name}</Link>
+          </li>
+        ))}
       </ul>
-
-      <p className="mt-6 max-w-2xl text-sm text-ink/65">
-        The book stops where the printed line stops.{" "}
-        <Link to="/sources">Method</Link>
-        {" · "}
-        Not NGOs.
-      </p>
     </article>
   );
 }

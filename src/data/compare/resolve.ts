@@ -43,9 +43,9 @@ const MH_TOTAL = wrap(
 );
 
 export const COMPARE_ENTITIES: CompareEntity[] = [
-  { slug: "union-total", name: "Union total expenditure", layer: "union", href: "/union" },
-  { slug: "union-demand-51", name: "Union Demand 51 Police", layer: "union", href: "/union/police" },
-  { slug: "union-delhi", name: "Delhi Police (Union)", layer: "union", href: "/union/delhi-police" },
+  { slug: "union-total", name: "Union total", layer: "union", href: "/union" },
+  { slug: "union-demand-51", name: "Centre Police", layer: "union", href: "/union/police" },
+  { slug: "union-delhi", name: "Delhi Police", layer: "union", href: "/union/delhi-police" },
   ...jurisdictions
     .filter((j) => j.kind === "state")
     .map((j) => ({
@@ -54,8 +54,8 @@ export const COMPARE_ENTITIES: CompareEntity[] = [
       layer: "state" as const,
       href: `/${j.slug}/police`,
     })),
-  { slug: "municipal", name: "Municipal corporations", layer: "municipal", href: "/municipal" },
-  { slug: "gram", name: "Gram panchayats", layer: "gram", href: "/gram" },
+  { slug: "municipal", name: "City", layer: "municipal", href: "/municipal" },
+  { slug: "gram", name: "Village", layer: "gram", href: "/gram" },
   ...commissionerates.map((c) => ({
     slug: c.slug,
     name: c.name,
@@ -97,7 +97,7 @@ export function resolveSide(slug: string | undefined): CompareSide | undefined {
       entity,
       tier: "empty",
       bag: {},
-      note: "No named police-station rupee is typed. White Books stop at district force / commissionerate. We do not divide those totals by N stations.",
+      note: "No named police-station rupee is in the books we have read. We do not divide a city or state total by the number of stations.",
     };
   }
   const cp = commissionerates.find((c) => c.slug === slug);
@@ -105,7 +105,7 @@ export function resolveSide(slug: string | undefined): CompareSide | undefined {
     return { entity, tier: "gold", bag: { "police-functional": cp.combined } };
   }
   if (entity.layer === "municipal" || entity.layer === "gram") {
-    return { entity, tier: "empty", bag: {}, note: "Civic / village books not typed." };
+    return { entity, tier: "empty", bag: {}, note: "We have not read this book yet." };
   }
 
   if (slug === "union-total") {
@@ -116,7 +116,7 @@ export function resolveSide(slug: string | undefined): CompareSide | undefined {
       entity,
       tier: "gold",
       bag: { "police-functional": demand51Net },
-      note: "Centre Police demand — not a state 2055+4055 White Book.",
+      note: "Centre police — not a state book.",
     };
   }
   if (slug === "union-delhi") {

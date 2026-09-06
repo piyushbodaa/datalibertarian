@@ -31,27 +31,27 @@ export function GjPolicePage() {
 
   return (
     <article>
-      <p className="kicker">GOLD · Home Book · 2055 + 4055</p>
-      <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">
-        Gujarat Police spending
-      </h1>
+      <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">Gujarat Police</h1>
       <p className="mt-4 max-w-2xl text-ink">
-        Demand <strong>043 Police</strong> is head <strong>2055</strong> only. Capital outlay{" "}
-        <strong>4055</strong> is printed under Demand 046 — we take that 4055 line, not the mixed
-        Demand 046 total, and not jails (2056) or courts (2014).
+        What the state budget set aside to run the police and to build or buy for them. Not jails
+        or courts.
       </p>
 
       <div className="mt-8 border-y border-ink/20 py-8">
-        <p className="kicker text-ink/50">Budget estimate · FY {hero.fiscalYear}</p>
+        <p className="text-sm text-ink/55">2026-27 plan</p>
         <div className="mt-3">
-          <Money money={hero} size="hero" showSeries />
+          <Money money={hero} size="hero" />
         </div>
+        <p className="mt-4 max-w-xl text-sm text-ink/70">
+          Running costs ₹{formatCrore(run.crore)} crore · Buildings and gear ₹
+          {formatCrore(cap.crore)} crore.
+        </p>
       </div>
 
       <PrintedColumns
         run={gj2055}
         cap={gj4055}
-        caption="Each bar is 2055 plus 4055 as printed in crore. Actuals, Budget, and Revised are different kinds of figure — not one trend."
+        caption="Spent, plan, updated plan, and next plan. Amounts in crore."
       />
       <HeadSplit run={run} cap={cap} />
       <RankedHatch
@@ -60,45 +60,41 @@ export function GjPolicePage() {
         fiscalYear={GJ_HEADLINE_YEAR}
         series={GJ_HEADLINE_SERIES}
         shareOf={run}
-        title="2055 minor heads"
-        note="Share of 2055 Police, FY 2026-27 budget. Printed I-Summary. Lines sum to 2055."
+        title="Where the running-cost rupee sits"
+        note="Share of running costs, 2026-27 plan. Printed lines. They add up to running costs."
       />
 
       <section className="carbon-sheet mt-10 px-4 py-6 sm:px-6">
-        <p className="kicker text-ochre">Object heads · not a printed योग</p>
-        <h2 className="mt-2 font-display text-xl font-semibold">Object 01 salaries not summed</h2>
+        <h2 className="mt-2 font-display text-xl font-semibold">Salaries not split by station</h2>
         <p className="mt-3 max-w-2xl text-sm text-ink/75">
-          The detailed volume prints 0100 Salaries under each sub-head. There is no statewide object
-          01 योग typed here. The book stops at minor heads for this GOLD pass. We do not divide
-          district police by N stations.
+          The book prints pay under each office. A statewide salaries total is not typed here. We
+          do not divide district police by the number of stations.
         </p>
       </section>
 
       <TraceRail
         stops={[
-          { id: "book", label: "Book", detail: "Home Department Budget Estimates 2026-27" },
-          { id: "demand", label: "Demand 043 · 2055", money: run, detail: "Police running costs, crore as printed." },
-          { id: "cap", label: "4055 (from Demand 046)", money: cap, detail: "Police capital line only — not Demand 046 total." },
-          { id: "minor", label: "Minor 109 District Police", money: district },
+          { id: "book", label: "Book", detail: "Gujarat state budget, Home, 2026-27" },
+          { id: "run", label: "Running costs", money: run },
+          { id: "cap", label: "Buildings and gear", money: cap, detail: "Police buildings line only — not the whole Home capital grant." },
+          { id: "minor", label: "District police", money: district },
           {
             id: "object",
-            label: "Object 01 Salaries",
-            empty: "No statewide printed योग typed. Detailed 0100 lines sit under each sub-head.",
+            label: "Salaries",
+            empty: "A statewide salaries total is not typed here.",
           },
           {
             id: "station",
             label: "Named police station",
-            empty: "The book stops at the commissionerate / district force / object grain. We do not divide that total by N stations.",
+            empty: "The book stops at district force. We do not divide that total by the number of stations.",
           },
         ]}
       />
 
       <section className="index-slip mt-10">
-        <p className="kicker">INDEX · PRS AFS</p>
         <p className="mt-3 max-w-2xl text-sm text-ink/75">
-          PRS AFS Police functional for Gujarat, FY 2025-26 budget, is ₹
-          {idx.be2526.toLocaleString("en-IN")} crore. That is a different slip — not this White Book
-          hero of ₹{formatCrore(hero.crore)} crore (FY 2026-27 budget).
+          A research summary lists Gujarat police at ₹{idx.be2526.toLocaleString("en-IN")} crore
+          for 2025-26. That is not this official 2026-27 plan of ₹{formatCrore(hero.crore)} crore.
         </p>
       </section>
 
@@ -108,7 +104,8 @@ export function GjPolicePage() {
           <CitationFootnote citationId={hero.citationId} />
         </ol>
         <p className="mt-6">
-          <Link to="/states">States</Link> · <Link to="/sources">Method</Link>
+          Account codes in the book: 2055 (running), 4055 (buildings).{" "}
+          <Link to="/states">All states</Link> · <Link to="/sources">Method</Link>
         </p>
       </section>
     </article>

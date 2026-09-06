@@ -15,10 +15,10 @@ type Props = {
 export function HeadSplit({
   run,
   cap,
-  title = "Running costs and capital, this plan",
-  note = "Same Budget column as the headline. Capital is a thin slice — that is the book, not a drawing error.",
-  runLabel = "Running costs · 2055",
-  capLabel = "Capital · 4055",
+  title = "Running the force vs buildings and gear",
+  note = "Same year’s plan. Buildings and gear are the thin slice — that is the book.",
+  runLabel = "Running costs",
+  capLabel = "Buildings and gear",
 }: Props) {
   const total = run.crore + cap.crore;
   const runPct = (run.crore / total) * 100;
@@ -33,7 +33,7 @@ export function HeadSplit({
       <div
         className="flex h-10 w-full max-w-3xl overflow-hidden border border-carbon/40"
         role="img"
-        aria-label={`Running costs ${runPct.toFixed(1)} percent. Capital ${capPct.toFixed(1)} percent.`}
+        aria-label={`${runLabel} ${runPct.toFixed(1)} percent. ${capLabel} ${capPct.toFixed(1)} percent.`}
       >
         <div className="hatch-carbon h-full" style={{ width: `${runPct}%` }} />
         <div

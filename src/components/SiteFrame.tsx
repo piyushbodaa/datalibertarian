@@ -2,6 +2,12 @@ import type { ReactNode } from "react";
 import { NavLink } from "react-router-dom";
 import { EXTRACT_DATE } from "../data/sources";
 
+function figuresDate(iso: string): string {
+  const [y, m, d] = iso.split("-").map(Number);
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  return `${d} ${months[(m ?? 1) - 1]} ${y}`;
+}
+
 export function SiteFrame({ children }: { children: ReactNode }) {
   const link = ({ isActive }: { isActive: boolean }) =>
     `no-underline uppercase tracking-[0.14em] text-[0.7rem] font-medium ${
@@ -17,9 +23,6 @@ export function SiteFrame({ children }: { children: ReactNode }) {
             <span className="font-display text-[1.35rem] font-semibold tracking-tight sm:text-2xl">
               Data Libertarian
             </span>
-            <span className="mt-1 block text-[0.65rem] font-medium uppercase tracking-[0.16em] text-zinc sm:mt-0 sm:ml-3 sm:inline">
-              Union · State · Municipal · Gram
-            </span>
           </NavLink>
           <nav className="flex flex-wrap gap-x-5 gap-y-2">
             <NavLink to="/" className={link} end>
@@ -28,20 +31,11 @@ export function SiteFrame({ children }: { children: ReactNode }) {
             <NavLink to="/compare" className={link}>
               Compare
             </NavLink>
-            <NavLink to="/search" className={link}>
-              Search
-            </NavLink>
-            <NavLink to="/union" className={link}>
-              Union
-            </NavLink>
             <NavLink to="/states" className={link}>
               States
             </NavLink>
-            <NavLink to="/municipal" className={link}>
-              Municipal
-            </NavLink>
-            <NavLink to="/gram" className={link}>
-              Gram
+            <NavLink to="/union" className={link}>
+              Centre
             </NavLink>
             <NavLink to="/sources" className={link}>
               Method
@@ -55,11 +49,8 @@ export function SiteFrame({ children }: { children: ReactNode }) {
       <main className="mx-auto max-w-6xl px-4 py-9 sm:px-6 sm:py-10">{children}</main>
       <footer className="mx-auto max-w-6xl border-t border-ink/15 px-4 py-6 text-xs text-ink/55 sm:px-6">
         <p>
-          Figures extracted {EXTRACT_DATE} from official budget documents. Every number on this site
-          has a citation. Empty doors have no number. Compare never mixes unlike books. Not NGOs.
-        </p>
-        <p className="mt-1">
-          <NavLink to="/sources">How the numbers were taken from the books</NavLink>
+          Figures taken from official budget books. Empty means we have not read that book yet.
+          Figures from {figuresDate(EXTRACT_DATE)}.
         </p>
       </footer>
     </div>

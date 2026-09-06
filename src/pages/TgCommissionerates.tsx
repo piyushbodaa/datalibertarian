@@ -6,14 +6,13 @@ import { commissionerates, cpHero } from "../data/telangana/commissionerates";
 export function TgCommissioneratesPage() {
   return (
     <article>
-      <p className="kicker">Telangana · Law+Home · HoDs</p>
       <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">
-        Metro commissionerates
+        Telangana city police
       </h1>
       <p className="mt-3 max-w-2xl text-ink">
-        Law+Home prints <strong>commissionerate HoD totals</strong>. These are not statewide Police
-        object 010, not Demand X Home, and not police-station allotments. We do not add them into
-        the INDEX envelope, and we do not total the five as metro Police.
+        These are city-police office totals from the state book. They are not the statewide
+        police number, not the whole Home grant, and not money for a named police station. We do
+        not add the five into one metro total.
       </p>
 
       <ul className="mt-8 divide-y divide-ink/15 border-y border-ink/20">
@@ -28,15 +27,12 @@ export function TgCommissioneratesPage() {
                 >
                   {cp.name}
                 </Link>
-                <p className="text-sm text-ink/60">
-                  {cp.hod} · MH {cp.majorHead}
-                  {cp.missingYears.length ? " · year-gap in the books" : ""}
-                </p>
+                {cp.missingYears.length ? (
+                  <p className="text-sm text-ink/60">A year is missing in the book.</p>
+                ) : null}
               </div>
               <div className="sm:text-right">
-                <p className="text-[0.7rem] uppercase tracking-[0.12em] text-ink/50">
-                  {seriesYearLabel(hero)}
-                </p>
+                <p className="text-sm text-ink/50">{seriesYearLabel(hero)}</p>
                 <Money money={hero} size="row" />
               </div>
             </li>
@@ -45,17 +41,15 @@ export function TgCommissioneratesPage() {
       </ul>
 
       <section className="carbon-sheet mt-10 px-4 py-6 sm:px-6">
-        <p className="kicker text-ochre">Not a metro total</p>
-        <h2 className="mt-2 font-display text-xl font-semibold">No sum of these HoDs</h2>
+        <h2 className="mt-2 font-display text-xl font-semibold">Not a metro total</h2>
         <p className="mt-3 max-w-2xl text-sm text-ink/75">
-          Adding the rows would not be statewide Police, would not be Demand X Home, and would
-          still not be station money. The statewide GOLD hero stays object 010 on{" "}
-          <Link to="/telangana/police">Telangana Police</Link>.
+          Adding these rows would still not be statewide police, and still not be station money.
+          The statewide number stays on <Link to="/telangana/police">Telangana Police</Link>.
         </p>
       </section>
 
       <p className="mt-8 text-sm">
-        <Link to="/telangana/police">Statewide object 010</Link>
+        <Link to="/telangana/police">Telangana Police</Link>
         {" · "}
         <Link to="/sources">Method</Link>
       </p>

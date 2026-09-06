@@ -17,10 +17,9 @@ export function SearchPage() {
 
   return (
     <article>
-      <p className="kicker">Search · typed heads</p>
-      <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">Find a printed head.</h1>
+      <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">Search</h1>
       <p className="mt-3 max-w-2xl text-ink">
-        Client-side index over books already typed. No server. No invented rows.
+        Search the lines we have already typed. If it is not here, we have not read it yet.
       </p>
       <form
         className="mt-6"
@@ -35,7 +34,7 @@ export function SearchPage() {
             className="mt-1 w-full max-w-xl border border-ink/20 bg-paper px-3 py-2"
             value={draft}
             onChange={(e) => setDraft(e.target.value)}
-            placeholder="2055, salaries, Demand 51, Maharashtra, 4055…"
+            placeholder="police, salaries, Maharashtra, Karnataka…"
           />
         </label>
         <button type="submit" className="file-cta mt-4">
@@ -46,7 +45,7 @@ export function SearchPage() {
 
       {q && hits.length === 0 ? (
         <section className="carbon-sheet mt-8 px-4 py-6 sm:px-6">
-          <p className="kicker text-ochre">Nothing in the index</p>
+          <h2 className="font-display text-xl font-semibold">Nothing found</h2>
           <p className="mt-2 text-sm text-ink/75">Not in the typed books. We do not invent it.</p>
         </section>
       ) : null}
@@ -57,9 +56,7 @@ export function SearchPage() {
             <Link to={h.href} className="font-medium text-ink no-underline hover:text-rust">
               {h.plainLabel}
             </Link>
-            <p className="text-sm text-ink/60">
-              {h.entity} · {h.officialName} · {h.head}
-            </p>
+            <p className="text-sm text-ink/60">{h.entity}</p>
             {h.money ? (
               <p className="mt-1">
                 <Money money={h.money} size="row" />
@@ -70,9 +67,9 @@ export function SearchPage() {
       </ul>
 
       <p className="mt-8 text-sm">
-        <Link to="/compare">Compare two books</Link>
+        <Link to="/compare">Compare two states</Link>
         {" · "}
-        <Link to="/sources">How search works</Link>
+        <Link to="/sources">Method</Link>
       </p>
     </article>
   );

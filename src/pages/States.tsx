@@ -18,11 +18,12 @@ import {
 } from "../data/prs-index/afs-police";
 import { coverageCounts } from "../data/coverage";
 import { gjFunctional } from "../data/gujarat/police";
-import { type Jurisdiction, jurisdictions, tierLabel, type PoliceTier } from "../data/states";
+import { type Jurisdiction, jurisdictions, type PoliceTier } from "../data/states";
 import { tnFunctional } from "../data/tamil-nadu/police";
 import { tgObject010 } from "../data/telangana/police";
 import { upFunctional } from "../data/uttar-pradesh/police";
 import { wbFunctional } from "../data/west-bengal/police";
+import { kaFunctional } from "../data/karnataka/police";
 import { formatCrore } from "../lib/money";
 
 const TIER_CLASS: Record<PoliceTier, string> = {
@@ -46,83 +47,45 @@ export function StatesPage() {
   const wb = pickAmount(wbFunctional, "2026-27", "be");
   const gj = pickAmount(gjFunctional, "2026-27", "be");
   const tn = pickAmount(tnFunctional, "2026-27", "be");
+  const ka = pickAmount(kaFunctional, "2026-27", "be");
   const mhIndex = getIndexRow("maharashtra");
-  if (!mh || !run || !cap || !up || !tg || !wb || !gj || !tn || !mhIndex) {
+  if (!mh || !run || !cap || !up || !tg || !wb || !gj || !tn || !ka || !mhIndex) {
     throw new Error("Missing state headline figures");
   }
 
   return (
     <article>
-      <p className="kicker">State books</p>
-      <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">State Governments</h1>
+      <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">States</h1>
       <p className="mt-3 max-w-2xl text-ink">
-        {goldN} GOLD White Book ledgers. {indexN} INDEX envelopes from PRS AFS Police functional.
-        {cov.blocked} BLOCKED · {cov.empty} EMPTY. No invented rupee. GOLD and INDEX are different
-        slips — never one India-total.
+        Official police figures where we have read the book. {goldN} states from official books.
+        The rest are not ready.
       </p>
 
       <section className="mt-8 border-y border-ink/20 py-8">
-        <p className="kicker">GOLD LIVE · official books</p>
-        <h2 className="mt-2 font-display text-2xl font-semibold tracking-tight">
-          White Book / Demand ledgers
-        </h2>
+        <h2 className="font-display text-2xl font-semibold tracking-tight">From official books</h2>
         <ul className="mt-5 divide-y divide-ink/15 border-y border-ink/20">
-          <GoldRow
-            to="/maharashtra/police"
-            name="Maharashtra Police"
-            note="Home White Book · 2055 + 4055"
-            money={mh}
-          />
-          <GoldRow
-            to="/uttar-pradesh/police"
-            name="Uttar Pradesh Police"
-            note="Grant 26 · 2055 voted printed + 4055 योग"
-            money={up}
-          />
-          <GoldRow
-            to="/west-bengal/police"
-            name="West Bengal Police"
-            note="Demand 68 slices · 2055 net + 4055"
-            money={wb}
-          />
-          <GoldRow
-            to="/telangana/police"
-            name="Telangana Police"
-            note="Law+Home object 010 desk-sum — not Demand X Home"
-            money={tg}
-          />
-          <GoldRow
-            to="/gujarat/police"
-            name="Gujarat Police"
-            note="Demand 043 2055 + 4055 line from Demand 046"
-            money={gj}
-          />
-          <GoldRow
-            to="/tamil-nadu/police"
-            name="Tamil Nadu Police"
-            note="Demand 22 slices · 2055 + 4055 — not the mixed demand"
-            money={tn}
-          />
+          <GoldRow to="/maharashtra/police" name="Maharashtra" money={mh} />
+          <GoldRow to="/uttar-pradesh/police" name="Uttar Pradesh" money={up} />
+          <GoldRow to="/west-bengal/police" name="West Bengal" money={wb} />
+          <GoldRow to="/telangana/police" name="Telangana" money={tg} />
+          <GoldRow to="/gujarat/police" name="Gujarat" money={gj} />
+          <GoldRow to="/tamil-nadu/police" name="Tamil Nadu" money={tn} />
+          <GoldRow to="/karnataka/police" name="Karnataka" money={ka} />
         </ul>
         <div className="mt-6">
-          <HeadSplit
-            run={run}
-            cap={cap}
-            title="Maharashtra 2055 and 4055"
-            note="Same White Book Budget column. Capital is the thin slice as printed."
-          />
+          <HeadSplit run={run} cap={cap} title="Maharashtra police, this plan" note="Running the force vs buildings and gear." />
         </div>
       </section>
 
       <section className="index-slip mt-10">
-        <p className="kicker">INDEX · PRS AFS</p>
         <h2 className="mt-2 font-display text-xl font-semibold tracking-tight sm:text-2xl">
-          Twenty-seven envelopes
+          Not read from the book yet
         </h2>
         <p className="mt-3 max-w-2xl text-sm text-ink/75">
-          FY 2025-26 budget, ranked from typed INDEX JSON. Each bar cites that state’s PRS analysis.
-          Maharashtra’s INDEX figure is ₹{mhIndex.be2526.toLocaleString("en-IN")} crore — not the
-          White Book hero ₹{formatCrore(mh.crore)} crore on the GOLD ledger.
+          A research summary lists police figures for {indexN} states for 2025-26. Those are not
+          from the official books, so they are not the numbers we compare. Maharashtra’s official
+          police figure is ₹{formatCrore(mh.crore)} crore, not the summary’s ₹
+          {mhIndex.be2526.toLocaleString("en-IN")} crore.
         </p>
         <RankedHatch
           tone="index"
@@ -130,8 +93,8 @@ export function StatesPage() {
           items={indexPoliceLines}
           fiscalYear={INDEX_YEAR}
           series={INDEX_SERIES}
-          title="PRS AFS Police functional"
-          note="INDEX, not GOLD LIVE. Share of the 27 listed envelopes, FY 2025-26 budget. Other printed series are not typed on this machine — we do not invent them."
+          title="Research summaries, 2025-26"
+          note="Not official books. We do not use these as the main number."
         />
       </section>
 
@@ -139,9 +102,9 @@ export function StatesPage() {
       <Section title="Union Territories" rows={uts} />
 
       <p className="mt-10 max-w-2xl text-sm text-ink/65">
-        Union Territory police often sits in the Centre’s books. Delhi Police is a{" "}
-        <Link to="/union/delhi-police">Union sub-door</Link>, not a state rank. Demand 51 net is{" "}
-        <Link to="/union/police">not the sum of the states</Link>. <Link to="/sources">Method</Link>.
+        Delhi Police sits in the Centre’s books. <Link to="/union/delhi-police">Open Delhi Police</Link>
+        {" · "}
+        <Link to="/sources">Method</Link>
       </p>
     </article>
   );
@@ -150,22 +113,17 @@ export function StatesPage() {
 function GoldRow({
   to,
   name,
-  note,
   money,
 }: {
   to: string;
   name: string;
-  note: string;
   money: { crore: number; rupees: number; series: "actual" | "be" | "re"; fiscalYear: string; citationId: string };
 }) {
   return (
     <li className="flex flex-col gap-1 py-3 sm:flex-row sm:items-baseline sm:justify-between">
-      <div>
-        <Link to={to} className="font-medium text-ink no-underline hover:text-rust">
-          {name}
-        </Link>
-        <p className="text-sm text-ink/60">{note}</p>
-      </div>
+      <Link to={to} className="font-medium text-ink no-underline hover:text-rust">
+        {name}
+      </Link>
       <Money money={money} size="row" />
     </li>
   );
@@ -181,11 +139,13 @@ function Section({ title, rows }: { title: string; rows: typeof jurisdictions })
             <Link to={doorPath(j)} className="font-medium text-ink no-underline hover:text-rust">
               {j.name}
             </Link>
-            <span
-              className={`text-[0.7rem] font-semibold uppercase tracking-[0.14em] ${TIER_CLASS[j.tier]}`}
-            >
-              {tierLabel(j.tier)}
-            </span>
+            {j.tier === "gold" ? (
+              <span className="text-sm text-ink/55">Official</span>
+            ) : (
+              <span className={`text-sm ${TIER_CLASS[j.tier]}`}>
+                {j.tier === "blocked" ? "Can't read a clean number" : "Not ready"}
+              </span>
+            )}
           </li>
         ))}
       </ul>

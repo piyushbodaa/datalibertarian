@@ -67,8 +67,8 @@ export function LedgerTable({ items, caption }: Props) {
                   className={`px-3 py-2 text-right font-sans font-semibold ${c.fiscalYear === "2026-27" ? "bg-ochre/15" : ""}`}
                 >
                   <span className="block">{SERIES_LABEL[c.series]}</span>
-                  <span className="block text-[0.7rem] font-normal uppercase tracking-wide text-ink/55">
-                    FY {c.fiscalYear}
+                  <span className="block text-[0.7rem] font-normal text-ink/55">
+                    {c.fiscalYear}
                   </span>
                 </th>
               ))}
@@ -79,9 +79,6 @@ export function LedgerTable({ items, caption }: Props) {
               <tr key={item.id} className="border-b border-ink/15">
                 <th className="sticky left-0 bg-paper px-3 py-2 font-sans font-normal">
                   <span className="block">{item.plainLabel}</span>
-                  <span className="block text-[0.7rem] uppercase tracking-wide text-ink/50">
-                    {item.officialName}
-                  </span>
                 </th>
                 {COLS.map((c) => {
                   const m = pickAmount(item, c.fiscalYear, c.series);

@@ -25,7 +25,7 @@ function four(actual2425: number, be2526: number, re2526: number, be2627: number
 /** Demand 51 net Grand Total — Notes on Demands, p. 176 */
 export const demand51Net: LineItem = {
   id: "union-51-net",
-  plainLabel: "Union Demand 51 — Police (net)",
+  plainLabel: "Centre police",
   officialName: "Demand No. 51 Police — Grand Total (net of recoveries)",
   head: "union-51",
   amounts: four(146634.82, 160391.06, 162283.39, 173802.53),

@@ -14,7 +14,7 @@ import {
   UNION_HEADLINE_SERIES,
   UNION_HEADLINE_YEAR,
 } from "../data/union/demand-51";
-import { formatCrore, SERIES_PLAIN } from "../lib/money";
+import { formatCrore } from "../lib/money";
 
 export function UnionPolicePage() {
   const hero = pickAmount(demand51Net, UNION_HEADLINE_YEAR, UNION_HEADLINE_SERIES);
@@ -28,24 +28,23 @@ export function UnionPolicePage() {
 
   return (
     <article>
-      <p className="kicker">Union books → Demand 51 → Police</p>
       <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">
-        Union Demand 51 — Police
+        Centre Police
       </h1>
       <p className="mt-4 max-w-2xl text-ink">
-        This is the Centre’s Police demand: Central Armed Police Forces, Delhi Police, Jammu and
-        Kashmir Police, the Intelligence Bureau, border and police infrastructure, and related
-        schemes. It is <strong>not</strong> the total of every state’s police budget.
+        What the Union budget set aside for Central Armed Police Forces, Delhi Police, Jammu and
+        Kashmir Police, the Intelligence Bureau, and related schemes. Not the total of every
+        state’s police budget.
       </p>
 
       <div className="mt-8 border-y border-ink/20 py-8">
-        <p className="kicker text-ink/50">Budget estimate · FY {hero.fiscalYear} · net</p>
+        <p className="text-sm text-ink/55">2026-27 plan</p>
         <div className="mt-3">
           <Money money={hero} size="hero" />
         </div>
         <p className="mt-4 max-w-xl text-sm text-ink/70">
-          {SERIES_PLAIN[hero.series]}. Revenue ₹{formatCrore(rev.crore)} crore
-          <CitationChip citationId={rev.citationId} compact /> plus capital ₹
+          Running costs ₹{formatCrore(rev.crore)} crore
+          <CitationChip citationId={rev.citationId} compact /> · Buildings and gear ₹
           {formatCrore(cap.crore)} crore
           <CitationChip citationId={cap.citationId} compact />.
         </p>
@@ -54,16 +53,16 @@ export function UnionPolicePage() {
       <PrintedColumns
         run={demand51Revenue}
         cap={demand51Capital}
-        caption="Each bar is Demand 51 net (revenue plus capital) as the Notes on Demands print it. Actuals, Budget, and Revised are different kinds of figure — not one trend."
+        caption="Spent, plan, updated plan, and next plan. Each bar is this Centre police book as printed."
       />
 
       <HeadSplit
         run={rev}
         cap={cap}
-        title="Revenue and capital, this plan"
-        note="Same Budget column as the headline. Capital is the smaller slice of Demand 51 — as printed, not a drawing error."
-        runLabel="Revenue"
-        capLabel="Capital"
+        title="Running costs vs buildings and gear"
+        note="Same year’s plan. Buildings and gear are the thinner slice — that is the book."
+        runLabel="Running costs"
+        capLabel="Buildings and gear"
       />
 
       <RankedHatch
@@ -72,39 +71,37 @@ export function UnionPolicePage() {
         series={UNION_HEADLINE_SERIES}
         shareOf={hero}
         title="Largest printed groups"
-        note={`Share of Demand 51 net, ${UNION_HEADLINE_YEAR} budget. Same document. Smaller printed lines are not listed; the bars will not fill 100%.`}
+        note={`Share of Centre police, ${UNION_HEADLINE_YEAR} plan. Same document. Smaller printed lines are not listed; the bars will not fill 100%.`}
       />
 
       <section className="carbon-sheet mt-14 px-4 py-6 sm:px-6">
-        <p className="kicker">Union sub-door · not Demand 51 net</p>
         <h2 className="mt-2 font-display text-xl font-semibold tracking-tight">
-          Delhi Police — establishment + infrastructure
+          Delhi Police
         </h2>
         <p className="mt-3 max-w-2xl text-sm text-ink/75">
-          The printed group labelled Delhi Police on this demand is establishment. The Union
-          sub-door adds Police Infrastructure earmarked Delhi Police. It is not the Demand 51 net
-          total, not GNCTD AFS, and not a state rank.
+          Delhi Police sits in this Centre book, not the Delhi government book. The Delhi Police
+          page adds buildings money earmarked for that force. It is not this whole Centre police
+          total.
         </p>
         <p className="mt-4">
           <Link to="/union/delhi-police" className="file-cta">
             <span className="file-cta-notch" aria-hidden="true" />
-            Open the Delhi Police ledger
+            Open Delhi Police
           </Link>
         </p>
       </section>
 
       <section className="carbon-sheet mt-10 px-4 py-6 sm:px-6">
-        <p className="kicker text-ochre">Related ministry · quieter</p>
         <h2 className="mt-2 font-display text-xl font-semibold text-ink/80">
-          The Ministry of Home Affairs is not police-only
+          The Home ministry is larger than police
         </h2>
         <p className="mt-3 max-w-2xl text-sm text-ink/70">
-          Demand 51 sits inside the Ministry of Home Affairs. That ministry also includes Cabinet,
-          Union Territory demands, and transfers. Do not treat the ministry total as Police
-          spending. The Police number above is Demand 51 net.
+          Centre police sits inside the Ministry of Home Affairs. That ministry also includes
+          Cabinet, Union Territory books, and transfers. Do not treat the ministry total as
+          Police. The Police number above is this demand only.
         </p>
         <p className="mt-4 text-ink/80">
-          Ministry of Home Affairs, FY {mhaTotalBe2627.fiscalYear} budget:{" "}
+          Ministry of Home Affairs, {mhaTotalBe2627.fiscalYear} plan:{" "}
           <Money money={mhaTotalBe2627} size="row" />
         </p>
       </section>
@@ -117,7 +114,9 @@ export function UnionPolicePage() {
           ))}
         </ol>
         <p className="mt-6">
-          Method: <Link to="/sources">Sources</Link>. State police books:{" "}
+          Account in the book: Demand 51 (Police).{" "}
+          <Link to="/sources">Method</Link>
+          {" · "}
           <Link to="/states">States</Link>.
         </p>
       </section>

@@ -23,8 +23,8 @@ const SERIES_HATCH: Record<string, { fill: string; hatch: string; stroke: string
 export function PrintedColumns({
   run,
   cap,
-  caption = "Each bar is Police running costs plus capital (2055 + 4055) as the White Book prints it. Actuals, Budget, and Revised are different kinds of figure — not one trend. Empty years are not filled in.",
-  title = "Four columns as printed",
+  caption = "Spent, plan, updated plan, and next plan. Empty years stay empty.",
+  title = "Last four official figures",
   compact = false,
   barsOnly = false,
 }: Props) {
@@ -60,7 +60,7 @@ export function PrintedColumns({
     <figure className={compact ? "mt-4" : "mt-8"}>
       <ChartCaption title={title}>
         {caption}
-        {citationId ? <CitationChip citationId={citationId} /> : null}
+        {citationId && !compact ? <CitationChip citationId={citationId} /> : null}
       </ChartCaption>
 
       <ol className={barsOnly ? "max-w-3xl space-y-3" : "max-w-3xl space-y-4 sm:hidden"}>
@@ -74,7 +74,7 @@ export function PrintedColumns({
                 <span className="font-semibold">{SERIES_LABEL[col.series]}</span>{" "}
                 <span className="text-ink/60">{col.fiscalYear}</span>
                 <span className="num mt-0.5 block text-[0.8rem]">
-                  {col.run && col.cap ? `₹${formatCrore(col.total)} cr` : "—"}
+                  {col.run && col.cap ? `₹${formatCrore(col.total)} crore` : "—"}
                 </span>
               </div>
               <div
@@ -95,7 +95,7 @@ export function PrintedColumns({
         role="img"
         aria-labelledby="printed-cols-title printed-cols-desc"
       >
-        <title id="printed-cols-title">Maharashtra Police spending, four White Book columns</title>
+        <title id="printed-cols-title">Last four official figures</title>
         <defs>
           <pattern
             id="hatch-carbon"
@@ -260,7 +260,7 @@ export function PrintedColumns({
           <rect width="12" height="12" fill="var(--rust)" fillOpacity="0.16" stroke="var(--rust)" />
           <rect width="12" height="12" fill="url(#hatch-rust)" />
           <text x="16" y="10" fill="var(--ink)">
-            Actuals · booked
+            Spent
           </text>
           <rect
             x="148"
@@ -272,7 +272,7 @@ export function PrintedColumns({
           />
           <rect x="148" width="12" height="12" fill="url(#hatch-carbon)" />
           <text x="164" y="10" fill="var(--ink)">
-            Budget · plan
+            Plan
           </text>
           <rect
             x="278"
@@ -284,14 +284,14 @@ export function PrintedColumns({
           />
           <rect x="278" width="12" height="12" fill="url(#hatch-ochre)" />
           <text x="294" y="10" fill="var(--ink)">
-            Revised · mid-year
+            Updated plan
           </text>
         </g>
       </svg>
       {compact ? null : (
         <p className="mt-1 max-w-3xl text-[0.7rem] text-ink/55">
-          Axis in crore of rupees. Hatch plus the words Actuals / Budget / Revised mark the series —
-          not colour alone. Totals on the bars are rounded for the eye; the table keeps two decimals.
+          Axis in crore of rupees. Spent, plan, and updated plan are different kinds of figure — not
+          one trend. Totals on the bars are rounded for the eye.
         </p>
       )}
     </figure>

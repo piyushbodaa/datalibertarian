@@ -67,13 +67,13 @@ export function RankedHatch({
   const shown = limit ? display.slice(0, limit) : display;
   const hatchClass = tone === "index" ? "hatch-zinc border-zinc/50" : "hatch-carbon border-carbon/50";
 
-  const seriesWord = series === "be" ? "budget" : series === "re" ? "revised" : "actuals";
+  const seriesWord = series === "be" ? "plan" : series === "re" ? "updated plan" : "spent";
 
   return (
     <figure className={compact ? "mt-4" : "mt-10"}>
       <ChartCaption title={title}>
         {note ??
-          `Ranked against the largest line (district police). Running costs only (head 2055, voted), ${fiscalYear} ${seriesWord}. Same document, same year. Lines under 2% are grouped as other.`}
+          `Ranked against the largest line (district police). Running costs only, ${fiscalYear} ${seriesWord}. Same document, same year. Lines under 2% are grouped as other.`}
         <CitationChip citationId={citationId} />
       </ChartCaption>
       <ol className={compact ? "mt-2 space-y-2" : "mt-2 space-y-3.5"}>
@@ -86,7 +86,7 @@ export function RankedHatch({
                 <span className="min-w-0">{r.label}</span>
                 <span className="num mt-0.5 block text-[0.75rem] text-ink/80 sm:mt-0 sm:text-sm">
                   {pct.toFixed(1)}% · {Number.isInteger(r.crore)
-                    ? `₹${r.crore.toLocaleString("en-IN")} cr`
+                    ? `₹${r.crore.toLocaleString("en-IN")} crore`
                     : formatMoneyShort({ ...rows[0].amount, crore: r.crore, rupees: Math.round(r.crore * 10_000_000) })}
                   <CitationChip citationId={r.citationId} compact />
                 </span>

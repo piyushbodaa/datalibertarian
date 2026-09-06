@@ -21,14 +21,7 @@ export function CompareRow({
 
   return (
     <li className="border-b border-ink/15 py-4">
-      <p className="text-sm font-medium">
-        {field.label}
-        {field.notPoliceOnly ? (
-          <span className="ml-2 text-[0.65rem] uppercase tracking-[0.12em] text-ochre">
-            not police-only
-          </span>
-        ) : null}
-      </p>
+      <p className="text-sm font-medium">{field.label}</p>
       <div className="mt-2 grid grid-cols-3 gap-2">
         <Bar money={left} hatch="hatch-rust" max={max} />
         <Bar money={mid?.money} hatch="hatch-ochre" max={max} empty={!mid} />
@@ -36,11 +29,11 @@ export function CompareRow({
       </div>
       <dl className="mt-2 flex flex-wrap gap-x-6 gap-y-1 text-sm">
         <Cell label="Left" money={left} />
-        <Cell label={mid ? `Median of ${mid.n}` : "Median"} money={mid?.money} blank={mid ? undefined : "no GOLD peer printed this line"} />
+        <Cell label={mid ? `Middle of ${mid.n}` : "Middle"} money={mid?.money} blank={mid ? undefined : "no official book printed this line"} />
         <Cell label="Right" money={right} />
         {leftVsMid !== undefined ? (
           <div>
-            <dt className="inline text-ink/55">Left − median · </dt>
+            <dt className="inline text-ink/55">Left − middle · </dt>
             <dd className="inline num">
               {leftVsMid >= 0 ? "+" : "−"}₹{formatCrore(Math.abs(leftVsMid))} crore
             </dd>
@@ -48,7 +41,7 @@ export function CompareRow({
         ) : null}
         {rightVsMid !== undefined ? (
           <div>
-            <dt className="inline text-ink/55">Right − median · </dt>
+            <dt className="inline text-ink/55">Right − middle · </dt>
             <dd className="inline num">
               {rightVsMid >= 0 ? "+" : "−"}₹{formatCrore(Math.abs(rightVsMid))} crore
             </dd>
@@ -57,7 +50,7 @@ export function CompareRow({
       </dl>
       {mid?.thin ? (
         <p className="mt-1 text-[0.7rem] uppercase tracking-[0.12em] text-ochre">
-          Thin peer set · N = {mid.n}
+          Not enough books yet · {mid.n}
         </p>
       ) : null}
     </li>

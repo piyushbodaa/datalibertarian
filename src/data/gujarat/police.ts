@@ -24,7 +24,7 @@ function minor(
 /** Demand 043 — 2055 Police. Units crore as printed. */
 export const gj2055: LineItem = {
   id: "gj-2055",
-  plainLabel: "Police (running costs)",
+  plainLabel: "Running costs",
   officialName: "2055 Police — Demand 043 (crore)",
   head: "2055",
   amounts: four(7617.4658, 8538.32, 8053.66, 9055.62),
@@ -37,7 +37,7 @@ export const gj2055: LineItem = {
  */
 export const gj4055: LineItem = {
   id: "gj-4055",
-  plainLabel: "Police buildings and equipment (capital)",
+  plainLabel: "Buildings and gear",
   officialName: "4055 Capital outlay on Police (printed under Demand 046)",
   head: "4055",
   amounts: four(512.3896, 1490.25, 1212.57, 964.73),

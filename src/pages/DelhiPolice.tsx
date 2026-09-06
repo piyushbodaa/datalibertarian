@@ -10,16 +10,16 @@ export function DelhiPolicePage() {
 
   return (
     <article>
-      <p className="kicker">Union books → Demand 51 → Delhi Police</p>
       <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">
-        Delhi Police (Union)
+        Delhi Police
       </h1>
       <p className="mt-3 max-w-2xl text-ink">
-        Establishment (Demand 51 item 5) plus Police Infrastructure earmarked Delhi Police (item
-        14.02). Not GNCTD AFS. Not the Demand 51 net total. Not a state INDEX row.
+        Delhi Police sits in the Centre’s books, not the Delhi government book. This is the
+        force’s own line plus money set aside for its buildings — not the whole Centre police
+        total.
       </p>
       <div className="mt-8 border-y border-ink/20 py-8">
-        <p className="kicker text-ink/50">Establishment + infrastructure · FY 2026-27 budget</p>
+        <p className="text-sm text-ink/55">2026-27 plan</p>
         <div className="mt-3">
           <Money money={hero} size="hero" showSeries />
         </div>
@@ -37,7 +37,7 @@ export function DelhiPolicePage() {
       <p className="mt-8">
         <Link to="/union/police" className="file-cta">
           <span className="file-cta-notch" aria-hidden="true" />
-          Demand 51 net ledger
+          Centre police
         </Link>
       </p>
       <section className="mt-12 text-sm text-ink/70">
@@ -47,6 +47,9 @@ export function DelhiPolicePage() {
             <CitationFootnote key={id} citationId={id} />
           ))}
         </ol>
+        <p className="mt-6">
+          <Link to="/sources">Method</Link>
+        </p>
       </section>
     </article>
   );

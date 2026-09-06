@@ -1,9 +1,8 @@
 import { Link, Navigate, useParams } from "react-router-dom";
 import { CitationFootnote } from "../components/CitationChip";
 import { Money } from "../components/Money";
-import { searchLogFor } from "../data/coverage";
 import { apLastFound, getIndexLine } from "../data/prs-index/afs-police";
-import { type Jurisdiction, getJurisdiction, tierLabel } from "../data/states";
+import { getJurisdiction, tierLabel } from "../data/states";
 
 export function EmptyPolicePage() {
   const { slug } = useParams();
@@ -17,35 +16,19 @@ export function EmptyPolicePage() {
     if (!hero) return <Navigate to="/states" replace />;
     return (
       <article>
-        <p className="kicker" style={{ color: "var(--zinc)" }}>
-          {tierLabel(j.tier)}
-        </p>
         <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">
           {j.name} Police
         </h1>
         <div className="index-slip mt-6">
-          <p className="kicker">INDEX · PRS AFS</p>
-          <p className="mt-2 text-sm text-ink/70">
-            PRS AFS Police functional — not state White Book depth yet.
+          <p className="mt-2 max-w-2xl text-sm text-ink/75">
+            We have not read this state’s official budget book yet. A research summary lists a
+            police figure for 2025-26. That is not from the state’s book, so it is not the number
+            we use to compare.
           </p>
-          <p className="mt-3 max-w-2xl text-sm text-ink/75">
-            INDEX envelope only. This is not a Grant, White Book, or Demand extract. We do not
-            dress it as GOLD LIVE.
+          <p className="mt-6 text-sm text-ink/60">
+            Research summary, 2025-26 plan: <Money money={hero} size="row" />
           </p>
-          <div className="mt-6 border-y border-ink/15 py-6">
-            <p className="kicker text-ink/50">Budget · FY 2025-26</p>
-            <div className="mt-3">
-              <Money money={hero} size="hero" showSeries />
-            </div>
-          </div>
-          {j.depthGap ? (
-            <p className="mt-4 text-sm text-ink/70">
-              Object-head depth: <strong>GAP on disk</strong>. Demand PDFs are not typed. Headline
-              stays INDEX until they land.
-            </p>
-          ) : null}
           {j.indexNote ? <p className="mt-4 text-sm text-ink/70">{j.indexNote}</p> : null}
-          <SearchNote j={j} />
         </div>
         <section className="mt-10 text-sm text-ink/70">
           <h2 className="font-display text-lg font-semibold text-ink">Footnotes</h2>
@@ -53,9 +36,9 @@ export function EmptyPolicePage() {
             <CitationFootnote citationId={hero.citationId} />
           </ol>
           <p className="mt-6">
-            <Link to="/states">All 27 INDEX envelopes</Link>
+            <Link to="/states">All states</Link>
             {" · "}
-            <Link to="/sources">How INDEX differs from GOLD</Link>
+            <Link to="/sources">Method</Link>
           </p>
         </section>
       </article>
@@ -66,24 +49,22 @@ export function EmptyPolicePage() {
     const ap = j.slug === "andhra-pradesh";
     return (
       <article>
-        <p className="kicker text-ochre">{tierLabel(j.tier)}</p>
         <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">
           {j.name} Police
         </h1>
         <section className="carbon-sheet mt-8 px-4 py-6 sm:px-6">
-          <p className="kicker text-ochre">Honesty slip</p>
-          <h2 className="mt-2 font-display text-xl font-semibold">Later years are not rupees</h2>
+          <h2 className="mt-2 font-display text-xl font-semibold">{tierLabel(j.tier)}</h2>
           <p className="mt-3 max-w-2xl text-sm text-ink/75">{j.blockReason}</p>
           {ap ? (
             <dl className="mt-5 max-w-xl divide-y divide-ink/15 border-y border-ink/20 text-sm">
               <div className="flex justify-between gap-4 py-2.5">
-                <dt>Last found · Budget FY 2024-25</dt>
+                <dt>Last found · 2024-25 plan</dt>
                 <dd>
                   <Money money={apLastFound.be2425} size="row" />
                 </dd>
               </div>
               <div className="flex justify-between gap-4 py-2.5">
-                <dt>Last found · Actuals FY 2024-25</dt>
+                <dt>Last found · spent 2024-25</dt>
                 <dd>
                   <Money money={apLastFound.actual2425} size="row" />
                 </dd>
@@ -93,14 +74,13 @@ export function EmptyPolicePage() {
         </section>
         <section className="mt-10 text-sm text-ink/70">
           <h2 className="font-display text-lg font-semibold text-ink">Footnotes</h2>
-          <SearchNote j={j} />
           {ap ? (
             <ol className="mt-3 max-w-2xl list-decimal space-y-4 pl-5">
               <CitationFootnote citationId={apLastFound.be2425.citationId} />
             </ol>
           ) : null}
           <p className="mt-6">
-            <Link to="/states">States</Link>
+            <Link to="/states">All states</Link>
             {" · "}
             <Link to="/sources">Method</Link>
           </p>
@@ -111,72 +91,33 @@ export function EmptyPolicePage() {
 
   return (
     <article>
-      <p className="kicker">{j.kind === "ut" ? "Union Territory" : "State"} books → Police</p>
       <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">{j.name} Police</h1>
       <section className="carbon-sheet mt-8 px-4 py-6 sm:px-6">
-        <p className="kicker text-ochre">{tierLabel("empty")}</p>
-        <h2 className="mt-2 font-display text-xl font-semibold">No rupee until a book is typed</h2>
+        <h2 className="mt-2 font-display text-xl font-semibold">We have not read this book yet</h2>
         <p className="mt-3 max-w-2xl text-sm text-ink/75">
-          {j.name} is not in the PRS AFS Police functional INDEX of 27, and no White Book or Demand
-          has been typed here. Empty is honest. We do not guess.
+          No official {j.name} police figure is on this site. We do not guess.
         </p>
-        <div className="mt-6 border border-dashed border-ink/25 px-3 py-8 text-center text-[0.7rem] uppercase tracking-[0.16em] text-ink/40">
-          No hatch · no guessed rupee
-        </div>
         {j.slug === "delhi" ? (
           <p className="mt-5 max-w-2xl text-sm text-ink/75">
-            Delhi Police is a <strong>Union</strong> door — establishment plus infrastructure on
-            Demand 51 — not a state INDEX row and not GNCTD AFS.{" "}
-            <Link to="/union/delhi-police">Open the Union Delhi Police ledger</Link>.
+            Delhi Police sits in the Centre’s books, not a state book.{" "}
+            <Link to="/union/delhi-police">Open Delhi Police</Link>.
           </p>
         ) : j.unionBooks ? (
           <p className="mt-5 max-w-2xl text-sm text-ink/75">
-            Police for this Union Territory often sits in the Centre’s Ministry of Home Affairs
-            demands. Printed groups live on <Link to="/union/police">Union Demand 51</Link> — not
-            as a state White Book.
+            Police for this Union Territory often sits in the Centre’s books.{" "}
+            <Link to="/union/police">Open Centre Police</Link>.
           </p>
         ) : null}
-        <SearchNote j={j} />
       </section>
       <p className="mt-8">
         <Link to="/states" className="file-cta">
           <span className="file-cta-notch" aria-hidden="true" />
-          Back to the state index
+          All states
         </Link>
       </p>
       <p className="mt-6 text-sm">
-        <Link to="/sources">How a figure gets onto the page</Link>
+        <Link to="/sources">Method</Link>
       </p>
     </article>
-  );
-}
-
-function SearchNote({ j }: { j: Jurisdiction }) {
-  const log = searchLogFor(j);
-  return (
-    <dl className="mt-5 max-w-2xl space-y-2 text-sm text-ink/70">
-      <div>
-        <dt className="text-[0.7rem] font-semibold uppercase tracking-[0.14em] text-ink/45">
-          Last document searched
-        </dt>
-        <dd className="mt-0.5">{log.lastDocument}</dd>
-      </div>
-      <div>
-        <dt className="text-[0.7rem] font-semibold uppercase tracking-[0.14em] text-ink/45">
-          URL tried
-        </dt>
-        <dd className="mt-0.5 break-all">
-          <a href={log.urlTried} rel="noreferrer" target="_blank">
-            {log.urlTried}
-          </a>
-        </dd>
-      </div>
-      <div>
-        <dt className="text-[0.7rem] font-semibold uppercase tracking-[0.14em] text-ink/45">
-          Next search
-        </dt>
-        <dd className="mt-0.5">{log.nextSearch}</dd>
-      </div>
-    </dl>
   );
 }

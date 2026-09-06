@@ -30,77 +30,70 @@ export function KaPolicePage() {
 
   return (
     <article>
-      <p className="kicker">GOLD · Expenditure Volume-1 · 2055 + 4055</p>
-      <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">
-        Karnataka Police spending
-      </h1>
+      <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">Karnataka Police</h1>
       <p className="mt-4 max-w-2xl text-ink">
-        Demand <strong>05 Home</strong>, Expenditure Volume-1 2026-27. Headline is heads{" "}
-        <strong>2055</strong> plus <strong>4055</strong> as printed (lakhs converted to crore). The
-        same Demand also carries jails, home guards, fire, prosecutions and public works — those
-        are not Police.
+        What the state budget set aside to run the police and to build or buy for them. Not the
+        whole Home department.
       </p>
 
       <div className="mt-8 border-y border-ink/20 py-8">
-        <p className="kicker text-ink/50">Budget estimate · FY {hero.fiscalYear}</p>
+        <p className="text-sm text-ink/55">2026-27 plan</p>
         <div className="mt-3">
-          <Money money={hero} size="hero" showSeries />
+          <Money money={hero} size="hero" />
         </div>
+        <p className="mt-4 max-w-xl text-sm text-ink/70">
+          Running costs ₹{formatCrore(run.crore)} crore · Buildings and gear ₹
+          {formatCrore(cap.crore)} crore.
+        </p>
       </div>
 
       <PrintedColumns
         run={ka2055}
         cap={ka4055}
-        caption="Each bar is 2055 plus 4055. Printed in lakhs; shown in crore. Actuals, Budget, and Revised are not one trend."
+        caption="Spent, plan, updated plan, and next plan. Printed in lakhs; shown in crore."
       />
       <HeadSplit run={run} cap={cap} />
 
       <section className="carbon-sheet mt-10 px-4 py-6 sm:px-6">
-        <p className="kicker text-ochre">Related demand · quieter</p>
-        <h2 className="mt-2 font-display text-xl font-semibold">Demand 05 Home is not police-only</h2>
+        <h2 className="mt-2 font-display text-xl font-semibold">The Home grant is not only police</h2>
         <p className="mt-3 max-w-2xl text-sm text-ink/75">
-          The Home department total includes 2014, 2056 jails, 2070 home guards and fire, 2235,
-          4059 and 4070. Do not treat it as Police spending. The Police number above is 2055 +
-          4055. Transport is a separate slice of the same Demand 05 and is not added in.
+          The Assembly also votes a larger Home grant that includes jails, home guards, fire, and
+          other offices. That bigger number is not Police.
         </p>
         <p className="mt-4 text-ink/80">
-          Demand 05 Home, FY {mixed.fiscalYear} budget: <Money money={mixed} size="row" />
+          Home grant, {mixed.fiscalYear} plan: <Money money={mixed} size="row" />
         </p>
       </section>
 
       <section className="carbon-sheet mt-8 px-4 py-6 sm:px-6">
-        <p className="kicker text-ochre">District force</p>
-        <h2 className="mt-2 font-display text-xl font-semibold">109 District establishment</h2>
+        <h2 className="mt-2 font-display text-xl font-semibold">District police</h2>
         <p className="mt-3 max-w-2xl text-sm text-ink/75">
-          Printed HOA total for 2055-00-109-1-01 Police Establishment in Existing Districts — not a
-          per-station share, and not Bengaluru civic.
+          Printed as a statewide line — not a per-station share, and not Bengaluru civic.
         </p>
         <p className="mt-4 text-ink/80">
-          FY {district.fiscalYear} budget: <Money money={district} size="row" />
+          {district.fiscalYear} plan: <Money money={district} size="row" />
         </p>
       </section>
 
       <section className="carbon-sheet mt-8 px-4 py-6 sm:px-6">
-        <p className="kicker text-ochre">Object heads · not a statewide योग</p>
-        <h2 className="mt-2 font-display text-xl font-semibold">Object 01 not summed</h2>
+        <h2 className="mt-2 font-display text-xl font-semibold">Salaries not split by station</h2>
         <p className="mt-3 max-w-2xl text-sm text-ink/75">
-          Volume-1 prints 002 Basic Pay and related objects under each scheme. There is no
-          statewide object 01 योग typed this pass. Named police stations are not printed as
-          allotments. We do not divide district establishment by N thanas.
+          Named police stations are not printed as allotments. We do not divide district police by
+          the number of stations.
         </p>
       </section>
 
       <TraceRail
         stops={[
-          { id: "book", label: "Book", detail: "Expenditure Volume-1 2026-27, Demand 05 Home" },
-          { id: "major", label: "2055 + 4055", money: hero, detail: "Functional Police. Not the mixed Home demand." },
-          { id: "run", label: "Major 2055", money: run },
-          { id: "cap", label: "Major 4055", money: cap },
-          { id: "minor", label: "109 District establishment", money: district },
+          { id: "book", label: "Book", detail: "Karnataka state budget, Home, 2026-27" },
+          { id: "major", label: "Police", money: hero, detail: "Running the force plus buildings and gear." },
+          { id: "run", label: "Running costs", money: run },
+          { id: "cap", label: "Buildings and gear", money: cap },
+          { id: "minor", label: "District police", money: district },
           {
             id: "object",
-            label: "Object 01 Salaries",
-            empty: "No statewide printed योग typed. Pay objects sit under each 2055 scheme.",
+            label: "Salaries",
+            empty: "A statewide salaries total is not typed here.",
           },
           {
             id: "station",
@@ -111,12 +104,9 @@ export function KaPolicePage() {
       />
 
       <section className="index-slip mt-10">
-        <p className="kicker">INDEX · PRS AFS</p>
         <p className="mt-3 max-w-2xl text-sm text-ink/75">
-          PRS AFS Police functional for Karnataka, FY 2025-26 budget, is ₹
-          {idx.be2526.toLocaleString("en-IN")} crore. That is a zinc slip. This White Book hero is ₹
-          {formatCrore(hero.crore)} crore (FY 2026-27 budget) from Expenditure Volume-1, not from
-          PRS.
+          A research summary lists Karnataka police at ₹{idx.be2526.toLocaleString("en-IN")} crore
+          for 2025-26. That is not this official 2026-27 plan of ₹{formatCrore(hero.crore)} crore.
         </p>
       </section>
 
@@ -126,7 +116,8 @@ export function KaPolicePage() {
           <CitationFootnote citationId={hero.citationId} />
         </ol>
         <p className="mt-6">
-          <Link to="/states">States</Link>
+          Account codes in the book: 2055 (running), 4055 (buildings).{" "}
+          <Link to="/states">All states</Link>
           {" · "}
           <Link to="/compare?left=maharashtra&right=karnataka">Compare with Maharashtra</Link>
           {" · "}

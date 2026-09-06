@@ -24,18 +24,18 @@ export type CompareField = {
 };
 
 export const COMPARE_FIELDS: CompareField[] = [
-  { id: "total-exp", label: "Total expenditure", layer: "any" },
-  { id: "police-functional", label: "Police functional", layer: "any" },
-  { id: "2055", label: "2055 running costs", layer: "any" },
-  { id: "4055", label: "4055 capital", layer: "any" },
-  { id: "obj-01", label: "Object 01 salaries", layer: "any" },
-  { id: "obj-13", label: "Object 13 office expenses", layer: "any" },
-  { id: "109", label: "109 District Police", layer: "state" },
-  { id: "108", label: "108 HQ / commissionerate", layer: "state" },
-  { id: "115", label: "115 Modernisation", layer: "state" },
-  { id: "mixed-grant", label: "Grant / Demand mixed", layer: "any", notPoliceOnly: true },
-  { id: "civic-total", label: "Civic total", layer: "municipal" },
-  { id: "2515", label: "2515 / FC RLB", layer: "gram" },
+  { id: "total-exp", label: "Whole budget", layer: "any" },
+  { id: "police-functional", label: "Police", layer: "any" },
+  { id: "2055", label: "Running costs", layer: "any" },
+  { id: "4055", label: "Buildings and gear", layer: "any" },
+  { id: "obj-01", label: "Salaries", layer: "any" },
+  { id: "obj-13", label: "Office expenses", layer: "any" },
+  { id: "109", label: "District police", layer: "state" },
+  { id: "108", label: "Headquarters", layer: "state" },
+  { id: "115", label: "Modernisation", layer: "state" },
+  { id: "mixed-grant", label: "Home grant (not only police)", layer: "any", notPoliceOnly: true },
+  { id: "civic-total", label: "City total", layer: "municipal" },
+  { id: "2515", label: "Village grant", layer: "gram" },
 ];
 
 export type CompareGrain = "layer" | "city" | "station";

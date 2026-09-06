@@ -59,7 +59,7 @@ function four(
 /** 2055 Police — net (voted + charged), White Book Demand B-1 I-Summary / Net Total-2055 */
 export const police2055: LineItem = {
   id: "2055",
-  plainLabel: "Police (running costs)",
+  plainLabel: "Running costs",
   officialName: "2055, Police — Net Total",
   head: "2055",
   amounts: four("23225,58,65", "32000,27,16", "25087,43,84", "32674,96,08"),
@@ -68,7 +68,7 @@ export const police2055: LineItem = {
 /** 4055 Capital Outlay on Police — White Book Summary by Major Heads */
 export const police4055: LineItem = {
   id: "4055",
-  plainLabel: "Police buildings and equipment (capital)",
+  plainLabel: "Buildings and gear",
   officialName: "4055, Capital Outlay on Police",
   head: "4055",
   amounts: four("321,53,20", "1213,93,90", "493,22,68", "441,53,07"),
@@ -214,7 +214,7 @@ export const police2055Lines: LineItem[] = [
 /** Grant B-1 — not police-only. White Book Demand B-1 I-Summary Total. */
 export const grantB1: LineItem = {
   id: "b1",
-  plainLabel: "Home Department grant B-1 (Police Administration)",
+  plainLabel: "Home grant (not only police)",
   officialName:
     "Demand B-1 Police Administration (2014 Administration of Justice + 2055 Police + 2070 Other Administrative Services)",
   head: "B-1",

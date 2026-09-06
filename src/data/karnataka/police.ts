@@ -26,7 +26,7 @@ function four(actual: number, be25: number, re25: number, be26: number): Money[]
 /** Demand 05 Home — 2055 Police HOA total. Not jails 2056, not Home Guards 2070. */
 export const ka2055: LineItem = {
   id: "ka-2055",
-  plainLabel: "Police (running costs)",
+  plainLabel: "Running costs",
   officialName: "2055 Police — Demand 05 Home (lakhs, converted to crore)",
   head: "2055",
   amounts: four(911606.08, 1101107.12, 1086767.99, 1209441.94),
@@ -34,7 +34,7 @@ export const ka2055: LineItem = {
 
 export const ka4055: LineItem = {
   id: "ka-4055",
-  plainLabel: "Police buildings and equipment (capital)",
+  plainLabel: "Buildings and gear",
   officialName: "4055 Capital Outlay on Police — Demand 05 Home",
   head: "4055",
   amounts: four(31623.61, 45018.0, 47117.57, 45300.0),
@@ -70,7 +70,7 @@ export const ka109: LineItem = {
 /** Demand 05 Home department total — MIXED (jails, home guards, fire, 2014, 4059). Quieter. */
 export const kaDemand05Home: LineItem = {
   id: "ka-d05-home",
-  plainLabel: "Demand 05 Home (not police-only)",
+  plainLabel: "Home grant (not only police)",
   officialName: "Demand 05 Home — department total, Volume-1 abstract",
   head: "demand-05-home",
   amounts: [fromLakhs(1395672.85, "be", "2026-27")],

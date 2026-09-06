@@ -29,60 +29,57 @@ export function SourcesPage() {
 
   return (
     <article className="max-w-2xl">
-      <p className="kicker">Method</p>
-      <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">Sources</h1>
+      <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">Method</h1>
       <p className="mt-4 text-ink/80">
-        If a number cannot be tied to a document, it is not shown. GOLD figures are typed from
-        official PDFs. INDEX figures are copied from PRS AFS Police functional envelopes and
-        labelled as INDEX. We do not scrape, invent rupees, or convert percent of spend into
-        crore.
+        We type numbers from government budget PDFs. If we cannot point at a page, we show nothing.
+        Police here means running the force plus buildings and vehicles — not jails, not courts.
       </p>
 
       <section className="mt-10">
-        <h2 className="font-display text-xl font-semibold tracking-tight">Two tiers — never mixed</h2>
+        <h2 className="font-display text-xl font-semibold tracking-tight">Official book vs a summary</h2>
         <ol className="mt-4 list-none space-y-3 p-0">
           <li className="docket-slip text-ink/80">
-            <strong>GOLD LIVE</strong> — official Demand / White Book / budget volume with a clear
-            Police head (2055 + 4055, or the equivalent slice). Citation chip to the government
-            PDF. Rust file-tag.
+            <strong>From the official book</strong> — a government PDF with a clear Police line
+            (running costs plus buildings and gear, codes 2055 and 4055 in the book). Every figure
+            has a citation.
           </li>
           <li className="index-slip text-ink/80">
-            <strong>INDEX</strong> — PRS AFS Police functional. Discovery aid, not gold citation.
-            Zinc slip. Must never look like a White Book ledger.
+            <strong>From a summary (not the book)</strong> — a research table used only as a hint.
+            Never the main number on Home or Compare.
           </li>
           <li className="docket-slip text-ink/80">
-            <strong>EMPTY / BLOCKED</strong> — honesty slips. Empty has no rupee. Blocked names
-            the last found figure and refuses percent-to-rupee conversion.
+            <strong>Not read yet / can’t read a clean number</strong> — empty has no rupee. Blocked
+            names the last found figure and refuses to turn a percent into crore.
           </li>
         </ol>
       </section>
 
       <section className="mt-10">
-        <h2 className="font-display text-xl font-semibold tracking-tight">How a GOLD figure gets onto the page</h2>
+        <h2 className="font-display text-xl font-semibold tracking-tight">How an official figure gets onto the page</h2>
         <ol className="mt-4 list-none space-y-3 p-0">
-          <li className="docket-slip text-ink/80">Open the official PDF (White Book, Notes on Demands, or Demand for Grants).</li>
+          <li className="docket-slip text-ink/80">Open the official PDF.</li>
           <li className="docket-slip text-ink/80">Read the printed amount and its unit (thousands, lakhs, or crore).</li>
-          <li className="docket-slip text-ink/80">Convert to crore if needed. Store the series (Actuals / Budget / Revised), the year, and the page.</li>
-          <li className="docket-slip text-ink/80">If the page cannot be tied, the number is omitted. Desk-sums are labelled desk-sum.</li>
+          <li className="docket-slip text-ink/80">Convert to crore if needed. Store spent / plan / updated plan, the year, and the page.</li>
+          <li className="docket-slip text-ink/80">If the page cannot be tied, the number is omitted. Added-from-printed-lines figures are labelled as such.</li>
         </ol>
-        <p className="mt-4 text-sm text-ink/65">Extracted {EXTRACT_DATE}.</p>
+        <p className="mt-4 text-sm text-ink/65">Figures from {EXTRACT_DATE}.</p>
       </section>
 
       <section className="mt-10">
-        <h2 className="font-display text-xl font-semibold tracking-tight">How an INDEX figure gets onto the page</h2>
+        <h2 className="font-display text-xl font-semibold tracking-tight">How a summary figure gets onto the page</h2>
         <ol className="mt-4 list-none space-y-3 p-0">
           <li className="index-slip text-ink/80">
-            Copy the Police functional envelope from the PRS state budget analysis. Do not treat
-            PRS as a White Book.
+            Copy the police line from a research summary. Do not treat that summary as the official
+            book.
           </li>
           <li className="index-slip text-ink/80">
-            This hatch ships the FY 2025-26 Budget rank only. Other series years were not typed
-            from the staff pack on this machine — we do not invent them.
+            This site only typed the 2025-26 plan rank from that summary. Other years were not
+            typed — we do not invent them.
           </li>
           <li className="index-slip text-ink/80">
-            Maharashtra INDEX ₹33,743 crore (2025-26 BE) is not the Home White Book hero ₹33,116.49
-            crore (2026-27 BE). Telangana INDEX is Police functional ₹9,641 crore, never Home
-            ₹10,188 / ₹11,907.
+            Maharashtra’s summary ₹33,743 crore (2025-26 plan) is not the official-book hero
+            ₹33,116.49 crore (2026-27 plan). Telangana’s summary is police ₹9,641 crore, never the
+            Home grant.
           </li>
         </ol>
       </section>
@@ -91,12 +88,12 @@ export function SourcesPage() {
         <h2 className="font-display text-xl font-semibold tracking-tight">How compare works</h2>
         <ul className="mt-4 list-none space-y-3 p-0">
           <li className="docket-slip text-ink/80">
-            Two books, same layer, and a middle desk-median. We print the lines the books printed.
+            Two books, same kind of line, and a middle number. We print the lines the books printed.
             If one book is silent, the row stays blank — not zero.
           </li>
           <li className="docket-slip text-ink/80">
-            INDEX envelopes are not compare fodder. Cross-layer pairs (a state White Book vs Union
-            Demand 51) carry a “not like-for-like” banner and are not a ranking.
+            Research summaries are not used to compare. A state book vs Centre police is not the
+            same kind of book. That pair is not a ranking.
           </li>
           <li className="docket-slip text-ink/80">
             Search is a client-side index over typed LineItems. Zero hits means not in the typed
@@ -109,19 +106,18 @@ export function SourcesPage() {
         <h2 className="font-display text-xl font-semibold tracking-tight">How the compare median is built</h2>
         <ul className="mt-4 list-none space-y-3 p-0">
           <li className="docket-slip text-ink/80">
-            The middle column is a desk-median of every GOLD book in the same layer that printed the
-            same field, series, and year. It is not a third government budget. The ochre chip reads
-            MEDIAN OF N, never a rust White Book tag.
+            The middle column is the middle of every official book in the same layer that printed
+            the same field, series, and year. It is not a third government’s budget.
           </li>
           <li className="docket-slip text-ink/80">
-            Median, not mean, is the hero. Odd N uses the middle book’s rupees. Even N is the mean
-            of the two central books after sorting by rupees, labelled as such. Mean of N may sit as
-            a quieter line. INDEX, EMPTY, and BLOCKED books never enter the peer set.
+            Middle, not average, is the main number. Odd N uses the middle book’s rupees. Even N is
+            the average of the two central books after sorting by rupees. The simple average may
+            sit as a quieter line. Summaries and unread books never enter that set.
           </li>
           <li className="docket-slip text-ink/80">
-            N can differ by row — “median of 5 books” on 2055, “median of 2 books” on object 01.
-            N &lt; 3 is a thin peer set. N = 0 is an em-dash: no GOLD peer printed this line. We
-            never invent a zero median.
+            N can differ by row — “middle of 5 books” on running costs, “middle of 2 books” on
+            salaries. Fewer than 3 books is not enough. Zero books is a dash: no official book
+            printed this line. We never invent a zero middle.
           </li>
         </ul>
       </section>
@@ -130,26 +126,26 @@ export function SourcesPage() {
         <h2 className="font-display text-xl font-semibold tracking-tight">Median pane — what N is</h2>
         <ul className="mt-4 list-none space-y-3 p-0">
           <li className="docket-slip text-ink/80">
-            <strong>State vs state</strong> (Maharashtra vs Telangana) — N is GOLD state books that
-            printed that line. Today that class is the typed state Police ledgers, not INDEX
-            Karnataka.
+            <strong>State vs state</strong> (Maharashtra vs Telangana) — N is official state books
+            that printed that line.
           </li>
           <li className="docket-slip text-ink/80">
-            <strong>City-police slices</strong> (Hyderabad CP vs Cyberabad CP) — N is GOLD
-            commissionerate HoD LineItems on disk. Maharashtra 2055 is not dragged into a city
-            median. Mumbai Police is state police, not BMC, and is not a municipal peer.
+            <strong>City-police slices</strong> (Hyderabad vs Cyberabad) — N is official
+            city-police books on disk. Maharashtra running costs are not dragged into a city
+            middle. Mumbai Police is state police, not the city corporation, and is not a city
+            peer.
           </li>
           <li className="docket-slip text-ink/80">
-            <strong>Named police station</strong> — no named-station rupee is typed. White Books
-            stop at district force / commissionerate. We do not divide those totals by N stations
-            to build a median chowki. Grain C stays EMPTY until a book prints a station.
+            <strong>Named police station</strong> — no named-station rupee is typed. Official books
+            stop at district force or city-police office. We do not divide those totals by the
+            number of stations. This stays empty until a book prints a station.
           </li>
           <li className="docket-slip text-ink/80">
             <strong>Municipal / Gram</strong> — civic and village books are not typed. Middle pane
             EMPTY is correct. BMC and GHMC totals are not invented.
           </li>
           <li className="docket-slip text-ink/80">
-            This is the median of N typed GOLD books on this machine — not a national average
+            This is the middle of N official books on this machine — not a national average
             police station, and not a typical Indian city spend.
           </li>
         </ul>
@@ -159,12 +155,12 @@ export function SourcesPage() {
         <h2 className="font-display text-xl font-semibold tracking-tight">Four layers, four books</h2>
         <ul className="mt-4 list-none space-y-3 p-0">
           <li className="docket-slip text-ink/80">
-            <strong>Union</strong> — Budget at a Glance total expenditure. Demand 51 is Police only,
-            a smaller inner ledger.
+            <strong>Union</strong> — the Union budget’s total spend. Centre police is a smaller
+            inner book.
           </li>
           <li className="docket-slip text-ink/80">
-            <strong>State</strong> — one cited state book at a time (Maharashtra Pink Book total on
-            Home). Not the sum of 28 Pink Books.
+            <strong>State</strong> — one cited state book at a time (Maharashtra’s whole budget on
+            Home). Not the sum of 28 state books.
           </li>
           <li className="docket-slip text-ink/80">
             <strong>Municipal</strong> — civic PDFs. EMPTY until a corporation total is typed. City
@@ -183,9 +179,9 @@ export function SourcesPage() {
       <section className="mt-10">
         <h2 className="font-display text-xl font-semibold tracking-tight">Coverage</h2>
         <p className="mt-3 text-sm text-ink/75">
-          Counted from the jurisdiction registry — not hardcoded. {cov.gold} GOLD · {cov.index}{" "}
-          INDEX · {cov.blocked} BLOCKED · {cov.empty} EMPTY. Union Demand 51 is a Centre door, not
-          a state rank. We never sum GOLD + INDEX + Demand 51 into All-India Police.
+          {cov.gold} official · {cov.index} summaries · {cov.blocked + cov.empty} not ready.
+          Centre police is a Centre door, not a state rank. We never add Union + State + City +
+          Village into one India total.
         </p>
       </section>
 
@@ -213,7 +209,7 @@ export function SourcesPage() {
       </section>
 
       <section className="mt-10">
-        <h2 className="font-display text-xl font-semibold tracking-tight">GOLD LIVE</h2>
+        <h2 className="font-display text-xl font-semibold tracking-tight">Official books we have read</h2>
         <ul className="mt-4 list-none space-y-3 p-0">
           <li className="docket-slip text-ink/80">
             <strong>Maharashtra Police</strong> — Home Department White Book 2026-27. Headline is
@@ -265,29 +261,30 @@ export function SourcesPage() {
       </section>
 
       <section className="mt-10">
-        <h2 className="font-display text-xl font-semibold tracking-tight">EMPTY / BLOCKED</h2>
+        <h2 className="font-display text-xl font-semibold tracking-tight">Not ready yet</h2>
         <ul className="mt-4 list-none space-y-3 p-0">
           <li className="docket-slip text-ink/80">
-            <strong>Andhra Pradesh</strong> — BLOCKED for 2025-26 / 2026-27. Only 2024-25 BE and
-            Actuals found; later years are percent of spend.
+            <strong>Andhra Pradesh</strong> — can’t read a clean number for 2025-26 / 2026-27. Only
+            2024-25 plan and spent found; later years are percent of spend.
           </li>
           <li className="docket-slip text-ink/80">
-            <strong>Rajasthan</strong> — INDEX only this pass. Salary desk-sums stay off GOLD until a
-            clean page cite.
+            <strong>Rajasthan</strong> — research summary only this pass. Salaries stay off the
+            official list until a clean page cite.
           </li>
           <li className="docket-slip text-ink/80">
-            Karnataka and Gujarat object-head depth — GAP on disk. INDEX headline only.
+            Karnataka and Gujarat pay-line depth — not typed. Summary only.
           </li>
           <li className="docket-slip text-ink/80">
-            J&amp;K, Ladakh, Puducherry, and other UTs — EMPTY (not in the 27). Delhi Police is the
-            Union door.
+            J&amp;K, Ladakh, Puducherry, and other UTs — not read yet. Delhi Police is the Centre
+            door.
           </li>
           <li className="docket-slip text-ink/80">
             Municipal corporations — civic books later. Mumbai Police is state police, not BMC.
           </li>
           <li className="docket-slip text-ink/80">
-            Named Telangana police stations (Bachupally PS and any other named PS) — EMPTY. Law+Home
-            prints commissionerate HoD totals. We do not divide an HoD by N stations.
+            Named Telangana police stations (Bachupally and any other named station) — not in the
+            book. The state book prints city-police office totals. We do not divide an office
+            total by the number of stations.
           </li>
         </ul>
       </section>
@@ -296,19 +293,19 @@ export function SourcesPage() {
         <h2 className="font-display text-xl font-semibold tracking-tight">Limitations</h2>
         <ul className="mt-4 list-none space-y-3 p-0">
           <li className="docket-slip text-ink/80">
-            <strong>Budget</strong> is a plan. <strong>Revised</strong> is a mid-year plan.{" "}
-            <strong>Actuals</strong> is what was booked.
+            <strong>Plan</strong> is what was voted. <strong>Updated plan</strong> is the mid-year
+            figure. <strong>Spent</strong> is what was booked.
           </li>
           <li className="docket-slip text-ink/80">
-            Desk-sum means we added printed object lines. It is labelled desk-sum, not a printed
-            योग.
+            “Added from printed lines” means we added object lines ourselves. It is not a printed
+            total.
           </li>
           <li className="docket-slip text-ink/80">Numbers freeze at extract date.</li>
         </ul>
       </section>
 
       <section className="mt-10">
-        <h2 className="font-display text-xl font-semibold tracking-tight">GOLD documents</h2>
+        <h2 className="font-display text-xl font-semibold tracking-tight">Official documents</h2>
         <ol className="mt-4 list-decimal space-y-5 pl-5 text-sm">
           {gold.map((c) => (
             <CitationFootnote key={c.id} citationId={c.id} />
@@ -317,7 +314,7 @@ export function SourcesPage() {
       </section>
 
       <section className="mt-10">
-        <h2 className="font-display text-xl font-semibold tracking-tight">INDEX documents (PRS)</h2>
+        <h2 className="font-display text-xl font-semibold tracking-tight">Research summaries</h2>
         <ol className="mt-4 list-decimal space-y-5 pl-5 text-sm">
           {index.map((c) => (
             <CitationFootnote key={c.id} citationId={c.id} />

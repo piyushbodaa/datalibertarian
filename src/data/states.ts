@@ -38,7 +38,7 @@ export const jurisdictions: Jurisdiction[] = [
     kind: "state",
     tier: "index",
     indexNote:
-      "Opened AFS 2026-27 on 2026-09-07 (budget.kerala.gov.in/keralabudgetdoc/2026_27/AFS.pdf). 2055 Demand XII is printed. Demand XII detailed volume URL not found. Not GOLD until that ledger is typed.",
+      "We opened the 2026-27 totals booklet. A detailed police volume is still needed before we put an official figure here.",
   },
   { slug: "madhya-pradesh", name: "Madhya Pradesh", kind: "state", tier: "index" },
   { slug: "maharashtra", name: "Maharashtra", kind: "state", tier: "gold" },
@@ -52,7 +52,7 @@ export const jurisdictions: Jurisdiction[] = [
     kind: "state",
     tier: "index",
     indexNote:
-      "Opened Demand 01 Home 2026-27 on 2026-09-07 (finance.odisha.gov.in .../2025-08/D-01.pdf). 2055 is printed in thousands. 4055 is not a major head in this book. Not GOLD this pass.",
+      "We opened the Home demand. Running costs are printed; buildings and gear are not a separate police line in that book.",
   },
   { slug: "punjab", name: "Punjab", kind: "state", tier: "index" },
   {
@@ -61,7 +61,7 @@ export const jurisdictions: Jurisdiction[] = [
     kind: "state",
     tier: "index",
     indexNote:
-      "White Book salary desk-sums are not shown until a clean page cite. This door is INDEX only.",
+      "We have not typed a clean salaries page from the official book yet.",
   },
   { slug: "sikkim", name: "Sikkim", kind: "state", tier: "index" },
   { slug: "tamil-nadu", name: "Tamil Nadu", kind: "state", tier: "gold" },
@@ -99,12 +99,12 @@ export function getJurisdiction(slug: string): Jurisdiction | undefined {
 export function tierLabel(tier: PoliceTier): string {
   switch (tier) {
     case "gold":
-      return "GOLD · official book";
+      return "From the official book";
     case "index":
-      return "INDEX · PRS AFS";
+      return "Not read from the book yet";
     case "blocked":
-      return "BLOCKED";
+      return "Can't read a clean number";
     default:
-      return "EMPTY";
+      return "Not read yet";
   }
 }

@@ -10,16 +10,18 @@ export function CitationChip({ citationId, compact }: Props) {
   const short =
     c.short ??
     (citationId.startsWith("prs-")
-      ? "PRS AFS"
+      ? "Research summary"
       : citationId === "mh-home-whitebook-2026-27"
-        ? "Home White Book"
+        ? "Maharashtra budget"
         : citationId === "mh-pink-book-2026-27"
-          ? "Budget in Brief"
+          ? "Maharashtra totals"
           : citationId === "union-sbe51-2026-27"
-            ? "Demand 51 PDF"
+            ? "Centre police budget"
             : citationId === "union-sumsbe-2026-27"
-              ? "SBE summary"
-              : "Official book");
+              ? "Union summary"
+              : citationId.startsWith("desk-median")
+                ? "Middle of the books"
+                : "Official book");
 
   const isIndex = citationId.startsWith("prs-");
   const isMedian = citationId.startsWith("desk-median");
@@ -67,9 +69,9 @@ export function CitationFootnote({ citationId }: { citationId: string }) {
       <p>
         <a href={c.url} rel="noreferrer" target="_blank">
           {isMedian
-            ? "Desk-median method (not a government PDF)"
+            ? "How the middle number is built (not a government PDF)"
             : isIndex
-              ? "Open the PRS analysis (INDEX, not White Book)"
+              ? "Open the research summary (not the official book)"
               : "Open the official document"}
         </a>
       </p>

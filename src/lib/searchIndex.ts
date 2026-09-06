@@ -74,10 +74,10 @@ const ENTRIES: Entry[] = [
   { item: ka109, entity: "Karnataka Police", href: "/karnataka/police" },
   { item: kaDemand05Home, entity: "Karnataka Demand 05 Home", href: "/karnataka/police" },
   { item: unionTotalExpenditure, entity: "Union Budget at a Glance", href: "/union" },
-  { item: demand51Net, entity: "Union Demand 51", href: "/union/police" },
-  { item: demand51Revenue, entity: "Union Demand 51", href: "/union/police" },
-  { item: demand51Capital, entity: "Union Demand 51", href: "/union/police" },
-  ...demand51Groups.map((item) => ({ item, entity: "Union Demand 51", href: "/union/police" })),
+  { item: demand51Net, entity: "Centre Police", href: "/union/police" },
+  { item: demand51Revenue, entity: "Centre Police", href: "/union/police" },
+  { item: demand51Capital, entity: "Centre Police", href: "/union/police" },
+  ...demand51Groups.map((item) => ({ item, entity: "Centre Police", href: "/union/police" })),
   { item: delhiEstInfra, entity: "Delhi Police (Union)", href: "/union/delhi-police" },
 ];
 

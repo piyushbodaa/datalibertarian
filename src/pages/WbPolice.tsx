@@ -14,6 +14,7 @@ import {
   wbFunctional,
   wbSalariesDesk,
 } from "../data/west-bengal/police";
+import { formatCrore } from "../lib/money";
 
 export function WbPolicePage() {
   const hero = pickAmount(wbFunctional, "2026-27", "be");
@@ -29,48 +30,44 @@ export function WbPolicePage() {
 
   return (
     <article>
-      <p className="kicker">GOLD · Demand 68 slices · official book</p>
       <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">
         West Bengal Police
       </h1>
       <p className="mt-3 max-w-2xl text-ink">
-        Heads <strong>2055 net</strong> and <strong>4055</strong> from Demand 68 only — not the
-        whole Home and Hill Affairs demand. Kolkata/HQ salaries sit inside statewide object 01.
+        What the state budget set aside to run the police and to build or buy for them. Not the
+        whole Home department. Kolkata pay sits inside the statewide salaries line.
       </p>
       <div className="mt-8 border-y border-ink/20 py-8">
-        <p className="kicker text-ink/50">Budget · FY 2026-27</p>
+        <p className="text-sm text-ink/55">2026-27 plan</p>
         <div className="mt-3">
-          <Money money={hero} size="hero" showSeries />
+          <Money money={hero} size="hero" />
         </div>
+        <p className="mt-4 max-w-xl text-sm text-ink/70">
+          Running costs ₹{formatCrore(run.crore)} crore · Buildings and gear ₹
+          {formatCrore(cap.crore)} crore.
+        </p>
       </div>
-      <HeadSplit
-        run={run}
-        cap={cap}
-        title="2055 net and 4055"
-        note="Same Demand 68 slices. 2055 gross is ₹13,806.83 crore; net is used in the hero."
-        runLabel="2055 net"
-        capLabel="4055"
-      />
+      <HeadSplit run={run} cap={cap} />
       <p className="mt-3 text-sm text-ink/70">
-        2055 gross: <Money money={gross} size="row" />
+        Running costs before recoveries: <Money money={gross} size="row" />
       </p>
       <section className="mt-10">
-        <h2 className="font-display text-xl font-semibold">Depth (not the hero)</h2>
+        <h2 className="font-display text-xl font-semibold">Salaries, arms, clothing</h2>
         <dl className="mt-4 max-w-xl divide-y divide-ink/15 border-y border-ink/20 text-sm">
           <div className="flex justify-between gap-4 py-2.5">
-            <dt>2055-01 salaries (desk-sum)</dt>
+            <dt>Salaries</dt>
             <dd>
               <Money money={sal} size="row" />
             </dd>
           </div>
           <div className="flex justify-between gap-4 py-2.5">
-            <dt>Arms · object 22</dt>
+            <dt>Arms</dt>
             <dd>
               <Money money={arms} size="row" />
             </dd>
           </div>
           <div className="flex justify-between gap-4 py-2.5">
-            <dt>Clothing · object 25</dt>
+            <dt>Clothing</dt>
             <dd>
               <Money money={cloth} size="row" />
             </dd>
@@ -83,19 +80,21 @@ export function WbPolicePage() {
           fiscalYear="2026-27"
           series="be"
           shareOf={run}
-          title="Typed object heads"
-          note="Share of 2055 net. Object 01 is a desk-sum. Remainder of 2055 is not fully typed. Kolkata/HQ salaries sit inside statewide 01."
+          title="Typed lines inside running costs"
+          note="Share of running costs. Salaries are added from printed pay lines. The rest of running costs is not fully typed."
         />
       </section>
       <TraceRail
         stops={[
-          { id: "book", label: "Book", detail: "Demand 68 — 2055 / 4055 slices, not whole Home & Hill Affairs" },
-          { id: "major", label: "2055 net + 4055", money: hero },
-          { id: "object", label: "Object 01 salaries (desk-sum)", money: sal },
+          { id: "book", label: "Book", detail: "West Bengal state budget, Home, 2026-27" },
+          { id: "major", label: "Police", money: hero },
+          { id: "run", label: "Running costs", money: run },
+          { id: "cap", label: "Buildings and gear", money: cap },
+          { id: "object", label: "Salaries", money: sal },
           {
             id: "station",
             label: "Named police station",
-            empty: "108 Kolkata/HQ salaries sit inside statewide 01. The book does not print a station allotment.",
+            empty: "Kolkata pay sits inside statewide salaries. The book does not print a station allotment.",
           },
         ]}
       />
@@ -105,7 +104,8 @@ export function WbPolicePage() {
           <CitationFootnote citationId={hero.citationId} />
         </ol>
         <p className="mt-6">
-          <Link to="/states">States INDEX</Link> · <Link to="/sources">Sources</Link>
+          Account codes in the book: 2055 (running), 4055 (buildings).{" "}
+          <Link to="/states">All states</Link> · <Link to="/sources">Method</Link>
         </p>
       </section>
     </article>

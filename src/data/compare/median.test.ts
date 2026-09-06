@@ -34,7 +34,7 @@ describe("desk-median of GOLD compare peers", () => {
     assert.ok(citations["desk-median"]);
     const c = getCitation("desk-median");
     assert.equal(c.publisher, "Data Libertarian desk-median");
-    assert.equal(c.short, "MEDIAN OF N");
+    assert.equal(c.short, "Middle of the books");
     assert.match(c.notes ?? "", /Not a printed government total/);
   });
 
