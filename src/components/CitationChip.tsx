@@ -22,21 +22,24 @@ export function CitationChip({ citationId, compact }: Props) {
               : "Official book");
 
   const isIndex = citationId.startsWith("prs-");
+  const isMedian = citationId.startsWith("desk-median");
 
   return (
     <a
       href={`#cite-${c.id}`}
       className={`citation-chip ml-1 inline-flex items-baseline gap-0.5 align-super text-[0.62rem] font-semibold uppercase tracking-[0.1em] no-underline ${
-        isIndex
-          ? "citation-chip-index text-zinc hover:text-carbon"
-          : "text-rust hover:text-ochre"
+        isMedian
+          ? "citation-chip-median text-ochre hover:text-ink"
+          : isIndex
+            ? "citation-chip-index text-zinc hover:text-carbon"
+            : "text-rust hover:text-ochre"
       }`}
       title={`${c.title}${c.pages ? ` — p. ${c.pages}` : ""}`}
     >
       <span aria-hidden="true">†</span>
       {compact ? null : (
         <span>
-          {short} {c.fiscalYear}
+          {isMedian ? short : `${short} ${c.fiscalYear}`}
         </span>
       )}
       <span className="sr-only">
@@ -50,6 +53,7 @@ export function CitationChip({ citationId, compact }: Props) {
 export function CitationFootnote({ citationId }: { citationId: string }) {
   const c = getCitation(citationId);
   const isIndex = citationId.startsWith("prs-");
+  const isMedian = citationId.startsWith("desk-median");
   return (
     <li id={`cite-${c.id}`} className="scroll-mt-24">
       <p className="font-medium text-ink">
@@ -62,7 +66,11 @@ export function CitationFootnote({ citationId }: { citationId: string }) {
       </p>
       <p>
         <a href={c.url} rel="noreferrer" target="_blank">
-          {isIndex ? "Open the PRS analysis (INDEX, not White Book)" : "Open the official document"}
+          {isMedian
+            ? "Desk-median method (not a government PDF)"
+            : isIndex
+              ? "Open the PRS analysis (INDEX, not White Book)"
+              : "Open the official document"}
         </a>
       </p>
       {c.notes ? <p className="text-ink/60">{c.notes}</p> : null}

@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
-    "test": "tsx --test src/data/citations.test.ts"
+    "test": "tsx --test src/data/citations.test.ts src/data/compare/median.test.ts"
   },
   "dependencies": {
     "react": "^18.3.1",

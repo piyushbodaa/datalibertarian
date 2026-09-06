@@ -38,11 +38,15 @@ export const COMPARE_FIELDS: CompareField[] = [
   { id: "2515", label: "2515 / FC RLB", layer: "gram" },
 ];
 
+export type CompareGrain = "layer" | "city" | "station";
+
 export type CompareEntity = {
   slug: string;
   name: string;
   layer: LayerId;
   href: string;
+  /** city = commissionerate HoD; station = named PS. Default is layer book. */
+  grain?: CompareGrain;
 };
 
 export type CompareSide = {

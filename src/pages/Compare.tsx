@@ -2,24 +2,26 @@ import { useMemo } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { CompareRow } from "../components/CompareRow";
 import { Money } from "../components/Money";
-import { CitationFootnote } from "../components/CitationChip";
-import { SERIES_LABEL } from "../lib/money";
+import { CitationChip, CitationFootnote } from "../components/CitationChip";
+import { formatCrore, SERIES_LABEL } from "../lib/money";
 import type { LayerId } from "../data/layers";
 import type { Series } from "../data/maharashtra-police";
 import { tierLabel } from "../data/states";
+import type { CompareFieldId, CompareGrain } from "../data/compare/fields";
+import { COMPARE_FIELDS, SERIES_OPTIONS } from "../data/compare/fields";
+import { grainLabel, type MedianCell } from "../data/compare/median";
 import {
   compareRows,
   entitiesFor,
   getCompareEntity,
-  hatchFor,
   intersectYears,
   isCrossLayer,
   resolveSide,
   suggestedPairs,
+  yearsOf,
 } from "../data/compare/resolve";
-import { SERIES_OPTIONS } from "../data/compare/fields";
 
-const LAYERS: { id: LayerId; label: string }[] = [
+const LAYER_OPTS: { id: LayerId; label: string }[] = [
   { id: "union", label: "Union" },
   { id: "state", label: "State" },
   { id: "municipal", label: "Municipal" },
@@ -28,17 +30,25 @@ const LAYERS: { id: LayerId; label: string }[] = [
 
 export function ComparePage() {
   const [params, setParams] = useSearchParams();
-  const leftSlug = params.get("left") || "maharashtra";
+  const grainRaw = params.get("grain");
+  const grain: CompareGrain = grainRaw === "city" || grainRaw === "station" ? grainRaw : "layer";
+  const leftSlug =
+    params.get("left") ||
+    (grain === "city" ? "hyderabad-city" : grain === "station" ? "bachupally" : "maharashtra");
   const rightSlug = params.get("right") || "";
   const series = (params.get("series") as Series) || "be";
   const year = params.get("year") || "2026-27";
+  const exclude = params.get("exclude") === "1";
+  const focusRaw = params.get("field") as CompareFieldId | null;
+  const focus = COMPARE_FIELDS.some((f) => f.id === focusRaw) ? (focusRaw as CompareFieldId) : "police-functional";
 
   const left = resolveSide(leftSlug);
   const right = rightSlug ? resolveSide(rightSlug) : undefined;
 
   const intersection = useMemo(() => {
-    if (!left || !right || left.tier !== "gold" || right.tier !== "gold") return [];
-    return intersectYears(left, right);
+    if (!left || left.tier !== "gold") return [];
+    if (right && right.tier === "gold") return intersectYears(left, right);
+    return yearsOf(left);
   }, [left, right]);
 
   const yearOk = intersection.some((y) => y.fiscalYear === year && y.series === series);
@@ -47,11 +57,15 @@ export function ComparePage() {
   const useSeries = yearOk ? series : fallback?.series;
 
   const rows =
-    left && right && left.tier === "gold" && right.tier === "gold" && useYear && useSeries
-      ? compareRows(left, right, useYear, useSeries)
+    left && left.tier === "gold" && useYear && useSeries
+      ? compareRows(left, right?.tier === "gold" ? right : undefined, useYear, useSeries, {
+          grain,
+          excludePicked: exclude,
+        })
       : [];
 
   const heroField = rows.find((r) => r.field.id === "police-functional") ?? rows[0];
+  const tableField = rows.find((r) => r.field.id === focus) ?? heroField;
   const cross = left && right ? isCrossLayer(left, right) : false;
 
   function set(next: Record<string, string | undefined>) {
@@ -63,20 +77,32 @@ export function ComparePage() {
     setParams(p, { replace: true });
   }
 
-  function copyLink() {
-    void navigator.clipboard.writeText(window.location.href);
-  }
-
   function downloadCsv() {
-    if (!left || !right || !useYear || !useSeries) return;
-    const header = ["field", "left", "left_crore", "left_cite", "right", "right_crore", "right_cite", "year", "series"];
+    if (!left || !useYear || !useSeries) return;
+    const header = [
+      "field",
+      "left",
+      "left_crore",
+      "left_cite",
+      "median_crore",
+      "median_n",
+      "median_peers",
+      "right",
+      "right_crore",
+      "right_cite",
+      "year",
+      "series",
+    ];
     const lines = rows.map((r) =>
       [
         r.field.id,
         left.entity.slug,
         r.left?.crore ?? "",
         r.left?.citationId ?? "",
-        right.entity.slug,
+        r.mid?.money.crore ?? "",
+        r.mid?.n ?? 0,
+        r.mid?.peers.map((p) => p.slug).join("|") ?? "",
+        right?.entity.slug ?? "",
         r.right?.crore ?? "",
         r.right?.citationId ?? "",
         useYear,
@@ -86,28 +112,65 @@ export function ComparePage() {
     const blob = new Blob([[header.join(","), ...lines].join("\n")], { type: "text/csv" });
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
-    a.download = `compare-${left.entity.slug}-${right.entity.slug}.csv`;
+    a.download = `compare-${left.entity.slug}-${right?.entity.slug ?? "median"}.csv`;
     a.click();
   }
 
   const citeIds = [
-    ...new Set(rows.flatMap((r) => [r.left?.citationId, r.right?.citationId].filter(Boolean) as string[])),
+    ...new Set(
+      rows
+        .flatMap((r) => [r.left?.citationId, r.mid?.money.citationId, r.right?.citationId])
+        .filter(Boolean) as string[],
+    ),
   ];
+
+  const stationEmpty = grain === "station" && left?.tier !== "gold";
 
   return (
     <article>
       <p className="kicker">Compare · cited rupees</p>
       <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">Two books. Same kind of line.</h1>
       <p className="mt-3 max-w-2xl text-ink">
-        Pick two governments in the same layer. We print what both books printed. Blanks stay blank.
+        Pick two governments in the same layer. The middle column is the median of every GOLD book
+        in that layer that printed the same line. Blanks stay blank.
       </p>
 
-      <div className="mt-8 grid gap-4 sm:grid-cols-2">
+      <div className="mt-6 flex flex-wrap gap-4 text-sm">
+        <label>
+          Grain{" "}
+          <select
+            className="ml-1 border border-ink/20 bg-paper px-2 py-1"
+            value={grain}
+            onChange={(e) =>
+              set({
+                grain: e.target.value,
+                left: e.target.value === "city" ? "hyderabad-city" : e.target.value === "station" ? "bachupally" : "maharashtra",
+                right: "",
+              })
+            }
+          >
+            <option value="layer">Layer books</option>
+            <option value="city">City-police slices</option>
+            <option value="station">Named police station</option>
+          </select>
+        </label>
+        <label className="inline-flex items-center gap-2">
+          <input
+            type="checkbox"
+            checked={exclude}
+            onChange={(e) => set({ exclude: e.target.checked ? "1" : undefined })}
+          />
+          Exclude the two on screen
+        </label>
+      </div>
+
+      <div className="mt-6 grid gap-4 sm:grid-cols-2">
         <Picker
           label="Left book"
           slug={leftSlug}
+          grain={grain}
           onLayer={(layer) => {
-            const first = entitiesFor(layer)[0];
+            const first = entitiesFor(layer, grain)[0];
             set({ left: first?.slug, year: undefined });
           }}
           onEntity={(slug) => set({ left: slug })}
@@ -115,9 +178,10 @@ export function ComparePage() {
         <Picker
           label="Right book"
           slug={rightSlug}
+          grain={grain}
           allowEmpty
           onLayer={(layer) => {
-            const first = entitiesFor(layer)[0];
+            const first = entitiesFor(layer, grain)[0];
             set({ right: first?.slug, year: undefined });
           }}
           onEntity={(slug) => set({ right: slug })}
@@ -125,16 +189,34 @@ export function ComparePage() {
       </div>
 
       <p className="mt-4 flex flex-wrap gap-2 text-sm">
-        {suggestedPairs().map(([a, b]) => (
+        {grain === "city" ? (
           <button
-            key={`${a}-${b}`}
             type="button"
             className="live-tag text-ink"
-            onClick={() => set({ left: a, right: b, series: "be", year: "2026-27" })}
+            onClick={() => set({ grain: "city", left: "hyderabad-city", right: "cyberabad", series: "be", year: "2026-27" })}
           >
-            {getCompareEntity(a)?.name} / {getCompareEntity(b)?.name}
+            Hyderabad CP / Cyberabad
           </button>
-        ))}
+        ) : grain === "station" ? (
+          <button
+            type="button"
+            className="live-tag text-ink"
+            onClick={() => set({ grain: "station", left: "bachupally", right: "" })}
+          >
+            Named station (EMPTY)
+          </button>
+        ) : (
+          suggestedPairs().map(([a, b]) => (
+            <button
+              key={`${a}-${b}`}
+              type="button"
+              className="live-tag text-ink"
+              onClick={() => set({ grain: "layer", left: a, right: b, series: "be", year: "2026-27" })}
+            >
+              {getCompareEntity(a)?.name} / {getCompareEntity(b)?.name}
+            </button>
+          ))
+        )}
       </p>
 
       {cross ? (
@@ -142,37 +224,41 @@ export function ComparePage() {
           <p className="kicker text-ochre">Different books — not a like-for-like</p>
           <p className="mt-2 max-w-2xl text-sm text-ink/75">
             These two ledgers are not the same layer. This is a teaching pair, not a ranking of
-            governments.
+            governments. The median follows the left book’s layer.
           </p>
         </section>
       ) : null}
 
-      {!right ? (
+      {stationEmpty ? (
         <section className="carbon-sheet mt-8 px-4 py-6 sm:px-6">
-          <p className="kicker text-ochre">Pick a second book</p>
-          <p className="mt-2 text-sm text-ink/75">Pick two GOLD books in the same layer.</p>
-        </section>
-      ) : left && right && (left.tier !== "gold" || right.tier !== "gold") ? (
-        <section className="carbon-sheet mt-8 px-4 py-6 sm:px-6">
-          <p className="kicker text-ochre">Not GOLD on both sides</p>
-          <p className="mt-2 max-w-2xl text-sm text-ink/75">
-            {left.tier !== "gold" ? `${left.entity.name}: ${tierLabel(left.tier)}. ${left.note ?? ""}` : null}{" "}
-            {right.tier !== "gold" ? `${right.entity.name}: ${tierLabel(right.tier)}. ${right.note ?? ""}` : null}{" "}
-            INDEX envelopes are not compare fodder.
-          </p>
-          <div className="mt-6 border border-dashed border-ink/25 px-3 py-8 text-center text-[0.7rem] uppercase tracking-[0.16em] text-ink/40">
-            No hatch · no guessed rupee
+          <p className="kicker text-ochre">Named police station</p>
+          <div className="mt-4 grid gap-4 lg:grid-cols-3">
+            <EmptyWell label="Left station" />
+            <EmptyWell label="Median station" />
+            <EmptyWell label="Right station" />
           </div>
-        </section>
-      ) : intersection.length === 0 && right ? (
-        <section className="carbon-sheet mt-8 px-4 py-6 sm:px-6">
-          <p className="kicker text-ochre">No shared year-column</p>
-          <p className="mt-2 text-sm text-ink/75">
-            These two books have no overlapping printed series. We do not pick a year from thin air.
+          <p className="mt-4 max-w-2xl text-sm text-ink/75">
+            No named police-station rupee is typed. White Books stop at district force /
+            commissionerate. We do not divide those totals by N stations to build a median chowki.
           </p>
         </section>
-      ) : left && right && useYear && useSeries ? (
+      ) : !left || left.tier !== "gold" ? (
+        <section className="carbon-sheet mt-8 px-4 py-6 sm:px-6">
+          <p className="kicker text-ochre">No GOLD left book</p>
+          <p className="mt-2 text-sm text-ink/75">
+            {left ? `${left.entity.name}: ${tierLabel(left.tier)}. ${left.note ?? ""}` : "Pick a GOLD left book."}{" "}
+            There is no median of a fake class.
+          </p>
+        </section>
+      ) : useYear && useSeries ? (
         <>
+          {right && right.tier !== "gold" ? (
+            <p className="mt-6 max-w-2xl text-sm text-ink/70">
+              {right.entity.name}: {tierLabel(right.tier)}. {right.note} INDEX is not compare fodder.
+              The middle pane still uses GOLD peers in this layer.
+            </p>
+          ) : null}
+
           <div className="mt-8 flex flex-wrap gap-4 text-sm">
             <label>
               Series{" "}
@@ -204,7 +290,7 @@ export function ComparePage() {
                 )}
               </select>
             </label>
-            <button type="button" className="file-cta" onClick={copyLink}>
+            <button type="button" className="file-cta" onClick={() => void navigator.clipboard.writeText(window.location.href)}>
               <span className="file-cta-notch" aria-hidden="true" />
               Copy link
             </button>
@@ -214,38 +300,65 @@ export function ComparePage() {
             </button>
           </div>
 
-          <div className="mt-8 grid gap-8 sm:grid-cols-2">
-            <Hero side={left} money={heroField?.left} />
-            <Hero side={right} money={heroField?.right} />
+          <div className="mt-8 grid gap-5 lg:grid-cols-3">
+            <Hero kicker="Left book" side={left} money={heroField?.left} rule="rust" />
+            <MedianHero
+              cell={heroField?.mid}
+              grain={grain}
+              layer={left.entity.layer}
+              fieldLabel={heroField?.field.label}
+            />
+            {right && right.tier === "gold" ? (
+              <Hero kicker="Right book" side={right} money={heroField?.right} rule="carbon" />
+            ) : (
+              <section className="docket-door bone layer-state">
+                <p className="kicker">Right book</p>
+                <h2 className="mt-2 font-display text-xl font-semibold tracking-tight">
+                  {right ? right.entity.name : "Pick a second book"}
+                </h2>
+                <div className="mt-6 border border-dashed border-ink/25 px-3 py-8 text-center text-[0.7rem] uppercase tracking-[0.16em] text-ink/40">
+                  No hatch · no guessed rupee
+                </div>
+              </section>
+            )}
           </div>
 
           <p className="mt-6 max-w-xl text-sm text-zinc">
-            Two books. Two citations. Not one ranking of governments. Bars on a row are scaled to
-            that row’s larger printed figure — not to one India-total.
+            Three numbers. Three citations. Not a ranking. Bars on a row are scaled to that row’s
+            larger printed figure.
           </p>
 
           <ol className="mt-4 p-0">
             {rows.map((r) => (
-              <CompareRow
-                key={r.field.id}
-                field={r.field}
-                left={r.left}
-                right={r.right}
-                leftHatch={hatchFor(left.entity.layer)}
-                rightHatch={hatchFor(right.entity.layer)}
-              />
+              <CompareRow key={r.field.id} field={r.field} left={r.left} mid={r.mid} right={r.right} />
             ))}
           </ol>
+
+          {tableField?.mid ? (
+            <MedianTable
+              cell={tableField.mid}
+              fieldId={tableField.field.id}
+              fieldIds={rows.map((r) => r.field.id)}
+              leftSlug={left.entity.slug}
+              rightSlug={right?.entity.slug}
+              onField={(id) => set({ field: id })}
+            />
+          ) : tableField && !tableField.mid ? (
+            <section className="carbon-sheet mt-10 px-4 py-6 sm:px-6">
+              <p className="kicker text-ochre">Median {grainLabel(grain, left.entity.layer)}</p>
+              <p className="mt-2 text-sm text-ink/75">No GOLD peer printed this line.</p>
+            </section>
+          ) : null}
         </>
       ) : null}
 
       <section className="index-slip mt-10">
         <p className="kicker">How it works</p>
         <p className="mt-3 max-w-2xl text-sm text-ink/75">
-          Compiled from official budget PDFs typed by hand. A missing row means the book did not
-          print that line on this machine, not that the government spent zero. We only compare lines
-          both books printed, or we show a blank when one book is silent. INDEX envelopes are not
-          used in this compare. We do not scale by population.
+          The middle number is a desk-median, not a third government budget. We only average the two
+          central GOLD books when N is even. We never divide a city book by the number of police
+          stations. INDEX envelopes are not used. A missing row means the book did not print that
+          line on this machine, not that the government spent zero.
         </p>
       </section>
 
@@ -269,16 +382,166 @@ export function ComparePage() {
   );
 }
 
+function EmptyWell({ label }: { label: string }) {
+  return (
+    <div>
+      <p className="text-[0.7rem] uppercase tracking-[0.14em] text-ink/45">{label}</p>
+      <div className="mt-2 border border-dashed border-ink/25 px-3 py-8 text-center text-[0.7rem] uppercase tracking-[0.16em] text-ink/40">
+        No hatch · no guessed rupee
+      </div>
+    </div>
+  );
+}
+
+function MedianHero({
+  cell,
+  grain,
+  layer,
+  fieldLabel,
+}: {
+  cell?: MedianCell | null;
+  grain: CompareGrain;
+  layer: LayerId;
+  fieldLabel?: string;
+}) {
+  const midNames = cell?.midSlugs
+    .map((s) => cell.peers.find((p) => p.slug === s)?.label ?? s)
+    .join(" and ");
+  return (
+    <section className="docket-door" style={{ borderLeftColor: "var(--ochre)" }}>
+      <p className="kicker text-ochre">
+        {cell
+          ? cell.thin
+            ? `Thin peer set · N = ${cell.n}`
+            : `Median of ${cell.n} GOLD ${grainLabel(grain, layer)}`
+          : "Median peer"}
+      </p>
+      <h2 className="mt-2 font-display text-xl font-semibold tracking-tight">Median of GOLD books</h2>
+      {cell ? (
+        <>
+          <div className="mt-4">
+            <Money money={cell.money} size="hero" showSeries />
+          </div>
+          <p className="mt-3 text-sm text-ink/70">
+            Median of {cell.n} GOLD {grainLabel(grain, layer)}
+            {fieldLabel ? ` · ${fieldLabel}` : ""} · {SERIES_LABEL[cell.series]} {cell.fiscalYear}
+            {cell.excludePicked ? ", excluding the two on screen" : ", including the two on screen when they qualify"}.
+            {cell.method === "mid-pair"
+              ? ` Median (mean of two middle books) is the mean of ${midNames}.`
+              : null}
+          </p>
+          <p className="mt-2 text-[0.7rem] uppercase tracking-[0.12em] text-ink/45">
+            Mean of N · ₹{formatCrore(cell.meanCrore)} crore
+          </p>
+        </>
+      ) : (
+        <div className="mt-6 border border-dashed border-ink/25 px-3 py-8 text-center text-[0.7rem] uppercase tracking-[0.16em] text-ink/40">
+          No hatch · no guessed rupee
+        </div>
+      )}
+    </section>
+  );
+}
+
+function MedianTable({
+  cell,
+  fieldId,
+  fieldIds,
+  leftSlug,
+  rightSlug,
+  onField,
+}: {
+  cell: MedianCell;
+  fieldId: string;
+  fieldIds: CompareFieldId[];
+  leftSlug: string;
+  rightSlug?: string;
+  onField: (id: CompareFieldId) => void;
+}) {
+  const field = COMPARE_FIELDS.find((f) => f.id === fieldId);
+  const switcher = COMPARE_FIELDS.filter((f) => fieldIds.includes(f.id));
+  return (
+    <section className="mt-10">
+      <p className="kicker text-ochre">Median {cell.layer} table</p>
+      <h2 className="mt-2 font-display text-xl font-semibold tracking-tight">
+        Every GOLD {cell.layer} book that printed this year and series
+      </h2>
+      <p className="mt-2 max-w-2xl text-sm text-ink/70">
+        Sorted by rupees so the median sits in the middle of the list. Highlighted rows are the
+        picked books and the central book(s).
+      </p>
+      <p className="mt-3 flex flex-wrap gap-2 text-sm">
+        {switcher.map((f) => (
+          <button
+            key={f.id}
+            type="button"
+            className={`live-tag ${f.id === fieldId ? "text-rust" : "text-ink"}`}
+            onClick={() => onField(f.id)}
+          >
+            {f.label}
+          </button>
+        ))}
+      </p>
+      <div className="mt-4 overflow-x-auto">
+        <table className="w-full max-w-3xl border-y border-ink/20 text-left text-sm">
+          <caption className="sr-only">
+            {field?.label} · median of {cell.n}
+          </caption>
+          <thead>
+            <tr className="text-[0.7rem] uppercase tracking-[0.12em] text-ink/45">
+              <th className="py-2 font-medium">Book</th>
+              <th className="py-2 font-medium">Tier</th>
+              <th className="py-2 font-medium">Value</th>
+              <th className="py-2 font-medium">Citation</th>
+            </tr>
+          </thead>
+          <tbody>
+            {cell.peers.map((p) => {
+              const mark =
+                cell.midSlugs.includes(p.slug) || p.slug === leftSlug || p.slug === rightSlug;
+              return (
+                <tr key={p.slug} className={mark ? "bg-ink/[0.04]" : undefined}>
+                  <td className="py-2">
+                    <Link to={p.href}>{p.label}</Link>
+                    {cell.midSlugs.includes(p.slug) ? (
+                      <span className="ml-2 text-[0.65rem] uppercase tracking-[0.12em] text-ochre">
+                        median
+                      </span>
+                    ) : null}
+                  </td>
+                  <td className="py-2">
+                    <span className="live-tag text-ink">GOLD</span>
+                  </td>
+                  <td className="py-2">
+                    <span className="num">₹{formatCrore(p.money.crore)} crore</span>
+                  </td>
+                  <td className="py-2">
+                    <CitationChip citationId={p.money.citationId} />
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  );
+}
+
 function Hero({
+  kicker,
   side,
   money,
+  rule,
 }: {
+  kicker: string;
   side: NonNullable<ReturnType<typeof resolveSide>>;
   money?: { crore: number; rupees: number; series: Series; fiscalYear: string; citationId: string };
+  rule: "rust" | "carbon";
 }) {
   return (
-    <section className="docket-door">
-      <p className="kicker">{side.entity.layer}</p>
+    <section className={`docket-door ${rule === "carbon" ? "layer-state" : "layer-union"}`}>
+      <p className="kicker">{kicker}</p>
       <h2 className="mt-2 font-display text-xl font-semibold tracking-tight">{side.entity.name}</h2>
       <p className="mt-1 text-[0.7rem] uppercase tracking-[0.14em] text-zinc">{tierLabel(side.tier)}</p>
       {money ? (
@@ -302,37 +565,41 @@ function Hero({
 function Picker({
   label,
   slug,
+  grain,
   allowEmpty,
   onLayer,
   onEntity,
 }: {
   label: string;
   slug: string;
+  grain: CompareGrain;
   allowEmpty?: boolean;
   onLayer: (layer: LayerId) => void;
   onEntity: (slug: string) => void;
 }) {
   const entity = slug ? getCompareEntity(slug) : undefined;
   const layer = entity?.layer ?? "state";
-  const options = entitiesFor(layer);
+  const options = entitiesFor(layer, grain);
   return (
     <div className="docket-door">
       <p className="kicker">{label}</p>
       <div className="mt-3 flex flex-col gap-2 text-sm">
-        <label>
-          Layer{" "}
-          <select
-            className="ml-1 border border-ink/20 bg-paper px-2 py-1"
-            value={layer}
-            onChange={(e) => onLayer(e.target.value as LayerId)}
-          >
-            {LAYERS.map((l) => (
-              <option key={l.id} value={l.id}>
-                {l.label}
-              </option>
-            ))}
-          </select>
-        </label>
+        {grain === "layer" ? (
+          <label>
+            Layer{" "}
+            <select
+              className="ml-1 border border-ink/20 bg-paper px-2 py-1"
+              value={layer}
+              onChange={(e) => onLayer(e.target.value as LayerId)}
+            >
+              {LAYER_OPTS.map((l) => (
+                <option key={l.id} value={l.id}>
+                  {l.label}
+                </option>
+              ))}
+            </select>
+          </label>
+        ) : null}
         <label>
           Book{" "}
           <select

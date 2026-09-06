@@ -90,8 +90,8 @@ export function SourcesPage() {
         <h2 className="font-display text-xl font-semibold tracking-tight">How compare works</h2>
         <ul className="mt-4 list-none space-y-3 p-0">
           <li className="docket-slip text-ink/80">
-            Two books, same layer. We print the lines both books printed. If one book is silent, the
-            row stays blank — not zero.
+            Two books, same layer, and a middle desk-median. We print the lines the books printed.
+            If one book is silent, the row stays blank — not zero.
           </li>
           <li className="docket-slip text-ink/80">
             INDEX envelopes are not compare fodder. Cross-layer pairs (a state White Book vs Union
@@ -100,6 +100,56 @@ export function SourcesPage() {
           <li className="docket-slip text-ink/80">
             Search is a client-side index over typed LineItems. Zero hits means not in the typed
             books. Trace is a rail of printed grains; stations stay EMPTY unless a book named them.
+          </li>
+        </ul>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="font-display text-xl font-semibold tracking-tight">How the compare median is built</h2>
+        <ul className="mt-4 list-none space-y-3 p-0">
+          <li className="docket-slip text-ink/80">
+            The middle column is a desk-median of every GOLD book in the same layer that printed the
+            same field, series, and year. It is not a third government budget. The ochre chip reads
+            MEDIAN OF N, never a rust White Book tag.
+          </li>
+          <li className="docket-slip text-ink/80">
+            Median, not mean, is the hero. Odd N uses the middle book’s rupees. Even N is the mean
+            of the two central books after sorting by rupees, labelled as such. Mean of N may sit as
+            a quieter line. INDEX, EMPTY, and BLOCKED books never enter the peer set.
+          </li>
+          <li className="docket-slip text-ink/80">
+            N can differ by row — “median of 5 books” on 2055, “median of 2 books” on object 01.
+            N &lt; 3 is a thin peer set. N = 0 is an em-dash: no GOLD peer printed this line. We
+            never invent a zero median.
+          </li>
+        </ul>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="font-display text-xl font-semibold tracking-tight">Median pane — what N is</h2>
+        <ul className="mt-4 list-none space-y-3 p-0">
+          <li className="docket-slip text-ink/80">
+            <strong>State vs state</strong> (Maharashtra vs Telangana) — N is GOLD state books that
+            printed that line. Today that class is the typed state Police ledgers, not INDEX
+            Karnataka.
+          </li>
+          <li className="docket-slip text-ink/80">
+            <strong>City-police slices</strong> (Hyderabad CP vs Cyberabad CP) — N is GOLD
+            commissionerate HoD LineItems on disk. Maharashtra 2055 is not dragged into a city
+            median. Mumbai Police is state police, not BMC, and is not a municipal peer.
+          </li>
+          <li className="docket-slip text-ink/80">
+            <strong>Named police station</strong> — no named-station rupee is typed. White Books
+            stop at district force / commissionerate. We do not divide those totals by N stations
+            to build a median chowki. Grain C stays EMPTY until a book prints a station.
+          </li>
+          <li className="docket-slip text-ink/80">
+            <strong>Municipal / Gram</strong> — civic and village books are not typed. Middle pane
+            EMPTY is correct. BMC and GHMC totals are not invented.
+          </li>
+          <li className="docket-slip text-ink/80">
+            This is the median of N typed GOLD books on this machine — not a national average
+            police station, and not a typical Indian city spend.
           </li>
         </ul>
       </section>

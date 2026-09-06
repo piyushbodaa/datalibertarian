@@ -14,6 +14,18 @@ export type Citation = {
 export const EXTRACT_DATE = "2026-09-06";
 
 export const citations: Record<string, Citation> = {
+  "desk-median": {
+    id: "desk-median",
+    title: "Desk-median of GOLD books on disk",
+    publisher: "Data Libertarian desk-median",
+    fiscalYear: "2026-27",
+    url: "https://datalibertarian.in/sources",
+    table: "Median of typed GOLD LineItems sharing layer, field, series, year",
+    accessedOn: EXTRACT_DATE,
+    short: "MEDIAN OF N",
+    notes:
+      "Not a printed government total. Median of GOLD books on this machine that printed the same line. Even N uses the mean of the two central books. Never a per-station share.",
+  },
   "mh-home-whitebook-2026-27": {
     id: "mh-home-whitebook-2026-27",
     title:
@@ -259,10 +271,15 @@ citations["prs-andhra-pradesh"] = {
     "BLOCKED for 2025-26 / 2026-27: later years are percent of spend. We do not convert percent to rupees. Not a White Book extract.",
 };
 
+const generatedCitations: Record<string, Citation> = {};
+
+export function registerCitation(c: Citation): void {
+  generatedCitations[c.id] = c;
+}
+
 export function getCitation(id: string): Citation {
-  const c = citations[id];
-  if (!c) {
-    throw new Error(`Missing citation: ${id}`);
-  }
-  return c;
+  const c = citations[id] ?? generatedCitations[id];
+  if (c) return c;
+  if (id.startsWith("desk-median")) return citations["desk-median"];
+  throw new Error(`Missing citation: ${id}`);
 }

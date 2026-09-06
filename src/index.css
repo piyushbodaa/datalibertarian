@@ -132,6 +132,10 @@ a:hover {
   background: var(--zinc);
 }
 
+.citation-chip-median::before {
+  background: var(--ochre);
+}
+
 .file-cta {
   display: inline-flex;
   align-items: center;

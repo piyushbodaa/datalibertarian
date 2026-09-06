@@ -135,6 +135,7 @@ describe("every figure has a living citation", () => {
       "gj-home-2026-27",
       "tn-demand22-2026-27",
       "union-bag-2026-27",
+      "desk-median",
       "prs-andhra-pradesh",
     ]) {
       assert.ok(citations[id], `missing ${id}`);
@@ -333,9 +334,11 @@ describe("GOLD modules copy pack figures", () => {
     assert.equal(Object.keys(ka.bag).length, 0);
     const rows = compareRows(mh, up, "2026-27", "be");
     const functional = rows.find((r) => r.field.id === "police-functional")!;
-    assert.ok(functional.left && functional.right);
+    assert.ok(functional.left && functional.right && functional.mid);
     assert.ok(!functional.left.citationId.startsWith("prs-"));
     assert.ok(!functional.right.citationId.startsWith("prs-"));
+    assert.ok(functional.mid.money.citationId.startsWith("desk-median"));
+    assert.ok(!functional.mid.peers.some((p) => p.slug === "karnataka"));
     const run = rows.find((r) => r.field.id === "2055")!;
     assert.ok(run.left && run.right);
     const salaries = rows.find((r) => r.field.id === "obj-01");

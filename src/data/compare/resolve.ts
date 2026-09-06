@@ -18,9 +18,12 @@ import { demand51Net } from "../union/demand-51";
 import { delhiEstInfra } from "../union/delhi-police";
 import { getJurisdiction, jurisdictions, type PoliceTier } from "../states";
 import { searchLogFor } from "../coverage";
-import type { CompareEntity, CompareFieldId, CompareSide } from "./fields";
+import { commissionerates } from "../telangana/commissionerates";
+import { stations } from "../telangana/stations";
+import type { CompareEntity, CompareFieldId, CompareGrain, CompareSide } from "./fields";
 import { COMPARE_FIELDS } from "./fields";
 import type { LayerId } from "../layers";
+import { medianOf, type MedianCell, type PeerHit } from "./median";
 
 function wrap(id: string, plainLabel: string, officialName: string, head: string, amounts: Money[]): LineItem {
   return { id, plainLabel, officialName, head, amounts };
@@ -52,14 +55,30 @@ export const COMPARE_ENTITIES: CompareEntity[] = [
     })),
   { slug: "municipal", name: "Municipal corporations", layer: "municipal", href: "/municipal" },
   { slug: "gram", name: "Gram panchayats", layer: "gram", href: "/gram" },
+  ...commissionerates.map((c) => ({
+    slug: c.slug,
+    name: c.name,
+    layer: "state" as const,
+    href: `/telangana/${c.slug}`,
+    grain: "city" as const,
+  })),
+  ...stations.map((s) => ({
+    slug: s.slug,
+    name: s.name,
+    layer: "state" as const,
+    href: `/telangana/${s.cp}/stations/${s.slug}`,
+    grain: "station" as const,
+  })),
 ];
 
 export function getCompareEntity(slug: string): CompareEntity | undefined {
   return COMPARE_ENTITIES.find((e) => e.slug === slug);
 }
 
-export function entitiesFor(layer: LayerId): CompareEntity[] {
-  return COMPARE_ENTITIES.filter((e) => e.layer === layer);
+export function entitiesFor(layer: LayerId, grain: CompareGrain = "layer"): CompareEntity[] {
+  if (grain === "city") return COMPARE_ENTITIES.filter((e) => e.grain === "city");
+  if (grain === "station") return COMPARE_ENTITIES.filter((e) => e.grain === "station");
+  return COMPARE_ENTITIES.filter((e) => e.layer === layer && !e.grain);
 }
 
 function goldState(slug: string, bag: CompareSide["bag"]): CompareSide {
@@ -72,6 +91,18 @@ export function resolveSide(slug: string | undefined): CompareSide | undefined {
   const entity = getCompareEntity(slug);
   if (!entity) return undefined;
 
+  if (entity.grain === "station") {
+    return {
+      entity,
+      tier: "empty",
+      bag: {},
+      note: "No named police-station rupee is typed. White Books stop at district force / commissionerate. We do not divide those totals by N stations.",
+    };
+  }
+  const cp = commissionerates.find((c) => c.slug === slug);
+  if (cp) {
+    return { entity, tier: "gold", bag: { "police-functional": cp.combined } };
+  }
   if (entity.layer === "municipal" || entity.layer === "gram") {
     return { entity, tier: "empty", bag: {}, note: "Civic / village books not typed." };
   }
@@ -177,26 +208,70 @@ export function intersectYears(a: CompareSide, b: CompareSide): { fiscalYear: st
 export type CompareRow = {
   field: (typeof COMPARE_FIELDS)[number];
   left?: Money;
+  mid?: MedianCell | null;
   right?: Money;
 };
 
-export function compareRows(
-  left: CompareSide,
-  right: CompareSide,
+export function goldPeerEntities(grain: CompareGrain, layer: LayerId): CompareEntity[] {
+  if (grain === "city") return COMPARE_ENTITIES.filter((e) => e.grain === "city");
+  if (grain === "station") return COMPARE_ENTITIES.filter((e) => e.grain === "station");
+  return COMPARE_ENTITIES.filter((e) => e.layer === layer && !e.grain);
+}
+
+export function peersForField(
+  grain: CompareGrain,
+  layer: LayerId,
+  fieldId: CompareFieldId,
   fiscalYear: string,
   series: Series,
+  exclude: string[] = [],
+): PeerHit[] {
+  const hits: PeerHit[] = [];
+  for (const e of goldPeerEntities(grain, layer)) {
+    if (exclude.includes(e.slug)) continue;
+    const side = resolveSide(e.slug);
+    if (!side || side.tier !== "gold") continue;
+    const item = side.bag[fieldId];
+    if (!item) continue;
+    const money = pickAmount(item, fiscalYear, series);
+    if (!money) continue;
+    if (money.citationId.startsWith("prs-")) continue;
+    hits.push({ slug: e.slug, label: e.name, href: e.href, money });
+  }
+  return hits;
+}
+
+export function compareRows(
+  left: CompareSide,
+  right: CompareSide | undefined,
+  fiscalYear: string,
+  series: Series,
+  opts: { grain?: CompareGrain; excludePicked?: boolean } = {},
 ): CompareRow[] {
+  const grain = opts.grain ?? "layer";
+  const layer = left.entity.layer;
+  const exclude = opts.excludePicked
+    ? [left.entity.slug, right?.entity.slug].filter(Boolean) as string[]
+    : [];
   const rows: CompareRow[] = [];
   for (const field of COMPARE_FIELDS) {
-    if (field.layer !== "any" && field.layer !== left.entity.layer && field.layer !== right.entity.layer) {
+    if (field.layer !== "any" && field.layer !== left.entity.layer && field.layer !== right?.entity.layer) {
       continue;
     }
     const lItem = left.bag[field.id as CompareFieldId];
-    const rItem = right.bag[field.id as CompareFieldId];
+    const rItem = right?.bag[field.id as CompareFieldId];
     const l = lItem ? pickAmount(lItem, fiscalYear, series) : undefined;
     const r = rItem ? pickAmount(rItem, fiscalYear, series) : undefined;
-    if (!l && !r) continue;
-    rows.push({ field, left: l, right: r });
+    const peers = peersForField(grain, layer, field.id as CompareFieldId, fiscalYear, series, exclude);
+    const mid = medianOf(peers, {
+      fieldId: field.id as CompareFieldId,
+      layer: grain === "layer" ? layer : grain,
+      series,
+      fiscalYear,
+      excludePicked: !!opts.excludePicked,
+    });
+    if (!l && !r && !mid) continue;
+    rows.push({ field, left: l, mid, right: r });
   }
   return rows;
 }
