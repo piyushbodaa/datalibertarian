@@ -64,6 +64,7 @@ export function PolicePage() {
         </p>
       </div>
 
+      <PrintedColumns run={police2055} cap={police4055} />
       <ShareSplit police={hero} state={state} />
       <HeadSplit run={run} cap={cap} />
 
@@ -87,8 +88,6 @@ export function PolicePage() {
           </dd>
         </div>
       </dl>
-
-      <PrintedColumns run={police2055} cap={police4055} />
 
       <section className="mt-12">
         <h2 className="font-display text-2xl font-semibold tracking-tight">The police ledger</h2>

@@ -7,21 +7,19 @@ export function MunicipalPage() {
       <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">
         Municipal Corporations
       </h1>
-      <p className="mt-4 max-w-2xl text-ink">
-        Municipal corporations spend taxpayer money on civic work: water, roads, schools, health.
-        That is not the same as police.
-      </p>
-      <p className="mt-4 max-w-2xl text-ink">
-        In India, city police is usually <strong>state police</strong>. Mumbai Police is in the
-        Maharashtra state books, not the Brihanmumbai Municipal Corporation budget.
+      <p className="mt-3 max-w-2xl text-ink">
+        Civic spend — water, roads, schools — is not police. Mumbai Police is in the Maharashtra
+        state books, not the corporation.
       </p>
 
-      <section className="carbon-sheet mt-10 px-4 py-6 sm:px-6">
+      <section className="carbon-sheet mt-10 px-4 py-8 sm:px-6">
         <p className="kicker text-ochre">Not extracted yet</p>
-        <h2 className="mt-2 font-display text-xl font-semibold">No municipal totals on this page</h2>
-        <p className="mt-3 max-w-2xl text-sm text-ink/70">
-          We will not guess a corporation’s spend. Next, when we pick a city: Brihanmumbai civic
-          books (OpenCity / BMC PDFs) — labelled civic, never as Police.
+        <h2 className="mt-2 font-display text-xl font-semibold">No municipal totals</h2>
+        <div className="mt-6 border border-dashed border-ink/25 px-3 py-10 text-center text-[0.7rem] uppercase tracking-[0.16em] text-ink/40">
+          No hatch · no guessed rupee
+        </div>
+        <p className="mt-5 max-w-2xl text-sm text-ink/70">
+          Next city, later: Brihanmumbai civic PDFs — labelled civic, never as Police.
         </p>
       </section>
 

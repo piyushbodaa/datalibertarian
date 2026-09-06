@@ -209,3 +209,42 @@ a:hover {
   border-left: 2px solid var(--rust);
   padding-left: 1rem;
 }
+
+.live-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid var(--rule);
+  padding: 0.2rem 0.55rem 0.2rem 0.4rem;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.live-tag::before {
+  content: "";
+  width: 0.35rem;
+  height: 0.7em;
+  background: var(--rust);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 40% 52%);
+}
+
+.live-tag.empty::before {
+  background: var(--carbon);
+  opacity: 0.45;
+}
+
+.docket-door {
+  display: block;
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--rust);
+  padding: 1.1rem 1.15rem 1.2rem;
+  text-decoration: none;
+  color: inherit;
+  min-height: 44px;
+}
+
+.docket-door.empty {
+  border-left-color: var(--carbon);
+}

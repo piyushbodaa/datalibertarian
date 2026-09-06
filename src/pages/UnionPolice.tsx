@@ -51,6 +51,12 @@ export function UnionPolicePage() {
         </p>
       </div>
 
+      <PrintedColumns
+        run={demand51Revenue}
+        cap={demand51Capital}
+        caption="Each bar is Demand 51 net (revenue plus capital) as the Notes on Demands print it. Actuals, Budget, and Revised are different kinds of figure — not one trend."
+      />
+
       <HeadSplit
         run={rev}
         cap={cap}
@@ -58,12 +64,6 @@ export function UnionPolicePage() {
         note="Same Budget column as the headline. Capital is the smaller slice of Demand 51 — as printed, not a drawing error."
         runLabel="Revenue"
         capLabel="Capital"
-      />
-
-      <PrintedColumns
-        run={demand51Revenue}
-        cap={demand51Capital}
-        caption="Each bar is Demand 51 net (revenue plus capital) as the Notes on Demands print it. Actuals, Budget, and Revised are different kinds of figure — not one trend."
       />
 
       <RankedHatch

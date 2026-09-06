@@ -12,6 +12,8 @@ type Props = {
   note?: string;
   /** If set, percentages are of this cited total, not of the listed rows alone. */
   shareOf?: { crore: number };
+  compact?: boolean;
+  limit?: number;
 };
 
 export function RankedHatch({
@@ -21,6 +23,8 @@ export function RankedHatch({
   title = "Where the police rupee sits",
   note,
   shareOf,
+  compact = false,
+  limit,
 }: Props) {
   const rows = items
     .map((item) => {
@@ -46,7 +50,7 @@ export function RankedHatch({
       citationId: r.amount.citationId,
     })),
   ];
-  if (otherSum > 0) {
+  if (otherSum > 0 && !limit) {
     display.push({
       id: "other",
       label: `Other heads (${other.length} lines)`,
@@ -54,18 +58,19 @@ export function RankedHatch({
       citationId,
     });
   }
+  const shown = limit ? display.slice(0, limit) : display;
 
   const seriesWord = series === "be" ? "budget" : series === "re" ? "revised" : "actuals";
 
   return (
-    <figure className="mt-10">
+    <figure className={compact ? "mt-4" : "mt-10"}>
       <ChartCaption title={title}>
         {note ??
           `Ranked against the largest line (district police). Running costs only (head 2055, voted), ${fiscalYear} ${seriesWord}. Same document, same year. Lines under 2% are grouped as other.`}
         <CitationChip citationId={citationId} />
       </ChartCaption>
-      <ol className="mt-2 space-y-3.5">
-        {display.map((r) => {
+      <ol className={compact ? "mt-2 space-y-2" : "mt-2 space-y-3.5"}>
+        {shown.map((r) => {
           const pct = (r.crore / total) * 100;
           const width = (r.crore / max) * 100;
           return (

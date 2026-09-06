@@ -8,6 +8,8 @@ type Props = {
   run: LineItem;
   cap: LineItem;
   caption?: string;
+  title?: string;
+  compact?: boolean;
 };
 
 const SERIES_HATCH: Record<string, { fill: string; hatch: string; stroke: string }> = {
@@ -20,6 +22,8 @@ export function PrintedColumns({
   run,
   cap,
   caption = "Each bar is Police running costs plus capital (2055 + 4055) as the White Book prints it. Actuals, Budget, and Revised are different kinds of figure — not one trend. Empty years are not filled in.",
+  title = "Four columns as printed",
+  compact = false,
 }: Props) {
   const columns = BOOK_COLUMNS.map((col) => {
     const r = pickAmount(run, col.fiscalYear, col.series);
@@ -50,8 +54,8 @@ export function PrintedColumns({
   const gap = (plotW - barW * columns.length) / (columns.length + 1);
 
   return (
-    <figure className="mt-8">
-      <ChartCaption title="Four columns as printed">
+    <figure className={compact ? "mt-4" : "mt-8"}>
+      <ChartCaption title={title}>
         {caption}
         {citationId ? <CitationChip citationId={citationId} /> : null}
       </ChartCaption>
@@ -283,10 +287,12 @@ export function PrintedColumns({
           </text>
         </g>
       </svg>
-      <p className="mt-1 max-w-3xl text-[0.7rem] text-ink/55">
-        Axis in crore of rupees. Hatch plus the words Actuals / Budget / Revised mark the series —
-        not colour alone. Totals on the bars are rounded for the eye; the table keeps two decimals.
-      </p>
+      {compact ? null : (
+        <p className="mt-1 max-w-3xl text-[0.7rem] text-ink/55">
+          Axis in crore of rupees. Hatch plus the words Actuals / Budget / Revised mark the series —
+          not colour alone. Totals on the bars are rounded for the eye; the table keeps two decimals.
+        </p>
+      )}
     </figure>
   );
 }
