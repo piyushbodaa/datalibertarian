@@ -8,7 +8,7 @@ import { od2055, odDemand01, odFunctional } from "../data/odisha/police";
 import { tgObject010, tgArms220, tgCity4055 } from "../data/telangana/police";
 import { up2055Voted, up4055, upFunctional, upSalariesDesk, upUniforms } from "../data/uttar-pradesh/police";
 import { wb2055Net, wb4055, wbFunctional, wbSalariesDesk, wbArms, wbClothing } from "../data/west-bengal/police";
-import { unionTotalExpenditure } from "../data/union/budget-at-a-glance";
+import { unionOutstandingLiabilities, unionTotalExpenditure } from "../data/union/budget-at-a-glance";
 import { demand51Groups, demand51Net, demand51Capital, demand51Revenue } from "../data/union/demand-51";
 import { delhiEstInfra } from "../data/union/delhi-police";
 import { commissionerates } from "../data/telangana/commissionerates";
@@ -82,6 +82,7 @@ const ENTRIES: Entry[] = [
   { item: od2055, entity: "Odisha Police", href: "/odisha/police" },
   { item: odDemand01, entity: "Odisha Demand 01 Home", href: "/odisha/police" },
   { item: unionTotalExpenditure, entity: "Union Budget at a Glance", href: "/union" },
+  { item: unionOutstandingLiabilities, entity: "Union outstanding liabilities", href: "/" },
   { item: demand51Net, entity: "Centre Police", href: "/union/police" },
   { item: demand51Revenue, entity: "Centre Police", href: "/union/police" },
   { item: demand51Capital, entity: "Centre Police", href: "/union/police" },

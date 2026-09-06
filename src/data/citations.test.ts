@@ -18,6 +18,7 @@ import {
 } from "./union/demand-51.ts";
 import {
   unionCapitalExpenditure,
+  unionOutstandingLiabilities,
   unionRevenueExpenditure,
   unionTotalExpenditure,
 } from "./union/budget-at-a-glance.ts";
@@ -52,6 +53,7 @@ const allMoney = [
   ...unionTotalExpenditure.amounts,
   ...unionRevenueExpenditure.amounts,
   ...unionCapitalExpenditure.amounts,
+  ...unionOutstandingLiabilities.amounts,
   ...delhiEstInfra.amounts,
   ...indexPoliceLines.flatMap((l) => l.amounts),
   apLastFound.be2425,
@@ -152,6 +154,7 @@ describe("every figure has a living citation", () => {
       "kl-afs-2026-27",
       "od-d01-2026-27",
       "union-bag-2026-27",
+      "union-rec-annex9-2026-27",
       "desk-median",
       "prs-andhra-pradesh",
     ]) {
@@ -380,6 +383,12 @@ describe("GOLD modules copy pack figures", () => {
     assert.equal(total.crore, 5347315);
     assert.equal(rev.crore + cap.crore, total.crore);
     assert.ok(total.crore > d51.crore);
+    const debt = unionOutstandingLiabilities.amounts.find(
+      (a) => a.fiscalYear === "2026-27" && a.series === "be",
+    )!;
+    assert.equal(debt.crore, 21482050);
+    assert.ok(debt.crore > total.crore);
+    assert.ok(!debt.citationId.startsWith("prs-"));
     assert.equal(LAYERS.length, 4);
     assert.ok(LAYERS.filter((l) => l.empty).length >= 2);
   });

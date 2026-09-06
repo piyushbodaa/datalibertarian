@@ -228,3 +228,15 @@ Units: crore as printed. Item 9 Total Expenditure (10+13).
 | Budget 2026-27 | 53,47,315 |
 
 Revenue + capital = total for each series. Not Demand 51. Not the sum of the states.
+
+## Union outstanding liabilities — Receipt Budget Annex 9, 2026-27
+
+Source: https://www.indiabudget.gov.in/doc/rec/annex9.pdf
+Units: crore as printed. Union (Centre) stock only — not state debt.
+
+| Series | As on | Crore |
+|---|---|---|
+| Revised 2025-26 | 31 March 2026 | 1,97,18,016 |
+| Budget 2026-27 | 31 March 2027 | 2,14,82,050 |
+
+External debt at historical rate of exchange, as printed. Not a live ticker.

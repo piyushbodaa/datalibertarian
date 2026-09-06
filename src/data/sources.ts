@@ -66,6 +66,19 @@ export const citations: Record<string, Citation> = {
     notes:
       "Figures printed in crore of rupees. Union total expenditure is not Demand 51 Police, not the sum of the states, and not an India grand total of Union+State+Municipal+Gram.",
   },
+  "union-rec-annex9-2026-27": {
+    id: "union-rec-annex9-2026-27",
+    title: "Receipt Budget 2026-2027 — Annex 9, Debt position of the Government of India",
+    publisher: "Ministry of Finance, Government of India",
+    fiscalYear: "2026-27",
+    url: "https://www.indiabudget.gov.in/doc/rec/annex9.pdf",
+    pages: "summary table: total outstanding internal and external debt and other liabilities",
+    table: "As on 31 March 2026 (RE) ₹1,97,18,016 crore; as on 31 March 2027 (BE) ₹2,14,82,050 crore",
+    accessedOn: EXTRACT_DATE,
+    short: "Union liabilities",
+    notes:
+      "Figures printed in crore of rupees. This is the Union (Centre) stock of debt and other liabilities — not state debt, not municipal debt, and not a live ticker. External debt at historical rate of exchange, as printed.",
+  },
   "union-sbe51-2026-27": {
     id: "union-sbe51-2026-27",
     title: "Notes on Demands for Grants, 2026-2027 — Demand No. 51, Police",

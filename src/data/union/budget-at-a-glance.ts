@@ -48,3 +48,21 @@ export const unionCapitalExpenditure: LineItem = {
 
 export const UNION_TOTAL_YEAR = "2026-27";
 export const UNION_TOTAL_SERIES: Series = "be";
+
+const DEBT = "union-rec-annex9-2026-27";
+
+/** Receipt Budget Annex 9 — outstanding internal+external debt and other liabilities. Union books only. */
+export const unionOutstandingLiabilities: LineItem = {
+  id: "union-outstanding-liabilities",
+  plainLabel: "Union outstanding liabilities",
+  officialName:
+    "Receipt Budget 2026-27 Annex 9 — outstanding internal and external debt and other liabilities of the Government of India",
+  head: "union-debt",
+  amounts: [
+    fromCrore(19718016, "re", "2025-26"),
+    fromCrore(21482050, "be", "2026-27"),
+  ].map((m) => ({ ...m, citationId: DEBT })),
+};
+
+export const UNION_DEBT_YEAR = "2026-27";
+export const UNION_DEBT_SERIES: Series = "be";

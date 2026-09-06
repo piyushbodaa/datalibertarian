@@ -22,6 +22,7 @@ const GOLD_IDS = [
   "kl-afs-2026-27",
   "od-d01-2026-27",
   "union-bag-2026-27",
+  "union-rec-annex9-2026-27",
 ];
 
 export function SourcesPage() {
@@ -259,6 +260,10 @@ export function SourcesPage() {
           <li className="docket-slip text-ink/80">
             <strong>Union total expenditure</strong> — Budget at a Glance 2026-27, item 9. ₹53,47,315
             cr BE 2026-27. Not Demand 51. Not the states.
+          </li>
+          <li className="docket-slip text-ink/80">
+            <strong>Union outstanding liabilities</strong> — Receipt Budget Annex 9. ₹2,14,82,050
+            crore at end of 2026-27 (BE). Centre stock only. Not state debt. Not a live ticker.
           </li>
           <li className="docket-slip text-ink/80">
             <strong>Union Demand 51 Police</strong> — Notes on Demands. Headline is the demand net

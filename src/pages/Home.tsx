@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
+import { CitationChip } from "../components/CitationChip";
+import { LayerPie } from "../components/LayerPie";
 import { Money } from "../components/Money";
-import { PrintedColumns } from "../components/PrintedColumns";
 import { ShareSplit } from "../components/ShareSplit";
+import { formatCrore } from "../lib/money";
 import { coverageCounts } from "../data/coverage";
 import {
   functionalPolice,
@@ -11,10 +13,11 @@ import {
   stateTotalExpenditure,
 } from "../data/maharashtra-police";
 import {
+  UNION_DEBT_SERIES,
+  UNION_DEBT_YEAR,
   UNION_TOTAL_SERIES,
   UNION_TOTAL_YEAR,
-  unionCapitalExpenditure,
-  unionRevenueExpenditure,
+  unionOutstandingLiabilities,
   unionTotalExpenditure,
 } from "../data/union/budget-at-a-glance";
 import {
@@ -24,39 +27,56 @@ import {
 } from "../data/union/demand-51";
 
 export function HomePage() {
+  const debt = pickAmount(unionOutstandingLiabilities, UNION_DEBT_YEAR, UNION_DEBT_SERIES);
   const unionTotal = pickAmount(unionTotalExpenditure, UNION_TOTAL_YEAR, UNION_TOTAL_SERIES);
   const policeDemand = pickAmount(demand51Net, UNION_HEADLINE_YEAR, UNION_HEADLINE_SERIES);
   const mhState = stateTotalExpenditure.find(
     (m) => m.fiscalYear === HEADLINE_YEAR && m.series === HEADLINE_SERIES,
   );
   const mhPolice = pickAmount(functionalPolice, HEADLINE_YEAR, HEADLINE_SERIES);
-  if (!unionTotal || !policeDemand || !mhState || !mhPolice) {
+  if (!debt || !unionTotal || !policeDemand || !mhState || !mhPolice) {
     throw new Error("Missing home layer figures");
   }
   const cov = coverageCounts();
 
   return (
     <article>
+      <p className="text-sm text-ink/55">Union books · end of 2026-27, as printed</p>
       <h1 className="mt-2 font-display text-[1.85rem] font-semibold leading-[1.15] tracking-tight sm:text-4xl">
-        Union. State. City. Village.
+        Union outstanding liabilities
       </h1>
-      <p className="layer-caption mt-3">These are four different books. Do not add them.</p>
+      <p className="mt-3 max-w-2xl text-ink">
+        Outstanding liabilities of the Government of India. Centre only. Not the states, not the
+        cities, not a live ticker.
+      </p>
+      <div className="mt-6 border-y border-ink/20 py-8">
+        <p className="num m-0 text-[2.4rem] font-medium leading-[0.95] tracking-tight sm:text-6xl md:text-7xl">
+          ₹{formatCrore(debt.crore)} crore
+        </p>
+        <p className="mt-4 text-sm text-ink/70">
+          End of 2026-27, as printed
+          <CitationChip citationId={debt.citationId} />
+        </p>
+      </div>
 
-      <div className="mt-8 grid gap-5 sm:grid-cols-2">
+      <LayerPie
+        title="Spend in the books we have read"
+        note="Union plan vs one state book (Maharashtra). City and village are empty — not zero. Do not add these into one India total."
+        slices={[
+          { id: "union", label: "Union plan", money: unionTotal, hatch: "rust" },
+          { id: "state", label: "Maharashtra (one state)", money: mhState, hatch: "carbon" },
+          { id: "city", label: "City", empty: "No city book typed yet.", hatch: "ochre" },
+          { id: "village", label: "Village", empty: "No village book typed yet.", hatch: "zinc" },
+        ]}
+      />
+
+      <div className="mt-10 grid gap-5 sm:grid-cols-2">
         <section className="docket-door layer-union">
-          <h2 className="font-display text-xl font-semibold tracking-tight">Union</h2>
-          <p className="layer-caption mt-1">What Delhi’s Union budget planned to spend, 2026-27</p>
+          <h2 className="font-display text-xl font-semibold tracking-tight">Union spend</h2>
+          <p className="layer-caption mt-1">What the Union budget planned to spend, 2026-27</p>
           <div className="mt-4">
             <Money money={unionTotal} size="hero" showSeries />
           </div>
-          <PrintedColumns
-            compact
-            barsOnly
-            run={unionRevenueExpenditure}
-            cap={unionCapitalExpenditure}
-            title="Spent · plan · updated · next plan"
-            caption=""
-          />
           <p className="mt-3 text-sm text-ink/70">
             Centre police only: <Money money={policeDemand} size="row" />
           </p>
@@ -69,7 +89,7 @@ export function HomePage() {
         </section>
 
         <section className="docket-door layer-state">
-          <h2 className="font-display text-xl font-semibold tracking-tight">State</h2>
+          <h2 className="font-display text-xl font-semibold tracking-tight">One state book</h2>
           <p className="layer-caption mt-1">Maharashtra’s whole budget, 2026-27</p>
           <div className="mt-4">
             <Money money={mhState} size="hero" showSeries />
@@ -82,28 +102,6 @@ export function HomePage() {
             <Link to="/states" className="file-cta">
               <span className="file-cta-notch" aria-hidden="true" />
               All states
-            </Link>
-          </p>
-        </section>
-
-        <section className="docket-door bone layer-municipal">
-          <h2 className="font-display text-xl font-semibold tracking-tight">City</h2>
-          <p className="mt-3 max-w-[40ch] text-sm text-ink/75">No city book typed yet.</p>
-          <p className="mt-4">
-            <Link to="/municipal" className="file-cta">
-              <span className="file-cta-notch" aria-hidden="true" />
-              Why city is empty
-            </Link>
-          </p>
-        </section>
-
-        <section className="docket-door bone layer-gram">
-          <h2 className="font-display text-xl font-semibold tracking-tight">Village</h2>
-          <p className="mt-3 max-w-[40ch] text-sm text-ink/75">No village book typed yet.</p>
-          <p className="mt-4">
-            <Link to="/gram" className="file-cta">
-              <span className="file-cta-notch" aria-hidden="true" />
-              Why village is empty
             </Link>
           </p>
         </section>
