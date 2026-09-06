@@ -1,5 +1,20 @@
 import type { Money, Series } from "../data/maharashtra-police";
 
+export function fromCrore(
+  crore: number,
+  series: Series,
+  fiscalYear: string,
+  citationId: string,
+): Money {
+  return {
+    crore,
+    rupees: Math.round(crore * 10_000_000),
+    series,
+    fiscalYear,
+    citationId,
+  };
+}
+
 export const SERIES_LABEL: Record<Series, string> = {
   actual: "Actuals",
   be: "Budget",

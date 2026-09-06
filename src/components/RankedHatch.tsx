@@ -14,6 +14,10 @@ type Props = {
   shareOf?: { crore: number };
   compact?: boolean;
   limit?: number;
+  /** INDEX hatch uses zinc, not rust/carbon White Book language. */
+  tone?: "gold" | "index";
+  /** Skip the 2% “other” bucket so every cited row can show (INDEX 27). */
+  showAll?: boolean;
 };
 
 export function RankedHatch({
@@ -25,6 +29,8 @@ export function RankedHatch({
   shareOf,
   compact = false,
   limit,
+  tone = "gold",
+  showAll = false,
 }: Props) {
   const rows = items
     .map((item) => {
@@ -39,8 +45,8 @@ export function RankedHatch({
   if (total <= 0) return null;
   const citationId = rows[0].amount.citationId;
   const max = rows[0].amount.crore;
-  const major = rows.filter((r) => r.amount.crore / total >= 0.02);
-  const other = rows.filter((r) => r.amount.crore / total < 0.02);
+  const major = showAll ? rows : rows.filter((r) => r.amount.crore / total >= 0.02);
+  const other = showAll ? [] : rows.filter((r) => r.amount.crore / total < 0.02);
   const otherSum = other.reduce((s, r) => s + r.amount.crore, 0);
   const display = [
     ...major.map((r) => ({
@@ -59,6 +65,7 @@ export function RankedHatch({
     });
   }
   const shown = limit ? display.slice(0, limit) : display;
+  const hatchClass = tone === "index" ? "hatch-zinc border-zinc/50" : "hatch-carbon border-carbon/50";
 
   const seriesWord = series === "be" ? "budget" : series === "re" ? "revised" : "actuals";
 
@@ -75,10 +82,12 @@ export function RankedHatch({
           const width = (r.crore / max) * 100;
           return (
             <li key={r.id}>
-              <div className="flex items-baseline justify-between gap-3 text-sm">
+              <div className="sm:flex sm:items-baseline sm:justify-between sm:gap-3 text-sm">
                 <span className="min-w-0">{r.label}</span>
-                <span className="num shrink-0 text-ink/80">
-                  {pct.toFixed(1)}% · {formatMoneyShort({ ...rows[0].amount, crore: r.crore, rupees: Math.round(r.crore * 10_000_000) })}
+                <span className="num mt-0.5 block text-[0.75rem] text-ink/80 sm:mt-0 sm:text-sm">
+                  {pct.toFixed(1)}% · {Number.isInteger(r.crore)
+                    ? `₹${r.crore.toLocaleString("en-IN")} cr`
+                    : formatMoneyShort({ ...rows[0].amount, crore: r.crore, rupees: Math.round(r.crore * 10_000_000) })}
                   <CitationChip citationId={r.citationId} compact />
                 </span>
               </div>
@@ -88,7 +97,7 @@ export function RankedHatch({
                 aria-label={`${r.label}, ${pct.toFixed(1)} percent, ₹${r.crore.toFixed(2)} crore`}
               >
                 <div
-                  className="hatch-carbon h-5 border border-carbon/50"
+                  className={`${hatchClass} h-5 border`}
                   style={{ width: `${width}%` }}
                 />
               </div>

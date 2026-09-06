@@ -11,6 +11,7 @@ import {
   police2055,
   police4055,
 } from "../data/maharashtra-police";
+import { INDEX_SERIES, INDEX_YEAR, indexPoliceLines } from "../data/prs-index/afs-police";
 import { EXTRACT_DATE } from "../data/sources";
 import {
   demand51Groups,
@@ -35,18 +36,44 @@ export function HomePage() {
         Official books. Cited rupees. Not NGOs.
       </h1>
       <p className="mt-3 max-w-2xl text-ink/80">
-        Two ledgers are typed. Empty doors have no number.
+        GOLD ledgers are typed from government books. INDEX is PRS AFS Police functional — a
+        different slip. Empty doors have no number.
       </p>
 
       <ul className="mt-5 flex flex-wrap gap-2" aria-label="What is live">
         <li>
           <Link to="/maharashtra/police" className="live-tag no-underline text-ink">
-            Maharashtra Police · live
+            Maharashtra · GOLD
+          </Link>
+        </li>
+        <li>
+          <Link to="/uttar-pradesh/police" className="live-tag no-underline text-ink">
+            Uttar Pradesh · GOLD
+          </Link>
+        </li>
+        <li>
+          <Link to="/telangana/police" className="live-tag no-underline text-ink">
+            Telangana · GOLD
+          </Link>
+        </li>
+        <li>
+          <Link to="/west-bengal/police" className="live-tag no-underline text-ink">
+            West Bengal · GOLD
           </Link>
         </li>
         <li>
           <Link to="/union/police" className="live-tag no-underline text-ink">
-            Union Demand 51 · live
+            Union Demand 51 · GOLD
+          </Link>
+        </li>
+        <li>
+          <Link to="/union/delhi-police" className="live-tag no-underline text-ink">
+            Delhi Police · Union
+          </Link>
+        </li>
+        <li>
+          <Link to="/states" className="live-tag index no-underline text-ink">
+            27 INDEX · PRS AFS
           </Link>
         </li>
         <li>
@@ -59,7 +86,8 @@ export function HomePage() {
           <div>
             <p className="kicker">Maharashtra White Book · Police</p>
             <p className="mt-2 text-sm text-ink/65">
-              Heads 2055 + 4055 · FY {mh.fiscalYear} budget. Not Union police. Not BMC.
+              Heads 2055 + 4055 · FY {mh.fiscalYear} budget. Not Union police. Not BMC. Not the PRS
+              INDEX envelope.
             </p>
             <div className="mt-4">
               <Money money={mh} size="hero" showSeries />
@@ -91,6 +119,34 @@ export function HomePage() {
         </div>
       </section>
 
+      <section className="index-slip mt-10">
+        <p className="kicker">INDEX · PRS AFS</p>
+        <h2 className="mt-2 font-display text-2xl font-semibold tracking-tight">
+          Cited rank, FY 2025-26 budget
+        </h2>
+        <p className="mt-3 max-w-2xl text-sm text-ink/75">
+          PRS AFS Police functional — not state White Book depth yet. Zinc hatch, not the rust
+          White Book ledger. Maharashtra’s INDEX ₹33,743 crore is not the GOLD hero above.
+        </p>
+        <RankedHatch
+          compact
+          tone="index"
+          showAll
+          limit={8}
+          items={indexPoliceLines}
+          fiscalYear={INDEX_YEAR}
+          series={INDEX_SERIES}
+          title="Largest INDEX envelopes"
+          note="INDEX, not GOLD LIVE. Top 8 of 27 PRS AFS Police functional envelopes, FY 2025-26 budget. Share of those 27 listed rows."
+        />
+        <p className="mt-4">
+          <Link to="/states" className="file-cta">
+            <span className="file-cta-notch" aria-hidden="true" />
+            Open all 27 INDEX envelopes
+          </Link>
+        </p>
+      </section>
+
       <div className="mt-10 grid gap-5 md:grid-cols-3">
         <section className="docket-door">
           <p className="kicker">Centre</p>
@@ -120,7 +176,7 @@ export function HomePage() {
         <section className="docket-door">
           <p className="kicker">States</p>
           <h2 className="mt-2 font-display text-xl font-semibold tracking-tight">State Governments</h2>
-          <p className="mt-1 text-sm text-ink/70">1 live · rest empty. We do not guess.</p>
+          <p className="mt-1 text-sm text-ink/70">4 GOLD ledgers · 27 INDEX envelopes. We do not guess.</p>
           <div className="mt-3">
             <Money money={mh} size="row" />
           </div>
@@ -145,7 +201,7 @@ export function HomePage() {
             Civic books are not typed. City police is usually state police. No rupee here.
           </p>
           <div className="mt-6 border border-dashed border-ink/25 px-3 py-6 text-center text-[0.7rem] uppercase tracking-[0.16em] text-ink/40">
-            No hatch · no total
+            No hatch · no guessed rupee
           </div>
           <p className="mt-4">
             <Link to="/municipal" className="file-cta">
@@ -160,6 +216,8 @@ export function HomePage() {
         <Link to="/sources">How the books were read</Link>
         {" · "}
         <Link to="/maharashtra/police">Maharashtra Police ledger</Link>
+        {" · "}
+        <Link to="/union/delhi-police">Delhi Police (Union)</Link>
       </p>
     </article>
   );

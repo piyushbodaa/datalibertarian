@@ -39,7 +39,7 @@ export function PolicePage() {
 
   return (
     <article>
-      <p className="kicker">State books → Police → lines</p>
+      <p className="kicker">GOLD · White Book · 2055 + 4055</p>
       <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">
         Maharashtra Police spending
       </h1>
@@ -136,8 +136,11 @@ export function PolicePage() {
             <CitationFootnote key={id} citationId={id} />
           ))}
         </ol>
-        <p className="mt-6">
-          Method, limitations, and White Book status: <Link to="/sources">Sources</Link>.
+        <p className="mt-6 max-w-2xl">
+          INDEX (PRS AFS Police functional, FY 2025-26 budget) lists Maharashtra at ₹33,743 crore.
+          That is a different book and year-column — not this White Book hero of ₹
+          {formatCrore(hero.crore)} crore. <Link to="/states">INDEX hatch</Link>. Method:{" "}
+          <Link to="/sources">Sources</Link>.
         </p>
       </section>
     </article>

@@ -76,6 +76,24 @@ export function UnionPolicePage() {
       />
 
       <section className="carbon-sheet mt-14 px-4 py-6 sm:px-6">
+        <p className="kicker">Union sub-door · not Demand 51 net</p>
+        <h2 className="mt-2 font-display text-xl font-semibold tracking-tight">
+          Delhi Police — establishment + infrastructure
+        </h2>
+        <p className="mt-3 max-w-2xl text-sm text-ink/75">
+          The printed group labelled Delhi Police on this demand is establishment. The Union
+          sub-door adds Police Infrastructure earmarked Delhi Police. It is not the Demand 51 net
+          total, not GNCTD AFS, and not a state rank.
+        </p>
+        <p className="mt-4">
+          <Link to="/union/delhi-police" className="file-cta">
+            <span className="file-cta-notch" aria-hidden="true" />
+            Open the Delhi Police ledger
+          </Link>
+        </p>
+      </section>
+
+      <section className="carbon-sheet mt-10 px-4 py-6 sm:px-6">
         <p className="kicker text-ochre">Related ministry · quieter</p>
         <h2 className="mt-2 font-display text-xl font-semibold text-ink/80">
           The Ministry of Home Affairs is not police-only

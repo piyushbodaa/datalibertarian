@@ -53,6 +53,23 @@ export function UnionPage() {
         </p>
       </section>
 
+      <section className="carbon-sheet mt-10 px-4 py-6 sm:px-6">
+        <p className="kicker">Union sub-door</p>
+        <h2 className="mt-2 font-display text-xl font-semibold tracking-tight">
+          Delhi Police (establishment + infrastructure)
+        </h2>
+        <p className="mt-3 max-w-2xl text-sm text-ink/75">
+          Demand 51 item 5 plus Police Infrastructure earmarked Delhi Police. Not GNCTD AFS. Not
+          the Demand 51 net total. Not a state INDEX row.
+        </p>
+        <p className="mt-4">
+          <Link to="/union/delhi-police" className="file-cta">
+            <span className="file-cta-notch" aria-hidden="true" />
+            Open the Delhi Police ledger
+          </Link>
+        </p>
+      </section>
+
       <p className="mt-8 max-w-2xl text-sm text-ink/65">
         Other Union demands are not extracted.{" "}
         <Link to="/sources">Method</Link>.

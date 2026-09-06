@@ -67,13 +67,11 @@ export function PrintedColumns({
           const width = (col.total / max) * 100;
           return (
             <li key={`m-${col.fiscalYear}-${col.series}`}>
-              <div className="flex items-baseline justify-between gap-3 text-sm">
-                <span>
-                  <span className="font-semibold">{SERIES_LABEL[col.series]}</span>{" "}
-                  <span className="text-ink/60">{col.fiscalYear}</span>
-                </span>
-                <span className="num shrink-0">
-                  {col.run && col.cap ? `₹${formatCrore(col.total)} crore` : "—"}
+              <div className="text-sm">
+                <span className="font-semibold">{SERIES_LABEL[col.series]}</span>{" "}
+                <span className="text-ink/60">{col.fiscalYear}</span>
+                <span className="num mt-0.5 block text-[0.8rem]">
+                  {col.run && col.cap ? `₹${formatCrore(col.total)} cr` : "—"}
                 </span>
               </div>
               <div
