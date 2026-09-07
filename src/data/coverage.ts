@@ -49,59 +49,105 @@ export const searchLogs: Record<string, SearchLog> = {
   },
   rajasthan: {
     lastDocument:
-      "Opened Vol1.pdf and Vol2b.pdf on 2026-09-07. OCR of Hindi major-head pages is not a clean 2055 total with a tied page. Budget at a Glance 'Police Department ₹556.16 cr' is a speech slice, not 2055. Left INDEX.",
+      "Re-opened Vol2b.pdf and Vol1.pdf on 2026-09-07. Vol2b has 2055 पुलिस सारांश / मुख्य-शीर्ष-2055 योग / वृहद योग, but Hindi OCR interleaves State/Central/Charged columns so a single page-tied 2055 BE 2026-27 cannot be typed. Vol1 2055 पुलिस line is similarly interleaved. Budget at a Glance 'Police Department ₹556.16 cr' is a speech slice, not 2055. Left INDEX.",
     urlTried: "https://finance.rajasthan.gov.in/docs/budget/statebudget/2026-2027/Vol2b.pdf",
-    nextSearch: "Vol2b 2055 वृहद योग with printed page; Vol3a 4055. Do not use ₹556.16 cr glance slice.",
+    nextSearch: "Vol2b 2055 वृहद योग with printed page and clean four columns; Vol3a 4055. Do not use ₹556.16 cr glance slice.",
   },
   punjab: {
-    lastDocument: "Not typed",
-    urlTried: "https://finance.punjab.gov.in",
-    nextSearch: "Demand / White Book — isolate 2055 + 4055",
+    lastDocument:
+      "AFS 2026-27 2055 GOLD + Capital Demand 12 DGP 4055 GOLD (Demand 36 Jails 4055 is prisons, not taken)",
+    urlTried:
+      "https://finance.punjab.gov.in/uploads/3b52d7c4-e9f3-44fc-acf1-e02255025854_Annual%20Financial%20Statement%20FY%202026-27.pdf",
+    nextSearch: "GOLD — statewide object-head salaries योग if a printed total appears",
   },
   haryana: {
-    lastDocument: "Not typed",
-    urlTried: "https://finhry.gov.in",
-    nextSearch: "Demand / White Book — isolate 2055 + 4055",
+    lastDocument: "AFS 2026-27 General Abstract 2055 + 4055 GOLD",
+    urlTried:
+      "https://cdnbbsr.s3waas.gov.in/s386e78499eeb33fb9cac16b7555b50767/uploads/2026/03/20260320819223074.pdf",
+    nextSearch: "GOLD — Vol II Demand isolate object-head salaries योग if a printed total appears",
   },
   "madhya-pradesh": {
-    lastDocument: "Not typed",
-    urlTried: "https://finance.mp.gov.in",
-    nextSearch: "Demand / White Book — isolate 2055 + 4055",
+    lastDocument:
+      "Opened https://finance.mp.gov.in on 2026-09-07. FS Memo English 2026-27 and FRBM 2026-27 open (no isolated 2055). Volume-1 AFS / Demand books on the hub are still 2025-26. Guessed 2026-27 volume URLs 404. Left INDEX.",
+    urlTried: "https://finance.mp.gov.in/uploads/files/FS-memo-English_2026-27.pdf",
+    nextSearch:
+      "Volume-1 Annual Financial Statement 2026-27 — isolate 2055 + 4055. Do not use FS Memo aggregates.",
   },
   bihar: {
-    lastDocument: "Not typed",
-    urlTried: "https://state.bihar.gov.in/finance",
-    nextSearch: "AFS 2055 + 4055 only",
+    lastDocument:
+      "Opened https://state.bihar.gov.in/finance and https://budget.bihar.gov.in/ViewBudgetDetailsEn.aspx on 2026-09-07. Budget portal still lists 2025-2026 (last updated 03 March 2025). First Supplementary Book 2026-27 and Appropriation (No. 2) Act 2026 open; AFS 2055 PDF for 2026-27 not on the hub. Left INDEX.",
+    urlTried: "https://budget.bihar.gov.in/ViewBudgetDetailsEn.aspx",
+    nextSearch: "AFS 2026-27 — isolate 2055 only. Do not use Appropriation Act mixed grant totals.",
   },
   assam: {
-    lastDocument: "Not typed",
-    urlTried: "https://finance.assam.gov.in",
-    nextSearch: "Demand / AFS — isolate 2055 + 4055",
+    lastDocument: "AFS 2026-27 Statement B 2055 (Grant 14+19) + 4055 Grant 14 GOLD",
+    urlTried: "https://fin.assam.gov.in/budget_documents/budget_document/AFS/54/AB.pdf",
+    nextSearch: "GOLD — statewide object-head salaries योग if a printed total appears",
   },
   chhattisgarh: {
-    lastDocument: "Not typed",
-    urlTried: "https://finance.cg.gov.in/budget_doc/main_budget.asp",
-    nextSearch: "Demand / White Book — isolate 2055 + 4055",
+    lastDocument: "AFS 2026-27 Volume I 2055 + 4055 GOLD (Home Book 02 is mixed)",
+    urlTried:
+      "https://finance.cg.gov.in/budget_doc/2026-2027/Vol-1-Annual%20Financial%20Statment/2-revenue_expenditure.pdf",
+    nextSearch: "GOLD — statewide object-head salaries योग if a printed total appears",
   },
   jharkhand: {
-    lastDocument: "Not typed",
-    urlTried: "https://finance.jharkhand.gov.in",
-    nextSearch: "Demand / White Book — isolate 2055 + 4055",
+    lastDocument: "AFS 2026-27 Statement II 2055 + 4055 GOLD (Demand 22 Home is mixed)",
+    urlTried: "https://finance.jharkhand.gov.in/pdf/Budget_2026_27/Annual_Financial_Statement.pdf",
+    nextSearch: "GOLD — statewide object-head salaries योग if a printed total appears",
   },
   goa: {
-    lastDocument: "Not typed",
-    urlTried: "https://goabudget.gov.in",
-    nextSearch: "Demand / White Book — isolate 2055 + 4055",
+    lastDocument: "AFS 2026-27 2055 revenue + 4055 capital GOLD (Demand 17 is mixed)",
+    urlTried: "https://goabudget.gov.in/assets/documents/2026-27/AFS/AFS_RAD.pdf",
+    nextSearch: "GOLD — statewide object-head salaries योग if a printed total appears",
   },
   uttarakhand: {
-    lastDocument: "Not typed",
-    urlTried: "https://budget.uk.gov.in",
-    nextSearch: "Demand / White Book — isolate 2055 + 4055",
+    lastDocument:
+      "AFS Volume 2 Part 1 2026-27 — 2055 + 4055 GOLD (Grant 10 Police and Jail is mixed; 2056 jails and 4059 public works not taken)",
+    urlTried: "https://cdnbbsr.s3waas.gov.in/s3c65d7bd70fe3e5e3a2f3de681edc193d/uploads/2026/03/202603091758017689.pdf",
+    nextSearch: "GOLD — statewide object-head salaries योग if a printed total appears in Volume 5 Grant 10",
   },
   "himachal-pradesh": {
-    lastDocument: "Not typed. Demand 07 is mixed Police and Allied.",
-    urlTried: "https://himachal.nic.in",
-    nextSearch: "Demand 07 detailed — isolate 2055 only",
+    lastDocument:
+      "Demand 07 is mixed Police and Allied. ebudget.hp.nic.in Demand 07 detailed / AFS did not open from this machine (timeout). Appropriation Act Demand 07 revenue ₹17,48,38,69,000 is mixed — not 2055. Left INDEX.",
+    urlTried: "https://ebudget.hp.nic.in/",
+    nextSearch: "Demand 07 detailed — isolate 2055 only. Do not use Demand 07 mixed total.",
+  },
+  tripura: {
+    lastDocument: "AFS 2026-27 2055 net + 4055 GOLD",
+    urlTried: "https://tripura.gov.in/sites/default/files/Annual%20Financial%20Statement%202026-27.pdf",
+    nextSearch: "GOLD — statewide object-head salaries योग if a printed total appears",
+  },
+  meghalaya: {
+    lastDocument: "AFS 2026-27 Statement D 2055 voted+charged + 4055 GOLD",
+    urlTried: "https://megfinance.gov.in/budget_documents/2026-2027/others/financial_statement.pdf",
+    nextSearch: "GOLD — Demand 16 isolate if a statewide salaries योग is printed; not 2216 Housing (Police)",
+  },
+  manipur: {
+    lastDocument: "AFS 2026-27 2055 + 4055 GOLD (Demand 07 is mixed)",
+    urlTried: "https://manipur.gov.in/wp-content/uploads/2026/03/Annual-Financial-Statement-2026-27.pdf",
+    nextSearch: "GOLD — Demand 07 object-head salaries योग if a printed total appears",
+  },
+  nagaland: {
+    lastDocument: "AFS 2026-27 Statement I 2055 + 4055 GOLD",
+    urlTried: "https://finance.nagaland.gov.in/Content/Files/0A27EEA8-38BD-4791-B45B-C7D76CE4FE11.pdf",
+    nextSearch: "GOLD — Demand 28 Civil Police object-head salaries योग if a printed total appears",
+  },
+  mizoram: {
+    lastDocument: "AFS 2026-27 2055 (Police + FSL) + 4055 GOLD",
+    urlTried: "https://finance.mizoram.gov.in/uploads/attachments/2026/02/2267c19ad725d4218fd36e87ef6cb167/afs-2026-27-final.pdf",
+    nextSearch: "GOLD — Demand detailed volume if a statewide salaries योग is printed",
+  },
+  "arunachal-pradesh": {
+    lastDocument: "AFS 2026-27 Statement B 2055 + 4055 GOLD",
+    urlTried: "https://arunachalbudget.in/docs/AFS-2026-27.pdf",
+    nextSearch: "GOLD — Demand 8 object-head salaries योग if a printed total appears",
+  },
+  sikkim: {
+    lastDocument:
+      "Opened sikkimfred.gov.in Budget_Forms.aspx (lists 2026-27 AFS / Demand for Grants). Budget_Main_Page.aspx returned 401 Unauthorized. Direct AFS URLs 404 (AFS.pdf, Annual Financial Statement 2026-27.pdf). Vote on Account Apr–Sep 2026 is not the full AFS 2055. Left INDEX.",
+    urlTried: "http://www.sikkimfred.gov.in/Budget_2026-27/Documents/AFS.pdf",
+    nextSearch:
+      "Sikkim AFS 2026-27 2055 Police line with printed page; Demand for Grants isolate 2055+4055. Not Vote on Account. Not PRS ₹650 crore sector slice.",
   },
   delhi: {
     lastDocument: "Union Demand 51 — Delhi Police is a Union sub-door",

@@ -6,6 +6,19 @@ import { ka109, ka2055, ka4055, kaDemand05Home, kaFunctional } from "../data/kar
 import { kl2055, kl4055, klFunctional } from "../data/kerala/police";
 import { od2055, odDemand01, odFunctional } from "../data/odisha/police";
 import { ap2055, ap4055, apDemandX, apFunctional } from "../data/andhra-pradesh/police";
+import { pb2055, pb4055, pbFunctional } from "../data/punjab/police";
+import { hr2055, hr4055, hrFunctional } from "../data/haryana/police";
+import { uk2055, uk4055, ukFunctional, ukGrant10 } from "../data/uttarakhand/police";
+import { as2055, as4055, asFunctional } from "../data/assam/police";
+import { cg2055, cg4055, cgDemand02, cgFunctional } from "../data/chhattisgarh/police";
+import { jh2055, jh4055, jhDemand22, jhFunctional } from "../data/jharkhand/police";
+import { ga2055, ga4055, gaDemand17, gaFunctional } from "../data/goa/police";
+import { ar2055, ar4055, arFunctional } from "../data/arunachal-pradesh/police";
+import { ml2055, ml4055, mlFunctional } from "../data/meghalaya/police";
+import { mn2055, mn4055, mnDemand07, mnFunctional } from "../data/manipur/police";
+import { mz2055, mz4055, mzFunctional } from "../data/mizoram/police";
+import { nl2055, nl4055, nlFunctional } from "../data/nagaland/police";
+import { tr2055, tr4055, trFunctional } from "../data/tripura/police";
 import { tgObject010, tgArms220, tgCity4055 } from "../data/telangana/police";
 import { up2055Voted, up4055, upFunctional, upSalariesDesk, upUniforms } from "../data/uttar-pradesh/police";
 import { wb2055Net, wb4055, wbFunctional, wbSalariesDesk, wbArms, wbClothing } from "../data/west-bengal/police";
@@ -86,6 +99,50 @@ const ENTRIES: Entry[] = [
   { item: ap2055, entity: "Andhra Pradesh Police", href: "/andhra-pradesh/police" },
   { item: ap4055, entity: "Andhra Pradesh Police", href: "/andhra-pradesh/police" },
   { item: apDemandX, entity: "Andhra Pradesh Demand X Home", href: "/andhra-pradesh/police" },
+  { item: ukFunctional, entity: "Uttarakhand Police", href: "/uttarakhand/police" },
+  { item: uk2055, entity: "Uttarakhand Police", href: "/uttarakhand/police" },
+  { item: uk4055, entity: "Uttarakhand Police", href: "/uttarakhand/police" },
+  { item: ukGrant10, entity: "Uttarakhand Grant 10 Police and Jail", href: "/uttarakhand/police" },
+  { item: asFunctional, entity: "Assam Police", href: "/assam/police" },
+  { item: as2055, entity: "Assam Police", href: "/assam/police" },
+  { item: as4055, entity: "Assam Police", href: "/assam/police" },
+  { item: cgFunctional, entity: "Chhattisgarh Police", href: "/chhattisgarh/police" },
+  { item: cg2055, entity: "Chhattisgarh Police", href: "/chhattisgarh/police" },
+  { item: cg4055, entity: "Chhattisgarh Police", href: "/chhattisgarh/police" },
+  { item: cgDemand02, entity: "Chhattisgarh Home Book 02", href: "/chhattisgarh/police" },
+  { item: jhFunctional, entity: "Jharkhand Police", href: "/jharkhand/police" },
+  { item: jh2055, entity: "Jharkhand Police", href: "/jharkhand/police" },
+  { item: jh4055, entity: "Jharkhand Police", href: "/jharkhand/police" },
+  { item: jhDemand22, entity: "Jharkhand Demand 22 Home", href: "/jharkhand/police" },
+  { item: gaFunctional, entity: "Goa Police", href: "/goa/police" },
+  { item: ga2055, entity: "Goa Police", href: "/goa/police" },
+  { item: ga4055, entity: "Goa Police", href: "/goa/police" },
+  { item: gaDemand17, entity: "Goa Demand 17 Police", href: "/goa/police" },
+  { item: trFunctional, entity: "Tripura Police", href: "/tripura/police" },
+  { item: tr2055, entity: "Tripura Police", href: "/tripura/police" },
+  { item: tr4055, entity: "Tripura Police", href: "/tripura/police" },
+  { item: mlFunctional, entity: "Meghalaya Police", href: "/meghalaya/police" },
+  { item: ml2055, entity: "Meghalaya Police", href: "/meghalaya/police" },
+  { item: ml4055, entity: "Meghalaya Police", href: "/meghalaya/police" },
+  { item: mnFunctional, entity: "Manipur Police", href: "/manipur/police" },
+  { item: mn2055, entity: "Manipur Police", href: "/manipur/police" },
+  { item: mn4055, entity: "Manipur Police", href: "/manipur/police" },
+  { item: mnDemand07, entity: "Manipur Demand 07 Police", href: "/manipur/police" },
+  { item: nlFunctional, entity: "Nagaland Police", href: "/nagaland/police" },
+  { item: nl2055, entity: "Nagaland Police", href: "/nagaland/police" },
+  { item: nl4055, entity: "Nagaland Police", href: "/nagaland/police" },
+  { item: mzFunctional, entity: "Mizoram Police", href: "/mizoram/police" },
+  { item: mz2055, entity: "Mizoram Police", href: "/mizoram/police" },
+  { item: mz4055, entity: "Mizoram Police", href: "/mizoram/police" },
+  { item: arFunctional, entity: "Arunachal Pradesh Police", href: "/arunachal-pradesh/police" },
+  { item: ar2055, entity: "Arunachal Pradesh Police", href: "/arunachal-pradesh/police" },
+  { item: ar4055, entity: "Arunachal Pradesh Police", href: "/arunachal-pradesh/police" },
+  { item: pbFunctional, entity: "Punjab Police", href: "/punjab/police" },
+  { item: pb2055, entity: "Punjab Police", href: "/punjab/police" },
+  { item: pb4055, entity: "Punjab Police", href: "/punjab/police" },
+  { item: hrFunctional, entity: "Haryana Police", href: "/haryana/police" },
+  { item: hr2055, entity: "Haryana Police", href: "/haryana/police" },
+  { item: hr4055, entity: "Haryana Police", href: "/haryana/police" },
   { item: unionTotalExpenditure, entity: "Union Budget at a Glance", href: "/union" },
   { item: unionOutstandingLiabilities, entity: "Union outstanding liabilities", href: "/" },
   { item: demand51Net, entity: "Centre Police", href: "/union/police" },

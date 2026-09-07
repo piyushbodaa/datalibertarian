@@ -11,6 +11,19 @@ import { KaPolicePage } from "./pages/KaPolice";
 import { KlPolicePage } from "./pages/KlPolice";
 import { OdPolicePage } from "./pages/OdPolice";
 import { ApPolicePage } from "./pages/ApPolice";
+import { PbPolicePage } from "./pages/PbPolice";
+import { HrPolicePage } from "./pages/HrPolice";
+import { UkPolicePage } from "./pages/UkPolice";
+import { AsPolicePage } from "./pages/AsPolice";
+import { CgPolicePage } from "./pages/CgPolice";
+import { GaPolicePage } from "./pages/GaPolice";
+import { JhPolicePage } from "./pages/JhPolice";
+import { ArPolicePage } from "./pages/ArPolice";
+import { MlPolicePage } from "./pages/MlPolice";
+import { MnPolicePage } from "./pages/MnPolice";
+import { MzPolicePage } from "./pages/MzPolice";
+import { NlPolicePage } from "./pages/NlPolice";
+import { TrPolicePage } from "./pages/TrPolice";
 import { HomePage } from "./pages/Home";
 import { MunicipalPage } from "./pages/Municipal";
 import { PolicePage } from "./pages/Police";
@@ -57,6 +70,19 @@ export default function App() {
         <Route path="/kerala/police" element={<KlPolicePage />} />
         <Route path="/odisha/police" element={<OdPolicePage />} />
         <Route path="/andhra-pradesh/police" element={<ApPolicePage />} />
+        <Route path="/punjab/police" element={<PbPolicePage />} />
+        <Route path="/haryana/police" element={<HrPolicePage />} />
+        <Route path="/assam/police" element={<AsPolicePage />} />
+        <Route path="/chhattisgarh/police" element={<CgPolicePage />} />
+        <Route path="/jharkhand/police" element={<JhPolicePage />} />
+        <Route path="/goa/police" element={<GaPolicePage />} />
+        <Route path="/tripura/police" element={<TrPolicePage />} />
+        <Route path="/meghalaya/police" element={<MlPolicePage />} />
+        <Route path="/manipur/police" element={<MnPolicePage />} />
+        <Route path="/nagaland/police" element={<NlPolicePage />} />
+        <Route path="/mizoram/police" element={<MzPolicePage />} />
+        <Route path="/arunachal-pradesh/police" element={<ArPolicePage />} />
+        <Route path="/uttarakhand/police" element={<UkPolicePage />} />
         <Route path="/states/maharashtra/police" element={<Navigate to="/maharashtra/police" replace />} />
         <Route path="/:slug/police" element={<EmptyPolicePage />} />
         <Route path="*" element={<Navigate to="/" replace />} />

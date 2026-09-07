@@ -37,6 +37,19 @@ import { ka109, ka2055, ka4055, kaDemand05Home, kaFunctional } from "./karnataka
 import { kl2055, kl4055, klFunctional } from "./kerala/police.ts";
 import { od2055, odDemand01, odFunctional } from "./odisha/police.ts";
 import { ap2055, ap4055, apDemandX, apFunctional } from "./andhra-pradesh/police.ts";
+import { pb2055, pb4055, pbFunctional } from "./punjab/police.ts";
+import { hr2055, hr4055, hrFunctional } from "./haryana/police.ts";
+import { uk2055, uk4055, ukFunctional, ukGrant10 } from "./uttarakhand/police.ts";
+import { as2055, as4055, asFunctional } from "./assam/police.ts";
+import { cg2055, cg4055, cgDemand02, cgFunctional } from "./chhattisgarh/police.ts";
+import { jh2055, jh4055, jhDemand22, jhFunctional } from "./jharkhand/police.ts";
+import { ga2055, ga4055, gaDemand17, gaFunctional } from "./goa/police.ts";
+import { ar2055, ar4055, arFunctional } from "./arunachal-pradesh/police.ts";
+import { ml2055, ml4055, mlFunctional } from "./meghalaya/police.ts";
+import { mn2055, mn4055, mnDemand07, mnFunctional } from "./manipur/police.ts";
+import { mz2055, mz4055, mzFunctional } from "./mizoram/police.ts";
+import { nl2055, nl4055, nlFunctional } from "./nagaland/police.ts";
+import { tr2055, tr4055, trFunctional } from "./tripura/police.ts";
 import { jurisdictions } from "./states.ts";
 
 const allMoney = [
@@ -98,6 +111,50 @@ const allMoney = [
   ...ap4055.amounts,
   ...apFunctional.amounts,
   ...apDemandX.amounts,
+  ...uk2055.amounts,
+  ...uk4055.amounts,
+  ...ukFunctional.amounts,
+  ...ukGrant10.amounts,
+  ...tr2055.amounts,
+  ...tr4055.amounts,
+  ...trFunctional.amounts,
+  ...ml2055.amounts,
+  ...ml4055.amounts,
+  ...mlFunctional.amounts,
+  ...mn2055.amounts,
+  ...mn4055.amounts,
+  ...mnFunctional.amounts,
+  ...mnDemand07.amounts,
+  ...nl2055.amounts,
+  ...nl4055.amounts,
+  ...nlFunctional.amounts,
+  ...mz2055.amounts,
+  ...mz4055.amounts,
+  ...mzFunctional.amounts,
+  ...ar2055.amounts,
+  ...ar4055.amounts,
+  ...arFunctional.amounts,
+  ...as2055.amounts,
+  ...as4055.amounts,
+  ...asFunctional.amounts,
+  ...cg2055.amounts,
+  ...cg4055.amounts,
+  ...cgFunctional.amounts,
+  ...cgDemand02.amounts,
+  ...jh2055.amounts,
+  ...jh4055.amounts,
+  ...jhFunctional.amounts,
+  ...jhDemand22.amounts,
+  ...ga2055.amounts,
+  ...ga4055.amounts,
+  ...gaFunctional.amounts,
+  ...gaDemand17.amounts,
+  ...pb2055.amounts,
+  ...pb4055.amounts,
+  ...pbFunctional.amounts,
+  ...hr2055.amounts,
+  ...hr4055.amounts,
+  ...hrFunctional.amounts,
 ];
 
 describe("every figure has a living citation", () => {
@@ -160,6 +217,24 @@ describe("every figure has a living citation", () => {
       "od-d01-2026-27",
       "ap-afs-2026-27",
       "ap-vol3-3-2026-27",
+      "pb-afs-2026-27",
+      "pb-capital-2026-27",
+      "hr-afs-2026-27",
+      "uk-afs-2026-27",
+      "uk-vol5-g10-2026-27",
+      "as-afs-2026-27",
+      "cg-afs-2026-27",
+      "cg-t02-2026-27",
+      "jh-afs-2026-27",
+      "ga-afs-2026-27",
+      "ga-vol1-2026-27",
+      "tr-afs-2026-27",
+      "ml-afs-2026-27",
+      "mn-afs-2026-27",
+      "mn-dfg-2026-27",
+      "nl-afs-2026-27",
+      "mz-afs-2026-27",
+      "ar-afs-2026-27",
       "union-bag-2026-27",
       "union-rec-annex9-2026-27",
       "desk-median",
@@ -305,6 +380,23 @@ describe("GOLD modules copy pack figures", () => {
     assert.equal(jurisdictions.find((j) => j.slug === "kerala")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "odisha")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "andhra-pradesh")?.tier, "gold");
+    assert.equal(jurisdictions.find((j) => j.slug === "uttarakhand")?.tier, "gold");
+    assert.equal(jurisdictions.find((j) => j.slug === "himachal-pradesh")?.tier, "index");
+    assert.equal(jurisdictions.find((j) => j.slug === "assam")?.tier, "gold");
+    assert.equal(jurisdictions.find((j) => j.slug === "chhattisgarh")?.tier, "gold");
+    assert.equal(jurisdictions.find((j) => j.slug === "jharkhand")?.tier, "gold");
+    assert.equal(jurisdictions.find((j) => j.slug === "goa")?.tier, "gold");
+    assert.equal(jurisdictions.find((j) => j.slug === "tripura")?.tier, "gold");
+    assert.equal(jurisdictions.find((j) => j.slug === "meghalaya")?.tier, "gold");
+    assert.equal(jurisdictions.find((j) => j.slug === "manipur")?.tier, "gold");
+    assert.equal(jurisdictions.find((j) => j.slug === "nagaland")?.tier, "gold");
+    assert.equal(jurisdictions.find((j) => j.slug === "mizoram")?.tier, "gold");
+    assert.equal(jurisdictions.find((j) => j.slug === "arunachal-pradesh")?.tier, "gold");
+    assert.equal(jurisdictions.find((j) => j.slug === "sikkim")?.tier, "index");
+    assert.equal(jurisdictions.find((j) => j.slug === "punjab")?.tier, "gold");
+    assert.equal(jurisdictions.find((j) => j.slug === "haryana")?.tier, "gold");
+    assert.equal(jurisdictions.find((j) => j.slug === "madhya-pradesh")?.tier, "index");
+    assert.equal(jurisdictions.find((j) => j.slug === "bihar")?.tier, "index");
     assert.equal(jurisdictions.find((j) => j.slug === "rajasthan")?.tier, "index");
     assert.equal(jurisdictions.find((j) => j.slug === "delhi")?.tier, "empty");
     assert.equal(apLastFound.be2425.crore, 7874);
@@ -369,6 +461,116 @@ describe("GOLD modules copy pack figures", () => {
     assert.notEqual(Math.round(run.crore), 5557);
   });
 
+  it("Punjab AFS isolates 2055; Demand 12 DGP isolates 4055 from Jails 4055", () => {
+    const run = pb2055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const cap = pb4055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const hero = pbFunctional.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const actual = pb2055.amounts.find((a) => a.fiscalYear === "2024-25" && a.series === "actual")!;
+    assert.equal(run.rupees, 84_526_468_000);
+    assert.equal(cap.rupees, 4_676_668_000);
+    assert.equal(hero.rupees, run.rupees + cap.rupees);
+    assert.equal(actual.rupees, 81_583_140_000);
+    assert.ok(!hero.citationId.startsWith("prs-"));
+    assert.notEqual(Math.round(hero.crore), 9269);
+    assert.notEqual(cap.rupees, 7_614_480_000);
+  });
+
+  it("Haryana AFS isolates statewide 2055+4055", () => {
+    const run = hr2055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const cap = hr4055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const hero = hrFunctional.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const actual = hr2055.amounts.find((a) => a.fiscalYear === "2024-25" && a.series === "actual")!;
+    assert.equal(run.rupees, 74_845_100_000);
+    assert.equal(cap.rupees, 2_200_100_000);
+    assert.equal(hero.rupees, run.rupees + cap.rupees);
+    assert.equal(actual.rupees, 63_834_872_000);
+    assert.ok(!hero.citationId.startsWith("prs-"));
+    assert.notEqual(Math.round(hero.crore), 7588);
+  });
+
+  it("Uttarakhand AFS isolates statewide 2055+4055 from Grant 10 Police and Jail", () => {
+    const run = uk2055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const cap = uk4055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const hero = ukFunctional.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const mixed = ukGrant10.amounts[0];
+    const actual = uk2055.amounts.find((a) => a.fiscalYear === "2024-25" && a.series === "actual")!;
+    assert.equal(run.rupees, 30_921_777_000);
+    assert.equal(cap.rupees, 2_555_076_000);
+    assert.equal(hero.rupees, run.rupees + cap.rupees);
+    assert.equal(actual.rupees, 24_448_825_000);
+    assert.ok(mixed.crore > hero.crore);
+    assert.ok(!hero.citationId.startsWith("prs-"));
+    assert.notEqual(Math.round(hero.crore), 2856);
+  });
+
+  it("Tripura AFS isolates statewide 2055 net + 4055", () => {
+    const run = tr2055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const cap = tr4055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const hero = trFunctional.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    assert.equal(run.rupees, 26_221_492_000);
+    assert.equal(cap.rupees, 707_209_000);
+    assert.equal(hero.rupees, run.rupees + cap.rupees);
+    assert.ok(!hero.citationId.startsWith("prs-"));
+    assert.notEqual(Math.round(hero.crore), 2297);
+  });
+
+  it("Meghalaya AFS isolates 2055 voted+charged + 4055", () => {
+    const run = ml2055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const cap = ml4055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const hero = mlFunctional.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    assert.equal(run.rupees, 13_586_067_000);
+    assert.equal(cap.rupees, 457_370_000);
+    assert.equal(hero.rupees, run.rupees + cap.rupees);
+    assert.ok(!hero.citationId.startsWith("prs-"));
+    assert.notEqual(Math.round(hero.crore), 1392);
+  });
+
+  it("Manipur AFS isolates 2055+4055, not Demand 07", () => {
+    const run = mn2055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const cap = mn4055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const hero = mnFunctional.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const mixed = mnDemand07.amounts[0];
+    assert.equal(run.rupees, 26_806_424_000);
+    assert.equal(cap.rupees, 580_981_000);
+    assert.equal(hero.rupees, run.rupees + cap.rupees);
+    assert.ok(mixed.crore > hero.crore);
+    assert.ok(!hero.citationId.startsWith("prs-"));
+    assert.notEqual(Math.round(hero.crore), 3209);
+  });
+
+  it("Nagaland AFS isolates 2055+4055", () => {
+    const run = nl2055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const cap = nl4055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const hero = nlFunctional.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    assert.equal(run.rupees, 21_188_982_000);
+    assert.equal(cap.rupees, 191_401_000);
+    assert.equal(hero.rupees, run.rupees + cap.rupees);
+    assert.ok(!hero.citationId.startsWith("prs-"));
+    assert.notEqual(Math.round(hero.crore), 1987);
+  });
+
+  it("Mizoram AFS isolates 2055+4055", () => {
+    const run = mz2055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const cap = mz4055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const hero = mzFunctional.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    assert.equal(run.rupees, 7_805_772_000);
+    assert.equal(cap.rupees, 5_010_000);
+    assert.equal(hero.rupees, run.rupees + cap.rupees);
+    assert.ok(!hero.citationId.startsWith("prs-"));
+    assert.notEqual(Math.round(hero.crore), 753);
+  });
+
+  it("Arunachal Pradesh AFS isolates 2055+4055", () => {
+    const run = ar2055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const cap = ar4055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const hero = arFunctional.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    assert.equal(run.rupees, 19_819_718_000);
+    assert.equal(cap.rupees, 290_786_000);
+    assert.equal(hero.rupees, run.rupees + cap.rupees);
+    assert.ok(!hero.citationId.startsWith("prs-"));
+    assert.notEqual(Math.round(hero.crore), 3075);
+  });
+
   it("Odisha Demand 01 isolates 2055; 4055 is not a major head", () => {
     const run = od2055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
     const prior = od2055.amounts.find((a) => a.fiscalYear === "2025-26" && a.series === "be")!;
@@ -390,6 +592,56 @@ describe("GOLD modules copy pack figures", () => {
     assert.equal(cap.rupees, 3_535_408_000);
     assert.ok(mixed.crore > hero.crore);
     assert.ok(!hero.citationId.startsWith("prs-"));
+  });
+
+  it("Assam AFS isolates statewide 2055+4055", () => {
+    const run = as2055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const cap = as4055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const hero = asFunctional.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    assert.equal(run.rupees, Math.round(678510.95 * 100_000));
+    assert.equal(cap.rupees, Math.round(35461.17 * 100_000));
+    assert.equal(hero.rupees, run.rupees + cap.rupees);
+    assert.ok(!hero.citationId.startsWith("prs-"));
+    assert.notEqual(Math.round(hero.crore), 7170);
+  });
+
+  it("Chhattisgarh AFS isolates 2055+4055 from mixed Home Book 02", () => {
+    const run = cg2055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const cap = cg4055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const hero = cgFunctional.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const mixed = cgDemand02.amounts[0];
+    assert.equal(run.rupees, 72_400_061_000);
+    assert.equal(cap.rupees, 6_606_140_000);
+    assert.equal(hero.rupees, run.rupees + cap.rupees);
+    assert.ok(mixed.crore > hero.crore);
+    assert.ok(!hero.citationId.startsWith("prs-"));
+    assert.notEqual(Math.round(hero.crore), 7897);
+  });
+
+  it("Jharkhand AFS isolates 2055+4055 from mixed Demand 22 Home", () => {
+    const run = jh2055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const cap = jh4055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const hero = jhFunctional.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const mixed = jhDemand22.amounts[0];
+    assert.equal(run.rupees, Math.round(772604.67 * 100_000));
+    assert.equal(cap.rupees, Math.round(56500 * 100_000));
+    assert.equal(hero.rupees, run.rupees + cap.rupees);
+    assert.ok(mixed.crore > hero.crore);
+    assert.ok(!hero.citationId.startsWith("prs-"));
+    assert.notEqual(Math.round(hero.crore), 7396);
+  });
+
+  it("Goa AFS isolates statewide 2055+4055 from mixed Demand 17", () => {
+    const run = ga2055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const cap = ga4055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const hero = gaFunctional.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const mixed = gaDemand17.amounts[0];
+    assert.equal(run.rupees, Math.round(100878.45 * 100_000));
+    assert.equal(cap.rupees, Math.round(5595.05 * 100_000));
+    assert.equal(hero.rupees, run.rupees + cap.rupees);
+    assert.ok(mixed.crore > cap.crore);
+    assert.ok(!hero.citationId.startsWith("prs-"));
+    assert.notEqual(Math.round(hero.crore), 1042);
   });
 
   it("Union Budget at a Glance total is not Demand 51", () => {

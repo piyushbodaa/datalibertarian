@@ -26,6 +26,14 @@ import { wbFunctional } from "../data/west-bengal/police";
 import { kaFunctional } from "../data/karnataka/police";
 import { klFunctional } from "../data/kerala/police";
 import { odFunctional } from "../data/odisha/police";
+import { apFunctional } from "../data/andhra-pradesh/police";
+import { ukFunctional } from "../data/uttarakhand/police";
+import { arFunctional } from "../data/arunachal-pradesh/police";
+import { mlFunctional } from "../data/meghalaya/police";
+import { mnFunctional } from "../data/manipur/police";
+import { mzFunctional } from "../data/mizoram/police";
+import { nlFunctional } from "../data/nagaland/police";
+import { trFunctional } from "../data/tripura/police";
 import { formatCrore } from "../lib/money";
 
 const TIER_CLASS: Record<PoliceTier, string> = {
@@ -52,8 +60,37 @@ export function StatesPage() {
   const ka = pickAmount(kaFunctional, "2026-27", "be");
   const kl = pickAmount(klFunctional, "2026-27", "be");
   const od = pickAmount(odFunctional, "2026-27", "be");
+  const ap = pickAmount(apFunctional, "2026-27", "be");
+  const uk = pickAmount(ukFunctional, "2026-27", "be");
+  const tr = pickAmount(trFunctional, "2026-27", "be");
+  const ml = pickAmount(mlFunctional, "2026-27", "be");
+  const mn = pickAmount(mnFunctional, "2026-27", "be");
+  const nl = pickAmount(nlFunctional, "2026-27", "be");
+  const mz = pickAmount(mzFunctional, "2026-27", "be");
+  const ar = pickAmount(arFunctional, "2026-27", "be");
   const mhIndex = getIndexRow("maharashtra");
-  if (!mh || !run || !cap || !up || !tg || !wb || !gj || !tn || !ka || !kl || !od || !mhIndex) {
+  if (
+    !mh ||
+    !run ||
+    !cap ||
+    !up ||
+    !tg ||
+    !wb ||
+    !gj ||
+    !tn ||
+    !ka ||
+    !kl ||
+    !od ||
+    !ap ||
+    !uk ||
+    !tr ||
+    !ml ||
+    !mn ||
+    !nl ||
+    !mz ||
+    !ar ||
+    !mhIndex
+  ) {
     throw new Error("Missing state headline figures");
   }
 
@@ -77,6 +114,14 @@ export function StatesPage() {
           <GoldRow to="/karnataka/police" name="Karnataka" money={ka} />
           <GoldRow to="/kerala/police" name="Kerala" money={kl} />
           <GoldRow to="/odisha/police" name="Odisha" money={od} />
+          <GoldRow to="/andhra-pradesh/police" name="Andhra Pradesh" money={ap} />
+          <GoldRow to="/uttarakhand/police" name="Uttarakhand" money={uk} />
+          <GoldRow to="/tripura/police" name="Tripura" money={tr} />
+          <GoldRow to="/meghalaya/police" name="Meghalaya" money={ml} />
+          <GoldRow to="/manipur/police" name="Manipur" money={mn} />
+          <GoldRow to="/nagaland/police" name="Nagaland" money={nl} />
+          <GoldRow to="/mizoram/police" name="Mizoram" money={mz} />
+          <GoldRow to="/arunachal-pradesh/police" name="Arunachal Pradesh" money={ar} />
         </ul>
         <div className="mt-6">
           <HeadSplit run={run} cap={cap} title="Maharashtra police, this plan" note="Running the force vs buildings and gear." />

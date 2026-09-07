@@ -14,6 +14,19 @@ import { ka109, ka2055, ka4055, kaDemand05Home, kaFunctional } from "../karnatak
 import { kl2055, kl4055, klFunctional } from "../kerala/police";
 import { od2055, odDemand01, odFunctional } from "../odisha/police";
 import { ap2055, ap4055, apDemandX, apFunctional } from "../andhra-pradesh/police";
+import { pb2055, pb4055, pbFunctional } from "../punjab/police";
+import { hr2055, hr4055, hrFunctional } from "../haryana/police";
+import { uk2055, uk4055, ukFunctional, ukGrant10 } from "../uttarakhand/police";
+import { as2055, as4055, asFunctional } from "../assam/police";
+import { cg2055, cg4055, cgDemand02, cgFunctional } from "../chhattisgarh/police";
+import { jh2055, jh4055, jhDemand22, jhFunctional } from "../jharkhand/police";
+import { ga2055, ga4055, gaDemand17, gaFunctional } from "../goa/police";
+import { ar2055, ar4055, arFunctional } from "../arunachal-pradesh/police";
+import { ml2055, ml4055, mlFunctional } from "../meghalaya/police";
+import { mn2055, mn4055, mnDemand07, mnFunctional } from "../manipur/police";
+import { mz2055, mz4055, mzFunctional } from "../mizoram/police";
+import { nl2055, nl4055, nlFunctional } from "../nagaland/police";
+import { tr2055, tr4055, trFunctional } from "../tripura/police";
 import { tgObject010 } from "../telangana/police";
 import { up2055Voted, up4055, upFunctional, upSalariesDesk } from "../uttar-pradesh/police";
 import { wb2055Net, wb4055, wbFunctional, wbSalariesDesk } from "../west-bengal/police";
@@ -210,6 +223,102 @@ export function resolveSide(slug: string | undefined): CompareSide | undefined {
       "mixed-grant": apDemandX,
     });
   }
+  if (slug === "uttarakhand") {
+    return goldState(slug, {
+      "police-functional": ukFunctional,
+      "2055": uk2055,
+      "4055": uk4055,
+      "mixed-grant": ukGrant10,
+    });
+  }
+  if (slug === "tripura") {
+    return goldState(slug, {
+      "police-functional": trFunctional,
+      "2055": tr2055,
+      "4055": tr4055,
+    });
+  }
+  if (slug === "meghalaya") {
+    return goldState(slug, {
+      "police-functional": mlFunctional,
+      "2055": ml2055,
+      "4055": ml4055,
+    });
+  }
+  if (slug === "manipur") {
+    return goldState(slug, {
+      "police-functional": mnFunctional,
+      "2055": mn2055,
+      "4055": mn4055,
+      "mixed-grant": mnDemand07,
+    });
+  }
+  if (slug === "nagaland") {
+    return goldState(slug, {
+      "police-functional": nlFunctional,
+      "2055": nl2055,
+      "4055": nl4055,
+    });
+  }
+  if (slug === "mizoram") {
+    return goldState(slug, {
+      "police-functional": mzFunctional,
+      "2055": mz2055,
+      "4055": mz4055,
+    });
+  }
+  if (slug === "arunachal-pradesh") {
+    return goldState(slug, {
+      "police-functional": arFunctional,
+      "2055": ar2055,
+      "4055": ar4055,
+    });
+  }
+  if (slug === "assam") {
+    return goldState(slug, {
+      "police-functional": asFunctional,
+      "2055": as2055,
+      "4055": as4055,
+    });
+  }
+  if (slug === "chhattisgarh") {
+    return goldState(slug, {
+      "police-functional": cgFunctional,
+      "2055": cg2055,
+      "4055": cg4055,
+      "mixed-grant": cgDemand02,
+    });
+  }
+  if (slug === "jharkhand") {
+    return goldState(slug, {
+      "police-functional": jhFunctional,
+      "2055": jh2055,
+      "4055": jh4055,
+      "mixed-grant": jhDemand22,
+    });
+  }
+  if (slug === "goa") {
+    return goldState(slug, {
+      "police-functional": gaFunctional,
+      "2055": ga2055,
+      "4055": ga4055,
+      "mixed-grant": gaDemand17,
+    });
+  }
+  if (slug === "punjab") {
+    return goldState(slug, {
+      "police-functional": pbFunctional,
+      "2055": pb2055,
+      "4055": pb4055,
+    });
+  }
+  if (slug === "haryana") {
+    return goldState(slug, {
+      "police-functional": hrFunctional,
+      "2055": hr2055,
+      "4055": hr4055,
+    });
+  }
 
   const log = searchLogFor(j);
   return {
@@ -325,6 +434,7 @@ export function suggestedPairs(): [string, string][] {
     ["maharashtra", "tamil-nadu"],
     ["maharashtra", "kerala"],
     ["maharashtra", "odisha"],
+    ["maharashtra", "uttarakhand"],
   ];
 }
 

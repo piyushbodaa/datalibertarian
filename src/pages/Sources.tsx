@@ -23,6 +23,24 @@ const GOLD_IDS = [
   "od-d01-2026-27",
   "ap-afs-2026-27",
   "ap-vol3-3-2026-27",
+  "pb-afs-2026-27",
+  "pb-capital-2026-27",
+  "hr-afs-2026-27",
+  "uk-afs-2026-27",
+  "uk-vol5-g10-2026-27",
+  "as-afs-2026-27",
+  "cg-afs-2026-27",
+  "cg-t02-2026-27",
+  "jh-afs-2026-27",
+  "ga-afs-2026-27",
+  "ga-vol1-2026-27",
+  "tr-afs-2026-27",
+  "ml-afs-2026-27",
+  "mn-afs-2026-27",
+  "mn-dfg-2026-27",
+  "nl-afs-2026-27",
+  "mz-afs-2026-27",
+  "ar-afs-2026-27",
   "union-bag-2026-27",
   "union-rec-annex9-2026-27",
 ];
@@ -260,6 +278,11 @@ export function SourcesPage() {
             Hero is 2055 only. 4055 is not a major head in this Demand (capital is mixed 4059/4216).
           </li>
           <li className="docket-slip text-ink/80">
+            <strong>Uttarakhand Police</strong> — Annual Financial Statement 2026-27 Volume 2 Part 1,
+            thousands converted to crore. Hero is 2055 + 4055. Grant 10 Police and Jail is mixed
+            (jails, public works) and quieter.
+          </li>
+          <li className="docket-slip text-ink/80">
             <strong>Union total expenditure</strong> — Budget at a Glance 2026-27, item 9. ₹53,47,315
             cr BE 2026-27. Not Demand 51. Not the states.
           </li>
@@ -286,8 +309,13 @@ export function SourcesPage() {
             2024-25 plan and spent found; later years are percent of spend.
           </li>
           <li className="docket-slip text-ink/80">
-            <strong>Rajasthan</strong> — research summary only this pass. Salaries stay off the
-            official list until a clean page cite.
+            <strong>Rajasthan</strong> — Volume 2b 2055 Police summary was opened; Hindi OCR still
+            mixes the columns, so no official figure is typed. Budget at a Glance ₹556.16 cr is a
+            speech slice, not 2055.
+          </li>
+          <li className="docket-slip text-ink/80">
+            <strong>Himachal Pradesh</strong> — Demand 07 is mixed Police and Allied. The detailed
+            2026-27 demand did not open, so 2055 is not isolated yet.
           </li>
           <li className="docket-slip text-ink/80">
             Karnataka and Gujarat pay-line depth — not typed. Summary only.
