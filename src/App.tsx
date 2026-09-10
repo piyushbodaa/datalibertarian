@@ -22,6 +22,10 @@ const ApPolicePage = lazy(() => import("./pages/ApPolice").then((m) => ({ defaul
 const PbPolicePage = lazy(() => import("./pages/PbPolice").then((m) => ({ default: m.PbPolicePage })));
 const HrPolicePage = lazy(() => import("./pages/HrPolice").then((m) => ({ default: m.HrPolicePage })));
 const UkPolicePage = lazy(() => import("./pages/UkPolice").then((m) => ({ default: m.UkPolicePage })));
+const SkPolicePage = lazy(() => import("./pages/SkPolice").then((m) => ({ default: m.SkPolicePage })));
+const RjPolicePage = lazy(() => import("./pages/RjPolice").then((m) => ({ default: m.RjPolicePage })));
+const HpPolicePage = lazy(() => import("./pages/HpPolice").then((m) => ({ default: m.HpPolicePage })));
+const BrPolicePage = lazy(() => import("./pages/BrPolice").then((m) => ({ default: m.BrPolicePage })));
 const AsPolicePage = lazy(() => import("./pages/AsPolice").then((m) => ({ default: m.AsPolicePage })));
 const CgPolicePage = lazy(() => import("./pages/CgPolice").then((m) => ({ default: m.CgPolicePage })));
 const GaPolicePage = lazy(() => import("./pages/GaPolice").then((m) => ({ default: m.GaPolicePage })));
@@ -103,6 +107,10 @@ export default function App() {
           <Route path="/mizoram/police" element={<MzPolicePage />} />
           <Route path="/arunachal-pradesh/police" element={<ArPolicePage />} />
           <Route path="/uttarakhand/police" element={<UkPolicePage />} />
+          <Route path="/sikkim/police" element={<SkPolicePage />} />
+          <Route path="/rajasthan/police" element={<RjPolicePage />} />
+          <Route path="/himachal-pradesh/police" element={<HpPolicePage />} />
+          <Route path="/bihar/police" element={<BrPolicePage />} />
           <Route path="/states/maharashtra/police" element={<Navigate to="/maharashtra/police" replace />} />
           <Route path="/:slug/police" element={<EmptyPolicePage />} />
           <Route path="*" element={<Navigate to="/" replace />} />

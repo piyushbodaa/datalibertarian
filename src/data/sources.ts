@@ -532,6 +532,117 @@ export const citations: Record<string, Citation> = {
     notes:
       "Rupees in thousands. Grant 10 voted total BE 2026-27 35246958 is not Police. Used only as the quieter mixed-grant figure.",
   },
+  "sk-afs-2026-27": {
+    id: "sk-afs-2026-27",
+    title:
+      "Annual Financial Statement 2026-27 — Statement I (2055 Police / 4055 Capital Outlay on Police)",
+    publisher: "Finance Department, Government of Sikkim",
+    fiscalYear: "2026-27",
+    url: "https://www.sikkimfred.gov.in/Budget_2026-27/Documents/AFS2026-27/Annual%20Financial%20Statement%202026-27.pdf",
+    pages:
+      "Statement I Revenue disbursements printed p. 4 — 2055 Police; Statement I Capital disbursements printed p. 9 — 4055 Capital Outlay on Police",
+    table: "2055 Police; 4055 Capital Outlay on Police — statewide, not jails 2056",
+    accessedOn: "2026-09-10",
+    short: "Sikkim budget",
+    notes:
+      "Figures printed in thousands of rupees. Converted to crore by dividing by 10,000. Hero is 2055 + 4055. Not Vote on Account. Not a research-summary Police sector slice.",
+  },
+  "rj-vol2b-2026-27": {
+    id: "rj-vol2b-2026-27",
+    title: "Volume 2b — Revenue Expenditure, General Services 2026-27 (2055 Police सारांश)",
+    publisher: "Finance Department, Government of Rajasthan",
+    fiscalYear: "2026-27",
+    url: "https://finance.rajasthan.gov.in/docs/budget/statebudget/2026-2027/Vol2b.pdf",
+    pages: "printed p. 168 — 2055 Police सारांश, मुख्य-शीर्ष-2055 योग and वृहद योग",
+    table:
+      "2055 Police वृहद योग (voted + charged; State fund + Central assistance) — not jails 2056, not Budget at a Glance Police Department ₹556.16 cr",
+    accessedOn: "2026-09-10",
+    short: "Rajasthan Vol2b",
+    notes:
+      "Figures printed in thousands of rupees (रुपये सहस्र में). Converted to crore by dividing by 10,000. Four columns are State + Central. BE 2026-27 योग 1,13,79,64,74. The explanatory note on printed p. 184 restates BE 2025-26 10,74,163.84 lakh / RE 10,38,369.15 lakh / BE 2026-27 11,37,964.74 lakh.",
+  },
+  "rj-vol3a-2026-27": {
+    id: "rj-vol3a-2026-27",
+    title: "Volume 3a — Capital Expenditure 2026-27 (4055 Capital Outlay on Police सारांश)",
+    publisher: "Finance Department, Government of Rajasthan",
+    fiscalYear: "2026-27",
+    url: "https://finance.rajasthan.gov.in/docs/budget/statebudget/2026-2027/Vol3a.pdf",
+    pages: "printed p. 4 — 4055 सारांश, मुख्य-शीर्ष-4055 योग and वृहद योग",
+    table: "4055 Capital Outlay on Police वृहद योग (State + Central, net after 902 recoveries)",
+    accessedOn: "2026-09-10",
+    short: "Rajasthan Vol3a",
+    notes:
+      "Rupees in thousands. BE 2026-27 योग 3,49,00,14. Explanatory note restates BE 2025-26 38,365.34 lakh / RE 31,354.13 lakh / BE 2026-27 34,900.14 lakh. 902 disaster-fund recoveries are already netted in the योग.",
+  },
+  "rj-vol1-2026-27": {
+    id: "rj-vol1-2026-27",
+    title: "Volume 1 — Summary Volume 2026-27, Schedule of Demands (Demand 18 Home)",
+    publisher: "Finance Department, Government of Rajasthan",
+    fiscalYear: "2026-27",
+    url: "https://finance.rajasthan.gov.in/docs/budget/statebudget/2026-2027/Vol1.pdf",
+    pages: "printed p. 55–56 — Demand 18 schedule (2055, 4055, 2059, 2070, 2216, 4059 and others)",
+    table: "Demand 18 net voted + charged — mixed, not Police-only",
+    accessedOn: "2026-09-10",
+    short: "Rajasthan Demand 18",
+    notes:
+      "Rupees in thousands. Demand 18 net voted 1,23,93,71,24 plus charged 1,00,04 is not Police. Used only as the quieter mixed-demand figure.",
+  },
+  "hp-afs-2026-27": {
+    id: "hp-afs-2026-27",
+    title:
+      "Annual Financial Statement 2026-27 — Consolidated Fund revenue and capital expenditure (2055 / 4055)",
+    publisher: "Finance Department, Government of Himachal Pradesh",
+    fiscalYear: "2026-27",
+    url: "https://ebudget.hp.nic.in/",
+    pages:
+      "Consolidated Fund Revenue Account Expenditure, 2055 Police (Rs. in Lacs, printed p. 3 of 10); Capital Account Expenditure, 4055 Capital Outlay on Police (printed p. 1 of 5)",
+    table: "2055 Police statewide; 4055 Capital Outlay on Police — not Demand 07 mixed, not jails 2056",
+    accessedOn: "2026-09-10",
+    short: "Himachal Pradesh budget",
+    notes:
+      "Figures printed in lakhs of rupees. Converted to crore by dividing by 100. Books open from ebudget.hp.nic.in ReportViewer (lnkRV_X / lnkC_X) for FY 2026-27. Hero is 2055 + 4055. 2055 sits across Demands 05, 07, 31 and 32; Demand 07 alone is not the statewide line.",
+  },
+  "hp-d07-2026-27": {
+    id: "hp-d07-2026-27",
+    title: "Demand 07 Police and Allied Organisations 2026-27 — Demand Note (revenue + capital)",
+    publisher: "Finance Department, Government of Himachal Pradesh",
+    fiscalYear: "2026-27",
+    url: "https://ebudget.hp.nic.in/",
+    pages: "Demand Note 07 — revenue 174838.69 lakh + capital 338.00 lakh",
+    table: "Demand 07 Police and Allied Organisations — mixed (2055, 2056 jails, 2070, 2216, 4055)",
+    accessedOn: "2026-09-10",
+    short: "Himachal Police and Allied grant",
+    notes:
+      "Rupees in lakhs. Demand 07 total BE 2026-27 175176.69 is not Police. Matches Appropriation Act Demand 07 rupees. Used only as the quieter mixed-grant figure.",
+  },
+  "br-afs-2026-27": {
+    id: "br-afs-2026-27",
+    title:
+      "Annual Financial Statement of the Government of Bihar for 2026-2027 — Statement I (2055 / 4055)",
+    publisher: "Finance Department, Government of Bihar",
+    fiscalYear: "2026-27",
+    url: "https://betastate.bihar.gov.in/file_2/FileUpload/2026/Feb/26-Feb-2026/5/DyPage/Annual%20Financial%20Statement_Report_2026-27.pdf",
+    pages:
+      "Statement I Revenue disbursements printed p. 5 — 2055 Police; Statement I Capital disbursements printed p. 10 — 4055 Capital Outlay on Police",
+    table: "2055 Police; 4055 Capital Outlay on Police — statewide, not jails 2056, not Demand 22 mixed",
+    accessedOn: "2026-09-10",
+    short: "Bihar budget",
+    notes:
+      "Figures printed in lakhs of rupees (In Lacs of Rupees). Converted to crore by dividing by 100. Hero is 2055 + 4055. budget.bihar.gov.in still lists 2025-26; the live 2026-27 AFS is on the Finance Department Budget tab.",
+  },
+  "br-dfg-2026-27": {
+    id: "br-dfg-2026-27",
+    title: "Demands for Grants 2026-27 — Demand No. 22 Home Department",
+    publisher: "Finance Department, Government of Bihar",
+    fiscalYear: "2026-27",
+    url: "https://betastate.bihar.gov.in/file_2/FileUpload/2026/Feb/26-Feb-2026/5/DyPage/Demands%20For%20Grants_Report_2026-27.pdf",
+    pages: "Demand 22 Home — I. Estimates grand total (revenue + capital voted)",
+    table: "Demand 22 Home — mixed (2055, 2056 jails, 4055, 4059 public works)",
+    accessedOn: "2026-09-10",
+    short: "Bihar Home demand",
+    notes:
+      "Rupees in lakhs. Demand 22 grand total BE 2026-27 2013286.69 is not Police. Demand 22 4055 is smaller than AFS statewide 4055. Used only as the quieter mixed-demand figure.",
+  },
 };
 
 const PRS_INDEX: { id: string; slug: string; name: string }[] = [

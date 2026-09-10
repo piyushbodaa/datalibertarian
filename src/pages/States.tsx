@@ -28,7 +28,17 @@ import { klFunctional } from "../data/kerala/police";
 import { odFunctional } from "../data/odisha/police";
 import { apFunctional } from "../data/andhra-pradesh/police";
 import { ukFunctional } from "../data/uttarakhand/police";
+import { asFunctional } from "../data/assam/police";
+import { cgFunctional } from "../data/chhattisgarh/police";
+import { jhFunctional } from "../data/jharkhand/police";
+import { gaFunctional } from "../data/goa/police";
+import { pbFunctional } from "../data/punjab/police";
+import { hrFunctional } from "../data/haryana/police";
 import { arFunctional } from "../data/arunachal-pradesh/police";
+import { skFunctional } from "../data/sikkim/police";
+import { rjFunctional } from "../data/rajasthan/police";
+import { hpFunctional } from "../data/himachal-pradesh/police";
+import { brFunctional } from "../data/bihar/police";
 import { mlFunctional } from "../data/meghalaya/police";
 import { mnFunctional } from "../data/manipur/police";
 import { mzFunctional } from "../data/mizoram/police";
@@ -62,12 +72,22 @@ export function StatesPage() {
   const od = pickAmount(odFunctional, "2026-27", "be");
   const ap = pickAmount(apFunctional, "2026-27", "be");
   const uk = pickAmount(ukFunctional, "2026-27", "be");
+  const as = pickAmount(asFunctional, "2026-27", "be");
+  const cg = pickAmount(cgFunctional, "2026-27", "be");
+  const jh = pickAmount(jhFunctional, "2026-27", "be");
+  const ga = pickAmount(gaFunctional, "2026-27", "be");
+  const pb = pickAmount(pbFunctional, "2026-27", "be");
+  const hr = pickAmount(hrFunctional, "2026-27", "be");
   const tr = pickAmount(trFunctional, "2026-27", "be");
   const ml = pickAmount(mlFunctional, "2026-27", "be");
   const mn = pickAmount(mnFunctional, "2026-27", "be");
   const nl = pickAmount(nlFunctional, "2026-27", "be");
   const mz = pickAmount(mzFunctional, "2026-27", "be");
   const ar = pickAmount(arFunctional, "2026-27", "be");
+  const sk = pickAmount(skFunctional, "2026-27", "be");
+  const rj = pickAmount(rjFunctional, "2026-27", "be");
+  const hp = pickAmount(hpFunctional, "2026-27", "be");
+  const br = pickAmount(brFunctional, "2026-27", "be");
   const mhIndex = getIndexRow("maharashtra");
   if (
     !mh ||
@@ -83,12 +103,22 @@ export function StatesPage() {
     !od ||
     !ap ||
     !uk ||
+    !as ||
+    !cg ||
+    !jh ||
+    !ga ||
+    !pb ||
+    !hr ||
     !tr ||
     !ml ||
     !mn ||
     !nl ||
     !mz ||
     !ar ||
+    !sk ||
+    !rj ||
+    !hp ||
+    !br ||
     !mhIndex
   ) {
     throw new Error("Missing state headline figures");
@@ -116,12 +146,22 @@ export function StatesPage() {
           <GoldRow to="/odisha/police" name="Odisha" money={od} />
           <GoldRow to="/andhra-pradesh/police" name="Andhra Pradesh" money={ap} />
           <GoldRow to="/uttarakhand/police" name="Uttarakhand" money={uk} />
+          <GoldRow to="/assam/police" name="Assam" money={as} />
+          <GoldRow to="/chhattisgarh/police" name="Chhattisgarh" money={cg} />
+          <GoldRow to="/jharkhand/police" name="Jharkhand" money={jh} />
+          <GoldRow to="/goa/police" name="Goa" money={ga} />
+          <GoldRow to="/punjab/police" name="Punjab" money={pb} />
+          <GoldRow to="/haryana/police" name="Haryana" money={hr} />
           <GoldRow to="/tripura/police" name="Tripura" money={tr} />
           <GoldRow to="/meghalaya/police" name="Meghalaya" money={ml} />
           <GoldRow to="/manipur/police" name="Manipur" money={mn} />
           <GoldRow to="/nagaland/police" name="Nagaland" money={nl} />
           <GoldRow to="/mizoram/police" name="Mizoram" money={mz} />
           <GoldRow to="/arunachal-pradesh/police" name="Arunachal Pradesh" money={ar} />
+          <GoldRow to="/sikkim/police" name="Sikkim" money={sk} />
+          <GoldRow to="/rajasthan/police" name="Rajasthan" money={rj} />
+          <GoldRow to="/himachal-pradesh/police" name="Himachal Pradesh" money={hp} />
+          <GoldRow to="/bihar/police" name="Bihar" money={br} />
         </ul>
         <div className="mt-6">
           <HeadSplit run={run} cap={cap} title="Maharashtra police, this plan" note="Running the force vs buildings and gear." />

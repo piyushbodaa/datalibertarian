@@ -49,9 +49,9 @@ export const searchLogs: Record<string, SearchLog> = {
   },
   rajasthan: {
     lastDocument:
-      "Re-opened Vol2b.pdf and Vol1.pdf on 2026-09-07. Vol2b has 2055 पुलिस सारांश / मुख्य-शीर्ष-2055 योग / वृहद योग, but Hindi OCR interleaves State/Central/Charged columns so a single page-tied 2055 BE 2026-27 cannot be typed. Vol1 2055 पुलिस line is similarly interleaved. Budget at a Glance 'Police Department ₹556.16 cr' is a speech slice, not 2055. Left INDEX.",
+      "Vol2b 2055 सारांश printed p.168 वृहद योग (State+Central) + Vol3a 4055 सारांश printed p.4 वृहद योग GOLD. Demand 18 Vol1 is mixed. Budget at a Glance ₹556.16 cr is a speech slice, not taken.",
     urlTried: "https://finance.rajasthan.gov.in/docs/budget/statebudget/2026-2027/Vol2b.pdf",
-    nextSearch: "Vol2b 2055 वृहद योग with printed page and clean four columns; Vol3a 4055. Do not use ₹556.16 cr glance slice.",
+    nextSearch: "GOLD — statewide object-head salaries योग if a printed total appears",
   },
   punjab: {
     lastDocument:
@@ -68,16 +68,17 @@ export const searchLogs: Record<string, SearchLog> = {
   },
   "madhya-pradesh": {
     lastDocument:
-      "Opened https://finance.mp.gov.in on 2026-09-07. FS Memo English 2026-27 and FRBM 2026-27 open (no isolated 2055). Volume-1 AFS / Demand books on the hub are still 2025-26. Guessed 2026-27 volume URLs 404. Left INDEX.",
+      "Re-opened 2026-09-10. finance.mp.gov.in vhost 404s from this machine. Volume-1 AFS 2026-27 is still not on the hub (What's New still lists Volume-1 AFS 2025-26). FS Memo 2026-27 on disk has no 2055/4055 line. Vidhan Sabha budget speech is not AFS. Home handle ₹13,411 cr is mixed. Left INDEX.",
     urlTried: "https://finance.mp.gov.in/uploads/files/FS-memo-English_2026-27.pdf",
     nextSearch:
-      "Volume-1 Annual Financial Statement 2026-27 — isolate 2055 + 4055. Do not use FS Memo aggregates.",
+      "Volume-1 Annual Financial Statement 2026-27 — isolate 2055 + 4055. Do not use FS Memo, FRBM, speech, or Home-department totals.",
   },
   bihar: {
     lastDocument:
-      "Opened https://state.bihar.gov.in/finance and https://budget.bihar.gov.in/ViewBudgetDetailsEn.aspx on 2026-09-07. Budget portal still lists 2025-2026 (last updated 03 March 2025). First Supplementary Book 2026-27 and Appropriation (No. 2) Act 2026 open; AFS 2055 PDF for 2026-27 not on the hub. Left INDEX.",
-    urlTried: "https://budget.bihar.gov.in/ViewBudgetDetailsEn.aspx",
-    nextSearch: "AFS 2026-27 — isolate 2055 only. Do not use Appropriation Act mixed grant totals.",
+      "AFS 2026-27 Statement I 2055 + 4055 GOLD (lakhs). Demand 22 Home is mixed. budget.bihar.gov.in is the stale 2025-26 shell.",
+    urlTried:
+      "https://betastate.bihar.gov.in/file_2/FileUpload/2026/Feb/26-Feb-2026/5/DyPage/Annual%20Financial%20Statement_Report_2026-27.pdf",
+    nextSearch: "GOLD — statewide object-head salaries योग if a printed total appears",
   },
   assam: {
     lastDocument: "AFS 2026-27 Statement B 2055 (Grant 14+19) + 4055 Grant 14 GOLD",
@@ -108,9 +109,9 @@ export const searchLogs: Record<string, SearchLog> = {
   },
   "himachal-pradesh": {
     lastDocument:
-      "Demand 07 is mixed Police and Allied. ebudget.hp.nic.in Demand 07 detailed / AFS did not open from this machine (timeout). Appropriation Act Demand 07 revenue ₹17,48,38,69,000 is mixed — not 2055. Left INDEX.",
+      "ebudget.hp.nic.in Consolidated Fund Revenue Account Expenditure 2055 + Capital Account Expenditure 4055 GOLD (Rs. in Lacs). Demand 07 Police and Allied is mixed.",
     urlTried: "https://ebudget.hp.nic.in/",
-    nextSearch: "Demand 07 detailed — isolate 2055 only. Do not use Demand 07 mixed total.",
+    nextSearch: "GOLD — statewide object-head salaries योग if a printed total appears",
   },
   tripura: {
     lastDocument: "AFS 2026-27 2055 net + 4055 GOLD",
@@ -143,11 +144,10 @@ export const searchLogs: Record<string, SearchLog> = {
     nextSearch: "GOLD — Demand 8 object-head salaries योग if a printed total appears",
   },
   sikkim: {
-    lastDocument:
-      "Opened sikkimfred.gov.in Budget_Forms.aspx (lists 2026-27 AFS / Demand for Grants). Budget_Main_Page.aspx returned 401 Unauthorized. Direct AFS URLs 404 (AFS.pdf, Annual Financial Statement 2026-27.pdf). Vote on Account Apr–Sep 2026 is not the full AFS 2055. Left INDEX.",
-    urlTried: "http://www.sikkimfred.gov.in/Budget_2026-27/Documents/AFS.pdf",
-    nextSearch:
-      "Sikkim AFS 2026-27 2055 Police line with printed page; Demand for Grants isolate 2055+4055. Not Vote on Account. Not PRS ₹650 crore sector slice.",
+    lastDocument: "AFS 2026-27 Statement I 2055 + 4055 GOLD (thousands of rupees)",
+    urlTried:
+      "https://www.sikkimfred.gov.in/Budget_2026-27/Documents/AFS2026-27/Annual%20Financial%20Statement%202026-27.pdf",
+    nextSearch: "GOLD — statewide object-head salaries योग if a printed total appears",
   },
   delhi: {
     lastDocument: "Union Demand 51 — Delhi Police is a Union sub-door",

@@ -95,8 +95,10 @@ describe("desk-median of GOLD compare peers", () => {
     assert.ok(peers.some((p) => p.slug === "andhra-pradesh"));
     assert.ok(peers.some((p) => p.slug === "punjab"));
     assert.ok(peers.some((p) => p.slug === "haryana"));
-    assert.ok(!peers.some((p) => p.slug === "rajasthan"));
-    assert.ok(!peers.some((p) => p.slug === "bihar"));
+    assert.ok(peers.some((p) => p.slug === "rajasthan"));
+    assert.ok(peers.some((p) => p.slug === "sikkim"));
+    assert.ok(peers.some((p) => p.slug === "bihar"));
+    assert.ok(peers.some((p) => p.slug === "himachal-pradesh"));
     assert.ok(!peers.some((p) => p.slug === "madhya-pradesh"));
     const ka = resolveSide("karnataka");
     assert.equal(ka?.tier, "gold");

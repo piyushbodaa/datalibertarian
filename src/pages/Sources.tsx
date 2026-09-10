@@ -41,6 +41,14 @@ const GOLD_IDS = [
   "nl-afs-2026-27",
   "mz-afs-2026-27",
   "ar-afs-2026-27",
+  "sk-afs-2026-27",
+  "rj-vol2b-2026-27",
+  "rj-vol3a-2026-27",
+  "rj-vol1-2026-27",
+  "hp-afs-2026-27",
+  "hp-d07-2026-27",
+  "br-afs-2026-27",
+  "br-dfg-2026-27",
   "union-bag-2026-27",
   "union-rec-annex9-2026-27",
 ];
@@ -278,6 +286,26 @@ export function SourcesPage() {
             Hero is 2055 only. 4055 is not a major head in this Demand (capital is mixed 4059/4216).
           </li>
           <li className="docket-slip text-ink/80">
+            <strong>Sikkim Police</strong> — Annual Financial Statement 2026-27, Statement I.
+            Thousands converted to crore. Hero is 2055 + 4055. Not jails. Not a research-summary
+            sector slice.
+          </li>
+          <li className="docket-slip text-ink/80">
+            <strong>Rajasthan Police</strong> — Volume 2b 2055 सारांश printed p. 168 + Volume 3a 4055
+            सारांश printed p. 4. Thousands converted to crore. Hero is 2055 + 4055 वृहद योग
+            (State + Central). Demand 18 is mixed and quieter. Budget at a Glance ₹556.16 cr is a
+            speech slice, not this hero.
+          </li>
+          <li className="docket-slip text-ink/80">
+            <strong>Himachal Pradesh Police</strong> — Annual Financial Statement 2026-27,
+            Consolidated Fund revenue and capital (Rs. in Lacs). Hero is 2055 + 4055. Demand 07
+            Police and Allied is mixed and quieter.
+          </li>
+          <li className="docket-slip text-ink/80">
+            <strong>Bihar Police</strong> — Annual Financial Statement 2026-27, Statement I. Lakhs
+            converted to crore. Hero is 2055 + 4055. Demand 22 Home is mixed and quieter.
+          </li>
+          <li className="docket-slip text-ink/80">
             <strong>Uttarakhand Police</strong> — Annual Financial Statement 2026-27 Volume 2 Part 1,
             thousands converted to crore. Hero is 2055 + 4055. Grant 10 Police and Jail is mixed
             (jails, public works) and quieter.
@@ -305,17 +333,8 @@ export function SourcesPage() {
         <h2 className="font-display text-xl font-semibold tracking-tight">Not ready yet</h2>
         <ul className="mt-4 list-none space-y-3 p-0">
           <li className="docket-slip text-ink/80">
-            <strong>Andhra Pradesh</strong> — can’t read a clean number for 2025-26 / 2026-27. Only
-            2024-25 plan and spent found; later years are percent of spend.
-          </li>
-          <li className="docket-slip text-ink/80">
-            <strong>Rajasthan</strong> — Volume 2b 2055 Police summary was opened; Hindi OCR still
-            mixes the columns, so no official figure is typed. Budget at a Glance ₹556.16 cr is a
-            speech slice, not 2055.
-          </li>
-          <li className="docket-slip text-ink/80">
-            <strong>Himachal Pradesh</strong> — Demand 07 is mixed Police and Allied. The detailed
-            2026-27 demand did not open, so 2055 is not isolated yet.
+            <strong>Madhya Pradesh</strong> — Volume-1 Annual Financial Statement 2026-27 is not on
+            the finance hub. The Finance Secretary memorandum has no isolated 2055 line.
           </li>
           <li className="docket-slip text-ink/80">
             Karnataka and Gujarat pay-line depth — not typed. Summary only.

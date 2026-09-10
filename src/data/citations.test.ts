@@ -50,6 +50,10 @@ import { mn2055, mn4055, mnDemand07, mnFunctional } from "./manipur/police.ts";
 import { mz2055, mz4055, mzFunctional } from "./mizoram/police.ts";
 import { nl2055, nl4055, nlFunctional } from "./nagaland/police.ts";
 import { tr2055, tr4055, trFunctional } from "./tripura/police.ts";
+import { sk2055, sk4055, skFunctional } from "./sikkim/police.ts";
+import { rj2055, rj4055, rjDemand18, rjFunctional } from "./rajasthan/police.ts";
+import { hp2055, hp4055, hpDemand07, hpFunctional } from "./himachal-pradesh/police.ts";
+import { br2055, br4055, brDemand22, brFunctional } from "./bihar/police.ts";
 import { jurisdictions } from "./states.ts";
 
 const allMoney = [
@@ -155,6 +159,21 @@ const allMoney = [
   ...hr2055.amounts,
   ...hr4055.amounts,
   ...hrFunctional.amounts,
+  ...sk2055.amounts,
+  ...sk4055.amounts,
+  ...skFunctional.amounts,
+  ...rj2055.amounts,
+  ...rj4055.amounts,
+  ...rjFunctional.amounts,
+  ...rjDemand18.amounts,
+  ...hp2055.amounts,
+  ...hp4055.amounts,
+  ...hpFunctional.amounts,
+  ...hpDemand07.amounts,
+  ...br2055.amounts,
+  ...br4055.amounts,
+  ...brFunctional.amounts,
+  ...brDemand22.amounts,
 ];
 
 describe("every figure has a living citation", () => {
@@ -235,6 +254,14 @@ describe("every figure has a living citation", () => {
       "nl-afs-2026-27",
       "mz-afs-2026-27",
       "ar-afs-2026-27",
+      "sk-afs-2026-27",
+      "rj-vol2b-2026-27",
+      "rj-vol3a-2026-27",
+      "rj-vol1-2026-27",
+      "hp-afs-2026-27",
+      "hp-d07-2026-27",
+      "br-afs-2026-27",
+      "br-dfg-2026-27",
       "union-bag-2026-27",
       "union-rec-annex9-2026-27",
       "desk-median",
@@ -381,7 +408,7 @@ describe("GOLD modules copy pack figures", () => {
     assert.equal(jurisdictions.find((j) => j.slug === "odisha")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "andhra-pradesh")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "uttarakhand")?.tier, "gold");
-    assert.equal(jurisdictions.find((j) => j.slug === "himachal-pradesh")?.tier, "index");
+    assert.equal(jurisdictions.find((j) => j.slug === "himachal-pradesh")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "assam")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "chhattisgarh")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "jharkhand")?.tier, "gold");
@@ -392,12 +419,12 @@ describe("GOLD modules copy pack figures", () => {
     assert.equal(jurisdictions.find((j) => j.slug === "nagaland")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "mizoram")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "arunachal-pradesh")?.tier, "gold");
-    assert.equal(jurisdictions.find((j) => j.slug === "sikkim")?.tier, "index");
+    assert.equal(jurisdictions.find((j) => j.slug === "sikkim")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "punjab")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "haryana")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "madhya-pradesh")?.tier, "index");
-    assert.equal(jurisdictions.find((j) => j.slug === "bihar")?.tier, "index");
-    assert.equal(jurisdictions.find((j) => j.slug === "rajasthan")?.tier, "index");
+    assert.equal(jurisdictions.find((j) => j.slug === "bihar")?.tier, "gold");
+    assert.equal(jurisdictions.find((j) => j.slug === "rajasthan")?.tier, "gold");
     assert.equal(jurisdictions.find((j) => j.slug === "delhi")?.tier, "empty");
     assert.equal(apLastFound.be2425.crore, 7874);
     assert.equal(apLastFound.actual2425.crore, 7695);
@@ -642,6 +669,69 @@ describe("GOLD modules copy pack figures", () => {
     assert.ok(mixed.crore > cap.crore);
     assert.ok(!hero.citationId.startsWith("prs-"));
     assert.notEqual(Math.round(hero.crore), 1042);
+  });
+
+  it("Sikkim AFS isolates statewide 2055+4055, not a research-summary sector slice", () => {
+    const run = sk2055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const cap = sk4055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const hero = skFunctional.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const actual = sk2055.amounts.find((a) => a.fiscalYear === "2024-25" && a.series === "actual")!;
+    assert.equal(run.rupees, 6_294_436_000);
+    assert.equal(cap.rupees, 203_149_000);
+    assert.equal(hero.rupees, run.rupees + cap.rupees);
+    assert.equal(actual.rupees, 5_771_230_000);
+    assert.ok(!hero.citationId.startsWith("prs-"));
+    assert.notEqual(hero.crore, 650);
+    assert.notEqual(Math.round(hero.crore), 633);
+  });
+
+  it("Rajasthan Vol2b+Vol3a isolate 2055+4055 वृहद योग, not glance 556, not Demand 18", () => {
+    const run = rj2055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const cap = rj4055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const hero = rjFunctional.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const mixed = rjDemand18.amounts[0];
+    const actual = rj2055.amounts.find((a) => a.fiscalYear === "2024-25" && a.series === "actual")!;
+    assert.equal(run.rupees, 113_796_474_000);
+    assert.equal(cap.rupees, 3_490_014_000);
+    assert.equal(hero.rupees, run.rupees + cap.rupees);
+    assert.equal(actual.rupees, 90_728_045_000);
+    assert.ok(mixed.crore > hero.crore);
+    assert.ok(!hero.citationId.startsWith("prs-"));
+    assert.notEqual(Math.round(hero.crore), 556);
+    assert.notEqual(hero.crore, 11729);
+    assert.notEqual(Math.round(hero.crore), 11125);
+  });
+
+  it("Himachal Pradesh AFS isolates statewide 2055+4055 from mixed Demand 07", () => {
+    const run = hp2055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const cap = hp4055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const hero = hpFunctional.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const mixed = hpDemand07.amounts[0];
+    const actual = hp2055.amounts.find((a) => a.fiscalYear === "2024-25" && a.series === "actual")!;
+    assert.equal(run.rupees, Math.round(162088.85 * 100_000));
+    assert.equal(cap.rupees, Math.round(514.0 * 100_000));
+    assert.equal(hero.rupees, run.rupees + cap.rupees);
+    assert.equal(actual.rupees, Math.round(155346.25 * 100_000));
+    assert.ok(mixed.crore > hero.crore);
+    assert.ok(!hero.citationId.startsWith("prs-"));
+    assert.notEqual(hero.crore, 1626);
+    assert.notEqual(Math.round(hero.crore), 1643);
+  });
+
+  it("Bihar AFS isolates statewide 2055+4055 from mixed Demand 22", () => {
+    const run = br2055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const cap = br4055.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const hero = brFunctional.amounts.find((a) => a.fiscalYear === "2026-27" && a.series === "be")!;
+    const mixed = brDemand22.amounts[0];
+    const actual = br2055.amounts.find((a) => a.fiscalYear === "2024-25" && a.series === "actual")!;
+    assert.equal(run.rupees, Math.round(1567106.81 * 100_000));
+    assert.equal(cap.rupees, Math.round(116897.17 * 100_000));
+    assert.equal(hero.rupees, run.rupees + cap.rupees);
+    assert.equal(actual.rupees, Math.round(1109665.32 * 100_000));
+    assert.ok(mixed.crore > hero.crore);
+    assert.ok(!hero.citationId.startsWith("prs-"));
+    assert.notEqual(hero.crore, 16840);
+    assert.notEqual(Math.round(hero.crore), 14653);
   });
 
   it("Union Budget at a Glance total is not Demand 51", () => {

@@ -16,6 +16,10 @@ import { od2055, odDemand01, odFunctional } from "../odisha/police";
 import { ap2055, ap4055, apDemandX, apFunctional } from "../andhra-pradesh/police";
 import { pb2055, pb4055, pbFunctional } from "../punjab/police";
 import { hr2055, hr4055, hrFunctional } from "../haryana/police";
+import { sk2055, sk4055, skFunctional } from "../sikkim/police";
+import { rj2055, rj4055, rjDemand18, rjFunctional } from "../rajasthan/police";
+import { hp2055, hp4055, hpDemand07, hpFunctional } from "../himachal-pradesh/police";
+import { br2055, br4055, brDemand22, brFunctional } from "../bihar/police";
 import { uk2055, uk4055, ukFunctional, ukGrant10 } from "../uttarakhand/police";
 import { as2055, as4055, asFunctional } from "../assam/police";
 import { cg2055, cg4055, cgDemand02, cgFunctional } from "../chhattisgarh/police";
@@ -317,6 +321,37 @@ export function resolveSide(slug: string | undefined): CompareSide | undefined {
       "police-functional": hrFunctional,
       "2055": hr2055,
       "4055": hr4055,
+    });
+  }
+  if (slug === "sikkim") {
+    return goldState(slug, {
+      "police-functional": skFunctional,
+      "2055": sk2055,
+      "4055": sk4055,
+    });
+  }
+  if (slug === "rajasthan") {
+    return goldState(slug, {
+      "police-functional": rjFunctional,
+      "2055": rj2055,
+      "4055": rj4055,
+      "mixed-grant": rjDemand18,
+    });
+  }
+  if (slug === "himachal-pradesh") {
+    return goldState(slug, {
+      "police-functional": hpFunctional,
+      "2055": hp2055,
+      "4055": hp4055,
+      "mixed-grant": hpDemand07,
+    });
+  }
+  if (slug === "bihar") {
+    return goldState(slug, {
+      "police-functional": brFunctional,
+      "2055": br2055,
+      "4055": br4055,
+      "mixed-grant": brDemand22,
     });
   }
 

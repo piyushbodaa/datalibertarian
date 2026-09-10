@@ -434,9 +434,122 @@ Printed unit: **thousands**. Crore = thousands ÷ 10,000.
 
 Functional Police BE 2026-27 = 2,011.0504. Jails 2056 is not Police. Demand 8 mixed total is not taken. PRS 2025-26 ₹3,075 is INDEX.
 
-## Sikkim — INDEX
+## Sikkim — AFS 2026-27 Statement I
 
-Opened http://sikkimfred.gov.in/Budgets/Budget_Forms.aspx (lists 2026-27 AFS). Budget_Main_Page.aspx 401 Unauthorized. Direct AFS URLs 404. Vote on Account Apr–Sep 2026 is not a full 2055 isolate. Left INDEX. Not PRS.
+Extract date: 2026-09-10
+
+Ledger: https://www.sikkimfred.gov.in/Budget_2026-27/Documents/AFS2026-27/Annual%20Financial%20Statement%202026-27.pdf
+Printed unit: **thousands of rupees**. Crore = thousands ÷ 10,000.
+
+### 2055 Police — Statement I revenue disbursements (printed p. 4)
+
+| Series | Printed (thousands) | Crore |
+|---|---|---|
+| Actuals 2024-25 | 5771230 | 577.1230 |
+| Budget 2025-26 | 6292342 | 629.2342 |
+| Revised 2025-26 | 6119029 | 611.9029 |
+| Budget 2026-27 | 6294436 | 629.4436 |
+
+### 4055 Capital Outlay on Police — Statement I capital disbursements (printed p. 9)
+
+| Series | Printed (thousands) | Crore |
+|---|---|---|
+| Actuals 2024-25 | 91711 | 9.1711 |
+| Budget 2025-26 | 40961 | 4.0961 |
+| Revised 2025-26 | 46828 | 4.6828 |
+| Budget 2026-27 | 203149 | 20.3149 |
+
+Functional Police BE 2026-27 = 629.4436 + 20.3149 = **649.7585**. Jails 2056 is not Police. Not Vote on Account. PRS 2025-26 ₹633 / PRS 2026-27 sector ₹650 is INDEX, not this hero.
+
+## Rajasthan — Vol2b 2055 + Vol3a 4055
+
+Extract date: 2026-09-10
+
+Ledger: https://finance.rajasthan.gov.in/docs/budget/statebudget/2026-2027/Vol2b.pdf (2055); https://finance.rajasthan.gov.in/docs/budget/statebudget/2026-2027/Vol3a.pdf (4055)
+Printed unit: **thousands** (रुपये सहस्र में). Crore = thousands ÷ 10,000.
+Four columns = State fund + Central assistance (the printed योग for BE 2026-27).
+
+### 2055 Police — Vol2b सारांश printed p. 168 वृहद योग (voted + charged)
+
+| Series | State | Central | योग (printed / summed) | Crore |
+|---|---|---|---|---|
+| Actuals 2024-25 | 90,71,49,75 | 1,30,70 | 90,72,80,45 | 9,072.8045 |
+| Budget 2025-26 | 1,07,41,63,78 | 6 | 1,07,41,63,84 | 10,741.6384 |
+| Revised 2025-26 | 1,03,83,02,14 | 67,01 | 1,03,83,69,15 | 10,383.6915 |
+| Budget 2026-27 | 1,13,78,95,09 | 69,65 | 1,13,79,64,74 | 11,379.6474 |
+
+Vol2b printed p. 184 note restates BE 2025-26 10,74,163.84 lakh / RE 10,38,369.15 lakh / BE 2026-27 11,37,964.74 lakh.
+
+### 4055 Capital Outlay on Police — Vol3a सारांश printed p. 4 वृहद योग (net after 902)
+
+| Series | State | Central | योग | Crore |
+|---|---|---|---|---|
+| Actuals 2024-25 | 83,36,71 | 11,39,57 | 94,76,28 | 94.7628 |
+| Budget 2025-26 | 3,64,06,16 | 19,59,18 | 3,83,65,34 | 383.6534 |
+| Revised 2025-26 | 2,44,81,67 | 68,72,46 | 3,13,54,13 | 313.5413 |
+| Budget 2026-27 | 3,01,00,08 | 48,00,06 | 3,49,00,14 | 349.0014 |
+
+Vol3a printed p. 8 note restates BE 2025-26 38,365.34 lakh / RE 31,354.13 lakh / BE 2026-27 34,900.14 lakh.
+
+Functional Police BE 2026-27 = 11,379.6474 + 349.0014 = **11,728.6488**. Jails 2056 is not Police. Demand 18 Vol1 net voted 1,23,93,71,24 + charged 1,00,04 = 1,23,94,71,28 thousands (₹12,394.7128 cr) is mixed. Budget at a Glance “Police Department ₹556.16 cr” is a speech slice, not 2055. PRS 2025-26 ₹11,125 / PRS 2026-27 ₹11,729 is INDEX, not this hero.
+
+## Himachal Pradesh — AFS 2026-27 Consolidated Fund
+
+Extract date: 2026-09-10
+
+Ledger: https://ebudget.hp.nic.in/ (ReportViewer Consolidated Fund Revenue Account Expenditure / Capital Account Expenditure, FY 2026-27)
+Printed unit: **lakhs** (Rs. In Lacs). Crore = lakhs ÷ 100.
+
+### 2055 Police — Revenue Account Expenditure printed p. 3 of 10
+
+| Series | Printed (lakhs) | Crore |
+|---|---|---|
+| Actuals 2024-25 | 155346.25 | 1,553.4625 |
+| Budget 2025-26 | 163550.87 | 1,635.5087 |
+| Revised 2025-26 | 153618.72 | 1,536.1872 |
+| Budget 2026-27 | 162088.85 | 1,620.8885 |
+
+### 4055 Capital Outlay on Police — Capital Account Expenditure printed p. 1 of 5
+
+| Series | Printed (lakhs) | Crore |
+|---|---|---|
+| Actuals 2024-25 | 4944.36 | 49.4436 |
+| Budget 2025-26 | 714.20 | 7.1420 |
+| Revised 2025-26 | 2349.44 | 23.4944 |
+| Budget 2026-27 | 514.00 | 5.1400 |
+
+Functional Police BE 2026-27 = 1,620.8885 + 5.1400 = **1,626.0285**. Jails 2056 is not Police. Demand 07 Police and Allied revenue 174838.69 + capital 338.00 = 175176.69 lakhs (₹1,751.7669 cr) is mixed. Appropriation Act Demand 07 is that mixed total. PRS 2025-26 ₹1,643 / PRS 2026-27 ₹1,626 is INDEX, not this hero.
+
+## Bihar — AFS 2026-27 Statement I
+
+Extract date: 2026-09-10
+
+Ledger: https://betastate.bihar.gov.in/file_2/FileUpload/2026/Feb/26-Feb-2026/5/DyPage/Annual%20Financial%20Statement_Report_2026-27.pdf
+Printed unit: **lakhs** (In Lacs of Rupees). Crore = lakhs ÷ 100.
+
+### 2055 Police — Statement I revenue printed p. 5
+
+| Series | Printed (lakhs) | Crore |
+|---|---|---|
+| Actuals 2024-25 | 1109665.32 | 11,096.6532 |
+| Budget 2025-26 | 1409383.53 | 14,093.8353 |
+| Revised 2025-26 | 1431432.63 | 14,314.3263 |
+| Budget 2026-27 | 1567106.81 | 15,671.0681 |
+
+### 4055 Capital Outlay on Police — Statement I capital printed p. 10
+
+| Series | Printed (lakhs) | Crore |
+|---|---|---|
+| Actuals 2024-25 | 72711.96 | 727.1196 |
+| Budget 2025-26 | 55890.99 | 558.9099 |
+| Revised 2025-26 | 118115.20 | 1,181.1520 |
+| Budget 2026-27 | 116897.17 | 1,168.9717 |
+
+Functional Police BE 2026-27 = 15,671.0681 + 1,168.9717 = **16,840.0398**. Jails 2056 is not Police. Demand 22 Home grand total 2013286.69 lakhs (₹20,132.8669 cr) is mixed. budget.bihar.gov.in is the 2025-26 shell. PRS 2025-26 ₹14,653 / PRS 2026-27 ₹16,840 is INDEX, not this hero.
+
+## Madhya Pradesh — INDEX
+
+Re-opened 2026-09-10. finance.mp.gov.in 404s from this machine. Volume-1 AFS 2026-27 is not on the hub (What's New still lists Volume-1 AFS 2025-26). FS Memo 2026-27 has no 2055/4055 line. Home-department ₹13,411 cr is mixed. Left INDEX. Not PRS.
 
 ## Assam — AFS 2026-27 Statement B
 

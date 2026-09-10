@@ -8,6 +8,10 @@ import { od2055, odDemand01, odFunctional } from "../data/odisha/police";
 import { ap2055, ap4055, apDemandX, apFunctional } from "../data/andhra-pradesh/police";
 import { pb2055, pb4055, pbFunctional } from "../data/punjab/police";
 import { hr2055, hr4055, hrFunctional } from "../data/haryana/police";
+import { sk2055, sk4055, skFunctional } from "../data/sikkim/police";
+import { rj2055, rj4055, rjDemand18, rjFunctional } from "../data/rajasthan/police";
+import { hp2055, hp4055, hpDemand07, hpFunctional } from "../data/himachal-pradesh/police";
+import { br2055, br4055, brDemand22, brFunctional } from "../data/bihar/police";
 import { uk2055, uk4055, ukFunctional, ukGrant10 } from "../data/uttarakhand/police";
 import { as2055, as4055, asFunctional } from "../data/assam/police";
 import { cg2055, cg4055, cgDemand02, cgFunctional } from "../data/chhattisgarh/police";
@@ -143,6 +147,21 @@ const ENTRIES: Entry[] = [
   { item: hrFunctional, entity: "Haryana Police", href: "/haryana/police" },
   { item: hr2055, entity: "Haryana Police", href: "/haryana/police" },
   { item: hr4055, entity: "Haryana Police", href: "/haryana/police" },
+  { item: skFunctional, entity: "Sikkim Police", href: "/sikkim/police" },
+  { item: sk2055, entity: "Sikkim Police", href: "/sikkim/police" },
+  { item: sk4055, entity: "Sikkim Police", href: "/sikkim/police" },
+  { item: rjFunctional, entity: "Rajasthan Police", href: "/rajasthan/police" },
+  { item: rj2055, entity: "Rajasthan Police", href: "/rajasthan/police" },
+  { item: rj4055, entity: "Rajasthan Police", href: "/rajasthan/police" },
+  { item: rjDemand18, entity: "Rajasthan Demand 18 Home", href: "/rajasthan/police" },
+  { item: hpFunctional, entity: "Himachal Pradesh Police", href: "/himachal-pradesh/police" },
+  { item: hp2055, entity: "Himachal Pradesh Police", href: "/himachal-pradesh/police" },
+  { item: hp4055, entity: "Himachal Pradesh Police", href: "/himachal-pradesh/police" },
+  { item: hpDemand07, entity: "Himachal Demand 07 Police and Allied", href: "/himachal-pradesh/police" },
+  { item: brFunctional, entity: "Bihar Police", href: "/bihar/police" },
+  { item: br2055, entity: "Bihar Police", href: "/bihar/police" },
+  { item: br4055, entity: "Bihar Police", href: "/bihar/police" },
+  { item: brDemand22, entity: "Bihar Demand 22 Home", href: "/bihar/police" },
   { item: unionTotalExpenditure, entity: "Union Budget at a Glance", href: "/union" },
   { item: unionOutstandingLiabilities, entity: "Union outstanding liabilities", href: "/" },
   { item: demand51Net, entity: "Centre Police", href: "/union/police" },
