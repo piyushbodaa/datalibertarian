@@ -22,7 +22,7 @@ export function CompareRow({
   return (
     <li className="border-b border-ink/15 py-4">
       <p className="text-sm font-medium">{field.label}</p>
-      <div className="mt-2 grid grid-cols-3 gap-2">
+      <div className="mt-2 grid grid-cols-1 gap-2 sm:grid-cols-3">
         <Bar money={left} hatch="hatch-rust" max={max} />
         <Bar money={mid?.money} hatch="hatch-ochre" max={max} empty={!mid} />
         <Bar money={right} hatch="hatch-carbon" max={max} />
@@ -96,13 +96,13 @@ function Bar({
 }) {
   if (!money || empty) {
     return (
-      <div className="h-5 w-full border border-dashed border-ink/25 bg-ink/[0.03]" aria-hidden="true" />
+      <div className="h-3 w-full border border-dashed border-ink/25 bg-ink/[0.03]" aria-hidden="true" />
     );
   }
   const width = (money.crore / max) * 100;
   return (
-    <div className="h-5 w-full bg-ink/[0.05]" role="img" aria-label={formatMoneyShort(money)}>
-      <div className={`${hatch} h-5 border border-carbon/40`} style={{ width: `${width}%` }} />
+    <div className="h-3 w-full bg-ink/[0.05]" role="img" aria-label={formatMoneyShort(money)}>
+      <div className={`${hatch} h-3`} style={{ width: `${width}%` }} />
     </div>
   );
 }

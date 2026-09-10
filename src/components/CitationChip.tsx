@@ -29,7 +29,7 @@ export function CitationChip({ citationId, compact }: Props) {
   return (
     <a
       href={`#cite-${c.id}`}
-      className={`citation-chip ml-1 inline-flex items-baseline gap-0.5 align-super text-[0.62rem] font-semibold uppercase tracking-[0.1em] no-underline ${
+      className={`citation-chip ml-1 inline-flex items-baseline gap-0.5 align-super text-[0.65rem] font-semibold uppercase tracking-[0.08em] no-underline ${
         isMedian
           ? "citation-chip-median text-ochre hover:text-ink"
           : isIndex

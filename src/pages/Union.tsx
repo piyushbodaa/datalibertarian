@@ -19,7 +19,7 @@ export function UnionPage() {
 
   return (
     <article>
-      <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">Centre</h1>
+      <h1 className="mt-1 font-display text-3xl font-semibold tracking-tight sm:text-4xl">Centre</h1>
       <p className="mt-3 max-w-2xl text-ink">
         The Union’s books — not the sum of the states. First number: Centre police.
       </p>

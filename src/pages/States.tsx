@@ -96,7 +96,7 @@ export function StatesPage() {
 
   return (
     <article>
-      <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">States</h1>
+      <h1 className="mt-1 font-display text-3xl font-semibold tracking-tight sm:text-4xl">States</h1>
       <p className="mt-3 max-w-2xl text-ink">
         Official police figures where we have read the book. {goldN} states from official books.
         The rest are not ready.

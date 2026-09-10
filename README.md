@@ -1,6 +1,6 @@
 # Data Libertarian
 
-A public ledger of government spending in India. Carbon Docket UI. Doors: **Union · States · Municipal**.
+A public ledger of government spending in India. Doors: **Union · States · Municipal**.
 
 This is not an NGO or grant tracker. It follows taxpayer money through official books.
 

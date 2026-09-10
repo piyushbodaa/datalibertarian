@@ -40,7 +40,7 @@ export function PolicePage() {
 
   return (
     <article>
-      <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">Maharashtra Police</h1>
+      <h1 className="mt-1 font-display text-3xl font-semibold tracking-tight sm:text-4xl">Maharashtra Police</h1>
       <p className="mt-4 max-w-2xl text-ink">
         What the state budget set aside to run the police and to build or buy for them. Not the
         whole Home department. Mumbai Police sits here, not in the city corporation book.

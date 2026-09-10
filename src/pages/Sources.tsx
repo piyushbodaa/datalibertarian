@@ -52,7 +52,7 @@ export function SourcesPage() {
 
   return (
     <article className="max-w-2xl">
-      <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">Method</h1>
+      <h1 className="mt-1 font-display text-3xl font-semibold tracking-tight sm:text-4xl">Method</h1>
       <p className="mt-4 text-ink/80">
         We type numbers from government budget PDFs. If we cannot point at a page, we show nothing.
         Police here means running the force plus buildings and vehicles — not jails, not courts.

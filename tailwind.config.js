@@ -13,7 +13,7 @@ export default {
         shade: "var(--paper-shade)",
       },
       fontFamily: {
-        display: ['"Fraunces"', "Georgia", "serif"],
+        display: ['"Source Serif 4"', "Georgia", "ui-serif", "serif"],
         sans: ['"IBM Plex Sans"', "system-ui", "sans-serif"],
         mono: ['"IBM Plex Mono"', "ui-monospace", "monospace"],
       },

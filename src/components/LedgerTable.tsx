@@ -19,73 +19,36 @@ export function LedgerTable({ items, caption }: Props) {
   return (
     <div>
       <p className="mb-3 max-w-xl text-sm text-ink/70">{caption}</p>
-      <div className="overflow-x-auto border border-ink/20 md:hidden">
-        <table className="w-full min-w-[22rem] border-collapse text-left text-[0.72rem] leading-snug">
+      <div className="ledger-scroll">
+        <table className="w-full min-w-[36rem] border-collapse text-left text-sm">
           <thead>
-            <tr className="border-b-2 border-rust">
-              <th className="px-2 py-2 font-sans">Line</th>
-              {COLS.map((c) => (
-                <th key={`m-${c.fiscalYear}-${c.series}`} className="px-1 py-2 text-right font-sans font-semibold">
-                  {SERIES_LABEL[c.series]}
-                  <span className="block font-normal text-ink/50">{c.fiscalYear}</span>
-                </th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {items.map((item) => (
-              <tr key={`m-${item.id}`} className="border-b border-ink/15">
-                <th className="px-2 py-2 font-sans font-normal">{item.plainLabel}</th>
-                {COLS.map((c) => {
-                  const m = pickAmount(item, c.fiscalYear, c.series);
-                  return (
-                    <td key={`m-${item.id}-${c.fiscalYear}-${c.series}`} className="px-1 py-2 text-right">
-                      {m ? (
-                        <span className="num">
-                          {formatCrore(m.crore)}
-                          <CitationChip citationId={m.citationId} compact />
-                        </span>
-                      ) : (
-                        "—"
-                      )}
-                    </td>
-                  );
-                })}
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      <div className="hidden overflow-x-auto border border-ink/20 md:block">
-        <table className="w-full min-w-[44rem] border-collapse text-left text-sm">
-          <thead>
-            <tr className="border-b-2 border-rust bg-ink/[0.03]">
-              <th className="sticky left-0 bg-paper px-3 py-2 font-sans font-semibold">Line</th>
+            <tr className="border-b border-ink/20 bg-shade">
+              <th className="sticky left-0 bg-shade px-3 py-2.5 font-sans font-semibold">Line</th>
               {COLS.map((c) => (
                 <th
                   key={`${c.fiscalYear}-${c.series}`}
-                  className={`px-3 py-2 text-right font-sans font-semibold ${c.fiscalYear === "2026-27" ? "bg-ochre/15" : ""}`}
+                  className={`px-3 py-2.5 text-right font-sans font-semibold ${
+                    c.fiscalYear === "2026-27" ? "bg-ink/[0.04]" : ""
+                  }`}
                 >
                   <span className="block">{SERIES_LABEL[c.series]}</span>
-                  <span className="block text-[0.7rem] font-normal text-ink/55">
-                    {c.fiscalYear}
-                  </span>
+                  <span className="block text-[0.7rem] font-normal text-ink/55">{c.fiscalYear}</span>
                 </th>
               ))}
             </tr>
           </thead>
           <tbody>
             {items.map((item) => (
-              <tr key={item.id} className="border-b border-ink/15">
-                <th className="sticky left-0 bg-paper px-3 py-2 font-sans font-normal">
-                  <span className="block">{item.plainLabel}</span>
+              <tr key={item.id} className="border-b border-ink/10">
+                <th className="sticky left-0 bg-paper px-3 py-2.5 font-sans font-normal">
+                  {item.plainLabel}
                 </th>
                 {COLS.map((c) => {
                   const m = pickAmount(item, c.fiscalYear, c.series);
                   return (
                     <td
                       key={`${item.id}-${c.fiscalYear}-${c.series}`}
-                      className={`px-3 py-2 text-right ${c.fiscalYear === "2026-27" ? "bg-ochre/10" : ""}`}
+                      className={`px-3 py-2.5 text-right ${c.fiscalYear === "2026-27" ? "bg-ink/[0.03]" : ""}`}
                     >
                       {m ? (
                         <>
@@ -103,6 +66,7 @@ export function LedgerTable({ items, caption }: Props) {
           </tbody>
         </table>
       </div>
+      <p className="mt-2 text-xs text-ink/50 sm:hidden">Swipe sideways to read later years.</p>
     </div>
   );
 }

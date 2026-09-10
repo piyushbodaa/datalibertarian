@@ -22,17 +22,12 @@ export function ShareSplit({ police, state, compact = false }: Props) {
         <CitationChip citationId={police.citationId} compact />
       </ChartCaption>
       <div
-        className="flex h-10 w-full max-w-3xl overflow-hidden border border-carbon/40"
+        className="flex h-8 w-full max-w-3xl overflow-hidden bg-ink/[0.05]"
         role="img"
         aria-label={`Police ${share.toFixed(1)} percent of state budgeted spending. Rest of the books ${rest.toFixed(1)} percent.`}
       >
-        <div
-          className="hatch-carbon h-full shrink-0 border-r border-carbon/50"
-          style={{ width: `${share}%` }}
-        />
-        <div className="hatch-zinc flex h-full min-w-0 flex-1 items-center px-3 text-xs sm:text-sm">
-          Police {share.toFixed(1)}% · Everything else {rest.toFixed(1)}%
-        </div>
+        <div className="hatch-carbon h-full shrink-0" style={{ width: `${share}%` }} />
+        <div className="hatch-zinc h-full min-w-0 flex-1" />
       </div>
       <dl className="mt-3 flex max-w-3xl flex-wrap gap-x-8 gap-y-2 text-sm">
         <div>

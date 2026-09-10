@@ -13,9 +13,7 @@ export function Money({ money, size = "inline", showSeries = false }: Props) {
   if (size === "hero") {
     return (
       <p className="m-0">
-        <span className="num block text-4xl font-medium leading-none tracking-tight sm:text-5xl">
-          {figure}
-        </span>
+        <span className="num num-hero block">{figure}</span>
         <span className="mt-3 block text-sm text-ink/70">
           {showSeries ? `${seriesYearLabel(money)} · ` : null}
           <CitationChip citationId={money.citationId} />

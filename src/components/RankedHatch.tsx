@@ -65,7 +65,7 @@ export function RankedHatch({
     });
   }
   const shown = limit ? display.slice(0, limit) : display;
-  const hatchClass = tone === "index" ? "hatch-zinc border-zinc/50" : "hatch-carbon border-carbon/50";
+  const hatchClass = tone === "index" ? "hatch-zinc" : "hatch-carbon";
 
   const seriesWord = series === "be" ? "plan" : series === "re" ? "updated plan" : "spent";
 
@@ -92,14 +92,11 @@ export function RankedHatch({
                 </span>
               </div>
               <div
-                className="mt-1.5 h-5 w-full bg-ink/[0.05]"
+                className="mt-1.5 h-3 w-full bg-ink/[0.05]"
                 role="img"
                 aria-label={`${r.label}, ${pct.toFixed(1)} percent, ₹${r.crore.toFixed(2)} crore`}
               >
-                <div
-                  className={`${hatchClass} h-5 border`}
-                  style={{ width: `${width}%` }}
-                />
+                <div className={`${hatchClass} h-3`} style={{ width: `${width}%` }} />
               </div>
             </li>
           );

@@ -25,11 +25,11 @@ export function TraceRail({
         Each stop is a printed grain, or a dashed EMPTY where the book does not print the next
         line. We do not invent a station share.
       </p>
-      <ol className="mt-5 space-y-0 border-l-2 border-ink/15 pl-4 sm:pl-5">
+      <ol className="mt-5 space-y-0 border-l border-ink/20 pl-4 sm:pl-5">
         {stops.map((s) => (
           <li key={s.id} className="relative pb-5 last:pb-0">
             <span
-              className={`absolute -left-[1.35rem] top-1.5 h-2.5 w-2.5 rounded-sm sm:-left-[1.6rem] ${
+              className={`absolute -left-[1.15rem] top-1.5 h-2 w-2 sm:-left-[1.4rem] ${
                 s.empty ? "border border-dashed border-ochre bg-transparent" : "bg-rust"
               }`}
               aria-hidden="true"

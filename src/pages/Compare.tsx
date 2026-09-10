@@ -128,13 +128,13 @@ export function ComparePage() {
 
   return (
     <article>
-      <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">Compare two states</h1>
+      <h1 className="mt-1 font-display text-3xl font-semibold tracking-tight sm:text-4xl">Compare two states</h1>
       <p className="mt-3 max-w-2xl text-ink">
         Pick two. The middle number is the middle of the official state books we have already read.
       </p>
 
       <div className="mt-6 flex flex-wrap gap-4 text-sm">
-        <label className="inline-flex items-center gap-2">
+        <label className="inline-flex min-h-11 items-center gap-2">
           <input
             type="checkbox"
             checked={exclude}
@@ -147,7 +147,7 @@ export function ComparePage() {
           <label className="mt-2 block">
             What to compare{" "}
             <select
-              className="ml-1 border border-ink/20 bg-paper px-2 py-1"
+              className="field mt-1 max-w-xs"
               value={grain}
               onChange={(e) =>
                 set({
@@ -260,11 +260,11 @@ export function ComparePage() {
             </p>
           ) : null}
 
-          <div className="mt-8 flex flex-wrap gap-4 text-sm">
-            <label>
-              Series{" "}
+          <div className="mt-8 grid gap-4 text-sm sm:grid-cols-2 lg:grid-cols-4">
+            <label className="block">
+              Series
               <select
-                className="ml-1 border border-ink/20 bg-paper px-2 py-1"
+                className="field mt-1"
                 value={useSeries}
                 onChange={(e) => set({ series: e.target.value })}
               >
@@ -275,10 +275,10 @@ export function ComparePage() {
                 ))}
               </select>
             </label>
-            <label>
-              Year{" "}
+            <label className="block">
+              Year
               <select
-                className="ml-1 border border-ink/20 bg-paper px-2 py-1"
+                className="field mt-1"
                 value={useYear}
                 onChange={(e) => set({ year: e.target.value })}
               >
@@ -291,14 +291,16 @@ export function ComparePage() {
                 )}
               </select>
             </label>
-            <button type="button" className="file-cta" onClick={() => void navigator.clipboard.writeText(window.location.href)}>
-              <span className="file-cta-notch" aria-hidden="true" />
-              Copy link
-            </button>
-            <button type="button" className="file-cta" onClick={downloadCsv}>
-              <span className="file-cta-notch" aria-hidden="true" />
-              CSV
-            </button>
+            <div className="flex flex-wrap items-end gap-3 sm:col-span-2">
+              <button type="button" className="file-cta" onClick={() => void navigator.clipboard.writeText(window.location.href)}>
+                <span className="file-cta-notch" aria-hidden="true" />
+                Copy link
+              </button>
+              <button type="button" className="file-cta" onClick={downloadCsv}>
+                <span className="file-cta-notch" aria-hidden="true" />
+                CSV
+              </button>
+            </div>
           </div>
 
           <div className="mt-8 grid gap-5 lg:grid-cols-3">
@@ -562,12 +564,12 @@ function Picker({
   return (
     <div className="docket-door">
       <p className="kicker">{label}</p>
-      <div className="mt-3 flex flex-col gap-2 text-sm">
+      <div className="mt-3 flex flex-col gap-3 text-sm">
         {grain === "layer" ? (
-          <label>
-            Kind{" "}
+          <label className="block">
+            Kind
             <select
-              className="ml-1 border border-ink/20 bg-paper px-2 py-1"
+              className="field mt-1"
               value={layer}
               onChange={(e) => onLayer(e.target.value as LayerId)}
             >
@@ -579,10 +581,10 @@ function Picker({
             </select>
           </label>
         ) : null}
-        <label>
-          State{" "}
+        <label className="block">
+          State
           <select
-            className="ml-1 border border-ink/20 bg-paper px-2 py-1"
+            className="field mt-1"
             value={slug}
             onChange={(e) => onEntity(e.target.value)}
           >
