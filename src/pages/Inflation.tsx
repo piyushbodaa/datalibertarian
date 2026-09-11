@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { BasketPie } from "../components/BasketPie";
 import { CitationChip, CitationFootnote } from "../components/CitationChip";
 import { DivisionBars } from "../components/DivisionBars";
+import { PrintedPaidRow } from "../components/PrintedPaidRow";
 import {
   AS_OF,
   CPI_COMBINED_YOY,
@@ -33,17 +34,39 @@ export function InflationPage() {
     <article>
       <p className="kicker">Consumer prices · India</p>
       <h1 className="mt-2 font-display text-[1.85rem] font-semibold leading-[1.15] tracking-tight sm:text-4xl">
-        July 2026
+        They printed this. You paid that.
       </h1>
       <p className="mt-3 max-w-2xl text-ink">
-        Official CPI Combined, base 2024=100, provisional. Kitchen rupees as on {formatDay(AS_OF)}.
-        Core / regulated / seasonal splits are not in the Indian note — those rooms stay empty.
+        Left column: what MoSPI printed for July 2026 — an item CPI rate when they printed one, else
+        the parent division, labelled as a division, never a fake packet rupee. Right column: Price
+        Monitoring Division (and PPAC) rupees from {formatDay("2025-09-10")} to {formatDay(AS_OF)}.
+        Combined CPI is {formatPct(CPI_HEADLINE.yoyPct)}.
+        <CitationChip citationId={CPI_HEADLINE.citationId} />
       </p>
 
-      <div className="mt-8 grid gap-3 sm:grid-cols-3">
+      <section className="mt-10">
+        <h2 className="font-display text-2xl font-semibold tracking-tight">Item by item</h2>
+        <p className="mt-2 max-w-2xl text-sm text-ink/70">
+          Eggs, rice, onion, petrol — every kitchen and pump line we typed. Two cited series. Not a
+          third “true CPI.”
+        </p>
+        <ul className="mt-4 list-none p-0">
+          {INFLATION_ITEMS.map((item) => (
+            <PrintedPaidRow key={item.id} item={item} />
+          ))}
+        </ul>
+      </section>
+
+      <h2 className="mt-14 font-display text-2xl font-semibold tracking-tight">Official bulletin</h2>
+      <p className="mt-2 max-w-2xl text-sm text-ink/70">
+        Combined CPI, the 2024 basket, and the rooms MoSPI printed. Not a substitute for the kitchen
+        rupees above.
+      </p>
+
+      <div className="mt-6 grid gap-3 sm:grid-cols-3">
         <section className="index-slip px-4 py-5">
           <p className="kicker">One month</p>
-          <p className="num num-hero mt-2 m-0">{mom !== undefined ? formatPct(mom) : "—"}</p>
+          <p className="num mt-2 text-4xl font-medium whitespace-nowrap">{mom !== undefined ? formatPct(mom) : "—"}</p>
           <p className="mt-2 text-sm text-ink/70">
             Combined index {CPI_JUNE_INDEX} (June) → {CPI_HEADLINE.index} (July).
             <CitationChip citationId={CPI_HEADLINE.citationId} />
@@ -51,14 +74,14 @@ export function InflationPage() {
         </section>
         <section className="index-slip px-4 py-5">
           <p className="kicker">Twelve months</p>
-          <p className="num num-hero mt-2 m-0">{formatPct(CPI_HEADLINE.yoyPct)}</p>
+          <p className="num mt-2 text-4xl font-medium whitespace-nowrap">{formatPct(CPI_HEADLINE.yoyPct)}</p>
           <p className="mt-2 text-sm text-ink/70">
             July 2025 → July 2026. Food (CFPI) {formatPct(CPI_FOOD.yoyPct)}.
           </p>
         </section>
         <section className="index-slip px-4 py-5">
           <p className="kicker">Since Dec 2025</p>
-          <p className="num num-hero mt-2 m-0">{ytd !== undefined ? formatPct(ytd) : "—"}</p>
+          <p className="num mt-2 text-4xl font-medium whitespace-nowrap">{ytd !== undefined ? formatPct(ytd) : "—"}</p>
           <p className="mt-2 text-sm text-ink/70">
             Combined index {CPI_DEC_2025_INDEX} (Dec 2025) → {CPI_HEADLINE.index} (July).
           </p>
@@ -172,71 +195,6 @@ export function InflationPage() {
             );
           })}
         </ul>
-      </section>
-
-      <section className="mt-12">
-        <h2 className="font-display text-2xl font-semibold tracking-tight">Average prices</h2>
-        <p className="mt-2 max-w-2xl text-sm text-ink/70">
-          From the rupee printed one year back to the rupee printed on {formatDay(AS_OF)}. The
-          government column is a CPI item rate only when MoSPI printed one — never a made-up rice
-          rupee.
-        </p>
-        <div className="mt-6 overflow-x-auto">
-          <table className="w-full min-w-[40rem] border-collapse text-sm">
-            <thead>
-              <tr className="border-b border-ink/20 text-left">
-                <th className="py-2 pr-3 font-medium">Item</th>
-                <th className="py-2 pr-3 font-medium">Observed, a year ago</th>
-                <th className="py-2 pr-3 font-medium">Observed, now</th>
-                <th className="py-2 pr-3 font-medium">Change</th>
-                <th className="py-2 font-medium">They printed</th>
-              </tr>
-            </thead>
-            <tbody>
-              {priced.map(({ item, pair }) => {
-                const pct = (pair.now.rupees / pair.then.rupees - 1) * 100;
-                const delta = pair.now.rupees - pair.then.rupees;
-                return (
-                  <tr key={item.id} className="border-b border-ink/10">
-                    <td className="py-3 pr-3">
-                      <Link to={`/inflation/item/${item.id}`}>{item.plainLabel}</Link>
-                    </td>
-                    <td className="num py-3 pr-3">
-                      {formatPrice(pair.then)}
-                      <span className="block text-xs text-ink/55">{formatDay(pair.then.asOf)}</span>
-                    </td>
-                    <td className="num py-3 pr-3">
-                      {formatPrice(pair.now)}
-                      <span className="block text-xs text-ink/55">{formatDay(pair.now.asOf)}</span>
-                    </td>
-                    <td className="num py-3 pr-3">
-                      {delta > 0 ? "+" : delta < 0 ? "−" : ""}₹
-                      {Math.abs(delta).toLocaleString("en-IN", {
-                        minimumFractionDigits: 2,
-                        maximumFractionDigits: 2,
-                      })}
-                      {" · "}
-                      {formatPct(pct)}
-                      <span className="block text-xs text-ink/55">in 12 months</span>
-                    </td>
-                    <td className="py-3 text-ink/75">
-                      {item.official ? (
-                        <>
-                          CPI item {formatPct(item.official.yoyPct)}
-                          <span className="block text-xs text-ink/55">
-                            {item.official.period} · index, not a rupee
-                          </span>
-                        </>
-                      ) : (
-                        <span className="text-ink/50">No item rupee printed</span>
-                      )}
-                    </td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
-        </div>
       </section>
 
       <section className="mt-12 text-sm text-ink/70">

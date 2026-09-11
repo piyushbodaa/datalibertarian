@@ -10,6 +10,7 @@ import {
   getInflationItem,
   INFLATION_ITEMS,
   itemsInRoom,
+  printedBeside,
 } from "./inflation/items.ts";
 import { formatFromTo, indexChangePct, pctChange, yearPair, yoyOf } from "./inflation/yoy.ts";
 import { CPI_DIVISIONS } from "./inflation/weights.ts";
@@ -125,6 +126,60 @@ describe("inflation docket", () => {
   it("Combined month-on-month is July index over June index, not an invented rate", () => {
     const mom = indexChangePct(CPI_HEADLINE.index!, CPI_JUNE_INDEX)!;
     assert.ok(Math.abs(mom - ((107.94 / 107 - 1) * 100)) < 1e-9);
+  });
+
+  it("rice left column is food division 5.24, right is the two PMD rupees", () => {
+    const rice = getInflationItem("rice")!;
+    const gov = printedBeside(rice);
+    assert.equal(gov.kind, "division");
+    assert.equal(gov.yoyPct, 5.24);
+    assert.match(gov.label, /Food and beverages/);
+    assert.match(gov.label, /not a rupee for this item/);
+    const pair = yearPair(rice)!;
+    assert.equal(pair.then.rupees, 43.03);
+    assert.equal(pair.then.asOf, "2025-09-10");
+    assert.equal(pair.now.rupees, 46.34);
+    assert.equal(pair.now.asOf, "2026-09-10");
+  });
+
+  it("onion left column is the CPI item rate, not the food division", () => {
+    const onion = getInflationItem("onion")!;
+    const gov = printedBeside(onion);
+    assert.equal(gov.kind, "item");
+    assert.equal(gov.yoyPct, 22.54);
+    const pair = yearPair(onion)!;
+    const yoy = pctChange(pair.now, pair.then)!;
+    assert.ok(Math.abs(yoy - ((53.1 / 27.88 - 1) * 100)) < 1e-9);
+    assert.notEqual(Math.round(yoy), Math.round(gov.yoyPct));
+  });
+
+  it("eggs left column is food division, not a fake egg rupee", () => {
+    const eggs = getInflationItem("eggs")!;
+    const gov = printedBeside(eggs);
+    assert.equal(gov.kind, "division");
+    assert.equal(gov.yoyPct, 5.24);
+    assert.equal(eggs.official, undefined);
+    const pair = yearPair(eggs)!;
+    assert.equal(pair.then.rupees, 77.14);
+    assert.equal(pair.now.rupees, 83.5);
+    assert.equal(pair.now.unit, "dozen");
+  });
+
+  it("petrol left column is transport division, not a Delhi pump rupee", () => {
+    const petrol = getInflationItem("petrol-delhi")!;
+    const gov = printedBeside(petrol);
+    assert.equal(gov.kind, "division");
+    assert.equal(gov.yoyPct, 4.43);
+    assert.match(gov.label, /Transport/);
+  });
+
+  it("every observed item has a cited printed-beside rate", () => {
+    for (const item of INFLATION_ITEMS) {
+      const gov = printedBeside(item);
+      assert.ok(typeof gov.yoyPct === "number", item.id);
+      assert.ok(getCitation(gov.citationId).url.startsWith("https://"), item.id);
+      assert.ok(gov.citationId.startsWith("mospi-"), item.id);
+    }
   });
 });
 

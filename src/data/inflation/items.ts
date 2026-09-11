@@ -1,4 +1,5 @@
 import type { InflationItem, OfficialIndex, PricePoint } from "./types";
+import { getDivision } from "./weights";
 
 const PMD = "pmd-retail-2026-09-10";
 const PPAC = "ppac-fuel-2026-09-10";
@@ -356,6 +357,45 @@ export function itemsIn(category: InflationItem["category"]): InflationItem[] {
 
 export function roomOf(item: InflationItem): "food" | "fuel" {
   return item.category === "fuel" ? "fuel" : "food";
+}
+
+export type PrintedBeside = {
+  yoyPct: number;
+  kind: "item" | "division";
+  label: string;
+  citationId: string;
+};
+
+/**
+ * Government column for an observed item.
+ * Item CPI rate if MoSPI printed one (onion, potato, tomato).
+ * Else the parent division rate, labelled as a division — never a fake item rupee.
+ */
+export function printedBeside(item: InflationItem): PrintedBeside {
+  if (item.official) {
+    return {
+      yoyPct: item.official.yoyPct,
+      kind: "item",
+      label: `CPI item · ${item.plainLabel}`,
+      citationId: item.official.citationId,
+    };
+  }
+  if (item.category === "fuel") {
+    const d = getDivision("transport")!;
+    return {
+      yoyPct: d.yoyPct,
+      kind: "division",
+      label: `CPI ${d.label} (not a Delhi pump rupee)`,
+      citationId: d.citationId,
+    };
+  }
+  const d = getDivision("food")!;
+  return {
+    yoyPct: d.yoyPct,
+    kind: "division",
+    label: `CPI ${d.label} (not a rupee for this item)`,
+    citationId: d.citationId,
+  };
 }
 
 export function itemsInRoom(room: string): InflationItem[] {

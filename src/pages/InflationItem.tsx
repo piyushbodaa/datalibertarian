@@ -1,6 +1,6 @@
 import { Link, Navigate, useParams } from "react-router-dom";
 import { CitationChip, CitationFootnote } from "../components/CitationChip";
-import { getInflationItem, roomOf } from "../data/inflation/items";
+import { getInflationItem, printedBeside, roomOf } from "../data/inflation/items";
 import {
   formatDay,
   formatFromTo,
@@ -16,13 +16,8 @@ export function InflationItemPage() {
   if (!item) return <Navigate to="/inflation" replace />;
   const pair = yearPair(item);
   const now = latest(item.observed);
-  const cites = [
-    ...new Set(
-      [...item.observed.map((p) => p.citationId), item.official?.citationId].filter(
-        (c): c is string => Boolean(c),
-      ),
-    ),
-  ];
+  const gov = printedBeside(item);
+  const cites = [...new Set([...item.observed.map((p) => p.citationId), gov.citationId])];
 
   return (
     <article>
@@ -32,8 +27,19 @@ export function InflationItemPage() {
       </h1>
 
       <div className="mt-8 grid gap-6 lg:grid-cols-2">
-        <section className="docket-slip px-4 py-6">
-          <h2 className="font-display text-lg font-semibold">Observed rupee</h2>
+        <section className="index-slip px-4 py-6">
+          <p className="kicker">They printed</p>
+          <p className="num mt-3 text-4xl font-medium whitespace-nowrap">{formatPct(gov.yoyPct)}</p>
+          <p className="mt-3 text-sm text-ink/70">
+            {gov.label}. July 2025 → July 2026.
+            {gov.kind === "item"
+              ? ` An index change, not a rupee for this packet of ${item.plainLabel.toLowerCase()}.`
+              : ""}
+            <CitationChip citationId={gov.citationId} />
+          </p>
+        </section>
+        <section className="border border-[var(--rule)] border-l-[3px] border-l-[var(--rust)] px-4 py-6">
+          <p className="kicker">You paid</p>
           {pair ? (
             <>
               <p className="mt-4 text-sm text-ink/70">From</p>
@@ -53,30 +59,6 @@ export function InflationItemPage() {
             </p>
           ) : (
             <p className="mt-3 text-sm text-ink/70">No observed rupee typed.</p>
-          )}
-        </section>
-        <section className="index-slip px-4 py-6">
-          <h2 className="font-display text-lg font-semibold">What they printed</h2>
-          {item.official ? (
-            <>
-              <p className="num num-hero mt-3 m-0">{formatPct(item.official.yoyPct)}</p>
-              <p className="mt-3 text-sm text-ink/70">
-                MoSPI CPI item, {item.official.period} over the previous {item.official.period.slice(0, 4) === "2026" ? "July 2025" : "year"}.
-                An index change, not a rupee for this packet of {item.plainLabel.toLowerCase()}.
-                <CitationChip citationId={item.official.citationId} />
-              </p>
-              {pair ? (
-                <p className="mt-3 text-sm text-ink/80">
-                  Observed path: {formatFromTo(pair.then, pair.now)}. Two cited series, not a third
-                  “true CPI.”
-                </p>
-              ) : null}
-            </>
-          ) : (
-            <p className="mt-3 max-w-prose text-sm text-ink/70">
-              MoSPI did not print a rupee or a matching item rate for {item.plainLabel.toLowerCase()} in
-              the July 2026 note we typed. Empty, not ₹0.
-            </p>
           )}
         </section>
       </div>

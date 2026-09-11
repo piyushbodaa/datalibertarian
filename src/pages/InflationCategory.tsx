@@ -1,14 +1,9 @@
 import { Link, Navigate, useParams } from "react-router-dom";
 import { CitationChip, CitationFootnote } from "../components/CitationChip";
+import { PrintedPaidRow } from "../components/PrintedPaidRow";
 import { itemsInRoom } from "../data/inflation/items";
 import { CPI_DIVISIONS, getRoom, WEIGHTS_CITE } from "../data/inflation/weights";
-import {
-  formatDay,
-  formatFromTo,
-  formatPct,
-  formatPrice,
-  yearPair,
-} from "../data/inflation/yoy";
+import { formatPct } from "../data/inflation/yoy";
 
 export function InflationCategoryPage() {
   const { category } = useParams();
@@ -37,7 +32,7 @@ export function InflationCategoryPage() {
       {div ? (
         <section className="index-slip mt-8 px-4 py-6">
           <p className="text-sm text-ink/60">What they printed · July 2026 Combined</p>
-          <p className="num num-hero mt-2 m-0">{formatPct(div.yoyPct)}</p>
+          <p className="num mt-2 text-4xl font-medium whitespace-nowrap">{formatPct(div.yoyPct)}</p>
           <p className="mt-3 text-sm text-ink/70">
             Weight in the 2024 basket: {div.weight.toFixed(2)}%. Index {div.index}.
             <CitationChip citationId={div.citationId} />
@@ -60,36 +55,11 @@ export function InflationCategoryPage() {
 
       {items.length > 0 ? (
         <section className="mt-10">
-          <h2 className="font-display text-xl font-semibold">Observed rupees, from → to</h2>
-          <ul className="mt-4 divide-y divide-ink/15 border-y border-ink/20">
-            {items.map((item) => {
-              const pair = yearPair(item);
-              return (
-                <li key={item.id} className="py-4">
-                  <Link
-                    to={`/inflation/item/${item.id}`}
-                    className="font-medium text-ink no-underline hover:text-rust"
-                  >
-                    {item.plainLabel}
-                  </Link>
-                  {pair ? (
-                    <p className="mt-2 text-sm text-ink/80">{formatFromTo(pair.then, pair.now)}</p>
-                  ) : (
-                    <p className="mt-2 text-sm text-ink/60">
-                      {item.observed[0]
-                        ? `${formatPrice(item.observed[0])} on ${formatDay(item.observed[0].asOf)} · year-ago rupee not typed`
-                        : "No rupee typed"}
-                    </p>
-                  )}
-                  <p className="mt-1 text-sm text-ink/70">
-                    They printed
-                    {item.official
-                      ? `: CPI item ${formatPct(item.official.yoyPct)} (${item.official.period}) — index, not a rupee`
-                      : ": no matching item rate typed"}
-                  </p>
-                </li>
-              );
-            })}
+          <h2 className="font-display text-xl font-semibold">They printed · You paid</h2>
+          <ul className="mt-4 list-none p-0">
+            {items.map((item) => (
+              <PrintedPaidRow key={item.id} item={item} />
+            ))}
           </ul>
         </section>
       ) : (

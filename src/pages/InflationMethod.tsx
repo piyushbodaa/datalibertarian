@@ -8,9 +8,9 @@ export function InflationMethodPage() {
         How this bulletin is built
       </h1>
       <p className="mt-4 text-ink/80">
-        The layout follows a statistics-office bulletin: headline, basket, division rooms, then
-        average prices with from and to. India’s extra column is the observed rupee beside the
-        printed index.
+        The page exists to put two cited series side by side: what MoSPI printed, and the rupee the
+        Price Monitoring Division (or PPAC) printed for the same item. The official bulletin — pie,
+        division bars, rural/urban — sits under that comparison.
       </p>
 
       <section className="mt-10">
@@ -35,9 +35,10 @@ export function InflationMethodPage() {
         <h2 className="font-display text-xl font-semibold">What they printed</h2>
         <p className="mt-3 text-ink/80">
           MoSPI CPI is a weighted index (2024=100). Where they printed an item inflation rate
-          (onion, potato, tomato in July 2026), it sits in the government column. We do not back out
-          a fake government rupee for rice from an index. Health, housing and education rooms show
-          the official division rate and leave observed rupees empty.
+          (onion, potato, tomato in July 2026), that rate sits in the left column. Where they did
+          not (rice, eggs, petrol), the parent division rate sits there instead — labelled as a
+          division, never a made-up packet rupee. Health, housing and education rooms show the
+          official division rate and leave observed rupees empty.
         </p>
       </section>
 
