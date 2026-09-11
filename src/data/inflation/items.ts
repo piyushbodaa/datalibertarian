@@ -292,6 +292,26 @@ export const CPI_HEADLINE: OfficialIndex = {
   label: "All India CPI Combined (base 2024=100) — July 2026 provisional",
 };
 
+/** June 2026 Combined index, same press note as July. MoM = July index / this − 1. */
+export const CPI_JUNE_INDEX = 107.0;
+
+/** December 2025 Combined index from the July 2026 press-note history table. */
+export const CPI_DEC_2025_INDEX = 104.1;
+
+export const CPI_RURAL_YOY = 4.84;
+export const CPI_URBAN_YOY = 3.96;
+
+/** Combined 12-month % printed in the July 2026 press-note history table. */
+export const CPI_COMBINED_YOY: { period: string; yoyPct: number; index: number }[] = [
+  { period: "2026-01", yoyPct: 2.74, index: 104.45 },
+  { period: "2026-02", yoyPct: 3.21, index: 104.57 },
+  { period: "2026-03", yoyPct: 3.4, index: 104.84 },
+  { period: "2026-04", yoyPct: 3.48, index: 105.12 },
+  { period: "2026-05", yoyPct: 3.93, index: 105.91 },
+  { period: "2026-06", yoyPct: 4.38, index: 107.0 },
+  { period: "2026-07", yoyPct: 4.45, index: 107.94 },
+];
+
 export const CPI_FOOD: OfficialIndex = {
   period: "2026-07",
   yoyPct: 5.52,

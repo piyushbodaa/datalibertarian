@@ -6,11 +6,12 @@ import {
   BOARD_IDS,
   CPI_FOOD,
   CPI_HEADLINE,
+  CPI_JUNE_INDEX,
   getInflationItem,
   INFLATION_ITEMS,
   itemsInRoom,
 } from "./inflation/items.ts";
-import { formatFromTo, pctChange, yearPair, yoyOf } from "./inflation/yoy.ts";
+import { formatFromTo, indexChangePct, pctChange, yearPair, yoyOf } from "./inflation/yoy.ts";
 import { CPI_DIVISIONS } from "./inflation/weights.ts";
 
 describe("inflation docket", () => {
@@ -109,6 +110,18 @@ describe("inflation docket", () => {
   it("health room has no observed rupee", () => {
     assert.equal(itemsInRoom("health").length, 0);
     assert.ok(CPI_DIVISIONS.find((d) => d.id === "health")?.yoyPct === 1.34);
+  });
+
+  it("each division has a unique colour and food links to /inflation/food", () => {
+    const colors = CPI_DIVISIONS.map((d) => d.color);
+    assert.equal(new Set(colors).size, CPI_DIVISIONS.length);
+    const food = CPI_DIVISIONS.find((d) => d.id === "food")!;
+    assert.equal(food.href, "/inflation/food");
+  });
+
+  it("Combined month-on-month is July index over June index, not an invented rate", () => {
+    const mom = indexChangePct(CPI_HEADLINE.index!, CPI_JUNE_INDEX)!;
+    assert.ok(Math.abs(mom - ((107.94 / 107 - 1) * 100)) < 1e-9);
   });
 });
 

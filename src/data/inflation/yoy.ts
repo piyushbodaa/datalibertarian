@@ -76,6 +76,11 @@ export function yearPair(item: InflationItem): { now: PricePoint; then: PricePoi
 }
 
 /** Never a bare percent: names both rupees and both dates. */
+export function indexChangePct(later: number, earlier: number): number | undefined {
+  if (!(earlier > 0) || !(later > 0)) return undefined;
+  return (later / earlier - 1) * 100;
+}
+
 export function formatFromTo(then: PricePoint, now: PricePoint): string {
   const pct = pctChange(now, then);
   const delta = now.rupees - then.rupees;

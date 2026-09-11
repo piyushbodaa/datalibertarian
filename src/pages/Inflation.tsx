@@ -1,9 +1,20 @@
 import { Link } from "react-router-dom";
 import { BasketPie } from "../components/BasketPie";
 import { CitationChip, CitationFootnote } from "../components/CitationChip";
-import { AS_OF, CPI_FOOD, CPI_HEADLINE, INFLATION_ITEMS } from "../data/inflation/items";
+import { DivisionBars } from "../components/DivisionBars";
+import {
+  AS_OF,
+  CPI_COMBINED_YOY,
+  CPI_DEC_2025_INDEX,
+  CPI_FOOD,
+  CPI_HEADLINE,
+  CPI_JUNE_INDEX,
+  CPI_RURAL_YOY,
+  CPI_URBAN_YOY,
+  INFLATION_ITEMS,
+} from "../data/inflation/items";
 import { CPI_DIVISIONS, ROOMS, WEIGHTS_CITE } from "../data/inflation/weights";
-import { formatDay, formatPct, formatPrice, yearPair } from "../data/inflation/yoy";
+import { formatDay, formatPct, formatPrice, indexChangePct, yearPair } from "../data/inflation/yoy";
 
 export function InflationPage() {
   const priced = INFLATION_ITEMS.map((item) => {
@@ -11,38 +22,123 @@ export function InflationPage() {
     if (!pair) return null;
     return { item, pair };
   }).filter((r): r is NonNullable<typeof r> => r !== null);
+  const mom = indexChangePct(CPI_HEADLINE.index ?? 0, CPI_JUNE_INDEX);
+  const ytd = indexChangePct(CPI_HEADLINE.index ?? 0, CPI_DEC_2025_INDEX);
+  const highDiv = [...CPI_DIVISIONS].sort((a, b) => b.yoyPct - a.yoyPct)[0];
+  const lowDiv = [...CPI_DIVISIONS].sort((a, b) => a.yoyPct - b.yoyPct)[0];
+  const onion = priced.find((r) => r.item.id === "onion");
+  const yoyMax = Math.max(...CPI_COMBINED_YOY.map((m) => m.yoyPct));
 
   return (
     <article>
-      <p className="kicker">Inflation bulletin · India</p>
+      <p className="kicker">Consumer prices · India</p>
       <h1 className="mt-2 font-display text-[1.85rem] font-semibold leading-[1.15] tracking-tight sm:text-4xl">
-        Observed rupees beside the printed index
+        July 2026
       </h1>
       <p className="mt-3 max-w-2xl text-ink">
-        Official CPI for July 2026 (base 2024=100, provisional). Kitchen and fuel rupees as on{" "}
-        {formatDay(AS_OF)}. Not a live ticker. A percent always names both prices and both dates.
+        Official CPI Combined, base 2024=100, provisional. Kitchen rupees as on {formatDay(AS_OF)}.
+        Core / regulated / seasonal splits are not in the Indian note — those rooms stay empty.
       </p>
 
-      <div className="mt-8 grid gap-4 sm:grid-cols-2">
-        <section className="index-slip px-4 py-6">
-          <p className="kicker">What they printed</p>
-          <p className="num num-hero mt-3 m-0">{formatPct(CPI_HEADLINE.yoyPct)}</p>
-          <p className="mt-3 text-sm text-ink/70">
-            All-India CPI Combined, July 2025 → July 2026. Index {CPI_HEADLINE.index}.
+      <div className="mt-8 grid gap-3 sm:grid-cols-3">
+        <section className="index-slip px-4 py-5">
+          <p className="kicker">One month</p>
+          <p className="num num-hero mt-2 m-0">{mom !== undefined ? formatPct(mom) : "—"}</p>
+          <p className="mt-2 text-sm text-ink/70">
+            Combined index {CPI_JUNE_INDEX} (June) → {CPI_HEADLINE.index} (July).
             <CitationChip citationId={CPI_HEADLINE.citationId} />
           </p>
         </section>
-        <section className="index-slip px-4 py-6">
-          <p className="kicker">Food, as they printed it</p>
-          <p className="num num-hero mt-3 m-0">{formatPct(CPI_FOOD.yoyPct)}</p>
-          <p className="mt-3 text-sm text-ink/70">
-            Consumer Food Price Index, same twelve months. Not a rupee.
-            <CitationChip citationId={CPI_FOOD.citationId} />
+        <section className="index-slip px-4 py-5">
+          <p className="kicker">Twelve months</p>
+          <p className="num num-hero mt-2 m-0">{formatPct(CPI_HEADLINE.yoyPct)}</p>
+          <p className="mt-2 text-sm text-ink/70">
+            July 2025 → July 2026. Food (CFPI) {formatPct(CPI_FOOD.yoyPct)}.
+          </p>
+        </section>
+        <section className="index-slip px-4 py-5">
+          <p className="kicker">Since Dec 2025</p>
+          <p className="num num-hero mt-2 m-0">{ytd !== undefined ? formatPct(ytd) : "—"}</p>
+          <p className="mt-2 text-sm text-ink/70">
+            Combined index {CPI_DEC_2025_INDEX} (Dec 2025) → {CPI_HEADLINE.index} (July).
           </p>
         </section>
       </div>
 
+      <DivisionBars />
+
+      <section className="carbon-sheet mt-10 px-4 py-6 sm:px-6">
+        <h2 className="mt-2 font-display text-xl font-semibold">This month’s note</h2>
+        <ul className="mt-4 max-w-2xl list-disc space-y-3 pl-5 text-sm text-ink/80">
+          <li>
+            All-India Combined rose {formatPct(CPI_HEADLINE.yoyPct)} over twelve months. Rural{" "}
+            {formatPct(CPI_RURAL_YOY)}; urban {formatPct(CPI_URBAN_YOY)}.
+          </li>
+          <li>
+            Highest official division: {highDiv.label} {formatPct(highDiv.yoyPct)}. Lowest:{" "}
+            {lowDiv.label} {formatPct(lowDiv.yoyPct)}.
+          </li>
+          {onion?.item.official ? (
+            <li>
+              Observed onion: {formatPrice(onion.pair.then)} on {formatDay(onion.pair.then.asOf)} →{" "}
+              {formatPrice(onion.pair.now)} on {formatDay(onion.pair.now.asOf)}. They printed a CPI
+              item rate of {formatPct(onion.item.official.yoyPct)} for July — an index, not that
+              rupee.
+            </li>
+          ) : null}
+          <li>Core / regulated / seasonal splits are not in the July note. Empty, not zero.</li>
+        </ul>
+      </section>
+
       <BasketPie />
+
+      <section className="mt-10">
+        <h2 className="font-display text-xl font-semibold tracking-tight">Rural and urban</h2>
+        <p className="mt-2 text-sm text-ink/70">
+          Combined 12-month rates, July 2026. Not a state map — those CPI prints are not typed here.
+        </p>
+        <ul className="mt-4 space-y-3">
+          {[
+            { label: "Rural", pct: CPI_RURAL_YOY },
+            { label: "Urban", pct: CPI_URBAN_YOY },
+            { label: "Combined", pct: CPI_HEADLINE.yoyPct },
+          ].map((row) => (
+            <li key={row.label}>
+              <div className="flex justify-between text-sm">
+                <span>{row.label}</span>
+                <span className="num">{formatPct(row.pct)}</span>
+              </div>
+              <div className="mt-1 h-3 w-full bg-ink/[0.05]">
+                <div
+                  className="hatch-carbon h-3"
+                  style={{
+                    width: `${(row.pct / Math.max(CPI_RURAL_YOY, CPI_URBAN_YOY, CPI_HEADLINE.yoyPct)) * 100}%`,
+                  }}
+                />
+              </div>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="font-display text-xl font-semibold tracking-tight">Twelve-month rate, month by month</h2>
+        <p className="mt-2 text-sm text-ink/70">Combined CPI printed in the July 2026 press note.</p>
+        <ol className="mt-4 flex items-end gap-2">
+          {CPI_COMBINED_YOY.map((m) => (
+            <li key={m.period} className="flex-1 text-center">
+              <div
+                className="mx-auto w-full bg-[var(--zinc)]"
+                style={{ height: `${(m.yoyPct / yoyMax) * 7}rem` }}
+                role="img"
+                aria-label={`${m.period}, ${formatPct(m.yoyPct)}`}
+              />
+              <p className="num mt-1 text-[0.65rem] text-ink/70">{m.period.slice(5)}</p>
+              <p className="num text-[0.7rem]">{formatPct(m.yoyPct)}</p>
+            </li>
+          ))}
+        </ol>
+      </section>
 
       <section className="mt-12">
         <h2 className="font-display text-2xl font-semibold tracking-tight">Smaller baskets</h2>
