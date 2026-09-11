@@ -114,9 +114,12 @@ describe("inflation docket", () => {
 
   it("each division has a unique colour and food links to /inflation/food", () => {
     const colors = CPI_DIVISIONS.map((d) => d.color);
-    assert.equal(new Set(colors).size, CPI_DIVISIONS.length);
+    assert.equal(new Set(colors).size, 12);
+    assert.equal(colors.length, 12);
     const food = CPI_DIVISIONS.find((d) => d.id === "food")!;
     assert.equal(food.href, "/inflation/food");
+    assert.equal(food.color, "#e07050");
+    assert.ok(!colors.includes("#3c3934"));
   });
 
   it("Combined month-on-month is July index over June index, not an invented rate", () => {

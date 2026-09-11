@@ -26,18 +26,18 @@ const I = "mospi-cpi-2026-07";
  * July 2026 Combined inflation from PIB PRID 2298247 Annex I.
  */
 export const CPI_DIVISIONS: CpiDivision[] = [
-  { id: "food", label: "Food and beverages", weight: 36.75, yoyPct: 5.24, index: 109.1, href: "/inflation/food", hatch: "rust", color: "#9c3a26", citationId: I },
-  { id: "housing", label: "Housing, water, electricity, gas", weight: 17.66, yoyPct: 2.16, index: 103.85, href: "/inflation/housing", hatch: "carbon", color: "#6b6560", citationId: I },
-  { id: "transport", label: "Transport", weight: 8.8, yoyPct: 4.43, index: 105.63, href: "/inflation/transport", hatch: "ochre", color: "#c48a2a", citationId: I },
-  { id: "health", label: "Health", weight: 6.1, yoyPct: 1.34, index: 104.75, href: "/inflation/health", hatch: "zinc", color: "#2f6f6a", citationId: I },
-  { id: "clothing", label: "Clothing and footwear", weight: 6.38, yoyPct: 3.38, index: 108.45, href: "/inflation/clothing", hatch: "carbon", color: "#5c4a6e", citationId: I },
-  { id: "personal", label: "Personal care and miscellaneous", weight: 5.04, yoyPct: 14.77, index: 123.51, href: "/inflation/other", hatch: "rust", color: "#c45c3a", citationId: I },
-  { id: "furnishings", label: "Furnishings and household", weight: 4.47, yoyPct: 2.4, index: 105.21, href: "/inflation/other", hatch: "zinc", color: "#6b7c4a", citationId: I },
-  { id: "communication", label: "Information and communication", weight: 3.61, yoyPct: 0.63, index: 104.26, href: "/inflation/other", hatch: "ochre", color: "#3d5a80", citationId: I },
-  { id: "restaurants", label: "Restaurants and accommodation", weight: 3.35, yoyPct: 7.72, index: 112.68, href: "/inflation/other", hatch: "rust", color: "#b06a2b", citationId: I },
-  { id: "education", label: "Education", weight: 3.33, yoyPct: 3.64, index: 108.58, href: "/inflation/education", hatch: "carbon", color: "#3c3934", citationId: I },
-  { id: "paan", label: "Paan, tobacco and intoxicants", weight: 2.99, yoyPct: 4.79, index: 108.18, href: "/inflation/other", hatch: "zinc", color: "#7a5c48", citationId: I },
-  { id: "recreation", label: "Recreation, sport and culture", weight: 1.52, yoyPct: 1.64, index: 104.49, href: "/inflation/other", hatch: "ochre", color: "#5a7d8c", citationId: I },
+  { id: "food", label: "Food and beverages", weight: 36.75, yoyPct: 5.24, index: 109.1, href: "/inflation/food", hatch: "rust", color: "#e07050", citationId: I },
+  { id: "housing", label: "Housing, water, electricity, gas", weight: 17.66, yoyPct: 2.16, index: 103.85, href: "/inflation/housing", hatch: "carbon", color: "#d4b483", citationId: I },
+  { id: "transport", label: "Transport", weight: 8.8, yoyPct: 4.43, index: 105.63, href: "/inflation/transport", hatch: "ochre", color: "#e8c547", citationId: I },
+  { id: "health", label: "Health", weight: 6.1, yoyPct: 1.34, index: 104.75, href: "/inflation/health", hatch: "zinc", color: "#3dbaa8", citationId: I },
+  { id: "clothing", label: "Clothing and footwear", weight: 6.38, yoyPct: 3.38, index: 108.45, href: "/inflation/clothing", hatch: "carbon", color: "#a78bfa", citationId: I },
+  { id: "personal", label: "Personal care and miscellaneous", weight: 5.04, yoyPct: 14.77, index: 123.51, href: "/inflation/other", hatch: "rust", color: "#ff7a59", citationId: I },
+  { id: "furnishings", label: "Furnishings and household", weight: 4.47, yoyPct: 2.4, index: 105.21, href: "/inflation/other", hatch: "zinc", color: "#8fbc5a", citationId: I },
+  { id: "communication", label: "Information and communication", weight: 3.61, yoyPct: 0.63, index: 104.26, href: "/inflation/other", hatch: "ochre", color: "#5b8def", citationId: I },
+  { id: "restaurants", label: "Restaurants and accommodation", weight: 3.35, yoyPct: 7.72, index: 112.68, href: "/inflation/other", hatch: "rust", color: "#f0a04b", citationId: I },
+  { id: "education", label: "Education", weight: 3.33, yoyPct: 3.64, index: 108.58, href: "/inflation/education", hatch: "carbon", color: "#f2ead8", citationId: I },
+  { id: "paan", label: "Paan, tobacco and intoxicants", weight: 2.99, yoyPct: 4.79, index: 108.18, href: "/inflation/other", hatch: "zinc", color: "#c4896a", citationId: I },
+  { id: "recreation", label: "Recreation, sport and culture", weight: 1.52, yoyPct: 1.64, index: 104.49, href: "/inflation/other", hatch: "ochre", color: "#6ec9d8", citationId: I },
 ];
 
 export const WEIGHTS_CITE = W;
