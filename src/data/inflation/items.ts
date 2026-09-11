@@ -263,19 +263,23 @@ export const INFLATION_ITEMS: InflationItem[] = [
   {
     id: "petrol-delhi",
     plainLabel: "Petrol (Delhi)",
-    officialName: "RSP of Petrol in Delhi as per IOCL outlet — PPAC",
+    officialName: "RSP of Petrol in Delhi as per IOCL outlet — PPAC metro table",
     category: "fuel",
     observed: [
       { rupees: 102.12, unit: "litre", asOf: "2026-09-10", centre: "delhi", citationId: PPAC },
+      { rupees: 102.12, unit: "litre", asOf: "2026-08-10", centre: "delhi", citationId: PPAC },
+      { rupees: 94.77, unit: "litre", asOf: "2025-09-10", centre: "delhi", citationId: PPAC },
     ],
   },
   {
     id: "diesel-delhi",
     plainLabel: "Diesel (Delhi)",
-    officialName: "RSP of Diesel in Delhi as per IOCL outlet — PPAC",
+    officialName: "RSP of Diesel in Delhi as per IOCL outlet — PPAC metro table",
     category: "fuel",
     observed: [
       { rupees: 95.2, unit: "litre", asOf: "2026-09-10", centre: "delhi", citationId: PPAC },
+      { rupees: 95.2, unit: "litre", asOf: "2026-08-10", centre: "delhi", citationId: PPAC },
+      { rupees: 87.67, unit: "litre", asOf: "2025-09-10", centre: "delhi", citationId: PPAC },
     ],
   },
 ];

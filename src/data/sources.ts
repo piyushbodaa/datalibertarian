@@ -552,12 +552,13 @@ export const citations: Record<string, Citation> = {
     title: "RSP of Petrol and Diesel in Delhi as per IOCL outlet as on 10-September-2026",
     publisher: "Petroleum Planning & Analysis Cell, Ministry of Petroleum and Natural Gas",
     fiscalYear: "2026-27",
-    url: "https://ppac.gov.in/all-imp-news",
-    pages: "Important News, 10 Sep 2026 — petrol ₹102.12/ltr; diesel ₹95.20/ltr",
+    url: "https://ppac.gov.in/download.php?file=importantnews/1789018679_PP_9_a_DailyPriceMSHSD_Metro_10.09.2026.pdf",
+    pages:
+      "Metro RSP table posted 10-Sep-26: Delhi petrol ₹102.12 (also 10-Aug-26); ₹94.77 on 10-Sep-25. Diesel ₹95.20 / ₹95.20 / ₹87.67. Also listed on https://ppac.gov.in/all-imp-news",
     table: "Retail selling price, Delhi IOCL outlet — not an all-India average",
     accessedOn: "2026-09-11",
     short: "PPAC fuel",
-    notes: "Delhi outlet only. LPG not typed from this page.",
+    notes: "Delhi outlet only. LPG not typed from this PDF.",
   },
   "mospi-cpi-2026-07": {
     id: "mospi-cpi-2026-07",
