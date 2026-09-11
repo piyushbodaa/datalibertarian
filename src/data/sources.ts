@@ -560,6 +560,19 @@ export const citations: Record<string, Citation> = {
     short: "PPAC fuel",
     notes: "Delhi outlet only. LPG not typed from this PDF.",
   },
+  "mospi-cpi-2024-weights": {
+    id: "mospi-cpi-2024-weights",
+    title: "CPI 2024 series — Combined division-wise weights (HCES 2023-24)",
+    publisher: "Ministry of Statistics and Programme Implementation",
+    fiscalYear: "2024-25",
+    url: "https://www.mospi.gov.in/uploads/documents/documents/1770891066052-Annexure_V.pdf",
+    pages: "Annex V FAQ table — Combined CPI 2024 column (Food 36.75, Housing 17.66, Transport 8.80, Health 6.10, …)",
+    table: "Division-wise weights Combined 2024 — the official basket, not observed rupees",
+    accessedOn: "2026-09-11",
+    short: "CPI 2024 basket",
+    notes:
+      "INDEX. Weights from Household Consumption Expenditure Survey 2023-24. Food share fell from 42.62 (2012 Combined) to 36.75 (2024 Combined). Pie uses the Combined 2024 column.",
+  },
   "mospi-cpi-2026-07": {
     id: "mospi-cpi-2026-07",
     title: "Consumer Price Index on base 2024=100 for July 2026 (provisional)",

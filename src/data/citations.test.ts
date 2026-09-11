@@ -267,6 +267,7 @@ describe("every figure has a living citation", () => {
       "pmd-retail-2026-09-10",
       "ppac-fuel-2026-09-10",
       "mospi-cpi-2026-07",
+      "mospi-cpi-2024-weights",
       "desk-median",
       "prs-andhra-pradesh",
     ]) {

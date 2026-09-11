@@ -8,42 +8,37 @@ export function InflationMethodPage() {
         How this bulletin is built
       </h1>
       <p className="mt-4 text-ink/80">
-        Two columns. Observed rupees from the Price Monitoring Division (and PPAC for Delhi fuel).
-        What they printed from MoSPI’s CPI. No third invented index.
+        The layout follows a statistics-office bulletin: headline, basket, division rooms, then
+        average prices with from and to. India’s extra column is the observed rupee beside the
+        printed index.
       </p>
 
       <section className="mt-10">
-        <h2 className="font-display text-xl font-semibold">Observed rupees</h2>
+        <h2 className="font-display text-xl font-semibold">The pie</h2>
         <p className="mt-3 text-ink/80">
-          The Department of Consumer Affairs prints all-India average retail prices for essential
-          commodities every working day. That is a rupee, not a basket. Twelve-month change is
-          this day’s printed rupee divided by the rupee printed on that report for one year back.
-          Missing dates stay empty. A printed 0 is not a price.
+          Slices are Combined CPI 2024 weights from MoSPI’s Annex V (Household Consumption
+          Expenditure Survey 2023-24). Food is 36.75% of that basket, down from 42.62% in the 2012
+          series. The pie is the basket they use. It is not a mix of PMD items.
+        </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="font-display text-xl font-semibold">From → to</h2>
+        <p className="mt-3 text-ink/80">
+          A twelve-month change always names both printed rupees and both dates. Example: ₹43.03/kg
+          on 10 Sep 2025 → ₹46.34/kg on 10 Sep 2026. A bare “+7%” is not shown. A printed 0 is not a
+          price.
         </p>
       </section>
 
       <section className="mt-10">
         <h2 className="font-display text-xl font-semibold">What they printed</h2>
         <p className="mt-3 text-ink/80">
-          MoSPI’s CPI is a weighted index. The basket was rebased from 2012=100 to 2024=100 (first
-          prints in 2026). Weights come from the Household Consumption Expenditure Survey. We do
-          not splice the two series. We do not back out a fake egg rupee from an index.
+          MoSPI CPI is a weighted index (2024=100). Where they printed an item inflation rate
+          (onion, potato, tomato in July 2026), it sits in the government column. We do not back out
+          a fake government rupee for rice from an index. Health, housing and education rooms show
+          the official division rate and leave observed rupees empty.
         </p>
-        <p className="mt-3 text-ink/80">
-          Where MoSPI printed an item inflation rate (onion, potato, tomato in July 2026), it sits
-          beside the PMD rupee. Headline CPI 4.45% is the government’s all-items number — never
-          the hero of this bulletin.
-        </p>
-      </section>
-
-      <section className="mt-10">
-        <h2 className="font-display text-xl font-semibold">What this is not</h2>
-        <ul className="mt-3 list-disc space-y-2 pl-5 text-ink/80">
-          <li>Not a live ticker. Figures freeze at extract.</li>
-          <li>Not a scrape of grocery apps.</li>
-          <li>Not housing, health, or education — those rooms are empty.</li>
-          <li>Not an all-India petrol average. PPAC printed Delhi IOCL outlet rates.</li>
-        </ul>
       </section>
 
       <section className="mt-12 text-sm text-ink/70">
@@ -52,6 +47,7 @@ export function InflationMethodPage() {
           <CitationFootnote citationId="pmd-retail-2026-09-10" />
           <CitationFootnote citationId="ppac-fuel-2026-09-10" />
           <CitationFootnote citationId="mospi-cpi-2026-07" />
+          <CitationFootnote citationId="mospi-cpi-2024-weights" />
         </ol>
         <p className="mt-6">
           <Link to="/inflation">Inflation</Link>

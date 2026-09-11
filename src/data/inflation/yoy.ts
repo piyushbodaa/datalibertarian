@@ -60,3 +60,27 @@ export function formatPrice(p: PricePoint): string {
   });
   return `₹${n} / ${p.unit}`;
 }
+
+export function formatDay(iso: string): string {
+  const [y, m, d] = iso.split("-").map(Number);
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  return `${d} ${months[(m ?? 1) - 1]} ${y}`;
+}
+
+export function yearPair(item: InflationItem): { now: PricePoint; then: PricePoint } | undefined {
+  const now = latest(item.observed);
+  if (!now) return undefined;
+  const then = item.observed.find((p) => p.asOf === yearAgo(now.asOf));
+  if (!then) return undefined;
+  return { now, then };
+}
+
+/** Never a bare percent: names both rupees and both dates. */
+export function formatFromTo(then: PricePoint, now: PricePoint): string {
+  const pct = pctChange(now, then);
+  const delta = now.rupees - then.rupees;
+  const sign = delta > 0 ? "+" : delta < 0 ? "−" : "";
+  const abs = Math.abs(delta).toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const change = pct === undefined ? "" : ` · ${formatPct(pct)} in 12 months`;
+  return `${formatPrice(then)} on ${formatDay(then.asOf)} → ${formatPrice(now)} on ${formatDay(now.asOf)} (${sign}₹${abs} / ${now.unit}${change})`;
+}

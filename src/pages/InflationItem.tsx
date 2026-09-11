@@ -1,15 +1,21 @@
 import { Link, Navigate, useParams } from "react-router-dom";
 import { CitationChip, CitationFootnote } from "../components/CitationChip";
-import { getInflationItem } from "../data/inflation/items";
-import { formatPct, formatPrice, latest, momOf, yoyOf } from "../data/inflation/yoy";
+import { getInflationItem, roomOf } from "../data/inflation/items";
+import {
+  formatDay,
+  formatFromTo,
+  formatPct,
+  formatPrice,
+  latest,
+  yearPair,
+} from "../data/inflation/yoy";
 
 export function InflationItemPage() {
   const { id } = useParams();
   const item = id ? getInflationItem(id) : undefined;
   if (!item) return <Navigate to="/inflation" replace />;
+  const pair = yearPair(item);
   const now = latest(item.observed);
-  const yoy = yoyOf(item);
-  const mom = momOf(item);
   const cites = [
     ...new Set(
       [...item.observed.map((p) => p.citationId), item.official?.citationId].filter(
@@ -25,47 +31,51 @@ export function InflationItemPage() {
         {item.plainLabel}
       </h1>
 
-      <div className="mt-8 grid gap-6 sm:grid-cols-2">
-        <section className="docket-slip">
+      <div className="mt-8 grid gap-6 lg:grid-cols-2">
+        <section className="docket-slip px-4 py-6">
           <h2 className="font-display text-lg font-semibold">Observed rupee</h2>
-          {now ? (
+          {pair ? (
             <>
-              <p className="num num-hero mt-3 m-0">{formatPrice(now)}</p>
-              <p className="mt-3 text-sm text-ink/70">
-                As printed {now.asOf}
-                {now.centre === "delhi" ? " · Delhi outlet" : " · all-India average"}
-                <CitationChip citationId={now.citationId} />
-              </p>
-              <p className="mt-2 text-sm text-ink/80">
-                Twelve months: {yoy !== undefined ? formatPct(yoy) : "not typed"}
-                {" · "}
-                One month: {mom !== undefined ? formatPct(mom) : "not typed"}
-              </p>
+              <p className="mt-4 text-sm text-ink/70">From</p>
+              <p className="num text-2xl">{formatPrice(pair.then)}</p>
+              <p className="text-sm text-ink/60">{formatDay(pair.then.asOf)}</p>
+              <p className="mt-4 text-sm text-ink/70">To</p>
+              <p className="num text-2xl">{formatPrice(pair.now)}</p>
+              <p className="text-sm text-ink/60">{formatDay(pair.now.asOf)}</p>
+              <p className="mt-4 text-base text-ink">{formatFromTo(pair.then, pair.now)}</p>
+              <CitationChip citationId={pair.now.citationId} />
             </>
+          ) : now ? (
+            <p className="mt-3 text-sm text-ink/80">
+              {formatPrice(now)} on {formatDay(now.asOf)}. A year-ago rupee is not typed, so there is
+              no twelve-month change.
+              <CitationChip citationId={now.citationId} />
+            </p>
           ) : (
             <p className="mt-3 text-sm text-ink/70">No observed rupee typed.</p>
           )}
         </section>
-        <section className="index-slip">
+        <section className="index-slip px-4 py-6">
           <h2 className="font-display text-lg font-semibold">What they printed</h2>
           {item.official ? (
             <>
               <p className="num num-hero mt-3 m-0">{formatPct(item.official.yoyPct)}</p>
               <p className="mt-3 text-sm text-ink/70">
-                MoSPI CPI item, {item.official.period}. An index change, not a rupee.
+                MoSPI CPI item, {item.official.period} over the previous {item.official.period.slice(0, 4) === "2026" ? "July 2025" : "year"}.
+                An index change, not a rupee for this packet of {item.plainLabel.toLowerCase()}.
                 <CitationChip citationId={item.official.citationId} />
               </p>
-              {yoy !== undefined ? (
-                <p className="mt-2 text-sm text-ink/80">
-                  Observed twelve-month change is {formatPct(yoy)}. That gap is two cited series,
-                  not a third “true CPI.”
+              {pair ? (
+                <p className="mt-3 text-sm text-ink/80">
+                  Observed path: {formatFromTo(pair.then, pair.now)}. Two cited series, not a third
+                  “true CPI.”
                 </p>
               ) : null}
             </>
           ) : (
             <p className="mt-3 max-w-prose text-sm text-ink/70">
-              MoSPI did not print a matching item rate in the July 2026 note we typed. Empty, not
-              ₹0.
+              MoSPI did not print a rupee or a matching item rate for {item.plainLabel.toLowerCase()} in
+              the July 2026 note we typed. Empty, not ₹0.
             </p>
           )}
         </section>
@@ -79,7 +89,7 @@ export function InflationItemPage() {
             .sort((a, b) => a.asOf.localeCompare(b.asOf))
             .map((p) => (
               <li key={p.asOf} className="flex justify-between gap-3 py-3 text-sm">
-                <span>{p.asOf}</span>
+                <span>{formatDay(p.asOf)}</span>
                 <span className="num">
                   {formatPrice(p)}
                   <CitationChip citationId={p.citationId} compact />
@@ -97,7 +107,7 @@ export function InflationItemPage() {
           ))}
         </ol>
         <p className="mt-6">
-          <Link to={`/inflation/${item.category}`}>Back to category</Link>
+          <Link to={`/inflation/${roomOf(item)}`}>Back to {roomOf(item)}</Link>
           {" · "}
           <Link to="/inflation">Inflation</Link>
           {" · "}

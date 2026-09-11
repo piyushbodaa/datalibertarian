@@ -334,4 +334,12 @@ export function itemsIn(category: InflationItem["category"]): InflationItem[] {
   return INFLATION_ITEMS.filter((i) => i.category === category);
 }
 
+export function roomOf(item: InflationItem): "food" | "fuel" {
+  return item.category === "fuel" ? "fuel" : "food";
+}
+
+export function itemsInRoom(room: string): InflationItem[] {
+  return INFLATION_ITEMS.filter((i) => roomOf(i) === room);
+}
+
 export const AS_OF = "2026-09-10";

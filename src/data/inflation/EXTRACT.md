@@ -27,3 +27,9 @@ MoSPI CPI Combined, base 2024=100, July 2026 provisional.
 PIB release ID 2298247, 12 Aug 2026. August 2026 CPI due 14 Sep 2026 — not typed.
 
 Do not splice 2012 and 2024 series. Eggs have no printed CPI item % in the July note’s top-5 tables — government cell empty.
+
+## CPI 2024 Combined basket (pie)
+
+MoSPI Annex V Combined 2024 weights (two-decimal column summing to 100): Food 36.75, Housing 17.66, Transport 8.80, Health 6.10, Clothing 6.38, Personal care 5.04, Furnishings 4.47, Communication 3.61, Restaurants 3.35, Education 3.33, Paan 2.99, Recreation 1.52.
+
+July 2026 Combined division inflation from PIB 2298247 Annex I: Food 5.24, Housing 2.16, Transport 4.43, Health 1.34, Clothing 3.38, Personal care 14.77, Furnishings 2.40, Communication 0.63, Restaurants 7.72, Education 3.64, Paan 4.79, Recreation 1.64.

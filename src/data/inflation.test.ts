@@ -8,8 +8,10 @@ import {
   CPI_HEADLINE,
   getInflationItem,
   INFLATION_ITEMS,
+  itemsInRoom,
 } from "./inflation/items.ts";
-import { pctChange, yoyOf } from "./inflation/yoy.ts";
+import { formatFromTo, pctChange, yearPair, yoyOf } from "./inflation/yoy.ts";
+import { CPI_DIVISIONS } from "./inflation/weights.ts";
 
 describe("inflation docket", () => {
   it("every observed rupee has a living https citation", () => {
@@ -75,8 +77,41 @@ describe("inflation docket", () => {
   });
 
   it("keeps required inflation citations", () => {
-    for (const id of ["pmd-retail-2026-09-10", "ppac-fuel-2026-09-10", "mospi-cpi-2026-07"]) {
+    for (const id of [
+      "pmd-retail-2026-09-10",
+      "ppac-fuel-2026-09-10",
+      "mospi-cpi-2026-07",
+      "mospi-cpi-2024-weights",
+    ]) {
       assert.ok(getCitation(id), id);
     }
   });
+
+  it("CPI 2024 Combined weights sum to 100", () => {
+    const sum = CPI_DIVISIONS.reduce((s, d) => s + d.weight, 0);
+    assert.ok(Math.abs(sum - 100) < 0.02, String(sum));
+    const food = CPI_DIVISIONS.find((d) => d.id === "food")!;
+    assert.equal(food.weight, 36.75);
+    assert.equal(food.yoyPct, 5.24);
+  });
+
+  it("rice change names both rupees and both dates", () => {
+    const rice = getInflationItem("rice")!;
+    const pair = yearPair(rice)!;
+    const line = formatFromTo(pair.then, pair.now);
+    assert.match(line, /43\.03/);
+    assert.match(line, /46\.34/);
+    assert.match(line, /10 Sep 2025/);
+    assert.match(line, /10 Sep 2026/);
+    assert.ok(!itemBarePercent(line));
+  });
+
+  it("health room has no observed rupee", () => {
+    assert.equal(itemsInRoom("health").length, 0);
+    assert.ok(CPI_DIVISIONS.find((d) => d.id === "health")?.yoyPct === 1.34);
+  });
 });
+
+function itemBarePercent(line: string): boolean {
+  return /^\s*[+\-−]?\d/.test(line) && !line.includes("→");
+}
