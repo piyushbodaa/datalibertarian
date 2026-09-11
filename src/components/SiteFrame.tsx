@@ -15,6 +15,7 @@ const NAV = [
   { to: "/compare", label: "Compare" },
   { to: "/states", label: "States" },
   { to: "/union", label: "Centre" },
+  { to: "/inflation", label: "Inflation" },
   { to: "/sources", label: "Method" },
   { to: "/search", label: "Search" },
 ] as const;
@@ -89,6 +90,7 @@ export function SiteFrame({ children }: { children: ReactNode }) {
         </p>
         <p className="mt-3 flex flex-wrap gap-x-4 gap-y-1">
           <Link to="/sources">Method</Link>
+          <Link to="/inflation">Inflation</Link>
           <Link to="/compare">Compare</Link>
           <Link to="/states">States</Link>
           <Link to="/union">Centre</Link>

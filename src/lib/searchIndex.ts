@@ -31,6 +31,8 @@ import { demand51Groups, demand51Net, demand51Capital, demand51Revenue } from ".
 import { delhiEstInfra } from "../data/union/delhi-police";
 import { commissionerates } from "../data/telangana/commissionerates";
 import { pickAmount } from "../data/maharashtra-police";
+import { INFLATION_ITEMS } from "../data/inflation/items";
+import { latest } from "../data/inflation/yoy";
 
 export type SearchHit = {
   id: string;
@@ -190,6 +192,19 @@ export function searchHeads(query: string): SearchHit[] {
       entity: e.entity,
       href: e.href,
       money,
+    });
+  }
+  for (const item of INFLATION_ITEMS) {
+    const blob = `${item.plainLabel} ${item.officialName} inflation ${item.id}`.toLowerCase();
+    if (!blob.includes(q)) continue;
+    if (!latest(item.observed)) continue;
+    hits.push({
+      id: item.id,
+      plainLabel: item.plainLabel,
+      officialName: item.officialName,
+      head: item.category,
+      entity: "Inflation",
+      href: `/inflation/item/${item.id}`,
     });
   }
   return hits.slice(0, 40);

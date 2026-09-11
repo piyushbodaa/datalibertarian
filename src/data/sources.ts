@@ -532,6 +532,47 @@ export const citations: Record<string, Citation> = {
     notes:
       "Rupees in thousands. Grant 10 voted total BE 2026-27 35246958 is not Police. Used only as the quieter mixed-grant figure.",
   },
+  "pmd-retail-2026-09-10": {
+    id: "pmd-retail-2026-09-10",
+    title:
+      "All India Average Retail Price of essential commodities as on 10/09/2026 — Price Monitoring Division",
+    publisher: "Department of Consumer Affairs, Government of India",
+    fiscalYear: "2026-27",
+    url: "https://fcainfoweb.nic.in/",
+    pages:
+      "Daily average retail report https://fcainfoweb.nic.in/Reports/DB/Dailyprices.aspx (as on 10/09/2026; 1 month 10/08/2026; 1 year 10/09/2025). Homepage grids match the latest column.",
+    table: "All India Average Retail Price — units as printed (kg / litre / dozen)",
+    accessedOn: "2026-09-11",
+    short: "PMD retail",
+    notes:
+      "Observed rupees, not CPI. Additional commodities (eggs, bajra, ghee, …) print only the day on the homepage. Broken rice 1-year column prints 0 — not taken as a price.",
+  },
+  "ppac-fuel-2026-09-10": {
+    id: "ppac-fuel-2026-09-10",
+    title: "RSP of Petrol and Diesel in Delhi as per IOCL outlet as on 10-September-2026",
+    publisher: "Petroleum Planning & Analysis Cell, Ministry of Petroleum and Natural Gas",
+    fiscalYear: "2026-27",
+    url: "https://ppac.gov.in/all-imp-news",
+    pages: "Important News, 10 Sep 2026 — petrol ₹102.12/ltr; diesel ₹95.20/ltr",
+    table: "Retail selling price, Delhi IOCL outlet — not an all-India average",
+    accessedOn: "2026-09-11",
+    short: "PPAC fuel",
+    notes: "Delhi outlet only. LPG not typed from this page.",
+  },
+  "mospi-cpi-2026-07": {
+    id: "mospi-cpi-2026-07",
+    title: "Consumer Price Index on base 2024=100 for July 2026 (provisional)",
+    publisher: "Ministry of Statistics and Programme Implementation",
+    fiscalYear: "2026-27",
+    url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2298247",
+    pages:
+      "PIB 12 Aug 2026: Combined CPI 4.45% (index 107.94); CFPI 5.52%; Potato −16.56%; Tomato −4.59%; Onion 22.54%",
+    table: "All India Combined CPI / CFPI / selected item inflation — index, not a rupee",
+    accessedOn: "2026-09-11",
+    short: "MoSPI CPI",
+    notes:
+      "INDEX. Basket rebased 2012→2024. August 2026 CPI due 14 Sep 2026 — not typed. Never the hero of the inflation bulletin.",
+  },
   "sk-afs-2026-27": {
     id: "sk-afs-2026-27",
     title:

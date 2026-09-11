@@ -51,6 +51,8 @@ const GOLD_IDS = [
   "br-dfg-2026-27",
   "union-bag-2026-27",
   "union-rec-annex9-2026-27",
+  "pmd-retail-2026-09-10",
+  "ppac-fuel-2026-09-10",
 ];
 
 export function SourcesPage() {
@@ -317,6 +319,12 @@ export function SourcesPage() {
           <li className="docket-slip text-ink/80">
             <strong>Union outstanding liabilities</strong> — Receipt Budget Annex 9. ₹2,14,82,050
             crore at end of 2026-27 (BE). Centre stock only. Not state debt. Not a live ticker.
+          </li>
+          <li className="docket-slip text-ink/80">
+            <strong>Inflation bulletin</strong> — Price Monitoring Division all-India retail rupees
+            (as on 10/09/2026) plus PPAC Delhi fuel. MoSPI CPI is the quieter printed index, not
+            the hero.{" "}
+            <Link to="/inflation">Open inflation</Link>
           </li>
           <li className="docket-slip text-ink/80">
             <strong>Union Demand 51 Police</strong> — Notes on Demands. Headline is the demand net

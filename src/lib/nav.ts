@@ -8,6 +8,9 @@ const LABELS: Record<string, string> = {
   municipal: "City",
   gram: "Village",
   sources: "Method",
+  inflation: "Inflation",
+  method: "Method",
+  item: "Item",
   commissionerates: "Commissionerates",
   stations: "Stations",
   maharashtra: "Maharashtra",
@@ -75,6 +78,9 @@ export function crumbsFor(pathname: string): Crumb[] {
 
 export function titleFor(pathname: string, search = ""): string {
   if (pathname === "/") return "Data Libertarian — official books, cited rupees";
+  if (pathname === "/inflation" || pathname.startsWith("/inflation/")) {
+    return "Inflation — observed rupees, not the CPI";
+  }
   const crumbs = crumbsFor(pathname);
   const leaf = crumbs[crumbs.length - 1]?.label ?? "Ledger";
   if (pathname === "/search") {

@@ -1,5 +1,5 @@
-import { lazy, Suspense } from "react";
-import { Navigate, Route, Routes } from "react-router-dom";
+import { lazy, Suspense, useEffect } from "react";
+import { Navigate, Route, Routes, useLocation, useNavigate } from "react-router-dom";
 import { PageFallback } from "./components/PageFallback";
 import { SiteFrame } from "./components/SiteFrame";
 import { HomePage } from "./pages/Home";
@@ -62,13 +62,40 @@ const UnionPolicePage = lazy(() =>
 );
 const UpPolicePage = lazy(() => import("./pages/UpPolice").then((m) => ({ default: m.UpPolicePage })));
 const WbPolicePage = lazy(() => import("./pages/WbPolice").then((m) => ({ default: m.WbPolicePage })));
+const InflationPage = lazy(() => import("./pages/Inflation").then((m) => ({ default: m.InflationPage })));
+const InflationMethodPage = lazy(() =>
+  import("./pages/InflationMethod").then((m) => ({ default: m.InflationMethodPage })),
+);
+const InflationItemPage = lazy(() =>
+  import("./pages/InflationItem").then((m) => ({ default: m.InflationItemPage })),
+);
+const InflationCategoryPage = lazy(() =>
+  import("./pages/InflationCategory").then((m) => ({ default: m.InflationCategoryPage })),
+);
+
+function InflationHostGate() {
+  const loc = useLocation();
+  const nav = useNavigate();
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    if (window.location.hostname.startsWith("inflation.") && loc.pathname === "/") {
+      nav("/inflation", { replace: true });
+    }
+  }, [loc.pathname, nav]);
+  return null;
+}
 
 export default function App() {
   return (
     <SiteFrame>
+      <InflationHostGate />
       <Suspense fallback={<PageFallback />}>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/inflation" element={<InflationPage />} />
+          <Route path="/inflation/method" element={<InflationMethodPage />} />
+          <Route path="/inflation/item/:id" element={<InflationItemPage />} />
+          <Route path="/inflation/:category" element={<InflationCategoryPage />} />
           <Route path="/compare" element={<ComparePage />} />
           <Route path="/search" element={<SearchPage />} />
           <Route path="/trace/:layer/:slug" element={<TracePage />} />

@@ -23,7 +23,7 @@ export function CitationChip({ citationId, compact }: Props) {
                 ? "Middle of the books"
                 : "Official book");
 
-  const isIndex = citationId.startsWith("prs-");
+  const isIndex = citationId.startsWith("prs-") || citationId.startsWith("mospi-");
   const isMedian = citationId.startsWith("desk-median");
 
   return (
@@ -54,7 +54,7 @@ export function CitationChip({ citationId, compact }: Props) {
 
 export function CitationFootnote({ citationId }: { citationId: string }) {
   const c = getCitation(citationId);
-  const isIndex = citationId.startsWith("prs-");
+  const isIndex = citationId.startsWith("prs-") || citationId.startsWith("mospi-");
   const isMedian = citationId.startsWith("desk-median");
   return (
     <li id={`cite-${c.id}`} className="scroll-mt-24">

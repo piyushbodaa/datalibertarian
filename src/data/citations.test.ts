@@ -264,6 +264,9 @@ describe("every figure has a living citation", () => {
       "br-dfg-2026-27",
       "union-bag-2026-27",
       "union-rec-annex9-2026-27",
+      "pmd-retail-2026-09-10",
+      "ppac-fuel-2026-09-10",
+      "mospi-cpi-2026-07",
       "desk-median",
       "prs-andhra-pradesh",
     ]) {
