@@ -1,3 +1,6 @@
+import { ErrorBoundary } from "./components/ErrorBoundary";
+import { NotFoundPage } from "./pages/NotFound";
+import { CorrectionsPage } from "./pages/Corrections";
 import { lazy, Suspense, useEffect } from "react";
 import { Navigate, Route, Routes, useLocation, useNavigate } from "react-router-dom";
 import { PageFallback } from "./components/PageFallback";
@@ -89,7 +92,7 @@ export default function App() {
   return (
     <SiteFrame>
       <InflationHostGate />
-      <Suspense fallback={<PageFallback />}>
+      <ErrorBoundary><Suspense fallback={<PageFallback />}>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/inflation" element={<InflationPage />} />
@@ -140,9 +143,10 @@ export default function App() {
           <Route path="/bihar/police" element={<BrPolicePage />} />
           <Route path="/states/maharashtra/police" element={<Navigate to="/maharashtra/police" replace />} />
           <Route path="/:slug/police" element={<EmptyPolicePage />} />
-          <Route path="*" element={<Navigate to="/" replace />} />
+          <Route path="/corrections" element={<CorrectionsPage />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
-      </Suspense>
+      </Suspense></ErrorBoundary>
     </SiteFrame>
   );
 }

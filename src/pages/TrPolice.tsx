@@ -1,8 +1,6 @@
+import { PoliceOverview } from "../components/PoliceOverview";
 import { Link } from "react-router-dom";
 import { CitationFootnote } from "../components/CitationChip";
-import { HeadSplit } from "../components/HeadSplit";
-import { Money } from "../components/Money";
-import { PrintedColumns } from "../components/PrintedColumns";
 import { TraceRail } from "../components/TraceRail";
 import { pickAmount } from "../data/maharashtra-police";
 import { getIndexRow } from "../data/prs-index/afs-police";
@@ -24,29 +22,7 @@ export function TrPolicePage() {
 
   return (
     <article>
-      <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">Tripura Police</h1>
-      <p className="mt-4 max-w-2xl text-ink">
-        What the state budget set aside to run the police and to build or buy for them. Not jails,
-        not courts.
-      </p>
-
-      <div className="mt-8 border-y border-ink/20 py-8">
-        <p className="text-sm text-ink/55">2026-27 plan</p>
-        <div className="mt-3">
-          <Money money={hero} size="hero" />
-        </div>
-        <p className="mt-4 max-w-xl text-sm text-ink/70">
-          Running costs ₹{formatCrore(run.crore)} crore · Buildings and gear ₹
-          {formatCrore(cap.crore)} crore.
-        </p>
-      </div>
-
-      <PrintedColumns
-        run={tr2055}
-        cap={tr4055}
-        caption="Spent, plan, updated plan, and next plan. Printed in lakhs; shown in crore."
-      />
-      <HeadSplit run={run} cap={cap} />
+      <PoliceOverview name="Tripura" description="What the state budget set aside to run the police and to build or buy for them. Not jails, not courts." hero={hero} run={run} cap={cap} runningLine={tr2055} capitalLine={tr4055} caption="Spent, plan, updated plan, and next plan. Printed in lakhs; shown in crore." />
 
       <section className="carbon-sheet mt-10 px-4 py-6 sm:px-6">
         <h2 className="mt-2 font-display text-xl font-semibold">Salaries not split by station</h2>

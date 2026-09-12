@@ -7,6 +7,7 @@ export type Citation = {
   pages?: string;
   table?: string;
   accessedOn: string;
+  reviewedOn?: string;
   notes?: string;
   short?: string;
 };

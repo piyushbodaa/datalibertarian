@@ -1,8 +1,9 @@
+import { applyMetadata } from "../lib/metadata";
 import type { FormEvent, ReactNode } from "react";
 import { useEffect, useState } from "react";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import { EXTRACT_DATE } from "../data/sources";
-import { crumbsFor, titleFor } from "../lib/nav";
+import { crumbsFor } from "../lib/nav";
 
 function figuresDate(iso: string): string {
   const [y, m, d] = iso.split("-").map(Number);
@@ -25,12 +26,34 @@ export function SiteFrame({ children }: { children: ReactNode }) {
   const crumbs = crumbsFor(location.pathname);
 
   useEffect(() => {
-    document.title = titleFor(location.pathname, location.search);
+    const update = () => {
+      applyMetadata(location.pathname, location.search);
+      const missing = !!document.querySelector("[data-not-found]");
+      let robots = document.querySelector<HTMLMetaElement>('meta[name="robots"]');
+      if (missing || location.pathname === "/search") {
+        if (!robots) { robots = document.createElement("meta"); robots.name = "robots"; document.head.append(robots); }
+        robots.content = "noindex";
+        if (missing) document.title = "Page not found — Data Libertarian";
+      } else robots?.remove();
+    };
+    update();
+    const observer = new MutationObserver(update);
+    observer.observe(document.getElementById("main")!, { childList: true, subtree: true });
+    return () => observer.disconnect();
   }, [location.pathname, location.search]);
 
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [location.pathname]);
+    if (!location.hash) { window.scrollTo(0, 0); return; }
+    const scroll = () => {
+      const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+      if (target) { target.scrollIntoView(); return true; }
+      return false;
+    };
+    if (scroll()) return;
+    const observer = new MutationObserver(() => { if (scroll()) observer.disconnect(); });
+    observer.observe(document.getElementById("main")!, { childList: true, subtree: true });
+    return () => observer.disconnect();
+  }, [location.pathname, location.hash]);
 
   return (
     <div className="min-h-[100dvh]">
@@ -86,10 +109,11 @@ export function SiteFrame({ children }: { children: ReactNode }) {
       <footer className="mx-auto max-w-6xl border-t border-ink/15 px-4 py-7 text-sm text-ink/60 sm:px-6">
         <p>
           Figures taken from official budget books. Empty means we have not read that book yet — not
-          that it is zero. Figures from {figuresDate(EXTRACT_DATE)}.
+          that it is zero. Initial budget extraction: {figuresDate(EXTRACT_DATE)}. See each source for its extraction date.
         </p>
         <p className="mt-3 flex flex-wrap gap-x-4 gap-y-1">
           <Link to="/sources">Method</Link>
+          <Link to="/corrections">Report a correction</Link>
           <Link to="/inflation">Inflation</Link>
           <Link to="/compare">Compare</Link>
           <Link to="/states">States</Link>

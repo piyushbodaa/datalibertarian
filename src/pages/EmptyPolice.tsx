@@ -1,3 +1,4 @@
+import { NotFoundPage } from "./NotFound";
 import { Link, Navigate, useParams } from "react-router-dom";
 import { CitationFootnote } from "../components/CitationChip";
 import { Money } from "../components/Money";
@@ -7,7 +8,7 @@ import { getJurisdiction, tierLabel } from "../data/states";
 export function EmptyPolicePage() {
   const { slug } = useParams();
   const j = slug ? getJurisdiction(slug) : undefined;
-  if (!j) return <Navigate to="/states" replace />;
+  if (!j) return <NotFoundPage />;
   if (j.tier === "gold") return <Navigate to={`/${j.slug}/police`} replace />;
 
   if (j.tier === "index") {
