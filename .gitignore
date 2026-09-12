@@ -5,3 +5,6 @@ dist
 .vite
 shots
 data/raw
+
+test-results/
+playwright-report/

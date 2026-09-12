@@ -28,7 +28,17 @@ export function CitationChip({ citationId, compact }: Props) {
 
   return (
     <a
-      href={`#cite-${c.id}`}
+      href={c.url}
+      onClick={(event) => {
+        if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+        const target = document.getElementById(`cite-${c.id}`);
+        if (!target) return;
+        event.preventDefault();
+        window.location.hash = `cite-${c.id}`;
+        target.scrollIntoView({ block: "start" });
+        target.focus({ preventScroll: true });
+      }}
+      data-citation-id={c.id}
       className={`citation-chip ml-1 inline-flex items-baseline gap-0.5 align-super text-[0.65rem] font-semibold uppercase tracking-[0.08em] no-underline ${
         isMedian
           ? "citation-chip-median text-ochre hover:text-ink"
@@ -57,7 +67,7 @@ export function CitationFootnote({ citationId }: { citationId: string }) {
   const isIndex = citationId.startsWith("prs-") || citationId.startsWith("mospi-");
   const isMedian = citationId.startsWith("desk-median");
   return (
-    <li id={`cite-${c.id}`} className="scroll-mt-24">
+    <li id={`cite-${c.id}`} tabIndex={-1} className="scroll-mt-24">
       <p className="font-medium text-ink">
         {c.title}
         {c.table ? ` — ${c.table}` : ""}
@@ -65,6 +75,7 @@ export function CitationFootnote({ citationId }: { citationId: string }) {
       <p className="text-ink/70">
         {c.publisher}. Fiscal year {c.fiscalYear}
         {c.pages ? `. ${c.pages}` : ""}. Extracted {c.accessedOn}.
+        {c.reviewedOn ? ` Source rechecked ${c.reviewedOn}.` : ""}
       </p>
       <p>
         <a href={c.url} rel="noreferrer" target="_blank">

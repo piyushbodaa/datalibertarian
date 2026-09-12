@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { CompareRow } from "../components/CompareRow";
 import { Money } from "../components/Money";
@@ -30,6 +30,11 @@ const LAYER_OPTS: { id: LayerId; label: string }[] = [
 
 export function ComparePage() {
   const [params, setParams] = useSearchParams();
+  const [copyStatus, setCopyStatus] = useState("");
+  async function copyLink() {
+    try { await navigator.clipboard.writeText(window.location.href); setCopyStatus("Link copied."); }
+    catch { setCopyStatus("Copy was unavailable. Select and copy the address from your browser."); }
+  }
   const grainRaw = params.get("grain");
   const grain: CompareGrain = grainRaw === "city" || grainRaw === "station" ? grainRaw : "layer";
   const leftSlug =
@@ -111,15 +116,17 @@ export function ComparePage() {
     );
     const blob = new Blob([[header.join(","), ...lines].join("\n")], { type: "text/csv" });
     const a = document.createElement("a");
-    a.href = URL.createObjectURL(blob);
+    const url = URL.createObjectURL(blob);
+    a.href = url;
     a.download = `compare-${left.entity.slug}-${right?.entity.slug ?? "median"}.csv`;
     a.click();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
   }
 
   const citeIds = [
     ...new Set(
       rows
-        .flatMap((r) => [r.left?.citationId, r.mid?.money.citationId, r.right?.citationId])
+        .flatMap((r) => [r.left?.citationId, r.mid?.money.citationId, r.right?.citationId, ...(r.mid?.peers.map((peer) => peer.money.citationId) ?? [])])
         .filter(Boolean) as string[],
     ),
   ];
@@ -133,7 +140,8 @@ export function ComparePage() {
         Pick two. The middle number is the middle of the official state books we have already read.
       </p>
 
-      <div className="mt-6 flex flex-wrap gap-4 text-sm">
+      <details className="mt-4 text-sm"><summary className="cursor-pointer min-h-11 flex items-center">Advanced comparison options</summary>
+      <div className="flex flex-wrap gap-4 text-sm">
         <label className="inline-flex min-h-11 items-center gap-2">
           <input
             type="checkbox"
@@ -165,7 +173,8 @@ export function ComparePage() {
         </details>
       </div>
 
-      <div className="mt-6 grid gap-4 sm:grid-cols-2">
+      </details>
+      <div className="mt-3 grid grid-cols-2 gap-3">
         <Picker
           label="Left"
           slug={leftSlug}
@@ -189,7 +198,8 @@ export function ComparePage() {
         />
       </div>
 
-      <p className="mt-4 flex flex-wrap gap-2 text-sm">
+      <details className="mt-3 text-sm"><summary className="cursor-pointer">Suggested comparisons</summary>
+      <p className="mt-2 flex flex-wrap gap-2 text-sm">
         {grain === "city" ? (
           <button
             type="button"
@@ -220,6 +230,7 @@ export function ComparePage() {
         )}
       </p>
 
+      </details>
       {cross ? (
         <section className="carbon-sheet mt-8 px-4 py-5 sm:px-6">
           <p className="kicker text-ochre">Different books — not a like-for-like</p>
@@ -260,7 +271,7 @@ export function ComparePage() {
             </p>
           ) : null}
 
-          <div className="mt-8 grid gap-4 text-sm sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-4 grid grid-cols-2 gap-3 text-sm lg:grid-cols-4">
             <label className="block">
               Series
               <select
@@ -292,7 +303,7 @@ export function ComparePage() {
               </select>
             </label>
             <div className="flex flex-wrap items-end gap-3 sm:col-span-2">
-              <button type="button" className="file-cta" onClick={() => void navigator.clipboard.writeText(window.location.href)}>
+              <button type="button" className="file-cta" onClick={copyLink}>
                 <span className="file-cta-notch" aria-hidden="true" />
                 Copy link
               </button>
@@ -300,6 +311,7 @@ export function ComparePage() {
                 <span className="file-cta-notch" aria-hidden="true" />
                 CSV
               </button>
+              <p role="status" className="col-span-2 text-sm">{copyStatus}</p>
             </div>
           </div>
 
@@ -562,11 +574,10 @@ function Picker({
   const layer = entity?.layer ?? "state";
   const options = entitiesFor(layer, grain);
   return (
-    <div className="docket-door">
-      <p className="kicker">{label}</p>
-      <div className="mt-3 flex flex-col gap-3 text-sm">
+    <div className="min-w-0">
+      <div className="flex flex-col gap-2 text-sm">
         {grain === "layer" ? (
-          <label className="block">
+          <details><summary className="cursor-pointer text-ink/65">{label}: {LAYER_OPTS.find((option) => option.id === layer)?.label}</summary><label className="block">
             Kind
             <select
               className="field mt-1"
@@ -579,10 +590,10 @@ function Picker({
                 </option>
               ))}
             </select>
-          </label>
+          </label></details>
         ) : null}
         <label className="block">
-          State
+          {label} book
           <select
             className="field mt-1"
             value={slug}

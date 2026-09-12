@@ -8,6 +8,7 @@ const LABELS: Record<string, string> = {
   municipal: "City",
   gram: "Village",
   sources: "Method",
+  corrections: "Corrections",
   inflation: "Inflation",
   method: "Method",
   item: "Item",
@@ -71,6 +72,11 @@ export function crumbsFor(pathname: string): Crumb[] {
   let acc = "";
   for (const part of parts) {
     acc += `/${part}`;
+    if (parts.length > 1 && acc === `/${parts[0]}` && (parts[1] === "police" || parts[0] === "telangana")) {
+      crumbs.push({ to: "/states", label: "States" });
+      continue;
+    }
+    if (part === "item") continue;
     crumbs.push({ to: acc, label: labelFor(part) });
   }
   return crumbs;
@@ -79,7 +85,8 @@ export function crumbsFor(pathname: string): Crumb[] {
 export function titleFor(pathname: string, search = ""): string {
   if (pathname === "/") return "Data Libertarian — official books, cited rupees";
   if (pathname === "/inflation" || pathname.startsWith("/inflation/")) {
-    return "Inflation — observed rupees, not the CPI";
+    const parts = crumbsFor(pathname).slice(1).map((crumb) => crumb.label);
+    return `${parts.join(" · ")} — Data Libertarian`;
   }
   const crumbs = crumbsFor(pathname);
   const leaf = crumbs[crumbs.length - 1]?.label ?? "Ledger";
@@ -87,5 +94,6 @@ export function titleFor(pathname: string, search = ""): string {
     const q = new URLSearchParams(search).get("q");
     return q ? `Search “${q}” — Data Libertarian` : "Search — Data Libertarian";
   }
-  return `${leaf} — Data Libertarian`;
+  const context = pathname.split("/").filter(Boolean).map(labelFor).join(" · ");
+  return `${context || leaf} — Data Libertarian`;
 }

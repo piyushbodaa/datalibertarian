@@ -382,3 +382,11 @@ input[type="checkbox"] {
     background: var(--paper);
   }
 }
+
+/* Keep every destination visible on narrow screens. */
+@media (max-width: 639px) {
+  .nav-scroll { display: flex; flex-wrap: wrap; overflow: visible; }
+  .nav-link { padding: .65rem .6rem; }
+  .field { min-width: 0; max-width: 100%; }
+}
+:target { scroll-margin-top: 10rem; }
