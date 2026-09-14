@@ -855,3 +855,17 @@ Extract date: 2026-09-14. Every figure below was read off the rendered page imag
 | Chhattisgarh | AFS Vol-1 revenue p.4; capital file p.8 | thousands | 91,03,98,78 | 3,93,09,51 | 16,54,52,04 | 1,01,50 | capital: 4-capital_expenditure.pdf |
 
 Not opened / not isolable yet: Karnataka (Health is not in Expenditure Vol-1; needs the Health demand volume), Bihar (AFS PDF is a scan with no text layer — read page images next), Goa, Gujarat, Himachal, MP, Maharashtra, Odisha, Rajasthan, Sikkim, Tamil Nadu, UP, West Bengal.
+
+## Union Territory police — MHA Detailed Demands for Grants 2026-27 (Vol II-A / II-B)
+
+Extract date: 2026-09-14. ₹ in thousands. Printed rows "Total - Police (Major Head)" (2055) and "Total - Capital Outlay on Police (Major Head)" (4055), read off page images. Code: `src/data/union/ut-police.ts`.
+
+| Demand | UT | 2055: A 24-25 / BE 25-26 / RE 25-26 / BE 26-27 | 4055: same | Pages |
+|---|---|---|---|---|
+| 52 | Andaman & Nicobar Islands | 47,46,878 / 50,39,700 / 50,64,800 / 53,78,400 | 1,42,536 / 1,67,300 / 1,60,900 / 2,06,800 | A&NI 28, 198 |
+| 53 | Chandigarh | 80,86,829 / 87,29,300 / 92,29,300 / 89,29,800 (incl. 1,000 charged) | 2,80,415 / 8,32,600 / 4,79,600 / 7,60,500 | Chandigarh 21, 132 |
+| 54 | DNH & DD | 11,85,666 / 11,56,500 / 11,66,900 / 11,97,700 | 3,58,468 / 2,03,700 / 2,07,400 / 2,20,600 | DNH&DD 18, 94 |
+| 55 | Ladakh | 24,34,265 / 25,32,800 / 25,65,300 / 25,91,300 | 93,834 / 63,300 / 52,100 / 29,000 | Ladakh 30, 140 |
+| 56 | Lakshadweep | 8,03,238 / 7,94,400 / 7,94,400 / 8,47,100 | 40,491 / 57,200 / 45,400 / 35,300 | Lakshadweep 13, 79 |
+
+Not taken: the recoveries section repeats "Total - Police (Major Head)" with negative numbers (e.g. A&NI −15,650) — that is the deduct-recoveries side, not spend. Demands 57–59 (Delhi, J&K, Puducherry) are lump transfers with no 2055 line — still BLOCKED. The Notes on Demands (sbe52–56) do not print major heads and were not used.

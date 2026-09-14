@@ -18,6 +18,8 @@ const GOLD_IDS = [
   "tg-afs-2026-27",
   "tg-bib-2026-27",
   "ghmc-be-2025-26",
+  "mha-ddg-2026-27-vol2a",
+  "mha-ddg-2026-27-vol2b",
   "wb-demand68-2026-27",
   "gj-home-2026-27",
   "tn-demand22-2026-27",
@@ -323,6 +325,12 @@ export function SourcesPage() {
             <Link to="/telangana/health">Open Telangana Health</Link>
           </li>
           <li className="docket-slip text-ink/80">
+            <strong>Union Territory police</strong> — Andaman &amp; Nicobar, Chandigarh, Dadra &amp;
+            Nagar Haveli and Daman &amp; Diu, Ladakh and Lakshadweep from the Home Ministry’s
+            Detailed Demands for Grants 2026-27 (each Territory’s own demand, 52–56). Hero is the
+            printed Total - Police (Major Head) plus Total - Capital Outlay on Police. Not Demand 51.
+          </li>
+          <li className="docket-slip text-ink/80">
             <strong>State Health books</strong> — the same 2210 + 2211 + 4210 + 4211 rule applied to
             each state’s own Annual Financial Statement: Andhra Pradesh, Arunachal Pradesh, Assam,
             Chhattisgarh, Haryana, Jharkhand, Kerala, Manipur, Meghalaya, Mizoram, Nagaland, Punjab,
@@ -378,8 +386,8 @@ export function SourcesPage() {
             Karnataka and Gujarat pay-line depth — not typed. Summary only.
           </li>
           <li className="docket-slip text-ink/80">
-            J&amp;K, Ladakh, Puducherry, and other UTs — not read yet. Delhi Police is the Centre
-            door.
+            J&amp;K and Puducherry — their demands (58, 59) are lump transfers, not police lines.
+            Delhi Police is the Centre door.
           </li>
           <li className="docket-slip text-ink/80">
             BMC (Mumbai) and every corporation other than GHMC — not read yet. Mumbai Police is

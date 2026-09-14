@@ -230,6 +230,32 @@ export const citations: Record<string, Citation> = {
     notes:
       "Printed in crore. Budget Size (RE + CE) is revenue expenditure plus capital expenditure. The 2023-24 actual is printed as 7,119.00 while its parts print as 2,896.90 + 4,223.80 = 7,120.70; the printed total is kept. Table B 'Other Budget' (housing for the poor, XV FC NCAP grants) is not added in. No 2026-27 book is on ghmc.gov.in/ghmcbuget.aspx as of 14 September 2026; the press figure of ₹11,460 crore is not typed.",
   },
+  "mha-ddg-2026-27-vol2a": {
+    id: "mha-ddg-2026-27-vol2a",
+    title: "Detailed Demands for Grants 2026-27 of the Ministry of Home Affairs — Volume II-A (Demands 52 Andaman & Nicobar Islands, 53 Chandigarh)",
+    publisher: "Ministry of Home Affairs, Government of India",
+    fiscalYear: "2026-27",
+    url: "https://www.mha.gov.in/sites/default/files/2026-02/DDGVol2A2026-27_11022026.pdf",
+    pages: "A&NI pp. 28, 198; Chandigarh pp. 21, 132",
+    table: "Total - Police (Major Head) under 2055; Total - Capital Outlay on Police (Major Head) under 4055",
+    accessedOn: "2026-09-14",
+    short: "MHA DDG Vol II-A",
+    notes:
+      "₹ in thousands. Each UT is its own demand; the police lines are the Territory's police, not CAPF (Demand 51). Chandigarh 2055 includes ₹1,000 thousand charged in the estimate columns. Jails 2056 and 4059 public works are not taken.",
+  },
+  "mha-ddg-2026-27-vol2b": {
+    id: "mha-ddg-2026-27-vol2b",
+    title: "Detailed Demands for Grants 2026-27 of the Ministry of Home Affairs — Volume II-B (Demands 54 DNH & DD, 55 Ladakh, 56 Lakshadweep)",
+    publisher: "Ministry of Home Affairs, Government of India",
+    fiscalYear: "2026-27",
+    url: "https://www.mha.gov.in/sites/default/files/2026-02/DDGVol2B2026-27_11022026.pdf",
+    pages: "DNH&DD pp. 18, 94; Ladakh pp. 30, 140; Lakshadweep pp. 13, 79",
+    table: "Total - Police (Major Head) under 2055; Total - Capital Outlay on Police (Major Head) under 4055",
+    accessedOn: "2026-09-14",
+    short: "MHA DDG Vol II-B",
+    notes:
+      "₹ in thousands. Demands 57–59 (Delhi, J&K, Puducherry) are transfers, not police lines, and stay blocked.",
+  },
   "gj-home-2026-27": {
     id: "gj-home-2026-27",
     title: "Budget Estimates of Home Department for 2026-2027 — Demand 043 Police",

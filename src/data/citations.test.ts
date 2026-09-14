@@ -28,6 +28,7 @@ import { tg2501, tg2506, tg2515, tg4515, tgGramFunctional, tgPrrdDepartment, tgR
 import { ghmcCapital, ghmcRevenue, ghmcTotal, municipalBodies } from "./municipal/ghmc.ts";
 import { tgObject010 } from "./telangana/police.ts";
 import { healthBooks } from "./health/books.ts";
+import { utPoliceBooks } from "./union/ut-police.ts";
 import { compareRows, intersectYears, resolveSide } from "./compare/resolve.ts";
 import { delhiEstInfra } from "./union/delhi-police.ts";
 import { apLastFound, INDEX_ROWS, indexPoliceLines } from "./prs-index/afs-police.ts";
@@ -964,6 +965,47 @@ describe("State Health books — AFS 2210 + 2211 + 4210 + 4211", () => {
       if (j.slug === "telangana" || healthBooks.some((b) => b.slug === j.slug)) continue;
       assert.notEqual(j.heads?.health, "gold", j.slug);
       assert.equal(resolveSide(j.slug)?.bag["health-functional"], undefined, j.slug);
+    }
+  });
+});
+
+describe("Union Territory police — MHA Detailed Demands for Grants 2026-27", () => {
+  it("five UTs are GOLD from their own demand, cited, and reconcile", () => {
+    assert.equal(utPoliceBooks.length, 5);
+    for (const b of utPoliceBooks) {
+      const j = getJurisdiction(b.slug)!;
+      assert.equal(j.kind, "ut", b.slug);
+      assert.equal(j.tier, "gold", b.slug);
+      for (const item of [b.run2055, b.cap4055, b.functional]) {
+        assert.equal(item.amounts.length, 4);
+        for (const m of item.amounts) {
+          assert.ok(getCitation(m.citationId).url.startsWith("https://www.mha.gov.in/"), b.slug);
+          assert.ok(m.rupees > 0);
+        }
+      }
+      const be = pickAmt(b.functional, "2026-27", "be");
+      assert.equal(be.rupees, pickAmt(b.run2055, "2026-27", "be").rupees + pickAmt(b.cap4055, "2026-27", "be").rupees);
+      const side = resolveSide(b.slug)!;
+      assert.equal(side.tier, "gold");
+      assert.equal(side.entity.layer, "union");
+      assert.equal(side.bag["police-functional"], b.functional);
+    }
+  });
+
+  it("locks the printed totals read off the page images (₹ thousands)", () => {
+    const g = (slug: string) => utPoliceBooks.find((b) => b.slug === slug)!;
+    assert.equal(pickAmt(g("andaman-and-nicobar-islands").run2055, "2026-27", "be").rupees, 5_378_400_000);
+    assert.equal(pickAmt(g("andaman-and-nicobar-islands").cap4055, "2024-25", "actual").rupees, 142_536_000);
+    assert.equal(pickAmt(g("chandigarh").run2055, "2026-27", "be").rupees, 8_929_800_000);
+    assert.equal(pickAmt(g("chandigarh").cap4055, "2025-26", "be").rupees, 832_600_000);
+    assert.equal(pickAmt(g("dadra-and-nagar-haveli-and-daman-and-diu").functional, "2026-27", "be").rupees, 1_197_700_000 + 220_600_000);
+    assert.equal(pickAmt(g("ladakh").run2055, "2025-26", "re").rupees, 2_565_300_000);
+    assert.equal(pickAmt(g("lakshadweep").cap4055, "2026-27", "be").rupees, 35_300_000);
+  });
+
+  it("keeps Delhi, J&K and Puducherry off the police ledger", () => {
+    for (const slug of ["delhi", "jammu-and-kashmir", "puducherry"]) {
+      assert.notEqual(getJurisdiction(slug)?.tier, "gold", slug);
     }
   });
 });

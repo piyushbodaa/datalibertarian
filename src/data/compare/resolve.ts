@@ -36,6 +36,7 @@ import { tgHealthCap, tgHealthFunctional, tgHealthRun } from "../telangana/healt
 import { tg2515, tg4515 } from "../telangana/gram";
 import { municipalBodies } from "../municipal/ghmc";
 import { getHealthBook } from "../health/books";
+import { getUtPoliceBook, utPoliceBooks } from "../union/ut-police";
 import { up2055Voted, up4055, upFunctional, upSalariesDesk } from "../uttar-pradesh/police";
 import { wb2055Net, wb4055, wbFunctional, wbSalariesDesk } from "../west-bengal/police";
 import { unionTotalExpenditure } from "../union/budget-at-a-glance";
@@ -78,6 +79,12 @@ export const COMPARE_ENTITIES: CompareEntity[] = [
       layer: "state" as const,
       href: `/${j.slug}/police`,
     })),
+  ...utPoliceBooks.map((b) => ({
+    slug: b.slug,
+    name: getJurisdiction(b.slug)?.name ?? b.slug,
+    layer: "union" as const,
+    href: `/${b.slug}/police`,
+  })),
   ...municipalBodies.map((m) => ({
     slug: m.slug,
     name: m.name,
@@ -138,6 +145,10 @@ export function resolveSide(slug: string | undefined): CompareSide | undefined {
   const cp = commissionerates.find((c) => c.slug === slug);
   if (cp) {
     return { entity, tier: "gold", bag: { "police-functional": cp.combined } };
+  }
+  const ut = getUtPoliceBook(slug);
+  if (ut) {
+    return { entity, tier: "gold", bag: { "police-functional": ut.functional, "2055": ut.run2055, "4055": ut.cap4055 } };
   }
   const civic = municipalBodies.find((m) => m.slug === slug);
   if (civic) {

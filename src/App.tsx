@@ -46,6 +46,7 @@ const MunicipalBodyPage = lazy(() =>
   import("./pages/MunicipalBody").then((m) => ({ default: m.MunicipalBodyPage })),
 );
 const TgHealthPage = lazy(() => import("./pages/TgHealth").then((m) => ({ default: m.TgHealthPage })));
+const UtPolicePage = lazy(() => import("./pages/UtPolice").then((m) => ({ default: m.UtPolicePage })));
 const StateHealthPage = lazy(() => import("./pages/StateHealth").then((m) => ({ default: m.StateHealthPage })));
 const PolicePage = lazy(() => import("./pages/Police").then((m) => ({ default: m.PolicePage })));
 const TnPolicePage = lazy(() => import("./pages/TnPolice").then((m) => ({ default: m.TnPolicePage })));
@@ -149,6 +150,11 @@ export default function App() {
           <Route path="/himachal-pradesh/police" element={<HpPolicePage />} />
           <Route path="/bihar/police" element={<BrPolicePage />} />
           <Route path="/states/maharashtra/police" element={<Navigate to="/maharashtra/police" replace />} />
+          <Route path="/andaman-and-nicobar-islands/police" element={<UtPolicePage />} />
+          <Route path="/chandigarh/police" element={<UtPolicePage />} />
+          <Route path="/dadra-and-nagar-haveli-and-daman-and-diu/police" element={<UtPolicePage />} />
+          <Route path="/ladakh/police" element={<UtPolicePage />} />
+          <Route path="/lakshadweep/police" element={<UtPolicePage />} />
           <Route path="/:slug/health" element={<StateHealthPage />} />
           <Route path="/:slug/police" element={<EmptyPolicePage />} />
           <Route path="/corrections" element={<CorrectionsPage />} />
