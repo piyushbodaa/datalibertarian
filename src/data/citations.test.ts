@@ -23,6 +23,10 @@ import {
   unionTotalExpenditure,
 } from "./union/budget-at-a-glance.ts";
 import { LAYERS } from "./layers.ts";
+import { tg2210, tg2211, tg4210, tg4211, tgHealthCap, tgHealthDepartment, tgHealthFunctional, tgHealthRun } from "./telangana/health.ts";
+import { tg2501, tg2506, tg2515, tg4515, tgGramFunctional, tgPrrdDepartment, tgRuralRevenueTotal } from "./telangana/gram.ts";
+import { ghmcCapital, ghmcRevenue, ghmcTotal, municipalBodies } from "./municipal/ghmc.ts";
+import { tgObject010 } from "./telangana/police.ts";
 import { compareRows, intersectYears, resolveSide } from "./compare/resolve.ts";
 import { delhiEstInfra } from "./union/delhi-police.ts";
 import { apLastFound, INDEX_ROWS, indexPoliceLines } from "./prs-index/afs-police.ts";
@@ -166,6 +170,24 @@ const allMoney = [
   ...rj4055.amounts,
   ...rjFunctional.amounts,
   ...rjDemand18.amounts,
+  ...tg2210.amounts,
+  ...tg2211.amounts,
+  ...tg4210.amounts,
+  ...tg4211.amounts,
+  ...tgHealthRun.amounts,
+  ...tgHealthCap.amounts,
+  ...tgHealthFunctional.amounts,
+  ...tgHealthDepartment.amounts,
+  ...tg2501.amounts,
+  ...tg2506.amounts,
+  ...tg2515.amounts,
+  ...tg4515.amounts,
+  ...tgGramFunctional.amounts,
+  ...tgRuralRevenueTotal.amounts,
+  ...tgPrrdDepartment.amounts,
+  ...ghmcTotal.amounts,
+  ...ghmcRevenue.amounts,
+  ...ghmcCapital.amounts,
   ...hp2055.amounts,
   ...hp4055.amounts,
   ...hpFunctional.amounts,
@@ -228,6 +250,9 @@ describe("every figure has a living citation", () => {
       "tg-law-home-2026-27-hyd",
       "tg-law-home-2026-27-cyberabad",
       "tg-law-home-2026-27-hod",
+      "tg-afs-2026-27",
+      "tg-bib-2026-27",
+      "ghmc-be-2025-26",
       "wb-demand68-2026-27",
       "gj-home-2026-27",
       "tn-demand22-2026-27",
@@ -759,7 +784,7 @@ describe("GOLD modules copy pack figures", () => {
     assert.ok(debt.crore > total.crore);
     assert.ok(!debt.citationId.startsWith("prs-"));
     assert.equal(LAYERS.length, 4);
-    assert.ok(LAYERS.filter((l) => l.empty).length >= 2);
+    assert.equal(LAYERS.filter((l) => l.empty).length, 0);
   });
 
   it("compare resolver uses cited GOLD only", () => {
@@ -786,5 +811,102 @@ describe("GOLD modules copy pack figures", () => {
     assert.ok(years.some((y) => y.fiscalYear === "2026-27" && y.series === "be"));
     const civic = resolveSide("municipal")!;
     assert.equal(civic.tier, "empty");
+    const ghmc = resolveSide("ghmc")!;
+    assert.equal(ghmc.tier, "gold");
+    assert.equal(ghmc.bag["civic-total"], ghmcTotal);
+    assert.equal(resolveSide("bmc")!.tier, "empty");
+    const gram = resolveSide("telangana-gram")!;
+    assert.equal(gram.tier, "gold");
+    assert.equal(gram.bag["2515"], tg2515);
+    const tg = resolveSide("telangana")!;
+    assert.equal(tg.bag["health-functional"], tgHealthFunctional);
+    assert.equal(tg.bag["police-functional"], tgObject010);
+  });
+});
+
+type Amt = { fiscalYear: string; series: string; rupees: number; crore: number; citationId: string };
+const pickAmt = (item: { amounts: Amt[] }, fy: string, series: string) =>
+  item.amounts.find((a) => a.fiscalYear === fy && a.series === series)!;
+
+describe("Telangana Health - AFS 2210 + 2211 + 4210 + 4211", () => {
+  const be = (item: { amounts: Amt[] }) => pickAmt(item, "2026-27", "be");
+
+  it("types the printed lakhs and matches the printed Total (b) rows", () => {
+    assert.equal(be(tg2210).rupees, 96_900_135_000);
+    assert.equal(be(tg2211).rupees, 23_591_285_000);
+    assert.equal(be(tgHealthRun).rupees, 120_491_420_000);
+    assert.equal(be(tg4210).rupees, 18_558_933_000);
+    assert.equal(be(tg4211).rupees, 920_400_000);
+    assert.equal(be(tgHealthCap).rupees, 19_479_333_000);
+    assert.equal(be(tgHealthCap).rupees, be(tg4210).rupees + be(tg4211).rupees);
+    assert.equal(
+      pickAmt(tgHealthCap, "2024-25", "actual").rupees,
+      pickAmt(tg4210, "2024-25", "actual").rupees + pickAmt(tg4211, "2024-25", "actual").rupees,
+    );
+    assert.equal(be(tgHealthFunctional).rupees, be(tgHealthRun).rupees + be(tgHealthCap).rupees);
+    assert.equal(Math.round(be(tgHealthFunctional).crore * 100) / 100, 13997.08);
+    assert.ok(!be(tgHealthFunctional).citationId.startsWith("prs-"));
+  });
+
+  it("does not type 4211 for the two 2025-26 columns printed as dots", () => {
+    assert.equal(tg4211.amounts.find((a) => a.fiscalYear === "2025-26"), undefined);
+  });
+
+  it("keeps the department total apart from the head total", () => {
+    assert.equal(be(tgHealthDepartment).crore, 13679);
+    assert.ok(be(tgHealthDepartment).crore < be(tgHealthFunctional).crore);
+    assert.notEqual(be(tgHealthDepartment).citationId, be(tgHealthFunctional).citationId);
+  });
+
+  it("leaves Telangana Police untouched", () => {
+    assert.equal(be(tgObject010).crore, 8852.93);
+  });
+});
+
+describe("Telangana villages - AFS 2515 + 4515", () => {
+  const be = (item: { amounts: Amt[] }) => pickAmt(item, "2026-27", "be");
+
+  it("types the printed lakhs and matches the printed rural Total (b)", () => {
+    assert.equal(be(tg2515).rupees, 62_273_905_000);
+    assert.equal(be(tg4515).rupees, 31_582_320_000);
+    assert.equal(be(tgGramFunctional).rupees, be(tg2515).rupees + be(tg4515).rupees);
+    assert.equal(Math.round(be(tgGramFunctional).crore * 100) / 100, 9385.62);
+    assert.equal(be(tgRuralRevenueTotal).rupees, 77_641_246_000);
+    assert.equal(pickAmt(tgRuralRevenueTotal, "2024-25", "actual").rupees, 31_061_879_000);
+    assert.equal(be(tg2501).rupees + be(tg2506).rupees + be(tg2515).rupees, be(tgRuralRevenueTotal).rupees);
+  });
+
+  it("keeps the PR&RD department total apart", () => {
+    assert.equal(be(tgPrrdDepartment).crore, 33688);
+    assert.ok(be(tgPrrdDepartment).crore > be(tgGramFunctional).crore);
+  });
+});
+
+describe("GHMC - Budget Estimates 2025-26", () => {
+  it("budget size equals revenue + capital for every estimate column", () => {
+    for (const [fy, series] of [["2024-25", "be"], ["2024-25", "re"], ["2025-26", "be"]] as const) {
+      assert.equal(
+        pickAmt(ghmcTotal, fy, series).rupees,
+        pickAmt(ghmcRevenue, fy, series).rupees + pickAmt(ghmcCapital, fy, series).rupees,
+      );
+    }
+    assert.equal(pickAmt(ghmcTotal, "2025-26", "be").crore, 8440);
+    assert.equal(pickAmt(ghmcRevenue, "2025-26", "be").crore, 4000);
+    assert.equal(pickAmt(ghmcCapital, "2025-26", "be").crore, 4440);
+  });
+
+  it("keeps the printed 2023-24 actual even though its parts differ by 1.70 crore", () => {
+    assert.equal(pickAmt(ghmcTotal, "2023-24", "actual").crore, 7119);
+    const parts = pickAmt(ghmcRevenue, "2023-24", "actual").crore + pickAmt(ghmcCapital, "2023-24", "actual").crore;
+    assert.equal(Math.round(parts * 100) / 100, 7120.7);
+  });
+
+  it("has no 2026-27 rupee and says why", () => {
+    assert.equal(ghmcTotal.amounts.find((a) => a.fiscalYear === "2026-27"), undefined);
+    const ghmc = municipalBodies.find((m) => m.slug === "ghmc")!;
+    assert.ok(ghmc.missingYears.some((g) => g.fiscalYear === "2026-27"));
+    const bmc = municipalBodies.find((m) => m.slug === "bmc")!;
+    assert.equal(bmc.tier, "empty");
+    assert.equal(bmc.total, undefined);
   });
 });

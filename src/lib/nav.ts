@@ -3,6 +3,9 @@ const LABELS: Record<string, string> = {
   search: "Search",
   union: "Centre",
   police: "Police",
+  health: "Health",
+  ghmc: "GHMC",
+  bmc: "BMC",
   "delhi-police": "Delhi Police",
   states: "States",
   municipal: "City",
@@ -72,7 +75,7 @@ export function crumbsFor(pathname: string): Crumb[] {
   let acc = "";
   for (const part of parts) {
     acc += `/${part}`;
-    if (parts.length > 1 && acc === `/${parts[0]}` && (parts[1] === "police" || parts[0] === "telangana")) {
+    if (parts.length > 1 && acc === `/${parts[0]}` && (parts[1] === "police" || parts[1] === "health" || parts[0] === "telangana")) {
       crumbs.push({ to: "/states", label: "States" });
       continue;
     }

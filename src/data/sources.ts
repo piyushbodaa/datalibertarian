@@ -191,6 +191,45 @@ export const citations: Record<string, Citation> = {
     notes:
       "Amounts copied from phase1. Page numbers for these HoDs were not in the paste — not invented. Missing year-columns are gaps, not zeros.",
   },
+  "tg-afs-2026-27": {
+    id: "tg-afs-2026-27",
+    title: "Telangana Budget 2026-27 — Annual Financial Statement & Explanatory Memorandum",
+    publisher: "Finance Department, Government of Telangana",
+    fiscalYear: "2026-27",
+    url: "https://www.telangana.gov.in/wp-content/uploads/2026/05/Annual_Financial_Statement__Explanatory_Memorandum_1773980967_.pdf",
+    pages: "Statement D pp. 9–11 (revenue); Statement E pp. 14–15 (capital)",
+    table: "Major heads 2210, 2211, 4210, 4211 (Health); 2501, 2506, 2515, 4515 (Rural Development); 2217 (Urban Development)",
+    accessedOn: "2026-09-14",
+    short: "Telangana AFS 2026-27",
+    notes:
+      "Printed in lakhs as e.g. 9690,01.35; commas stripped, crore = lakhs ÷ 100. Health running = 2210 + 2211 and equals the printed Total (b) on p. 9; buildings = 4210 + 4211 and equals the printed Total (b) on p. 14. 4211 is printed '..' for both 2025-26 columns and is not typed as zero. Rural hero = 2515 + 4515. 2501 and 2506 are shown separately; MGNREGS wages are not in these heads. Department grand totals in the Budget in Brief are larger than these heads and are not the hero.",
+  },
+  "tg-bib-2026-27": {
+    id: "tg-bib-2026-27",
+    title: "Telangana Budget 2026-27 — Budget in Brief",
+    publisher: "Finance Department, Government of Telangana",
+    fiscalYear: "2026-27",
+    url: "https://www.telangana.gov.in/wp-content/uploads/2026/05/Budget-in-Brief.pdf",
+    pages: "p. 18",
+    table: "Table 11 — Secretariat Department wise Budget 2026-27 (Rs. in crore)",
+    accessedOn: "2026-09-14",
+    short: "Telangana Budget in Brief",
+    notes:
+      "Department grand totals: Health, Medical & Family Welfare 13,679; Panchayat Raj and Rural Development 33,688; Municipal Administration & Urban Development 17,907. A department total mixes many major heads and is shown only as context — never as the Health or village hero.",
+  },
+  "ghmc-be-2025-26": {
+    id: "ghmc-be-2025-26",
+    title: "GHMC Budget Estimates 2025-26 & Revised Budget Estimates 2024-25",
+    publisher: "Greater Hyderabad Municipal Corporation",
+    fiscalYear: "2025-26",
+    url: "https://www.ghmc.gov.in/Budget/GHMC%20BUdget%202025-26%20Final%20for%20Printing.pdf",
+    pages: "p. 27",
+    table: "XIII Budget Highlights FY 2025-26 — A. GHMC Budget (Amount in Rs Cr)",
+    accessedOn: "2026-09-14",
+    short: "GHMC budget 2025-26",
+    notes:
+      "Printed in crore. Budget Size (RE + CE) is revenue expenditure plus capital expenditure. The 2023-24 actual is printed as 7,119.00 while its parts print as 2,896.90 + 4,223.80 = 7,120.70; the printed total is kept. Table B 'Other Budget' (housing for the poor, XV FC NCAP grants) is not added in. No 2026-27 book is on ghmc.gov.in/ghmcbuget.aspx as of 14 September 2026; the press figure of ₹11,460 crore is not typed.",
+  },
   "gj-home-2026-27": {
     id: "gj-home-2026-27",
     title: "Budget Estimates of Home Department for 2026-2027 — Demand 043 Police",

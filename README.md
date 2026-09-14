@@ -1,12 +1,12 @@
 # Data Libertarian
 
-A public ledger of government spending in India. Doors: **Union · States · Municipal**.
+A public ledger of government spending in India. Doors: **Union · States · Municipal · Gram**.
 
 This is not an NGO or grant tracker. It follows taxpayer money through official books.
 
-**Live ledgers:** Maharashtra Police (2055 + 4055); Union Demand 51 Police.
+**Live ledgers:** Union Demand 51 Police; Police (2055 + 4055) for 26 states from their own books; Telangana Health (2210 + 2211 + 4210 + 4211); Telangana villages (2515 + 4515); GHMC Hyderabad (2025-26 book); an inflation bulletin.
 
-**Not live:** other states (honest empty doors); municipal totals.
+**Not live (honest empty doors):** Madhya Pradesh and UT police; BMC and every other corporation; Health and village heads outside Telangana; GHMC 2026-27 until a book is published.
 
 ## Run
 

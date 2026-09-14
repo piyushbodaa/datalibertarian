@@ -32,6 +32,9 @@ import { mz2055, mz4055, mzFunctional } from "../mizoram/police";
 import { nl2055, nl4055, nlFunctional } from "../nagaland/police";
 import { tr2055, tr4055, trFunctional } from "../tripura/police";
 import { tgObject010 } from "../telangana/police";
+import { tgHealthCap, tgHealthFunctional, tgHealthRun } from "../telangana/health";
+import { tg2515, tg4515 } from "../telangana/gram";
+import { municipalBodies } from "../municipal/ghmc";
 import { up2055Voted, up4055, upFunctional, upSalariesDesk } from "../uttar-pradesh/police";
 import { wb2055Net, wb4055, wbFunctional, wbSalariesDesk } from "../west-bengal/police";
 import { unionTotalExpenditure } from "../union/budget-at-a-glance";
@@ -74,8 +77,15 @@ export const COMPARE_ENTITIES: CompareEntity[] = [
       layer: "state" as const,
       href: `/${j.slug}/police`,
     })),
-  { slug: "municipal", name: "City", layer: "municipal", href: "/municipal" },
-  { slug: "gram", name: "Village", layer: "gram", href: "/gram" },
+  ...municipalBodies.map((m) => ({
+    slug: m.slug,
+    name: m.name,
+    layer: "municipal" as const,
+    href: `/municipal/${m.slug}`,
+  })),
+  { slug: "municipal", name: "City (no book picked)", layer: "municipal", href: "/municipal" },
+  { slug: "telangana-gram", name: "Telangana villages", layer: "gram", href: "/gram" },
+  { slug: "gram", name: "Village (no book picked)", layer: "gram", href: "/gram" },
   ...commissionerates.map((c) => ({
     slug: c.slug,
     name: c.name,
@@ -124,8 +134,22 @@ export function resolveSide(slug: string | undefined): CompareSide | undefined {
   if (cp) {
     return { entity, tier: "gold", bag: { "police-functional": cp.combined } };
   }
+  const civic = municipalBodies.find((m) => m.slug === slug);
+  if (civic) {
+    if (civic.tier === "gold" && civic.total && civic.revenue && civic.capital) {
+      return {
+        entity,
+        tier: "gold",
+        bag: { "civic-total": civic.total, "civic-revenue": civic.revenue, "civic-capital": civic.capital },
+      };
+    }
+    return { entity, tier: "empty", bag: {}, note: civic.nextSearch ?? "We have not read this book yet." };
+  }
+  if (slug === "telangana-gram") {
+    return { entity, tier: "gold", bag: { "2515": tg2515, "4515": tg4515 } };
+  }
   if (entity.layer === "municipal" || entity.layer === "gram") {
-    return { entity, tier: "empty", bag: {}, note: "We have not read this book yet." };
+    return { entity, tier: "empty", bag: {}, note: "Pick a named city or state book." };
   }
 
   if (slug === "union-total") {
@@ -177,6 +201,9 @@ export function resolveSide(slug: string | undefined): CompareSide | undefined {
   if (slug === "telangana") {
     return goldState(slug, {
       "police-functional": tgObject010,
+      "health-functional": tgHealthFunctional,
+      "health-run": tgHealthRun,
+      "health-cap": tgHealthCap,
     });
   }
   if (slug === "gujarat") {

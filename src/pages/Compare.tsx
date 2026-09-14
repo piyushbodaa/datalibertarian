@@ -57,7 +57,9 @@ export function ComparePage() {
   }, [left, right]);
 
   const yearOk = intersection.some((y) => y.fiscalYear === year && y.series === series);
-  const fallback = intersection.find((y) => y.series === series) ?? intersection[0];
+  const latest = (ys: typeof intersection) =>
+    [...ys].sort((a, b) => b.fiscalYear.localeCompare(a.fiscalYear))[0];
+  const fallback = latest(intersection.filter((y) => y.series === series)) ?? latest(intersection);
   const useYear = yearOk ? year : fallback?.fiscalYear;
   const useSeries = yearOk ? series : fallback?.series;
 

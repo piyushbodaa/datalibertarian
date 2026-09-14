@@ -42,6 +42,11 @@ const TrPolicePage = lazy(() => import("./pages/TrPolice").then((m) => ({ defaul
 const MunicipalPage = lazy(() =>
   import("./pages/Municipal").then((m) => ({ default: m.MunicipalPage })),
 );
+const MunicipalBodyPage = lazy(() =>
+  import("./pages/MunicipalBody").then((m) => ({ default: m.MunicipalBodyPage })),
+);
+const TgHealthPage = lazy(() => import("./pages/TgHealth").then((m) => ({ default: m.TgHealthPage })));
+const EmptyHeadPage = lazy(() => import("./pages/EmptyHead").then((m) => ({ default: m.EmptyHeadPage })));
 const PolicePage = lazy(() => import("./pages/Police").then((m) => ({ default: m.PolicePage })));
 const TnPolicePage = lazy(() => import("./pages/TnPolice").then((m) => ({ default: m.TnPolicePage })));
 const SourcesPage = lazy(() => import("./pages/Sources").then((m) => ({ default: m.SourcesPage })));
@@ -108,11 +113,13 @@ export default function App() {
           <Route path="/union/delhi-police" element={<DelhiPolicePage />} />
           <Route path="/states" element={<StatesPage />} />
           <Route path="/municipal" element={<MunicipalPage />} />
+          <Route path="/municipal/:slug" element={<MunicipalBodyPage />} />
           <Route path="/gram" element={<GramPage />} />
           <Route path="/sources" element={<SourcesPage />} />
           <Route path="/maharashtra/police" element={<PolicePage />} />
           <Route path="/uttar-pradesh/police" element={<UpPolicePage />} />
           <Route path="/telangana/police" element={<TgPolicePage />} />
+          <Route path="/telangana/health" element={<TgHealthPage />} />
           <Route path="/telangana/commissionerates" element={<TgCommissioneratesPage />} />
           <Route path="/telangana/:cp/stations/:station" element={<TgStationEmptyPage />} />
           <Route path="/telangana/:cp/stations" element={<TgStationIndexPage />} />
@@ -142,6 +149,7 @@ export default function App() {
           <Route path="/himachal-pradesh/police" element={<HpPolicePage />} />
           <Route path="/bihar/police" element={<BrPolicePage />} />
           <Route path="/states/maharashtra/police" element={<Navigate to="/maharashtra/police" replace />} />
+          <Route path="/:slug/health" element={<EmptyHeadPage head="health" />} />
           <Route path="/:slug/police" element={<EmptyPolicePage />} />
           <Route path="/corrections" element={<CorrectionsPage />} />
           <Route path="*" element={<NotFoundPage />} />

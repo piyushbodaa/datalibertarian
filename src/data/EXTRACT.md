@@ -754,3 +754,81 @@ Printed unit: **thousands**. Crore = thousands ÷ 10,000.
 | Budget 2026-27 | 22,00,100 | 220.0100 |
 
 Functional Police BE 2026-27 = 7,484.5100 + 220.0100 = **7,704.5200**. Jails 2056 and 4059 public works are not Police. Vol II Demands URL not found. PRS 2025-26 ₹7,588 is INDEX.
+
+## Telangana — AFS 2026-27, Health and Rural Development heads
+
+Extract date: 2026-09-14
+
+Ledger: https://www.telangana.gov.in/wp-content/uploads/2026/05/Annual_Financial_Statement__Explanatory_Memorandum_1773980967_.pdf
+Context only: https://www.telangana.gov.in/wp-content/uploads/2026/05/Budget-in-Brief.pdf (Table 11, p. 18, Rs. in crore)
+
+Printed unit: **lakhs**, written as `9690,01.35` (9690 crore 01.35 lakh). Strip commas → lakhs. Crore = lakhs ÷ 100. Page numbers below are the printed ones (PDF page = printed + 7).
+
+### Statement D (Revenue) — B(b) Health and Family Welfare — printed p. 9
+
+| Head | Actuals 2024-25 | Budget 2025-26 | Revised 2025-26 | Budget 2026-27 |
+|---|---|---|---|---|
+| 2210 Medical and Public Health | 6278,71.85 | 8291,28.85 | 8138,53.47 | 9690,01.35 |
+| 2211 Family Welfare | 2655,54.96 | 2478,91.60 | 2319,95.32 | 2359,12.85 |
+| Printed Total (b) | 8934,26.81 | 10770,20.45 | 10458,48.79 | 12049,14.20 |
+
+Desk-sum 2210 + 2211 equals the printed Total (b) in every column.
+
+### Statement E (Capital) — B(b) Health and Family Welfare — printed p. 14
+
+| Head | Actuals 2024-25 | Budget 2025-26 | Revised 2025-26 | Budget 2026-27 |
+|---|---|---|---|---|
+| 4210 Capital Outlay on Medical and Public Health | 891,70.61 | 1972,24.56 | 1972,24.56 | 1855,89.33 |
+| 4211 Capital Outlay on Family Welfare | 176,46.37 | .. | .. | 92,04.00 |
+| Printed Total (b) | 1068,16.98 | 1972,24.56 | 1972,24.56 | 1947,93.33 |
+
+4211 is printed `..` for both 2025-26 columns — not typed, not ₹0. The buildings line is typed from the printed Total (b), which equals 4210 + 4211 wherever 4211 prints.
+
+Functional Health BE 2026-27 = 12,049.1420 + 1,947.9333 = **13,997.0753 crore**.
+
+Not taken: Demand XVI Medical and Health volume totals (Establishment voted 6984,40.66 + Schemes voted 6202,81.62 lakhs) — a demand mixes 2251 Secretariat and centrally sponsored slices and its per-HOD tables did not extract cleanly. Budget in Brief department total ₹13,679 crore is shown as context, not the hero.
+
+### Statement D (Revenue) — C(b) Rural Development — printed p. 11
+
+| Head | Actuals 2024-25 | Budget 2025-26 | Revised 2025-26 | Budget 2026-27 |
+|---|---|---|---|---|
+| 2501 Special Programmes for Rural Development | 595,86.84 | 1127,38.59 | 1034,45.07 | 1518,46.88 |
+| 2506 Land Reforms | 17,52.81 | 15,54.98 | 15,54.98 | 18,26.53 |
+| 2515 Other Rural Development Programmes | 2492,79.14 | 5718,26.82 | 4632,34.69 | 6227,39.05 |
+| Printed Total (b) | 3106,18.79 | 6861,20.39 | 5682,34.74 | 7764,12.46 |
+
+Desk-sum 2501 + 2506 + 2515 equals the printed Total (b) in every column. 2505 Rural Employment is not printed as a row.
+
+### Statement E (Capital) — C(b) Capital Account of Rural Development — printed p. 15
+
+| Head | Actuals 2024-25 | Budget 2025-26 | Revised 2025-26 | Budget 2026-27 |
+|---|---|---|---|---|
+| 4515 Capital Outlay on Other Rural Development Programmes | 2328,36.63 | 3859,52.26 | 3859,52.26 | 3158,23.20 |
+
+Village hero BE 2026-27 = 2515 + 4515 = 6,227.3905 + 3,158.2320 = **9,385.6225 crore**. Not the PR&RD department (₹33,688 crore, Budget in Brief), not MGNREGS wages, not a per-panchayat share.
+
+Also read for a later trace stop, not typed: 2217 Urban Development (p. 10) 4401,87.30 | 12731,41.98 | 10508,30.98 | 12940,96.61; 4217 (p. 14) 316,90.30 | .. | .. | 280,00.00.
+
+## GHMC — Budget Estimates 2025-26 & Revised Budget Estimates 2024-25
+
+Extract date: 2026-09-14
+
+Ledger: https://www.ghmc.gov.in/Budget/GHMC%20BUdget%202025-26%20Final%20for%20Printing.pdf (linked from https://www.ghmc.gov.in/ghmcbuget.aspx; byte-identical to the data.opencity.in mirror)
+
+Printed unit: **crore** ("Amount in Rs Cr").
+
+### XIII Budget Highlights FY 2025-26 — A. GHMC Budget — printed p. 27
+
+| Row | Actuals 2023-24 | BE 2024-25 | RBE 2024-25 | BE 2025-26 |
+|---|---|---|---|---|
+| Revenue Expenditure | 2,896.90 | 3,458.00 | 3,874.00 | 4,000.00 |
+| Capital Expenditure | 4,223.80 | 4,479.00 | 4,244.00 | 4,440.00 |
+| Budget Size (RE + CE) | 7,119.00 | 7,937.00 | 8,118.00 | 8,440.00 |
+
+Hero = Budget Size BE 2025-26 = **8,440.00 crore**. The three estimate columns reconcile (RE + CE = size). The 2023-24 actual is printed 7,119.00 while its parts add to 7,120.70; the printed size is typed and the mismatch is noted in the citation.
+
+Not taken: Table B "Other Budget" (housing for the poor 300.00; XV FC NCAP grants 140.00 BE 2025-26) — printed outside the GHMC budget size. Revenue income and capital receipts — receipts, not spend.
+
+2026-27: the council-approved budget (₹11,460 crore in press reports) has no book on ghmc.gov.in/ghmcbuget.aspx as of 2026-09-14. EMPTY, not ₹0. Next search: ghmc.gov.in/ghmcbuget.aspx for "GHMC Budget 2026-27".
+
+BMC (Mumbai): not opened. Next search: portal.mcgm.gov.in Budget Estimates 2026-27.

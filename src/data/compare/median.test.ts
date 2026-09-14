@@ -50,6 +50,10 @@ describe("desk-median of GOLD compare peers", () => {
     const civic = peersForField("layer", "municipal", "civic-total", "2026-27", "be");
     assert.equal(civic.length, 0);
     assert.equal(medianOf(civic, { ...META, layer: "municipal", fieldId: "civic-total" }), null);
+    const civic2526 = peersForField("layer", "municipal", "civic-total", "2025-26", "be");
+    assert.equal(civic2526.length, 1);
+    assert.equal(civic2526[0].slug, "ghmc");
+    assert.equal(medianOf(civic2526, { ...META, layer: "municipal", fieldId: "civic-total", fiscalYear: "2025-26" })?.thin, true);
   });
 
   it("odd N uses the exact middle Money.rupees", () => {
@@ -185,8 +189,9 @@ describe("desk-median of GOLD compare peers", () => {
     assert.ok(functional.left && functional.right && functional.mid);
     assert.ok(!functional.mid.peers.some((p) => p.slug === "maharashtra"));
     assert.equal(getCompareEntity("mumbai"), undefined);
-    assert.equal(getCompareEntity("bmc"), undefined);
-    assert.equal(getCompareEntity("ghmc"), undefined);
+    assert.equal(getCompareEntity("bmc")?.layer, "municipal");
+    assert.equal(getCompareEntity("ghmc")?.layer, "municipal");
+    assert.equal(resolveSide("bmc")?.tier, "empty");
   });
 
   it("thin peer set is labelled when N < 3, still a number when N ≥ 1", () => {

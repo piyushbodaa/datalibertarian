@@ -119,7 +119,13 @@ export function HomePage() {
           </li>
         ))}
       </ul>
-      <p className="mt-8 text-sm text-ink/70">Coverage: <Link to="/union/police">Centre police</Link> and state police books. <Link to="/municipal">City</Link> and <Link to="/gram">village</Link> budgets have no figures yet. Missing is not zero. Union and state totals must not be added into an India total.</p>
+      <h2 className="mt-12 font-display text-xl font-semibold tracking-tight">Other doors</h2>
+      <ul className="mt-4 grid grid-cols-1 gap-x-6 gap-y-2 sm:grid-cols-3" aria-label="Other doors">
+        <li><Link to="/telangana/health" className="inline-flex min-h-11 items-center text-ink no-underline hover:text-rust">Telangana Health</Link></li>
+        <li><Link to="/municipal/ghmc" className="inline-flex min-h-11 items-center text-ink no-underline hover:text-rust">GHMC (Hyderabad)</Link></li>
+        <li><Link to="/gram" className="inline-flex min-h-11 items-center text-ink no-underline hover:text-rust">Telangana villages</Link></li>
+      </ul>
+      <p className="mt-8 text-sm text-ink/70">Coverage: <Link to="/union/police">Centre police</Link> and state police books; one state health book; one <Link to="/municipal">city</Link> book; one state <Link to="/gram">village</Link> head. Missing is not zero. Union, state, city and village totals must not be added into an India total.</p>
       <section className="mt-10 text-sm" aria-label="Sources for this overview">
         <h2 className="font-display text-xl">Sources for this overview</h2>
         <ol className="mt-4 list-decimal space-y-4 pl-5">{citeIds.map((id) => <CitationFootnote key={id} citationId={id} />)}</ol>

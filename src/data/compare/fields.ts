@@ -14,7 +14,13 @@ export type CompareFieldId =
   | "115"
   | "mixed-grant"
   | "civic-total"
-  | "2515";
+  | "civic-revenue"
+  | "civic-capital"
+  | "2515"
+  | "4515"
+  | "health-functional"
+  | "health-run"
+  | "health-cap";
 
 export type CompareField = {
   id: CompareFieldId;
@@ -34,8 +40,14 @@ export const COMPARE_FIELDS: CompareField[] = [
   { id: "108", label: "Headquarters", layer: "state" },
   { id: "115", label: "Modernisation", layer: "state" },
   { id: "mixed-grant", label: "Home grant (not only police)", layer: "any", notPoliceOnly: true },
+  { id: "health-functional", label: "Health", layer: "state" },
+  { id: "health-run", label: "Running hospitals", layer: "state" },
+  { id: "health-cap", label: "Hospital buildings and gear", layer: "state" },
   { id: "civic-total", label: "City total", layer: "municipal" },
-  { id: "2515", label: "Village grant", layer: "gram" },
+  { id: "civic-revenue", label: "Running the city", layer: "municipal" },
+  { id: "civic-capital", label: "Building the city", layer: "municipal" },
+  { id: "2515", label: "Village programmes (running)", layer: "gram" },
+  { id: "4515", label: "Village works", layer: "gram" },
 ];
 
 export type CompareGrain = "layer" | "city" | "station";

@@ -16,6 +16,8 @@ const NAV = [
   { to: "/compare", label: "Compare" },
   { to: "/states", label: "States" },
   { to: "/union", label: "Centre" },
+  { to: "/municipal", label: "City" },
+  { to: "/gram", label: "Village" },
   { to: "/inflation", label: "Inflation" },
   { to: "/sources", label: "Method" },
   { to: "/search", label: "Search" },

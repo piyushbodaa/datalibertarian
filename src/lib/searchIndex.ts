@@ -24,6 +24,9 @@ import { mz2055, mz4055, mzFunctional } from "../data/mizoram/police";
 import { nl2055, nl4055, nlFunctional } from "../data/nagaland/police";
 import { tr2055, tr4055, trFunctional } from "../data/tripura/police";
 import { tgObject010, tgArms220, tgCity4055 } from "../data/telangana/police";
+import { tg2210, tg2211, tg4210, tg4211, tgHealthCap, tgHealthDepartment, tgHealthFunctional, tgHealthRun } from "../data/telangana/health";
+import { tg2501, tg2506, tg2515, tg4515, tgGramFunctional, tgPrrdDepartment } from "../data/telangana/gram";
+import { ghmcCapital, ghmcRevenue, ghmcTotal } from "../data/municipal/ghmc";
 import { up2055Voted, up4055, upFunctional, upSalariesDesk, upUniforms } from "../data/uttar-pradesh/police";
 import { wb2055Net, wb4055, wbFunctional, wbSalariesDesk, wbArms, wbClothing } from "../data/west-bengal/police";
 import { unionOutstandingLiabilities, unionTotalExpenditure } from "../data/union/budget-at-a-glance";
@@ -77,6 +80,23 @@ const ENTRIES: Entry[] = [
   { item: tgObject010, entity: "Telangana Police", href: "/telangana/police" },
   { item: tgArms220, entity: "Telangana Police", href: "/telangana/police" },
   { item: tgCity4055, entity: "Telangana Police", href: "/telangana/police" },
+  { item: tgHealthFunctional, entity: "Telangana Health", href: "/telangana/health" },
+  { item: tgHealthRun, entity: "Telangana Health", href: "/telangana/health" },
+  { item: tgHealthCap, entity: "Telangana Health", href: "/telangana/health" },
+  { item: tg2210, entity: "Telangana Health", href: "/telangana/health" },
+  { item: tg2211, entity: "Telangana Health", href: "/telangana/health" },
+  { item: tg4210, entity: "Telangana Health", href: "/telangana/health" },
+  { item: tg4211, entity: "Telangana Health", href: "/telangana/health" },
+  { item: tgHealthDepartment, entity: "Telangana Health", href: "/telangana/health" },
+  { item: tgGramFunctional, entity: "Telangana villages", href: "/gram" },
+  { item: tg2515, entity: "Telangana villages", href: "/gram" },
+  { item: tg4515, entity: "Telangana villages", href: "/gram" },
+  { item: tg2501, entity: "Telangana villages", href: "/gram" },
+  { item: tg2506, entity: "Telangana villages", href: "/gram" },
+  { item: tgPrrdDepartment, entity: "Telangana villages", href: "/gram" },
+  { item: ghmcTotal, entity: "GHMC (Hyderabad)", href: "/municipal/ghmc" },
+  { item: ghmcRevenue, entity: "GHMC (Hyderabad)", href: "/municipal/ghmc" },
+  { item: ghmcCapital, entity: "GHMC (Hyderabad)", href: "/municipal/ghmc" },
   ...commissionerates.map((c) => ({
     item: c.combined,
     entity: c.name,

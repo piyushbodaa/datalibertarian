@@ -77,6 +77,8 @@ export function TgPolicePage() {
         </ol>
         <p className="mt-6">
           In this book the police line is pay, added from printed lines.{" "}
+          <Link to="/telangana/health">Telangana Health</Link>
+          {" · "}
           <Link to="/states">All states</Link>
           {" · "}
           <Link to="/sources">Method</Link>

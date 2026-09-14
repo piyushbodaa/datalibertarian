@@ -1,6 +1,6 @@
 import { Link, Navigate, useParams } from "react-router-dom";
-import { TraceRail } from "../components/TraceRail";
-import { pickAmount } from "../data/maharashtra-police";
+import { TraceRail, type TraceStop } from "../components/TraceRail";
+import { pickAmount, type Money } from "../data/maharashtra-police";
 import { resolveSide } from "../data/compare/resolve";
 import { tierLabel } from "../data/states";
 
@@ -19,6 +19,55 @@ export function TracePage() {
   const cap = be(side.bag["4055"]);
   const obj = be(side.bag["obj-01"]);
   const district = be(side.bag["109"]);
+  const civicTotal = be(side.bag["civic-total"]);
+  const civicRun = be(side.bag["civic-revenue"]);
+  const civicCap = be(side.bag["civic-capital"]);
+  const gramRun = be(side.bag["2515"]);
+  const gramCap = be(side.bag["4515"]);
+  const health = be(side.bag["health-functional"]);
+  const healthRun = be(side.bag["health-run"]);
+  const healthCap = be(side.bag["health-cap"]);
+
+  const stop = (id: string, label: string, money: Money | undefined, empty: string): TraceStop =>
+    money ? { id, label, money } : { id, label, empty };
+
+  const bookLayer = side.entity.layer;
+  const stops: TraceStop[] =
+    bookLayer === "municipal"
+      ? [
+          { id: "book", label: "Book", detail: side.entity.name },
+          stop("civic-total", "City budget", civicTotal, "Not printed as a budget size in this book."),
+          stop("civic-revenue", "Running the city", civicRun, "Not isolated in this book."),
+          stop("civic-capital", "Building the city", civicCap, "Not isolated in this book."),
+          { id: "ward", label: "Named ward", empty: "The book stops here. We do not divide a total by the number of wards." },
+        ]
+      : bookLayer === "gram"
+        ? [
+            { id: "book", label: "Book", detail: side.entity.name },
+            stop("2515", "Village programmes", gramRun, "Not isolated in this book."),
+            stop("4515", "Village works", gramCap, "Not isolated in this book."),
+            { id: "gp", label: "Named gram panchayat", empty: "The book stops here. We do not divide a total by the number of panchayats." },
+          ]
+        : [
+            { id: "book", label: "Book", detail: side.entity.name },
+            stop("functional", "Police", functional, "Not printed as a police total in this book."),
+            stop("2055", "Running costs", run, "Not isolated in this book."),
+            stop("4055", "Buildings and gear", cap, "Not isolated in this book."),
+            stop("109", "District police", district, "Not typed in this book."),
+            stop("obj", "Salaries", obj, "A statewide salaries total is not typed here."),
+            {
+              id: "station",
+              label: "Named police station",
+              empty: "The book stops here. We do not divide a total by the number of stations.",
+            },
+            ...(health || healthRun || healthCap
+              ? [
+                  stop("health", "Health", health, "Not printed as a health total in this book."),
+                  stop("health-run", "Running hospitals", healthRun, "Not isolated in this book."),
+                  stop("health-cap", "Hospital buildings and gear", healthCap, "Not isolated in this book."),
+                ]
+              : []),
+          ];
 
   return (
     <article>
@@ -35,32 +84,7 @@ export function TracePage() {
           </p>
         </section>
       ) : (
-        <TraceRail
-          title="Where this book stops"
-          stops={[
-            { id: "book", label: "Book", detail: side.entity.name },
-            functional
-              ? { id: "functional", label: "Police", money: functional }
-              : { id: "functional", label: "Police", empty: "Not printed as a police total in this book." },
-            run
-              ? { id: "2055", label: "Running costs", money: run }
-              : { id: "2055", label: "Running costs", empty: "Not isolated in this book." },
-            cap
-              ? { id: "4055", label: "Buildings and gear", money: cap }
-              : { id: "4055", label: "Buildings and gear", empty: "Not isolated in this book." },
-            district
-              ? { id: "109", label: "District police", money: district }
-              : { id: "109", label: "District police", empty: "Not typed in this book." },
-            obj
-              ? { id: "obj", label: "Salaries", money: obj }
-              : { id: "obj", label: "Salaries", empty: "A statewide salaries total is not typed here." },
-            {
-              id: "station",
-              label: "Named police station",
-              empty: "The book stops here. We do not divide a total by the number of stations.",
-            },
-          ]}
-        />
+        <TraceRail title="Where this book stops" stops={stops} />
       )}
       <p className="mt-8">
         <Link to={side.entity.href} className="file-cta">

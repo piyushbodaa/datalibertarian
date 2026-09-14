@@ -15,6 +15,9 @@ const GOLD_IDS = [
   "tg-law-home-2026-27-hyd",
   "tg-law-home-2026-27-cyberabad",
   "tg-law-home-2026-27-hod",
+  "tg-afs-2026-27",
+  "tg-bib-2026-27",
+  "ghmc-be-2025-26",
   "wb-demand68-2026-27",
   "gj-home-2026-27",
   "tn-demand22-2026-27",
@@ -174,8 +177,8 @@ export function SourcesPage() {
             number of stations. This stays empty until a book prints a station.
           </li>
           <li className="docket-slip text-ink/80">
-            <strong>Municipal / Gram</strong> — civic and village books are not typed. Middle pane
-            EMPTY is correct. BMC and GHMC totals are not invented.
+            <strong>Municipal / Gram</strong> — one city book (GHMC 2025-26) and one state rural
+            head (Telangana 2515 + 4515). A middle of one book is labelled thin. BMC is not typed.
           </li>
           <li className="docket-slip text-ink/80">
             This is the middle of N official books on this machine — not a national average
@@ -196,12 +199,12 @@ export function SourcesPage() {
             Home). Not the sum of 28 state books.
           </li>
           <li className="docket-slip text-ink/80">
-            <strong>Municipal</strong> — civic PDFs. EMPTY until a corporation total is typed. City
-            police sits in state books.
+            <strong>Municipal</strong> — a corporation’s own budget book. GHMC 2025-26 is typed
+            (revenue + capital = budget size). City police sits in state books, not here.
           </li>
           <li className="docket-slip text-ink/80">
-            <strong>Gram</strong> — village / PRI books. EMPTY until an FC RLB grant or head 2515
-            line is typed. Not a station share and not a GP-count average.
+            <strong>Gram</strong> — the state’s rural-development heads 2515 + 4515 (Telangana
+            AFS). Not the whole PR&amp;RD department, not MGNREGS, not a GP-count average.
           </li>
         </ul>
         <p className="mt-3 text-sm text-ink/70">
@@ -313,6 +316,25 @@ export function SourcesPage() {
             (jails, public works) and quieter.
           </li>
           <li className="docket-slip text-ink/80">
+            <strong>Telangana Health</strong> — Annual Financial Statement 2026-27, Statements D
+            and E (Rupees in Lakhs). Hero is 2210 + 2211 + 4210 + 4211 and matches the printed
+            Total (b) rows. The Budget in Brief department total (₹13,679 cr) is context, not the
+            hero.{" "}
+            <Link to="/telangana/health">Open Telangana Health</Link>
+          </li>
+          <li className="docket-slip text-ink/80">
+            <strong>Telangana villages</strong> — Annual Financial Statement 2026-27, Statements D
+            and E. Hero is 2515 + 4515. 2501 and 2506 are shown separately. The PR&amp;RD
+            department total (₹33,688 cr) is context, not the hero.{" "}
+            <Link to="/gram">Open Village</Link>
+          </li>
+          <li className="docket-slip text-ink/80">
+            <strong>GHMC (Hyderabad)</strong> — GHMC Budget Estimates 2025-26, Budget Highlights
+            table A (Rs Cr). Hero is Budget Size (RE + CE) BE 2025-26. No 2026-27 book is on
+            ghmc.gov.in yet; the press figure is not typed.{" "}
+            <Link to="/municipal/ghmc">Open GHMC</Link>
+          </li>
+          <li className="docket-slip text-ink/80">
             <strong>Union total expenditure</strong> — Budget at a Glance 2026-27, item 9. ₹53,47,315
             cr BE 2026-27. Not Demand 51. Not the states.
           </li>
@@ -352,7 +374,9 @@ export function SourcesPage() {
             door.
           </li>
           <li className="docket-slip text-ink/80">
-            Municipal corporations — civic books later. Mumbai Police is state police, not BMC.
+            BMC (Mumbai) and every corporation other than GHMC — not read yet. Mumbai Police is
+            state police, not BMC. Health and village heads for states other than Telangana — not
+            read yet.
           </li>
           <li className="docket-slip text-ink/80">
             Named Telangana police stations (Bachupally and any other named station) — not in the

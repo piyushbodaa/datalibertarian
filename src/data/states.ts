@@ -1,3 +1,4 @@
+import type { HeadId } from "./heads";
 export type JurisdictionKind = "state" | "ut";
 export type PoliceTier = "gold" | "index" | "empty" | "blocked";
 
@@ -11,6 +12,8 @@ export type Jurisdiction = {
   /** Object-head Demand PDFs not on disk — INDEX headline only. */
   depthGap?: boolean;
   indexNote?: string;
+  /** Tiers for heads beyond police. Missing = empty (book not read). */
+  heads?: Partial<Record<HeadId, PoliceTier>>;
 };
 
 export const jurisdictions: Jurisdiction[] = [
@@ -44,7 +47,7 @@ export const jurisdictions: Jurisdiction[] = [
   { slug: "rajasthan", name: "Rajasthan", kind: "state", tier: "gold" },
   { slug: "sikkim", name: "Sikkim", kind: "state", tier: "gold" },
   { slug: "tamil-nadu", name: "Tamil Nadu", kind: "state", tier: "gold" },
-  { slug: "telangana", name: "Telangana", kind: "state", tier: "gold" },
+  { slug: "telangana", name: "Telangana", kind: "state", tier: "gold", heads: { health: "gold" } },
   { slug: "tripura", name: "Tripura", kind: "state", tier: "gold" },
   { slug: "uttar-pradesh", name: "Uttar Pradesh", kind: "state", tier: "gold" },
   { slug: "uttarakhand", name: "Uttarakhand", kind: "state", tier: "gold" },
