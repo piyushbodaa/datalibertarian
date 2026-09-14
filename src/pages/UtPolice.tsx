@@ -1,4 +1,4 @@
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { NotFoundPage } from "./NotFound";
 import { CitationFootnote } from "../components/CitationChip";
 import { PoliceOverview } from "../components/PoliceOverview";
@@ -8,10 +8,9 @@ import { getJurisdiction } from "../data/states";
 import { getUtPoliceBook, UT_HEADLINE_SERIES, UT_HEADLINE_YEAR } from "../data/union/ut-police";
 
 /** Union Territory police from the MHA Detailed Demands for Grants — the UT's own demand, not Demand 51. */
-export function UtPolicePage() {
-  const { slug } = useParams();
-  const j = slug ? getJurisdiction(slug) : undefined;
-  const book = slug ? getUtPoliceBook(slug) : undefined;
+export function UtPolicePage({ slug }: { slug: string }) {
+  const j = getJurisdiction(slug);
+  const book = getUtPoliceBook(slug);
   if (!j || !book) return <NotFoundPage />;
   const hero = pickAmount(book.functional, UT_HEADLINE_YEAR, UT_HEADLINE_SERIES);
   const run = pickAmount(book.run2055, UT_HEADLINE_YEAR, UT_HEADLINE_SERIES);

@@ -150,11 +150,11 @@ export default function App() {
           <Route path="/himachal-pradesh/police" element={<HpPolicePage />} />
           <Route path="/bihar/police" element={<BrPolicePage />} />
           <Route path="/states/maharashtra/police" element={<Navigate to="/maharashtra/police" replace />} />
-          <Route path="/andaman-and-nicobar-islands/police" element={<UtPolicePage />} />
-          <Route path="/chandigarh/police" element={<UtPolicePage />} />
-          <Route path="/dadra-and-nagar-haveli-and-daman-and-diu/police" element={<UtPolicePage />} />
-          <Route path="/ladakh/police" element={<UtPolicePage />} />
-          <Route path="/lakshadweep/police" element={<UtPolicePage />} />
+          <Route path="/andaman-and-nicobar-islands/police" element={<UtPolicePage slug="andaman-and-nicobar-islands" />} />
+          <Route path="/chandigarh/police" element={<UtPolicePage slug="chandigarh" />} />
+          <Route path="/dadra-and-nagar-haveli-and-daman-and-diu/police" element={<UtPolicePage slug="dadra-and-nagar-haveli-and-daman-and-diu" />} />
+          <Route path="/ladakh/police" element={<UtPolicePage slug="ladakh" />} />
+          <Route path="/lakshadweep/police" element={<UtPolicePage slug="lakshadweep" />} />
           <Route path="/:slug/health" element={<StateHealthPage />} />
           <Route path="/:slug/police" element={<EmptyPolicePage />} />
           <Route path="/corrections" element={<CorrectionsPage />} />
