@@ -25,7 +25,7 @@ import {
 import { LAYERS } from "./layers.ts";
 import { tg2210, tg2211, tg4210, tg4211, tgHealthCap, tgHealthDepartment, tgHealthFunctional, tgHealthRun } from "./telangana/health.ts";
 import { tg2501, tg2506, tg2515, tg4515, tgGramFunctional, tgPrrdDepartment, tgRuralRevenueTotal } from "./telangana/gram.ts";
-import { ghmcCapital, ghmcRevenue, ghmcTotal, municipalBodies } from "./municipal/ghmc.ts";
+import { bmcCapital, bmcRevenue, bmcTotal, ghmcCapital, ghmcRevenue, ghmcTotal, municipalBodies } from "./municipal/ghmc.ts";
 import { tgObject010 } from "./telangana/police.ts";
 import { healthBooks } from "./health/books.ts";
 import { utPoliceBooks } from "./union/ut-police.ts";
@@ -190,6 +190,9 @@ const allMoney = [
   ...ghmcTotal.amounts,
   ...ghmcRevenue.amounts,
   ...ghmcCapital.amounts,
+  ...bmcTotal.amounts,
+  ...bmcRevenue.amounts,
+  ...bmcCapital.amounts,
   ...hp2055.amounts,
   ...hp4055.amounts,
   ...hpFunctional.amounts,
@@ -255,6 +258,7 @@ describe("every figure has a living citation", () => {
       "tg-afs-2026-27",
       "tg-bib-2026-27",
       "ghmc-be-2025-26",
+      "bmc-be-2026-27",
       "wb-demand68-2026-27",
       "gj-home-2026-27",
       "tn-demand22-2026-27",
@@ -816,7 +820,7 @@ describe("GOLD modules copy pack figures", () => {
     const ghmc = resolveSide("ghmc")!;
     assert.equal(ghmc.tier, "gold");
     assert.equal(ghmc.bag["civic-total"], ghmcTotal);
-    assert.equal(resolveSide("bmc")!.tier, "empty");
+    assert.equal(resolveSide("bmc")!.tier, "gold");
     const gram = resolveSide("telangana-gram")!;
     assert.equal(gram.tier, "gold");
     assert.equal(gram.bag["2515"], tg2515);
@@ -908,8 +912,10 @@ describe("GHMC - Budget Estimates 2025-26", () => {
     const ghmc = municipalBodies.find((m) => m.slug === "ghmc")!;
     assert.ok(ghmc.missingYears.some((g) => g.fiscalYear === "2026-27"));
     const bmc = municipalBodies.find((m) => m.slug === "bmc")!;
-    assert.equal(bmc.tier, "empty");
-    assert.equal(bmc.total, undefined);
+    assert.equal(bmc.tier, "gold");
+    assert.equal(pickAmt(bmc.total!, "2026-27", "be").crore, 80862.72);
+    assert.equal(pickAmt(bmc.revenue!, "2026-27", "be").rupees + pickAmt(bmc.capital!, "2026-27", "be").rupees, pickAmt(bmc.total!, "2026-27", "be").rupees);
+    assert.equal(bmc.total!.amounts.length, 1);
   });
 });
 

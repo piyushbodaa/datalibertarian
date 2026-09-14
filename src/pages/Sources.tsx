@@ -18,6 +18,7 @@ const GOLD_IDS = [
   "tg-afs-2026-27",
   "tg-bib-2026-27",
   "ghmc-be-2025-26",
+  "bmc-be-2026-27",
   "mha-ddg-2026-27-vol2a",
   "mha-ddg-2026-27-vol2b",
   "wb-demand68-2026-27",
@@ -179,8 +180,8 @@ export function SourcesPage() {
             number of stations. This stays empty until a book prints a station.
           </li>
           <li className="docket-slip text-ink/80">
-            <strong>Municipal / Gram</strong> — one city book (GHMC 2025-26) and one state rural
-            head (Telangana 2515 + 4515). A middle of one book is labelled thin. BMC is not typed.
+            <strong>Municipal / Gram</strong> — two city books (GHMC 2025-26, BMC 2026-27) and one state rural
+            head (Telangana 2515 + 4515). A middle of two books is labelled thin.
           </li>
           <li className="docket-slip text-ink/80">
             This is the middle of N official books on this machine — not a national average
@@ -325,6 +326,12 @@ export function SourcesPage() {
             <Link to="/telangana/health">Open Telangana Health</Link>
           </li>
           <li className="docket-slip text-ink/80">
+            <strong>BMC (Mumbai)</strong> — BMC Budget Estimates 2026-27 at a glance, p. 5 (Rs
+            crore). Hero is revenue + capital expenditure, the printed Total. The larger Total Size
+            of Budget line includes income surplus and is not the spend.{" "}
+            <Link to="/municipal/bmc">Open BMC</Link>
+          </li>
+          <li className="docket-slip text-ink/80">
             <strong>Union Territory police</strong> — Andaman &amp; Nicobar, Chandigarh, Dadra &amp;
             Nagar Haveli and Daman &amp; Diu, Ladakh and Lakshadweep from the Home Ministry’s
             Detailed Demands for Grants 2026-27 (each Territory’s own demand, 52–56). Hero is the
@@ -390,7 +397,7 @@ export function SourcesPage() {
             Delhi Police is the Centre door.
           </li>
           <li className="docket-slip text-ink/80">
-            BMC (Mumbai) and every corporation other than GHMC — not read yet. Mumbai Police is
+            Every corporation other than GHMC and BMC — not read yet. Mumbai Police is
             state police, not BMC. Health for Bihar, Goa, Gujarat, Himachal Pradesh, Karnataka, Madhya Pradesh, Maharashtra, Odisha, Rajasthan, Sikkim, Tamil Nadu, Uttar Pradesh and West Bengal, and village heads outside Telangana — not read yet.
           </li>
           <li className="docket-slip text-ink/80">

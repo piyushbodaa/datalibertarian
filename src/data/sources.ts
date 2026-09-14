@@ -230,6 +230,19 @@ export const citations: Record<string, Citation> = {
     notes:
       "Printed in crore. Budget Size (RE + CE) is revenue expenditure plus capital expenditure. The 2023-24 actual is printed as 7,119.00 while its parts print as 2,896.90 + 4,223.80 = 7,120.70; the printed total is kept. Table B 'Other Budget' (housing for the poor, XV FC NCAP grants) is not added in. No 2026-27 book is on ghmc.gov.in/ghmcbuget.aspx as of 14 September 2026; the press figure of ₹11,460 crore is not typed.",
   },
+  "bmc-be-2026-27": {
+    id: "bmc-be-2026-27",
+    title: "BMC Budget Estimates 2026-27 — Budget at a Glance (Overall Size of Budget A, B, E, G & Tree Authority)",
+    publisher: "Brihanmumbai Municipal Corporation",
+    fiscalYear: "2026-27",
+    url: "https://data.opencity.in/dataset/aff7a167-5443-4a30-9709-c182e4b38435/resource/c80a065f-9f03-4ae9-a4c6-6d91f4107134/download/bmc-2026-27-at-a-glance.pdf",
+    pages: "p. 5",
+    table: "Net Total row and the Income / Expenditure box (Rs in crore)",
+    accessedOn: "2026-09-14",
+    short: "BMC budget 2026-27",
+    notes:
+      "BMC's own book, published on portal.mcgm.gov.in (Budget Estimate 2026-2027 page); that portal serves only through a browser session, so the link is the Open City mirror of the same PDF. Revenue expenditure 32,698.44 + capital expenditure 48,164.28 = printed Total 80,862.72. The printed Total Size of Budget 80,952.56 adds 89.84 of excess income and is not typed as spend. Inter-budget contributions are already netted in the book.",
+  },
   "mha-ddg-2026-27-vol2a": {
     id: "mha-ddg-2026-27-vol2a",
     title: "Detailed Demands for Grants 2026-27 of the Ministry of Home Affairs — Volume II-A (Demands 52 Andaman & Nicobar Islands, 53 Chandigarh)",

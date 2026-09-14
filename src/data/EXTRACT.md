@@ -869,3 +869,20 @@ Extract date: 2026-09-14. ₹ in thousands. Printed rows "Total - Police (Major 
 | 56 | Lakshadweep | 8,03,238 / 7,94,400 / 7,94,400 / 8,47,100 | 40,491 / 57,200 / 45,400 / 35,300 | Lakshadweep 13, 79 |
 
 Not taken: the recoveries section repeats "Total - Police (Major Head)" with negative numbers (e.g. A&NI −15,650) — that is the deduct-recoveries side, not spend. Demands 57–59 (Delhi, J&K, Puducherry) are lump transfers with no 2055 line — still BLOCKED. The Notes on Demands (sbe52–56) do not print major heads and were not used.
+
+## BMC — Budget Estimates 2026-27, Budget at a Glance
+
+Extract date: 2026-09-14
+
+Ledger: https://data.opencity.in/dataset/aff7a167-5443-4a30-9709-c182e4b38435/resource/c80a065f-9f03-4ae9-a4c6-6d91f4107134/download/bmc-2026-27-at-a-glance.pdf (BMC's own PDF; the portal.mcgm.gov.in "Budget Estimate 2026-2027" page serves it only inside a browser session)
+
+Printed unit: **crore**. Page 5 "Overall Size of Budget A, B, E, G & Tree Authority", Net Total row and the Income / Expenditure box.
+
+| Row | BE 2026-27 |
+|---|---|
+| Revenue Expenditure (net) | 32,698.44 |
+| Capital Expenditure (net) | 48,164.28 |
+| Total (expenditure) | 80,862.72 |
+| Total Size of Budget | 80,952.56 (= income; includes 89.84 excess of income over expenditure) |
+
+Hero = revenue + capital = **80,862.72 crore** (the printed Total). Only one column is printed on this page; earlier years are EMPTY until the 2025-26 book is typed. Fund-code tables (11, 12, 21–23, 30, 40, 60, 70) are gross and are not added — the overall page already nets inter-budget contributions.

@@ -26,7 +26,7 @@ import { tr2055, tr4055, trFunctional } from "../data/tripura/police";
 import { tgObject010, tgArms220, tgCity4055 } from "../data/telangana/police";
 import { tg2210, tg2211, tg4210, tg4211, tgHealthCap, tgHealthDepartment, tgHealthFunctional, tgHealthRun } from "../data/telangana/health";
 import { tg2501, tg2506, tg2515, tg4515, tgGramFunctional, tgPrrdDepartment } from "../data/telangana/gram";
-import { ghmcCapital, ghmcRevenue, ghmcTotal } from "../data/municipal/ghmc";
+import { bmcCapital, bmcRevenue, bmcTotal, ghmcCapital, ghmcRevenue, ghmcTotal } from "../data/municipal/ghmc";
 import { healthBooks } from "../data/health/books";
 import { utPoliceBooks } from "../data/union/ut-police";
 import { getJurisdiction } from "../data/states";
@@ -100,6 +100,9 @@ const ENTRIES: Entry[] = [
   { item: ghmcTotal, entity: "GHMC (Hyderabad)", href: "/municipal/ghmc" },
   { item: ghmcRevenue, entity: "GHMC (Hyderabad)", href: "/municipal/ghmc" },
   { item: ghmcCapital, entity: "GHMC (Hyderabad)", href: "/municipal/ghmc" },
+  { item: bmcTotal, entity: "BMC (Mumbai)", href: "/municipal/bmc" },
+  { item: bmcRevenue, entity: "BMC (Mumbai)", href: "/municipal/bmc" },
+  { item: bmcCapital, entity: "BMC (Mumbai)", href: "/municipal/bmc" },
   ...utPoliceBooks.flatMap((b) => {
     const name = getJurisdiction(b.slug)?.name ?? b.slug;
     return [b.functional, b.run2055, b.cap4055].map((item) => ({ item, entity: `${name} Police`, href: `/${b.slug}/police` }));

@@ -47,9 +47,11 @@ describe("desk-median of GOLD compare peers", () => {
   it("N = 0 returns null, not 0 crore", () => {
     const empty = medianOf([], META);
     assert.equal(empty, null);
-    const civic = peersForField("layer", "municipal", "civic-total", "2026-27", "be");
+    const civic = peersForField("layer", "municipal", "civic-total", "2023-24", "be");
     assert.equal(civic.length, 0);
-    assert.equal(medianOf(civic, { ...META, layer: "municipal", fieldId: "civic-total" }), null);
+    assert.equal(medianOf(civic, { ...META, layer: "municipal", fieldId: "civic-total", fiscalYear: "2023-24" }), null);
+    const civic2627 = peersForField("layer", "municipal", "civic-total", "2026-27", "be");
+    assert.deepEqual(civic2627.map((p) => p.slug), ["bmc"]);
     const civic2526 = peersForField("layer", "municipal", "civic-total", "2025-26", "be");
     assert.equal(civic2526.length, 1);
     assert.equal(civic2526[0].slug, "ghmc");
@@ -191,7 +193,7 @@ describe("desk-median of GOLD compare peers", () => {
     assert.equal(getCompareEntity("mumbai"), undefined);
     assert.equal(getCompareEntity("bmc")?.layer, "municipal");
     assert.equal(getCompareEntity("ghmc")?.layer, "municipal");
-    assert.equal(resolveSide("bmc")?.tier, "empty");
+    assert.equal(resolveSide("bmc")?.tier, "gold");
   });
 
   it("thin peer set is labelled when N < 3, still a number when N ≥ 1", () => {

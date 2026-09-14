@@ -71,6 +71,34 @@ export const ghmcTotal: LineItem = {
   ],
 };
 
+const BMC = "bmc-be-2026-27";
+
+/** BMC Budget Estimates 2026-27 "at a glance", printed p. 5 — Overall Size of Budget A, B, E, G & Tree Authority. Rs in crore. */
+export const bmcRevenue: LineItem = {
+  id: "bmc-revenue",
+  plainLabel: "Running the city (revenue expenditure)",
+  officialName: "Revenue Expenditure — BMC Budget Estimates 2026-27, Overall Size of Budget (Net)",
+  head: "civic-revenue",
+  amounts: [fromCrore(32698.44, "be", "2026-27", BMC)],
+};
+
+export const bmcCapital: LineItem = {
+  id: "bmc-capital",
+  plainLabel: "Building the city (capital expenditure)",
+  officialName: "Capital Expenditure — BMC Budget Estimates 2026-27, Overall Size of Budget (Net)",
+  head: "civic-capital",
+  amounts: [fromCrore(48164.28, "be", "2026-27", BMC)],
+};
+
+/** Printed "Total" expenditure = revenue + capital. The printed "Total Size of Budget" (80,952.56) adds 89.84 crore of excess income and is not the spend. */
+export const bmcTotal: LineItem = {
+  id: "bmc-total",
+  plainLabel: "BMC total expenditure",
+  officialName: "Total expenditure (revenue + capital) — BMC Budget Estimates 2026-27, Overall Size of Budget",
+  head: "civic-total",
+  amounts: [fromCrore(80862.72, "be", "2026-27", BMC)],
+};
+
 export const municipalBodies: MunicipalBody[] = [
   {
     slug: "ghmc",
@@ -97,9 +125,18 @@ export const municipalBodies: MunicipalBody[] = [
     body: "Brihanmumbai Municipal Corporation",
     state: "Maharashtra",
     stateSlug: "maharashtra",
-    tier: "empty",
-    missingYears: [],
-    nextSearch: "portal.mcgm.gov.in — Budget Estimates 2026-27, Budget at a Glance",
+    tier: "gold",
+    total: bmcTotal,
+    revenue: bmcRevenue,
+    capital: bmcCapital,
+    citationId: BMC,
+    missingYears: [
+      {
+        fiscalYear: "2025-26",
+        reason:
+          "The 2026-27 at-a-glance summary prints only the 2026-27 column. Earlier years sit in the 2025-26 book, which is not typed yet. Not printed as zero.",
+      },
+    ],
   },
 ];
 
