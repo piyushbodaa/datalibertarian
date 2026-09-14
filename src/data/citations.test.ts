@@ -27,6 +27,7 @@ import { tg2210, tg2211, tg4210, tg4211, tgHealthCap, tgHealthDepartment, tgHeal
 import { tg2501, tg2506, tg2515, tg4515, tgGramFunctional, tgPrrdDepartment, tgRuralRevenueTotal } from "./telangana/gram.ts";
 import { ghmcCapital, ghmcRevenue, ghmcTotal, municipalBodies } from "./municipal/ghmc.ts";
 import { tgObject010 } from "./telangana/police.ts";
+import { healthBooks } from "./health/books.ts";
 import { compareRows, intersectYears, resolveSide } from "./compare/resolve.ts";
 import { delhiEstInfra } from "./union/delhi-police.ts";
 import { apLastFound, INDEX_ROWS, indexPoliceLines } from "./prs-index/afs-police.ts";
@@ -58,7 +59,7 @@ import { sk2055, sk4055, skFunctional } from "./sikkim/police.ts";
 import { rj2055, rj4055, rjDemand18, rjFunctional } from "./rajasthan/police.ts";
 import { hp2055, hp4055, hpDemand07, hpFunctional } from "./himachal-pradesh/police.ts";
 import { br2055, br4055, brDemand22, brFunctional } from "./bihar/police.ts";
-import { jurisdictions } from "./states.ts";
+import { getJurisdiction, jurisdictions } from "./states.ts";
 
 const allMoney = [
   ...functionalPolice.amounts,
@@ -908,5 +909,61 @@ describe("GHMC - Budget Estimates 2025-26", () => {
     const bmc = municipalBodies.find((m) => m.slug === "bmc")!;
     assert.equal(bmc.tier, "empty");
     assert.equal(bmc.total, undefined);
+  });
+});
+
+describe("State Health books — AFS 2210 + 2211 + 4210 + 4211", () => {
+  const be = (item: { amounts: Amt[] }) => pickAmt(item, "2026-27", "be");
+
+  it("every book has a living citation, four columns, and reconciles to its printed totals", () => {
+    for (const b of healthBooks) {
+      assert.equal(getJurisdiction(b.slug)?.heads?.health, "gold", b.slug);
+      for (const item of [b.run2210, b.run2211, b.cap4210, b.run, b.cap, b.functional]) {
+        for (const m of item.amounts) {
+          const c = getCitation(m.citationId);
+          assert.ok(c.url.startsWith("https://"), `${b.slug} ${item.id}`);
+          assert.ok(!m.citationId.startsWith("prs-"));
+          assert.ok(m.rupees > 0, `${b.slug} ${item.id} ${m.fiscalYear} ${m.series}`);
+        }
+        assert.equal(item.amounts.length, 4, `${b.slug} ${item.id} should print four columns`);
+      }
+      assert.equal(be(b.functional).rupees, be(b.run).rupees + be(b.cap).rupees, b.slug);
+      assert.equal(be(b.run).rupees, be(b.run2210).rupees + be(b.run2211).rupees, b.slug);
+      // Printed totals may round their own parts by a rupee or two (Tripura prints 4 decimals of a lakh).
+      for (const t of b.printedRunTotal ?? []) {
+        const got = pickAmt(b.run, t.fiscalYear, t.series).rupees;
+        assert.ok(Math.abs(got - t.rupees) <= 100, `${b.slug} run ${t.fiscalYear} ${t.series}: ${got} vs printed ${t.rupees}`);
+      }
+      for (const t of b.printedCapTotal ?? []) {
+        const got = pickAmt(b.cap, t.fiscalYear, t.series).rupees;
+        assert.ok(Math.abs(got - t.rupees) <= 100, `${b.slug} cap ${t.fiscalYear} ${t.series}: ${got} vs printed ${t.rupees}`);
+      }
+      const side = resolveSide(b.slug)!;
+      assert.equal(side.bag["health-functional"], b.functional, b.slug);
+    }
+  });
+
+  it("locks spot values read off the page images", () => {
+    const g = (slug: string) => healthBooks.find((b) => b.slug === slug)!;
+    assert.equal(be(g("kerala").run2210).rupees, 123_239_786_000);
+    assert.equal(pickAmt(g("kerala").run2210, "2024-25", "actual").rupees, 96_313_044_469);
+    assert.equal(be(g("andhra-pradesh").functional).rupees, 165_643_129_000 + 30_656_519_000);
+    assert.equal(be(g("punjab").run2210).rupees, 71_068_454_000);
+    assert.equal(be(g("haryana").cap4210).rupees, 29_779_400_000);
+    assert.equal(be(g("meghalaya").run2211).rupees, 1_225_421_000);
+    assert.equal(be(g("chhattisgarh").cap).rupees, 16_555_354_000);
+    assert.equal(be(g("assam").run).rupees, 69_925_453_000);
+    assert.equal(be(g("tripura").cap).rupees, 1_949_823_000);
+    assert.equal(be(g("nagaland").functional).crore, Math.round((67304.88 + 5200 + 23188.67) * 100_000) / 10_000_000);
+    assert.equal(g("kerala").cap4211, undefined);
+    assert.equal(g("uttarakhand").cap4211!.amounts.length, 2);
+  });
+
+  it("does not open a health door for states without a book", () => {
+    for (const j of jurisdictions) {
+      if (j.slug === "telangana" || healthBooks.some((b) => b.slug === j.slug)) continue;
+      assert.notEqual(j.heads?.health, "gold", j.slug);
+      assert.equal(resolveSide(j.slug)?.bag["health-functional"], undefined, j.slug);
+    }
   });
 });

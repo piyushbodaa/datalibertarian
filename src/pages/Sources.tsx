@@ -323,6 +323,14 @@ export function SourcesPage() {
             <Link to="/telangana/health">Open Telangana Health</Link>
           </li>
           <li className="docket-slip text-ink/80">
+            <strong>State Health books</strong> — the same 2210 + 2211 + 4210 + 4211 rule applied to
+            each state’s own Annual Financial Statement: Andhra Pradesh, Arunachal Pradesh, Assam,
+            Chhattisgarh, Haryana, Jharkhand, Kerala, Manipur, Meghalaya, Mizoram, Nagaland, Punjab,
+            Tripura and Uttarakhand. Every number was read off the printed page image; where a
+            book prints a Total (b) row the desk-sum is locked to it in tests. 4211 is typed only
+            where the book prints a rupee.
+          </li>
+          <li className="docket-slip text-ink/80">
             <strong>Telangana villages</strong> — Annual Financial Statement 2026-27, Statements D
             and E. Hero is 2515 + 4515. 2501 and 2506 are shown separately. The PR&amp;RD
             department total (₹33,688 cr) is context, not the hero.{" "}
@@ -375,8 +383,7 @@ export function SourcesPage() {
           </li>
           <li className="docket-slip text-ink/80">
             BMC (Mumbai) and every corporation other than GHMC — not read yet. Mumbai Police is
-            state police, not BMC. Health and village heads for states other than Telangana — not
-            read yet.
+            state police, not BMC. Health for Bihar, Goa, Gujarat, Himachal Pradesh, Karnataka, Madhya Pradesh, Maharashtra, Odisha, Rajasthan, Sikkim, Tamil Nadu, Uttar Pradesh and West Bengal, and village heads outside Telangana — not read yet.
           </li>
           <li className="docket-slip text-ink/80">
             Named Telangana police stations (Bachupally and any other named station) — not in the

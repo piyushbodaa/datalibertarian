@@ -20,6 +20,7 @@ import {
 } from "../data/telangana/health";
 import { formatCrore } from "../lib/money";
 import { jurisdictions } from "../data/states";
+import { healthBooks } from "../data/health/books";
 
 export function TgHealthPage() {
   const hero = pickAmount(tgHealthFunctional, TG_HEALTH_HEADLINE_YEAR, TG_HEALTH_HEADLINE_SERIES);
@@ -92,17 +93,26 @@ export function TgHealthPage() {
       />
 
       <h2 className="mt-12 font-display text-xl font-semibold tracking-tight">Health in other states</h2>
-      <p className="mt-2 max-w-2xl text-sm text-ink/70">Not read yet. Each door says so; none shows a guessed rupee.</p>
+      <p className="mt-2 max-w-2xl text-sm text-ink/70">
+        {healthBooks.length + 1} states read from their own books. The rest say so; none shows a guessed rupee.
+      </p>
       <ul className="mt-4 grid grid-cols-1 gap-x-6 gap-y-2 sm:grid-cols-2 md:grid-cols-3" aria-label="Health in other states">
         {jurisdictions
           .filter((j) => j.kind === "state" && j.slug !== "telangana")
-          .map(({ slug, name }) => (
-            <li key={slug}>
-              <Link to={`/${slug}/health`} className="inline-flex min-h-11 items-center text-ink/70 no-underline hover:text-rust">
-                {name}
-              </Link>
-            </li>
-          ))}
+          .map(({ slug, name }) => {
+            const read = healthBooks.some((b) => b.slug === slug);
+            return (
+              <li key={slug}>
+                <Link
+                  to={`/${slug}/health`}
+                  className={`inline-flex min-h-11 items-center no-underline hover:text-rust ${read ? "text-ink" : "text-ink/55"}`}
+                >
+                  {name}
+                  {read ? "" : " · not read"}
+                </Link>
+              </li>
+            );
+          })}
       </ul>
 
       <section className="mt-12 text-sm text-ink/70">

@@ -269,7 +269,7 @@ export const citations: Record<string, Citation> = {
     accessedOn: "2026-09-07",
     short: "Kerala budget",
     notes:
-      "Accounts 2024-25 printed in rupees. Budget / Revised / next Budget printed in thousands of rupees (crore = thousands ÷ 10,000). Hero is 2055 + 4055 only. Demand XII also prints 2062 Vigilance — that is not Police. Demand XII detailed volume URL was not found this pass.",
+      "Accounts 2024-25 printed in rupees. Budget / Revised / next Budget printed in thousands of rupees (crore = thousands ÷ 10,000). Hero is 2055 + 4055 only. Demand XII also prints 2062 Vigilance — that is not Police. Demand XII detailed volume URL was not found this pass. Health also read from this book: 2210, 2211 (Statement B pp. 26–27) and 4210 (Statement C pp. 38–39); 4211 blank.",
   },
   "pb-afs-2026-27": {
     id: "pb-afs-2026-27",
@@ -282,7 +282,7 @@ export const citations: Record<string, Citation> = {
     accessedOn: "2026-09-07",
     short: "Punjab budget",
     notes:
-      "Figures printed in thousands of rupees. Converted to crore by dividing by 10,000. Hero running costs are this AFS 2055 line. 4055 is taken from Capital Demand 12 (DGP), not the AFS 4055 total, because Demand 36 Jails also prints 4055 for prisons.",
+      "Figures printed in thousands of rupees. Converted to crore by dividing by 10,000. Hero running costs are this AFS 2055 line. 4055 is taken from Capital Demand 12 (DGP), not the AFS 4055 total, because Demand 36 Jails also prints 4055 for prisons. Health also read: 2210, 2211 (p. 16) and 4210 (p. 24).",
   },
   "pb-capital-2026-27": {
     id: "pb-capital-2026-27",
@@ -308,7 +308,7 @@ export const citations: Record<string, Citation> = {
     accessedOn: "2026-09-07",
     short: "Haryana budget",
     notes:
-      "Figures printed in thousands of rupees. Converted to crore by dividing by 10,000. Hero is 2055 + 4055. Vol II Demands for Grants URL was not found this pass. Hub: https://finhry.gov.in.",
+      "Figures printed in thousands of rupees. Converted to crore by dividing by 10,000. Hero is 2055 + 4055. Vol II Demands for Grants URL was not found this pass. Hub: https://finhry.gov.in. Health also read: 2210, 2211 (p. 14) and 4210 (p. 18); 4211 printed 0.",
   },
   "ap-afs-2026-27": {
     id: "ap-afs-2026-27",
@@ -322,7 +322,7 @@ export const citations: Record<string, Citation> = {
     accessedOn: "2026-09-07",
     short: "Andhra Pradesh budget",
     notes:
-      "Figures printed in lakhs of rupees (e.g. 8272,23.46). Converted to crore by stripping commas and dividing by 100. Hero is 2055 + 4055. Jails 2056 is not Police. DG&IG Police Total 2055 in Volume-III-3 is one HoD, not the statewide line. Official budget.html href uses the path ...Bud@et26-27.",
+      "Figures printed in lakhs of rupees (e.g. 8272,23.46). Converted to crore by stripping commas and dividing by 100. Hero is 2055 + 4055. Jails 2056 is not Police. DG&IG Police Total 2055 in Volume-III-3 is one HoD, not the statewide line. Official budget.html href uses the path ...Bud@et26-27. Health also read: 2210, 2211 (Statement D p. 17) and 4210, 4211 (Statement E p. 22).",
   },
   "ap-vol3-3-2026-27": {
     id: "ap-vol3-3-2026-27",
@@ -348,7 +348,7 @@ export const citations: Record<string, Citation> = {
     accessedOn: "2026-09-07",
     short: "Tripura budget",
     notes:
-      "Figures printed in lakhs of rupees. Converted to crore by dividing by 100. Hero is 2055 net + 4055. Gross 2055 BE 2026-27 equals net (recovery nil on estimates).",
+      "Figures printed in lakhs of rupees. Converted to crore by dividing by 100. Hero is 2055 net + 4055. Gross 2055 BE 2026-27 equals net (recovery nil on estimates). Health also read, net of recoveries: 2210, 2211 (p. 23) and 4210, 4211 (pp. 30–31).",
   },
   "ml-afs-2026-27": {
     id: "ml-afs-2026-27",
@@ -362,7 +362,7 @@ export const citations: Record<string, Citation> = {
     accessedOn: "2026-09-07",
     short: "Meghalaya budget",
     notes:
-      "Figures printed in thousands of rupees (Indian grouping). Converted to crore by dividing by 10,000. Charged 2055 actuals 2024-25 not printed — that year is voted only. 2070 Fire / Home Guards and 2216 Housing (Police) are not Police.",
+      "Figures printed in thousands of rupees (Indian grouping). Converted to crore by dividing by 10,000. Charged 2055 actuals 2024-25 not printed — that year is voted only. 2070 Fire / Home Guards and 2216 Housing (Police) are not Police. Health also read: 2210, 2211 (p. 20) and 4210 (p. 29).",
   },
   "mn-afs-2026-27": {
     id: "mn-afs-2026-27",
@@ -375,7 +375,7 @@ export const citations: Record<string, Citation> = {
     accessedOn: "2026-09-07",
     short: "Manipur budget",
     notes:
-      "Figures printed in lakhs of rupees. Converted to crore by dividing by 100. AFS 2055 is the net line after SRE recovery as printed. Hero is 2055 + 4055.",
+      "Figures printed in lakhs of rupees. Converted to crore by dividing by 100. AFS 2055 is the net line after SRE recovery as printed. Hero is 2055 + 4055. Health also read: 2210, 2211 (p. 8) and 4210, 4211 (p. 11).",
   },
   "mn-dfg-2026-27": {
     id: "mn-dfg-2026-27",
@@ -401,7 +401,7 @@ export const citations: Record<string, Citation> = {
     accessedOn: "2026-09-07",
     short: "Nagaland budget",
     notes:
-      "Figures printed in lakhs of rupees. Converted to crore by dividing by 100. Hero is 2055 + 4055. Demand 28 Civil Police is not this statewide AFS line.",
+      "Figures printed in lakhs of rupees. Converted to crore by dividing by 100. Hero is 2055 + 4055. Demand 28 Civil Police is not this statewide AFS line. Health also read: 2210, 2211 (p. 6) and 4210 (p. 8).",
   },
   "mz-afs-2026-27": {
     id: "mz-afs-2026-27",
@@ -414,7 +414,7 @@ export const citations: Record<string, Citation> = {
     accessedOn: "2026-09-07",
     short: "Mizoram budget",
     notes:
-      "Figures printed in lakhs of rupees. Converted to crore by dividing by 100. 2055 total includes Forensic Science Laboratory as printed under 2055. Home Guards and Fire sit on 2070 — not Police.",
+      "Figures printed in lakhs of rupees. Converted to crore by dividing by 100. 2055 total includes Forensic Science Laboratory as printed under 2055. Home Guards and Fire sit on 2070 — not Police. Health also read: 2210, 2211 (p. 8) and 4210 (p. 13).",
   },
   "ar-afs-2026-27": {
     id: "ar-afs-2026-27",
@@ -427,7 +427,7 @@ export const citations: Record<string, Citation> = {
     accessedOn: "2026-09-07",
     short: "Arunachal Pradesh budget",
     notes:
-      "Figures printed in thousands of rupees. Converted to crore by dividing by 10,000. Hero is 2055 + 4055. Jails 2056 is not Police. Demand 8 also prints 2235 — that mixed total is not taken.",
+      "Figures printed in thousands of rupees. Converted to crore by dividing by 10,000. Hero is 2055 + 4055. Jails 2056 is not Police. Demand 8 also prints 2235 — that mixed total is not taken. Health also read: 2210, 2211 (p. 8) and 4210, 4211 (p. 12).",
   },
   "od-d01-2026-27": {
     id: "od-d01-2026-27",
@@ -477,7 +477,7 @@ export const citations: Record<string, Citation> = {
     accessedOn: "2026-09-07",
     short: "Assam budget",
     notes:
-      "Figures printed in lakhs of rupees. Converted to crore by dividing by 100. 2055 is a desk-sum of the two printed Grant lines. Grant 14 charged ₹530 lakh is inside the Grant 14 2055 AFS total. Grant 19 4055 is listed without a printed figure — not typed as ₹0. Jails 2056 is not Police.",
+      "Figures printed in lakhs of rupees. Converted to crore by dividing by 100. 2055 is a desk-sum of the two printed Grant lines. Grant 14 charged ₹530 lakh is inside the Grant 14 2055 AFS total. Grant 19 4055 is listed without a printed figure — not typed as ₹0. Jails 2056 is not Police. Health also read as grant-row desk-sums equal to the printed Total (b): 2210, 2211 (PDF pp. 8–9) and 4210, 4211 (PDF pp. 32–33).",
   },
   "cg-afs-2026-27": {
     id: "cg-afs-2026-27",
@@ -490,7 +490,7 @@ export const citations: Record<string, Citation> = {
     accessedOn: "2026-09-07",
     short: "Chhattisgarh budget",
     notes:
-      "Figures printed in thousands of rupees. Converted to crore by dividing by 10,000. Hero is 2055 + 4055. Confirmed against headwise breakup 2055 योग 72,40,00,61 and 4055 योग 6,60,61,40 for BE 2026-27.",
+      "Figures printed in thousands of rupees. Converted to crore by dividing by 10,000. Hero is 2055 + 4055. Confirmed against headwise breakup 2055 योग 72,40,00,61 and 4055 योग 6,60,61,40 for BE 2026-27. Health also read: 2210, 2211 (revenue file p. 4) and 4210, 4211 from the capital file 4-capital_expenditure.pdf in the same folder (p. 8).",
   },
   "cg-t02-2026-27": {
     id: "cg-t02-2026-27",
@@ -516,7 +516,7 @@ export const citations: Record<string, Citation> = {
     accessedOn: "2026-09-07",
     short: "Jharkhand budget",
     notes:
-      "Figures printed in lakhs of rupees. Converted to crore by dividing by 100. 2055 BE 2026-27 Total 772604.67 is establishment 761504.67 + state scheme 1800 + central 9300. 4055 BE 2026-27 Total 56500 is state scheme 48700 + central 7800. Demand 22 Home net 908106.10 is mixed.",
+      "Figures printed in lakhs of rupees. Converted to crore by dividing by 100. 2055 BE 2026-27 Total 772604.67 is establishment 761504.67 + state scheme 1800 + central 9300. 4055 BE 2026-27 Total 56500 is state scheme 48700 + central 7800. Demand 22 Home net 908106.10 is mixed. Health also read: 2210, 2211 (p. 7) and 4210 (p. 14).",
   },
   "ga-afs-2026-27": {
     id: "ga-afs-2026-27",
@@ -557,7 +557,7 @@ export const citations: Record<string, Citation> = {
     accessedOn: "2026-09-07",
     short: "Uttarakhand budget",
     notes:
-      "Figures printed in thousands of rupees. Converted to crore by dividing by 10,000. Hero is 2055 + 4055. Confirmed against Volume 5 Part 1 Grant 10 Police and Jail schedule. Jails 2056 and 4059 Public Works in that grant are not Police.",
+      "Figures printed in thousands of rupees. Converted to crore by dividing by 10,000. Hero is 2055 + 4055. Confirmed against Volume 5 Part 1 Grant 10 Police and Jail schedule. Jails 2056 and 4059 Public Works in that grant are not Police. Health also read from the major-head total rows: 2210, 2211 and 4210, 4211 (Volume 2 Part 1).",
   },
   "uk-vol5-g10-2026-27": {
     id: "uk-vol5-g10-2026-27",

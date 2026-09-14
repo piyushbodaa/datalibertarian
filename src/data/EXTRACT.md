@@ -832,3 +832,26 @@ Not taken: Table B "Other Budget" (housing for the poor 300.00; XV FC NCAP grant
 2026-27: the council-approved budget (₹11,460 crore in press reports) has no book on ghmc.gov.in/ghmcbuget.aspx as of 2026-09-14. EMPTY, not ₹0. Next search: ghmc.gov.in/ghmcbuget.aspx for "GHMC Budget 2026-27".
 
 BMC (Mumbai): not opened. Next search: portal.mcgm.gov.in Budget Estimates 2026-27.
+
+## Health — fourteen more state AFS books (2210 + 2211 + 4210 + 4211)
+
+Extract date: 2026-09-14. Every figure below was read off the rendered page image, not PDF text. Printed Total (b) rows are locked in `citations.test.ts`. Code: `src/data/health/books.ts`.
+
+| State | Book / pages | Unit | 2210 BE 26-27 | 2211 | 4210 | 4211 | Notes |
+|---|---|---|---|---|---|---|---|
+| Kerala | AFS Stmt B pp.26–27; Stmt C pp.38–39 | accounts ₹; estimates thousands | 123239786 | 5084564 | 3135606 | blank | Total column |
+| Andhra Pradesh | AFS Vol I Stmt D p.17; Stmt E p.22 | lakhs | 12618,92.19 | 3945,39.10 | 2742,19.44 | 323,45.75 | Totals (b) match |
+| Manipur | AFS Stmt I p.8; p.11 | lakhs | 131482.99 | 4692.70 | 6088.00 | 70.00 | |
+| Nagaland | AFS Stmt I p.6; p.8 | lakhs | 67304.88 | 5200.00 | 23188.67 | not printed | |
+| Tripura | AFS Stmt I p.23; pp.30–31 | lakhs (net) | 120071.7200 | 55681.1300 | 9076.5600 | 10421.6700 | net of recovery, like Police |
+| Mizoram | AFS Stmt I p.8; p.13 | lakhs | 77057.90 | 3421.06 | 10451.00 | not printed | |
+| Arunachal Pradesh | AFS p.8; p.12 | thousands | 16904396 | 10214 | 27300 | 1000 | 4211 blank for actuals |
+| Assam | AFS Stmt B PDF 8–9; 32–33 | lakhs | 656880.03 (grant desk-sum) | 42374.50 | 200427.18 | 147.89 | sums equal printed Total (b) |
+| Jharkhand | AFS Stmt I p.7; p.14 | lakhs | 667357.11 | 820.15 | 131560.01 | not printed | BE 26-27 = Total column |
+| Punjab | AFS Stmt I p.16; p.24 | thousands | 71,06,84,54 | 2,46,87,07 | 4,33,23,03 | not printed | |
+| Uttarakhand | AFS Vol 2 Pt 1 major-head योग rows | thousands | 44141445 | 1739702 | 3278425 | 0 (1 in 25-26) | |
+| Haryana | AFS 2-D p.14; p.18 | thousands | 94496168 | 4123500 | 29779400 | 0 | |
+| Meghalaya | AFS p.20; p.29 | thousands | 22,20,38,29 | 1,22,54,21 | 1,24,40,00 | blank | |
+| Chhattisgarh | AFS Vol-1 revenue p.4; capital file p.8 | thousands | 91,03,98,78 | 3,93,09,51 | 16,54,52,04 | 1,01,50 | capital: 4-capital_expenditure.pdf |
+
+Not opened / not isolable yet: Karnataka (Health is not in Expenditure Vol-1; needs the Health demand volume), Bihar (AFS PDF is a scan with no text layer — read page images next), Goa, Gujarat, Himachal, MP, Maharashtra, Odisha, Rajasthan, Sikkim, Tamil Nadu, UP, West Bengal.

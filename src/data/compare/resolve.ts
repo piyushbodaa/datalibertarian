@@ -35,6 +35,7 @@ import { tgObject010 } from "../telangana/police";
 import { tgHealthCap, tgHealthFunctional, tgHealthRun } from "../telangana/health";
 import { tg2515, tg4515 } from "../telangana/gram";
 import { municipalBodies } from "../municipal/ghmc";
+import { getHealthBook } from "../health/books";
 import { up2055Voted, up4055, upFunctional, upSalariesDesk } from "../uttar-pradesh/police";
 import { wb2055Net, wb4055, wbFunctional, wbSalariesDesk } from "../west-bengal/police";
 import { unionTotalExpenditure } from "../union/budget-at-a-glance";
@@ -114,7 +115,11 @@ export function entitiesFor(layer: LayerId, grain: CompareGrain = "layer"): Comp
 
 function goldState(slug: string, bag: CompareSide["bag"]): CompareSide {
   const entity = getCompareEntity(slug)!;
-  return { entity, tier: "gold", bag };
+  const health = getHealthBook(slug);
+  const withHealth: CompareSide["bag"] = health
+    ? { ...bag, "health-functional": health.functional, "health-run": health.run, "health-cap": health.cap }
+    : bag;
+  return { entity, tier: "gold", bag: withHealth };
 }
 
 export function resolveSide(slug: string | undefined): CompareSide | undefined {
