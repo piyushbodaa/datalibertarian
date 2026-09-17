@@ -31,5 +31,19 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "buildCommand": "npm run build",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/copwatchindia",
+      "destination": "https://copwatchindia-cases.vercel.app/"
+    },
+    {
+      "source": "/copwatchindia/",
+      "destination": "https://copwatchindia-cases.vercel.app/"
+    },
+    {
+      "source": "/copwatchindia/:path*",
+      "destination": "https://copwatchindia-cases.vercel.app/:path*"
+    }
+  ]
 }
