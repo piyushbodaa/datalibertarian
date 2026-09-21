@@ -35,27 +35,27 @@
   "rewrites": [
     {
       "source": "/copwatchindia",
-      "destination": "https://copwatchindia-cases.vercel.app/"
+      "destination": "https://copwatchindia.vercel.app/"
     },
     {
       "source": "/copwatchindia/",
-      "destination": "https://copwatchindia-cases.vercel.app/"
+      "destination": "https://copwatchindia.vercel.app/"
     },
     {
       "source": "/copwatchindia/:path*",
-      "destination": "https://copwatchindia-cases.vercel.app/:path*"
+      "destination": "https://copwatchindia.vercel.app/:path*"
     },
     {
       "source": "/apwatch",
-      "destination": "https://copwatchindia-cases.vercel.app/apwatch/"
+      "destination": "https://copwatchindia.vercel.app/apwatch/"
     },
     {
       "source": "/apwatch/",
-      "destination": "https://copwatchindia-cases.vercel.app/apwatch/"
+      "destination": "https://copwatchindia.vercel.app/apwatch/"
     },
     {
       "source": "/apwatch/:path*",
-      "destination": "https://copwatchindia-cases.vercel.app/apwatch/:path*"
+      "destination": "https://copwatchindia.vercel.app/apwatch/:path*"
     }
   ]
 }
