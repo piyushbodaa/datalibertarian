@@ -3,11 +3,11 @@
     "name": "Andhra Pradesh",
     "type": "state",
     "spending": {
-      "value": null,
+      "value": 332205.33,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://apfinance.gov.in/...Bud@et26-27/documents/Volume-VI.pdf",
+      "source_title": "Andhra Pradesh Budget in Brief 2026-27 (Budget at a Glance), Finance Department, Government of Andhra Pradesh",
       "as_of": null
     },
     "employees": {
@@ -19,19 +19,19 @@
       "as_of": null
     },
     "police_stations": {
-      "value": null,
+      "value": 1029,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2023-24",
+      "source_url": "https://bprd.nic.in/uploads/pdf/Data%20on%20Police%20Organizations%20%282024%29_%20%2814-07-25%29%20All.pdf",
+      "source_title": "DATA ON POLICE ORGANIZATIONS (As on January 01, 2024)",
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 61317,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://dashboard.udiseplus.gov.in/report2026/static/media/UDISE+2024_25_Booklet_nep.ea09e672a163f92d9cfe.pdf",
+      "source_title": "UNIFIED DISTRICT INFORMATION SYSTEM FOR EDUCATION PLUS (UDISE+) 2024-25",
       "as_of": null
     },
     "hospitals": {
@@ -48,11 +48,11 @@
     "name": "Arunachal Pradesh",
     "type": "state",
     "spending": {
-      "value": null,
+      "value": 36606.69,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://www.arunachalbudget.in/docs/AFS-2026-27.pdf",
+      "source_title": "Annual Financial Statement 2026-27, Government of Arunachal Pradesh",
       "as_of": null
     },
     "employees": {
@@ -72,11 +72,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 3229,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://dashboard.udiseplus.gov.in/report2026/static/media/UDISE+2024_25_Booklet_nep.ea09e672a163f92d9cfe.pdf",
+      "source_title": "UNIFIED DISTRICT INFORMATION SYSTEM FOR EDUCATION PLUS (UDISE+) 2024-25",
       "as_of": null
     },
     "hospitals": {
@@ -162,11 +162,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 94339,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://dashboard.udiseplus.gov.in/report2025/static/media/UDISE+2024_25_Booklet_existing.118ba29d4773e6372f72.pdf",
+      "source_title": "Report on Unified District Information System for Education Plus (UDISE+) 2024-25 - Existing Structure",
       "as_of": null
     },
     "hospitals": {
@@ -183,11 +183,11 @@
     "name": "Chhattisgarh",
     "type": "state",
     "spending": {
-      "value": null,
+      "value": 165000,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2025-26",
+      "source_url": "https://finance.cg.gov.in/budget_doc/2025-2026/Press%20Note/Press%20Note-E.pdf",
+      "source_title": "Press Note, Budget 2025-26, Government of Chhattisgarh Finance Department (Budget at a Glance)",
       "as_of": null
     },
     "employees": {
@@ -273,11 +273,11 @@
     "name": "Gujarat",
     "type": "state",
     "spending": {
-      "value": null,
+      "value": 408053,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://financedepartment.gujarat.gov.in/Documents/Bud-Eng_1607_2026-2-18_275.docx",
+      "source_title": "Gujarat Budget 2026-27 — Budget Speech (Part A), Finance Department, Government of Gujarat",
       "as_of": null
     },
     "employees": {
@@ -318,11 +318,11 @@
     "name": "Haryana",
     "type": "state",
     "spending": {
-      "value": null,
+      "value": 223658.17,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s386e78499eeb33fb9cac16b7555b50767/uploads/2026/03/202603201709480455.pdf",
+      "source_title": "Budget at a Glance 2026-27, Finance Department, Government of Haryana",
       "as_of": null
     },
     "employees": {
@@ -342,11 +342,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 23494,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://dashboard.udiseplus.gov.in/report2026/static/media/UDISE+2024_25_Booklet_nep.ea09e672a163f92d9cfe.pdf",
+      "source_title": "UNIFIED DISTRICT INFORMATION SYSTEM FOR EDUCATION PLUS (UDISE+) 2024-25",
       "as_of": null
     },
     "hospitals": {
@@ -363,11 +363,11 @@
     "name": "Himachal Pradesh",
     "type": "state",
     "spending": {
-      "value": null,
+      "value": 54928.18,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://ebudget.hp.nic.in/ASPX/Anonymous/Pdf/BIB.pdf",
+      "source_title": "Himachal Pradesh Budget 2026-27 - Budget in Brief",
       "as_of": null
     },
     "employees": {
@@ -387,11 +387,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 17330,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://dashboard.udiseplus.gov.in/report2026/static/media/UDISE+2024_25_Booklet_existing.118ba29d4773e6372f72.pdf",
+      "source_title": "UNIFIED DISTRICT INFORMATION SYSTEM FOR EDUCATION PLUS (UDISE+) 2024-25",
       "as_of": null
     },
     "hospitals": {
@@ -408,11 +408,11 @@
     "name": "Jharkhand",
     "type": "state",
     "spending": {
-      "value": null,
+      "value": 158560.0,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://finance.jharkhand.gov.in/pdf/Budget_2026_27/Budget_Budget_at_a_Glance.pdf",
+      "source_title": "Budget at a Glance 2026-27, Finance Department, Government of Jharkhand",
       "as_of": null
     },
     "employees": {
@@ -432,11 +432,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 44376,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://dashboard.udiseplus.gov.in/report2026/static/media/UDISE+2024_25_Booklet_nep.ea09e672a163f92d9cfe.pdf",
+      "source_title": "UNIFIED DISTRICT INFORMATION SYSTEM FOR EDUCATION PLUS (UDISE+) 2024-25",
       "as_of": null
     },
     "hospitals": {
@@ -723,11 +723,11 @@
     "name": "Mizoram",
     "type": "state",
     "spending": {
-      "value": null,
+      "value": 17076.92,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://finance.mizoram.gov.in/uploads/attachments/2026/02/48968ce18ed9429a266258d7e60f53a1/budget-speech-2026-english-final.pdf",
+      "source_title": "Budget Speech 2026-27 English - Finance Department, Government of Mizoram",
       "as_of": null
     },
     "employees": {
@@ -747,11 +747,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 3974,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://dashboard.udiseplus.gov.in/report2026/static/media/UDISE+2024_25_Booklet_nep.ea09e672a163f92d9cfe.pdf",
+      "source_title": "Report on Unified District Information System for Education Plus (UDISE+) 2024-25",
       "as_of": null
     },
     "hospitals": {
@@ -858,11 +858,11 @@
     "name": "Punjab",
     "type": "state",
     "spending": {
-      "value": null,
+      "value": 260437,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://finance.punjab.gov.in/uploads/d7212a72-2d72-4506-9a47-064ff8f76b7c_Budget_Speech_English%202026-27.pdf",
+      "source_title": "Budget Speech English 2026-27",
       "as_of": null
     },
     "employees": {
@@ -882,11 +882,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 27281,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://api.udiseplus.gov.in/open-services/v1.1/schools-summarised-stats/public",
+      "source_title": "UDISE+ 2024-25 Schools Summarised Stats (Open Services API, yearId 11)",
       "as_of": null
     },
     "hospitals": {
@@ -948,11 +948,11 @@
     "name": "Sikkim",
     "type": "state",
     "spending": {
-      "value": null,
+      "value": 18455,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "http://sikkimfred.gov.in/Budget_2026-27/Documents/CM%20Speech%20English%202026.pdf",
+      "source_title": "Chief Minister- Budget Speech 2026 (English)",
       "as_of": null
     },
     "employees": {
@@ -993,11 +993,11 @@
     "name": "Tamil Nadu",
     "type": "state",
     "spending": {
-      "value": null,
+      "value": 472585,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://financedept.tn.gov.in/en/my-documents/2020/07/CITIZEN-BUDGET-2026-27-ENGLISH.pdf",
+      "source_title": "Citizen's Guide - Revised Budget 2026-2027, Government of Tamil Nadu, Finance Department",
       "as_of": null
     },
     "employees": {
@@ -1017,11 +1017,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 57935,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://api.udiseplus.gov.in/open-services/v1.1/summarised-stats/public",
+      "source_title": "UDISE+ Dashboard Open Services - summarised-stats",
       "as_of": null
     },
     "hospitals": {
@@ -1038,11 +1038,11 @@
     "name": "Telangana",
     "type": "state",
     "spending": {
-      "value": null,
+      "value": 324234,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://www.telangana.gov.in/wp-content/uploads/2026/05/Annual_Financial_Statement__Explanatory_Memorandum_1773980967_.pdf",
+      "source_title": "ANNUAL FINANCIAL STATEMENT AND EXPLANATORY MEMORANDUM ON BUDGET 2026-27",
       "as_of": null
     },
     "employees": {
@@ -1083,11 +1083,11 @@
     "name": "Tripura",
     "type": "state",
     "spending": {
-      "value": null,
+      "value": 34212.31,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://finance.tripura.gov.in/sites/default/files/Finance%20Minister%27s%20Speech%20in%20English%20on%20Budget%202026-27.pdf",
+      "source_title": "Finance Minister's Speech in English on Budget 2026-27",
       "as_of": null
     },
     "employees": {
@@ -1107,11 +1107,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 4943,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://dashboard.udiseplus.gov.in/report2026/static/media/UDISE+2024_25_Booklet_nep.ea09e672a163f92d9cfe.pdf",
+      "source_title": "UNIFIED DISTRICT INFORMATION SYSTEM FOR EDUCATION PLUS (UDISE+) 2024-25",
       "as_of": null
     },
     "hospitals": {
@@ -1128,11 +1128,11 @@
     "name": "Uttar Pradesh",
     "type": "state",
     "spending": {
-      "value": null,
+      "value": 912696.35,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://budget.up.nic.in/budgetbhashan/budgetbhashan_2026_2027.pdf",
+      "source_title": "Budget Speech 2026-2027, Government of Uttar Pradesh",
       "as_of": null
     },
     "employees": {
@@ -1152,11 +1152,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 262358,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://dashboard.udiseplus.gov.in/report2026/static/media/UDISE+2024_25_Booklet_nep.ea09e672a163f92d9cfe.pdf",
+      "source_title": "UNIFIED DISTRICT INFORMATION SYSTEM FOR EDUCATION PLUS (UDISE+) 2024-25",
       "as_of": null
     },
     "hospitals": {
@@ -1173,11 +1173,11 @@
     "name": "Uttarakhand",
     "type": "state",
     "spending": {
-      "value": null,
+      "value": 111703.21,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s3c65d7bd70fe3e5e3a2f3de681edc193d/uploads/2026/03/202604081277031892.pdf",
+      "source_title": "Budget at a Glance, Financial Year 2026-27 (Uttarakhand Government, Budget Directorate)",
       "as_of": null
     },
     "employees": {
@@ -1218,11 +1218,11 @@
     "name": "West Bengal",
     "type": "state",
     "spending": {
-      "value": null,
+      "value": 438775.29,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://finance.wb.gov.in/writereaddata/Budget_Publication/2026_bp1-1.pdf",
+      "source_title": "Government of West Bengal Civil Budget Estimate for the Year 2026-2027 (General Abstract of Receipts and Expenditure), Budget Publication No. 1, June 2026",
       "as_of": null
     },
     "employees": {
@@ -1242,11 +1242,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 93715,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://api.udiseplus.gov.in/open-services/v1.1/schools-summarised-stats/public",
+      "source_title": "UDISE+ Dashboard 2024-25 - Schools Summarised Stats (official API backing dashboard.udiseplus.gov.in)",
       "as_of": null
     },
     "hospitals": {
@@ -1263,11 +1263,11 @@
     "name": "Andaman and Nicobar Islands",
     "type": "ut",
     "spending": {
-      "value": null,
+      "value": 6680.94,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://www.indiabudget.gov.in/doc/eb/dg52.pdf",
+      "source_title": "Demand No. 52 - Andaman and Nicobar Islands - Demands for Grants, 2026-2027",
       "as_of": null
     },
     "employees": {
@@ -1332,11 +1332,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 207,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://dashboard.udiseplus.gov.in/report2026/static/media/UDISE+2024_25_Booklet_nep.ea09e672a163f92d9cfe.pdf",
+      "source_title": "Unified District Information System for Education Plus (UDISE+) 2024-25",
       "as_of": null
     },
     "hospitals": {
@@ -1353,11 +1353,11 @@
     "name": "Dadra and Nagar Haveli and Daman and Diu",
     "type": "ut",
     "spending": {
-      "value": null,
+      "value": 2832.7,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://www.indiabudget.gov.in/doc/eb/sbe54.pdf",
+      "source_title": "Notes on Demands for Grants, 2026-2027 - Demand No. 54 Ministry of Home Affairs (Dadra and Nagar Haveli and Daman and Diu)",
       "as_of": null
     },
     "employees": {
@@ -1377,11 +1377,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 433,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2291272&reg=48&lang=2",
+      "source_title": "Teacher Vacancies - Ministry of Education, Press Information Bureau",
       "as_of": null
     },
     "hospitals": {
@@ -1398,11 +1398,11 @@
     "name": "Delhi",
     "type": "ut",
     "spending": {
-      "value": null,
+      "value": 103700,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://finance.delhi.gov.in/sites/default/files/Finance/generic_multiple_files/bag_compressed_1_2.pdf",
+      "source_title": "BUDGET AT A GLANCE 2026-2027",
       "as_of": null
     },
     "employees": {
@@ -1422,11 +1422,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 5556,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://dashboard.udiseplus.gov.in/report-new-v.6-demo2025/static/media/UDISE%2B2024_25_Booklet_existing.118ba29d4773e6372f72.pdf",
+      "source_title": "UDISE+ Report 2024-25 - Existing Structure",
       "as_of": null
     },
     "hospitals": {
@@ -1443,11 +1443,11 @@
     "name": "Jammu and Kashmir",
     "type": "ut",
     "spending": {
-      "value": null,
+      "value": 105877,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://cag.gov.in/uploads/state_accounts_report/account-report-MKI-06-2026-1-06a5db7a5f0bff4-86611107.pdf",
+      "source_title": "GOVERNMENT OF UT OF JAMMU & KASHMIR ACCOUNTS AT A GLANCE (at the end of 06/2026)",
       "as_of": null
     },
     "employees": {
@@ -1467,11 +1467,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 24192,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://dashboard.udiseplus.gov.in/report-new-v.6-demo2025/static/media/UDISE%2B2024_25_Booklet_existing.118ba29d4773e6372f72.pdf",
+      "source_title": "UDISE+ Report 2024-25 - Existing Structure",
       "as_of": null
     },
     "hospitals": {
@@ -1488,11 +1488,11 @@
     "name": "Ladakh",
     "type": "ut",
     "spending": {
-      "value": null,
+      "value": 4869.31,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://www.indiabudget.gov.in/doc/eb/dg55.pdf",
+      "source_title": "Demands for Grants 2026-2027 - Demand No. 55 Ladakh",
       "as_of": null
     },
     "employees": {
@@ -1533,11 +1533,11 @@
     "name": "Lakshadweep",
     "type": "ut",
     "spending": {
-      "value": null,
+      "value": 1682.35,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://www.indiabudget.gov.in/doc/eb/sbe56.pdf",
+      "source_title": "Notes on Demands for Grants, 2026-2027 - Demand No. 56 - Ministry of Home Affairs (Lakshadweep)",
       "as_of": null
     },
     "employees": {
@@ -1602,11 +1602,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 763,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://dashboard.udiseplus.gov.in/report2026/static/media/UDISE+2024_25_Booklet_nep.ea09e672a163f92d9cfe.pdf",
+      "source_title": "UNIFIED DISTRICT INFORMATION SYSTEM FOR EDUCATION PLUS (UDISE+) 2024-25",
       "as_of": null
     },
     "hospitals": {
