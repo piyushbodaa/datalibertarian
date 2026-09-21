@@ -176,6 +176,68 @@
       "source_title": "LIST OF DEPARTMENTAL WEBSITES/PORTALS - Andaman UT Administration",
       "as_of": "2024-07-29"
     },
+    "commissions": {
+      "count": 9,
+      "items": [
+        {
+          "name": "Andaman & Nicobar UT Commission for Protection of Child Rights",
+          "abbrev": "A&N UTCPCR",
+          "url": null,
+          "note": "Statutory child-rights commission under the CPCR Act, 2005; RTE appellate body."
+        },
+        {
+          "name": "State Level Environment Impact Assessment Authority for Andaman and Nicobar Islands",
+          "abbrev": "SEIAA",
+          "url": null,
+          "note": "Grants prior environmental clearance for Category-B projects in the islands."
+        },
+        {
+          "name": "State Level Expert Appraisal Committee for Andaman and Nicobar Islands",
+          "abbrev": "SEAC",
+          "url": null,
+          "note": "Appraises Category-B projects and recommends clearance to SEIAA."
+        },
+        {
+          "name": "Andaman & Nicobar Pollution Control Committee",
+          "abbrev": "ANPCC",
+          "url": "https://dstpcc.andamannicobar.gov.in/index_anpcc.php",
+          "note": "Enforces water, air and environment protection laws in the UT."
+        },
+        {
+          "name": "Joint Electricity Regulatory Commission for the State of Goa and Union Territories",
+          "abbrev": "JERC",
+          "url": "https://jercuts.gov.in/",
+          "note": "Regulates power sector and tariffs for Andaman & Nicobar among other UTs."
+        },
+        {
+          "name": "State Consumer Disputes Redressal Commission in the U.T. of Andaman and Nicobar Islands",
+          "abbrev": "SCDRC",
+          "url": null,
+          "note": "UT-level consumer disputes redressal commission."
+        },
+        {
+          "name": "Andaman and Nicobar State Legal Services Authority",
+          "abbrev": null,
+          "url": null,
+          "note": "Statutory body for free legal services and Lok Adalats in the UT."
+        },
+        {
+          "name": "Election Commission for UTs",
+          "abbrev": null,
+          "url": "https://secforuts.mha.gov.in/ut-of-andaman-nicobar-islands/",
+          "note": "Conducts panchayat and municipal elections in Andaman & Nicobar Islands."
+        },
+        {
+          "name": "Andaman and Nicobar Coastal Zone Management Authority",
+          "abbrev": "ANCZMA",
+          "url": null,
+          "note": "Regulates coastal regulation zone clearances in the islands."
+        }
+      ],
+      "source_url": "https://andamannicobar.gov.in/",
+      "source_title": "The official website of Andaman & Nicobar Administration",
+      "as_of": "2026-09-21"
+    },
     "ministries": {
       "count": 28,
       "items": [
@@ -4665,6 +4727,1110 @@
       "as_of": "31 March 2017"
     }
   },
+  "bmc": {
+    "agencies": {
+      "count": 53,
+      "items": [
+        {
+          "name": "General Administration Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Personnel, establishment and general administration of the corporation"
+        },
+        {
+          "name": "Public Relations Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Public communication, press relations and civic information"
+        },
+        {
+          "name": "Municipal Secretary's Office",
+          "abbrev": null,
+          "url": null,
+          "note": "Secretarial support to the corporation and its committees"
+        },
+        {
+          "name": "Information & Technology Department",
+          "abbrev": null,
+          "url": null,
+          "note": "IT systems, portals and e-governance services"
+        },
+        {
+          "name": "Planning Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Planning functions of the corporation"
+        },
+        {
+          "name": "Municipal Chief Auditor",
+          "abbrev": null,
+          "url": null,
+          "note": "Internal audit of municipal accounts and expenditure"
+        },
+        {
+          "name": "Chief Accountant (Finance)",
+          "abbrev": null,
+          "url": null,
+          "note": "Municipal finance, accounts, treasury and budget"
+        },
+        {
+          "name": "Chief Accountant (Water Supply & Sewerage Department)",
+          "abbrev": null,
+          "url": null,
+          "note": "Accounts for water supply and sewerage operations"
+        },
+        {
+          "name": "Chief Engineer (Vigilance)",
+          "abbrev": null,
+          "url": null,
+          "note": "Vigilance and technical inspection of engineering works"
+        },
+        {
+          "name": "Central Purchase Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Centralised procurement of stores, medicines and equipment"
+        },
+        {
+          "name": "Assessment & Collection Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Property tax assessment, collection and recovery"
+        },
+        {
+          "name": "Election Branch",
+          "abbrev": null,
+          "url": null,
+          "note": "Municipal election-related duties"
+        },
+        {
+          "name": "Education Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Municipal primary and secondary schools"
+        },
+        {
+          "name": "Deputy City Engineer (School Infrastructure Cell)",
+          "abbrev": null,
+          "url": null,
+          "note": "Construction and maintenance of municipal school buildings"
+        },
+        {
+          "name": "City Engineer (Central Office)",
+          "abbrev": null,
+          "url": null,
+          "note": "Building construction works across the city"
+        },
+        {
+          "name": "Chief Engineer (Building Maintenance & H.I.C.)",
+          "abbrev": null,
+          "url": null,
+          "note": "Maintenance of municipal buildings and heritage structures"
+        },
+        {
+          "name": "Deputy Municipal Architect (Garden Cell)",
+          "abbrev": null,
+          "url": null,
+          "note": "Architectural works for gardens and open spaces"
+        },
+        {
+          "name": "Chief Engineer (Development Plan)",
+          "abbrev": null,
+          "url": null,
+          "note": "Development plan preparation and town planning"
+        },
+        {
+          "name": "Deputy Chief Engineer (Building Proposals)",
+          "abbrev": null,
+          "url": null,
+          "note": "Scrutiny and approval of building proposals and plans"
+        },
+        {
+          "name": "Civic Training Institute & Research Centre",
+          "abbrev": null,
+          "url": null,
+          "note": "Training and research for municipal staff"
+        },
+        {
+          "name": "Chief Engineer (Roads & Traffic)",
+          "abbrev": null,
+          "url": null,
+          "note": "Construction and maintenance of roads and traffic works"
+        },
+        {
+          "name": "Chief Engineer (Bridges)",
+          "abbrev": null,
+          "url": null,
+          "note": "Construction and maintenance of bridges and flyovers"
+        },
+        {
+          "name": "Chief Engineer (Dharmaveer, Swarajyarakshak Chhatrapati Sambhaji Maharaj Mumbai Coastal Road)",
+          "abbrev": null,
+          "url": null,
+          "note": "Execution of the Mumbai Coastal Road project"
+        },
+        {
+          "name": "Chief Engineer (Mechanical & Electrical)",
+          "abbrev": null,
+          "url": null,
+          "note": "Mechanical and electrical engineering works and services"
+        },
+        {
+          "name": "Chief Engineer (Storm Water Drains)",
+          "abbrev": null,
+          "url": null,
+          "note": "Storm water drain network construction, operation and maintenance"
+        },
+        {
+          "name": "Hydraulic Engineer Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Water supply distribution, operation and maintenance"
+        },
+        {
+          "name": "Chief Engineer (Water Supply Project)",
+          "abbrev": null,
+          "url": null,
+          "note": "Water supply projects including dams and tunnels"
+        },
+        {
+          "name": "Chief Engineer (Sewerage Operations)",
+          "abbrev": null,
+          "url": null,
+          "note": "Operation and maintenance of the sewerage system"
+        },
+        {
+          "name": "Chief Engineer (Sewerage Projects)",
+          "abbrev": null,
+          "url": null,
+          "note": "Execution of sewerage projects"
+        },
+        {
+          "name": "Chief Engineer (Mumbai Sewerage Disposal Project)",
+          "abbrev": null,
+          "url": null,
+          "note": "Mumbai sewage disposal project works"
+        },
+        {
+          "name": "Deputy Chief Engineer (Improvements)",
+          "abbrev": null,
+          "url": null,
+          "note": "Improvement schemes and related civil works"
+        },
+        {
+          "name": "Solid Waste Management Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Collection, transport and disposal of solid waste"
+        },
+        {
+          "name": "Public Health Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Public health services and sanitation administration"
+        },
+        {
+          "name": "Municipal Hospitals & Medical Colleges",
+          "abbrev": null,
+          "url": null,
+          "note": "Major municipal hospitals and medical and dental colleges"
+        },
+        {
+          "name": "Estate Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Management of municipal lands and estates"
+        },
+        {
+          "name": "Gardens Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Development and maintenance of gardens and parks"
+        },
+        {
+          "name": "Veermata Jijabai Bhosale Botanical Garden and Zoo",
+          "abbrev": null,
+          "url": null,
+          "note": "Botanical garden and zoo at Byculla"
+        },
+        {
+          "name": "Mumbai Fire Brigade",
+          "abbrev": null,
+          "url": null,
+          "note": "Fire fighting, rescue and fire prevention services"
+        },
+        {
+          "name": "Deonar Abattoir",
+          "abbrev": null,
+          "url": null,
+          "note": "Municipal slaughterhouse at Deonar"
+        },
+        {
+          "name": "Security Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Security of municipal premises and establishments"
+        },
+        {
+          "name": "Chief Labour Officer",
+          "abbrev": null,
+          "url": null,
+          "note": "Labour welfare and industrial relations"
+        },
+        {
+          "name": "Legal Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Legal advice, litigation and enquiry proceedings"
+        },
+        {
+          "name": "Licence Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Issue and regulation of municipal licences and permits"
+        },
+        {
+          "name": "Markets Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Management of municipal markets"
+        },
+        {
+          "name": "Shops & Establishments",
+          "abbrev": null,
+          "url": null,
+          "note": "Registration and regulation of shops and establishments"
+        },
+        {
+          "name": "Environment & Climate Change Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Environment protection, air quality and climate action"
+        },
+        {
+          "name": "Ashray Yojana Cell",
+          "abbrev": null,
+          "url": null,
+          "note": "Ashray housing scheme works"
+        },
+        {
+          "name": "Disaster Management and Central Complaint Registration Centre Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Disaster response control room and civic complaint helpline"
+        },
+        {
+          "name": "Protocol & Liaison Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Protocol, hospitality and liaison work"
+        },
+        {
+          "name": "Central Archives Cell",
+          "abbrev": null,
+          "url": null,
+          "note": "Preservation of municipal records and archives"
+        },
+        {
+          "name": "Heritage Conservation",
+          "abbrev": null,
+          "url": null,
+          "note": "Conservation of heritage buildings and precincts"
+        },
+        {
+          "name": "Business Development Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Commercial use of municipal assets for revenue"
+        },
+        {
+          "name": "Human Resource Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Human resource management and HR systems"
+        }
+      ],
+      "source_url": "https://www.mcgm.gov.in/irj/go/km/docs/documents/HomePage%20Data/BMC%20Diary/BMC_English%20Diary_2025_Website.pdf",
+      "source_title": "CIVIC DIARY 2025 - Brihanmumbai Municipal Corporation",
+      "as_of": "2025"
+    },
+    "orgs": {
+      "count": 8,
+      "items": [
+        {
+          "name": "Standing Committee",
+          "abbrev": null,
+          "url": null,
+          "note": "Statutory municipal authority exercising financial and executive oversight under the Mumbai Municipal Corporation Act 1888."
+        },
+        {
+          "name": "Improvements Committee",
+          "abbrev": null,
+          "url": null,
+          "note": "Statutory municipal authority for city improvement matters under the Mumbai Municipal Corporation Act 1888."
+        },
+        {
+          "name": "Brihan Mumbai Electric Supply and Transport Committee",
+          "abbrev": null,
+          "url": null,
+          "note": "Statutory committee overseeing the electricity supply and transport undertaking under the Mumbai Municipal Corporation Act 1888."
+        },
+        {
+          "name": "Education Committee",
+          "abbrev": null,
+          "url": null,
+          "note": "Statutory municipal authority for primary education duties under the Mumbai Municipal Corporation Act 1888."
+        },
+        {
+          "name": "Wards Committee",
+          "abbrev": null,
+          "url": null,
+          "note": "Statutory ward-level municipal authority under the Mumbai Municipal Corporation Act 1888."
+        },
+        {
+          "name": "Mayor",
+          "abbrev": null,
+          "url": null,
+          "note": "Civic head and municipal authority under the Mumbai Municipal Corporation Act 1888."
+        },
+        {
+          "name": "Municipal Commissioner",
+          "abbrev": null,
+          "url": null,
+          "note": "Chief executive municipal authority administering the corporation under the Mumbai Municipal Corporation Act 1888."
+        },
+        {
+          "name": "General Manager of the Brihan Mumbai Electric Supply and Transport Undertaking",
+          "abbrev": null,
+          "url": null,
+          "note": "Executive head managing the BEST Undertaking under the Mumbai Municipal Corporation Act 1888."
+        }
+      ],
+      "source_url": "https://mahasec.maharashtra.gov.in/Upload/PDF/3%20The%20Mumbai%20municipal%20Corporation%20Act%201888.pdf",
+      "source_title": "The Mumbai Municipal Corporation Act 1888",
+      "as_of": "2026-09-21"
+    }
+  },
+  "chandigarh": {
+    "agencies": {
+      "count": 51,
+      "items": [
+        {
+          "name": "Agriculture",
+          "abbrev": null,
+          "url": "https://chandigarh.gov.in/node/5599",
+          "note": "Crop production, agricultural extension and farmer welfare services."
+        },
+        {
+          "name": "Agriculture Census",
+          "abbrev": null,
+          "url": "https://chandigarh.gov.in/agriculture-census",
+          "note": "Periodic census of agricultural holdings, crops and farm inputs."
+        },
+        {
+          "name": "Animal Husbandry & Fisheries",
+          "abbrev": null,
+          "url": "http://chdanimalhusbandry.gov.in/",
+          "note": "Livestock development, veterinary care and fisheries management."
+        },
+        {
+          "name": "Art & Culture",
+          "abbrev": null,
+          "url": "http://chdmuseum.nic.in/",
+          "note": "Promotion of art, culture and heritage activities in Chandigarh."
+        },
+        {
+          "name": "Chandigarh Transport Undertaking",
+          "abbrev": null,
+          "url": "http://chdctu.gov.in/",
+          "note": "Public bus transport services in and around Chandigarh."
+        },
+        {
+          "name": "Cooperative",
+          "abbrev": null,
+          "url": null,
+          "note": "Registration and regulation of cooperative societies."
+        },
+        {
+          "name": "DC Office",
+          "abbrev": null,
+          "url": "https://chandigarhdistrict.nic.in/",
+          "note": "District administration, magisterial and citizen services of Chandigarh."
+        },
+        {
+          "name": "Education",
+          "abbrev": null,
+          "url": "http://chdeducation.gov.in/",
+          "note": "School education administration for government schools in the UT."
+        },
+        {
+          "name": "Election",
+          "abbrev": null,
+          "url": "https://ceochandigarh.gov.in/",
+          "note": "Electoral roll management and conduct of elections in the UT."
+        },
+        {
+          "name": "Electrical Inspectorate",
+          "abbrev": null,
+          "url": "https://chandigarh.gov.in/node/5600",
+          "note": "Inspection and safety regulation of electrical installations."
+        },
+        {
+          "name": "Employment",
+          "abbrev": null,
+          "url": "http://reeut.chd.gov.in/",
+          "note": "Employment exchange services, job assistance and career guidance."
+        },
+        {
+          "name": "Engineering",
+          "abbrev": null,
+          "url": "https://chdengineering.gov.in/",
+          "note": "Public works, roads, buildings and infrastructure construction."
+        },
+        {
+          "name": "Environment",
+          "abbrev": null,
+          "url": "http://chandigarhenvis.gov.in/",
+          "note": "Environmental protection, pollution control awareness and green initiatives."
+        },
+        {
+          "name": "Estate Office",
+          "abbrev": null,
+          "url": "https://estateoffice.chd.gov.in/",
+          "note": "Management and allotment of government land and built-up property."
+        },
+        {
+          "name": "Excise & Taxation",
+          "abbrev": null,
+          "url": "http://etdut.gov.in/ExciseOnline/index.html",
+          "note": "Excise regulation and collection of taxes on goods and services."
+        },
+        {
+          "name": "Finance",
+          "abbrev": null,
+          "url": "http://chdpeo.gov.in/",
+          "note": "Budget, accounts, treasury and financial management of the UT."
+        },
+        {
+          "name": "Food & Civil Supplies & Consumer Affairs & Legal Metrology",
+          "abbrev": null,
+          "url": "http://chdfood.gov.in/",
+          "note": "Public distribution, ration cards, consumer protection and weights-and-measures enforcement."
+        },
+        {
+          "name": "Forest & Wildlife",
+          "abbrev": null,
+          "url": "http://www.chandigarhforest.gov.in/",
+          "note": "Forest conservation, tree cover and wildlife protection."
+        },
+        {
+          "name": "Government Medical College & Hospital",
+          "abbrev": null,
+          "url": "http://gmch.gov.in/",
+          "note": "Tertiary healthcare, medical education and research hospital."
+        },
+        {
+          "name": "Government Museum",
+          "abbrev": null,
+          "url": "http://chdmuseum.gov.in/",
+          "note": "Museums, art galleries and preservation of cultural artefacts."
+        },
+        {
+          "name": "Health",
+          "abbrev": null,
+          "url": "https://chandigarh.gov.in/node/5618",
+          "note": "Public health services, hospitals and dispensaries in the UT."
+        },
+        {
+          "name": "Home",
+          "abbrev": null,
+          "url": "https://chandigarh.gov.in/node/5620",
+          "note": "Law and order, internal security and general administration."
+        },
+        {
+          "name": "House Allotment Committee",
+          "abbrev": null,
+          "url": "https://eawas.chd.gov.in/",
+          "note": "Allotment of government residential accommodation."
+        },
+        {
+          "name": "Industries",
+          "abbrev": null,
+          "url": "https://chandigarh.gov.in/node/5621",
+          "note": "Industrial promotion, entrepreneurship and business facilitation."
+        },
+        {
+          "name": "Information Technology",
+          "abbrev": null,
+          "url": "http://chdit.gov.in/",
+          "note": "E-governance, digital services and IT infrastructure."
+        },
+        {
+          "name": "Labour",
+          "abbrev": null,
+          "url": "https://labour.chd.gov.in/",
+          "note": "Labour welfare, minimum wages and industrial relations enforcement."
+        },
+        {
+          "name": "Law & Prosecution",
+          "abbrev": null,
+          "url": "https://chandigarh.gov.in/node/5623",
+          "note": "Legal affairs, litigation and public prosecution services."
+        },
+        {
+          "name": "Local Audit",
+          "abbrev": null,
+          "url": "https://chandigarh.gov.in/node/5624",
+          "note": "Audit of accounts of local bodies and government institutions."
+        },
+        {
+          "name": "National Rural Health Mission",
+          "abbrev": null,
+          "url": "http://nrhmchd.gov.in/",
+          "note": "Rural and urban primary healthcare programmes under NHM."
+        },
+        {
+          "name": "Personnel",
+          "abbrev": null,
+          "url": "https://chandigarh.gov.in/node/5625",
+          "note": "Civil services, postings, recruitment rules and service matters."
+        },
+        {
+          "name": "Police",
+          "abbrev": null,
+          "url": "https://chandigarhpolice.gov.in/",
+          "note": "Policing, crime control and public safety in Chandigarh."
+        },
+        {
+          "name": "Police Complaints Authority",
+          "abbrev": null,
+          "url": "https://chandigarh.gov.in/node/5626",
+          "note": "Independent inquiry into complaints against police personnel."
+        },
+        {
+          "name": "Printing & Stationery",
+          "abbrev": null,
+          "url": "https://chandigarh.gov.in/node/5627",
+          "note": "Government press, printing and stationery supply to departments."
+        },
+        {
+          "name": "Public Relations & Cultural Affairs",
+          "abbrev": null,
+          "url": "http://chdpr.gov.in/",
+          "note": "Official publicity, press relations and cultural events."
+        },
+        {
+          "name": "Revenue",
+          "abbrev": null,
+          "url": "https://revenue.chd.gov.in/",
+          "note": "Land records, registration, mutation and revenue administration."
+        },
+        {
+          "name": "Sub Divisional Magistrate (Central)",
+          "abbrev": null,
+          "url": "http://chdsdmcentral.gov.in/",
+          "note": "Sub-divisional magisterial and revenue functions for Central Chandigarh."
+        },
+        {
+          "name": "Sub Divisional Magistrate (East)",
+          "abbrev": null,
+          "url": "http://chdsdmeast.gov.in/",
+          "note": "Sub-divisional magisterial and revenue functions for East Chandigarh."
+        },
+        {
+          "name": "Sub Divisional Magistrate (South)",
+          "abbrev": null,
+          "url": "http://chdsdmsouth.gov.in/",
+          "note": "Sub-divisional magisterial and revenue functions for South Chandigarh."
+        },
+        {
+          "name": "SDMA",
+          "abbrev": null,
+          "url": "https://chandigarh.gov.in/node/5602",
+          "note": "Disaster preparedness, mitigation and emergency response for the UT."
+        },
+        {
+          "name": "Science & Technology & Renewable Energy",
+          "abbrev": null,
+          "url": "https://chandigarh.gov.in/node/5629",
+          "note": "Science promotion and renewable energy programmes."
+        },
+        {
+          "name": "Sports",
+          "abbrev": null,
+          "url": "http://www.sportsdeptt.chd.gov.in/",
+          "note": "Sports infrastructure, coaching and youth sports development."
+        },
+        {
+          "name": "Social Welfare, Women & Child Development",
+          "abbrev": null,
+          "url": "http://chdsw.gov.in/",
+          "note": "Welfare schemes for women, children, elderly and disadvantaged groups."
+        },
+        {
+          "name": "State Consumer Disputes Redressal Commission",
+          "abbrev": null,
+          "url": "http://chdconsumercourt.gov.in/",
+          "note": "Adjudication of consumer complaints and disputes."
+        },
+        {
+          "name": "State Election Commission",
+          "abbrev": null,
+          "url": "https://chandigarh.gov.in/node/5698",
+          "note": "Conduct of municipal and panchayat elections in the UT."
+        },
+        {
+          "name": "Technical Education",
+          "abbrev": null,
+          "url": "http://chdtechnicaleducation.gov.in/",
+          "note": "Polytechnics, technical institutes and skill development."
+        },
+        {
+          "name": "Traffic Police",
+          "abbrev": null,
+          "url": "https://chandigarhtrafficpolice.gov.in/",
+          "note": "Traffic regulation, road safety and enforcement."
+        },
+        {
+          "name": "Transport",
+          "abbrev": null,
+          "url": "http://chdtransport.gov.in/",
+          "note": "Vehicle registration, driving licences and permits."
+        },
+        {
+          "name": "Tourism",
+          "abbrev": null,
+          "url": "http://chandigarhtourism.gov.in/",
+          "note": "Tourism promotion, destinations and hospitality development."
+        },
+        {
+          "name": "Urban Planning",
+          "abbrev": null,
+          "url": "https://urbanplanning.chd.gov.in/",
+          "note": "City planning, architecture and development control."
+        },
+        {
+          "name": "Vigilance",
+          "abbrev": null,
+          "url": "https://evigilance.chd.gov.in/Home",
+          "note": "Anti-corruption inquiries and vigilance oversight."
+        },
+        {
+          "name": "Zila Sainik Welfare Office",
+          "abbrev": null,
+          "url": "http://chandigarhsainikwelfare.org/",
+          "note": "Welfare and resettlement services for ex-servicemen."
+        }
+      ],
+      "source_url": "https://chandigarh.gov.in/departments/other-departments",
+      "source_title": "OTHER DEPARTMENTS | Chandigarh, The official website of the Chandigarh Administration",
+      "as_of": "2026-02-28"
+    },
+    "commissions": {
+      "count": 4,
+      "items": [
+        {
+          "name": "State Election Commission",
+          "abbrev": null,
+          "url": "https://chandigarh.gov.in/state-election-commission",
+          "note": "Conducts elections to local bodies in U.T. Chandigarh"
+        },
+        {
+          "name": "State Consumer Disputes Redressal Commission",
+          "abbrev": null,
+          "url": "http://chdconsumercourt.gov.in",
+          "note": "Adjudicates consumer disputes and appeals in U.T. Chandigarh"
+        },
+        {
+          "name": "Police Complaints Authority",
+          "abbrev": null,
+          "url": "https://chandigarh.gov.in/police-complaints-authority",
+          "note": "Inquires into complaints against police personnel in U.T. Chandigarh"
+        },
+        {
+          "name": "Chandigarh Pollution Control Committee",
+          "abbrev": null,
+          "url": "https://chocmms.nic.in/",
+          "note": "Regulates pollution control and environmental consents in Chandigarh"
+        }
+      ],
+      "source_url": "https://chandigarh.gov.in/other-departments",
+      "source_title": "Other Departments | The official website of the Chandigarh Administration",
+      "as_of": "2026"
+    },
+    "ministries": {
+      "count": 43,
+      "items": [
+        {
+          "name": "Agriculture",
+          "abbrev": null,
+          "url": null,
+          "note": "Crop production, extension services and farmer welfare"
+        },
+        {
+          "name": "Animal Husbandry & Fisheries",
+          "abbrev": null,
+          "url": null,
+          "note": "Livestock health, veterinary care and fisheries development"
+        },
+        {
+          "name": "Art & Culture",
+          "abbrev": null,
+          "url": null,
+          "note": "Promotion of visual, performing and literary arts"
+        },
+        {
+          "name": "Chandigarh Transport Undertaking",
+          "abbrev": "CTU",
+          "url": null,
+          "note": "Operates the city public bus transport services"
+        },
+        {
+          "name": "Cooperative",
+          "abbrev": null,
+          "url": null,
+          "note": "Registration, supervision and development of cooperative societies"
+        },
+        {
+          "name": "DC Office",
+          "abbrev": null,
+          "url": null,
+          "note": "District administration, magisterial and revenue functions"
+        },
+        {
+          "name": "Education",
+          "abbrev": null,
+          "url": null,
+          "note": "School and higher education administration"
+        },
+        {
+          "name": "Election",
+          "abbrev": null,
+          "url": null,
+          "note": "Electoral rolls and conduct of elections in the UT"
+        },
+        {
+          "name": "Electrical Inspectorate",
+          "abbrev": null,
+          "url": null,
+          "note": "Electrical safety inspections and licensing"
+        },
+        {
+          "name": "Employment",
+          "abbrev": null,
+          "url": null,
+          "note": "Employment exchange, career guidance and placement services"
+        },
+        {
+          "name": "Engineering",
+          "abbrev": null,
+          "url": null,
+          "note": "Roads, buildings, water supply, electrical and public health works"
+        },
+        {
+          "name": "Environment",
+          "abbrev": null,
+          "url": null,
+          "note": "Environmental protection, ecology and pollution control"
+        },
+        {
+          "name": "Estate Office",
+          "abbrev": null,
+          "url": null,
+          "note": "Management and allotment of government land and buildings"
+        },
+        {
+          "name": "Excise & Taxation",
+          "abbrev": null,
+          "url": null,
+          "note": "Excise, GST and other tax administration"
+        },
+        {
+          "name": "Finance",
+          "abbrev": null,
+          "url": null,
+          "note": "Budget, treasury, accounts and fiscal management"
+        },
+        {
+          "name": "Food & Civil Supplies & Consumer Affairs & Legal Metrology",
+          "abbrev": null,
+          "url": null,
+          "note": "Public distribution, consumer protection and legal metrology enforcement"
+        },
+        {
+          "name": "Forest & Wildlife",
+          "abbrev": null,
+          "url": null,
+          "note": "Forests, wildlife, parks and green cover management"
+        },
+        {
+          "name": "Health",
+          "abbrev": null,
+          "url": null,
+          "note": "Hospitals, dispensaries and public health services"
+        },
+        {
+          "name": "Home",
+          "abbrev": null,
+          "url": null,
+          "note": "Internal security, law and order and general administration"
+        },
+        {
+          "name": "Industries",
+          "abbrev": null,
+          "url": null,
+          "note": "Industrial promotion, regulation and entrepreneurship support"
+        },
+        {
+          "name": "Information Technology",
+          "abbrev": null,
+          "url": null,
+          "note": "E-governance, IT infrastructure and digital services"
+        },
+        {
+          "name": "Labour",
+          "abbrev": null,
+          "url": null,
+          "note": "Labour welfare, employment conditions and industrial relations"
+        },
+        {
+          "name": "Law & Prosecution",
+          "abbrev": null,
+          "url": null,
+          "note": "Legal advice to government and criminal prosecution"
+        },
+        {
+          "name": "Local Audit",
+          "abbrev": null,
+          "url": null,
+          "note": "Audit of local bodies and allied institutions"
+        },
+        {
+          "name": "National Rural Health Mission",
+          "abbrev": "NRHM",
+          "url": null,
+          "note": "Implementation of national health mission programmes in the UT"
+        },
+        {
+          "name": "Personnel",
+          "abbrev": null,
+          "url": null,
+          "note": "Service matters, postings and establishment of UT employees"
+        },
+        {
+          "name": "Police",
+          "abbrev": null,
+          "url": null,
+          "note": "Law enforcement, crime control and traffic regulation"
+        },
+        {
+          "name": "Printing & Stationery",
+          "abbrev": null,
+          "url": null,
+          "note": "Government printing press and stationery supplies"
+        },
+        {
+          "name": "Public Relations & Cultural Affairs",
+          "abbrev": null,
+          "url": null,
+          "note": "Government publicity, press liaison and cultural programmes"
+        },
+        {
+          "name": "Revenue",
+          "abbrev": null,
+          "url": null,
+          "note": "Land records, revenue collection and related administration"
+        },
+        {
+          "name": "Science & Technology & Renewable Energy",
+          "abbrev": null,
+          "url": null,
+          "note": "Science popularisation, technology and clean energy programmes"
+        },
+        {
+          "name": "Sports",
+          "abbrev": null,
+          "url": null,
+          "note": "Sports infrastructure, coaching and promotion of games"
+        },
+        {
+          "name": "Social Welfare, Women & Child Development",
+          "abbrev": null,
+          "url": null,
+          "note": "Welfare schemes for women, children, elderly and vulnerable groups"
+        },
+        {
+          "name": "Technical Education",
+          "abbrev": null,
+          "url": null,
+          "note": "Polytechnics, ITIs and technical and skill training institutions"
+        },
+        {
+          "name": "Transport",
+          "abbrev": null,
+          "url": null,
+          "note": "Motor vehicles regulation, registration and permits"
+        },
+        {
+          "name": "Tourism",
+          "abbrev": null,
+          "url": null,
+          "note": "Tourism promotion, information and hospitality development"
+        },
+        {
+          "name": "Urban Planning",
+          "abbrev": null,
+          "url": null,
+          "note": "City planning, architecture control and building regulations"
+        },
+        {
+          "name": "Vigilance",
+          "abbrev": null,
+          "url": null,
+          "note": "Anti-corruption and vigilance oversight of the Administration"
+        },
+        {
+          "name": "Zila Sainik Welfare Office",
+          "abbrev": null,
+          "url": null,
+          "note": "Welfare, rehabilitation and resettlement of ex-servicemen"
+        },
+        {
+          "name": "Prisons",
+          "abbrev": null,
+          "url": null,
+          "note": "Administration of the UT jail and prisoner welfare"
+        },
+        {
+          "name": "Hospitality",
+          "abbrev": null,
+          "url": null,
+          "note": "Official hospitality and catering services for the Administration"
+        },
+        {
+          "name": "AYUSH",
+          "abbrev": null,
+          "url": null,
+          "note": "Ayurveda, Yoga, Unani, Siddha and Homoeopathy healthcare services"
+        },
+        {
+          "name": "Economics & Statistics",
+          "abbrev": null,
+          "url": null,
+          "note": "Socio-economic surveys, data and official statistics"
+        }
+      ],
+      "source_url": "https://chandigarh.gov.in/departments/other-departments",
+      "source_title": "OTHER DEPARTMENTS | Chandigarh, The official website of the Chandigarh Administration",
+      "as_of": "2026"
+    },
+    "orgs": {
+      "count": 10,
+      "items": [
+        {
+          "name": "State Election Commission",
+          "abbrev": "SEC",
+          "url": "https://chandigarh.gov.in/state-election-commission",
+          "note": "Conducts elections to the Municipal Corporation and Panchayati Raj Institutions in U.T. Chandigarh"
+        },
+        {
+          "name": "Municipal Corporation Chandigarh",
+          "abbrev": "MCC",
+          "url": "http://mcchandigarh.gov.in/",
+          "note": "Urban local body providing civic services in Chandigarh city"
+        },
+        {
+          "name": "State Consumer Disputes Redressal Commission",
+          "abbrev": "SCDRC",
+          "url": "http://chdconsumercourt.gov.in/",
+          "note": "State-level commission for adjudication of consumer disputes in U.T. Chandigarh"
+        },
+        {
+          "name": "Chandigarh Housing Board",
+          "abbrev": "CHB",
+          "url": "http://chbonline.in/",
+          "note": "Develops and allots residential housing across Chandigarh"
+        },
+        {
+          "name": "Chandigarh Pollution Control Committee",
+          "abbrev": "CPCC",
+          "url": "https://chocmms.nic.in/",
+          "note": "Regulates pollution control and grants environmental consents in Chandigarh"
+        },
+        {
+          "name": "Police Complaints Authority",
+          "abbrev": null,
+          "url": "https://chandigarh.gov.in/police-complaints-authority",
+          "note": "Inquires into complaints of misconduct against Chandigarh Police personnel"
+        },
+        {
+          "name": "State Disaster Management Authority",
+          "abbrev": "SDMA",
+          "url": "https://chandigarh.gov.in/sdma",
+          "note": "Coordinates disaster management and emergency response in U.T. Chandigarh"
+        },
+        {
+          "name": "Chandigarh Transport Undertaking",
+          "abbrev": "CTU",
+          "url": "http://chdctu.gov.in/",
+          "note": "Operates the public bus transport services of Chandigarh"
+        },
+        {
+          "name": "Chandigarh Industrial and Tourism Development Corporation Limited",
+          "abbrev": "CITCO",
+          "url": "https://citcochandigarh.com/",
+          "note": "Government company promoting industry and tourism; runs hotels and cafeterias"
+        },
+        {
+          "name": "House Allotment Committee",
+          "abbrev": null,
+          "url": "https://eawas.chd.gov.in/",
+          "note": "Allots government residential accommodation to eligible employees in Chandigarh"
+        }
+      ],
+      "source_url": "https://chandigarh.gov.in/other-departments",
+      "source_title": "Other Departments | Chandigarh, The official website of the Chandigarh Administration",
+      "as_of": "2026-09-21"
+    },
+    "psus": {
+      "count": 5,
+      "items": [
+        {
+          "name": "Chandigarh Housing Board",
+          "abbrev": "CHB",
+          "url": null,
+          "note": "Constructs and allots residential housing in Chandigarh"
+        },
+        {
+          "name": "Chandigarh Industrial and Tourism Development Corporation Limited",
+          "abbrev": "CITCO",
+          "url": null,
+          "note": "Runs hotels and promotes industry and tourism in Chandigarh"
+        },
+        {
+          "name": "Chandigarh Child & Women Development Corporation",
+          "abbrev": "CCWDC",
+          "url": null,
+          "note": "Implements welfare schemes for women and children"
+        },
+        {
+          "name": "Chandigarh SC/BC Financial Development Corporation",
+          "abbrev": null,
+          "url": null,
+          "note": "Financial assistance schemes for SC/BC communities"
+        },
+        {
+          "name": "Khadi & Village Industry Board",
+          "abbrev": null,
+          "url": null,
+          "note": "Promotes khadi and village industries"
+        }
+      ],
+      "source_url": "https://chandigarh.gov.in/sites/default/files/stat2022/PSU22/PSU22-T53.pdf",
+      "source_title": "Table No. 53 – Distribution of Public Sector Undertakings and Local Bodies Employees as on 31.03.2022, Chandigarh Administration",
+      "as_of": "2022-03-31"
+    }
+  },
   "chhattisgarh": {
     "agencies": {
       "count": 52,
@@ -5467,6 +6633,648 @@
       "source_url": "https://cag.gov.in/uploads/download_audit_report/2020/Report_No_1_of_2020_Public_Sector_Undertakings_Government_of_Chhattisgarh.pdf",
       "source_title": "Report of the Comptroller and Auditor General of India on Public Sector Undertakings for the year ended 31 March 2018, Government of Chhattisgarh, Report No. 01 of the year 2020",
       "as_of": "31 March 2018"
+    }
+  },
+  "dadra-and-nagar-haveli-and-daman-and-diu": {
+    "agencies": {
+      "count": 44,
+      "items": [
+        {
+          "name": "Information Technology",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/information-technology-department/",
+          "note": "Administers IT systems, e-governance and digital services"
+        },
+        {
+          "name": "Legal Metrology ( Weights & Measures )",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/department-of-legal-metrology-weights-measures/",
+          "note": "Regulates weights, measures and trade metrology enforcement"
+        },
+        {
+          "name": "Municipal Corporation",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/municipal-corporation/",
+          "note": "Provides urban civic services and municipal administration"
+        },
+        {
+          "name": "Electricity",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/electricity-department/",
+          "note": "Manages power distribution and electricity services"
+        },
+        {
+          "name": "Tourism",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/tourism-2/",
+          "note": "Promotes tourism development and tourist services"
+        },
+        {
+          "name": "UT Election Commission",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/ut-election-commission/",
+          "note": "Conducts local body elections in the Union Territory"
+        },
+        {
+          "name": "Labour & Employment",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/labour/",
+          "note": "Handles labour welfare, employment and industrial relations"
+        },
+        {
+          "name": "VAT",
+          "abbrev": "VAT",
+          "url": "https://ddd.gov.in/value-added-tax-vat/",
+          "note": "Administers value added tax matters"
+        },
+        {
+          "name": "UT Police",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/police/",
+          "note": "Provides policing and law and order"
+        },
+        {
+          "name": "India Reserve Battalion",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/india-reserve-battalion/",
+          "note": "Armed police battalion for security duties"
+        },
+        {
+          "name": "Official Language",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/rajbhasha-vibhag-official-language/",
+          "note": "Implements official language policy"
+        },
+        {
+          "name": "Block Development Office",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/block-development-office/",
+          "note": "Implements block-level development schemes"
+        },
+        {
+          "name": "Co-Operative Societies",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/co-operative-society/",
+          "note": "Registers and regulates cooperative societies"
+        },
+        {
+          "name": "Directorate of Accounts",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/directorate-of-accounts/",
+          "note": "Manages government accounts, pensions and treasuries"
+        },
+        {
+          "name": "Rural Development",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/rural-development/",
+          "note": "Implements rural development programmes"
+        },
+        {
+          "name": "District Collectorate",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/collectorate/",
+          "note": "District revenue and general administration"
+        },
+        {
+          "name": "Fisheries",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/fisheries/",
+          "note": "Develops fisheries and supports fishermen welfare"
+        },
+        {
+          "name": "Fire and Emergency Services",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/fire-and-emergency-services/",
+          "note": "Provides fire fighting and emergency response"
+        },
+        {
+          "name": "Town and Country Planning",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/town-and-country-planning/",
+          "note": "Plans land use and urban development"
+        },
+        {
+          "name": "Planning & Statistics",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/planning-and-statistics/",
+          "note": "Handles development planning and statistical data"
+        },
+        {
+          "name": "Pollution Control Committee",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/pollution-control-committee/",
+          "note": "Controls pollution and environmental compliance"
+        },
+        {
+          "name": "Science & Technology Department",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/science-technology-department/",
+          "note": "Promotes science, technology and renewable initiatives"
+        },
+        {
+          "name": "Social Welfare Department",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/social-welfare-department-2/",
+          "note": "Administers social welfare schemes"
+        },
+        {
+          "name": "State Disaster Management Authority",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/state-disaster-management-authority/",
+          "note": "Coordinates disaster preparedness and response"
+        },
+        {
+          "name": "Department of Urban Development",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/department-of-urban-development/",
+          "note": "Oversees urban planning and municipal development"
+        },
+        {
+          "name": "Agriculture Department",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/agriculture-department/",
+          "note": "Supports agriculture and farmer welfare"
+        },
+        {
+          "name": "Health and Family welfare",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/health-and-family-welfare/",
+          "note": "Provides public health and family welfare services"
+        },
+        {
+          "name": "Vigilance Department",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/vigilance-department/",
+          "note": "Handles anti-corruption and vigilance oversight"
+        },
+        {
+          "name": "Civil Aviation Department",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/civil-aviation-department/",
+          "note": "Manages civil aviation matters"
+        },
+        {
+          "name": "District Industries Centre",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/district-industries-centre/",
+          "note": "Promotes industries and entrepreneurship"
+        },
+        {
+          "name": "Directorate of Public Grievance",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/directorate-of-public-grievance/",
+          "note": "Redresses public grievances"
+        },
+        {
+          "name": "Personnel and Administrative Reforms, Daman.",
+          "abbrev": null,
+          "url": "https://daman.nic.in/persdd/",
+          "note": "Manages personnel and administrative reforms"
+        },
+        {
+          "name": "Directorate of Education",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/directorate-of-education/",
+          "note": "Administers school education"
+        },
+        {
+          "name": "Department of Environment & Forest",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/forest-department/",
+          "note": "Manages forests, wildlife and environment"
+        },
+        {
+          "name": "Transport Department",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/transport-department/",
+          "note": "Regulates motor vehicles and transport services"
+        },
+        {
+          "name": "Information & Publicity",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/information-publicity/",
+          "note": "Handles government information and publicity"
+        },
+        {
+          "name": "Higher & Technical Education",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/higher-technical-education/",
+          "note": "Oversees higher and technical education"
+        },
+        {
+          "name": "Revenue Department",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/revenue-department-2/",
+          "note": "Administers land revenue and records"
+        },
+        {
+          "name": "District Panchayat",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/district-panchayat/",
+          "note": "Oversees panchayati raj institutions"
+        },
+        {
+          "name": "Excise Department",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/excise-department/",
+          "note": "Regulates excise and liquor licensing"
+        },
+        {
+          "name": "Port and Lighthouse",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/port-and-lighthouse/",
+          "note": "Manages ports and lighthouse services"
+        },
+        {
+          "name": "Coastal Zone Management Authority",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/coastal-zone-management-authority/",
+          "note": "Regulates coastal zone management"
+        },
+        {
+          "name": "Public Works Department",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/pwd/",
+          "note": "Builds and maintains public infrastructure"
+        },
+        {
+          "name": "Staff Selection Board",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/ojas/",
+          "note": "Recruits staff through OJAS"
+        }
+      ],
+      "source_url": "https://ddd.gov.in/departments/",
+      "source_title": "Departments | UT of Dadra and Nagar Haveli and Daman and Diu | India",
+      "as_of": "2026-08-18"
+    },
+    "commissions": {
+      "count": 2,
+      "items": [
+        {
+          "name": "UT Election Commission",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/ut-election-commission/",
+          "note": "Conducts local-body panchayat and municipal elections in the UT."
+        },
+        {
+          "name": "Pollution Control Committee",
+          "abbrev": "PCC",
+          "url": "https://ddd.gov.in/document-category/pollution-control-committee/",
+          "note": "Regulates water and air pollution and grants consent to operate in the UT."
+        }
+      ],
+      "source_url": "https://ddd.gov.in/departments/",
+      "source_title": "Departments | UT of Dadra and Nagar Haveli and Daman and Diu | India",
+      "as_of": "2026"
+    },
+    "ministries": {
+      "count": 44,
+      "items": [
+        {
+          "name": "Information Technology",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/information-technology-department/",
+          "note": "Administers IT, e-governance and digital services in the UT."
+        },
+        {
+          "name": "Legal Metrology ( Weights & Measures )",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/department-of-legal-metrology-weights-measures/",
+          "note": "Enforces weights, measures and packaged commodity standards."
+        },
+        {
+          "name": "Municipal Corporation",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/municipal-corporation/",
+          "note": "Provides urban civic services and municipal administration."
+        },
+        {
+          "name": "Electricity",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/electricity-department/",
+          "note": "Manages power distribution and electricity services in the UT."
+        },
+        {
+          "name": "Tourism",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/tourism-2/",
+          "note": "Promotes tourism development and tourist services."
+        },
+        {
+          "name": "UT Election Commission",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/ut-election-commission/",
+          "note": "Conducts local body elections in the UT."
+        },
+        {
+          "name": "Labour & Employment",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/labour/",
+          "note": "Handles labour welfare, employment and industrial relations."
+        },
+        {
+          "name": "VAT",
+          "abbrev": "VAT",
+          "url": "https://ddd.gov.in/value-added-tax-vat/",
+          "note": "Administers value added tax matters in the UT."
+        },
+        {
+          "name": "UT Police",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/police/",
+          "note": "Maintains law and order and policing in the UT."
+        },
+        {
+          "name": "India Reserve Battalion",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/india-reserve-battalion/",
+          "note": "Armed police battalion for law and order duties."
+        },
+        {
+          "name": "Official Language",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/rajbhasha-vibhag-official-language/",
+          "note": "Implements official language policy in administration."
+        },
+        {
+          "name": "Block Development Office",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/block-development-office/",
+          "note": "Implements block-level development schemes."
+        },
+        {
+          "name": "Co-Operative Societies",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/co-operative-society/",
+          "note": "Registers and regulates cooperative societies."
+        },
+        {
+          "name": "Directorate of Accounts",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/directorate-of-accounts/",
+          "note": "Manages government accounts, payments and treasuries."
+        },
+        {
+          "name": "Rural Development",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/rural-development/",
+          "note": "Implements rural development and poverty alleviation schemes."
+        },
+        {
+          "name": "District Collectorate",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/collectorate/",
+          "note": "District administration, revenue and law and order coordination."
+        },
+        {
+          "name": "Fisheries",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/fisheries/",
+          "note": "Develops fisheries and supports fishermen welfare."
+        },
+        {
+          "name": "Fire and Emergency Services",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/fire-and-emergency-services/",
+          "note": "Provides fire prevention, firefighting and emergency response."
+        },
+        {
+          "name": "Town and Country Planning",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/town-and-country-planning/",
+          "note": "Plans land use and urban and regional development."
+        },
+        {
+          "name": "Planning & Statistics",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/planning-and-statistics/",
+          "note": "Handles UT planning, statistics and plan monitoring."
+        },
+        {
+          "name": "Pollution Control Committee",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/pollution-control-committee/",
+          "note": "Controls pollution and enforces environmental norms."
+        },
+        {
+          "name": "Science & Technology Department",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/science-technology-department/",
+          "note": "Promotes science, technology and innovation activities."
+        },
+        {
+          "name": "Social Welfare Department",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/social-welfare-department-2/",
+          "note": "Runs welfare schemes for vulnerable sections."
+        },
+        {
+          "name": "State Disaster Management Authority",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/state-disaster-management-authority/",
+          "note": "Coordinates disaster preparedness, mitigation and response."
+        },
+        {
+          "name": "Department of Urban Development",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/department-of-urban-development/",
+          "note": "Oversees urban planning, housing and urban services."
+        },
+        {
+          "name": "Agriculture Department",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/agriculture-department/",
+          "note": "Supports agriculture, horticulture and farmer welfare."
+        },
+        {
+          "name": "Health and Family welfare",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/health-and-family-welfare/",
+          "note": "Provides public health and family welfare services."
+        },
+        {
+          "name": "Vigilance Department",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/vigilance-department/",
+          "note": "Handles anti-corruption and vigilance oversight."
+        },
+        {
+          "name": "Civil Aviation Department",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/civil-aviation-department/",
+          "note": "Handles civil aviation matters for the UT."
+        },
+        {
+          "name": "District Industries Centre",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/district-industries-centre/",
+          "note": "Promotes industries, MSMEs and entrepreneurship."
+        },
+        {
+          "name": "Directorate of Public Grievance",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/directorate-of-public-grievance/",
+          "note": "Redresses public grievances against UT administration."
+        },
+        {
+          "name": "Personnel and Administrative Reforms, Daman.",
+          "abbrev": null,
+          "url": "https://daman.nic.in/persdd/",
+          "note": "Handles personnel, postings and administrative reforms."
+        },
+        {
+          "name": "Directorate of Education",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/directorate-of-education/",
+          "note": "Administers school education in the UT."
+        },
+        {
+          "name": "Department of Environment & Forest",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/forest-department/",
+          "note": "Manages forests, wildlife and environment protection."
+        },
+        {
+          "name": "Transport Department",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/transport-department/",
+          "note": "Registers vehicles and regulates road transport."
+        },
+        {
+          "name": "Information & Publicity",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/information-publicity/",
+          "note": "Disseminates government information and publicity."
+        },
+        {
+          "name": "Higher & Technical Education",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/higher-technical-education/",
+          "note": "Administers colleges, universities and technical institutions."
+        },
+        {
+          "name": "Revenue Department",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/revenue-department-2/",
+          "note": "Manages land revenue, records and land administration."
+        },
+        {
+          "name": "District Panchayat",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/district-panchayat/",
+          "note": "Oversees panchayati raj institutions and rural local governance."
+        },
+        {
+          "name": "Excise Department",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/excise-department/",
+          "note": "Regulates liquor, spirits and excise revenue."
+        },
+        {
+          "name": "Port and Lighthouse",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/port-and-lighthouse/",
+          "note": "Manages ports, harbours and lighthouse services."
+        },
+        {
+          "name": "Coastal Zone Management Authority",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/coastal-zone-management-authority/",
+          "note": "Regulates coastal zone protection and clearances."
+        },
+        {
+          "name": "Public Works Department",
+          "abbrev": "PWD",
+          "url": "https://ddd.gov.in/pwd/",
+          "note": "Builds and maintains public roads and buildings."
+        },
+        {
+          "name": "Staff Selection Board",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/ojas/",
+          "note": "Recruits staff for UT administration posts."
+        }
+      ],
+      "source_url": "https://ddd.gov.in/departments/",
+      "source_title": "Departments | UT of Dadra and Nagar Haveli and Daman and Diu | India",
+      "as_of": "August 18, 2026"
+    },
+    "orgs": {
+      "count": 8,
+      "items": [
+        {
+          "name": "UT Election Commission",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/ut-election-commission/",
+          "note": "Conducts panchayat and municipal elections in the UT."
+        },
+        {
+          "name": "State Disaster Management Authority",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/state-disaster-management-authority/",
+          "note": "Coordinates disaster management and mitigation in the UT."
+        },
+        {
+          "name": "Coastal Zone Management Authority",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/coastal-zone-management-authority/",
+          "note": "Regulates activities in coastal zone areas of the UT."
+        },
+        {
+          "name": "Pollution Control Committee",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/pollution-control-committee/",
+          "note": "Monitors and controls pollution and grants consents."
+        },
+        {
+          "name": "Staff Selection Board",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/ojas/",
+          "note": "Recruits Group B and C staff for the UT Administration."
+        },
+        {
+          "name": "Municipal Corporation",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/municipal-corporation/",
+          "note": "Provides urban civic services in the UT."
+        },
+        {
+          "name": "District Panchayat",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/district-panchayat/",
+          "note": "Rural local self-government institution."
+        },
+        {
+          "name": "UT Police",
+          "abbrev": null,
+          "url": "https://ddd.gov.in/police/",
+          "note": "Law enforcement agency of the UT."
+        }
+      ],
+      "source_url": "https://ddd.gov.in/departments/",
+      "source_title": "Departments | UT of Dadra and Nagar Haveli and Daman and Diu | India",
+      "as_of": "2026-09-21"
+    },
+    "psus": {
+      "count": 2,
+      "items": [
+        {
+          "name": "Omnibus Industrial Development Corporation of Daman & Diu and Dadra & Nagar Haveli Ltd.",
+          "abbrev": "OIDC",
+          "url": null,
+          "note": "UT Government undertaking handling industrial development and infrastructure works."
+        },
+        {
+          "name": "Dadra & Nagar Haveli, Daman and Diu SC/ST Financial and Development Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "UT finance corporation for SC/ST, OBC and minority welfare schemes."
+        }
+      ],
+      "source_url": "https://ddd.gov.in/danics/",
+      "source_title": "DANICS Officers | UT of Dadra and Nagar Haveli and Daman and Diu | India",
+      "as_of": "2026-05-12"
     }
   },
   "delhi": {
@@ -6635,6 +8443,122 @@
       "source_url": "https://delhi.gov.in/departments-offices",
       "source_title": "Departments/Offices | Government of National Capital Territory of Delhi",
       "as_of": "2026-09-21"
+    },
+    "psus": {
+      "count": 18,
+      "items": [
+        {
+          "name": "Delhi State Industrial & Infrastructure Development Corporation Limited",
+          "abbrev": "DSIIDC",
+          "url": "https://www.dsiidc.org",
+          "note": "Industrial estates, infrastructure development and construction works for GNCTD."
+        },
+        {
+          "name": "Indraprastha Power Generation Company Limited",
+          "abbrev": "IPGCL",
+          "url": "https://www.ipgcl-ppcl.gov.in",
+          "note": "Power generation company of the Delhi government."
+        },
+        {
+          "name": "Pragati Power Corporation Limited",
+          "abbrev": "PPCL",
+          "url": "https://www.ipgcl-ppcl.gov.in",
+          "note": "Operates gas-based power generating stations (Pragati, Bawana) in Delhi."
+        },
+        {
+          "name": "Delhi Transco Limited",
+          "abbrev": "DTL",
+          "url": "https://dtl.gov.in",
+          "note": "State Transmission Utility; bulk power transmission in Delhi."
+        },
+        {
+          "name": "Delhi Power Company Limited",
+          "abbrev": "DPCL",
+          "url": null,
+          "note": "Holding company for Delhi's unbundled power sector entities."
+        },
+        {
+          "name": "Delhi Tourism and Transportation Development Corporation Limited",
+          "abbrev": "DTTDC",
+          "url": "https://delhitourism.gov.in",
+          "note": "Tourism promotion, hospitality and transport infrastructure ventures."
+        },
+        {
+          "name": "Delhi Transport and Infrastructure Development Corporation Limited",
+          "abbrev": "DTIDC",
+          "url": null,
+          "note": "Develops transport infrastructure projects in Delhi."
+        },
+        {
+          "name": "Delhi State Civil Supplies Corporation Limited",
+          "abbrev": "DSCSC",
+          "url": "https://dscsc.delhi.gov.in",
+          "note": "Civil supplies, public distribution and government retail trade."
+        },
+        {
+          "name": "Delhi SC/ST/OBC Minorities and Handicapped Financial Development Corporation Limited",
+          "abbrev": "DSCFDC",
+          "url": "https://dsfdc.delhi.gov.in",
+          "note": "Finance and development schemes for SC/ST/OBC, minorities and handicapped persons."
+        },
+        {
+          "name": "Geospatial Delhi Limited",
+          "abbrev": "GDL",
+          "url": null,
+          "note": "Geospatial data and mapping services for the Delhi government."
+        },
+        {
+          "name": "Shahjahanabad Redevelopment Corporation",
+          "abbrev": "SRDC",
+          "url": "http://srdc.delhi.gov.in",
+          "note": "Conservation and redevelopment of the Shahjahanabad (Old Delhi) area."
+        },
+        {
+          "name": "DSIIDC Energy Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Non-operational subsidiary company of DSIIDC."
+        },
+        {
+          "name": "Delhi Creative Arts Development Limited",
+          "abbrev": "DCADL",
+          "url": null,
+          "note": "Non-operational subsidiary company of DSIIDC."
+        },
+        {
+          "name": "DSIIDC Liquor Limited",
+          "abbrev": "DLL",
+          "url": null,
+          "note": "Non-operational subsidiary company of DSIIDC."
+        },
+        {
+          "name": "DSIIDC Maintenance Services Limited",
+          "abbrev": "DMSL",
+          "url": null,
+          "note": "Non-operational subsidiary company of DSIIDC."
+        },
+        {
+          "name": "Delhi Transport Corporation",
+          "abbrev": "DTC",
+          "url": "https://dtc.delhi.gov.in",
+          "note": "Operates public bus transport services in Delhi."
+        },
+        {
+          "name": "Delhi Financial Corporation",
+          "abbrev": "DFC",
+          "url": "https://dfc.delhi.gov.in",
+          "note": "Statutory financial corporation of the Delhi government."
+        },
+        {
+          "name": "Intelligent Communication Systems India Limited",
+          "abbrev": "ICSIL",
+          "url": "https://icsil.in",
+          "note": "IT manpower, hardware supply and e-governance support JV with TCIL."
+        }
+      ],
+      "source_url": "https://cag.gov.in/uploads/download_audit_report/2023/9_Chapter-5-069c26a13305644.35480798.pdf",
+      "source_title": "State Finances Audit Report for the year ended 31 March 2022 (Report No. 2 of 2023), Government of NCT of Delhi — Chapter V: State Public Sector Enterprises",
+      "as_of": "31 March 2022"
     }
   },
   "goa": {
@@ -15885,6 +17809,340 @@
       "as_of": "2026"
     }
   },
+  "lakshadweep": {
+    "agencies": {
+      "count": 20,
+      "items": [
+        {
+          "name": "Agriculture Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Agriculture administration for Lakshadweep"
+        },
+        {
+          "name": "Art and Culture Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Art and culture administration for Lakshadweep"
+        },
+        {
+          "name": "Education Department",
+          "abbrev": null,
+          "url": "https://lakedn.utl.gov.in",
+          "note": "Education administration for Lakshadweep"
+        },
+        {
+          "name": "Electricity (Power) Department",
+          "abbrev": null,
+          "url": "https://powerlak.utl.gov.in",
+          "note": "Electricity and power administration for Lakshadweep"
+        },
+        {
+          "name": "Environment and Forests Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Environment and forests administration for Lakshadweep"
+        },
+        {
+          "name": "Finance Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Finance administration for Lakshadweep"
+        },
+        {
+          "name": "Fisheries Department",
+          "abbrev": null,
+          "url": "https://fisheries.utl.gov.in",
+          "note": "Fisheries administration for Lakshadweep"
+        },
+        {
+          "name": "Food, Civil Supplies and Consumer Affairs Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Food, civil supplies and consumer affairs administration for Lakshadweep"
+        },
+        {
+          "name": "General Administration and Administrative Reforms Department",
+          "abbrev": null,
+          "url": null,
+          "note": "General administration and administrative reforms for Lakshadweep"
+        },
+        {
+          "name": "Home Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Home affairs administration for Lakshadweep"
+        },
+        {
+          "name": "Industries Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Industries administration for Lakshadweep"
+        },
+        {
+          "name": "Panchayat and Rural Development Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Panchayat and rural development administration for Lakshadweep"
+        },
+        {
+          "name": "Planning and Statistics Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Planning and statistics administration for Lakshadweep"
+        },
+        {
+          "name": "Police Department",
+          "abbrev": null,
+          "url": "https://lakshadweeppolice.gov.in",
+          "note": "Policing and law and order for Lakshadweep"
+        },
+        {
+          "name": "Port, Shipping and Aviation Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Port, shipping and aviation administration for Lakshadweep"
+        },
+        {
+          "name": "Public Works Department",
+          "abbrev": null,
+          "url": "https://pwd.utl.gov.in",
+          "note": "Public works administration for Lakshadweep"
+        },
+        {
+          "name": "Rehabilation and Disaster Management Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Rehabilitation and disaster management for Lakshadweep"
+        },
+        {
+          "name": "Revenue Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Revenue administration for Lakshadweep"
+        },
+        {
+          "name": "Social Justice and Empowerment Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Social justice and empowerment administration for Lakshadweep"
+        },
+        {
+          "name": "Social Welfare and Tribal Affairs Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Social welfare and tribal affairs administration for Lakshadweep"
+        }
+      ],
+      "source_url": "https://igod.gov.in/sg/LD/E003/organizations",
+      "source_title": "Integrated Government Online Directory : State / UT Government : Lakshadweep : Departments",
+      "as_of": "2026-09-21"
+    },
+    "ministries": {
+      "count": 20,
+      "items": [
+        {
+          "name": "Agriculture Department, Lakshadweep",
+          "abbrev": null,
+          "url": null,
+          "note": "Agriculture administration for Lakshadweep"
+        },
+        {
+          "name": "Art and Culture Department, Lakshadweep",
+          "abbrev": null,
+          "url": null,
+          "note": "Art and culture administration for Lakshadweep"
+        },
+        {
+          "name": "Education Department, Lakshadweep",
+          "abbrev": null,
+          "url": "https://lakedn.utl.gov.in",
+          "note": "Education administration for Lakshadweep"
+        },
+        {
+          "name": "Electricity (Power) Department, Lakshadweep",
+          "abbrev": null,
+          "url": "https://powerlak.utl.gov.in",
+          "note": "Electricity and power administration for Lakshadweep"
+        },
+        {
+          "name": "Environment and Forests Department, Lakshadweep",
+          "abbrev": null,
+          "url": null,
+          "note": "Environment and forests administration for Lakshadweep"
+        },
+        {
+          "name": "Finance Department, Lakshadweep",
+          "abbrev": null,
+          "url": null,
+          "note": "Finance administration for Lakshadweep"
+        },
+        {
+          "name": "Fisheries Department, Lakshadweep",
+          "abbrev": null,
+          "url": "https://fisheries.utl.gov.in",
+          "note": "Fisheries administration for Lakshadweep"
+        },
+        {
+          "name": "Food, Civil Supplies and Consumer Affairs Department, Lakshadweep",
+          "abbrev": null,
+          "url": null,
+          "note": "Food, civil supplies and consumer affairs administration for Lakshadweep"
+        },
+        {
+          "name": "General Administration and Administrative Reforms Department, Lakshadweep",
+          "abbrev": null,
+          "url": null,
+          "note": "General administration and administrative reforms for Lakshadweep"
+        },
+        {
+          "name": "Home Department, Lakshadweep",
+          "abbrev": null,
+          "url": null,
+          "note": "Home administration for Lakshadweep"
+        },
+        {
+          "name": "Industries Department, Lakshadweep",
+          "abbrev": null,
+          "url": null,
+          "note": "Industries administration for Lakshadweep"
+        },
+        {
+          "name": "Panchayat and Rural Development Department, Lakshadweep",
+          "abbrev": null,
+          "url": null,
+          "note": "Panchayat and rural development administration for Lakshadweep"
+        },
+        {
+          "name": "Planning and Statistics Department, Lakshadweep",
+          "abbrev": null,
+          "url": null,
+          "note": "Planning and statistics administration for Lakshadweep"
+        },
+        {
+          "name": "Police Department, Lakshadweep",
+          "abbrev": null,
+          "url": "https://lakshadweeppolice.gov.in",
+          "note": "Policing and law and order for Lakshadweep"
+        },
+        {
+          "name": "Port, Shipping and Aviation Department, Lakshadweep",
+          "abbrev": null,
+          "url": null,
+          "note": "Port, shipping and aviation administration for Lakshadweep"
+        },
+        {
+          "name": "Public Works Department, Lakshadweep",
+          "abbrev": null,
+          "url": "https://pwd.utl.gov.in",
+          "note": "Public works administration for Lakshadweep"
+        },
+        {
+          "name": "Rehabilation and Disaster Management Department, Lakshadweep",
+          "abbrev": null,
+          "url": null,
+          "note": "Rehabilitation and disaster management for Lakshadweep"
+        },
+        {
+          "name": "Revenue Department, Lakshadweep",
+          "abbrev": null,
+          "url": null,
+          "note": "Revenue administration for Lakshadweep"
+        },
+        {
+          "name": "Social Justice and Empowerment Department, Lakshadweep",
+          "abbrev": null,
+          "url": null,
+          "note": "Social justice and empowerment administration for Lakshadweep"
+        },
+        {
+          "name": "Social Welfare and Tribal Affairs Department, Lakshadweep",
+          "abbrev": null,
+          "url": null,
+          "note": "Social welfare and tribal affairs administration for Lakshadweep"
+        }
+      ],
+      "source_url": "https://igod.gov.in/sg/LD/E003/organizations",
+      "source_title": "Integrated Government Online Directory : State / UT Government : Lakshadweep : Departments",
+      "as_of": "2026-09-21"
+    },
+    "orgs": {
+      "count": 9,
+      "items": [
+        {
+          "name": "Lakshadweep Information Technology Services Society (LITSS)",
+          "abbrev": "LITSS",
+          "url": "https://litss.utl.gov.in",
+          "note": "UT society for IT services and e-governance implementation"
+        },
+        {
+          "name": "Lakshadweep Tourism, Society for Promotion of Nature Tourism and Sports",
+          "abbrev": "SPORTS",
+          "url": "https://samudram.utl.gov.in",
+          "note": "Society promoting nature tourism and water sports"
+        },
+        {
+          "name": "Land Records Management System",
+          "abbrev": null,
+          "url": "https://land.utl.gov.in",
+          "note": "Online land records management portal"
+        },
+        {
+          "name": "Mid Day Meal Scheme",
+          "abbrev": null,
+          "url": "https://mdmlakshadweep.utl.gov.in",
+          "note": "School mid-day meal programme implementation"
+        },
+        {
+          "name": "National Health Mission (NHM)",
+          "abbrev": "NHM",
+          "url": "https://nhm.utl.gov.in",
+          "note": "Health mission programmes in the islands"
+        },
+        {
+          "name": "Public Distribution System Portal",
+          "abbrev": "PDS",
+          "url": "https://pds.utl.gov.in",
+          "note": "Public distribution and ration services portal"
+        },
+        {
+          "name": "Web Based Ship Ticket Advance Reservation (WEBSTAR)",
+          "abbrev": "WEBSTAR",
+          "url": "https://lakport.utl.gov.in",
+          "note": "Online advance ship ticket reservation system"
+        },
+        {
+          "name": "ePermit - Online Entry Permit System",
+          "abbrev": null,
+          "url": "https://epermit.utl.gov.in",
+          "note": "Online entry permit issuance for Lakshadweep"
+        },
+        {
+          "name": "eProcurement System",
+          "abbrev": null,
+          "url": "https://tendersutl.gov.in",
+          "note": "Government e-tendering and procurement portal"
+        }
+      ],
+      "source_url": "https://igod.gov.in/sg/LD/OTHR/organizations",
+      "source_title": "Integrated Government Online Directory : State / UT Government : Lakshadweep : Others",
+      "as_of": "2026-09-21"
+    },
+    "psus": {
+      "count": 1,
+      "items": [
+        {
+          "name": "Lakshadweep Development Corporation Limited",
+          "abbrev": "LDCL",
+          "url": "http://www.ldcl.nic.in/",
+          "note": "Wholly-owned Government company operating UT vessels, port control towers and island development activities"
+        }
+      ],
+      "source_url": "https://lakshadweep.gov.in/departments-new/lakshadweep-development-corporation-limited/",
+      "source_title": "Lakshadweep Development Corporation Limited | Lakshadweep | India",
+      "as_of": "2026"
+    }
+  },
   "madhya-pradesh": {
     "agencies": {
       "count": 53,
@@ -19405,6 +21663,444 @@
       "source_url": "https://cag.gov.in/uploads/download_audit_report/2024/SFAR-2022-23-Manipur_Report-No.-1-of-2024-(12-04-2024)-066baf5bb1f22f2.43795879.pdf",
       "source_title": "State Finances Audit Report of the Comptroller and Auditor General of India for the year ended 31 March 2023 - Government of Manipur (Report No. 1 of 2024)",
       "as_of": "31 March 2023"
+    }
+  },
+  "mcd-delhi": {
+    "agencies": {
+      "count": 35,
+      "items": [
+        {
+          "name": "ADVERTISEMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Regulates outdoor advertisements and hoardings"
+        },
+        {
+          "name": "ARCHITECTURE DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Provides architectural planning and design for civic works"
+        },
+        {
+          "name": "ASSESSMENT AND COLLECTION DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Assesses and collects property tax and related taxes"
+        },
+        {
+          "name": "AYUSH DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Runs Ayurveda, Yoga, Unani, Siddha and Homoeopathy health services"
+        },
+        {
+          "name": "BUILDING DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Sanctions building plans and controls unauthorized construction"
+        },
+        {
+          "name": "CENTRAL ESTABLISHMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Handles establishment and personnel matters of MCD staff"
+        },
+        {
+          "name": "COMMITTEE AND CORPORATION",
+          "abbrev": null,
+          "url": null,
+          "note": "Services Corporation meetings and statutory committees"
+        },
+        {
+          "name": "COMMUNITY SERVICES",
+          "abbrev": null,
+          "url": null,
+          "note": "Runs community halls, welfare centres and social services"
+        },
+        {
+          "name": "DIRECTORATE OF INQUIRY",
+          "abbrev": null,
+          "url": null,
+          "note": "Conducts departmental inquiries against employees"
+        },
+        {
+          "name": "DIRECTORATE OF PRESS AND INFORMATION",
+          "abbrev": null,
+          "url": null,
+          "note": "Handles press, publicity and public information"
+        },
+        {
+          "name": "Department of Environmental Management",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages environment, sanitation policy and solid waste management"
+        },
+        {
+          "name": "EDUCATION",
+          "abbrev": null,
+          "url": null,
+          "note": "Runs MCD primary schools and education services"
+        },
+        {
+          "name": "ELECTION DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Conducts internal MCD election-related work"
+        },
+        {
+          "name": "ENGINEERING DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Constructs and maintains roads, drains and municipal buildings"
+        },
+        {
+          "name": "Electrical And Mechanical Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Maintains street lighting and electrical-mechanical installations"
+        },
+        {
+          "name": "FACTORY LICENSE",
+          "abbrev": null,
+          "url": null,
+          "note": "Issues licences for factories and industrial premises"
+        },
+        {
+          "name": "FINANCE DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages budget, accounts and financial administration"
+        },
+        {
+          "name": "HACKNEY CARRIAGE",
+          "abbrev": null,
+          "url": null,
+          "note": "Licences tongas and hackney carriages"
+        },
+        {
+          "name": "HORTICULTURE DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Develops and maintains parks and greenery"
+        },
+        {
+          "name": "HOSPITAL ADMINISTRATION",
+          "abbrev": null,
+          "url": null,
+          "note": "Administers MCD hospitals and dispensaries"
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages IT systems, portals and e-governance services"
+        },
+        {
+          "name": "LABOUR WELFARE DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Handles labour welfare and workers welfare schemes"
+        },
+        {
+          "name": "LAND AND ESTATE",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages municipal land, estates and properties"
+        },
+        {
+          "name": "LANGUAGE DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Promotes official languages and publications"
+        },
+        {
+          "name": "LAW DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Handles legal cases and legal advice for MCD"
+        },
+        {
+          "name": "LICENSING DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Issues trade, health and general licences"
+        },
+        {
+          "name": "MUNICIPAL SECRETARY OFFICE",
+          "abbrev": null,
+          "url": null,
+          "note": "Secretariat for Corporation, Standing Committee and House matters"
+        },
+        {
+          "name": "Organization and Method department",
+          "abbrev": null,
+          "url": null,
+          "note": "Studies organization, methods and work procedures"
+        },
+        {
+          "name": "PUBLIC HEALTH DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Controls public health, sanitation and disease prevention"
+        },
+        {
+          "name": "REMUNERATIVE PROJECT CELL",
+          "abbrev": null,
+          "url": null,
+          "note": "Develops remunerative and commercial projects"
+        },
+        {
+          "name": "STATUTORY AUDIT DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Conducts statutory audit of municipal accounts"
+        },
+        {
+          "name": "TOWN PLANNING",
+          "abbrev": null,
+          "url": null,
+          "note": "Prepares layouts and town planning schemes"
+        },
+        {
+          "name": "Toll Tax",
+          "abbrev": null,
+          "url": null,
+          "note": "Collects toll tax at entry points"
+        },
+        {
+          "name": "VETERINARY",
+          "abbrev": null,
+          "url": null,
+          "note": "Provides veterinary services and animal care"
+        },
+        {
+          "name": "VIGILANCE",
+          "abbrev": null,
+          "url": null,
+          "note": "Handles vigilance, anti-corruption and disciplinary oversight"
+        }
+      ],
+      "source_url": "https://mcdonline.nic.in/portal/.sp",
+      "source_title": "Municipal Corporation of Delhi",
+      "as_of": "2026"
+    },
+    "ministries": {
+      "count": 35,
+      "items": [
+        {
+          "name": "ADVERTISEMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Regulates outdoor advertisements and publicity permissions in MCD areas"
+        },
+        {
+          "name": "ARCHITECTURE DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Handles architectural planning and design of MCD buildings and projects"
+        },
+        {
+          "name": "ASSESSMENT AND COLLECTION DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Handles assessment and collection of property tax and municipal taxes"
+        },
+        {
+          "name": "AYUSH DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Runs AYUSH healthcare services including Ayurveda, Unani and Homeopathy"
+        },
+        {
+          "name": "BUILDING DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Regulates building construction permits and building bye-law enforcement"
+        },
+        {
+          "name": "CENTRAL ESTABLISHMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Handles establishment matters including postings and service records of MCD staff"
+        },
+        {
+          "name": "COMMITTEE AND CORPORATION",
+          "abbrev": null,
+          "url": null,
+          "note": "Supports Corporation meetings, committees and municipal secretary functions"
+        },
+        {
+          "name": "COMMUNITY SERVICES",
+          "abbrev": null,
+          "url": null,
+          "note": "Provides community welfare services and citizen outreach programmes"
+        },
+        {
+          "name": "Department of Environmental Management",
+          "abbrev": null,
+          "url": null,
+          "note": "Handles solid waste management, sanitation and environmental services"
+        },
+        {
+          "name": "DIRECTORATE OF INQUIRY",
+          "abbrev": null,
+          "url": null,
+          "note": "Conducts departmental inquiries and disciplinary proceedings"
+        },
+        {
+          "name": "DIRECTORATE OF PRESS AND INFORMATION",
+          "abbrev": null,
+          "url": null,
+          "note": "Handles press, publicity and public information for MCD"
+        },
+        {
+          "name": "EDUCATION",
+          "abbrev": null,
+          "url": null,
+          "note": "Runs MCD primary schools and education services"
+        },
+        {
+          "name": "ELECTION DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Handles municipal election related work in coordination with State Election Commission"
+        },
+        {
+          "name": "Electrical And Mechanical Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Maintains electrical installations, street lighting and mechanical equipment"
+        },
+        {
+          "name": "ENGINEERING DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Constructs and maintains roads, drains, bridges and municipal works"
+        },
+        {
+          "name": "FACTORY LICENSE",
+          "abbrev": null,
+          "url": null,
+          "note": "Issues licences for factories and industrial establishments in MCD areas"
+        },
+        {
+          "name": "FINANCE DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Handles budget, accounts, payments and financial management of MCD"
+        },
+        {
+          "name": "HACKNEY CARRIAGE",
+          "abbrev": null,
+          "url": null,
+          "note": "Regulates hackney carriages and related licences"
+        },
+        {
+          "name": "HORTICULTURE DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Maintains parks, gardens, roadside greenery and nurseries"
+        },
+        {
+          "name": "HOSPITAL ADMINISTRATION",
+          "abbrev": null,
+          "url": null,
+          "note": "Administers MCD hospitals, dispensaries and health institutions"
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages IT systems, online services and digital infrastructure of MCD"
+        },
+        {
+          "name": "LABOUR WELFARE DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Handles labour welfare and workers welfare schemes"
+        },
+        {
+          "name": "LAND AND ESTATE",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages MCD land, estates, leases and municipal properties"
+        },
+        {
+          "name": "LANGUAGE DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Promotes official languages and related cultural activities"
+        },
+        {
+          "name": "LAW DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Handles legal matters, litigation and legal advice for MCD"
+        },
+        {
+          "name": "LICENSING DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Issues trade, health trade and general licences"
+        },
+        {
+          "name": "MUNICIPAL SECRETARY OFFICE",
+          "abbrev": null,
+          "url": null,
+          "note": "Secretariat for Corporation, statutory committees and council business"
+        },
+        {
+          "name": "Organization and Method department",
+          "abbrev": null,
+          "url": null,
+          "note": "Handles organization, methods, work-study and administrative reforms"
+        },
+        {
+          "name": "PUBLIC HEALTH DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Provides public health services including sanitation and disease control"
+        },
+        {
+          "name": "REMUNERATIVE PROJECT CELL",
+          "abbrev": null,
+          "url": null,
+          "note": "Handles remunerative projects including parking and commercial projects"
+        },
+        {
+          "name": "STATUTORY AUDIT DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Conducts statutory audit of MCD accounts and expenditures"
+        },
+        {
+          "name": "Toll Tax",
+          "abbrev": null,
+          "url": null,
+          "note": "Collects toll tax on commercial vehicles entering Delhi"
+        },
+        {
+          "name": "TOWN PLANNING",
+          "abbrev": null,
+          "url": null,
+          "note": "Handles town planning, land use and development plans"
+        },
+        {
+          "name": "VETERINARY",
+          "abbrev": null,
+          "url": null,
+          "note": "Provides veterinary services including animal care and slaughterhouse regulation"
+        },
+        {
+          "name": "VIGILANCE",
+          "abbrev": null,
+          "url": null,
+          "note": "Handles vigilance, anti-corruption and integrity oversight in MCD"
+        }
+      ],
+      "source_url": "https://mcdonline.nic.in/portal/departments",
+      "source_title": "Departments | Municipal Corporation of Delhi",
+      "as_of": "16 June, 2025"
     }
   },
   "meghalaya": {
@@ -29929,6 +32625,1348 @@
       "as_of": "2020-08-04"
     }
   },
+  "union-government": {
+    "agencies": {
+      "count": 55,
+      "items": [
+        {
+          "name": "Department of Atomic Energy",
+          "abbrev": null,
+          "url": null,
+          "note": "Atomic energy policy, research and nuclear power development."
+        },
+        {
+          "name": "Department of Space",
+          "abbrev": null,
+          "url": null,
+          "note": "Space policy, research and satellite and launch programmes."
+        },
+        {
+          "name": "Ministry of Agriculture and Farmers Welfare",
+          "abbrev": null,
+          "url": null,
+          "note": "Agriculture policy, crops, farmer welfare and farm support."
+        },
+        {
+          "name": "Ministry of Ayush",
+          "abbrev": null,
+          "url": null,
+          "note": "Traditional medicine systems including Ayurveda, Yoga and Homeopathy."
+        },
+        {
+          "name": "Ministry of Chemicals and Fertilizers",
+          "abbrev": null,
+          "url": null,
+          "note": "Chemicals, petrochemicals, pharmaceuticals and fertilizer policy."
+        },
+        {
+          "name": "Ministry of Civil Aviation",
+          "abbrev": null,
+          "url": null,
+          "note": "Civil aviation policy, airports and air transport regulation."
+        },
+        {
+          "name": "Ministry of Coal",
+          "abbrev": null,
+          "url": null,
+          "note": "Coal policy, exploration and production oversight."
+        },
+        {
+          "name": "Ministry of Commerce and Industry",
+          "abbrev": null,
+          "url": null,
+          "note": "Trade, commerce, industrial policy and investment promotion."
+        },
+        {
+          "name": "Ministry of Communications",
+          "abbrev": null,
+          "url": null,
+          "note": "Telecom, posts and digital communications policy."
+        },
+        {
+          "name": "Ministry of Consumer Affairs, Food and Public Distribution",
+          "abbrev": null,
+          "url": null,
+          "note": "Consumer protection, food management and public distribution."
+        },
+        {
+          "name": "Ministry of Cooperation",
+          "abbrev": null,
+          "url": null,
+          "note": "Cooperative movement policy and cooperative societies development."
+        },
+        {
+          "name": "Ministry of Corporate Affairs",
+          "abbrev": null,
+          "url": null,
+          "note": "Company law, corporate governance and business registration."
+        },
+        {
+          "name": "Ministry of Culture",
+          "abbrev": null,
+          "url": null,
+          "note": "Arts, culture, heritage, museums and libraries."
+        },
+        {
+          "name": "Ministry of Defence",
+          "abbrev": null,
+          "url": null,
+          "note": "National defence, armed forces and defence production."
+        },
+        {
+          "name": "Ministry of Development of North Eastern Region",
+          "abbrev": null,
+          "url": null,
+          "note": "Development plans and projects for the North Eastern Region."
+        },
+        {
+          "name": "Ministry of Earth Sciences",
+          "abbrev": null,
+          "url": null,
+          "note": "Meteorology, ocean, climate and earth system science services."
+        },
+        {
+          "name": "Ministry of Education",
+          "abbrev": null,
+          "url": null,
+          "note": "School, higher and technical education policy."
+        },
+        {
+          "name": "Ministry of Electronics and Information Technology",
+          "abbrev": null,
+          "url": null,
+          "note": "Electronics, IT policy, digital services and cyber matters."
+        },
+        {
+          "name": "Ministry of Environment, Forest and Climate Change",
+          "abbrev": null,
+          "url": null,
+          "note": "Environment protection, forests, wildlife and climate policy."
+        },
+        {
+          "name": "Ministry of External Affairs",
+          "abbrev": null,
+          "url": null,
+          "note": "Foreign policy, diplomacy and Indians abroad services."
+        },
+        {
+          "name": "Ministry of Finance",
+          "abbrev": null,
+          "url": null,
+          "note": "Fiscal policy, taxation, expenditure and financial services."
+        },
+        {
+          "name": "Ministry of Fisheries, Animal Husbandry and Dairying",
+          "abbrev": null,
+          "url": null,
+          "note": "Fisheries, livestock, veterinary and dairy development."
+        },
+        {
+          "name": "Ministry of Food Processing Industries",
+          "abbrev": null,
+          "url": null,
+          "note": "Food processing industry promotion and food value chains."
+        },
+        {
+          "name": "Ministry of Health and Family Welfare",
+          "abbrev": null,
+          "url": null,
+          "note": "Public health, hospitals, family welfare and health schemes."
+        },
+        {
+          "name": "Ministry of Heavy Industries",
+          "abbrev": null,
+          "url": null,
+          "note": "Heavy industry, machinery, auto and industrial engineering."
+        },
+        {
+          "name": "Ministry of Home Affairs",
+          "abbrev": null,
+          "url": null,
+          "note": "Internal security, policing, immigration and centre-state matters."
+        },
+        {
+          "name": "Ministry of Housing and Urban Affairs",
+          "abbrev": null,
+          "url": null,
+          "note": "Housing, urban development, smart cities and urban transport."
+        },
+        {
+          "name": "Ministry of Information and Broadcasting",
+          "abbrev": null,
+          "url": null,
+          "note": "Broadcasting, press, films and public information services."
+        },
+        {
+          "name": "Ministry of Jal Shakti",
+          "abbrev": null,
+          "url": null,
+          "note": "Water resources, drinking water and sanitation missions."
+        },
+        {
+          "name": "Ministry of Labour and Employment",
+          "abbrev": null,
+          "url": null,
+          "note": "Labour welfare, employment, industrial relations and social security."
+        },
+        {
+          "name": "Ministry of Law and Justice",
+          "abbrev": null,
+          "url": null,
+          "note": "Legal affairs, legislation, justice delivery and courts support."
+        },
+        {
+          "name": "Ministry of Micro, Small and Medium Enterprises",
+          "abbrev": null,
+          "url": null,
+          "note": "MSME promotion, khadi, village and small industries."
+        },
+        {
+          "name": "Ministry of Mines",
+          "abbrev": null,
+          "url": null,
+          "note": "Mineral exploration, mining policy and mineral regulation."
+        },
+        {
+          "name": "Ministry of Minority Affairs",
+          "abbrev": null,
+          "url": null,
+          "note": "Welfare and development schemes for minority communities."
+        },
+        {
+          "name": "Ministry of New and Renewable Energy",
+          "abbrev": null,
+          "url": null,
+          "note": "Solar, wind and other renewable energy development."
+        },
+        {
+          "name": "Ministry of Panchayati Raj",
+          "abbrev": null,
+          "url": null,
+          "note": "Panchayat empowerment, rural local governance and devolution."
+        },
+        {
+          "name": "Ministry of Parliamentary Affairs",
+          "abbrev": null,
+          "url": null,
+          "note": "Parliament business, legislative planning and coordination."
+        },
+        {
+          "name": "Ministry of Personnel, Public Grievances and Pensions",
+          "abbrev": null,
+          "url": null,
+          "note": "Civil services, personnel policy, grievances and pensions."
+        },
+        {
+          "name": "Ministry of Petroleum and Natural Gas",
+          "abbrev": null,
+          "url": null,
+          "note": "Petroleum, natural gas, refining and energy security."
+        },
+        {
+          "name": "Ministry of Planning",
+          "abbrev": null,
+          "url": null,
+          "note": "National planning coordination and policy formulation support."
+        },
+        {
+          "name": "Ministry of Ports, Shipping and Waterways",
+          "abbrev": null,
+          "url": null,
+          "note": "Ports, shipping, inland waterways and maritime policy."
+        },
+        {
+          "name": "Ministry of Power",
+          "abbrev": null,
+          "url": null,
+          "note": "Electricity policy, generation, distribution and grid development."
+        },
+        {
+          "name": "Ministry of Railways",
+          "abbrev": null,
+          "url": null,
+          "note": "Rail transport policy, operations and railway infrastructure."
+        },
+        {
+          "name": "Ministry of Road Transport and Highways",
+          "abbrev": null,
+          "url": null,
+          "note": "National highways, road transport and vehicle regulation."
+        },
+        {
+          "name": "Ministry of Rural Development",
+          "abbrev": null,
+          "url": null,
+          "note": "Rural housing, livelihoods, roads and poverty alleviation."
+        },
+        {
+          "name": "Ministry of Science and Technology",
+          "abbrev": null,
+          "url": null,
+          "note": "Science research, technology development and innovation support."
+        },
+        {
+          "name": "Ministry of Skill Development and Entrepreneurship",
+          "abbrev": null,
+          "url": null,
+          "note": "Skill training, vocational education and entrepreneurship promotion."
+        },
+        {
+          "name": "Ministry of Social Justice and Empowerment",
+          "abbrev": null,
+          "url": null,
+          "note": "Welfare of SCs, OBCs, disabled and social defence."
+        },
+        {
+          "name": "Ministry of Statistics and Programme Implementation",
+          "abbrev": null,
+          "url": null,
+          "note": "Official statistics, surveys and programme monitoring."
+        },
+        {
+          "name": "Ministry of Steel",
+          "abbrev": null,
+          "url": null,
+          "note": "Steel policy, production and steel industry development."
+        },
+        {
+          "name": "Ministry of Textiles",
+          "abbrev": null,
+          "url": null,
+          "note": "Textiles, handloom, handicrafts and apparel industry."
+        },
+        {
+          "name": "Ministry of Tourism",
+          "abbrev": null,
+          "url": null,
+          "note": "Tourism promotion, destinations and hospitality development."
+        },
+        {
+          "name": "Ministry of Tribal Affairs",
+          "abbrev": null,
+          "url": null,
+          "note": "Tribal welfare, development and scheduled tribe schemes."
+        },
+        {
+          "name": "Ministry of Women and Child Development",
+          "abbrev": null,
+          "url": null,
+          "note": "Women and child welfare, nutrition and protection schemes."
+        },
+        {
+          "name": "Ministry of Youth Affairs and Sports",
+          "abbrev": null,
+          "url": null,
+          "note": "Youth programmes, sports policy and athletic development."
+        }
+      ],
+      "source_url": "https://www.presidentofindia.gov.in/press_releases/press-communique-18",
+      "source_title": "PRESS COMMUNIQUE | President of India",
+      "as_of": "2024-06-10"
+    },
+    "ministries": {
+      "count": 55,
+      "items": [
+        {
+          "name": "Ministry of AYUSH",
+          "abbrev": "MoA",
+          "url": "https://ayush.gov.in",
+          "note": "Traditional medicine systems including Ayurveda, Yoga, Homoeopathy and wellness"
+        },
+        {
+          "name": "Ministry of Agriculture and Farmers Welfare",
+          "abbrev": "MoAFW",
+          "url": null,
+          "note": "Agriculture policy, crop production and farmer welfare"
+        },
+        {
+          "name": "Ministry of Chemicals and Fertilizers",
+          "abbrev": "MoCF",
+          "url": "https://mocf.gov.in",
+          "note": "Chemicals, petrochemicals, fertilizers and pharmaceuticals"
+        },
+        {
+          "name": "Ministry of Civil Aviation",
+          "abbrev": "MoCA",
+          "url": "https://www.civilaviation.gov.in",
+          "note": "Civil aviation policy, airports and airline regulation"
+        },
+        {
+          "name": "Ministry of Coal",
+          "abbrev": null,
+          "url": "https://coal.nic.in",
+          "note": "Coal exploration, production and policy"
+        },
+        {
+          "name": "Ministry of Commerce and Industry",
+          "abbrev": "MoCI",
+          "url": "https://www.moci.gov.in",
+          "note": "Foreign trade, commerce and industrial policy"
+        },
+        {
+          "name": "Ministry of Communications",
+          "abbrev": "MoC",
+          "url": null,
+          "note": "Telecommunications, posts and digital communications"
+        },
+        {
+          "name": "Ministry of Consumer Affairs, Food and Public Distribution",
+          "abbrev": "MoCAFP",
+          "url": null,
+          "note": "Consumer protection, food grains and public distribution"
+        },
+        {
+          "name": "Ministry of Cooperation",
+          "abbrev": null,
+          "url": "https://www.cooperation.gov.in",
+          "note": "Cooperative movement and cooperative societies"
+        },
+        {
+          "name": "Ministry of Corporate Affairs",
+          "abbrev": "MCA",
+          "url": "https://www.mca.gov.in",
+          "note": "Company law, corporate governance and corporate filings"
+        },
+        {
+          "name": "Ministry of Culture",
+          "abbrev": null,
+          "url": "https://culture.gov.in",
+          "note": "Arts, culture, heritage and archaeological preservation"
+        },
+        {
+          "name": "Ministry of Defence",
+          "abbrev": "MoD",
+          "url": "https://www.mod.gov.in",
+          "note": "National defence, armed forces and defence production"
+        },
+        {
+          "name": "Ministry of Development of North Eastern Region",
+          "abbrev": "MDONER",
+          "url": "https://mdoner.gov.in",
+          "note": "Development of the North Eastern states"
+        },
+        {
+          "name": "Ministry of Earth Sciences",
+          "abbrev": "MoES",
+          "url": "https://moes.gov.in",
+          "note": "Weather, oceans, seismology and earth-system science"
+        },
+        {
+          "name": "Ministry of Education",
+          "abbrev": "MoE",
+          "url": "https://www.education.gov.in",
+          "note": "School and higher education policy"
+        },
+        {
+          "name": "Ministry of Electronics and Information Technology",
+          "abbrev": "MeitY",
+          "url": "https://meity.gov.in",
+          "note": "IT, electronics, Digital India and cyber policy"
+        },
+        {
+          "name": "Ministry of Environment, Forest and Climate Change",
+          "abbrev": "MoEFCC",
+          "url": "https://moef.gov.in",
+          "note": "Environment protection, forests, wildlife and climate action"
+        },
+        {
+          "name": "Ministry of External Affairs",
+          "abbrev": "MEA",
+          "url": "https://www.mea.gov.in",
+          "note": "Foreign policy, diplomacy and Indian missions abroad"
+        },
+        {
+          "name": "Ministry of Finance",
+          "abbrev": "MoF",
+          "url": "https://finmin.gov.in",
+          "note": "Economic affairs, expenditure, revenue and financial services"
+        },
+        {
+          "name": "Ministry of Fisheries, Animal Husbandry and Dairying",
+          "abbrev": "MoFAHD",
+          "url": null,
+          "note": "Fisheries, livestock and dairy development"
+        },
+        {
+          "name": "Ministry of Food Processing Industries",
+          "abbrev": "MoFPI",
+          "url": "https://mofpi.gov.in",
+          "note": "Food processing industry promotion"
+        },
+        {
+          "name": "Ministry of Health and Family Welfare",
+          "abbrev": "MoHFW",
+          "url": "https://mohfw.gov.in",
+          "note": "Public health, hospitals and family welfare"
+        },
+        {
+          "name": "Ministry of Heavy Industries",
+          "abbrev": "MoHI",
+          "url": "https://heavyindustries.gov.in",
+          "note": "Heavy industry, automobiles and public enterprises"
+        },
+        {
+          "name": "Ministry of Home Affairs",
+          "abbrev": "MHA",
+          "url": "https://mha.gov.in",
+          "note": "Internal security, policing, immigration and centre-state affairs"
+        },
+        {
+          "name": "Ministry of Housing and Urban Affairs",
+          "abbrev": "MoHUA",
+          "url": "https://mohua.gov.in",
+          "note": "Urban development, housing and smart cities"
+        },
+        {
+          "name": "Ministry of Information and Broadcasting",
+          "abbrev": "MIB",
+          "url": "https://www.mib.gov.in",
+          "note": "Media, broadcasting, films and press policy"
+        },
+        {
+          "name": "Ministry of Jal Shakti",
+          "abbrev": "MoJS",
+          "url": "https://jalshakti.gov.in",
+          "note": "Water resources, drinking water and sanitation"
+        },
+        {
+          "name": "Ministry of Labour and Employment",
+          "abbrev": "MoLE",
+          "url": "https://labour.gov.in",
+          "note": "Labour welfare, employment and industrial relations"
+        },
+        {
+          "name": "Ministry of Law and Justice",
+          "abbrev": "MoLJ",
+          "url": "https://lawmin.gov.in",
+          "note": "Legal affairs, justice delivery and legislative drafting"
+        },
+        {
+          "name": "Ministry of Micro, Small & Medium Enterprises",
+          "abbrev": "MSME",
+          "url": "https://msme.gov.in",
+          "note": "Micro, small and medium enterprises promotion"
+        },
+        {
+          "name": "Ministry of Mines",
+          "abbrev": "MoM",
+          "url": "https://mines.gov.in",
+          "note": "Mineral exploration, mining and policy"
+        },
+        {
+          "name": "Ministry of Minority Affairs",
+          "abbrev": "MoMA",
+          "url": "https://minorityaffairs.gov.in",
+          "note": "Welfare of notified minority communities"
+        },
+        {
+          "name": "Ministry of New and Renewable Energy",
+          "abbrev": "MNRE",
+          "url": "https://mnre.gov.in",
+          "note": "Solar, wind and renewable energy"
+        },
+        {
+          "name": "Ministry of Panchayati Raj",
+          "abbrev": "MoPR",
+          "url": "https://panchayat.gov.in",
+          "note": "Panchayats and rural local governance"
+        },
+        {
+          "name": "Ministry of Parliamentary Affairs",
+          "abbrev": "MPA",
+          "url": "https://www.mpa.gov.in",
+          "note": "Parliament business and coordination"
+        },
+        {
+          "name": "Ministry of Personnel, Public Grievances and Pensions",
+          "abbrev": "MoPPGP",
+          "url": "https://persmin.gov.in",
+          "note": "Civil services, pensions and public grievances"
+        },
+        {
+          "name": "Ministry of Petroleum and Natural Gas",
+          "abbrev": "MoPNG",
+          "url": "https://mopng.gov.in",
+          "note": "Oil and gas exploration, refining and marketing"
+        },
+        {
+          "name": "Ministry of Planning",
+          "abbrev": "MoP",
+          "url": null,
+          "note": "Policy planning and NITI Aayog-related planning functions"
+        },
+        {
+          "name": "Ministry of Ports, Shipping and Waterways",
+          "abbrev": "MoPSW",
+          "url": "https://shipmin.gov.in",
+          "note": "Ports, shipping and inland waterways"
+        },
+        {
+          "name": "Ministry of Power",
+          "abbrev": null,
+          "url": "https://powermin.gov.in",
+          "note": "Electricity generation, transmission and distribution policy"
+        },
+        {
+          "name": "Ministry of Railways",
+          "abbrev": "MoR",
+          "url": "https://indianrailways.gov.in",
+          "note": "Indian Railways operations and policy"
+        },
+        {
+          "name": "Ministry of Road Transport and Highways",
+          "abbrev": "MoRTH",
+          "url": "https://morth.gov.in",
+          "note": "National highways and road transport"
+        },
+        {
+          "name": "Ministry of Rural Development",
+          "abbrev": "MoRD",
+          "url": "https://www.rural.gov.in",
+          "note": "Rural housing, employment and livelihoods"
+        },
+        {
+          "name": "Ministry of Science and Technology",
+          "abbrev": "MST",
+          "url": "https://most.gov.in",
+          "note": "Scientific research and technology development"
+        },
+        {
+          "name": "Ministry of Skill Development and Entrepreneurship",
+          "abbrev": "MSDE",
+          "url": "https://www.msde.gov.in",
+          "note": "Skilling, vocational training and entrepreneurship"
+        },
+        {
+          "name": "Ministry of Social Justice and Empowerment",
+          "abbrev": "MoSJE",
+          "url": null,
+          "note": "Welfare of SCs, OBCs, persons with disabilities and senior citizens"
+        },
+        {
+          "name": "Ministry of Statistics and Programme Implementation",
+          "abbrev": "MoSPI",
+          "url": "https://www.mospi.gov.in",
+          "note": "Official statistics, surveys and programme implementation"
+        },
+        {
+          "name": "Ministry of Steel",
+          "abbrev": "MoS",
+          "url": "https://steel.gov.in",
+          "note": "Steel industry policy and production"
+        },
+        {
+          "name": "Ministry of Textiles",
+          "abbrev": "MoT",
+          "url": "https://texmin.gov.in",
+          "note": "Textiles, handlooms, handicrafts and apparel"
+        },
+        {
+          "name": "Ministry of Tourism",
+          "abbrev": null,
+          "url": "https://tourism.gov.in",
+          "note": "Tourism promotion and hospitality development"
+        },
+        {
+          "name": "Ministry of Tribal Affairs",
+          "abbrev": "MoTA",
+          "url": "https://tribal.gov.in",
+          "note": "Welfare of Scheduled Tribes"
+        },
+        {
+          "name": "Ministry of Women and Child Development",
+          "abbrev": "MoWCD",
+          "url": "https://wcd.gov.in",
+          "note": "Women and child welfare and nutrition"
+        },
+        {
+          "name": "Ministry of Youth Affairs and Sports",
+          "abbrev": "MoYAS",
+          "url": "https://yas.gov.in",
+          "note": "Youth programmes and sports development"
+        },
+        {
+          "name": "Department of Atomic Energy",
+          "abbrev": null,
+          "url": "https://dae.gov.in",
+          "note": "Nuclear energy and atomic research, under the Prime Minister"
+        },
+        {
+          "name": "Department of Space",
+          "abbrev": null,
+          "url": "https://www.dos.gov.in",
+          "note": "Space programme and ISRO, under the Prime Minister"
+        }
+      ],
+      "source_url": "https://igod.gov.in/ug/categories",
+      "source_title": "Integrated Government Online Directory : Union Government : Sub-Categories",
+      "as_of": "2026-09-21"
+    },
+    "orgs": {
+      "count": 11,
+      "items": [
+        {
+          "name": "President of India",
+          "abbrev": null,
+          "url": "https://presidentofindia.gov.in",
+          "note": "Constitutional head of the Union executive."
+        },
+        {
+          "name": "Vice President of India",
+          "abbrev": null,
+          "url": "https://vicepresidentofindia.nic.in",
+          "note": "Constitutional second-highest office and Chair of Rajya Sabha."
+        },
+        {
+          "name": "Prime Minister's Office",
+          "abbrev": "PMO",
+          "url": "https://pmindia.gov.in",
+          "note": "Secretarial assistance to the Prime Minister."
+        },
+        {
+          "name": "Cabinet Secretariat",
+          "abbrev": null,
+          "url": "https://cabsec.gov.in",
+          "note": "Secretarial assistance to the Union Cabinet and coordination."
+        },
+        {
+          "name": "Election Commission of India",
+          "abbrev": "ECI",
+          "url": "https://eci.gov.in",
+          "note": "Conducts elections to Parliament, legislatures, President and Vice-President."
+        },
+        {
+          "name": "National Human Rights Commission (NHRC), India",
+          "abbrev": "NHRC",
+          "url": "https://nhrc.nic.in",
+          "note": "Statutory body for protection and promotion of human rights."
+        },
+        {
+          "name": "Comptroller and Auditor General (CAG) of India",
+          "abbrev": "CAG",
+          "url": "https://cag.gov.in",
+          "note": "Audits Union and state government accounts and public undertakings."
+        },
+        {
+          "name": "NITI Aayog - National Institution for Transforming India",
+          "abbrev": "NITI Aayog",
+          "url": "https://niti.gov.in",
+          "note": "Policy think tank providing directional and policy inputs to government."
+        },
+        {
+          "name": "Office of the Principal Scientific Adviser",
+          "abbrev": "PSA",
+          "url": "https://www.psa.gov.in",
+          "note": "Advises government on science, technology and innovation policy."
+        },
+        {
+          "name": "Union Public Service Commission",
+          "abbrev": "UPSC",
+          "url": "https://upsconline.nic.in",
+          "note": "Recruits civil servants through examinations and advises on personnel matters."
+        },
+        {
+          "name": "Insurance Information Bureau of India (IIB)",
+          "abbrev": "IIB",
+          "url": "https://iib.gov.in",
+          "note": "Maintains insurance data and analytics for regulation and policy."
+        }
+      ],
+      "source_url": "https://igod.gov.in/apx/categories",
+      "source_title": "Integrated Government Online Directory : Apex Bodies : Sub-Categories",
+      "as_of": "2026-09-21"
+    },
+    "psus": {
+      "count": 97,
+      "items": [
+        {
+          "name": "Bharat Heavy Electricals Limited",
+          "abbrev": "BHEL",
+          "url": null,
+          "note": "Maharatna Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Bharat Petroleum Corporation Limited",
+          "abbrev": "BPCL",
+          "url": null,
+          "note": "Maharatna Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Coal India Limited",
+          "abbrev": "CIL",
+          "url": null,
+          "note": "Maharatna Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "GAIL (India) Limited",
+          "abbrev": "GAIL",
+          "url": null,
+          "note": "Maharatna Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Hindustan Petroleum Corporation Limited",
+          "abbrev": "HPCL",
+          "url": null,
+          "note": "Maharatna Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Indian Oil Corporation Limited",
+          "abbrev": "IOCL",
+          "url": null,
+          "note": "Maharatna Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "NTPC Limited",
+          "abbrev": "NTPC",
+          "url": null,
+          "note": "Maharatna Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Oil & Natural Gas Corporation Limited",
+          "abbrev": "ONGC",
+          "url": null,
+          "note": "Maharatna Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Power Grid Corporation of India Limited",
+          "abbrev": "POWERGRID",
+          "url": null,
+          "note": "Maharatna Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Steel Authority of India Limited",
+          "abbrev": "SAIL",
+          "url": null,
+          "note": "Maharatna Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Bharat Electronics Limited",
+          "abbrev": "BEL",
+          "url": null,
+          "note": "Navratna Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Container Corporation of India Limited",
+          "abbrev": "CONCOR",
+          "url": null,
+          "note": "Navratna Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Engineers India Limited",
+          "abbrev": "EIL",
+          "url": null,
+          "note": "Navratna Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Hindustan Aeronautics Limited",
+          "abbrev": "HAL",
+          "url": null,
+          "note": "Navratna Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Mahanagar Telephone Nigam Limited",
+          "abbrev": "MTNL",
+          "url": null,
+          "note": "Navratna Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "National Aluminium Company Limited",
+          "abbrev": "NALCO",
+          "url": null,
+          "note": "Navratna Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "NBCC (India) Limited",
+          "abbrev": "NBCC",
+          "url": null,
+          "note": "Navratna Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "NMDC Limited",
+          "abbrev": "NMDC",
+          "url": null,
+          "note": "Navratna Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "NLC India Limited",
+          "abbrev": "NLC",
+          "url": null,
+          "note": "Navratna Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Oil India Limited",
+          "abbrev": "OIL",
+          "url": null,
+          "note": "Navratna Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Power Finance Corporation Limited",
+          "abbrev": "PFC",
+          "url": null,
+          "note": "Navratna Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Rashtriya Ispat Nigam Limited",
+          "abbrev": "RINL",
+          "url": null,
+          "note": "Navratna Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Rural Electrification Corporation Limited",
+          "abbrev": "REC",
+          "url": null,
+          "note": "Navratna Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Shipping Corporation of India Limited",
+          "abbrev": "SCI",
+          "url": null,
+          "note": "Navratna Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Airports Authority of India",
+          "abbrev": "AAI",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Antrix Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Balmer Lawrie & Co. Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Bharat Coking Coal Limited",
+          "abbrev": "BCCL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Bharat Dynamics Limited",
+          "abbrev": "BDL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "BEML Limited",
+          "abbrev": "BEML",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Bharat Sanchar Nigam Limited",
+          "abbrev": "BSNL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Bridge & Roof Company (India) Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Central Warehousing Corporation",
+          "abbrev": "CWC",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Central Coalfields Limited",
+          "abbrev": "CCL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Central Mine Planning & Design Institute Limited",
+          "abbrev": "CMPDI",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Chennai Petroleum Corporation Limited",
+          "abbrev": "CPCL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Cochin Shipyard Limited",
+          "abbrev": "CSL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "EdCIL (India) Limited",
+          "abbrev": "EdCIL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Kamarajar Port Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Garden Reach Shipbuilders & Engineers Limited",
+          "abbrev": "GRSE",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Goa Shipyard Limited",
+          "abbrev": "GSL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Hindustan Copper Limited",
+          "abbrev": "HCL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "HLL Lifecare Limited",
+          "abbrev": "HLL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Hindustan Newsprint Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Hindustan Paper Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Housing & Urban Development Corporation Limited",
+          "abbrev": "HUDCO",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "HSCC (India) Limited",
+          "abbrev": "HSCC",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "India Tourism Development Corporation Limited",
+          "abbrev": "ITDC",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Indian Rare Earths Limited",
+          "abbrev": "IREL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Indian Railway Catering & Tourism Corporation Limited",
+          "abbrev": "IRCTC",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Indian Railway Finance Corporation Limited",
+          "abbrev": "IRFC",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Indian Renewable Energy Development Agency Limited",
+          "abbrev": "IREDA",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "India Trade Promotion Organization",
+          "abbrev": "ITPO",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "IRCON International Limited",
+          "abbrev": "IRCON",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "KIOCL Limited",
+          "abbrev": "KIOCL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Mazagaon Dock Shipbuilders Limited",
+          "abbrev": "MDL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Mahanadi Coalfields Limited",
+          "abbrev": "MCL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "MOIL Limited",
+          "abbrev": "MOIL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Mangalore Refinery & Petrochemical Limited",
+          "abbrev": "MRPL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Mineral Exploration Corporation Limited",
+          "abbrev": "MECL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Mishra Dhatu Nigam Limited",
+          "abbrev": "MIDHANI",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "MMTC Limited",
+          "abbrev": "MMTC",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "MSTC Limited",
+          "abbrev": "MSTC",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "National Fertilizers Limited",
+          "abbrev": "NFL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "National Projects Construction Corporation Limited",
+          "abbrev": "NPCC",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "National Small Industries Corporation Limited",
+          "abbrev": "NSIC",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "National Seeds Corporation",
+          "abbrev": "NSC",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "NHPC Limited",
+          "abbrev": "NHPC",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Northern Coalfields Limited",
+          "abbrev": "NCL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "North Eastern Electric Power Corporation Limited",
+          "abbrev": "NEEPCO",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Numaligarh Refinery Limited",
+          "abbrev": "NRL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "ONGC Videsh Limited",
+          "abbrev": "OVL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Pawan Hans Helicopters Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Projects & Development India Limited",
+          "abbrev": "PDIL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Railtel Corporation of India Limited",
+          "abbrev": "RailTel",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Rail Vikas Nigam Limited",
+          "abbrev": "RVNL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Rashtriya Chemicals & Fertilizers Limited",
+          "abbrev": "RCF",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "RITES Limited",
+          "abbrev": "RITES",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "SJVN Limited",
+          "abbrev": "SJVN",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Security Printing and Minting Corporation of India Limited",
+          "abbrev": "SPMCIL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "South Eastern Coalfields Limited",
+          "abbrev": "SECL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Telecommunications Consultants India Limited",
+          "abbrev": "TCIL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "THDC India Limited",
+          "abbrev": "THDC",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Western Coalfields Limited",
+          "abbrev": "WCL",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "WAPCOS Limited",
+          "abbrev": "WAPCOS",
+          "url": null,
+          "note": "Miniratna Category-I Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Artificial Limbs Manufacturing Corporation of India",
+          "abbrev": "ALIMCO",
+          "url": null,
+          "note": "Miniratna Category-II Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Bharat Pumps & Compressors Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Miniratna Category-II Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Broadcast Engineering Consultants India Limited",
+          "abbrev": "BECIL",
+          "url": null,
+          "note": "Miniratna Category-II Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Central Railside Warehouse Company Limited",
+          "abbrev": "CRWC",
+          "url": null,
+          "note": "Miniratna Category-II Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Engineering Projects (India) Limited",
+          "abbrev": "EPI",
+          "url": null,
+          "note": "Miniratna Category-II Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "FCI Aravali Gypsum & Minerals India Limited",
+          "abbrev": "FAGMIL",
+          "url": null,
+          "note": "Miniratna Category-II Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Ferro Scrap Nigam Limited",
+          "abbrev": "FSNL",
+          "url": null,
+          "note": "Miniratna Category-II Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "HMT (International) Limited",
+          "abbrev": "HMT(I)",
+          "url": null,
+          "note": "Miniratna Category-II Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Indian Medicines & Pharmaceuticals Corporation Limited",
+          "abbrev": "IMPCL",
+          "url": null,
+          "note": "Miniratna Category-II Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "MECON Limited",
+          "abbrev": "MECON",
+          "url": null,
+          "note": "Miniratna Category-II Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "National Film Development Corporation Limited",
+          "abbrev": "NFDC",
+          "url": null,
+          "note": "Miniratna Category-II Central Public Sector Enterprise (CPSE)"
+        },
+        {
+          "name": "Rajasthan Electronics & Instruments Limited",
+          "abbrev": "REIL",
+          "url": null,
+          "note": "Miniratna Category-II Central Public Sector Enterprise (CPSE)"
+        }
+      ],
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1594624&reg=3&lang=1",
+      "source_title": "Ratna Status to CPSEs",
+      "as_of": "2019-12-03"
+    }
+  },
   "uttar-pradesh": {
     "agencies": {
       "count": 73,
@@ -33317,40 +37355,6 @@
       "source_url": "https://finance.wb.gov.in/writereaddata/1093-F(Y).pdf",
       "source_title": "Restructuring of PSUs/ Corporations of State Government - Government of West Bengal, Finance Department Memorandum No. 1093-F(Y) dated 21.02.2017 (Annexure-B: 44 PSUs and Corporations to continue)",
       "as_of": "2017-02-21"
-    }
-  },
-  "chandigarh": {
-    "commissions": {
-      "count": 4,
-      "items": [
-        {
-          "name": "State Election Commission",
-          "abbrev": null,
-          "url": "https://chandigarh.gov.in/state-election-commission",
-          "note": "Conducts elections to local bodies in U.T. Chandigarh"
-        },
-        {
-          "name": "State Consumer Disputes Redressal Commission",
-          "abbrev": null,
-          "url": "http://chdconsumercourt.gov.in",
-          "note": "Adjudicates consumer disputes and appeals in U.T. Chandigarh"
-        },
-        {
-          "name": "Police Complaints Authority",
-          "abbrev": null,
-          "url": "https://chandigarh.gov.in/police-complaints-authority",
-          "note": "Inquires into complaints against police personnel in U.T. Chandigarh"
-        },
-        {
-          "name": "Chandigarh Pollution Control Committee",
-          "abbrev": null,
-          "url": "https://chocmms.nic.in/",
-          "note": "Regulates pollution control and environmental consents in Chandigarh"
-        }
-      ],
-      "source_url": "https://chandigarh.gov.in/other-departments",
-      "source_title": "Other Departments | The official website of the Chandigarh Administration",
-      "as_of": "2026"
     }
   }
 }
