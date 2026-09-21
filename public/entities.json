@@ -1,4 +1,250 @@
 {
+  "amc-ahmedabad": {
+    "agencies": {
+      "count": 34,
+      "items": [
+        {
+          "name": "Central Demolition Squad",
+          "abbrev": null,
+          "url": null,
+          "note": "Removes unauthorized constructions and encroachments."
+        },
+        {
+          "name": "Fire Brigade",
+          "abbrev": null,
+          "url": null,
+          "note": "Fire fighting, rescue and fire prevention services."
+        },
+        {
+          "name": "Security",
+          "abbrev": null,
+          "url": null,
+          "note": "Security of municipal premises and establishments."
+        },
+        {
+          "name": "Cattle Nuisance Control Department",
+          "abbrev": "CNCD",
+          "url": null,
+          "note": "Controls stray cattle and cattle nuisance in the city."
+        },
+        {
+          "name": "Slaughter House",
+          "abbrev": null,
+          "url": null,
+          "note": "Regulates municipal slaughter houses and meat hygiene."
+        },
+        {
+          "name": "Traffic Engineering",
+          "abbrev": null,
+          "url": null,
+          "note": "Traffic management, signals, signage and road markings."
+        },
+        {
+          "name": "Disaster Management",
+          "abbrev": null,
+          "url": null,
+          "note": "Disaster preparedness, mitigation and emergency response."
+        },
+        {
+          "name": "Parks & Garden",
+          "abbrev": null,
+          "url": null,
+          "note": "Develops and maintains public parks and gardens."
+        },
+        {
+          "name": "Health & Sanitation",
+          "abbrev": null,
+          "url": null,
+          "note": "Public health, sanitation and disease control services."
+        },
+        {
+          "name": "Solid Waste Management",
+          "abbrev": null,
+          "url": null,
+          "note": "Collection, transport and disposal of municipal solid waste."
+        },
+        {
+          "name": "Nirmal Gujarat",
+          "abbrev": null,
+          "url": null,
+          "note": "State sanitation and cleanliness programme implementation."
+        },
+        {
+          "name": "Medical College (AMC-MET)",
+          "abbrev": "AMC-MET",
+          "url": null,
+          "note": "Runs AMC-run medical education institutions."
+        },
+        {
+          "name": "Hospitals",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages municipally run hospitals and health facilities."
+        },
+        {
+          "name": "Central Medical Stores",
+          "abbrev": null,
+          "url": null,
+          "note": "Procurement and supply of medicines and medical stores."
+        },
+        {
+          "name": "Family Welfare",
+          "abbrev": null,
+          "url": null,
+          "note": "Family welfare, immunization and reproductive health services."
+        },
+        {
+          "name": "Physiotherapy",
+          "abbrev": null,
+          "url": null,
+          "note": "Municipal physiotherapy services."
+        },
+        {
+          "name": "Kankaria Lake Front",
+          "abbrev": null,
+          "url": null,
+          "note": "Management of Kankaria Lakefront development and operations."
+        },
+        {
+          "name": "Zoo & Balvatika",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages the municipal zoo and children's park."
+        },
+        {
+          "name": "ICDS",
+          "abbrev": "ICDS",
+          "url": null,
+          "note": "Integrated Child Development Services and nutrition programmes."
+        },
+        {
+          "name": "Engineering Personnel & Administration",
+          "abbrev": null,
+          "url": null,
+          "note": "Establishment and administration of engineering staff."
+        },
+        {
+          "name": "Light Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Street lighting installation, operation and maintenance."
+        },
+        {
+          "name": "Energy Efficiency Cell",
+          "abbrev": null,
+          "url": null,
+          "note": "Energy conservation and efficiency measures in civic services."
+        },
+        {
+          "name": "Typist Pool",
+          "abbrev": null,
+          "url": null,
+          "note": "Central typing and clerical support pool."
+        },
+        {
+          "name": "Central Record",
+          "abbrev": null,
+          "url": null,
+          "note": "Custody and maintenance of municipal records."
+        },
+        {
+          "name": "Garib Kalyan Mela",
+          "abbrev": null,
+          "url": null,
+          "note": "Coordination of welfare benefit distribution fairs."
+        },
+        {
+          "name": "Estate",
+          "abbrev": null,
+          "url": null,
+          "note": "Management of municipal land and estate properties."
+        },
+        {
+          "name": "Non Tax Revenue",
+          "abbrev": null,
+          "url": null,
+          "note": "Assessment and collection of non-tax municipal revenues."
+        },
+        {
+          "name": "Urban Development",
+          "abbrev": null,
+          "url": null,
+          "note": "Urban development permissions and schemes."
+        },
+        {
+          "name": "Town Planning",
+          "abbrev": null,
+          "url": null,
+          "note": "Town planning schemes and development control."
+        },
+        {
+          "name": "Central Stores",
+          "abbrev": null,
+          "url": null,
+          "note": "Central purchase, storage and issue of materials."
+        },
+        {
+          "name": "Sardar Patel Stadium",
+          "abbrev": null,
+          "url": null,
+          "note": "Management of Sardar Patel Stadium facilities."
+        },
+        {
+          "name": "Administration",
+          "abbrev": null,
+          "url": null,
+          "note": "General administration and establishment matters."
+        },
+        {
+          "name": "Property Tax",
+          "abbrev": null,
+          "url": null,
+          "note": "Assessment and collection of property tax."
+        },
+        {
+          "name": "Professional Tax / Vehicle Tax",
+          "abbrev": null,
+          "url": null,
+          "note": "Assessment and collection of professional and vehicle taxes."
+        }
+      ],
+      "source_url": "https://ahmedabadcity.gov.in/Uploads/AdministrativeWing/_GDEST_GDEST_NO_H_9964.pdf",
+      "source_title": "GDEST_NO_H_9964_DY_MC_Department_Allocation_Order",
+      "as_of": "2013"
+    },
+    "psus": {
+      "count": 4,
+      "items": [
+        {
+          "name": "Smart City Ahmedabad Development Limited",
+          "abbrev": "SCADL",
+          "url": "https://smartcityahmedabad.com",
+          "note": "SPV implementing Smart City Mission projects in Ahmedabad"
+        },
+        {
+          "name": "Ahmedabad Municipal Transport Service",
+          "abbrev": "AMTS",
+          "url": "https://www.amts.co.in",
+          "note": "Operates the city's public bus transport service"
+        },
+        {
+          "name": "Ahmedabad Janmarg Limited",
+          "abbrev": "AJL",
+          "url": "https://www.ahmedabadbrts.org",
+          "note": "Operates the Janmarg Bus Rapid Transit System (BRTS)"
+        },
+        {
+          "name": "Sabarmati Riverfront Development Corporation Limited",
+          "abbrev": "SRFDCL",
+          "url": "https://sabarmatiriverfront.com",
+          "note": "Develops and manages the Sabarmati Riverfront project"
+        }
+      ],
+      "source_url": "https://smartnet.niua.org/sites/default/files/resources/cities_presentation.pdf",
+      "source_title": "REIMAGINING LINGARAJA PLAZA",
+      "as_of": "2018"
+    }
+  },
   "andaman-and-nicobar-islands": {
     "agencies": {
       "count": 28,
@@ -3531,6 +3777,138 @@
       "source_url": "https://dpe.assam.gov.in/information-services/status-of-pses",
       "source_title": "Status of PSEs | Public Enterprises | Government Of Assam, India",
       "as_of": "2013-14"
+    }
+  },
+  "bbmp-bengaluru": {
+    "agencies": {
+      "count": 12,
+      "items": [
+        {
+          "name": "Council",
+          "abbrev": null,
+          "url": null,
+          "note": "Elected council, meetings, resolutions and civic decision-making"
+        },
+        {
+          "name": "General Administrative",
+          "abbrev": null,
+          "url": null,
+          "note": "General administration, establishment and support services"
+        },
+        {
+          "name": "Revenue",
+          "abbrev": null,
+          "url": null,
+          "note": "Property tax assessment, collection and revenue administration"
+        },
+        {
+          "name": "Town Planning and Regulation",
+          "abbrev": null,
+          "url": null,
+          "note": "Building plan approvals, land use and development regulation"
+        },
+        {
+          "name": "Public Works",
+          "abbrev": null,
+          "url": null,
+          "note": "Roads, drains, bridges and civic infrastructure works"
+        },
+        {
+          "name": "Solid Waste Management",
+          "abbrev": null,
+          "url": null,
+          "note": "Garbage collection, segregation, transport and disposal"
+        },
+        {
+          "name": "Public Health-General",
+          "abbrev": null,
+          "url": null,
+          "note": "Sanitation, disease control and general public health services"
+        },
+        {
+          "name": "Public Health-Medical",
+          "abbrev": null,
+          "url": null,
+          "note": "Hospitals, health centres, dispensaries and medical services"
+        },
+        {
+          "name": "Horticulture",
+          "abbrev": null,
+          "url": null,
+          "note": "Parks, gardens and avenue tree maintenance"
+        },
+        {
+          "name": "Urban Forestry",
+          "abbrev": null,
+          "url": null,
+          "note": "Tree planting, afforestation, census and tree protection"
+        },
+        {
+          "name": "Public Education",
+          "abbrev": null,
+          "url": null,
+          "note": "BBMP schools, colleges and education programmes"
+        },
+        {
+          "name": "Social Welfare",
+          "abbrev": null,
+          "url": null,
+          "note": "Welfare schemes for SC/ST, women, elderly and vulnerable groups"
+        }
+      ],
+      "source_url": "https://fpibengaluru.karnataka.gov.in/storage/pdf-files/EDITEDSumithra2023-24_21112023.pdf",
+      "source_title": "Research Report No. /2022-23",
+      "as_of": "2022-23"
+    },
+    "orgs": {
+      "count": 7,
+      "items": [
+        {
+          "name": "Mayor",
+          "abbrev": null,
+          "url": null,
+          "note": "Corporation Authority that carries out provisions of the BBMP Act, 2020"
+        },
+        {
+          "name": "Chief Commissioner",
+          "abbrev": null,
+          "url": null,
+          "note": "Corporation Authority that carries out provisions of the BBMP Act, 2020"
+        },
+        {
+          "name": "Zonal Commissioner",
+          "abbrev": null,
+          "url": null,
+          "note": "Zone-level Corporation Authority under the BBMP Act, 2020"
+        },
+        {
+          "name": "Zonal Committees",
+          "abbrev": null,
+          "url": null,
+          "note": "Zone-level Corporation Authority under the BBMP Act, 2020"
+        },
+        {
+          "name": "Standing Committees",
+          "abbrev": null,
+          "url": null,
+          "note": "Standing committee Corporation Authority under the BBMP Act, 2020"
+        },
+        {
+          "name": "Ward Committees",
+          "abbrev": null,
+          "url": null,
+          "note": "Ward-level Corporation Authority under the BBMP Act, 2020"
+        },
+        {
+          "name": "Area Sabhas",
+          "abbrev": null,
+          "url": null,
+          "note": "Area-level Corporation Authority under the BBMP Act, 2020"
+        }
+      ],
+      "source_url": "https://dpal.karnataka.gov.in/storage/pdf-files/53%20of%202020%20(E).pdf",
+      "source_title": "KARNATAKA ACT NO. 53 OF 2020",
+      "as_of": "2020"
     }
   },
   "bihar": {
@@ -8561,6 +8939,620 @@
       "as_of": "31 March 2022"
     }
   },
+  "gcc-chennai": {
+    "agencies": {
+      "count": 16,
+      "items": [
+        {
+          "name": "Council Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Secretariat of the Council, Mayor and standing committees."
+        },
+        {
+          "name": "General Administration",
+          "abbrev": null,
+          "url": null,
+          "note": "Personnel and administrative matters including appointments, promotions and retirements."
+        },
+        {
+          "name": "Financial Management Unit",
+          "abbrev": null,
+          "url": null,
+          "note": "Preparation of Corporation budget and control of loans, grants and expenses."
+        },
+        {
+          "name": "Land & Estate Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Leasing of Corporation lands, buildings and shopping complexes."
+        },
+        {
+          "name": "Revenue Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Collection of property, profession, advertisement and parking taxes."
+        },
+        {
+          "name": "Works Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Town planning, building permits, private streets and central asphalt plant."
+        },
+        {
+          "name": "Mechanical Engineering Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Purchase and maintenance of vehicles, furniture, printing press and workshops."
+        },
+        {
+          "name": "Electrical Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Installation and maintenance of street lights, cables and electric crematoriums."
+        },
+        {
+          "name": "Solid Waste Management Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Collection and removal of solid waste and night conservancy."
+        },
+        {
+          "name": "Buildings Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Construction of school buildings, conveniences, halls, complexes and hospitals."
+        },
+        {
+          "name": "Storm Water Drain Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Construction, maintenance and desilting of storm water drains."
+        },
+        {
+          "name": "Bridges Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Construction and maintenance of bridges, causeways and subways."
+        },
+        {
+          "name": "Health Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Dispensaries, public health, sanitation and birth and death certificates."
+        },
+        {
+          "name": "Family Welfare Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Maternity and child welfare centres, family welfare and immunization."
+        },
+        {
+          "name": "Education Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Administration of schools, community colleges and nutritious meal centres."
+        },
+        {
+          "name": "Parks & Play Fields",
+          "abbrev": null,
+          "url": null,
+          "note": "Maintenance of parks, play fields and swimming pools."
+        }
+      ],
+      "source_url": "https://portal.chennaicorporation.gov.in/gcc/about-GCC/greater-chennai-corporation/departments/",
+      "source_title": "Welcome to Greater Chennai Corporation",
+      "as_of": "2026-09-21"
+    },
+    "ministries": {
+      "count": 18,
+      "items": [
+        {
+          "name": "Health",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/health",
+          "note": "Dispensaries, public health, sanitation, food safety, birth and death certificates"
+        },
+        {
+          "name": "Revenue",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/revenue",
+          "note": "Collection of property, profession, advertisement taxes, parking fees and assessments"
+        },
+        {
+          "name": "Education",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/education",
+          "note": "Administration of corporation schools, community colleges and nutritious meal centres"
+        },
+        {
+          "name": "Town Planning",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/town-planning",
+          "note": "Building plan permits, private streets, central asphalt plant and yard"
+        },
+        {
+          "name": "Electrical",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/electrical",
+          "note": "Street lights, cables and electric crematoriums installation and maintenance"
+        },
+        {
+          "name": "Roads",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/road",
+          "note": "Construction and maintenance of roads and footpaths"
+        },
+        {
+          "name": "Bridges",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/bridges",
+          "note": "Construction and maintenance of bridges, causeways and subways"
+        },
+        {
+          "name": "Parks",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/park",
+          "note": "Maintenance of parks, play fields and swimming pools"
+        },
+        {
+          "name": "Buildings",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/building",
+          "note": "Construction of schools, hospitals, community halls, shopping complexes, public conveniences"
+        },
+        {
+          "name": "Solid Waste Management",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/solid-waste-management",
+          "note": "Collection and removal of garbage and night conservancy"
+        },
+        {
+          "name": "Storm Water Drain",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/storm-water",
+          "note": "Construction, maintenance and desilting of storm water drains"
+        },
+        {
+          "name": "Mechanical Engineering",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/mechanical-engineering",
+          "note": "Corporation vehicles, general workshop, stores, printing press and furniture"
+        },
+        {
+          "name": "Special Projects",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/special-project",
+          "note": "Execution of special infrastructure and development projects"
+        },
+        {
+          "name": "Finance",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/finance",
+          "note": "Corporation budget, loans and grants, control of expenditure"
+        },
+        {
+          "name": "Land & Estates",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/land-estate",
+          "note": "Leasing of corporation lands, buildings and shopping complexes"
+        },
+        {
+          "name": "Legal Cell",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/legal-cell",
+          "note": "Legal affairs and litigation of the corporation"
+        },
+        {
+          "name": "Small Saving",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/small-saving",
+          "note": "Small savings schemes administration"
+        },
+        {
+          "name": "Gender & Policy Lab",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/gender-policylab",
+          "note": "Gender and policy research and initiatives"
+        }
+      ],
+      "source_url": "https://chennaicorporation.gov.in/gcc/department/",
+      "source_title": "Welcome to Greater Chennai Corporation",
+      "as_of": "2026-09-21"
+    },
+    "orgs": {
+      "count": 18,
+      "items": [
+        {
+          "name": "Health",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/health/",
+          "note": "Public health, sanitation, dispensaries, food safety and birth and death certificates"
+        },
+        {
+          "name": "Revenue",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/revenue/",
+          "note": "Collection of property tax, profession tax, advertisement tax and other fees"
+        },
+        {
+          "name": "Education",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/education/",
+          "note": "Administration of Chennai schools, community colleges and nutritious meal centres"
+        },
+        {
+          "name": "Town Planning",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/town-planning/",
+          "note": "Building plan approvals, planning permission and private street maintenance"
+        },
+        {
+          "name": "Electrical",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/electrical/",
+          "note": "Installation and maintenance of street lights, cables and electric crematoriums"
+        },
+        {
+          "name": "Roads",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/road/",
+          "note": "Construction and maintenance of roads and road infrastructure"
+        },
+        {
+          "name": "Bridges",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/bridges/",
+          "note": "Construction and maintenance of bridges, causeways and subways"
+        },
+        {
+          "name": "Parks",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/park/",
+          "note": "Maintenance of parks, play fields and swimming pools"
+        },
+        {
+          "name": "Buildings",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/building/",
+          "note": "Construction of school buildings, hospitals, community halls and public conveniences"
+        },
+        {
+          "name": "Solid Waste Management",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/solid-waste-management/",
+          "note": "Collection and removal of solid waste and conservancy operations"
+        },
+        {
+          "name": "Storm Water Drain",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/storm-water/",
+          "note": "Construction, maintenance and desilting of storm water drains"
+        },
+        {
+          "name": "Mechanical Engineering",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/mechanical-engineering/",
+          "note": "Purchase and maintenance of vehicles, workshop, printing press and stores"
+        },
+        {
+          "name": "Special Projects",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/special-project/",
+          "note": "Execution of special infrastructure and development projects"
+        },
+        {
+          "name": "Finance",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/finance/",
+          "note": "Corporation budget, loans and grants, and control of expenditure"
+        },
+        {
+          "name": "Land & Estates",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/land-estate/",
+          "note": "Leasing of corporation lands, buildings and shopping complexes"
+        },
+        {
+          "name": "Legal Cell",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/legal-cell/",
+          "note": "Legal matters and litigation of Greater Chennai Corporation"
+        },
+        {
+          "name": "Small Saving",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/small-saving/",
+          "note": "Small savings related work of Greater Chennai Corporation"
+        },
+        {
+          "name": "Gender & Policy Lab",
+          "abbrev": null,
+          "url": "https://chennaicorporation.gov.in/gcc/department/gender-policylab/",
+          "note": "Gender and policy initiatives of Greater Chennai Corporation"
+        }
+      ],
+      "source_url": "https://chennaicorporation.gov.in/gcc/department/",
+      "source_title": "Welcome to Greater Chennai Corporation",
+      "as_of": "2026-09-21"
+    }
+  },
+  "ghmc-hyderabad": {
+    "agencies": {
+      "count": 34,
+      "items": [
+        {
+          "name": "General Admn Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "General administration and establishment matters of GHMC."
+        },
+        {
+          "name": "Labour Welfare Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Labour and employee welfare matters."
+        },
+        {
+          "name": "Legal Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Legal affairs, court cases and legal opinions."
+        },
+        {
+          "name": "Vigilance Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Internal vigilance and disciplinary oversight."
+        },
+        {
+          "name": "Central Stationary Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Central stationery procurement and supply."
+        },
+        {
+          "name": "CPRO Section",
+          "abbrev": "CPRO",
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Public relations, press and citizen communications."
+        },
+        {
+          "name": "Secretary Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Council secretariat and meeting records."
+        },
+        {
+          "name": "Election Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Municipal election rolls and poll administration support."
+        },
+        {
+          "name": "Vigilance & Enforcement Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Vigilance enforcement and anti-corruption drives."
+        },
+        {
+          "name": "Sports Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Sports facilities, playgrounds and coaching programs."
+        },
+        {
+          "name": "Horticulture & Urban Forestry Sections",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Parks, greenery, nurseries and urban forestry."
+        },
+        {
+          "name": "Electrical Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Street lighting and electrical installations maintenance."
+        },
+        {
+          "name": "Engineering (Projects) Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Major capital works and infrastructure projects."
+        },
+        {
+          "name": "Housing section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Municipal housing schemes and related works."
+        },
+        {
+          "name": "Engineering (Maintainance) Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Maintenance of roads, drains and civic works."
+        },
+        {
+          "name": "Quality contrl Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Quality control testing of engineering works."
+        },
+        {
+          "name": "S.E-I, S.E-II Sections",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Superintending Engineer divisions for works supervision."
+        },
+        {
+          "name": "Building Maintainance Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Maintenance of municipal buildings."
+        },
+        {
+          "name": "Veterinary Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Veterinary services, slaughterhouses and animal health."
+        },
+        {
+          "name": "Entomology Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Vector control, fogging and anti-mosquito operations."
+        },
+        {
+          "name": "Health Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Public health, hospitals and disease control."
+        },
+        {
+          "name": "Solid Waste Management Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Garbage collection, transport and disposal."
+        },
+        {
+          "name": "License Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Health and trade licenses and regulatory permits."
+        },
+        {
+          "name": "Birth and Death Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Birth and death registration and certificates."
+        },
+        {
+          "name": "Transport Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Municipal vehicle fleet management."
+        },
+        {
+          "name": "Audit Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Internal audit of municipal accounts."
+        },
+        {
+          "name": "Central tax Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Property tax assessment and collection oversight."
+        },
+        {
+          "name": "Finanicial Advisor, Treasury, GPF, Budget, Cheque Sections",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Finance, treasury, provident fund, budget and payments."
+        },
+        {
+          "name": "I.T Section",
+          "abbrev": "IT",
+          "url": "https://www.ghmc.gov.in/",
+          "note": "IT systems, e-governance and digital services."
+        },
+        {
+          "name": "Citizen Service center",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Citizen service centres and front-office delivery."
+        },
+        {
+          "name": "Estate Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Municipal estates, lands and property management."
+        },
+        {
+          "name": "Advertisement Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Outdoor advertisement permits and fee collection."
+        },
+        {
+          "name": "Land Acquisition Section",
+          "abbrev": null,
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Land acquisition for municipal projects."
+        },
+        {
+          "name": "UCD Section",
+          "abbrev": "UCD",
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Urban community development and poverty alleviation programs."
+        }
+      ],
+      "source_url": "https://www.ghmc.gov.in/Documents/GHMCRTI.pdf",
+      "source_title": "Microsoft Word - RTI 08.02.2021",
+      "as_of": "2021-02-08"
+    },
+    "orgs": {
+      "count": 9,
+      "items": [
+        {
+          "name": "Greater Hyderabad Municipal Corporation",
+          "abbrev": "GHMC",
+          "url": "https://www.ghmc.gov.in/",
+          "note": "Civic administration for Greater Hyderabad"
+        },
+        {
+          "name": "Cyberabad Municipal Corporation",
+          "abbrev": null,
+          "url": null,
+          "note": "Municipal corporation for Cyberabad area of Hyderabad"
+        },
+        {
+          "name": "Malkajgiri Municipal Corporation",
+          "abbrev": null,
+          "url": null,
+          "note": "Municipal corporation for Malkajgiri area of Hyderabad"
+        },
+        {
+          "name": "Hyderabad Metropolitan Water Supply & Sewerage Board",
+          "abbrev": "HMWS&SB",
+          "url": "https://www.hyderabadwater.gov.in/",
+          "note": "Water supply and sewerage services for Hyderabad"
+        },
+        {
+          "name": "Hyderabad Metro Rail",
+          "abbrev": "HMRL",
+          "url": "https://hmrl.co.in/",
+          "note": "Implementation of Hyderabad metro rail project"
+        },
+        {
+          "name": "Hyderabad Metropolitan Development Authority",
+          "abbrev": "HMDA",
+          "url": "https://www.hmda.gov.in/",
+          "note": "Planning and development of Hyderabad metropolitan region"
+        },
+        {
+          "name": "Hyderabad Growth Corridor Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Growth corridor and Outer Ring Road projects around Hyderabad"
+        },
+        {
+          "name": "Musi Riverfront Development Corporation Ltd.",
+          "abbrev": "MRDCL",
+          "url": "https://www.musi.telangana.gov.in/",
+          "note": "Musi riverfront redevelopment in Hyderabad"
+        },
+        {
+          "name": "Quli Qutub Shah Urban Development Authority Hyderabad",
+          "abbrev": null,
+          "url": null,
+          "note": "Urban development authority for Quli Qutub Shah area of Hyderabad"
+        }
+      ],
+      "source_url": "https://www.telangana.gov.in/departments/municipal-administration-urban-development/",
+      "source_title": "Municipal Administration & Urban Development - Telangana State Portal",
+      "as_of": "2026-09-21"
+    }
+  },
   "goa": {
     "agencies": {
       "count": 197,
@@ -13585,6 +14577,266 @@
       "source_url": "https://rtionline.jk.gov.in/NodalOfficerDetails.php",
       "source_title": "DETAILS OF NODAL OFFICER - RTI Online, Union Territory of Jammu & Kashmir",
       "as_of": "2024"
+    },
+    "ministries": {
+      "count": 42,
+      "items": [
+        {
+          "abbrev": "FCS&CA",
+          "name": "Food, Civil Supplies & Consumer Affairs",
+          "note": "Food supply, public distribution and consumer affairs.",
+          "url": "http://jkfcsca.gov.in/"
+        },
+        {
+          "abbrev": "Social Welfare",
+          "name": "Social Welfare",
+          "note": "Social justice, welfare schemes and empowerment of vulnerable groups.",
+          "url": "http://jksocialwelfare.nic.in/"
+        },
+        {
+          "abbrev": "Tribal Affairs",
+          "name": "Tribal Affairs",
+          "note": "Welfare and development of Scheduled Tribes.",
+          "url": null
+        },
+        {
+          "abbrev": "L&ED",
+          "name": "Labour and Employment",
+          "note": "Labour welfare, employment services and workers welfare schemes.",
+          "url": null
+        },
+        {
+          "abbrev": "YSS",
+          "name": "Youth Services and Sports",
+          "note": "Youth affairs and promotion of sports and games.",
+          "url": null
+        },
+        {
+          "abbrev": "ARI",
+          "name": "ARI and Trainings",
+          "note": "Administrative reforms, inspections and government training.",
+          "url": null
+        },
+        {
+          "abbrev": "Cooperative",
+          "name": "Cooperative",
+          "note": "Cooperative societies and cooperative credit institutions.",
+          "url": null
+        },
+        {
+          "abbrev": "Election",
+          "name": "Election",
+          "note": "Conduct of elections and electoral roll management.",
+          "url": null
+        },
+        {
+          "abbrev": null,
+          "name": "Haj & Auqaf",
+          "note": "Haj pilgrimage affairs and management of Auqaf properties.",
+          "url": null
+        },
+        {
+          "abbrev": "Agri",
+          "name": "Agriculture Production & Farmer's Welfare",
+          "note": "Crop production, farmers welfare and agricultural extension.",
+          "url": "http://www.jkapd.nic.in/"
+        },
+        {
+          "abbrev": null,
+          "name": "Horticulture",
+          "note": "Horticulture development, planning and marketing of produce.",
+          "url": null
+        },
+        {
+          "abbrev": "Health",
+          "name": "Health & Medical Education",
+          "note": "Public health services, hospitals and medical education.",
+          "url": null
+        },
+        {
+          "abbrev": "PWD",
+          "name": "Public Works (R&B)",
+          "note": "Roads, buildings and public infrastructure works.",
+          "url": "http://jkpwdrb.nic.in"
+        },
+        {
+          "abbrev": "JSD",
+          "name": "Jal Shakti",
+          "note": "Drinking water supply, sanitation, irrigation and flood control.",
+          "url": null
+        },
+        {
+          "abbrev": "Transport",
+          "name": "Transport",
+          "note": "Road transport regulation, licensing and public transport.",
+          "url": "http://jaktrans.nic.in/"
+        },
+        {
+          "abbrev": null,
+          "name": "Animal/Sheep Husbandry and Fisheries",
+          "note": "Animal and sheep husbandry, dairy development and fisheries.",
+          "url": "http://jkash.nic.in/"
+        },
+        {
+          "abbrev": "Revenue",
+          "name": "Revenue",
+          "note": "Land revenue administration, land records and relief operations.",
+          "url": "http://jkrevenue.nic.in/"
+        },
+        {
+          "abbrev": null,
+          "name": "Floriculture",
+          "note": "Floriculture development, gardens and parks.",
+          "url": null
+        },
+        {
+          "abbrev": "Education",
+          "name": "School Education",
+          "note": "Elementary and secondary school education.",
+          "url": "http://www.jkeducation.gov.in/"
+        },
+        {
+          "abbrev": "Higher Edu",
+          "name": "Higher Education",
+          "note": "Colleges, universities and higher education.",
+          "url": "http://www.jkhighereducation.nic.in/"
+        },
+        {
+          "abbrev": "DSD",
+          "name": "Skill Development",
+          "note": "Technical education, skill development and vocational training.",
+          "url": null
+        },
+        {
+          "abbrev": "PDD",
+          "name": "Power Development",
+          "note": "Power generation, transmission and distribution.",
+          "url": "https://pdd.jk.gov.in/"
+        },
+        {
+          "abbrev": "RDD",
+          "name": "Rural Development & Panchayati Raj",
+          "note": "Rural development programmes and panchayati raj institutions.",
+          "url": "https://drdj.nic.in/"
+        },
+        {
+          "abbrev": "DMRRR",
+          "name": "Disaster Management, Relief, Rehabilitation & Reconstruction",
+          "note": "Disaster preparedness, relief, rehabilitation and reconstruction.",
+          "url": null
+        },
+        {
+          "abbrev": "Culture",
+          "name": "Culture",
+          "note": "Art, culture, languages, archives, archaeology and museums.",
+          "url": null
+        },
+        {
+          "abbrev": "Tourism",
+          "name": "Tourism",
+          "note": "Tourism promotion, development and hospitality infrastructure.",
+          "url": "https://www.tourismjk.in/"
+        },
+        {
+          "abbrev": "Planning",
+          "name": "Planning, Development and Monitoring",
+          "note": "Development planning, monitoring and evaluation.",
+          "url": "http://jkplanning.gov.in/"
+        },
+        {
+          "abbrev": "I&C",
+          "name": "Industries & Commerce",
+          "note": "Industrial development, commerce, handicrafts and handloom.",
+          "url": "http://jkindustriescommerce.nic.in/"
+        },
+        {
+          "abbrev": "Home",
+          "name": "Home Department",
+          "note": "Police, public order, prisons, fire services and internal security.",
+          "url": "http://jkhome.nic.in"
+        },
+        {
+          "abbrev": "GAD",
+          "name": "General Administration Department",
+          "note": "Nodal department for administration, postings and coordination of government business.",
+          "url": "https://jkgad.nic.in/"
+        },
+        {
+          "abbrev": "Housing",
+          "name": "Housing & Urban Development",
+          "note": "Urban development, housing, towns and municipal administration.",
+          "url": null
+        },
+        {
+          "abbrev": "IT",
+          "name": "Information Technology",
+          "note": "E-governance, IT infrastructure and digitisation of services.",
+          "url": null
+        },
+        {
+          "abbrev": "S&T",
+          "name": "Science & Technology",
+          "note": "Science promotion, remote sensing and technology applications.",
+          "url": null
+        },
+        {
+          "abbrev": "Law",
+          "name": "Law, Justice & Parliamentary Affairs",
+          "note": "Legislation, legal affairs, judiciary administration and parliamentary business.",
+          "url": "https://law.jk.gov.in/"
+        },
+        {
+          "abbrev": "ED",
+          "name": "Estates",
+          "note": "Government estates, accommodations and guest houses.",
+          "url": null
+        },
+        {
+          "abbrev": "Forest",
+          "name": "Forest, Ecology & Environment",
+          "note": "Forests, wildlife, ecology and environment protection.",
+          "url": "http://jkforest.gov.in/"
+        },
+        {
+          "abbrev": "Information",
+          "name": "Information",
+          "note": "Public information, publicity and media relations.",
+          "url": "https://jkdirinf.jk.gov.in/"
+        },
+        {
+          "abbrev": "Mining",
+          "name": "Mining",
+          "note": "Geology, mining leases and mineral development.",
+          "url": null
+        },
+        {
+          "abbrev": "Finance",
+          "name": "Finance",
+          "note": "UT finances, budget, accounts, treasuries and taxation policy.",
+          "url": "http://jakfinance.nic.in/"
+        },
+        {
+          "abbrev": "CA",
+          "name": "Civil Aviation",
+          "note": "Civil aviation, airport liaison and helicopter services.",
+          "url": null
+        },
+        {
+          "abbrev": "H&P",
+          "name": "Hospitality & Protocol",
+          "note": "State hospitality, protocol and government guest houses.",
+          "url": null
+        },
+        {
+          "abbrev": null,
+          "name": "Department of Public Grievances",
+          "note": "Redressal of public grievances including the LG Mulaqaat hearings.",
+          "url": null
+        }
+      ],
+      "source_url": "https://jkgad.nic.in/common/showOrder.aspx?actCode=O37140",
+      "source_title": "Government Order No.1026-JK(GAD) of 2020 dated 02.11.2020 - Allocation of Government Business (Annexure-A and Annexure-B), General Administration Department, Government of Jammu and Kashmir",
+      "as_of": "2026-09-21"
     },
     "orgs": {
       "count": 33,
@@ -22101,6 +23353,224 @@
       "source_url": "https://mcdonline.nic.in/portal/departments",
       "source_title": "Departments | Municipal Corporation of Delhi",
       "as_of": "16 June, 2025"
+    },
+    "orgs": {
+      "count": 35,
+      "items": [
+        {
+          "name": "ADVERTISEMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Regulation of outdoor advertisements and hoardings in MCD areas"
+        },
+        {
+          "name": "ARCHITECTURE DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Architectural planning and design for municipal works"
+        },
+        {
+          "name": "ASSESSMENT AND COLLECTION DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Property tax assessment and collection"
+        },
+        {
+          "name": "AYUSH DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "AYUSH healthcare services run by the corporation"
+        },
+        {
+          "name": "BUILDING DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Building plan approval and building regulation"
+        },
+        {
+          "name": "CENTRAL ESTABLISHMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Establishment and personnel matters of MCD"
+        },
+        {
+          "name": "COMMITTEE AND CORPORATION",
+          "abbrev": null,
+          "url": null,
+          "note": "Servicing of corporation meetings and municipal committees"
+        },
+        {
+          "name": "COMMUNITY SERVICES",
+          "abbrev": null,
+          "url": null,
+          "note": "Community services and welfare programmes"
+        },
+        {
+          "name": "DIRECTORATE OF INQUIRY",
+          "abbrev": null,
+          "url": null,
+          "note": "Departmental inquiries in the corporation"
+        },
+        {
+          "name": "DIRECTORATE OF PRESS AND INFORMATION",
+          "abbrev": null,
+          "url": null,
+          "note": "Press relations and public information"
+        },
+        {
+          "name": "Department of Environmental Management",
+          "abbrev": null,
+          "url": null,
+          "note": "Environmental management services of the corporation"
+        },
+        {
+          "name": "EDUCATION",
+          "abbrev": null,
+          "url": null,
+          "note": "Municipal primary education services"
+        },
+        {
+          "name": "ELECTION DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Municipal election-related work"
+        },
+        {
+          "name": "ENGINEERING DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Municipal engineering works and infrastructure"
+        },
+        {
+          "name": "Electrical And Mechanical Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Electrical and mechanical municipal works"
+        },
+        {
+          "name": "FACTORY LICENSE",
+          "abbrev": null,
+          "url": null,
+          "note": "Licensing of factories under municipal jurisdiction"
+        },
+        {
+          "name": "FINANCE DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Municipal finance, accounts and budgeting"
+        },
+        {
+          "name": "HACKNEY CARRIAGE",
+          "abbrev": null,
+          "url": null,
+          "note": "Licensing of hackney carriages in MCD areas"
+        },
+        {
+          "name": "HORTICULTURE DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Maintenance of parks, gardens and horticulture"
+        },
+        {
+          "name": "HOSPITAL ADMINISTRATION",
+          "abbrev": null,
+          "url": null,
+          "note": "Administration of municipal hospitals"
+        },
+        {
+          "name": "INFORMATION TECHNOLOGY",
+          "abbrev": null,
+          "url": null,
+          "note": "IT systems and e-governance services of MCD"
+        },
+        {
+          "name": "LABOUR WELFARE DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Welfare of municipal labour and workers"
+        },
+        {
+          "name": "LAND AND ESTATE",
+          "abbrev": null,
+          "url": null,
+          "note": "Management of municipal land and estates"
+        },
+        {
+          "name": "LANGUAGE DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Official language implementation in the corporation"
+        },
+        {
+          "name": "LAW DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Legal affairs of the corporation"
+        },
+        {
+          "name": "LICENSING DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Municipal trade and general licensing"
+        },
+        {
+          "name": "MUNICIPAL SECRETARY OFFICE",
+          "abbrev": null,
+          "url": null,
+          "note": "Secretarial support to the municipal corporation"
+        },
+        {
+          "name": "Organization and Method department",
+          "abbrev": null,
+          "url": null,
+          "note": "Organisation and methods studies for the corporation"
+        },
+        {
+          "name": "PUBLIC HEALTH DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Public health services in MCD areas"
+        },
+        {
+          "name": "REMUNERATIVE PROJECT CELL",
+          "abbrev": null,
+          "url": null,
+          "note": "Remunerative projects of the corporation"
+        },
+        {
+          "name": "STATUTORY AUDIT DEPARTMENT",
+          "abbrev": null,
+          "url": null,
+          "note": "Statutory audit of municipal accounts"
+        },
+        {
+          "name": "TOWN PLANNING",
+          "abbrev": null,
+          "url": null,
+          "note": "Town planning functions of the corporation"
+        },
+        {
+          "name": "Toll Tax",
+          "abbrev": null,
+          "url": null,
+          "note": "Levy and collection of municipal toll tax"
+        },
+        {
+          "name": "VETERINARY",
+          "abbrev": null,
+          "url": null,
+          "note": "Veterinary services and animal care"
+        },
+        {
+          "name": "VIGILANCE",
+          "abbrev": null,
+          "url": null,
+          "note": "Vigilance oversight within the corporation"
+        }
+      ],
+      "source_url": "https://mcdonline.nic.in/portal/departments",
+      "source_title": "Departments | Municipal Corporation of Delhi",
+      "as_of": "2026-09-22"
     }
   },
   "meghalaya": {
@@ -25593,6 +27063,286 @@
       "source_url": "https://odisha.gov.in/en/important-office/public-sector",
       "source_title": "Public Sector | Government Of Odisha",
       "as_of": "2026-09-21"
+    }
+  },
+  "pmc-pune": {
+    "agencies": {
+      "count": 45,
+      "items": [
+        {
+          "name": "Bhavan Rachna Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/bhavan",
+          "note": "Handles municipal building construction and maintenance works"
+        },
+        {
+          "name": "Building Development",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/building-permission",
+          "note": "Handles building permissions and development approvals"
+        },
+        {
+          "name": "Central Store Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/store",
+          "note": "Manages central procurement and stores for the corporation"
+        },
+        {
+          "name": "Chief Accounts And Finance Office",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/accountant",
+          "note": "Manages municipal accounts, budget and finance"
+        },
+        {
+          "name": "Chief Engineer (Project)",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/project",
+          "note": "Executes special engineering and infrastructure projects"
+        },
+        {
+          "name": "City Census Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/census",
+          "note": "Conducts city census and demographic surveys"
+        },
+        {
+          "name": "Cultural Centers",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/cultural-centers",
+          "note": "Manages municipal cultural centres and programmes"
+        },
+        {
+          "name": "Department Training Academy",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/training",
+          "note": "Provides training for municipal staff"
+        },
+        {
+          "name": "Deputy Commissioner Slum Eradication and Rehabilitation",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/slum",
+          "note": "Handles slum eradication and rehabilitation schemes"
+        },
+        {
+          "name": "Disaster Management Cell",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/disaster",
+          "note": "Coordinates disaster preparedness and emergency response"
+        },
+        {
+          "name": "Drainage Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/drainage",
+          "note": "Manages sewerage and drainage network"
+        },
+        {
+          "name": "Election Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/election",
+          "note": "Conducts municipal election-related administration"
+        },
+        {
+          "name": "Electrical Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/electrical",
+          "note": "Manages street lighting and electrical installations"
+        },
+        {
+          "name": "Encroachment Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/encroachment",
+          "note": "Removes encroachments on municipal land and roads"
+        },
+        {
+          "name": "Environment Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/environment",
+          "note": "Handles environmental conservation and pollution control"
+        },
+        {
+          "name": "Establishment Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/establishment",
+          "note": "Manages personnel and establishment matters"
+        },
+        {
+          "name": "Estate and Management Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/estate",
+          "note": "Manages municipal estate and properties"
+        },
+        {
+          "name": "Fire Brigade",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/fire",
+          "note": "Provides fire fighting and rescue services"
+        },
+        {
+          "name": "Garden Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/garden",
+          "note": "Develops and maintains public gardens and parks"
+        },
+        {
+          "name": "General Administration",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/gad",
+          "note": "Oversees general administrative functions of the corporation"
+        },
+        {
+          "name": "Health Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/health",
+          "note": "Provides public health and medical services"
+        },
+        {
+          "name": "Heritage Cell",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/heritage",
+          "note": "Conserves heritage structures and precincts"
+        },
+        {
+          "name": "Public Relation Office",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/pro",
+          "note": "Handles public relations and citizen communication"
+        },
+        {
+          "name": "IT Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/it",
+          "note": "Manages information technology and e-governance systems"
+        },
+        {
+          "name": "Labour Welfare Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/labour-welfare",
+          "note": "Handles welfare of municipal labour staff"
+        },
+        {
+          "name": "Land Acquisition and Management Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in.in/en/laq",
+          "note": "Handles land acquisition and land records management"
+        },
+        {
+          "name": "Local Body Tax",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/lbt",
+          "note": "Administers local body tax collection"
+        },
+        {
+          "name": "Municipal Secretary",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/secretary",
+          "note": "Manages corporation meetings and secretarial work"
+        },
+        {
+          "name": "Pradhan Mantri Awas Yojana",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/pmay",
+          "note": "Implements urban housing scheme in the city"
+        },
+        {
+          "name": "Property Tax",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/ptax",
+          "note": "Assesses and collects property tax"
+        },
+        {
+          "name": "Rajiv Gandhi Zoological Park",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/zoo",
+          "note": "Manages the municipal zoological park"
+        },
+        {
+          "name": "Road Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/road",
+          "note": "Constructs and maintains city roads and footpaths"
+        },
+        {
+          "name": "Security Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/security",
+          "note": "Provides security for municipal premises"
+        },
+        {
+          "name": "Service Recruitment Examination and Control Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/exam",
+          "note": "Conducts staff recruitment examinations"
+        },
+        {
+          "name": "Sewage Treatment Plant",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/stp",
+          "note": "Operates sewage treatment plants"
+        },
+        {
+          "name": "Skysign Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/skysign",
+          "note": "Regulates sky signs, hoardings and advertisements"
+        },
+        {
+          "name": "Social Development Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/social-development",
+          "note": "Implements social development schemes"
+        },
+        {
+          "name": "Social Welfare Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/social-welfare",
+          "note": "Implements welfare schemes for disadvantaged groups"
+        },
+        {
+          "name": "Solid Waste Management",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/swm",
+          "note": "Manages solid waste collection and disposal"
+        },
+        {
+          "name": "Sports Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/sports",
+          "note": "Develops sports facilities and programmes"
+        },
+        {
+          "name": "Tree Authority Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/tree",
+          "note": "Protects trees and issues tree-cutting permissions"
+        },
+        {
+          "name": "Vehicle Depot",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/vehicle-depot",
+          "note": "Maintains municipal vehicle fleet"
+        },
+        {
+          "name": "Water Supply and Pumping Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/water",
+          "note": "Supplies drinking water and operates pumping stations"
+        },
+        {
+          "name": "Electric Vehicle Cell",
+          "abbrev": null,
+          "url": "https://pmc.gov/en/ev-cell",
+          "note": "Promotes electric vehicle infrastructure and policy"
+        },
+        {
+          "name": "Rajiv Gandhi zoo",
+          "abbrev": null,
+          "url": "https://pmc.gov/en/zoo",
+          "note": "Manages the municipal zoological park"
+        }
+      ],
+      "source_url": "https://webadmin.pmc.gov.in/sites/default/files/circular/Website%20Circular%2024-11-2023_0.pdf",
+      "source_title": "PMC Portal Department Micro website Links",
+      "as_of": "2023-11-24"
     }
   },
   "puducherry": {
@@ -32963,6 +34713,230 @@
       "source_url": "https://www.presidentofindia.gov.in/press_releases/press-communique-18",
       "source_title": "PRESS COMMUNIQUE | President of India",
       "as_of": "2024-06-10"
+    },
+    "commissions": {
+      "count": 36,
+      "items": [
+        {
+          "name": "National Human Rights Commission",
+          "abbrev": "NHRC",
+          "url": "https://nhrc.nic.in",
+          "note": "Statutory body protecting human rights and inquiring into violations."
+        },
+        {
+          "name": "National Commission for Scheduled Castes",
+          "abbrev": "NCSC",
+          "url": "https://ncsc.nic.in",
+          "note": "Safeguards the rights and welfare of Scheduled Castes."
+        },
+        {
+          "name": "National Commission for Scheduled Tribes",
+          "abbrev": "NCST",
+          "url": "https://ncst.nic.in",
+          "note": "Safeguards the rights and welfare of Scheduled Tribes."
+        },
+        {
+          "name": "National Commission for Backward Classes",
+          "abbrev": "NCBC",
+          "url": "https://ncbc.nic.in",
+          "note": "Safeguards the rights and welfare of Backward Classes."
+        },
+        {
+          "name": "National Commission for Minorities",
+          "abbrev": "NCM",
+          "url": "https://ncm.nic.in",
+          "note": "Safeguards the rights of notified minority communities."
+        },
+        {
+          "name": "National Commission for Women",
+          "abbrev": "NCW",
+          "url": "https://www.ncw.gov.in",
+          "note": "Protects and promotes the rights of women."
+        },
+        {
+          "name": "National Commission for Protection of Child Rights",
+          "abbrev": "NCPCR",
+          "url": "https://ncpcr.gov.in",
+          "note": "Protects child rights and monitors child-protection laws."
+        },
+        {
+          "name": "Central Information Commission",
+          "abbrev": "CIC",
+          "url": "https://cic.gov.in",
+          "note": "Decides appeals and complaints under the RTI Act."
+        },
+        {
+          "name": "Central Vigilance Commission",
+          "abbrev": "CVC",
+          "url": "https://cvc.gov.in",
+          "note": "Apex vigilance institution against corruption in public administration."
+        },
+        {
+          "name": "Competition Commission of India",
+          "abbrev": "CCI",
+          "url": "https://www.cci.gov.in",
+          "note": "Enforces competition law against anti-competitive practices and mergers."
+        },
+        {
+          "name": "Central Electricity Regulatory Commission",
+          "abbrev": "CERC",
+          "url": "https://cercind.gov.in",
+          "note": "Regulates tariffs and interstate trade in electricity."
+        },
+        {
+          "name": "Joint Electricity Regulatory Commission",
+          "abbrev": "JERC",
+          "url": "https://jercuts.gov.in",
+          "note": "Electricity regulator for Union Territories and participating states."
+        },
+        {
+          "name": "National Consumer Disputes Redressal Commission",
+          "abbrev": "NCDRC",
+          "url": "https://ncdrc.nic.in",
+          "note": "Apex appellate body for consumer disputes."
+        },
+        {
+          "name": "National Medical Commission",
+          "abbrev": "NMC",
+          "url": "https://www.nmc.org.in",
+          "note": "Regulates medical education and the medical profession."
+        },
+        {
+          "name": "National Commission for Indian System of Medicine",
+          "abbrev": "NCISM",
+          "url": "https://ncismindia.org",
+          "note": "Regulates Ayurveda, Unani and Siddha education and practice."
+        },
+        {
+          "name": "National Commission for Homoeopathy",
+          "abbrev": "NCH",
+          "url": "https://nch.org.in",
+          "note": "Regulates homoeopathy education and practice."
+        },
+        {
+          "name": "National Commission for Allied and Healthcare Profession",
+          "abbrev": "NCAHP",
+          "url": "https://ncahp.abdm.gov.in",
+          "note": "Regulates allied and healthcare professions and education."
+        },
+        {
+          "name": "Commission for Air Quality Management in National Capital Region and Adjoining Areas",
+          "abbrev": "CAQM",
+          "url": "https://caqm.nic.in",
+          "note": "Regulates and coordinates air quality management in NCR and adjoining areas."
+        },
+        {
+          "name": "Lokpal of India",
+          "abbrev": null,
+          "url": "https://lokpal.gov.in",
+          "note": "Anti-corruption ombudsman for complaints against public servants."
+        },
+        {
+          "name": "Reserve Bank of India",
+          "abbrev": "RBI",
+          "url": "https://www.rbi.org.in",
+          "note": "Central bank regulating banks, currency and foreign exchange."
+        },
+        {
+          "name": "Securities and Exchange Board of India",
+          "abbrev": "SEBI",
+          "url": "https://www.sebi.gov.in",
+          "note": "Regulates securities markets and protects investors."
+        },
+        {
+          "name": "Telecom Regulatory Authority of India",
+          "abbrev": "TRAI",
+          "url": "https://www.trai.gov.in",
+          "note": "Regulates telecom and broadcasting tariffs and services."
+        },
+        {
+          "name": "Insurance Regulatory and Development Authority of India",
+          "abbrev": "IRDAI",
+          "url": "https://irdai.gov.in",
+          "note": "Regulates the insurance sector and protects policyholders."
+        },
+        {
+          "name": "Pension Fund Regulatory and Development Authority",
+          "abbrev": "PFRDA",
+          "url": "https://www.pfrda.org.in",
+          "note": "Regulates pensions including the National Pension System."
+        },
+        {
+          "name": "International Financial Services Centres Authority",
+          "abbrev": "IFSCA",
+          "url": "https://www.ifsca.gov.in",
+          "note": "Unified regulator for financial services in IFSCs."
+        },
+        {
+          "name": "Airports Economic Regulatory Authority",
+          "abbrev": "AERA",
+          "url": "https://aera.gov.in",
+          "note": "Regulates tariffs and charges at major airports."
+        },
+        {
+          "name": "Food Safety and Standards Authority of India",
+          "abbrev": "FSSAI",
+          "url": "https://fssai.gov.in",
+          "note": "Regulates food safety and standards."
+        },
+        {
+          "name": "Central Pollution Control Board",
+          "abbrev": "CPCB",
+          "url": "https://cpcb.gov.in",
+          "note": "Coordinates pollution control and lays down environmental standards."
+        },
+        {
+          "name": "Bureau of Indian Standards",
+          "abbrev": "BIS",
+          "url": "https://bis.gov.in",
+          "note": "National standards body for certification, hallmarking and quality."
+        },
+        {
+          "name": "Bureau of Energy Efficiency",
+          "abbrev": "BEE",
+          "url": "https://beeindia.gov.in",
+          "note": "Sets energy-efficiency standards and labelling."
+        },
+        {
+          "name": "All India Council of Technical Education",
+          "abbrev": "AICTE",
+          "url": "https://aicte.gov.in",
+          "note": "Regulates technical education institutions."
+        },
+        {
+          "name": "National Council for Teacher Education",
+          "abbrev": "NCTE",
+          "url": "https://ncte.gov.in",
+          "note": "Regulates teacher-education institutions and standards."
+        },
+        {
+          "name": "Pharmacy Council of India",
+          "abbrev": "PCI",
+          "url": "https://pci.gov.in/en",
+          "note": "Regulates pharmacy education and the pharmacy profession."
+        },
+        {
+          "name": "Rehabilitation Council of India",
+          "abbrev": "RCI",
+          "url": "https://rehabcouncil.nic.in",
+          "note": "Regulates rehabilitation professionals and training."
+        },
+        {
+          "name": "Institute of Chartered Accountants of India",
+          "abbrev": "ICAI",
+          "url": "https://www.icai.org",
+          "note": "Regulates the chartered accountancy profession."
+        },
+        {
+          "name": "Unique Identification Authority of India",
+          "abbrev": "UIDAI",
+          "url": "https://www.uidai.gov.in",
+          "note": "Issues Aadhaar and regulates the Aadhaar ecosystem."
+        }
+      ],
+      "source_url": "https://igod.gov.in/ug/E013/organizations",
+      "source_title": "Integrated Government Online Directory : Union Government : Commissions/ Committees",
+      "as_of": "2026-09-21"
     },
     "ministries": {
       "count": 55,
