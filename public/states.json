@@ -11,11 +11,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 395727,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2018-19",
+      "source_url": "https://s3.ap-south-1.amazonaws.com/apfinance.gov.in/uploads/11thprc/Volume-I.pdf",
+      "source_title": "REPORT OF 11th PAY REVISION COMMISSION ANDHRA PRADESH 2020 Volume-I",
       "as_of": null
     },
     "police_stations": {
@@ -56,11 +56,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 69248,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2025-26",
+      "source_url": "https://arunachalbudget.in/docs/frbm.pdf",
+      "source_title": "STATEMENTS LAID BEFORE ARUNACHAL PRADESH LEGISLATIVE ASSEMBLY ALONG WITH THE ANNUAL BUDGET 2026-27 AS REQUIRED UNDER SECTION 3 OF THE ARUNACHAL PRADESH FISCAL RESPONSIBILITY AND BUDGET MANAGEMENT ACT, 2006",
       "as_of": null
     },
     "police_stations": {
@@ -101,11 +101,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 272618,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024",
+      "source_url": "https://des.assam.gov.in/sites/default/files/swf_utility_folder/departments/ecostat_medhassu_in_oid_3/this_comm/statistical_handbook_assam_2025.pdf",
+      "source_title": "Statistical Handbook, Assam - 2025",
       "as_of": null
     },
     "police_stations": {
@@ -604,11 +604,11 @@
       "as_of": null
     },
     "police_stations": {
-      "value": null,
+      "value": 1193,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2023-24",
+      "source_url": "https://bprd.nic.in/uploads/pdf/Data%20on%20Police%20Organizations%20(2024)_%20(14-07-25)%20All.pdf",
+      "source_title": "Data on Police Organizations (As on January 01, 2024)",
       "as_of": null
     },
     "schools": {
@@ -784,11 +784,11 @@
       "as_of": null
     },
     "police_stations": {
-      "value": null,
+      "value": 87,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2022-23",
+      "source_url": "https://bprd.nic.in/uploads/pdf/1716639795_d6fce11ed56a985b635c.pdf",
+      "source_title": "Data on Police Organizations (As on January 01, 2023)",
       "as_of": null
     },
     "schools": {
@@ -829,11 +829,11 @@
       "as_of": null
     },
     "police_stations": {
-      "value": null,
+      "value": 684,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2023-24",
+      "source_url": "https://bprd.nic.in/uploads/pdf/Data%20on%20Police%20Organizations%20(2024)_%20(14-07-25)%20All.pdf",
+      "source_title": "Data on Police Organizations (As on January 01, 2024)",
       "as_of": null
     },
     "schools": {
@@ -874,11 +874,11 @@
       "as_of": null
     },
     "police_stations": {
-      "value": null,
+      "value": 432,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2022-23",
+      "source_url": "https://bprd.nic.in/uploads/pdf/1716639795_d6fce11ed56a985b635c.pdf",
+      "source_title": "Data on Police Organizations (As on January 01, 2023)",
       "as_of": null
     },
     "schools": {
@@ -919,11 +919,11 @@
       "as_of": null
     },
     "police_stations": {
-      "value": null,
+      "value": 1023,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2023-24",
+      "source_url": "https://bprd.nic.in/uploads/pdf/Data%20on%20Police%20Organizations%20(2024)_%20(14-07-25)%20All.pdf",
+      "source_title": "DATA ON POLICE ORGANIZATIONS (As on January 01, 2024)",
       "as_of": null
     },
     "schools": {
@@ -964,11 +964,11 @@
       "as_of": null
     },
     "police_stations": {
-      "value": null,
+      "value": 30,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2022-23",
+      "source_url": "https://bprd.nic.in/uploads/pdf/1716639795_d6fce11ed56a985b635c.pdf",
+      "source_title": "Data on Police Organizations (As on January 01, 2023)",
       "as_of": null
     },
     "schools": {
@@ -1054,11 +1054,11 @@
       "as_of": null
     },
     "police_stations": {
-      "value": null,
+      "value": 844,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2022-23",
+      "source_url": "https://bprd.nic.in/uploads/pdf/1716639795_d6fce11ed56a985b635c.pdf",
+      "source_title": "DATA ON POLICE ORGANIZATIONS (AS ON JANUARY 01, 2023)",
       "as_of": null
     },
     "schools": {
@@ -1099,11 +1099,11 @@
       "as_of": null
     },
     "police_stations": {
-      "value": null,
+      "value": 84,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2022-23",
+      "source_url": "https://bprd.nic.in/uploads/pdf/1716639795_d6fce11ed56a985b635c.pdf",
+      "source_title": "Data on Police Organizations (As on January 01, 2023)",
       "as_of": null
     },
     "schools": {
@@ -1144,11 +1144,11 @@
       "as_of": null
     },
     "police_stations": {
-      "value": null,
+      "value": 1851,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2022-23",
+      "source_url": "https://bprd.nic.in/uploads/pdf/1716639795_d6fce11ed56a985b635c.pdf",
+      "source_title": "Data on Police Organizations (As on January 01, 2023)",
       "as_of": null
     },
     "schools": {
@@ -1189,11 +1189,11 @@
       "as_of": null
     },
     "police_stations": {
-      "value": null,
+      "value": 162,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2022-23",
+      "source_url": "https://bprd.nic.in/uploads/pdf/1716639795_d6fce11ed56a985b635c.pdf",
+      "source_title": "Data on Police Organizations (As on January 01, 2023)",
       "as_of": null
     },
     "schools": {
@@ -1234,11 +1234,11 @@
       "as_of": null
     },
     "police_stations": {
-      "value": null,
+      "value": 668,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2023-24",
+      "source_url": "https://bprd.nic.in/uploads/pdf/Data%20on%20Police%20Organizations%20(2024)_%20(14-07-25)%20All.pdf",
+      "source_title": "Data on Police Organizations (As on January 01, 2024)",
       "as_of": null
     },
     "schools": {
@@ -1459,11 +1459,11 @@
       "as_of": null
     },
     "police_stations": {
-      "value": null,
+      "value": 254,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2023-24",
+      "source_url": "https://bprd.nic.in/uploads/pdf/Data%20on%20Police%20Organizations%20%282024%29_%20%2814-07-25%29%20All.pdf",
+      "source_title": "Data on Police Organizations (As on January 01, 2024)",
       "as_of": null
     },
     "schools": {
@@ -1504,11 +1504,11 @@
       "as_of": null
     },
     "police_stations": {
-      "value": null,
+      "value": 11,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2023-24",
+      "source_url": "https://bprd.nic.in/uploads/pdf/Data%20on%20Police%20Organizations%20(2024)_%20(14-07-25)%20All.pdf",
+      "source_title": "DATA ON POLICE ORGANIZATIONS (As on January 01, 2024)",
       "as_of": null
     },
     "schools": {
@@ -1594,11 +1594,11 @@
       "as_of": null
     },
     "police_stations": {
-      "value": null,
+      "value": 55,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2023-24",
+      "source_url": "https://bprd.nic.in/uploads/pdf/Data%20on%20Police%20Organizations%20(2024)_%20(14-07-25)%20All.pdf",
+      "source_title": "DATA ON POLICE ORGANIZATIONS (As on January 01, 2024)",
       "as_of": null
     },
     "schools": {
