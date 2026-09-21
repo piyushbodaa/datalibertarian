@@ -972,11 +972,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 1245,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://api.udiseplus.gov.in/open-services/v1.1/schools-summarised-stats/public",
+      "source_title": "UDISE+ Dashboard open-services v1.1 – schools-summarised-stats (Ministry of Education)",
       "as_of": null
     },
     "hospitals": {
@@ -1197,11 +1197,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 22452,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://dashboard.udiseplus.gov.in/report2026/static/media/UDISE+2024_25_Booklet_nep.ea09e672a163f92d9cfe.pdf",
+      "source_title": "UNIFIED DISTRICT INFORMATION SYSTEM FOR EDUCATION PLUS (UDISE+) 2024-25",
       "as_of": null
     },
     "hospitals": {
