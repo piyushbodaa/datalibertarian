@@ -1,0 +1,1622 @@
+{
+  "Andhra Pradesh": {
+    "name": "Andhra Pradesh",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Arunachal Pradesh": {
+    "name": "Arunachal Pradesh",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Assam": {
+    "name": "Assam",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Bihar": {
+    "name": "Bihar",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Chhattisgarh": {
+    "name": "Chhattisgarh",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Goa": {
+    "name": "Goa",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Gujarat": {
+    "name": "Gujarat",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Haryana": {
+    "name": "Haryana",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Himachal Pradesh": {
+    "name": "Himachal Pradesh",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Jharkhand": {
+    "name": "Jharkhand",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Karnataka": {
+    "name": "Karnataka",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Kerala": {
+    "name": "Kerala",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Madhya Pradesh": {
+    "name": "Madhya Pradesh",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Maharashtra": {
+    "name": "Maharashtra",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Manipur": {
+    "name": "Manipur",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Meghalaya": {
+    "name": "Meghalaya",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Mizoram": {
+    "name": "Mizoram",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Nagaland": {
+    "name": "Nagaland",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Odisha": {
+    "name": "Odisha",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Punjab": {
+    "name": "Punjab",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Rajasthan": {
+    "name": "Rajasthan",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Sikkim": {
+    "name": "Sikkim",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Tamil Nadu": {
+    "name": "Tamil Nadu",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Telangana": {
+    "name": "Telangana",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Tripura": {
+    "name": "Tripura",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Uttar Pradesh": {
+    "name": "Uttar Pradesh",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Uttarakhand": {
+    "name": "Uttarakhand",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "West Bengal": {
+    "name": "West Bengal",
+    "type": "state",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Andaman and Nicobar Islands": {
+    "name": "Andaman and Nicobar Islands",
+    "type": "ut",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Chandigarh": {
+    "name": "Chandigarh",
+    "type": "ut",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Dadra and Nagar Haveli and Daman and Diu": {
+    "name": "Dadra and Nagar Haveli and Daman and Diu",
+    "type": "ut",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Delhi": {
+    "name": "Delhi",
+    "type": "ut",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Jammu and Kashmir": {
+    "name": "Jammu and Kashmir",
+    "type": "ut",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Ladakh": {
+    "name": "Ladakh",
+    "type": "ut",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Lakshadweep": {
+    "name": "Lakshadweep",
+    "type": "ut",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  },
+  "Puducherry": {
+    "name": "Puducherry",
+    "type": "ut",
+    "spending": {
+      "value": null,
+      "unit": "INR_crore",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "employees": {
+      "value": null,
+      "unit": "persons",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "police_stations": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "schools": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "hospitals": {
+      "value": null,
+      "unit": "count",
+      "fy": null,
+      "source_url": null,
+      "source_title": null,
+      "as_of": null
+    },
+    "notes": null
+  }
+}
