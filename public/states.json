@@ -191,11 +191,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 417500,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://finance.cg.gov.in/budget_doc/2026-2027/FRBM%20Disclosures/D-12.PDF",
+      "source_title": "Details of Employees (Form D-12), FRBM Disclosures, Chhattisgarh Budget 2026-27",
       "as_of": null
     },
     "police_stations": {
@@ -236,11 +236,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 63970,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2023-24",
+      "source_url": "https://www.dpse.goa.gov.in/CGE-2024.pdf",
+      "source_title": "Census of Government Employees - 2024 (As on 31st March, 2024)",
       "as_of": null
     },
     "police_stations": {
@@ -281,11 +281,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 221767,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://financedepartment.gujarat.gov.in/Documents/Bud-Eng_1558_2026-2-18_677.pdf",
+      "source_title": "36 - Fiscal Responsibility Act-2005 (Gujarat Budget 2026-27)",
       "as_of": null
     },
     "police_stations": {
@@ -506,11 +506,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 523266,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "http://www.niyamasabha.org/codes/15kla/Session_16/Budget%20Documents/4.%20Staff%20Appendix_2026-27.pdf",
+      "source_title": "Appendix I to the Detailed Budget Estimates 2026-27 (Details of Staff), Government of Kerala Finance Department",
       "as_of": null
     },
     "police_stations": {
@@ -596,11 +596,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 487373,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2025-26",
+      "source_url": "https://mls.org.in/PDF2026/budjet/ESM_25_26_Eng%20Book.pdf",
+      "source_title": "Economic Survey of Maharashtra 2025-26",
       "as_of": null
     },
     "police_stations": {
@@ -686,11 +686,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 60836,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2021-22",
+      "source_url": "https://des.megplanning.gov.in/documents/Census-of-Meghalaya-State-Govt.-Employees-2022.pdf",
+      "source_title": "Census of Meghalaya State Government Employees as on 31st March 2022",
       "as_of": null
     },
     "police_stations": {
@@ -731,11 +731,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 30764,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://finance.mizoram.gov.in/uploads/attachments/2026/02/73787abedcf95f49a2985ef9fd501c77/statement-on-salary-employment-data-2026-2007.pdf",
+      "source_title": "Statement on Salary & Employment Data 2026-2027 in Government, P.S.Us and Aided Institutions, Government of Mizoram",
       "as_of": null
     },
     "police_stations": {
@@ -776,11 +776,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 123591,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://statistics.nagaland.gov.in/storage/statistical_data/2025/4811765870507.pdf",
+      "source_title": "Nagaland Statistical Handbook 2025",
       "as_of": null
     },
     "police_stations": {
@@ -1001,11 +1001,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 449569,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2023-24",
+      "source_url": "https://des.tn.gov.in/sites/default/files/2025-03/Tamilnadu%20at%20a%20glance%202023-2024%20for%20des%20website%20%281%29_0.pdf",
+      "source_title": "Tamil Nadu At a Glance 2023-24",
       "as_of": null
     },
     "police_stations": {
@@ -1091,11 +1091,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 102372,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://finance.tripura.gov.in/sites/default/files/Budget%20at%20a%20glance%202025-26.pdf",
+      "source_title": "GOVERNMENT OF TRIPURA BUDGET AT A GLANCE 2025-26 - FINANCE DEPARTMENT",
       "as_of": null
     },
     "police_stations": {
@@ -1520,11 +1520,11 @@
       "as_of": null
     },
     "hospitals": {
-      "value": null,
+      "value": 330,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2021-22",
+      "source_url": "https://sansad.in/getFile/annex/259/AS54.pdf?source=pqars",
+      "source_title": "Rajya Sabha Starred Question No. 54 – Hospitals in Rural and Underdeveloped Areas (Ministry of Health and Family Welfare)",
       "as_of": null
     },
     "notes": null
