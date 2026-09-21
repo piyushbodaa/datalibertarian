@@ -1,0 +1,1008 @@
+{
+  "andhra-pradesh": {
+    "agencies": {
+      "count": 45,
+      "items": [
+        {
+          "name": "Agriculture and Cooperation",
+          "abbrev": "AGLC",
+          "url": null,
+          "note": "Agriculture, marketing and cooperation policy and administration"
+        },
+        {
+          "name": "Rain Shadow Areas Development",
+          "abbrev": "RSAD",
+          "url": null,
+          "note": "Development programmes for rain shadow areas"
+        },
+        {
+          "name": "Animal Husbandry and Fisheries",
+          "abbrev": "AHF",
+          "url": null,
+          "note": "Animal husbandry, dairy development and fisheries administration"
+        },
+        {
+          "name": "Backward Classes Welfare",
+          "abbrev": "BCW",
+          "url": null,
+          "note": "Welfare schemes for backward classes"
+        },
+        {
+          "name": "Environment Forest Science and Technology",
+          "abbrev": "EFST",
+          "url": null,
+          "note": "Environment, forests, science and technology administration"
+        },
+        {
+          "name": "Higher Education",
+          "abbrev": "HE",
+          "url": null,
+          "note": "Colleges, universities and higher education administration"
+        },
+        {
+          "name": "Energy, Infrastructure and Investment",
+          "abbrev": "ENYINFRA",
+          "url": null,
+          "note": "Energy, infrastructure and investment policy and projects"
+        },
+        {
+          "name": "Energy",
+          "abbrev": "ENY",
+          "url": null,
+          "note": "Power generation, transmission, distribution and energy policy"
+        },
+        {
+          "name": "School Education",
+          "abbrev": "SE",
+          "url": null,
+          "note": "School education and literacy administration"
+        },
+        {
+          "name": "Economically Weaker Sections Welfare",
+          "abbrev": "EWS",
+          "url": null,
+          "note": "Welfare schemes for economically weaker sections"
+        },
+        {
+          "name": "Consumer Affairs, Food and Civil Supplies",
+          "abbrev": "FCS",
+          "url": null,
+          "note": "Public distribution, food security and consumer affairs"
+        },
+        {
+          "name": "Finance",
+          "abbrev": "FIN",
+          "url": null,
+          "note": "State budget, taxation, treasury and fiscal management"
+        },
+        {
+          "name": "Finance PMU",
+          "abbrev": "FINPMU",
+          "url": null,
+          "note": "Project monitoring unit under Finance Department"
+        },
+        {
+          "name": "Finance Works and Projects",
+          "abbrev": "FINWP",
+          "url": null,
+          "note": "Financial appraisal of works and projects"
+        },
+        {
+          "name": "General Administration",
+          "abbrev": "GAD",
+          "url": null,
+          "note": "Cabinet, personnel, protocol and general state administration"
+        },
+        {
+          "name": "Grama Volunteers Ward Volunteers and Grama Sachivalayams Ward Sachivalayams",
+          "abbrev": "GWS",
+          "url": null,
+          "note": "Village and ward secretariats and volunteer system"
+        },
+        {
+          "name": "Health Medical and Family Welfare",
+          "abbrev": "HMF",
+          "url": null,
+          "note": "Hospitals, public health and family welfare services"
+        },
+        {
+          "name": "Home",
+          "abbrev": "HO",
+          "url": null,
+          "note": "Police, law and order, prisons and internal security"
+        },
+        {
+          "name": "Housing",
+          "abbrev": "HOU",
+          "url": null,
+          "note": "Public housing and housing schemes administration"
+        },
+        {
+          "name": "Water Resources",
+          "abbrev": "ICAD",
+          "url": null,
+          "note": "Irrigation, command area development and water resources"
+        },
+        {
+          "name": "Irrigation and CAD PW Wing",
+          "abbrev": "ICADPW",
+          "url": null,
+          "note": "Public works wing for irrigation and command area works"
+        },
+        {
+          "name": "Industries and Commerce",
+          "abbrev": "INDS",
+          "url": null,
+          "note": "Industrial promotion, trade and commerce administration"
+        },
+        {
+          "name": "Infrastructure and Investment",
+          "abbrev": "INFRA",
+          "url": null,
+          "note": "Infrastructure development and investment promotion"
+        },
+        {
+          "name": "Information Technology, Electronics and Communications",
+          "abbrev": "ITC",
+          "url": null,
+          "note": "IT, electronics and communications policy and e-governance"
+        },
+        {
+          "name": "Labour Employment Training and Factories",
+          "abbrev": "LETF",
+          "url": null,
+          "note": "Labour welfare, employment and factories regulation"
+        },
+        {
+          "name": "Labour Factories Boilers Insurance Medical Service",
+          "abbrev": "LFBI",
+          "url": null,
+          "note": "Factories, boilers and employees insurance medical services"
+        },
+        {
+          "name": "Law",
+          "abbrev": "LAW",
+          "url": null,
+          "note": "Legal affairs, legislation drafting and justice administration"
+        },
+        {
+          "name": "Legislature",
+          "abbrev": "LA",
+          "url": null,
+          "note": "State legislature secretariat and legislative business"
+        },
+        {
+          "name": "Municipal Administration and Urban Development",
+          "abbrev": "MAUD",
+          "url": null,
+          "note": "Urban local bodies, planning and urban development"
+        },
+        {
+          "name": "Minorities Welfare",
+          "abbrev": "MW",
+          "url": null,
+          "note": "Welfare schemes for minority communities"
+        },
+        {
+          "name": "Public Enterprise",
+          "abbrev": "PE",
+          "url": null,
+          "note": "Administration of state public enterprises"
+        },
+        {
+          "name": "Planning",
+          "abbrev": "PLG",
+          "url": null,
+          "note": "State planning, statistics and development monitoring"
+        },
+        {
+          "name": "Panchayat Raj and Rural Development",
+          "abbrev": "PR",
+          "url": null,
+          "note": "Panchayats and rural development programmes"
+        },
+        {
+          "name": "Revenue",
+          "abbrev": "REV",
+          "url": null,
+          "note": "Land revenue, registration, stamps and land records"
+        },
+        {
+          "name": "Disaster Management",
+          "abbrev": "DM",
+          "url": null,
+          "note": "Disaster preparedness, relief and rehabilitation"
+        },
+        {
+          "name": "Real Time Governance",
+          "abbrev": "RTG",
+          "url": null,
+          "note": "Real-time monitoring of governance and service delivery"
+        },
+        {
+          "name": "Skill Development Entrepreneurship and Innovation",
+          "abbrev": "SKILL",
+          "url": null,
+          "note": "Skill development, entrepreneurship and innovation programmes"
+        },
+        {
+          "name": "Skills Development Training Department",
+          "abbrev": "SKILLS",
+          "url": null,
+          "note": "Vocational and skills training administration"
+        },
+        {
+          "name": "Swarna Gramam and Swarna Wardu",
+          "abbrev": "SGSW",
+          "url": null,
+          "note": "Model village and ward development programme"
+        },
+        {
+          "name": "Social Welfare",
+          "abbrev": "SW",
+          "url": null,
+          "note": "Welfare schemes for scheduled castes and vulnerable groups"
+        },
+        {
+          "name": "Dept of Science Technology and Innovation",
+          "abbrev": "STI",
+          "url": null,
+          "note": "Science, technology and innovation promotion"
+        },
+        {
+          "name": "Tribal Welfare",
+          "abbrev": "TW",
+          "url": null,
+          "note": "Welfare schemes for scheduled tribes"
+        },
+        {
+          "name": "Transport Roads and Building",
+          "abbrev": "TRB",
+          "url": null,
+          "note": "Transport, roads, buildings and road safety"
+        },
+        {
+          "name": "Women Development, Child and Disabled Welfare",
+          "abbrev": "WCDW",
+          "url": null,
+          "note": "Women, child development and disabled welfare services"
+        },
+        {
+          "name": "Youth Advancement Tourism and Culture",
+          "abbrev": "YATC",
+          "url": null,
+          "note": "Youth services, tourism promotion and cultural affairs"
+        }
+      ],
+      "source_url": "https://goir.ap.gov.in/",
+      "source_title": "ANDHRA PRADESH GOVERNMENT ORDERS ISSUE REGISTER",
+      "as_of": "2026-09-21"
+    },
+    "commissions": {
+      "count": 8,
+      "items": [
+        {
+          "name": "A.P Public Service Commission",
+          "abbrev": "APPSC",
+          "url": "https://psc.ap.gov.in/",
+          "note": "Recruits to state services through examinations and advises on service matters."
+        },
+        {
+          "name": "State Election Commission",
+          "abbrev": "APSEC",
+          "url": "https://ceoandhra.nic.in/ceoap_new/ceo/index.html",
+          "note": "Conducts elections to panchayats and urban local bodies in the state."
+        },
+        {
+          "name": "A.P Vigilance Commission",
+          "abbrev": "APVC",
+          "url": "http://apvc.ap.nic.in/",
+          "note": "Advises the government on vigilance and anti-corruption matters."
+        },
+        {
+          "name": "A.P Information Commission",
+          "abbrev": "APIC",
+          "url": "http://www.sic.ap.gov.in/",
+          "note": "Hears appeals and complaints under the Right to Information Act."
+        },
+        {
+          "name": "A.P Official Language Commission",
+          "abbrev": null,
+          "url": null,
+          "note": "Advises on promotion and use of the official language of the state."
+        },
+        {
+          "name": "A.P State Human rights Commission",
+          "abbrev": "APSHRC",
+          "url": null,
+          "note": "Inquires into violations of human rights within the state."
+        },
+        {
+          "name": "A.P Women's Commission",
+          "abbrev": "APWC",
+          "url": null,
+          "note": "Safeguards women's rights and reviews laws affecting women."
+        },
+        {
+          "name": "A.P State Commission For SCs & STs",
+          "abbrev": null,
+          "url": null,
+          "note": "Safeguards the rights and welfare of Scheduled Castes and Scheduled Tribes."
+        }
+      ],
+      "source_url": "https://www.ap.gov.in/department/institutions",
+      "source_title": "Institutions - AP State Portal",
+      "as_of": "2026-09-21"
+    },
+    "ministries": {
+      "count": 45,
+      "items": [
+        {
+          "name": "Agriculture and Cooperation",
+          "abbrev": "AGLC",
+          "url": null,
+          "note": "Crop agriculture, agricultural cooperation and marketing support."
+        },
+        {
+          "name": "Rain Shadow Areas Development",
+          "abbrev": "RSAD",
+          "url": null,
+          "note": "Development programmes for drought-prone rain-shadow areas."
+        },
+        {
+          "name": "Animal Husbandry and Fisheries",
+          "abbrev": "AHF",
+          "url": null,
+          "note": "Livestock, dairy development, veterinary services and fisheries."
+        },
+        {
+          "name": "Backward Classes Welfare",
+          "abbrev": "BCW",
+          "url": null,
+          "note": "Welfare schemes and educational support for backward classes."
+        },
+        {
+          "name": "Environment, Forest, Science and Technology",
+          "abbrev": "EFST",
+          "url": null,
+          "note": "Environment protection, forests, science and technology programmes."
+        },
+        {
+          "name": "Higher Education",
+          "abbrev": "HE",
+          "url": null,
+          "note": "Universities and collegiate education administration."
+        },
+        {
+          "name": "Energy, Infrastructure and Investment",
+          "abbrev": "ENYINFRA",
+          "url": null,
+          "note": "Energy, infrastructure and investment subjects as listed in the directory."
+        },
+        {
+          "name": "Energy",
+          "abbrev": "ENY",
+          "url": null,
+          "note": "Power policy, electricity supply and energy conservation."
+        },
+        {
+          "name": "School Education",
+          "abbrev": "SE",
+          "url": null,
+          "note": "Primary and secondary schooling, teachers and school infrastructure."
+        },
+        {
+          "name": "Economically Weaker Sections Welfare",
+          "abbrev": "EWS",
+          "url": null,
+          "note": "Welfare schemes for economically weaker sections."
+        },
+        {
+          "name": "Consumer Affairs, Food and Civil Supplies",
+          "abbrev": "FCS",
+          "url": null,
+          "note": "Public distribution, food security and consumer protection."
+        },
+        {
+          "name": "Finance",
+          "abbrev": "FIN",
+          "url": "https://apfinance.gov.in",
+          "note": "State budget, expenditure, treasuries and fiscal management."
+        },
+        {
+          "name": "Finance PMU",
+          "abbrev": "FINPMU",
+          "url": null,
+          "note": "Finance Department project monitoring unit as listed in the directory."
+        },
+        {
+          "name": "Finance Works and Projects",
+          "abbrev": "FINWP",
+          "url": null,
+          "note": "Finance Department works and projects clearances as listed in the directory."
+        },
+        {
+          "name": "General Administration",
+          "abbrev": "GAD",
+          "url": null,
+          "note": "Cabinet affairs, personnel, protocol and overall administration."
+        },
+        {
+          "name": "Grama Volunteers, Ward Volunteers and Grama Sachivalayams, Ward Sachivalayams",
+          "abbrev": "GWS",
+          "url": null,
+          "note": "Village and ward volunteer and secretariat system administration."
+        },
+        {
+          "name": "Health, Medical and Family Welfare",
+          "abbrev": "HMF",
+          "url": null,
+          "note": "Public health services, hospitals and family welfare programmes."
+        },
+        {
+          "name": "Home",
+          "abbrev": "HO",
+          "url": null,
+          "note": "Police, public order, prisons and internal security."
+        },
+        {
+          "name": "Housing",
+          "abbrev": "HOU",
+          "url": null,
+          "note": "Housing schemes including weaker-section housing programmes."
+        },
+        {
+          "name": "Water Resources",
+          "abbrev": "ICAD",
+          "url": null,
+          "note": "Irrigation projects, command area development and water management."
+        },
+        {
+          "name": "Irrigation and CAD PW Wing",
+          "abbrev": "ICADPW",
+          "url": null,
+          "note": "Public-works wing of Irrigation and Command Area Development."
+        },
+        {
+          "name": "Industries and Commerce",
+          "abbrev": "INDS",
+          "url": null,
+          "note": "Industrial promotion, commerce and investment facilitation."
+        },
+        {
+          "name": "Infrastructure and Investment",
+          "abbrev": "INFRA",
+          "url": null,
+          "note": "Infrastructure projects and investment promotion."
+        },
+        {
+          "name": "Information Technology, Electronics and Communications",
+          "abbrev": "ITC",
+          "url": null,
+          "note": "IT policy, electronics, e-governance and communications."
+        },
+        {
+          "name": "Labour, Employment, Training and Factories",
+          "abbrev": "LETF",
+          "url": null,
+          "note": "Labour welfare, employment, training and factory regulation."
+        },
+        {
+          "name": "Labour, Factories, Boilers and Insurance Medical Services",
+          "abbrev": "LFBI",
+          "url": null,
+          "note": "Factory inspection, boilers safety and insurance medical services."
+        },
+        {
+          "name": "Law",
+          "abbrev": "LAW",
+          "url": null,
+          "note": "Legal affairs, legislation drafting and litigation management."
+        },
+        {
+          "name": "Legislature",
+          "abbrev": "LA",
+          "url": null,
+          "note": "State legislature secretariat and legislative business support."
+        },
+        {
+          "name": "Municipal Administration and Urban Development",
+          "abbrev": "MAUD",
+          "url": null,
+          "note": "Urban local bodies, municipal services and urban planning."
+        },
+        {
+          "name": "Minorities Welfare",
+          "abbrev": "MW",
+          "url": null,
+          "note": "Welfare schemes for minority communities."
+        },
+        {
+          "name": "Public Enterprise",
+          "abbrev": "PE",
+          "url": null,
+          "note": "Oversight of state public sector enterprises."
+        },
+        {
+          "name": "Planning",
+          "abbrev": "PLG",
+          "url": null,
+          "note": "State planning, economic surveys and development monitoring."
+        },
+        {
+          "name": "Panchayat Raj and Rural Development",
+          "abbrev": "PR",
+          "url": null,
+          "note": "Rural local bodies, rural development and rural water supply."
+        },
+        {
+          "name": "Revenue",
+          "abbrev": "REV",
+          "url": null,
+          "note": "Land revenue, registration, stamps and district administration."
+        },
+        {
+          "name": "Disaster Management",
+          "abbrev": "DM",
+          "url": null,
+          "note": "Disaster preparedness, relief and rehabilitation."
+        },
+        {
+          "name": "Real Time Governance",
+          "abbrev": "RTG",
+          "url": null,
+          "note": "Real-time monitoring of governance delivery and grievance redress."
+        },
+        {
+          "name": "Skill Development, Entrepreneurship and Innovation",
+          "abbrev": "SKILL",
+          "url": null,
+          "note": "Skill development, entrepreneurship and innovation programmes."
+        },
+        {
+          "name": "Skills Development Training Department",
+          "abbrev": "SKILLS",
+          "url": null,
+          "note": "Skills training administration as listed in the directory."
+        },
+        {
+          "name": "Swarna Gramam and Swarna Wardu",
+          "abbrev": "SGSW",
+          "url": null,
+          "note": "Model village and ward development programme administration."
+        },
+        {
+          "name": "Social Welfare",
+          "abbrev": "SW",
+          "url": null,
+          "note": "Welfare of scheduled castes and social empowerment schemes."
+        },
+        {
+          "name": "Department of Science, Technology and Innovation",
+          "abbrev": "STI",
+          "url": null,
+          "note": "Science, technology and innovation policy and programmes."
+        },
+        {
+          "name": "Tribal Welfare",
+          "abbrev": "TW",
+          "url": null,
+          "note": "Welfare and development of scheduled tribes."
+        },
+        {
+          "name": "Transport, Roads and Buildings",
+          "abbrev": "TRB",
+          "url": null,
+          "note": "Transport regulation, roads, buildings and public works."
+        },
+        {
+          "name": "Women Development, Child and Disabled Welfare",
+          "abbrev": "WCDW",
+          "url": null,
+          "note": "Women, child development and welfare of the disabled."
+        },
+        {
+          "name": "Youth Advancement, Tourism and Culture",
+          "abbrev": "YATC",
+          "url": null,
+          "note": "Youth services, tourism promotion, culture and sports."
+        }
+      ],
+      "source_url": "https://goir.ap.gov.in/",
+      "source_title": "ANDHRA PRADESH GOVERNMENT ORDERS ISSUE REGISTER",
+      "as_of": "2026-09-21"
+    },
+    "psus": {
+      "count": 64,
+      "items": [
+        {
+          "name": "Andhra Pradesh Centre for Advanced Research on Livestock Private Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Livestock research under agriculture and allied sector"
+        },
+        {
+          "name": "Andhra Pradesh Meat Development Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Meat sector development"
+        },
+        {
+          "name": "Andhra Pradesh Centre for Financial Systems and Services Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Financial systems and services"
+        },
+        {
+          "name": "Andhra Pradesh State Kapu Welfare and Development Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Welfare schemes for Kapu community"
+        },
+        {
+          "name": "Andhra Pradesh Brahmin Welfare Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Welfare schemes for Brahmin community"
+        },
+        {
+          "name": "Amaravati Development Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Development of Amaravati capital city"
+        },
+        {
+          "name": "Amaravati Metro Rail Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Metro rail in Amaravati region"
+        },
+        {
+          "name": "Andhra Pradesh Gas Distribution Company Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Gas distribution infrastructure"
+        },
+        {
+          "name": "Andhra Pradesh Gas Infrastructure Corporation (P) Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Gas infrastructure development"
+        },
+        {
+          "name": "Andhra Pradesh State Fibernet Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Optical fibre broadband network"
+        },
+        {
+          "name": "Andhra Pradesh Township and Infrastructure Development Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Township and infrastructure development"
+        },
+        {
+          "name": "AP Towers Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Telecom tower infrastructure"
+        },
+        {
+          "name": "Bhogapuram International Airport Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Development of Bhogapuram airport"
+        },
+        {
+          "name": "Godavari Gas Private Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "City gas distribution"
+        },
+        {
+          "name": "Greater Visakhapatnam Smart City Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Smart city projects in Visakhapatnam"
+        },
+        {
+          "name": "Kakinada Smart City Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Smart city projects in Kakinada"
+        },
+        {
+          "name": "Andhra Pradesh Heavy Machinery and Engineering Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Heavy machinery manufacturing"
+        },
+        {
+          "name": "Andhra Pradesh Medtech Zone Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Medical technology manufacturing park"
+        },
+        {
+          "name": "Ongole Iron Ore Mining Company Private Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Iron ore mining"
+        },
+        {
+          "name": "Andhra Pradesh Power Development Company Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Power project development"
+        },
+        {
+          "name": "Eastern Power Distribution Company of Andhra Pradesh Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Power distribution in eastern AP"
+        },
+        {
+          "name": "Southern Power Distribution Company of Andhra Pradesh Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Power distribution in southern AP"
+        },
+        {
+          "name": "Andhra Pradesh State Beverages Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Liquor wholesale and retail management"
+        },
+        {
+          "name": "Vijayawada Urban Transport Company Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Urban transport in Vijayawada"
+        },
+        {
+          "name": "Visakhapatnam Urban Transport Company Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Urban transport in Visakhapatnam"
+        },
+        {
+          "name": "Vizag Apparel Park for Export Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Apparel export park management"
+        },
+        {
+          "name": "Andhra Pradesh Mahila Sadhikara Samstha Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Women empowerment programmes"
+        },
+        {
+          "name": "Andhra Pradesh State Skill Development Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Skill development and training"
+        },
+        {
+          "name": "Andhra Pradesh Urban Greening and Beautification Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Urban greening and beautification"
+        },
+        {
+          "name": "Krishnapatnam International Leather Complex Private Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Leather industrial complex"
+        },
+        {
+          "name": "Rythu Sadhikara Samstha Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Farmer empowerment programmes"
+        },
+        {
+          "name": "Swacha Andhra Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Sanitation and cleanliness programmes"
+        },
+        {
+          "name": "Andhra Pradesh Rajiv Swagruha Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Affordable housing construction"
+        },
+        {
+          "name": "Infrastructure Corporation of Andhra Pradesh Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Infrastructure project development"
+        },
+        {
+          "name": "Andhra Pradesh Tribal Power Company Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Power supply in tribal areas"
+        },
+        {
+          "name": "Andhra Pradesh State Film, Television and Theatre Development Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Film, television and theatre promotion"
+        },
+        {
+          "name": "Andhra Pradesh Forest Development Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Forest plantation and produce"
+        },
+        {
+          "name": "Andhra Pradesh State Agro Industries Development Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Agro industries and farm inputs"
+        },
+        {
+          "name": "Andhra Pradesh State Irrigation Development Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Minor irrigation works"
+        },
+        {
+          "name": "Andhra Pradesh State Seeds Development Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Seed production and supply"
+        },
+        {
+          "name": "Andhra Pradesh State Minorities Finance Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Finance for minorities welfare"
+        },
+        {
+          "name": "Andhra Pradesh State Christian Minorities Finance Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Finance for Christian minorities"
+        },
+        {
+          "name": "Andhra Pradesh Power Finance Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Financing power sector entities"
+        },
+        {
+          "name": "Andhra Pradesh State Police Housing Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Police housing construction"
+        },
+        {
+          "name": "Andhra Pradesh Industrial Development Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Industrial promotion and finance"
+        },
+        {
+          "name": "Andhra Pradesh Industrial Infrastructure Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Industrial parks and infrastructure"
+        },
+        {
+          "name": "Andhra Pradesh State Housing Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Housing for weaker sections"
+        },
+        {
+          "name": "Andhra Pradesh Urban Finance and Infrastructure Development Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Urban infrastructure finance"
+        },
+        {
+          "name": "Andhra Pradesh Aviation Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Aviation services for government"
+        },
+        {
+          "name": "Andhra Pradesh Mineral Development Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Mineral exploration and mining"
+        },
+        {
+          "name": "Leather Industries Development Corporation of Andhra Pradesh Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Leather industry promotion"
+        },
+        {
+          "name": "New & Renewable Energy Development Corporation of Andhra Pradesh",
+          "abbrev": null,
+          "url": null,
+          "note": "Renewable energy promotion"
+        },
+        {
+          "name": "Andhra Pradesh Power Generation Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Power generation"
+        },
+        {
+          "name": "Transmission Corporation of Andhra Pradesh Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Power transmission"
+        },
+        {
+          "name": "Andhra Pradesh State Civil Supplies Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Public distribution system supplies"
+        },
+        {
+          "name": "Andhra Pradesh Trade Promotion Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Trade promotion activities"
+        },
+        {
+          "name": "Andhra Pradesh Technology Services Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "IT procurement and e-governance support"
+        },
+        {
+          "name": "Andhra Pradesh Tourism Development Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Tourism infrastructure and services"
+        },
+        {
+          "name": "Andhra Pradesh Beverages Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Beverage trade management"
+        },
+        {
+          "name": "Andhra Pradesh Handicrafts Development Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Handicraft artisan support and marketing"
+        },
+        {
+          "name": "Overseas Manpower Company of Andhra Pradesh Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Overseas employment facilitation"
+        },
+        {
+          "name": "Andhra Pradesh State Financial Corporation",
+          "abbrev": null,
+          "url": null,
+          "note": "Term finance to small and medium industry"
+        },
+        {
+          "name": "Andhra Pradesh State Warehousing Corporation",
+          "abbrev": null,
+          "url": null,
+          "note": "Agricultural storage and warehousing"
+        },
+        {
+          "name": "Andhra Pradesh State Road Transport Corporation",
+          "abbrev": null,
+          "url": null,
+          "note": "Public bus transport services"
+        }
+      ],
+      "source_url": "https://cag.gov.in/uploads/download_audit_report/2018/Report_No_3_of_2018_-_Public_Sector_Undertakings_Government_of_Andhra_Pradesh.pdf",
+      "source_title": "Report of the Comptroller and Auditor General of India on Public Sector Undertakings for the year ended March 2017 - Government of Andhra Pradesh (Report No. 3 of 2018)",
+      "as_of": "2017-03-31"
+    }
+  }
+}
