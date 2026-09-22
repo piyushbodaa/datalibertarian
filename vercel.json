@@ -60,6 +60,34 @@
     {
       "source": "/apwatch/:path*",
       "destination": "https://copwatchindia.vercel.app/apwatch/:path*"
+    },
+    {
+      "source": "/babuwatch",
+      "destination": "/babuwatch/"
+    },
+    {
+      "source": "/copwatch",
+      "destination": "/babuwatch/copwatch/"
+    },
+    {
+      "source": "/copwatch/",
+      "destination": "/babuwatch/copwatch/"
+    },
+    {
+      "source": "/sin",
+      "destination": "/babuwatch/sin/"
+    },
+    {
+      "source": "/sin/",
+      "destination": "/babuwatch/sin/"
+    },
+    {
+      "source": "/fos",
+      "destination": "/babuwatch/fos/"
+    },
+    {
+      "source": "/fos/",
+      "destination": "/babuwatch/fos/"
     }
   ]
 }

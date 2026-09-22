@@ -18,7 +18,7 @@
         <span class="tagline">A Data Libertarian Project</span>
       </span>
     </a>
-    <nav class="links" aria-label="Primary"><a href="/babuwatch/tracker">Incident Tracker</a><a href="/babuwatch/patterns">Patterns</a><a href="/babuwatch/methodology" class="on">Methodology</a></nav>
+    <nav class="links" aria-label="Primary"><a href="/babuwatch/">Incident Tracker</a><a href="/babuwatch/patterns">Patterns</a><a href="/babuwatch/methodology" class="on">Methodology</a></nav>
   </div>
 </header>
 <main id="main" class="wrap">
@@ -35,18 +35,41 @@
   <h2>What this is</h2>
   <p>Babuwatch compiles court convictions of Indian public servants &mdash;
   police officers and civil servants alike. Every record states the court that
-  convicted, the case number where one exists, and links to the source.</p>
+  convicted, the case number or citation, and links to the source.</p>
   <h2>What is included</h2>
   <p>Only convictions. We do not list anyone merely accused, charge-sheeted,
-  suspended or acquitted, and a departmental action is not a conviction.</p>
+  suspended or acquitted, and a departmental action is not a conviction. An
+  adverse finding or a compensation order is documented on
+  <a href="/copwatchindia">Copwatch India</a>, not counted here as a
+  conviction. A conviction later set aside on appeal leaves the active list;
+  its history is retained internally.</p>
+  <h2>The evidence gate</h2>
+  <p>Every input &mdash; High Court and Supreme Court records, trial-court
+  convictions, and the civil-servant register &mdash; passes one shared gate
+  before publication. The gate requires: a preserved source, an authenticated
+  court, an explicit conviction for the defendant, a case reference, a
+  verification decision of V2 (source authenticated and attributed) or V3
+  (material fact corroborated), and a supported public-servant role. A record
+  that fails any check is withheld and counted, never published.</p>
+  <p>This build: 1,122 High Court / Supreme Court records
+  screened &rarr; 275 convictions published; 883
+  trial-court convictions screened &rarr; 407 published
+  (67 already covered above);
+  161 civil-servant register entries screened &rarr;
+  0 published. The full machine-readable report ships with every
+  release at <code>/babuwatch/data/gate-report.json</code>.</p>
   <h2>Numbers</h2>
   <p>Every figure comes from a named official source. Where a figure could not be
   sourced it is left blank rather than estimated. A blank is a finding: we looked
-  and did not find, which is not the same as zero.</p>
+  and did not find, which is not the same as zero. Counts of convictions are
+  never inflated by merging different defendants or adding appeals as new
+  cases.</p>
   <h2>Verification</h2>
   <p>An extracted record is re-checked by a separate reviewer against the
-  document it cites before publication. If the number cannot be found in its own
-  cited source, the record is withheld rather than published.</p>
+  document it cites before publication. If the claim cannot be found in its own
+  cited source, the record is withheld rather than published. Records awaiting
+  verification are held internally &mdash; they are not lost, and they will
+  appear here if they clear the gate.</p>
   <h2>Corrections</h2>
   <p>If a record here is wrong &mdash; overturned on appeal, acquitted, or a
   misread judgment &mdash; tell us and it will be corrected or removed. Retracted

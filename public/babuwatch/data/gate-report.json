@@ -1,0 +1,32 @@
+{
+  "built": "2026-09-22T23:54:49+0530",
+  "gate": "publish/evidence_gate.py",
+  "sections": {
+    "babuwatch": {
+      "published": 682,
+      "withheld": 1417,
+      "inputs": {
+        "hc_sc_total": 1122,
+        "hc_sc_passed": 275,
+        "tier2_total": 883,
+        "tier2_duplicates": 67,
+        "tier2_passed": 407,
+        "babu_total": 161,
+        "babu_passed": 0
+      }
+    },
+    "copwatch": {
+      "published": 682
+    }
+  },
+  "sin": {
+    "published": 0,
+    "pool_screened": 682,
+    "note": "no sin-classified records exist yet"
+  },
+  "fos": {
+    "published": 0,
+    "pool_screened": 682,
+    "note": "no fos-classified records exist yet"
+  }
+}
