@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build && tsx scripts/prerender.tsx",
+    "build": "tsc --noEmit && vite build && tsx scripts/prerender.tsx && cp public/snapshot.html dist/index.html && cp public/babuwatch.html dist/babuwatch.html",
     "preview": "vite preview",
     "test": "tsx --test src/data/citations.test.ts src/data/compare/median.test.ts src/data/inflation.test.ts",
     "test:browser": "playwright test"
