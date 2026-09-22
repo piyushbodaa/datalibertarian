@@ -416,11 +416,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 167203,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://finance.jharkhand.gov.in/pdf/Budget_2024_25/16_Health_Medical_Education_and_Family_Welfare_Department.pdf",
+      "source_title": "Details of Demands for Grants 2024-25, Demand No. 20 – Health, Medical Education and Family Welfare Department, Annexure-I (Primary Unitwise Summary), Government of Jharkhand",
       "as_of": null
     },
     "police_stations": {
@@ -620,11 +620,11 @@
       "as_of": null
     },
     "hospitals": {
-      "value": null,
+      "value": 512,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2022-23",
+      "source_url": "https://cbhidghs.mohfw.gov.in/sites/default/files/2024-09/Final-Central-Bureau-of-Health-Intelligene-July-2024.pdf",
+      "source_title": "National Health Profile 2023",
       "as_of": null
     },
     "notes": null
@@ -866,11 +866,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 290994,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2021-22",
+      "source_url": "https://pbeso.punjab.gov.in/esostatic/static/PDF/Publications/Demography/EmployeesCensusReport-2022.pdf",
+      "source_title": "CENSUS OF PUNJAB GOVERNMENT AND SEMI-GOVERNMENT EMPLOYEES",
       "as_of": null
     },
     "police_stations": {
@@ -911,11 +911,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 522369,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2010-11",
+      "source_url": "https://saar.rajasthan.gov.in/PDF/Statistical%20Abstract%202015%20Volume-II.pdf",
+      "source_title": "Statistical Abstract 2015 Volume-II",
       "as_of": null
     },
     "police_stations": {
@@ -956,11 +956,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 92609,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2025-26",
+      "source_url": "http://www.sikkimfred.gov.in/FRBM/Documents/2026-27/MTFP%202026-27.pdf",
+      "source_title": "MEDIUM TERM FISCAL PLAN FOR SIKKIM 2026-27 TO 2028-29",
       "as_of": null
     },
     "police_stations": {
@@ -1046,11 +1046,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 369000,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://www.telangana.gov.in/news/press-releases/2024/07/deputy-cm-presents-budget-for-the-year-2024-25/",
+      "source_title": "Deputy CM presents Budget for the year 2024-25 - Telangana State Portal",
       "as_of": null
     },
     "police_stations": {
@@ -1181,11 +1181,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 171906,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s3c65d7bd70fe3e5e3a2f3de681edc193d/uploads/2025/04/202504111278450613.pdf",
+      "source_title": "Uttarakhand Budget 2025-26 - Volume 6 (Post Description): Details of gazetted and non-gazetted posts",
       "as_of": null
     },
     "police_stations": {
@@ -1205,11 +1205,11 @@
       "as_of": null
     },
     "hospitals": {
-      "value": null,
+      "value": 696,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2022-23",
+      "source_url": "https://cbhidghs.mohfw.gov.in/sites/default/files/NHP/NHP-2023-Last-Final.pdf",
+      "source_title": "National Health Profile (NHP) of India- 2023",
       "as_of": null
     },
     "notes": null
@@ -1271,11 +1271,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 33907,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://www.indiabudget.gov.in/doc/eb/stat22.pdf",
+      "source_title": "Expenditure Profile 2026-2027 - Statement 22: Estimated Strength of Establishment and Provisions Therefor",
       "as_of": null
     },
     "police_stations": {
@@ -1316,11 +1316,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 24858,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2022-23",
+      "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2022-pdfs/LS-05042022/5359.pdf",
+      "source_title": "Government of India, Ministry of Home Affairs - Lok Sabha Unstarred Question No. 5359",
       "as_of": null
     },
     "police_stations": {
@@ -1361,11 +1361,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 5771,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://www.indiabudget.gov.in/budget2025-26/doc/eb/stat22.pdf",
+      "source_title": "Expenditure Profile 2025-2026 - STATEMENT 22 ESTIMATED STRENGTH OF ESTABLISHMENT AND PROVISIONS THEREFOR",
       "as_of": null
     },
     "police_stations": {
@@ -1406,11 +1406,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 131000,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2018-19",
+      "source_url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/e21_employment.pdf",
+      "source_title": "Economic Survey of Delhi, 2021-22 - Chapter 21: Employment and Unemployment",
       "as_of": null
     },
     "police_stations": {
@@ -1451,11 +1451,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 451923,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2023-24",
+      "source_url": "https://ecostatjk.nic.in/pdf/publications/digeststat/Digest%20of%20Statistics%202023-24%20(2).pdf",
+      "source_title": "Digest of Statistics 2023-24",
       "as_of": null
     },
     "police_stations": {
@@ -1541,11 +1541,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 3932,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://sansad.in/getFile/loksabhaquestions/annex/184/AU1314_NXuLg1.pdf?source=pqals",
+      "source_title": "GOVERNMENT OF INDIA MINISTRY OF HOME AFFAIRS LOK SABHA UNSTARRED QUESTION NO. 1314 TO BE ANSWERED ON THE 11TH FEBRUARY, 2025",
       "as_of": null
     },
     "police_stations": {
