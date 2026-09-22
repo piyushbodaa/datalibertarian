@@ -154,11 +154,11 @@
       "as_of": null
     },
     "police_stations": {
-      "value": null,
+      "value": 1096,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2023-24",
+      "source_url": "https://bprd.nic.in/uploads/pdf/Data%20on%20Police%20Organizations%20(2024)_%20(14-07-25)%20All.pdf",
+      "source_title": "Data on Police Organizations (As on January 01, 2024)",
       "as_of": null
     },
     "schools": {
@@ -215,11 +215,11 @@
       "as_of": null
     },
     "hospitals": {
-      "value": null,
+      "value": 247,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2022-23",
+      "source_url": "https://cbhidghs.mohfw.gov.in/sites/default/files/NHP/NHP-2023-Last-Final.pdf",
+      "source_title": "National Health Profile (NHP) of India- 2023",
       "as_of": null
     },
     "notes": null
@@ -244,19 +244,19 @@
       "as_of": null
     },
     "police_stations": {
-      "value": null,
+      "value": 47,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2023-24",
+      "source_url": "https://bprd.nic.in/uploads/pdf/Data%20on%20Police%20Organizations%20(2024)_%20(14-07-25)%20All.pdf",
+      "source_title": "DATA ON POLICE ORGANIZATIONS (As on January 01, 2024)",
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 1479,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://api.udiseplus.gov.in/open-services/v1.1/schools-summarised-stats/public",
+      "source_title": "UDISE+ Dashboard open-services: schools-summarised-stats (yearId 11 = 2024-25, regionType 11, regionCode 30 = GOA)",
       "as_of": null
     },
     "hospitals": {
@@ -289,19 +289,19 @@
       "as_of": null
     },
     "police_stations": {
-      "value": null,
+      "value": 814,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2023-24",
+      "source_url": "https://bprd.nic.in/uploads/pdf/Data%20on%20Police%20Organizations%20(2024)_%20(14-07-25)%20All.pdf",
+      "source_title": "DATA ON POLICE ORGANIZATIONS (As on January 01, 2024)",
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 53355,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://api.udiseplus.gov.in/open-services/v1.1/schools-summarised-stats/public",
+      "source_title": "UDISE+ Dashboard open-services API - schools-summarised-stats",
       "as_of": null
     },
     "hospitals": {
@@ -334,11 +334,11 @@
       "as_of": null
     },
     "police_stations": {
-      "value": null,
+      "value": 417,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2022-23",
+      "source_url": "https://bprd.nic.in/uploads/pdf/1716639795_d6fce11ed56a985b635c.pdf",
+      "source_title": "DATA ON POLICE ORGANIZATIONS (AS ON JANUARY 01, 2023)",
       "as_of": null
     },
     "schools": {
@@ -371,19 +371,19 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 200919,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2021-22",
+      "source_url": "https://ebudget.hp.nic.in/Aspx/Anonymous/pdf/Bud_2023.zip",
+      "source_title": "Medium Term Fiscal Plan Statement 2023-24",
       "as_of": null
     },
     "police_stations": {
-      "value": null,
+      "value": 152,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2022-23",
+      "source_url": "https://bprd.nic.in/uploads/pdf/1716639795_d6fce11ed56a985b635c.pdf",
+      "source_title": "DATA ON POLICE ORGANIZATIONS (AS ON JANUARY 01, 2023)",
       "as_of": null
     },
     "schools": {
@@ -477,11 +477,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 74859,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://api.udiseplus.gov.in/open-services/v1.1/schools-summarised-stats/public",
+      "source_title": "UDISE+ Dashboard open-services API (Ministry of Education) – schools-summarised-stats",
       "as_of": null
     },
     "hospitals": {
@@ -522,11 +522,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 15757,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://sansad.in/getFile/loksabhaquestions/annex/187/AU4934_Agxyqs.pdf?source=pqals",
+      "source_title": "Government of India Ministry of Education Department of School Education and Literacy - Lok Sabha Unstarred Question No. 4934: Lack of Internet Connectivity in Rural Schools - Table: State/UT wise number of schools having internet facility as per UDISE+ for FY2024-25",
       "as_of": null
     },
     "hospitals": {
@@ -567,11 +567,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 122120,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://api.udiseplus.gov.in/open-services/v1.1/schools-summarised-stats/public",
+      "source_title": "UDISE+ Dashboard open-services API, Ministry of Education (schools-summarised-stats, yearId 11 = 2024-25)",
       "as_of": null
     },
     "hospitals": {
@@ -612,11 +612,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 108250,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://dashboard.udiseplus.gov.in/report-new-v.6-demo2025/static/media/UDISE%2B2024_25_Booklet_existing.118ba29d4773e6372f72.pdf",
+      "source_title": "Report on Unified District Information System for Education Plus (UDISE+) 2024-25",
       "as_of": null
     },
     "hospitals": {
@@ -657,11 +657,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 4666,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://dashboard.udiseplus.gov.in/report2026/static/media/UDISE+2024_25_Booklet_nep.ea09e672a163f92d9cfe.pdf",
+      "source_title": "UNIFIED DISTRICT INFORMATION SYSTEM FOR EDUCATION PLUS (UDISE+) 2024-25",
       "as_of": null
     },
     "hospitals": {
@@ -702,11 +702,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 14587,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://dashboard.udiseplus.gov.in/report2025/static/media/UDISE+2024_25_Booklet_existing.118ba29d4773e6372f72.pdf",
+      "source_title": "Report on Unified District Information System for Education Plus (UDISE+), Existing Structure, 2024-25",
       "as_of": null
     },
     "hospitals": {
@@ -837,11 +837,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 61565,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://dashboard.udiseplus.gov.in/report2026/static/media/UDISE+2024_25_Booklet_nep.ea09e672a163f92d9cfe.pdf",
+      "source_title": "UNIFIED DISTRICT INFORMATION SYSTEM FOR EDUCATION PLUS (UDISE+) 2024-25",
       "as_of": null
     },
     "hospitals": {
@@ -1009,11 +1009,11 @@
       "as_of": null
     },
     "police_stations": {
-      "value": null,
+      "value": 2334,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2022-23",
+      "source_url": "https://bprd.nic.in/uploads/pdf/1716639795_d6fce11ed56a985b635c.pdf",
+      "source_title": "Data on Police Organizations (As on January 01, 2023)",
       "as_of": null
     },
     "schools": {
@@ -1287,11 +1287,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 408,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://api.udiseplus.gov.in/open-services/v1.1/schools-summarised-stats/public",
+      "source_title": "UDISE+ Dashboard open-services v1.1 – schools-summarised-stats",
       "as_of": null
     },
     "hospitals": {
@@ -1324,11 +1324,11 @@
       "as_of": null
     },
     "police_stations": {
-      "value": null,
+      "value": 21,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2023-24",
+      "source_url": "https://bprd.nic.in/uploads/pdf/Data%20on%20Police%20Organizations%20(2024)_%20(14-07-25)%20All.pdf",
+      "source_title": "Data on Police Organizations (As on January 01, 2024)",
       "as_of": null
     },
     "schools": {
@@ -1369,11 +1369,11 @@
       "as_of": null
     },
     "police_stations": {
-      "value": null,
+      "value": 13,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2023-24",
+      "source_url": "https://bprd.nic.in/uploads/pdf/Data%20on%20Police%20Organizations%20(2024)_%20(14-07-25)%20All.pdf",
+      "source_title": "Data on Police Organizations (As on January 01, 2024)",
       "as_of": null
     },
     "schools": {
@@ -1414,11 +1414,11 @@
       "as_of": null
     },
     "police_stations": {
-      "value": null,
+      "value": 182,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2023-24",
+      "source_url": "https://bprd.nic.in/uploads/pdf/Data%20on%20Police%20Organizations%20(2024)_%20(14-07-25)%20All.pdf",
+      "source_title": "DATA ON POLICE ORGANIZATIONS (As on January 01, 2024)",
       "as_of": null
     },
     "schools": {
@@ -1512,11 +1512,11 @@
       "as_of": null
     },
     "schools": {
-      "value": null,
+      "value": 961,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2024-25",
+      "source_url": "https://dashboard.udiseplus.gov.in/report2025/static/media/UDISE+2024_25_Booklet_existing.118ba29d4773e6372f72.pdf",
+      "source_title": "Report on Unified District Information System for Education Plus (UDISE+) 2024-25",
       "as_of": null
     },
     "hospitals": {
@@ -1578,11 +1578,11 @@
     "name": "Puducherry",
     "type": "ut",
     "spending": {
-      "value": null,
+      "value": 14300,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://py.gov.in/sites/default/files/cmfile2026eng.pdf",
+      "source_title": "BUDGET SPEECH 2026 – 2027",
       "as_of": null
     },
     "employees": {
