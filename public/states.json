@@ -170,11 +170,11 @@
       "as_of": null
     },
     "hospitals": {
-      "value": null,
+      "value": 81,
       "unit": "count",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2021-22",
+      "source_url": "https://medicaldialogues.in/news/health/altogether-315-govt-medical-colleges-31053-phcs-6064-chcs-1275-sub-divisional-hospitals-767-district-hospitals-operative-in-india-health-ministry-gives-break-up-133269",
+      "source_title": "Altogether 315 Govt Medical Colleges, 31053 PHCs, 6064 CHCs, 1275 Sub Divisional Hospitals, 767 District Hospitals Operative in India: Health Ministry Gives Break Up",
       "as_of": null
     },
     "notes": null
