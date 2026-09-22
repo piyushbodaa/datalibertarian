@@ -588,11 +588,11 @@
     "name": "Maharashtra",
     "type": "state",
     "spending": {
-      "value": null,
+      "value": 769467,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://www.mahasamvad.in/193182/",
+      "source_title": "विकसित महाराष्ट्र २०४७ च्या ध्येयावर आधारित २०२६-२७ चा अर्थसंकल्प – मुख्यमंत्री देवेंद्र फडणवीस - महासंवाद (Team DGIPR, Govt. of Maharashtra)",
       "as_of": null
     },
     "employees": {

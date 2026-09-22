@@ -1,1 +1,241 @@
-{}
+{
+  "bbmp-bengaluru": {
+    "slug": "bbmp-bengaluru",
+    "metrics": {
+      "employees": {
+        "value": 7379,
+        "unit": "persons",
+        "fy": "2022-23",
+        "source_url": "https://karc2.karnataka.gov.in/pdf/resources/24-2-2023/Annexure_Eng/16(iii).Comprehensive%20_Rpt_BBMP.pdf",
+        "source_title": "Karnataka Administrative Reforms Commission – 2 Special Report – Reforming and Reorganising BBMP",
+        "as_of": null
+      }
+    }
+  },
+  "ghmc-hyderabad": {
+    "slug": "ghmc-hyderabad",
+    "metrics": {
+      "employees": {
+        "value": 3142,
+        "unit": "persons",
+        "fy": "2019-20",
+        "source_url": "https://ghmc.gov.in/Documents/GB.pdf",
+        "source_title": "GHMC General Body / Standing Committee Resolutions (GB.pdf)",
+        "as_of": null
+      },
+      "spending": {
+        "value": 8440,
+        "unit": "INR_crore",
+        "fy": "2025-26",
+        "source_url": "https://www.ghmc.gov.in/Budget/GHMC%20BUdget%202025-26%20Final%20for%20Printing.pdf",
+        "source_title": "GHMC Budget 2025-26",
+        "as_of": null
+      }
+    }
+  },
+  "jmc-jaipur": {
+    "slug": "jmc-jaipur",
+    "metrics": {
+      "employees": {
+        "value": 6048,
+        "unit": "persons",
+        "fy": "2019-20",
+        "source_url": "https://saiindia.gov.in/uploads/download_audit_report/2021/9.Chapter-6-0622b24e90d2426.38644592.pdf",
+        "source_title": "Report of the Comptroller and Auditor General of India on Performance Audit of Efficacy of implementation of 74th Constitutional Amendment Act (Report No. 5 of 2021) - Chapter 6",
+        "as_of": null
+      }
+    }
+  },
+  "mcd-delhi": {
+    "slug": "mcd-delhi",
+    "metrics": {
+      "employees": {
+        "value": 144991,
+        "unit": "persons",
+        "fy": "2023-24",
+        "source_url": "https://sansad.in/getFile/LSSCOMMITTEE/Welfare%20of%20Scheduled%20Castes%20and%20Scheduled%20Tribes/17_Welfare_of_Scheduled_Castes_and_Scheduled_Tribes_31.pdf?source=loksabhadocs",
+        "source_title": "Thirty First Report (17th Lok Sabha), Committee on the Welfare of Scheduled Castes and Scheduled Tribes: Implementation of Reservation Policy in the Ministries/Departments of Government of India with specific reference to the Municipal Corporation of Delhi (MCD) (SCTC No. 868)",
+        "as_of": null
+      },
+      "hospitals": {
+        "value": 47,
+        "unit": "count",
+        "fy": "2022-23",
+        "source_url": "https://delhiplanning.delhi.gov.in/sites/default/files/Planning/chapter_16_0.pdf",
+        "source_title": "Economic Survey of Delhi, 2023-24 - Chapter 16: Health & Family Welfare",
+        "as_of": null
+      },
+      "police_stations": {
+        "value": 225,
+        "unit": "count",
+        "fy": "2023-24",
+        "source_url": "https://sansad.in/getFile/annex/262/AU374.pdf?source=pqars",
+        "source_title": "Government of India, Ministry of Home Affairs, Rajya Sabha Unstarred Question No. 374 (Answered on 06.12.2023)",
+        "as_of": null
+      },
+      "schools": {
+        "value": 1535,
+        "unit": "count",
+        "fy": "2022-23",
+        "source_url": "https://mcdonline.nic.in/portal/downloadFile/expression_of_interest_(eoi)_of_csr_fund_for_modernization_of_mcd_schools-1-221227-165741_2212281210481248.pdf",
+        "source_title": "Municipal Corporation of Delhi Education Department - Expression of Interest (EOI) of CSR fund for modernization of MCD schools (VIDYASTHALI project)",
+        "as_of": null
+      },
+      "spending": {
+        "value": 17646.186,
+        "unit": "INR_crore",
+        "fy": "2026-27",
+        "source_url": "https://mcdonline.nic.in/portal/downloadFile/circular_reg_._general_account_income_and_expenditure_budget_and_revised_budget_estimate_2025-26_&_budget_estimate_2026-27_on__rbe_2025-26_and_be_2026-27_260420043011411.pdf",
+        "source_title": "General Account Income and Expenditure Budget - RBE 2025-26 and BE 2026-27 Approved by Corporation (Municipal Corporation of Delhi)",
+        "as_of": null
+      }
+    }
+  },
+  "nmc-nagpur": {
+    "slug": "nmc-nagpur",
+    "metrics": {
+      "employees": {
+        "value": 6827,
+        "unit": "persons",
+        "fy": "2020-21",
+        "source_url": "https://cag.gov.in/uploads/media/Report-No-3-of-2022-74th-CAA-06a1ffe29e53a27-39354806.pdf",
+        "source_title": "Report of the Comptroller and Auditor General of India on Efficacy of Implementation of the 74th Constitutional Amendment Act in Maharashtra (Report No. 3 of 2022)",
+        "as_of": null
+      },
+      "hospitals": {
+        "value": 3,
+        "unit": "count",
+        "fy": "2017-18",
+        "source_url": "https://ndma.gov.in/sites/default/files/PDF/DDMP/Maharashtra/Nagpur.pdf",
+        "source_title": "District Disaster Management Plan Nagpur District",
+        "as_of": null
+      }
+    }
+  },
+  "pmc-pune": {
+    "slug": "pmc-pune",
+    "metrics": {
+      "employees": {
+        "value": 19656,
+        "unit": "persons",
+        "fy": "2015-16",
+        "source_url": "https://opendata.pmc.gov.in/opendata/PMCReports/PUNE-SCP-Volume-III-Fiscal-Capacity.pdf",
+        "source_title": "Pune Towards Smart City",
+        "as_of": null
+      },
+      "spending": {
+        "value": 13995,
+        "unit": "INR_crore",
+        "fy": "2026-27",
+        "source_url": "https://data.opencity.in/dataset/1a8575f6-0ba7-431c-a346-e98335825a12/resource/97ba1e08-0841-4f8c-95c9-2a3b1fa67968/download/2627-mc-budget-speech-naval-kishore-ram_0.pdf",
+        "source_title": "Pune Municipal Corporation Budget Speech 2026-27 in Marathi (Municipal Commissioner's budget statement to the Standing Committee)",
+        "as_of": null
+      }
+    }
+  },
+  "union-government": {
+    "slug": "union-government",
+    "metrics": {
+      "hospitals": {
+        "value": 60621,
+        "unit": "count",
+        "fy": "2021-22",
+        "source_url": "https://sansad.in/getFile/annex/262/AU1795.pdf?source=pqars",
+        "source_title": "Rajya Sabha Unstarred Question No. 1795 (answered 19.12.2023), Ministry of Chemicals and Fertilizers, Department of Pharmaceuticals, citing National Health Profile (NHP) 2022, Central Bureau of Health Intelligence",
+        "as_of": null
+      },
+      "police_stations": {
+        "value": 16955,
+        "unit": "count",
+        "fy": "2019-20",
+        "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1684384&reg=3&lang=2",
+        "source_title": "Bureau of Police Research & Development (BPR&D) releases Data on Police Organizations as on 01.01.2020",
+        "as_of": null
+      },
+      "schools": {
+        "value": 1471473,
+        "unit": "count",
+        "fy": "2024-25",
+        "source_url": "https://sansad.in/getFile/annex/270/AS347_2Uf5V3.pdf?source=pqars",
+        "source_title": "GOVERNMENT OF INDIA MINISTRY OF EDUCATION DEPARTMENT OF SCHOOL EDUCATION & LITERACY",
+        "as_of": null
+      },
+      "spending": {
+        "value": 5347314.81,
+        "unit": "INR_crore",
+        "fy": "2026-27",
+        "source_url": "https://www.indiabudget.gov.in/doc/eb/sumsbe.pdf",
+        "source_title": "Ministry wise Summary of Budget Provisions 2026-2027",
+        "as_of": null
+      }
+    }
+  },
+  "amc-ahmedabad": {
+    "slug": "amc-ahmedabad",
+    "metrics": {
+      "police_stations": {
+        "value": 49,
+        "unit": "count",
+        "fy": "2026-27",
+        "source_url": "https://cpahmedabad.gujarat.gov.in/cpahmedabad/CMS.aspx?content_id=5780",
+        "source_title": "Introduction (પરીચય) – Office of the Commissioner of Police, Ahmedabad (Ahmedabad City Police)",
+        "as_of": null
+      },
+      "schools": {
+        "value": 453,
+        "unit": "count",
+        "fy": "2025-26",
+        "source_url": "https://www.amcschoolboard.org/wp-content/uploads/2025/11/453-school-list.pdf",
+        "source_title": "AMC School Board – 453 School List (Nagar Prathmik Shikshan Samiti, Ahmedabad)",
+        "as_of": null
+      }
+    }
+  },
+  "gcc-chennai": {
+    "slug": "gcc-chennai",
+    "metrics": {
+      "police_stations": {
+        "value": 102,
+        "unit": "count",
+        "fy": "2022-23",
+        "source_url": "https://des.tn.gov.in/sites/default/files/2025-07/32.%20POLICE%20AND%20PRISON.pdf",
+        "source_title": "Statistical Hand Book of Tamil Nadu - 2022-23 - 32. Police and Prison",
+        "as_of": null
+      },
+      "schools": {
+        "value": 417,
+        "unit": "count",
+        "fy": "2023-24",
+        "source_url": "https://cms.tn.gov.in/cms_migrated/document/docfiles/maws_e_pn_2024_25.pdf",
+        "source_title": "Demand No. 34 - Municipal Administration and Water Supply Department - Policy Note 2024-2025",
+        "as_of": null
+      }
+    }
+  },
+  "bmc": {
+    "slug": "bmc",
+    "metrics": {
+      "spending": {
+        "value": 74427.41,
+        "unit": "INR_crore",
+        "fy": "2025-26",
+        "source_url": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Accountant%20(Finance)/Budget/Budget%20Estimate%202025-2026/1-%20MC%27s%20Speech/BUDGET%20A%2CB%2CG/ENGLISH%20SPEECH.pdf",
+        "source_title": "BMC Budget Estimates 2025-26 - Municipal Commissioner's English Speech (Budget A, B & G)",
+        "as_of": null
+      }
+    }
+  },
+  "kmc-kolkata": {
+    "slug": "kmc-kolkata",
+    "metrics": {
+      "spending": {
+        "value": 5639.56,
+        "unit": "INR_crore",
+        "fy": "2025-26",
+        "source_url": "https://www.kmcgov.in/KMCPortal/downloads/Budget_Estimate_2025_2026.pdf",
+        "source_title": "MAYOR'S BUDGET ESTIMATE 2025-2026 VOLUME-II",
+        "as_of": null
+      }
+    }
+  }
+}
