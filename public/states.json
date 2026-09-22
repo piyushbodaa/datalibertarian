@@ -138,11 +138,11 @@
     "name": "Bihar",
     "type": "state",
     "spending": {
-      "value": null,
+      "value": 347590,
       "unit": "INR_crore",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2026-27",
+      "source_url": "https://prsindia.org/budgets/states/bihar-budget-analysis-2026-27",
+      "source_title": "Bihar Budget Analysis 2026-27 (Table 2 citing Annual Financial Statement, Bihar Budget Documents 2026-27)",
       "as_of": null
     },
     "employees": {
