@@ -15995,6 +15995,100 @@
       "as_of": "31 March 2023"
     }
   },
+  "jmc-jaipur": {
+    "agencies": {
+      "count": 14,
+      "items": [
+        {
+          "name": "Revenue Section",
+          "abbrev": null,
+          "url": null,
+          "note": "Property tax, fees and other municipal revenue collection."
+        },
+        {
+          "name": "Public Health Section",
+          "abbrev": null,
+          "url": null,
+          "note": "Sanitation, solid waste management and public health services."
+        },
+        {
+          "name": "Public Works Section (Engineering)",
+          "abbrev": null,
+          "url": null,
+          "note": "Construction and maintenance of municipal roads, drains and buildings."
+        },
+        {
+          "name": "Accounts Section",
+          "abbrev": null,
+          "url": null,
+          "note": "Municipal accounts, budgeting and financial management."
+        },
+        {
+          "name": "Electric & Street Lighting Section",
+          "abbrev": null,
+          "url": null,
+          "note": "Installation and maintenance of street lighting."
+        },
+        {
+          "name": "Mechanical (Garage) Section",
+          "abbrev": null,
+          "url": null,
+          "note": "Municipal vehicle fleet, garage and workshop operations."
+        },
+        {
+          "name": "Fire Fighting Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Fire prevention and fire-fighting services."
+        },
+        {
+          "name": "Planning Cell",
+          "abbrev": null,
+          "url": null,
+          "note": "Urban planning support and project planning."
+        },
+        {
+          "name": "Projects Cell",
+          "abbrev": null,
+          "url": null,
+          "note": "Execution and monitoring of municipal projects."
+        },
+        {
+          "name": "Heritage Cell",
+          "abbrev": null,
+          "url": null,
+          "note": "Conservation of heritage properties in the walled city."
+        },
+        {
+          "name": "Enforcement Cell",
+          "abbrev": null,
+          "url": null,
+          "note": "Enforcement against encroachments and unauthorized construction."
+        },
+        {
+          "name": "SJSRY Cell",
+          "abbrev": null,
+          "url": null,
+          "note": "Implementation of the Swarna Jayanti Shahari Rozgar Yojana employment scheme."
+        },
+        {
+          "name": "Land Records Cell",
+          "abbrev": null,
+          "url": null,
+          "note": "Maintenance of municipal land records."
+        },
+        {
+          "name": "Vigilance",
+          "abbrev": null,
+          "url": null,
+          "note": "Vigilance and oversight within the corporation."
+        }
+      ],
+      "source_url": "http://jaipurmc.org/PDF/Auction_MM_RTI_Act_Etc_PDF/11-Chapter-11.pdf",
+      "source_title": "City Development Plan for Jaipur, Chapter 11",
+      "as_of": "2006"
+    }
+  },
   "karnataka": {
     "agencies": {
       "count": 40,
@@ -19948,6 +20042,20 @@
       ],
       "source_url": "https://lmc.up.nic.in/",
       "source_title": "LUCKNOW NAGAR NIGAM",
+      "as_of": "2026-09-22"
+    },
+    "orgs": {
+      "count": 1,
+      "items": [
+        {
+          "name": "Lucknow Smart City Limited",
+          "abbrev": "LSCL",
+          "url": "https://www.lucknowsmartcity.com/",
+          "note": "Special Purpose Vehicle formed by Lucknow Municipal Corporation to implement Smart City Mission projects."
+        }
+      ],
+      "source_url": "https://up.mygov.in/en/group/smart-city-mission",
+      "source_title": "Smart City Mission | MyGov UP",
       "as_of": "2026-09-22"
     }
   },
@@ -32703,6 +32811,526 @@
       "source_url": "http://www.home.sikkim.gov.in/Uploads/Information/LIST12.pdf",
       "source_title": "Government of Sikkim Telephone Directory (As on: 14.10.2019)",
       "as_of": "2019-10-14"
+    }
+  },
+  "smc-surat": {
+    "agencies": {
+      "count": 35,
+      "items": [
+        {
+          "name": "Bridge Cell",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/BridgeCellHome",
+          "note": "Plans and maintains bridges and flyovers"
+        },
+        {
+          "name": "Street Light",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/StreetLightsHome",
+          "note": "Manages public street lighting"
+        },
+        {
+          "name": "Special Projects",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/SpecialProjects",
+          "note": "Executes special infrastructure projects"
+        },
+        {
+          "name": "Traffic Cell",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/TrafficCellHome",
+          "note": "Handles traffic engineering and management"
+        },
+        {
+          "name": "BRTS Cell",
+          "abbrev": "BRTS",
+          "url": "https://www.suratmunicipal.gov.in/Departments/BRTSCellIntroduction",
+          "note": "Manages bus rapid transit system"
+        },
+        {
+          "name": "CE Special Cell",
+          "abbrev": "CE",
+          "url": "https://www.suratmunicipal.gov.in/Departments/CESpecialCellHome",
+          "note": "City Engineer special works cell"
+        },
+        {
+          "name": "Energy Efficiency Cell",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/EnergyEfficiencyCellHome",
+          "note": "Promotes energy efficiency measures"
+        },
+        {
+          "name": "Environment Cell",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/EnvironmentCellParticulars",
+          "note": "Handles environment management"
+        },
+        {
+          "name": "Town Planning",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/TownPlanningHome",
+          "note": "Prepares town planning schemes"
+        },
+        {
+          "name": "Town Development",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/TownDevelopmentHome",
+          "note": "Regulates building development permissions"
+        },
+        {
+          "name": "Hydraulic",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/HydraulicHome",
+          "note": "Manages water supply"
+        },
+        {
+          "name": "Drainage",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/DrainageIntroduction",
+          "note": "Manages sewerage and drainage"
+        },
+        {
+          "name": "Road Development",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/RoadDevelopmentHome",
+          "note": "Builds and maintains roads"
+        },
+        {
+          "name": "Solid Waste Management",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/SolidWasteManagementHome",
+          "note": "Manages waste collection and disposal"
+        },
+        {
+          "name": "Health Department",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/HealthDepartmentHome",
+          "note": "Provides public health services"
+        },
+        {
+          "name": "Vector Borne Diseases Control",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/VectorBorneDiseasesControlHome",
+          "note": "Controls malaria, dengue and vector diseases"
+        },
+        {
+          "name": "Birth and Death",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/BirthDeathRegistration",
+          "note": "Registers births and deaths"
+        },
+        {
+          "name": "SMIMER Hospital",
+          "abbrev": "SMIMER",
+          "url": "https://www.suratmunicipal.gov.in/smimer",
+          "note": "Runs municipal medical college and hospital"
+        },
+        {
+          "name": "I.C.D.S.",
+          "abbrev": "ICDS",
+          "url": "https://www.suratmunicipal.gov.in/Departments/ICDS",
+          "note": "Implements child development services"
+        },
+        {
+          "name": "PM-JAY",
+          "abbrev": "PM-JAY",
+          "url": "https://www.suratmunicipal.gov.in/Departments/PMJAYIntroduction",
+          "note": "Implements health insurance scheme"
+        },
+        {
+          "name": "Accounts",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/Accounts/Budget",
+          "note": "Manages budget and accounts"
+        },
+        {
+          "name": "Information Technology",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/InformationTechnology/InformationTechnologyHome",
+          "note": "Manages IT systems and e-governance"
+        },
+        {
+          "name": "Election and Census",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/ElectionCensus/ElectionCensusHome",
+          "note": "Conducts municipal elections and census work"
+        },
+        {
+          "name": "Stores",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/Stores/StoresHome",
+          "note": "Manages central stores and procurement"
+        },
+        {
+          "name": "Air Quality Management Cell",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/AQMCell",
+          "note": "Monitors and manages air quality"
+        },
+        {
+          "name": "Property Tax",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/PropertyTaxStructure",
+          "note": "Assesses and collects property tax"
+        },
+        {
+          "name": "Professional Tax",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/ProfessionalTaxHome",
+          "note": "Collects professional tax"
+        },
+        {
+          "name": "Octroi",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/OctroiHome",
+          "note": "Handles octroi records"
+        },
+        {
+          "name": "Other Tax",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/OtherTaxHome",
+          "note": "Collects other municipal taxes"
+        },
+        {
+          "name": "Department of Affordable Housing",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/DeptOfAffordableHousing",
+          "note": "Implements affordable housing schemes"
+        },
+        {
+          "name": "Urban Community Development",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/UrbanCommunityDevelopmentHome",
+          "note": "Runs community welfare programmes"
+        },
+        {
+          "name": "Secretary",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/SecretaryHome",
+          "note": "Supports council secretarial functions"
+        },
+        {
+          "name": "Fire & Emergency Services",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/FireandEmergencyServices",
+          "note": "Provides fire fighting and rescue services"
+        },
+        {
+          "name": "Culture",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/CultureHome",
+          "note": "Manages cultural activities and venues"
+        },
+        {
+          "name": "Watch & Ward",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/WatchAndWard",
+          "note": "Provides security for municipal assets"
+        }
+      ],
+      "source_url": "https://www.suratmunicipal.gov.in/Departments/Accounts/ListOfBCNT",
+      "source_title": "List Of BCNT",
+      "as_of": "2026-01-23"
+    },
+    "ministries": {
+      "count": 35,
+      "items": [
+        {
+          "name": "Bridge Cell",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/BridgeCellHome",
+          "note": "Bridges and flyovers planning and execution"
+        },
+        {
+          "name": "Street Light",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/StreetLightsHome",
+          "note": "Public street lighting installation and maintenance"
+        },
+        {
+          "name": "Special Projects",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/SpecialProjects",
+          "note": "Execution of special infrastructure projects"
+        },
+        {
+          "name": "Traffic Cell",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/TrafficCellHome",
+          "note": "Traffic management and road safety works"
+        },
+        {
+          "name": "BRTS Cell",
+          "abbrev": "BRTS",
+          "url": "https://www.suratmunicipal.gov.in/Departments/BRTSCellIntroduction",
+          "note": "Bus rapid transit system operations"
+        },
+        {
+          "name": "CE Special Cell",
+          "abbrev": "CE",
+          "url": "https://www.suratmunicipal.gov.in/Departments/CESpecialCellHome",
+          "note": "Special works under City Engineer"
+        },
+        {
+          "name": "Energy Efficiency Cell",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/EnergyEfficiencyCellHome",
+          "note": "Energy efficiency and conservation initiatives"
+        },
+        {
+          "name": "Environment Cell",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/EnvironmentCellParticulars",
+          "note": "Environment protection and monitoring"
+        },
+        {
+          "name": "Town Planning",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/TownPlanningHome",
+          "note": "Town planning schemes and land use planning"
+        },
+        {
+          "name": "Town Development",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/TownDevelopmentHome",
+          "note": "Building permissions and development control"
+        },
+        {
+          "name": "Hydraulic",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/HydraulicHome",
+          "note": "Water supply treatment and distribution"
+        },
+        {
+          "name": "Drainage",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/DrainageIntroduction",
+          "note": "Sewerage and drainage network and treatment"
+        },
+        {
+          "name": "Road Development",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/RoadDevelopmentHome",
+          "note": "Road construction and maintenance"
+        },
+        {
+          "name": "Solid Waste Management",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/SolidWasteManagementHome",
+          "note": "Solid waste collection treatment and disposal"
+        },
+        {
+          "name": "Health Department",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/HealthDepartmentHome",
+          "note": "Public health hospitals and dispensaries"
+        },
+        {
+          "name": "Vector Borne Diseases Control",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/VectorBorneDiseasesControlHome",
+          "note": "Vector-borne disease surveillance and control"
+        },
+        {
+          "name": "Birth and Death",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/BirthDeathRegistration",
+          "note": "Birth and death registration and certificates"
+        },
+        {
+          "name": "SMIMER Hospital",
+          "abbrev": "SMIMER",
+          "url": "https://www.suratmunicipal.gov.in/smimer",
+          "note": "Municipal medical college and hospital services"
+        },
+        {
+          "name": "I.C.D.S.",
+          "abbrev": "ICDS",
+          "url": "https://www.suratmunicipal.gov.in/Departments/ICDS",
+          "note": "Integrated child development services"
+        },
+        {
+          "name": "PM-JAY",
+          "abbrev": "PM-JAY",
+          "url": "https://www.suratmunicipal.gov.in/Departments/PMJAYIntroduction",
+          "note": "PM-JAY health insurance implementation"
+        },
+        {
+          "name": "Accounts",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/Accounts/Budget",
+          "note": "Budget accounts and financial management"
+        },
+        {
+          "name": "Information Technology",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/InformationTechnology/InformationTechnologyHome",
+          "note": "IT systems e-governance and digital services"
+        },
+        {
+          "name": "Election and Census",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/ElectionCensus/ElectionCensusHome",
+          "note": "Municipal elections and census operations"
+        },
+        {
+          "name": "Stores",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/Stores/StoresHome",
+          "note": "Central stores procurement and inventory"
+        },
+        {
+          "name": "Air Quality Management Cell",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/AQMCell",
+          "note": "Air quality monitoring and management"
+        },
+        {
+          "name": "Property Tax",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/PropertyTaxStructure",
+          "note": "Property tax assessment and collection"
+        },
+        {
+          "name": "Professional Tax",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/ProfessionalTaxHome",
+          "note": "Professional tax assessment and collection"
+        },
+        {
+          "name": "Octroi",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/OctroiHome",
+          "note": "Octroi and toll related administration"
+        },
+        {
+          "name": "Other Tax",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/OtherTaxHome",
+          "note": "Other municipal taxes and fees"
+        },
+        {
+          "name": "Department of Affordable Housing",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/DeptOfAffordableHousing",
+          "note": "Affordable housing schemes implementation"
+        },
+        {
+          "name": "Urban Community Development",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/UrbanCommunityDevelopmentHome",
+          "note": "Community development and poverty alleviation"
+        },
+        {
+          "name": "Secretary",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/SecretaryHome",
+          "note": "Corporation secretarial and council work"
+        },
+        {
+          "name": "Fire & Emergency Services",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/FireandEmergencyServices",
+          "note": "Fire fighting rescue and emergency response"
+        },
+        {
+          "name": "Culture",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/CultureHome",
+          "note": "Cultural programs auditoriums and heritage"
+        },
+        {
+          "name": "Watch & Ward",
+          "abbrev": null,
+          "url": "https://www.suratmunicipal.gov.in/Departments/WatchAndWard",
+          "note": "Security of municipal properties"
+        }
+      ],
+      "source_url": "https://www.suratmunicipal.gov.in/Departments/Accounts/ListOfBCNT",
+      "source_title": "List Of BCNT",
+      "as_of": "2026-01-23"
+    },
+    "orgs": {
+      "count": 9,
+      "items": [
+        {
+          "name": "Surat City Police",
+          "abbrev": null,
+          "url": null,
+          "note": "Maintains law and order in Surat city"
+        },
+        {
+          "name": "Income Tax Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Administers direct tax matters in Surat region"
+        },
+        {
+          "name": "Sales Tax Offices",
+          "abbrev": null,
+          "url": null,
+          "note": "Administers sales tax matters in Surat"
+        },
+        {
+          "name": "Central Excise and Customs",
+          "abbrev": null,
+          "url": null,
+          "note": "Administers central excise and customs matters"
+        },
+        {
+          "name": "Department of Post",
+          "abbrev": null,
+          "url": null,
+          "note": "Provides postal services through Surat postal divisions"
+        },
+        {
+          "name": "Sub Post Offices",
+          "abbrev": null,
+          "url": null,
+          "note": "Provides postal services through local sub offices"
+        },
+        {
+          "name": "Gujarat State Road Transport Corporation",
+          "abbrev": "GSRTC",
+          "url": null,
+          "note": "Operates public bus transport services"
+        },
+        {
+          "name": "Judicial Department",
+          "abbrev": null,
+          "url": null,
+          "note": "District courts and judicial offices in Surat"
+        },
+        {
+          "name": "Collector Department",
+          "abbrev": null,
+          "url": null,
+          "note": "District revenue and general administration"
+        }
+      ],
+      "source_url": "https://www.suratmunicipal.gov.in/TheCity/Authorities",
+      "source_title": "Authorities",
+      "as_of": "2019-10-03"
+    },
+    "psus": {
+      "count": 2,
+      "items": [
+        {
+          "name": "Surat Sitilink Limited",
+          "abbrev": "SSL",
+          "url": null,
+          "note": "Wholly owned SMC subsidiary operating city BRTS and bus services"
+        },
+        {
+          "name": "Surat Smart City Development Limited",
+          "abbrev": "SSCDL",
+          "url": "https://www.suratsmartcity.com",
+          "note": "SPV implementing Smart City Mission projects in Surat"
+        }
+      ],
+      "source_url": "https://www.suratsmartcity.com/PressNote/RealTimeTransitLaunch",
+      "source_title": "Surat Smart City - Real Time Bus Tracking",
+      "as_of": "2026-09-22"
     }
   },
   "tamil-nadu": {
