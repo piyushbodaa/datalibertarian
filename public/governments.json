@@ -9,6 +9,14 @@
         "source_url": "https://karc2.karnataka.gov.in/pdf/resources/24-2-2023/Annexure_Eng/16(iii).Comprehensive%20_Rpt_BBMP.pdf",
         "source_title": "Karnataka Administrative Reforms Commission – 2 Special Report – Reforming and Reorganising BBMP",
         "as_of": null
+      },
+      "spending": {
+        "value": 19927.08,
+        "unit": "INR_crore",
+        "fy": "2025-26",
+        "source_url": "https://updates.bbmpgov.in/v1/api/file/108074868607-Final%20BBMP%20Budget%20Book%202025-26%20%20Date%20on%2028-03-2025%20%2003.54pm.pdf",
+        "source_title": "Final BBMP Budget Book 2025-26",
+        "as_of": null
       }
     }
   },
@@ -42,6 +50,14 @@
         "fy": "2019-20",
         "source_url": "https://saiindia.gov.in/uploads/download_audit_report/2021/9.Chapter-6-0622b24e90d2426.38644592.pdf",
         "source_title": "Report of the Comptroller and Auditor General of India on Performance Audit of Efficacy of implementation of 74th Constitutional Amendment Act (Report No. 5 of 2021) - Chapter 6",
+        "as_of": null
+      },
+      "spending": {
+        "value": 895.6,
+        "unit": "INR_crore",
+        "fy": "2022-23",
+        "source_url": "https://lsg.urban.rajasthan.gov.in/content/dam/raj/udh/organizations/jaipur-nagar-nigam/pdf/About-Nagar-Nigam-Greater-Jaipur/Nagar-Nigam-Greater-Budget/Jaipur_Greater_Budget2022-2023.pdf",
+        "source_title": "NAGAR NIGAM JAIPUR GREATER SUMMARY OF BUDGET FOR THE PERIOD 2022-2023",
         "as_of": null
       }
     }

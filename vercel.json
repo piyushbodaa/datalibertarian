@@ -34,6 +34,10 @@
   "outputDirectory": "dist",
   "rewrites": [
     {
+      "source": "/",
+      "destination": "/snapshot"
+    },
+    {
       "source": "/copwatchindia",
       "destination": "https://copwatchindia.vercel.app/"
     },
