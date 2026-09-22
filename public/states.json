@@ -1136,11 +1136,11 @@
       "as_of": null
     },
     "employees": {
-      "value": null,
+      "value": 1358581,
       "unit": "persons",
-      "fy": null,
-      "source_url": null,
-      "source_title": null,
+      "fy": "2025-26",
+      "source_url": "https://budget.up.nic.in/khand6/khand6_2026_2027.pdf",
+      "source_title": "Uttar Pradesh Government - Details of Gazetted and Non-Gazetted Posts (Budget Khand-6)",
       "as_of": null
     },
     "police_stations": {
