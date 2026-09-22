@@ -1022,6 +1022,38 @@
       "source_title": "ANDHRA PRADESH GOVERNMENT ORDERS ISSUE REGISTER",
       "as_of": "2026-09-21"
     },
+    "commissions": {
+      "count": 4,
+      "items": [
+        {
+          "name": "Andhra Pradesh Electricity Regulatory Commission",
+          "abbrev": "APERC",
+          "url": "https://aperc.gov.in",
+          "note": "Regulates electricity tariffs, licensing and the power sector in the state."
+        },
+        {
+          "name": "Andhra Pradesh Information Commission",
+          "abbrev": "APIC",
+          "url": "https://sic.ap.gov.in",
+          "note": "Hears appeals and complaints under the Right to Information Act."
+        },
+        {
+          "name": "Andhra Pradesh State Consumer Dispute Redressal Commission",
+          "abbrev": "APSCDRC",
+          "url": "https://scdrc.ap.nic.in",
+          "note": "State-level appellate body for consumer dispute redressal."
+        },
+        {
+          "name": "Andhra Pradesh Vigilance Commission",
+          "abbrev": "APVC",
+          "url": "https://apvc.ap.nic.in",
+          "note": "Advises the government on vigilance and anti-corruption matters."
+        }
+      ],
+      "source_url": "https://igod.gov.in/sg/AP/E013/organizations",
+      "source_title": "Integrated Government Online Directory : State / UT Government : Andhra Pradesh : Commissions/ Committees",
+      "as_of": "2026-09-22"
+    },
     "ministries": {
       "count": 45,
       "items": [
@@ -19204,84 +19236,6 @@
       "source_title": "Departments - Jammu and Kashmir - Integrated Government Online Directory",
       "as_of": "2026-09-21"
     },
-    "commissions": {
-      "count": 15,
-      "items": [
-        {
-          "name": "Jammu and Kashmir Public Service Commission (JKPSC)",
-          "type": "constitutional/statutory recruitment commission",
-          "basis": "Article 315; J&K Reorganisation Act, 2019"
-        },
-        {
-          "name": "Jammu and Kashmir Services Selection Board (JKSSB)",
-          "type": "statutory subordinate-services recruitment board"
-        },
-        {
-          "name": "Joint Electricity Regulatory Commission for UT of Jammu & Kashmir and UT of Ladakh (JERC)",
-          "type": "power regulator",
-          "basis": "Electricity Act, 2003 s.83; constituted 2020, replacing wound-up J&K SERC"
-        },
-        {
-          "name": "Jammu and Kashmir Water Resources Regulatory Authority (JKWRRA)",
-          "type": "water regulator",
-          "basis": "J&K Water Resources (Regulation and Management) Act, 2010 s.139; revived 2023"
-        },
-        {
-          "name": "Jammu and Kashmir Pollution Control Committee (JKPCC)",
-          "type": "environment regulator",
-          "basis": "Water Act, 1974 / Air Act, 1981; est. 08-03-1987"
-        },
-        {
-          "name": "Jammu and Kashmir Real Estate Regulatory Authority (J&K RERA)",
-          "type": "real-estate regulator",
-          "basis": "Real Estate (Regulation and Development) Act, 2016 extended to J&K post-2019"
-        },
-        {
-          "name": "Jammu and Kashmir State Consumer Disputes Redressal Commission",
-          "type": "consumer commission",
-          "basis": "Consumer Protection Act, 2019 (old SCDRC wound up 31-10-2019, reconstituted under central Act)"
-        },
-        {
-          "name": "Jammu and Kashmir State Election Commission",
-          "type": "local-body election authority",
-          "basis": "J&K Panchayati Raj Act / Municipal laws"
-        },
-        {
-          "name": "Jammu and Kashmir Commission for Protection of Child Rights",
-          "type": "child-rights commission",
-          "basis": "CPCR Act, 2005; J&K Rules 2022; selection under constitution, HC cleared appointments July 2025"
-        },
-        {
-          "name": "Jammu and Kashmir Socially and Educationally Backward Classes Commission",
-          "type": "backward-classes commission"
-        },
-        {
-          "name": "Jammu and Kashmir State Legal Services Authority (JKSLSA)",
-          "type": "legal-services authority",
-          "basis": "Legal Services Authorities Act, 1987"
-        },
-        {
-          "name": "Jammu and Kashmir Building and Other Construction Workers Welfare Board",
-          "type": "labour welfare board",
-          "basis": "BOCW Act, 1996"
-        },
-        {
-          "name": "Jammu and Kashmir Waqf Board",
-          "type": "waqf regulator",
-          "basis": "Waqf Act, 1995"
-        },
-        {
-          "name": "Jammu and Kashmir Board of Professional Entrance Examinations (JKBOPEE)",
-          "type": "entrance-examinations board"
-        },
-        {
-          "note": "Seven pre-2019 state commissions (Human Rights, Information, Consumer, Electricity, Women-and-Child, Disabilities, Accountability) were wound up w.e.f. 31-10-2019 vide GAD order 23-10-2019; jurisdiction now with corresponding national/central bodies (NHRC, CIC, NCW, NCPCR) except where reconstituted above"
-        }
-      ],
-      "source_url": "https://jk.gov.in/",
-      "source_title": null,
-      "as_of": null
-    },
     "ministries": {
       "count": 42,
       "items": [
@@ -26276,72 +26230,30 @@
       "as_of": "2026-09-22"
     },
     "commissions": {
-      "count": 12,
+      "count": 3,
       "items": [
         {
-          "name": "Ladakh Autonomous Hill Development Council, Leh (LAHDC-Leh)",
-          "statute": "Ladakh Autonomous Hill Development Councils Act, 1997",
-          "source": "https://ladakh.gov.in/election-department/"
+          "name": "State Consumer Disputes Redressal Commission, Union Territory of Ladakh",
+          "abbrev": null,
+          "url": null,
+          "note": "UT-level quasi-judicial commission for consumer complaints and appeals under the Consumer Protection Act, 2019."
         },
         {
-          "name": "Ladakh Autonomous Hill Development Council, Kargil (LAHDC-Kargil)",
-          "statute": "Ladakh Autonomous Hill Development Councils Act, 1997",
-          "source": "https://ladakh.gov.in/election-department/"
+          "name": "District Consumer Disputes Redressal Commission, Leh",
+          "abbrev": null,
+          "url": null,
+          "note": "District-level commission deciding consumer complaints for Leh district."
         },
         {
-          "name": "Ladakh Legal Services Authority (with District Legal Services Authorities, Leh and Kargil)",
-          "statute": "Legal Services Authorities Act, 1987",
-          "source": "https://ladakh.gov.in/law-and-justice/"
-        },
-        {
-          "name": "Motor Accidents Claims Tribunals, Leh and Kargil",
-          "statute": "Motor Vehicles Act, 1988",
-          "source": "https://ladakh.gov.in/law-and-justice/"
-        },
-        {
-          "name": "Industrial / Labour Tribunal, Ladakh",
-          "statute": "Industrial Disputes Act, 1947",
-          "source": "https://ladakh.gov.in/law-and-justice/"
-        },
-        {
-          "name": "Joint Electricity Regulatory Commission for the UT of Jammu & Kashmir and the UT of Ladakh",
-          "statute": "Electricity Act, 2003",
-          "source": "https://ladakh.gov.in/power-development-department/"
-        },
-        {
-          "name": "Ladakh Pollution Control Committee",
-          "statute": "Water (Prevention and Control of Pollution) Act, 1974; Air (Prevention and Control of Pollution) Act, 1981",
-          "source": "https://ladakh.gov.in/forest-ecology-environment-department/"
-        },
-        {
-          "name": "Ladakh Biodiversity Council",
-          "statute": "Biological Diversity Act, 2002",
-          "source": "https://ladakh.gov.in/forest-ecology-environment-department/"
-        },
-        {
-          "name": "Wetland Authority of UT Ladakh",
-          "statute": "Wetlands (Conservation and Management) Rules, 2017",
-          "source": "https://ladakh.gov.in/forest-ecology-environment-department/"
-        },
-        {
-          "name": "State Environment Impact Assessment Authority (SEIAA), Ladakh",
-          "statute": "Environment (Protection) Act, 1986; EIA Notification, 2006",
-          "source": "https://ladakh.gov.in/forest-ecology-environment-department/"
-        },
-        {
-          "name": "State Board for Wildlife, Ladakh",
-          "statute": "Wild Life (Protection) Act, 1972",
-          "source": "https://ladakh.gov.in/forest-ecology-environment-department/"
-        },
-        {
-          "name": "Ladakh Building and Other Construction Workers Welfare Board",
-          "statute": "Building and Other Construction Workers (Regulation of Employment and Conditions of Service) Act, 1996",
-          "source": "https://ladakh.gov.in/labour-department/"
+          "name": "District Consumer Disputes Redressal Commission, Kargil",
+          "abbrev": null,
+          "url": null,
+          "note": "District-level commission deciding consumer complaints for Kargil district."
         }
       ],
-      "source_url": "https://ladakh.gov.in/",
-      "source_title": null,
-      "as_of": null
+      "source_url": "https://ladakh.gov.in/food-civil-supplies-consumer-affairs/",
+      "source_title": "FOOD CIVIL SUPPLIES & CONSUMER AFFAIRS | The Administration of Union Territory of Ladakh | India",
+      "as_of": "2026-09-22"
     },
     "ministries": {
       "count": 31,
@@ -27124,6 +27036,62 @@
       "source_url": "https://igod.gov.in/sg/LD/E003/organizations",
       "source_title": "Integrated Government Online Directory : State / UT Government : Lakshadweep : Departments",
       "as_of": "2026-09-21"
+    },
+    "commissions": {
+      "count": 8,
+      "items": [
+        {
+          "name": "State Consumer Disputes Redressal Commission, U.T. of Lakshadweep",
+          "abbrev": "SCDRC",
+          "url": null,
+          "note": "UT-level consumer disputes commission under the Consumer Protection Act; notices issued by the UT Administration."
+        },
+        {
+          "name": "District Consumer Disputes Redressal Commission, U.T. of Lakshadweep",
+          "abbrev": "DCDRC",
+          "url": null,
+          "note": "District-level consumer disputes redressal commission for the islands."
+        },
+        {
+          "name": "Lakshadweep Pollution Control Committee",
+          "abbrev": "LPCC",
+          "url": "https://lpcc.utl.gov.in/",
+          "note": "Enforces water, air and environment protection laws in the UT under CPCB-delegated powers."
+        },
+        {
+          "name": "Joint Electricity Regulatory Commission for the State of Goa and Union Territories",
+          "abbrev": "JERC",
+          "url": "https://jercuts.gov.in/",
+          "note": "Regulates electricity tariffs and licensing for Lakshadweep among other UTs under the Electricity Act, 2003."
+        },
+        {
+          "name": "UT of Lakshadweep Legal Services Authority",
+          "abbrev": null,
+          "url": null,
+          "note": "Statutory body for free legal services and Lok Adalats under the Legal Services Authorities Act, 1987."
+        },
+        {
+          "name": "Lakshadweep Coastal Zone Management Authority",
+          "abbrev": "LCZMA",
+          "url": null,
+          "note": "Recommends CRZ clearances and monitors Island Protection Zone compliance in the islands."
+        },
+        {
+          "name": "Lakshadweep Wakf Board",
+          "abbrev": null,
+          "url": null,
+          "note": "Administers wakfs in the UT under the Wakf Act, 1995."
+        },
+        {
+          "name": "Election Commission, Union Territory of Lakshadweep",
+          "abbrev": null,
+          "url": null,
+          "note": "Superintendence of Village (Dweep) and District Panchayat elections under the Lakshadweep Panchayats Regulation, 2022."
+        }
+      ],
+      "source_url": "https://lakshadweep.gov.in/",
+      "source_title": "Official Website of Union Territory of Lakshadweep | India",
+      "as_of": "2026-09-22"
     },
     "ministries": {
       "count": 20,
@@ -45984,6 +45952,110 @@
       "source_title": null,
       "as_of": null
     },
+    "commissions": {
+      "count": 16,
+      "items": [
+        {
+          "name": "Tamil Nadu Public Service Commission",
+          "abbrev": "TNPSC",
+          "url": "http://www.tnpsc.gov.in/",
+          "note": "Recruits to state civil services and posts through competitive examinations."
+        },
+        {
+          "name": "Tamil Nadu State Election Commission",
+          "abbrev": "TNSEC",
+          "url": "https://tnsec.tn.nic.in/tnsec_static/index_eng.php",
+          "note": "Conducts elections to rural and urban local bodies in the state."
+        },
+        {
+          "name": "Tamil Nadu State Information Commission",
+          "abbrev": "TNSIC",
+          "url": "http://www.tnsic.gov.in/",
+          "note": "Hears RTI second appeals and complaints against Tamil Nadu public authorities."
+        },
+        {
+          "name": "State Human Rights Commission",
+          "abbrev": "SHRC",
+          "url": "http://www.shrc.tn.gov.in/",
+          "note": "Inquires into human rights violations by public authorities in the state."
+        },
+        {
+          "name": "Tamil Nadu Electricity Regulatory Commission",
+          "abbrev": "TNERC",
+          "url": "http://www.tnerc.gov.in/",
+          "note": "Regulates electricity tariffs, licensing and the power sector."
+        },
+        {
+          "name": "State Planning Commission",
+          "abbrev": "SPC",
+          "url": "https://spc.tn.gov.in/",
+          "note": "Advisory body for state planning, policy and development schemes."
+        },
+        {
+          "name": "Tamil Nadu State Commission for Women",
+          "abbrev": "TNSCW",
+          "url": "https://tnwomencommission.tn.gov.in",
+          "note": "Statutory body dealing with crimes against women and women's rights."
+        },
+        {
+          "name": "Tamil Nadu Backward Classes Commission",
+          "abbrev": "TNBCC",
+          "url": "https://www.bcc.tn.gov.in/",
+          "note": "Advises on BC/MBC lists, reservations and inclusion complaints."
+        },
+        {
+          "name": "Tamil Nadu State Minorities Commission",
+          "abbrev": null,
+          "url": null,
+          "note": "Safeguards the interests of minority communities in the state."
+        },
+        {
+          "name": "Tamil Nadu State Commission for the Scheduled Castes and Scheduled Tribes",
+          "abbrev": null,
+          "url": null,
+          "note": "Safeguards the rights and welfare of SCs and STs (TN Act 17 of 2021)."
+        },
+        {
+          "name": "State Commissioner for Protection of Child Rights",
+          "abbrev": "SCPCR",
+          "url": null,
+          "note": "Monitors child rights and CPCR Act implementation in the state."
+        },
+        {
+          "name": "State Finance Commission",
+          "abbrev": "TNSFC",
+          "url": "https://www.tn.gov.in/tnsfc/",
+          "note": "Recommends fiscal devolution from the state to local bodies."
+        },
+        {
+          "name": "Tamil Nadu State Co-operative Societies Election Commission",
+          "abbrev": null,
+          "url": "http://www.coopelection.tn.gov.in/",
+          "note": "Conducts elections to co-operative societies in the state."
+        },
+        {
+          "name": "Tamil Nadu Pollution Control Board",
+          "abbrev": "TNPCB",
+          "url": "http://www.tnpcb.gov.in/",
+          "note": "Enforces pollution control and grants environmental consents."
+        },
+        {
+          "name": "Tamil Nadu Real Estate Regulatory Authority",
+          "abbrev": "TNRERA",
+          "url": "https://rera.tn.gov.in",
+          "note": "Registers real estate projects and agents; redresses buyer complaints."
+        },
+        {
+          "name": "Tamil Nadu Lokayukta",
+          "abbrev": null,
+          "url": null,
+          "note": "Anti-corruption ombudsman under the TN Lokayukta Act, 2018."
+        }
+      ],
+      "source_url": "https://www.tn.gov.in/impweb_view.php?dep_id=QWxs",
+      "source_title": "Important Websites - Government of Tamil Nadu (cross-verified with TN portal department profiles and IGOD Tamil Nadu directory)",
+      "as_of": "2026-09-22"
+    },
     "ministries": {
       "count": 42,
       "items": [
@@ -49292,48 +49364,258 @@
       "as_of": null
     },
     "commissions": {
-      "count": 36,
+      "count": 41,
       "items": [
-        "National Human Rights Commission (NHRC) - Protection of Human Rights Act, 1993",
-        "National Commission for Women (NCW) - National Commission for Women Act, 1990",
-        "National Commission for Minorities (NCM) - National Commission for Minorities Act, 1992",
-        "National Commission for Protection of Child Rights (NCPCR) - Commissions for Protection of Child Rights Act, 2005",
-        "Chief Commissioner for Persons with Disabilities - Rights of Persons with Disabilities Act, 2016",
-        "Central Information Commission (CIC) - Right to Information Act, 2005",
-        "Central Vigilance Commission (CVC) - Central Vigilance Commission Act, 2003",
-        "National Consumer Disputes Redressal Commission (NCDRC) - Consumer Protection Act, 2019",
-        "Competition Commission of India (CCI) - Competition Act, 2002",
-        "Securities and Exchange Board of India (SEBI) - SEBI Act, 1992",
-        "Reserve Bank of India (RBI) - RBI Act, 1934",
-        "Insurance Regulatory and Development Authority of India (IRDAI) - IRDAI Act, 1999",
-        "Pension Fund Regulatory and Development Authority (PFRDA) - PFRDA Act, 2013",
-        "Insolvency and Bankruptcy Board of India (IBBI) - Insolvency and Bankruptcy Code, 2016",
-        "Telecom Regulatory Authority of India (TRAI) - TRAI Act, 1997",
-        "Central Electricity Regulatory Commission (CERC) - Electricity Act, 2003",
-        "Petroleum and Natural Gas Regulatory Board (PNGRB) - PNGRB Act, 2006",
-        "Airports Economic Regulatory Authority of India (AERA) - AERA Act, 2008",
-        "Warehousing Development and Regulatory Authority (WDRA) - WDRA Act, 2007",
-        "Food Safety and Standards Authority of India (FSSAI) - Food Safety and Standards Act, 2006",
-        "Central Pollution Control Board (CPCB) - Water Act, 1974 and Air Act, 1981",
-        "National Biodiversity Authority (NBA) - Biological Diversity Act, 2002",
-        "National Tiger Conservation Authority (NTCA) - Wildlife (Protection) Amendment Act, 2006",
-        "University Grants Commission (UGC) - UGC Act, 1956",
-        "All India Council for Technical Education (AICTE) - AICTE Act, 1987",
-        "National Medical Commission (NMC) - NMC Act, 2019",
-        "National Commission for Indian System of Medicine (NCISM) - NCISM Act, 2020",
-        "National Commission for Homoeopathy (NCH) - NCH Act, 2020",
-        "National Dental Commission (NDC) - National Dental Commission Act, 2023",
-        "National Nursing and Midwifery Commission (NNMC) - NNMC Act, 2023",
-        "National Commission for Allied and Healthcare Professions (NCAHP) - NCAHP Act, 2021",
-        "Pharmacy Council of India (PCI-Pharmacy) - Pharmacy Act, 1948",
-        "Bar Council of India (BCI) - Advocates Act, 1961",
-        "Press Council of India (PCI-Press) - Press Council Act, 1978",
-        "Rehabilitation Council of India (RCI) - RCI Act, 1992",
-        "Council of Architecture (CoA) - Architects Act, 1972"
+        {
+          "name": "National Human Rights Commission",
+          "abbrev": "NHRC",
+          "url": "https://nhrc.nic.in",
+          "note": "Protects and promotes human rights across India."
+        },
+        {
+          "name": "National Commission for Women",
+          "abbrev": "NCW",
+          "url": "https://www.ncw.gov.in",
+          "note": "Safeguards women's rights and advises on policy."
+        },
+        {
+          "name": "National Commission for Minorities",
+          "abbrev": "NCM",
+          "url": "https://ncm.nic.in",
+          "note": "Safeguards rights of minority communities."
+        },
+        {
+          "name": "National Commission for Scheduled Castes",
+          "abbrev": "NCSC",
+          "url": "https://ncsc.nic.in",
+          "note": "Monitors safeguards for Scheduled Castes."
+        },
+        {
+          "name": "National Commission for Scheduled Tribes",
+          "abbrev": "NCST",
+          "url": "https://ncst.nic.in",
+          "note": "Monitors safeguards for Scheduled Tribes."
+        },
+        {
+          "name": "National Commission for Backward Classes",
+          "abbrev": "NCBC",
+          "url": "https://ncbc.nic.in",
+          "note": "Addresses welfare and inclusion of backward classes."
+        },
+        {
+          "name": "National Commission for Protection of Child Rights",
+          "abbrev": "NCPCR",
+          "url": "https://ncpcr.gov.in",
+          "note": "Protects child rights and monitors child-related laws."
+        },
+        {
+          "name": "National Commission for Safai Karamcharis",
+          "abbrev": "NCSK",
+          "url": "https://ncsk.nic.in",
+          "note": "Safeguards welfare of sanitation workers."
+        },
+        {
+          "name": "Office of the Chief Commissioner for Persons with Disabilities",
+          "abbrev": "CCPD",
+          "url": "https://ccpd.nic.in",
+          "note": "Safeguards rights of persons with disabilities."
+        },
+        {
+          "name": "Central Information Commission",
+          "abbrev": "CIC",
+          "url": "https://cic.gov.in",
+          "note": "Decides RTI appeals and oversees transparency compliance."
+        },
+        {
+          "name": "Central Vigilance Commission",
+          "abbrev": "CVC",
+          "url": "https://cvc.gov.in",
+          "note": "Apex vigilance institution for anti-corruption oversight."
+        },
+        {
+          "name": "National Consumer Disputes Redressal Commission",
+          "abbrev": "NCDRC",
+          "url": "https://ncdrc.nic.in",
+          "note": "Apex forum for consumer dispute appeals."
+        },
+        {
+          "name": "Competition Commission of India",
+          "abbrev": "CCI",
+          "url": "https://www.cci.gov.in",
+          "note": "Enforces competition law against anti-competitive practices."
+        },
+        {
+          "name": "Law Commission of India",
+          "abbrev": null,
+          "url": "https://lawcommissionofindia.nic.in",
+          "note": "Advises the government on legal reform."
+        },
+        {
+          "name": "National Statistical Commission",
+          "abbrev": "NSC",
+          "url": "https://nsc.mospi.gov.in",
+          "note": "Oversees official statistics policy and standards."
+        },
+        {
+          "name": "Khadi and Village Industries Commission",
+          "abbrev": "KVIC",
+          "url": "https://www.kvic.gov.in",
+          "note": "Plans and promotes khadi and village industries."
+        },
+        {
+          "name": "Delhi Urban Art Commission",
+          "abbrev": "DUAC",
+          "url": "https://www.duac.org.in",
+          "note": "Advises on aesthetics of urban development in Delhi."
+        },
+        {
+          "name": "Commission for Air Quality Management in National Capital Region and Adjoining Areas",
+          "abbrev": "CAQM",
+          "url": "https://caqm.nic.in",
+          "note": "Coordinates air quality management in the NCR."
+        },
+        {
+          "name": "National Medical Commission",
+          "abbrev": "NMC",
+          "url": "https://www.nmc.org.in",
+          "note": "Regulates medical education and practice."
+        },
+        {
+          "name": "National Commission for Homoeopathy",
+          "abbrev": "NCH",
+          "url": "https://nch.org.in",
+          "note": "Regulates homoeopathy education and practice."
+        },
+        {
+          "name": "National Commission for Indian System of Medicine",
+          "abbrev": "NCISM",
+          "url": "https://ncismindia.org",
+          "note": "Regulates Ayurveda, Unani and Siddha education."
+        },
+        {
+          "name": "National Commission for Allied and Healthcare Professions",
+          "abbrev": "NCAHP",
+          "url": "https://ncahp.abdm.gov.in",
+          "note": "Regulates allied and healthcare professions."
+        },
+        {
+          "name": "Indian Pharmacopoeia Commission",
+          "abbrev": "IPC",
+          "url": "https://ipc.gov.in",
+          "note": "Sets standards for drug quality."
+        },
+        {
+          "name": "Pharmacopoeia Commission for Indian Medicine and Homoeopathy",
+          "abbrev": "PCIMH",
+          "url": "https://pcimh.gov.in",
+          "note": "Sets standards for AYUSH drugs."
+        },
+        {
+          "name": "Central Electricity Regulatory Commission",
+          "abbrev": "CERC",
+          "url": "https://cercind.gov.in",
+          "note": "Regulates interstate power tariffs and trade."
+        },
+        {
+          "name": "Joint Electricity Regulatory Commission",
+          "abbrev": "JERC",
+          "url": "https://jercuts.gov.in",
+          "note": "Electricity regulator for UTs and small states."
+        },
+        {
+          "name": "Forum of Regulators",
+          "abbrev": "FOR",
+          "url": "https://forumofregulators.gov.in",
+          "note": "Coordinates electricity regulatory commissions."
+        },
+        {
+          "name": "National Dam Safety Authority",
+          "abbrev": "NDSA",
+          "url": "https://ndsa.gov.in",
+          "note": "Regulates dam safety nationwide."
+        },
+        {
+          "name": "Adjudicatory Board for Major Ports",
+          "abbrev": "ABMP",
+          "url": "https://abmp.gov.in",
+          "note": "Adjudicates major port tariffs and disputes."
+        },
+        {
+          "name": "Reserve Bank of India",
+          "abbrev": "RBI",
+          "url": "https://www.rbi.org.in",
+          "note": "Central bank regulating money, banking and forex."
+        },
+        {
+          "name": "Securities and Exchange Board of India",
+          "abbrev": "SEBI",
+          "url": "https://www.sebi.gov.in",
+          "note": "Regulates securities markets and protects investors."
+        },
+        {
+          "name": "Insurance Regulatory and Development Authority of India",
+          "abbrev": "IRDAI",
+          "url": "https://irdai.gov.in",
+          "note": "Regulates the insurance industry."
+        },
+        {
+          "name": "Pension Fund Regulatory and Development Authority",
+          "abbrev": "PFRDA",
+          "url": "https://www.pfrda.org.in",
+          "note": "Regulates pension funds and the NPS."
+        },
+        {
+          "name": "International Financial Services Centres Authority",
+          "abbrev": "IFSCA",
+          "url": "https://www.ifsca.gov.in",
+          "note": "Regulates financial services in IFSCs."
+        },
+        {
+          "name": "Telecom Regulatory Authority of India",
+          "abbrev": "TRAI",
+          "url": "https://www.trai.gov.in",
+          "note": "Regulates telecom and broadcasting services."
+        },
+        {
+          "name": "Airports Economic Regulatory Authority",
+          "abbrev": "AERA",
+          "url": "https://aera.gov.in",
+          "note": "Regulates tariffs at major airports."
+        },
+        {
+          "name": "Food Safety and Standards Authority of India",
+          "abbrev": "FSSAI",
+          "url": "https://fssai.gov.in",
+          "note": "Regulates food safety and standards."
+        },
+        {
+          "name": "Central Pollution Control Board",
+          "abbrev": "CPCB",
+          "url": "https://cpcb.gov.in",
+          "note": "Monitors and controls air and water pollution."
+        },
+        {
+          "name": "Bureau of Indian Standards",
+          "abbrev": "BIS",
+          "url": "https://bis.gov.in",
+          "note": "National body for standards and certification."
+        },
+        {
+          "name": "All India Council for Technical Education",
+          "abbrev": "AICTE",
+          "url": "https://aicte.gov.in",
+          "note": "Regulates technical and management education."
+        },
+        {
+          "name": "National Council for Teacher Education",
+          "abbrev": "NCTE",
+          "url": "https://ncte.gov.in",
+          "note": "Regulates teacher education programmes."
+        }
       ],
-      "source_url": "https://www.india.gov.in/",
-      "source_title": null,
-      "as_of": null
+      "source_url": "https://igod.gov.in/ug/E013/organizations",
+      "source_title": "Integrated Government Online Directory : Union Government : Commissions/ Committees",
+      "as_of": "2026-09-21"
     },
     "ministries": {
       "count": 55,
@@ -52901,6 +53183,316 @@
         "ZPP"
       ],
       "source_url": "https://warangal.telangana.gov.in/departments/",
+      "source_title": null,
+      "as_of": null
+    }
+  },
+  "wardha--maharashtra": {
+    "agencies": {
+      "count": 50,
+      "items": [
+        "Office of the District Collector and District Magistrate, Wardha",
+        "Wardha Zilla Parishad",
+        "Office of the Superintendent of Police, Wardha (Wardha District Police)",
+        "Sub-Divisional Magistrate Office, Wardha",
+        "Sub-Divisional Magistrate Office, Arvi",
+        "Sub-Divisional Magistrate Office, Hinganghat",
+        "Tehsil Office (Tehsildar), Wardha",
+        "Tehsil Office (Tehsildar), Deoli",
+        "Tehsil Office (Tehsildar), Seloo",
+        "Tehsil Office (Tehsildar), Arvi",
+        "Tehsil Office (Tehsildar), Ashti",
+        "Tehsil Office (Tehsildar), Karanja",
+        "Tehsil Office (Tehsildar), Hinganghat",
+        "Tehsil Office (Tehsildar), Samudrapur",
+        "Panchayat Samiti / Block Development Office, Wardha",
+        "Panchayat Samiti / Block Development Office, Deoli",
+        "Panchayat Samiti / Block Development Office, Seloo",
+        "Panchayat Samiti / Block Development Office, Arvi",
+        "Panchayat Samiti / Block Development Office, Ashti",
+        "Panchayat Samiti / Block Development Office, Karanja",
+        "Panchayat Samiti / Block Development Office, Hinganghat",
+        "Panchayat Samiti / Block Development Office, Samudrapur",
+        "Municipal Council, Wardha",
+        "Municipal Council, Hinganghat",
+        "Municipal Council, Arvi",
+        "Municipal Council, Pulgaon",
+        "Municipal Council, Deoli",
+        "Municipal Council, Sindi",
+        "Nagar Panchayat, Ashti",
+        "Nagar Panchayat, Seloo",
+        "Nagar Panchayat, Karanja",
+        "Nagar Panchayat, Samudrapur",
+        "District Planning Office / District Planning Committee (DPDC), Wardha",
+        "District Industries Centre (DIC), Wardha",
+        "District Treasury Office, Wardha",
+        "District Election Office, Wardha",
+        "District Supply Office (Food, Civil Supplies and Consumer Protection), Wardha",
+        "District Health Office and Civil Hospital, Wardha",
+        "District Agriculture Office (Superintendent Agriculture Officer), Wardha",
+        "Education Department - Education Officer (Primary/Secondary), Zilla Parishad Wardha",
+        "Regional Transport Office (RTO MH-32), Wardha",
+        "Stamps and Registration - Sub-Registrar Offices, Wardha district (Nagpur Region)",
+        "Public Works Division (PWD), Wardha",
+        "Irrigation Division, Wardha (Vidarbha Irrigation Development Corporation)",
+        "Forest Division and Bor Tiger Reserve, Wardha",
+        "District Women and Child Development Office, Wardha",
+        "District Social Welfare Office, Wardha",
+        "District Water Supply and Sanitation Unit, Zilla Parishad Wardha",
+        "District Employment Exchange and Skill Development Office, Wardha",
+        "District Animal Husbandry Office, Wardha"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Wardha_district",
+      "source_title": null,
+      "as_of": null
+    }
+  },
+  "washim--maharashtra": {
+    "agencies": {
+      "count": 40,
+      "items": [
+        {
+          "name": "District Collectorate and District Magistrate Office, Washim",
+          "abbrev": null,
+          "url": null,
+          "note": "Revenue administration, land matters, law and order, elections and disaster management for the district."
+        },
+        {
+          "name": "Washim Zilla Parishad",
+          "abbrev": "ZP Washim",
+          "url": null,
+          "note": "Rural development, panchayat raj, primary education, rural health and rural water supply."
+        },
+        {
+          "name": "District Police, Washim (Superintendent of Police)",
+          "abbrev": null,
+          "url": null,
+          "note": "Law enforcement, crime control and traffic management across the district."
+        },
+        {
+          "name": "District and Sessions Court, Washim",
+          "abbrev": null,
+          "url": null,
+          "note": "Principal district judiciary for civil and criminal cases."
+        },
+        {
+          "name": "Sub-Divisional and Tehsil Offices (Washim, Risod, Malegaon, Mangrulpir, Karanja, Manora)",
+          "abbrev": null,
+          "url": null,
+          "note": "Sub-district revenue administration, land records, certificates and welfare delivery."
+        },
+        {
+          "name": "Municipal Councils and Nagar Panchayats (Washim, Karanja Lad, Mangrulpir, Risod)",
+          "abbrev": null,
+          "url": null,
+          "note": "Urban civic administration, water supply, sanitation and town services."
+        },
+        {
+          "name": "Office of the Civil Surgeon and District Civil Hospital, Washim",
+          "abbrev": null,
+          "url": null,
+          "note": "Curative health services and district hospital administration."
+        },
+        {
+          "name": "District Health Office (District Health Officer, ZP Washim)",
+          "abbrev": "DHO",
+          "url": null,
+          "note": "Public health, primary health centres and national health programmes."
+        },
+        {
+          "name": "District Agriculture Office (District Superintendent Agriculture Officer)",
+          "abbrev": "DSAO",
+          "url": null,
+          "note": "Agriculture extension, crop schemes, inputs and farmer welfare."
+        },
+        {
+          "name": "Animal Husbandry Department (Deputy Commissioner, Animal Husbandry)",
+          "abbrev": null,
+          "url": null,
+          "note": "Veterinary hospitals, livestock development and dairy schemes."
+        },
+        {
+          "name": "Education Department (Education Officer Primary and Secondary, ZP; DIET Washim)",
+          "abbrev": null,
+          "url": null,
+          "note": "School education administration and teacher training in the district."
+        },
+        {
+          "name": "Public Works Department, Washim Division",
+          "abbrev": "PWD",
+          "url": null,
+          "note": "Construction and maintenance of roads, bridges and government buildings."
+        },
+        {
+          "name": "Rural Water Supply and Sanitation (ZP) and Maharashtra Jeevan Pradhikaran",
+          "abbrev": "MJP",
+          "url": null,
+          "note": "Drinking water supply schemes and sanitation programmes."
+        },
+        {
+          "name": "Water Resources / Irrigation Division, Washim",
+          "abbrev": null,
+          "url": null,
+          "note": "Irrigation projects, canals, minor irrigation and water management."
+        },
+        {
+          "name": "Forest Department, Washim Division (including Karanja Sohol Wildlife Sanctuary)",
+          "abbrev": null,
+          "url": null,
+          "note": "Forest protection, wildlife management and social forestry."
+        },
+        {
+          "name": "District Social Welfare Office",
+          "abbrev": null,
+          "url": null,
+          "note": "Welfare schemes for scheduled castes, backward classes and persons with disabilities."
+        },
+        {
+          "name": "Women and Child Development Office and ICDS, Washim",
+          "abbrev": "WCD",
+          "url": null,
+          "note": "Anganwadis, nutrition, and women and child welfare schemes."
+        },
+        {
+          "name": "Tribal Development Project Office, Washim",
+          "abbrev": null,
+          "url": null,
+          "note": "Welfare and development schemes for scheduled tribes."
+        },
+        {
+          "name": "Food, Civil Supplies and Consumer Protection (District Supply Officer)",
+          "abbrev": null,
+          "url": null,
+          "note": "Public distribution system, rationing and consumer grievance redressal."
+        },
+        {
+          "name": "District Industries Centre, Washim",
+          "abbrev": "DIC",
+          "url": null,
+          "note": "Promotion of micro, small and medium enterprises and industrial schemes."
+        },
+        {
+          "name": "Co-operation Department (Deputy Registrar, Co-operative Societies)",
+          "abbrev": null,
+          "url": null,
+          "note": "Registration, audit and regulation of co-operative societies."
+        },
+        {
+          "name": "District Skill Development, Employment and Entrepreneurship Centre",
+          "abbrev": null,
+          "url": null,
+          "note": "Employment exchange, career guidance and skill development programmes."
+        },
+        {
+          "name": "Land Records Department (District Superintendent of Land Records)",
+          "abbrev": null,
+          "url": null,
+          "note": "Land survey, measurement and maintenance of land records."
+        },
+        {
+          "name": "Town Planning Department (Assistant Director of Town Planning)",
+          "abbrev": null,
+          "url": null,
+          "note": "Urban planning, development plans and building layout approvals."
+        },
+        {
+          "name": "State Excise Department, Washim",
+          "abbrev": null,
+          "url": null,
+          "note": "Excise licensing, enforcement and prohibition-related duties."
+        },
+        {
+          "name": "Regional Transport Office, Washim (MH-37)",
+          "abbrev": "RTO",
+          "url": null,
+          "note": "Vehicle registration, driving licences and road safety enforcement."
+        },
+        {
+          "name": "Maharashtra State Electricity Distribution Company, Washim Division",
+          "abbrev": "MSEDCL",
+          "url": null,
+          "note": "Electricity distribution, billing and rural electrification."
+        },
+        {
+          "name": "District Information Office, Washim",
+          "abbrev": "DIO",
+          "url": null,
+          "note": "Government publicity, media relations and information dissemination."
+        },
+        {
+          "name": "District Election Office (Deputy District Election Officer)",
+          "abbrev": null,
+          "url": null,
+          "note": "Electoral rolls, voter services and conduct of elections."
+        },
+        {
+          "name": "District Disaster Management Authority and Cell",
+          "abbrev": "DDMA",
+          "url": null,
+          "note": "Disaster preparedness, mitigation, relief and emergency response."
+        },
+        {
+          "name": "District Planning Office and District Planning Committee",
+          "abbrev": "DPC",
+          "url": null,
+          "note": "District plan formulation, MLA/MPLAD and development fund coordination."
+        },
+        {
+          "name": "Fisheries Department (Assistant Commissioner of Fisheries)",
+          "abbrev": null,
+          "url": null,
+          "note": "Inland fisheries development and fisherfolk welfare schemes."
+        },
+        {
+          "name": "Horticulture Department (District Horticulture Officer)",
+          "abbrev": null,
+          "url": null,
+          "note": "Horticulture development, orchards and plantation schemes."
+        },
+        {
+          "name": "Soil and Water Conservation Department, Washim",
+          "abbrev": null,
+          "url": null,
+          "note": "Watershed development, soil conservation and water harvesting works."
+        },
+        {
+          "name": "Groundwater Survey and Development Agency, Washim",
+          "abbrev": "GSDA",
+          "url": null,
+          "note": "Groundwater assessment, monitoring and development regulation."
+        },
+        {
+          "name": "District Sports Office, Washim",
+          "abbrev": null,
+          "url": null,
+          "note": "Sports promotion, youth affairs and sports infrastructure."
+        },
+        {
+          "name": "Labour Department (Assistant Labour Commissioner)",
+          "abbrev": null,
+          "url": null,
+          "note": "Labour law enforcement, Shops and Establishments, and worker welfare."
+        },
+        {
+          "name": "District Legal Services Authority, Washim",
+          "abbrev": "DLSA",
+          "url": null,
+          "note": "Free legal aid, Lok Adalats and legal awareness programmes."
+        },
+        {
+          "name": "National Informatics Centre, District Centre Washim",
+          "abbrev": "NIC",
+          "url": null,
+          "note": "E-governance, district portal and IT support to administration."
+        },
+        {
+          "name": "District Treasury Office, Washim",
+          "abbrev": null,
+          "url": null,
+          "note": "Government receipts and payments, pensions and stamp administration."
+        }
+      ],
+      "source_url": "https://washim.gov.in/",
       "source_title": null,
       "as_of": null
     }
