@@ -18563,6 +18563,504 @@
       "as_of": "2026-06-23"
     }
   },
+  "kmc-kolkata": {
+    "agencies": {
+      "count": 40,
+      "items": [
+        {
+          "name": "Advertisement",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCAdvertisementHome.jsp",
+          "note": "Overall monitoring of outdoor advertisement"
+        },
+        {
+          "name": "Amusement",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCAmusementHome.jsp",
+          "note": "Issue of new amusement license, renewal letter and monitoring functions"
+        },
+        {
+          "name": "Assessment & Collection",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCAssessmentHome.jsp",
+          "note": "Assessment of land and buildings, Mutation and Collection of Property Tax"
+        },
+        {
+          "name": "Building",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCPortalBuildingHome.jsp",
+          "note": "Scrutinizing building plan, checking unauthorized construction and routine inspection"
+        },
+        {
+          "name": "Bustee Services",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCBSAndSSEPHome.jsp",
+          "note": "Carry out physical and social infrastructure development in the bustees of the City"
+        },
+        {
+          "name": "Car Parking",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCCarParking.jsp",
+          "note": "Responsible for arranging for parking spaces."
+        },
+        {
+          "name": "Central Records",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCCentralRecordsDeptFaqs.jsp",
+          "note": "To maintain all old records such as birth and death registration, sanctioned building plans, assessment registers, etc."
+        },
+        {
+          "name": "Ch. VS Department",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCCHVSDept.jsp?code=08&catCode=A",
+          "note": "Chief Valuer and Surveyor maintains records of all immovable assets of KMC and performs tasks requiring verification or information from those."
+        },
+        {
+          "name": "Education",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCSchoolsHome.jsp",
+          "note": "Imparting primary education and interacting with Government agencies and NGOs."
+        },
+        {
+          "name": "Election Office",
+          "abbrev": null,
+          "url": null,
+          "note": "Conducts elections of the Corporation."
+        },
+        {
+          "name": "Electricity",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/ElectricityContact.jsp",
+          "note": "Carries out works related to Electricity supply in the Corporation area."
+        },
+        {
+          "name": "Engineering (Civil)",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/Manholes.jsp",
+          "note": "Building and repairing of roads, removal of chokages, bustee development work, construction of public conveniences, etc."
+        },
+        {
+          "name": "Entally workshop",
+          "abbrev": null,
+          "url": null,
+          "note": "Production, repairing of different products required by various departments of KMC."
+        },
+        {
+          "name": "Estate",
+          "abbrev": null,
+          "url": null,
+          "note": "Survey and maintain records of the land and building owned by the KMC."
+        },
+        {
+          "name": "Finance and accounts",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/FinanceContact.jsp",
+          "note": "Carry out accounting of the activities of the Corporation and handling of the treasury."
+        },
+        {
+          "name": "Health",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCHealthServiceHome.jsp",
+          "note": "Provide preventive, curative and promotive health facilities like vaccination etc."
+        },
+        {
+          "name": "Info. & public relations",
+          "abbrev": null,
+          "url": null,
+          "note": "To maintain public relation, issue Advertisement for print and electronic media, organizing press conferences and coverage of various events."
+        },
+        {
+          "name": "Information Technology",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/ITContact.jsp",
+          "note": "Development and implementation of software across all departments of KMC including E-Kolkata Centres, Web Portal, ERP, MAS, KMC-NET, Data Centre, Disaster Recovery Centre etc."
+        },
+        {
+          "name": "Institute of Urban Management",
+          "abbrev": null,
+          "url": null,
+          "note": "Impart training on Computer, Administrative and work based training to the employees of KMC."
+        },
+        {
+          "name": "Internal Audit",
+          "abbrev": null,
+          "url": null,
+          "note": "Scrutinize and vet audit replies to statutory auditors and conduct special audits, investigations and enquiries assigned by MC, JMC, etc."
+        },
+        {
+          "name": "Law",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/LawContact.jsp",
+          "note": "Deal with legal matters and provide legal opinion to the different departments of KMC."
+        },
+        {
+          "name": "License",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCCEHome.jsp",
+          "note": "Issue of new trade licenses, renewal of old/expired trade licenses, issuing temporary licenses and raising demands for Trade License."
+        },
+        {
+          "name": "Lighting",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCStreetLight.jsp",
+          "note": "Operation and maintenance of street lights, installation of new street lighting systems, maintain lighting of markets and institutions."
+        },
+        {
+          "name": "Market",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCMarketHome.jsp",
+          "note": "Construction and maintenance of Municipal Markets."
+        },
+        {
+          "name": "Municipal Secretary's department",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/MplSecretaryContact.jsp",
+          "note": "Carry out secretarial functions of the Corporation."
+        },
+        {
+          "name": "Municipal Service Commission",
+          "abbrev": null,
+          "url": null,
+          "note": "Carry out the recruitment for the Corporation."
+        },
+        {
+          "name": "Parks & Squares",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCParksGardens1.jsp",
+          "note": "Looks after the matters related to parks and squares in the city."
+        },
+        {
+          "name": "Personnel",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/PersonnelContact.jsp",
+          "note": "Initiating promotion, transfer proposal and attend court cases related to personnel matters."
+        },
+        {
+          "name": "Planning & Development",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/PlanningContact.jsp",
+          "note": "Initiate new projects, carry out technical and financial feasibility studies, monitor implementation of projects."
+        },
+        {
+          "name": "Printing",
+          "abbrev": null,
+          "url": null,
+          "note": "Print all types of forms, publications, registers and schedule books of the Corporation."
+        },
+        {
+          "name": "Environment & Heritage Department",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/HeritageBuildingHome.jsp",
+          "note": "Looks after issues like Geographical Information System, water bodies conservation, heritage conservation."
+        },
+        {
+          "name": "Roads and Asphaltum",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/RoadsContact.jsp",
+          "note": "Carrying out construction of new roads, underpasses and road maintenance."
+        },
+        {
+          "name": "Sewerage & Drainage",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCDrainageHome.jsp",
+          "note": "Manage and maintain the central sewerage and drainage lines under all major / arterial roads."
+        },
+        {
+          "name": "Social Welfare & Urban Poverty Alleviation Department",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCBSAndSSEPApplication.jsp?code=110&catCode=A",
+          "note": "Looks after social sector issues like family welfare, women empowerment, employment generation etc."
+        },
+        {
+          "name": "Solid Waste Management",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/SolidWaste.jsp",
+          "note": "Sweep streets, collect solid waste from households and collection points and transport to the dumping yard."
+        },
+        {
+          "name": "Supply",
+          "abbrev": null,
+          "url": null,
+          "note": "Material planning, procurement and storage of materials."
+        },
+        {
+          "name": "Town Planning Dept",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/TPContact.jsp",
+          "note": "Takes care of overall planning of the city."
+        },
+        {
+          "name": "Treasury Department",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/TreasuryContact.jsp",
+          "note": "Takes care of treasury of KMC."
+        },
+        {
+          "name": "Vigilance",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/Vigilance.jsp",
+          "note": "Investigate cases against employees on receipt of complaints from Councillors, citizens or any other source."
+        },
+        {
+          "name": "Water Supply",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/WaterSupply.jsp",
+          "note": "Installation, operation and maintenance of water treatment plants, booster pumping stations and tubewells."
+        }
+      ],
+      "source_url": "https://web.archive.org/web/20220405065539/https://www.kmcgov.in/KMCPortal/jsp/AboutUsHome.jsp",
+      "source_title": "KMC Departments - Official Website of Kolkata Municipal Corporation",
+      "as_of": "2022-04-05"
+    },
+    "ministries": {
+      "count": 40,
+      "items": [
+        {
+          "name": "Advertisement",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCAdvertisementHome.jsp",
+          "note": "Overall monitoring of outdoor advertisement"
+        },
+        {
+          "name": "Amusement",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCAmusementHome.jsp",
+          "note": "Issue of new amusement license, renewal letter and monitoring functions"
+        },
+        {
+          "name": "Assessment & Collection",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCAssessmentHome.jsp",
+          "note": "Assessment of land and buildings, Mutation and Collection of Property Tax"
+        },
+        {
+          "name": "Building",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCPortalBuildingHome.jsp",
+          "note": "Scrutinizing building plan, checking unauthorized construction and routine inspection"
+        },
+        {
+          "name": "Bustee Services",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCBSAndSSEPHome.jsp",
+          "note": "Carry out physical and social infrastructure development in the bustees of the City"
+        },
+        {
+          "name": "Car Parking",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCCarParking.jsp",
+          "note": "Responsible for arranging for parking spaces"
+        },
+        {
+          "name": "Central Records",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCCentralRecordsDeptFaqs.jsp",
+          "note": "Maintain old records such as birth and death registration, sanctioned building plans, assessment registers"
+        },
+        {
+          "name": "Ch. VS Department",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCCHVSDept.jsp?code=08&catCode=A",
+          "note": "Chief Valuer and Surveyor maintains records of all immovable assets of KMC"
+        },
+        {
+          "name": "Education",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCSchoolsHome.jsp",
+          "note": "Imparting primary education and interacting with Government agencies and NGOs"
+        },
+        {
+          "name": "Election Office",
+          "abbrev": null,
+          "url": null,
+          "note": "Conducts elections of the Corporation"
+        },
+        {
+          "name": "Electricity",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/ElectricityContact.jsp",
+          "note": "Carries out works related to electricity supply in the Corporation area"
+        },
+        {
+          "name": "Engineering (Civil)",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/Manholes.jsp",
+          "note": "Building and repairing of roads, bustee development work, construction of public conveniences"
+        },
+        {
+          "name": "Entally workshop",
+          "abbrev": null,
+          "url": null,
+          "note": "Production and repairing of different products required by various departments of KMC"
+        },
+        {
+          "name": "Estate",
+          "abbrev": null,
+          "url": null,
+          "note": "Survey and maintain records of the land and building owned by KMC"
+        },
+        {
+          "name": "Finance and accounts",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/FinanceContact.jsp",
+          "note": "Carry out accounting of the activities of the Corporation and handling of the treasury"
+        },
+        {
+          "name": "Health",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCHealthServiceHome.jsp",
+          "note": "Provide preventive, curative and promotive health facilities like vaccination"
+        },
+        {
+          "name": "Info. & public relations",
+          "abbrev": null,
+          "url": null,
+          "note": "Maintain public relations, advertisements, press conferences and event coverage"
+        },
+        {
+          "name": "Information Technology",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/ITContact.jsp",
+          "note": "Development and implementation of software across all departments of KMC"
+        },
+        {
+          "name": "Institute of Urban Management",
+          "abbrev": null,
+          "url": null,
+          "note": "Impart computer, administrative and work based training to KMC employees"
+        },
+        {
+          "name": "Internal Audit",
+          "abbrev": null,
+          "url": null,
+          "note": "Scrutinize audit replies and conduct special audits, investigations and enquiries"
+        },
+        {
+          "name": "Law",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/LawContact.jsp",
+          "note": "Deal with legal matters and provide legal opinion to KMC departments"
+        },
+        {
+          "name": "License",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCCEHome.jsp",
+          "note": "Issue and renewal of trade licenses and raising demands for trade licenses"
+        },
+        {
+          "name": "Lighting",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCStreetLight.jsp",
+          "note": "Operation and maintenance of street lights and lighting of markets and institutions"
+        },
+        {
+          "name": "Market",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCMarketHome.jsp",
+          "note": "Construction and maintenance of Municipal Markets"
+        },
+        {
+          "name": "Municipal Secretary's department",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/MplSecretaryContact.jsp",
+          "note": "Carry out secretarial functions of the Corporation"
+        },
+        {
+          "name": "Municipal Service Commission",
+          "abbrev": null,
+          "url": null,
+          "note": "Carry out recruitment for the Corporation"
+        },
+        {
+          "name": "Parks & Squares",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCParksGardens1.jsp",
+          "note": "Looks after matters related to parks and squares in the city"
+        },
+        {
+          "name": "Personnel",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/PersonnelContact.jsp",
+          "note": "Promotion, transfer proposals and court cases related to personnel matters"
+        },
+        {
+          "name": "Planning & Development",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/PlanningContact.jsp",
+          "note": "Initiate new projects, feasibility studies and monitor project implementation"
+        },
+        {
+          "name": "Printing",
+          "abbrev": null,
+          "url": null,
+          "note": "Print forms, publications, registers and schedule books of the Corporation"
+        },
+        {
+          "name": "Environment & Heritage Department",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/HeritageBuildingHome.jsp",
+          "note": "Geographical Information System, water bodies conservation, heritage conservation"
+        },
+        {
+          "name": "Roads and Asphaltum",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/RoadsContact.jsp",
+          "note": "Carrying out construction of new roads, underpass and road maintenance"
+        },
+        {
+          "name": "Sewerage & Drainage",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCDrainageHome.jsp",
+          "note": "Manage and maintain central sewerage and drainage lines under major roads"
+        },
+        {
+          "name": "Social Welfare & Urban Poverty Alleviation Department",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/KMCBSAndSSEPApplication.jsp?code=110&catCode=A",
+          "note": "Family welfare, women empowerment, employment generation and social sector issues"
+        },
+        {
+          "name": "Solid Waste Management",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/SolidWaste.jsp",
+          "note": "Sweep streets, collect solid waste and transport to dumping yard"
+        },
+        {
+          "name": "Supply",
+          "abbrev": null,
+          "url": null,
+          "note": "Material planning, procurement and storage of materials"
+        },
+        {
+          "name": "Town Planning Dept",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/TPContact.jsp",
+          "note": "Takes care of overall planning of the city"
+        },
+        {
+          "name": "Treasury Department",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/TreasuryContact.jsp",
+          "note": "Takes care of treasury of KMC"
+        },
+        {
+          "name": "Vigilance",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/Vigilance.jsp",
+          "note": "Investigate cases against employees on receipt of complaints"
+        },
+        {
+          "name": "Water Supply",
+          "abbrev": null,
+          "url": "https://www.kmcgov.in/KMCPortal/jsp/WaterSupply.jsp",
+          "note": "Installation, operation and maintenance of water treatment plants, booster stations and tubewells"
+        }
+      ],
+      "source_url": "https://www.kmcgov.in/KMCPortal/jsp/AboutUsHome.jsp",
+      "source_title": "KMC Departments - Official Website of Kolkata Municipal Corporation",
+      "as_of": "2022-04-05"
+    }
+  },
   "ladakh": {
     "agencies": {
       "count": 31,
@@ -19393,6 +19891,64 @@
       "source_url": "https://lakshadweep.gov.in/departments-new/lakshadweep-development-corporation-limited/",
       "source_title": "Lakshadweep Development Corporation Limited | Lakshadweep | India",
       "as_of": "2026"
+    }
+  },
+  "lmc-lucknow": {
+    "agencies": {
+      "count": 8,
+      "items": [
+        {
+          "name": "स्वास्थ्य विभाग (Health Department)",
+          "abbrev": null,
+          "url": null,
+          "note": "Sanitation, public health and communicable disease control"
+        },
+        {
+          "name": "गृहकर विभाग (House Tax Department)",
+          "abbrev": null,
+          "url": null,
+          "note": "House tax assessment, collection and mutation"
+        },
+        {
+          "name": "वायु गुणवत्ता प्रबंधन (Air Quality Management)",
+          "abbrev": null,
+          "url": null,
+          "note": "Air quality monitoring, reporting and citizen awareness"
+        },
+        {
+          "name": "उद्यान विभाग (Garden Department)",
+          "abbrev": null,
+          "url": "https://lmc.up.nic.in/pdf/ParkList_dt_01_08_24.pdf",
+          "note": "Maintenance of parks and gardens"
+        },
+        {
+          "name": "प्रचार विभाग (Publicity Department)",
+          "abbrev": null,
+          "url": null,
+          "note": "Advertising permission and publicity fee regulation"
+        },
+        {
+          "name": "लेखा विभाग (Accounts Department)",
+          "abbrev": null,
+          "url": "https://lmc.up.nic.in/lekhavibhag.aspx",
+          "note": "Budget, accounts, income-expenditure and balance sheet"
+        },
+        {
+          "name": "पशु कल्याण विभाग (Animal Welfare Department)",
+          "abbrev": null,
+          "url": "https://lmc.up.nic.in/pdf/PashukalyanVibhag.pdf",
+          "note": "Animal welfare including dog registration"
+        },
+        {
+          "name": "सम्पत्ति विभाग (Property Department)",
+          "abbrev": null,
+          "url": null,
+          "note": "Management of municipal vested properties"
+        }
+      ],
+      "source_url": "https://lmc.up.nic.in/",
+      "source_title": "LUCKNOW NAGAR NIGAM",
+      "as_of": "2026-09-22"
     }
   },
   "madhya-pradesh": {
@@ -20555,215 +21111,263 @@
   },
   "maharashtra": {
     "agencies": {
-      "count": 34,
+      "count": 42,
       "items": [
         {
-          "name": "Agriculture, Dairy Development, Animal Husbandry and Fisheries Department",
+          "name": "Agriculture Department, Maharashtra",
           "abbrev": null,
           "url": null,
-          "note": "Agriculture, dairy, animal husbandry and fisheries policy and administration"
+          "note": "Crop husbandry, agriculture marketing and allied agricultural schemes"
         },
         {
-          "name": "Co-operation, Textiles and Marketing Department",
+          "name": "Animal Husbandry Department, Maharashtra",
           "abbrev": null,
           "url": null,
-          "note": "Co-operative societies, textiles and agricultural marketing"
+          "note": "Livestock health, veterinary services and animal husbandry schemes"
         },
         {
-          "name": "Electronics, Information Technology and Artficial Intelligence Department",
+          "name": "Co-operation, Marketing and Textiles Department, Maharashtra",
           "abbrev": null,
           "url": null,
-          "note": "Electronics, information technology, AI policy and e-governance"
+          "note": "Cooperatives, marketing regulation and textile sector"
         },
         {
-          "name": "Employment Guarantee Scheme Department",
+          "name": "Cultural Affairs Department, Maharashtra",
+          "abbrev": null,
+          "url": "https://cultural.maharashtra.gov.in",
+          "note": "Museums, archives, libraries and state cultural promotion"
+        },
+        {
+          "name": "Dairy Development Department, Maharashtra",
           "abbrev": null,
           "url": null,
-          "note": "Rural employment guarantee schemes"
+          "note": "Dairy policy and dairy cooperative development"
         },
         {
-          "name": "Environment Department",
+          "name": "Environment and Climate Change Department, Maharashtra",
           "abbrev": null,
           "url": null,
-          "note": "Environment protection and regulation"
+          "note": "Environmental regulation, pollution control and climate policy"
         },
         {
-          "name": "Finance Department",
+          "name": "Finance Department, Maharashtra",
+          "abbrev": null,
+          "url": "https://finance.maharashtra.gov.in",
+          "note": "State budget, treasury, accounts and fiscal management"
+        },
+        {
+          "name": "Fisheries Department, Maharashtra",
+          "abbrev": null,
+          "url": "https://fisheries.maharashtra.gov.in",
+          "note": "Marine and inland fisheries development and fisher welfare"
+        },
+        {
+          "name": "Food, Civil Supplies and Consumer Protection Department, Maharashtra",
           "abbrev": null,
           "url": null,
-          "note": "State budget, taxation and financial management"
+          "note": "Public distribution and consumer protection"
         },
         {
-          "name": "Food, Civil Supplies and Consumer Protection Department",
+          "name": "Forest Department, Maharashtra",
           "abbrev": null,
           "url": null,
-          "note": "Public distribution, civil supplies and consumer protection"
+          "note": "Forest conservation, wildlife and forest produce management"
         },
         {
-          "name": "General Administration Department",
+          "name": "General Administration Department, Maharashtra",
+          "abbrev": "GAD",
+          "url": "https://gad.maharashtra.gov.in",
+          "note": "Central services administration, personnel policy and secretariat affairs"
+        },
+        {
+          "name": "Goods and Services Tax Department, Maharashtra",
+          "abbrev": "GST",
+          "url": null,
+          "note": "State GST assessment, collection and enforcement"
+        },
+        {
+          "name": "Greater Mumbai Police, Maharashtra",
           "abbrev": null,
           "url": null,
-          "note": "Personnel, services and general state administration"
+          "note": "Policing and law and order for Mumbai city and suburbs"
         },
         {
-          "name": "Higher and Technical Education Department",
+          "name": "Higher and Technical Education Department, Maharashtra",
           "abbrev": null,
           "url": null,
-          "note": "Higher and technical education"
+          "note": "Higher education, universities and technical education"
         },
         {
-          "name": "Home Department",
+          "name": "Home Department, Maharashtra",
+          "abbrev": null,
+          "url": "https://home.maharashtra.gov.in",
+          "note": "Police, law and order, prisons and state excise"
+        },
+        {
+          "name": "Housing Department, Maharashtra",
           "abbrev": null,
           "url": null,
-          "note": "Law and order, police and internal security"
+          "note": "Housing policy, MHADA and slum rehabilitation"
         },
         {
-          "name": "Housing Department",
+          "name": "Labour Department, Maharashtra",
           "abbrev": null,
-          "url": null,
-          "note": "Housing policy and affordable housing"
+          "url": "https://labour.maharashtra.gov.in",
+          "note": "Labour law enforcement, industrial relations and worker welfare"
         },
         {
-          "name": "Industries, Energy and Labour Department",
-          "abbrev": null,
-          "url": null,
-          "note": "Industries, energy and labour welfare"
-        },
-        {
-          "name": "Law and Judiciary Department",
+          "name": "Law and Judiciary Department, Maharashtra",
           "abbrev": null,
           "url": null,
           "note": "Legal affairs, legislation and judiciary administration"
         },
         {
-          "name": "Medical Education and Drugs Department",
+          "name": "Maharashtra Cyber Department",
           "abbrev": null,
           "url": null,
-          "note": "Medical education and drug administration"
+          "note": "Cyber crime investigation and digital forensics"
         },
         {
-          "name": "Minorities Development Department",
+          "name": "Marathi Language Department",
           "abbrev": null,
           "url": null,
-          "note": "Welfare and development of minority communities"
+          "note": "Promotion and development of Marathi language"
         },
         {
-          "name": "Other Backward Bahujan Welfare Department",
+          "name": "Medical Education and Drugs Department, Maharashtra",
           "abbrev": null,
           "url": null,
-          "note": "Welfare of other backward classes"
+          "note": "Medical colleges, drug administration and health education"
         },
         {
-          "name": "Parliamentary Affairs Department",
+          "name": "Minority Development Department, Maharashtra",
           "abbrev": null,
           "url": null,
-          "note": "Legislature business and parliamentary affairs"
+          "note": "Welfare schemes for minority communities"
         },
         {
-          "name": "Persons with Disabilities Welfare Department",
-          "abbrev": null,
-          "url": null,
-          "note": "Welfare of persons with disabilities"
+          "name": "Motor Vehicles Department (R.T.O.), Maharashtra",
+          "abbrev": "RTO",
+          "url": "https://transport.maharashtra.gov.in",
+          "note": "Vehicle registration, driving licences and transport regulation"
         },
         {
-          "name": "Planning Department",
+          "name": "Other Backward Bahujan Welfare Department, Maharashtra",
           "abbrev": null,
           "url": null,
-          "note": "State planning and development coordination"
+          "note": "Welfare of other backward classes communities"
         },
         {
-          "name": "Public Health Department",
+          "name": "Parliamentary Affairs Department, Maharashtra",
           "abbrev": null,
           "url": null,
-          "note": "Public health services and hospitals"
+          "note": "State legislature business and parliamentary coordination"
         },
         {
-          "name": "Public Works Department",
+          "name": "Planning Department, Maharashtra",
           "abbrev": null,
           "url": null,
-          "note": "Public buildings, roads and infrastructure construction"
+          "note": "State development planning and plan formulation"
         },
         {
-          "name": "Revenue and Forest Department",
+          "name": "Public Health and Family Welfare Department, Maharashtra",
           "abbrev": null,
           "url": null,
-          "note": "Land revenue administration and forests"
+          "note": "Public health services, hospitals and family welfare"
         },
         {
-          "name": "Rural Development Department",
-          "abbrev": null,
-          "url": null,
-          "note": "Rural development and panchayati raj"
+          "name": "Public Works Department, Maharashtra",
+          "abbrev": "PWD",
+          "url": "https://pwd.maharashtra.gov.in",
+          "note": "Construction and maintenance of roads, bridges and government buildings"
         },
         {
-          "name": "School Education and Sports Department",
+          "name": "Registration and Stamps Department, Maharashtra",
           "abbrev": null,
-          "url": null,
-          "note": "School education and sports"
+          "url": "https://igrmaharashtra.gov.in",
+          "note": "Document registration, stamp duty and valuation"
         },
         {
-          "name": "Skill Development and Entrepreneurship Department",
+          "name": "Revenue and Forest Department, Maharashtra",
           "abbrev": null,
           "url": null,
-          "note": "Skill training and entrepreneurship promotion"
+          "note": "Land revenue, land records and survey"
         },
         {
-          "name": "Social Justice and Special Assistance Department",
+          "name": "Rural Development and Panchayat Raj Department, Maharashtra",
           "abbrev": null,
-          "url": null,
-          "note": "Social justice and welfare of disadvantaged groups"
+          "url": "https://rdd.maharashtra.gov.in",
+          "note": "Rural development programmes and panchayat raj institutions"
         },
         {
-          "name": "Soil and Water Conservation Department",
+          "name": "Sainik Welfare Department, Maharashtra",
           "abbrev": null,
           "url": null,
-          "note": "Soil and water conservation works"
+          "note": "Welfare of ex-servicemen and their dependents"
         },
         {
-          "name": "Textile Department",
+          "name": "School Education and Sports Department, Maharashtra",
           "abbrev": null,
           "url": null,
-          "note": "Textile industry development"
+          "note": "Primary and secondary schooling and sports promotion"
         },
         {
-          "name": "Tourism & Cultural Affairs Department",
+          "name": "Skills, Employment, Entrepreneurship and Innovation Department, Maharashtra",
           "abbrev": null,
           "url": null,
-          "note": "Tourism promotion and cultural affairs"
+          "note": "Skill development, employment services and entrepreneurship"
         },
         {
-          "name": "Tribal Development Department",
-          "abbrev": null,
-          "url": null,
-          "note": "Tribal welfare and development"
+          "name": "Social Justice and Special Assistance Department, Maharashtra",
+          "abbrev": "SJSA",
+          "url": "https://sjsa.maharashtra.gov.in",
+          "note": "Social welfare for scheduled castes, disabled and weaker sections"
         },
         {
-          "name": "Urban Development Department",
+          "name": "Textiles Department, Maharashtra",
           "abbrev": null,
           "url": null,
-          "note": "Urban planning and municipal administration"
+          "note": "Textile industry and scheme administration"
         },
         {
-          "name": "Water Resources Department",
+          "name": "Tourism Department, Maharashtra",
           "abbrev": null,
-          "url": null,
-          "note": "Irrigation and water resources management"
+          "url": "https://maharashtratourism.gov.in",
+          "note": "Tourism promotion, hospitality and destination development"
         },
         {
-          "name": "Water Supply and Sanitation Department",
+          "name": "Tribal Development Department, Maharashtra",
           "abbrev": null,
-          "url": null,
-          "note": "Drinking water supply and sanitation"
+          "url": "https://tribal.maharashtra.gov.in",
+          "note": "Scheduled tribe welfare, tribal areas and ashram schools"
         },
         {
-          "name": "Women and Child Development Department",
+          "name": "Water Conservation Department, Maharashtra",
           "abbrev": null,
           "url": null,
-          "note": "Women and child welfare"
+          "note": "Soil and water conservation and watershed development"
+        },
+        {
+          "name": "Water Resources Department, Maharashtra",
+          "abbrev": "WRD",
+          "url": "https://wrd.maharashtra.gov.in",
+          "note": "Irrigation projects, dams and water resource management"
+        },
+        {
+          "name": "Water Supply and Sanitation Department, Maharashtra",
+          "abbrev": null,
+          "url": null,
+          "note": "Rural and urban water supply and sanitation"
+        },
+        {
+          "name": "Women and Child Development Department, Maharashtra",
+          "abbrev": null,
+          "url": null,
+          "note": "Women empowerment, child development and nutrition"
         }
       ],
-      "source_url": "https://rtionline.maharashtra.gov.in/guidelines.php?request",
-      "source_title": "RTI Online :: GUIDELINES FOR USE OF RTI ONLINE PORTAL",
+      "source_url": "https://igod.gov.in/sg/MH/E003/organizations",
+      "source_title": "Integrated Government Online Directory (IGOD) – State/UT Government: Maharashtra: Departments",
       "as_of": "2026-09-21"
     },
     "commissions": {
@@ -26345,6 +26949,494 @@
       "as_of": "31 March 2023"
     }
   },
+  "nmc-nagpur": {
+    "agencies": {
+      "count": 18,
+      "items": [
+        {
+          "name": "Public Relations",
+          "abbrev": null,
+          "url": null,
+          "note": "Handles public relations activities of NMC"
+        },
+        {
+          "name": "Library",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages library activities of NMC"
+        },
+        {
+          "name": "Health",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages health activities of NMC"
+        },
+        {
+          "name": "Finance",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages finance activities of NMC"
+        },
+        {
+          "name": "Buildings",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages building-related activities of NMC"
+        },
+        {
+          "name": "Slums",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages slum-related activities of NMC"
+        },
+        {
+          "name": "Roads",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages road-related activities of NMC"
+        },
+        {
+          "name": "Street Lighting",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages street lighting activities of NMC"
+        },
+        {
+          "name": "Traffic",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages traffic-related activities of NMC"
+        },
+        {
+          "name": "Establishment",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages establishment activities of NMC"
+        },
+        {
+          "name": "Gardens",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages garden-related activities of NMC"
+        },
+        {
+          "name": "Public Works",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages public works activities of NMC"
+        },
+        {
+          "name": "Local Audit",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages local audit activities of NMC"
+        },
+        {
+          "name": "Legal Services",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages legal services activities of NMC"
+        },
+        {
+          "name": "Water Works",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages water works activities of NMC"
+        },
+        {
+          "name": "Education",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages education activities of NMC"
+        },
+        {
+          "name": "Octroi",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages octroi-related activities of NMC"
+        },
+        {
+          "name": "Fire Services",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages fire services activities of NMC"
+        }
+      ],
+      "source_url": "https://web.nagpurnmc.in/administrative-structure",
+      "source_title": ":: Administrative Structure, Nagpur Municipal corporation | Nagpur Municipal Corporation",
+      "as_of": "2026-09-22"
+    },
+    "ministries": {
+      "count": 30,
+      "items": [
+        {
+          "name": "General Administration Department",
+          "abbrev": null,
+          "url": "https://www.nmcnagpur.gov.in/general-administration-department1539607414",
+          "note": "Overall administration, establishment matters and coordination of municipal offices."
+        },
+        {
+          "name": "Social Welfare Department",
+          "abbrev": null,
+          "url": "https://web.nagpurnmc.in/social-welfare-department",
+          "note": "Welfare schemes for backward classes, women, children, elderly and disabled persons."
+        },
+        {
+          "name": "Solid Waste Management",
+          "abbrev": null,
+          "url": null,
+          "note": "Collection, transport, processing and disposal of solid waste and city sanitation."
+        },
+        {
+          "name": "Garden Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Parks, gardens, trees, playgrounds and green spaces development and maintenance."
+        },
+        {
+          "name": "Accounts and Finance Department",
+          "abbrev": null,
+          "url": "https://web.nagpurnmc.in/accounts-and-finance-department1539607217",
+          "note": "Budgeting, accounting, payments and financial management of the corporation."
+        },
+        {
+          "name": "Public Health Engineering Department",
+          "abbrev": null,
+          "url": "https://web.nagpurnmc.in/public-health-engineering-department",
+          "note": "Water supply, sewerage, drainage and public health engineering works."
+        },
+        {
+          "name": "Electrical Department",
+          "abbrev": null,
+          "url": "https://www.nmcnagpur.gov.in/electrical-department",
+          "note": "Street lighting and installation, operation and maintenance of electrical infrastructure."
+        },
+        {
+          "name": "Environment Department",
+          "abbrev": null,
+          "url": "https://web.nagpurnmc.in/environment-department",
+          "note": "Environmental protection, pollution control and green initiatives."
+        },
+        {
+          "name": "Public Work Department",
+          "abbrev": null,
+          "url": "https://web.nagpurnmc.in/public-work-department-city-engineer-and-development-engine1539608029",
+          "note": "Roads, buildings, bridges and other civil construction and maintenance works."
+        },
+        {
+          "name": "Fire Department",
+          "abbrev": null,
+          "url": "https://www.nmcnagpur.gov.in/fire-department",
+          "note": "Fire prevention, firefighting, rescue and emergency response services."
+        },
+        {
+          "name": "Estate Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Management of municipal lands, buildings, properties and estate NOCs."
+        },
+        {
+          "name": "Market Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Regulation, licensing and management of municipal markets and trades."
+        },
+        {
+          "name": "Encroachment Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Removal of encroachments on public roads, footpaths and municipal lands."
+        },
+        {
+          "name": "Cultural And Sports Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Cultural programs, sports facilities, grounds and events."
+        },
+        {
+          "name": "Birth and Death Registration Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Registration of births and deaths and issue of certificates."
+        },
+        {
+          "name": "Revenue And Audit Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Revenue oversight, tax collection monitoring and internal audit."
+        },
+        {
+          "name": "Public Relations Department",
+          "abbrev": null,
+          "url": "https://www.nmcnagpur.gov.in/public-relations-department",
+          "note": "Public information, media relations and citizen communication."
+        },
+        {
+          "name": "Health Department (Medicine)",
+          "abbrev": null,
+          "url": null,
+          "note": "Hospitals, dispensaries, health services and disease control."
+        },
+        {
+          "name": "Hot Mix Plant Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Production of hot-mix material for road construction works."
+        },
+        {
+          "name": "Central Records Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Custody, upkeep and management of municipal records."
+        },
+        {
+          "name": "Transport Department",
+          "abbrev": null,
+          "url": "https://nmcnagpur.gov.in/transport-department",
+          "note": "City bus operations and public transport services management."
+        },
+        {
+          "name": "Law Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Legal advice, litigation and court matters of the corporation."
+        },
+        {
+          "name": "Town Planning Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Town planning schemes, layouts, building permissions and development control."
+        },
+        {
+          "name": "Election Department",
+          "abbrev": null,
+          "url": "https://www.nmcnagpur.gov.in/election-department",
+          "note": "Municipal election work and electoral roll related support."
+        },
+        {
+          "name": "Department Of Information And Technology",
+          "abbrev": null,
+          "url": "https://web.nagpurnmc.in/department-of-information-and-technology",
+          "note": "IT systems, portals, software and e-governance services."
+        },
+        {
+          "name": "Education Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Municipal primary schools, school staff and education programs."
+        },
+        {
+          "name": "Workshop Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Municipal workshop, vehicles, machinery and equipment maintenance."
+        },
+        {
+          "name": "Property Tax",
+          "abbrev": null,
+          "url": "https://web.nagpurnmc.in/property-tax1539608216",
+          "note": "Assessment, billing and collection of property tax under Revenue Department."
+        },
+        {
+          "name": "LBT",
+          "abbrev": "LBT",
+          "url": "https://web.nagpurnmc.in/lbt",
+          "note": "Local Body Tax administration unit under Revenue Department."
+        },
+        {
+          "name": "Skysign & Advertisement Department",
+          "abbrev": null,
+          "url": "https://nmcnagpur.gov.in/skysign-amp-advertisement-department",
+          "note": "Regulation, approval and monitoring of outdoor advertisements and hoardings."
+        }
+      ],
+      "source_url": "https://nmcnagpur.gov.in/encroachment-queries",
+      "source_title": "NMC",
+      "as_of": "2026-09-22"
+    },
+    "orgs": {
+      "count": 29,
+      "items": [
+        {
+          "name": "Election Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Conducts municipal election work"
+        },
+        {
+          "name": "Accounts and Finance Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Municipal finance, salaries, pensions and accounts"
+        },
+        {
+          "name": "Fire Brigade Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Fire stations and emergency rescue services"
+        },
+        {
+          "name": "General Administration Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Committees, records, establishment and administration"
+        },
+        {
+          "name": "Garden Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Maintains city gardens and beautification"
+        },
+        {
+          "name": "Education Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Municipal schools and education services"
+        },
+        {
+          "name": "JnNURM Department",
+          "abbrev": "JnNURM",
+          "url": null,
+          "note": "Jawaharlal Nehru National Urban Renewal Mission projects"
+        },
+        {
+          "name": "Committee Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Servicing of municipal committees and meetings"
+        },
+        {
+          "name": "Establishment Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Personnel and establishment matters"
+        },
+        {
+          "name": "Social Welfare Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Social welfare schemes and programmes"
+        },
+        {
+          "name": "Public Relations Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Press relations and publicity"
+        },
+        {
+          "name": "Public Work Department (City Engineer and Development Engineer)",
+          "abbrev": null,
+          "url": null,
+          "note": "City engineering and development works"
+        },
+        {
+          "name": "Water Work Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Water supply works and maintenance"
+        },
+        {
+          "name": "Civil Court Agent Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Representation in civil court matters"
+        },
+        {
+          "name": "Birth And Death Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Birth and death registration and statistics"
+        },
+        {
+          "name": "Central Quality Control Laboratory Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Quality testing of municipal works materials"
+        },
+        {
+          "name": "Pench Project Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Pench water supply project works"
+        },
+        {
+          "name": "Project Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Municipal project execution"
+        },
+        {
+          "name": "Library Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Public libraries and reading rooms"
+        },
+        {
+          "name": "Departmental Enquiry Section",
+          "abbrev": null,
+          "url": null,
+          "note": "Departmental inquiries against employees"
+        },
+        {
+          "name": "Property Tax Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Property tax assessment and collection"
+        },
+        {
+          "name": "Health Department (Sanitation)",
+          "abbrev": null,
+          "url": null,
+          "note": "Sanitation and public health services"
+        },
+        {
+          "name": "Health Department (Medicine)",
+          "abbrev": null,
+          "url": null,
+          "note": "Dispensaries, hospitals and medical services"
+        },
+        {
+          "name": "Workshop Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Vehicles and workshop maintenance"
+        },
+        {
+          "name": "Town Planning Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Town planning and building permissions"
+        },
+        {
+          "name": "Electrical Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Street lighting and electrical works"
+        },
+        {
+          "name": "Market Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Municipal markets management"
+        },
+        {
+          "name": "Hot Mix Plant Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Hot mix plant for road works"
+        },
+        {
+          "name": "Traffic Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Traffic engineering and management"
+        }
+      ],
+      "source_url": "https://web.archive.org/web/20161130050608/http://www.nmcnagpur.gov.in/en/departments.html",
+      "source_title": "Departments - Nagpur Municipal Corporation",
+      "as_of": "2016-11-29"
+    }
+  },
   "odisha": {
     "agencies": {
       "count": 40,
@@ -27338,6 +28430,266 @@
           "abbrev": null,
           "url": "https://pmc.gov/en/zoo",
           "note": "Manages the municipal zoological park"
+        }
+      ],
+      "source_url": "https://webadmin.pmc.gov.in/sites/default/files/circular/Website%20Circular%2024-11-2023_0.pdf",
+      "source_title": "PMC Portal Department Micro website Links",
+      "as_of": "2023-11-24"
+    },
+    "ministries": {
+      "count": 41,
+      "items": [
+        {
+          "name": "Bhavan Rachna Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/bhavan",
+          "note": "Construction and maintenance of municipal buildings."
+        },
+        {
+          "name": "Building Development",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/buildingpermission",
+          "note": "Building permissions and regulation of construction development."
+        },
+        {
+          "name": "Central Store Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/store",
+          "note": "Central procurement, storage and supply of municipal materials."
+        },
+        {
+          "name": "Chief Accounts and Finance Office",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/accountant",
+          "note": "Municipal accounts, budgeting and financial management."
+        },
+        {
+          "name": "Chief Engineer (Project)",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/project",
+          "note": "Execution of major civic infrastructure projects."
+        },
+        {
+          "name": "City Census Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/census",
+          "note": "City census surveys and population data collection."
+        },
+        {
+          "name": "Cultural Centers",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/culturalcenters",
+          "note": "Management of municipal cultural centers and auditoriums."
+        },
+        {
+          "name": "Department Training Academy",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/training",
+          "note": "Training and capacity building of municipal staff."
+        },
+        {
+          "name": "Disaster Management Cell",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/disaster",
+          "note": "Disaster preparedness, response and relief coordination."
+        },
+        {
+          "name": "Drainage Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/drainage",
+          "note": "Sewerage network and drainage construction and maintenance."
+        },
+        {
+          "name": "Election Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/election",
+          "note": "Conduct and management of municipal elections."
+        },
+        {
+          "name": "Electrical Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/electrical",
+          "note": "Street lighting and municipal electrical installations."
+        },
+        {
+          "name": "Encroachment Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/encroachment",
+          "note": "Removal of encroachments on public roads and municipal land."
+        },
+        {
+          "name": "Environment Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/environment",
+          "note": "Environmental protection and pollution control programs."
+        },
+        {
+          "name": "Establishment Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/establishment",
+          "note": "Personnel, service matters and establishment administration."
+        },
+        {
+          "name": "Estate and Management Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/estate",
+          "note": "Management of municipal estates, lands and properties."
+        },
+        {
+          "name": "Fire Brigade",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/fire",
+          "note": "Fire fighting, rescue and fire safety services."
+        },
+        {
+          "name": "Garden Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/garden",
+          "note": "Development and maintenance of public gardens and parks."
+        },
+        {
+          "name": "General Administration",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/gad",
+          "note": "Overall administrative functioning of the corporation."
+        },
+        {
+          "name": "Health Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/health",
+          "note": "Public health services, hospitals and sanitation."
+        },
+        {
+          "name": "Heritage Cell",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/heritage",
+          "note": "Conservation of heritage structures and precincts."
+        },
+        {
+          "name": "Public Relation Office",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/pro",
+          "note": "Public relations, media and citizen communication."
+        },
+        {
+          "name": "IT Department",
+          "abbrev": "IT",
+          "url": "https://pmc.gov.in/en/it",
+          "note": "Information technology systems and e-governance services."
+        },
+        {
+          "name": "Labour Welfare Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/labourwelfare",
+          "note": "Welfare schemes for municipal labourers and workers."
+        },
+        {
+          "name": "Local Body Tax",
+          "abbrev": "LBT",
+          "url": "https://pmc.gov.in/en/lbt",
+          "note": "Administration and collection of local body tax."
+        },
+        {
+          "name": "Municipal Secretary",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/secretary",
+          "note": "Council meetings, resolutions and legislative records."
+        },
+        {
+          "name": "Pradhan Mantri Awas Yojana",
+          "abbrev": "PMAY",
+          "url": "https://pmc.gov.in/en/pmay",
+          "note": "Implementation of the affordable urban housing scheme."
+        },
+        {
+          "name": "Property Tax",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/ptax",
+          "note": "Assessment and collection of property tax."
+        },
+        {
+          "name": "Rajiv Gandhi Zoological Park",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/zoo",
+          "note": "Management of the city zoo and animal conservation."
+        },
+        {
+          "name": "Road Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/road",
+          "note": "Construction and maintenance of city roads."
+        },
+        {
+          "name": "Security Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/security",
+          "note": "Security of municipal premises and establishments."
+        },
+        {
+          "name": "Service Recruitment Examination and Control",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/exam",
+          "note": "Service recruitment examinations and related control."
+        },
+        {
+          "name": "Sewage Treatment Plant",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/stp",
+          "note": "Operation and maintenance of sewage treatment plants."
+        },
+        {
+          "name": "Skysign Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/skysign",
+          "note": "Regulation of sky signs, hoardings and advertisements."
+        },
+        {
+          "name": "Social Development Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/socialdevelopment",
+          "note": "Social development schemes for disadvantaged groups."
+        },
+        {
+          "name": "Social Welfare Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/socialwelfare",
+          "note": "Welfare schemes for vulnerable sections of society."
+        },
+        {
+          "name": "Solid Waste Management",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/swm",
+          "note": "Collection, transport and disposal of solid waste."
+        },
+        {
+          "name": "Sports Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/sports",
+          "note": "Sports facilities and athletic programs."
+        },
+        {
+          "name": "Tree Authority Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/tree",
+          "note": "Tree protection, permissions and afforestation."
+        },
+        {
+          "name": "Vehicle Depot",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/vehicledepot",
+          "note": "Management of municipal vehicles and transport."
+        },
+        {
+          "name": "Water Supply and Pumping Department",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/water",
+          "note": "City water supply distribution and pumping stations."
+        },
+        {
+          "name": "Electric Vehicle Cell",
+          "abbrev": null,
+          "url": "https://pmc.gov.in/en/evcell",
+          "note": "Promotion of electric vehicles and charging infrastructure."
         }
       ],
       "source_url": "https://webadmin.pmc.gov.in/sites/default/files/circular/Website%20Circular%2024-11-2023_0.pdf",
