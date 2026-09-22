@@ -1889,1896 +1889,6 @@
       "as_of": "2017-03-31"
     }
   },
-  "arunachal-pradesh": {
-    "agencies": {
-      "count": 39,
-      "items": [
-        {
-          "name": "Administrative Traning Institude",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Agriculture",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Animal Husbandry and Veterinary",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Arunachal Pradesh Public Service Commission",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Arunachal State Rural Livelihood Mission",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Civil Aviation",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "CM e Jansunwai",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "CM e Seva",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Co-operation",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "DC Confrences Application",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Departement of Rural Development",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Department of Ecostatistics",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Department of Education (Teachers)",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Department of Indigenous Affairs",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Department of IT & C",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Department of Police (SICP)",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Department of Skill Development & Entrepreneurship",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Digital Signature AP Application",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Education",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Election",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Fisheries",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Food and Civil Supplies",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Governor",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Health and Family Welfare",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Industries",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Information and Public Relations",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Labour Department",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Legislative Assembly",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Panchayati Raj Department",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Police",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Power",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Public Works",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Raj Bhavan",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Research",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "SNA-SPARSH PFMS Application",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "Social Welfare",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "State Remote Sensing Application Center",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "State Startup Portal",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        },
-        {
-          "name": "State Transport",
-          "abbrev": null,
-          "url": null,
-          "note": "Listed in the official Department Directory"
-        }
-      ],
-      "source_url": "https://arunachalpradesh.gov.in/government-department.php",
-      "source_title": "Departments of Arunachal Pradesh - Arunachal State Portal",
-      "as_of": "2026-09-22"
-    },
-    "commissions": {
-      "count": 2,
-      "items": [
-        {
-          "name": "Arunachal Pradesh Information Commission",
-          "abbrev": null,
-          "url": "https://apic.arunachal.gov.in",
-          "note": "Statutory appellate authority for Right to Information matters in the state."
-        },
-        {
-          "name": "Arunachal Pradesh State Electricity Regulatory Commission",
-          "abbrev": "APSERC",
-          "url": "https://apserc.nic.in",
-          "note": "Regulates electricity tariff, licensing and power sector in the state."
-        }
-      ],
-      "source_url": "https://igod.gov.in/sg/AR/E013/organizations",
-      "source_title": "Integrated Government Online Directory : State / UT Government : Arunachal Pradesh : Commissions/ Committees",
-      "as_of": "2026-09-21"
-    },
-    "ministries": {
-      "count": 80,
-      "items": [
-        {
-          "name": "Department of Administrative Reforms",
-          "abbrev": null,
-          "url": null,
-          "note": "Administrative reforms and good-governance initiatives."
-        },
-        {
-          "name": "Administrative Training Institute",
-          "abbrev": null,
-          "url": null,
-          "note": "Training of state government personnel."
-        },
-        {
-          "name": "Arunachal Pradesh Information Commission",
-          "abbrev": null,
-          "url": null,
-          "note": "RTI appeals and transparency oversight (statutory body)."
-        },
-        {
-          "name": "Agriculture",
-          "abbrev": null,
-          "url": null,
-          "note": "Crop agriculture development and farmer welfare."
-        },
-        {
-          "name": "Animal Husbandry, Veterinary and Dairy Development",
-          "abbrev": null,
-          "url": null,
-          "note": "Livestock health, veterinary services and dairy development."
-        },
-        {
-          "name": "Civil Aviation",
-          "abbrev": null,
-          "url": null,
-          "note": "Airports, heliports and air connectivity in the state."
-        },
-        {
-          "name": "Resident Commissioner Under Civil Supplies",
-          "abbrev": null,
-          "url": null,
-          "note": "Liaison office functions for civil supplies outside the state."
-        },
-        {
-          "name": "Food and Civil Supplies",
-          "abbrev": null,
-          "url": null,
-          "note": "Public distribution system and essential commodities supply."
-        },
-        {
-          "name": "Registrar of Co-operative Societies",
-          "abbrev": null,
-          "url": null,
-          "note": "Registration and regulation of cooperative societies."
-        },
-        {
-          "name": "Department of Karmik and Adhyatmik (Chos rig) Affairs",
-          "abbrev": null,
-          "url": null,
-          "note": "Monastic, religious and spiritual affairs."
-        },
-        {
-          "name": "Art and Cultural Affairs",
-          "abbrev": null,
-          "url": null,
-          "note": "Promotion of art, culture and heritage."
-        },
-        {
-          "name": "Public Libraries",
-          "abbrev": null,
-          "url": null,
-          "note": "Public library services across the state."
-        },
-        {
-          "name": "Research",
-          "abbrev": null,
-          "url": null,
-          "note": "Ethnographic, historical and cultural research and museums."
-        },
-        {
-          "name": "Sports",
-          "abbrev": null,
-          "url": null,
-          "note": "Sports promotion and sports infrastructure."
-        },
-        {
-          "name": "Youth Affairs",
-          "abbrev": null,
-          "url": null,
-          "note": "Youth welfare programmes and activities."
-        },
-        {
-          "name": "District Administration",
-          "abbrev": null,
-          "url": null,
-          "note": "District-level general administration through deputy commissioners."
-        },
-        {
-          "name": "Societies",
-          "abbrev": null,
-          "url": null,
-          "note": "Registration of societies (Registrar of Societies functions)."
-        },
-        {
-          "name": "DOTCL",
-          "abbrev": "DOTCL",
-          "url": null,
-          "note": "Development affairs of Tirap, Changlang and Longding districts."
-        },
-        {
-          "name": "Economics and Statistics",
-          "abbrev": null,
-          "url": null,
-          "note": "Economic data, statistics and surveys."
-        },
-        {
-          "name": "Elementary Education",
-          "abbrev": null,
-          "url": null,
-          "note": "Primary and elementary schooling."
-        },
-        {
-          "name": "Higher and Technical Education",
-          "abbrev": null,
-          "url": null,
-          "note": "Colleges, universities and technical education."
-        },
-        {
-          "name": "State Council of Educational Research and Training(SCERT)",
-          "abbrev": "SCERT",
-          "url": null,
-          "note": "Teacher training, curriculum and educational research."
-        },
-        {
-          "name": "Secondary Education",
-          "abbrev": null,
-          "url": null,
-          "note": "Secondary and higher-secondary schooling."
-        },
-        {
-          "name": "State Election Commission",
-          "abbrev": null,
-          "url": null,
-          "note": "Conduct of local-body elections (constitutional body)."
-        },
-        {
-          "name": "Election",
-          "abbrev": null,
-          "url": null,
-          "note": "Electoral rolls and election machinery for assembly and parliamentary polls."
-        },
-        {
-          "name": "Environment and Forest",
-          "abbrev": null,
-          "url": null,
-          "note": "Forests, wildlife and environment protection."
-        },
-        {
-          "name": "Principal Accountant General, Arunachal Pradesh",
-          "abbrev": null,
-          "url": null,
-          "note": "Central audit and accounts office (CAG) receipts head."
-        },
-        {
-          "name": "Tax and Excise",
-          "abbrev": null,
-          "url": null,
-          "note": "State taxes, excise and narcotics control."
-        },
-        {
-          "name": "Finance Department",
-          "abbrev": null,
-          "url": null,
-          "note": "State budget, treasuries and fiscal management."
-        },
-        {
-          "name": "State Lotteries",
-          "abbrev": null,
-          "url": null,
-          "note": "Regulation of state lotteries."
-        },
-        {
-          "name": "Fisheries",
-          "abbrev": null,
-          "url": null,
-          "note": "Fisheries development and aquaculture."
-        },
-        {
-          "name": "Resident Commissioner Under General Administration",
-          "abbrev": null,
-          "url": null,
-          "note": "State liaison office outside Arunachal Pradesh."
-        },
-        {
-          "name": "General Administration",
-          "abbrev": null,
-          "url": null,
-          "note": "Secretariat administration and coordination of government business."
-        },
-        {
-          "name": "Geology and Mining",
-          "abbrev": null,
-          "url": null,
-          "note": "Mineral exploration and mining regulation."
-        },
-        {
-          "name": "Governor Secretariat",
-          "abbrev": null,
-          "url": null,
-          "note": "Secretariat support to the Governor."
-        },
-        {
-          "name": "Directorate of Health Services",
-          "abbrev": null,
-          "url": null,
-          "note": "Public healthcare delivery and hospitals."
-        },
-        {
-          "name": "Police Department",
-          "abbrev": null,
-          "url": null,
-          "note": "Law enforcement and policing."
-        },
-        {
-          "name": "Home",
-          "abbrev": null,
-          "url": null,
-          "note": "Internal security, law and order and home affairs."
-        },
-        {
-          "name": "Disaster Management",
-          "abbrev": null,
-          "url": null,
-          "note": "Disaster preparedness, relief and rehabilitation."
-        },
-        {
-          "name": "Prisons and Correctional Administration",
-          "abbrev": null,
-          "url": null,
-          "note": "Jails and correctional services."
-        },
-        {
-          "name": "Fire and Emergency Services",
-          "abbrev": null,
-          "url": null,
-          "note": "Firefighting and emergency response."
-        },
-        {
-          "name": "Arunachal Pradesh State Human Right Commission",
-          "abbrev": null,
-          "url": null,
-          "note": "Human-rights complaints and oversight (statutory body)."
-        },
-        {
-          "name": "Horticulture",
-          "abbrev": null,
-          "url": null,
-          "note": "Horticultural crops development."
-        },
-        {
-          "name": "Chief Inspector Factories and Boilers",
-          "abbrev": null,
-          "url": null,
-          "note": "Factory and boiler safety inspection."
-        },
-        {
-          "name": "Department of Industries",
-          "abbrev": null,
-          "url": null,
-          "note": "Industrial promotion and entrepreneurship."
-        },
-        {
-          "name": "Printing and Stationery",
-          "abbrev": null,
-          "url": null,
-          "note": "Government printing press and stationery."
-        },
-        {
-          "name": "Information and Public Relations",
-          "abbrev": null,
-          "url": null,
-          "note": "Government publicity and media relations."
-        },
-        {
-          "name": "Information Technology and Communication",
-          "abbrev": null,
-          "url": null,
-          "note": "E-governance, IT infrastructure and the state data centre."
-        },
-        {
-          "name": "Labour and Employment",
-          "abbrev": null,
-          "url": null,
-          "note": "Labour welfare and employment services."
-        },
-        {
-          "name": "Stamps and Registration",
-          "abbrev": null,
-          "url": null,
-          "note": "Stamp duty and document registration."
-        },
-        {
-          "name": "Land Management",
-          "abbrev": null,
-          "url": null,
-          "note": "Land records, survey and settlement."
-        },
-        {
-          "name": "Law Legislative and Justice",
-          "abbrev": null,
-          "url": null,
-          "note": "Legal affairs, legislation drafting and justice administration."
-        },
-        {
-          "name": "Legal Metrology and Consumer Affairs",
-          "abbrev": null,
-          "url": null,
-          "note": "Weights-and-measures enforcement and consumer protection."
-        },
-        {
-          "name": "Legislative Assembly",
-          "abbrev": null,
-          "url": null,
-          "note": "State legislature secretariat and assembly business."
-        },
-        {
-          "name": "Department of Panchayati Raj",
-          "abbrev": null,
-          "url": null,
-          "note": "Panchayati raj institutions and rural local governance."
-        },
-        {
-          "name": "Parliamentary Affairs",
-          "abbrev": null,
-          "url": null,
-          "note": "Coordination of legislative business and assembly matters."
-        },
-        {
-          "name": "Planning and Investment",
-          "abbrev": null,
-          "url": null,
-          "note": "State planning and investment promotion."
-        },
-        {
-          "name": "Hydro Power Development",
-          "abbrev": null,
-          "url": null,
-          "note": "Hydropower project development."
-        },
-        {
-          "name": "Power",
-          "abbrev": null,
-          "url": null,
-          "note": "Electricity generation, transmission, distribution and billing."
-        },
-        {
-          "name": "APEDA",
-          "abbrev": "APEDA",
-          "url": null,
-          "note": "Arunachal Pradesh Energy Development Agency; renewable energy promotion."
-        },
-        {
-          "name": "Public Health Engineering & Water Supply",
-          "abbrev": null,
-          "url": null,
-          "note": "Drinking water supply and sanitation engineering."
-        },
-        {
-          "name": "Arunachal Pradesh Public Service Commission",
-          "abbrev": null,
-          "url": null,
-          "note": "Civil services recruitment (constitutional body)."
-        },
-        {
-          "name": "Public Works Department",
-          "abbrev": null,
-          "url": null,
-          "note": "Roads, bridges and government buildings construction."
-        },
-        {
-          "name": "Rural Development Department",
-          "abbrev": null,
-          "url": null,
-          "note": "Rural development and poverty-alleviation programmes."
-        },
-        {
-          "name": "Rural Works Department",
-          "abbrev": null,
-          "url": null,
-          "note": "Rural roads and infrastructure works."
-        },
-        {
-          "name": "Political",
-          "abbrev": null,
-          "url": null,
-          "note": "Political and cabinet affairs including inter-state matters."
-        },
-        {
-          "name": "Protocol",
-          "abbrev": null,
-          "url": null,
-          "note": "State protocol, hospitality and VIP arrangements."
-        },
-        {
-          "name": "Skill Development and Enterprenership",
-          "abbrev": null,
-          "url": null,
-          "note": "Skill training and entrepreneurship promotion (spelling as listed on source)."
-        },
-        {
-          "name": "Social Justice Empowerment and Tribal Affairs",
-          "abbrev": null,
-          "url": null,
-          "note": "Welfare of SC/ST/OBC, persons with disabilities and tribal affairs."
-        },
-        {
-          "name": "Women Child Development",
-          "abbrev": null,
-          "url": null,
-          "note": "Women and child welfare, ICDS and nutrition."
-        },
-        {
-          "name": "Textile and Handicrafts",
-          "abbrev": null,
-          "url": null,
-          "note": "Handloom, textiles and handicrafts promotion."
-        },
-        {
-          "name": "Sericulture",
-          "abbrev": null,
-          "url": null,
-          "note": "Silk production and sericulture development."
-        },
-        {
-          "name": "Tourism",
-          "abbrev": null,
-          "url": null,
-          "note": "Tourism promotion and infrastructure."
-        },
-        {
-          "name": "Urban Local Bodies",
-          "abbrev": null,
-          "url": null,
-          "note": "Municipal governance and urban local bodies."
-        },
-        {
-          "name": "Town Planning",
-          "abbrev": null,
-          "url": null,
-          "note": "Urban and town planning."
-        },
-        {
-          "name": "Trade and Commerce",
-          "abbrev": null,
-          "url": null,
-          "note": "Trade, commerce and business facilitation."
-        },
-        {
-          "name": "State Transport Services",
-          "abbrev": null,
-          "url": null,
-          "note": "Public bus and passenger transport services."
-        },
-        {
-          "name": "Directorate of Road Transport",
-          "abbrev": null,
-          "url": null,
-          "note": "Motor vehicles regulation, permits and road safety."
-        },
-        {
-          "name": "Urban Development and Housing",
-          "abbrev": null,
-          "url": null,
-          "note": "Urban development and housing schemes."
-        },
-        {
-          "name": "Water Resources Department",
-          "abbrev": null,
-          "url": null,
-          "note": "Irrigation, flood control and water resources."
-        }
-      ],
-      "source_url": "https://egras.arunachal.gov.in/departments",
-      "source_title": "Government Departments Accepting E-Payment Facility (eGras)",
-      "as_of": "2026-09-22"
-    },
-    "orgs": {
-      "count": 5,
-      "items": [
-        {
-          "name": "Arunachal Pradesh Public Service Commission",
-          "abbrev": "APPSC",
-          "url": "https://appsc.gov.in/Index/institute_home/ins/RECINS001",
-          "note": "Constitutional body advising on recruitment to state civil services."
-        },
-        {
-          "name": "Arunachal State Rural Livelihood Mission",
-          "abbrev": null,
-          "url": null,
-          "note": "State mission implementing rural livelihood and self-employment programmes."
-        },
-        {
-          "name": "Legislative Assembly",
-          "abbrev": null,
-          "url": null,
-          "note": "State legislature enacting laws for Arunachal Pradesh."
-        },
-        {
-          "name": "State Remote Sensing Application Center",
-          "abbrev": null,
-          "url": null,
-          "note": "State centre for remote sensing, GIS and space-based applications."
-        },
-        {
-          "name": "State Transport",
-          "abbrev": "APSTS",
-          "url": "https://apsts.arunachal.gov.in/",
-          "note": "State public bus transport services (APSTS)."
-        }
-      ],
-      "source_url": "https://arunachalpradesh.gov.in/government-department.php",
-      "source_title": "Departments of Arunachal Pradesh",
-      "as_of": "2026-09-22"
-    },
-    "psus": {
-      "count": 7,
-      "items": [
-        {
-          "name": "Arunachal Pradesh Industrial Development and Financial Corporation Limited",
-          "abbrev": null,
-          "url": null,
-          "note": "State industrial promotion and financing company (Finance sector)"
-        },
-        {
-          "name": "Arunachal Pradesh Mineral Development and Trading Corporation Limited",
-          "abbrev": null,
-          "url": null,
-          "note": "Mineral exploration, development and trading (Mining sector)"
-        },
-        {
-          "name": "Arunachal Pradesh Forest Corporation Limited",
-          "abbrev": null,
-          "url": null,
-          "note": "Forestry operations and trade in forest produce"
-        },
-        {
-          "name": "Arunachal Police Housing and Welfare Corporation Limited",
-          "abbrev": null,
-          "url": null,
-          "note": "Constructs residential and office buildings, mainly police housing"
-        },
-        {
-          "name": "Hydro Power Development Corporation of Arunachal Pradesh Limited",
-          "abbrev": null,
-          "url": null,
-          "note": "Power-sector company for hydropower development in the state"
-        },
-        {
-          "name": "Arunachal Pradesh Donyi Polo Hotel Corporation Limited",
-          "abbrev": null,
-          "url": null,
-          "note": "Runs the state government hotel business (Service sector)"
-        },
-        {
-          "name": "Parasuram Cement Limited",
-          "abbrev": null,
-          "url": null,
-          "note": "Non-working cement manufacturing company"
-        }
-      ],
-      "source_url": "https://cag.gov.in/uploads/download_audit_report/2023/9--Chapter-6-069c4dd5e0fdfb6.96297872.pdf",
-      "source_title": "CHAPTER - VI: ECONOMIC SECTOR (STATE PUBLIC SECTOR ENTERPRISES), CAG Audit Report for the year ended 31 March 2023 - Government of Arunachal Pradesh",
-      "as_of": "31 March 2023"
-    }
-  },
-  "assam": {
-    "agencies": {
-      "count": 56,
-      "items": [
-        {
-          "name": "Act East Policy Affairs",
-          "abbrev": null,
-          "url": "https://acteast.assam.gov.in/",
-          "note": "Nodal department for Act East Policy affairs"
-        },
-        {
-          "name": "Administrative Reforms, Training, Pension & Public Grievances",
-          "abbrev": null,
-          "url": "https://art.assam.gov.in",
-          "note": "Handles administrative reforms, training, pension and public grievances"
-        },
-        {
-          "name": "Agriculture",
-          "abbrev": null,
-          "url": "https://agri-horti.assam.gov.in",
-          "note": "Administers agriculture development and farmer services"
-        },
-        {
-          "name": "Border Protection and Development",
-          "abbrev": null,
-          "url": "https://bpdd.assam.gov.in",
-          "note": "Handles border area protection and development"
-        },
-        {
-          "name": "Chief Minister’s Secretariat",
-          "abbrev": null,
-          "url": "https://assam.gov.in/",
-          "note": "Secretariat supporting the Chief Minister"
-        },
-        {
-          "name": "Co-operation",
-          "abbrev": null,
-          "url": "https://coop.assam.gov.in",
-          "note": "Regulates cooperative societies and cooperation development"
-        },
-        {
-          "name": "Cultural Affairs",
-          "abbrev": null,
-          "url": "https://culturalaffairs.assam.gov.in",
-          "note": "Promotes culture, libraries, film and arts institutions"
-        },
-        {
-          "name": "Election",
-          "abbrev": null,
-          "url": "http://ceoassam.nic.in/",
-          "note": "Conducts and manages elections in the state"
-        },
-        {
-          "name": "Environment & Forest",
-          "abbrev": null,
-          "url": "https://environmentandforest.assam.gov.in",
-          "note": "Manages forests, wildlife, biodiversity and pollution control"
-        },
-        {
-          "name": "Excise",
-          "abbrev": null,
-          "url": "https://excise.assam.gov.in",
-          "note": "Administers excise duty and liquor regulation"
-        },
-        {
-          "name": "Finance",
-          "abbrev": null,
-          "url": "https://finance.assam.gov.in",
-          "note": "Manages state budget, taxation, treasuries and accounts"
-        },
-        {
-          "name": "Fishery",
-          "abbrev": null,
-          "url": "https://fisheries.assam.gov.in",
-          "note": "Develops fisheries and fish farming"
-        },
-        {
-          "name": "Food, Civil Supplies & Consumer Affairs",
-          "abbrev": null,
-          "url": "https://fcsca.assam.gov.in",
-          "note": "Manages food supply, public distribution and consumer affairs"
-        },
-        {
-          "name": "General Administration",
-          "abbrev": null,
-          "url": "https://gad.assam.gov.in",
-          "note": "Handles general administration, archives and sainik welfare"
-        },
-        {
-          "name": "Handloom, Textiles & Sericulture",
-          "abbrev": null,
-          "url": "https://hts.assam.gov.in",
-          "note": "Develops handloom, textiles and sericulture"
-        },
-        {
-          "name": "Health & Family Welfare",
-          "abbrev": null,
-          "url": "https://hfw.assam.gov.in",
-          "note": "Provides health, medical and family welfare services"
-        },
-        {
-          "name": "Higher Education",
-          "abbrev": null,
-          "url": "https://highereducation.assam.gov.in",
-          "note": "Administers higher and technical education"
-        },
-        {
-          "name": "Hill Areas",
-          "abbrev": null,
-          "url": "https://had.assam.gov.in",
-          "note": "Develops hill areas of Assam"
-        },
-        {
-          "name": "Home",
-          "abbrev": null,
-          "url": "https://homeandpolitical.assam.gov.in",
-          "note": "Handles police, prisons, fire, forensics and internal security"
-        },
-        {
-          "name": "Horticulture and Food Processing",
-          "abbrev": null,
-          "url": "https://dirhorti.assam.gov.in/",
-          "note": "Develops horticulture and food processing"
-        },
-        {
-          "name": "Housing and Urban Affairs",
-          "abbrev": null,
-          "url": "https://dohua.assam.gov.in/",
-          "note": "Handles housing, municipal administration and urban development"
-        },
-        {
-          "name": "Implementation of Assam Accord",
-          "abbrev": null,
-          "url": "https://assamaccord.assam.gov.in",
-          "note": "Implements provisions of the Assam Accord"
-        },
-        {
-          "name": "Indigenous & Tribal Faith and Culture",
-          "abbrev": null,
-          "url": "https://itfc.assam.gov.in/",
-          "note": "Preserves indigenous faith, archaeology, museums and heritage"
-        },
-        {
-          "name": "Industries, Commerce and Public Enterprises",
-          "abbrev": null,
-          "url": "https://industries.assam.gov.in",
-          "note": "Promotes industries, commerce, tea and public enterprises"
-        },
-        {
-          "name": "Information, Public Relations, Printing & Stationery",
-          "abbrev": null,
-          "url": "https://iprd.assam.gov.in",
-          "note": "Handles government publicity, printing and stationery"
-        },
-        {
-          "name": "Information Technology",
-          "abbrev": null,
-          "url": "https://it.assam.gov.in",
-          "note": "Develops IT, electronics and digital governance"
-        },
-        {
-          "name": "Irrigation",
-          "abbrev": null,
-          "url": "https://irrigation.assam.gov.in",
-          "note": "Develops and manages irrigation systems"
-        },
-        {
-          "name": "Judicial",
-          "abbrev": null,
-          "url": "https://judicial.assam.gov.in",
-          "note": "Handles judicial administration"
-        },
-        {
-          "name": "Labour Welfare",
-          "abbrev": null,
-          "url": "https://labour.assam.gov.in",
-          "note": "Regulates labour, factories, boilers and worker welfare"
-        },
-        {
-          "name": "Legislative",
-          "abbrev": null,
-          "url": "https://legislative.assam.gov.in",
-          "note": "Handles legislation and legal services"
-        },
-        {
-          "name": "Medical Education and Research",
-          "abbrev": null,
-          "url": null,
-          "note": "Administers medical education and research"
-        },
-        {
-          "name": "Panchayat & Rural Development",
-          "abbrev": null,
-          "url": "https://pnrd.assam.gov.in",
-          "note": "Develops panchayats and rural livelihoods"
-        },
-        {
-          "name": "Parliamentary Affairs",
-          "abbrev": null,
-          "url": "https://parliamentaryaffairs.assam.gov.in",
-          "note": "Coordinates parliamentary and legislative business"
-        },
-        {
-          "name": "Personnel",
-          "abbrev": null,
-          "url": "https://personnel.assam.gov.in",
-          "note": "Manages personnel, civil services and administrative tribunal"
-        },
-        {
-          "name": "Political",
-          "abbrev": null,
-          "url": "https://homeandpolitical.assam.gov.in/",
-          "note": "Handles political and state protocol matters"
-        },
-        {
-          "name": "Power (Electricity), Mines and Minerals",
-          "abbrev": null,
-          "url": "https://power.assam.gov.in",
-          "note": "Manages power generation, distribution and mining"
-        },
-        {
-          "name": "Public Health Engineering (PHE)",
-          "abbrev": "PHE",
-          "url": "https://phe.assam.gov.in",
-          "note": "Provides drinking water and sanitation services"
-        },
-        {
-          "name": "Public Works Buildings and National Highways",
-          "abbrev": null,
-          "url": "https://pwdbnh.assam.gov.in",
-          "note": "Constructs public buildings and national highways"
-        },
-        {
-          "name": "Public Works Roads",
-          "abbrev": null,
-          "url": "https://pwdroads.assam.gov.in",
-          "note": "Constructs and maintains state roads"
-        },
-        {
-          "name": "Revenue & Disaster Management",
-          "abbrev": null,
-          "url": "https://landrevenue.assam.gov.in",
-          "note": "Manages land revenue, registration and disaster management"
-        },
-        {
-          "name": "School Education",
-          "abbrev": null,
-          "url": "https://elementary.assam.gov.in",
-          "note": "Administers elementary and secondary school education"
-        },
-        {
-          "name": "Science, Technology and Climate Change",
-          "abbrev": null,
-          "url": "https://snt.assam.gov.in",
-          "note": "Promotes science, technology, energy and climate action"
-        },
-        {
-          "name": "Skill, Employment & Entrepreneurship",
-          "abbrev": null,
-          "url": "https://skill.assam.gov.in",
-          "note": "Provides skill training, employment and entrepreneurship"
-        },
-        {
-          "name": "Social Justice and Empowerment",
-          "abbrev": null,
-          "url": "https://socialjustice.assam.gov.in/",
-          "note": "Works for social justice and empowerment of vulnerable groups"
-        },
-        {
-          "name": "Soil Conservation",
-          "abbrev": null,
-          "url": "https://soilconservation.assam.gov.in",
-          "note": "Conserves soil and manages watersheds"
-        },
-        {
-          "name": "Sports & Youth Welfare",
-          "abbrev": null,
-          "url": "https://sports.assam.gov.in",
-          "note": "Promotes sports and youth welfare"
-        },
-        {
-          "name": "Tea Tribes Welfare",
-          "abbrev": null,
-          "url": "https://teatribes.assam.gov.in",
-          "note": "Works for welfare of tea and ex-tea garden tribes"
-        },
-        {
-          "name": "Tourism",
-          "abbrev": null,
-          "url": "https://tourism.assam.gov.in",
-          "note": "Promotes tourism and tourism infrastructure"
-        },
-        {
-          "name": "Transformation and Development",
-          "abbrev": null,
-          "url": "https://transdev.assam.gov.in",
-          "note": "Plans transformation, statistics and development policy"
-        },
-        {
-          "name": "Transport",
-          "abbrev": null,
-          "url": "https://transport.assam.gov.in",
-          "note": "Regulates motor transport, ASTC and inland water transport"
-        },
-        {
-          "name": "Tribal Affairs (Plain)",
-          "abbrev": null,
-          "url": "https://wptbc.assam.gov.in",
-          "note": "Works for plain tribes, backward classes and scheduled castes"
-        },
-        {
-          "name": "Veterinary",
-          "abbrev": null,
-          "url": "https://animalhusbandry.assam.gov.in",
-          "note": "Handles animal husbandry, veterinary and dairy development"
-        },
-        {
-          "name": "Water Resources",
-          "abbrev": null,
-          "url": "https://waterresources.assam.gov.in",
-          "note": "Manages water resources, floods and river erosion"
-        },
-        {
-          "name": "Welfare of Bodoland",
-          "abbrev": null,
-          "url": null,
-          "note": "Works for welfare of the Bodoland region"
-        },
-        {
-          "name": "Welfare of Minorities & Development",
-          "abbrev": null,
-          "url": "https://minorities.assam.gov.in",
-          "note": "Works for minorities welfare and char areas development"
-        },
-        {
-          "name": "Women and Child Development Department",
-          "abbrev": null,
-          "url": "https://womenandchild.assam.gov.in/",
-          "note": "Works for women and child development"
-        }
-      ],
-      "source_url": "https://assam.gov.in/departments-list",
-      "source_title": "Department List Page | Assam State Portal",
-      "as_of": "2026-08-24"
-    },
-    "commissions": {
-      "count": 9,
-      "items": [
-        {
-          "name": "Assam State Election Commission",
-          "abbrev": null,
-          "url": null,
-          "note": "Conducts elections to panchayats and municipal bodies in Assam."
-        },
-        {
-          "name": "National Commission for Scheduled Castes",
-          "abbrev": "NCSC",
-          "url": null,
-          "note": "Safeguards interests and rights of Scheduled Castes."
-        },
-        {
-          "name": "Assam State Commission for Women",
-          "abbrev": null,
-          "url": null,
-          "note": "Protects women's rights and welfare in Assam."
-        },
-        {
-          "name": "Assam State Commission for Protection of Child Rights",
-          "abbrev": null,
-          "url": null,
-          "note": "Protects child rights and welfare in Assam."
-        },
-        {
-          "name": "Assam Public Service Commission",
-          "abbrev": "APSC",
-          "url": null,
-          "note": "Recruits to Assam state civil services and advises on service matters."
-        },
-        {
-          "name": "Khadi and Village Industries Commission",
-          "abbrev": "KVIC",
-          "url": null,
-          "note": "Promotes khadi and village industries development."
-        },
-        {
-          "name": "Assam State Information Commission",
-          "abbrev": null,
-          "url": null,
-          "note": "Hears RTI appeals and oversees transparency compliance in Assam."
-        },
-        {
-          "name": "Assam Official Language TCL Commission",
-          "abbrev": null,
-          "url": null,
-          "note": "Oversees implementation of Assam official language matters."
-        },
-        {
-          "name": "Assam Electricity Regulatory Commission",
-          "abbrev": "AERC",
-          "url": null,
-          "note": "Regulates electricity tariff and licensing in Assam."
-        }
-      ],
-      "source_url": "https://assam.gov.in/government/409",
-      "source_title": "Commissions | Assam State Portal",
-      "as_of": "24-Aug-2026"
-    },
-    "ministries": {
-      "count": 56,
-      "items": [
-        {
-          "name": "Act East Policy Affairs",
-          "abbrev": null,
-          "url": "https://acteast.assam.gov.in/",
-          "note": "Nodal department for Act East Policy initiatives and Southeast Asia engagement"
-        },
-        {
-          "name": "Administrative Reforms, Training, Pension & Public Grievances",
-          "abbrev": null,
-          "url": "https://art.assam.gov.in",
-          "note": "Administrative reforms, civil service training, pensions and grievance redressal"
-        },
-        {
-          "name": "Agriculture",
-          "abbrev": null,
-          "url": "https://agri-horti.assam.gov.in",
-          "note": "Crop production, extension, marketing, seeds and farmer welfare"
-        },
-        {
-          "name": "Border Protection and Development",
-          "abbrev": null,
-          "url": "https://bpdd.assam.gov.in",
-          "note": "Interstate and international border protection and border area development"
-        },
-        {
-          "name": "Chief Minister’s Secretariat",
-          "abbrev": null,
-          "url": "https://assam.gov.in/",
-          "note": "Secretarial assistance and coordination for the Chief Minister"
-        },
-        {
-          "name": "Co-operation",
-          "abbrev": null,
-          "url": "https://coop.assam.gov.in",
-          "note": "Cooperative societies, warehousing and cooperative credit institutions"
-        },
-        {
-          "name": "Cultural Affairs",
-          "abbrev": null,
-          "url": "https://culturalaffairs.assam.gov.in",
-          "note": "Art, culture, libraries, film, museums and cultural institutions"
-        },
-        {
-          "name": "Election",
-          "abbrev": null,
-          "url": "http://ceoassam.nic.in/",
-          "note": "Electoral rolls and conduct of elections in the state"
-        },
-        {
-          "name": "Environment & Forest",
-          "abbrev": null,
-          "url": "https://environmentandforest.assam.gov.in",
-          "note": "Forests, wildlife, biodiversity and pollution control"
-        },
-        {
-          "name": "Excise",
-          "abbrev": null,
-          "url": "https://excise.assam.gov.in",
-          "note": "Regulation of liquor production, sale and excise revenue"
-        },
-        {
-          "name": "Finance",
-          "abbrev": null,
-          "url": "https://finance.assam.gov.in",
-          "note": "State budget, taxation, treasuries, pensions and fiscal management"
-        },
-        {
-          "name": "Fishery",
-          "abbrev": null,
-          "url": "https://fisheries.assam.gov.in",
-          "note": "Inland fisheries development and fish farmer welfare"
-        },
-        {
-          "name": "Food, Civil Supplies & Consumer Affairs",
-          "abbrev": null,
-          "url": "https://fcsca.assam.gov.in",
-          "note": "Public distribution, food security and consumer protection"
-        },
-        {
-          "name": "General Administration",
-          "abbrev": null,
-          "url": "https://gad.assam.gov.in",
-          "note": "Secretariat administration, protocol, archives and sainik welfare"
-        },
-        {
-          "name": "Handloom, Textiles & Sericulture",
-          "abbrev": null,
-          "url": "https://hts.assam.gov.in",
-          "note": "Handloom, powerloom, textiles, sericulture and weaver support"
-        },
-        {
-          "name": "Health & Family Welfare",
-          "abbrev": null,
-          "url": "https://hfw.assam.gov.in",
-          "note": "Hospitals, public health, family welfare and medical services"
-        },
-        {
-          "name": "Higher Education",
-          "abbrev": null,
-          "url": "https://highereducation.assam.gov.in",
-          "note": "Colleges, universities and technical education"
-        },
-        {
-          "name": "Hill Areas",
-          "abbrev": null,
-          "url": "https://had.assam.gov.in",
-          "note": "Development administration for hill areas and autonomous councils"
-        },
-        {
-          "name": "Home",
-          "abbrev": null,
-          "url": "https://homeandpolitical.assam.gov.in",
-          "note": "Police, prisons, fire services, forensics and law and order"
-        },
-        {
-          "name": "Horticulture and Food Processing",
-          "abbrev": null,
-          "url": "https://dirhorti.assam.gov.in/",
-          "note": "Horticulture crops and food processing industries"
-        },
-        {
-          "name": "Housing and Urban Affairs",
-          "abbrev": null,
-          "url": "https://dohua.assam.gov.in/",
-          "note": "Urban governance, housing, municipal bodies and town planning"
-        },
-        {
-          "name": "Implementation of Assam Accord",
-          "abbrev": null,
-          "url": "https://assamaccord.assam.gov.in",
-          "note": "Implementation and monitoring of Assam Accord clauses"
-        },
-        {
-          "name": "Indigenous & Tribal Faith and Culture",
-          "abbrev": null,
-          "url": "https://itfc.assam.gov.in/",
-          "note": "Preservation of indigenous faiths, archaeology and museums"
-        },
-        {
-          "name": "Industries, Commerce and Public Enterprises",
-          "abbrev": null,
-          "url": "https://industries.assam.gov.in",
-          "note": "Industrial promotion, trade, tea and public enterprises"
-        },
-        {
-          "name": "Information, Public Relations, Printing & Stationery",
-          "abbrev": null,
-          "url": "https://iprd.assam.gov.in",
-          "note": "Government publicity, press, printing and publications"
-        },
-        {
-          "name": "Information Technology",
-          "abbrev": null,
-          "url": "https://it.assam.gov.in",
-          "note": "IT, electronics, e-governance and state portal management"
-        },
-        {
-          "name": "Irrigation",
-          "abbrev": null,
-          "url": "https://irrigation.assam.gov.in",
-          "note": "Irrigation projects, canals and water use for agriculture"
-        },
-        {
-          "name": "Judicial",
-          "abbrev": null,
-          "url": "https://judicial.assam.gov.in",
-          "note": "Courts administration and judicial services"
-        },
-        {
-          "name": "Labour Welfare",
-          "abbrev": null,
-          "url": "https://labour.assam.gov.in",
-          "note": "Labour laws, factories, boilers, ESI and worker welfare"
-        },
-        {
-          "name": "Legislative",
-          "abbrev": null,
-          "url": "https://legislative.assam.gov.in",
-          "note": "Law drafting, legislation and legal services authority"
-        },
-        {
-          "name": "Medical Education and Research",
-          "abbrev": null,
-          "url": null,
-          "note": "Medical colleges, medical education and research"
-        },
-        {
-          "name": "Panchayat & Rural Development",
-          "abbrev": null,
-          "url": "https://pnrd.assam.gov.in",
-          "note": "Panchayats, rural development schemes and livelihoods missions"
-        },
-        {
-          "name": "Parliamentary Affairs",
-          "abbrev": null,
-          "url": "https://parliamentaryaffairs.assam.gov.in",
-          "note": "Legislative business and coordination with the Assembly"
-        },
-        {
-          "name": "Personnel",
-          "abbrev": null,
-          "url": "https://personnel.assam.gov.in",
-          "note": "Personnel policy, appointments, service rules and APSC matters"
-        },
-        {
-          "name": "Political",
-          "abbrev": null,
-          "url": "https://homeandpolitical.assam.gov.in/",
-          "note": "Political matters, citizenship and maintenance of public order"
-        },
-        {
-          "name": "Power (Electricity), Mines and Minerals",
-          "abbrev": null,
-          "url": "https://power.assam.gov.in",
-          "note": "Power generation and distribution, geology and mining"
-        },
-        {
-          "name": "Public Health Engineering (PHE)",
-          "abbrev": "PHE",
-          "url": "https://phe.assam.gov.in",
-          "note": "Rural and urban drinking water supply and sanitation"
-        },
-        {
-          "name": "Public Works Buildings and National Highways",
-          "abbrev": null,
-          "url": "https://pwdbnh.assam.gov.in",
-          "note": "Government buildings and national highways construction"
-        },
-        {
-          "name": "Public Works Roads",
-          "abbrev": null,
-          "url": "https://pwdroads.assam.gov.in",
-          "note": "State roads, bridges and road maintenance"
-        },
-        {
-          "name": "Revenue & Disaster Management",
-          "abbrev": null,
-          "url": "https://landrevenue.assam.gov.in",
-          "note": "Land records, registration, revenue and disaster management"
-        },
-        {
-          "name": "School Education",
-          "abbrev": null,
-          "url": "https://elementary.assam.gov.in",
-          "note": "Elementary and secondary schooling, boards and literacy"
-        },
-        {
-          "name": "Science, Technology and Climate Change",
-          "abbrev": null,
-          "url": "https://snt.assam.gov.in",
-          "note": "Science promotion, renewable energy and climate action"
-        },
-        {
-          "name": "Skill, Employment & Entrepreneurship",
-          "abbrev": null,
-          "url": "https://skill.assam.gov.in",
-          "note": "Skill development, employment exchanges and entrepreneurship"
-        },
-        {
-          "name": "Social Justice and Empowerment",
-          "abbrev": null,
-          "url": "https://socialjustice.assam.gov.in/",
-          "note": "Welfare of vulnerable groups and social empowerment schemes"
-        },
-        {
-          "name": "Soil Conservation",
-          "abbrev": null,
-          "url": "https://soilconservation.assam.gov.in",
-          "note": "Soil conservation, watershed management and land protection"
-        },
-        {
-          "name": "Sports & Youth Welfare",
-          "abbrev": null,
-          "url": "https://sports.assam.gov.in",
-          "note": "Sports infrastructure, youth affairs and sports training"
-        },
-        {
-          "name": "Tea Tribes Welfare",
-          "abbrev": null,
-          "url": "https://teatribes.assam.gov.in",
-          "note": "Welfare of tea and ex-tea garden tribes"
-        },
-        {
-          "name": "Tourism",
-          "abbrev": null,
-          "url": "https://tourism.assam.gov.in",
-          "note": "Tourism promotion, destinations and hospitality infrastructure"
-        },
-        {
-          "name": "Transformation and Development",
-          "abbrev": null,
-          "url": "https://transdev.assam.gov.in",
-          "note": "Planning, statistics, evaluation and state transformation programs"
-        },
-        {
-          "name": "Transport",
-          "abbrev": null,
-          "url": "https://transport.assam.gov.in",
-          "note": "Motor vehicles, road transport and inland water transport"
-        },
-        {
-          "name": "Tribal Affairs (Plain)",
-          "abbrev": null,
-          "url": "https://wptbc.assam.gov.in",
-          "note": "Welfare of plain tribes, backward classes and scheduled castes"
-        },
-        {
-          "name": "Veterinary",
-          "abbrev": null,
-          "url": "https://animalhusbandry.assam.gov.in",
-          "note": "Animal husbandry, veterinary care and dairy development"
-        },
-        {
-          "name": "Water Resources",
-          "abbrev": null,
-          "url": "https://waterresources.assam.gov.in",
-          "note": "Flood control, irrigation infrastructure and river management"
-        },
-        {
-          "name": "Welfare of Bodoland",
-          "abbrev": null,
-          "url": null,
-          "note": "Welfare and development of Bodoland Territorial Region matters"
-        },
-        {
-          "name": "Welfare of Minorities & Development",
-          "abbrev": null,
-          "url": "https://minorities.assam.gov.in",
-          "note": "Minority welfare, char areas development and minority boards"
-        },
-        {
-          "name": "Women and Child Development Department",
-          "abbrev": null,
-          "url": "https://womenandchild.assam.gov.in/",
-          "note": "Women empowerment, child welfare and nutrition programs"
-        }
-      ],
-      "source_url": "https://assam.gov.in/departments-list",
-      "source_title": "Department List Page | Assam State Portal",
-      "as_of": "24-Aug-2026"
-    },
-    "orgs": {
-      "count": 9,
-      "items": [
-        {
-          "name": "Assam State Election Commission",
-          "abbrev": "ASEC",
-          "url": null,
-          "note": "Conducts panchayat and municipal elections in Assam."
-        },
-        {
-          "name": "National Commission for Scheduled Castes",
-          "abbrev": "NCSC",
-          "url": null,
-          "note": "Central constitutional body listed with Assam office for SC safeguards."
-        },
-        {
-          "name": "Assam State Commission for Women",
-          "abbrev": "ASCW",
-          "url": null,
-          "note": "Safeguards women's rights and welfare in Assam."
-        },
-        {
-          "name": "Assam State Commission for Protection of Child Rights",
-          "abbrev": "ASCPCR",
-          "url": null,
-          "note": "Protects child rights and welfare in Assam."
-        },
-        {
-          "name": "Assam Public Service Commission",
-          "abbrev": "APSC",
-          "url": null,
-          "note": "Recruits to Assam state civil services through examinations."
-        },
-        {
-          "name": "Khadi and Village Industries Commission",
-          "abbrev": "KVIC",
-          "url": null,
-          "note": "Central statutory body listed with Assam office for khadi promotion."
-        },
-        {
-          "name": "Assam State Information Commission",
-          "abbrev": "ASIC",
-          "url": null,
-          "note": "Decides RTI appeals and oversees transparency in Assam."
-        },
-        {
-          "name": "Assam Official Language TCL Commission",
-          "abbrev": null,
-          "url": null,
-          "note": "Translates central laws for Assam official language use."
-        },
-        {
-          "name": "Assam Electricity Regulatory Commission",
-          "abbrev": "AERC",
-          "url": null,
-          "note": "Regulates electricity tariff and licensing in Assam."
-        }
-      ],
-      "source_url": "https://assam.gov.in/index.php/government/409",
-      "source_title": "Commissions | Assam State Portal",
-      "as_of": "2026-08-24"
-    },
-    "psus": {
-      "count": 39,
-      "items": [
-        {
-          "name": "Assam Gas Company Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "State natural gas distribution and marketing company"
-        },
-        {
-          "name": "Assam Petrochemicals Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "State petrochemicals manufacturing company"
-        },
-        {
-          "name": "Assam Co-operative Jute Mills Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "State co-operative jute manufacturing mill"
-        },
-        {
-          "name": "DNP Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "State natural gas pipeline transportation company"
-        },
-        {
-          "name": "Assam Industrial Infrastructure Development Corporation Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "Develops industrial estates and infrastructure"
-        },
-        {
-          "name": "Assam State Film (Finance & Development) Corporation Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "Finances and develops Assamese film industry"
-        },
-        {
-          "name": "Assam Tourism Development Corporation Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "Develops tourism infrastructure and services"
-        },
-        {
-          "name": "Assam Fisheries Development Corporation Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "Develops fisheries and fish marketing"
-        },
-        {
-          "name": "Assam Electronics Development Corporation Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "Promotes electronics and IT development"
-        },
-        {
-          "name": "Assam Hydrocarbon & Energy Company Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "State hydrocarbon exploration and energy company"
-        },
-        {
-          "name": "Assam State Textbook Production & Publication Corporation Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "Prints and publishes school textbooks"
-        },
-        {
-          "name": "Assam Urban Water Supply & Sewerage Board",
-          "abbrev": null,
-          "url": null,
-          "note": "Urban water supply and sewerage services"
-        },
-        {
-          "name": "ARTFED",
-          "abbrev": null,
-          "url": null,
-          "note": "Apex weavers and artisans co-operative marketing federation"
-        },
-        {
-          "name": "Assam Government Marketing Corporation Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "Marketing of handloom and handicraft products"
-        },
-        {
-          "name": "Assam Industrial Development Corporation Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "Promotes and finances industries in Assam"
-        },
-        {
-          "name": "Assam Financial Corporation",
-          "abbrev": null,
-          "url": null,
-          "note": "State financial institution for MSME lending"
-        },
-        {
-          "name": "Assam State Warehousing Corporation",
-          "abbrev": null,
-          "url": null,
-          "note": "Warehousing and storage services"
-        },
-        {
-          "name": "Assam Mineral Development Corporation Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "Exploration and development of minerals"
-        },
-        {
-          "name": "Assam Plains Tribes Development Corporation Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "Economic development of plains tribes communities"
-        },
-        {
-          "name": "Assam State Development Corporation for Scheduled Castes Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "Economic development schemes for Scheduled Castes"
-        },
-        {
-          "name": "Assam State Development Corporation for Other Backward Classes Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "Economic development schemes for Other Backward Classes"
-        },
-        {
-          "name": "Assam Power Generation Corporation Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "State electricity generation utility"
-        },
-        {
-          "name": "Assam Electricity Grid Corporation Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "State electricity transmission utility"
-        },
-        {
-          "name": "Assam State Transport Corporation",
-          "abbrev": null,
-          "url": null,
-          "note": "State public road transport services"
-        },
-        {
-          "name": "Assam Seeds Corporation Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "Production and supply of certified seeds"
-        },
-        {
-          "name": "Assam Trade Promotion Organisation",
-          "abbrev": null,
-          "url": null,
-          "note": "Promotes trade, commerce and exhibitions"
-        },
-        {
-          "name": "Assam Minorities Development & Finance Corporation Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "Development and finance schemes for minorities"
-        },
-        {
-          "name": "Assam Small Industries Development Corporation Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "Promotes small-scale industries"
-        },
-        {
-          "name": "Assam Hills Small Industries Development Corporation Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "Promotes small industries in hill areas"
-        },
-        {
-          "name": "Assam Livestock & Poultry Corporation Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "Develops livestock and poultry farming"
-        },
-        {
-          "name": "Assam Police Housing Corporation Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "Constructs police housing and buildings"
-        },
-        {
-          "name": "Assam Tea Corporation Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "Manages state-owned tea gardens"
-        },
-        {
-          "name": "Assam State Fertilizer & Chemicals Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "Manufactures fertilizers and chemicals"
-        },
-        {
-          "name": "Assam Plantation Crop Development Corporation Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "Develops plantation crops"
-        },
-        {
-          "name": "Assam Polyester Co-operative Society Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "Co-operative polyester manufacturing unit"
-        },
-        {
-          "name": "Assam State Housing Board",
-          "abbrev": null,
-          "url": null,
-          "note": "Public housing construction and development"
-        },
-        {
-          "name": "Assam Food and Civil Supplies Corporation Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "Food grain procurement and public distribution"
-        },
-        {
-          "name": "Ashok Paper Mills (Assam) Ltd.",
-          "abbrev": null,
-          "url": null,
-          "note": "State paper manufacturing unit, not in operation"
-        }
-      ],
-      "source_url": "https://dpe.assam.gov.in/information-services/status-of-pses",
-      "source_title": "Status of PSEs | Public Enterprises | Government Of Assam, India",
-      "as_of": "2013-14"
-    }
-  },
   "bbmp-bengaluru": {
     "agencies": {
       "count": 12,
@@ -28265,6 +26375,859 @@
       "as_of": "2026-09-21"
     }
   },
+  "palghar--maharashtra": {
+    "agencies": {
+      "count": 38,
+      "items": [
+        "Collector Office Palghar (Office of the Collector and District Magistrate)",
+        "Chief Executive Officer, Zilla Parishad Palghar",
+        "Superintendent of Police, Palghar",
+        "District Superintendent, Agriculture Department, Palghar",
+        "District Information Officer, Palghar",
+        "District Health Officer, Palghar",
+        "District Surgeon, District Hospital, Palghar",
+        "District Planning Officer, Palghar",
+        "District Statistical Officer, Palghar",
+        "Forest Department - Deputy Conservator of Forests, Jawhar",
+        "Forest Department - Deputy Conservator of Forests, Dahanu",
+        "Town Planning and Municipal Branch Office, Palghar",
+        "Project Officer, Integrated Tribal Development Project, Dahanu",
+        "Joint Director, Local Fund Audit, Palghar",
+        "Superintending Engineer, Maharashtra State Electricity Distribution Company (MSEDCL), Vasai",
+        "Regional Officer, Maharashtra Pollution Control Board, Palghar",
+        "General Manager, District Industries Centre (DIC), Palghar",
+        "Project Director, District Rural Development Agency (DRDA), Palghar",
+        "Land Acquisition Officer, Surya Project, Dahanu",
+        "Palghar Municipal Council",
+        "Deputy Regional Transport Officer (RTO), Vasai",
+        "Deputy Controller of Civil Defence, Palghar",
+        "Deputy Chief Executive Officer (Women and Child Welfare), Zilla Parishad Palghar",
+        "Executive Engineer, Public Works Department (PWD)",
+        "Sub-Divisional Agricultural Officer, Palghar",
+        "District Social Welfare Officer, Palghar",
+        "Senior Geologist, Groundwater Surveys and Development Agency, Palghar",
+        "Executive Engineer (Construction), Zilla Parishad Palghar",
+        "Executive Engineer (Water Supply), Zilla Parishad Palghar",
+        "District Deputy Registrar, Co-operative Societies, Palghar",
+        "Superintendent, State Excise Department, Palghar",
+        "Assistant Town Planning Officer, Palghar",
+        "Deputy Superintendent of Police, Anti-Corruption Bureau, Palghar",
+        "District Women and Child Development Officer, Palghar",
+        "Special District Social Welfare Officer, Palghar",
+        "District Caste Verification / Caste Scrutiny Committee Office, Palghar",
+        "Assistant Labour Commissioner, Tarapur",
+        "District Skills Development, Employment and Entrepreneurship Guidance Officer, Palghar"
+      ],
+      "source_url": "https://www.zppalghar.gov.in/en/important-telephone-numbers/",
+      "source_title": null,
+      "as_of": null
+    }
+  },
+  "pali--rajasthan": {
+    "agencies": {
+      "count": 48,
+      "items": [
+        "Office of the District Collector and District Magistrate, Pali",
+        "Office of the Superintendent of Police, Pali",
+        "Zila Parishad Pali (Chief Executive Officer, Zila Parishad)",
+        "District and Sessions Court, Pali",
+        "Sub-Divisional Magistrate offices: Pali, Sojat, Marwar Junction, Jaitaran, Raipur, Sumerpur, Bali, Rohat, Desuri, Rani",
+        "Tehsil offices: Pali, Sojat, Marwar Junction, Jaitaran, Raipur, Sumerpur, Bali, Rohat, Desuri, Rani",
+        "Panchayat Samitis (10 blocks): Pali, Rohat, Sojat, Marwar Junction, Jaitaran, Raipur, Sumerpur, Bali, Desuri, Rani",
+        "Municipal Council Pali (Nagar Parishad Pali)",
+        "Nagar Palikas: Sojat City, Jaitaran, Sumerpur, Sadri, Bali, Falna-Khudala, Takhatgarh, Rani",
+        "Urban Improvement Trust (UIT) Pali",
+        "Chief Medical and Health Officer (CMHO), Pali",
+        "Principal Medical Officer, Government Bangur Hospital, Pali",
+        "District Education Officer (Secondary and Elementary), Pali",
+        "District Institute of Education and Training (DIET), Pali",
+        "Samagra Shiksha / Sarva Shiksha Abhiyan Karyalaya, Pali",
+        "Public Health Engineering Department - Superintending Engineer, PHED Circle Pali",
+        "Public Works Department (PWD), Pali",
+        "Water Resources / Irrigation Department, Pali",
+        "Agriculture Department (Deputy Director Agriculture), Pali",
+        "Horticulture Department, Pali",
+        "Animal Husbandry Department, Pali",
+        "Forest Department (Deputy Conservator of Forests), Pali",
+        "District Transport Office (RTO / DTO), Pali",
+        "Food and Civil Supplies Department (District Supply Officer), Pali",
+        "Social Justice and Empowerment Department, Pali",
+        "Women and Child Development / ICDS, Pali",
+        "Labour Department and District Employment Exchange, Pali",
+        "District Industries Centre (DIC), Pali",
+        "RIICO Office, Pali",
+        "Mines and Geology Department (Mining Engineer), Pali",
+        "Commercial Taxes / State Tax Department, Pali",
+        "Excise Department, Pali",
+        "District Treasury Office, Pali",
+        "Economics and Statistics Department (Deputy Director / District Statistical Officer), Pali",
+        "Cooperative Department (Deputy Registrar, Cooperatives), Pali",
+        "Sub-Registrar / Registration and Stamps Offices, Pali",
+        "Information and Public Relations Department (DIPR), Pali",
+        "Information Technology and Communication Department (ACP, DoIT&C), Pali",
+        "Ajmer Vidyut Vitran Nigam Ltd (AVVNL) - Superintending Engineer, Pali",
+        "Rajasthan State Pollution Control Board - Regional Office, Pali",
+        "Ground Water Department, Pali",
+        "District Election Office (District Election Officer), Pali",
+        "District Disaster Management Cell, Pali",
+        "District Jail, Pali",
+        "Anti-Corruption Bureau outpost, Pali",
+        "Income Tax Department, Pali",
+        "Food Corporation of India (FCI FSD), Pali",
+        "Postal Department (Head Post Office and branch post offices), Pali"
+      ],
+      "source_url": "https://pali.rajasthan.gov.in/",
+      "source_title": null,
+      "as_of": null
+    }
+  },
+  "palwal--haryana": {
+    "agencies": {
+      "count": 32,
+      "items": [
+        "Office of the Deputy Commissioner / District Magistrate, Palwal",
+        "Office of the Additional Deputy Commissioner, Palwal",
+        "Sub-Divisional Magistrate (SDM), Palwal",
+        "Sub-Divisional Magistrate (SDM), Hodal",
+        "Sub-Divisional Magistrate (SDM), Hathin",
+        "City Magistrate, Palwal",
+        "District Revenue Office / Tehsils - Palwal, Hodal, Hathin",
+        "District Election Office, Palwal",
+        "Superintendent of Police, Palwal (incl. DSP Hathin/Hodal, Police Stations)",
+        "District and Sessions Court, Palwal",
+        "Municipal Council, Palwal",
+        "Municipal Committees - Hodal, Hathin, Hassanpur",
+        "Zila Parishad / District Rural Development Agency, Palwal",
+        "District Development and Panchayat Office (DDPO), Palwal",
+        "Block Development Offices - Palwal, Hodal, Hathin, Hassanpur, Prithla",
+        "Civil Surgeon / Health Department / Civil Hospital, Palwal",
+        "District Education Office / District Elementary Education Office, Palwal",
+        "District Higher Education Office, Palwal",
+        "Deputy Director, Agriculture Department, Palwal",
+        "Animal Husbandry and District Ayurvedic Office, Palwal",
+        "Divisional Forest Officer, Palwal Forest Division",
+        "Public Works Department (B&R), Palwal",
+        "Public Health Engineering / Irrigation Department (Executive Engineer), Palwal",
+        "Dakshin Haryana Bijli Vitran Nigam (DHBVN) / HVPNL Division, Palwal",
+        "District Food, Civil Supplies and Consumer Affairs (DFSC), Palwal",
+        "Regional Transport Authority (RTA) / District Transport Office, Palwal",
+        "Excise and Taxation Office, Palwal",
+        "District Treasury Office, Palwal",
+        "District Social Welfare / Women and Child Development (ICDS), Palwal",
+        "District Industries / Labour / Employment Office, Palwal",
+        "District Informatics Office (NIC), Palwal",
+        "District Information and Public Relations Office (DIPRO), Palwal"
+      ],
+      "source_url": "https://palwal.gov.in/telephone-directory/",
+      "source_title": null,
+      "as_of": null
+    }
+  },
+  "panchkula--haryana": {
+    "agencies": {
+      "count": 50,
+      "items": [
+        "Office of Deputy Commissioner / Collectorate, Panchkula",
+        "Office of Commissioner, Ambala Division",
+        "Office of Additional Deputy Commissioner, Panchkula",
+        "Office of City Magistrate, Panchkula",
+        "Sub Divisional Office (Civil), Panchkula",
+        "Sub Divisional Office (Civil), Kalka",
+        "Tehsil Panchkula",
+        "Tehsil Kalka",
+        "Tehsil Raipur Rani",
+        "Sub-Tehsil Barwala",
+        "Sub-Tehsil Morni Hills",
+        "Block Development Office Barwala",
+        "Block Development Office Pinjore",
+        "Block Development Office Morni",
+        "Block Development Office Raipur Rani",
+        "Patwar Circles / Village & Panchayats",
+        "Health Department - Civil Surgeon, Panchkula",
+        "Education Department - District Education Officer / District Elementary Education Officer",
+        "Government College Panchkula - Higher Education",
+        "Agriculture Department",
+        "Horticulture Department - District Horticulture Officer",
+        "Animal Husbandry Department - Deputy Director Animal Husbandry / District Dairy Development Officer",
+        "Election Department / District Election Office",
+        "Haryana Skill Development Mission",
+        "Social Justice & Empowerment - District Social Welfare Officer",
+        "Haryana Shehri Vikas Pradhikaran (HSVP, formerly HUDA) - Administrator / Estate Officer / Land Acquisition Officer / Superintending Engineer / XEN Div-1, Div-2, Div-3, Electricity / Horticulture",
+        "Haryana State Agricultural Marketing Board (HSAMB) - Superintending Engineer / XEN",
+        "Public Works Department (B&R) - XEN PWD, Majri Chowk",
+        "Uttar Haryana Bijli Vitran Nigam (UHBVN) - XEN / SDO Electricity",
+        "National Highway Division - XEN National Highway",
+        "Environment Department - Environment Officer",
+        "District Food & Supply Controller",
+        "District Industries Centre - General Manager, Industry",
+        "District Sports Officer",
+        "Forest Department - Divisional Forest Officer",
+        "District Welfare Officer",
+        "District Mining Officer",
+        "District Home Guards / District Commandant & Home Guard Officer",
+        "Haryana Harijan Kalyan Nigam - Divisional Manager",
+        "Fisheries Department - District Fisheries Officer",
+        "AYUSH - District Ayurvedic Officer",
+        "District Sainik Board - Secretary",
+        "District Employment Exchange - District Employment Officer",
+        "Labour Department - Labour Officer",
+        "Women & Child Development / ICDS - Programme Officer ICDS / District Child & Welfare Officer",
+        "CONFED - Divisional Manager",
+        "Lead Bank Office",
+        "Market Committee - Secretary",
+        "Regional Transport Authority (RTA)",
+        "Municipal Corporation Panchkula - Executive Officer / Municipal administration"
+      ],
+      "source_url": "https://panchkula.nic.in/telephone-directory/",
+      "source_title": null,
+      "as_of": null
+    }
+  },
+  "panchmahal--gujarat": {
+    "agencies": {
+      "count": 47,
+      "items": [
+        "Office of the Collector and District Magistrate, Panchmahal (Godhra)",
+        "Collectorate - Land Branch",
+        "Collectorate - Village Panchayat Election Branch",
+        "Collectorate - Disaster Management Branch",
+        "Collectorate - Administration Branch",
+        "Collectorate - Accounts Branch",
+        "Collectorate - Record Branch",
+        "Collectorate - Magisterial Branch",
+        "Collectorate - DCLR Branch",
+        "Collectorate - Geology and Mining Branch",
+        "Collectorate - Supply (Civil Supplies) Branch",
+        "Collectorate - Municipality Branch",
+        "Collectorate - Chitnish Branch",
+        "Collectorate - Entertainment Branch",
+        "Collectorate - Public Relation Officer (PRO)",
+        "Collectorate - Planning Branch",
+        "Collectorate - Registry Branch",
+        "Collectorate - Election Branch",
+        "Collectorate - Grievance Redressal Branch",
+        "Collectorate - Small Saving Branch",
+        "Collectorate - Establishment Branch",
+        "Collectorate - PADA (Pavagadh Area Development Authority)",
+        "Prant Offices (sub-divisional offices under the Collectorate)",
+        "Mamlatdar Offices (taluka revenue offices: Godhra, Halol, Kalol, Shehera, Morva-Hadaf, Ghoghamba, Jambughoda)",
+        "Jan Seva Kendra, District Collectorate (single-window citizen services)",
+        "District Panchayat Panchmahal / District Development Office (DDO), Godhra",
+        "District Panchayat - Revenue Branch",
+        "District Panchayat - Panchayat Branch",
+        "District Panchayat - Development Branch",
+        "District Panchayat - Construction Branch",
+        "District Panchayat - Irrigation Branch",
+        "District Panchayat - Statistics Branch",
+        "District Panchayat - Health Branch",
+        "District Panchayat - Education Branch",
+        "District Panchayat - Animal Husbandry Branch",
+        "District Panchayat - Social Welfare Branch",
+        "District Panchayat - Co-operation Branch",
+        "District Panchayat - Agriculture Branch",
+        "District Panchayat - Integrated Child Development Services (ICDS) Branch",
+        "District Panchayat - Family Welfare Branch",
+        "District Panchayat - Ayurveda Branch",
+        "District Panchayat - Malaria Branch",
+        "District Panchayat - Accounts Branch",
+        "District Panchayat - Establishment (Mahekam) Branch",
+        "District Panchayat - Internal Audit",
+        "Taluka Panchayats (7): Godhra, Ghoghamba, Halol, Jambughoda, Kalol, Morva (Hadaf), Shehera",
+        "Superintendent of Police Office, Panchmahals (Godhra)"
+      ],
+      "source_url": "https://panchmahal.gujarat.gov.in/",
+      "source_title": null,
+      "as_of": null
+    }
+  },
+  "panipat--haryana": {
+    "agencies": {
+      "count": 25,
+      "items": [
+        "District Administration, Panipat (Deputy Commissioner / District Magistrate / Collector)",
+        "Agriculture Department, Panipat",
+        "Animal Husbandry & Dairying, Panipat",
+        "Bharat Sanchar Nigam Limited (BSNL), Panipat",
+        "Civil Aviation Department, Panipat",
+        "Civil Defence, Panipat",
+        "Development and Panchayat Department, Panipat",
+        "District Red Cross Society, Panipat",
+        "Education Department, Panipat",
+        "Electricity Department / Uttar Haryana Bijli Vitran Nigam, Panipat",
+        "Fire Services, Panipat",
+        "Food & Supplies Department, Panipat",
+        "Forest Department, Panipat",
+        "Haryana Roadways, Panipat",
+        "Health Department (Civil Surgeon), Panipat",
+        "Home Guards, Panipat",
+        "Industrial Health & Safety, Panipat",
+        "Irrigation Department, Panipat",
+        "Municipal Corporation, Panipat",
+        "Police Department (Superintendent of Police), Panipat",
+        "Pollution Control Board (Regional Officer), Panipat",
+        "Public Health Engineering Department, Panipat",
+        "Public Relations Department (DIPRO), Panipat",
+        "Public Works Department (B&R), Panipat",
+        "Regional Transport Authority, Panipat"
+      ],
+      "source_url": "https://ndma.gov.in/sites/default/files/PDF/DDMP/Haryana/Panipat.pdf",
+      "source_title": null,
+      "as_of": null
+    }
+  },
+  "panna--madhya-pradesh": {
+    "agencies": {
+      "count": 17,
+      "items": [
+        "Collectorate - Office of Collector & District Magistrate",
+        "Sub-Divisions & Blocks (Ajaigarh, Panna, Gunnor, Pawai, Shahnagar)",
+        "Tehsil / Revenue offices",
+        "Village & Panchayats / Zila Panchayat (CEO Jila Panchayat)",
+        "Police (Superintendent of Police)",
+        "Urban Administration & Development",
+        "Forest - FOREST PANNA (Divisional Forest Officer)",
+        "Directorate of Employment (District Employment Office)",
+        "Agriculture (Deputy Director Agriculture)",
+        "Fisheries (Assistant Director Fisheries)",
+        "Health - Public Health and Family Welfare (Chief Medical & Health Officer)",
+        "Education - School Education (District Education Officer)",
+        "Social Justice & Disability Welfare",
+        "Animal Husbandry (Veterinary)",
+        "Revenue - Land Records and Settlement (Superintendent Land Record)",
+        "District Election Office Panna",
+        "Panchayat & Rural Development"
+      ],
+      "source_url": "https://panna.nic.in/en/site-map/",
+      "source_title": null,
+      "as_of": null
+    }
+  },
+  "papum-pare--arunachal-pradesh": {
+    "agencies": {
+      "count": 20,
+      "items": [
+        "Office of the Deputy Commissioner - District Administration, Papum Pare, Yupia",
+        "Office of the Superintendent of Police (SP), Papum Pare, Yupia",
+        "Election Department / District Election Office, Papum Pare",
+        "District Disaster Management Office (DDMO), Papum Pare",
+        "District Information and Public Relations Office (DIPRO), Papum Pare",
+        "Agriculture Department - District Agriculture Office (DAO), Yupia",
+        "Textile and Handicrafts Department, Papum Pare",
+        "Water Resources Division, Papum Pare",
+        "Industrial Training Institute (ITI), Papum Pare",
+        "District Panchayat Development Office (DPDO) / Zilla Parishad, Yupia",
+        "District Planning Office (DPO), Yupia",
+        "District Statistics Office - DSO (State), Yupia",
+        "Land Records and Settlement Office (LRSO), Yupia",
+        "District Medical Office (DMO), Yupia",
+        "Zonal Medical Office (ZMO), Kimin",
+        "Block Development Office (BDO), Doimukh",
+        "Block Development Office (BDO), Sagalee",
+        "Assistant Registrar of Cooperative Societies (ARCS), Yupia",
+        "Joint Director of Industries Office, Yupia",
+        "Legal Metrology Office, Papum Pare"
+      ],
+      "source_url": "https://papumpare.nic.in/departments/",
+      "source_title": null,
+      "as_of": null
+    }
+  },
+  "parbhani--maharashtra": {
+    "agencies": {
+      "count": 29,
+      "items": [
+        {
+          "name": "Office of the Collector and District Magistrate, Parbhani",
+          "abbrev": null,
+          "url": "https://parbhani.gov.in/",
+          "note": "Heads revenue administration and coordinates all state government departments in the district."
+        },
+        {
+          "name": "Revenue Branch, Collector Office",
+          "abbrev": null,
+          "url": "https://parbhani.gov.in/revenue-magisterial-branch/",
+          "note": "Land revenue administration under the Resident Deputy Collector."
+        },
+        {
+          "name": "Magisterial Branch, Collector Office",
+          "abbrev": null,
+          "url": "https://parbhani.gov.in/revenue-magisterial-branch/",
+          "note": "Magisterial and law-and-order matters under the Resident Deputy Collector."
+        },
+        {
+          "name": "General Administration Branch, Collector Office",
+          "abbrev": null,
+          "url": null,
+          "note": "General administration of the Collectorate under the Deputy Collector (General)."
+        },
+        {
+          "name": "Establishment Branch, Collector Office",
+          "abbrev": null,
+          "url": "https://parbhani.gov.in/establishment-branch/",
+          "note": "Establishment and personnel matters of the Collectorate."
+        },
+        {
+          "name": "Ex-serviceman Welfare Branch, Collector Office",
+          "abbrev": null,
+          "url": null,
+          "note": "Welfare of ex-servicemen in the district."
+        },
+        {
+          "name": "Entertainment Branch, Collector Office",
+          "abbrev": null,
+          "url": null,
+          "note": "Entertainment duty and related licensing matters."
+        },
+        {
+          "name": "Employment Guarantee Scheme Branch",
+          "abbrev": "EGS",
+          "url": null,
+          "note": "Implements the Employment Guarantee Scheme under the Deputy Collector EGS."
+        },
+        {
+          "name": "Resettlement (Rehabilitation) Branch",
+          "abbrev": null,
+          "url": "https://parbhani.gov.in/rehabilitation/",
+          "note": "Resettlement and rehabilitation under the District Resettlement Officer."
+        },
+        {
+          "name": "Election Branch (District Election Office)",
+          "abbrev": null,
+          "url": "https://parbhani.gov.in/election/",
+          "note": "Conduct of elections under the Deputy District Election Officer."
+        },
+        {
+          "name": "Land Acquisition Branch",
+          "abbrev": "LAO",
+          "url": "https://parbhani.gov.in/land-acquisition/",
+          "note": "Land acquisition proceedings under the Land Acquisition Officer."
+        },
+        {
+          "name": "Planning Branch (District Planning Office)",
+          "abbrev": null,
+          "url": "https://parbhani.gov.in/planning/",
+          "note": "District planning under the District Planning Officer."
+        },
+        {
+          "name": "Supply Branch (District Supply Office)",
+          "abbrev": "DSO",
+          "url": "https://parbhani.gov.in/supply/",
+          "note": "Food, civil supplies and public distribution under the District Supply Officer."
+        },
+        {
+          "name": "Municipality Administration Branch",
+          "abbrev": null,
+          "url": "https://parbhani.gov.in/municipal-council-administration/",
+          "note": "Administration of municipal councils under the Administrative Officer."
+        },
+        {
+          "name": "District Control Room",
+          "abbrev": null,
+          "url": "https://parbhani.gov.in/district-control-room/",
+          "note": "District emergency control room (02452-226400)."
+        },
+        {
+          "name": "Sub-Divisional Offices (Parbhani, Selu, Gangakhed, Pathri)",
+          "abbrev": "SDO",
+          "url": "https://parbhani.gov.in/subdivisions/",
+          "note": "Four sub-divisions administering the nine talukas of the district."
+        },
+        {
+          "name": "Tahsil Offices (9 talukas)",
+          "abbrev": null,
+          "url": "https://parbhani.gov.in/talukas/",
+          "note": "Taluka revenue administration: Parbhani, Selu, Jintur, Gangakhed, Purna, Palam, Pathri, Manwat, Sonpeth."
+        },
+        {
+          "name": "Zilla Parishad Parbhani",
+          "abbrev": "ZP Parbhani",
+          "url": "http://zpparbhani.gov.in/",
+          "note": "Rural local self-government and panchayat administration."
+        },
+        {
+          "name": "District Rural Development Agency",
+          "abbrev": "DRDA",
+          "url": "https://parbhani.gov.in/district-rural-development-agency/",
+          "note": "Implements rural development programmes in the district."
+        },
+        {
+          "name": "Swachh Bharat Mission (Gramin)",
+          "abbrev": "SBM-G",
+          "url": "https://parbhani.gov.in/swacha-bharat-mission-gramin/",
+          "note": "Rural sanitation mission implementation."
+        },
+        {
+          "name": "District Vocational Education and Training Office",
+          "abbrev": "DVETO",
+          "url": "https://parbhani.gov.in/?page_id=35791",
+          "note": "Vocational education and training (ITI, MCVC, Bifocal, certificate courses)."
+        },
+        {
+          "name": "Government Industrial Training Institutes (Parbhani, Pathri, Selu)",
+          "abbrev": "ITI",
+          "url": "https://parbhani.gov.in/?page_id=35641",
+          "note": "Industrial craftsman training institutes in the district."
+        },
+        {
+          "name": "Land Records Department (District Superintendent of Land Records)",
+          "abbrev": "DSLR",
+          "url": "https://parbhani.gov.in/land-records-department/",
+          "note": "Land survey and records through taluka-level deputy superintendents."
+        },
+        {
+          "name": "Deputy Regional Transport Office",
+          "abbrev": "Dy. RTO",
+          "url": "https://parbhani.gov.in/deputy-regional-transport-office/",
+          "note": "Motor vehicle registration, licences and transport enforcement."
+        },
+        {
+          "name": "Parbhani Police (Superintendent of Police)",
+          "abbrev": null,
+          "url": "http://parbhanipolice.gov.in/",
+          "note": "District law enforcement and policing."
+        },
+        {
+          "name": "Parbhani City Municipal Corporation",
+          "abbrev": "PCMC",
+          "url": "http://pcmcparbhani.gov.in/",
+          "note": "Urban civic administration for Parbhani city."
+        },
+        {
+          "name": "Municipal Councils and Nagar Panchayats",
+          "abbrev": null,
+          "url": "https://parbhani.gov.in/municipal-councils-and-nagar-panchayat/",
+          "note": "Urban local bodies in eight towns of the district."
+        },
+        {
+          "name": "District Disaster Management Authority",
+          "abbrev": "DDMA",
+          "url": "https://parbhani.gov.in/disaster-management/",
+          "note": "Disaster preparedness and response under the Collector Office."
+        },
+        {
+          "name": "Vasantrao Naik Marathwada Krishi Vidyapeeth",
+          "abbrev": "VNMKV",
+          "url": "http://www.vnmkv.ac.in/index.htm",
+          "note": "State agricultural university headquartered at Parbhani."
+        }
+      ],
+      "source_url": "https://parbhani.gov.in/district-administrative-setup/",
+      "source_title": "District Administrative Setup | Parbhani | India",
+      "as_of": "2025-01-13"
+    }
+  },
+  "paschim-bardhaman--west-bengal": {
+    "agencies": {
+      "count": 13,
+      "items": [
+        "Land Acquisition",
+        "Agriculture",
+        "General Section",
+        "Kanyashree",
+        "Mid Day Meal",
+        "Judicial Munshikhana",
+        "Revenue Munshikhana",
+        "NRLM",
+        "Utkarsha Bangla",
+        "Motor Vehicles",
+        "National Informatics Centre",
+        "Youth",
+        "District Social Welfare Section"
+      ],
+      "source_url": "https://paschimbardhaman.gov.in/departments/",
+      "source_title": null,
+      "as_of": null
+    }
+  },
+  "patan--gujarat": {
+    "agencies": {
+      "count": 21,
+      "items": [
+        "Collectorate - Office of the Collector and District Magistrate, Patan",
+        "Office of the Resident Additional Collector, Patan",
+        "Prant (Sub-Divisional) Offices - e.g. Prant Officer, Patan",
+        "Mamlatdar (Taluka) Offices - Patan, Patan-City, Siddhpur, Chanasma, Harij, Radhanpur, Santalpur, Saraswati, Shankheshwar, Sami",
+        "District Panchayat Patan / District Development Office (DDO)",
+        "Taluka Panchayats and Gram Panchayats",
+        "Office of the Superintendent of Police, Patan (District Police)",
+        "District Election Office, Patan",
+        "District Supply Office (Civil Supplies and Public Distribution), Patan",
+        "District Planning Office (Planning and Statistics), Patan",
+        "District Mid-Day Meal (MDM / PM-POSHAN) Office, Patan",
+        "Superintendent of Land Records (SLR) Office, Patan",
+        "District Inspector of Land Records (DILR) Office, Patan",
+        "City Survey Office, Patan",
+        "District Disaster Management Authority / District Emergency Operation Centre, Patan",
+        "District Health Office - Government Hospitals, Community and Primary Health Centres",
+        "District Education Offices (Primary and Secondary), Patan",
+        "Patan Nagarpalika and other Municipalities",
+        "Uttar Gujarat Vij Company Ltd (UGVCL), Patan Division (Electricity)",
+        "Jan Seva Kendra, Collectorate Patan",
+        "Collectorate branches - Chitnish, Tenancy, Registry, Accounts, Small Savings, Entertainment Tax"
+      ],
+      "source_url": "https://patan.nic.in/site-map/",
+      "source_title": null,
+      "as_of": null
+    }
+  },
+  "pathanamthitta--kerala": {
+    "agencies": {
+      "count": 32,
+      "items": [
+        "Office of the District Collector / District Administration (Collectorate), Pathanamthitta",
+        "Revenue Department - Revenue Divisional Office (RDO) / Taluk Offices (6 Taluks, 70 Villages)",
+        "Thiruvalla Taluk Office",
+        "Mallappally Taluk Office",
+        "Ranni Taluk Office",
+        "Kozhenchery Taluk Office",
+        "Konni Taluk Office",
+        "Adoor Taluk Office",
+        "Land Revenue Department",
+        "Directorate of Survey and Land Records - District Office",
+        "State Land Board",
+        "District Disaster Management Authority (DDMA) / Disaster Management Department including Control Room",
+        "Education Department (General) - Deputy Director of Education, District Educational Offices (DEO Pathanamthitta, DEO Thiruvalla), Assistant Educational Offices (AEO)",
+        "Education Department (Collegiate) - Deputy Director of Collegiate Education",
+        "Samagra Shiksha Abhiyan (SSA) District Project Office, Thiruvalla",
+        "District Institute of Education and Training (DIET), Thiruvalla",
+        "Health Department - District Medical Office (Health)",
+        "Indian Systems of Medicine / Ayurveda - District Medical Office (Ayurveda/ISM)",
+        "Homoeopathy Department - District Medical Office (Homeo)",
+        "National Health Mission (NRHM) District Programme Management Unit",
+        "Agriculture Department",
+        "Animal Husbandry Department",
+        "Transport Department - Regional Transport Office (RTO) Pathanamthitta (Road Transport, Rail Transport)",
+        "Kerala Police - District Police Office (Superintendent of Police / District Police Chief), Deputy Superintendents of Police and Police Stations",
+        "Information and Public Relations Department (PRD) / District Information Office",
+        "Panchayat Administration - Block Panchayats and Grama Panchayats",
+        "Election Department / District Election Office",
+        "District Finance Office",
+        "Tourism Department",
+        "Forest Department",
+        "Kerala Solid Waste Management Project (KSWMP) District Unit",
+        "District Development Committee (DDC) / Taluk Development Committee (TDC)"
+      ],
+      "source_url": "https://pathanamthitta.nic.in/en/departments/",
+      "source_title": null,
+      "as_of": null
+    }
+  },
+  "pathankot--punjab": {
+    "agencies": {
+      "count": 29,
+      "items": [
+        "Deputy Commissioner / District Collectorate, Pathankot",
+        "Additional Deputy Commissioner (General), Pathankot",
+        "Additional Deputy Commissioner (Development), Pathankot",
+        "Assistant Commissioner (General), Pathankot",
+        "Sub-Divisional Magistrate, Pathankot",
+        "Sub-Divisional Magistrate, Dhar Kalan",
+        "Tehsil Offices Pathankot and Dhar Kalan; Sub-Tehsils Narot Jaimal Singh and Bamial",
+        "Senior Superintendent of Police, Pathankot",
+        "District and Sessions Court, Pathankot",
+        "Municipal Corporation Pathankot / Municipal Councils",
+        "District Development and Panchayat Officer (DDPO), Pathankot",
+        "Block Development and Panchayat Offices - Pathankot, Dhar Kalan, Bamial, Sujanpur, Narot Jaimal Singh, Gharota",
+        "District Election Office",
+        "District Education Department",
+        "Civil Surgeon / District Health Services",
+        "Deputy Director Animal Husbandry / Senior Veterinary Officer",
+        "District Forest Officer / Forest Division, Pathankot",
+        "District Social Security Office",
+        "District Child Protection Unit",
+        "District Food and Supply Controller",
+        "Assistant Excise and Taxation Commissioner",
+        "Executive Engineer, PWD (B&R), Pathankot",
+        "Executive Engineer, Public Health, Pathankot",
+        "Executive Engineer, PSPCL City and Sub-Urban, Pathankot",
+        "Executive Engineer Drainage / UBDC / AEE Madhopur Headworks (Irrigation)",
+        "Executive Engineer, Punjab Mandi Board",
+        "General Manager, Punjab Roadways, Pathankot",
+        "Sewa Kendra / District e-Governance Services",
+        "National Informatics Centre (NIC), Pathankot"
+      ],
+      "source_url": "https://pathankot.nic.in/telephone-directory/",
+      "source_title": null,
+      "as_of": null
+    }
+  },
+  "patiala--punjab": {
+    "agencies": {
+      "count": 19,
+      "items": [
+        {
+          "name": "Health Department, Patiala",
+          "abbrev": null,
+          "url": "https://patiala.nic.in/health/",
+          "note": "District public health services, hospitals and national health programmes."
+        },
+        {
+          "name": "District Blindness Control Society, Patiala",
+          "abbrev": "DBCS",
+          "url": "https://patiala.nic.in/district-blindness-control-society/",
+          "note": "Implements the National Blindness Control Programme in the district."
+        },
+        {
+          "name": "Education Department, Patiala",
+          "abbrev": null,
+          "url": "https://patiala.nic.in/department-of-education/",
+          "note": "Primary and secondary school education administration."
+        },
+        {
+          "name": "Animal Husbandry Department, Patiala",
+          "abbrev": null,
+          "url": "https://patiala.nic.in/department-of-animal-husbandry-patiala/",
+          "note": "Livestock health, breeding and veterinary services."
+        },
+        {
+          "name": "Agriculture and Farmer Welfare Department, Patiala",
+          "abbrev": null,
+          "url": "https://patiala.nic.in/department-of-agriculture/",
+          "note": "Crop production, extension and farmer welfare schemes."
+        },
+        {
+          "name": "Dairy Development Department, Patiala",
+          "abbrev": null,
+          "url": "https://patiala.nic.in/dairy-development-department-punjab/",
+          "note": "Dairy farming development and milk production support."
+        },
+        {
+          "name": "District Industries Centre, Patiala",
+          "abbrev": "DIC",
+          "url": "https://patiala.nic.in/district-industries-centre-patiala/",
+          "note": "Industrial promotion, MSME registration and entrepreneur support."
+        },
+        {
+          "name": "Punjab Public Works Department, Building & Roads, Patiala",
+          "abbrev": "PWD B&R",
+          "url": "https://patiala.nic.in/punjab-public-works-department-building-roads/",
+          "note": "Construction and maintenance of government buildings and roads."
+        },
+        {
+          "name": "Municipal Corporation, Patiala",
+          "abbrev": null,
+          "url": "https://patiala.nic.in/municipal-corporation-patiala/",
+          "note": "Urban civic services for Patiala city: water, sanitation, roads."
+        },
+        {
+          "name": "Department of Water Resources (Mining), Patiala",
+          "abbrev": null,
+          "url": "https://patiala.nic.in/dept-of-water-resources-mining/",
+          "note": "Minor mineral mining regulation and water resources works."
+        },
+        {
+          "name": "Sewa Kendra, Patiala",
+          "abbrev": null,
+          "url": "https://patiala.nic.in/sewa-kendra/",
+          "note": "Citizen service delivery centres for certificates and applications."
+        },
+        {
+          "name": "District Bureau of Employment and Enterprises, Patiala",
+          "abbrev": "DBEE",
+          "url": "https://patiala.nic.in/district-bureau-of-employment-and-enterprises/",
+          "note": "Employment exchange, career guidance and self-employment support."
+        },
+        {
+          "name": "District Administration / Collectorate, Patiala",
+          "abbrev": "DC Office",
+          "url": "https://patiala.nic.in/disaster-management/",
+          "note": "Deputy Commissioner-led revenue and general administration."
+        },
+        {
+          "name": "Police Department, Patiala",
+          "abbrev": null,
+          "url": "https://patiala.nic.in/police-department/",
+          "note": "Law and order under the SSP Patiala and zonal IG/DIG."
+        },
+        {
+          "name": "Judiciary, Patiala",
+          "abbrev": null,
+          "url": "https://patiala.nic.in/judiciary/",
+          "note": "District and Sessions Court and subordinate courts."
+        },
+        {
+          "name": "Zila Parishad / BDPOs / CDPOs, Patiala",
+          "abbrev": null,
+          "url": "https://patiala.nic.in/zila-parishad-bdpos-cdpos/",
+          "note": "Panchayati Raj institutions, block and child development offices."
+        },
+        {
+          "name": "Food Supply Department and Procurement Agencies, Patiala",
+          "abbrev": null,
+          "url": "https://patiala.nic.in/food-supply-department-procurement-agencies/",
+          "note": "Public distribution, procurement via FCI, Markfed, Punsup, Punjab Agro."
+        },
+        {
+          "name": "Excise and Taxation Department, Patiala",
+          "abbrev": null,
+          "url": "https://patiala.nic.in/excise-taxation-department/",
+          "note": "State excise and GST/taxation administration, HQ at Patiala."
+        },
+        {
+          "name": "Other Important Government Offices, Patiala",
+          "abbrev": null,
+          "url": "https://patiala.nic.in/impgovtoffice/",
+          "note": "Directory of other central and state offices in the district (PRTC, BSNL, Postal, PSTCL)."
+        }
+      ],
+      "source_url": "https://patiala.nic.in/departments/",
+      "source_title": "Departments | District Patiala, Government of Punjab | India",
+      "as_of": "2026-09-15"
+    }
+  },
+  "patna--bihar": {
+    "agencies": {
+      "count": 43,
+      "items": [
+        "Office of the District Magistrate, Patna",
+        "Office of the Divisional Commissioner, Patna",
+        "Office of the Deputy Development Commissioner, Patna",
+        "Office of the Additional District Magistrate (General)",
+        "District Establishment Section",
+        "District Revenue Section",
+        "District Arms Section",
+        "District General Section",
+        "District Nazarat Office",
+        "District Legal Section",
+        "District Land Acquisition Office",
+        "District Land Reforms Office",
+        "District Revenue Recovery Office",
+        "District Election Office",
+        "District Treasury Office",
+        "District Registration Office",
+        "District Excise Office",
+        "District Supply Office",
+        "District Education Office",
+        "District Information and Public Relations Office",
+        "District Disaster Management Office / District Disaster Management Authority",
+        "District Social Security Cell",
+        "District Social Welfare Office",
+        "District Statistics Office",
+        "District Small Savings Office",
+        "District Public Grievance - Lok Shikayat Office",
+        "NIC District Centre, Patna",
+        "District Planning Office",
+        "District Panchayati Raj Office",
+        "Zila Parishad, Patna",
+        "District Agriculture Office",
+        "Office of the Civil Surgeon / District Health Office",
+        "District Animal Husbandry and Fisheries Office",
+        "District Programme Office (ICDS/WCDC)",
+        "District Labour Office",
+        "District Industries Centre",
+        "District Mining Office",
+        "District Transport Office",
+        "Office of the Senior Superintendent of Police, Patna",
+        "Office of the Senior District Commandant, Bihar Home Guard Corps, Patna",
+        "Subdivisional Offices - Patna Sadar, Patna City, Barh, Danapur, Masaurhi, Paliganj",
+        "Circle / Anchal (Tehsil) Offices",
+        "Block Development Offices"
+      ],
+      "source_url": "https://patna.nic.in/collectorate/",
+      "source_title": null,
+      "as_of": null
+    }
+  },
   "pmc-pune": {
     "agencies": {
       "count": 45,
@@ -32103,6 +31066,159 @@
       "source_url": "https://environment.rajasthan.gov.in/content/dam/industries/pdf/bpe/download/Profile_2019-20.pdf",
       "source_title": "Public Enterprises Profile 2019-2020 (Bureau of Public Enterprises, State Enterprises Department, Government of Rajasthan)",
       "as_of": "2019-20"
+    }
+  },
+  "ribhoi--meghalaya": {
+    "agencies": {
+      "count": 20,
+      "items": [
+        "Office of the Deputy Commissioner (DC's Office), Ri Bhoi, Nongpoh",
+        "Office of the Superintendent of Police, Ri Bhoi",
+        "District Disaster Management Authority (DDMA)",
+        "District Statistics Office (DSO)",
+        "Election Branch / Office of the District Election Officer",
+        "National Informatics Centre (NIC), Ri Bhoi District Unit",
+        "Office of the District Medical & Health Officer (DMHO)",
+        "Office of the District Social Welfare Officer (DSWO)",
+        "District Selection Committee (DSC)",
+        "General Branch, DC Office",
+        "Excise Branch, DC Office",
+        "Judicial Branch, DC Office",
+        "Land Revenue Branch, DC Office",
+        "Registration Branch, DC Office",
+        "Supply Branch, DC Office",
+        "Patharkhmah Civil Sub-Division",
+        "Umsning Community & Rural Development Block",
+        "Jirang Community & Rural Development Block",
+        "Umling Community & Rural Development Block",
+        "District & Sessions Court, Ri Bhoi"
+      ],
+      "source_url": "https://ribhoi.gov.in/site-map/",
+      "source_title": null,
+      "as_of": null
+    }
+  },
+  "rohtak--haryana": {
+    "agencies": {
+      "count": 35,
+      "items": [
+        "Divisional Commissioner, Rohtak Division",
+        "Deputy Commissioner / District Collector, Rohtak",
+        "Additional Deputy Commissioner, Rohtak",
+        "Sub Divisional Magistrates - Rohtak, Meham, Sampla",
+        "District Revenue Officer, Rohtak",
+        "Tehsil Offices - Rohtak, Meham, Sampla, Kalanaur, Lakhan Majra",
+        "District Development and Panchayat Officer (DDPO), Rohtak",
+        "Zila Parishad, Rohtak",
+        "Municipal Corporation, Rohtak",
+        "Municipal Committees - Meham, Kalanaur, Sampla",
+        "Superintendent of Police, Rohtak",
+        "District and Sessions Court, Rohtak",
+        "District Election Office, Rohtak",
+        "District Excise and Taxation Office, Rohtak",
+        "District Treasury Office, Rohtak",
+        "District Food and Supplies Office, Rohtak",
+        "District Social Welfare Office, Rohtak",
+        "District Women and Child Development Office, Rohtak",
+        "District Elementary / Secondary Education Offices, Rohtak",
+        "Civil Surgeon / District Health Services, Rohtak",
+        "Deputy Director Agriculture / District Agriculture Office, Rohtak",
+        "District Animal Husbandry and Dairying Office, Rohtak",
+        "District Industries Centre, Rohtak",
+        "District Employment Exchange, Rohtak",
+        "District Statistical Office, Rohtak",
+        "Regional Transport Authority / District Transport Office, Rohtak",
+        "PWD (B&R) Division, Rohtak",
+        "Public Health Engineering Division, Rohtak",
+        "Irrigation and Water Resources Division, Rohtak",
+        "Uttar Haryana Bijli Vitran Nigam (UHBVN) Circle, Rohtak",
+        "District Town and Country Planning Office, Rohtak",
+        "Assistant Labour Commissioner / District Labour Office, Rohtak",
+        "Haryana State Pollution Control Board Regional Office, Rohtak",
+        "District Informatics Centre (NIC), Rohtak",
+        "District Information and Public Relations Office, Rohtak"
+      ],
+      "source_url": "https://rohtak.gov.in/site-map/",
+      "source_title": null,
+      "as_of": null
+    }
+  },
+  "rohtas--bihar": {
+    "agencies": {
+      "count": 22,
+      "items": [
+        "Office of the District Magistrate / District Collectorate, Sasaram",
+        "Office of the Deputy Development Commissioner / District Rural Development Agency (DRDA)",
+        "Sub-Divisional Offices - Sasaram, Bikramganj, Dehri-on-Sone (Sub-Divisional Magistrates)",
+        "Block Development Offices - 19 Blocks (Block Development Officers)",
+        "Circle Offices - 19 Revenue Circles (Circle Officers) - Revenue and Land Reforms",
+        "District Land Acquisition Office",
+        "Office of the Superintendent of Police / District Police, Rohtas",
+        "District Court Rohtas at Sasaram and Sub-Divisional Courts at Bikramganj and Dehri-on-Sone",
+        "District Health Department - Civil Surgeon / District Health Society / Primary Health Centres",
+        "District Education Office",
+        "District Agriculture Office - District Agriculture Officer, Horticulture, Sub-Division Agriculture Officers, KVK Bikramganj",
+        "District Animal Husbandry Office",
+        "District Fisheries Office",
+        "District Food and Consumer Protection / Supply Office",
+        "Integrated Child Development Services - District Programme Office / CDPOs",
+        "District Social Welfare Office",
+        "District Disaster Management Cell / District Disaster Management Authority",
+        "District Public Grievance Redressal Office",
+        "Excise Department - Assistant Commissioner, Excise, Rohtas",
+        "District Informatics Centre (NIC) / e-Governance",
+        "Zila Parishad Rohtas / District Panchayat Raj Office / Gram Panchayats",
+        "Urban Local Bodies - Nagar Parishad Sasaram, Dehri-Dalmianagar and other Municipalities"
+      ],
+      "source_url": "https://rohtas.nic.in/contact-directory/",
+      "source_title": null,
+      "as_of": null
+    }
+  },
+  "rudraprayag--uttarakhand": {
+    "agencies": {
+      "count": 36,
+      "items": [
+        "Office of the District Magistrate and Collector, Rudraprayag",
+        "Sub-Divisional Office, Rudraprayag",
+        "Sub-Divisional Office, Ukhimath",
+        "Sub-Divisional Office, Jakholi",
+        "Tehsil Office, Rudraprayag",
+        "Tehsil Office, Ukhimath",
+        "Tehsil Office, Jakholi",
+        "Office of the Superintendent of Police, Rudraprayag",
+        "Office of the Chief Development Officer / District Rural Development Agency",
+        "Zila Panchayat, Rudraprayag",
+        "Development Block Office, Augustmuni",
+        "Development Block Office, Jakholi",
+        "Development Block Office, Ukhimath",
+        "Chief Medical Office / District Health Department and District Hospital Rudraprayag",
+        "District Education Office (Basic and Secondary Education)",
+        "Public Works Department, Rudraprayag Division",
+        "Irrigation Department, Rudraprayag",
+        "Uttarakhand Jal Sansthan / Jal Nigam, Rudraprayag",
+        "Forest Department - Rudraprayag Forest Division and Kedarnath Wildlife Division",
+        "District Agriculture Office",
+        "Horticulture Department",
+        "Animal Husbandry / Veterinary Department",
+        "District Supply Office (Food, Civil Supplies and Consumer Affairs)",
+        "District Social Welfare Office",
+        "Women Empowerment and Child Development / ICDS",
+        "District Employment Exchange",
+        "District Industries Centre",
+        "District Tourism Development Office",
+        "District Disaster Management Authority (DDMA), Rudraprayag",
+        "District Election Office",
+        "District Treasury",
+        "Assistant Regional Transport Office (ARTO)",
+        "Uttarakhand Power Corporation Ltd - Electricity Distribution Division",
+        "District Informatics Centre (NIC), Rudraprayag",
+        "Nagar Palika Rudraprayag and Nagar Panchayats (Ukhimath, Guptkashi)",
+        "Shri Badrinath-Kedarnath Temple Committee - Kedarnath circle"
+      ],
+      "source_url": "https://rudraprayag.gov.in/public-utilities/",
+      "source_title": null,
+      "as_of": null
     }
   },
   "sikkim": {
@@ -41309,6 +40425,1310 @@
       "source_url": "https://finance.wb.gov.in/writereaddata/1093-F(Y).pdf",
       "source_title": "Restructuring of PSUs/ Corporations of State Government - Government of West Bengal, Finance Department Memorandum No. 1093-F(Y) dated 21.02.2017 (Annexure-B: 44 PSUs and Corporations to continue)",
       "as_of": "2017-02-21"
+    }
+  },
+  "arunachal-pradesh": {
+    "commissions": {
+      "count": 2,
+      "items": [
+        {
+          "name": "Arunachal Pradesh Information Commission",
+          "abbrev": null,
+          "url": "https://apic.arunachal.gov.in",
+          "note": "Statutory appellate authority for Right to Information matters in the state."
+        },
+        {
+          "name": "Arunachal Pradesh State Electricity Regulatory Commission",
+          "abbrev": "APSERC",
+          "url": "https://apserc.nic.in",
+          "note": "Regulates electricity tariff, licensing and power sector in the state."
+        }
+      ],
+      "source_url": "https://igod.gov.in/sg/AR/E013/organizations",
+      "source_title": "Integrated Government Online Directory : State / UT Government : Arunachal Pradesh : Commissions/ Committees",
+      "as_of": "2026-09-21"
+    },
+    "ministries": {
+      "count": 80,
+      "items": [
+        {
+          "name": "Department of Administrative Reforms",
+          "abbrev": null,
+          "url": null,
+          "note": "Administrative reforms and good-governance initiatives."
+        },
+        {
+          "name": "Administrative Training Institute",
+          "abbrev": null,
+          "url": null,
+          "note": "Training of state government personnel."
+        },
+        {
+          "name": "Arunachal Pradesh Information Commission",
+          "abbrev": null,
+          "url": null,
+          "note": "RTI appeals and transparency oversight (statutory body)."
+        },
+        {
+          "name": "Agriculture",
+          "abbrev": null,
+          "url": null,
+          "note": "Crop agriculture development and farmer welfare."
+        },
+        {
+          "name": "Animal Husbandry, Veterinary and Dairy Development",
+          "abbrev": null,
+          "url": null,
+          "note": "Livestock health, veterinary services and dairy development."
+        },
+        {
+          "name": "Civil Aviation",
+          "abbrev": null,
+          "url": null,
+          "note": "Airports, heliports and air connectivity in the state."
+        },
+        {
+          "name": "Resident Commissioner Under Civil Supplies",
+          "abbrev": null,
+          "url": null,
+          "note": "Liaison office functions for civil supplies outside the state."
+        },
+        {
+          "name": "Food and Civil Supplies",
+          "abbrev": null,
+          "url": null,
+          "note": "Public distribution system and essential commodities supply."
+        },
+        {
+          "name": "Registrar of Co-operative Societies",
+          "abbrev": null,
+          "url": null,
+          "note": "Registration and regulation of cooperative societies."
+        },
+        {
+          "name": "Department of Karmik and Adhyatmik (Chos rig) Affairs",
+          "abbrev": null,
+          "url": null,
+          "note": "Monastic, religious and spiritual affairs."
+        },
+        {
+          "name": "Art and Cultural Affairs",
+          "abbrev": null,
+          "url": null,
+          "note": "Promotion of art, culture and heritage."
+        },
+        {
+          "name": "Public Libraries",
+          "abbrev": null,
+          "url": null,
+          "note": "Public library services across the state."
+        },
+        {
+          "name": "Research",
+          "abbrev": null,
+          "url": null,
+          "note": "Ethnographic, historical and cultural research and museums."
+        },
+        {
+          "name": "Sports",
+          "abbrev": null,
+          "url": null,
+          "note": "Sports promotion and sports infrastructure."
+        },
+        {
+          "name": "Youth Affairs",
+          "abbrev": null,
+          "url": null,
+          "note": "Youth welfare programmes and activities."
+        },
+        {
+          "name": "District Administration",
+          "abbrev": null,
+          "url": null,
+          "note": "District-level general administration through deputy commissioners."
+        },
+        {
+          "name": "Societies",
+          "abbrev": null,
+          "url": null,
+          "note": "Registration of societies (Registrar of Societies functions)."
+        },
+        {
+          "name": "DOTCL",
+          "abbrev": "DOTCL",
+          "url": null,
+          "note": "Development affairs of Tirap, Changlang and Longding districts."
+        },
+        {
+          "name": "Economics and Statistics",
+          "abbrev": null,
+          "url": null,
+          "note": "Economic data, statistics and surveys."
+        },
+        {
+          "name": "Elementary Education",
+          "abbrev": null,
+          "url": null,
+          "note": "Primary and elementary schooling."
+        },
+        {
+          "name": "Higher and Technical Education",
+          "abbrev": null,
+          "url": null,
+          "note": "Colleges, universities and technical education."
+        },
+        {
+          "name": "State Council of Educational Research and Training(SCERT)",
+          "abbrev": "SCERT",
+          "url": null,
+          "note": "Teacher training, curriculum and educational research."
+        },
+        {
+          "name": "Secondary Education",
+          "abbrev": null,
+          "url": null,
+          "note": "Secondary and higher-secondary schooling."
+        },
+        {
+          "name": "State Election Commission",
+          "abbrev": null,
+          "url": null,
+          "note": "Conduct of local-body elections (constitutional body)."
+        },
+        {
+          "name": "Election",
+          "abbrev": null,
+          "url": null,
+          "note": "Electoral rolls and election machinery for assembly and parliamentary polls."
+        },
+        {
+          "name": "Environment and Forest",
+          "abbrev": null,
+          "url": null,
+          "note": "Forests, wildlife and environment protection."
+        },
+        {
+          "name": "Principal Accountant General, Arunachal Pradesh",
+          "abbrev": null,
+          "url": null,
+          "note": "Central audit and accounts office (CAG) receipts head."
+        },
+        {
+          "name": "Tax and Excise",
+          "abbrev": null,
+          "url": null,
+          "note": "State taxes, excise and narcotics control."
+        },
+        {
+          "name": "Finance Department",
+          "abbrev": null,
+          "url": null,
+          "note": "State budget, treasuries and fiscal management."
+        },
+        {
+          "name": "State Lotteries",
+          "abbrev": null,
+          "url": null,
+          "note": "Regulation of state lotteries."
+        },
+        {
+          "name": "Fisheries",
+          "abbrev": null,
+          "url": null,
+          "note": "Fisheries development and aquaculture."
+        },
+        {
+          "name": "Resident Commissioner Under General Administration",
+          "abbrev": null,
+          "url": null,
+          "note": "State liaison office outside Arunachal Pradesh."
+        },
+        {
+          "name": "General Administration",
+          "abbrev": null,
+          "url": null,
+          "note": "Secretariat administration and coordination of government business."
+        },
+        {
+          "name": "Geology and Mining",
+          "abbrev": null,
+          "url": null,
+          "note": "Mineral exploration and mining regulation."
+        },
+        {
+          "name": "Governor Secretariat",
+          "abbrev": null,
+          "url": null,
+          "note": "Secretariat support to the Governor."
+        },
+        {
+          "name": "Directorate of Health Services",
+          "abbrev": null,
+          "url": null,
+          "note": "Public healthcare delivery and hospitals."
+        },
+        {
+          "name": "Police Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Law enforcement and policing."
+        },
+        {
+          "name": "Home",
+          "abbrev": null,
+          "url": null,
+          "note": "Internal security, law and order and home affairs."
+        },
+        {
+          "name": "Disaster Management",
+          "abbrev": null,
+          "url": null,
+          "note": "Disaster preparedness, relief and rehabilitation."
+        },
+        {
+          "name": "Prisons and Correctional Administration",
+          "abbrev": null,
+          "url": null,
+          "note": "Jails and correctional services."
+        },
+        {
+          "name": "Fire and Emergency Services",
+          "abbrev": null,
+          "url": null,
+          "note": "Firefighting and emergency response."
+        },
+        {
+          "name": "Arunachal Pradesh State Human Right Commission",
+          "abbrev": null,
+          "url": null,
+          "note": "Human-rights complaints and oversight (statutory body)."
+        },
+        {
+          "name": "Horticulture",
+          "abbrev": null,
+          "url": null,
+          "note": "Horticultural crops development."
+        },
+        {
+          "name": "Chief Inspector Factories and Boilers",
+          "abbrev": null,
+          "url": null,
+          "note": "Factory and boiler safety inspection."
+        },
+        {
+          "name": "Department of Industries",
+          "abbrev": null,
+          "url": null,
+          "note": "Industrial promotion and entrepreneurship."
+        },
+        {
+          "name": "Printing and Stationery",
+          "abbrev": null,
+          "url": null,
+          "note": "Government printing press and stationery."
+        },
+        {
+          "name": "Information and Public Relations",
+          "abbrev": null,
+          "url": null,
+          "note": "Government publicity and media relations."
+        },
+        {
+          "name": "Information Technology and Communication",
+          "abbrev": null,
+          "url": null,
+          "note": "E-governance, IT infrastructure and the state data centre."
+        },
+        {
+          "name": "Labour and Employment",
+          "abbrev": null,
+          "url": null,
+          "note": "Labour welfare and employment services."
+        },
+        {
+          "name": "Stamps and Registration",
+          "abbrev": null,
+          "url": null,
+          "note": "Stamp duty and document registration."
+        },
+        {
+          "name": "Land Management",
+          "abbrev": null,
+          "url": null,
+          "note": "Land records, survey and settlement."
+        },
+        {
+          "name": "Law Legislative and Justice",
+          "abbrev": null,
+          "url": null,
+          "note": "Legal affairs, legislation drafting and justice administration."
+        },
+        {
+          "name": "Legal Metrology and Consumer Affairs",
+          "abbrev": null,
+          "url": null,
+          "note": "Weights-and-measures enforcement and consumer protection."
+        },
+        {
+          "name": "Legislative Assembly",
+          "abbrev": null,
+          "url": null,
+          "note": "State legislature secretariat and assembly business."
+        },
+        {
+          "name": "Department of Panchayati Raj",
+          "abbrev": null,
+          "url": null,
+          "note": "Panchayati raj institutions and rural local governance."
+        },
+        {
+          "name": "Parliamentary Affairs",
+          "abbrev": null,
+          "url": null,
+          "note": "Coordination of legislative business and assembly matters."
+        },
+        {
+          "name": "Planning and Investment",
+          "abbrev": null,
+          "url": null,
+          "note": "State planning and investment promotion."
+        },
+        {
+          "name": "Hydro Power Development",
+          "abbrev": null,
+          "url": null,
+          "note": "Hydropower project development."
+        },
+        {
+          "name": "Power",
+          "abbrev": null,
+          "url": null,
+          "note": "Electricity generation, transmission, distribution and billing."
+        },
+        {
+          "name": "APEDA",
+          "abbrev": "APEDA",
+          "url": null,
+          "note": "Arunachal Pradesh Energy Development Agency; renewable energy promotion."
+        },
+        {
+          "name": "Public Health Engineering & Water Supply",
+          "abbrev": null,
+          "url": null,
+          "note": "Drinking water supply and sanitation engineering."
+        },
+        {
+          "name": "Arunachal Pradesh Public Service Commission",
+          "abbrev": null,
+          "url": null,
+          "note": "Civil services recruitment (constitutional body)."
+        },
+        {
+          "name": "Public Works Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Roads, bridges and government buildings construction."
+        },
+        {
+          "name": "Rural Development Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Rural development and poverty-alleviation programmes."
+        },
+        {
+          "name": "Rural Works Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Rural roads and infrastructure works."
+        },
+        {
+          "name": "Political",
+          "abbrev": null,
+          "url": null,
+          "note": "Political and cabinet affairs including inter-state matters."
+        },
+        {
+          "name": "Protocol",
+          "abbrev": null,
+          "url": null,
+          "note": "State protocol, hospitality and VIP arrangements."
+        },
+        {
+          "name": "Skill Development and Enterprenership",
+          "abbrev": null,
+          "url": null,
+          "note": "Skill training and entrepreneurship promotion (spelling as listed on source)."
+        },
+        {
+          "name": "Social Justice Empowerment and Tribal Affairs",
+          "abbrev": null,
+          "url": null,
+          "note": "Welfare of SC/ST/OBC, persons with disabilities and tribal affairs."
+        },
+        {
+          "name": "Women Child Development",
+          "abbrev": null,
+          "url": null,
+          "note": "Women and child welfare, ICDS and nutrition."
+        },
+        {
+          "name": "Textile and Handicrafts",
+          "abbrev": null,
+          "url": null,
+          "note": "Handloom, textiles and handicrafts promotion."
+        },
+        {
+          "name": "Sericulture",
+          "abbrev": null,
+          "url": null,
+          "note": "Silk production and sericulture development."
+        },
+        {
+          "name": "Tourism",
+          "abbrev": null,
+          "url": null,
+          "note": "Tourism promotion and infrastructure."
+        },
+        {
+          "name": "Urban Local Bodies",
+          "abbrev": null,
+          "url": null,
+          "note": "Municipal governance and urban local bodies."
+        },
+        {
+          "name": "Town Planning",
+          "abbrev": null,
+          "url": null,
+          "note": "Urban and town planning."
+        },
+        {
+          "name": "Trade and Commerce",
+          "abbrev": null,
+          "url": null,
+          "note": "Trade, commerce and business facilitation."
+        },
+        {
+          "name": "State Transport Services",
+          "abbrev": null,
+          "url": null,
+          "note": "Public bus and passenger transport services."
+        },
+        {
+          "name": "Directorate of Road Transport",
+          "abbrev": null,
+          "url": null,
+          "note": "Motor vehicles regulation, permits and road safety."
+        },
+        {
+          "name": "Urban Development and Housing",
+          "abbrev": null,
+          "url": null,
+          "note": "Urban development and housing schemes."
+        },
+        {
+          "name": "Water Resources Department",
+          "abbrev": null,
+          "url": null,
+          "note": "Irrigation, flood control and water resources."
+        }
+      ],
+      "source_url": "https://egras.arunachal.gov.in/departments",
+      "source_title": "Government Departments Accepting E-Payment Facility (eGras)",
+      "as_of": "2026-09-22"
+    },
+    "orgs": {
+      "count": 5,
+      "items": [
+        {
+          "name": "Arunachal Pradesh Public Service Commission",
+          "abbrev": "APPSC",
+          "url": "https://appsc.gov.in/Index/institute_home/ins/RECINS001",
+          "note": "Constitutional body advising on recruitment to state civil services."
+        },
+        {
+          "name": "Arunachal State Rural Livelihood Mission",
+          "abbrev": null,
+          "url": null,
+          "note": "State mission implementing rural livelihood and self-employment programmes."
+        },
+        {
+          "name": "Legislative Assembly",
+          "abbrev": null,
+          "url": null,
+          "note": "State legislature enacting laws for Arunachal Pradesh."
+        },
+        {
+          "name": "State Remote Sensing Application Center",
+          "abbrev": null,
+          "url": null,
+          "note": "State centre for remote sensing, GIS and space-based applications."
+        },
+        {
+          "name": "State Transport",
+          "abbrev": "APSTS",
+          "url": "https://apsts.arunachal.gov.in/",
+          "note": "State public bus transport services (APSTS)."
+        }
+      ],
+      "source_url": "https://arunachalpradesh.gov.in/government-department.php",
+      "source_title": "Departments of Arunachal Pradesh",
+      "as_of": "2026-09-22"
+    },
+    "psus": {
+      "count": 7,
+      "items": [
+        {
+          "name": "Arunachal Pradesh Industrial Development and Financial Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "State industrial promotion and financing company (Finance sector)"
+        },
+        {
+          "name": "Arunachal Pradesh Mineral Development and Trading Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Mineral exploration, development and trading (Mining sector)"
+        },
+        {
+          "name": "Arunachal Pradesh Forest Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Forestry operations and trade in forest produce"
+        },
+        {
+          "name": "Arunachal Police Housing and Welfare Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Constructs residential and office buildings, mainly police housing"
+        },
+        {
+          "name": "Hydro Power Development Corporation of Arunachal Pradesh Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Power-sector company for hydropower development in the state"
+        },
+        {
+          "name": "Arunachal Pradesh Donyi Polo Hotel Corporation Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Runs the state government hotel business (Service sector)"
+        },
+        {
+          "name": "Parasuram Cement Limited",
+          "abbrev": null,
+          "url": null,
+          "note": "Non-working cement manufacturing company"
+        }
+      ],
+      "source_url": "https://cag.gov.in/uploads/download_audit_report/2023/9--Chapter-6-069c4dd5e0fdfb6.96297872.pdf",
+      "source_title": "CHAPTER - VI: ECONOMIC SECTOR (STATE PUBLIC SECTOR ENTERPRISES), CAG Audit Report for the year ended 31 March 2023 - Government of Arunachal Pradesh",
+      "as_of": "31 March 2023"
+    }
+  },
+  "assam": {
+    "commissions": {
+      "count": 9,
+      "items": [
+        {
+          "name": "Assam State Election Commission",
+          "abbrev": null,
+          "url": null,
+          "note": "Conducts elections to panchayats and municipal bodies in Assam."
+        },
+        {
+          "name": "National Commission for Scheduled Castes",
+          "abbrev": "NCSC",
+          "url": null,
+          "note": "Safeguards interests and rights of Scheduled Castes."
+        },
+        {
+          "name": "Assam State Commission for Women",
+          "abbrev": null,
+          "url": null,
+          "note": "Protects women's rights and welfare in Assam."
+        },
+        {
+          "name": "Assam State Commission for Protection of Child Rights",
+          "abbrev": null,
+          "url": null,
+          "note": "Protects child rights and welfare in Assam."
+        },
+        {
+          "name": "Assam Public Service Commission",
+          "abbrev": "APSC",
+          "url": null,
+          "note": "Recruits to Assam state civil services and advises on service matters."
+        },
+        {
+          "name": "Khadi and Village Industries Commission",
+          "abbrev": "KVIC",
+          "url": null,
+          "note": "Promotes khadi and village industries development."
+        },
+        {
+          "name": "Assam State Information Commission",
+          "abbrev": null,
+          "url": null,
+          "note": "Hears RTI appeals and oversees transparency compliance in Assam."
+        },
+        {
+          "name": "Assam Official Language TCL Commission",
+          "abbrev": null,
+          "url": null,
+          "note": "Oversees implementation of Assam official language matters."
+        },
+        {
+          "name": "Assam Electricity Regulatory Commission",
+          "abbrev": "AERC",
+          "url": null,
+          "note": "Regulates electricity tariff and licensing in Assam."
+        }
+      ],
+      "source_url": "https://assam.gov.in/government/409",
+      "source_title": "Commissions | Assam State Portal",
+      "as_of": "24-Aug-2026"
+    },
+    "ministries": {
+      "count": 56,
+      "items": [
+        {
+          "name": "Act East Policy Affairs",
+          "abbrev": null,
+          "url": "https://acteast.assam.gov.in/",
+          "note": "Nodal department for Act East Policy initiatives and Southeast Asia engagement"
+        },
+        {
+          "name": "Administrative Reforms, Training, Pension & Public Grievances",
+          "abbrev": null,
+          "url": "https://art.assam.gov.in",
+          "note": "Administrative reforms, civil service training, pensions and grievance redressal"
+        },
+        {
+          "name": "Agriculture",
+          "abbrev": null,
+          "url": "https://agri-horti.assam.gov.in",
+          "note": "Crop production, extension, marketing, seeds and farmer welfare"
+        },
+        {
+          "name": "Border Protection and Development",
+          "abbrev": null,
+          "url": "https://bpdd.assam.gov.in",
+          "note": "Interstate and international border protection and border area development"
+        },
+        {
+          "name": "Chief Minister’s Secretariat",
+          "abbrev": null,
+          "url": "https://assam.gov.in/",
+          "note": "Secretarial assistance and coordination for the Chief Minister"
+        },
+        {
+          "name": "Co-operation",
+          "abbrev": null,
+          "url": "https://coop.assam.gov.in",
+          "note": "Cooperative societies, warehousing and cooperative credit institutions"
+        },
+        {
+          "name": "Cultural Affairs",
+          "abbrev": null,
+          "url": "https://culturalaffairs.assam.gov.in",
+          "note": "Art, culture, libraries, film, museums and cultural institutions"
+        },
+        {
+          "name": "Election",
+          "abbrev": null,
+          "url": "http://ceoassam.nic.in/",
+          "note": "Electoral rolls and conduct of elections in the state"
+        },
+        {
+          "name": "Environment & Forest",
+          "abbrev": null,
+          "url": "https://environmentandforest.assam.gov.in",
+          "note": "Forests, wildlife, biodiversity and pollution control"
+        },
+        {
+          "name": "Excise",
+          "abbrev": null,
+          "url": "https://excise.assam.gov.in",
+          "note": "Regulation of liquor production, sale and excise revenue"
+        },
+        {
+          "name": "Finance",
+          "abbrev": null,
+          "url": "https://finance.assam.gov.in",
+          "note": "State budget, taxation, treasuries, pensions and fiscal management"
+        },
+        {
+          "name": "Fishery",
+          "abbrev": null,
+          "url": "https://fisheries.assam.gov.in",
+          "note": "Inland fisheries development and fish farmer welfare"
+        },
+        {
+          "name": "Food, Civil Supplies & Consumer Affairs",
+          "abbrev": null,
+          "url": "https://fcsca.assam.gov.in",
+          "note": "Public distribution, food security and consumer protection"
+        },
+        {
+          "name": "General Administration",
+          "abbrev": null,
+          "url": "https://gad.assam.gov.in",
+          "note": "Secretariat administration, protocol, archives and sainik welfare"
+        },
+        {
+          "name": "Handloom, Textiles & Sericulture",
+          "abbrev": null,
+          "url": "https://hts.assam.gov.in",
+          "note": "Handloom, powerloom, textiles, sericulture and weaver support"
+        },
+        {
+          "name": "Health & Family Welfare",
+          "abbrev": null,
+          "url": "https://hfw.assam.gov.in",
+          "note": "Hospitals, public health, family welfare and medical services"
+        },
+        {
+          "name": "Higher Education",
+          "abbrev": null,
+          "url": "https://highereducation.assam.gov.in",
+          "note": "Colleges, universities and technical education"
+        },
+        {
+          "name": "Hill Areas",
+          "abbrev": null,
+          "url": "https://had.assam.gov.in",
+          "note": "Development administration for hill areas and autonomous councils"
+        },
+        {
+          "name": "Home",
+          "abbrev": null,
+          "url": "https://homeandpolitical.assam.gov.in",
+          "note": "Police, prisons, fire services, forensics and law and order"
+        },
+        {
+          "name": "Horticulture and Food Processing",
+          "abbrev": null,
+          "url": "https://dirhorti.assam.gov.in/",
+          "note": "Horticulture crops and food processing industries"
+        },
+        {
+          "name": "Housing and Urban Affairs",
+          "abbrev": null,
+          "url": "https://dohua.assam.gov.in/",
+          "note": "Urban governance, housing, municipal bodies and town planning"
+        },
+        {
+          "name": "Implementation of Assam Accord",
+          "abbrev": null,
+          "url": "https://assamaccord.assam.gov.in",
+          "note": "Implementation and monitoring of Assam Accord clauses"
+        },
+        {
+          "name": "Indigenous & Tribal Faith and Culture",
+          "abbrev": null,
+          "url": "https://itfc.assam.gov.in/",
+          "note": "Preservation of indigenous faiths, archaeology and museums"
+        },
+        {
+          "name": "Industries, Commerce and Public Enterprises",
+          "abbrev": null,
+          "url": "https://industries.assam.gov.in",
+          "note": "Industrial promotion, trade, tea and public enterprises"
+        },
+        {
+          "name": "Information, Public Relations, Printing & Stationery",
+          "abbrev": null,
+          "url": "https://iprd.assam.gov.in",
+          "note": "Government publicity, press, printing and publications"
+        },
+        {
+          "name": "Information Technology",
+          "abbrev": null,
+          "url": "https://it.assam.gov.in",
+          "note": "IT, electronics, e-governance and state portal management"
+        },
+        {
+          "name": "Irrigation",
+          "abbrev": null,
+          "url": "https://irrigation.assam.gov.in",
+          "note": "Irrigation projects, canals and water use for agriculture"
+        },
+        {
+          "name": "Judicial",
+          "abbrev": null,
+          "url": "https://judicial.assam.gov.in",
+          "note": "Courts administration and judicial services"
+        },
+        {
+          "name": "Labour Welfare",
+          "abbrev": null,
+          "url": "https://labour.assam.gov.in",
+          "note": "Labour laws, factories, boilers, ESI and worker welfare"
+        },
+        {
+          "name": "Legislative",
+          "abbrev": null,
+          "url": "https://legislative.assam.gov.in",
+          "note": "Law drafting, legislation and legal services authority"
+        },
+        {
+          "name": "Medical Education and Research",
+          "abbrev": null,
+          "url": null,
+          "note": "Medical colleges, medical education and research"
+        },
+        {
+          "name": "Panchayat & Rural Development",
+          "abbrev": null,
+          "url": "https://pnrd.assam.gov.in",
+          "note": "Panchayats, rural development schemes and livelihoods missions"
+        },
+        {
+          "name": "Parliamentary Affairs",
+          "abbrev": null,
+          "url": "https://parliamentaryaffairs.assam.gov.in",
+          "note": "Legislative business and coordination with the Assembly"
+        },
+        {
+          "name": "Personnel",
+          "abbrev": null,
+          "url": "https://personnel.assam.gov.in",
+          "note": "Personnel policy, appointments, service rules and APSC matters"
+        },
+        {
+          "name": "Political",
+          "abbrev": null,
+          "url": "https://homeandpolitical.assam.gov.in/",
+          "note": "Political matters, citizenship and maintenance of public order"
+        },
+        {
+          "name": "Power (Electricity), Mines and Minerals",
+          "abbrev": null,
+          "url": "https://power.assam.gov.in",
+          "note": "Power generation and distribution, geology and mining"
+        },
+        {
+          "name": "Public Health Engineering (PHE)",
+          "abbrev": "PHE",
+          "url": "https://phe.assam.gov.in",
+          "note": "Rural and urban drinking water supply and sanitation"
+        },
+        {
+          "name": "Public Works Buildings and National Highways",
+          "abbrev": null,
+          "url": "https://pwdbnh.assam.gov.in",
+          "note": "Government buildings and national highways construction"
+        },
+        {
+          "name": "Public Works Roads",
+          "abbrev": null,
+          "url": "https://pwdroads.assam.gov.in",
+          "note": "State roads, bridges and road maintenance"
+        },
+        {
+          "name": "Revenue & Disaster Management",
+          "abbrev": null,
+          "url": "https://landrevenue.assam.gov.in",
+          "note": "Land records, registration, revenue and disaster management"
+        },
+        {
+          "name": "School Education",
+          "abbrev": null,
+          "url": "https://elementary.assam.gov.in",
+          "note": "Elementary and secondary schooling, boards and literacy"
+        },
+        {
+          "name": "Science, Technology and Climate Change",
+          "abbrev": null,
+          "url": "https://snt.assam.gov.in",
+          "note": "Science promotion, renewable energy and climate action"
+        },
+        {
+          "name": "Skill, Employment & Entrepreneurship",
+          "abbrev": null,
+          "url": "https://skill.assam.gov.in",
+          "note": "Skill development, employment exchanges and entrepreneurship"
+        },
+        {
+          "name": "Social Justice and Empowerment",
+          "abbrev": null,
+          "url": "https://socialjustice.assam.gov.in/",
+          "note": "Welfare of vulnerable groups and social empowerment schemes"
+        },
+        {
+          "name": "Soil Conservation",
+          "abbrev": null,
+          "url": "https://soilconservation.assam.gov.in",
+          "note": "Soil conservation, watershed management and land protection"
+        },
+        {
+          "name": "Sports & Youth Welfare",
+          "abbrev": null,
+          "url": "https://sports.assam.gov.in",
+          "note": "Sports infrastructure, youth affairs and sports training"
+        },
+        {
+          "name": "Tea Tribes Welfare",
+          "abbrev": null,
+          "url": "https://teatribes.assam.gov.in",
+          "note": "Welfare of tea and ex-tea garden tribes"
+        },
+        {
+          "name": "Tourism",
+          "abbrev": null,
+          "url": "https://tourism.assam.gov.in",
+          "note": "Tourism promotion, destinations and hospitality infrastructure"
+        },
+        {
+          "name": "Transformation and Development",
+          "abbrev": null,
+          "url": "https://transdev.assam.gov.in",
+          "note": "Planning, statistics, evaluation and state transformation programs"
+        },
+        {
+          "name": "Transport",
+          "abbrev": null,
+          "url": "https://transport.assam.gov.in",
+          "note": "Motor vehicles, road transport and inland water transport"
+        },
+        {
+          "name": "Tribal Affairs (Plain)",
+          "abbrev": null,
+          "url": "https://wptbc.assam.gov.in",
+          "note": "Welfare of plain tribes, backward classes and scheduled castes"
+        },
+        {
+          "name": "Veterinary",
+          "abbrev": null,
+          "url": "https://animalhusbandry.assam.gov.in",
+          "note": "Animal husbandry, veterinary care and dairy development"
+        },
+        {
+          "name": "Water Resources",
+          "abbrev": null,
+          "url": "https://waterresources.assam.gov.in",
+          "note": "Flood control, irrigation infrastructure and river management"
+        },
+        {
+          "name": "Welfare of Bodoland",
+          "abbrev": null,
+          "url": null,
+          "note": "Welfare and development of Bodoland Territorial Region matters"
+        },
+        {
+          "name": "Welfare of Minorities & Development",
+          "abbrev": null,
+          "url": "https://minorities.assam.gov.in",
+          "note": "Minority welfare, char areas development and minority boards"
+        },
+        {
+          "name": "Women and Child Development Department",
+          "abbrev": null,
+          "url": "https://womenandchild.assam.gov.in/",
+          "note": "Women empowerment, child welfare and nutrition programs"
+        }
+      ],
+      "source_url": "https://assam.gov.in/departments-list",
+      "source_title": "Department List Page | Assam State Portal",
+      "as_of": "24-Aug-2026"
+    },
+    "orgs": {
+      "count": 9,
+      "items": [
+        {
+          "name": "Assam State Election Commission",
+          "abbrev": "ASEC",
+          "url": null,
+          "note": "Conducts panchayat and municipal elections in Assam."
+        },
+        {
+          "name": "National Commission for Scheduled Castes",
+          "abbrev": "NCSC",
+          "url": null,
+          "note": "Central constitutional body listed with Assam office for SC safeguards."
+        },
+        {
+          "name": "Assam State Commission for Women",
+          "abbrev": "ASCW",
+          "url": null,
+          "note": "Safeguards women's rights and welfare in Assam."
+        },
+        {
+          "name": "Assam State Commission for Protection of Child Rights",
+          "abbrev": "ASCPCR",
+          "url": null,
+          "note": "Protects child rights and welfare in Assam."
+        },
+        {
+          "name": "Assam Public Service Commission",
+          "abbrev": "APSC",
+          "url": null,
+          "note": "Recruits to Assam state civil services through examinations."
+        },
+        {
+          "name": "Khadi and Village Industries Commission",
+          "abbrev": "KVIC",
+          "url": null,
+          "note": "Central statutory body listed with Assam office for khadi promotion."
+        },
+        {
+          "name": "Assam State Information Commission",
+          "abbrev": "ASIC",
+          "url": null,
+          "note": "Decides RTI appeals and oversees transparency in Assam."
+        },
+        {
+          "name": "Assam Official Language TCL Commission",
+          "abbrev": null,
+          "url": null,
+          "note": "Translates central laws for Assam official language use."
+        },
+        {
+          "name": "Assam Electricity Regulatory Commission",
+          "abbrev": "AERC",
+          "url": null,
+          "note": "Regulates electricity tariff and licensing in Assam."
+        }
+      ],
+      "source_url": "https://assam.gov.in/index.php/government/409",
+      "source_title": "Commissions | Assam State Portal",
+      "as_of": "2026-08-24"
+    },
+    "psus": {
+      "count": 39,
+      "items": [
+        {
+          "name": "Assam Gas Company Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "State natural gas distribution and marketing company"
+        },
+        {
+          "name": "Assam Petrochemicals Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "State petrochemicals manufacturing company"
+        },
+        {
+          "name": "Assam Co-operative Jute Mills Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "State co-operative jute manufacturing mill"
+        },
+        {
+          "name": "DNP Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "State natural gas pipeline transportation company"
+        },
+        {
+          "name": "Assam Industrial Infrastructure Development Corporation Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "Develops industrial estates and infrastructure"
+        },
+        {
+          "name": "Assam State Film (Finance & Development) Corporation Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "Finances and develops Assamese film industry"
+        },
+        {
+          "name": "Assam Tourism Development Corporation Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "Develops tourism infrastructure and services"
+        },
+        {
+          "name": "Assam Fisheries Development Corporation Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "Develops fisheries and fish marketing"
+        },
+        {
+          "name": "Assam Electronics Development Corporation Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "Promotes electronics and IT development"
+        },
+        {
+          "name": "Assam Hydrocarbon & Energy Company Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "State hydrocarbon exploration and energy company"
+        },
+        {
+          "name": "Assam State Textbook Production & Publication Corporation Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "Prints and publishes school textbooks"
+        },
+        {
+          "name": "Assam Urban Water Supply & Sewerage Board",
+          "abbrev": null,
+          "url": null,
+          "note": "Urban water supply and sewerage services"
+        },
+        {
+          "name": "ARTFED",
+          "abbrev": null,
+          "url": null,
+          "note": "Apex weavers and artisans co-operative marketing federation"
+        },
+        {
+          "name": "Assam Government Marketing Corporation Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "Marketing of handloom and handicraft products"
+        },
+        {
+          "name": "Assam Industrial Development Corporation Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "Promotes and finances industries in Assam"
+        },
+        {
+          "name": "Assam Financial Corporation",
+          "abbrev": null,
+          "url": null,
+          "note": "State financial institution for MSME lending"
+        },
+        {
+          "name": "Assam State Warehousing Corporation",
+          "abbrev": null,
+          "url": null,
+          "note": "Warehousing and storage services"
+        },
+        {
+          "name": "Assam Mineral Development Corporation Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "Exploration and development of minerals"
+        },
+        {
+          "name": "Assam Plains Tribes Development Corporation Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "Economic development of plains tribes communities"
+        },
+        {
+          "name": "Assam State Development Corporation for Scheduled Castes Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "Economic development schemes for Scheduled Castes"
+        },
+        {
+          "name": "Assam State Development Corporation for Other Backward Classes Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "Economic development schemes for Other Backward Classes"
+        },
+        {
+          "name": "Assam Power Generation Corporation Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "State electricity generation utility"
+        },
+        {
+          "name": "Assam Electricity Grid Corporation Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "State electricity transmission utility"
+        },
+        {
+          "name": "Assam State Transport Corporation",
+          "abbrev": null,
+          "url": null,
+          "note": "State public road transport services"
+        },
+        {
+          "name": "Assam Seeds Corporation Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "Production and supply of certified seeds"
+        },
+        {
+          "name": "Assam Trade Promotion Organisation",
+          "abbrev": null,
+          "url": null,
+          "note": "Promotes trade, commerce and exhibitions"
+        },
+        {
+          "name": "Assam Minorities Development & Finance Corporation Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "Development and finance schemes for minorities"
+        },
+        {
+          "name": "Assam Small Industries Development Corporation Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "Promotes small-scale industries"
+        },
+        {
+          "name": "Assam Hills Small Industries Development Corporation Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "Promotes small industries in hill areas"
+        },
+        {
+          "name": "Assam Livestock & Poultry Corporation Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "Develops livestock and poultry farming"
+        },
+        {
+          "name": "Assam Police Housing Corporation Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "Constructs police housing and buildings"
+        },
+        {
+          "name": "Assam Tea Corporation Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "Manages state-owned tea gardens"
+        },
+        {
+          "name": "Assam State Fertilizer & Chemicals Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "Manufactures fertilizers and chemicals"
+        },
+        {
+          "name": "Assam Plantation Crop Development Corporation Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "Develops plantation crops"
+        },
+        {
+          "name": "Assam Polyester Co-operative Society Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "Co-operative polyester manufacturing unit"
+        },
+        {
+          "name": "Assam State Housing Board",
+          "abbrev": null,
+          "url": null,
+          "note": "Public housing construction and development"
+        },
+        {
+          "name": "Assam Food and Civil Supplies Corporation Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "Food grain procurement and public distribution"
+        },
+        {
+          "name": "Ashok Paper Mills (Assam) Ltd.",
+          "abbrev": null,
+          "url": null,
+          "note": "State paper manufacturing unit, not in operation"
+        }
+      ],
+      "source_url": "https://dpe.assam.gov.in/information-services/status-of-pses",
+      "source_title": "Status of PSEs | Public Enterprises | Government Of Assam, India",
+      "as_of": "2013-14"
     }
   }
 }
