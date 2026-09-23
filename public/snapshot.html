@@ -33,10 +33,11 @@ td.v{text-align:right;font-variant-numeric:tabular-nums}
 .hint{color:var(--dim);font-size:12px;margin-top:16px}
 a{color:var(--acc);text-decoration:none}
 a:hover{text-decoration:underline}
-.regs{margin-top:14px;display:flex;gap:10px;flex-wrap:wrap}
-.reg{display:block;flex:1 1 280px;border:1px solid var(--line);border-radius:8px;
+.regs{margin-top:14px;display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.reg{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:8px;
  padding:12px 14px;text-decoration:none;color:inherit;background:#10141a}
 .reg:hover{border-color:var(--acc)}
+.regs-kicker{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.7px;margin:14px 0 2px}
 .reg .n{font-weight:600;font-size:14px;color:var(--acc)}
 .reg .d{color:var(--dim);font-size:12px;margin-top:4px}
 .reg .d b{color:var(--fg);font-weight:600}
@@ -50,37 +51,36 @@ footer{border-top:1px solid var(--line);padding:10px 22px;color:var(--dim);font-
   <h1>Every rupee, every post, every station</h1>
   <div class="sub">Hover a state. 36 of 36 regions mapped &mdash;
     a dash means <em>not yet sourced</em>, never zero.</div>
+  <div class="regs-kicker">The registers &mdash; one live, four being built</div>
   <div class="regs">
     <a class="reg" href="/babuwatch">
       <div class="n">Babuwatch &rarr;</div>
-      <div class="d"><b>Cases of convicted and censured &ldquo;babus&rdquo;</b> &mdash;
-        2,523 court-adjudicated records against public servants:
+      <div class="d"><b>2,523 records live.</b> Convicted and censured &ldquo;babus&rdquo; &mdash;
         518 civil servants and 2,005 police records, each attributed to the court that decided it.
-        One tracker with full filters; Know Your Rights and Seek Remedy guides inside.</div>
+        Incident tracker, patterns dashboard, methodology.</div>
     </a>
     <a class="reg" href="/victimlesscrimes">
       <div class="n">Victimless Crimes &rarr;</div>
-      <div class="d"><b>Convicted though no one was harmed</b> &mdash;
+      <div class="d"><b>Structure preview.</b> Convicted though no one was harmed &mdash;
         prostitution, gambling, alcohol, beef and food prohibitions,
-        cigarettes, e-cigarettes and vapes. Analytics on top, incidents below.</div>
+        cigarettes, e-cigarettes and vapes. Records to follow.</div>
     </a>
     <a class="reg" href="/civilliberties">
       <div class="n">Civil Liberties &rarr;</div>
-      <div class="d"><b>Punished for exercising basic freedoms</b> &mdash;
-        freedom of speech, freedom of religion, and more sections to come.
-        Structure first; records to follow.</div>
+      <div class="d"><b>Structure preview.</b> Punished for exercising basic freedoms &mdash;
+        freedom of speech, freedom of religion, and more sections to come.</div>
     </a>
     <a class="reg" href="/economicfreedom">
       <div class="n">Economic Freedom &rarr;</div>
-      <div class="d"><b>Jailed for trading freely</b> &mdash;
+      <div class="d"><b>Structure preview.</b> Jailed for trading freely &mdash;
         crypto, foreign currency, gold, and the other things that are legal
-        in free economies and criminal here. Analytics on top, incidents below.</div>
+        in free economies and criminal here.</div>
     </a>
     <a class="reg" href="/psu">
       <div class="n">PSUs &rarr;</div>
-      <div class="d"><b>Government, Inc.</b> &mdash;
+      <div class="d"><b>Structure preview.</b> Government, Inc. &mdash;
         every business the state runs: central, state, banks, insurers,
-        and the rest. The case for getting government out of business.</div>
+        and the rest. Entries to follow.</div>
     </a>
   </div>
 </header>
