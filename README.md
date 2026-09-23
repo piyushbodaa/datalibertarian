@@ -8,6 +8,8 @@ This is not an NGO or grant tracker. It follows taxpayer money through official 
 
 **Not live (honest empty doors):** Madhya Pradesh and UT police; BMC and every other corporation; Health and village heads outside Telangana; GHMC 2026-27 until a book is published.
 
+**Babuwatch:** court-adjudicated records against public servants at `/babuwatch` (civil servants) and `/babuwatch/copwatchindia` (police). Code, data and docs in [`babuwatch/`](./babuwatch/README.md).
+
 ## Run
 
 ```

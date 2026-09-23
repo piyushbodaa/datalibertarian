@@ -38,42 +38,6 @@
       "destination": "/snapshot"
     },
     {
-      "source": "/copwatchindia",
-      "destination": "https://copwatchindia.vercel.app/"
-    },
-    {
-      "source": "/copwatchindia/",
-      "destination": "https://copwatchindia.vercel.app/"
-    },
-    {
-      "source": "/copwatchindia/:path*",
-      "destination": "https://copwatchindia.vercel.app/:path*"
-    },
-    {
-      "source": "/apwatch",
-      "destination": "https://copwatchindia.vercel.app/apwatch/"
-    },
-    {
-      "source": "/apwatch/",
-      "destination": "https://copwatchindia.vercel.app/apwatch/"
-    },
-    {
-      "source": "/apwatch/:path*",
-      "destination": "https://copwatchindia.vercel.app/apwatch/:path*"
-    },
-    {
-      "source": "/babuwatch",
-      "destination": "/babuwatch/"
-    },
-    {
-      "source": "/copwatch",
-      "destination": "/babuwatch/copwatch/"
-    },
-    {
-      "source": "/copwatch/",
-      "destination": "/babuwatch/copwatch/"
-    },
-    {
       "source": "/sin",
       "destination": "/babuwatch/sin/"
     },
@@ -88,6 +52,98 @@
     {
       "source": "/fos/",
       "destination": "/babuwatch/fos/"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/copwatchindia",
+      "destination": "/babuwatch",
+      "permanent": true
+    },
+    {
+      "source": "/copwatchindia/report",
+      "destination": "/babuwatch#seek-remedy",
+      "permanent": true
+    },
+    {
+      "source": "/copwatchindia/volunteer",
+      "destination": "/babuwatch/about",
+      "permanent": true
+    },
+    {
+      "source": "/copwatchindia/:path*",
+      "destination": "/babuwatch/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/copwatch",
+      "destination": "/babuwatch",
+      "permanent": true
+    },
+    {
+      "source": "/copwatch/:path*",
+      "destination": "/babuwatch/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/copwatchindia",
+      "destination": "/babuwatch",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/copwatchindia/report",
+      "destination": "/babuwatch#seek-remedy",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/copwatchindia/volunteer",
+      "destination": "/babuwatch/about",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/copwatchindia/:path*",
+      "destination": "/babuwatch/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/copwatch",
+      "destination": "/babuwatch",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/copwatch/:path*",
+      "destination": "/babuwatch/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/rights",
+      "destination": "/babuwatch#seek-remedy",
+      "permanent": true
+    },
+    {
+      "source": "/remedy",
+      "destination": "/babuwatch#seek-remedy",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/rights",
+      "destination": "/babuwatch#seek-remedy",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/remedy",
+      "destination": "/babuwatch#seek-remedy",
+      "permanent": true
+    },
+    {
+      "source": "/trial-court",
+      "destination": "/babuwatch/tracker?level=trial",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/trial-court",
+      "destination": "/babuwatch/tracker?level=trial",
+      "permanent": true
     }
   ]
 }

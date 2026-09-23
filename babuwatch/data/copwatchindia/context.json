@@ -1,0 +1,4524 @@
+{
+ "series": [
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2001,
+   "state": "India",
+   "value": 7297,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/violation-by-them.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2002,
+   "state": "India",
+   "value": 8978,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/complaints-against-police-personnel-and-human-rights_2002.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2003,
+   "state": "India",
+   "value": 8167,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16-2003_0.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2004,
+   "state": "India",
+   "value": 3362,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16-2004_0.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2005,
+   "state": "India",
+   "value": 9965,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16_2005.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2006,
+   "state": "India",
+   "value": 13546,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16_2006.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2007,
+   "state": "India",
+   "value": 7908,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16_2007.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2008,
+   "state": "India",
+   "value": 5445,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2008.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2009,
+   "state": "India",
+   "value": 14975,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2009.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2010,
+   "state": "India",
+   "value": 10470,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2010.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2011,
+   "state": "India",
+   "value": 11171,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/16-Complaints-against-police-personnel-and-human-rights-violations-by-them_2012.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16, Crime in India 2013"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2012,
+   "state": "India",
+   "value": 2289,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/16-Complaints-against-police-personnel-and-human-rights-violations-by-them_2012.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16, Crime in India 2013"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2013,
+   "state": "India",
+   "value": 1989,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/16-Complaints-against-police-personnel-and-human-rights-violations-by-them_2012.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16, Crime in India 2013"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2014,
+   "state": "India",
+   "value": 2601,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2014.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2015,
+   "state": "India",
+   "value": 5526,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16-15.11.16_2015.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2016,
+   "state": "India",
+   "value": 3082,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653886924_Crime%20in%20India%20-%202016%20Complete%20PDF%20291117.pdf",
+   "source_page_or_table": "TABLE 16A.5, Cases Registered against (State) Police Personnel"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2017,
+   "state": "India",
+   "value": 2005,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2017Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.5, Cases Registered against (State) Police Personnel"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2018,
+   "state": "India",
+   "value": 5479,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2018Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.5, Cases Registered against (State) Police Personnel"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2019,
+   "state": "India",
+   "value": 4068,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2019Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.5, Cases Registered against (State) Police Personnel"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2020,
+   "state": "India",
+   "value": 4720,
+   "source_url": "https://www.thehinducentre.com/resources/article36608336.ece/binary/CII2020%20Volume%203.pdf",
+   "source_page_or_table": "TABLE 16A.5, Cases Registered against (State) Police Personnel"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2021,
+   "state": "India",
+   "value": 6164,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2021Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.5, Cases Registered against (State) Police Personnel"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2022,
+   "state": "India",
+   "value": 2614,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1702037679TABLE16A5.pdf",
+   "source_page_or_table": "TABLE 16A.5, Cases Registered against (State) Police Personnel"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "A&N Islands",
+   "value": 9,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Andhra Pradesh",
+   "value": 131,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Arunachal Pradesh",
+   "value": 126,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Assam",
+   "value": 27,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Bihar",
+   "value": 8,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Chandigarh",
+   "value": 6,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Chhattisgarh",
+   "value": 10,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "D&N Haveli and Daman & Diu",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Delhi",
+   "value": 29,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Goa",
+   "value": 9,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Gujarat",
+   "value": 72,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Haryana",
+   "value": 67,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Himachal Pradesh",
+   "value": 13,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "India",
+   "value": 2279,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5, Cases Registered against (State) Police Personnel"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Jammu & Kashmir",
+   "value": 53,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Jharkhand",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Karnataka",
+   "value": 74,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Kerala",
+   "value": 155,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Ladakh",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Lakshadweep",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Madhya Pradesh",
+   "value": 67,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Maharashtra",
+   "value": 313,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Manipur",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Meghalaya",
+   "value": 5,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Mizoram",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Nagaland",
+   "value": 115,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Odisha",
+   "value": 86,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Puducherry",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Punjab",
+   "value": 97,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Rajasthan",
+   "value": 461,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Sikkim",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Tamil Nadu",
+   "value": 97,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Telangana",
+   "value": 108,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Tripura",
+   "value": 9,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Uttar Pradesh",
+   "value": 121,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "Uttarakhand",
+   "value": 5,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_cases_registered_against_police",
+   "year": 2023,
+   "state": "West Bengal",
+   "value": 6,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_complaints_received_against_police",
+   "year": 2001,
+   "state": "India",
+   "value": 58661,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/violation-by-them.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16 Complaints against police personnel"
+  },
+  {
+   "metric": "ncrb_complaints_received_against_police",
+   "year": 2002,
+   "state": "India",
+   "value": 43393,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/complaints-against-police-personnel-and-human-rights_2002.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16 Complaints against police personnel"
+  },
+  {
+   "metric": "ncrb_complaints_received_against_police",
+   "year": 2003,
+   "state": "India",
+   "value": 55115,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16-2003_0.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16 Complaints against police personnel"
+  },
+  {
+   "metric": "ncrb_complaints_received_against_police",
+   "year": 2004,
+   "state": "India",
+   "value": 51060,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16-2004_0.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16 Complaints against police personnel"
+  },
+  {
+   "metric": "ncrb_complaints_received_against_police",
+   "year": 2005,
+   "state": "India",
+   "value": 61560,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16_2005.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16 Complaints against police personnel"
+  },
+  {
+   "metric": "ncrb_complaints_received_against_police",
+   "year": 2006,
+   "state": "India",
+   "value": 62822,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16_2006.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16 Complaints against police personnel"
+  },
+  {
+   "metric": "ncrb_complaints_received_against_police",
+   "year": 2007,
+   "state": "India",
+   "value": 51767,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16_2007.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16 Complaints against police personnel"
+  },
+  {
+   "metric": "ncrb_complaints_received_against_police",
+   "year": 2008,
+   "state": "India",
+   "value": 48939,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2008.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16 Complaints against police personnel"
+  },
+  {
+   "metric": "ncrb_complaints_received_against_police",
+   "year": 2009,
+   "state": "India",
+   "value": 54873,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2009.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16 Complaints against police personnel"
+  },
+  {
+   "metric": "ncrb_complaints_received_against_police",
+   "year": 2010,
+   "state": "India",
+   "value": 58438,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2010.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16 Complaints against police personnel"
+  },
+  {
+   "metric": "ncrb_complaints_received_against_police",
+   "year": 2011,
+   "state": "India",
+   "value": 61765,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/16-Complaints-against-police-personnel-and-human-rights-violations-by-them_2012.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16 Complaints against police personnel"
+  },
+  {
+   "metric": "ncrb_complaints_received_against_police",
+   "year": 2012,
+   "state": "India",
+   "value": 57363,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/16-Complaints-against-police-personnel-and-human-rights-violations-by-them_2012.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16 Complaints against police personnel"
+  },
+  {
+   "metric": "ncrb_complaints_received_against_police",
+   "year": 2013,
+   "state": "India",
+   "value": 51120,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/16-Complaints-against-police-personnel-and-human-rights-violations-by-them_2012.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16 Complaints against police personnel"
+  },
+  {
+   "metric": "ncrb_complaints_received_against_police",
+   "year": 2014,
+   "state": "India",
+   "value": 47774,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2014.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16 Complaints against police personnel"
+  },
+  {
+   "metric": "ncrb_complaints_received_against_police",
+   "year": 2015,
+   "state": "India",
+   "value": 54916,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16-15.11.16_2015.pdf",
+   "source_page_or_table": "Table-16(A), Ch.16 Complaints against police personnel"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2001,
+   "state": "India",
+   "value": 25,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/custodial-crimes_0.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2002,
+   "state": "India",
+   "value": 34,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/custodial-crimes_2002.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2003,
+   "state": "India",
+   "value": 40,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13-2003_0.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2004,
+   "state": "India",
+   "value": 35,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13-2004_0.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2005,
+   "state": "India",
+   "value": 81,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13_2005.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2006,
+   "state": "India",
+   "value": 50,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13_2006.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2007,
+   "state": "India",
+   "value": 57,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13_2007.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2008,
+   "state": "India",
+   "value": 44,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13_2008.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2009,
+   "state": "India",
+   "value": 45,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13_2009.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2010,
+   "state": "India",
+   "value": 38,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13_2010.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2011,
+   "state": "India",
+   "value": 52,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-14_2011.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2013,
+   "state": "India",
+   "value": 61,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/13-custodial-crimes_2012.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13, Crime in India 2013"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2014,
+   "state": "India",
+   "value": 28,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13-2014.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2015,
+   "state": "India",
+   "value": 33,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13-15.11.16_2015.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2016,
+   "state": "India",
+   "value": 25,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653886924_Crime%20in%20India%20-%202016%20Complete%20PDF%20291117.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2017,
+   "state": "India",
+   "value": 62,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2017Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2018,
+   "state": "India",
+   "value": 44,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2018Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2019,
+   "state": "India",
+   "value": 38,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2019Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2020,
+   "state": "India",
+   "value": 45,
+   "source_url": "https://www.thehinducentre.com/resources/article36608336.ece/binary/CII2020%20Volume%203.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2021,
+   "state": "India",
+   "value": 40,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2021Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2022,
+   "state": "India",
+   "value": 31,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1702037483TABLE16A1.pdf ; https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1702037522TABLE16A2.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2 (2022)"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "A&N Islands",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Andhra Pradesh",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Arunachal Pradesh",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Assam",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Bihar",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Chandigarh",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Chhattisgarh",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "D&N Haveli and Daman & Diu",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Delhi",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Goa",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Gujarat",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Haryana",
+   "value": 4,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Himachal Pradesh",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "India",
+   "value": 23,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Jammu & Kashmir",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Jharkhand",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Karnataka",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Kerala",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Ladakh",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Lakshadweep",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Madhya Pradesh",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Maharashtra",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Manipur",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Meghalaya",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Mizoram",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Nagaland",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Odisha",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Puducherry",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Punjab",
+   "value": 2,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Rajasthan",
+   "value": 4,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Sikkim",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Tamil Nadu",
+   "value": 2,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Telangana",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Tripura",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Uttar Pradesh",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "Uttarakhand",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_cases_registered",
+   "year": 2023,
+   "state": "West Bengal",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2, cases registered"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_not_on_remand",
+   "year": 2001,
+   "state": "India",
+   "value": 37,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/custodial-crimes_0.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_not_on_remand",
+   "year": 2002,
+   "state": "India",
+   "value": 31,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/custodial-crimes_2002.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_not_on_remand",
+   "year": 2003,
+   "state": "India",
+   "value": 33,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13-2003_0.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_not_on_remand",
+   "year": 2004,
+   "state": "India",
+   "value": 37,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13-2004_0.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_not_on_remand",
+   "year": 2005,
+   "state": "India",
+   "value": 67,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13_2005.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_not_on_remand",
+   "year": 2006,
+   "state": "India",
+   "value": 38,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13_2006.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_not_on_remand",
+   "year": 2007,
+   "state": "India",
+   "value": 57,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13_2007.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_not_on_remand",
+   "year": 2008,
+   "state": "India",
+   "value": 40,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13_2008.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_not_on_remand",
+   "year": 2009,
+   "state": "India",
+   "value": 25,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13_2009.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_not_on_remand",
+   "year": 2010,
+   "state": "India",
+   "value": 25,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13_2010.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_not_on_remand",
+   "year": 2011,
+   "state": "India",
+   "value": 29,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-14_2011.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_not_on_remand",
+   "year": 2012,
+   "state": "India",
+   "value": 38,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13-2014.pdf",
+   "source_page_or_table": "Table-13(A) 2012-2014 window, Ch.13, Crime in India 2014"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_not_on_remand",
+   "year": 2013,
+   "state": "India",
+   "value": 21,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/13-custodial-crimes_2012.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13, Crime in India 2013"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_not_on_remand",
+   "year": 2014,
+   "state": "India",
+   "value": 32,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13-2014.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_not_on_remand",
+   "year": 2015,
+   "state": "India",
+   "value": 30,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13-15.11.16_2015.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_not_on_remand",
+   "year": 2016,
+   "state": "India",
+   "value": 60,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653886924_Crime%20in%20India%20-%202016%20Complete%20PDF%20291117.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_not_on_remand",
+   "year": 2017,
+   "state": "India",
+   "value": 58,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2017Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_not_on_remand",
+   "year": 2018,
+   "state": "India",
+   "value": 46,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2018Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_not_on_remand",
+   "year": 2019,
+   "state": "India",
+   "value": 53,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2019Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_not_on_remand",
+   "year": 2020,
+   "state": "India",
+   "value": 43,
+   "source_url": "https://www.thehinducentre.com/resources/article36608336.ece/binary/CII2020%20Volume%203.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_not_on_remand",
+   "year": 2021,
+   "state": "India",
+   "value": 56,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2021Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_not_on_remand",
+   "year": 2022,
+   "state": "India",
+   "value": 41,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1702037483TABLE16A1.pdf ; https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1702037522TABLE16A2.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2 (2022)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_not_on_remand",
+   "year": 2023,
+   "state": "India",
+   "value": 38,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_on_remand",
+   "year": 2001,
+   "state": "India",
+   "value": 53,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/custodial-crimes_0.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_on_remand",
+   "year": 2002,
+   "state": "India",
+   "value": 53,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/custodial-crimes_2002.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_on_remand",
+   "year": 2003,
+   "state": "India",
+   "value": 61,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13-2003_0.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_on_remand",
+   "year": 2004,
+   "state": "India",
+   "value": 49,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13-2004_0.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_on_remand",
+   "year": 2005,
+   "state": "India",
+   "value": 61,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13_2005.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_on_remand",
+   "year": 2006,
+   "state": "India",
+   "value": 51,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13_2006.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_on_remand",
+   "year": 2007,
+   "state": "India",
+   "value": 61,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13_2007.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_on_remand",
+   "year": 2008,
+   "state": "India",
+   "value": 61,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13_2008.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_on_remand",
+   "year": 2009,
+   "state": "India",
+   "value": 59,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13_2009.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_on_remand",
+   "year": 2010,
+   "state": "India",
+   "value": 45,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13_2010.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_on_remand",
+   "year": 2011,
+   "state": "India",
+   "value": 75,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-14_2011.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_on_remand",
+   "year": 2012,
+   "state": "India",
+   "value": 71,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13-2014.pdf",
+   "source_page_or_table": "Table-13(A) 2012-2014 window, Ch.13, Crime in India 2014"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_on_remand",
+   "year": 2013,
+   "state": "India",
+   "value": 97,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/13-custodial-crimes_2012.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13, Crime in India 2013"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_on_remand",
+   "year": 2014,
+   "state": "India",
+   "value": 61,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13-2014.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_on_remand",
+   "year": 2015,
+   "state": "India",
+   "value": 67,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13-15.11.16_2015.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_on_remand",
+   "year": 2016,
+   "state": "India",
+   "value": 32,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653886924_Crime%20in%20India%20-%202016%20Complete%20PDF%20291117.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_on_remand",
+   "year": 2017,
+   "state": "India",
+   "value": 42,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2017Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_on_remand",
+   "year": 2018,
+   "state": "India",
+   "value": 24,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2018Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_on_remand",
+   "year": 2019,
+   "state": "India",
+   "value": 32,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2019Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_on_remand",
+   "year": 2020,
+   "state": "India",
+   "value": 33,
+   "source_url": "https://www.thehinducentre.com/resources/article36608336.ece/binary/CII2020%20Volume%203.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_on_remand",
+   "year": 2021,
+   "state": "India",
+   "value": 32,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2021Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_on_remand",
+   "year": 2022,
+   "state": "India",
+   "value": 34,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1702037483TABLE16A1.pdf ; https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1702037522TABLE16A2.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2 (2022)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_on_remand",
+   "year": 2023,
+   "state": "India",
+   "value": 24,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2001,
+   "state": "India",
+   "value": 90,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/custodial-crimes_0.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2002,
+   "state": "India",
+   "value": 84,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/custodial-crimes_2002.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2003,
+   "state": "India",
+   "value": 94,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13-2003_0.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2004,
+   "state": "India",
+   "value": 86,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13-2004_0.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2005,
+   "state": "India",
+   "value": 128,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13_2005.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2006,
+   "state": "India",
+   "value": 89,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13_2006.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2007,
+   "state": "India",
+   "value": 118,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13_2007.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2008,
+   "state": "India",
+   "value": 101,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13_2008.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2009,
+   "state": "India",
+   "value": 84,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13_2009.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2010,
+   "state": "India",
+   "value": 70,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13_2010.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2011,
+   "state": "India",
+   "value": 104,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-14_2011.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2012,
+   "state": "India",
+   "value": 109,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13-2014.pdf",
+   "source_page_or_table": "Table-13(A) 2012-2014 window, Ch.13, Crime in India 2014"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2013,
+   "state": "India",
+   "value": 118,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/13-custodial-crimes_2012.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13, Crime in India 2013"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2014,
+   "state": "India",
+   "value": 93,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13-2014.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2015,
+   "state": "India",
+   "value": 97,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13-15.11.16_2015.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2016,
+   "state": "India",
+   "value": 92,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653886924_Crime%20in%20India%20-%202016%20Complete%20PDF%20291117.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2017,
+   "state": "India",
+   "value": 100,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2017Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2018,
+   "state": "India",
+   "value": 70,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2018Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2019,
+   "state": "India",
+   "value": 85,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2019Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2020,
+   "state": "India",
+   "value": 76,
+   "source_url": "https://www.thehinducentre.com/resources/article36608336.ece/binary/CII2020%20Volume%203.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2021,
+   "state": "India",
+   "value": 88,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2021Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2022,
+   "state": "India",
+   "value": 75,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1702037483TABLE16A1.pdf ; https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1702037522TABLE16A2.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2 (2022)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "A&N Islands",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Andhra Pradesh",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Arunachal Pradesh",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Assam",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Bihar",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Chandigarh",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Chhattisgarh",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "D&N Haveli and Daman & Diu",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Delhi",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Goa",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Gujarat",
+   "value": 13,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Haryana",
+   "value": 4,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Himachal Pradesh",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "India",
+   "value": 62,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Jammu & Kashmir",
+   "value": 2,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Jharkhand",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Karnataka",
+   "value": 2,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Kerala",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Ladakh",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Lakshadweep",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Madhya Pradesh",
+   "value": 2,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Maharashtra",
+   "value": 17,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Manipur",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Meghalaya",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Mizoram",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Nagaland",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Odisha",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Puducherry",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Punjab",
+   "value": 5,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Rajasthan",
+   "value": 7,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Sikkim",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Tamil Nadu",
+   "value": 2,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Telangana",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Tripura",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Uttar Pradesh",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "Uttarakhand",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_deaths_total",
+   "year": 2023,
+   "state": "West Bengal",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.2 col.14 (16A.1+16A.2)"
+  },
+  {
+   "metric": "ncrb_custodial_police_chargesheeted",
+   "year": 2001,
+   "state": "India",
+   "value": 8,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/custodial-crimes_0.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_police_chargesheeted",
+   "year": 2002,
+   "state": "India",
+   "value": 32,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/custodial-crimes_2002.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_police_chargesheeted",
+   "year": 2003,
+   "state": "India",
+   "value": 27,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13-2003_0.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_police_chargesheeted",
+   "year": 2004,
+   "state": "India",
+   "value": 15,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13-2004_0.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_police_chargesheeted",
+   "year": 2005,
+   "state": "India",
+   "value": 4,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13_2005.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_police_chargesheeted",
+   "year": 2006,
+   "state": "India",
+   "value": 7,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13_2006.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_police_chargesheeted",
+   "year": 2007,
+   "state": "India",
+   "value": 35,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13_2007.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_police_chargesheeted",
+   "year": 2008,
+   "state": "India",
+   "value": 29,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13_2008.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_police_chargesheeted",
+   "year": 2009,
+   "state": "India",
+   "value": 12,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13_2009.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_police_chargesheeted",
+   "year": 2010,
+   "state": "India",
+   "value": 25,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13_2010.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_police_chargesheeted",
+   "year": 2011,
+   "state": "India",
+   "value": 14,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-14_2011.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13"
+  },
+  {
+   "metric": "ncrb_custodial_police_chargesheeted",
+   "year": 2013,
+   "state": "India",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/13-custodial-crimes_2012.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13, Crime in India 2013"
+  },
+  {
+   "metric": "ncrb_custodial_police_chargesheeted",
+   "year": 2014,
+   "state": "India",
+   "value": 26,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13-2014.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13"
+  },
+  {
+   "metric": "ncrb_custodial_police_chargesheeted",
+   "year": 2015,
+   "state": "India",
+   "value": 28,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13-15.11.16_2015.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13"
+  },
+  {
+   "metric": "ncrb_custodial_police_chargesheeted",
+   "year": 2016,
+   "state": "India",
+   "value": 24,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653886924_Crime%20in%20India%20-%202016%20Complete%20PDF%20291117.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_police_chargesheeted",
+   "year": 2017,
+   "state": "India",
+   "value": 27,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2017Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_police_chargesheeted",
+   "year": 2018,
+   "state": "India",
+   "value": 13,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2018Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_police_chargesheeted",
+   "year": 2019,
+   "state": "India",
+   "value": 16,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2019Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_police_chargesheeted",
+   "year": 2020,
+   "state": "India",
+   "value": 8,
+   "source_url": "https://www.thehinducentre.com/resources/article36608336.ece/binary/CII2020%20Volume%203.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_police_chargesheeted",
+   "year": 2021,
+   "state": "India",
+   "value": 15,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2021Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_police_chargesheeted",
+   "year": 2022,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1702037483TABLE16A1.pdf ; https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1702037522TABLE16A2.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2 (2022)"
+  },
+  {
+   "metric": "ncrb_custodial_police_chargesheeted",
+   "year": 2023,
+   "state": "India",
+   "value": 6,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_police_convicted",
+   "year": 2001,
+   "state": "India",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/custodial-crimes_0.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_police_convicted",
+   "year": 2002,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/custodial-crimes_2002.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_police_convicted",
+   "year": 2003,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13-2003_0.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_police_convicted",
+   "year": 2004,
+   "state": "India",
+   "value": 4,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13-2004_0.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_police_convicted",
+   "year": 2005,
+   "state": "India",
+   "value": 3,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13_2005.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_police_convicted",
+   "year": 2006,
+   "state": "India",
+   "value": 11,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13_2006.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_police_convicted",
+   "year": 2007,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap13_2007.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_police_convicted",
+   "year": 2008,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13_2008.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_police_convicted",
+   "year": 2009,
+   "state": "India",
+   "value": 4,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13_2009.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_police_convicted",
+   "year": 2010,
+   "state": "India",
+   "value": 3,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13_2010.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13 Custodial Crimes"
+  },
+  {
+   "metric": "ncrb_custodial_police_convicted",
+   "year": 2011,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-14_2011.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13"
+  },
+  {
+   "metric": "ncrb_custodial_police_convicted",
+   "year": 2013,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/13-custodial-crimes_2012.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13, Crime in India 2013"
+  },
+  {
+   "metric": "ncrb_custodial_police_convicted",
+   "year": 2014,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13-2014.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13"
+  },
+  {
+   "metric": "ncrb_custodial_police_convicted",
+   "year": 2015,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13-15.11.16_2015.pdf",
+   "source_page_or_table": "Table-13(A) + narrative, Ch.13"
+  },
+  {
+   "metric": "ncrb_custodial_police_convicted",
+   "year": 2016,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653886924_Crime%20in%20India%20-%202016%20Complete%20PDF%20291117.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_police_convicted",
+   "year": 2017,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2017Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_police_convicted",
+   "year": 2018,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2018Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_police_convicted",
+   "year": 2019,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2019Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_police_convicted",
+   "year": 2020,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.thehinducentre.com/resources/article36608336.ece/binary/CII2020%20Volume%203.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_police_convicted",
+   "year": 2021,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2021Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_custodial_police_convicted",
+   "year": 2022,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1702037483TABLE16A1.pdf ; https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1702037522TABLE16A2.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2 (2022)"
+  },
+  {
+   "metric": "ncrb_custodial_police_convicted",
+   "year": 2023,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.1 + 16A.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_cases_registered",
+   "year": 2001,
+   "state": "India",
+   "value": 183,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/violation-by-them.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_cases_registered",
+   "year": 2002,
+   "state": "India",
+   "value": 95,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/complaints-against-police-personnel-and-human-rights_2002.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_cases_registered",
+   "year": 2003,
+   "state": "India",
+   "value": 85,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16-2003_0.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_cases_registered",
+   "year": 2004,
+   "state": "India",
+   "value": 44,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16-2004_0.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_cases_registered",
+   "year": 2005,
+   "state": "India",
+   "value": 34,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16_2005.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_cases_registered",
+   "year": 2006,
+   "state": "India",
+   "value": 29,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16_2006.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_cases_registered",
+   "year": 2007,
+   "state": "India",
+   "value": 64,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16_2007.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_cases_registered",
+   "year": 2008,
+   "state": "India",
+   "value": 253,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2008.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_cases_registered",
+   "year": 2009,
+   "state": "India",
+   "value": 191,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2009.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_cases_registered",
+   "year": 2010,
+   "state": "India",
+   "value": 37,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2010.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_cases_registered",
+   "year": 2012,
+   "state": "India",
+   "value": 205,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2013-pdfs/ls-101213/780.pdf",
+   "source_page_or_table": "LS US Q 780/10.12.2013 Annexure-I (NCRB 2012), CR/CS/CV totals"
+  },
+  {
+   "metric": "ncrb_hr_violation_cases_registered",
+   "year": 2013,
+   "state": "India",
+   "value": 178,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/16-Complaints-against-police-personnel-and-human-rights-violations-by-them_2012.pdf",
+   "source_page_or_table": "Table 16(E), Crime in India 2013"
+  },
+  {
+   "metric": "ncrb_hr_violation_cases_registered",
+   "year": 2014,
+   "state": "India",
+   "value": 108,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2014.pdf",
+   "source_page_or_table": "Ch.16 narrative (Table-16.2)"
+  },
+  {
+   "metric": "ncrb_hr_violation_cases_registered",
+   "year": 2015,
+   "state": "India",
+   "value": 94,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16-15.11.16_2015.pdf",
+   "source_page_or_table": "Ch.16 narrative (Table-16.2)"
+  },
+  {
+   "metric": "ncrb_hr_violation_cases_registered",
+   "year": 2016,
+   "state": "India",
+   "value": 209,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653886924_Crime%20in%20India%20-%202016%20Complete%20PDF%20291117.pdf",
+   "source_page_or_table": "TABLE 16A.6"
+  },
+  {
+   "metric": "ncrb_hr_violation_cases_registered",
+   "year": 2017,
+   "state": "India",
+   "value": 56,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2017Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.6"
+  },
+  {
+   "metric": "ncrb_hr_violation_cases_registered",
+   "year": 2018,
+   "state": "India",
+   "value": 89,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2018Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.6"
+  },
+  {
+   "metric": "ncrb_hr_violation_cases_registered",
+   "year": 2019,
+   "state": "India",
+   "value": 49,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2019Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.6"
+  },
+  {
+   "metric": "ncrb_hr_violation_cases_registered",
+   "year": 2020,
+   "state": "India",
+   "value": 20,
+   "source_url": "https://www.thehinducentre.com/resources/article36608336.ece/binary/CII2020%20Volume%203.pdf",
+   "source_page_or_table": "TABLE 16A.6"
+  },
+  {
+   "metric": "ncrb_hr_violation_cases_registered",
+   "year": 2021,
+   "state": "India",
+   "value": 26,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2021Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.6"
+  },
+  {
+   "metric": "ncrb_hr_violation_cases_registered",
+   "year": 2022,
+   "state": "India",
+   "value": 30,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1702037720TABLE16A6.pdf",
+   "source_page_or_table": "TABLE 16A.6"
+  },
+  {
+   "metric": "ncrb_hr_violation_cases_registered",
+   "year": 2023,
+   "state": "India",
+   "value": 18,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.6"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_chargesheeted",
+   "year": 2001,
+   "state": "India",
+   "value": 135,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/violation-by-them.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_chargesheeted",
+   "year": 2002,
+   "state": "India",
+   "value": 59,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/complaints-against-police-personnel-and-human-rights_2002.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_chargesheeted",
+   "year": 2003,
+   "state": "India",
+   "value": 23,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16-2003_0.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_chargesheeted",
+   "year": 2004,
+   "state": "India",
+   "value": 22,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16-2004_0.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_chargesheeted",
+   "year": 2005,
+   "state": "India",
+   "value": 21,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16_2005.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_chargesheeted",
+   "year": 2006,
+   "state": "India",
+   "value": 28,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16_2006.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_chargesheeted",
+   "year": 2007,
+   "state": "India",
+   "value": 37,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16_2007.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_chargesheeted",
+   "year": 2008,
+   "state": "India",
+   "value": 14,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2008.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_chargesheeted",
+   "year": 2009,
+   "state": "India",
+   "value": 83,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2009.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_chargesheeted",
+   "year": 2010,
+   "state": "India",
+   "value": 14,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2010.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_chargesheeted",
+   "year": 2012,
+   "state": "India",
+   "value": 19,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2013-pdfs/ls-101213/780.pdf",
+   "source_page_or_table": "LS US Q 780/10.12.2013 Annexure-I (NCRB 2012), CR/CS/CV totals"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_chargesheeted",
+   "year": 2013,
+   "state": "India",
+   "value": 18,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/16-Complaints-against-police-personnel-and-human-rights-violations-by-them_2012.pdf",
+   "source_page_or_table": "Table 16(E), Crime in India 2013"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_chargesheeted",
+   "year": 2014,
+   "state": "India",
+   "value": 33,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2014.pdf",
+   "source_page_or_table": "Ch.16 narrative (Table-16.2)"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_chargesheeted",
+   "year": 2015,
+   "state": "India",
+   "value": 34,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16-15.11.16_2015.pdf",
+   "source_page_or_table": "Ch.16 narrative (Table-16.2)"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_chargesheeted",
+   "year": 2016,
+   "state": "India",
+   "value": 50,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653886924_Crime%20in%20India%20-%202016%20Complete%20PDF%20291117.pdf",
+   "source_page_or_table": "TABLE 16A.6"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_chargesheeted",
+   "year": 2017,
+   "state": "India",
+   "value": 48,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2017Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.6"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_chargesheeted",
+   "year": 2018,
+   "state": "India",
+   "value": 26,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2018Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.6"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_chargesheeted",
+   "year": 2019,
+   "state": "India",
+   "value": 8,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2019Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.6"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_chargesheeted",
+   "year": 2020,
+   "state": "India",
+   "value": 4,
+   "source_url": "https://www.thehinducentre.com/resources/article36608336.ece/binary/CII2020%20Volume%203.pdf",
+   "source_page_or_table": "TABLE 16A.6"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_chargesheeted",
+   "year": 2021,
+   "state": "India",
+   "value": 2,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2021Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.6"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_chargesheeted",
+   "year": 2022,
+   "state": "India",
+   "value": 24,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1702037720TABLE16A6.pdf",
+   "source_page_or_table": "TABLE 16A.6"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_chargesheeted",
+   "year": 2023,
+   "state": "India",
+   "value": 5,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.6"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_convicted",
+   "year": 2001,
+   "state": "India",
+   "value": 2,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/violation-by-them.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_convicted",
+   "year": 2002,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/complaints-against-police-personnel-and-human-rights_2002.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_convicted",
+   "year": 2003,
+   "state": "India",
+   "value": 10,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16-2003_0.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_convicted",
+   "year": 2004,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16-2004_0.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_convicted",
+   "year": 2005,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16_2005.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_convicted",
+   "year": 2006,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16_2006.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_convicted",
+   "year": 2007,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16_2007.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_convicted",
+   "year": 2008,
+   "state": "India",
+   "value": 8,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2008.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_convicted",
+   "year": 2009,
+   "state": "India",
+   "value": 58,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2009.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_convicted",
+   "year": 2010,
+   "state": "India",
+   "value": 4,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2010.pdf",
+   "source_page_or_table": "Ch.16 narrative + Table 16(E)/16.2"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_convicted",
+   "year": 2012,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2013-pdfs/ls-101213/780.pdf",
+   "source_page_or_table": "LS US Q 780/10.12.2013 Annexure-I (NCRB 2012), CR/CS/CV totals"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_convicted",
+   "year": 2013,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/16-Complaints-against-police-personnel-and-human-rights-violations-by-them_2012.pdf",
+   "source_page_or_table": "Table 16(E), Crime in India 2013"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_convicted",
+   "year": 2014,
+   "state": "India",
+   "value": 3,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2014.pdf",
+   "source_page_or_table": "Ch.16 narrative (Table-16.2)"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_convicted",
+   "year": 2015,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16-15.11.16_2015.pdf",
+   "source_page_or_table": "Ch.16 narrative (Table-16.2)"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_convicted",
+   "year": 2016,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653886924_Crime%20in%20India%20-%202016%20Complete%20PDF%20291117.pdf",
+   "source_page_or_table": "TABLE 16A.6"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_convicted",
+   "year": 2017,
+   "state": "India",
+   "value": 3,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2017Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.6"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_convicted",
+   "year": 2018,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2018Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.6"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_convicted",
+   "year": 2019,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2019Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.6"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_convicted",
+   "year": 2020,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.thehinducentre.com/resources/article36608336.ece/binary/CII2020%20Volume%203.pdf",
+   "source_page_or_table": "TABLE 16A.6"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_convicted",
+   "year": 2021,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2021Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.6"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_convicted",
+   "year": 2022,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1702037720TABLE16A6.pdf",
+   "source_page_or_table": "TABLE 16A.6"
+  },
+  {
+   "metric": "ncrb_hr_violation_police_convicted",
+   "year": 2023,
+   "state": "India",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.6"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2014,
+   "state": "India",
+   "value": 1482,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2014.pdf",
+   "source_page_or_table": "Ch.16 narrative (arrested during 2014)"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2015,
+   "state": "India",
+   "value": 1512,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16-15.11.16_2015.pdf",
+   "source_page_or_table": "Ch.16 narrative (arrested during 2015)"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2016,
+   "state": "India",
+   "value": 1331,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653886924_Crime%20in%20India%20-%202016%20Complete%20PDF%20291117.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2017,
+   "state": "India",
+   "value": 549,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2017Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2018,
+   "state": "India",
+   "value": 580,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2018Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2019,
+   "state": "India",
+   "value": 1188,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2019Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2020,
+   "state": "India",
+   "value": 1356,
+   "source_url": "https://www.thehinducentre.com/resources/article36608336.ece/binary/CII2020%20Volume%203.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2021,
+   "state": "India",
+   "value": 1163,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2021Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2022,
+   "state": "India",
+   "value": 1113,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1702037679TABLE16A5.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "A&N Islands",
+   "value": 10,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Andhra Pradesh",
+   "value": 60,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Arunachal Pradesh",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Assam",
+   "value": 23,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Bihar",
+   "value": 3,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Chandigarh",
+   "value": 14,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Chhattisgarh",
+   "value": 9,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "D&N Haveli and Daman & Diu",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Delhi",
+   "value": 16,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Goa",
+   "value": 4,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Gujarat",
+   "value": 70,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Haryana",
+   "value": 51,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Himachal Pradesh",
+   "value": 3,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "India",
+   "value": 1333,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Jammu & Kashmir",
+   "value": 58,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Jharkhand",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Karnataka",
+   "value": 54,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Kerala",
+   "value": 46,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Ladakh",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Lakshadweep",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Madhya Pradesh",
+   "value": 36,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Maharashtra",
+   "value": 209,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Manipur",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Meghalaya",
+   "value": 2,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Mizoram",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Nagaland",
+   "value": 4,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Odisha",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Puducherry",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Punjab",
+   "value": 81,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Rajasthan",
+   "value": 361,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Sikkim",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Tamil Nadu",
+   "value": 71,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Telangana",
+   "value": 56,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Tripura",
+   "value": 5,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Uttar Pradesh",
+   "value": 84,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "Uttarakhand",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_arrested",
+   "year": 2023,
+   "state": "West Bengal",
+   "value": 2,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2001,
+   "state": "India",
+   "value": 1524,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/violation-by-them.pdf",
+   "source_page_or_table": "Table-16(B), personnel sent for trial, Ch.16"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2002,
+   "state": "India",
+   "value": 1305,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/complaints-against-police-personnel-and-human-rights_2002.pdf",
+   "source_page_or_table": "Table-16(B), personnel sent for trial, Ch.16"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2003,
+   "state": "India",
+   "value": 1216,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16-2003_0.pdf",
+   "source_page_or_table": "Table-16(B), personnel sent for trial, Ch.16"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2004,
+   "state": "India",
+   "value": 1517,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16-2004_0.pdf",
+   "source_page_or_table": "Table-16(B), personnel sent for trial, Ch.16"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2005,
+   "state": "India",
+   "value": 1668,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16_2005.pdf",
+   "source_page_or_table": "Table-16(B), personnel sent for trial, Ch.16"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2006,
+   "state": "India",
+   "value": 3062,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16_2006.pdf",
+   "source_page_or_table": "Table-16(B), personnel sent for trial, Ch.16"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2007,
+   "state": "India",
+   "value": 1273,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16_2007.pdf",
+   "source_page_or_table": "Table-16(B), personnel sent for trial, Ch.16"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2008,
+   "state": "India",
+   "value": 1245,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2008.pdf",
+   "source_page_or_table": "Table-16(B), personnel sent for trial, Ch.16"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2009,
+   "state": "India",
+   "value": 1279,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2009.pdf",
+   "source_page_or_table": "Table-16(B), personnel sent for trial, Ch.16"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2010,
+   "state": "India",
+   "value": 1107,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2010.pdf",
+   "source_page_or_table": "Table-16(B), personnel sent for trial, Ch.16"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2011,
+   "state": "India",
+   "value": 1229,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/16-Complaints-against-police-personnel-and-human-rights-violations-by-them_2012.pdf",
+   "source_page_or_table": "Table-16(B), sent for trial, Crime in India 2013"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2012,
+   "state": "India",
+   "value": 1147,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/16-Complaints-against-police-personnel-and-human-rights-violations-by-them_2012.pdf",
+   "source_page_or_table": "Table-16(B), sent for trial, Crime in India 2013"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2013,
+   "state": "India",
+   "value": 1250,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/16-Complaints-against-police-personnel-and-human-rights-violations-by-them_2012.pdf",
+   "source_page_or_table": "Table-16(B), sent for trial, Crime in India 2013"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2014,
+   "state": "India",
+   "value": 1166,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2014.pdf",
+   "source_page_or_table": "Table-16(B), sent for trial"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2015,
+   "state": "India",
+   "value": 1122,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16-15.11.16_2015.pdf",
+   "source_page_or_table": "Table-16(B), sent for trial"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2016,
+   "state": "India",
+   "value": 1104,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653886924_Crime%20in%20India%20-%202016%20Complete%20PDF%20291117.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2017,
+   "state": "India",
+   "value": 1000,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2017Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2018,
+   "state": "India",
+   "value": 918,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2018Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2019,
+   "state": "India",
+   "value": 923,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2019Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2020,
+   "state": "India",
+   "value": 956,
+   "source_url": "https://www.thehinducentre.com/resources/article36608336.ece/binary/CII2020%20Volume%203.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2021,
+   "state": "India",
+   "value": 832,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2021Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2022,
+   "state": "India",
+   "value": 783,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1702037679TABLE16A5.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "A&N Islands",
+   "value": 7,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Andhra Pradesh",
+   "value": 56,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Arunachal Pradesh",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Assam",
+   "value": 14,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Bihar",
+   "value": 2,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Chandigarh",
+   "value": 8,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Chhattisgarh",
+   "value": 7,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "D&N Haveli and Daman & Diu",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Delhi",
+   "value": 40,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Goa",
+   "value": 3,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Gujarat",
+   "value": 65,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Haryana",
+   "value": 42,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Himachal Pradesh",
+   "value": 2,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "India",
+   "value": 937,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Jammu & Kashmir",
+   "value": 54,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Jharkhand",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Karnataka",
+   "value": 30,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Kerala",
+   "value": 83,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Ladakh",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Lakshadweep",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Madhya Pradesh",
+   "value": 59,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Maharashtra",
+   "value": 141,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Manipur",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Meghalaya",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Mizoram",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Nagaland",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Odisha",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Puducherry",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Punjab",
+   "value": 17,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Rajasthan",
+   "value": 119,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Sikkim",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Tamil Nadu",
+   "value": 39,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Telangana",
+   "value": 48,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Tripura",
+   "value": 6,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Uttar Pradesh",
+   "value": 91,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "Uttarakhand",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_chargesheeted",
+   "year": 2023,
+   "state": "West Bengal",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2001,
+   "state": "India",
+   "value": 43,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/violation-by-them.pdf",
+   "source_page_or_table": "Table-16(B), Ch.16"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2002,
+   "state": "India",
+   "value": 52,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/complaints-against-police-personnel-and-human-rights_2002.pdf",
+   "source_page_or_table": "Table-16(B), Ch.16"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2003,
+   "state": "India",
+   "value": 45,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16-2003_0.pdf",
+   "source_page_or_table": "Table-16(B), Ch.16"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2004,
+   "state": "India",
+   "value": 55,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16-2004_0.pdf",
+   "source_page_or_table": "Table-16(B), Ch.16"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2005,
+   "state": "India",
+   "value": 97,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16_2005.pdf",
+   "source_page_or_table": "Table-16(B), Ch.16"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2006,
+   "state": "India",
+   "value": 24,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16_2006.pdf",
+   "source_page_or_table": "Table-16(B), Ch.16"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2007,
+   "state": "India",
+   "value": 43,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap16_2007.pdf",
+   "source_page_or_table": "Table-16(B), Ch.16"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2008,
+   "state": "India",
+   "value": 33,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2008.pdf",
+   "source_page_or_table": "Table-16(B), Ch.16"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2009,
+   "state": "India",
+   "value": 43,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2009.pdf",
+   "source_page_or_table": "Table-16(B), Ch.16"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2010,
+   "state": "India",
+   "value": 53,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2010.pdf",
+   "source_page_or_table": "Table-16(B), Ch.16"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2011,
+   "state": "India",
+   "value": 47,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/16-Complaints-against-police-personnel-and-human-rights-violations-by-them_2012.pdf",
+   "source_page_or_table": "Table-16(B), Crime in India 2013"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2012,
+   "state": "India",
+   "value": 42,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/16-Complaints-against-police-personnel-and-human-rights-violations-by-them_2012.pdf",
+   "source_page_or_table": "Table-16(B), Crime in India 2013"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2013,
+   "state": "India",
+   "value": 53,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/16-Complaints-against-police-personnel-and-human-rights-violations-by-them_2012.pdf",
+   "source_page_or_table": "Table-16(B), Crime in India 2013"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2014,
+   "state": "India",
+   "value": 44,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16_2014.pdf",
+   "source_page_or_table": "Table-16(B)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2015,
+   "state": "India",
+   "value": 25,
+   "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-16-15.11.16_2015.pdf",
+   "source_page_or_table": "Table-16(B)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2016,
+   "state": "India",
+   "value": 31,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653886924_Crime%20in%20India%20-%202016%20Complete%20PDF%20291117.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2017,
+   "state": "India",
+   "value": 128,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2017Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2018,
+   "state": "India",
+   "value": 41,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2018Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2019,
+   "state": "India",
+   "value": 12,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2019Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2020,
+   "state": "India",
+   "value": 18,
+   "source_url": "https://www.thehinducentre.com/resources/article36608336.ece/binary/CII2020%20Volume%203.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2021,
+   "state": "India",
+   "value": 15,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2021Volume3.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2022,
+   "state": "India",
+   "value": 12,
+   "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1702037679TABLE16A5.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "A&N Islands",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Andhra Pradesh",
+   "value": 2,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Arunachal Pradesh",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Assam",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Bihar",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Chandigarh",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Chhattisgarh",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "D&N Haveli and Daman & Diu",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Delhi",
+   "value": 5,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Goa",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Gujarat",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Haryana",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Himachal Pradesh",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "India",
+   "value": 62,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Jammu & Kashmir",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Jharkhand",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Karnataka",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Kerala",
+   "value": 2,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Ladakh",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Lakshadweep",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Madhya Pradesh",
+   "value": 9,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Maharashtra",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Manipur",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Meghalaya",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Mizoram",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Nagaland",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Odisha",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Puducherry",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Punjab",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Rajasthan",
+   "value": 12,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Sikkim",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Tamil Nadu",
+   "value": 1,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Telangana",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Tripura",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Uttar Pradesh",
+   "value": 30,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "Uttarakhand",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "ncrb_police_personnel_convicted",
+   "year": 2023,
+   "state": "West Bengal",
+   "value": 0,
+   "source_url": "https://www.ncrb.gov.in/uploads/files/3CrimeinIndia2023PartIII.pdf",
+   "source_page_or_table": "TABLE 16A.5 (trials completed during year)"
+  },
+  {
+   "metric": "nhrc_deaths_judicial_custody",
+   "year": 2016,
+   "state": "India",
+   "value": 1616,
+   "source_url": "https://sansad.in/getFile/loksabhaquestions/annex/171/AU3771.pdf?source=pqals",
+   "source_page_or_table": "FY 2016-17; Annexure, LS US Q 3771/16.07.2019"
+  },
+  {
+   "metric": "nhrc_deaths_judicial_custody",
+   "year": 2017,
+   "state": "India",
+   "value": 1636,
+   "source_url": "https://sansad.in/getFile/loksabhaquestions/annex/171/AU3771.pdf?source=pqals",
+   "source_page_or_table": "FY 2017-18; Annexure, LS US Q 3771/16.07.2019"
+  },
+  {
+   "metric": "nhrc_deaths_judicial_custody",
+   "year": 2018,
+   "state": "India",
+   "value": 1797,
+   "source_url": "https://sansad.in/getFile/loksabhaquestions/annex/171/AU3771.pdf?source=pqals",
+   "source_page_or_table": "FY 2018-19; Annexure, LS US Q 3771/16.07.2019"
+  },
+  {
+   "metric": "nhrc_deaths_judicial_custody",
+   "year": 2019,
+   "state": "India",
+   "value": 1584,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2022-pdfs/LS-22032022/3019.pdf",
+   "source_page_or_table": "FY 2019-20; Annexure-A, LS US Q 3019/22.03.2022"
+  },
+  {
+   "metric": "nhrc_deaths_judicial_custody",
+   "year": 2020,
+   "state": "India",
+   "value": 1840,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2022-pdfs/LS-22032022/3019.pdf",
+   "source_page_or_table": "FY 2020-21; Annexure-A, LS US Q 3019/22.03.2022"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2007,
+   "state": "India",
+   "value": 187,
+   "source_url": "https://eparlib.sansad.in/bitstream/123456789/592435/1/95974.pdf",
+   "source_page_or_table": "FY 2007-08; answer text; search-index extract, eparlib PDF unreachable"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2008,
+   "state": "India",
+   "value": 127,
+   "source_url": "https://eparlib.sansad.in/bitstream/123456789/592435/1/95974.pdf",
+   "source_page_or_table": "FY 2008-09; answer text; search-index extract, eparlib PDF unreachable"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2009,
+   "state": "India",
+   "value": 125,
+   "source_url": "https://eparlib.sansad.in/bitstream/123456789/592435/1/95974.pdf",
+   "source_page_or_table": "FY 2009-10; answer text; search-index extract, eparlib PDF unreachable"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2013,
+   "state": "India",
+   "value": 140,
+   "source_url": "https://eparlib.sansad.in/bitstream/123456789/684437/1/37107.pdf",
+   "source_page_or_table": "FY 2013-14; LS US Q 1466/26.07.2016 text; search-index extract, eparlib PDF unreachable"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2014,
+   "state": "India",
+   "value": 130,
+   "source_url": "https://eparlib.sansad.in/bitstream/123456789/684437/1/37107.pdf",
+   "source_page_or_table": "FY 2014-15; LS US Q 1466/26.07.2016 text; search-index extract, eparlib PDF unreachable"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2015,
+   "state": "India",
+   "value": 153,
+   "source_url": "https://eparlib.sansad.in/bitstream/123456789/684437/1/37107.pdf",
+   "source_page_or_table": "FY 2015-16; LS US Q 1466/26.07.2016 text; search-index extract, eparlib PDF unreachable"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2016,
+   "state": "India",
+   "value": 145,
+   "source_url": "https://sansad.in/getFile/loksabhaquestions/annex/171/AU3771.pdf?source=pqals",
+   "source_page_or_table": "FY 2016-17; Annexure, LS US Q 3771/16.07.2019 (also LS3019 Annexure-A)"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2017,
+   "state": "India",
+   "value": 146,
+   "source_url": "https://sansad.in/getFile/loksabhaquestions/annex/171/AU3771.pdf?source=pqals",
+   "source_page_or_table": "FY 2017-18; Annexure, LS US Q 3771/16.07.2019 (also RS708 Annexure)"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2018,
+   "state": "India",
+   "value": 136,
+   "source_url": "https://sansad.in/getFile/loksabhaquestions/annex/171/AU3771.pdf?source=pqals",
+   "source_page_or_table": "FY 2018-19; Annexure, LS US Q 3771/16.07.2019 (also RS708 Annexure)"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2019,
+   "state": "India",
+   "value": 112,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2022-pdfs/LS-22032022/3019.pdf",
+   "source_page_or_table": "FY 2019-20; Annexure-A, LS US Q 3019/22.03.2022 (also RS708 Annexure)"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2020,
+   "state": "India",
+   "value": 100,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2022-pdfs/LS-22032022/3019.pdf",
+   "source_page_or_table": "FY 2020-21; Annexure-A, LS US Q 3019/22.03.2022 (also RS708 Annexure)"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "A&N Islands",
+   "value": 0,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Andhra Pradesh",
+   "value": 1,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Arunachal Pradesh",
+   "value": 0,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Assam",
+   "value": 9,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Bihar",
+   "value": 18,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Chandigarh",
+   "value": 0,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Chhattisgarh",
+   "value": 2,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "D&N Haveli",
+   "value": 0,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Daman & Diu",
+   "value": 0,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Delhi",
+   "value": 1,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Goa",
+   "value": 1,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Gujarat",
+   "value": 24,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Haryana",
+   "value": 4,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Himachal Pradesh",
+   "value": 0,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "India",
+   "value": 175,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023, FY 2021-22 full year"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Jammu & Kashmir",
+   "value": 2,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Jharkhand",
+   "value": 5,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Karnataka",
+   "value": 8,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Kerala",
+   "value": 6,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Ladakh",
+   "value": 0,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Lakshadweep",
+   "value": 0,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Madhya Pradesh",
+   "value": 8,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Maharashtra",
+   "value": 30,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Manipur",
+   "value": 1,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Meghalaya",
+   "value": 4,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Mizoram",
+   "value": 1,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Nagaland",
+   "value": 2,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Odisha",
+   "value": 2,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Puducherry",
+   "value": 0,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Punjab",
+   "value": 8,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Rajasthan",
+   "value": 13,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Sikkim",
+   "value": 1,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Tamil Nadu",
+   "value": 4,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Telangana",
+   "value": 4,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Tripura",
+   "value": 1,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Uttar Pradesh",
+   "value": 8,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "Uttarakhand",
+   "value": 2,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  },
+  {
+   "metric": "nhrc_deaths_police_custody",
+   "year": 2021,
+   "state": "West Bengal",
+   "value": 5,
+   "source_url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS08022023/708.pdf",
+   "source_page_or_table": "FY 2021-22; Annexure, RS US Q 708/08.02.2023"
+  }
+ ]
+}

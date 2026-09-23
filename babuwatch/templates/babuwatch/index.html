@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Babuwatch — home page sections</title>
+</head>
+<body>
+<!--
+  Home-page sections for the Babuwatch umbrella. The engine lifts each
+  <section class="..."> named in profiles/babuwatch.py "home_sections"
+  (as ref:<class>) into the generated home page. Links are root-relative
+  to /babuwatch.
+-->
+<main>
+
+<section class="intent-prototype" id="start-here">
+  <div class="wrap">
+    <div class="intent-intro"><h2>What happened?</h2></div>
+    <div class="intent-grid">
+      <a class="intent-card priority" href="/tracker?category=Bribery%20%26%20extortion"><span class="kind">Bribery &amp; extortion</span><h3>A bribe was demanded or taken, or a threat was used to extort</h3><p>Open the tracker filtered to bribery and extortion cases &mdash; what the court found, which court decided it, and the source.</p><span class="go">See these records <span class="arrow">&rarr;</span></span></a>
+      <a class="intent-card priority" href="/tracker?category=Fraud%20%26%20misappropriation"><span class="kind">Fraud &amp; misappropriation</span><h3>Public money or property was misused</h3><p>Fraud, cheating, forgery and misappropriation of public money &mdash; each record carries the court&rsquo;s finding and sentence.</p><span class="go">See these records <span class="arrow">&rarr;</span></span></a>
+      <a class="intent-card" href="/tracker?category=Disproportionate%20assets"><span class="kind">Disproportionate assets</span><h3>Assets beyond a public servant&rsquo;s known income</h3><p>Cases where courts found wealth beyond known sources of income, with the amounts as recorded.</p><span class="go">See these records <span class="arrow">&rarr;</span></span></a>
+      <a class="intent-card priority" href="/tracker?category=Violence%20%26%20unlawful%20detention"><span class="kind">Violence &amp; unlawful detention</span><h3>Someone was harmed, detained unlawfully, or force was used</h3><p>Custodial deaths and torture, unlawful detention and excessive force &mdash; what the courts found, and what followed.</p><span class="go">See these records <span class="arrow">&rarr;</span></span></a>
+      <a class="intent-card" href="/tracker?category=Other%20misconduct"><span class="kind">Other misconduct</span><h3>Something else happened</h3><p>Dereliction of duty, evidence tampering, false implication and other findings &mdash; browse the rest of the record.</p><span class="go">See these records <span class="arrow">&rarr;</span></span></a>
+      <a class="intent-card" href="/tracker"><span class="kind">The whole record</span><h3>I want to see everything</h3><p>All 2,523 published records in one list &mdash; every filter, every state, every year.</p><span class="go">Open the Incident Tracker <span class="arrow">&rarr;</span></span></a>
+    </div>
+    <div class="intent-report-band"><p>Did this happen to you or someone you know?</p><a href="#seek-remedy">See where complaints go &rarr;</a></div>
+  </div>
+</section>
+
+<section class="does">
+  <div class="wrap">
+    <div class="doeshead">
+      <div class="kicker">What Babuwatch does</div>
+      <h2>One register of what the courts decided about public servants</h2>
+    </div>
+    <div class="verbs">
+      <div class="verb">
+        <div class="w">Record</div>
+        <p>We record convictions and adverse court findings against public servants of every government in India &mdash; Union, state and local &mdash; and cite the court and the source for each one.</p>
+      </div>
+      <div class="verb">
+        <div class="w">Attribute</div>
+        <p>Every finding belongs to the court that made it. We add no findings of our own, and we say plainly how far each record has been verified.</p>
+      </div>
+      <div class="verb">
+        <div class="w">Follow up</div>
+        <p>Trial convictions can be appealed. Each record shows its appeal status as known from the sources, and convictions later set aside leave the counts.</p>
+      </div>
+      <div class="verb">
+        <div class="w">Protect</div>
+        <p>Names are withheld unless a two-key naming gate clears them. Complainants, victims, witnesses and minors are never named.</p>
+      </div>
+    </div>
+    <div class="more">
+      <p>One register covers every public servant &mdash; police officers and civil servants of departments, municipal bodies and other government offices alike. Every record passes the same verification and naming rules, whatever the service.</p>
+      <a href="/methodology">Read the methodology &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<section class="ledger">
+  <div class="wrap">
+    <div class="label">Verification and court outcome are separate</div>
+    <div class="ledger-track">
+      <div class="lv" data-pub="no"><div class="n"><span class="dot"></span>V0</div><div class="t">Unreviewed</div><div class="d">Received as an internal lead</div></div>
+      <div class="lv" data-pub="no"><div class="n"><span class="dot"></span>V1</div><div class="t">Provenance checked</div><div class="d">Basic source questions examined</div></div>
+      <div class="lv" data-pub="yes"><div class="n"><span class="dot"></span>V2</div><div class="t">Attributable record</div><div class="d">Qualifying public source reviewed</div></div>
+      <div class="lv" data-pub="yes"><div class="n"><span class="dot"></span>V3</div><div class="t">Material fact corroborated</div><div class="d">Independent support is recorded</div></div>
+    </div>
+    <div class="ledger-key"><span class="dot"></span> Every published card shows its verification level, and what each level means is set out in the methodology. Trial-court convictions publish at V1 and above; unreviewed leads never appear.</div>
+  </div>
+</section>
+
+<section class="disclaimer" id="seek-remedy">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">Seek a remedy</div>
+      <h2>If this has happened to you or someone you know</h2>
+    </div>
+    <div class="box">
+      <div class="lab">Lawful routes</div>
+      <p>There are lawful routes, and free legal aid is a right, not a favour. Corruption by a public servant is reported to the authorities &mdash; your state&rsquo;s Anti-Corruption Bureau or Vigilance department, the Lokayukta where one exists, the Central Bureau of Investigation for Union government employees, or the Central Vigilance Commission &mdash; and harm or unlawful detention can go to the courts and the human rights commissions. Take the sources on any record to a lawyer &mdash; free legal aid is available through every District Legal Services Authority &mdash; and keep copies of every complaint. Babuwatch itself is a record, not a complaints desk: contacting us does not notify any authority or begin any case.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+</body>
+</html>

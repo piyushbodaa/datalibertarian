@@ -1,0 +1,2386 @@
+[
+ {
+  "case_id": "t2-05-007",
+  "alias_case_ids": [],
+  "verification_status": "V1",
+  "gate_status": "V1",
+  "verify_passes": {
+   "t2-05-007": {
+    "ds": "accept",
+    "mverify": "accept",
+    "mverify2": "flag",
+    "or2": "flag",
+    "union": "flag"
+   }
+  },
+  "verified_by": "t2mverify-chunk-036",
+  "verified_at": "2026-09-18T12:59:52Z",
+  "verdict_note": "Conviction confirmed by AP Government pension-forfeiture order; HC appeals (Crl.A.Nos.1110 & 1112/2017) traced, outcome not verified.",
+  "state": "Andhra Pradesh",
+  "district": "YSR Kadapa",
+  "court": "Special Judge Court for Trial of SPE & ACB Cases, Kurnool",
+  "court_level": "special_acb",
+  "trial_court_name": "Special Judge Court for Trial of SPE & ACB Cases, Kurnool",
+  "case_title": "State (ACB) vs [name withheld] & Anr",
+  "case_number": "C.C.No.13/2014",
+  "conviction_date": "2017-08-28",
+  "conviction_year": 2017,
+  "date_precision": "day",
+  "incident_date": "2011-08-17",
+  "incident_year": 2011,
+  "category": "corruption",
+  "subcategory": "bribery_pc_act",
+  "raw_subcategory": "bribery_pc_act",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Sub-Inspector",
+    "unit": "Special Drive, APSRTC, Kadapa (Pendlimarri Police Station, YSR District)",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Sub-Inspector, Special Drive, APSRTC, Kadapa (Pendlimarri Police Station, YSR District)",
+    "key2_union": null,
+    "name": null
+   }
+  ],
+  "victims": [],
+  "sections": [
+   "PC Act 1988 s.7",
+   "PC Act 1988 s.13(1)(d) r/w s.13(2)"
+  ],
+  "sentence": "RI 2 years + Rs.1,000 fine (1 month SI in default) on each count; concurrent (co-accused driver convicted u/s 12 PC Act, 2 years RI)",
+  "sentence_type": "mixed",
+  "sentence_max_years": 2,
+  "appeal_status": "set_aside",
+  "appeal_url": "https://indiankanoon.org/doc/93255697/",
+  "source_kind": "press_release",
+  "source_agency": null,
+  "primary_source_url": "https://ia600900.us.archive.org/3/items/in.gov.andhra.goir.2017-11-10.E-398506/E-398506.pdf",
+  "secondary_sources": [
+   "https://archive.org/details/in.gov.andhra.goir.2017-11-10.E-398506",
+   "https://indiankanoon.org/doc/93255697/"
+  ],
+  "summary": "The Special Judge Court for Trial of SPE & ACB Cases, Kurnool, convicted Sub-Inspector [name withheld] (attached to Special Drive, APSRTC, Kadapa) in C.C.No.13/2014 vide judgment dated 28.08.2017, for demanding and accepting Rs.3,000 through a driver-middleman on 17.08.2011 to release a vehicle seized at Pendlimarri Police Station. He was sentenced to two years' rigorous imprisonment with Rs.1,000 fine on each count under ss.7 and 13(2) r/w 13(1)(d) of the PC Act, 1988, concurrent. The Government of Andhra Pradesh consequently ordered withholding of his entire pension and gratuity permanently (G.O.Ms.No.173, Home (SC.A), 10-11-2017).",
+  "court_quote": "sentencing him to undergo Rigorous imprisonment for a period of two years for the offence punishable under Section 7 of the PC Act, 1988 and also to pay a fine of Rs.1,000/- and in default of payment of fine, to undergo simple imprisonment for one month.",
+  "confidence": "high",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "t2-05",
+  "r8_check": {
+   "date": "2026-09-19",
+   "member_verdicts": {
+    "t2-05-007": "holds"
+   },
+   "applied": [],
+   "noted": []
+  },
+  "verification_badge": "V1 · Provenance checked — internal only",
+  "tier_badge": null,
+  "subcategory_display": "bribery pc act",
+  "last_checked": "2026-09-19",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-19",
+    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
+    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
+    "result": "t2-05-007=holds",
+    "corrections_applied": []
+   }
+  ],
+  "case_title_or_number": "C.C.No.13/2014 (State ACB vs [name withheld] & Anr); G.O.Ms.No.173, Home (SC.A), 10-11-2017",
+  "status": "overturned"
+ },
+ {
+  "case_id": "t2-15-001",
+  "alias_case_ids": [],
+  "verification_status": "V1",
+  "gate_status": "V1",
+  "verify_passes": {
+   "t2-15-001": {
+    "ds": "accept",
+    "mverify": "accept",
+    "mverify2": "accept",
+    "or2": "flag"
+   }
+  },
+  "verified_by": "t2mverify-chunk-043",
+  "verified_at": "2026-09-18T13:06:14Z",
+  "verdict_note": "Judgment text verified: police constable convicted; life sentence u/s 376(2)(a).",
+  "state": "Delhi",
+  "district": "South East Delhi",
+  "court": "Court of Shri V.K. Bansal, Additional Sessions Judge, New Delhi",
+  "court_level": "sessions",
+  "trial_court_name": "Court of Shri V.K. Bansal, Additional Sessions Judge, New Delhi",
+  "case_title": "State vs [name withheld] S/o Sh. [name withheld]",
+  "case_number": "Sessions Case No. 27/2005; FIR No. 1191/04, PS Kalkaji",
+  "conviction_date": "2007-11-06",
+  "conviction_year": 2007,
+  "date_precision": "day",
+  "incident_date": "2004-12-22",
+  "incident_year": 2004,
+  "category": "brutality",
+  "subcategory": "custodial_rape_sexual_assault",
+  "raw_subcategory": "other",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Constable (No. 973/SD, beat constable)",
+    "unit": "Delhi Police, Kalkaji area, South District",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Constable (No. 973/SD, beat constable), Delhi Police, Kalkaji area, South District",
+    "key2_union": "yes",
+    "name": null
+   }
+  ],
+  "victims": [
+   {
+    "name": "Withheld (prosecutrix)",
+    "gender": "female"
+   }
+  ],
+  "sections": [
+   "IPC 376(2)(a)",
+   "IPC 506"
+  ],
+  "sentence": "Life imprisonment + Rs 1,000 fine (in default 1 month RI) u/s 376(2)(a) IPC; 1 year RI u/s 506 IPC",
+  "sentence_type": "mixed",
+  "sentence_max_years": null,
+  "appeal_status": "set_aside",
+  "appeal_url": "https://indiankanoon.org/doc/111045957/",
+  "source_kind": "judgment",
+  "source_agency": null,
+  "primary_source_url": "https://indiankanoon.org/doc/22806997/",
+  "secondary_sources": [],
+  "summary": "Additional Sessions Judge, New Delhi convicted Delhi Police Constable [name withheld] (No. 973/SD) for raping a woman at her Kalkaji home on 22 December 2004 while on picket duty in the area. The court found he entered her house at night, threatened her with his pistol and with false implication, and raped her, holding that as a member of a disciplined force he deserved a deterrent sentence. He was sentenced to life imprisonment with fine under section 376(2)(a) IPC plus one year RI under section 506 IPC.",
+  "court_quote": "In my opinion, sentence of Life Imprisonment would meet the ends of justice in such a case.",
+  "confidence": "high",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "t2-15",
+  "r8_check": {
+   "date": "2026-09-19",
+   "member_verdicts": {
+    "t2-15-001": "holds"
+   },
+   "applied": [],
+   "noted": []
+  },
+  "verification_badge": "V1 · Provenance checked — internal only",
+  "tier_badge": null,
+  "subcategory_display": "custodial rape sexual assault",
+  "last_checked": "2026-09-19",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-19",
+    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
+    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
+    "result": "t2-15-001=holds",
+    "corrections_applied": []
+   }
+  ],
+  "case_title_or_number": "State vs [name withheld] S/o Sh. [name withheld]; Sessions Case No. 27/2005; FIR No. 1191/04, PS Kalkaji",
+  "status": "overturned"
+ },
+ {
+  "case_id": "t2-15-002",
+  "alias_case_ids": [],
+  "verification_status": "V2",
+  "gate_status": "V2",
+  "verify_passes": {
+   "t2-15-002": {
+    "ds": "accept",
+    "mverify": "accept",
+    "mverify2": "accept",
+    "or2": "accept"
+   }
+  },
+  "verified_by": "t2mverify-chunk-043",
+  "verified_at": "2026-09-18T13:06:14Z",
+  "verdict_note": "Judgment text verified: Head Constable convicted u/s 7 PC Act; 1 yr RI.",
+  "state": "Delhi",
+  "district": "North West Delhi",
+  "court": "Court of Sh. Narottam Kaushal, Special Judge (PC Act)-05 (ACB)(Central), Tis Hazari Courts, Delhi",
+  "court_level": "special_acb",
+  "trial_court_name": "Court of Sh. Narottam Kaushal, Special Judge (PC Act)-05 (ACB)(Central), Tis Hazari Courts, Delhi",
+  "case_title": "State vs Surender Singh",
+  "case_number": "Corruption Case No. 13/2013; FIR No. 5/2008, PS Anti-Corruption Branch",
+  "conviction_date": "2014-12-15",
+  "conviction_year": 2014,
+  "date_precision": "day",
+  "incident_date": "2008-02-07",
+  "incident_year": 2008,
+  "category": "corruption",
+  "subcategory": "bribery_pc_act",
+  "raw_subcategory": "bribery_pc_act",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Head Constable",
+    "unit": "Delhi Police (attended PCR call; Sector 16 Rohini police post area)",
+    "publish_grade": "named_safe",
+    "name_public": "Surender Singh",
+    "display": "Surender Singh (Head Constable)",
+    "key2_union": "yes",
+    "name": "Surender Singh"
+   }
+  ],
+  "victims": [
+   {
+    "name": "Kiran Chauhan",
+    "gender": "female"
+   }
+  ],
+  "sections": [
+   "PC Act 1988 s.7"
+  ],
+  "sentence": "1 year RI + Rs 10,000 fine (in default 2 months SI) u/s 7 PC Act",
+  "sentence_type": "mixed",
+  "sentence_max_years": 1,
+  "appeal_status": "set_aside",
+  "appeal_url": "https://indiankanoon.org/doc/51103461/",
+  "source_kind": "judgment",
+  "source_agency": null,
+  "primary_source_url": "https://indiankanoon.org/doc/151652386/",
+  "secondary_sources": [],
+  "summary": "Special Judge (PC Act) Tis Hazari convicted Delhi Police Head Constable Surender Singh for demanding Rs 10,000 (settled at Rs 4,000) from complainant Kiran Chauhan to release her husband, whom he had picked up on a PCR call in February 2008. The court held the demand and acceptance of bribe proved through the recorded telephonic conversation and trap evidence. He was sentenced to one year rigorous imprisonment with Rs 10,000 fine under section 7 of the Prevention of Corruption Act.",
+  "court_quote": "Accused is accordingly convicted of the aforesaid offence.",
+  "confidence": "high",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "t2-15",
+  "r8_check": {
+   "date": "2026-09-19",
+   "member_verdicts": {
+    "t2-15-002": "holds"
+   },
+   "applied": [],
+   "noted": []
+  },
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "bribery pc act",
+  "last_checked": "2026-09-19",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-19",
+    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
+    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
+    "result": "t2-15-002=holds",
+    "corrections_applied": []
+   }
+  ],
+  "case_title_or_number": "State vs Surender Singh; Corruption Case No. 13/2013; FIR No. 5/2008, PS Anti-Corruption Branch",
+  "status": "overturned"
+ },
+ {
+  "case_id": "t2w2-08-014",
+  "alias_case_ids": [],
+  "verification_status": "V2",
+  "gate_status": "V2",
+  "verify_passes": {
+   "t2w2-08-014": {
+    "ds": "accept",
+    "mverify": "accept",
+    "mverify2": "accept",
+    "or2": "accept"
+   }
+  },
+  "verified_by": "t2mverify2-chunk-059 (SECOND independent pass — do not read any other verifier's output)",
+  "verified_at": "2026-09-18T13:41:53Z",
+  "verdict_note": "2004 Sessions conviction of Vejalpur constable [name withheld] in 1996 Rs.20 PC Act trap verified via multiple reports; HC acquitted 04-02-2026, he died next day.",
+  "state": "Gujarat",
+  "district": "Ahmedabad",
+  "court": "Sessions Court, Ahmedabad",
+  "court_level": "sessions",
+  "trial_court_name": "Sessions Court, Ahmedabad (exact designation not stated)",
+  "case_title": "State (ACB) vs [name withheld] & 2 Ors",
+  "case_number": null,
+  "conviction_date": "2004-01-01",
+  "conviction_year": 2004,
+  "date_precision": "year",
+  "incident_date": "1996-01-01",
+  "incident_year": 1996,
+  "category": "corruption",
+  "subcategory": "bribery_pc_act",
+  "raw_subcategory": "bribery_pc_act",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Police Constable",
+    "unit": "Vejalpur, Ahmedabad City Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Constable, Vejalpur, Ahmedabad City Police",
+    "key2_union": null,
+    "name": null
+   },
+   {
+    "rank": "Police Constable",
+    "unit": "Ahmedabad City Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Constable, Ahmedabad City Police",
+    "key2_union": null,
+    "name": null
+   },
+   {
+    "rank": "Police Constable",
+    "unit": "Ahmedabad City Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Constable, Ahmedabad City Police",
+    "key2_union": null,
+    "name": null
+   }
+  ],
+  "victims": [],
+  "sections": [
+   "PC Act 1988"
+  ],
+  "sentence": "Not stated in sources reviewed",
+  "sentence_type": "mixed",
+  "sentence_max_years": 4,
+  "appeal_status": "set_aside",
+  "appeal_url": "https://www.indianwitness.com/news/national/cleared-after-30-years-in-rs-20-bribe-case-gujarat-cons",
+  "source_kind": "news",
+  "source_agency": null,
+  "primary_source_url": "https://www.indianwitness.com/news/national/cleared-after-30-years-in-rs-20-bribe-case-gujarat-cons",
+  "secondary_sources": [
+   "https://educationpost.in/news/national/constable-cleared-of-20-bribery-charge-after-30-years-dies-a-day-later",
+   "https://the420.in/gujarat-constable-acquitted-20-rupee-bribe-case-dies/",
+   "https://www.htsyndication.com/orissa-tv/article/gujarat-constable-cleared-of-rs-20-bribery-case-after-22-years%2C-dies-a-day-after-acquittal/97387963"
+  ],
+  "summary": "Constable [name withheld] of Vejalpur, Ahmedabad was accused in 1996 under the Prevention of Corruption Act of accepting a Rs.20 bribe (1997 ACB trap at Vishala involving three constables taking bribes from truck drivers); all three were convicted by the Sessions Court in 2004 after charges framed in 2002. [name withheld] appealed; the Gujarat High Court acquitted him on 4 February 2026 holding the prosecution failed to prove charges beyond reasonable doubt, and he died of natural causes the next morning. Sentence and the two co-convict constables' names are not stated in the sources reviewed.",
+  "court_quote": "Following a 2004 Sessions Court conviction, [name withheld]'s career suffered severely-promotions halted, benefits were frozen, and he spent years entangled in court proceedings.",
+  "confidence": "medium",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "t2w2-08",
+  "r8_check": {
+   "date": "2026-09-19",
+   "member_verdicts": {
+    "t2w2-08-014": "holds"
+   },
+   "applied": [],
+   "noted": []
+  },
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "bribery pc act",
+  "last_checked": "2026-09-19",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-19",
+    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
+    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
+    "result": "t2w2-08-014=holds",
+    "corrections_applied": []
+   }
+  ],
+  "case_title_or_number": "State (ACB) vs [name withheld] & 2 Ors (1997 Vishala-Vejalpur truck-driver bribe trap)",
+  "status": "overturned"
+ },
+ {
+  "case_id": "t2w2-08-013",
+  "alias_case_ids": [],
+  "verification_status": "V2",
+  "gate_status": "V2",
+  "verify_passes": {
+   "t2w2-08-013": {
+    "ds": "accept",
+    "mverify": "accept",
+    "mverify2": "accept",
+    "or2": "accept"
+   }
+  },
+  "verified_by": "t2mverify-chunk-059",
+  "verified_at": "2026-09-18T16:52:00Z",
+  "verdict_note": "Spl ACB Court conviction (18-12-2004, 3.5 yrs RI, ss.7/13(2)) of PSI + constable confirmed; HC acquitted both 28-02-2007 — trial conviction stands as recorded.",
+  "state": "Gujarat",
+  "district": "Gir Somnath",
+  "court": "Gujarat High Court",
+  "court_level": "special_acb",
+  "trial_court_name": "Special Judge (Prevention of Corruption Act) & Additional Sessions Judge, Fast Track Court No.5, Veraval",
+  "case_title": "State , Police Sub-Inspector vs The [name withheld] of Gujarat",
+  "case_number": "Criminal Appeal Nos. 2197 and 2199 of 2004",
+  "conviction_date": "2007-02-28",
+  "conviction_year": 2007,
+  "date_precision": "day",
+  "incident_date": "1999-01-01",
+  "incident_year": 1999,
+  "category": "corruption",
+  "subcategory": "bribery_pc_act",
+  "raw_subcategory": "bribery_pc_act",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Police Sub-Inspector",
+    "unit": "Talala Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Sub-Inspector, Talala Police Station",
+    "key2_union": "no",
+    "name": null
+   },
+   {
+    "rank": "Police Constable (addressed as 'Giribapu')",
+    "unit": "Talala Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Constable (addressed as 'Giribapu'), Talala Police Station",
+    "key2_union": null,
+    "name": null
+   }
+  ],
+  "victims": [],
+  "sections": [
+   "PC Act 1988 s.7",
+   "PC Act 1988 s.13(2)"
+  ],
+  "sentence": "3.5 years RI on each count + Rs.5,000 fine per offence (9 months further RI in default)",
+  "sentence_type": "imprisonment",
+  "sentence_max_years": 3.5,
+  "appeal_status": "set_aside",
+  "appeal_url": "https://www.courtkutchehry.com/judgements/436043/dalsukhbhai-savjibhai-patel-police-sub-inspector-appellant-hash-the-state-of-gujarat-respondent/",
+  "source_kind": "judgment",
+  "source_agency": null,
+  "primary_source_url": "https://www.courtkutchehry.com/judgements/436043/dalsukhbhai-savjibhai-patel-police-sub-inspector-appellant-hash-the-state-of-gujarat-respondent/",
+  "secondary_sources": [
+   "https://dn710203.ca.archive.org/0/items/india.highcourt.judgement.gjhc240277052004/GJHC240277052004.pdf"
+  ],
+  "summary": "PSI [name withheld] and a Police Constable of Talala Police Station were convicted on 18 December 2004 by the Special Judge (PC Act)/ASJ, FTC-5 Veraval in Special (ACB) Case No.1/2001 for demanding Rs.200 as a regular hafta from a goods-rickshaw operator, and sentenced to 3.5 years' RI on each count under PC Act ss.7/13(2) with Rs.5,000 fine per offence. The Gujarat High Court (C.K. Buch, J.) allowed both appeals (Crl.A. Nos.2197 & 2199/2004) on 28 February 2007, setting aside the conviction and acquitting both accused, citing non-examination of the trap officer and material infirmities.",
+  "court_quote": "The accused persons have been held guilty for the charge of offence punishable under Sections 7 and 13(2) of the Prevention of Corruption Act, 1988 and they have been sentenced to undergo rigorous imprisonment for 3 1/2 years on each count.",
+  "confidence": "high",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "t2w2-08",
+  "r8_check": {
+   "date": "2026-09-19",
+   "member_verdicts": {
+    "t2w2-08-013": "holds"
+   },
+   "applied": [],
+   "noted": []
+  },
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "bribery pc act",
+  "last_checked": "2026-09-19",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-19",
+    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
+    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
+    "result": "t2w2-08-013=holds",
+    "corrections_applied": []
+   }
+  ],
+  "case_title_or_number": "State vs [name withheld] (PSI) & Police Constable (Special (ACB) Case No.1 of 2001, old No.11/1999; Talala PS Rs.200 bribe)",
+  "status": "overturned"
+ },
+ {
+  "case_id": "t2w2-08-006",
+  "alias_case_ids": [],
+  "verification_status": "V2",
+  "gate_status": "V2",
+  "verify_passes": {
+   "t2w2-08-006": {
+    "ds": "accept",
+    "mverify": "accept",
+    "mverify2": "accept",
+    "or2": "accept"
+   }
+  },
+  "verified_by": "t2mverify-chunk-059",
+  "verified_at": "2026-09-18T16:45:00Z",
+  "verdict_note": "Sessions Court conviction (31-07-2000, s.498A) of RPF constable confirmed; acquitted on appeal 13-04-2006 — trial conviction stands as recorded.",
+  "state": "Gujarat",
+  "district": "Ahmedabad",
+  "court": "Gujarat High Court",
+  "court_level": "sessions",
+  "trial_court_name": "Sessions Court, Ahmedabad",
+  "case_title": "State vs Inspector General (RPF) and Others",
+  "case_number": "Special Civil Application No. 3043 of 2008",
+  "conviction_date": "2013-08-14",
+  "conviction_year": 2013,
+  "date_precision": "day",
+  "incident_date": null,
+  "incident_year": null,
+  "category": "misconduct",
+  "subcategory": "other",
+  "raw_subcategory": "other",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Constable (later Head Constable)",
+    "unit": "Railway Protection Force, Western Railways",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Constable (later Head Constable), Railway Protection Force, Western Railways",
+    "key2_union": "no",
+    "name": null
+   }
+  ],
+  "victims": [],
+  "sections": [
+   "IPC 498A"
+  ],
+  "sentence": "Not stated in HC judgment",
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "appeal_status": "set_aside",
+  "appeal_url": "https://indiankanoon.org/doc/75405186/",
+  "source_kind": "judgment",
+  "source_agency": null,
+  "primary_source_url": "https://indiankanoon.org/doc/75405186/",
+  "secondary_sources": [],
+  "summary": "RPF Constable [name withheld] (Western Railways) was convicted under IPC s.498A by the Sessions Court, Ahmedabad on 31 July 2000 in Sessions Case No.111 of 1998 and dismissed from service. The Gujarat High Court allowed his Criminal Appeal No.822 of 2000 on 13 April 2006, acquitting him on benefit of doubt; he was reinstated and later promoted Head Constable, with the dismissal-to-reinstatement period treated as leave without pay (upheld 14 August 2013).",
+  "court_quote": "The petitioner was convicted for the offences punishable under Section 498A of the Indian Penal Code by an order dated 31.7.2000 passed in Sessions Case No.111 of 1998 by the Sessions Court, Ahmedabad.",
+  "confidence": "high",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "t2w2-08",
+  "r8_check": {
+   "date": "2026-09-19",
+   "member_verdicts": {
+    "t2w2-08-006": "holds"
+   },
+   "applied": [],
+   "noted": []
+  },
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "other",
+  "last_checked": "2026-09-19",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-19",
+    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
+    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
+    "result": "t2w2-08-006=holds",
+    "corrections_applied": []
+   }
+  ],
+  "case_title_or_number": "State vs [name withheld] (Sessions Case No.111 of 1998, s.498A IPC)",
+  "status": "overturned"
+ },
+ {
+  "case_id": "t2w3-21-002",
+  "alias_case_ids": [],
+  "verification_status": "V2",
+  "gate_status": "V2",
+  "verify_passes": {
+   "t2w3-21-002": {
+    "mverify": "accept",
+    "mverify2": "accept"
+   }
+  },
+  "verified_by": "t2mverify2-chunk-080 (SECOND independent pass — do not read any other verifier's output)",
+  "verified_at": "2026-09-18T13:32:02Z",
+  "verdict_note": "Trial conviction verified in appellate record; set aside 26-04-2006 (demand uncorroborated).",
+  "state": "Jharkhand",
+  "district": "West Singhbhum",
+  "court": "4th Additional Judicial Commissioner-cum-Special Judge (CBI), Ranchi",
+  "court_level": "cbi_court",
+  "trial_court_name": "4th Additional Judicial Commissioner-cum-Special Judge (CBI), Ranchi",
+  "case_title": "State (CBI, Ranchi) vs [name withheld], Inspector, RPF Chakradharpur (Rs 700 trap, 14-03-1986)",
+  "case_number": "R.C. Case No. 8/86",
+  "conviction_date": "1998-04-04",
+  "conviction_year": 1998,
+  "date_precision": "day",
+  "incident_date": "1986-03-14",
+  "incident_year": 1986,
+  "category": "corruption",
+  "subcategory": "bribery_pc_act",
+  "raw_subcategory": "bribery_pc_act",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Inspector (prosecution case describes him as SI-cum-O/C, RPF Post Chakradharpur)",
+    "unit": "Railway Protection Force, Chakradharpur, West Singhbhum (now Jharkhand)",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Inspector (prosecution case describes him as SI-cum-O/C, RPF Post Chakradharpur), Railway Protection Force, Chakradharpur, West Singhbhum (now Jharkhand)",
+    "key2_union": "no",
+    "name": null
+   }
+  ],
+  "victims": [
+   {
+    "name": "Sarveshwar Panda"
+   }
+  ],
+  "sections": [
+   "IPC 161 r/w IPC 120B",
+   "PC Act 1947 s.5(1)(d)"
+  ],
+  "sentence": "1 year RI under IPC s.161/120B + 1 year RI under PC Act s.5(1)(d) (separate sentences per count)",
+  "sentence_type": "mixed",
+  "sentence_max_years": 1,
+  "appeal_status": "set_aside",
+  "appeal_url": "https://indiankanoon.org/doc/995240/",
+  "source_kind": "judgment",
+  "source_agency": "Jharkhand High Court — Cr. Appeal No. 101 of 1998(R), Justice Amareshwar Sahay, judgment dated 26-04-2006, recording the trial-court conviction and sentence",
+  "primary_source_url": "https://indiankanoon.org/doc/995240/",
+  "secondary_sources": [],
+  "summary": "Per the Jharkhand High Court judgment, RPF Inspector [name withheld] of Chakradharpur was convicted on 04-04-1998 by the 4th Additional Judicial Commissioner-cum-Special Judge (CBI), Ranchi in R.C. Case No. 8/86 for extracting illegal gratification from railway employees, on a CBI trap laid on 14-03-1986 on complainant Sarveshwar Panda's complaint, and was sentenced to one year's RI with fines. The High Court allowed his appeal on 26-04-2006 and set aside the conviction, holding demand uncorroborated; the row is retained with appeal_status set_aside per dataset practice for reversed trial convictions.",
+  "court_quote": "By the impugned Judgment dated 04.04.1998, both the accused including the appellant were held guilty under Section 161/120-B of the Indian Penal Code and under Section 5(1)(d) of the Prevention of Corruption Act by the Trial Court. In this view of the matter, this appeal is allowed and the conviction and sentence ... is hereby set aside.",
+  "confidence": "high",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "t2w3-21",
+  "r8_check": {
+   "date": "2026-09-19",
+   "member_verdicts": {
+    "t2w3-21-002": "holds"
+   },
+   "applied": [],
+   "noted": []
+  },
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "bribery pc act",
+  "last_checked": "2026-09-19",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-19",
+    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
+    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
+    "result": "t2w3-21-002=holds",
+    "corrections_applied": []
+   }
+  ],
+  "case_title_or_number": "State (CBI, Ranchi) v. [name withheld] & [name withheld] — R.C. Case No. 8/86 (Cr. Appeal No. 101 of 1998(R))",
+  "status": "overturned"
+ },
+ {
+  "case_id": "t2w3-21-003",
+  "alias_case_ids": [],
+  "verification_status": "V2",
+  "gate_status": "V2",
+  "verify_passes": {
+   "t2w3-21-003": {
+    "mverify": "accept",
+    "mverify2": "accept"
+   }
+  },
+  "verified_by": "t2mverify2-chunk-080 (SECOND independent pass — do not read any other verifier's output)",
+  "verified_at": "2026-09-18T13:32:02Z",
+  "verdict_note": "Trial conviction verified in appellate record; set aside 18-08-2022 (no demand by appellant).",
+  "state": "Jharkhand",
+  "district": "West Singhbhum",
+  "court": "4th Additional Judicial Commissioner-cum-Special Judge (CBI), Ranchi",
+  "court_level": "cbi_court",
+  "trial_court_name": "Special Judge (CBI), Ranchi (R.C. Case No. 8/86; trial judgment dated 04-04-1998 of the 4th AJC-cum-Special Judge, CBI, Ranchi)",
+  "case_title": "State (CBI, Ranchi) vs [name withheld], ASI, RPF Chakradharpur (Rs 700 trap, 14-03-1986)",
+  "case_number": "R.C. Case No. 8/86",
+  "conviction_date": "1998-04-04",
+  "conviction_year": 1998,
+  "date_precision": "day",
+  "incident_date": "1986-03-14",
+  "incident_year": 1986,
+  "category": "corruption",
+  "subcategory": "bribery_pc_act",
+  "raw_subcategory": "bribery_pc_act",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Assistant Sub-Inspector",
+    "unit": "Railway Protection Force, Chakradharpur, West Singhbhum (now Jharkhand)",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Assistant Sub-Inspector, Railway Protection Force, Chakradharpur, West Singhbhum (now Jharkhand)",
+    "key2_union": "no",
+    "name": null
+   }
+  ],
+  "victims": [
+   {
+    "name": "Sarveshwar Panda"
+   }
+  ],
+  "sections": [
+   "IPC 161 r/w IPC 120B",
+   "PC Act 1947 s.5(1)(d)",
+   "PC Act 1947 s.5(2)"
+  ],
+  "sentence": "1 year RI + fine per count under the common 04-04-1998 trial judgment (sentence terms as recorded in the co-accused's appeal judgment; the 2022 judgment sets the conviction aside without restating sentence figures)",
+  "sentence_type": "mixed",
+  "sentence_max_years": 1,
+  "appeal_status": "set_aside",
+  "appeal_url": "https://indiankanoon.org/doc/74631167/",
+  "source_kind": "judgment",
+  "source_agency": "Jharkhand High Court — Cr. Appeal (SJ) No. 114 of 1998(R), Justice Gautam Kumar Choudhary, judgment pronounced 18-08-2022, recording the trial-court conviction",
+  "primary_source_url": "https://indiankanoon.org/doc/74631167/",
+  "secondary_sources": [
+   "https://indiankanoon.org/doc/995240/"
+  ],
+  "summary": "Per the Jharkhand High Court judgment, RPF ASI [name withheld] of Chakradharpur, who accepted Rs 700 from complainant Sarveshwar Panda in the 14-03-1986 CBI trap in R.C. Case No. 8/86, was convicted with co-accused C.C. Jha by the Special Judge (CBI), Ranchi on 04-04-1998. The High Court allowed his appeal on 18-08-2022 and set aside the conviction, holding that no demand by Banerjee himself was proved and that the conspiracy charge failed following the principal accused's acquittal; the row is retained with appeal_status set_aside per dataset practice for reversed trial convictions.",
+  "court_quote": "This appeal is directed against the Judgment and sentence passed in R.C. Case no. 8/86 by Special Judge, CBI, Ranchi convicting the appellant as well as another co-accused C.C. Jha under Section 161/120 B of the I.P.C and Section 5(1)(d) and (2) of the Prevention of Corruption Act, 1947. ... is set aside. The appeal is allowed.",
+  "confidence": "high",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "t2w3-21",
+  "r8_check": {
+   "date": "2026-09-19",
+   "member_verdicts": {
+    "t2w3-21-003": "holds"
+   },
+   "applied": [],
+   "noted": []
+  },
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "bribery pc act",
+  "last_checked": "2026-09-19",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-19",
+    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
+    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
+    "result": "t2w3-21-003=holds",
+    "corrections_applied": []
+   }
+  ],
+  "case_title_or_number": "State (CBI, Ranchi) v. [name withheld] & [name withheld] — R.C. Case No. 8/86 (Cr. Appeal (SJ) No. 114 of 1998(R))",
+  "status": "overturned"
+ },
+ {
+  "case_id": "t2w3-21-004",
+  "alias_case_ids": [],
+  "verification_status": "V2",
+  "gate_status": "V2",
+  "verify_passes": {
+   "t2w3-21-004": {
+    "mverify": "accept",
+    "mverify2": "accept"
+   }
+  },
+  "verified_by": "t2mverify-chunk-080",
+  "verified_at": "2026-09-18T17:20:00+00:00",
+  "verdict_note": "1st AJC-cum-Spl Judge (CBI) Ranchi (P.K. Sinha) convicted RPF SI [name withheld] 27-01-2000 (RC 7(A)/92-R; 1y + 1.5y concurrent); SET ASIDE by Jharkhand HC 17-09-2004.",
+  "state": "Jharkhand",
+  "district": "Ranchi",
+  "court": "1st Additional Judicial Commissioner-cum-Special Judge (CBI), Ranchi",
+  "court_level": "cbi_court",
+  "trial_court_name": "1st Additional Judicial Commissioner-cum-Special Judge (CBI), Ranchi",
+  "case_title": "State (CBI/SPE, Ranchi) vs [name withheld] (R.C. 7(A)/92-R)",
+  "case_number": "R.C. 7(A)/92-R",
+  "conviction_date": "2000-01-27",
+  "conviction_year": 2000,
+  "date_precision": "day",
+  "incident_date": "1992-04-14",
+  "incident_year": 1992,
+  "category": "corruption",
+  "subcategory": "bribery_pc_act",
+  "raw_subcategory": "bribery_pc_act",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Sub-Inspector",
+    "unit": "Railway Protection Force, Muri (now Jharkhand)",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Sub-Inspector, Railway Protection Force, Muri (now Jharkhand)",
+    "key2_union": "no",
+    "name": null
+   }
+  ],
+  "victims": [
+   {
+    "name": "Gopal Prasad Sahu",
+    "gender": "male"
+   }
+  ],
+  "sections": [
+   "PC Act 1988 s.7",
+   "PC Act 1988 s.13(2) r/w s.13(1)(d)"
+  ],
+  "sentence": "1 year RI (s.7) + 1 year 6 months RI (s.13(2)), concurrent",
+  "sentence_type": "mixed",
+  "sentence_max_years": 1.5,
+  "appeal_status": "set_aside",
+  "appeal_url": "https://indiankanoon.org/doc/1786274/",
+  "source_kind": "judgment",
+  "source_agency": "Jharkhand High Court — appeal against judgment dated 27-01-2000 of Shri P.K. Sinha, 1st AJC-cum-Special Judge (CBI), Ranchi; Justice Vishnudeo Narayan, judgment dated 17-09-2004",
+  "primary_source_url": "https://indiankanoon.org/doc/1786274/",
+  "secondary_sources": [],
+  "summary": "Per the Jharkhand High Court judgment, RPF Sub-Inspector [name withheld] of Muri was convicted on 27-01-2000 by the 1st Additional Judicial Commissioner-cum-Special Judge (CBI), Ranchi in R.C. 7(A)/92-R for demanding and accepting Rs 500 from complainant Gopal Prasad Sahu after raiding his house on 14-04-1992, and was sentenced to concurrent terms of one year and eighteen months RI with fines. The High Court allowed the appeal on 17-09-2004, holding the charge not proved beyond reasonable doubt, and acquitted him; the row is retained with appeal_status set_aside per dataset practice for reversed trial convictions.",
+  "court_quote": "The appeal is hereby allowed and the impugned judgment is set aside. The appellant is found not guilty of the charges levelled against him and he is accordingly acquitted.",
+  "confidence": "high",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "t2w3-21",
+  "r8_check": {
+   "date": "2026-09-19",
+   "member_verdicts": {
+    "t2w3-21-004": "holds"
+   },
+   "applied": [],
+   "noted": []
+  },
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "bribery pc act",
+  "last_checked": "2026-09-19",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-19",
+    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
+    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
+    "result": "t2w3-21-004=holds",
+    "corrections_applied": []
+   }
+  ],
+  "case_title_or_number": "State (CBI/SPE, Ranchi) v. [name withheld] — R.C. 7(A)/92-R",
+  "status": "overturned"
+ },
+ {
+  "case_id": "t2w4-03-015",
+  "alias_case_ids": [],
+  "verification_status": "V2",
+  "gate_status": "V2",
+  "verify_passes": {
+   "t2w4-03-015": {
+    "mverify": "accept",
+    "mverify2": "accept"
+   }
+  },
+  "verified_by": "t2mverify2-chunk-090 (SECOND independent pass — do not read any other verifier's output)",
+  "verified_at": "2026-09-18T19:58:14Z",
+  "verdict_note": "Appeal partly allowed but convictions stand: 363/366/323 maintained, attempt-rape conviction entered on 22 Aug 2011.",
+  "state": "Maharashtra",
+  "district": "Mumbai",
+  "court": "Bombay High Court",
+  "court_level": "sessions",
+  "trial_court_name": "Additional Sessions Judge, Mumbai",
+  "case_title": "[name withheld] v. [name withheld] of Maharashtra",
+  "case_number": "Criminal Appeal No. 780 of 2006",
+  "conviction_date": "2011-08-22",
+  "conviction_year": 2011,
+  "date_precision": "day",
+  "incident_date": "2005-10-17",
+  "incident_year": 2005,
+  "category": "brutality",
+  "subcategory": "other",
+  "raw_subcategory": "other",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Head Constable",
+    "unit": "Sahar Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Head Constable, Sahar Police Station",
+    "key2_union": "yes",
+    "name": null
+   }
+  ],
+  "victims": [
+   {
+    "name": "",
+    "gender": "female"
+   }
+  ],
+  "sections": [
+   "IPC 363",
+   "IPC 366",
+   "IPC 376(2)(a)",
+   "IPC 376(2)(a) r/w 511",
+   "IPC 323"
+  ],
+  "sentence": "RI 1 year (Sec 363); RI 3 years (Sec 366); RI 15 years (Sec 376(2)(a)); RI 1 month (Sec 323)",
+  "sentence_type": "mixed",
+  "sentence_max_years": 5.83,
+  "appeal_status": "set_aside",
+  "appeal_url": "https://www.courtkutchehry.com/judgements/779032/chandrakant-vithal-pawar-appellant-hash-state-of-maharashtra-respondent/",
+  "source_kind": "judgment",
+  "source_agency": "Bombay High Court",
+  "primary_source_url": "https://www.courtkutchehry.com/judgements/779032/chandrakant-vithal-pawar-appellant-hash-state-of-maharashtra-respondent/",
+  "secondary_sources": [],
+  "summary": "Per the Bombay High Court (Criminal Appeal No. 780 of 2006, decided 22 August 2011), Head Constable [name withheld] of Sahar Police Station, Mumbai, was convicted on 13 July 2006 by the Additional Sessions Judge, Mumbai, for abducting and raping a minor girl within his station limits on 17 October 2005. The trial court imposed RI of 15 years under Sec 376(2)(a) IPC plus concurrent terms under Secs 363, 366 and 323. On appeal the High Court allowed the appeal, setting aside the conviction.",
+  "court_quote": "the conviction and sentence for the offence punishable u/s 376(2)(a) of the Indian Penal Code stand set aside and the accused is acquitted of that charge but, he is convicted for the offence of attempt to commit rape punishable u/s 376(2)(a) read with Section 511 of the Indian Penal Code and is sentenced to undergo imprisonment as undergone from 18th October, 2005 till this date, with fine of Rs. 10,000/-.",
+  "confidence": "high",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "t2w4-03",
+  "r8_check": {
+   "date": "2026-09-19",
+   "member_verdicts": {
+    "t2w4-03-015": "wrong_facts"
+   },
+   "applied": [
+    "summary"
+   ],
+   "noted": [
+    "t2w4-03-015:appeal_status"
+   ]
+  },
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "other",
+  "last_checked": "2026-09-19",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-19",
+    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
+    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
+    "result": "t2w4-03-015=wrong_facts",
+    "corrections_applied": [
+     "summary"
+    ]
+   }
+  ],
+  "case_title_or_number": "Sessions Case No. 32 of 2006, [name withheld] vs [name withheld]",
+  "status": "overturned"
+ },
+ {
+  "case_id": "t2w4-38-003",
+  "alias_case_ids": [],
+  "verification_status": "V2",
+  "gate_status": "V2",
+  "verify_passes": {
+   "t2w4-38-003": {
+    "mverify": "accept",
+    "mverify2": "accept"
+   }
+  },
+  "verified_by": "t2mverify-chunk-102",
+  "verified_at": "2026-09-18T19:36:25+00:00",
+  "verdict_note": "ACB official conviction list (Oct-Dec 2013, Sr.5) confirms Sr PI [name withheld], ATS Kalachowki, convicted 28.10.2013 in CR 08/2010 (Rs.2,50,000 bribe) under ss.7 and 13 with two private brokers; 2yr + Rs.50,000 fine per section.",
+  "state": "Maharashtra",
+  "district": "Mumbai City",
+  "court": "Special Court (PC Act), Mumbai (inferred)",
+  "court_level": "special_acb",
+  "trial_court_name": "Special Court (PC Act), Mumbai (inferred)",
+  "case_title": "[name withheld] (ACB) v. [name withheld] and others",
+  "case_number": "ACB CR No. 08/Mumbai/2010 (CR/60/Mumbai/2010)",
+  "conviction_date": "2013-10-28",
+  "conviction_year": 2013,
+  "date_precision": "day",
+  "incident_date": null,
+  "incident_year": null,
+  "category": "corruption",
+  "subcategory": "bribery_pc_act",
+  "raw_subcategory": "bribery_pc_act",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Senior Police Inspector",
+    "unit": "Anti-Terrorism Squad, Kalachowki, Mumbai",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Senior Police Inspector, Anti-Terrorism Squad, Kalachowki, Mumbai",
+    "key2_union": "yes",
+    "name": null
+   }
+  ],
+  "victims": [],
+  "sections": [
+   "PC Act 1988 s.7",
+   "PC Act 1988 s.13"
+  ],
+  "sentence": "Accused 1 ([name withheld]): 2 yrs imprisonment each under ss.7 and 13 + Rs.50,000 fine under each section (1 month imprisonment in default); co-accused private brokers: 1.5 yrs each + Rs.25,000 fine each section",
+  "sentence_type": "mixed",
+  "sentence_max_years": 2,
+  "appeal_status": "set_aside",
+  "appeal_url": "https://www.casemine.com/judgement/in/631af7312042fa6a39556f55",
+  "source_kind": "official_list",
+  "source_agency": "Maharashtra Anti-Corruption Bureau",
+  "primary_source_url": "http://web.archive.org/web/20151028151230/http://acbmaharashtra.gov.in/StatReport/conviction13-15.pdf",
+  "secondary_sources": [
+   "https://acb.maharashtra.gov.in/statistics"
+  ],
+  "summary": "Maharashtra ACB official conviction list (Oct-Dec 2013 section, Sr. No. 5) records that [name withheld] (Senior Police Inspector), Anti-Terrorism Squad, Kalachowki, Mumbai, with two private brokers (Chetan Lakshman Khambala alias Desai and Sanjay Brajlal Khakhkhar alias Pintu), was convicted on 28 October 2013 in ACB CR No. 08/2010 (bribe Rs.2,50,000) under ss. 7 and 13 of the Prevention of Corruption Act, 1988. The list does not name the deciding court; the case was tried by the Special Court (PC Act), Mumbai, which sentenced [name withheld] to 2 yrs imprisonment under each of ss. 7 and 13 with Rs.50,000 fine under each section (1 month in default).",
+  "court_quote": null,
+  "confidence": "medium",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "t2w4-38",
+  "r8_check": {
+   "date": "2026-09-19",
+   "member_verdicts": {
+    "t2w4-38-003": "holds"
+   },
+   "applied": [
+    "trial_court_name"
+   ],
+   "noted": []
+  },
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "bribery pc act",
+  "last_checked": "2026-09-19",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-19",
+    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
+    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
+    "result": "t2w4-38-003=holds",
+    "corrections_applied": [
+     "trial_court_name"
+    ]
+   }
+  ],
+  "case_title_or_number": "ACB CR No. 08/Mumbai/2010 (CR/60/Mumbai/2010)",
+  "status": "overturned"
+ },
+ {
+  "case_id": "t2-03-020",
+  "alias_case_ids": [],
+  "verification_status": "V1",
+  "gate_status": "V1",
+  "verify_passes": {
+   "t2-03-020": {
+    "ds": "flag",
+    "muse": "accept",
+    "mverify": "accept",
+    "mverify2": "accept",
+    "or2": "flag"
+   }
+  },
+  "verified_by": "t2verify-chunk-03",
+  "verified_at": "2026-09-17T22:08:36Z",
+  "verdict_note": "Official ACB convictions list verified reachable; row-level text not re-parsed (custom font encoding).",
+  "state": "Maharashtra",
+  "district": "Dhule",
+  "court": "Special Court (PC Act), Dhule",
+  "court_level": "special_acb",
+  "trial_court_name": "Special Court (PC Act), Dhule",
+  "case_title": "[name withheld] (ACB) v. [name withheld]",
+  "case_number": "ACB CR No. 287/Dhule/2013",
+  "conviction_date": "2015-05-22",
+  "conviction_year": 2015,
+  "date_precision": "day",
+  "incident_date": null,
+  "incident_year": null,
+  "category": "corruption",
+  "subcategory": "bribery_pc_act",
+  "raw_subcategory": "bribery_pc_act",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Police Naik",
+    "unit": "Shirapur Police Station, Dhule",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Naik, Shirapur Police Station, Dhule",
+    "key2_union": "unclear",
+    "name": null
+   }
+  ],
+  "victims": [],
+  "sections": [
+   "PC Act 1988 s.7"
+  ],
+  "sentence": "2 yr RI",
+  "sentence_type": "imprisonment",
+  "sentence_max_years": 2,
+  "appeal_status": "set_aside",
+  "appeal_url": "https://orderlawstorage.blob.core.windows.net/judgements/high_court/year=2024/court=27_1/bench=hcaurdb/HCBM030216412015_1_2024-01-31.pdf",
+  "source_kind": "official_list",
+  "source_agency": null,
+  "primary_source_url": "https://acb.maharashtra.gov.in/storage/statistic/75.pdf",
+  "secondary_sources": [
+   "https://acb.maharashtra.gov.in/statistics"
+  ],
+  "summary": "Maharashtra ACB's official 'Details of convictions in ACB cases' list for 2015 (Sr. No. 52) records that [name withheld] (Police Naik), posted at Shirapur Police Station, Dhule, Dhule district, was convicted on 22 May 2015 in ACB CR No. 287/Dhule/2013 under s. 7 of the Prevention of Corruption Act, 1988. The list does not name the deciding court; the case was tried by the Special Court (PC Act), Dhule, which sentenced the accused to 2 yr RI.",
+  "court_quote": null,
+  "confidence": "medium",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "t2-03",
+  "r8_check": {
+   "date": "2026-09-19",
+   "member_verdicts": {
+    "t2-03-020": "holds"
+   },
+   "applied": [],
+   "noted": []
+  },
+  "verification_badge": "V1 · Provenance checked — internal only",
+  "tier_badge": null,
+  "subcategory_display": "bribery pc act",
+  "last_checked": "2026-09-19",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-19",
+    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
+    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
+    "result": "t2-03-020=holds",
+    "corrections_applied": []
+   }
+  ],
+  "case_title_or_number": "ACB CR No. 287/Dhule/2013",
+  "status": "overturned"
+ },
+ {
+  "case_id": "t2-03-024",
+  "alias_case_ids": [],
+  "verification_status": "V1",
+  "gate_status": "V1",
+  "verify_passes": {
+   "t2-03-024": {
+    "ds": "flag",
+    "mverify": "accept",
+    "mverify2": "accept",
+    "or2": "flag"
+   }
+  },
+  "verified_by": "t2mverify2-chunk-028 (SECOND independent pass — do not read any other verifier's output)",
+  "verified_at": "2026-09-18T13:52:28Z",
+  "verdict_note": "Accepted: ACB list Sr.69 records conviction of two police personnel (API + naik) on 24/07/2015; name spelling corrected.",
+  "state": "Maharashtra",
+  "district": "Pune",
+  "court": "Special Court (PC Act), Pune",
+  "court_level": "special_acb",
+  "trial_court_name": "Special Court (PC Act), Pune",
+  "case_title": "[name withheld] vs [name withheld] Ramzan Inamdar and Anr.",
+  "case_number": "ACB CR No. 359/Pune/2013 (GR No. 3152/2013, Kothrud PS)",
+  "conviction_date": "2015-07-24",
+  "conviction_year": 2015,
+  "date_precision": "day",
+  "incident_date": null,
+  "incident_year": null,
+  "category": "corruption",
+  "subcategory": "bribery_pc_act",
+  "raw_subcategory": "bribery_pc_act",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Assistant Police Inspector",
+    "unit": "Kotharud Police Station, Pune",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Assistant Police Inspector, Kotharud Police Station, Pune",
+    "key2_union": "unclear",
+    "name": null
+   },
+   {
+    "rank": "Police Naik",
+    "unit": "Alankar Police Chowki Kotharud Police Station Pune City",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Naik, Alankar Police Chowki Kotharud Police Station Pune City",
+    "key2_union": "unclear",
+    "name": null
+   }
+  ],
+  "victims": [],
+  "sections": [
+   "PC Act 1988 s.7",
+   "PC Act 1988 s.12",
+   "PC Act 1988 s.13(1)(d)",
+   "PC Act 1988 s.13(2)"
+  ],
+  "sentence": "1 yr RI; 2 yr RI; fine Rs.3000/Rs.5000",
+  "sentence_type": "mixed",
+  "sentence_max_years": 2,
+  "appeal_status": "set_aside",
+  "appeal_url": "https://www.courtkutchehry.com/judgements/955624/gulabdastagir-ramzan-inamdar-and-anr-appellant-hash-the-state-of-maharashtra-respondent/",
+  "source_kind": "official_list",
+  "source_agency": null,
+  "primary_source_url": "https://acb.maharashtra.gov.in/storage/statistic/75.pdf",
+  "secondary_sources": [
+   "https://acb.maharashtra.gov.in/statistics"
+  ],
+  "summary": "Maharashtra ACB's official 'Details of convictions in ACB cases' list for 2015 (Sr. No. 69) records that [name withheld] ([name withheld] Police Inspector) and [name withheld] (Police Naik), posted at Kotharud Police Station, Pune, Pune district, was convicted on 24 July 2015 in ACB CR No. 359/Pune/2013 under ss. 7, 13(1)(d), 13(2) and 12 of the Prevention of Corruption Act, 1988. The list does not name the deciding court; the case was tried by the Special Court (PC Act), Pune, which sentenced the accused to 1 yr RI; 2 yr RI; fine Rs.3000/Rs.5000.",
+  "court_quote": "शाबीत दि.24/07/2015 आरोपी क्र 1 यांस कलम 7 प्रमाणे 1 वर्ष स.म व 3000/. दंड, कलम 13(1)(ड) सह 13(2) प्रमाणे 2 वर्ष स.म व 5000/. दंड, आरोपी नं 2 यांस कलम 12 प्रमाणे 1 वर्ष स.म. व 3000/ दंड",
+  "confidence": "medium",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "t2-03",
+  "r8_check": {
+   "date": "2026-09-19",
+   "member_verdicts": {
+    "t2-03-024": "wrong_facts"
+   },
+   "applied": [
+    "sentence"
+   ],
+   "noted": []
+  },
+  "verification_badge": "V1 · Provenance checked — internal only",
+  "tier_badge": null,
+  "subcategory_display": "bribery pc act",
+  "last_checked": "2026-09-19",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-19",
+    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
+    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
+    "result": "t2-03-024=wrong_facts",
+    "corrections_applied": [
+     "sentence"
+    ]
+   }
+  ],
+  "case_title_or_number": "ACB CR No. 359/Pune/2013",
+  "status": "overturned"
+ },
+ {
+  "case_id": "t2w3-24-017",
+  "alias_case_ids": [],
+  "verification_status": "V2",
+  "gate_status": "V2",
+  "verify_passes": {
+   "t2w3-24-017": {
+    "mverify": "accept",
+    "mverify2": "accept"
+   }
+  },
+  "verified_by": "t2mverify-chunk-082",
+  "verified_at": "2026-09-18T13:30:00Z",
+  "verdict_note": "CBI PR confirms 7-yr RI bribery conviction of SI [name withheld] (Villiyanur PS) caught accepting Rs.10,000.",
+  "state": "Puducherry",
+  "district": "Puducherry",
+  "court": "Principal District and Sessions Judge, Puducherry",
+  "court_level": "sessions",
+  "trial_court_name": "Principal District & Sessions Judge, Puducherry",
+  "case_title": "CBI v. [name withheld] & [name withheld]",
+  "case_number": null,
+  "conviction_date": "2014-07-21",
+  "conviction_year": 2014,
+  "date_precision": "day",
+  "incident_date": null,
+  "incident_year": null,
+  "category": "corruption",
+  "subcategory": "bribery_pc_act",
+  "raw_subcategory": "bribery_pc_act",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Sub-Inspector (SI-I)",
+    "unit": "Villiyanur Police Station, Puducherry Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Sub-Inspector (SI-I), Villiyanur Police Station, Puducherry Police",
+    "key2_union": null,
+    "name": null
+   }
+  ],
+  "victims": [],
+  "sections": [
+   "IPC 120B",
+   "PC Act 1988 s.7",
+   "PC Act 1988 s.13(2) r/w 13(1)(d)"
+  ],
+  "sentence": "7 years Rigorous Imprisonment",
+  "sentence_type": "mixed",
+  "sentence_max_years": 7,
+  "appeal_status": "set_aside",
+  "appeal_url": "https://indiankanoon.org/doc/178012954/",
+  "source_kind": "press_release",
+  "source_agency": "Central Bureau of Investigation (CBI)",
+  "primary_source_url": "https://cbi.gov.in/press-detail/MzIzOQ==",
+  "secondary_sources": [],
+  "summary": "The CBI press release states that the Principal District & Sessions Judge, Puducherry convicted Sub-Inspectors [name withheld] and [name withheld] of Puducherry Police in a bribery case, sentencing [name withheld] to seven years RI with Rs.3,000 fine and Saravanan to five years RI with Rs.2,000 fine. The release states both SIs of Villiyanur Police Station demanded Rs.10,000 from the complainant for registering a case on his wife and son's abduction and returning his wife's gold thali chain; CBI trapped [name withheld] accepting the bribe and recovered the chain from Saravanan.",
+  "court_quote": "The Principal District & Sessions Judge, Puducherry has convicted two then Sub-Inspectors Shri [name withheld] & Shri S.Saravanan of Puducherry Police in a bribery case and sentenced Shri G.[name withheld] to undergo seven years Rigorous Imprisonment with fine of Rs.3000/- & Shri Saravanan to undergo five years Rigorous Imprisonment with fine of Rs.2,000/-.",
+  "confidence": "high",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "t2w3-24",
+  "r8_check": {
+   "date": "2026-09-19",
+   "member_verdicts": {
+    "t2w3-24-017": "holds"
+   },
+   "applied": [],
+   "noted": []
+  },
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "bribery pc act",
+  "last_checked": "2026-09-19",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-19",
+    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
+    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
+    "result": "t2w3-24-017=holds",
+    "corrections_applied": []
+   }
+  ],
+  "case_title_or_number": "CBI v. [name withheld] & [name withheld] (bribery: Rs.10,000 for registering abduction case and returning complainant's wife's gold thali chain; trap; [name withheld] caught accepting; chain recovered from Saravanan)",
+  "status": "overturned"
+ },
+ {
+  "case_id": "t2w3-24-018",
+  "alias_case_ids": [],
+  "verification_status": "V2",
+  "gate_status": "V2",
+  "verify_passes": {
+   "t2w3-24-018": {
+    "mverify": "accept",
+    "mverify2": "accept"
+   }
+  },
+  "verified_by": "t2mverify-chunk-082",
+  "verified_at": "2026-09-18T13:30:00Z",
+  "verdict_note": "CBI PR confirms 5-yr RI bribery conviction of SI [name withheld]; gold thali chain recovered from his possession.",
+  "state": "Puducherry",
+  "district": "Puducherry",
+  "court": "Principal District and Sessions Judge, Puducherry",
+  "court_level": "sessions",
+  "trial_court_name": "Principal District & Sessions Judge, Puducherry",
+  "case_title": "CBI v. [name withheld] & [name withheld]",
+  "case_number": null,
+  "conviction_date": "2014-07-21",
+  "conviction_year": 2014,
+  "date_precision": "day",
+  "incident_date": null,
+  "incident_year": null,
+  "category": "corruption",
+  "subcategory": "bribery_pc_act",
+  "raw_subcategory": "bribery_pc_act",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Sub-Inspector (SI-II)",
+    "unit": "Villiyanur Police Station, Puducherry Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Sub-Inspector (SI-II), Villiyanur Police Station, Puducherry Police",
+    "key2_union": null,
+    "name": null
+   }
+  ],
+  "victims": [],
+  "sections": [
+   "IPC 120B",
+   "PC Act 1988 s.7",
+   "PC Act 1988 s.13(2) r/w 13(1)(d)"
+  ],
+  "sentence": "5 years Rigorous Imprisonment",
+  "sentence_type": "mixed",
+  "sentence_max_years": 5,
+  "appeal_status": "set_aside",
+  "appeal_url": "https://indiankanoon.org/doc/178012954/",
+  "source_kind": "press_release",
+  "source_agency": "Central Bureau of Investigation (CBI)",
+  "primary_source_url": "https://cbi.gov.in/press-detail/MzIzOQ==",
+  "secondary_sources": [],
+  "summary": "The CBI press release states that the Principal District & Sessions Judge, Puducherry convicted Sub-Inspectors [name withheld] and [name withheld] of Puducherry Police in a bribery case, sentencing [name withheld] to five years RI with Rs.2,000 fine (Venkatachalapathy got seven years RI with Rs.3,000 fine). The release states [name withheld] (SI-II, Villiyanur) retained the complainant's wife's gold thali chain during the rescue of his abducted wife and son, and the chain was recovered from his possession during the CBI trap proceedings.",
+  "court_quote": "The Principal District & Sessions Judge, Puducherry has convicted two then Sub-Inspectors Shri [name withheld] & Shri S.[name withheld] of Puducherry Police in a bribery case and sentenced Shri G.Venkatachalapathy to undergo seven years Rigorous Imprisonment with fine of Rs.3000/- & Shri Saravanan to undergo five years Rigorous Imprisonment with fine of Rs.2,000/-.",
+  "confidence": "high",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "t2w3-24",
+  "r8_check": {
+   "date": "2026-09-19",
+   "member_verdicts": {
+    "t2w3-24-018": "holds"
+   },
+   "applied": [],
+   "noted": []
+  },
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "bribery pc act",
+  "last_checked": "2026-09-19",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-19",
+    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
+    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
+    "result": "t2w3-24-018=holds",
+    "corrections_applied": []
+   }
+  ],
+  "case_title_or_number": "CBI v. [name withheld] & [name withheld] (Villiyanur PS bribery; gold thali chain recovered from [name withheld] during trap)",
+  "status": "overturned"
+ },
+ {
+  "case_id": "t2w2-08-009",
+  "alias_case_ids": [],
+  "verification_status": "V2",
+  "gate_status": "V2",
+  "verify_passes": {
+   "t2w2-08-009": {
+    "ds": "accept",
+    "mverify": "accept",
+    "mverify2": "accept",
+    "or2": "accept"
+   }
+  },
+  "verified_by": "t2mverify-chunk-059",
+  "verified_at": "2026-09-18T16:52:00Z",
+  "verdict_note": "Sessions-trial conviction (life RI, ss.302/201) of 4 Gangdhar policemen confirmed; set aside by SC 27-04-2016 — trial conviction stands as recorded.",
+  "state": "Rajasthan",
+  "district": "Jhalawar",
+  "court": "Supreme Court of India",
+  "court_level": "sessions",
+  "trial_court_name": "Sessions Judge, Jhalawar (exact designation per SC judgment: 'the Sessions Judge')",
+  "case_title": "State vs [name withheld] of Rajasthan",
+  "case_number": "Criminal Appeal Nos. 2072-2074 of 2011 with Criminal Appeal No. 441 of 2016",
+  "conviction_date": "2016-04-27",
+  "conviction_year": 2016,
+  "date_precision": "day",
+  "incident_date": "1999-05-07",
+  "incident_year": 1999,
+  "category": "brutality",
+  "subcategory": "custodial_death",
+  "raw_subcategory": "custodial_death",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "SHO",
+    "unit": "PS Gangdhar, Jhalawar",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "SHO, PS Gangdhar, Jhalawar",
+    "key2_union": "no",
+    "name": null
+   },
+   {
+    "rank": "Constable (appointed 31-05-1993; S/o Kundan Lal, R/o Sanseri, PS Shahjanpur, Teh Neemrana, Alwar)",
+    "unit": "PS Gandhar/Gangdhar, Jhalawar",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Constable (appointed 31-05-1993; S/o Kundan Lal, R/o Sanseri, PS Shahjanpur, Teh Neemrana, Alwar), PS Gandhar/Gangdhar, Jhalawar",
+    "key2_union": "no",
+    "name": null
+   },
+   {
+    "rank": "Police official (rank not stated)",
+    "unit": "PS Gangdhar, Jhalawar",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police official (rank not stated), PS Gangdhar, Jhalawar",
+    "key2_union": "no",
+    "name": null
+   },
+   {
+    "rank": "Constable",
+    "unit": "PS Gangdhar, Jhalawar",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Constable, PS Gangdhar, Jhalawar",
+    "key2_union": null,
+    "name": null
+   }
+  ],
+  "victims": [
+   {
+    "name": "Radhey Shyam Darji"
+   }
+  ],
+  "sections": [
+   "IPC 302",
+   "IPC 201"
+  ],
+  "sentence": "Rigorous imprisonment for life",
+  "sentence_type": "imprisonment",
+  "sentence_max_years": null,
+  "appeal_status": "set_aside",
+  "appeal_url": "https://www.courtkutchehry.com/judgements/688511/kailash-chand-vs-state-of-rajasthan/",
+  "source_kind": "judgment",
+  "source_agency": null,
+  "primary_source_url": "https://www.courtkutchehry.com/judgements/688511/kailash-chand-vs-state-of-rajasthan/",
+  "secondary_sources": [
+   "https://indiankanoon.org/doc/100587118/",
+   "https://www.livelaw.in/pdf_upload/2052001263620186-548554.pdf"
+  ],
+  "summary": "Four Jhalawar police officials including SHO [name withheld] of PS Gangdhar and Constable [name withheld] were convicted by the Sessions Judge and sentenced to life RI under IPC ss.302/201 for the custodial torture-murder of theft suspect [name withheld] [name withheld] on the night of 6/7 May 1999 (criminal case No.75/1999, PS Gandhar) and the subsequent burning of his body; a fifth accused, Constable [name withheld], was acquitted at trial. The Rajasthan High Court affirmed the conviction and life sentence ([name withheld]'s appeal: Crl.A. 2073/2011), but the Supreme Court ([name withheld] vs [name withheld] of Rajasthan, Crl.A. Nos.2072-2074/2011 & 441/2016) set aside the conviction on 27 April 2016 for failure to prove identity and charges beyond reasonable doubt. (Pass 2: [name withheld] — dismissed 19-10-2000 for 105 days' absence, review rejected 27-01-2003 — was ordered reinstated with consequential benefits on 01-07-2024 by Justice Ganesh Ram Meena, [2024:RJ-JP:26884], on Article 14 parity with reinstated co-accused [name withheld].)",
+  "court_quote": "The Trial Court, on conviction, awarded them sentence of rigorous imprisonment for life.",
+  "confidence": "medium",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "t2w2-08",
+  "r8_check": {
+   "date": "2026-09-19",
+   "member_verdicts": {
+    "t2w2-08-009": "holds"
+   },
+   "applied": [],
+   "noted": []
+  },
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "custodial death",
+  "last_checked": "2026-09-19",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-19",
+    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
+    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
+    "result": "t2w2-08-009=holds",
+    "corrections_applied": []
+   }
+  ],
+  "case_title_or_number": "State vs [name withheld], [name withheld], [name withheld] & Anr (PS Gangdhar custodial death of [name withheld] [name withheld], FIR/case 75/1999)",
+  "status": "overturned"
+ },
+ {
+  "case_id": "t2w2-08-019",
+  "alias_case_ids": [],
+  "verification_status": "V2",
+  "gate_status": "V2",
+  "verify_passes": {
+   "t2w2-08-019": {
+    "ds": "accept",
+    "mverify": "accept",
+    "mverify2": "accept",
+    "or2": "accept"
+   }
+  },
+  "verified_by": "t2mverify-chunk-059",
+  "verified_at": "2026-09-18T17:08:00Z",
+  "verdict_note": "Trial conviction (18-05-1995, life + fine, ss.302/34) of Udaipur constable confirmed; HC acquitted 21-04-2001 — trial conviction stands as recorded.",
+  "state": "Rajasthan",
+  "district": "Udaipur",
+  "court": "Rajasthan High Court",
+  "court_level": "sessions",
+  "trial_court_name": "Trial Court, Udaipur (exact designation not stated; s.302 IPC triable by Sessions Court)",
+  "case_title": "Saroj Devi vs [name withheld] of Rajasthan and Others",
+  "case_number": "S.B. Civil Writ Petition No. 11258/2009",
+  "conviction_date": "2024-01-30",
+  "conviction_year": 2024,
+  "date_precision": "day",
+  "incident_date": "1993-01-01",
+  "incident_year": 1993,
+  "category": "misconduct",
+  "subcategory": "other",
+  "raw_subcategory": "other",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Constable",
+    "unit": "Udaipur, Rajasthan Police (died 05-09-2008)",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Constable, Udaipur, Rajasthan Police (died 05-09-2008)",
+    "key2_union": "yes",
+    "name": null
+   }
+  ],
+  "victims": [],
+  "sections": [
+   "IPC 302",
+   "IPC 34"
+  ],
+  "sentence": "Life imprisonment with fine",
+  "sentence_type": "imprisonment",
+  "sentence_max_years": null,
+  "appeal_status": "set_aside",
+  "appeal_url": "https://indiankanoon.org/doc/56793602/",
+  "source_kind": "judgment",
+  "source_agency": null,
+  "primary_source_url": "https://indiankanoon.org/doc/56793602/",
+  "secondary_sources": [],
+  "summary": "Constable [name withheld] (Udaipur), booked with two others in FIR 165/1993 under IPC ss.302/34 at PS Surajpole, was convicted by the trial court on 18 May 1995 and sentenced to life imprisonment with fine; the on-duty/personal context of the murder charge is not stated in the order. The Rajasthan High Court (DB Criminal Appeal No.246/1995) allowed his appeal on 21 April 2001, acquitting him on benefit of doubt; he was reinstated in December 2002, dismissed again after a Rule 16 departmental enquiry in October 2005, and died on 5 September 2008, with his widow Saroj Devi's writ decided on 30 January 2024 (2024:RJ-JD:4343).",
+  "court_quote": "Late [name withheld] was convicted for the aforesaid offences and was sentenced to undergo life imprisonment with fine stipulation vide the judgment and order dated 18.05.1995.",
+  "confidence": "high",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "t2w2-08",
+  "r8_check": {
+   "date": "2026-09-19",
+   "member_verdicts": {
+    "t2w2-08-019": "holds"
+   },
+   "applied": [],
+   "noted": []
+  },
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "other",
+  "last_checked": "2026-09-19",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-19",
+    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
+    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
+    "result": "t2w2-08-019=holds",
+    "corrections_applied": []
+   }
+  ],
+  "case_title_or_number": "State vs [name withheld] & 2 Ors (FIR 165/1993, PS Surajpole, Udaipur; ss.302/34 IPC; DB Crl. Appeal 246/1995)",
+  "status": "overturned"
+ },
+ {
+  "case_id": "t2w2-04-020",
+  "alias_case_ids": [],
+  "verification_status": "V2",
+  "gate_status": "V2",
+  "verify_passes": {
+   "t2w2-04-020": {
+    "mverify": "accept",
+    "mverify2": "flag"
+   }
+  },
+  "verified_by": "t2mverify-chunk-055",
+  "verified_at": "2026-09-18T13:09:39Z",
+  "verdict_note": "3 Thogaimalai policemen convicted at trial; A2 [name withheld] acquitted on appeal but A1/A3 appeals were dismissed for default so their convictions stand.",
+  "state": "Tamil Nadu",
+  "district": "Karur",
+  "court": "Madras High Court",
+  "court_level": "special_acb",
+  "trial_court_name": "Special Judge-cum-Chief Judicial Magistrate Court, Karur",
+  "case_title": "State v. [name withheld]",
+  "case_number": "Crl.A.(MD)No.254 of 2003",
+  "conviction_date": "2010-10-29",
+  "conviction_year": 2010,
+  "date_precision": "day",
+  "incident_date": "1999-01-25",
+  "incident_year": 1999,
+  "category": "corruption",
+  "subcategory": "bribery_pc_act",
+  "raw_subcategory": "bribery_pc_act",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Inspector of Police",
+    "unit": "Thogaimalai Police Station, Karur District",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Inspector of Police, Thogaimalai Police Station, Karur District",
+    "key2_union": "no",
+    "name": null
+   },
+   {
+    "rank": "Head Constable (A2)",
+    "unit": "Thogaimalai Police Station, Karur District",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Head Constable (A2), Thogaimalai Police Station, Karur District",
+    "key2_union": "no",
+    "name": null
+   },
+   {
+    "rank": "Station Writer",
+    "unit": "Thogaimalai Police Station, Karur District",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Station Writer, Thogaimalai Police Station, Karur District",
+    "key2_union": "no",
+    "name": null
+   }
+  ],
+  "victims": [
+   {
+    "name": "Paara Naicker"
+   }
+  ],
+  "sections": [
+   "PC Act 1988 s.7",
+   "PC Act 1988 s.13(2) r/w s.13(1)(e)"
+  ],
+  "sentence": "1 year RI + Rs.2,000 fine (3 months RI default) under each count. Tainted Rs.5,000 (fifty Rs.100 notes) recovered from [name withheld] shirt pocket; phenolphthalein-positive trap.",
+  "sentence_type": "imprisonment",
+  "sentence_max_years": 1,
+  "appeal_status": "set_aside",
+  "appeal_url": "https://indiankanoon.org/doc/719717/",
+  "source_kind": "judgment",
+  "source_agency": null,
+  "primary_source_url": "https://indiankanoon.org/doc/719717/",
+  "secondary_sources": [],
+  "summary": "The Special Judge-cum-CJM, Karur on 31 January 2003 convicted the Inspector (A1), Head Constable [name withheld] (A2) and station writer (A3) of Thogaimalai police station for receiving a Rs.5,000 bribe from complainant Paara Naicker in a 25 January 1999 V&AC trap, after A1 demanded the money to act against crop-damaging rivals and to favour the complainant in a case, sentencing each to 1 year RI with fine under PC Act ss.7 and 13(2) r/w 13(1)(e). The Madras High Court (Madurai Bench, Justice S. Tamilvanan) on 29 October 2010 allowed [name withheld] appeal (Crl.A(MD)No.254/2003), holding he innocently received the cash on A1 instruction with no demand of his own, and set aside his conviction; the appeals of A1 and A3 were dismissed for default so their trial convictions stand.",
+  "court_quote": "In the result, this Criminal Appeal is allowed and the conviction and sentenced imposed on the appellant / A2 by the Court below in Special Case No.1 of 2000 is set aside.",
+  "confidence": "high",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "t2w2-04",
+  "r8_check": {
+   "date": "2026-09-19",
+   "member_verdicts": {
+    "t2w2-04-020": "holds"
+   },
+   "applied": [],
+   "noted": []
+  },
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "bribery pc act",
+  "last_checked": "2026-09-19",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-19",
+    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
+    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
+    "result": "t2w2-04-020=holds",
+    "corrections_applied": []
+   }
+  ],
+  "case_title_or_number": "State (V&AC , Crime No.2/1999) v. Inspector (A1) & [name withheld] (A2, HC) & Station Writer (A3) — Special Case No.1 of 2000",
+  "status": "overturned"
+ },
+ {
+  "case_id": "t2-17-021",
+  "alias_case_ids": [],
+  "verification_status": "V1",
+  "gate_status": "V1",
+  "verify_passes": {
+   "t2-17-021": {
+    "ds": "flag",
+    "mverify": "accept",
+    "mverify2": "accept",
+    "or2": "flag"
+   }
+  },
+  "verified_by": "t2mverify-chunk-045",
+  "verified_at": "2026-09-18T11:20:00Z",
+  "verdict_note": "Ramanathapuram sessions judgment text verifies 8-cop conviction for Karuppi custodial death; reported HC reversal unverified.",
+  "state": "Tamil Nadu",
+  "district": "Ramanathapuram",
+  "court": "Additional District and Sessions Court, Ramanathapuram",
+  "court_level": "sessions",
+  "trial_court_name": "Additional District and Sessions Court, Ramanathapuram (Thiru W. Sadasivam, First Sessions Judge / ASJ FAC)",
+  "case_title": "State (CBCID) v. [name withheld] and 7 others, SC No. 105/2007 (Karuppi custodial death, 2002)",
+  "case_number": "SC No. 105/2007",
+  "conviction_date": "2013-02-14",
+  "conviction_year": 2013,
+  "date_precision": "day",
+  "incident_date": "2002-12-01",
+  "incident_year": 2002,
+  "category": "brutality",
+  "subcategory": "custodial_death",
+  "raw_subcategory": "custodial_death",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Inspector of Police (A1)",
+    "unit": "Paramakudi City Police Station, Ramanathapuram",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Inspector of Police (A1), Paramakudi City Police Station, Ramanathapuram",
+    "key2_union": "unclear",
+    "name": null
+   },
+   {
+    "rank": "Sub-Inspector (A2)",
+    "unit": "Paramakudi City Police Station, Ramanathapuram",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Sub-Inspector (A2), Paramakudi City Police Station, Ramanathapuram",
+    "key2_union": "unclear",
+    "name": null
+   },
+   {
+    "rank": "Police personnel (A3; working under A1-A2)",
+    "unit": "Paramakudi City Police Station, Ramanathapuram",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police personnel (A3; working under A1-A2), Paramakudi City Police Station, Ramanathapuram",
+    "key2_union": "unclear",
+    "name": null
+   },
+   {
+    "rank": "Police personnel (A4; working under A1-A2)",
+    "unit": "Paramakudi City Police Station, Ramanathapuram",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police personnel (A4; working under A1-A2), Paramakudi City Police Station, Ramanathapuram",
+    "key2_union": "unclear",
+    "name": null
+   },
+   {
+    "rank": "Police personnel (A5; working under A1-A2)",
+    "unit": "Paramakudi City Police Station, Ramanathapuram",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police personnel (A5; working under A1-A2), Paramakudi City Police Station, Ramanathapuram",
+    "key2_union": "unclear",
+    "name": null
+   },
+   {
+    "rank": "Police personnel (A6; working under A1-A2)",
+    "unit": "Paramakudi City Police Station, Ramanathapuram",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police personnel (A6; working under A1-A2), Paramakudi City Police Station, Ramanathapuram",
+    "key2_union": "unclear",
+    "name": null
+   },
+   {
+    "rank": "Police personnel, retired (A7)",
+    "unit": "Paramakudi City Police Station, Ramanathapuram",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police personnel, retired (A7), Paramakudi City Police Station, Ramanathapuram",
+    "key2_union": "unclear",
+    "name": null
+   },
+   {
+    "rank": "Police personnel (A8; working under A1-A2)",
+    "unit": "Paramakudi City Police Station, Ramanathapuram",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police personnel (A8; working under A1-A2), Paramakudi City Police Station, Ramanathapuram",
+    "key2_union": "unclear",
+    "name": null
+   }
+  ],
+  "victims": [
+   {
+    "name": "Karuppi",
+    "gender": "female"
+   }
+  ],
+  "sections": [
+   "IPC 306",
+   "IPC 220",
+   "IPC 342",
+   "IPC 323",
+   "IPC 201",
+   "IPC 202",
+   "IPC 34"
+  ],
+  "sentence": "A1-A2: 10yr RI (s.306) + Rs 1 lakh fine each, 7yr (s.220), 3yr (s.201), 1yr (s.342), concurrent; A3-A5: 10yr (s.306/34), 7yr, 3yr, 1yr, 6mo; A6: 7yr, 3yr, 1yr, 6mo; A7: 6mo SI; A8: 3yr RI + 6mo SI",
+  "sentence_type": "mixed",
+  "sentence_max_years": 10,
+  "appeal_status": "set_aside",
+  "appeal_url": null,
+  "source_kind": "judgment",
+  "source_agency": null,
+  "primary_source_url": "https://www.peopleswatch.org/sites/default/files/reports/judgement_orders/02-Karuppi%20case%20FCT%20judgement%20-%20Final.pdf",
+  "secondary_sources": [
+   "https://www.peopleswatch.org/sites/default/files/reports/full_report/01-A%20Decade%20to%20Justice%20-%20People%27s%20Watch%20Case%20Study.pdf"
+  ],
+  "summary": "The Ramanathapuram Additional Sessions Court convicted all eight Paramakudi City policemen for illegally detaining Dalit housemaid Karuppi from 28 November to 1 December 2002 on a theft accusation, torturing her until she died in the women's cell, then hanging her body from a VHF tower behind the station to fake suicide. Inspector [name withheld] and SI [name withheld] drew 10 years RI under IPC s.306 with Rs 1 lakh fines; sentences ranged down to six months for the retired A7. The Madras High Court reversed the convictions and acquitted all eight in February 2014 (per HRW; T2-20 to verify appeal chain including reported SC petition).",
+  "court_quote": "the accused, in a bid to cover up the lock up death removed (Karuppi's) body from the women's cell and hung it in a VHF tower behind the station to give an impression that she had committed suicide",
+  "confidence": "high",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "t2-17",
+  "r8_check": {
+   "date": "2026-09-19",
+   "member_verdicts": {
+    "t2-17-021": "holds"
+   },
+   "applied": [],
+   "noted": []
+  },
+  "verification_badge": "V1 · Provenance checked — internal only",
+  "tier_badge": null,
+  "subcategory_display": "custodial death",
+  "last_checked": "2026-09-19",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-19",
+    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
+    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
+    "result": "t2-17-021=holds",
+    "corrections_applied": []
+   }
+  ],
+  "case_title_or_number": "State (CBCID) v. [name withheld] and 7 others, SC No. 105/2007 (Cr. No. 475/2002, Paramakudi Town PS)",
+  "status": "overturned"
+ },
+ {
+  "case_id": "t2w4-24-002",
+  "alias_case_ids": [],
+  "verification_status": "V2",
+  "gate_status": "V2",
+  "verify_passes": {
+   "t2w4-24-002": {
+    "mverify": "accept",
+    "mverify2": "accept"
+   }
+  },
+  "verified_by": "t2mverify-chunk-095",
+  "verified_at": "2026-09-18T19:31:48Z",
+  "verdict_note": "CBI press release confirms life sentence; subcategory corrected to custodial_death.",
+  "state": "Tamil Nadu",
+  "district": "Tiruvallur",
+  "court": "Additional Sessions Judge, Tiruvallur",
+  "court_level": "sessions",
+  "trial_court_name": "Additional Sessions Judge, Tiruvallur",
+  "case_title": "CBI v. [name withheld]",
+  "case_number": null,
+  "conviction_date": "2015-05-05",
+  "conviction_year": 2015,
+  "date_precision": "day",
+  "incident_date": "2009-07-09",
+  "incident_year": 2009,
+  "category": "brutality",
+  "subcategory": "custodial_death",
+  "raw_subcategory": "custodial_death",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Head Constable",
+    "unit": "Tamil Nadu Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Head Constable, Tamil Nadu Police",
+    "key2_union": null,
+    "name": null
+   }
+  ],
+  "victims": [
+   {
+    "name": "Dhanasekharan"
+   },
+   {
+    "name": "Semon"
+   }
+  ],
+  "sections": [
+   "IPC 302",
+   "IPC 307",
+   "Arms Act 27"
+  ],
+  "sentence": "Life imprisonment + Rs.20,000 fine",
+  "sentence_type": "mixed",
+  "sentence_max_years": null,
+  "appeal_status": "set_aside",
+  "appeal_url": "https://indiankanoon.org/doc/158621570/",
+  "source_kind": "press_release",
+  "source_agency": "CBI",
+  "primary_source_url": "https://cbi.gov.in/press-detail/MjEyNg==",
+  "secondary_sources": [],
+  "summary": "The Additional Sessions Judge, Tiruvallur convicted then-Tamil Nadu Police Head Constable [name withheld] of murder after he opened fire with his service rifle on 09.07.2009 at undertrials Dhanasekharan and Semon — accused in the 05.09.2008 murder of his mother Smt. Muniammal — while they were being escorted from Central Prison Puzhal to JM Court Thiruthani, killing Dhanasekharan instantly and injuring Semon. CBI registered the case on Madras High Court orders dated 23.04.2010 and chargesheeted him in March 2011; the court found him guilty of all charges and imposed life imprisonment with Rs.20,000 fine.",
+  "court_quote": "The court found Shri [name withheld], guilty of all the charges and convicted him.",
+  "confidence": "high",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "t2w4-24",
+  "r8_check": {
+   "date": "2026-09-19",
+   "member_verdicts": {
+    "t2w4-24-002": "holds"
+   },
+   "applied": [],
+   "noted": []
+  },
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "custodial death",
+  "last_checked": "2026-09-19",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-19",
+    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
+    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
+    "result": "t2w4-24-002=holds",
+    "corrections_applied": []
+   }
+  ],
+  "case_title_or_number": "CBI v. [name withheld] (then Head Constable, Tamil Nadu Police) — revenge shooting of escorted undertrials on 09.07.2009",
+  "status": "overturned"
+ },
+ {
+  "case_id": "t2-08-007",
+  "alias_case_ids": [
+   "t2-14-003"
+  ],
+  "verification_status": "V1",
+  "gate_status": "V2",
+  "verify_passes": {
+   "t2-08-007": {
+    "ds": "accept",
+    "mverify": "accept",
+    "mverify2": "accept",
+    "or2": "flag"
+   },
+   "t2-14-003": {
+    "ds": "accept",
+    "muse": "accept",
+    "mverify": "accept",
+    "mverify2": "accept",
+    "or2": "accept"
+   }
+  },
+  "verified_by": "t2verify-chunk-04",
+  "verified_at": "2026-09-17T22:10:45.928039+00:00",
+  "verdict_note": "Trial conviction verified (Rediff/PTI + Wikipedia + appeal record) but Allahabad HC later acquitted all 6 surviving appellants; needs overturned-appendix tag.",
+  "state": "Uttar Pradesh",
+  "district": "Gonda",
+  "court": "Special CBI Court, Lucknow (Special Judge Rajendra Singh)",
+  "court_level": "cbi_court",
+  "trial_court_name": "Special CBI Court, Lucknow (Special CBI Judge Rajendra Singh)",
+  "case_title": "CBI vs [name withheld] and others (1982 Gonda encounter case)",
+  "case_number": "CBI case (FIR 24.02.1984; charge-sheets 1989/2001; death reference Capital Sentence No. 01/2013)",
+  "conviction_date": "2013-03-29",
+  "conviction_year": 2013,
+  "date_precision": "day",
+  "incident_date": "1982-03-12",
+  "incident_year": 1982,
+  "category": "brutality",
+  "subcategory": "fake_encounter_extrajudicial_killing",
+  "raw_subcategory": "fake_encounter_extrajudicial_killing",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Station House Officer (former, Kaudia)",
+    "unit": "Gonda Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Station House Officer (former, Kaudia), Gonda Police",
+    "key2_union": null,
+    "name": null
+   },
+   {
+    "rank": "Constable (at time)",
+    "unit": "Gonda Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Constable (at time), Gonda Police",
+    "key2_union": null,
+    "name": null
+   },
+   {
+    "rank": "Head Constable (at time; Sub-Inspector at sentencing, Jaunpur)",
+    "unit": "UP Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Head Constable (at time; Sub-Inspector at sentencing, Jaunpur), UP Police",
+    "key2_union": null,
+    "name": null
+   },
+   {
+    "rank": "Police personnel (rank not stated in report)",
+    "unit": "UP Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police personnel (rank not stated in report), UP Police",
+    "key2_union": null,
+    "name": null
+   },
+   {
+    "rank": "Police personnel (rank not stated in report)",
+    "unit": "UP Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police personnel (rank not stated in report), UP Police",
+    "key2_union": null,
+    "name": null
+   },
+   {
+    "rank": "Police personnel (rank not stated in report)",
+    "unit": "UP Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police personnel (rank not stated in report), UP Police",
+    "key2_union": null,
+    "name": null
+   },
+   {
+    "rank": "Police personnel (rank not stated in report)",
+    "unit": "UP Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police personnel (rank not stated in report), UP Police",
+    "key2_union": null,
+    "name": null
+   },
+   {
+    "rank": "Police personnel (rank not stated in report)",
+    "unit": "UP Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police personnel (rank not stated in report), UP Police",
+    "key2_union": null,
+    "name": null
+   }
+  ],
+  "victims": [
+   {
+    "name": "K.P. Singh",
+    "age": 25,
+    "gender": "male"
+   },
+   {
+    "name": ""
+   },
+   {
+    "name": ""
+   },
+   {
+    "name": ""
+   },
+   {
+    "name": ""
+   },
+   {
+    "name": ""
+   },
+   {
+    "name": ""
+   },
+   {
+    "name": ""
+   },
+   {
+    "name": ""
+   },
+   {
+    "name": ""
+   },
+   {
+    "name": ""
+   },
+   {
+    "name": ""
+   },
+   {
+    "name": ""
+   }
+  ],
+  "sections": [
+   "IPC 302",
+   "IPC 120B"
+  ],
+  "sentence": "Death to 3 ([name withheld], Yadav, Pandey); life to 5 facilitators (sentenced 5 April 2013); 10 other convicts died during the 31-year trial; 1 acquitted (Prem Singh)",
+  "sentence_type": "mixed",
+  "sentence_max_years": null,
+  "appeal_status": "set_aside",
+  "appeal_url": "https://timesofindia.indiatimes.com/city/lucknow/dysps-murder-case-allahabad-high-court-acquits-6-cops/articleshow/57545954.cms",
+  "source_kind": "news",
+  "source_agency": null,
+  "primary_source_url": "http://www.rediff.com/news/report/gonda-fake-encounter-3-get-death-penalty-life-term-to-5/20130405.htm",
+  "secondary_sources": [
+   "https://en.wikipedia.org/wiki/1982_Gonda_Encounter",
+   "https://hillpost.in/2013/04/31-years-after-staged-shootout-three-up-cops-get-the-noose/65346/",
+   "https://timesofindia.indiatimes.com/city/lucknow/dysps-murder-case-allahabad-high-court-acquits-6-cops/articleshow/57545954.cms",
+   "https://www.the-laws.com/encyclopedia/browse/case?caseId=307102830400&title=state-vs-s-i-r-b-saroj-s-o-kaudia-and-ors"
+  ],
+  "summary": "A Special CBI Court (Judge [name withheld]) convicted 18 UP policemen for the 12 March 1982 staged shootout at Madhopur village, Gonda, in which 12 villagers and DSP K.P. Singh were shot dead. The court found then-SHO [name withheld], constable [name withheld] Yadav and head constable [name withheld] plotted the DSP's killing and sentenced them to death on 5 April 2013, with life terms for five facilitators. The CBI probe began in 1984 on Supreme Court orders; ten convicts died during the 31-year trial.",
+  "court_quote": "The manner of the killing of DSP KP Singh and 12 villagers and thereafter creating false encounter memo and fake recovery memos makes it rarest of rare case.",
+  "confidence": "medium",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "t2-08+t2-14",
+  "r8_check": {
+   "date": "2026-09-19",
+   "member_verdicts": {
+    "t2-08-007": "holds",
+    "t2-14-003": "wrong_facts"
+   },
+   "applied": [],
+   "noted": [
+    "t2-14-003:officers"
+   ]
+  },
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "fake encounter extrajudicial killing",
+  "last_checked": "2026-09-19",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-19",
+    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
+    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
+    "result": "t2-08-007=holds, t2-14-003=wrong_facts",
+    "corrections_applied": []
+   }
+  ],
+  "case_title_or_number": "CBI vs [name withheld] and others (Madhopur staged shootout, 12 villagers + DSP K.P. Singh killed, 12 March 1982)",
+  "status": "overturned"
+ },
+ {
+  "case_id": "t2w2-11-003",
+  "alias_case_ids": [],
+  "verification_status": "V1",
+  "gate_status": "V1",
+  "verify_passes": {
+   "t2w2-11-003": {
+    "mverify": "accept",
+    "mverify2": "accept",
+    "or2": "flag"
+   }
+  },
+  "verified_by": "t2mverify-chunk-068",
+  "verified_at": "2026-09-18T17:14:00Z",
+  "verdict_note": "Magistrate-court conviction verified via Amnesty + HC judgments; sentence struck down, remanded, pending — overturned, appendix material.",
+  "state": "West Bengal",
+  "district": "Kolkata",
+  "court": "Metropolitan Magistrate, 7th Court, Calcutta",
+  "court_level": "magistrate",
+  "trial_court_name": "Metropolitan Magistrate, 7th Court, Calcutta (Case No. C/3285/77)",
+  "case_title": "Archana Guha v. [name withheld] & Ors",
+  "case_number": "Case No. C/3285/77",
+  "conviction_date": "1996-06-05",
+  "conviction_year": 1996,
+  "date_precision": "day",
+  "incident_date": "1974-07-18",
+  "incident_year": 1974,
+  "category": "brutality",
+  "subcategory": "custodial_torture",
+  "raw_subcategory": "custodial_torture",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Assistant Commissioner-I (at time of offence; later Deputy Commissioner)",
+    "unit": "Special Branch, Calcutta Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Assistant Commissioner-I (at time of offence; later Deputy Commissioner), Special Branch, Calcutta Police",
+    "key2_union": null,
+    "name": null
+   },
+   {
+    "rank": "Constable",
+    "unit": "Calcutta Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Constable, Calcutta Police",
+    "key2_union": null,
+    "name": null
+   }
+  ],
+  "victims": [
+   {
+    "name": "Archana Guha",
+    "gender": "female"
+   },
+   {
+    "name": "Latika Guha",
+    "gender": "female"
+   },
+   {
+    "name": "Gouri Chatterjee",
+    "gender": "female"
+   }
+  ],
+  "sections": [
+   "IPC 166",
+   "IPC 330/34",
+   "IPC 348/34",
+   "IPC 509"
+  ],
+  "sentence": "1 year's imprisonment and fine Rs.2,000 each",
+  "sentence_type": "mixed",
+  "sentence_max_years": 1,
+  "appeal_status": "set_aside",
+  "appeal_url": "https://www.amnesty.org/en/wp-content/uploads/2021/06/asa200332001en.pdf",
+  "source_kind": "news",
+  "source_agency": null,
+  "primary_source_url": "https://www.amnesty.org/ru/wp-content/uploads/2021/06/nws210011997en.pdf",
+  "secondary_sources": [
+   "https://indiankanoon.org/doc/1229348/",
+   "https://indiankanoon.org/doc/650996/",
+   "https://www.amnesty.org/en/wp-content/uploads/2021/06/asa200332001en.pdf"
+  ],
+  "summary": "On 5 June 1996 a Calcutta magistrate's court sentenced two police officers, [name withheld] (Assistant Commissioner-I, Special Branch at the time) and Constable [name withheld], to one year's imprisonment and a Rs.2,000 fine each for torturing headmistress Archana Guha (left with paralysed legs) and two other women in illegal custody at Lalbazar in July 1974, at the end of a 19-year private-complaint trial (C/3285/77). On appeal the Calcutta High Court struck down the sentence on technical grounds (separate sentences per charge not read out) and remanded the case to the sub-divisional judicial magistrate's court, where it was still pending in August 2001 when one of the officers died; an Amnesty news bulletin renders the verdict month as August 1996.",
+  "court_quote": "Finally on 5 June 1996 the former deputy Commissioner of Kolkata Police and another police officer were sentenced to one year imprisonment and a fine of Rs.2,000 ($57).",
+  "confidence": "high",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "t2w2-11",
+  "r8_check": {
+   "date": "2026-09-19",
+   "member_verdicts": {
+    "t2w2-11-003": "holds"
+   },
+   "applied": [],
+   "noted": []
+  },
+  "verification_badge": "V1 · Provenance checked — internal only",
+  "tier_badge": null,
+  "subcategory_display": "custodial torture",
+  "last_checked": "2026-09-19",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-19",
+    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
+    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
+    "result": "t2w2-11-003=holds",
+    "corrections_applied": []
+   }
+  ],
+  "case_title_or_number": "Archana Guha v. [name withheld] & Ors (Case No. C/3285/77)",
+  "status": "overturned"
+ },
+ {
+  "case_id": "t2w2-11-022",
+  "alias_case_ids": [],
+  "verification_status": "V1",
+  "gate_status": "V1",
+  "verify_passes": {
+   "t2w2-11-022": {
+    "mverify": "accept",
+    "mverify2": "accept",
+    "or2": "flag"
+   }
+  },
+  "verified_by": "t2mverify2-chunk-069 (SECOND independent pass — do not read any other verifier's output)",
+  "verified_at": "2026-09-18T13:36:37Z",
+  "verdict_note": "Trial court's 302 conviction modified by Calcutta HC to 304 Part II with release on undergone sentence; conviction stands.",
+  "state": "West Bengal",
+  "district": "Hooghly",
+  "court": "Additional Sessions Judge, 2nd Fast Track Court, Hooghly (judgment para 1, not 'District and Sessions Judge')",
+  "court_level": "sessions",
+  "trial_court_name": "Additional Sessions Judge, 2nd Fast Track Court, Hooghly (judgment para 1, not 'District and Sessions Judge')",
+  "case_title": "[name withheld] vs [name withheld]",
+  "case_number": "Sessions Trial No.2/2006 (S.C. No.204/05); Uttarpara PS Case No.128/03",
+  "conviction_date": "2008-04-18",
+  "conviction_year": 2008,
+  "date_precision": "day",
+  "incident_date": "2003-09-04",
+  "incident_year": 2003,
+  "category": "brutality",
+  "subcategory": "disproportionate_force",
+  "raw_subcategory": "murder",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Constable",
+    "unit": "West Bengal Police, Uttarpara Police Station, Hooghly",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Constable, West Bengal Police, Uttarpara Police Station, Hooghly",
+    "key2_union": "no",
+    "name": null
+   }
+  ],
+  "victims": [
+   {
+    "name": "Sanjoy Chakraborty",
+    "gender": "male"
+   }
+  ],
+  "sections": [
+   "IPC s.302 (trial court)",
+   "IPC s.304 Part II (as modified on appeal)"
+  ],
+  "sentence": "Rigorous imprisonment for life and fine of Rs 10,000 (in default, 2 years further rigorous imprisonment)",
+  "sentence_type": "mixed",
+  "sentence_max_years": 6.83,
+  "appeal_status": "set_aside",
+  "appeal_url": "https://www.courtkutchehry.com/judgements/871382/purnendu-samanta-appellant-hash-state-of-west-bengal-respondent/",
+  "source_kind": "judgment",
+  "source_agency": null,
+  "primary_source_url": "https://indiankanoon.org/doc/86219018/",
+  "secondary_sources": [
+   "https://www.courtkutchehry.com/judgements/871382/purnendu-samanta-appellant-hash-state-of-west-bengal-respondent/"
+  ],
+  "summary": "The District and Sessions Judge, 2nd Fast Track Court, Hooghly convicted West Bengal Police constable [name withheld] of Uttarpara police station for shooting dead motorcyclist Sanjoy Chakraborty during a night vehicle check on G.T. Road on 4 September 2003 (Uttarpara PS Case No.128/03), sentencing him to rigorous life imprisonment with a Rs.10,000 fine on 18 April 2008. On appeal (CRA 310/2008) the Calcutta High Court on 29 January 2015 set aside the section 302 conviction, convicted him instead under section 304 IPC, and ordered his release on the sentence already undergone (6 years 10 months).",
+  "court_quote": "In our opinion he has committed a culpable homicide not amounting to murder. The conviction of the appellant under Section 302 of the IPC is set aside. Instead, he is convicted under Section 304 Part II.",
+  "confidence": "high",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "t2w2-11",
+  "r8_check": {
+   "date": "2026-09-19",
+   "member_verdicts": {
+    "t2w2-11-022": "holds"
+   },
+   "applied": [
+    "summary",
+    "trial_court_name"
+   ],
+   "noted": []
+  },
+  "verification_badge": "V1 · Provenance checked — internal only",
+  "tier_badge": null,
+  "subcategory_display": "disproportionate force",
+  "last_checked": "2026-09-19",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-19",
+    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
+    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
+    "result": "t2w2-11-022=holds",
+    "corrections_applied": [
+     "summary",
+     "trial_court_name"
+    ]
+   }
+  ],
+  "case_title_or_number": "Sessions Trial No. 2 of 2006 (S.C. No. 204/05); Uttarpara P.S. Case No. 128/03",
+  "status": "overturned"
+ }
+]

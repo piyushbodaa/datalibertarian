@@ -8,3 +8,7 @@ data/raw
 
 test-results/
 playwright-report/
+
+# babuwatch engine local builds
+babuwatch/dist
+__pycache__/
