@@ -324,13 +324,13 @@ class TestDistConsistency(unittest.TestCase):
             self.assertIn("ctx-table", html)
 
     def test_trialcourt_pages(self):
+        # Owner decision 2026-09-23: the Trial Courts *section* (index +
+        # per-state listings) is gone from the site; the trial-court RECORDS
+        # stay published at /trial-court/<id>.
         if not self.has_dist:
             self.skipTest("dist/ not built")
-        with open(os.path.join(self.dist, "trial-court", "index.html"),
-                  encoding="utf-8") as f:
-            html = f.read()
-        self.assertIn("Trial-court convictions", html)
-        self.assertIn("appeal status", html.lower())
+        self.assertFalse(os.path.exists(
+            os.path.join(self.dist, "trial-court", "index.html")))
         with open(os.path.join(self.dist, "data", "tier2.json"),
                   encoding="utf-8") as f:
             t2 = json.load(f)

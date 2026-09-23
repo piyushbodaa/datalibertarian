@@ -42,8 +42,11 @@ PROFILE = {
         {"dir": "data/civil", "home": "babuwatch", "service": "civil"},
     ],
     "parent_org": None,
-    "static_pages": ["rights", "remedy", "about"],
+    "static_pages": ["about"],
     "context_charts": False,
+    # Owner decision 2026-09-23: no Trial Courts *section* (index +
+    # per-state listings). The trial-court RECORDS stay published.
+    "trial_section_index": False,
     "site_categories": ["Bribery & extortion", "Disproportionate assets",
                         "Fraud & misappropriation",
                         "Violence & unlawful detention", "Other misconduct"],
@@ -55,9 +58,7 @@ PROFILE = {
            ("dereliction_evidence_tampering", "Other misconduct"),
            ("false_implication_fabrication", "Other misconduct")]),
     "nav": [("/tracker", "Incident Tracker"), ("/patterns", "Patterns"),
-            ("/trial-court", "Trial Courts"), ("/rights", "Know Your Rights"),
-            ("/remedy", "Seek Remedy"), ("/methodology", "Methodology"),
-            ("/about", "About")],
+            ("/methodology", "Methodology")],
     "home_sections": ["hero", "ref:intent-prototype", "ref:does", "tracker",
                       "ref:ledger", "patterns", "ref:disclaimer"],
     "text": {
@@ -93,8 +94,8 @@ PROFILE = {
             "A public register of what India's courts decided about the "
             "people who exercise state power on the public's behalf."),
         "footer_cols": (
-            '        <div class="foot-col"><h5>The record</h5><a href="/tracker">Incident tracker</a><a href="/trial-court">Trial-court convictions</a><a href="/patterns">Patterns dashboard</a><a href="/data">Open data</a></div>\n'
-            '        <div class="foot-col"><h5>Learn</h5><a href="/rights">Know your rights</a><a href="/remedy">Seek a remedy</a><a href="/tracker?service=civil">Civil servants</a><a href="/tracker?service=police">Police officers</a></div>\n'
+            '        <div class="foot-col"><h5>The record</h5><a href="/tracker">Incident tracker</a><a href="/patterns">Patterns dashboard</a><a href="/data">Open data</a></div>\n'
+            '        <div class="foot-col"><h5>Browse</h5><a href="/tracker?service=civil">Civil servants</a><a href="/tracker?service=police">Police officers</a><a href="/tracker?level=trial">Trial-court records</a></div>\n'
             '        <div class="foot-col"><h5>About</h5><a href="/methodology">Methodology</a><a href="/about">About us</a><a href="{{mailto}}">Contact</a></div>'),
         "footer_disclaimer": (
             "Babuwatch records court findings against public servants in "

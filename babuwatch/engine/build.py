@@ -3091,7 +3091,7 @@ def build_trialcourt_record(p):
                    % esc(p["appeal_url"])) if p.get("appeal_url") else ""
     main = """
   <div class="wrap">
-    <nav class="incident-breadcrumb" aria-label="Breadcrumb"><a href="/trial-court">Trial-court convictions</a><span aria-hidden="true">/</span><span>%s</span></nav>
+    <nav class="incident-breadcrumb" aria-label="Breadcrumb"><a href="/tracker?level=trial">Trial-court records</a><span aria-hidden="true">/</span><span>%s</span></nav>
     <header class="incident-hero">
       <div class="incident-hero-copy">
         <div class="trial-flag">Trial-court conviction</div>
@@ -3124,7 +3124,7 @@ def build_trialcourt_record(p):
         <section class="incident-sources" id="sources"><div class="incident-section-head"><div><div class="incident-section-label">Citations</div><h2>Public sources</h2></div><span>%d</span></div>
           %s
         </section>
-        <a class="incident-back" href="/trial-court">&larr; Back to all trial-court records</a>
+        <a class="incident-back" href="/tracker?level=trial">&larr; Back to all trial-court records</a>
       </aside>
     </div>
   </div>
@@ -6902,30 +6902,35 @@ def main():
                     % (esc(rid), esc(SITE_NAME), esc(new_url),
                        esc(new_url), esc(new_url), esc(rid)))
             write(os.path.join(DIST, "incident", mid, "index.html"), stub)
-    # Trial-court section: index + per-state + per-record (+ Markdown twins).
-    t2_main = build_trialcourt_index(t2public, t2_by_state)
-    t2_desc = fill(T["trial_desc"], n2=n2, headline=head)
-    t2_html = page_shell("Trial-court convictions \u2014 " + SITE_NAME,
-                         t2_desc, "/trial-court", t2_main,
-                         route="/trial-court",
-                         md_rel="/trial-court/index.md")
-    write(os.path.join(DIST, "trial-court", "index.html"), t2_html)
-    write(os.path.join(DIST, "trial-court.html"), t2_html)
-    t2_md = md_trialcourt_index(t2public, t2_by_state)
-    write(os.path.join(DIST, "trial-court", "index.md"), t2_md)
-    write(os.path.join(DIST, "trial-court.md"), t2_md)
-    for s in sorted(t2_by_state):
-        slug = slugify(s)
-        smain = build_trialcourt_state(s, t2_by_state[s])
-        sdesc = fill(T["trial_state_desc"], n=len(t2_by_state[s]), state=s)
-        stitle = ("%s \u2014 %d trial-court convictions \u2014 %s"
-                  % (s, len(t2_by_state[s]), SITE_NAME))
-        write(os.path.join(DIST, "trial-court", slug, "index.html"),
-              page_shell(stitle, sdesc, "/trial-court/%s" % slug, smain,
-                         route="/trial-court",
-                         md_rel="/trial-court/%s/index.md" % slug))
-        write(os.path.join(DIST, "trial-court", slug, "index.md"),
-              md_trialcourt_state(s, t2_by_state[s]))
+    # Trial-court records (+ Markdown twins). The section's index and its
+    # per-state listings build only when the watch wants them: owner
+    # decision 2026-09-23 — Babuwatch has no Trial Courts section; the
+    # records themselves stay published at /trial-court/<id>.
+    if P.get("trial_section_index", True):
+        t2_main = build_trialcourt_index(t2public, t2_by_state)
+        t2_desc = fill(T["trial_desc"], n2=n2, headline=head)
+        t2_html = page_shell("Trial-court convictions \u2014 " + SITE_NAME,
+                             t2_desc, "/trial-court", t2_main,
+                             route="/trial-court",
+                             md_rel="/trial-court/index.md")
+        write(os.path.join(DIST, "trial-court", "index.html"), t2_html)
+        write(os.path.join(DIST, "trial-court.html"), t2_html)
+        t2_md = md_trialcourt_index(t2public, t2_by_state)
+        write(os.path.join(DIST, "trial-court", "index.md"), t2_md)
+        write(os.path.join(DIST, "trial-court.md"), t2_md)
+        for s in sorted(t2_by_state):
+            slug = slugify(s)
+            smain = build_trialcourt_state(s, t2_by_state[s])
+            sdesc = fill(T["trial_state_desc"], n=len(t2_by_state[s]),
+                         state=s)
+            stitle = ("%s \u2014 %d trial-court convictions \u2014 %s"
+                      % (s, len(t2_by_state[s]), SITE_NAME))
+            write(os.path.join(DIST, "trial-court", slug, "index.html"),
+                  page_shell(stitle, sdesc, "/trial-court/%s" % slug, smain,
+                             route="/trial-court",
+                             md_rel="/trial-court/%s/index.md" % slug))
+            write(os.path.join(DIST, "trial-court", slug, "index.md"),
+                  md_trialcourt_state(s, t2_by_state[s]))
     for p in t2public:
         if not is_local(p):
             continue            # rendered by its home watch; linked there
@@ -6991,14 +6996,17 @@ def main():
     # noslash form. Home ("") likewise emits the bare SITE_URL loc.
     statics = [s for s in ("rights", "remedy", "about")
                if s in P["static_pages"]]
-    urls = (["", "/tracker", "/patterns", "/trial-court"]
+    urls = (["", "/tracker", "/patterns"]
+            + (["/trial-court"] if P.get("trial_section_index", True)
+               else [])
             + ["/%s" % s for s in statics if s != "about"]
             + ["/methodology"]
             + ["/%s" % s for s in statics if s == "about"] + ["/data"])
     urls += ["/state/%s" % slugify(s) for s in STATES_36]
     urls += ["/incident/%s" % (c.get("record_id") or c["merged_id"])
              for c in local_cases]
-    urls += ["/trial-court/%s" % slugify(s) for s in sorted(t2_by_state)]
+    if P.get("trial_section_index", True):
+        urls += ["/trial-court/%s" % slugify(s) for s in sorted(t2_by_state)]
     urls += ["/trial-court/%s" % t2_id(p) for p in local_t2]
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']

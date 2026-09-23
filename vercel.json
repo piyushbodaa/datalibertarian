@@ -62,7 +62,7 @@
     },
     {
       "source": "/copwatchindia/report",
-      "destination": "/babuwatch/remedy",
+      "destination": "/babuwatch#seek-remedy",
       "permanent": true
     },
     {
@@ -92,7 +92,7 @@
     },
     {
       "source": "/babuwatch/copwatchindia/report",
-      "destination": "/babuwatch/remedy",
+      "destination": "/babuwatch#seek-remedy",
       "permanent": true
     },
     {
@@ -113,6 +113,36 @@
     {
       "source": "/babuwatch/copwatch/:path*",
       "destination": "/babuwatch/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/rights",
+      "destination": "/babuwatch#seek-remedy",
+      "permanent": true
+    },
+    {
+      "source": "/remedy",
+      "destination": "/babuwatch#seek-remedy",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/rights",
+      "destination": "/babuwatch#seek-remedy",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/remedy",
+      "destination": "/babuwatch#seek-remedy",
+      "permanent": true
+    },
+    {
+      "source": "/trial-court",
+      "destination": "/babuwatch/tracker?level=trial",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/trial-court",
+      "destination": "/babuwatch/tracker?level=trial",
       "permanent": true
     }
   ]
