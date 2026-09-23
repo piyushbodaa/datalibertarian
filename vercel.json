@@ -57,32 +57,62 @@
   "redirects": [
     {
       "source": "/copwatchindia",
-      "destination": "/babuwatch/copwatchindia",
+      "destination": "/babuwatch",
+      "permanent": true
+    },
+    {
+      "source": "/copwatchindia/report",
+      "destination": "/babuwatch/remedy",
+      "permanent": true
+    },
+    {
+      "source": "/copwatchindia/volunteer",
+      "destination": "/babuwatch/about",
       "permanent": true
     },
     {
       "source": "/copwatchindia/:path*",
-      "destination": "/babuwatch/copwatchindia/:path*",
+      "destination": "/babuwatch/:path*",
       "permanent": true
     },
     {
       "source": "/copwatch",
-      "destination": "/babuwatch/copwatchindia",
+      "destination": "/babuwatch",
       "permanent": true
     },
     {
       "source": "/copwatch/:path*",
-      "destination": "/babuwatch/copwatchindia/:path*",
+      "destination": "/babuwatch/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/copwatchindia",
+      "destination": "/babuwatch",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/copwatchindia/report",
+      "destination": "/babuwatch/remedy",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/copwatchindia/volunteer",
+      "destination": "/babuwatch/about",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/copwatchindia/:path*",
+      "destination": "/babuwatch/:path*",
       "permanent": true
     },
     {
       "source": "/babuwatch/copwatch",
-      "destination": "/babuwatch/copwatchindia",
+      "destination": "/babuwatch",
       "permanent": true
     },
     {
       "source": "/babuwatch/copwatch/:path*",
-      "destination": "/babuwatch/copwatchindia",
+      "destination": "/babuwatch/:path*",
       "permanent": true
     }
   ]

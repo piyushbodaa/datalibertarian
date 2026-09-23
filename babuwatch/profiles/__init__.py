@@ -13,9 +13,11 @@ templates/<dir>/, then add the slug here. See babuwatch/README.md.
 import importlib
 import sys
 
-# Build order + switcher order. The umbrella comes first; its sub-watches
-# follow. Every slug here must have a profiles/<slug>.py.
-WATCHES = ["babuwatch", "copwatchindia"]
+# Build order + switcher order. Owner decision 2026-09-23: Copwatch India
+# is merged fully under Babuwatch — one watch, one nav, every record in a
+# single URL space. Old /copwatchindia/* URLs redirect permanently
+# (see vercel.json). Only slugs listed here are built.
+WATCHES = ["babuwatch"]
 
 
 def cli_arg(flag, default=None):

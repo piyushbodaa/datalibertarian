@@ -3,7 +3,7 @@
 
 Run:  python3 -m unittest discover -s babuwatch/engine -p 'test_*.py'
 (from the repo root; `npm run test:babuwatch`). The dist-consistency
-checks build the copwatchindia watch into a temp dir first (a few
+checks build the babuwatch watch into a temp dir first (a few
 seconds), or use $WATCH_DIST when it points at an existing build.
 Covers: index shape (short keys only, no name-bearing structures),
 summary truncation, officer-gate-safe search text, filter/facet
@@ -171,7 +171,7 @@ class TestT2Dates(unittest.TestCase):
         self.assertIn('__BASE__/data/index.json', B.TRACKER_JS)
         self.assertNotIn('DATA_URL = "__BASE__/data/cases.json"',
                          B.TRACKER_JS)
-        self.assertEqual(B.BASE, "/babuwatch/copwatchindia")
+        self.assertEqual(B.BASE, "/babuwatch")
 
     def test_tracker_loads_trial_index_lazily(self):
         self.assertIn('__BASE__/data/index-trial.json', B.TRACKER_JS)
@@ -191,7 +191,7 @@ class TestDistConsistency(unittest.TestCase):
             cls.dist = cls._tmp.name
             subprocess.run([sys.executable, "-B",
                             os.path.join(HERE, "build.py"),
-                            "--watch", "copwatchindia", "--out", cls.dist],
+                            "--watch", "babuwatch", "--out", cls.dist],
                            check=True, stdout=subprocess.DEVNULL)
         cls.has_dist = os.path.isdir(os.path.join(cls.dist, "data", "case"))
 
@@ -316,8 +316,12 @@ class TestDistConsistency(unittest.TestCase):
         self.assertIn("bar-details", html)
         self.assertIn("subcategory=", html)
         self.assertIn("level=trial", html)
-        self.assertIn("Complaints vs convictions", html)
-        self.assertIn("ctx-table", html)
+        if B.P.get("context_charts"):
+            # Context charts need the complaints-authority dataset (the
+            # police register's context.json); only watches with that data
+            # render the section.
+            self.assertIn("Complaints vs convictions", html)
+            self.assertIn("ctx-table", html)
 
     def test_trialcourt_pages(self):
         if not self.has_dist:

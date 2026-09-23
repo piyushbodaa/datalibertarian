@@ -37,12 +37,12 @@ PROFILE = {
     "templates": "babuwatch",
     # Every register's records. The first dataset also supplies cases.csv.
     "datasets": [
-        {"dir": "data/copwatchindia", "home": "copwatchindia",
+        {"dir": "data/copwatchindia", "home": "babuwatch",
          "service": "police"},
         {"dir": "data/civil", "home": "babuwatch", "service": "civil"},
     ],
     "parent_org": None,
-    "static_pages": ["about"],
+    "static_pages": ["rights", "remedy", "about"],
     "context_charts": False,
     "site_categories": ["Bribery & extortion", "Disproportionate assets",
                         "Fraud & misappropriation",
@@ -54,11 +54,12 @@ PROFILE = {
         + [("other", "Other misconduct"),
            ("dereliction_evidence_tampering", "Other misconduct"),
            ("false_implication_fabrication", "Other misconduct")]),
-    "nav": [("/tracker", "Tracker"), ("/trial-court", "Trial Courts"),
-            ("/patterns", "Patterns"), ("/methodology", "Methodology"),
+    "nav": [("/tracker", "Incident Tracker"), ("/patterns", "Patterns"),
+            ("/trial-court", "Trial Courts"), ("/rights", "Know Your Rights"),
+            ("/remedy", "Seek Remedy"), ("/methodology", "Methodology"),
             ("/about", "About")],
-    "home_sections": ["hero", "watches", "ref:does", "tracker", "ref:ledger",
-                      "patterns", "ref:disclaimer"],
+    "home_sections": ["hero", "ref:intent-prototype", "ref:does", "tracker",
+                      "ref:ledger", "patterns", "ref:disclaimer"],
     "text": {
         "headline": (
             "{{total}} court-adjudicated records against public servants "
@@ -77,13 +78,23 @@ PROFILE = {
             "public servants — civil servants and police — each "
             "attributed to the court that decided it."),
         "og_alt": "Babuwatch — No public servant is above the law",
+        "static_rights_title": "Know Your Rights",
+        "static_rights_desc": (
+            "Grounds of arrest, the arrest memo, informing family, "
+            "medical examination, production before a magistrate&mdash;and "
+            "what to do if someone is picked up."),
+        "static_remedy_title": "Seek a Remedy",
+        "static_remedy_desc": (
+            "Lawful escalation through senior officers, magistrates, "
+            "Human Rights Commissions, Legal Services Authorities, and "
+            "courts. Free legal aid is a right."),
         "footer_tagline": "Record &middot; Attribute &middot; Correct",
         "footer_about": (
             "A public register of what India's courts decided about the "
             "people who exercise state power on the public's behalf."),
         "footer_cols": (
-            '        <div class="foot-col"><h5>The record</h5><a href="/tracker">Tracker</a><a href="/trial-court">Trial-court convictions</a><a href="/patterns">Patterns dashboard</a><a href="/data">Open data</a></div>\n'
-            '        <div class="foot-col"><h5>Registers</h5><a href="/tracker?service=civil">Civil servants</a><a href="@ROOT@/babuwatch/copwatchindia">Copwatch India (police)</a></div>\n'
+            '        <div class="foot-col"><h5>The record</h5><a href="/tracker">Incident tracker</a><a href="/trial-court">Trial-court convictions</a><a href="/patterns">Patterns dashboard</a><a href="/data">Open data</a></div>\n'
+            '        <div class="foot-col"><h5>Learn</h5><a href="/rights">Know your rights</a><a href="/remedy">Seek a remedy</a><a href="/tracker?service=civil">Civil servants</a><a href="/tracker?service=police">Police officers</a></div>\n'
             '        <div class="foot-col"><h5>About</h5><a href="/methodology">Methodology</a><a href="/about">About us</a><a href="{{mailto}}">Contact</a></div>'),
         "footer_disclaimer": (
             "Babuwatch records court findings against public servants in "
@@ -101,8 +112,8 @@ PROFILE = {
             '    <h1>No public servant is <span class="against">above</span> the law.</h1>\n'
             '    <p class="sub">Babuwatch documents {{headline}} across India &mdash; each one attributed to the court that decided it.</p>\n'
             '    <div class="prototype-actions">\n'
-            '      <a href="/tracker" class="btn btn-primary">Browse every record</a>\n'
-            '      <a href="/methodology" class="btn btn-ghost">How we verify</a>\n'
+            '      <a href="#start-here" class="btn btn-primary">What happened? Start here</a>\n'
+            '      <a href="/tracker" class="btn btn-ghost">Browse every record</a>\n'
             '    </div>\n'
             '    <p class="prototype-caveat">A public record, not a complaints service. Findings are the courts’; names are withheld unless the naming gate clears them.</p>\n'
             '  </div>\n'
@@ -181,11 +192,10 @@ PROFILE = {
             "courts &mdash; drawn from judgments, official conviction lists "
             "and press releases."),
         "trial_index_callout": (
-            "Civil-servant records publish at V2: the official source was "
-            "read and each fact matched to it. Police records follow "
-            "Copwatch India's rule, and some rest on a single press release "
-            "(V1). Officials are shown by post and department unless the "
-            "naming gate cleared the name."),
+            "Trial-court records publish at V1 and above: V2 records were "
+            "matched fact by fact to the official source, and some rest on "
+            "a single press release (V1). Officials are shown by post and "
+            "department unless the naming gate cleared the name."),
         "trial_state_sub": (
             "Trial-court convictions of public servants from {{state}}."),
         "methodology_size": (

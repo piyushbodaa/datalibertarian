@@ -10,7 +10,7 @@ trial-court convictions; counts computed from data at build time).
 Static-only: no forms; search/filter is client-side JS over
 /data/index.json, honouring the ?filter= / ?q= vocabulary.
 
-    python3 engine/build.py --watch copwatchindia --out dist/copwatchindia
+    python3 engine/build.py --watch babuwatch --out dist/babuwatch
 
 Normally run for every watch by babuwatch/build_all.py.
 """
@@ -33,10 +33,10 @@ sys.path.insert(0, ROOT)
 import profiles                                                   # noqa: E402
 
 # One engine, many watches. `--watch <slug>` picks a profile from
-# profiles/<slug>.py (default: copwatchindia); `--out <dir>` picks where the
+# profiles/<slug>.py (default: babuwatch); `--out <dir>` picks where the
 # site is written. Every site-specific constant below comes from the profile,
 # so nothing in this file names a particular watch.
-WATCH = profiles.cli_arg("--watch", os.environ.get("WATCH", "copwatchindia"))
+WATCH = profiles.cli_arg("--watch", os.environ.get("WATCH", "babuwatch"))
 P = profiles.load(WATCH)
 T = P["text"]                    # every site-specific sentence lives here
 DIST = os.path.abspath(profiles.cli_arg(
@@ -2843,7 +2843,7 @@ def build_patterns(cases, t2cases=None, context=None, n_overturned=0):
     main = """
 <section class="pagehead"><div class="wrap"><div class="eyebrow">What the record shows</div><h1>Patterns dashboard</h1><p class="sub">Anonymised aggregates drawn from %s. Verification and institutional action are reported separately. Use the tier toggle to split High Court / Supreme Court judgments from trial-court convictions.</p></div></section>
 <section class="section"><div class="wrap">
-<div class="callout"><div class="lab">Live dataset</div><p>The public dataset currently contains <strong>%s</strong> from <strong>%d states and union territories</strong>. %s Counts show recorded allegations regardless of their individual evidence position; they are not counts of proven misconduct. These records are not a representative sample, and they do not claim to estimate the prevalence of misconduct across India. This collection covers only judgments with adverse findings against police personnel; acquittals and exonerations on the same facts are retained when found.</p></div><div class="pat-grid" style="margin-top:34px"><div class="pat"><div class="fig">%d</div><div class="cap">States with a published record</div></div><div class="pat"><div class="fig">%d records</div><div class="cap">At V3 verification</div></div><div class="pat"><div class="fig">%d records</div><div class="cap">With a concluded court judgment</div></div><div class="pat"><div class="fig">%d records</div><div class="cap">Recent judgments (appeal possible)</div></div></div>
+<div class="callout"><div class="lab">Live dataset</div><p>The public dataset currently contains <strong>%s</strong> from <strong>%d states and union territories</strong>. %s Counts show recorded allegations regardless of their individual evidence position; they are not counts of proven misconduct. These records are not a representative sample, and they do not claim to estimate the prevalence of misconduct across India. This collection covers only judgments with adverse findings against public servants; acquittals and exonerations on the same facts are retained when found.</p></div><div class="pat-grid" style="margin-top:34px"><div class="pat"><div class="fig">%d</div><div class="cap">States with a published record</div></div><div class="pat"><div class="fig">%d records</div><div class="cap">At V3 verification</div></div><div class="pat"><div class="fig">%d records</div><div class="cap">With a concluded court judgment</div></div><div class="pat"><div class="fig">%d records</div><div class="cap">Recent judgments (appeal possible)</div></div></div>
 </div></section>
 %s
 

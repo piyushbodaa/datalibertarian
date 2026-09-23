@@ -3,8 +3,8 @@
 
     python3 babuwatch/build_all.py --out dist
 
-writes dist/babuwatch/... (the umbrella) and dist/babuwatch/copwatchindia/...
-(and any other watch in profiles.WATCHES) — the layout the site serves.
+writes dist/babuwatch/... — one watch since Copwatch India merged fully
+under Babuwatch (2026-09-23). The layout the site serves.
 Each watch builds into its own staging dir first; the merge refuses to let
 one watch overwrite another's file. Stdlib only; run by `npm run build`.
 """

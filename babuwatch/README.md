@@ -10,9 +10,10 @@ Court-adjudicated records against India's public servants, served at
 | `copwatchindia` | `/babuwatch/copwatchindia` | police officers | police officers |
 | *(next: e.g. `iaswatch`)* | `/babuwatch/iaswatch` | … | … |
 
-Every record has exactly one **home** watch, which renders its page. The
-umbrella lists every record and links police cards to their Copwatch India
-page. Old `/copwatchindia/*` URLs redirect permanently (see `vercel.json`).
+Every record has exactly one **home** watch, which renders its page. Owner
+decision 2026-09-23: Copwatch India is merged fully under Babuwatch — one
+watch, one nav, every record in one URL space. Old `/copwatchindia/*` and
+`/babuwatch/copwatchindia/*` URLs redirect permanently (see `vercel.json`).
 
 ## Layout
 
