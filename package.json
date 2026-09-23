@@ -5,10 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build && tsx scripts/prerender.tsx && cp public/snapshot.html dist/index.html && mkdir -p dist/babuwatch && cp -r public/babuwatch/. dist/babuwatch/",
+    "build": "tsc --noEmit && vite build && tsx scripts/prerender.tsx && cp public/snapshot.html dist/index.html && npm run build:babuwatch",
     "preview": "vite preview",
     "test": "tsx --test src/data/citations.test.ts src/data/compare/median.test.ts src/data/inflation.test.ts",
-    "test:browser": "playwright test"
+    "test:browser": "playwright test",
+    "build:babuwatch": "python3 babuwatch/build_all.py --out dist && python3 babuwatch/engine/check_links.py --root dist --scope /babuwatch",
+    "test:babuwatch": "python3 -m unittest discover -s babuwatch/engine -p 'test_*.py'"
   },
   "dependencies": {
     "react": "^18.3.1",

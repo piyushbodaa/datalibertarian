@@ -38,42 +38,6 @@
       "destination": "/snapshot"
     },
     {
-      "source": "/copwatchindia",
-      "destination": "https://copwatchindia.vercel.app/"
-    },
-    {
-      "source": "/copwatchindia/",
-      "destination": "https://copwatchindia.vercel.app/"
-    },
-    {
-      "source": "/copwatchindia/:path*",
-      "destination": "https://copwatchindia.vercel.app/:path*"
-    },
-    {
-      "source": "/apwatch",
-      "destination": "https://copwatchindia.vercel.app/apwatch/"
-    },
-    {
-      "source": "/apwatch/",
-      "destination": "https://copwatchindia.vercel.app/apwatch/"
-    },
-    {
-      "source": "/apwatch/:path*",
-      "destination": "https://copwatchindia.vercel.app/apwatch/:path*"
-    },
-    {
-      "source": "/babuwatch",
-      "destination": "/babuwatch/"
-    },
-    {
-      "source": "/copwatch",
-      "destination": "/babuwatch/copwatch/"
-    },
-    {
-      "source": "/copwatch/",
-      "destination": "/babuwatch/copwatch/"
-    },
-    {
       "source": "/sin",
       "destination": "/babuwatch/sin/"
     },
@@ -88,6 +52,38 @@
     {
       "source": "/fos/",
       "destination": "/babuwatch/fos/"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/copwatchindia",
+      "destination": "/babuwatch/copwatchindia",
+      "permanent": true
+    },
+    {
+      "source": "/copwatchindia/:path*",
+      "destination": "/babuwatch/copwatchindia/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/copwatch",
+      "destination": "/babuwatch/copwatchindia",
+      "permanent": true
+    },
+    {
+      "source": "/copwatch/:path*",
+      "destination": "/babuwatch/copwatchindia/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/copwatch",
+      "destination": "/babuwatch/copwatchindia",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/copwatch/:path*",
+      "destination": "/babuwatch/copwatchindia",
+      "permanent": true
     }
   ]
 }

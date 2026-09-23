@@ -8,6 +8,8 @@ The local static preview is `node scripts/serve.mjs` (http://127.0.0.1:4173). It
 
 Push a feature branch for a Vercel preview. Inspect Home, a state page, a comparison with URL parameters, an inflation item, a citation, and an invalid address on desktop and mobile. Merge the reviewed commit into main for the Git integration to publish. If a regression reaches production, use Vercel's rollback for immediate recovery and revert the offending Git commit before the next deployment.
 
+Babuwatch (`/babuwatch`, including Copwatch India at `/babuwatch/copwatchindia`) is built in the same deployment by `npm run build:babuwatch` (Python 3, stdlib) from `babuwatch/`; see `babuwatch/README.md`. `/copwatchindia/*` redirects there permanently; the separate `copwatchindia` Vercel project and repository are no longer used by this site.
+
 ## Data changes
 
 - Keep fiscal year, series (BE/RE/actual), units, accounting scope, source URL, page/table, and extraction date together.
