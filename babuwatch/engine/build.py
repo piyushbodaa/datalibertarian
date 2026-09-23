@@ -161,11 +161,13 @@ def fmt_thousands(n):
 SERVICE_WORDS = {
     "police": {"accused": "the accused police personnel",
                "of": "police personnel", "fallback": "Police personnel",
-               "case": "police accountability case", "label": "Police"},
+               "case": "police accountability case", "label": "Police",
+               "people": "Officers", "show_victims": True},
     "civil": {"accused": "the accused public servant",
               "of": "a public servant", "fallback": "Public servant",
               "case": "public-servant accountability case",
-              "label": "Civil servant"},
+              "label": "Civil servant", "people": "Official",
+              "show_victims": False},
 }
 
 
@@ -3056,6 +3058,17 @@ def t2_current_position(r):
             "possibly appealable.")
 
 
+def people_facts_html(p, off_txt, vic_txt):
+    """At-a-glance people rows. Police records keep Officers + Victim(s);
+    other services show the convicted official(s) only: complainants in
+    corruption cases are private persons and are never listed."""
+    rows = '<div><dt>%s</dt><dd>%s</dd></div>' % (sw(p, "people"),
+                                                  esc(off_txt))
+    if sw(p, "show_victims"):
+        rows += '<div><dt>Victim(s)</dt><dd>%s</dd></div>' % esc(vic_txt)
+    return rows
+
+
 def build_trialcourt_record(p):
     cid = t2_id(p)
     path = "/trial-court/%s" % cid
@@ -3107,7 +3120,7 @@ def build_trialcourt_record(p):
       </div>
 
       <aside class="incident-sidebar" aria-label="Record details and sources">
-        <section class="incident-facts"><h2>At a glance</h2><dl><div><dt>Record</dt><dd>Trial-court conviction</dd></div><div><dt>Primary category</dt><dd>%s</dd></div><div><dt>Location</dt><dd>%s</dd></div><div><dt>Incident date</dt><dd>%s</dd></div><div><dt>Court level</dt><dd>%s</dd></div><div><dt>Court</dt><dd>%s</dd></div><div><dt>Case reference</dt><dd>%s</dd></div><div><dt>Date of conviction</dt><dd>%s</dd></div><div><dt>Sub-category</dt><dd>%s</dd></div><div><dt>Officers</dt><dd>%s</dd></div><div><dt>Victim(s)</dt><dd>%s</dd></div><div><dt>Sentence</dt><dd>%s</dd></div><div><dt>Verification</dt><dd>%s &middot; Trial court</dd></div><div><dt>Appeal status</dt><dd>%s</dd></div><div><dt>Source kind</dt><dd>%s</dd></div><div><dt>Published</dt><dd>%s</dd></div></dl></section>
+        <section class="incident-facts"><h2>At a glance</h2><dl><div><dt>Record</dt><dd>Trial-court conviction</dd></div><div><dt>Primary category</dt><dd>%s</dd></div><div><dt>Location</dt><dd>%s</dd></div><div><dt>Incident date</dt><dd>%s</dd></div><div><dt>Court level</dt><dd>%s</dd></div><div><dt>Court</dt><dd>%s</dd></div><div><dt>Case reference</dt><dd>%s</dd></div><div><dt>Date of conviction</dt><dd>%s</dd></div><div><dt>Sub-category</dt><dd>%s</dd></div>%s<div><dt>Sentence</dt><dd>%s</dd></div><div><dt>Verification</dt><dd>%s &middot; Trial court</dd></div><div><dt>Appeal status</dt><dd>%s</dd></div><div><dt>Source kind</dt><dd>%s</dd></div><div><dt>Published</dt><dd>%s</dd></div></dl></section>
         <section class="incident-sources" id="sources"><div class="incident-section-head"><div><div class="incident-section-label">Citations</div><h2>Public sources</h2></div><span>%d</span></div>
           %s
         </section>
@@ -3126,7 +3139,7 @@ def build_trialcourt_record(p):
         esc(t2_court_level(p)),
         esc(p.get("trial_court_name") or "Not stated"),
         esc(title), esc(cdate), esc(t2_subcategory(p)),
-        esc(off_txt), esc(vic_txt),
+        people_facts_html(p, off_txt, vic_txt),
         esc(p.get("sentence") or "Not stated"),
         esc(t2_v(p)), esc(t2_appeal(p)),
         esc(pretty_label(p.get("source_kind")) or "Not stated"),
@@ -4142,10 +4155,12 @@ def t2_md_section(p):
          "**Sections:** %s"
          % (md_esc("; ".join(p.get("sections") or []))
             if p.get("sections") else "Not stated"),
-         "**Officers (gated display forms):** %s"
-         % (md_esc("; ".join(offs)) if offs else "None stated"),
+         "**%s (gated display forms):** %s"
+         % (sw(p, "people"),
+            md_esc("; ".join(offs)) if offs else "None stated")] + ([
          "**Victims:** %s"
-         % (md_esc("; ".join(vics)) if vics else "Not stated"),
+         % (md_esc("; ".join(vics)) if vics else "Not stated")]
+         if sw(p, "show_victims") else []) + [
          "**Sentence:** %s"
          % md_esc(p.get("sentence") or "Not stated"),
          "",
