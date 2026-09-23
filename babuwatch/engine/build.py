@@ -1951,25 +1951,29 @@ def extra_filter_ui(cases, t2cases=None):
             '<option value="%s">%s</option>' % (esc(v), esc(labfn(v)))
             for v in vals))
 
-    return """
-      <div class="tracker-extra" aria-label="Additional case filters">
+    simple = """
+      <div class="tracker-extra tracker-extra-simple" aria-label="Quick case filters">
         <div class="tracker-extra-row">
-          %s<label>Court level<select id="x-level"><option value="all" selected>All levels</option><option value="hc_sc">High Court / Supreme Court</option><option value="trial">Trial court</option></select></label>
-          <label>State<select id="x-state">%s</select></label>
-          <label>District<input id="x-district" type="search" placeholder="Type district&hellip;" autocomplete="off"></label>
-          <label>Judgment year<select id="x-year">%s</select></label>
+          %s<label>State<select id="x-state">%s</select></label>
           <label>Category<select id="x-category">%s</select></label>
-          <label>Outcome<select id="x-outcome">%s</select></label>
-          <label>Court<select id="x-court">%s</select></label>
           <button type="button" id="x-reset" class="tracker-filter">Reset</button>
         </div>
       </div>""" % (
         service_select(both),
         opts(states),
+        opts(cats))
+    more = """
+        <div class="tracker-extra-row tracker-extra-more" aria-label="More case filters">
+          <label>Court level<select id="x-level"><option value="all" selected>All levels</option><option value="hc_sc">High Court / Supreme Court</option><option value="trial">Trial court</option></select></label>
+          <label>Year<select id="x-year">%s</select></label>
+          <label>District<input id="x-district" type="search" placeholder="Type district&hellip;" autocomplete="off"></label>
+          <label>Outcome<select id="x-outcome">%s</select></label>
+          <label>Court<select id="x-court">%s</select></label>
+        </div>""" % (
         opts([str(y) for y in years]),
-        opts(cats),
         opts(outs, lambda v: OUTCOME_LABEL.get(v, pretty_label(v))),
         opts(courts))
+    return simple, more
 
 
 def service_select(records):
@@ -1998,6 +2002,7 @@ def build_tracker(cases, pre_render=60, t2cases=None, n_overturned=0):
     cards = "".join(tracker_card(c) if tag == 0 else trial_card(c)
                     for _k, tag, c in recent)
     head = headline_sentence(n1, n2)
+    simple_ui, more_ui = extra_filter_ui(cases, t2cases)
     main = """
   <header class="tracker-pagehead">
     <div class="wrap">
@@ -2019,11 +2024,12 @@ def build_tracker(cases, pre_render=60, t2cases=None, n_overturned=0):
       <nav class="tracker-filterbar" aria-label="Main record filters">
         %s
       </nav>
+%s
       <details class="tracker-more">
         <summary>More filters</summary>
         <nav aria-label="Additional record filters">%s</nav>
-      </details>
 %s
+      </details>
       <div class="tracker-results-head" aria-live="polite"><strong id="tracker-count">%s</strong><span></span></div>
       <div class="tracker-records" id="tracker-records">
 %s
@@ -2031,8 +2037,8 @@ def build_tracker(cases, pre_render=60, t2cases=None, n_overturned=0):
       <noscript><div class="tracker-empty"><h2>Filtering needs JavaScript</h2><p>Showing the %d most recent of %s records. Browse by <a href="/#states">state</a> or <a href="/data">download the dataset</a>.</p></div></noscript>
     </div>
   </section>
-""" % (head, overturned_note(n_overturned), pills_main, pills_more,
-       extra_filter_ui(cases, t2cases),
+""" % (head, overturned_note(n_overturned), pills_main, simple_ui,
+       pills_more, more_ui,
        results_line(min(pre_render, total), n1, n2), cards,
        min(pre_render, total), fmt_thousands(total))
     return main
