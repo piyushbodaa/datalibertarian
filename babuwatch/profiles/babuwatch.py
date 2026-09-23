@@ -31,8 +31,8 @@ PROFILE = {
     "base": "/babuwatch",
     "parent": None,
     "switcher_blurb": "All public servants",
-    # TODO(owner): Babuwatch has no contact address of its own yet; this
-    # reuses Copwatch India's.
+    # Owner decision 2026-09-23: Babuwatch keeps reusing Copwatch India's
+    # address until it has one of its own.
     "contact_email": "contact@copwatchindia.org",
     "templates": "babuwatch",
     # Every register's records. The first dataset also supplies cases.csv.
