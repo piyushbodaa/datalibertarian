@@ -668,6 +668,71 @@
       "verification": "V2"
     },
     {
+      "id": "psu-uk-0009",
+      "category": "jv",
+      "state": "Uttarakhand",
+      "name": "THDC India Limited (THDCIL)",
+      "summary": "THDCIL is a government power company and subsidiary of NTPC Limited, jointly owned by NTPC and the Government of Uttar Pradesh, with its registered and corporate office in Rishikesh, Uttarakhand. On 17 September 2026 it filed its FY2025-26 annual report and the notice of its 38th annual general meeting; it declared commercial operation of the fourth 250 MW unit of the Tehri pumped-storage plant with effect from 12 April 2026, and an 11 MWac floating-solar plant entered commercial operation on 17 July 2026.",
+      "date": "2026-09-17",
+      "district": "Dehradun",
+      "headquarters": "Rishikesh, Uttarakhand",
+      "state_link": "A central-government-controlled enterprise headquartered at Rishikesh in Dehradun district, Uttarakhand.",
+      "owner": "Joint: NTPC Limited and State government (Uttar Pradesh)",
+      "shareholding": "NTPC Limited 74.496%; Governor of Uttar Pradesh 25.504%, as of 31 March 2025.",
+      "administrative": "Ministry of Power, Government of India, through holding company NTPC Limited",
+      "legal_form": "Government company under Companies Act 2013 s.2(45); unlisted public company with listed non-convertible debt securities",
+      "status_label": "Schedule A, Miniratna Category-I CPSE",
+      "established": "1988; incorporated in July 1988 under the Companies Act 1956 as a Government of India–Government of Uttar Pradesh joint venture.",
+      "status": "Operating",
+      "financials": "FY2024-25 standalone: revenue from operations Rs 2,682.80 crore; profit for the period from continuing operations Rs 732.91 crore. FY2025-26 audited results and annual report were filed in 2026, but their numerical tables could not be reliably extracted from the opened pages.",
+      "detail": [
+        "THDCIL's company profile says it was incorporated as a public limited company in July 1988. Following NTPC's strategic acquisition on 25 March 2020, its equity is held by NTPC Limited and the Government of Uttar Pradesh in the ratio 74.496:25.504.",
+        "The FY2024-25 annual report identifies THDCIL as a Companies Act government company. Its standalone accounts reported revenue from operations of Rs 2,682.80 crore and profit from continuing operations of Rs 732.91 crore for FY2024-25.",
+        "THDCIL's exchange-disclosure page records commercial operation of Tehri PSP Unit IV, rated 250 MW, from 12 April 2026. It also records commercial operation of an 11 MWac floating-solar plant at Khurja from 17 July 2026, taking total installed and commercial capacity to 3,918 MW.",
+        "On 17 September 2026 THDCIL submitted its FY2025-26 annual report and notice of its 38th annual general meeting under the SEBI listing regulations."
+      ],
+      "caveats": "The current employee count was not confirmed. Although the FY2025-26 annual report and audited-result filing were opened through THDCIL's official index, their numerical financial tables were not retrievable, so the latest fully verified figures shown are FY2024-25. Rishikesh is administered within Dehradun district at the stated corporate-office address.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.thdc.co.in/en/investors_corner/corporate-announcement",
+          "kind": "exchange_filing",
+          "publisher": "THDC India Limited",
+          "date": "2026-09-17",
+          "supports": "FY2025-26 annual-report filing, 2026 project commissioning disclosures and listed-debt status."
+        },
+        {
+          "url": "https://www.thdc.co.in/en/about-us/company-thdcil",
+          "kind": "company_site",
+          "publisher": "THDC India Limited",
+          "date": null,
+          "supports": "Incorporation, ownership, strategic acquisition, business and Miniratna/Schedule A status."
+        },
+        {
+          "url": "https://www.thdc.co.in/index.php/en/about-us/joint-ventures-subsidiaries",
+          "kind": "company_site",
+          "publisher": "THDC India Limited",
+          "date": "2026-06-12",
+          "supports": "NTPC holding-company relationship and 74.496:25.504 ownership."
+        },
+        {
+          "url": "https://www.thdc.co.in/sites/default/files/performance/THDCIL_Annual_Report_2024_25.pdf",
+          "kind": "annual_report",
+          "publisher": "THDC India Limited",
+          "date": "2025-09-27",
+          "supports": "Government-company classification, FY2024-25 shareholding and financial results."
+        },
+        {
+          "url": "https://thdc.co.in/en/performance/annual-reports",
+          "kind": "company_site",
+          "publisher": "THDC India Limited",
+          "date": "2026-09-17",
+          "supports": "Availability of FY2025-26 annual report and Rishikesh registered/corporate-office address."
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "psu-as-0001",
       "category": "cpse",
       "state": "Assam",
@@ -1938,6 +2003,316 @@
       "verification": "V2"
     },
     {
+      "id": "psu-hp-0005",
+      "category": "dfi",
+      "state": "Himachal Pradesh",
+      "name": "Himachal Pradesh Financial Corporation (HPFC)",
+      "summary": "HPFC is Himachal Pradesh's state financial corporation, established under the State Financial Corporations Act, 1951 and owned jointly by the State Government and SIDBI. It has stopped fresh lending and now concentrates on recovery; on 16 May 2026 it published a new One Time Settlement notice.",
+      "date": "2026-05-16",
+      "district": "Shimla",
+      "headquarters": "Shimla, Himachal Pradesh",
+      "state_link": "It is Himachal Pradesh's statutory state financial corporation and is headquartered in Shimla.",
+      "owner": "Joint: State government (Himachal Pradesh) and Small Industries Development Bank of India",
+      "administrative": "Industries Department, Government of Himachal Pradesh",
+      "legal_form": "Statutory corporation under the State Financial Corporations Act, 1951",
+      "established": "Established under the State Financial Corporations Act, 1951; the 2025-26 annual report is its 59th annual report.",
+      "status": "Sick (net worth negative)",
+      "financials": "FY2025-26: total revenue Rs 2.3252 crore; business surplus before provisioning Rs 0.6753 crore; net surplus after reversal of NPA provision Rs 1.2859 crore. Accumulated losses were Rs 179.83 crore and net worth was negative as of 31 March 2026.",
+      "detail": [
+        "HPFC's official website says it is jointly owned by the Himachal Pradesh Government and SIDBI, operates under State Government administrative control, and has ceased making new loans.",
+        "The FY2025-26 annual report records revenue of Rs 232.52 lakh, expenditure of Rs 164.99 lakh and a net surplus of Rs 128.59 lakh after reversal of NPA provision.",
+        "The auditors reported NPAs of Rs 47.29 crore, accumulated losses of Rs 179.83 crore and negative net worth at 31 March 2026. They also noted that financing activities had been discontinued and the entire outstanding loan portfolio comprised NPAs.",
+        "HPFC published its current One Time Settlement notice on 16 May 2026."
+      ],
+      "caveats": "The opened official sources describe joint ownership by the State Government and SIDBI but do not give a current percentage holding for each owner. An enterprise-wide employee total was not stated; the annual report's short officer list was not treated as a complete workforce count. The annual report does not display a publication date, so the dated OTS notice is used as the latest precisely dated development.",
+      "on_the_block": true,
+      "sources": [
+        {
+          "url": "https://hpfc.in/",
+          "kind": "company_site",
+          "publisher": "Himachal Pradesh Financial Corporation",
+          "date": "2026-06-16",
+          "supports": "Ownership, legal basis, administrative control, cessation of lending, headquarters and current leadership."
+        },
+        {
+          "url": "https://hpfc.in/ots-recovery",
+          "kind": "company_site",
+          "publisher": "Himachal Pradesh Financial Corporation",
+          "date": "2026-05-16",
+          "supports": "Current One Time Settlement notice and its date."
+        },
+        {
+          "url": "https://hpfc.in/docs/Annual%20Report%202025-26.pdf",
+          "kind": "annual_report",
+          "publisher": "Himachal Pradesh Financial Corporation",
+          "date": null,
+          "supports": "FY2025-26 revenue, expenditure, surplus, paid-up capital, recovery operations, NPAs, accumulated losses and negative net worth."
+        },
+        {
+          "url": "https://cag.gov.in/ag/himachal-pradesh/en/page-ag-himachal-pradesh-generalsector-introduction",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": null,
+          "supports": "Classification of HPFC as one of Himachal Pradesh's two statutory corporations and its audit under the State Financial Corporations Act."
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-hp-0006",
+      "category": "departmental",
+      "state": "Himachal Pradesh",
+      "name": "Himachal Pradesh Postal Circle (India Post)",
+      "summary": "The Himachal Pradesh Postal Circle is a territorial operating unit of India Post, run directly by the Union Department of Posts without a separate corporate identity. On 8 June 2026 the Department issued List 4 for its January 2026 Gramin Dak Sevak engagement schedule, covering appointments across several Himachal Pradesh postal divisions.",
+      "date": "2026-06-08",
+      "state_link": "India Post, a departmental undertaking under the Ministry of Communications, divides the country into 23 postal circles generally co-terminus with states; a Himachal Pradesh Circle is confirmed by the Department's January 2026 GDS engagement List 4.",
+      "owner": "Central government",
+      "administrative": "Department of Posts, Ministry of Communications, Government of India",
+      "legal_form": "Departmental undertaking",
+      "status": "Operating",
+      "detail": [
+        "India Post states that the Department of Posts is under the Ministry of Communications and divides the country into 23 postal circles, each headed by a Chief Postmaster General.",
+        "The Department of Posts' GDS Online Engagement Schedule-I, January 2026, List 4 was dated 8 June 2026 and included Himachal Pradesh Circle posts in divisions including Rampur Bushahr, Shimla, Solan and Una."
+      ],
+      "caveats": "No official source opened in this research provided a founding year, standalone Circle financial results or a total employee count. The 2026 GDS document is a recruitment result rather than an enterprise-wide financial or restructuring event. India Post is departmental, so it has no paid-up share capital.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.indiapost.gov.in/organisation",
+          "kind": "company_site",
+          "publisher": "Department of Posts, Ministry of Communications, Government of India",
+          "date": "2025-01-01",
+          "supports": "Departmental status, administrative ministry, 23 postal circles each headed by a Chief Postmaster General, and state-based territorial organization."
+        },
+        {
+          "url": "https://www.indiapost.gov.in/gdsonlineengagement/api/results/list4?circle=HimachalPradesh",
+          "kind": "government_order",
+          "publisher": "Department of Posts, Ministry of Communications, Government of India",
+          "date": "2026-06-08",
+          "supports": "GDS Online Engagement Schedule-I, January-2026, Himachal Pradesh Circle, List 4, dated 08-06-2026, covering divisions including Rampur Bushahr, Shimla, Solan and Una."
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-hp-0007",
+      "category": "statutory",
+      "state": "Himachal Pradesh",
+      "name": "Himachal Road Transport Corporation (HRTC)",
+      "summary": "HRTC is the Himachal Pradesh Government's statutory road-transport undertaking, with its head office in Shimla. A CAG report tabled on 3 September 2026 - Report No. 1 of 2026 (Composite Audit Report for the period ended March 2023) - treated HRTC as an active statutory corporation and listed it among the loss-incurring State Public Sector Enterprises.",
+      "date": "2026-09-03",
+      "district": "Shimla",
+      "headquarters": "Shimla, Himachal Pradesh",
+      "state_link": "It is Himachal Pradesh's state road-transport corporation and has its head office in Shimla.",
+      "owner": "State government (Himachal Pradesh)",
+      "administrative": "Transport Department, Government of Himachal Pradesh",
+      "legal_form": "Statutory corporation under the Road Transport Corporations Act, 1950",
+      "status": "Loss-making",
+      "detail": [
+        "The CAG identifies HRTC as an active statutory corporation and states that the CAG is its sole auditor under section 33 of the Road Transport Corporations Act, 1950.",
+        "The CAG's Report No. 1 of 2026, published on 3 September 2026, reviews the financial performance of Himachal Pradesh State Public Sector Enterprises for 2022-23 and lists HRTC among the loss-incurring SPSEs that pushed aggregate SPSE losses up to Rs 604.94 crore in 2022-23 (from Rs 498.55 crore in 2021-22)."
+      ],
+      "caveats": "HRTC is a statutory corporation rather than a share company, so a paid-up-capital shareholding percentage is not applicable. The most recent financial figures found in the September 2026 CAG report relate to delayed FY2021-22 accounts; they are not FY2025-26 results. An official founding date was not confirmed from the pages opened.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://cag.gov.in/ag/himachal-pradesh/en/audit-report",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": "2026-09-03",
+          "supports": "Publication/tabling date and scope of Report No. 1 of 2026."
+        },
+        {
+          "url": "https://cag.gov.in/webroot/uploads/download_audit_report/2026/Himachal_Report-No1-of-2026_CAR-2022-23_English-06a994f49b74287.43995628.pdf",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": "2026-09-03",
+          "supports": "Composite Audit Report for the period ended March 2023; review of financial performance of State Public Sector Enterprises; HRTC listed among loss-incurring SPSEs."
+        },
+        {
+          "url": "https://cag.gov.in/ag/himachal-pradesh/en/page-ag-himachal-pradesh-generalsector-introduction",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": null,
+          "supports": "HRTC's statutory status and audit under section 33 of the Road Transport Corporations Act, 1950."
+        },
+        {
+          "url": "https://online.hrtchp.com/hrtc_info/HRTC-Inquiry.html",
+          "kind": "company_site",
+          "publisher": "Himachal Road Transport Corporation",
+          "date": null,
+          "supports": "Head-office location in Shimla."
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-hp-0009",
+      "category": "jv",
+      "state": "Himachal Pradesh",
+      "name": "Himachal Pradesh Power Corporation Limited (HPPCL)",
+      "summary": "HPPCL is a state-sector power producer owned jointly by the Government of Himachal Pradesh, the Himachal Pradesh Infrastructure Development Board and Himachal Pradesh State Electricity Board Limited. Its most recent material official development was the 20 June 2026 notification of award for a project-management consultant for the Thana Plaun Hydroelectric Project.",
+      "date": "2026-06-20",
+      "district": "Shimla",
+      "headquarters": "Shimla, Himachal Pradesh",
+      "state_link": "HPPCL is headquartered in Shimla and is wholly held through the Himachal Pradesh government and two state-controlled bodies.",
+      "owner": "State government (Himachal Pradesh), through direct and state-body holdings",
+      "shareholding": "As of 31 March 2025: Government of Himachal Pradesh 43.86%; Himachal Pradesh Infrastructure Development Board 50.57%; Himachal Pradesh State Electricity Board Limited 5.57%.",
+      "administrative": "Department of Power, Government of Himachal Pradesh",
+      "legal_form": "Unlisted public company incorporated under the Companies Act, 1956; state government undertaking",
+      "established": "18 December 2006, incorporated under the Companies Act, 1956",
+      "status": "Operating",
+      "financials": "FY2023-24 audited accounts: paid-up equity capital Rs 2,342.63 crore; closing retained earnings negative Rs 865.72 crore.",
+      "detail": [
+        "HPPCL's official overview says it was incorporated in December 2006 to develop power generation on behalf of the Government of Himachal Pradesh. It reports 328 MW commissioned, comprising 276 MW of hydro and 52 MW of solar capacity.",
+        "HPPCL's current RTI disclosure records the shareholding at 31 March 2025 as GoHP 43.86%, HPIDB 50.57% and HPSEBL 5.57%. This establishes aggregate ownership by the state government and its controlled bodies.",
+        "HPPCL's official news register records a notification of award dated 20 June 2026 for engagement of a project-management consultant for the Thana Plaun Hydroelectric Project.",
+        "The audited FY2023-24 financial statements report paid-up capital of Rs 2,342.63 crore and closing retained earnings of negative Rs 865.72 crore."
+      ],
+      "caveats": "A current official total employee count was not found. HPPCL's FY2021-22 secretarial audit noted that direct GoHP ownership alone was below 51%, but current disclosure shows the remaining shares are held by HPIDB and HPSEBL, both Himachal Pradesh public-sector bodies; HPPCL is therefore included as a state-sector joint enterprise under the requested broader PSU definition.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://hppcl.in/ViewAllnews.aspx",
+          "kind": "company_site",
+          "publisher": "Himachal Pradesh Power Corporation Limited",
+          "date": "2026-06-20",
+          "supports": "Notification of award for the Thana Plaun HEP project-management consultant."
+        },
+        {
+          "url": "https://www.hppcl.in/content/499_1_Overview.aspx",
+          "kind": "company_site",
+          "publisher": "Himachal Pradesh Power Corporation Limited",
+          "date": null,
+          "supports": "Purpose, operating projects and commissioned hydro and solar capacity."
+        },
+        {
+          "url": "https://www.hppcl.in/WriteReadData/userfiles/file/rti/RTIDisclosureHPPCL.pdf",
+          "kind": "company_site",
+          "publisher": "Himachal Pradesh Power Corporation Limited",
+          "date": null,
+          "supports": "Headquarters, state-undertaking status, incorporation and shareholding as of 31 March 2025."
+        },
+        {
+          "url": "https://hppcl.in/WriteReadData/userfiles/file/Annual-Reports/FinStatement202324Web.pdf",
+          "kind": "annual_report",
+          "publisher": "Himachal Pradesh Power Corporation Limited",
+          "date": null,
+          "supports": "FY2023-24 paid-up capital and retained earnings."
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-hp-0010",
+      "category": "municipal",
+      "state": "Himachal Pradesh",
+      "name": "Shimla Smart City Limited (SSCL)",
+      "summary": "SSCL is the Smart Cities Mission special-purpose company for Shimla, owned in equal shares by the Government of Himachal Pradesh and Municipal Corporation Shimla. On 23 June 2026, the Chief Minister inaugurated its three-storey parking facility near Auckland Tunnel, built for Rs 6.49 crore with capacity for approximately 145 vehicles.",
+      "date": "2026-06-23",
+      "district": "Shimla",
+      "headquarters": "Shimla, Himachal Pradesh",
+      "state_link": "SSCL is headquartered in Shimla and is half-owned by Municipal Corporation Shimla, the city's urban local body.",
+      "owner": "Joint: State government (Himachal Pradesh) and Municipal Corporation Shimla",
+      "shareholding": "Government of Himachal Pradesh 50%; Municipal Corporation Shimla 50%, as reported by CAG for the Smart City SPV structure.",
+      "administrative": "Urban Development Department, Government of Himachal Pradesh; Smart Cities Mission, Ministry of Housing and Urban Affairs",
+      "legal_form": "Government company and municipal Smart Cities Mission special-purpose vehicle incorporated under the Companies Act, 2013",
+      "status_label": "Smart Cities Mission SPV",
+      "established": "Incorporated under the Companies Act, 2013 (the official website does not state an incorporation date); Shimla was selected under the Smart Cities Mission on 28 June 2017 and project funding began on 1 January 2018",
+      "status": "Operating",
+      "financials": "FY2019-20, as reported in the CAG's 2022-23 State Finances Audit Report: paid-up capital Rs 0.007 crore; total assets Rs 105.00 crore; turnover Rs 0 crore.",
+      "employees": "19, attached to the FY2019-20 accounts finalised in 2022-23",
+      "detail": [
+        "SSCL's official website identifies it as a state government company and Smart Cities Mission special-purpose vehicle incorporated under the Companies Act, 2013; its office is at Kasumpti, Shimla. The site does not give an incorporation date, but records that Shimla was selected under the Smart Cities Mission in the third round on 28 June 2017 and that funds began flowing for development on 1 January 2018.",
+        "CAG reported a 50:50 stake-holding arrangement between the state government and the urban local body. CAG also found that Municipal Corporation Shimla supplied two of SSCL's twelve board members at the time of that audit.",
+        "SSCL's official website says the Chief Minister inaugurated its Auckland Tunnel parking facility on 23 June 2026. The company reports a cost of Rs 6.49 crore and capacity for approximately 145 vehicles.",
+        "The CAG's State Finances report for 2022-23 lists SSCL's FY2019-20 accounts with Rs 0.007 crore paid-up capital, Rs 105 crore of assets, zero turnover and manpower of 19."
+      ],
+      "caveats": "No newer audited revenue, profit or employee figure was found in the opened official sources. The financial and manpower figures therefore remain those attached to FY2019-20 accounts, finalised in 2022-23.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://shimlasmartcity.com/",
+          "kind": "company_site",
+          "publisher": "Shimla Smart City Limited",
+          "date": "2026-06-23",
+          "supports": "Auckland Tunnel parking inauguration, cost, capacity, headquarters and current operations."
+        },
+        {
+          "url": "https://shimlasmartcity.com/Home/About_Us",
+          "kind": "company_site",
+          "publisher": "Shimla Smart City Limited",
+          "date": null,
+          "supports": "SPV purpose, state-company description, incorporation date and Smart Cities Mission connection."
+        },
+        {
+          "url": "https://cag.gov.in/webroot/uploads/download_audit_report/2022/7-Chapter-4-0642ac153c73ee5.47372920.pdf",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": "2022-07-06",
+          "supports": "50:50 state-government/ULB stake and Municipal Corporation representation on SSCL's board."
+        },
+        {
+          "url": "https://cag.gov.in/webroot/uploads/download_audit_report/2024/SFAR-2022-23-HP_Report-No.-1-of-2024_English-%2821-11-2024%29-067723a8cb8cee4.29305485.pdf",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": "2024-11-21",
+          "supports": "FY2019-20 paid-up capital, assets, turnover and manpower."
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-hp-0011",
+      "category": "sick",
+      "state": "Himachal Pradesh",
+      "name": "Himachal Pradesh Horticultural Produce Marketing and Processing Corporation Limited (HPMC)",
+      "summary": "HPMC is a state-controlled fruit marketing and processing company headquartered in Shimla. The CAG's Report No. 1 of 2025, issued on 7 July 2025, reported negative net worth of Rs 52.43 crore in its latest finalised FY2022-23 accounts, placing it in the sick category used for this inventory.",
+      "date": "2025-07-07",
+      "district": "Shimla",
+      "headquarters": "Shimla, Himachal Pradesh",
+      "state_link": "HPMC describes itself as a Himachal Pradesh state government undertaking, and CAG reports Rs 31.20 crore of GoHP equity in the company.",
+      "owner": "State government (Himachal Pradesh) with minority other shareholders",
+      "shareholding": "FY2022-23/latest accounts finalised in 2024-25: Government of Himachal Pradesh equity Rs 31.20 crore out of paid-up capital Rs 38.77 crore, approximately 80.47%; other shareholders Rs 7.57 crore, approximately 19.53%.",
+      "administrative": "Department of Horticulture, Government of Himachal Pradesh",
+      "legal_form": "Government company incorporated under the Companies Act, 1956",
+      "established": "10 June 1974, incorporated with World Bank financial assistance",
+      "status": "Sick (net worth negative)",
+      "financials": "FY2022-23, finalised in 2024-25: paid-up capital Rs 38.77 crore; accumulated loss Rs 91.20 crore; net worth negative Rs 52.43 crore. State-government loan outstanding at 31 March 2024 was Rs 60.09 crore.",
+      "detail": [
+        "HPMC's official website says it was incorporated on 10 June 1974 with World Bank financial assistance to provide post-harvest facilities, market fresh fruit and process surplus fruit. It continues to market juices, concentrates, jams, pickles, wines and related products.",
+        "The CAG's 2025 State Finances Audit Report records FY2022-23 paid-up capital of Rs 38.77 crore, GoHP equity of Rs 31.20 crore and other equity of Rs 7.57 crore; those accounts were finalised during 2024-25.",
+        "The same CAG report records accumulated losses of Rs 91.20 crore and negative net worth of Rs 52.43 crore. It also reports a Rs 60.09 crore state-government loan as of 31 March 2024.",
+        "HPMC's official contact page locates its corporate and head office on the third floor of Nigam Vihar, Shimla."
+      ],
+      "caveats": "The CAG report supplies capital, accumulated-loss and net-worth figures but not FY2022-23 revenue, annual net profit/loss or manpower in the cited appendix; those figures are therefore unavailable. The percentages are arithmetic conversions of the CAG's reported Rs 31.20 crore and Rs 7.57 crore equity amounts, rounded to two decimals. No official disinvestment or closure decision was found, so on_the_block is false and HPMC is classified solely by its negative net worth.",
+      "on_the_block": true,
+      "sources": [
+        {
+          "url": "https://cag.gov.in/webroot/uploads/download_audit_report/2024/Report-No.-1-of-2025_SFAR-2023-24-HP_English-%2807-07-2025%29-068b191e8f32308.10850578.pdf",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": "2025-07-07",
+          "supports": "FY2022-23 paid-up capital, state and other equity, accumulated loss, negative net worth, government loan and account-finalisation year."
+        },
+        {
+          "url": "https://hpmc.in/cms/home-index",
+          "kind": "company_site",
+          "publisher": "Himachal Pradesh Horticultural Produce Marketing and Processing Corporation Limited",
+          "date": null,
+          "supports": "Incorporation date, World Bank assistance, mandate, products and state-undertaking status."
+        },
+        {
+          "url": "https://hpmc.in/cms/contact-us",
+          "kind": "company_site",
+          "publisher": "Himachal Pradesh Horticultural Produce Marketing and Processing Corporation Limited",
+          "date": null,
+          "supports": "Corporate-office and headquarters address in Shimla."
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "psu-hr-0005",
       "category": "dfi",
       "state": "Haryana",
@@ -2236,6 +2611,140 @@
           "publisher": "Wikipedia",
           "date": "2026-07-31",
           "supports": "Koderma plant in Koderma district Jharkhand managed by DVC, 2x500 MW; revision 31 July 2026"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-jh-0009",
+      "category": "jv",
+      "state": "Jharkhand",
+      "name": "PUVNL (Patratu) (per NTPC's joint-venture listing; full registered name unverified)",
+      "summary": "PUVNL (Patratu) is the NTPC–Jharkhand joint-venture entity building the 4,000 MW Patratu Super Thermal Power Project at Patratu in Ramgarh district, Jharkhand, described in NTPC's project listing as a 'joint venture with Jharkhand State Electricity Board'. Its Stage-I units (2x800 MW, current capacity 1,600 MW) are now shown as operational, with a further 800 MW unit under construction and Stage-II (2x800 MW) planned. Exact unit commissioning dates and official NTPC/PIB confirmation could not be accessed in this pass.",
+      "date": "2026-09-24",
+      "district": "Ramgarh",
+      "headquarters": "Patratu, Jharkhand",
+      "state_link": "Project site and company base at Patratu, Ramgarh district, Jharkhand; joint venture with the Jharkhand state electricity utility",
+      "owner": "Joint (Central PSU NTPC Limited + State government of Jharkhand utility)",
+      "administrative": "NTPC Limited (Central partner) and Jharkhand state energy set-up; exact nodal ministry/department unconfirmed from accessible pages",
+      "legal_form": "Government company (joint venture)",
+      "established": "Not confirmed from accessible pages (project construction began May 2018, per secondary summary)",
+      "status": "Operating",
+      "detail": [
+        "NTPC's project listing describes 'PUVNL (Patratu)' as a 'joint venture with Jharkhand State Electricity Board', sited at 'Patratu' in 'Jharkhand', with 'Capacity in [MW]' of '4000' (NTPC Limited company page, via secondary summary).",
+        "The project summary states the station is 'operational' with 'a current capacity of 1,600 MW (2 x 800 MW units)', '1X800MW under construction' and '2 X 800 MW (Stage 2) planned' toward '4,000 MW upcoming'; 'Construction began' in 'May 2018' (Patratu Super Thermal Power Project page, via secondary summary).",
+        "The same page is current as of access, noting 'This page was last edited on 24 September 2026, at 12:41 (UTC)'; no unit synchronisation or commissioning dates appear in the accessible excerpt, and NTPC's own site and PIB could not be fetched (bot-check redirect and 403 responses)."
+      ],
+      "caveats": "Shareholding percentages (commonly cited 74:26), incorporation year, registered-office address, financials and employee counts could not be confirmed: ntpc.co.in returned a bot-validation redirect, pib.gov.in returned 403, and MCA/ROC pages returned 403 to automated fetch. The date given is the status-as-current date of the secondary summary (page edited 2026-09-24), not a confirmed commissioning date.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/NTPC_Limited",
+          "kind": "news",
+          "publisher": "Wikipedia (secondary context; official NTPC site inaccessible to automated fetch)",
+          "date": null,
+          "supports": "PVUNL joint venture with Jharkhand State Electricity Board; Patratu site in Jharkhand; 4000 MW capacity"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Patratu_Super_Thermal_Power_Project",
+          "kind": "news",
+          "publisher": "Wikipedia (secondary context; official NTPC/PIB confirmation inaccessible)",
+          "date": "2026-09-24",
+          "supports": "operational status; 1,600 MW current (2x800 MW); 1x800 MW under construction; Stage 2 planned; 4,000 MW upcoming; construction began May 2018; page currency date"
+        }
+      ],
+      "verification": "V1"
+    },
+    {
+      "id": "psu-jh-0010",
+      "category": "municipal",
+      "state": "Jharkhand",
+      "name": "Ranchi Smart City Corporation Limited (RSCCL)",
+      "summary": "Ranchi Smart City Corporation Limited is the Special Purpose Vehicle for Ranchi under the Smart Cities Mission, in which each selected city implements projects through a city-level SPV headed by a CEO. Ranchi was selected as one of the hundred smart cities, and its parent civic body, Ranchi Municipal Corporation, was established in 1979 and is the biggest municipality in Jharkhand. The most recent mission-level development is the official shutdown of the Smart Cities Mission on 31 March 2025, with 7,479 of 8,058 tendered projects completed as of January 2025.",
+      "date": "2025-03-31",
+      "district": "Ranchi",
+      "headquarters": "Ranchi, Jharkhand",
+      "state_link": "City SPV for Ranchi, Jharkhand, under Ranchi Municipal Corporation, the biggest municipality in Jharkhand",
+      "owner": "Joint (State government of Jharkhand and Ranchi Municipal Corporation SPV structure; exact equity unconfirmed)",
+      "administrative": "Smart Cities Mission framework with Government of Jharkhand; exact nodal state department unconfirmed from accessible pages",
+      "legal_form": "Government company (Smart City Special Purpose Vehicle)",
+      "established": "Not confirmed from accessible pages (Smart Cities Mission launched 25 June 2015; Ranchi among the 100 selected cities)",
+      "status": "Operating",
+      "detail": [
+        "Under the mission, 'Each city will create a Special Purpose Vehicle (SPV) headed by a CEO to implement the projects under mission' (Smart Cities Mission page, via secondary summary).",
+        "'Ranchi is being developed as a Smart City because it was selected as one of the hundred Indian cities to be developed' (Ranchi city page, via secondary summary); 'Ranchi Municipal Corporation is responsible for the civic administration of the city of Ranchi', 'established in 1979', and 'presently the biggest municipality in Jharkhand' (Ranchi Municipal Corporation page, via secondary summary).",
+        "Mission-level timeline: 'launched by Prime Minister Narendra Modi on 25 June 2015'; 'As of January 2025, 7,479 out of a total of 8,058 tendered projects had been completed'; 'The project was officially shut down on 31 March 2025' (Smart Cities Mission page, via secondary summary)."
+      ],
+      "caveats": "RSCCL's incorporation date, CIN, equity split, financials, employee count and post-mission (after 31 March 2025) SPV status could not be confirmed: the official SPV site and Jharkhand urban-development pages were unreachable (DNS/connection failures), MCA/ROC pages returned 403, and ranchismartcity.in appears to be a private portal, not the official SPV site. All mission dates above come from a secondary summary; the official mission circular/PIB release was not accessible.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Smart_Cities_Mission",
+          "kind": "news",
+          "publisher": "Wikipedia (secondary context; official Smart Cities/PIB pages inaccessible to automated fetch)",
+          "date": null,
+          "supports": "SPV model (each city creates an SPV headed by a CEO); mission launched 25 June 2015; 7,479/8,058 projects completed as of January 2025; mission officially shut down 31 March 2025"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ranchi_Municipal_Corporation",
+          "kind": "news",
+          "publisher": "Wikipedia (secondary context)",
+          "date": null,
+          "supports": "RMC civic administration of Ranchi; established 1979; biggest municipality in Jharkhand"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ranchi",
+          "kind": "news",
+          "publisher": "Wikipedia (secondary context)",
+          "date": null,
+          "supports": "Ranchi selected as one of the hundred smart cities"
+        }
+      ],
+      "verification": "V1"
+    },
+    {
+      "id": "psu-jh-0011",
+      "category": "sick",
+      "state": "Jharkhand",
+      "name": "Heavy Engineering Corporation Limited (HEC)",
+      "summary": "Heavy Engineering Corporation Limited is a Ranchi-headquartered central public sector engineering company set up in 1958, owned by the Government of India under the Ministry of Heavy Industries, supplying capital equipment for steel, mining, railways, power, defence, space, nuclear and strategic sectors. On official evidence (Ministry of Heavy Industries page), HEC's net worth was completely eroded in 1992 and it was referred to BIFR; BIFR ordered winding up in July 2004 (appealed in Jharkhand High Court); despite Cabinet-approved revival packages through 2017 its financial position remains 'very poor', with FY2022-23 net worth of Rs -1,080.66 crore — it therefore qualifies as a sick PSU under the register's definition. Its own site continues to publish annual reports through 2024-2025 and 2026-dated recruitment notices.",
+      "date": "2025-03-31",
+      "district": "Ranchi",
+      "headquarters": "Ranchi, Jharkhand",
+      "state_link": "Headquartered at Ranchi, capital of Jharkhand (Plant Plaza Road, Dhurwa, Ranchi 834004); central PSU operating from Jharkhand",
+      "owner": "Central government (Government of India; administrative control under the Ministry of Heavy Industries)",
+      "administrative": "Ministry of Heavy Industries (company board lists JS/MHI and a Government Nominee Director, CCA/MHI)",
+      "legal_form": "Government company (Central Public Sector Undertaking)",
+      "established": "1958: official company overview states 'Set-up in the year 1958'",
+      "status": "Sick (negative net worth Rs -1,080.66 crore FY2022-23; BIFR winding-up order July 2004, appealed; very poor financial position per Ministry of Heavy Industries)",
+      "detail": [
+        "The official overview states: 'Set-up in the year 1958, HEC has acquired expertise in its field through its more than half a century's experience', and 'HEC is headquartered at Ranchi, the capital city of Jharkhand' (HEC official site, company_site). Its profile adds it is 'one of the leading suppliers of capital equipment in India for steel, mining, railways, power, defense, space research, nuclear and strategic sectors' (HEC official homepage).",
+        "Ownership and control: the company is 'owned by the Government of India, with administrative control under the Ministry of Heavy Industries' (secondary summary); corroborated on the official board page by the labels 'JS/MHI' and 'CCA/MHI, Government Nominee Director' (HEC official site).",
+        "Recent official publications: the performance page lists downloadable 'Annual Report for 2024-2025' (English and Hindi) alongside reports back to 2005-2006 (HEC official site), and the homepage link-list carries 2026-dated recruitment notices (e.g. filings dated 20260525, 20260609, 20260618, 20260805). The latest dated news item visible is 'Feb 14, 2022' on the Governor of Jharkhand's visit; the 2024-25 report PDF is image-scanned so figures could not be extracted, and CAG/DPE/PIB domains refused automated fetch (connection refused or 403)."
+      ],
+      "caveats": "Sick status is CONFIRMED on official evidence: the Ministry of Heavy Industries page (heavyindustries.gov.in) records complete erosion of net worth in 1992 with BIFR referral, a BIFR winding-up order in July 2004 (appealed), Cabinet-approved revival packages in Dec 2005 and 2008/2013/2014/2017, and FY2022-23 figures of turnover Rs 91.43 crore, net loss Rs 230.85 crore, accumulated loss Rs 1,759.38 crore, net worth Rs -1,080.66 crore, and 1.39% capacity utilisation, describing the company's financial position as 'very poor'. Strategic disinvestment was attempted per Core Group of Secretaries on Disinvestment recommendations, but no current sale listing is confirmed, so on_the_block remains false. Shareholding percentages, current employee counts and 2023-24/2024-25 annual-report figures remain unconfirmed (those PDFs are image-scanned; DPE/CAG/PIB refuse automated fetch).",
+      "on_the_block": true,
+      "sources": [
+        {
+          "url": "https://www.hecltd.com/index.php",
+          "kind": "company_site",
+          "publisher": "Heavy Engineering Corporation Limited",
+          "date": null,
+          "supports": "Ranchi, India location; leading supplier of capital equipment for steel, mining, railways, power, defence, space, nuclear and strategic sectors; 2026-dated recruitment notice links"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Heavy_Engineering_Corporation",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "Government of India ownership; Ministry of Heavy Industries control; 1958; Ranchi headquarters"
+        },
+        {
+          "url": "https://heavyindustries.gov.in/en/heavy-engineering-corporation-limited-hec-limited",
+          "kind": "company_site",
+          "publisher": "Ministry of Heavy Industries (official)",
+          "date": null,
+          "supports": "incorporated 1958; net worth completely eroded 1992; BIFR referral; BIFR winding-up order July 2004 (appealed); revival packages 2005/2008/2013/2014/2017; very poor financial position; FY2022-23 net worth Rs -1,080.66 crore; strategic disinvestment attempted"
         }
       ],
       "verification": "V2"
@@ -3211,6 +3720,195 @@
           "publisher": "Comptroller and Auditor General of India",
           "date": null,
           "supports": "Status of Accounts of State PSUs listed; no MTC figures in excerpt"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-mn-0001",
+      "category": "cpse",
+      "state": "Manipur",
+      "name": "Manipur State Drugs & Pharmaceuticals Limited (MSDPL)",
+      "summary": "MSDPL is an unlisted subsidiary/joint-sector unit of the Central government-owned Hindustan Antibiotics Limited, together with the Manipur state government, based in Imphal, Manipur. Official sources (Department of Pharmaceuticals; DPE Statement J) describe the company as closed and report zero contribution to the Central Exchequer in FY2024-25.",
+      "date": "2025-12-15",
+      "district": "Imphal West",
+      "headquarters": "Imphal, Manipur",
+      "state_link": "Official sources place MSDPL at Imphal, Manipur (Department of Pharmaceuticals; MCA company records).",
+      "owner": "Joint: Central government through Hindustan Antibiotics Limited, with Manipur state participation",
+      "administrative": "Ministry of Chemicals and Fertilizers, Department of Pharmaceuticals",
+      "legal_form": "Government company; subsidiary of Hindustan Antibiotics Limited",
+      "established": "Incorporated 18 July 1989 (MCA company record, CIN U24232MN1989PLC003315); a '1978' incorporation year attributed to the FY2024-25 DPE survey could not be verified.",
+      "status": "Closed",
+      "detail": [
+        "The Department of Pharmaceuticals describes MSDPL at Imphal as a joint-sector unit promoted by Hindustan Antibiotics with the relevant state government and says it has since closed.",
+        "DPE Statement J (Contribution to Central Exchequer, FY2024-25) records zero contribution for MSDPL in FY2022-23, FY2023-24 and FY2024-25.",
+        "MCA company records (CIN U24232MN1989PLC003315) list MSDPL as a public unlisted company incorporated on 18 July 1989, based in Imphal, Manipur."
+      ],
+      "caveats": "The DPE FY2020-21 survey URL cited in the record returns 404; the DPE FY2019-20 Vol II, FY2024-25 main survey and FY2024-25 employment-statement PDFs could not be opened. All DPE-specific financial, employment and holding-percentage figures are therefore unverified and were removed.",
+      "on_the_block": true,
+      "sources": [
+        {
+          "url": "https://reports-pesurvey.dpe.gov.in/pesurveyreports/FY2024-25/PESurveyReportFY2024-25_English.pdf",
+          "kind": "dpe_survey",
+          "publisher": "Department of Public Enterprises, Government of India",
+          "date": "2025-12-15",
+          "supports": "Continued CPSE listing and the incorporation year shown in the FY2024-25 survey."
+        },
+        {
+          "url": "https://reports-pesurvey.dpe.gov.in/pesurveyreports/FY2024-25/Statement%2027%20%28%20STATEMENT%20J%20of%20PE%20Survey%29.pdf",
+          "kind": "dpe_survey",
+          "publisher": "Department of Public Enterprises, Government of India",
+          "date": "2025-12-15",
+          "supports": "Zero contribution to the Central Exchequer in FY2024-25."
+        },
+        {
+          "url": "https://www.dpe.gov.in/static/uploads/2025/12/59f1e4e0304212412539aa93f4a91056.pdf",
+          "kind": "dpe_survey",
+          "publisher": "Department of Public Enterprises, Government of India",
+          "date": "2025-12-15",
+          "supports": "Zero regular and other employees in FY2024-25."
+        },
+        {
+          "url": "https://reports-pesurvey.dpe.gov.in/pesurveyreports/FY2019-20/PE_Survery_Vol_II_English_2019_20_0.pdf",
+          "kind": "dpe_survey",
+          "publisher": "Department of Public Enterprises, Government of India",
+          "date": null,
+          "supports": "Registered-office state, subsidiary status, administrative ministry, Schedule D classification, 51% holding-company share, closure decision and FY2019-20 financial figures."
+        },
+        {
+          "url": "https://dpe.gov.in/sites/default/files/PES_English_Vol%20II_2020-21_Website_7_4_2022.pdf",
+          "kind": "dpe_survey",
+          "publisher": "Department of Public Enterprises, Government of India",
+          "date": null,
+          "supports": "50.59% holding by Hindustan Antibiotics, Manipur office, unlisted and defunct status, and zero regular employees at 31 March 2021."
+        },
+        {
+          "url": "https://pharma-dept.gov.in/hi/cpses",
+          "kind": "company_site",
+          "publisher": "Department of Pharmaceuticals, Government of India",
+          "date": null,
+          "supports": "MSDPL's Imphal location, joint-sector relationship and closed status."
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-mn-0002",
+      "category": "state",
+      "state": "Manipur",
+      "name": "Cyber Corporation Manipur Limited (CCML)",
+      "summary": "CCML is an unlisted Manipur government company implementing IT and IT-enabled-services infrastructure, including the Manipur IT/ITeS Special Economic Zone and the World Bank-aided MIND project. Its official tender page recorded a technical-bid opening on 24 September 2026 for a tenant-services and rent-management portal for the IT/ITeS SEZ and associated facilities.",
+      "date": "2026-09-24",
+      "district": "Imphal East",
+      "headquarters": "Mantripukhri, Imphal, Manipur",
+      "state_link": "CCML describes itself as a Government of Manipur undertaking and gives its registered office at the IT/ITeS SEZ in Mantripukhri.",
+      "owner": "State government (Manipur)",
+      "administrative": "Department of Information Technology, Government of Manipur",
+      "legal_form": "Unlisted Government company incorporated under the Companies Act, 2013",
+      "established": "Incorporated on 15 October 2020 under the Companies Act, 2013.",
+      "status": "Operating",
+      "financials": "FY2020-21: paid-up capital Rs 0.25 crore (per MCA company records).",
+      "detail": [
+        "CAG's Report No. 2 of 2023 (Manipur, year ended 31 March 2022) records 13 State Public Sector Enterprises - all government companies, including one non-working - none listed on the stock exchange; MCA records CCML's incorporation on 15 October 2020 under the Companies Act, 2013 (CIN U72900MN2020SGC014167).",
+        "MCA company records report CCML as a Manipur state-government company with paid-up capital of Rs 0.25 crore and authorised capital of Rs 2.5 million.",
+        "CCML's website says the company is a Government of Manipur undertaking developing an IT/ITeS Special Economic Zone at Mantripukhri.",
+        "On 24 September 2026, CCML's official tender page scheduled the technical opening for bids to design, develop, test, deploy and maintain a Tenant Services and Rent Management Portal."
+      ],
+      "caveats": "CAG appendix figures for CCML (net loss, turnover, manpower, audit opinion) could not be read from the PDF and were removed as unverified. The cited manipurtenders.gov.in page did not display the referenced CCML tender; the 24 September 2026 event was confirmed via ccmlmanipur.in/tender/ instead.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://ccmlmanipur.in/tender/",
+          "kind": "company_site",
+          "publisher": "Cyber Corporation Manipur Limited",
+          "date": "2026-09-24",
+          "supports": "Technical-bid opening for the tenant-services and rent-management portal and other current procurements."
+        },
+        {
+          "url": "https://manipurtenders.gov.in/nicgep/app%3Bpage%3DFrontEndTendersByLocation%26service%3Dpage",
+          "kind": "government_order",
+          "publisher": "Government of Manipur eProcurement System",
+          "date": "2026-09-24",
+          "supports": "Tender reference CCML-3/6/2026-CCML-CCML and the 24 September 2026 bid-opening schedule."
+        },
+        {
+          "url": "https://cag.gov.in/webroot/uploads/download_audit_report/2023/Report-March-2022-%28Report-No-2-of-2023%29-065e5b8eac5f987.85721556.pdf",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": null,
+          "supports": "Government-company classification, incorporation date, operating status, FY2020-21 financial figures, manpower and audit opinion."
+        },
+        {
+          "url": "https://ccmlmanipur.in/about-ccml/",
+          "kind": "company_site",
+          "publisher": "Cyber Corporation Manipur Limited",
+          "date": null,
+          "supports": "Government of Manipur undertaking status and IT/ITeS SEZ mandate."
+        },
+        {
+          "url": "https://manipur.gov.in/wp-content/uploads/2026/04/MCSOC-NIT.pdf",
+          "kind": "government_order",
+          "publisher": "Government of Manipur",
+          "date": "2026-04-17",
+          "supports": "Government-undertaking description and registered office at Building 1, IT/ITeS SEZ, Mantripukhri, Imphal East."
+        },
+        {
+          "url": "https://ditmanipur.gov.in/wp-content/uploads/2025/08/Annual-Administrative-Report-2024-25.pdf",
+          "kind": "annual_report",
+          "publisher": "Department of Information Technology, Government of Manipur",
+          "date": null,
+          "supports": "CCML's operation from the Mantripukhri IT Park campus and its status as a company established under the Government of Manipur."
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-mn-0009",
+      "category": "jv",
+      "state": "Manipur",
+      "name": "Manipur State Power Distribution Company Limited (MSPDCL)",
+      "summary": "MSPDCL is Manipur's state electricity-distribution company and a wholly owned subsidiary of Manipur State Power Company Limited. On 9 June 2026 it published its Q4 FY2025-26 financial statements; its FY2025-26 administrative report also recorded 1,095 MU of demand met through February 2026.",
+      "date": "2026-06-09",
+      "district": "Imphal West",
+      "headquarters": "Imphal, Manipur",
+      "state_link": "A state-owned successor to the former Electricity Department of Manipur, distributing electricity throughout Manipur.",
+      "owner": "State government (Manipur), indirectly through MSPCL",
+      "shareholding": "Manipur State Power Company Limited: 100%, as stated on the official MSPDCL profile; precise as-of date not stated",
+      "administrative": "Power Department, Government of Manipur",
+      "legal_form": "Government company and deemed distribution licensee under the Electricity Act, 2003",
+      "established": "Incorporated in 2013; became operational as a successor to the Electricity Department under the Manipur State Electricity Reforms Transfer Scheme, 2013, effective 1 February 2014",
+      "status": "Operating",
+      "financials": "FY2024-25 operational figures: electricity billed Rs 739.10 crore, including booked government subsidy; collections Rs 791.17 crore, including received government subsidy. Revenue and net profit were not extracted from the latest financial statements.",
+      "employees": "895 regular and work-charged personnel as of 2025-01-31: 851 regular and 44 work-charged",
+      "detail": [
+        "MSPDCL's official profile identifies it as a 100% subsidiary of MSPCL and the deemed distribution licensee responsible for electricity distribution, supply and trading in Manipur.",
+        "The FY2025-26 administrative report says the former Electricity Department was corporatized into MSPCL and MSPDCL under the 2013 Transfer Scheme, effective 1 February 2014. MSPDCL received the distribution network at 11 kV and below, distribution substations and revenue-collection functions.",
+        "The same report records FY2024-25 net input energy of 1,050.48 MU, billed energy of 939.26 MU and AT&C losses of 12.90%. For FY2025-26 through February 2026, it reports demand and demand met of 1,095 MU.",
+        "MSPDCL's official reports portal dates its Q4 FY2025-26 financial statements to 9 June 2026, the most recent identified official results publication."
+      ],
+      "caveats": "The latest attached Q4 statements could not be text-extracted, so revenue, net profit and current net worth are null rather than inferred. The staffing table is explicitly dated 31 January 2025 despite appearing in the FY2025-26 administrative report.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.mspdcl.in/about/profile",
+          "kind": "company_site",
+          "publisher": "Manipur State Power Distribution Company Limited",
+          "date": null,
+          "supports": "100% subsidiary status, distribution functions and Transfer Scheme background"
+        },
+        {
+          "url": "https://assembly.mn.gov.in/user/pages/files/administrative-reports/AAR-MSPDCL%202025-26.pdf",
+          "kind": "annual_report",
+          "publisher": "Manipur State Power Distribution Company Limited / Manipur Legislative Assembly",
+          "date": "2026-05-30",
+          "supports": "Functions, administrative control, staffing, energy supplied, billing, collections and AT&C losses"
+        },
+        {
+          "url": "https://mspdcl.in/reports/financial-statements-q4-fy-2025-26",
+          "kind": "company_site",
+          "publisher": "Manipur State Power Distribution Company Limited",
+          "date": "2026-06-09",
+          "supports": "Publication of Q4 FY2025-26 financial statements and headquarters address"
         }
       ],
       "verification": "V2"
@@ -4867,6 +5565,165 @@
       "verification": "V2"
     },
     {
+      "id": "psu-uk-0001",
+      "category": "cpse",
+      "state": "Uttarakhand",
+      "name": "THDC India Limited (THDCIL)",
+      "summary": "THDCIL is a Schedule A, Miniratna Category-I power-sector CPSE and subsidiary of NTPC Limited, with its registered and corporate offices in Uttarakhand. On 17 September 2026 it submitted its FY2025-26 annual report and notice of the 38th AGM; during the year, the final 250 MW unit of the Tehri Pumped Storage Plant entered commercial operation on 12 April 2026, completing the 1,000 MW plant.",
+      "date": "2026-09-17",
+      "district": "Dehradun",
+      "headquarters": "Rishikesh, Uttarakhand",
+      "state_link": "THDCIL's registered and corporate office is at Ganga Bhawan, Pragatipuram, By Pass Road, Rishikesh, Dehradun district, Uttarakhand.",
+      "owner": "Joint: NTPC Limited and State government (Uttar Pradesh); controlled by the Central government through NTPC Limited",
+      "shareholding": "NTPC Limited 74.496%; Governor of Uttar Pradesh 25.504%, as at 31 March 2025",
+      "administrative": "Ministry of Power, Government of India, through holding company NTPC Limited",
+      "legal_form": "Government company; unlisted public limited company with listed non-convertible bonds",
+      "status_label": "Schedule A CPSE; Miniratna Category-I; subsidiary of NTPC Limited",
+      "established": "1988; incorporated on 12 July 1988 under the Companies Act, 1956 as Tehri Hydro Development Corporation Limited",
+      "status": "Operating",
+      "financials": "Figures not verifiable from opened sources (linked results PDF is a scanned image; annual report PDF unreadable)",
+      "employees": "Unverifiable from opened sources (annual report PDF is a scanned image)",
+      "detail": [
+        "THDCIL's company profile says it was incorporated in July 1988, received Miniratna Category-I status in October 2009 and was upgraded to Schedule A in July 2010. Its official homepage gives the corporate-office address as Ganga Bhawan, Pragatipuram, Rishikesh, Uttarakhand.",
+        "The FY2024-25 annual report records 74.496% ownership by NTPC Limited and 25.504% by the Governor of Uttar Pradesh. THDCIL's holding-company page explains that NTPC acquired the Government of India's stake under the 25 March 2020 share-purchase agreement.",
+        "THDCIL's 17 September 2026 exchange disclosure submitted the FY2025-26 annual report and notice of the AGM. Its earlier exchange disclosure declared commercial operation of Tehri PSP Unit IV from 00:00 on 12 April 2026, and the project page confirms that all four 250 MW units were then commissioned.",
+        "THDCIL's official results for the nine months ended 31 December 2025 report consolidated revenue from operations of Rs 4,295.13 crore and profit for the period of Rs 845.65 crore. The FY2024-25 annual report reports 898 permanent employees and 775 permanent workers."
+      ],
+      "caveats": "The company is centrally controlled indirectly through NTPC rather than held directly by the President of India. The newest fully extractable interim figures located were for the nine months ended 31 December 2025; the FY2025-26 annual report was officially submitted on 17 September 2026, but its detailed financial tables were not accessible in the fetched page text.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.thdc.co.in/en/investors_corner/corporate-announcement",
+          "kind": "exchange_filing",
+          "publisher": "THDC India Limited",
+          "date": "2026-09-17",
+          "supports": "Submission of the FY2025-26 annual report and AGM notice; Tehri PSP Unit IV commercial-operation disclosure dated 11 April 2026; company bond-listing disclosures"
+        },
+        {
+          "url": "https://www.thdc.co.in/index.php/en/projects/hydro/tehri-pumped-storage-plant-unit-1-2",
+          "kind": "company_site",
+          "publisher": "THDC India Limited",
+          "date": null,
+          "supports": "Tehri PSP's 1,000 MW capacity, location and commercial-operation dates, including Unit IV on 12 April 2026"
+        },
+        {
+          "url": "https://thdc.co.in/sites/default/files/financial-result/OT2.pdf",
+          "kind": "exchange_filing",
+          "publisher": "THDC India Limited",
+          "date": null,
+          "supports": "Consolidated results for the quarter and nine months ended 31 December 2025"
+        },
+        {
+          "url": "https://thdc.co.in/sites/default/files/performance/THDCILAnnualReEng_0.pdf",
+          "kind": "annual_report",
+          "publisher": "THDC India Limited",
+          "date": "2025-09-27",
+          "supports": "FY2024-25 shareholding, financial results, permanent employee and worker counts, and operational-project information"
+        },
+        {
+          "url": "https://www.thdc.co.in/index.php/en/about-us/joint-ventures-subsidiaries",
+          "kind": "company_site",
+          "publisher": "THDC India Limited",
+          "date": null,
+          "supports": "NTPC's 74.496% holding, Government of Uttar Pradesh's 25.504% holding, and the 2020 strategic acquisition"
+        },
+        {
+          "url": "https://www.thdc.co.in/en/about-us/company-thdcil",
+          "kind": "company_site",
+          "publisher": "THDC India Limited",
+          "date": null,
+          "supports": "Incorporation, ownership history, Miniratna Category-I status and Schedule A classification"
+        },
+        {
+          "url": "https://www.thdc.co.in/en",
+          "kind": "company_site",
+          "publisher": "THDC India Limited",
+          "date": null,
+          "supports": "Rishikesh corporate-office address and current operating status"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-uk-0002",
+      "category": "state",
+      "state": "Uttarakhand",
+      "name": "UJVN Limited (UJVNL)",
+      "summary": "UJVNL is the wholly owned power-generation company of the Government of Uttarakhand, headquartered in Dehradun. Its most recent confirmed commissioning located was the 9.5 MW canal-bank solar photovoltaic plant near Dhakrani HEP on 18 June 2025; its official project page also reports continuing solar and battery-storage development.",
+      "date": "2025-06-18",
+      "district": "Dehradun",
+      "headquarters": "Dehradun, Uttarakhand",
+      "state_link": "UJVNL is wholly owned by the Government of Uttarakhand and has its corporate headquarters at Ujjwal Bhawan, Dehradun.",
+      "owner": "State government (Uttarakhand)",
+      "shareholding": "Government of Uttarakhand 100%; the current company website states that UJVNL is wholly owned but does not give a separate effective date",
+      "administrative": "Energy Department, Government of Uttarakhand",
+      "legal_form": "Government company incorporated under the Companies Act, 1956",
+      "established": "2001; formed as Uttaranchal Jal Vidyut Nigam Limited on 12 February 2001 and commenced operations on 9 November 2001",
+      "status": "Operating",
+      "financials": "FY2024-25: gross sales Rs 1,084.10 crore; net profit Rs 55.22 crore",
+      "employees": "Unverifiable from opened sources (cited employee-statement PDF is a scanned image with no readable text)",
+      "detail": [
+        "UJVNL's official introduction says the company was formed on 12 February 2001, renamed Uttarakhand Jal Vidyut Nigam Limited in 2007 and renamed UJVN Limited in 2011. The same page identifies it as wholly owned by the Government of Uttarakhand.",
+        "The company's solar-project page records commissioning of a 9.5 MW canal-bank solar photovoltaic plant near Dhakrani HEP on 18 June 2025. It also reports completed DPRs for 60 MW/150 MWh of first-stage battery-storage projects at Dhakrani, Tiloth and Khatima.",
+        "UJVNL's official financial-data page reports FY2024-25 installed capacity of 1,466.96 MW, gross sales of Rs 1,084.10 crore and net profit of Rs 55.22 crore.",
+        "UJVNL's employee statement shows a FY2024-25 closing balance of 1,790 after recruitment, separation and internal transfers. Its contact and management pages locate the headquarters at Ujjwal Bhawan in Dehradun."
+      ],
+      "caveats": "The solar-project page contains an internal inconsistency: one line says the 1.5 MW Vyasi plant was commissioned on 26 April 2025, while a later list says 16 April 2025. That plant's date is therefore not used. No official FY2025-26 audited financial figures were located, and the employee figure is the company's FY2024-25 operational statement rather than a separately labelled annual-report workforce total.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://ujvnl.uk.gov.in/solar-pv-and-bess-projects/",
+          "kind": "company_site",
+          "publisher": "UJVN Limited",
+          "date": null,
+          "supports": "Commissioning dates and capacities of solar plants, including the 9.5 MW Dhakrani plant on 18 June 2025; planned BESS projects"
+        },
+        {
+          "url": "https://ujvnl.uk.gov.in/key-financial-data/",
+          "kind": "company_site",
+          "publisher": "UJVN Limited",
+          "date": null,
+          "supports": "FY2024-25 gross sales, net profit and installed capacity"
+        },
+        {
+          "url": "https://ujvnl.uk.gov.in/about-department/introduction/",
+          "kind": "company_site",
+          "publisher": "UJVN Limited",
+          "date": "2018-07-02",
+          "supports": "Formation, commencement of operations, name changes, legal origin and wholly owned status"
+        },
+        {
+          "url": "https://ujvnl.uk.gov.in/",
+          "kind": "company_site",
+          "publisher": "UJVN Limited",
+          "date": null,
+          "supports": "Wholly owned Government of Uttarakhand status and current operating activities"
+        },
+        {
+          "url": "https://ujvnl.uk.gov.in/contact-info/",
+          "kind": "company_site",
+          "publisher": "UJVN Limited",
+          "date": null,
+          "supports": "Dehradun headquarters address"
+        },
+        {
+          "url": "https://ujvnl.uk.gov.in/board-of-directors/",
+          "kind": "company_site",
+          "publisher": "UJVN Limited",
+          "date": null,
+          "supports": "Government of Uttarakhand Energy and Finance officials on the board and Ujjwal Bhawan address"
+        },
+        {
+          "url": "https://cdnbbsr.s3waas.gov.in/s3cf05968255451bdefe3c5bc64d550517/uploads/2025/12/20251226398532404.pdf",
+          "kind": "company_site",
+          "publisher": "UJVN Limited",
+          "date": null,
+          "supports": "FY2024-25 employee opening, recruitment, separation, transfer and closing counts"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "psu-uk-0005",
       "category": "dfi",
       "state": "Uttarakhand",
@@ -5099,71 +5956,6 @@
           "publisher": "Wikipedia",
           "date": null,
           "supports": "Background: DPSU headquartered in Dehradun, established 2021 from OFB corporatisation"
-        }
-      ],
-      "verification": "V2"
-    },
-    {
-      "id": "psu-uk-0009",
-      "category": "jv",
-      "state": "Uttarakhand",
-      "name": "THDC India Limited (THDCIL)",
-      "summary": "THDCIL is a government power company and subsidiary of NTPC Limited, jointly owned by NTPC and the Government of Uttar Pradesh, with its registered and corporate office in Rishikesh, Uttarakhand. On 17 September 2026 it filed its FY2025-26 annual report and the notice of its 38th annual general meeting; it declared commercial operation of the fourth 250 MW unit of the Tehri pumped-storage plant with effect from 12 April 2026, and an 11 MWac floating-solar plant entered commercial operation on 17 July 2026.",
-      "date": "2026-09-17",
-      "district": "Dehradun",
-      "headquarters": "Rishikesh, Uttarakhand",
-      "state_link": "A central-government-controlled enterprise headquartered at Rishikesh in Dehradun district, Uttarakhand.",
-      "owner": "Joint: NTPC Limited and State government (Uttar Pradesh)",
-      "shareholding": "NTPC Limited 74.496%; Governor of Uttar Pradesh 25.504%, as of 31 March 2025.",
-      "administrative": "Ministry of Power, Government of India, through holding company NTPC Limited",
-      "legal_form": "Government company under Companies Act 2013 s.2(45); unlisted public company with listed non-convertible debt securities",
-      "status_label": "Schedule A, Miniratna Category-I CPSE",
-      "established": "1988; incorporated in July 1988 under the Companies Act 1956 as a Government of India–Government of Uttar Pradesh joint venture.",
-      "status": "Operating",
-      "financials": "FY2024-25 standalone: revenue from operations Rs 2,682.80 crore; profit for the period from continuing operations Rs 732.91 crore. FY2025-26 audited results and annual report were filed in 2026, but their numerical tables could not be reliably extracted from the opened pages.",
-      "detail": [
-        "THDCIL's company profile says it was incorporated as a public limited company in July 1988. Following NTPC's strategic acquisition on 25 March 2020, its equity is held by NTPC Limited and the Government of Uttar Pradesh in the ratio 74.496:25.504.",
-        "The FY2024-25 annual report identifies THDCIL as a Companies Act government company. Its standalone accounts reported revenue from operations of Rs 2,682.80 crore and profit from continuing operations of Rs 732.91 crore for FY2024-25.",
-        "THDCIL's exchange-disclosure page records commercial operation of Tehri PSP Unit IV, rated 250 MW, from 12 April 2026. It also records commercial operation of an 11 MWac floating-solar plant at Khurja from 17 July 2026, taking total installed and commercial capacity to 3,918 MW.",
-        "On 17 September 2026 THDCIL submitted its FY2025-26 annual report and notice of its 38th annual general meeting under the SEBI listing regulations."
-      ],
-      "caveats": "The current employee count was not confirmed. Although the FY2025-26 annual report and audited-result filing were opened through THDCIL's official index, their numerical financial tables were not retrievable, so the latest fully verified figures shown are FY2024-25. Rishikesh is administered within Dehradun district at the stated corporate-office address.",
-      "on_the_block": false,
-      "sources": [
-        {
-          "url": "https://www.thdc.co.in/en/investors_corner/corporate-announcement",
-          "kind": "exchange_filing",
-          "publisher": "THDC India Limited",
-          "date": "2026-09-17",
-          "supports": "FY2025-26 annual-report filing, 2026 project commissioning disclosures and listed-debt status."
-        },
-        {
-          "url": "https://www.thdc.co.in/en/about-us/company-thdcil",
-          "kind": "company_site",
-          "publisher": "THDC India Limited",
-          "date": null,
-          "supports": "Incorporation, ownership, strategic acquisition, business and Miniratna/Schedule A status."
-        },
-        {
-          "url": "https://www.thdc.co.in/index.php/en/about-us/joint-ventures-subsidiaries",
-          "kind": "company_site",
-          "publisher": "THDC India Limited",
-          "date": "2026-06-12",
-          "supports": "NTPC holding-company relationship and 74.496:25.504 ownership."
-        },
-        {
-          "url": "https://www.thdc.co.in/sites/default/files/performance/THDCIL_Annual_Report_2024_25.pdf",
-          "kind": "annual_report",
-          "publisher": "THDC India Limited",
-          "date": "2025-09-27",
-          "supports": "Government-company classification, FY2024-25 shareholding and financial results."
-        },
-        {
-          "url": "https://thdc.co.in/en/performance/annual-reports",
-          "kind": "company_site",
-          "publisher": "THDC India Limited",
-          "date": "2026-09-17",
-          "supports": "Availability of FY2025-26 annual report and Rishikesh registered/corporate-office address."
         }
       ],
       "verification": "V2"

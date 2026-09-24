@@ -1179,6 +1179,57 @@
       "verification": "V2"
     },
     {
+      "id": "vc-hp-0003",
+      "category": "alcohol",
+      "state": "Himachal Pradesh",
+      "title": "High Court quashes liquor-transport prosecution against a Rohru driver",
+      "summary": "Police arrested a driver, seized beer and liquor and later filed a charge sheet alleging transport without a permit. The Himachal Pradesh High Court found that the owner held a verified permit covering more liquor than was being carried and quashed the FIR and proceedings against the driver.",
+      "date": "2026-07-17",
+      "date_label": "High Court judgment",
+      "incident_date": "2022-12-12",
+      "district": "Shimla",
+      "outcome": "quashed",
+      "authority": "Himachal Pradesh Police; Himachal Pradesh High Court",
+      "case_reference": "Cr. MMO No. 696 of 2025; 2026:HHC:29328; FIR No. 207 of 2022 dated 12.12.2022, Police Station Rohru",
+      "laws": [
+        "Section 39(1)(a) of the Himachal Pradesh Excise Act"
+      ],
+      "acts": [
+        "Himachal Pradesh Excise Act, 2011"
+      ],
+      "person": "a driver transporting liquor near Rohru",
+      "detail": [
+        "The High Court recorded that police stopped a vehicle on Jakhar Road near Rohru on 12 December 2022 and found 84 bottles of IMFL, 24 bottles of country liquor and 180 bottles of beer.",
+        "The High Court recorded that police seized the liquor, arrested the driver, sent samples to the forensic laboratory and filed a charge sheet.",
+        "The High Court said the Assistant State Taxes and Excise Officer, Rohru Circle, verified the owner's transport permit. The State's status report acknowledged that the quantity carried was less than the quantity authorised.",
+        "The High Court held that no offence under Section 39(1)(a) had been committed and that continuing the proceedings would be futile. It quashed the FIR and consequential proceedings against the driver."
+      ],
+      "current_position": "The FIR and all consequential proceedings stand quashed against the driver.",
+      "quote": {
+        "text": "In the present case, admittedly, the liquor being transported was less than what was mentioned in the permit. Therefore, no offence punishable under Section 39 (1) (a) of the of Punjab Excise Act has been committed in the present case.",
+        "where": "Cr. MMO No. 696 of 2025, 2026:HHC:29328, paragraph 17",
+        "url": "https://indiankanoon.org/doc/196471031/"
+      },
+      "caveats": "The judgment calls the provision part of the Himachal Pradesh Excise Act in its case description but refers to the Punjab Excise Act in paragraph 17. The judgment does not state the date on which the charge sheet was filed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The alleged conduct was transporting ordinary licensed liquor, with no violence, adulteration, poisonous product or complaining victim. The court ultimately found that a valid permit covered the consignment."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/196471031/",
+          "kind": "judgment",
+          "publisher": "Himachal Pradesh High Court via Indian Kanoon",
+          "date": "2026-07-17",
+          "supports": "Arrest, seizure, charge sheet, liquor quantities, permit verification, case references and quashing of the prosecution."
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "vc-jh-0002",
       "category": "gambling",
       "state": "Jharkhand",
