@@ -822,6 +822,59 @@
       "verification": "V2"
     },
     {
+      "id": "ef-ch-0004",
+      "category": "trade",
+      "state": "Chandigarh",
+      "title": "Trader detained under COFEPOSA over alleged commercial-quantity electronics at airport",
+      "summary": "Customs authorities alleged a trader arriving from abroad carried commercial-quantity electronics that were not bona fide baggage. A COFEPOSA detention order dated in 1999 was executed many years later. The Punjab and Haryana High Court in Chandigarh declined to quash the detention order.",
+      "date": "2024-07-16",
+      "date_label": "High Court order",
+      "outcome": "detention_upheld",
+      "authority": "Punjab and Haryana High Court",
+      "case_reference": "[name withheld] vs Union Of India And Others",
+      "laws": [
+        "Section 3(1) of COFEPOSA",
+        "Section 8 of COFEPOSA",
+        "Section 108 of Customs Act, 1962"
+      ],
+      "acts": [
+        "Conservation of Foreign Exchange and Prevention of Smuggling Activities Act, 1974",
+        "Customs Act, 1962"
+      ],
+      "person": "a trader dealing in commodities arriving from abroad",
+      "detail": [
+        "The High Court recorded that the petitioner's counsel stated the petitioner is a trader. The High Court recorded that: \"Petitioner's counsel refers to the petition and argues that the petitioner is a Trader and deals in commodities.\"",
+        "The judgment discusses recovery of electronics described as commercial quantity. The High Court recorded that: \"150 mobile phones, 40 pieces of Casio business navigators\" were recovered, along with other items including \"2 bottles of scotch whiskey were recovered\".",
+        "The High Court recorded that: \"These goods were not bonafide baggage and were in commercial quantity.\"",
+        "The High Court recorded that: \"The impugned detention order was passed on 29.12.1999 and it could not be served upon the petitioner.\" The High Court recorded that the detention order was executed much later.",
+        "The High Court declined to quash the detention. The High Court recorded that: \"Given the above, there is no legal ground to quash the detention order, and the petition deserves dismissal.\" The High Court recorded that: \"The petition is partly allowed to the extent mentioned above.\""
+      ],
+      "current_position": "The detention order was upheld and not quashed, with the petition disposed as partly allowed only as to the period already undergone.",
+      "quote": {
+        "text": "150 mobile phones, 40 pieces of Casio business navigators",
+        "where": "[name withheld] vs Union Of India And Others, Punjab-Haryana High Court, /doc/163248888/",
+        "url": "https://indiankanoon.org/doc/163248888/"
+      },
+      "caveats": "Full paragraph numbers and exact seizure value and airport details could not be confirmed from the accessible excerpt; gold-biscuit seizures mentioned in the same judgment appear to relate to other incidents discussed for context.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Moving ordinary consumer electronics in commercial quantity involves no violence, fraud, minors or other victim, and is a peaceful cross-border trade act punished through detention under smuggling law."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/163248888/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon / Punjab and Haryana High Court",
+          "date": "2024-07-16",
+          "supports": "case title and date, trader status, goods seized, COFEPOSA and Customs Act provisions, detention order dates, decision dismissing quashing plea"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "ef-ct-0003",
       "category": "gold",
       "state": "Chhattisgarh",
@@ -1925,6 +1978,166 @@
       "verification": "V2"
     },
     {
+      "id": "ef-hp-0007",
+      "category": "labour",
+      "state": "Himachal Pradesh",
+      "title": "EPF criminal complaint against Una food company over KYC paperwork quashed",
+      "summary": "The Provident Fund inspector filed a criminal complaint against a private food-manufacturing employer in Una for not furnishing bank-account and KYC details of members. A magistrate issued summons in the case. The High Court held that missing an administrative direction is not punishable under the EPF Scheme and quashed the complaint.",
+      "date": "2025-06-23",
+      "date_label": "High Court judgment",
+      "district": "Una",
+      "outcome": "quashed",
+      "authority": "High Court of Himachal Pradesh at Shimla (Justice Rakesh Kainthla)",
+      "case_reference": "Cr. MMO No. 498 of 2018; Complaint No. 09/2015 before JMFC Court No. II, Una",
+      "laws": [
+        "Paragraph 76(d), Employees' Provident Funds Scheme, 1952",
+        "Paragraph 78, Employees' Provident Funds Scheme, 1952",
+        "Employees' Provident Funds and Miscellaneous Provisions Act, 1952"
+      ],
+      "acts": [
+        "Employees' Provident Funds and Miscellaneous Provisions Act, 1952"
+      ],
+      "person": "a private food-manufacturing company in Una district (PF Code HP-3715)",
+      "penalty": "Criminal prosecution with imprisonment up to one year sought; summons issued by trial court; complaint quashed by High Court",
+      "detail": [
+        "The High Court recorded that the employer was accused of ignoring instructions dated 17.09.2014 issued under Para 78 to furnish bank-account, UAN and KYC particulars of members, and that the complaint invoked Para 76 of the EPF Scheme, which carries custody up to one year and/or a monetary sanction.",
+        "The High Court recorded the employer's plea that all provident fund contributions had already been remitted and that KYC linkage arose only later, so no dues of workers were unpaid.",
+        "The High Court held that non-observance of an administrative direction falls outside Para 76(d), which punishes only breach of a scheme requirement, and allowed the petition.",
+        "The High Court's order states that the trial court had ordered issuance of summons against the accused, and the final direction quashed Complaint No. 09/2015 pending before the magistrate at Una."
+      ],
+      "current_position": "The criminal complaint stands quashed by the High Court's judgment dated 23.06.2025.",
+      "quote": {
+        "text": "The learned Trial Court ordered the issuance of the summons against the accused.",
+        "where": "Cr. MMO No. 498 of 2018, judgment text",
+        "url": "https://indiankanoon.org/doc/105768115/"
+      },
+      "caveats": "No news report of this case could be opened to add detail; the exact factory address beyond Una district could not be confirmed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The employer's contributions were paid and no worker lost money; the prosecution punished a paperwork lapse in staffing administration, an act with no victim."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/105768115/",
+          "kind": "judgment",
+          "publisher": "High Court of Himachal Pradesh via Indian Kanoon",
+          "date": "2025-06-23",
+          "supports": "parties, complaint, summons, reasoning, quashing decision, laws cited"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-hp-0008",
+      "category": "hoarding",
+      "state": "Himachal Pradesh",
+      "title": "Kerosene carrier acquitted as consumer possession held no offence",
+      "summary": "Police stopped a vehicle in Hamirpur district and seized 170 litres of kerosene in 11 containers for want of a transport permit. The carrier was convicted by the trial court and the appeal court partly upheld it. The High Court set aside both convictions and acquitted the accused.",
+      "date": "2025-11-06",
+      "date_label": "High Court judgment",
+      "district": "Hamirpur",
+      "outcome": "acquitted",
+      "authority": "High Court of Himachal Pradesh at Shimla",
+      "case_reference": "Criminal Revision No. 387 of 2014 (2025:HHC:37077); JMFC Hamirpur and Sessions Judge Hamirpur judgments set aside",
+      "laws": [
+        "Section 7, Essential Commodities Act, 1955",
+        "Kerosene (Restriction on Use and Fixation of Ceiling Price) Order, 1993"
+      ],
+      "acts": [
+        "Essential Commodities Act, 1955"
+      ],
+      "person": "a kerosene carrier in Hamirpur district",
+      "penalty": "Trial and appellate convictions and fine set aside; fine ordered to be returned; bail bonds under Section 437-A CrPC / Section 481 BNSS",
+      "detail": [
+        "The High Court recorded that police, at an early-morning vehicle check, found 11 containers holding 170 litres of kerosene and demanded a transport permit which the accused could not produce.",
+        "The High Court recorded that the trial charge was for contravention punishable under Section 7 of the Essential Commodities Act, with police claiming blue dye showed ration-network stock, but noted no dealership, diversion chain, misuse, mixing or adulteration was established.",
+        "The High Court allowed the revision, holding mere possession of a large quantity of kerosene by a consumer is not an offence, and acquitted the accused of the Section 7 charge.",
+        "The order directs return of the fine subject to appeal time and execution of bail bonds, closing the prosecution that began with the roadside seizure."
+      ],
+      "current_position": "Both convictions stand set aside and the accused stands acquitted under the High Court's judgment dated 06.11.2025.",
+      "quote": {
+        "text": "The accused is acquitted of the commission of an offence punishable under Section 7 of the EC Act, 1955.",
+        "where": "Criminal Revision No. 387 of 2014, judgment text",
+        "url": "https://indiankanoon.org/doc/77640199/"
+      },
+      "caveats": "Police had claimed the blue dye indicated ration-network stock; the court did not sustain any diversion charge, but the FIR number and seizure date are not confirmed in the text available. Matching news reports dated 14.11.2025 could not be opened for corroboration.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Moving and holding a household fuel without a permit harmed no one; no adulteration, cheating, or proven diversion was established, so this was peaceful storage and movement of goods."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/77640199/",
+          "kind": "judgment",
+          "publisher": "High Court of Himachal Pradesh via Indian Kanoon",
+          "date": "2025-11-06",
+          "supports": "seizure facts, charge, courts below, acquittal reasoning and directions, laws cited"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-hp-0009",
+      "category": "property",
+      "state": "Himachal Pradesh",
+      "title": "Solan building enforcement and appellate orders quashed, case remanded",
+      "summary": "The Solan municipal chief passed an enforcement order in March 2025 against a private building under the municipal and town-planning building laws. The Town and Country Planning Secretary allowed an appeal against it in August 2025. The High Court set aside both orders for applying the wrong legal framework and sent the matter back for a fresh hearing under one governing law.",
+      "date": "2025-12-18",
+      "date_label": "High Court judgment",
+      "incident_date": "2025-03-27",
+      "district": "Solan",
+      "outcome": "penalty_set_aside",
+      "authority": "High Court of Himachal Pradesh at Shimla (Justice Ajay Mohan Goel); Commissioner, Municipal Corporation, Solan; Principal Secretary (TCP), Himachal Pradesh",
+      "case_reference": "CWP No. 14227 of 2025; MC Solan order dated 27.03.2025; TCP Secretary appellate order dated 05.08.2025",
+      "laws": [
+        "Sections 248, 253, 254, Himachal Pradesh Municipal Corporation Act, 1994",
+        "Section 39(a)/39(A), Himachal Pradesh Town and Country Planning Act, 1977",
+        "Section 32, Himachal Pradesh Town and Country Planning Act, 1977"
+      ],
+      "acts": [
+        "Himachal Pradesh Municipal Corporation Act, 1994",
+        "Himachal Pradesh Town and Country Planning Act, 1977"
+      ],
+      "person": "a private property owner in Solan",
+      "penalty": "Municipal enforcement order and appellate order both quashed; matter remanded for fresh hearing with both sides heard anew",
+      "detail": [
+        "The High Court recorded that the Commissioner, Municipal Corporation, Solan issued the enforcement direction on 27.03.2025 resting on Sections 248, 253 and 254 of the Municipal Corporation Act with Section 39(a) of the Town and Country Planning Act.",
+        "The High Court recorded that on appeal under Section 32 by the private respondents, the Principal Secretary (TCP) allowed the appeal on 05.08.2025, and the writ petitioner challenged that appellate ruling.",
+        "The High Court held that the authorities mixed up two governing laws and forums, quashed both the March enforcement order and the August appellate order, and remanded the matter for a fresh decision under one applicable law.",
+        "The judgment closes with the direction that both sides be heard anew, leaving the building dispute to be decided again by the competent authority."
+      ],
+      "current_position": "Both the enforcement and appellate orders stand quashed; the case is remanded for a fresh hearing before the competent authority.",
+      "quote": {
+        "text": "Accordingly, in light of the above observations, this writ petition is allowed.",
+        "where": "CWP No. 14227 of 2025, judgment text",
+        "url": "https://indiankanoon.org/doc/53208869/"
+      },
+      "caveats": "Plot and ownership specifics, the exact construction held unauthorised, and whether the March order directed demolition, sealing or another measure are not confirmed in the text available; no finding of public-land encroachment appears.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The state's action targeted how an owner built on their own plot under building-permission laws, a victimless land-use dispute with no violence, fraud, or encroachment finding on record."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/53208869/",
+          "kind": "judgment",
+          "publisher": "High Court of Himachal Pradesh via Indian Kanoon",
+          "date": "2025-12-18",
+          "supports": "parties, both orders and dates, quashing decision, remand, laws cited"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "ef-hr-0004",
       "category": "trade",
       "state": "Haryana",
@@ -2028,6 +2241,57 @@
           "publisher": "High Court of Karnataka via Indian Kanoon",
           "date": "2026-09-16",
           "supports": "Gurgaon property, seizure order and date, FEMA sections, NOC rejection"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-hr-0007",
+      "category": "labour",
+      "state": "Haryana",
+      "title": "Private Faridabad factory ordered to pay compensation for 2001 dismissal",
+      "summary": "The Labour Court in Faridabad answered a reference in favour of a press operator and ordered reinstatement with continuity and 50% back wages. A Single Judge replaced reinstatement with Rs 2 lakh lump-sum compensation. The Division Bench on 27.11.2025 dismissed the employer's appeal and kept the Rs 2 lakh with 6% interest.",
+      "date": "2025-11-27",
+      "date_label": "Division Bench order",
+      "district": "Faridabad",
+      "outcome": "penalty",
+      "authority": "Punjab and Haryana High Court, Division Bench; Presiding Officer, Labour Court-II, Faridabad",
+      "case_reference": "LPA-951-2024 (O&M); award dated 28.02.2013; Single Bench judgment dated 20.02.2024",
+      "laws": [
+        "Industrial Disputes Act, 1947"
+      ],
+      "acts": [
+        "Industrial Disputes Act, 1947"
+      ],
+      "person": "a private electrical equipment manufacturer in Faridabad",
+      "penalty": "Rs 2 lakh lump-sum compensation with interest at 6% per annum in lieu of reinstatement",
+      "detail": [
+        "The High Court recorded that the worker was engaged as a press operator in 1978 and regularised in 1979, then put off duty in August 2001 and told in early 2002 that service had ended.",
+        "The High Court recorded that the Labour Court answered the reference in favour of the worker and directed reinstatement with continuity and part back wages.",
+        "The High Court recorded that the Single Judge set aside reinstatement and directed lump-sum compensation instead, and the Division Bench found no merit in the employer's appeal.",
+        "No allegation of injury, death, withheld wages, child labour or bondage appears in the excerpt; the stated charge concerned behaviour toward senior staff in 2001."
+      ],
+      "current_position": "The Division Bench dismissed the employer's appeal and the compensation with interest stands.",
+      "quote": {
+        "text": "Vide award dated 28.02.2013, the reference was answered in favour of the workman. The appellant was directed to reinstate him with continuity in service along with 50% back wages.",
+        "where": "LPA-951-2024 judgment, award-recital paragraphs as displayed on Indian Kanoon",
+        "url": "https://indiankanoon.org/doc/103176555/"
+      },
+      "caveats": "Exact statutory section numbers for the reference could not be confirmed from the excerpt; specific termination order date in November 2001 could not be confirmed, so incident_date is null.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The state penalised a private employer for a firing decision; no worker injury, wage theft, or other victimising conduct was alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/103176555/",
+          "kind": "judgment",
+          "publisher": "Punjab and Haryana High Court via Indian Kanoon",
+          "date": "2025-11-27",
+          "supports": "parties, employment dates, Labour Court award, Single Bench compensation, Division Bench dismissal and interest"
         }
       ],
       "verification": "V2"
@@ -3301,6 +3565,128 @@
       "verification": "V2"
     },
     {
+      "id": "ef-ml-0007",
+      "category": "labour",
+      "state": "Meghalaya",
+      "title": "Private Shillong school ordered to pay balance EPF damages at full statutory rate",
+      "summary": "The provident fund authority appealed against leniency given to a private employer-school in Shillong. The High Court recorded that the school had not remitted contributions for years and held the full pre-2008 damages rate applied. The court ordered the balance to be deposited within eight weeks.",
+      "date": "2025-12-02",
+      "date_label": "High Court Division Bench order",
+      "district": "East Khasi Hills",
+      "outcome": "penalty",
+      "authority": "High Court of Meghalaya at Shillong, Division Bench",
+      "case_reference": "WA No. 84/2024",
+      "laws": [
+        "Section 14B of the Employees' Provident Funds and Miscellaneous Provisions Act, 1952",
+        "Clause 32-A of the Employees' Provident Fund Scheme, 1952",
+        "sub-section (2) of section 15",
+        "sub-section (5) of section 17"
+      ],
+      "acts": [
+        "Employees' Provident Funds and Miscellaneous Provisions Act, 1952"
+      ],
+      "person": "a private school employer in Shillong",
+      "penalty": "damages at 37% for the pre-26.09.2008 period; part already paid at 25% by cheque dated 07.11.2024, with direction that The balance 12% shall be deposited within eight weeks",
+      "detail": [
+        "The High Court recorded that recovery was started in February 2023 for arrears stated as from February 1992 to April 2008, with liability focused from March 2000 till April 2008.",
+        "The High Court recorded that a single judge had reduced or waived the damages levied to 25% instead of 37%, and the department appealed.",
+        "The High Court held there was no power to lower the statutory slab and observed that The court cannot rewrite the statute.",
+        "The High Court recorded that part payment at 25% had been made by cheque dated 07.11.2024 and ordered that The balance 12% shall be deposited within eight weeks after recalculation.",
+        "The High Court disposed of the appeal with the direction that Accordingly, the writ appeal is disposed of to the extent indicated above."
+      ],
+      "current_position": "The writ appeal stands disposed of with the employer required to deposit the balance 12% damages after intimation of the recalculated sum.",
+      "quote": {
+        "text": "The court cannot rewrite the statute.",
+        "where": "WA No. 84/2024, Division Bench order dated 02.12.2025",
+        "url": "https://indiankanoon.org/doc/67122626/"
+      },
+      "caveats": "Exact rupee amount of arrears and of the 12% balance could not be confirmed from the excerpts opened; period is stated as March 2000 to April 2008 within a larger 1992-2008 claim.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The penalty punishes late or missing provident-fund remittances by a private employer, with no allegation of injury, death, child or bonded labour, or cheating workers of wages paid."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/67122626/",
+          "kind": "judgment",
+          "publisher": "High Court of Meghalaya via Indian Kanoon",
+          "date": "2025-12-02",
+          "supports": "date, parties described as provident fund authority vs employer-school, 25% vs 37% issue, no-rewrite holding, balance 12% order and disposal"
+        },
+        {
+          "url": "https://indiankanoon.org/doc/88504742/",
+          "kind": "judgment",
+          "publisher": "Employees Provident Fund Tribunal / High Court record via Indian Kanoon",
+          "date": "2024-10-30",
+          "supports": "period February 1992 to April 2008 and March 2000 onwards, Section 14B and Clause 32-A citations"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-ml-0009",
+      "category": "property",
+      "state": "Meghalaya",
+      "title": "Shillong developer's floors beyond sanction ordered to face execution by planning authority",
+      "summary": "A private developer in Shillong built above the sanctioned G+3 level and sought review of a demolition direction. The court recorded the developer had earlier accepted the technical report. The court rejected the review and ordered the planning authority to execute its 2019 demolition order forthwith.",
+      "date": "2021-03-09",
+      "date_label": "Gauhati High Court order on review",
+      "district": "East Khasi Hills",
+      "outcome": "penalty",
+      "authority": "Gauhati High Court, Division Bench; Meghalaya Urban Development Authority as executing agency",
+      "case_reference": "I.A.(Civil)/3618/2019 in PIL 25/2018",
+      "laws": [
+        "Meghalaya Building Bye-laws, 2001",
+        "Order 47 Rule 1 CPC applied by analogy"
+      ],
+      "acts": [
+        "Meghalaya Town and Country Planning Act, 1973"
+      ],
+      "person": "a private development company in Shillong",
+      "penalty": "partial demolition/dismantling of construction above the sanctioned G+3 level; direction that Let the MUDA execute the order of this court dated 16.08.2019 forthwith",
+      "detail": [
+        "The court recorded that Building permission was granted for G+3 floors only, and a technical team found extra floors with unsafe columns, beams and retaining wall.",
+        "The court recorded that the applicant had earlier stated they have no objection to the report and would abide by the same.",
+        "The court held there was no review ground and observed There is also no apparent error on the face of the records.",
+        "The court rejected the plea based on a later private study proposing strengthening instead of demolition above the third floor.",
+        "The court ordered that Let the MUDA execute the order of this court dated 16.08.2019 forthwith, continuing the 2014-2015 restraint and sealing process for 12-plus Shillong buildings built 1-2 floors beyond sanction on their own plots."
+      ],
+      "current_position": "Review stands rejected and the 16.08.2019 partial-demolition direction stands to be executed by MUDA.",
+      "quote": {
+        "text": "Building permission was granted for G+3 floors only.",
+        "where": "I.A.(Civil)/3618/2019, order dated 09-03-2021",
+        "url": "https://indiankanoon.org/doc/21860281/"
+      },
+      "caveats": "No Meghalaya building-sanction demolition or conversion penalty from 2022-2026 qualifying on own land was found; the 2021 review order is therefore returned as the most recent qualifying act. Exact street address and floor count for this applicant beyond G+3 were not uniformly stated across excerpts.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The action targets deviation from sanction on the owner's own building, not encroachment on public or another person's land, with no victim, fraud, or injury alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/21860281/",
+          "kind": "court_order",
+          "publisher": "Gauhati High Court via Indian Kanoon",
+          "date": "2021-03-09",
+          "supports": "title, date, G+3 sanction, no-objection to report, no apparent error, MUDA execution order"
+        },
+        {
+          "url": "https://indiankanoon.org/doc/3207264/",
+          "kind": "judgment",
+          "publisher": "Meghalaya High Court via Indian Kanoon",
+          "date": "2015-09-28",
+          "supports": "origin PIL, private buildings beyond G+3 in Shillong, 12 projects 1-2 floors extra, restraint and sealing process"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "ef-mn-0003",
       "category": "gold",
       "state": "Manipur",
@@ -3751,6 +4137,114 @@
           "publisher": "Gauhati High Court - Aizawl",
           "date": "2026-08-21",
           "supports": "case number, seizure facts, complaint number, statute, and stay order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-mz-0009",
+      "category": "property",
+      "state": "Mizoram",
+      "title": "Aizawl homeowner allowed G+6 building with height cap and demolition of any excess",
+      "summary": "The Aizawl Municipal Corporation had stopped new building work after a High Court freeze on the Bawngkawn-Durtlang road. The High Court recorded that it allowed a homeowner to build G+6 only. The High Court ordered that any part above the height limit must be demolished.",
+      "date": "2026-03-27",
+      "date_label": "High Court order",
+      "district": "Aizawl",
+      "outcome": "prosecution_pending",
+      "authority": "Gauhati High Court (Aizawl Bench)",
+      "case_reference": "I.A.(Civil)/71/2025 in PIL(Suo Moto)/2/2024",
+      "laws": [
+        "AMC Building Regulation, 2012"
+      ],
+      "acts": [
+        "AMC Building Regulation, 2012"
+      ],
+      "person": "a homeowner in Ramhlun North, Aizawl and six persons who allegedly violated the construction freeze along Bawngkawn-Durtlang road",
+      "penalty": "Total height not beyond 64.4 ft; extended portion to be demolished; contempt case against six builders listed on 01.04.2026",
+      "detail": [
+        "The High Court recorded that the PIL arose over slides along the Bawngkawn-Durtlang (Leitan) road and that on 18.07.2024 it ordered no new construction on either side and a halt to projects that had not completed one floor.",
+        "The High Court recorded that the municipal body issued matching stop-work directives on 19.07.2024 and that a homeowner sought leave to build a home under municipal clearance.",
+        "The High Court recorded that joint verification named six builders with RCC and Assam-type structures as alleged breach of the freeze and directed the Registry to register a separate contempt case against them.",
+        "The High Court recorded that city rules cap height at 19 metres and allowed the applicant to construct G+6 only with a total height cap and demolition of any extended portion."
+      ],
+      "current_position": "The homeowner may build G+6 within 64.4 ft with demolition of any excess, and the contempt case against the six builders was listed for 01.04.2026.",
+      "quote": {
+        "text": "However, the total height of the building should not be beyond be 64.4 ft.",
+        "where": "I.A.(Civil)/71/2025 in PIL(Suo Moto)/2/2024, order dated 27.03.2026",
+        "url": "https://indiankanoon.org/doc/145942304/"
+      },
+      "caveats": "Plot and permit numbers could not be confirmed from the excerpt; whether demolition was later carried out could not be confirmed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Building a home on one's own land with municipal permission harms no complaining victim and is a peaceful use of property."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/145942304/",
+          "kind": "court_order",
+          "publisher": "Gauhati High Court - Aizawl",
+          "date": "2026-03-27",
+          "supports": "freeze of 18.07.2024, permission for G+6, 64.4 ft cap, demolition of extended portion, contempt case listed 01.04.2026"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-nl-0004",
+      "category": "trade",
+      "state": "Nagaland",
+      "title": "DRI seizes 45,600 kg of areca nuts from two trucks bound for Dimapur; High Court keeps goods seized",
+      "summary": "DRI officers in Dimapur seized 570 bags of areca nuts worth about Rs 3.19 crore from two trucks intercepted at Kukidolong on 20.12.2025, alleging the nuts were of foreign origin and liable to confiscation under the Customs Act, 1962. The Special Judge in Dimapur had granted the claimant interim custody of the goods on a Rs 10 lakh bond on 12.03.2026. The Gauhati High Court's Kohima Bench allowed DRI's petition on 13.08.2026 and set that release order aside, so the goods stay seized while the criminal case continues.",
+      "date": "2026-08-13",
+      "date_label": "High Court order",
+      "incident_date": "2025-12-20",
+      "outcome": "seizure",
+      "authority": "Directorate of Revenue Intelligence, Dimapur; Gauhati High Court, Kohima Bench",
+      "case_reference": "Crl. Pet./18/2026; G.R. Case No. 718/2025; Seizure No. 02/CL/IMP/ARECA/DRI/DiRU/2025-26",
+      "laws": [
+        "Sections 7(1), 11, 104, 110, 112 and 135 of the Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "a private individual from Chumukedima claiming the seized consignment",
+      "detail": [
+        "The High Court recorded that DRI Dimapur officers, acting on information received on 19.12.2025 about suspected foreign-origin areca nuts being moved from Manipur, intercepted two trucks at Kukidolong on the national highway towards Dimapur at around 0700 hours on 20.12.2025.",
+        "The High Court recorded that the trucks were carrying 570 bags of areca nuts weighing around 45,600 kg with an approximate value of Rs 3,19,52,376, and that the drivers produced a transit pass purportedly issued by the Forest Department, Phek Division, which covered only 25,000 kg.",
+        "The seizure led to a customs complaint and G.R. Case No. 718/2025 before the Dimapur court; the Special Judge's order dated 12.03.2026 granting interim custody of the goods on furnishing a bond of Rs 10 lakh with surety was set aside when the High Court allowed DRI's criminal petition.",
+        "The case as recorded involves only the alleged smuggling of areca nuts and the validity of the custody release; no violence, fraud, minors, drugs, gold, arms, wildlife or complaining victim is mentioned anywhere in the order."
+      ],
+      "current_position": "The criminal case (G.R. Case No. 718/2025) is pending before the Dimapur court and the seized areca nuts and trucks remain under seizure after the High Court set aside the interim release.",
+      "quote": {
+        "text": "the impugned order dated 12.03.2026, passed by the Court of learned Principal District and Session Judge/Special Judge, Dimapur in G.R. Case No. 718/2025 corresponding to DRI Case No. 02/ CL/ IMP/ ARECA/ DRI/ DiRU/ 2025-26 is hereby set aside. This criminal petition is accordingly allowed.",
+        "where": "Crl. Pet./18/2026 (Gauhati High Court, Kohima Bench), paras 29–30 (operative order)",
+        "url": "https://indiankanoon.org/doc/117939469/"
+      },
+      "caveats": "The order as hosted does not state the district of the Kukidolong interception point, so district is left null; no final confiscation or penalty has been ordered yet; the respondent's name is withheld from this text and kept only in names_in_source.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Carrying and storing areca nuts, an ordinary farm produce, is peaceful trade with no complainant victim; the state seized Rs 3.19 crore worth of goods plus two trucks purely on alleged duty-evasion and foreign-origin grounds."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/117939469/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon (order of the Gauhati High Court, Kohima Bench)",
+          "date": "2026-08-13",
+          "supports": "seizure facts, quantities, value, interception place and date, case numbers, statutory provisions, and the operative order setting aside the 12.03.2026 release"
+        },
+        {
+          "url": "https://dri.nic.in/",
+          "kind": "press_release",
+          "publisher": "Directorate of Revenue Intelligence",
+          "date": null,
+          "supports": "context that other listed Dimapur-area DRI actions concern gold and narcotics, which were rejected as excluded categories"
         }
       ],
       "verification": "V2"
@@ -4916,6 +5410,60 @@
           "publisher": "Madras High Court via Indian Kanoon",
           "date": "2026-06-29",
           "supports": "court, date, case number, Nagapattinam location, Act sections, lock-and-seal chronology, dismissal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-tr-0003",
+      "category": "gold",
+      "state": "Tripura",
+      "title": "CESTAT sets aside confiscation of gold jewellery seized from Agartala air passenger",
+      "summary": "Customs officers seized a gold chain and bangle weighing 182.78 grams from a passenger flying Agartala to Kolkata in August 2023 and absolutely confiscated them with penalties. The Commissioner (Appeals) upheld that order in August 2025. The CESTAT Eastern Zonal Bench in Kolkata allowed the passenger's appeal in July 2026 and directed release of the jewellery.",
+      "date": "2026-07-02",
+      "date_label": "CESTAT Final Order",
+      "incident_date": "2023-08-01",
+      "district": "West Tripura",
+      "outcome": "penalty_set_aside",
+      "authority": "Customs, Excise and Service Tax Appellate Tribunal, Eastern Zonal Bench, Kolkata",
+      "case_reference": "Customs Appeal No. 76657 of 2025; Final Order No. 75928/2026; Order-in-Appeal No. 746/GHY(A)/COM/CUS/SH/2025 dated 21.08.2025",
+      "laws": [
+        "Section 110 of the Customs Act, 1962",
+        "Section 112(a) of the Customs Act, 1962",
+        "Section 112(b) of the Customs Act, 1962",
+        "Section 123 of the Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "an air traveller from Agartala to Kolkata",
+      "detail": [
+        "The Tribunal recorded that the appellant was travelling from Agartala to Kolkata by flight on 1st August 2023, when airport security noticed wrist and neck ornaments and, after supporting papers could not be produced, Customs took custody of the jewellery.",
+        "The adjudicating authority absolutely confiscated one gold chain and bangle weighing 182.78 grams and imposed penalties under Sections 112(a) and 112(b) of the Customs Act, 1962, and the Commissioner (Appeals) in Guwahati upheld that order on 21.08.2025.",
+        "The Tribunal held that for seizure of gold there should be a reasonable belief that the jewellery is of foreign origin, noting there were no foreign markings and the purity of the goods was not examined.",
+        "The Tribunal concluded the seizure was bad in law, allowed the appeal, and directed the respondents to release the gold jewellery to the appellant."
+      ],
+      "current_position": "The confiscation and penalties stand set aside and the gold jewellery was directed to be released to the passenger, with no remand.",
+      "quote": {
+        "text": "Therefore, seizure of the said goods is bad in law.",
+        "where": "Paragraph 12 of Final Order No. 75928/2026 in Customs Appeal No. 76657 of 2025, CESTAT Eastern Zonal Bench Kolkata",
+        "url": "https://indiankanoon.org/doc/100305937/"
+      },
+      "caveats": "Facts taken from the Indian Kanoon mirror of the CESTAT order; the amounts of the Section 112 penalties were not specified in the fetched text. Presiding Members: Hon'ble Shri Ashok Jindal (Judicial) and Hon'ble Shri K. Anpazhakan (Technical).",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Carrying worn gold jewellery on a domestic flight harmed no one: the order records no allegation of theft, fraud, foreign smuggling, or any victim, only failure to produce documents on the spot."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/100305937/",
+          "kind": "judgment",
+          "publisher": "CESTAT Eastern Zonal Bench Kolkata via Indian Kanoon",
+          "date": "2026-07-02",
+          "supports": "tribunal, appeal and order numbers, Agartala-to-Kolkata travel on 1.8.2023, seizure at Agartala Airport, 182.78 grams confiscation, sections 110/112/123, findings on foreign origin and markings, appeal allowed with release direction"
         }
       ],
       "verification": "V2"

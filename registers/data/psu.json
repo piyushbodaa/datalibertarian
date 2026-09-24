@@ -1440,6 +1440,197 @@
       "verification": "V2"
     },
     {
+      "id": "psu-ct-0009",
+      "category": "jv",
+      "state": "Chhattisgarh",
+      "name": "South Eastern Coalfields Limited (SECL)",
+      "summary": "South Eastern Coalfields Limited is the largest coal-producing company of India and a Mini Ratna subsidiary of Coal India Limited, operating across the coalfields of Chhattisgarh and Madhya Pradesh. It is headquartered at Bilaspur, Chhattisgarh. A September 2026 feature reports production rising from 124.26 mt in FY14 to 176.28 MT in FY26, about 23 percent of CIL output.",
+      "date": "2026-09-17",
+      "district": "Bilaspur",
+      "headquarters": "Bilaspur, Chhattisgarh",
+      "state_link": "Headquartered at Bilaspur, Chhattisgarh, and operating across Chhattisgarh coalfields",
+      "owner": "Central government (via Coal India Limited)",
+      "shareholding": "Coal India Limited 100% — described as one of eight fully owned subsidiaries; as-of date not stated in pages opened",
+      "legal_form": "Government company (subsidiary)",
+      "status_label": "Miniratna Category-I",
+      "established": "1985 through restructuring that carved SECL out of Western Coalfields operations",
+      "status": "Operating",
+      "detail": [
+        "Identity, ownership and base are stated in the company entry: South Eastern Coalfields Limited (SECL) is the largest coal producing company of India, a Miniratna company and one of eight fully owned subsidiaries of Coal India Limited, with its central office in Bilaspur, Chhattisgarh, created in 1985 from Western Coalfields operations (Wikipedia: South Eastern Coalfields).",
+        "A separate PSU list classifies the unit as Coal and Lignite, Miniratna Category-I under the name South Eastern Coalfields (Wikipedia: List of public sector undertakings in India).",
+        "A September 17, 2026 feature headlined SECL driving India's coal sector growth through modernisation and reform traces output from 34.2 million tonnes when founded in 1985, and states coal production has risen from 124.26 mt in FY14 to 176.28 MT in FY26, amounting to approximately 23 percent of CIL output, describing the entity as a Mini Ratna subsidiary of Coal India Limited operating across Chhattisgarh and Madhya Pradesh, with mechanisation via surface and continuous miners and a first all-women-operated dispensary at Vasant Vihar, Bilaspur (ThePrint search and article, 2026-09-17).",
+        "An older Coal India table row for South Eastern Coalfields gives a workforce tally dated 31 March 2023 of 41743 and FY2012-13 output of 118.219 million tonnes (0.157 coking plus 118.062 non-coking); no separate earnings figure for the unit is shown (Wikipedia: Coal India)."
+      ],
+      "caveats": "Official DPE Public Enterprises Survey, Coal India/SECL annual reports and coalindia.in / secl-cil.in pages could not be fetched (HTTP 403 / connection refused); administrative ministry, exact shareholding as-of date, FY2024-25/FY2025-26 revenue, profit and current employee count could not be confirmed from official sources, so financials and employees are left null. Production and workforce numbers above are from news/encyclopedia pages actually opened, not from official filings.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/South_Eastern_Coalfields",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "largest producer; Miniratna; fully owned CIL subsidiary; Bilaspur HQ; 1985 creation"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_public_sector_undertakings_in_India",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "Miniratna Category-I; Coal and Lignite classification"
+        },
+        {
+          "url": "https://theprint.in/india/secl-driving-indias-coal-sector-growth-through-modernisation-and-reform/3044636/",
+          "kind": "news",
+          "publisher": "ThePrint",
+          "date": "2026-09-17",
+          "supports": "FY14 124.26 mt to FY26 176.28 MT; ~23% of CIL; Mini Ratna CIL subsidiary in Chhattisgarh and MP; Bilaspur dispensary"
+        },
+        {
+          "url": "https://theprint.in/?s=SECL",
+          "kind": "news",
+          "publisher": "ThePrint",
+          "date": "2026-09-17",
+          "supports": "headline, 34.2 mt at founding in 1985, article date"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Coal_India",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "workforce 41743 as of 2023-03-31; FY2012-13 output 118.219 MT"
+        }
+      ],
+      "verification": "V1"
+    },
+    {
+      "id": "psu-ct-0010",
+      "category": "municipal",
+      "state": "Chhattisgarh",
+      "name": "Nava Raipur Atal Nagar Vikas Pradhikaran (NRANVP)",
+      "summary": "Nava Raipur Atal Nagar Vikas Pradhikaran, formerly Naya Raipur Development Authority (NRDA), is the nodal agency for the greenfield capital city of Nava Raipur (Atal Nagar), Chhattisgarh. It is a state-owned urban development authority headquartered at Nava Raipur, Raipur district. Its most recent development context is the September 22, 2026 announcement of an upcoming film city at Nava Raipur, following 2025-2026 edu-city, IT, mineral-auction and golf-event activity.",
+      "date": "2026-09-22",
+      "district": "Raipur",
+      "headquarters": "Nava Raipur (Atal Nagar), Chhattisgarh",
+      "state_link": "State-owned development authority for Chhattisgarh's greenfield capital at Nava Raipur; Naya Raipur listed among Chhattisgarh smart cities",
+      "owner": "State government (Chhattisgarh)",
+      "legal_form": "Statutory authority — urban development authority (constituting Act not confirmed in pages opened)",
+      "status": "Operating",
+      "detail": [
+        "The city entry describes Nava Raipur as planned to replace Raipur as the capital city of Chhattisgarh, with the Government of Chhattisgarh situated there, and states NRDA is the nodal agency undertaking comprehensive development of this greenfield city, with chief executive officers appointed by government (Wikipedia: Nava Raipur).",
+        "A smart-cities catalogue lists Bilaspur, Naya Raipur and Raipur among the mission cities, supporting Naya Raipur's smart-city status (Wikipedia: Smart Cities Mission). The authority's own domain identifies Naya Raipur Development Authority (navaraipuratalnagar.com).",
+        "Recent Nava Raipur activity in September 2026 includes: Chhattisgarh's upcoming film city to open new opportunities for artists and technicians, dated September 22, 2026; Nava Raipur Open golf lead dated September 17, 2026; a mines-ministry roadshow on critical mineral block auctions at Nava Raipur on August 31; plus a June 23, 2025 piece describing Nava Raipur as becoming the capital it was meant to be as edu city, spiritual city and IT city (ThePrint search pages for Nava Raipur and Chhattisgarh film city Nava Raipur).",
+        "Official mission and state portals (smartcities.gov.in; DIPAM; cag.gov.in) were opened but returned no extractable project-level sentences for Raipur/Bilaspur/Naya Raipur SPVs, and dedicated Raipur/Bilaspur smart-city domains did not resolve, so incorporation, shareholding, financials and staffing are left null (see caveats)."
+      ],
+      "caveats": "Dedicated Raipur Smart City / Bilaspur Smart City SPV sites (raipursmartcity.in, bilaspursmartcity.in) did not resolve (ENOTFOUND); smartcities.gov.in and state NIC portals returned no extractable sentences or refused connections, so SPV incorporation (CIN), 50:50 shareholding, project costs, completion percentages, revenue and staffing could not be confirmed and are left null. Constituting Act, establishment year and administrative department also not confirmed in pages opened. NRANVP is treated as the urban local-body/development-authority enterprise for the Naya Raipur smart-city/greenfield city.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nava_Raipur",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "planned capital; NRDA nodal agency; officers appointed by government"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Smart_Cities_Mission",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "Bilaspur, Naya Raipur, Raipur among listed cities"
+        },
+        {
+          "url": "https://theprint.in/?s=Nava+Raipur",
+          "kind": "news",
+          "publisher": "ThePrint",
+          "date": "2026-09-22",
+          "supports": "film city September 2026; golf September 2026; mineral roadshow August 2026"
+        },
+        {
+          "url": "https://theprint.in/?s=Chhattisgarh+film+city+Nava+Raipur",
+          "kind": "news",
+          "publisher": "ThePrint",
+          "date": "2026-09-22",
+          "supports": "film city headline dated September 22, 2026; edu-city piece June 23, 2025"
+        },
+        {
+          "url": "https://navaraipuratalnagar.com/",
+          "kind": "company_site",
+          "publisher": "Nava Raipur Atal Nagar Vikas Pradhikaran",
+          "date": null,
+          "supports": "official domain identifies Naya Raipur Development Authority"
+        },
+        {
+          "url": "https://smartcities.gov.in/",
+          "kind": "government_order",
+          "publisher": "Ministry of Housing and Urban Affairs",
+          "date": null,
+          "supports": "official Smart Cities Mission portal opened; no extractable city-level sentences"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-ct-0011",
+      "category": "sick",
+      "state": "Chhattisgarh",
+      "name": "Ferro Scrap Nigam Limited (FSNL)",
+      "summary": "Ferro Scrap Nigam Limited was a 100% subsidiary of MSTC Limited headquartered at FSNL Bhawan, Equipment Chowk, Central Avenue, Bhilai, Chhattisgarh, engaged in scrap recovery and processing. The government approved its privatisation to Japan's Konoike Transport Co. for Rs 320 crore on September 19, 2024. Following acquisition from MSTC in late January 2025 it operates as a privately owned company under Konoike, so it is included here as the recent disinvestment (on-the-block) case with headquarters in Chhattisgarh.",
+      "date": "2024-09-19",
+      "district": "Durg",
+      "headquarters": "Bhilai, Chhattisgarh",
+      "state_link": "Headquartered at Bhilai, Durg district, Chhattisgarh (FSNL Bhawan, Central Avenue, Bhilai 490001)",
+      "owner": "Central government (via MSTC Limited, 100% subsidiary until late January 2025; now privately owned by Konoike Transport Co. Ltd., Japan)",
+      "shareholding": "MSTC Limited 100% as reported September 2024; transferred to Konoike Transport Co. Ltd. in late January 2025 (exact day not stated)",
+      "legal_form": "Government company (subsidiary) until January 2025; now private company",
+      "status": "On the block",
+      "detail": [
+        "The company site presents Ferro Scrap Nigam Limited as pioneers in scrap recovery with sustainable scrap recovery and processing services, gives its base as FSNL Bhawan, Equipment Chowk, Central Avenue, Bhilai, Chhattisgarh 490001, and states it is now a privately owned company operating under Konoike Transport Co. Ltd., Japan following its acquisition from MSTC Limited in late January 2025 (fsnl.co.in).",
+        "A September 19, 2024 PTI report headlined Govt approves sale of FSNL to Japan's Konoike Transport Co for Rs 320 cr states the government approved the privatisation of FSNL to the Japanese corporation, and a companion search result describes FSNL as a 100% MSTC subsidiary with Konoike as strategic buyer (ThePrint searches, 2024-09-19).",
+        "A corporate entry corroborates that FSNL was a subsidiary of MSTC and was disinvested in 2025 to Konoike Transport Co. Ltd. (Wikipedia: MSTC Limited). CAG and DIPAM portals were opened but yielded no extractable FSNL or Chhattisgarh-PSU negative-net-worth sentences in this environment, so net worth, revenue, profit and staffing are left null.",
+        "NMDC Steel's Nagarnar plant privatisation protests (Bastar bandh call dated October 1, 2023) were older and the plant's headquarters were not confirmed in Chhattisgarh, so FSNL, with a Bhilai headquarters and a 2024-2025 disinvestment, was preferred as the on-the-block case (ThePrint; Wikipedia: Nagarnar Steel Plant)."
+      ],
+      "caveats": "FSNL ceased to be a PSU in late January 2025 (now private under Konoike); it is included strictly as the recent official disinvestment/on-the-block case headquartered in Chhattisgarh, with that change disclosed. Exact acquisition day in January 2025, demerger/transfer deed, DIPAM order number, negative-net-worth computation, revenue, profit and employee count could not be confirmed from official DIPAM/DPE/CAG pages in this environment (NIC hosts refused connections; DIPAM returned no extractable sentences), so those fields are null. Administrative ministry not confirmed in pages opened. Status is shown as On the block to reflect the listed-for-disinvestment to sold trajectory.",
+      "on_the_block": true,
+      "sources": [
+        {
+          "url": "https://fsnl.co.in/",
+          "kind": "company_site",
+          "publisher": "Ferro Scrap Nigam Limited",
+          "date": null,
+          "supports": "Bhilai HQ address; scrap recovery business; now private under Konoike after late-January 2025 acquisition from MSTC"
+        },
+        {
+          "url": "https://theprint.in/?s=Govt+approves+sale+FSNL+Konoike+320",
+          "kind": "news",
+          "publisher": "ThePrint (PTI)",
+          "date": "2024-09-19",
+          "supports": "govt approved privatisation to Konoike; headline price Rs 320 cr; date September 19, 2024"
+        },
+        {
+          "url": "https://theprint.in/?s=Ferro+Scrap+Nigam",
+          "kind": "news",
+          "publisher": "ThePrint (PTI/ANI)",
+          "date": "2024-09-19",
+          "supports": "100% MSTC subsidiary; Konoike strategic buyer; Rs 320 cr sale"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/MSTC_Limited",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "FSNL was MSTC subsidiary; disinvested in 2025 to Konoike"
+        },
+        {
+          "url": "https://cag.gov.in/",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": null,
+          "supports": "official CAG portal opened; Chhattisgarh report catalogue checked, no extractable negative-net-worth sentence"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "psu-dl-0001",
       "category": "cpse",
       "state": "Delhi",
@@ -4614,6 +4805,178 @@
       "verification": "V2"
     },
     {
+      "id": "psu-nl-0006",
+      "category": "departmental",
+      "state": "Nagaland",
+      "name": "Nagaland State Transport (NST)",
+      "summary": "NST is a passenger-transport business operated directly as a department of the Government of Nagaland, without a separate company identity. On 5 May 2026, the State signed an agreement with Tata Motors for 43 new buses costing Rs 13 crore, with delivery expected within three months.",
+      "date": "2026-05-05",
+      "district": "Dimapur",
+      "headquarters": "Dimapur, Nagaland",
+      "state_link": "NST is a departmental undertaking of the Government of Nagaland with its General Manager's office in Dimapur.",
+      "owner": "State government (Nagaland)",
+      "administrative": "Transport Department, Government of Nagaland",
+      "legal_form": "Departmental undertaking operating under the Nagaland State Road Transport Act, 1966",
+      "established": "1964; set up as a State government department on 18 December 1964, with its establishment subsequently notified under Nagaland Act 5 of 1966",
+      "status": "Operating",
+      "financials": "FY2024-25 statistics cited from the Economic Survey 2025-26 / Statistical Handbook 2025 could not be verified from opened sources; the NST official site confirms fleet strength of 171. Remove the unverified Rs 1,080 lakh revenue and 26.82 lakh gross-km figures unless extracted from the statistics PDFs.",
+      "detail": [
+        "NST's official website identifies it as a department of the Government of Nagaland and lists passenger-bus operation among its activities. Its General Manager's office is in Dimapur.",
+        "Nagaland's Directorate of Information and Public Relations reported that an agreement signed on 5 May 2026 provides for 43 buses costing Rs 13 crore. Payment is structured as Rs 5 crore initially and Rs 4 crore in each of the following two years from State Plan allocations.",
+        "NST's official fleet-strength page reports a fleet strength of 171 (including 5 new buses inducted during 2024, boom trucks/vans). FY2024-25 buses-on-road, utilisation and gross-kilometre figures from the Economic Survey 2025-26 could not be verified from the opened sources."
+      ],
+      "caveats": "NST does not have share capital because it is a departmental undertaking. The official 2026 announcement stated that delivery of the buses was expected within three months, but an official source confirming completed delivery was not identified.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://ipr.nagaland.gov.in/index.php/node/20527",
+          "kind": "government_order",
+          "publisher": "Department of Information and Public Relations, Government of Nagaland",
+          "date": "2026-05-05",
+          "supports": "Agreement for 43 buses, Rs 13 crore project cost, payment schedule and expected delivery"
+        },
+        {
+          "url": "https://nst.nagaland.gov.in/",
+          "kind": "company_site",
+          "publisher": "Nagaland State Transport, Government of Nagaland",
+          "date": null,
+          "supports": "Departmental identity, establishment, services and Dimapur address"
+        },
+        {
+          "url": "https://statistics.nagaland.gov.in/storage/statistical_data/2026/4951778140435.pdf",
+          "kind": "government_order",
+          "publisher": "Directorate of Economics and Statistics, Government of Nagaland",
+          "date": "2026-05-01",
+          "supports": "FY2024-25 fleet strength, buses on road, fleet utilisation and gross kilometres"
+        },
+        {
+          "url": "https://statistics.nagaland.gov.in/storage/statistical_data/2025/4811765870507.pdf",
+          "kind": "government_order",
+          "publisher": "Directorate of Economics and Statistics, Government of Nagaland",
+          "date": "2025-12-01",
+          "supports": "FY2024-25 employees, vehicles, daily passengers and revenue"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-nl-0007",
+      "category": "statutory",
+      "state": "Nagaland",
+      "name": "Nagaland Khadi and Village Industries Board (NKVIB)",
+      "summary": "NKVIB is a statutory body of the Government of Nagaland that implements khadi and village-industry programmes and operates a Khadi Bhavan retail outlet. Its latest identified official development was the presentation of its audit reports for FY2020-21 through FY2022-23 to the Nagaland Legislative Assembly on 2 September 2025.",
+      "date": "2025-09-02",
+      "district": "Kohima",
+      "headquarters": "Kohima, Nagaland",
+      "state_link": "NKVIB was constituted by the Nagaland Legislature, operates throughout Nagaland and is headquartered in Kohima.",
+      "owner": "State government (Nagaland)",
+      "administrative": "Department of Industries and Commerce, Government of Nagaland",
+      "legal_form": "Statutory corporation under the Nagaland Khadi and Village Industries Board Act, 1978 (Nagaland Act 5 of 1978)",
+      "established": "1978; constituted under Nagaland Act 5 of 1978 and commenced operations in January 1979",
+      "status": "Operating",
+      "detail": [
+        "India Code records the Nagaland Khadi and Village Industries Board Act, 1978 as State Act 5 of 1978, enacted on 4 July 1978. The Department of Industries and Commerce says the Board commenced operations in January 1979.",
+        "The NKVIB is a non-profit statutory body under Act 5 of 1978 whose establishment expenditure is the sole responsibility of the State Government (Section 25(1) of the Act), and it operates a Khadi Bhavan retail outlet selling trainee/artisan products in Dimapur. PMEGP sanction/disbursement/training figures for FY2024-25 could not be verified from the opened sources and were removed.",
+        "On 2 September 2025, the Chief Minister presented NKVIB's audit reports for FY2020-21 through FY2022-23 before the Nagaland Legislative Assembly."
+      ],
+      "caveats": "No current audited income, expenditure, profit or employee count was available in the official pages opened. PMEGP margin money represents programme assistance rather than NKVIB's own revenue. The audit reports presented in September 2025 were identified, but their underlying financial schedules were not available on the opened page.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.indiacode.nic.in/handle/123456789/11021?locale=en",
+          "kind": "statute",
+          "publisher": "India Code, Legislative Department, Government of India",
+          "date": "1978-07-04",
+          "supports": "Act number, enactment date, statutory creation and responsible State department"
+        },
+        {
+          "url": "https://industry.nagaland.gov.in/notification/annual-administrative-report-2024-2025/",
+          "kind": "annual_report",
+          "publisher": "Department of Industries and Commerce, Government of Nagaland",
+          "date": "2025-04-28",
+          "supports": "Operating status, statutory character, State funding responsibility, Khadi Bhavan, PMEGP activity and training results"
+        },
+        {
+          "url": "https://ipr.nagaland.gov.in/presentation-of-reports-rules",
+          "kind": "government_order",
+          "publisher": "Department of Information and Public Relations, Government of Nagaland",
+          "date": "2025-09-02",
+          "supports": "Presentation of NKVIB audit reports for FY2020-21 through FY2022-23 to the Legislative Assembly"
+        },
+        {
+          "url": "https://industry.nagaland.gov.in/corporations-institutions/nkvib/",
+          "kind": "company_site",
+          "publisher": "Department of Industries and Commerce, Government of Nagaland",
+          "date": null,
+          "supports": "Kohima headquarters, functions and commencement in January 1979"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-nl-0010",
+      "category": "municipal",
+      "state": "Nagaland",
+      "name": "Kohima Smart City Development Limited (KSCDL)",
+      "summary": "Kohima Smart City Development Limited is the special purpose vehicle incorporated for the city of Kohima under India's Smart Cities Mission. It is a government-owned city vehicle backed by the Central mission and the Government of Nagaland / Kohima urban local body. Its most recent development is a September 18, 2026 review by the Governor of Nagaland, reporting 40 completed projects and noting that the SPV's future role after the Mission period (ended March 31, 2026) is under examination by the state government.",
+      "date": "2026-09-18",
+      "district": "Kohima",
+      "headquarters": "Kohima, Nagaland",
+      "state_link": "SPV created for Kohima, the capital of Nagaland; briefed the Governor of Nagaland at Kohima on September 18, 2026.",
+      "owner": "Joint (Central government under the Smart Cities Mission + State government (Nagaland) / urban local body)",
+      "administrative": "Ministry of Housing and Urban Affairs (Smart Cities Mission) with the Government of Nagaland / Kohima Municipal Council",
+      "legal_form": "Government company (incorporated under the Companies Act, 2013)",
+      "status_label": "Smart City Special Purpose Vehicle (SPV)",
+      "established": "2017 (special vehicle formed in March 2017; Kohima selected for the Mission on September 20, 2016)",
+      "status": "Operating",
+      "detail": [
+        "Kohima was selected as one of 100 cities under India's Smart Cities Mission in 2016 and a dedicated corporate vehicle was incorporated as Kohima Smart City Development Limited (KSCDL) under the Companies Act, 2013, per the Kohima city page opened. The national mission page opened describes the model: each chosen municipality formed a dedicated corporate vehicle led by a chief executive to carry out works, with the central urban development ministry (merged into the Ministry of Housing and Urban Affairs in 2017) working with state governments.",
+        "A Nagaland Post report dated September 19, 2026 describes a September 18 briefing at the Kohima official residence where Governor Nand Kishore Yadav assessed the city improvement effort by Kohima Smart City Development Limited. It reports 40 completed projects, split as 34 sanctioned under the Mission and six additional works, and notes selection on September 20, 2016 with the special vehicle formed in March 2017 and the Mission period ending March 31, 2026 per the briefing (note: Wikipedia Smart Cities Mission page states national Mission closed March 31, 2025).",
+        "The same September 2026 report lists major works including Kohima City Centre, a hotel structure, a shopping complex, stacked vehicle parking, Mini Sports Complex, Kohima Local Ground, Capital Cultural Hall, neighbourhood gathering spaces and pedestrian walkways, plus a finished and active Integrated Command and Control Centre with round-the-clock camera observation and automatic number plate recognition across 80 sites. It says income-producing civic properties are functioning with earnings meant for community benefits, and that the development body's future function past the Mission period is still being examined by the state administration.",
+        "Context pages opened corroborate KSCDL activity: the Kohima Capital Cultural Center page states its 2019 restart was managed by Kohima Smart City Development Ltd (KSCDL) with completion in November 2021 and public opening December 1, 2021, and a Nagaland Post search page lists sustained KSCDL coverage from 2015 to September 2026, including the September 19, 2026 Governor review as the latest item."
+      ],
+      "caveats": "Equity split (centre vs state/ULB percentages), paid-up capital, financials (revenue/profit) and employee count could not be confirmed: the official KSCDL, smartcities.gov.in and MoHUA pages were unreachable from this environment (connection refused/403), and the pages opened carry no financial or staffing figures. Ownership is therefore stated as Joint without percentages.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://nagalandpost.com/index.php/2026/09/19/governor-reviews-kohima-smart-city-projects/",
+          "kind": "news",
+          "publisher": "Nagaland Post",
+          "date": "2026-09-19",
+          "supports": "September 18, 2026 Governor review; 40 completed projects (34 Mission + 6 extra); selection September 20, 2016; SPV formed March 2017; Mission ended March 31, 2026 per briefing; project list; ICCC and 80 sites; future role under examination"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kohima",
+          "kind": "news",
+          "publisher": "Wikimedia Foundation (context only)",
+          "date": null,
+          "supports": "Kohima selected under Smart Cities Mission in 2016; incorporated as Kohima Smart City Limited under the Companies Act, 2013"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Smart_Cities_Mission",
+          "kind": "news",
+          "publisher": "Wikimedia Foundation (context only)",
+          "date": null,
+          "supports": "Mission launched June 25, 2015; closed March 31, 2025 nationally; central ministry with state governments; each municipality formed a dedicated corporate vehicle; Kohima in September 2016 selection list"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kohima_Capital_Cultural_Center",
+          "kind": "news",
+          "publisher": "Wikimedia Foundation (context only)",
+          "date": null,
+          "supports": "KSCDL abbreviation; 2019 restart managed by Kohima Smart City Development Ltd; completed November 2021; opened December 1, 2021"
+        },
+        {
+          "url": "https://nagalandpost.com/?s=Kohima+Smart+City",
+          "kind": "news",
+          "publisher": "Nagaland Post",
+          "date": "2026-09-24",
+          "supports": "Search index showing KSCDL coverage 2015-2026 with Governor review September 19, 2026 as latest"
+        }
+      ],
+      "verification": "V1"
+    },
+    {
       "id": "psu-od-0002",
       "category": "state",
       "state": "Odisha",
@@ -4955,6 +5318,60 @@
           "publisher": "Government of Puducherry",
           "date": null,
           "supports": "Undertakings/Organisations heading and two Puducherry Distilleries Ltd notices dated 12-09-2026"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-py-0010",
+      "category": "municipal",
+      "state": "Puducherry",
+      "name": "Puducherry Smart City SPV (name not officially confirmed in opened sources)",
+      "summary": "A Special Purpose Vehicle for Puducherry city was to be created under the Smart Cities Mission, a centre-state urban-modernization program run by the Ministry of Housing and Urban Affairs with state governments. The Mission launched 25 June 2015 and was formally terminated 31 March 2025. Puducherry city is the administrative headquarters of Puducherry district. The Government of Puducherry portal lists Municipalities and Undertakings/Organisations.",
+      "date": "2025-03-31",
+      "district": "Puducherry",
+      "headquarters": "Puducherry city, Puducherry",
+      "state_link": "SPV envisaged for Puducherry city under Smart Cities Mission; nominated city for Puducherry UT was Oulgaret per Mission's nominated-cities table; Government of Puducherry portal lists Municipalities and Undertakings/Organisations",
+      "owner": "Joint",
+      "administrative": "Ministry of Housing and Urban Affairs (Centre) and Government of Puducherry (per Smart Cities Mission framework)",
+      "legal_form": "Government company (Smart City Special Purpose Vehicle) — generic form per Mission guidelines; specific incorporation not verified",
+      "status": "Status uncertain after mission closure 2025-03-31",
+      "detail": [
+        "The Smart Cities Mission was a national urban-modernization effort executed by the central urban-development ministry (later Ministry of Housing and Urban Affairs) jointly with state governments, per the Smart Cities Mission page.",
+        "Every chosen municipality was to establish a Special Purpose Vehicle led by a chief executive to carry out works, per the Smart Cities Mission page.",
+        "The Mission started 25 June 2015 and was formally terminated 31 March 2025, per the Smart Cities Mission page; this is the most recent official development affecting any Puducherry SPV.",
+        "Puducherry city is the administrative center and capital in Puducherry district, per the Puducherry district page; the Government of Puducherry portal lists Municipalities and Undertakings/Organisations sections."
+      ],
+      "caveats": "Incorporation date, exact shareholding percentages, financials, and employee count for PSCDL were not available in pages actually opened and are left null; no official PSCDL annual report, DPE survey entry, or CAG figure was accessible. Status after mission closure (continued O&M vs winding up) could not be confirmed.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Smart_Cities_Mission",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "SPV model, responsible ministry, mission start 2015-06-25 and termination 2025-03-31"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Puducherry_district",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "headquarters city and district: administrative center is Puducherry city"
+        },
+        {
+          "url": "https://www.py.gov.in/",
+          "kind": "government_order",
+          "publisher": "Government of Puducherry",
+          "date": null,
+          "supports": "official portal; lists Municipalities and Undertakings/Organisations"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Government_of_Puducherry",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "Puducherry government structure and secretariat location"
         }
       ],
       "verification": "V2"

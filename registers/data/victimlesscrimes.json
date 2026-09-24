@@ -768,6 +768,109 @@
       "verification": "V2"
     },
     {
+      "id": "vc-ch-0003",
+      "category": "alcohol",
+      "state": "Chandigarh",
+      "title": "Excise plea withdrawn in Chandigarh liquor-recovery case",
+      "summary": "The Punjab and Haryana High Court closed a petition arising from a Punjab Excise Act liquor-recovery case against a person facing trial in Chandigarh. The court recorded the legal history of liquor recoveries under the Act and allowed withdrawal of the plea. The underlying excise prosecution continues.",
+      "date": "2026-09-23",
+      "date_label": "High Court order",
+      "incident_date": "2018-07-08",
+      "outcome": "prosecution_pending",
+      "authority": "Punjab and Haryana High Court",
+      "case_reference": "CRM-M-10893-2022 (O&M)",
+      "laws": [
+        "Section 61 Punjab Excise Act, 1914",
+        "Section 61(A) Punjab Excise Act, 1914"
+      ],
+      "acts": [
+        "Punjab Excise Act, 1914"
+      ],
+      "person": "a person facing trial in an excise case in Chandigarh",
+      "detail": [
+        "The High Court recorded that the present occurrence took place on 08.07.2018 and that the matter raised the excise-law classification of liquor recoveries.",
+        "The High Court recorded that after an amendment to the Punjab Excise Act, 1914, all cases of recovery of liquor were punishable under Section 61(A), while other intoxicant cases were punishable under Section 61.",
+        "The High Court recorded that Section 61(A) was later removed from the statute book in 2013.",
+        "The High Court recorded that counsel for the petitioner stated he wished to withdraw the petition at that stage, and the court ordered accordingly and disposed of pending applications."
+      ],
+      "current_position": "The petition was withdrawn on 23.09.2026, leaving the underlying excise case to continue in the trial court.",
+      "quote": {
+        "text": "Section 61(A) was removed from the Statute Book in 2013.",
+        "where": "[name withheld] vs State of UT Chandigarh, CRM-M-10893-2022, order dated 23.09.2026",
+        "url": "https://indiankanoon.org/doc/111394875/"
+      },
+      "caveats": "FIR number, police station, quantity of liquor and full factual narrative were not visible in the accessible excerpt; no spurious-liquor, violence or additional victim allegation appeared in the excerpt.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Possessing or carrying liquor for personal use or sale harms no complaining victim, and the case was pursued only under excise law."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/111394875/",
+          "kind": "court_order",
+          "publisher": "Punjab and Haryana High Court via Indian Kanoon",
+          "date": "2026-09-23",
+          "supports": "case number, date of decision, incident date, Sections 61 and 61(A) discussion, withdrawal order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-ch-0004",
+      "category": "beef",
+      "state": "Chandigarh",
+      "title": "Anticipatory bail refused in Chandigarh beef-transport case",
+      "summary": "Chandigarh Police booked a meat trader for allegedly carrying 50 kg of beef on a scooter and added the cow-slaughter law after lab testing. The accused sought anticipatory bail saying the meat was buffalo flesh with purchase slips. The High Court refused pre-arrest protection on 19 January 2026.",
+      "date": "2026-01-19",
+      "date_label": "High Court order",
+      "incident_date": "2025-07-19",
+      "outcome": "bail_refused",
+      "authority": "Punjab and Haryana High Court; Chandigarh Police, Police Station Sector 34",
+      "case_reference": "CRM-M-72360-2025; FIR No.106 dated 19.07.2025, Police Station Sector 34, Chandigarh",
+      "laws": [
+        "Section 299 BNS",
+        "Section 8 Punjab Prohibition of Cow Slaughter Act, 1955",
+        "Section 482 BNSS"
+      ],
+      "acts": [
+        "Punjab Prohibition of Cow Slaughter Act, 1955"
+      ],
+      "person": "a 62-year-old meat trader moving meat on a scooter in Chandigarh",
+      "detail": [
+        "The High Court recorded that the case began as FIR No.106 dated 19.07.2025 at Police Station Sector 34 for an offence under Section 299 BNS, and that Section 8 of the Punjab Prohibition of Cow Slaughter Act, 1955 was added after testing.",
+        "The High Court recorded the prosecution claim that 50 kgs of beef was found in the vehicle, a scooter, after a tip to a Gau Raksha Dal office-bearer.",
+        "The High Court recorded that the person at the spot claimed the meat was buffalo flesh and produced purchase slips from sellers in Malerkotla and Saharanpur, and that a sample was sent to the National Meat Research Institute, Hyderabad and reported as Bos indicus (Bull/Ox).",
+        "The High Court held that anticipatory bail is an exceptional remedy, that no special hardship was shown, that custodial questioning was needed to trace slaughter, supply and buyers, and ordered that the petition stands dismissed."
+      ],
+      "current_position": "Anticipatory bail stands refused as of 19.01.2026; investigation and trial to continue.",
+      "quote": {
+        "text": "It is the case of prosecution that 50 kgs of Beef was found in the said vehicle.",
+        "where": "[name withheld] vs State of U.T. Chandigarh, CRM-M-72360-2025, order dated 19.01.2026",
+        "url": "https://indiankanoon.org/doc/168100063/"
+      },
+      "caveats": "Full text was accessed via excerpt; no Prevention of Cruelty to Animals Act, theft, or violence charge appeared in the accessible excerpt.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Possessing, transporting or selling beef for food involves no complaining victim, force or fraud, and was criminalised only under the cattle-preservation law."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/168100063/",
+          "kind": "court_order",
+          "publisher": "Punjab and Haryana High Court via Indian Kanoon",
+          "date": "2026-01-19",
+          "supports": "FIR number and date, sections, recovery quantity, testing, dismissal of anticipatory bail"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "vc-ct-0005",
       "category": "tobacco",
       "state": "Chhattisgarh",
@@ -1023,6 +1126,206 @@
       "verification": "V2"
     },
     {
+      "id": "vc-dl-0005",
+      "category": "tobacco",
+      "state": "Delhi",
+      "title": "Delhi High Court keeps alive challenge to COTPA prosecution over 2018 diary entry",
+      "summary": "Delhi police filed a diary report in 2018 against two persons under tobacco-advertising provisions. The trial court took cognizance and framed notice in the Rohini court case. The Delhi High Court issued notice on their quashing plea and listed it for hearing.",
+      "date": "2025-05-28",
+      "date_label": "High Court order",
+      "incident_date": "2018-07-01",
+      "district": "North-West Delhi",
+      "outcome": "prosecution_pending",
+      "authority": "Delhi High Court (Justice Amit Sharma)",
+      "case_reference": "CRL.M.C. 3893/2025; Cr. Case No. 3485/2018 (CMM, North-West, Rohini)",
+      "laws": [
+        "Sections 5 and 7 of the Cigarettes and Other Tobacco Products (Prohibition of Advertisement and Regulation of Trade and Commerce, Production, Supply and Distribution) Act, 2003"
+      ],
+      "acts": [
+        "Cigarettes and Other Tobacco Products (Prohibition of Advertisement and Regulation of Trade and Commerce, Production, Supply and Distribution) Act, 2003"
+      ],
+      "person": "two persons prosecuted in Subhash Place, North-West Delhi",
+      "detail": [
+        "The High Court recorded that the plea challenged the diary report and later steps in the Rohini trial court case. The Court described the report as a police kalandara under tobacco-control provisions.",
+        "Police said the case rested on the diary report dated July 2018 from Subhash Place police station. The trial court took cognizance in July 2018 and framed notice in November 2018.",
+        "The petitioners contended through counsel that police officers lacked authorisation to file a kalandara under the tobacco Act. The Court did not decide that contention at this stage.",
+        "The High Court issued notice to the state, with state counsel accepting notice and seeking time for reply. The Court listed the matter with another petition on 19.08.2025."
+      ],
+      "current_position": "Prosecution pending; quashing plea awaiting hearing after notice.",
+      "quote": {
+        "text": "being Daily Diary No. 31-B, dated July 01, 2018, filed by the P.S. Subhash Place",
+        "where": "[name withheld] & Anr vs State Of NCT Of Delhi, Delhi High Court order dated 28.05.2025 in CRL.M.C. 3893/2025",
+        "url": "https://indiankanoon.org/doc/36507327/"
+      },
+      "caveats": "Order excerpt gives no product-level facts beyond the COTPA sections and procedural history; whether section 7 related to minors or packaging could not be confirmed from the excerpt.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The prosecution is for alleged tobacco advertising or trade-form violations with no complaining victim, violence, fraud or other harm alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/36507327/",
+          "kind": "court_order",
+          "publisher": "Delhi High Court via Indian Kanoon",
+          "date": "2025-05-28",
+          "supports": "court, date, case numbers, diary report, COTPA sections 5 and 7, notice issued and next listing"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-dl-0006",
+      "category": "vapes",
+      "state": "Delhi",
+      "title": "Delhi High Court examines DRI seizure of 33,624 vapes and foreign cigarettes",
+      "summary": "The Delhi zonal unit of revenue intelligence seized tens of thousands of vapes and foreign cigarettes and issued a show-cause notice for confiscation and penalty. The trader challenged the search power under the 2019 vape ban and customs law. The Delhi High Court let the notice proceedings continue with a hearing but stayed any final order from taking effect.",
+      "date": "2025-11-06",
+      "date_label": "High Court order",
+      "incident_date": "2024-06-12",
+      "outcome": "prosecution_pending",
+      "authority": "Delhi High Court (Justice Prathiba M. Singh and Justice Madhu Jain)",
+      "case_reference": "W.P.(C) 15976/2025; seizure memo dated 12.06.2024; SCN dated 15.12.2024",
+      "laws": [
+        "Prohibition of Electronic Cigarettes (Production, Manufacture, Import, Export, Transport, Sale, Distribution, Storage and Advertisement) Act, 2019",
+        "Customs Act, 1962"
+      ],
+      "acts": [
+        "Prohibition of Electronic Cigarettes (Production, Manufacture, Import, Export, Transport, Sale, Distribution, Storage and Advertisement) Act, 2019",
+        "Customs Act, 1962"
+      ],
+      "person": "a petitioner whose premises were searched by the Directorate of Revenue Intelligence, Delhi Zonal Unit (premises location not stated in the recorded excerpt)",
+      "detail": [
+        "The High Court recorded that the challenge was to a seizure memo issued by the revenue intelligence agency's Delhi zonal unit. The memo listed large quantities of vaping goods and foreign-origin cigarettes found at the petitioner's premises.",
+        "The agency said the goods were prohibited and proposed confiscation and monetary sanction through a December 2024 show-cause notice. The Court noted the items were viewed prima facie as prohibited goods under the 2019 Act.",
+        "The trader argued through counsel that only officers notified as authorised officers under the 2019 Act could enter and search, and that customs valuation and seizure powers did not apply. The Court framed that authorisation question for affidavit and hearing.",
+        "The High Court directed that the show-cause proceedings may continue with a reply and personal hearing and a reasoned decision. The Court ordered that any final Order-in-Original shall not be given effect to until the next listing in February 2026."
+      ],
+      "current_position": "Adjudication pending; show-cause proceedings continue but the final order is stayed from taking effect.",
+      "quote": {
+        "text": "seizure memo dated 12th June, 2024 issued by the Directorate of Revenue Intelligence, Delhi Zonal Unit",
+        "where": "[name withheld] vs Union Of India & Ors, Delhi High Court order dated 06.11.2025 in W.P.(C) 15976/2025",
+        "url": "https://indiankanoon.org/doc/153041180/"
+      },
+      "caveats": "Premises street address in Delhi was not visible in the excerpt; Delhi nexus rests on the Delhi High Court as deciding court and the Delhi zonal unit as seizing agency. Foreign cigarettes were seized alongside vapes but no smuggling or counterfeit finding is recorded in the excerpt.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Storage and import of vapes for sale involves no complaining victim, violence, fraud or coercion; the only alleged wrong is possession of a prohibited nicotine product."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/153041180/",
+          "kind": "court_order",
+          "publisher": "Delhi High Court via Indian Kanoon",
+          "date": "2025-11-06",
+          "supports": "court, date, case number, DRI Delhi seizure memo, quantities, 2019 Act and Customs Act issues, interim directions"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-dl-0007",
+      "category": "other",
+      "state": "Delhi",
+      "title": "Delhi magistrate acquits eatery accused in 2010 obscenity case over adult couples",
+      "summary": "Police booked an eatery in Krishna Nagar for alleged obscene acts after finding adult couples in intimate contact and erotic magazines on tables. Two co-accused had earlier admitted guilt and were convicted in 2010 and 2011. The magistrate acquitted the remaining accused in 2026 for lack of proof.",
+      "date": "2026-07-25",
+      "date_label": "Magistrate judgment",
+      "incident_date": "2010-05-21",
+      "district": "East Delhi",
+      "outcome": "acquitted",
+      "authority": "Judicial Magistrate First Class, Karkardooma Courts, Delhi (Sh. [name withheld])",
+      "case_reference": "FIR No. 124/2010, PS Krishna Nagar; CR Case No. 5772/2016",
+      "laws": [
+        "Section 294 of the Indian Penal Code"
+      ],
+      "acts": [
+        "Indian Penal Code, 1860"
+      ],
+      "person": "an eatery operator in Krishna Nagar, Delhi",
+      "detail": [
+        "The Court recorded that police alleged that on an afternoon in May 2010 at an eatery in Krishna Nagar, Delhi, three pairs of adults were found in intimate contact at separate tables. Police also alleged that three erotic publications were kept on tables and at the counter to attract customers.",
+        "The Court stated the charge was under the provision punishing one who does any obscene act in a public place to the annoyance of others. The judgment set out the text of Section 294 and its punishment of up to three months with or without fine.",
+        "The Court found contradictions in police testimony, no independent witnesses, and unsealed case property. The Court gave the remaining accused the benefit of doubt.",
+        "The Court acquitted the remaining accused of the Section 294 charge. The Court noted that other co-accused had earlier admitted guilt and were convicted in August 2010 and August 2011."
+      ],
+      "current_position": "Acquitted; case ends for the remaining accused with benefit of doubt.",
+      "quote": {
+        "text": "on 21.05.2010 at about 03:30 pm at D-2/23, Krishna Nagar, Delhi,",
+        "where": "State vs [name withheld] & Ors., judgment dated 25.07.2026 in FIR No. 124/2010, JMFC Karkardooma Courts Delhi",
+        "url": "https://indiankanoon.org/doc/148959098/"
+      },
+      "caveats": "Full witness depositions were not reviewed; no ages suggesting minority and no coercion allegation appeared in the excerpt. District is inferred as Shahdara from Krishna Nagar location within Karkardooma court jurisdiction.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Consensual adult intimacy in an eatery and keeping adult magazines harmed no one; there was no allegation of minors, force, coercion or a complaining victim."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/148959098/",
+          "kind": "judgment",
+          "publisher": "JMFC Karkardooma Courts Delhi via Indian Kanoon",
+          "date": "2026-07-25",
+          "supports": "court, date, FIR and case numbers, place and facts alleged, Section 294 charge, acquittal and earlier convictions"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-ga-0001",
+      "category": "sex-work",
+      "state": "Goa",
+      "title": "State appeal fails against acquittal in Vasco paid-sex case",
+      "summary": "The High Court of Bombay at Goa dismissed the State's appeal against the acquittal of a woman in Vasco tried for living on a sex worker's earnings and procuring her. The Court recorded that the adult woman had expressed willingness, travelled to Goa on her own, and never said she was forced. The acquittal under the Immoral Traffic (Prevention) Act was upheld.",
+      "date": "2025-08-08",
+      "date_label": "High Court judgment",
+      "incident_date": "2012-12-26",
+      "district": "South Goa",
+      "outcome": "acquitted",
+      "authority": "High Court of Bombay at Goa",
+      "case_reference": "Criminal Appeal No. 14 of 2016 (2025:BHC-GOA:1490); Criminal Case No. 91/S/2013/C",
+      "laws": [
+        "Sections 4 and 5 of Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "acts": [
+        "Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "person": "a woman in Vasco accused of living on a sex worker's earnings and procuring her",
+      "detail": [
+        "The High Court recorded that the charge was that since 26.12.2012 at Vasco the accused had been living on the earnings of the prostitution of an adult woman, and had procured her with a promise of payment per day and hourly and nightly rates.",
+        "The High Court recorded that the woman was aged 25 to 30, had expressed her willingness to be in the prostitution business, reached Goa on her own by train, was taken to Vasco, and had not objected nor made any grievance that she was forced into prostitution.",
+        "The High Court recorded that the trial court had convicted the accused by judgment and order dated 9.5.2014 under Sections 4 and 5, that the appellate court reversed that conviction and acquitted, and that the prosecution had failed to establish the ingredients of the provisions by cogent evidence.",
+        "The High Court concluded that the appellate court's conclusion could not be called totally unfounded and dismissed the State's appeal as without merit."
+      ],
+      "current_position": "The acquittal stands after the High Court dismissed the State's appeal on 8 August 2025.",
+      "caveats": "The trial court's original sentence could not be confirmed from the available excerpt. No more recent (2026) Goa ITP Act judgment was found on Indian Kanoon.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The case punished arranging paid sex between consenting adults; the Court recorded an adult who expressed willingness and alleged no force, so the act had no complaining victim."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/197241269/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon (High Court of Bombay at Goa judgment)",
+          "date": "2025-08-08",
+          "supports": "charges, willingness and absence of force, trial conviction and appellate acquittal, dismissal of State appeal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "vc-gj-0001",
       "category": "sex-work",
       "state": "Gujarat",
@@ -1230,6 +1533,130 @@
       "verification": "V2"
     },
     {
+      "id": "vc-hp-0005",
+      "category": "tobacco",
+      "state": "Himachal Pradesh",
+      "title": "Himachal High Court lets stand quashing of a gutka/tobacco-products prosecution against a Kullu shop",
+      "summary": "A Food Safety Officer in Mandi prosecuted a Kullu shop and two traders under Section 34 of the Food Safety and Standards Act, 2006, alleging they stored prohibited tobacco products meant for human consumption for sale to the public. The High Court of Himachal Pradesh dismissed the State's criminal revision, holding that no prohibited tobacco product was ever recovered and the complaint rested only on a cash memo, so the quashing of the complaint stood.",
+      "date": "2024-08-13",
+      "date_label": "High Court order dismissing the State's criminal revision",
+      "district": "Kullu",
+      "outcome": "quashed",
+      "authority": "High Court of Himachal Pradesh, Shimla (Sandeep Sharma, J.); Food Safety Officer, Mandi; Additional Sessions Judge-1, Mandi",
+      "case_reference": "Cr. Revision No. 252 of 2022 (CNR HPHC010112132022); Food Act No. 64-I/2013/26-III/2013; Cr. Revision No. 02 of 2015",
+      "laws": [
+        "Section 34, Food Safety and Standards Act, 2006",
+        "Section 258, Code of Criminal Procedure, 1973",
+        "Sections 397/401, Code of Criminal Procedure, 1973"
+      ],
+      "acts": [
+        "Food Safety and Standards Act, 2006"
+      ],
+      "person": "a food business operator/trader and a shop in Kullu, Himachal Pradesh",
+      "detail": [
+        "The High Court recorded that the Food Safety Officer, Mandi, filed a complaint under Section 34 of the Food Safety and Standards Act, 2006 against a shop in Kullu and two traders, alleging that one of them (the third accused) had stored prohibited tobacco products meant for human consumption in his possession for sale and distribution to the general public.",
+        "On 5 April 2013 the trial court issued process against the accused. On 28 August 2014 the Chief Judicial Magistrate, Mandi, dismissed their application for discharge under Section 258 CrPC, but on 17 September 2021 the Additional Sessions Judge-1, Mandi allowed their revision, set aside the summoning order and quashed the complaint.",
+        "The State then filed Cr. Revision No. 252 of 2022 in the High Court. On 13 August 2024, Justice Sandeep Sharma dismissed the revision and left the order of 17 September 2021 undisturbed, finding no illegality or infirmity.",
+        "The court held that the very basic ingredients of Section 34 were missing: no prohibited tobacco product was ever recovered from the accused or their business premises, no emergency prohibition notice/order of the Commissioner of Food Safety was shown to have been served, and the complaint rested merely on a cash memo. It relied on Pepsi Foods Ltd. v. Special Judicial Magistrate, (1998) 5 SCC 749, that a summoning order must reflect application of mind.",
+        "The names of the accused are recorded only in the internal field below, as required."
+      ],
+      "current_position": "The complaint stands quashed and the State's revision was dismissed on 13 August 2024; the prosecution is over.",
+      "quote": {
+        "text": "However, in the instant case before initiation of complaint, no prohibited tobacco products meant for human consumption were ever recovered from the possession of the accused or from their business premises",
+        "where": "Cr. Revision No. 252 of 2022, order dated 13 August 2024, para 4",
+        "url": "https://research.lawsathi.in/himachal-pradesh-high-court/2024/cr-252-2022-state-hp-baba-store-HPHC010112132022/"
+      },
+      "caveats": "This is the most recent qualifying tobacco case I could verify, but it is from 2024. More recent HP tobacco action exists only as enforcement drives (e.g. the 2026 COTPA/State-Act drives issuing hundreds of challans and collecting fines) whose official documents I could not open (education.hp.gov.in and himachalpr.gov.in repeatedly timed out), and those drives also targeted sales around schools/to minors, which the register's rules exclude. Many .gov.in and indiankanoon.org pages were unreachable during this research, so a newer official record may exist that I could not confirm.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Storing or selling a prohibited tobacco product is a regulatory public-health offence with no individual victim; nobody was harmed, defrauded or coerced, and the State's own officer never even recovered the goods."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://research.lawsathi.in/himachal-pradesh-high-court/2024/cr-252-2022-state-hp-baba-store-HPHC010112132022/",
+          "kind": "judgment",
+          "publisher": "High Court of Himachal Pradesh (full text via LawSathi Research)",
+          "date": "2024-08-13",
+          "supports": "charge under FSSA s.34 for prohibited tobacco products; issue of process; quashing of complaint; dismissal of State revision; reasons (no recovery, no prohibition notice, cash-memo basis)"
+        },
+        {
+          "url": "https://research.lawsathi.in/pdf/himachal-pradesh-high-court/2024/cmis/HPHC010112132022_1_2024-08-13.pdf",
+          "kind": "judgment",
+          "publisher": "High Court of Himachal Pradesh (judgment PDF)",
+          "date": "2024-08-13",
+          "supports": "official judgment PDF of the order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-hp-0007",
+      "category": "other",
+      "state": "Himachal Pradesh",
+      "title": "Himachal High Court upholds acquittal in a public-obscenity case, holding no one was annoyed",
+      "summary": "Police in Bilaspur district prosecuted a man under Sections 294, 504 and 506 of the Indian Penal Code over a 2005 public incident, alleging he abused and threatened a local woman and behaved indecently in public while collecting water charges. The High Court of Himachal Pradesh dismissed the State's appeal against his acquittal on 27 May 2025, holding that an offence under Section 294 requires proof the obscene act was to the annoyance of others, which was never shown.",
+      "date": "2025-05-27",
+      "date_label": "High Court order dismissing the State's appeal against acquittal",
+      "incident_date": "2005-09-11",
+      "district": "Bilaspur",
+      "outcome": "acquitted",
+      "authority": "High Court of Himachal Pradesh, Shimla (Rakesh Kainthla, J.); Judicial Magistrate First Class, Court No. 2, Ghumarwin, Bilaspur",
+      "case_reference": "Criminal Appeal No. 306 of 2010 (CNR HPHC010067722010)",
+      "laws": [
+        "Section 294, Indian Penal Code, 1860",
+        "Section 504, Indian Penal Code, 1860",
+        "Section 506, Indian Penal Code, 1860",
+        "Section 437-A, Code of Criminal Procedure, 1973 (Section 481, Bharatiya Nagarik Suraksha Sanhita, 2023)"
+      ],
+      "acts": [
+        "Indian Penal Code, 1860",
+        "Code of Criminal Procedure, 1973",
+        "Bharatiya Nagarik Suraksha Sanhita, 2023"
+      ],
+      "person": "a man collecting water charges at village Jaroda, tehsil Ghumarwin, District Bilaspur, Himachal Pradesh",
+      "detail": [
+        "The High Court recorded that the police filed a challan under Sections 294, 504 and 506 IPC over an incident on 11 September 2005 at village Jaroda in Bilaspur district, during collection of water charges, alleging that the accused abused and threatened the informant and 'removed his pants and undergarments and started behaving indecently' in the presence of villagers.",
+        "The Judicial Magistrate First Class, Court No. 2, Ghumarwin (Bilaspur), acquitted the accused on 27 April 2010, citing unexplained delay in the FIR, failure of witnesses to state the exact act, examination of only inimical witnesses, and material contradictions. The State appealed to the High Court.",
+        "In Criminal Appeal No. 306 of 2010 decided on 27 May 2025, Justice Rakesh Kainthla dismissed the State's appeal. The court held that to prove an offence under Section 294 IPC it is not enough to utter or do something obscene: it must be proved to be to the annoyance of others, and no witness stated that he or she was annoyed.",
+        "The court also held the ingredients of Sections 504 and 506 IPC unproved (no intentional insult likely to provoke a breach of the peace, and no alarm caused), that the delay in lodging the FIR beyond 24 hours was unexplained, and that the trial court had taken a reasonable view. The acquittal was upheld.",
+        "The accused's name is recorded only in the internal field below."
+      ],
+      "current_position": "The acquittal was confirmed by the High Court on 27 May 2025; the State's appeal was dismissed and the case is closed.",
+      "quote": {
+        "text": "No witness stated that he/she was annoyed by the act of the accused.",
+        "where": "Criminal Appeal No. 306 of 2010, order dated 27 May 2025 (para 15 of the judgment)",
+        "url": "https://research.lawsathi.in/himachal-pradesh-high-court/2025/cr-306-2010-state-dhani-ram-HPHC010067722010/"
+      },
+      "caveats": "The prosecution's narrative also mentioned the accused picking up a stick and scuffling with the informant's father-in-law, but the notice of accusation was framed only under Sections 294, 504 and 506 IPC (no assault charge), and the acquittal rested on the absence of the Section 294 'annoyance' ingredient. A more recent and cleaner obscenity arrest — a foreign tourist detained in Shimla in June 2026 under Section 114 of the Himachal Pradesh Police Act for indecent behaviour at the Ridge — is widely reported by several outlets, but no official (police/court/gazette) record could be opened, so it fails the official-source rule (the news-only exception applies only to free-speech/religion arrests).",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The only 'victim' of a public-obscenity charge is the public's sense of decency, and the court expressly found that no one was annoyed or alarmed — no person was harmed, coerced or defrauded, so the conduct harmed no one."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://research.lawsathi.in/himachal-pradesh-high-court/2025/cr-306-2010-state-dhani-ram-HPHC010067722010/",
+          "kind": "judgment",
+          "publisher": "High Court of Himachal Pradesh (full text via LawSathi Research)",
+          "date": "2025-05-27",
+          "supports": "charges under IPC ss.294/504/506; incident of 11.09.2005 at village Jaroda, Bilaspur; trial court acquittal of 27.04.2010; High Court dismissal of State appeal; holding that annoyance was not proved"
+        },
+        {
+          "url": "https://research.lawsathi.in/pdf/himachal-pradesh-high-court/2025/cmis/HPHC010067722010_1_2025-05-27.pdf",
+          "kind": "judgment",
+          "publisher": "High Court of Himachal Pradesh (judgment PDF)",
+          "date": "2025-05-27",
+          "supports": "official judgment PDF of the order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "vc-jh-0002",
       "category": "gambling",
       "state": "Jharkhand",
@@ -1330,6 +1757,57 @@
           "publisher": "Jharkhand High Court via order.law",
           "date": "2026-07-24",
           "supports": "case numbers, sections, tobacco allegation, state ban, dismissal of anticipatory bail"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-jk-0007",
+      "category": "other",
+      "state": "Jammu and Kashmir",
+      "title": "Supreme Court quashes suicide-attempt charge against constable",
+      "summary": "Police charged a constable with attempt to commit suicide after he was found gravely injured in custody in Kupwara. The Supreme Court held the charge appeared fabricated. The Supreme Court quashed the charge and ordered a CBI probe with interim compensation.",
+      "date": "2025-07-21",
+      "date_label": "Supreme Court judgment",
+      "incident_date": "2023-02-20",
+      "district": "Kupwara",
+      "outcome": "quashed",
+      "authority": "Supreme Court of India",
+      "case_reference": "SLP(Criminal) Nos. 13751-13752 of 2023 (Criminal Appeals of 2025); FIR No. 32 of 2023; FIR No. 17 of 2023; FIR No. 01 of 2023; Writ Petition No. 592 of 2023",
+      "laws": [
+        "Section 309 of the Indian Penal Code, 1860"
+      ],
+      "acts": [
+        "Indian Penal Code, 1860"
+      ],
+      "person": "a police constable posted in Baramulla district, summoned to Kupwara",
+      "detail": [
+        "The Supreme Court recorded that the constable was posted at District Police Headquarters, Baramulla, and was deputed to report to the Senior Superintendent of Police, Kupwara in February 2023. The Supreme Court recorded that he was later shifted to hospital in a comatose condition from the Joint Interrogation Centre, Kupwara.",
+        "The Supreme Court recorded that police registered a case for the offence punishable under Section 309 against him. The Supreme Court described that case as FIR No. 32 of 2023.",
+        "The Supreme Court held the Section 309 case was prima facie fabricated and quashed it. The Supreme Court ordered the CBI to register a case into the custodial injuries.",
+        "The Supreme Court directed interim payment of Rs 50 lakh to the injured person. The Supreme Court posted further monitoring for November 2025."
+      ],
+      "current_position": "The Section 309 prosecution stands quashed and a CBI investigation into the custody injuries was ordered.",
+      "quote": {
+        "text": "for the offence punishable under Section 309",
+        "where": "Supreme Court judgment dated 21 July 2025 in Criminal Appeal arising from SLP(Criminal) Nos. 13751-13752 of 2023, reproducing FIR No. 32 of 2023",
+        "url": "https://indiankanoon.org/doc/173545196/"
+      },
+      "caveats": "Full FIR text and High Court order in Writ Petition No. 592 of 2023 were not separately opened. Compensation recovery and later CBI status could not be confirmed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Attempt to commit suicide has no complaining victim besides the accused. The state used the provision against an injured person in custody."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/173545196/",
+          "kind": "judgment",
+          "publisher": "Supreme Court of India via Indian Kanoon",
+          "date": "2025-07-21",
+          "supports": "Kupwara posting and hospitalisation, Section 309 charge in FIR No. 32 of 2023, quashing, CBI probe and Rs 50 lakh payment"
         }
       ],
       "verification": "V2"
@@ -2183,6 +2661,74 @@
       "verification": "V2"
     },
     {
+      "id": "vc-ml-0003",
+      "category": "alcohol",
+      "state": "Meghalaya",
+      "title": "High Court restores licensed liquor shop shut after church objections in West Garo Hills",
+      "summary": "Excise officials verbally ordered a licensed IMFL retailer to shut after church and committee complaints. The retailer said she was never heard before the closure. The Meghalaya High Court held the licence and its relocation were valid and allowed the writ, permitting the shop to operate.",
+      "date": "2026-06-18",
+      "date_label": "High Court judgment",
+      "district": "West Garo Hills",
+      "outcome": "penalty_set_aside",
+      "authority": "Meghalaya High Court at Shillong (Justice H. S. Thangkhiew)",
+      "case_reference": "WP(C) No. 664 of 2025, 2026:MLHC:607",
+      "laws": [
+        "Meghalaya Excise Act",
+        "Rule 183(2)(a), Meghalaya Excise Rules",
+        "Rule 191, Meghalaya Excise Rules"
+      ],
+      "acts": [
+        "Meghalaya Excise Act"
+      ],
+      "person": "a licensed IMFL retailer in Danakgre",
+      "penalty": "Verbal direction by the Superintendent of Excise to shut the shop; set aside by the High Court with permission to operate",
+      "detail": [
+        "The High Court recorded that the retailer held an IMFL retail licence first cleared in September 2022 for a market site, and then received Excise permission dated 29.01.2025 to relocate to Danakgre opposite the BSF camp.",
+        "The High Court recorded that after operating briefly the retailer was verbally told by the Superintendent of Excise to shut following complaints from pastors of two churches, that she complied and remained shut, and that she was never afforded any opportunity to present her case before the closure.",
+        "The High Court recorded that an interim order dated 16.12.2025 directed verification of distances from churches and institutions and a meeting between the Deputy Commissioner, the retailer and the village headman, and that later minutes noted the outlet was about 200 metres from the churches with the required NOC obtained and no breach of Excise law.",
+        "The High Court held that the licence and its shift were duly sanctioned, the 200-metre distance norm was met, and the objections were based on moral grounds rather than legal or other substantial grounds, observing that lawful sales help curb illicit sales.",
+        "Police said nothing in this matter about any victim: a news report of the ruling stated that moral objection by church elders and locals cannot be a ground to shut a licensed shop found beyond the mandatory 200-metre distance from places of worship."
+      ],
+      "current_position": "The writ petition was allowed and disposed of on 18.06.2026, with the shop permitted to operate.",
+      "quote": {
+        "text": "It is thus ordered accordingly and the writ petition is allowed and disposed of.",
+        "where": "WP(C) No. 664 of 2025, final paragraph of judgment dated 18.06.2026",
+        "url": "https://indiankanoon.org/doc/164919797/"
+      },
+      "caveats": "The exact calendar date of the verbal closure order is not printed in the sources; only the sequence (relocation January 2025, then brief operation, then closure) is established. The news report is dated 28.07.2026 while the judgment is dated 18.06.2026, consistent with delayed reporting of the same Danakgre matter.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Selling licensed liquor to willing buyers harmed no one: no violence, fraud, minor, adulteration or complaining victim was alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/164919797/",
+          "kind": "judgment",
+          "publisher": "Meghalaya High Court via Indian Kanoon",
+          "date": "2026-06-18",
+          "supports": "case number, parties' roles, licence and relocation facts, shutdown, distance findings, final order"
+        },
+        {
+          "url": "https://indiankanoon.org/doc/28774301/",
+          "kind": "court_order",
+          "publisher": "Meghalaya High Court via Indian Kanoon",
+          "date": "2025-12-16",
+          "supports": "interim order in same case: 29-01-2025 shifting approval, complaint-led halt, no prior hearing, meeting direction"
+        },
+        {
+          "url": "https://www.rediff.com/news/report/church-objections-cant-override-law-says-meghalaya-hc-on-liquor-shop/20260728.htm",
+          "kind": "news",
+          "publisher": "rediff.com",
+          "date": "2026-07-28",
+          "supports": "corroboration that the court sided with the Danakgre shopkeeper and directed officials to let the IMFL store function"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "vc-mp-0001",
       "category": "sex-work",
       "state": "Madhya Pradesh",
@@ -2305,7 +2851,7 @@
       "incident_date": "2021-07-23",
       "district": "Singrauli",
       "outcome": "quashed",
-      "authority": "Madhya Pradesh High Court at Jabalpur ([name withheld])",
+      "authority": "Madhya Pradesh High Court at Jabalpur (Justice Himanshu Joshi)",
       "case_reference": "MCRC No. 55648 of 2024; follow-on case pending before Judicial Magistrate, Singrauli",
       "laws": [
         "Section 294 IPC",
@@ -2327,7 +2873,7 @@
         "where": "MCRC No. 55648 of 2024, Madhya Pradesh High Court order, para 7 (case title redacted for privacy)",
         "url": "https://www.livelaw.in/pdf_upload/2026/03/10/bansh-mani-verma-v-state-of-madhya-pradesh-660620.pdf"
       },
-      "caveats": "Crime/RCT numbers, PS Waidhan, chargesheet date 19.08.2021, Section 528 BNSS and order date 05.03.2026 appear only in the court-order PDF which returned only metadata (9 pages, HIGH COURT OF MADHYA PRADESH JABALPUR) in text extraction; verified facts are limited to LiveLaw report dated 10.03.2026 confirming July 23 2021 INC inflation rally near Collectorate, Patwari complaint on SDO directions, no outside witness, Sections 294/504 IPC, [name withheld], and quashing of FIR/chargesheet before Singrauli magistrate. Case title redacted for privacy.",
+      "caveats": "Crime/RCT numbers, PS Waidhan, chargesheet date 19.08.2021, Section 528 BNSS and order date 05.03.2026 appear only in the court-order PDF which returned only metadata (9 pages, HIGH COURT OF MADHYA PRADESH JABALPUR) in text extraction; verified facts are limited to LiveLaw report dated 10.03.2026 confirming July 23 2021 INC inflation rally near Collectorate, Patwari complaint on SDO directions, no outside witness, Sections 294/504 IPC, Justice Himanshu Joshi, and quashing of FIR/chargesheet before Singrauli magistrate. Case title redacted for privacy.",
       "sections": [
         {
           "label": "Why it is listed",
@@ -2878,6 +3424,60 @@
           "publisher": "High Court of Punjab and Haryana via Indian Kanoon",
           "date": "2026-01-01",
           "supports": "FIR, section, quantity, prior conviction, and reduced sentence"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-py-0001",
+      "category": "sex-work",
+      "state": "Puducherry",
+      "title": "Madras High Court quashes sex-work case against customer found in Puducherry parlour raid",
+      "summary": "Police in Puducherry raided a beauty parlour and booked a customer present there under the Immoral Traffic (Prevention) Act and IPC. The High Court recorded that the adults were there with consent and there was no coercion. The Court quashed the proceedings against the customer.",
+      "date": "2022-08-26",
+      "date_label": "High Court order",
+      "incident_date": "2022-03-07",
+      "district": "Puducherry",
+      "outcome": "quashed",
+      "authority": "Madras High Court",
+      "case_reference": "Crime No.46 of 2022, Odian Salai Police Station, Puducherry",
+      "laws": [
+        "Sections 3(2)(a), 4(2)(c), 5(1)(a), 5(1)(d), 7 of Immoral Traffic (Prevention) Act, 1956",
+        "Section 370-A(2) IPC",
+        "Section 34 IPC"
+      ],
+      "acts": [
+        "Immoral Traffic (Prevention) Act, 1956",
+        "Indian Penal Code, 1860"
+      ],
+      "person": "a customer present at a beauty parlour in Puducherry",
+      "detail": [
+        "The High Court recorded that on 07.03.2022 police conducted a raid at a beauty parlour in Puducherry and found women accompanying men inside massage rooms.",
+        "The High Court recorded that the case was registered as Crime No.46 of 2022 at Odian Salai Police Station under ITPA provisions and IPC Sections 370-A(2) and 34.",
+        "The High Court recorded that the adults were indulging in sexual acts with consent and there was no coercion of the sex workers and no allegation the customer ran the parlour or induced anyone.",
+        "The High Court held that continuing the FIR against the customer would be futile and quashed the proceedings against him."
+      ],
+      "current_position": "The proceedings against the customer stand quashed by the Madras High Court order dated 26 August 2022.",
+      "quote": {
+        "text": "there is no whisper about any coercion on the sex workers to commit the act",
+        "where": "[name withheld] vs State judgment, Indian Kanoon doc 113459635",
+        "url": "https://indiankanoon.org/doc/113459635/"
+      },
+      "caveats": "Full paragraph numbers and judge name could not be confirmed from the fetched excerpts. No more recent Puducherry ITPA case with an official source was found in 2024-2026 searches.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The case punished consensual adult paid sex with no complaining victim, no minor and no force found by the court."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/113459635/",
+          "kind": "judgment",
+          "publisher": "Madras High Court via Indian Kanoon",
+          "date": "2022-08-26",
+          "supports": "raid date and place, crime number and sections, finding of consent and no coercion, quashing order"
         }
       ],
       "verification": "V2"
@@ -3594,6 +4194,148 @@
           "publisher": "Madras High Court via Indian Kanoon",
           "date": "2026-07-21",
           "supports": "Court, date, case numbers, police station, sections, quantity, cognizance bar and conditional quashing order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-tr-0007",
+      "category": "other",
+      "state": "Tripura",
+      "title": "Content creator prosecuted over allegedly obscene social media posts",
+      "summary": "Police in Agartala arrested a woman content creator in October 2025 over allegedly obscene posts on social media. The High Court recorded two FIRs and later chargesheets and, by a Division Bench judgment of 12 August 2026, refused to quash them and ordered further investigation with a supplementary chargesheet.",
+      "date": "2026-08-12",
+      "date_label": "High Court judgment refusing to quash FIRs and chargesheets",
+      "district": "West Tripura",
+      "outcome": "prosecution_pending",
+      "authority": "High Court of Tripura, Division Bench of Justice Dr T. Amarnath Goud and Justice S. Datta Purkayastha",
+      "case_reference": "W.P.(Crl) 8/2026 and W.P.(Crl) 9/2026, 2026:THC:1097-DB; East Agartala PS case No. 2025EAG108; West Agartala PS case No. 2025WAG113",
+      "laws": [
+        "Sections 356(2), 356, 356(3) of the BNS, 2023",
+        "Section 67 of the Information Technology Act, 2000"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023",
+        "Information Technology Act, 2000"
+      ],
+      "person": "a woman content creator based in Agartala",
+      "detail": [
+        "The High Court recorded that two cases were registered at East Agartala and West Agartala police stations as case numbers 2025EAG108 and 2025WAG113, under defamation provisions and Section 67 of the IT Act, with chargesheets filed in late December 2025.",
+        "Northeast Today reported that West Agartala police searched a home in the Jogendranagar area and took the content creator into custody on the prior evening after a complaint from a local resident about allegedly indecent material shared online, with judicial production planned.",
+        "LawTrend reported that the accused was given temporary release on 7 January and continuing release on 13 February after the inquiry ended, and then asked the High Court to cancel the complaints as personal views lacking defamation ingredients.",
+        "The High Court held that a prima facie case remained, that fast-spreading online posts could injure reputation, and that the trial court should proceed after further investigation and a supplementary chargesheet, leaving the accused free to raise defences at trial."
+      ],
+      "current_position": "FIRs and chargesheets survive; the High Court ordered further investigation and a supplementary chargesheet before the trial court.",
+      "quote": {
+        "text": "In view of the above discussions, this Court is not inclined to quash the FIRs and the charge sheets at this stage.",
+        "where": "[name withheld] vs State of Tripura, W.P.(Crl) 8/2026 and 9/2026, High Court of Tripura judgment dated 12.08.2026",
+        "url": "https://indiankanoon.org/doc/52775289/"
+      },
+      "caveats": "Exact dates of the social media posts were not confirmed; incident_date left null. Later High Court scheduling orders of 14 September 2026 in State petitions (Crl.Petn. 12 and 14 of 2026) only adjourned matters to 1 October 2026 and add nothing on merits.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The prosecution punishes allegedly obscene and derogatory social media posts by an adult; there is no violence, fraud, minor, coercion, trafficking, cruelty or spurious product, so the only harm alleged is to reputation and public sentiment."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/112259880/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon (High Court of Tripura)",
+          "date": "2026-08-12",
+          "supports": "case numbers, FIR numbers, sections, hearing and judgment dates, bench, quash refusal and further-investigation direction"
+        },
+        {
+          "url": "https://indiankanoon.org/doc/52775289/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon (High Court of Tripura)",
+          "date": "2026-08-12",
+          "supports": "FIR numbers, sections 356 BNS and 67 IT Act, and verbatim closing directions quoted"
+        },
+        {
+          "url": "https://northeasttoday.in/north-east/tripura-police-arrest-woman-content-creator-for-alleged-obscenity-on-social-media/",
+          "kind": "news",
+          "publisher": "Northeast Today",
+          "date": "2025-10-27",
+          "supports": "arrest by West Agartala police, home search, complaint basis and IT Act plus BNS case"
+        },
+        {
+          "url": "https://lawtrend.in/tripura-high-court-refuses-to-quash-case-against-content-creator-over-remarks-on-prime-minister/",
+          "kind": "news",
+          "publisher": "LawTrend",
+          "date": "2026-08-19",
+          "supports": "Division Bench, two FIRs and chargesheets, bail chronology, speech-versus-reputation arguments and refusal to quash"
+        },
+        {
+          "url": "https://www.outlookindia.com/national/free-speech-not-a-licence-to-ruin-reputation-tripura-hc-refuses-to-quash-cases-over-derogatory-remarks-against-pm-news-184072",
+          "kind": "news",
+          "publisher": "Outlook India",
+          "date": "2026-08-19",
+          "supports": "corroboration of High Court refusal to quash and free-speech versus reputation findings"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-uk-0007",
+      "category": "other",
+      "state": "Uttarakhand",
+      "title": "Uttarakhand High Court sets aside an attempted-suicide conviction, invoking the Mental Healthcare Act",
+      "summary": "The High Court of Uttarakhand at Nainital allowed a criminal revision and set aside the judicial magistrate's 2023 conviction, later affirmed on appeal, of a Nagar Palika Parishad clerk from Manglaur (Haridwar district) under Section 309 IPC for allegedly attempting suicide in 2011. The single bench of Justice Pankaj Purohit held that the prosecution had not proved an attempt beyond the stage of preparation, and that Section 115 of the Mental Healthcare Act, 2017 presumptively protects a person who attempts suicide from being tried or punished. The nominal sentence and fine were quashed.",
+      "date": "2025-11-06",
+      "date_label": "High Court order (judgment delivered)",
+      "incident_date": "2011-02-21",
+      "district": "Haridwar",
+      "outcome": "acquitted",
+      "authority": "High Court of Uttarakhand at Nainital",
+      "case_reference": "Criminal Revision No.946 of 2024; Case Crime No.71 of 2011 (Kotwali Mangalore); Criminal Case No.873 of 2012 (New Criminal Case No.1114 of 2023), Judicial Magistrate Ist, Roorkee; Criminal Appeal No.34 of 2023",
+      "laws": [
+        "Section 309 IPC",
+        "Section 115, Mental Healthcare Act, 2017"
+      ],
+      "acts": [
+        "Indian Penal Code, 1860",
+        "Mental Healthcare Act, 2017"
+      ],
+      "person": "a clerk in the Nagar Palika Parishad office in Manglaur, Haridwar district",
+      "penalty": "conviction and sentence (imprisonment till rising of the Court and a Rs 500 fine, with five days' simple imprisonment in default) set aside",
+      "detail": [
+        "The High Court recorded that the revisionist was a clerk in the Nagar Palika Parishad, Manglaur, and that on 21.02.2011 constables posted at Kotwali Mangalore found him on the upper floor of the parishad building having poured kerosene upon himself and holding a matchbox; a plastic bottle of kerosene and a matchbox were recovered and Case Crime No.71 of 2011 under Section 309 IPC was registered. A medical examination the same day showed no external injury or kerosene poisoning, though the doctor noted the smell of kerosene on his head and upper body.",
+        "The Court noted that the Judicial Magistrate, Ist, Roorkee, convicted him on 11.07.2023 and sentenced him to imprisonment till rising of the Court with a fine of Rs 500 (five days' simple imprisonment in default), and that the Ist Additional Sessions Judge, Roorkee, dismissed Criminal Appeal No.34 of 2023 on 10.12.2024, affirming the conviction and sentence.",
+        "The Court held that no overt act towards self-destruction was committed and that the medical report and the evidence of the official witnesses did not show that the act had crossed the stage of preparation into attempt; the only independent witness did not support the prosecution. It found the essential ingredient of Section 309 IPC not proved beyond reasonable doubt.",
+        "The Court further held that the trial and appellate courts had proceeded 'in a routine and mechanical manner' and had failed to consider Section 115 of the Mental Healthcare Act, 2017, which presumes severe stress and provides that such a person 'shall not be tried or punished' under Section 309 IPC; there was nothing on record to rebut that presumption.",
+        "The Court observed that the sentence was nominal but the stigma of conviction had badly affected the revisionist's government employment and mental health, and that the criminal justice system must not add to the suffering of those already under mental distress."
+      ],
+      "current_position": "The criminal revision was allowed and the orders of 11.07.2023 and 10.12.2024 were set aside, so the conviction and sentence no longer stand.",
+      "quote": {
+        "text": "The criminal justice system must not add to the suffering of those already under mental distress.",
+        "where": "Criminal Revision No.946 of 2024, para 13 (High Court of Uttarakhand at Nainital, order dated 06.11.2025)",
+        "url": "https://indiankanoon.org/doc/113961903/"
+      },
+      "caveats": "The judgment as published records the name of the revisionist, the two police constables, a fellow-clerk witness and the presiding judge; only the judge and the court are named in the prose above, with the private names kept to names_in_source. The judgment does not record a district 'victim' because there was none. The incident date (21.02.2011) is from the judgment; the latest official act is the High Court order of 06.11.2025. Searches for a more recent (2026) Uttarakhand case of the same type - Indian Kanoon queries 'Uttarakhand \"309 IPC\" fromdate: 1-1-2026', 'Uttarakhand \"attempt to suicide\" fromdate: 1-1-2026', 'Uttarakhand suicide \"BNS\" fromdate: 1-1-2026', 'Uttarakhand \"Mental Healthcare Act\" fromdate: 1-1-2026', 'Uttarakhand Beggary fromdate: 1-1-2025', 'Uttarakhand beggar fromdate: 1-1-2025' and 'Uttarakhand obscenity fromdate: 1-1-2026' - found none that is victimless. The 2026 obscenity hits (Vijay Kohli, 11.03.2026; Ukhc010088482026, 16.07.2026; BA1/1098/2025, 22.04.2026) and cheating-plus-obscene-content hits (Tafseer Ahmad Saifi, 03.07.2026) all involve a named woman or minor as complainant/victim and were rejected. The most recent Uttarakhand High Court order touching begging (Rabiya v. State of Uttarakhand, 17.09.2026) arises in a bail application that the same court's earlier order of 21.05.2026 shows concerns an alleged abduction of a minor, so it was rejected.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "An attempt to commit suicide is an act that harms no one but the person himself; there is no complainant and no victim. Section 309 IPC punishes solely the accused's own distressed conduct, and the 2017 Act now presumes such a person is under severe stress and must not be tried or punished."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/113961903/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon (High Court of Uttarakhand at Nainital)",
+          "date": "2025-11-06",
+          "supports": "The full judgment: registration of Case Crime No.71 of 2011 under Section 309 IPC, the 2011 incident, the magistrate's 11.07.2023 conviction and Rs 500 fine, the appellate affirmation of 10.12.2024, the finding that no attempt beyond preparation was proved, the application of Section 115 of the Mental Healthcare Act, 2017, and the setting aside of the conviction and sentence."
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/city/dehradun/criminal-justice-system-mustnt-worsen-pain-of-mentally-distressed-hc/articleshow/125167153.cms",
+          "kind": "news",
+          "publisher": "The Times of India (Dehradun)",
+          "date": "2025-11-08",
+          "supports": "Independent report of the same order by Justice Pankaj Purohit, the 21 February 2011 workplace incident in Manglaur, background of workplace-harassment complaints, and the observation that the stigma of conviction affected the man's career and mental health."
         }
       ],
       "verification": "V2"

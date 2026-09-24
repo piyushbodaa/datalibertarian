@@ -214453,5 +214453,2625 @@
   "merged_case_id": "cop-up-hc-3",
   "officers_named_public": 0,
   "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0067",
+  "status": "current",
+  "merged_id": "CWC-1335",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs. Union of India and others",
+  "display_title_redacted": "[name withheld] vs. Union of India and others",
+  "state": "Andhra Pradesh",
+  "district": "Visakhapatnam",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Women's Police Station (investigation); LOC enforced at Visakhapatnam Airport",
+  "court": "High Court of Andhra Pradesh at Amaravati",
+  "court_as_verified": "High Court of Andhra Pradesh at Amaravati",
+  "bench": null,
+  "case_title": "[name withheld] vs. Union of India and others",
+  "case_number": null,
+  "citation": "2026:APHC:3446",
+  "judges": [
+   "K. Sreenivasa Reddy"
+  ],
+  "judgment_date": "2026-02-10",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2026-01-14",
+  "incident_year": 2026,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "other",
+  "subcategory": "other",
+  "subcategory_display": "other",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Section 85 BNS",
+   "Sections 3 and 4 Dowry Prohibition Act",
+   "Section 498-A IPC"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Police officer(s)",
+    "role": "named_in_finding",
+    "unit": "Andhra Pradesh Police (women's police station; LOC enforcement at Visakhapatnam Airport)",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police officer(s), Andhra Pradesh Police (women's police station; LOC enforcement at Visakhapatnam Airport)"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://www.verdictum.in/pdf_upload/lagubeeru-venkata-arun-kiran-vs-union-of-india-and-others-andhra-pradesh-high-court-654678-1redactedwatermark-2-1769418.pdf",
+  "secondary_sources": [
+   "https://www.verdictum.in/court-updates/high-courts/andhra-pradesh-high-court/x-v-union-of-india-2026aphc3446-498-a-ipc-look-out-circular-travel-matrimonial-dispute-1607055",
+   "https://www.livelaw.in/high-court/andhra-pradesh-high-court/andhra-pradesh-hc-look-out-circulars-career-personal-liberty-exceptional-not-routine-matrimonial-disputes-522335"
+  ],
+  "summary": "The High Court heard a plea by an electrical technician working in Dubai who was stopped at Visakhapatnam Airport because of a travel alert in a matrimonial-cruelty case. The High Court held that travel alerts limit personal liberty and job prospects and must be reserved for rare serious situations, not ordinary marital disputes. The High Court found that the petitioner had joined the inquiry, secured bail and cooperated, so the offence was not grave enough to justify the alert. The High Court quashed the look-out circular so the petitioner could return to overseas work.",
+  "summary_verified": "The High Court heard a plea by an electrical technician working in Dubai who was stopped at Visakhapatnam Airport because of a travel alert in a matrimonial-cruelty case. The High Court held that travel alerts limit personal liberty and job prospects and must be reserved for rare serious situations, not ordinary marital disputes. The High Court found that the petitioner had joined the inquiry, secured bail and cooperated, so the offence was not grave enough to justify the alert. The High Court quashed the look-out circular so the petitioner could return to overseas work.",
+  "court_quote": "If the accusation against the accused persons is such that it is detrimental to the Nation, then LOC can be issued. These aspects have to be seen on the touchstone of the Article 21 of the Constitution of India. By virtue of opening LOC the personal liberty of the person would be affected.",
+  "court_quote_para": "judgment",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "court_quote.text is not verbatim from judgment; it is a summary; court_quote.para is 'report' not a paragraph number",
+  "verification_status": "V1",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-02-10",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Andhra Pradesh at Amaravati",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Andhra Pradesh at Amaravati recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2026:APHC:3446",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://www.verdictum.in/pdf_upload/lagubeeru-venkata-arun-kiran-vs-union-of-india-and-others-andhra-pradesh-high-court-654678-1redactedwatermark-2-1769418.pdf",
+    "link_checked": null
+   },
+   {
+    "url": "https://www.verdictum.in/court-updates/high-courts/andhra-pradesh-high-court/x-v-union-of-india-2026aphc3446-498-a-ipc-look-out-circular-travel-matrimonial-dispute-1607055",
+    "link_checked": null
+   },
+   {
+    "url": "https://www.livelaw.in/high-court/andhra-pradesh-high-court/andhra-pradesh-hc-look-out-circulars-career-personal-liberty-exceptional-not-routine-matrimonial-disputes-522335",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-ap-hc"
+  ],
+  "merged_case_id": "cop-ap-hc-0",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0068",
+  "status": "current",
+  "merged_id": "CWC-1336",
+  "alias_merged_ids": [],
+  "display_title": "P Rashidulla v. The State of Andhra Pradesh and Anr.",
+  "display_title_redacted": "P Rashidulla v. The State of Andhra Pradesh and Anr.",
+  "state": "Andhra Pradesh",
+  "district": "Not stated in judgment",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Not stated in judgment",
+  "court": "High Court of Andhra Pradesh at Amaravati",
+  "court_as_verified": "High Court of Andhra Pradesh at Amaravati",
+  "bench": null,
+  "case_title": "P Rashidulla v. The State of Andhra Pradesh and Anr.",
+  "case_number": "Criminal Petition No. 10465 of 2025",
+  "citation": null,
+  "judges": [
+   "Venkata Jyothirmai Pratapa"
+  ],
+  "judgment_date": "2026-01-05",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": null,
+  "incident_year": null,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "other",
+  "subcategory": "other",
+  "subcategory_display": "other",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Section 303(2) BNS",
+   "Section 174 Bharatiya Nagarik Suraksha Sanhita"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Police officer(s)",
+    "role": "named_in_finding",
+    "unit": "Andhra Pradesh Police (station not stated in report)",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police officer(s), Andhra Pradesh Police (station not stated in report)"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": null
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://www.livelaw.in/pdf_upload/crlp-no104652025-644550.pdf",
+  "secondary_sources": [
+   "https://www.livelaw.in/high-court/andhra-pradesh-high-court/andhra-pradesh-high-court-ruling-clear-abuse-of-process-of-law-sand-theft-1500-mmdr-act-bharatiya-nyaya-sanhita-prior-magistrate-sanction-516867"
+  ],
+  "summary": "The High Court heard a petition seeking quashing of a sand-theft case involving a low-value seizure pursued under a non-cognizable stealing provision. The High Court held that low-value theft under Section 303(2) BNS is non-cognizable and the police must obtain a Magistrate's direction before investigating. The High Court found that the police had registered the FIR and filed a chargesheet without that direction. The High Court set aside the proceeding against the petitioner as a clear abuse of process of law.",
+  "summary_verified": "The High Court heard a petition seeking quashing of a sand-theft case involving a low-value seizure pursued under a non-cognizable stealing provision. The High Court held that low-value theft under Section 303(2) BNS is non-cognizable and the police must obtain a Magistrate's direction before investigating. The High Court found that the police had registered the FIR and filed a chargesheet without that direction. The High Court set aside the proceeding against the petitioner as a clear abuse of process of law.",
+  "court_quote": "Coming to the present case, as rightly conceded by the learned Assistant Public Prosecutor that the value of stolen sand is Rs.1,500/- and it is a non-cognizable offence. The police mechanically registered the FIR against the petitioner without obtaining appropriate direction from the concerned Magistrate and proceeded with investigation and filed chargesheet, which is a clear abuse of process of law.",
+  "court_quote_para": "judgment",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "court_quote.text is truncated, not full verbatim quote; court_quote.para is 'report' not a paragraph number; district and police_station_or_unit are null but should be filled if available",
+  "verification_status": "V1",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-01-05",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Andhra Pradesh at Amaravati",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Andhra Pradesh at Amaravati recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "Criminal Petition No. 10465 of 2025",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://www.livelaw.in/pdf_upload/crlp-no104652025-644550.pdf",
+    "link_checked": null
+   },
+   {
+    "url": "https://www.livelaw.in/high-court/andhra-pradesh-high-court/andhra-pradesh-high-court-ruling-clear-abuse-of-process-of-law-sand-theft-1500-mmdr-act-bharatiya-nyaya-sanhita-prior-magistrate-sanction-516867",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-ap-hc"
+  ],
+  "merged_case_id": "cop-ap-hc-1",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0058",
+  "status": "current",
+  "merged_id": "CWC-1337",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] & Ors. v. State of Andhra Pradesh & Ors.",
+  "display_title_redacted": "[name withheld] & Ors. v. State of Andhra Pradesh & Ors.",
+  "state": "Andhra Pradesh",
+  "district": "Not stated in judgment",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Not stated in judgment",
+  "court": "High Court of Andhra Pradesh at Amaravati",
+  "court_as_verified": "High Court of Andhra Pradesh at Amaravati",
+  "bench": null,
+  "case_title": "[name withheld] & Ors. v. State of Andhra Pradesh & Ors.",
+  "case_number": null,
+  "citation": null,
+  "judges": [
+   "Venkata Jyothirmai Pratapa"
+  ],
+  "judgment_date": "2025-12-23",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": null,
+  "incident_year": null,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "other",
+  "subcategory": "other",
+  "subcategory_display": "other",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Police officer(s)",
+    "role": "held_liable",
+    "unit": "Andhra Pradesh Police (respondent police)",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police officer(s), Andhra Pradesh Police (respondent police)"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": null
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://www.verdictum.in/pdf_upload/nagireddi-satish-kumar-v-state-of-andhra-pradesh-1761267.pdf",
+  "secondary_sources": [
+   "https://www.verdictum.in/court-updates/high-courts/andhra-pradesh-high-court/nagireddi-satish-kumar-james-v-state-of-andhra-pradesh-rowdy-sheet-1602230"
+  ],
+  "summary": "The High Court heard a writ plea opposing the opening and retention of a rowdy sheet where only one allegation was pending against the petitioners. The High Court held that a rowdy sheet cannot be opened mechanically and requires individualized police assessment of danger to public peace with yearly review. The High Court found that a single pending matter without shown repeated conduct harming public order did not justify the record. The High Court cancelled the rowdy sheet and closed the pending applications.",
+  "summary_verified": "The High Court heard a writ plea opposing the opening and retention of a rowdy sheet where only one allegation was pending against the petitioners. The High Court held that a rowdy sheet cannot be opened mechanically and requires individualized police assessment of danger to public peace with yearly review. The High Court found that a single pending matter without shown repeated conduct harming public order did not justify the record. The High Court cancelled the rowdy sheet and closed the pending applications.",
+  "court_quote": "A rowdy sheet cannot be opened mechanically and not in a casual manner.",
+  "court_quote_para": "judgment",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "court_quote.text is partial verbatim (missing 'and not in a casual manner'); court_quote.para is 'report' not a paragraph number; district and police_station_or_unit are null",
+  "verification_status": "V1",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-12-23",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Andhra Pradesh at Amaravati",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Andhra Pradesh at Amaravati recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "https://www.verdictum.in/pdf_upload/nagireddi-satish-kumar-v-state-of-andhra-pradesh-1761267.pdf",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://www.verdictum.in/pdf_upload/nagireddi-satish-kumar-v-state-of-andhra-pradesh-1761267.pdf",
+    "link_checked": null
+   },
+   {
+    "url": "https://www.verdictum.in/court-updates/high-courts/andhra-pradesh-high-court/nagireddi-satish-kumar-james-v-state-of-andhra-pradesh-rowdy-sheet-1602230",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-ap-hc"
+  ],
+  "merged_case_id": "cop-ap-hc-2",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0059",
+  "status": "current",
+  "merged_id": "CWC-1338",
+  "alias_merged_ids": [],
+  "display_title": "V.[name withheld] v. The State of A.P. and others",
+  "display_title_redacted": "V.[name withheld] v. The State of A.P. and others",
+  "state": "Andhra Pradesh",
+  "district": "Mangalagiri, Andhra Pradesh",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "CID Police Station, Mangalagiri",
+  "court": "High Court of Andhra Pradesh at Amaravati",
+  "court_as_verified": "High Court of Andhra Pradesh at Amaravati",
+  "bench": null,
+  "case_title": "V.[name withheld] v. The State of A.P. and others",
+  "case_number": "Writ Petition No. 22577 of 2025",
+  "citation": "2025 LiveLaw (AP) 147",
+  "judges": [
+   "Venkata Jyothirmai Pratapa"
+  ],
+  "judgment_date": "2025-09-16",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": null,
+  "incident_year": null,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "other",
+  "subcategory": "other",
+  "subcategory_display": "other",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Section 179 BNSS",
+   "Section 180 BNSS"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Investigating officer",
+    "role": "held_liable",
+    "unit": "CID Police Station, Mangalagiri, Andhra Pradesh Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Investigating officer, CID Police Station, Mangalagiri, Andhra Pradesh Police"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://www.verdictum.in/pdf_upload/vd-moorthy-vs-the-sate-of-andhra-pradesh-1744642.pdf",
+  "secondary_sources": [
+   "https://www.livelaw.in/high-court/andhra-pradesh-high-court/andhra-pradesh-high-court-ruling-section-179-bnss-power-police-officer-limited-304143",
+   "https://www.verdictum.in/court-updates/high-courts/andhra-pradesh-high-court/vd-moorthy-so-n-vishwanathan-vs-the-state-of-andhra-pradesh-aphc010443902025-section-1791-bnss-1591629"
+  ],
+  "summary": "The High Court heard a company director residing in Noida who received repeated Section 179 BNSS summonses to appear at Vijayawada though he was not an accused. The High Court held that summons power is confined to the limits of the officer's own or an adjoining station and is not untrammelled. The High Court found that the notice to the distant Noida resident was without jurisdiction and that protected persons may be examined at their residence. The High Court allowed questioning at the petitioner's residence with counsel seated apart and audio-video recording.",
+  "summary_verified": "The High Court heard a company director residing in Noida who received repeated Section 179 BNSS summonses to appear at Vijayawada though he was not an accused. The High Court held that summons power is confined to the limits of the officer's own or an adjoining station and is not untrammelled. The High Court found that the notice to the distant Noida resident was without jurisdiction and that protected persons may be examined at their residence. The High Court allowed questioning at the petitioner's residence with counsel seated apart and audio-video recording.",
+  "court_quote": "Section 179(1) of BNSS is not empowering the Police Officer with unlimited jurisdiction to issue such notice to any person, who is residing far away.",
+  "court_quote_para": "judgment",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "court_quote.text is partial verbatim (missing 'to issue such notice to any person, who is residing far away'); court_quote.para is 'report' not a paragraph number",
+  "verification_status": "V1",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-09-16",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Andhra Pradesh at Amaravati",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Andhra Pradesh at Amaravati recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2025 LiveLaw (AP) 147",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://www.verdictum.in/pdf_upload/vd-moorthy-vs-the-sate-of-andhra-pradesh-1744642.pdf",
+    "link_checked": null
+   },
+   {
+    "url": "https://www.livelaw.in/high-court/andhra-pradesh-high-court/andhra-pradesh-high-court-ruling-section-179-bnss-power-police-officer-limited-304143",
+    "link_checked": null
+   },
+   {
+    "url": "https://www.verdictum.in/court-updates/high-courts/andhra-pradesh-high-court/vd-moorthy-so-n-vishwanathan-vs-the-state-of-andhra-pradesh-aphc010443902025-section-1791-bnss-1591629",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-ap-hc"
+  ],
+  "merged_case_id": "cop-ap-hc-3",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0060",
+  "status": "current",
+  "merged_id": "CWC-1339",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] v. The State of Andhra Pradesh and Others",
+  "display_title_redacted": "[name withheld] v. The State of Andhra Pradesh and Others",
+  "state": "Andhra Pradesh",
+  "district": "Kalyandurgam (trial court location)",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Not stated in judgment",
+  "court": "High Court of Andhra Pradesh at Amaravati",
+  "court_as_verified": "High Court of Andhra Pradesh at Amaravati",
+  "bench": null,
+  "case_title": "[name withheld] v. The State of Andhra Pradesh and Others",
+  "case_number": "W.P. No. 7369 of 2025",
+  "citation": "2025 LiveLaw (AP) 89",
+  "judges": [
+   "Tarlada Rajasekhara Rao"
+  ],
+  "judgment_date": "2025-05-09",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": null,
+  "incident_year": null,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "other",
+  "subcategory": "other",
+  "subcategory_display": "other",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Section 448 IPC",
+   "Section 324 IPC",
+   "Section 506 IPC",
+   "Section 34 IPC"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Senior police officer",
+    "role": "held_liable",
+    "unit": "Andhra Pradesh Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Senior police officer, Andhra Pradesh Police"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": null
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://www.livelaw.in/pdf_upload/display-9-surveillance-on-freedom-of-speech-600187.pdf",
+  "secondary_sources": [
+   "https://www.livelaw.in/high-court/andhra-pradesh-high-court/andhra-pradesh-high-court-tainted-since-inception-opening-continuing-rowdy-sheet-invalid-absence-threat-public-peace-292383"
+  ],
+  "summary": "The High Court heard a challenge to the opening of a surveillance record against the petitioner while a single criminal case was pending trial. The High Court held that opening and continuing such records requires strict compliance with settled norms on threats to public order, not automatic action. The High Court found that the initial decision showed no threat to communal calm and was tainted in law from its inception. The High Court allowed the writ and set aside the record.",
+  "summary_verified": "The High Court heard a challenge to the opening of a surveillance record against the petitioner while a single criminal case was pending trial. The High Court held that opening and continuing such records requires strict compliance with settled norms on threats to public order, not automatic action. The High Court found that the initial decision showed no threat to communal calm and was tainted in law from its inception. The High Court allowed the writ and set aside the record.",
+  "court_quote": "The opening of the rowdy sheet in the name of the petitioner therein was therefore tainted in law in its very inception.",
+  "court_quote_para": "judgment",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "court_quote.text is partial verbatim (missing 'The opening of the rowdy sheet in the name of the petitioner therein was therefore'); court_quote.para is 'report' not a paragraph number; district and police_station_or_unit are null; sections should include underlying IPC sections 448, 324, 506 r/w 34",
+  "verification_status": "V1",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-05-09",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Andhra Pradesh at Amaravati",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Andhra Pradesh at Amaravati recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2025 LiveLaw (AP) 89",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://www.livelaw.in/pdf_upload/display-9-surveillance-on-freedom-of-speech-600187.pdf",
+    "link_checked": null
+   },
+   {
+    "url": "https://www.livelaw.in/high-court/andhra-pradesh-high-court/andhra-pradesh-high-court-tainted-since-inception-opening-continuing-rowdy-sheet-invalid-absence-threat-public-peace-292383",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-ap-hc"
+  ],
+  "merged_case_id": "cop-ap-hc-4",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0061",
+  "status": "current",
+  "merged_id": "CWC-1340",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] v. The State of Andhra Pradesh and Others",
+  "display_title_redacted": "[name withheld] v. The State of Andhra Pradesh and Others",
+  "state": "Andhra Pradesh",
+  "district": "Vijayawada, Andhra Pradesh",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": null,
+  "court": "High Court of Andhra Pradesh at Amaravati",
+  "court_as_verified": "High Court of Andhra Pradesh at Amaravati",
+  "bench": null,
+  "case_title": "[name withheld] v. The State of Andhra Pradesh and Others",
+  "case_number": "Writ Petition No. 5444 of 2025",
+  "citation": "2025 LiveLaw (AP) 31",
+  "judges": [
+   "R. Raghunandan",
+   "K. Manmadha Rao"
+  ],
+  "judgment_date": "2025-03-11",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": null,
+  "incident_year": null,
+  "category": "Other",
+  "admin_category": "brutality",
+  "admin_subcategory": "illegal_detention_false_imprisonment",
+  "subcategory": "illegal_detention_false_imprisonment",
+  "subcategory_display": "illegal detention false imprisonment",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Section 47(1) BNSS"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Arresting police officer(s)",
+    "role": "held_liable",
+    "unit": "Andhra Pradesh Police (Vijayawada)",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Arresting police officer(s), Andhra Pradesh Police (Vijayawada)"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://www.livelaw.in/pdf_upload/display-1-591036.pdf",
+  "secondary_sources": [
+   "https://www.livelaw.in/high-court/andhra-pradesh-high-court/andhra-pradesh-high-court-rules-section-47-bnss-compliance-mandatory-arrest-without-warrant-286419"
+  ],
+  "summary": "The High Court heard a spouse's plea contesting her husband's custody after he was produced before a Vijayawada judicial officer with missing arrest paperwork. The High Court held that notice under Section 47(1) BNSS is compulsory and must be served at or immediately after arrest, and breach voids custody and further confinement. The High Court found that no proper notice was served and a WhatsApp message to kin was not adequate. The High Court cancelled the remand and directed the detenu's release.",
+  "summary_verified": "The High Court heard a spouse's plea contesting her husband's custody after he was produced before a Vijayawada judicial officer with missing arrest paperwork. The High Court held that notice under Section 47(1) BNSS is compulsory and must be served at or immediately after arrest, and breach voids custody and further confinement. The High Court found that no proper notice was served and a WhatsApp message to kin was not adequate. The High Court cancelled the remand and directed the detenu's release.",
+  "court_quote": "Non-intimation, required under Section 47(1) of BNSS, would render any further detention of the person illegal.",
+  "court_quote_para": "report",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Verified against the cited judgment.",
+  "verification_status": "V1",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-03-11",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Andhra Pradesh at Amaravati",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Andhra Pradesh at Amaravati recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2025 LiveLaw (AP) 31",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://www.livelaw.in/pdf_upload/display-1-591036.pdf",
+    "link_checked": null
+   },
+   {
+    "url": "https://www.livelaw.in/high-court/andhra-pradesh-high-court/andhra-pradesh-high-court-rules-section-47-bnss-compliance-mandatory-arrest-without-warrant-286419",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-ap-hc"
+  ],
+  "merged_case_id": "cop-ap-hc-5",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0069",
+  "status": "current",
+  "merged_id": "CWC-1341",
+  "alias_merged_ids": [],
+  "display_title": "Sri [name withheld] vs State Of Karnataka",
+  "display_title_redacted": "Sri [name withheld] vs State Of Karnataka",
+  "state": "Karnataka",
+  "district": "Dakshina Kannada (Mangaluru)",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Kankanadi Town Police Station, Mangaluru City",
+  "court": "High Court of Karnataka at Bengaluru",
+  "court_as_verified": "High Court of Karnataka at Bengaluru",
+  "bench": null,
+  "case_title": "Sri [name withheld] vs State Of Karnataka",
+  "case_number": "WP No. 27908 of 2026 (GM-RES)",
+  "citation": "NC: 2026:KHC:47995",
+  "judges": [
+   "M. Nagaprasanna"
+  ],
+  "judgment_date": "2026-09-02",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2026-07-25",
+  "incident_year": 2026,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "dereliction_evidence_tampering",
+  "subcategory": "dereliction_evidence_tampering",
+  "subcategory_display": "dereliction evidence tampering",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Sections 79 and 80 of the Karnataka Police Act, 1963"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Station House Officer",
+    "role": "named_in_finding",
+    "unit": "Kankanadi Town Police Station, Mangaluru City",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Station House Officer, Kankanadi Town Police Station, Mangaluru City"
+   },
+   {
+    "name": null,
+    "rank": "Police Sub-Inspector",
+    "role": "named_in_finding",
+    "unit": "Kankanadi Town Police Station, Mangaluru City",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Sub-Inspector, Kankanadi Town Police Station, Mangaluru City"
+   },
+   {
+    "name": null,
+    "rank": "Police Sub-Inspector",
+    "role": "named_in_finding",
+    "unit": "Kankanadi Town Police Station, Mangaluru City",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Sub-Inspector, Kankanadi Town Police Station, Mangaluru City"
+   },
+   {
+    "name": null,
+    "rank": "Police Constable",
+    "role": "named_in_finding",
+    "unit": "Kankanadi Town Police Station, Mangaluru City",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Constable, Kankanadi Town Police Station, Mangaluru City"
+   }
+  ],
+  "officer_count": 4,
+  "victims": [
+   {
+    "name": "Sri [name withheld]",
+    "gender": "male"
+   },
+   {
+    "name": "Sri [name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 2,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/91571849/",
+  "secondary_sources": [],
+  "summary": "The High Court allowed the writ petition in part, quashed FIR in Crime No.102/2026 by Kankanadi Town Police Station qua the petitioners on the ground that Andar Bahar is a game of skill, quashed the JMFC (VI Court) Mangaluru remand order in N.C.No.02 of 2026 dated 25.07.2026, and directed return of illegally seized money/items/valuables under Property List No.116 of 2026 to petitioner No.2 following the unauthorized raid on 25.07.2026. No departmental/disciplinary action was ordered in the operative directions.",
+  "summary_verified": "The High Court allowed the writ petition in part, quashed FIR in Crime No.102/2026 by Kankanadi Town Police Station qua the petitioners on the ground that Andar Bahar is a game of skill, quashed the JMFC (VI Court) Mangaluru remand order in N.C.No.02 of 2026 dated 25.07.2026, and directed return of illegally seized money/items/valuables under Property List No.116 of 2026 to petitioner No.2 following the unauthorized raid on 25.07.2026. No departmental/disciplinary action was ordered in the operative directions.",
+  "court_quote": "Mandamus issues to respondent Nos.4, 5 and 6 are directed to forthwith return the illegally seized money,",
+  "court_quote_para": "Operative direction",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "court_quote is petitioner's prayer not the court's operative order and names an officer (Mr. [name withheld]) in violation of no-names rule; summary falsely claims court issued mandamus for strict departmental/disciplinary action and for deliberate concealment/fabrication and D.K. Basu/Arnesh Kumar violation - operative order is 'Writ Petition is allowed in part' with only 4 directions and no disciplinary direction; outcome_type strictures unsupported - no strictures/disciplinary ordered; supported adverse finding is quashing plus return of illegally seized money/unauthorized raid",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-09-02",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Karnataka at Bengaluru",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Karnataka at Bengaluru recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "NC: 2026:KHC:47995",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/91571849/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-ka-hc"
+  ],
+  "merged_case_id": "cop-ka-hc-0",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0062",
+  "status": "current",
+  "merged_id": "CWC-1342",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs State Of Karnataka",
+  "display_title_redacted": "[name withheld] vs State Of Karnataka",
+  "state": "Karnataka",
+  "district": "Dakshina Kannada",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Dharmasthala Police Station, Bantwal Division",
+  "court": "High Court of Karnataka at Bengaluru",
+  "court_as_verified": "High Court of Karnataka at Bengaluru",
+  "bench": null,
+  "case_title": "[name withheld] vs State Of Karnataka",
+  "case_number": "WP No. 11260 of 2025 (GM-POLICE)",
+  "citation": null,
+  "judges": [
+   "M. Nagaprasanna"
+  ],
+  "judgment_date": "2025-09-09",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": "2022-12-17",
+  "incident_year": 2022,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "dereliction_evidence_tampering",
+  "subcategory": "dereliction_evidence_tampering",
+  "subcategory_display": "dereliction evidence tampering",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Sections 302, 323, 392 r/w 34 IPC",
+   "Sections 3(2)(v) and 3(2)(va) of SC/ST (POA) Act"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Deputy Superintendent of Police",
+    "role": "named_in_finding",
+    "unit": "Bantwal Division, Dakshina Kannada",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Deputy Superintendent of Police, Bantwal Division, Dakshina Kannada"
+   },
+   {
+    "name": null,
+    "rank": "Deputy Superintendent of Police",
+    "role": "named_in_finding",
+    "unit": "DCRB, S.P. Office, Dakshina Kannada, Mangalore",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Deputy Superintendent of Police, DCRB, S.P. Office, Dakshina Kannada, Mangalore"
+   }
+  ],
+  "officer_count": 2,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   },
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 2,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/155259619/",
+  "secondary_sources": [],
+  "summary": "The High Court allowed the writ petition holding the investigation in Crime No.91 of 2022 (Dharmasthala) was absolutely shoddy and directed re-investigation by a Special Investigation Team to be constituted within 4 weeks, to file its final report within 4 months, staying further proceedings in Special Case No.60 of 2023 till then.",
+  "summary_verified": "The High Court allowed the writ petition holding the investigation in Crime No.91 of 2022 (Dharmasthala) was absolutely shoddy and directed re-investigation by a Special Investigation Team to be constituted within 4 weeks, to file its final report within 4 months, staying further proceedings in Special Case No.60 of 2023 till then.",
+  "court_quote": "what would unmistakably emerge is, absolute shoddy investigation.",
+  "court_quote_para": "Judgment reasoning",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "summary names two officers in violation of no-names rule; court_quote is petitioner's representation extracted at pages 14-15 ('at para 13 to 16 has passed strictures'), not the judge's own words; summary falsely claims reinvestigation by CID and departmental inquiry ordered - operative order constitutes Special Investigation Team (SIT), expressly not CBI/CID, with no departmental direction in closing directions",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-09-09",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Karnataka at Bengaluru",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Karnataka at Bengaluru recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "WP No. 11260 of 2025 (GM-POLICE)",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/155259619/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-ka-hc"
+  ],
+  "merged_case_id": "cop-ka-hc-2",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0070",
+  "status": "current",
+  "merged_id": "CWC-1343",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs State Of Maharashtra And Ors",
+  "display_title_redacted": "[name withheld] vs State Of Maharashtra And Ors",
+  "state": "Maharashtra",
+  "district": "Mumbai",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Juhu Police Station; Anti-Extortion Cell, D.C.B., C.I.D., Mumbai",
+  "court": "High Court of Judicature at Bombay",
+  "court_as_verified": "High Court of Judicature at Bombay",
+  "bench": null,
+  "case_title": "[name withheld] vs State Of Maharashtra And Ors",
+  "case_number": "WRIT PETITION NO. 4381 OF 2026",
+  "citation": null,
+  "judges": [
+   "Sarang V. Kotwal",
+   "Ranjitsinha Raja Bhonsale"
+  ],
+  "judgment_date": "2026-09-02",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2026-08-14",
+  "incident_year": 2026,
+  "category": "Other",
+  "admin_category": "brutality",
+  "admin_subcategory": "illegal_detention_false_imprisonment",
+  "subcategory": "illegal_detention_false_imprisonment",
+  "subcategory_display": "illegal detention false imprisonment",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Section 43(5) of BNSS"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Senior Inspector of Police",
+    "role": "held_liable",
+    "unit": "Anti-Extortion Cell, D.C.B., C.I.D., Mumbai",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Senior Inspector of Police, Anti-Extortion Cell, D.C.B., C.I.D., Mumbai"
+   },
+   {
+    "name": null,
+    "rank": "Police Sub-Inspector",
+    "role": "held_liable",
+    "unit": "Anti-Extortion Cell, D.C.B., C.I.D., Mumbai",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Sub-Inspector, Anti-Extortion Cell, D.C.B., C.I.D., Mumbai"
+   }
+  ],
+  "officer_count": 2,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "female"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/34670708/",
+  "secondary_sources": [],
+  "summary": "The High Court held that the petitioner's custody in C.R. No. 1285 of 2026 of Juhu Police Station violated Section 43(5) of the BNSS. The High Court held that the arrest documents did not show the signature of any woman police officer. The High Court ordered that the petitioner be released forthwith in connection with the said case. The High Court declined to grant compensation or damages.",
+  "summary_verified": "The High Court held that the petitioner's custody in C.R. No. 1285 of 2026 of Juhu Police Station violated Section 43(5) of the BNSS. The High Court held that the arrest documents did not show the signature of any woman police officer. The High Court ordered that the petitioner be released forthwith in connection with the said case. The High Court declined to grant compensation or damages.",
+  "court_quote": "Thus, from the record we find that, there is a violation of Section 43(5) of BNSS.",
+  "court_quote_para": "para 10",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Verified against the cited judgment.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-09-02",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Judicature at Bombay",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Judicature at Bombay recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "WRIT PETITION NO. 4381 OF 2026",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/34670708/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-mh-hc"
+  ],
+  "merged_case_id": "cop-mh-hc-0",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0071",
+  "status": "current",
+  "merged_id": "CWC-1344",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] Pujari And Ors vs Central Bureau Of Investigation And Ors",
+  "display_title_redacted": "[name withheld] Pujari And Ors vs Central Bureau Of Investigation And Ors",
+  "state": "Maharashtra",
+  "district": "Mumbai",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Wadala Railway Police Station; Kurla Railway Police Station",
+  "court": "High Court of Judicature at Bombay",
+  "court_as_verified": "High Court of Judicature at Bombay",
+  "bench": null,
+  "case_title": "[name withheld] Pujari And Ors vs Central Bureau Of Investigation And Ors",
+  "case_number": "CRIMINAL WRIT PETITION NO.4451 OF 2022 with CRIMINAL WRIT PETITION NO.4104 OF 2022",
+  "citation": null,
+  "judges": [
+   "A. S. Gadkari",
+   "Shyam C. Chandak"
+  ],
+  "judgment_date": "2026-04-06",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2014-04-18",
+  "incident_year": 2014,
+  "category": "Custodial death",
+  "admin_category": "brutality",
+  "admin_subcategory": "custodial_death",
+  "subcategory": "custodial_death",
+  "subcategory_display": "custodial death",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Sections 302 and 295-A of the IPC"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Senior Police Inspector",
+    "role": "held_liable",
+    "unit": "Wadala Railway Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Senior Police Inspector, Wadala Railway Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Assistant Police Inspector",
+    "role": "held_liable",
+    "unit": "Wadala Railway Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Assistant Police Inspector, Wadala Railway Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Police Sub-Inspector",
+    "role": "held_liable",
+    "unit": "Wadala Railway Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Sub-Inspector, Wadala Railway Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Head Constable",
+    "role": "held_liable",
+    "unit": "Wadala Railway Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Head Constable, Wadala Railway Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Police Constable",
+    "role": "held_liable",
+    "unit": "Wadala Railway Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Constable, Wadala Railway Police Station"
+   }
+  ],
+  "officer_count": 5,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/44261376/",
+  "secondary_sources": [],
+  "summary": "The High Court upheld the trial court's order directing framing of additional charges under Sections 302 and 295-A of the IPC against railway police personnel for the custodial death of a detainee picked up for a robbery inquiry. The High Court held that there was sufficient material against the accused police personnel. The High Court held that adverse inference was permissible against the police. The High Court sent the matter back for framing of charges and trial.",
+  "summary_verified": "The High Court upheld the trial court's order directing framing of additional charges under Sections 302 and 295-A of the IPC against railway police personnel for the custodial death of a detainee picked up for a robbery inquiry. The High Court held that there was sufficient material against the accused police personnel. The High Court held that adverse inference was permissible against the police. The High Court sent the matter back for framing of charges and trial.",
+  "court_quote": "Therefore, adverse inference is permissible against the police whomsoever he/she may be.",
+  "court_quote_para": "para 13",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "case_title incorrectly shows '[name withheld]' — actual title is '[name withheld] Pujari And Ors vs Central Bureau Of Investigation And Ors'",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Custodial death",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-04-06",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Judicature at Bombay",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Judicature at Bombay recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "CRIMINAL WRIT PETITION NO.4451 OF 2022 with CRIMINAL WRIT PETITION NO.4104 OF 2022",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/44261376/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-mh-hc"
+  ],
+  "merged_case_id": "cop-mh-hc-1",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0072",
+  "status": "current",
+  "merged_id": "CWC-1345",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs State Of Mah, Thr Home Department",
+  "display_title_redacted": "[name withheld] vs State Of Mah, Thr Home Department",
+  "state": "Maharashtra",
+  "district": "Nagpur",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Pachpaoli Police Station, Nagpur City",
+  "court": "High Court of Judicature at Bombay, Nagpur Bench",
+  "court_as_verified": "High Court of Judicature at Bombay, Nagpur Bench",
+  "bench": null,
+  "case_title": "[name withheld] vs State Of Mah, Thr Home Department",
+  "case_number": "CRIMINAL WRIT PETITION No.397 OF 2019",
+  "citation": "2026:BHC-NAG:684-DB",
+  "judges": [
+   "Urmila Joshi-Phalke",
+   "Nandesh S. Deshpande"
+  ],
+  "judgment_date": "2026-01-16",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2019-02-25",
+  "incident_year": 2019,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "false_implication_fabrication",
+  "subcategory": "false_implication_fabrication",
+  "subcategory_display": "false implication fabrication",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Section 21(b) of NDPS Act",
+   "Section 29 of NDPS Act"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Constable",
+    "role": "held_liable",
+    "unit": "Pachpaoli Police Station, Nagpur",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Constable, Pachpaoli Police Station, Nagpur"
+   },
+   {
+    "name": null,
+    "rank": "Police Sub-Inspector",
+    "role": "held_liable",
+    "unit": "Pachpaoli Police Station, Nagpur",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Sub-Inspector, Pachpaoli Police Station, Nagpur"
+   },
+   {
+    "name": null,
+    "rank": "Police Inspector (PSO)",
+    "role": "held_liable",
+    "unit": "Pachpaoli Police Station, Nagpur",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Inspector (PSO), Pachpaoli Police Station, Nagpur"
+   }
+  ],
+  "officer_count": 3,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/184912996/",
+  "secondary_sources": [],
+  "summary": "The High Court held that the petitioner was wrongfully arrested and no procedure prescribed by law was followed in Crime No.159/2019. The High Court held that the departmental inquiry report was an eyewash and that senior officers tried to shield the wrongful acts of the field staff. The High Court quashed the FIR, charge-sheet and Sessions Trial (NDPS) No.27/2019. The High Court left compensation to a separate remedy and expressed trust that the State would start service action.",
+  "summary_verified": "The High Court held that the petitioner was wrongfully arrested and no procedure prescribed by law was followed in Crime No.159/2019. The High Court held that the departmental inquiry report was an eyewash and that senior officers tried to shield the wrongful acts of the field staff. The High Court quashed the FIR, charge-sheet and Sessions Trial (NDPS) No.27/2019. The High Court left compensation to a separate remedy and expressed trust that the State would start service action.",
+  "court_quote": "It is, thus, clear that the petitioner was wrongfully arrested and no procedure as prescribed under law was followed.",
+  "court_quote_para": "para 18",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Verified against the cited judgment.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-01-16",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Judicature at Bombay, Nagpur Bench",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Judicature at Bombay, Nagpur Bench recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2026:BHC-NAG:684-DB",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/184912996/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-mh-hc"
+  ],
+  "merged_case_id": "cop-mh-hc-2",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0063",
+  "status": "current",
+  "merged_id": "CWC-1346",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] And Ors vs The State Of Maharashtra And Ors",
+  "display_title_redacted": "[name withheld] And Ors vs The State Of Maharashtra And Ors",
+  "state": "Maharashtra",
+  "district": "Mumbai",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Wadala Truck Terminal Police Station",
+  "court": "High Court of Judicature at Bombay",
+  "court_as_verified": "High Court of Judicature at Bombay",
+  "bench": null,
+  "case_title": "[name withheld] And Ors vs The State Of Maharashtra And Ors",
+  "case_number": "CRIMINAL WRIT PETITION NO. 49 OF 2020",
+  "citation": null,
+  "judges": [
+   "Ravindra V. Ghuge",
+   "Gautam A. Ankhad"
+  ],
+  "judgment_date": "2025-09-11",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": "2019-10-28",
+  "incident_year": 2019,
+  "category": "Custodial death",
+  "admin_category": "brutality",
+  "admin_subcategory": "custodial_death",
+  "subcategory": "custodial_death",
+  "subcategory_display": "custodial death",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Assistant Police Inspector",
+    "role": "named_in_finding",
+    "unit": "Wadala Truck Terminal Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Assistant Police Inspector, Wadala Truck Terminal Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Senior Police Inspector (SHO)",
+    "role": "named_in_finding",
+    "unit": "Wadala Truck Terminal Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Senior Police Inspector (SHO), Wadala Truck Terminal Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Constable",
+    "role": "named_in_finding",
+    "unit": "Wadala Truck Terminal Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Constable, Wadala Truck Terminal Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Police Naik",
+    "role": "named_in_finding",
+    "unit": "Wadala Truck Terminal Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Naik, Wadala Truck Terminal Police Station"
+   }
+  ],
+  "officer_count": 4,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/163239742/",
+  "secondary_sources": [],
+  "summary": "The High Court examined the death of a 22-year-old within hours of being taken to Wadala Truck Terminal Police Station. The High Court held that many loose strings emerged from the record and that the case deserved transfer to the CBI. The High Court held that the record falsified the police version that CCTVs were uninstalled due to renovation work. The High Court transferred further investigation to the CBI and kept compensation claims pending.",
+  "summary_verified": "The High Court examined the death of a 22-year-old within hours of being taken to Wadala Truck Terminal Police Station. The High Court held that many loose strings emerged from the record and that the case deserved transfer to the CBI. The High Court held that the record falsified the police version that CCTVs were uninstalled due to renovation work. The High Court transferred further investigation to the CBI and kept compensation claims pending.",
+  "court_quote": "This, therefore, falsifies the version of the Police authorities that the CCTVs were uninstalled due to renovation work.",
+  "court_quote_para": "para 31",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Verified against the cited judgment.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Custodial death",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-09-11",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Judicature at Bombay",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Judicature at Bombay recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "CRIMINAL WRIT PETITION NO. 49 OF 2020",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/163239742/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-mh-hc"
+  ],
+  "merged_case_id": "cop-mh-hc-3",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0064",
+  "status": "current",
+  "merged_id": "CWC-1347",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs The State Of Maharashtra And Others",
+  "display_title_redacted": "[name withheld] vs The State Of Maharashtra And Others",
+  "state": "Maharashtra",
+  "district": "Parbhani",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Mondha Police Station, District Parbhani",
+  "court": "High Court of Judicature at Bombay, Bench at Aurangabad",
+  "court_as_verified": "High Court of Judicature at Bombay, Bench at Aurangabad",
+  "bench": null,
+  "case_title": "[name withheld] vs The State Of Maharashtra And Others",
+  "case_number": "CRIMINAL WRIT PETITION NO.457 OF 2025",
+  "citation": null,
+  "judges": [
+   "Vibha Kankanwadi",
+   "Sanjay A. Deshmukh"
+  ],
+  "judgment_date": "2025-07-04",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": "2024-12-15",
+  "incident_year": 2024,
+  "category": "Custodial death",
+  "admin_category": "brutality",
+  "admin_subcategory": "custodial_death",
+  "subcategory": "custodial_death",
+  "subcategory_display": "custodial death",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Police Inspector",
+    "role": "named_in_finding",
+    "unit": "Mondha Police Station, Parbhani",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Inspector, Mondha Police Station, Parbhani"
+   },
+   {
+    "name": null,
+    "rank": "Superintendent of Police",
+    "role": "named_in_finding",
+    "unit": "Parbhani",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Superintendent of Police, Parbhani"
+   },
+   {
+    "name": null,
+    "rank": "Deputy Superintendent of Police",
+    "role": "named_in_finding",
+    "unit": "Parbhani",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Deputy Superintendent of Police, Parbhani"
+   }
+  ],
+  "officer_count": 3,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/153713541/",
+  "secondary_sources": [],
+  "summary": "The High Court examined the death of a detainee after the December 2024 Parbhani combing action and custody at Mondha Police Station. The High Court held that there was a gross violation of human rights and that the deceased died due to the police authorities. The High Court held that a cognizable offence was made out but the petitioner's FIR was not recorded. The High Court directed registration of an FIR on the complaint dated 18.12.2024 and a Deputy Superintendent-level probe.",
+  "summary_verified": "The High Court examined the death of a detainee after the December 2024 Parbhani combing action and custody at Mondha Police Station. The High Court held that there was a gross violation of human rights and that the deceased died due to the police authorities. The High Court held that a cognizable offence was made out but the petitioner's FIR was not recorded. The High Court directed registration of an FIR on the complaint dated 18.12.2024 and a Deputy Superintendent-level probe.",
+  "court_quote": "When the petitioner went to police station and tried to lodge the FIR, her FIR was not recorded.",
+  "court_quote_para": "para 12",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Verified against the cited judgment.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Custodial death",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-07-04",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Judicature at Bombay, Bench at Aurangabad",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Judicature at Bombay, Bench at Aurangabad recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "CRIMINAL WRIT PETITION NO.457 OF 2025",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/153713541/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-mh-hc"
+  ],
+  "merged_case_id": "cop-mh-hc-4",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0065",
+  "status": "current",
+  "merged_id": "CWC-1348",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs The State Of Maharashtra",
+  "display_title_redacted": "[name withheld] vs The State Of Maharashtra",
+  "state": "Maharashtra",
+  "district": "Thane",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Badlapur (East) Police Station; Crime Branch, Thane; Mumbra Police; State CID",
+  "court": "High Court of Judicature at Bombay",
+  "court_as_verified": "High Court of Judicature at Bombay",
+  "bench": null,
+  "case_title": "[name withheld] vs The State Of Maharashtra",
+  "case_number": "CRIMINAL WRIT PETITION NO. 4107 OF 2024",
+  "citation": null,
+  "judges": [
+   "Revati Mohite Dere",
+   "Neela Gokhale"
+  ],
+  "judgment_date": "2025-04-07",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": null,
+  "incident_year": null,
+  "category": "Other",
+  "admin_category": "brutality",
+  "admin_subcategory": "fake_encounter_extrajudicial_killing",
+  "subcategory": "fake_encounter_extrajudicial_killing",
+  "subcategory_display": "fake encounter extrajudicial killing",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Superintendent of Police",
+    "role": "named_in_finding",
+    "unit": "State CID",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Superintendent of Police, State CID"
+   },
+   {
+    "name": null,
+    "rank": "Joint Commissioner of Police",
+    "role": "named_in_finding",
+    "unit": "Crime, Mumbai",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Joint Commissioner of Police, Crime, Mumbai"
+   },
+   {
+    "name": null,
+    "rank": "Deputy Commissioner of Police",
+    "role": "named_in_finding",
+    "unit": "Thane Crime Branch",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Deputy Commissioner of Police, Thane Crime Branch"
+   }
+  ],
+  "officer_count": 3,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/147614739/",
+  "secondary_sources": [],
+  "summary": "The High Court examined the police-van shooting death of an undertrial being escorted by a Thane Crime Branch team. The High Court held that the starting point of investigation, registration of an FIR, was itself not complied with. The High Court held that the PUCL guidelines on encounter investigations were cited only to be ignored by the State. The High Court held that refusal to investigate undermines the rule of law and ordered a fresh SIT probe.",
+  "summary_verified": "The High Court examined the police-van shooting death of an undertrial being escorted by a Thane Crime Branch team. The High Court held that the starting point of investigation, registration of an FIR, was itself not complied with. The High Court held that the PUCL guidelines on encounter investigations were cited only to be ignored by the State. The High Court held that refusal to investigate undermines the rule of law and ordered a fresh SIT probe.",
+  "court_quote": "The starting point of any investigation i.e, registration of an FIR itself is not complied with.",
+  "court_quote_para": "para 19",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Verified against the cited judgment.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-04-07",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Judicature at Bombay",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Judicature at Bombay recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "CRIMINAL WRIT PETITION NO. 4107 OF 2024",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/147614739/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-mh-hc"
+  ],
+  "merged_case_id": "cop-mh-hc-5",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0073",
+  "status": "current",
+  "merged_id": "CWC-1349",
+  "alias_merged_ids": [],
+  "display_title": "STATE OF GUJARAT v. [name withheld]",
+  "display_title_redacted": "STATE OF GUJARAT v. [name withheld]",
+  "state": "Gujarat",
+  "district": "Ahmedabad (rural)",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Gujarat State Traffic Police",
+  "court": "High Court of Gujarat",
+  "court_as_verified": "High Court of Gujarat",
+  "bench": null,
+  "case_title": "STATE OF GUJARAT v. [name withheld]",
+  "case_number": "R/Criminal Appeal No. ... of 2026 (State appeal against acquittal)",
+  "citation": "2026:GUJHC:... (pending official citation)",
+  "judges": [
+   "Justice Hemant M. Prachchhak"
+  ],
+  "judgment_date": "2026-07-15",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2007-09-19",
+  "incident_year": 2007,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "dereliction_evidence_tampering",
+  "subcategory": "dereliction_evidence_tampering",
+  "subcategory_display": "dereliction evidence tampering",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "NDPS Act Sections 15, 27, 29",
+   "Bombay Prohibition Act Sections 66(B), 65AE, 116(B), 81"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "police personnel",
+    "role": "named_in_finding",
+    "unit": "Gujarat State Traffic Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "police personnel, Gujarat State Traffic Police"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 0,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://thebarbulletin.com/gujarat-hc-acquittal-delayed-fir-traffic-police-probe/",
+  "secondary_sources": [],
+  "summary": "The Gujarat High Court dismissed the State's appeal against acquittal in an NDPS/prohibition case involving alleged recovery of foreign liquor and poppy straw. The Court treated the unexplained delay in registration of the FIR (from early morning interception to 3:00 p.m. registration) as a serious infirmity. It also observed that the investigating officer failed to send seized liquor for FSL examination despite the FSL being located at Gandhinagar. Separately, the Court made important observations regarding possible corruption-related proceedings involving Gujarat State Traffic Police personnel, requesting the Director of Prosecution to look into the matter and direct appropriate action against concerned police officers involved in alleged acts of corruption referred to in the case.",
+  "summary_verified": "The Gujarat High Court dismissed the State's appeal against acquittal in an NDPS/prohibition case involving alleged recovery of foreign liquor and poppy straw. The Court treated the unexplained delay in registration of the FIR (from early morning interception to 3:00 p.m. registration) as a serious infirmity. It also observed that the investigating officer failed to send seized liquor for FSL examination despite the FSL being located at Gandhinagar. Separately, the Court made important observations regarding possible corruption-related proceedings involving Gujarat State Traffic Police personnel, requesting the Director of Prosecution to look into the matter and direct appropriate action against concerned police officers involved in alleged acts of corruption referred to in the case.",
+  "court_quote": "no explanation was given for this inordinate delay",
+  "court_quote_para": "Judgment dated 15.07.2026 (as reported by The Bar Bulletin)",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "court_quote is an editorial paraphrase, not a verbatim quote from the judgment or source; closest verbatim wording in the opened source is 'no explanation was given for this inordinate delay'; district 'Ahmedabad (rural)' is unverified in the source (interception reported near Bhagyoday Hotel, district not stated); case_number is a placeholder",
+  "verification_status": "V1",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-07-15",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Gujarat",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Gujarat recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2026:GUJHC:... (pending official citation)",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://thebarbulletin.com/gujarat-hc-acquittal-delayed-fir-traffic-police-probe/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-gj-hc"
+  ],
+  "merged_case_id": "cop-gj-hc-1",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0074",
+  "status": "current",
+  "merged_id": "CWC-1350",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] v. STATE OF GUJARAT (connected with [name withheld])",
+  "display_title_redacted": "[name withheld] v. STATE OF GUJARAT (connected with [name withheld])",
+  "state": "Gujarat",
+  "district": "Botad",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Botad Police Station",
+  "court": "High Court of Gujarat",
+  "court_as_verified": "High Court of Gujarat",
+  "bench": null,
+  "case_title": "[name withheld] v. STATE OF GUJARAT (connected with [name withheld])",
+  "case_number": "R/Criminal Appeal No. ... of 2026 (appeal against conviction in Sessions Case ... of 2018)",
+  "citation": "2026:GUJHC:... (pending official citation)",
+  "judges": [
+   "Justice Ilesh J. Vora",
+   "Justice R.T. Vachhani"
+  ],
+  "judgment_date": "2026-04-22",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2013-03-04",
+  "incident_year": 2013,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "dereliction_evidence_tampering",
+  "subcategory": "dereliction_evidence_tampering",
+  "subcategory_display": "dereliction evidence tampering",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "IPC Sections 302, 114"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "investigating officers",
+    "role": "named_in_finding",
+    "unit": "Botad Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "investigating officers, Botad Police Station"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 0,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://supremetoday.ai/gujarat-hc-acquits-accused-on-alibi-due-to-police-lapses-20260706109",
+  "secondary_sources": [],
+  "summary": "The Gujarat High Court delivered a split verdict in a 2013 murder case. While upholding the conviction of [name withheld] based on ocular testimony and forensic evidence, the Court acquitted [name withheld] on the ground of a proved alibi. The Court found that investigating officers had recorded statements of 13 independent witnesses and collected call detail records (CDR) confirming Solanki's presence in Anand (200 km away) at the time of the crime, but these materials were never presented to the trial court. The bench decried the 'deliberate suppression' of evidence by investigating bodies and the 'lackadaisical' conduct of the investigation, holding that the prosecution's duty transcends securing a conviction and requires discovery of truth. The Court invoked the principle that a judge must not be a 'mute spectator or a mere recording machine'.",
+  "summary_verified": "The Gujarat High Court delivered a split verdict in a 2013 murder case. While upholding the conviction of [name withheld] based on ocular testimony and forensic evidence, the Court acquitted [name withheld] on the ground of a proved alibi. The Court found that investigating officers had recorded statements of 13 independent witnesses and collected call detail records (CDR) confirming Solanki's presence in Anand (200 km away) at the time of the crime, but these materials were never presented to the trial court. The bench decried the 'deliberate suppression' of evidence by investigating bodies and the 'lackadaisical' conduct of the investigation, holding that the prosecution's duty transcends securing a conviction and requires discovery of truth. The Court invoked the principle that a judge must not be a 'mute spectator or a mere recording machine'.",
+  "court_quote": "If a criminal court is to be an effective instrument in dispensing justice, the presiding judge must cease to be a spectator and a mere recording machine... It is clear that a fair trial must kick off only after an investigation is itself fair and just.",
+  "court_quote_para": "Judgment dated 22.04.2026",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "case_number and citation are placeholders; the opened source cites the matter as 2026 0 Supreme(Guj) 870 (pended for official citation is acceptable); incident fact confirms murder of [name withheld] on 04.03.2013 at Botad; Section 114 IPC listed but not expressly confirmed by the source (plausible connected charge)",
+  "verification_status": "V1",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-04-22",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Gujarat",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Gujarat recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2026:GUJHC:... (pending official citation)",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://supremetoday.ai/gujarat-hc-acquits-accused-on-alibi-due-to-police-lapses-20260706109",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-gj-hc"
+  ],
+  "merged_case_id": "cop-gj-hc-2",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0075",
+  "status": "current",
+  "merged_id": "CWC-1351",
+  "alias_merged_ids": [],
+  "display_title": "STATE OF GUJARAT v. [name withheld]",
+  "display_title_redacted": "STATE OF GUJARAT v. [name withheld]",
+  "state": "Gujarat",
+  "district": "Ahmedabad",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Bavla Police Station, Ahmedabad",
+  "court": "High Court of Gujarat",
+  "court_as_verified": "High Court of Gujarat",
+  "bench": null,
+  "case_title": "STATE OF GUJARAT v. [name withheld]",
+  "case_number": "R/Criminal Appeal No. 1970 of 2012",
+  "citation": "2026:GUJHC:... (pending official citation)",
+  "judges": [
+   "Justice Hemant M. Prachchhak"
+  ],
+  "judgment_date": "2026-08-20",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2010-02-06",
+  "incident_year": 2010,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "dereliction_evidence_tampering",
+  "subcategory": "dereliction_evidence_tampering",
+  "subcategory_display": "dereliction evidence tampering",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "NDPS Act Section 8, 20(b)(2) (charged)",
+   "NDPS Act Sections 41, 42, 43, 50, 57 (violated mandatory provisions)"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "police personnel",
+    "role": "named_in_finding",
+    "unit": "... Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "police personnel, ... Police Station"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 0,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://www.caseon.in/case/state-of-gujarat-versus-merubhai-mohanbhai-thakkar-2",
+  "secondary_sources": [],
+  "summary": "The Gujarat High Court upheld the acquittal of the accused in an NDPS Act case involving ganja seizure, finding serious violations of mandatory NDPS Act provisions during search and seizure. The Court concluded that mandatory procedural requirements were not met, and the prosecution failed to prove the offense beyond reasonable doubt. Issues included unrecorded secret information, absence of search warrant, unproven premises ownership, and contradictions in contraband seizure. The Court reinforced the acquitted accused's presumption of innocence.",
+  "summary_verified": "The Gujarat High Court upheld the acquittal of the accused in an NDPS Act case involving ganja seizure, finding serious violations of mandatory NDPS Act provisions during search and seizure. The Court concluded that mandatory procedural requirements were not met, and the prosecution failed to prove the offense beyond reasonable doubt. Issues included unrecorded secret information, absence of search warrant, unproven premises ownership, and contradictions in contraband seizure. The Court reinforced the acquitted accused's presumption of innocence.",
+  "court_quote": "there was a serious violation of provision of Sections 41, 42, 43 read with Sections 50 and 57 of the NDPS Act",
+  "court_quote_para": "Judgment dated 20.08.2026",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "sections field lists only procedural provisions (41/42/43/50/57) that the court found violated; the offence charged was under Sections 8 and 20(b)(2) NDPS; court_quote is a paraphrase, not verbatim; verbatim finding in the source is 'there was a serious violation of provision of Sections 41, 42, 43 read with Sections 50 and 57 of the NDPS Act'; district and police_station_or_unit are placeholders; the case arose at Ramnagar Paru near Bavla, Bavla Police Station, Ahmedabad district",
+  "verification_status": "V1",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-08-20",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Gujarat",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Gujarat recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2026:GUJHC:... (pending official citation)",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://www.caseon.in/case/state-of-gujarat-versus-merubhai-mohanbhai-thakkar-2",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-gj-hc"
+  ],
+  "merged_case_id": "cop-gj-hc-4",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0066",
+  "status": "current",
+  "merged_id": "CWC-1352",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] v. STATE OF GUJARAT",
+  "display_title_redacted": "[name withheld] v. STATE OF GUJARAT",
+  "state": "Gujarat",
+  "district": "...",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "... Police Station",
+  "court": "Supreme Court of India",
+  "court_as_verified": "Supreme Court of India",
+  "bench": null,
+  "case_title": "[name withheld] v. STATE OF GUJARAT",
+  "case_number": "Criminal Appeal Nos. 890-891 of 2017",
+  "citation": "2025 INSC 1443",
+  "judges": [
+   "Justice Sanjay Karol",
+   "Justice Vipul M. Pancholi"
+  ],
+  "judgment_date": "2025-12-16",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": "...",
+  "incident_year": null,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "dereliction_evidence_tampering",
+  "subcategory": "dereliction_evidence_tampering",
+  "subcategory_display": "dereliction evidence tampering",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "IPC Section 376 (rape)"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Investigating Officer / Police personnel",
+    "role": "named_in_finding",
+    "unit": "... Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Investigating Officer / Police personnel, ... Police Station"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 0,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://advocategandhi.com/jayantibhai-chaturbhai-patel-vs-state-of-gujarat16th-december-2025-supreme-court-of-india-complete-judgment-download-pdf/",
+  "secondary_sources": [],
+  "summary": "The Supreme Court quashed the rape conviction of the appellant, holding that the High Court had committed an error by placing reliance on the deposition of the Investigating Officer and recovery panchnamas when the victim and her husband (material witnesses) had turned hostile and medical/forensic evidence did not corroborate the prosecution case. The Court held that FIR allegations cannot substitute proof at trial, and testimony of hostile witnesses requires cautious scrutiny and corroboration. It observed that the Investigating Officer cannot indirectly prove what the witnesses have failed to prove, and that when the prosecution's case hinges on the sole testimony of the victim who turns hostile, conviction cannot be sustained. The Court criticized the High Court for presuming that hostile witnesses were 'won over' without cogent evidence.",
+  "summary_verified": "The Supreme Court quashed the rape conviction of the appellant, holding that the High Court had committed an error by placing reliance on the deposition of the Investigating Officer and recovery panchnamas when the victim and her husband (material witnesses) had turned hostile and medical/forensic evidence did not corroborate the prosecution case. The Court held that FIR allegations cannot substitute proof at trial, and testimony of hostile witnesses requires cautious scrutiny and corroboration. It observed that the Investigating Officer cannot indirectly prove what the witnesses have failed to prove, and that when the prosecution's case hinges on the sole testimony of the victim who turns hostile, conviction cannot be sustained. The Court criticized the High Court for presuming that hostile witnesses were 'won over' without cogent evidence.",
+  "court_quote": "The Court held that FIR allegations cannot substitute proof at trial and that testimony of hostile witnesses requires cautious scrutiny and corroboration. It is a settled law that conviction can never be based on FIR or statement of witnesses recorded during the course of investigation. The Investigating Officer cannot indirectly prove what the witnesses have failed to prove.",
+  "court_quote_para": "Judgment dated 16.12.2025",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "judges are placeholders; the bench was Justice Sanjay Karol and Justice Vipul M. Pancholi; case_number is wrong: actual is Criminal Appeal Nos. 890-891 of 2017 (record says 'Criminal Appeal No. ... of 2025'); verified citation is 2025 INSC 1443; district and police_station_or_unit are placeholders (trial: Sessions Case No. 68 of 2001); Qualifies as an adverse finding against police: the Court found the recovery panchnamas unreliable (panch witnesses said they signed pre-written papers at the instance of police) and that the IO cannot indirectly prove what witnesses failed to prove; survivor is not named in any field",
+  "verification_status": "V1",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-12-16",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "Supreme Court of India",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The Supreme Court of India recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2025 INSC 1443",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://advocategandhi.com/jayantibhai-chaturbhai-patel-vs-state-of-gujarat16th-december-2025-supreme-court-of-india-complete-judgment-download-pdf/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-gj-hc"
+  ],
+  "merged_case_id": "cop-gj-hc-7",
+  "officers_named_public": 0,
+  "record_flag": null
  }
 ]

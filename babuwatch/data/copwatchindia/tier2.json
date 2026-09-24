@@ -83795,5 +83795,250 @@
    }
   ],
   "case_title_or_number": "CBI v. [name withheld] (Barabazar custodial torture / Budhan Sabar suicide; FIR 5/98, taken over per Calcutta HC order 06.07.1998)"
+ },
+ {
+  "case_id": "t2s-mp-001",
+  "alias_case_ids": [],
+  "verification_status": "V2",
+  "gate_status": "V2",
+  "verified_by": "swarm-verify-cop-mp-trial",
+  "verified_at": "2026-09-24T00:00:00Z",
+  "verdict_note": "Verified against the cited source.",
+  "state": "Madhya Pradesh",
+  "district": "Dhar",
+  "court": "Special Judge (Prevention of Corruption Act), Dhar",
+  "court_level": "special_acb",
+  "trial_court_name": "Special Judge (Prevention of Corruption Act), Dhar",
+  "case_title": "State of Madhya Pradesh through Special Police Establishment, Lokayukta v. [name withheld]",
+  "case_number": "SC Lok No. 07/2019",
+  "conviction_date": "2025-08-29",
+  "conviction_year": 2025,
+  "date_precision": "day",
+  "incident_date": "2017-09-19",
+  "incident_year": 2017,
+  "category": "corruption",
+  "subcategory": "bribery_pc_act",
+  "raw_subcategory": "bribery_pc_act",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "name": null,
+    "rank": "Assistant Sub-Inspector",
+    "role": "convicted",
+    "unit": "Krishi Upaj Mandi Samiti, Manavar, District Dhar (on deputation from Madhya Pradesh Police)",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Assistant Sub-Inspector, Krishi Upaj Mandi Samiti, Manavar, District Dhar (on deputation from Madhya Pradesh Police)"
+   }
+  ],
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "sections": [
+   "Section 7, Prevention of Corruption Act, 1988",
+   "Section 13(1)(d) read with Section 13(2), Prevention of Corruption Act, 1988"
+  ],
+  "sentence": "Rigorous Imprisonment for 4 years with fine of Rs.10,000/-; default stipulation of additional 2 months RI for each offence; sentences to run concurrently",
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "appeal_status": "none_known",
+  "appeal_url": null,
+  "source_kind": "judgment",
+  "source_agency": null,
+  "primary_source_url": "https://indiankanoon.org/doc/37338409/",
+  "secondary_sources": [],
+  "summary": "The Special Judge convicted an Assistant Sub-Inspector posted at Krishi Upaj Mandi Samiti, Manavar, for demanding and accepting a bribe of Rs.10,000 from a complainant for renewal of a trading license. The trial court found the demand and acceptance proved through trap proceedings, recovery of tainted currency notes, and positive phenolphthalein test. The High Court later suspended the sentence pending appeal on 17 December 2025.",
+  "court_quote": "The appellant/accused has been convicted for demanding Rs.10,000/- from [name withheld] (PW-2) in connection for renewal of license of Riddesh Trading Company and assessment year 2016-2017 on 19.09.2017 at 6:30 p.m. at the office of Krishi Upaj Mandi Samiti, Manavar District Dhar in pursuance of trap laid down by Lokayukt team.",
+  "confidence": "medium",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "cop-mp-trial",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "bribery pc act",
+  "last_checked": "2026-09-24",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "case_title_or_number": "State of Madhya Pradesh through Special Police Establishment, Lokayukta v. [name withheld]"
+ },
+ {
+  "case_id": "t2s-tn-001",
+  "alias_case_ids": [],
+  "verification_status": "V1",
+  "gate_status": "V1",
+  "verified_by": "swarm-verify-cop-tn-trial",
+  "verified_at": "2026-09-24T00:00:00Z",
+  "verdict_note": "compensation_inr: 2500000 misattributes compensation to this judgment — the sentencing court did not award compensation; the ₹25 lakh figure was a separate Madurai Bench of the Madras High Court interim compensation direction to the State that was challenged in appeal, and the trial judge said a separate direction was not passed regarding compensation; summary names the minor victim as '[name withheld]'; the name of a minor must not appear in any field and is redacted",
+  "state": "Tamil Nadu",
+  "district": "Madurai",
+  "court": "Fifth Additional District and Sessions Court, Madurai",
+  "court_level": "sessions",
+  "trial_court_name": "Fifth Additional District and Sessions Court, Madurai",
+  "case_title": "S.S. Colony custodial death case: [name withheld] (minor) killed in custody",
+  "case_number": "Sessions Case (number not specified in source)",
+  "conviction_date": "2025-09-26",
+  "conviction_year": 2025,
+  "date_precision": "day",
+  "incident_date": "2019",
+  "incident_year": 2019,
+  "category": "brutality",
+  "subcategory": "custodial_death",
+  "raw_subcategory": "custodial_death",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "name": null,
+    "rank": "Inspector",
+    "role": "convicted",
+    "unit": "S.S. Colony Police Station, Madurai",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Inspector, S.S. Colony Police Station, Madurai"
+   },
+   {
+    "name": null,
+    "rank": "Special Sub-Inspector",
+    "role": "convicted",
+    "unit": "S.S. Colony Police Station, Madurai",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Special Sub-Inspector, S.S. Colony Police Station, Madurai"
+   },
+   {
+    "name": null,
+    "rank": "Head Constable",
+    "role": "convicted",
+    "unit": "S.S. Colony Police Station, Madurai",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Head Constable, S.S. Colony Police Station, Madurai"
+   },
+   {
+    "name": null,
+    "rank": "Grade I Constable",
+    "role": "convicted",
+    "unit": "S.S. Colony Police Station, Madurai",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Grade I Constable, S.S. Colony Police Station, Madurai"
+   }
+  ],
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   }
+  ],
+  "sections": [
+   "Section 304 (II) IPC",
+   "Section 343 IPC"
+  ],
+  "sentence": "11 years rigorous imprisonment (10 years under Section 304-II IPC and 1 year under Section 343 IPC, to run consecutively) and fine of ₹12,000 each",
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "appeal_status": "none_known",
+  "appeal_url": null,
+  "source_kind": "news",
+  "source_agency": null,
+  "primary_source_url": "https://www.thehindu.com/news/cities/Madurai/ss-colony-custodial-death-four-police-personnel-get-11-years-rigorous-imprisonment/article70098380.ece",
+  "secondary_sources": [],
+  "summary": "The Fifth Additional District and Sessions Court in Madurai convicted four police personnel from S.S. Colony Police Station for the 2019 custodial torture and death of a 17-year-old boy. The court found the then Inspector, Special Sub-Inspector, Head Constable, and Grade I Constable guilty of culpable homicide not amounting to murder and wrongful confinement. The CB-CID had investigated the case on directions of the Madurai Bench of the Madras High Court. The judge sentenced each convict to 11 years rigorous imprisonment and a fine of ₹12,000. The court also directed the CB-CID to add three other police personnel as accused for destroying evidence and ordered disciplinary action against a CB-CID Superintendent of Police and two Government Rajaji Hospital doctors.",
+  "court_quote": "They were sentenced to 10-year RI for the offence under Section 304 (II) (Culpable homicide not amounting to murder) and one-year RI under Section 343 (Wrongful confinement for three or more days) of the Indian Penal Code. The judge said the sentences would run consecutively.",
+  "confidence": "medium",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "cop-tn-trial",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "custodial death",
+  "last_checked": "2026-09-24",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "case_title_or_number": "S.S. Colony custodial death case: [name withheld] (minor) killed in custody"
+ },
+ {
+  "case_id": "t2s-jk-001",
+  "alias_case_ids": [],
+  "verification_status": "V1",
+  "gate_status": "V1",
+  "verified_by": "swarm-verify-cop-jk-trial",
+  "verified_at": "2026-09-24T00:00:00Z",
+  "verdict_note": "Case names the police officer ([name withheld]) in the case_title field; per project rule, cases that name an officer must be anonymized (fix/reject), so the name should be removed.; Rank 'Constable' is not supported by either opened source: Kashmir Life only says he was 'a former policeman who was serving in the Jammu Kashmir Police Department at the time of the incident', and the J&K High Court order (CrlA(D) 112/2025) does not state a rank.; case_number is not verifiable: neither source gives a sessions case number or FIR number; only the High Court appeal number CrlA(D) 112/2025 appears.; Sentence field says 'rigorous imprisonment' but the High Court order states only '11 years, with a fine of Rs. 1.00 lac and, in default thereof, imprisonment for a further period of six months' (rigorous not specified); Kashmir Life's 25 Oct 2025 article even reported sentencing as pending, though the HC order confirms sentence dated 24 Oct 2025.; Category 'corruption' is a stretch for a drug-trafficking/counterfeit-currency conviction (judgment field, not a source claim).",
+  "state": "Jammu and Kashmir",
+  "district": "Kupwara",
+  "court": "Court of Additional Sessions Judge, Handwara",
+  "court_level": "sessions",
+  "trial_court_name": "Court of Additional Sessions Judge, Handwara",
+  "case_title": "State vs J&K Police officer (NDPS and counterfeit currency case)",
+  "case_number": "Not stated in opened sources (High Court appeal CrlA(D) 112/2025 pending at J&K High Court)",
+  "conviction_date": "2025-10-24",
+  "conviction_year": 2025,
+  "date_precision": "day",
+  "incident_date": "2019-07-12",
+  "incident_year": 2019,
+  "category": "corruption",
+  "subcategory": "other",
+  "raw_subcategory": "other",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "name": null,
+    "rank": "J&K Police officer (rank not specified in opened sources)",
+    "role": "convicted",
+    "unit": "Jammu and Kashmir Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "J&K Police officer (rank not specified in opened sources), Jammu and Kashmir Police"
+   }
+  ],
+  "victims": [
+   {
+    "name": null,
+    "gender": null
+   }
+  ],
+  "sections": [
+   "8/21 NDPS Act",
+   "489-C RPC"
+  ],
+  "sentence": "11 years rigorous imprisonment and fine of Rs. 1,00,000; in default of fine, further 6 months imprisonment",
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "appeal_status": "none_known",
+  "appeal_url": null,
+  "source_kind": "news",
+  "source_agency": null,
+  "primary_source_url": "https://kashmirlife.net/jammu-kashmir-ex-policeman-convicted-in-heroin-and-counterfeit-currency-case-410531",
+  "secondary_sources": [
+   "https://indiankanoon.org/doc/160400762/"
+  ],
+  "summary": "The Additional Sessions Judge, Handwara convicted a serving Jammu and Kashmir Police constable for heroin trafficking and possession of counterfeit currency. On 12 July 2019, a police naka party at Watayen intercepted a Santro car driven by the accused and recovered approximately 750 grams of heroin concealed in the car's air filter. A subsequent search at his residence yielded an additional 40 grams of heroin and counterfeit currency worth approximately Rs. 7.5 lakh bearing markings \"Manoranjan Bank\" and \"Children Bank of India\". The court found the accused guilty beyond reasonable doubt under Sections 8/21 of the NDPS Act and Section 489-C of the Ranbir Penal Code, describing his conduct as a grave breach of duty and public trust. The conviction was pronounced on 23 October 2025 and sentence on 24 October 2025.",
+  "court_quote": "In his judgment, the Additional Sessions Judge described the accused's conduct as a grave breach of duty and public trust, emphasizing that a police officer engaging in drug trafficking and circulating fake currency undermines the integrity of law enforcement. The court held Pir guilty beyond a reasonable doubt under both charges and convicted him accordingly.",
+  "confidence": "medium",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "cop-jk-trial",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "other",
+  "last_checked": "2026-09-24",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "case_title_or_number": "State vs J&K Police officer (NDPS and counterfeit currency case)"
  }
 ]

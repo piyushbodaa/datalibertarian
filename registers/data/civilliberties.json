@@ -378,6 +378,79 @@
       "verification": "V1"
     },
     {
+      "id": "cl-ch-0001",
+      "category": "speech",
+      "state": "Chandigarh",
+      "title": "Journalist arrested by Chandigarh Police over retweet about prime minister",
+      "summary": "Chandigarh Police arrested a Hyderabad-based journalist in April 2026 for allegedly resharing a misleading video post about the prime minister. Police said the post was inflammatory and risked public order. A Chandigarh court twice refused bail before bail was granted in August 2026 after more than 100 days in custody.",
+      "date": "2026-08-10",
+      "date_label": "Bail grant reported (court order)",
+      "incident_date": "2026-04-25",
+      "district": "Chandigarh",
+      "outcome": "prosecution_pending",
+      "authority": "Chandigarh Police; Additional Chief Judicial Magistrate, Chandigarh",
+      "laws": [
+        "Section 196 BNS",
+        "Section 318 BNS",
+        "Section 336 BNS",
+        "Section 340 BNS",
+        "Section 353 BNS",
+        "Section 356 BNS",
+        "Section 66C IT Act",
+        "Section 66D IT Act",
+        "Section 67 IT Act"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita",
+        "Information Technology Act, 2000"
+      ],
+      "person": "private individual (journalist)",
+      "detail": [
+        "The South First recorded that a journalist was arrested by Chandigarh Police from Hyderabad on April 25 for allegedly sharing a misleading social media post showing a man receiving a head massage presented as the prime minister.",
+        "The South First recorded that the person was booked under multiple provisions of the Bharatiya Nyaya Sanhita, Sections 196, 318, 336, 340, 353 and 356, and Sections 66C, 66D and 67 of the Information Technology Act, on an FIR at Sector 26 Police Station.",
+        "Outlook recorded that the magistrate rejected a second bail plea on July 27, holding that release would disturb public order and that filing of a chargesheet alone did not entitle the accused to bail.",
+        "The Siasat Daily recorded that the journalist had been arrested over allegedly retweeting a video posted by an academic commentator, that bail pleas were rejected till end-July, and that bail was granted on August 10."
+      ],
+      "current_position": "The journalist was granted bail in August 2026 after about 107 days in custody; prosecution on the same FIR remains pending.",
+      "quote": {
+        "text": "if bail is granted to the applicant, it will amount to disturbing the public order",
+        "where": "Additional Chief Judicial Magistrate order dated 27 July 2026 as quoted in news reports",
+        "url": "https://thesouthfirst.com/news/chandigarh-court-denies-bail-to-hyderabad-journalist-for-sharing-misleading-post-about-pm-modi/"
+      },
+      "caveats": "FIR number and full court orders not seen; section list and quoted reasoning are as reported in news; no court judgment PDF, PIB or police press release located.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "The alleged act was resharing a post about a public figure, with no violence, threat, doxxing, fraud victim, or other complaining victim alleged; the state action was for expression alone."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://thesouthfirst.com/news/chandigarh-court-denies-bail-to-hyderabad-journalist-for-sharing-misleading-post-about-pm-modi/",
+          "kind": "news",
+          "publisher": "The South First",
+          "date": "2026-07-30",
+          "supports": "arrest date, charges, FIR at Sector 26, second bail rejection and court reasoning"
+        },
+        {
+          "url": "https://www.outlookindia.com/news/chandigarh-court-refuses-bail-to-hyderabad-man-held-over-x-post-on-pm-modi",
+          "kind": "news",
+          "publisher": "Outlook India",
+          "date": "2026-07-30",
+          "supports": "arrest, X post allegation, police public-order claim, July 27 bail refusal"
+        },
+        {
+          "url": "https://www.siasat.com/arrested-over-retweeting-post-on-pm-hassan-siddiqui-gets-bail-4101234/",
+          "kind": "news",
+          "publisher": "The Siasat Daily",
+          "date": "2026-08-10",
+          "supports": "retweet allegation, April arrest, prior bail rejections, August bail grant"
+        }
+      ],
+      "verification": "V1"
+    },
+    {
       "id": "cl-ct-0001",
       "category": "speech",
       "state": "Chhattisgarh",
@@ -508,6 +581,68 @@
       "verification": "V2"
     },
     {
+      "id": "cl-hp-0001",
+      "category": "speech",
+      "state": "Himachal Pradesh",
+      "title": "High Court restores bus conductor sacked over private WhatsApp messages",
+      "summary": "The state transport corporation ended a contract conductor's service after he sent two messages in a private co-workers' WhatsApp group discussing new work rules. The High Court of Himachal Pradesh held the private group was not a public social-media platform and the messages were not prohibited criticism. It quashed the termination order and deemed him in continuous service.",
+      "date": "2026-09-16",
+      "date_label": "High Court judgment",
+      "incident_date": "2023-09-04",
+      "outcome": "penalty_set_aside",
+      "authority": "High Court of Himachal Pradesh at Shimla (Justice Jyotsna Rewal Dua); penal action by the Himachal Road Transport Corporation",
+      "case_reference": "CWP No. 8073 of 2023",
+      "laws": [
+        "Clause 3 of contract agreement",
+        "Clause 8 of contract agreement",
+        "Guideline No. ii of HRTC social media guidelines dated 21.08.2023"
+      ],
+      "acts": [
+        "Clause 3 of contract agreement",
+        "Clause 8 of contract agreement",
+        "Guideline No. ii of HRTC social media guidelines dated 21.08.2023"
+      ],
+      "person": "a contract bus conductor with the state transport corporation",
+      "penalty": "Termination of contract service by office order dated 10.10.2023; quashed, with deemed continuous service and consequential benefits",
+      "detail": [
+        "The High Court recorded that the corporation recruited conductors in 2019-2021, the petitioner joined on contract in late 2021, and in August 2023 the employer issued guidelines warning that criticism of government or corporation policy on social media would be treated as misconduct.",
+        "The judgment records that conductors formed a WhatsApp group called 'Himachal Parichalak Ekta' and the petitioner sent two messages there on 04.09.2023 suggesting public hardship would draw ministerial attention and urging monthly review of new rules with public disclosure of profit or loss figures.",
+        "The High Court held that the group was a private body of the corporation's own conductors and not a public platform, that discussing common service concerns was not prohibited criticism, and that the show-cause notice had already declared him unfit to retain, making the hearing an empty formality.",
+        "Amar Ujala reported that the dismissal order was set aside as arbitrary, that the petitioner would be treated as in continuous service with no break, and that withheld service benefits including regularization and financial aspects were to be released."
+      ],
+      "current_position": "The termination order stands quashed and the conductor is deemed in continuous service with consequential benefits to follow.",
+      "quote": {
+        "text": "Impugned office order dated 10.10.2023 (Annexure P-7) terminating petitioner's services is quashed and set aside.",
+        "where": "[name withheld] vs HRTC & Anr, CWP No. 8073 of 2023, Himachal Pradesh High Court judgment decided 16th September 2026, operative order",
+        "url": "https://indiankanoon.org/doc/156167284/"
+      },
+      "caveats": "The conductor's posting district is not stated in either source, so district is null. The two messages are summarized, not reproduced verbatim, in both sources. Indian Kanoon spells the petitioner's name '[name withheld]' while Amar Ujala reports 'Sunil Kumar'. A same-day companion matter (Rajesh Kumar vs HRTC, 16 September 2026) was not verified and is not relied on.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "A state employer took away a worker's job for two private messages discussing workplace policy with colleagues, harming no one; the court protected that private expression."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/156167284/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon (Himachal Pradesh High Court judgment)",
+          "date": "2026-09-16",
+          "supports": "case number, court, judge, decision date, message dates, show-cause and termination dates, reasoning and final order"
+        },
+        {
+          "url": "https://www.amarujala.com/shimla/whatsapp-private-group-message-hrtc-conductor-dismissal-himachal-high-court-2026-09-21",
+          "kind": "news",
+          "publisher": "Amar Ujala",
+          "date": "2026-09-21",
+          "supports": "outcome, continuous-service direction, release of benefits, and background of the HRTC warning order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "cl-hr-0001",
       "category": "speech",
       "state": "Haryana",
@@ -564,6 +699,110 @@
         }
       ],
       "verification": "V1"
+    },
+    {
+      "id": "cl-jh-0001",
+      "category": "speech",
+      "state": "Jharkhand",
+      "title": "Two people face prosecution over a circulating WhatsApp message in Chhatarpur",
+      "summary": "Police in Chhatarpur registered a 2026 case over a circulating WhatsApp message under speech provisions of the BNS and election law. The High Court recorded that there was no other allegation against the petitioners. It granted them anticipatory bail on bonds of Rs 25,000 each.",
+      "date": "2026-06-15",
+      "date_label": "High Court order",
+      "district": "Palamau",
+      "outcome": "prosecution_pending",
+      "authority": "High Court of Jharkhand at Ranchi (Justice Sanjay Kumar Dwivedi)",
+      "case_reference": "Chhatarpur P.S. Case No. 0023 of 2026; A.B.A. No. 3075 of 2026",
+      "laws": [
+        "sections 196(2) and 353(2) of the BNS, 2023",
+        "section 125 of the Representation of the People Acts of 1950, 1951 and 1989"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023",
+        "Representation of the People Act"
+      ],
+      "person": "two residents booked in the Chhatarpur case",
+      "detail": [
+        "The High Court recorded that the petitioners faced Chhatarpur P.S. Case No. 0023 of 2026, registered under sections 196(2) and 353(2) of the BNS, 2023 with a section 125 charge under the Representation of the People Acts.",
+        "The court noted that the allegations were of a circulating message on Whatsapp, and that apart from that there was no allegation against the petitioners, who had no disclosed criminal antecedents.",
+        "The court granted pre-arrest protection, directing the petitioners to surrender before the trial court within three weeks and to be released on bail bonds of Rs 25,000 each with sureties, subject to conditions under Section 482(2) of the BNSS, 2023.",
+        "The order decides only bail and expresses no finding on guilt; the underlying criminal case remains pending."
+      ],
+      "current_position": "The petitioners were granted anticipatory bail on 15.06.2026 with a direction to surrender within three weeks; the criminal case remains pending.",
+      "quote": {
+        "text": "In the attending facts and circumstances of the case, I am inclined to grant anticipatory bail to the petitioners.",
+        "where": "A.B.A. No. 3075 of 2026, order dated 15.06.2026",
+        "url": "https://indiankanoon.org/doc/134148465/"
+      },
+      "caveats": "The text of the WhatsApp message and the exact incident date are not stated in the order excerpt; the district is not named in the order (Chhatarpur police station); the full name of the second petitioner is truncated in the case title.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "The only allegation the court recorded was circulating a WhatsApp message, charged under speech provisions about enmity and public-mischief statements. Circulating a message harms no one and is an exercise of speech."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/134148465/",
+          "kind": "court_order",
+          "publisher": "Indian Kanoon (High Court of Jharkhand at Ranchi)",
+          "date": "2026-06-15",
+          "supports": "case number, sections, WhatsApp allegation, no other allegation, bail order and conditions"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "cl-jh-0002",
+      "category": "religion",
+      "state": "Jharkhand",
+      "title": "Several people face prosecution under Jharkhand religion law in Shikaripara case",
+      "summary": "A 2018 Shikaripara police case led to prosecution under Section 295A of the IPC with Section 4 of the Jharkhand Freedom of Religion Act, 2017, sanctioned by Dumka authorities. The accused asked the High Court to end the proceedings. On 22.08.2024 the court allowed an amendment to their plea, issued notice, and kept the case pending.",
+      "date": "2024-08-22",
+      "date_label": "High Court order",
+      "district": "Dumka",
+      "outcome": "prosecution_pending",
+      "authority": "High Court of Jharkhand at Ranchi (Justice Anil Kumar Choudhary)",
+      "case_reference": "Shikaripara P.S. Case No. 52 of 2018",
+      "laws": [
+        "Sections 295A/34 of the Indian Penal Code",
+        "Section 4 of the Jharkhand Freedom of Religion Act, 2017"
+      ],
+      "acts": [
+        "Indian Penal Code, 1860",
+        "Jharkhand Freedom of Religion Act, 2017"
+      ],
+      "person": "several accused persons from the Shikaripara area",
+      "detail": [
+        "The High Court recorded a challenge to the proceedings in Shikaripara P.S. case no. 52 of 2018, which invoked Sections 295A of the IPC with Section 4 of the Jharkhand Freedom of Religion Act, 2017.",
+        "The court record cites prosecution sanction through Memo no. 720 / Legal, Dumka dated 22.10.2018, which places the sanctioning authority in Dumka district.",
+        "On 22.08.2024 the court allowed the petitioners to amend their plea, directed issue of notice to the opposite party, made the rule returnable within six weeks, and deferred listing until the service report arrived.",
+        "The order decides no merits and grants no acquittal or discharge; the prosecution and the petition to end it both remain pending."
+      ],
+      "current_position": "The petition to end the religion-law prosecution remains pending after the 22.08.2024 order allowing amendment and issuing notice.",
+      "quote": {
+        "text": "Issue notice to the Opposite Party no. 2. Rule is made returnable within six weeks.",
+        "where": "[name withheld] matter, order No. 05 / 22.08.2024",
+        "url": "https://indiankanoon.org/doc/178026662/"
+      },
+      "caveats": "The order excerpt gives no narrative of the underlying incident, so the exact religious act and exact incident date could not be confirmed; qualification rests on the charged provisions, which list no violence, sexual-offence, fraud or minor-related sections; whether any complainant alleged force or allurement is not visible in the excerpt.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "The recorded charges are insult-to-religion and conversion provisions with no violence, sexual-offence, fraud or minor-related provisions alongside; facing prosecution under the conversion law for belief or preaching restricts religious freedom."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/178026662/",
+          "kind": "court_order",
+          "publisher": "Indian Kanoon (High Court of Jharkhand at Ranchi)",
+          "date": "2024-08-22",
+          "supports": "case title, court, date, FIR number, sections, sanction memo, notice and listing directions"
+        }
+      ],
+      "verification": "V2"
     },
     {
       "id": "cl-jk-0002",
@@ -867,6 +1106,145 @@
           "publisher": "UCA News",
           "date": "2026-08-27",
           "supports": "Aug 25 FIR, Aug 21 visit, Bible offer and cure claim, refusal, villagers informed, no arrests, context of new Freedom of Religion Act from Aug 28"
+        }
+      ],
+      "verification": "V1"
+    },
+    {
+      "id": "cl-ml-0001",
+      "category": "speech",
+      "state": "Meghalaya",
+      "title": "Supreme Court quashed FIR against Shillong daily editor over Facebook post",
+      "summary": "Police registered a criminal case over a Facebook post decrying violence against non-tribal residents. The High Court refused to quash the case. The Supreme Court quashed the FIR on 25 March 2021.",
+      "date": "2021-03-25",
+      "date_label": "Supreme Court judgment quashing FIR",
+      "outcome": "quashed",
+      "authority": "Supreme Court of India (Justices L Nageswara Rao and Ravindra Bhat)",
+      "laws": [
+        "Section 153A(a), IPC",
+        "Section 41A, Code of Criminal Procedure"
+      ],
+      "acts": [
+        "Indian Penal Code, 1860",
+        "Code of Criminal Procedure, 1973"
+      ],
+      "person": "editor of a Shillong daily",
+      "detail": [
+        "Scroll reported that masked miscreants had attacked boys on a basketball court in Lawsohtun village. The report recorded that no arrests had been made in that attack case.",
+        "Scroll reported that a village council filed a complaint over allegedly inciting statements in the editor's Facebook post. The report recorded that police registered a criminal case under various sections of the Indian Penal Code for promoting enmity between different groups.",
+        "Scroll reported that the editor was also charged with defamation, among other things. The report recorded that police served a notice under Section 41A procedure.",
+        "Bar and Bench recorded that the judgment was delivered by a bench of Justices L Nageswara Rao and Ravindra Bhat. Bar and Bench recorded that the appeal was against the Meghalaya High Court order dismissing the plea to quash criminal proceedings in relation to a Facebook post decrying violence against non-tribal people.",
+        "Scroll recorded that the High Court had seen risk under Section 153A(a) IPC. The Supreme Court set aside that view and quashed the FIR."
+      ],
+      "current_position": "The FIR stands quashed by the Supreme Court; no prosecution survives.",
+      "quote": {
+        "text": "would fall on the mischief of Section 153A (a) IPC as it apparently seeks to promote disharmony",
+        "where": "Scroll report of Meghalaya High Court order in editor Facebook-post case, Nov 12 2020",
+        "url": "https://scroll.in/latest/978353/meghalaya-hc-refuses-to-quash-fir-against-journalist-patricia-mukhim-for-facebook-post"
+      },
+      "caveats": "No 2024-2026 Meghalaya speech arrest found. FIR number and full IPC list could not be confirmed. Official Supreme Court judgment PDF and Indian Kanoon could not be fetched (HTTP 429 and connection blocks); two independent news reports are relied on under the speech exception.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "The post criticised mob violence and state inaction. It threatened no person and caused no victim harm, and is an exercise of speech and press freedom."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.barandbench.com/news/litigation/breaking-supreme-court-quashes-fir-against-shillong-times-editor-patricia-mukhim",
+          "kind": "news",
+          "publisher": "Bar and Bench",
+          "date": "2021-03-25",
+          "supports": "date of quashing, bench, High Court background, Facebook post about violence against non-tribals"
+        },
+        {
+          "url": "https://scroll.in/latest/990547/sc-quashes-fir-against-journalist-patricia-mukhim-for-facebook-post-on-conflict-between-communities",
+          "kind": "news",
+          "publisher": "Scroll",
+          "date": "2021-03-25",
+          "supports": "quashing outcome, July 3 Lawsohtun attack background, July 7 complaint, IPC case for promoting enmity, defamation charge, Section 41A notice"
+        },
+        {
+          "url": "https://scroll.in/latest/978353/meghalaya-hc-refuses-to-quash-fir-against-journalist-patricia-mukhim-for-facebook-post",
+          "kind": "news",
+          "publisher": "Scroll",
+          "date": "2020-11-12",
+          "supports": "Section 153A(a) IPC reasoning at High Court stage, defamation charge, complaint and attack dates"
+        }
+      ],
+      "verification": "V1"
+    },
+    {
+      "id": "cl-mn-0001",
+      "category": "speech",
+      "state": "Manipur",
+      "title": "NSA detention over Facebook posts mocking cow-dung cure claim set aside after release order",
+      "summary": "Police in Imphal arrested a journalist and an activist in May 2021 over Facebook posts criticising claims that cow dung and cow urine cure COVID-19. A local court granted them bail, but the District Magistrate ordered NSA detention. The Supreme Court ordered the activist's release on 19 July 2021.",
+      "date": "2021-07-19",
+      "date_label": "Supreme Court release order",
+      "incident_date": "2021-05-13",
+      "district": "Imphal West",
+      "outcome": "detention_set_aside",
+      "authority": "District Magistrate, Imphal West; Chief Judicial Magistrate, Imphal West; Supreme Court of India",
+      "laws": [
+        "Section 153-A, IPC",
+        "Section 505(b)(2), IPC",
+        "Section 3(2), National Security Act, 1980"
+      ],
+      "acts": [
+        "Indian Penal Code, 1860",
+        "National Security Act, 1980"
+      ],
+      "person": "a journalist and an activist in Imphal",
+      "detail": [
+        "EastMojo reported that the pair were first taken into custody following a complaint based on their Facebook posts last week, after the COVID-19 death of the state BJP chief, and that a case was lodged under IPC sections 153-A and 505(b)(2).",
+        "EastMojo reported that the Chief Judicial Magistrate, Imphal West, released the duo on bail on a PR bond of Rs 50,000 with surety and conditions, but the District Magistrate directed detention under section 3(2) of the NSA, 1980 until further notice, to apply on release on bail.",
+        "Scroll reported that the two were arrested on May 13 over commentary posted after the death of the state BJP president, and quoted the posts as saying cow dung and cow urine did not work and that the cure is science and common sense.",
+        "EastMojo recorded that on 19 July 2021 the Supreme Court ordered the activist's release that same afternoon, observing that overnight custody was not warranted, in a plea challenging the NSA detention."
+      ],
+      "current_position": "The NSA detention was not sustained and the detenu was ordered to be set at liberty.",
+      "quote": {
+        "text": "The cure for Corona is Not cow dung & cow Urine.",
+        "where": "EastMojo article dated 18 May 2021, quoting a Facebook post",
+        "url": "https://www.eastmojo.com/manipur/2021/05/18/manipur-journalist-activist-arrested-again-under-nsa-despite-bail/"
+      },
+      "caveats": "FIR number and NSA detention-order number could not be confirmed from the pages opened. The Supreme Court order text itself was not opened; the release is established through news reports, which is permitted for speech cases. No more recent fully-qualifying speech case was found: September 2024 arrests had only one outlet and alleged calls to demolish offices, and December 2024 arrests alleged threats.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "The posts were satirical criticism of a claimed COVID-19 cure. They named no victim, called for no violence, and involved no fraud, minors, force, or property damage."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.eastmojo.com/manipur/2021/05/18/manipur-journalist-activist-arrested-again-under-nsa-despite-bail/",
+          "kind": "news",
+          "publisher": "EastMojo",
+          "date": "2021-05-18",
+          "supports": "arrest over Facebook posts, IPC sections, bail on Rs 50,000 bond, NSA detention order by District Magistrate"
+        },
+        {
+          "url": "https://scroll.in/latest/995144/manipur-activist-and-journalist-charged-with-nsa-for-facebook-posts-on-state-bjp-chiefs-death",
+          "kind": "news",
+          "publisher": "Scroll",
+          "date": "2021-05-18",
+          "supports": "arrest date 13 May, NSA charge, content of the two Facebook posts"
+        },
+        {
+          "url": "https://www.eastmojo.com/?s=Erendro+released+Supreme+Court+NSA",
+          "kind": "news",
+          "publisher": "EastMojo",
+          "date": "2021-07-19",
+          "supports": "Supreme Court ordered release on 19 July 2021; petition challenged NSA detention"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kishorechandra_Wangkhem",
+          "kind": "news",
+          "publisher": "Wikipedia (citing BBC, ThePrint, NDTV, The Hindu, Indian Express, Scroll, EastMojo and others)",
+          "date": null,
+          "supports": "corroborates that multiple independent outlets covered the Facebook-post NSA detentions"
         }
       ],
       "verification": "V1"
