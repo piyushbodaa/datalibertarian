@@ -1374,6 +1374,69 @@
       "verification": "V2"
     },
     {
+      "id": "psu-rj-0001",
+      "category": "cpse",
+      "state": "Rajasthan",
+      "name": "HPCL Rajasthan Refinery Limited (HRRL)",
+      "summary": "HPCL Rajasthan Refinery Limited is a joint venture between HPCL, with 74% equity, and the Government of Rajasthan, with 26%. HRRL's registered office is in Jaipur; its refinery-cum-petrochemical complex is at Pachpadra in Balotra district. HPCL states that the refinery section was completed and commissioned and that the facility was dedicated on 4 July 2026. HRRL was incorporated in 2013.",
+      "date": "2026-07-04",
+      "district": "Balotra",
+      "headquarters": "Jaipur, Rajasthan",
+      "state_link": "HRRL is a joint venture with 26% equity held by the Government of Rajasthan. Its refinery complex is at Pachpadra, Balotra district; its registered office is in Jaipur.",
+      "owner": "Joint (HPCL, a Central CPSE, and Government of Rajasthan)",
+      "shareholding": "HPCL 74%, Government of Rajasthan 26%, as stated on page retrieved 2026-09-24; as-of date not given, or null",
+      "administrative": "HPCL and Government of Rajasthan (joint-venture shareholders)",
+      "legal_form": "Joint venture company",
+      "established": "2013 (foundation-stone ceremony 18 Sept 2013)",
+      "status": "Operating",
+      "detail": [
+        "HRRL's equity is held 74% by HPCL and 26% by the Government of Rajasthan. The company's registered office is in Jaipur, and its refinery site is at Pachpadra, Balotra district.",
+        "The complex has 9 MMTPA refining capacity and 2.4 MMTPA petrochemical capacity. The cited project page gives a site area of 4,400.4 acres (1,780.8 ha) and says Engineers India Limited designed and planned the refinery.",
+        "The foundation stones were laid on 18 September 2013; the project page says completion was planned for January 2024. HPCL states that the refinery section was completed and commissioned, and the PMO reports that the complex was inaugurated on 4 July 2026.",
+        "The PSU list separately lists Hindustan Salts Limited with a Jaipur, Rajasthan headquarters."
+      ],
+      "caveats": "Financial and employee figures were not confirmed in the opened sources.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Pachpadra_Refinery",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "Pachpadra and Balotra site location, 2013 foundation stones, January 2024 planned completion, site area, and EIL design"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_public_sector_undertakings_in_India",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "Hindustan Salts Limited listed with Jaipur, Rajasthan headquarters"
+        },
+        {
+          "url": "https://hrrl.in/Hrrl/home.jsp",
+          "kind": "news",
+          "publisher": "HPCL Rajasthan Refinery Limited",
+          "date": null,
+          "supports": "HRRL name, 74/26 joint-venture equity, registered office in Jaipur, and refinery site in Pachpadra, Balotra"
+        },
+        {
+          "url": "https://www.hindustanpetroleum.com/hp-refineries",
+          "kind": "news",
+          "publisher": "Hindustan Petroleum Corporation Limited",
+          "date": null,
+          "supports": "HRRL's 74/26 joint-venture equity, 9 MMTPA refinery and 2.4 MMTPA petrochemical capacity, and commissioning and dedication on 4 July 2026"
+        },
+        {
+          "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2281172&lang=2&reg=48",
+          "kind": "news",
+          "publisher": "Prime Minister's Office via Press Information Bureau",
+          "date": "2026-07-04",
+          "supports": "Inauguration of the HPCL Rajasthan Refinery at Pachpadra on 4 July 2026"
+        }
+      ],
+      "verification": "V1"
+    },
+    {
       "id": "psu-rj-0005",
       "category": "dfi",
       "state": "Rajasthan",
@@ -1486,6 +1549,143 @@
           "publisher": "Transport Department, Government of Rajasthan (RSRTC)",
           "date": null,
           "supports": "Annual Report 2024-25 listed as latest alongside 2023-24 and earlier years"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-tn-0002",
+      "category": "state",
+      "state": "Tamil Nadu",
+      "name": "Tamil Nadu Power Distribution Corporation Limited (TNPDCL) (formerly Tamil Nadu Generation and Distribution Corporation Limited (TANGEDCO))",
+      "summary": "TNPDCL is the Tamil Nadu state-owned electricity distribution utility, a subsidiary of TNEB Limited, fully owned by the Government of Tamil Nadu. It was formed by restructuring TNEB in 2010 and was renamed from TANGEDCO to TNPDCL on 27 June 2024 after generation businesses were hived off. Its most recent official development is an all-time high demand of 21,724 MW recorded on 14-07-2026.",
+      "date": "2026-07-14",
+      "district": "Chennai",
+      "headquarters": "Chennai, Tamil Nadu",
+      "state_link": "State-owned distribution utility serving Tamil Nadu; fully owned by Government of Tamil Nadu via TNEB Limited; head office at NPKRR Maaligai, 144 Anna Salai, Chennai 600002.",
+      "owner": "State government (Tamil Nadu)",
+      "shareholding": "Fully owned by Government of Tamil Nadu (via TNEB Limited) per G.O.Ms.No.114 dated 08-10-2008 stipulation",
+      "administrative": "Energy Department, Government of Tamil Nadu",
+      "legal_form": "Government company",
+      "established": "2009 (incorporated 01-12-2009; commencement 16-03-2010; restructuring effective 01-11-2010); renamed to TNPDCL 27-06-2024",
+      "status": "Operating",
+      "detail": [
+        "TNEB was formed 1 July 1957 under the Electricity (Supply) Act 1948, and under section 131 of the Electricity Act 2003 was restructured on 01-11-2010 into TNEB Limited, TANGEDCO and TANTRANSCO; G.O.Ms.No.114 Energy (B2) dated 08-10-2008 stipulated the companies shall be fully owned by Government (source: TNPDCL official profile).",
+        "TANGEDCO was further unbundled under Energy Department G.O.(Ms) No.6 dated 24-01-2024 and the Tamil Nadu Electricity Restructuring and Transfer Scheme 2024 effective 06-03-2024 into Tamil Nadu Power Generation Corporation Limited (thermal/gas), Tamil Nadu Green Energy Corporation Limited, and the distribution company; the Registrar of Companies approved the name change from TANGEDCO to Tamil Nadu Power Distribution Corporation Limited on 27-06-2024 (source: TNPDCL profile and transfer-scheme circular).",
+        "TNPDCL reports 336.82 lakh consumers as on 01-04-2024 and lists annual reports for FY2024-25 (IND AS) on its site; its achievements page records all-time high demand of 21,724 MW on 14-07-2026 and all-time high consumption of 475.447 MU on 17-07-2026 (source: TNPDCL official profile page, last updated Sept 2026)."
+      ],
+      "caveats": "FY2024-25 revenue, profit/loss and employee count could not be confirmed from pages actually opened without parsing the IND AS annual-report PDF; left null. Debt and tariff figures not verified.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.tnpdcl.org/en/tnpdcl/about-us/tnpdcl-profile/",
+          "kind": "company_site",
+          "publisher": "Tamil Nadu Power Distribution Corporation Limited",
+          "date": null,
+          "supports": "history, restructuring 2010, G.O.114 fully-owned stipulation, G.O.6 24-01-2024, 336.82 lakh consumers, 2026 demand record, FY24-25 annual report link, Chennai address"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/centre-gives-its-nod-for-tn-to-rename-tangedco/article68399627.ece",
+          "kind": "news",
+          "publisher": "The Hindu",
+          "date": "2024-07-13",
+          "supports": "context for RoC approval of rename"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-tn-0003",
+      "category": "bank",
+      "state": "Tamil Nadu",
+      "name": "Indian Bank",
+      "summary": "Indian Bank is a public sector bank incorporated on 5 March 1907 and commencing business 15 August 1907, which commenced operations as amalgamated entity with Allahabad Bank from 1 April 2020. Its global business was at Rs 13.25 lakh crore.",
+      "date": "2025-05-03",
+      "district": "Chennai",
+      "headquarters": "Chennai, Tamil Nadu",
+      "state_link": "Head office and Corporate Office at 254-260 Avvai Shanmugam Salai, Royapettah, Chennai 600014, Tamil Nadu.",
+      "owner": "Central government",
+      "administrative": "Ministry of Finance, Department of Financial Services",
+      "legal_form": "Corresponding new bank under the Banking Companies (Acquisition and Transfer of Undertakings) Act, 1970; Listed company",
+      "established": "1907 (incorporated 5 March 1907, business from 15 Aug 1907); nationalised 1969; Allahabad Bank amalgamated with effect from 01-04-2020",
+      "status": "Operating",
+      "detail": [
+        "Indian Bank states it was incorporated on 5 March 1907 and commenced business 15 August 1907, amalgamated Bank of Thanjavur, and commenced operations as amalgamated entity with Allahabad Bank from 1 April 2020; global business was at Rs 13.25 lakh crore (source: Indian Bank official Bank Profile opened)."
+      ],
+      "caveats": "Employee count and capital adequacy as of FY2024-25 not confirmed from official pages opened, left null. Shareholding 73.84% per exchange holding data as on Mar 2025.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://indianbank.bank.in/en/bank-s-profile",
+          "kind": "company_site",
+          "publisher": "Indian Bank",
+          "date": null,
+          "supports": "incorporated 1907, Allahabad amalgamation 2020, Chennai base, Rs 13.25 lakh crore business 2025"
+        },
+        {
+          "url": "https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/25052025/a4632e06-7952-4477-bd2e-91fc69152648.pdf",
+          "kind": "exchange_filing",
+          "publisher": "Indian Bank via BSE",
+          "date": "2025-05-25",
+          "supports": "FY24-25 annual report figures: business, deposits, advances, net profit Rs 10,918 cr, operating profit, NII"
+        },
+        {
+          "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/9d7cefa6-7674-4a90-b6ef-6971a92c150c.pdf",
+          "kind": "exchange_filing",
+          "publisher": "Indian Bank via BSE",
+          "date": "2025-05-03",
+          "supports": "Q4/FY25 results presentation date and profit figures"
+        },
+        {
+          "url": "https://www.indiacode.nic.in/handle/123456789/1373?view_type=browse",
+          "kind": "statute",
+          "publisher": "India Code / Ministry of Law (Banking Companies Act 1970)",
+          "date": null,
+          "supports": "legal form as corresponding new bank, Ministry of Finance / DFS"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-tn-0004",
+      "category": "insurer",
+      "state": "Tamil Nadu",
+      "name": "United India Insurance Company Limited (UIIC)",
+      "summary": "United India Insurance Company Limited was incorporated on 18 February 1938 and, after 1972 nationalisation, formed by merger of 22 companies/entities. It reports headquarters at Chennai, over 9000 workforce across 1537 offices covering 1.74 crore policyholders.",
+      "date": "2025-05-30",
+      "district": "Chennai",
+      "headquarters": "Chennai, Tamil Nadu",
+      "state_link": "Headquarters at Chennai per company profile; registered office at 24 Whites Road, Royapettah, Chennai 600014, Tamil Nadu.",
+      "owner": "Central government",
+      "established": "1938 (incorporated 18 Feb 1938); nationalised 1972; renamed United India Insurance Company Limited 30-12-1978",
+      "status": "Operating",
+      "employees": "over 9,000 workforce across 1,537 offices covering 1.74 crore policyholders (company profile; as-of date not stated)",
+      "detail": [
+        "United India was incorporated 18 Feb 1938; after nationalisation in 1972, 12 Indian insurers, 4 cooperative societies, Indian operations of 5 foreign insurers and southern-region general business of LIC were merged into it; it reports over 9,000 workforce across 1,537 offices covering 1.74 crore holders, with headquarters at Chennai (source: UIIC official Company Profile opened)."
+      ],
+      "caveats": "Audited FY2024-25 financial statements from UIIC public disclosures were not retrieved; the Rs 154 crore profit and Rs 20,072 crore premium are per company statements as reported by news, so financials field is left null to avoid using news for official figures. Exact paid-up capital and shareholding as-of date not confirmed from pages opened.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://uiic.co.in/web/about-us/companyprofile",
+          "kind": "company_site",
+          "publisher": "United India Insurance Company Limited",
+          "date": null,
+          "supports": "incorporated 1938, 1972 merger, HQ Chennai, 9000+ staff, 1537 offices, 1.74 cr holders"
+        },
+        {
+          "url": "https://www.financialservices.gov.in/beta/en/actsandrules/general-insurance-business-nationalisation-act-1972",
+          "kind": "statute",
+          "publisher": "Ministry of Finance, Department of Financial Services",
+          "date": null,
+          "supports": "GIBNA 1972 legal basis; United India as acquiring company transferred to Central Government"
+        },
+        {
+          "url": "https://www.thehindu.com/business/united-india-insurance-back-in-black-posts-154-crore-net-in-fy25/article69638749.ece",
+          "kind": "news",
+          "publisher": "The Hindu",
+          "date": "2025-05-30",
+          "supports": "FY24-25 Rs 154 cr profit vs Rs 804 cr loss, GDPI Rs 20,072 cr, combined ratio, new products (company statement context)"
         }
       ],
       "verification": "V2"

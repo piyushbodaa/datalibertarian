@@ -173,6 +173,70 @@
       "verification": "V2"
     },
     {
+      "id": "cl-gj-0001",
+      "category": "speech",
+      "state": "Gujarat",
+      "title": "Supreme Court quashes Gujarat FIR over MP's poem video posted in Jamnagar",
+      "summary": "Police in Jamnagar registered an FIR against a Rajya Sabha member over a video with a poem posted on X. The Gujarat High Court refused to quash it in January 2025. The Supreme Court allowed the appeal on 28 March 2025 and quashed the FIR and all further proceedings.",
+      "date": "2025-03-28",
+      "date_label": "Supreme Court judgment",
+      "district": "Jamnagar",
+      "outcome": "quashed",
+      "authority": "Supreme Court of India",
+      "case_reference": "Criminal Appeal No. 1545 of 2025; FIR No. 11202008250014 of 2025, City A-Division Police Station, Jamnagar; R/Special Criminal Application (Quashing) No. 551 of 2025 (Gujarat High Court)",
+      "laws": [
+        "Sections 196, 197(1), 302, 299, 57 and 3(5) of the Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "a Rajya Sabha member who posted a video in Jamnagar, Gujarat",
+      "detail": [
+        "The Supreme Court recorded that FIR No. 11202008250014 of 2025 was registered with City A-Division Police Station, Jamnagar for offences punishable under Sections 196, 197(1), 302, 299, 57 and 3(5) of the Bharatiya Nyaya Sanhita, 2023.",
+        "The Supreme Court recorded that the appellant had posted a 46-second video of a mass marriage gathering in Jamnagar on social media platform X from a verified account, with Urdu verses as background audio, and that the complainant claimed the clip stirred inter-group hostility.",
+        "Verdictum reported that the Gujarat High Court declined to quash the case on 17 January 2025 on the ground that investigation was at a nascent stage, that the Supreme Court stayed further steps on 21 January 2025, reserved verdict on 3 March 2025, and quashed the case on 28 March 2025.",
+        "Verdictum reported that the Supreme Court held no offence was attracted, that police must read the actual words when speech is involved, and that in a healthy democracy views must be countered with other views."
+      ],
+      "current_position": "The FIR and all further proceedings stand quashed by the Supreme Court on 28 March 2025.",
+      "quote": {
+        "text": "This poem has nothing to do with any religion, community, region or race",
+        "where": "Criminal Appeal No. 1545 of 2025, para 10",
+        "url": "https://indiankanoon.org/doc/118192392/"
+      },
+      "caveats": "Exact date the video was posted was not stated in the excerpts opened; other Indian Kanoon hits for Gujarat speech were non-Gujarat forums and were not pursued.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "The state prosecuted a person for posting a poem video online with no allegation of violence, threats, doxxing, fraud or any complaining victim of harm, a pure exercise of speech."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/118192392/",
+          "kind": "judgment",
+          "publisher": "Supreme Court of India via Indian Kanoon",
+          "date": "2025-03-28",
+          "supports": "FIR number, station, sections, High Court history, quashing order and speech reasoning"
+        },
+        {
+          "url": "https://www.livelaw.in/top-stories/supreme-court-quashes-gujarat-fir-against-congress-mp-over-poem-imran-pratapgarhi-287801",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2025-03-28",
+          "supports": "timeline, Jamnagar FIR, sections, High Court refusal, Supreme Court quashing and Article 19 reasoning"
+        },
+        {
+          "url": "https://www.verdictum.in/court-updates/supreme-court/imran-pratapgadhi-v-state-of-gujarat-1572554",
+          "kind": "news",
+          "publisher": "Verdictum",
+          "date": "2025-03-28",
+          "supports": "46-second clip on X, complaint theory, High Court and Supreme Court outcome and speech quotes"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "cl-ka-0001",
       "category": "speech",
       "state": "Karnataka",
@@ -494,35 +558,142 @@
       "verification": "V2"
     },
     {
+      "id": "cl-rj-0001",
+      "category": "speech",
+      "state": "Rajasthan",
+      "title": "Bail granted to man held over Facebook post about deities",
+      "summary": "Police in Dungarpur district registered an FIR over a Facebook post about Hindu deities and charged IT Act and BNS offences including BNS 152. The Rajasthan High Court at Jodhpur granted bail on 20 January 2025 after noting investigation was complete.",
+      "date": "2025-01-20",
+      "date_label": "High Court bail order",
+      "district": "Dungarpur",
+      "outcome": "prosecution_pending",
+      "authority": "Rajasthan High Court at Jodhpur",
+      "case_reference": "S.B. Criminal Miscellaneous Bail Application No. 14318/2024; F.I.R. No.218/2024, Police Station Sagwara",
+      "laws": [
+        "Sections 152, 196, 197, 299, 353(1)(c), 353(2) of BNS",
+        "Sections 67, 67-A of IT Act"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023",
+        "Information Technology Act, 2000"
+      ],
+      "person": "a resident of Sagwara area in Dungarpur district",
+      "detail": [
+        "The High Court recorded that the case concerned F.I.R. No.218/2024 registered at Police Station Sagwara.",
+        "The High Court recorded that the allegation was posting an obscene article along with certain photos about Hindu deities on a Facebook account.",
+        "The High Court recorded that the FIR invoked Sections 152, 196, 197, 299, 353(1)(c), 353(2) of BNS and Sections 67, 67-A of the IT Act.",
+        "The High Court recorded that investigation was already complete and granted bail, observing the order was for limited purposes of the bail application."
+      ],
+      "current_position": "Released on bail with trial to follow; prosecution otherwise pending.",
+      "quote": {
+        "text": "posting an obscene article along with certain photos about Hindu deities",
+        "where": "[name withheld] vs State Of Rajasthan (2025:Rj-Jd:3534), judgment text as hosted on Indian Kanoon",
+        "url": "https://indiankanoon.org/doc/101860350/"
+      },
+      "caveats": "Exact date of the Facebook post was not stated in the excerpt; only FIR No.218/2024 and order date 20/01/2025 were confirmed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "The state prosecuted a social-media user for a post about religion with no allegation of violence, threats, fraud, minors or coercion; it is an exercise of speech."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/101860350/",
+          "kind": "judgment",
+          "publisher": "Rajasthan High Court via Indian Kanoon",
+          "date": "2025-01-20",
+          "supports": "FIR number and station, Facebook post allegation, sections applied, bail granted"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "cl-rj-0002",
+      "category": "religion",
+      "state": "Rajasthan",
+      "title": "Bail refused for 13 held over Udaipur prayer gathering",
+      "summary": "Police in Udaipur district arrested 13 people around a prayer gathering scheduled for 5 to 7 June 2026 and charged BNS provisions and the 2025 Rajasthan anti-conversion law. The Rajasthan High Court at Jodhpur dismissed their bail applications on 23 July 2026, finding prima facie involvement from the case diary.",
+      "date": "2026-07-23",
+      "date_label": "High Court bail order",
+      "incident_date": "2026-06-06",
+      "district": "Udaipur",
+      "outcome": "bail_refused",
+      "authority": "Rajasthan High Court at Jodhpur",
+      "case_reference": "S.B. Criminal Miscellaneous Bail Application Nos. 9344/2026, 8501/2026, 8961/2026; FIR No. 0159/2026, Police Station Rishabhdev",
+      "laws": [
+        "Sections 299, 302, 196(1)(a) of BNS, 2023",
+        "Sections 3/5(1) of the Rajasthan Prohibition of Unlawful Conversion of Religion Act, 2025"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023",
+        "Rajasthan Prohibition of Unlawful Conversion of Religion Act, 2025"
+      ],
+      "person": "13 attendees of a faith gathering in Udaipur district, including out-of-state visitors",
+      "detail": [
+        "The High Court recorded that the case concerned FIR Number 0159/2026 at Concerned Police Station Rishabhdev in District Udaipur.",
+        "The High Court recorded that the gathering was scheduled on 5 th, 6th and 7th June, 2026 and that the prosecution alleged those present are indulged in forceful religious conversion.",
+        "The High Court recorded charges under Sections 299, 302, 196(1) of the BNS and 3/ 5(1) of the Rajasthan Prohibition of Unlawful Conversion of Religion Act, 2025.",
+        "The High Court recorded that most were in judicial custody since 06.06.2026 and held involvement was prima facie reflected, dismissing bail with liberty to renew after challan."
+      ],
+      "current_position": "Bail dismissed on 23 July 2026; accused remain in custody pending filing of challan and fresh bail pleas.",
+      "quote": {
+        "text": "are indulged in forceful religious conversion.",
+        "where": "[name withheld] vs State Of Rajasthan, order dated 23/07/2026, judgment text as hosted on Indian Kanoon",
+        "url": "https://indiankanoon.org/doc/145053891/"
+      },
+      "caveats": "Excerpt did not name any individual allegedly converted; a counsel listed for complainant side appeared but no victim account was reproduced. Full case diary was not reviewed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "The state detained and prosecuted people for attending and organising a prayer gathering; no individual victim of force, fraud or allurement was named, so it is an exercise of worship and preaching."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/145053891/",
+          "kind": "judgment",
+          "publisher": "Rajasthan High Court via Indian Kanoon",
+          "date": "2026-07-23",
+          "supports": "FIR number, police station and district, gathering dates, sections including 2025 conversion Act, custody dates, bail dismissal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "cl-tn-0001",
       "category": "speech",
       "state": "Tamil Nadu",
-      "title": "Social-media commentator's cybercrime FIR over temple-land posts quashed by High Court",
-      "summary": "A social-media commentator was booked over posts linking a State minister to a temple-land registration. The Madras High Court quashed the FIR in Crime No. 82 of 2026, holding the cited public-order offences were not made out.",
-      "date": "2026-08-31",
-      "date_label": "High Court order reported",
-      "district": "Tamil Nadu (specific district not verified in sources opened)",
+      "title": "Chennai commentator booked over temple-land posts, High Court quashes cybercrime FIR",
+      "summary": "Chennai cybercrime police registered an FIR over posts linking the State Hindu Religious and Charitable Endowments Minister to a temple-land registration. The Madras High Court quashed the FIR on 28 August 2026, holding the cited public-order offences were not made out.",
+      "date": "2026-08-28",
+      "date_label": "High Court order quashing FIR",
+      "district": "Chennai",
       "outcome": "quashed",
-      "authority": "Madras High Court; cybercrime police",
-      "case_reference": "Crime No. 82 of 2026",
+      "authority": "Madras High Court; Chennai Central Crime Branch, Cyber Cell CCD-I",
+      "case_reference": "Crime No. 82 of 2026; Crl.O.P. No. 20304 of 2026",
       "laws": [
         "Section 192 of the Bharatiya Nyaya Sanhita, 2023",
         "Section 353(1)(b) of the Bharatiya Nyaya Sanhita, 2023",
-        "Section 353(2) of the Bharatiya Nyaya Sanhita, 2023"
+        "Section 353(2) of the Bharatiya Nyaya Sanhita, 2023",
+        "Section 356 of the Bharatiya Nyaya Sanhita, 2023 (referred to as possible defamation)"
       ],
       "acts": [
         "Bharatiya Nyaya Sanhita, 2023"
       ],
       "person": "a social-media commentator in Chennai",
       "detail": [
-        "The Court recorded that the complaint was given by the Junior Personnel Assistant of the State Hindu Religious and Charitable Endowments Minister, alleging wilful malicious disinformation on X and Instagram about registration of land of a Palani temple.",
+        "The High Court recorded that the complaint was given by the junior personal assistant of the State Hindu Religious and Charitable Endowments Minister, alleging wilful malicious disinformation on X and Instagram about fraudulent registration of land of a Palani temple.",
         "Police registered Crime No. 82 of 2026 for offences under Sections 192, 353(1)(b) and 353(2) of the BNS.",
-        "The High Court held that the post could be treated as false information and rumour through electronic means but the cited offences require intent or likelihood to cause fear or alarm or to provoke rioting or enmity, which was not made out, and quashed the FIR while leaving open a separate defamation remedy and directing an affidavit of regret and undertaking as reported."
+        "The High Court held that no rioting was intended or occurred, and the posts were not shown to promote enmity on religion or community grounds, so none of the three charged offences was made out even if allegations were taken at face value.",
+        "The High Court quashed the FIR but left it open to the minister or complainant to pursue civil or criminal defamation, and directed the commentator to file an affidavit expressing regret for an unverified post and undertaking future verification."
       ],
-      "current_position": "The FIR in Crime No. 82 of 2026 stands quashed as reported 31 Aug 2026, with liberty to pursue defamation separately.",
+      "current_position": "The FIR in Crime No. 82 of 2026 stands quashed, with liberty to bring a separate defamation case.",
       "quote": {
         "text": "The instant post can be treated as false information and the spread of a rumour through electronic means.",
-        "where": "Madras High Court order in proceedings relating to Crime No. 82 of 2026, para 19",
+        "where": "Crl.O.P. No. 20304 of 2026, Madras High Court order dated 28.08.2026, para 19",
         "url": "https://www.livelaw.in/pdf_upload/2026/08/31/vinoth-suriya-kumar-v-state-697065.pdf"
       },
       "caveats": "Full post text was not independently verified; the order relies on screenshots enclosed with the complaint. Penalty field is null because no sentence was imposed.",
@@ -590,7 +761,7 @@
       "current_position": "The seal is to be removed for possession, but the premises must not be used as a prayer hall without District Collector permission.",
       "quote": {
         "text": "The property shall not be utilised as a prayer hall for conducting prayer meetings and if the petitioner intends to convert the property into a prayer hall, the petitioner is directed to approach the District Collector and seek for permission.",
-        "where": "W.P. No. 2036 of 2024, Madras High Court judgment dated 13.06.2025, para 9",
+        "where": "Pastor [name withheld] v District Collector, W.P. No. 2036 of 2024, Madras High Court judgment dated 13.06.2025, para 9",
         "url": "https://indiankanoon.org/doc/187955353/"
       },
       "caveats": "No 2026 official record of punishment for peaceful worship alone was found; neighbour disturbance was alleged by the Collector but no violence, force or fraud finding was made. Exact sealing date beyond the January 2024 notice was not stated in the judgment.",

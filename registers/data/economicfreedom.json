@@ -997,6 +997,226 @@
       "verification": "V2"
     },
     {
+      "id": "ef-ka-0007",
+      "category": "labour",
+      "state": "Karnataka",
+      "title": "ESI damages of Rs 1.19 lakh restored against Bengaluru private firm for delayed contributions",
+      "summary": "The Employees State Insurance Corporation appealed against an ESI Court order that had set aside damages for late payment. The High Court recorded that contributions for July 1992 to March 1995 were paid belatedly in 2005-2007. On 23 March 2026 it allowed the appeal and held the employer liable for damages.",
+      "date": "2026-03-23",
+      "date_label": "High Court judgment",
+      "district": "Bengaluru Urban",
+      "outcome": "penalty",
+      "authority": "High Court of Karnataka at Bengaluru",
+      "case_reference": "MISCELLANEOUS FIRST APPEAL NO. 7347 OF 2015 (ESI); ESI Application No. 30/2010; order dated 11.01.2008",
+      "laws": [
+        "Section 85B of the Employees' State Insurance Act, 1948",
+        "Section 45-A of the Employees' State Insurance Act, 1948",
+        "Section 75 of the Employees' State Insurance Act, 1948",
+        "Section 82(2) of the Employees' State Insurance Act, 1948"
+      ],
+      "acts": [
+        "Employees' State Insurance Act, 1948"
+      ],
+      "person": "a private company in Sadaramangala Industrial Area, Bengaluru, through its general managing director",
+      "penalty": "damages of Rs 1,19,396/- for delayed payment of contribution pertaining to July 1992 to March 1995; ESI Court order dated 31.07.2015 set aside",
+      "detail": [
+        "The High Court recorded that the respondent-employer is a private company covered under the ESI Act and that the contribution payable for July 1992 to March 1995 was not remitted within the prescribed period and came to be paid belatedly during 2005-2007.",
+        "The Court recorded that the Corporation had passed an order dated 11.01.2008 levying damages of Rs 1,19,396/-, and that the ESI Court at Bengaluru by order dated 31.07.2015 in ESI Application No. 30/2010 had set that demand aside.",
+        "The High Court held that the respondent-employer is liable for damages under Section 85B of the Employees' State Insurance Act, 1948 for the delayed payment, allowed the Corporation's appeal, and set aside the ESI Court order dated 31.07.2015.",
+        "The judgment as shown contains no allegation of worker injury, death, cheating over wages owed, or child or bonded labour; the sole dispute was whether belatedly paid contributions still drew statutory damages."
+      ],
+      "current_position": "The Corporation's appeal stands allowed and the employer stands liable for Section 85B damages; the ESI Court's relief to the employer stands set aside.",
+      "quote": {
+        "text": "The order dated 31.07.2015 passed in ESI Application 30/2010 by the ESI Court at Bengaluru is hereby set aside.",
+        "where": "The Employees State Insurance Corporation vs [name withheld] Pvt Ltd, MFA No. 7347 of 2015, operative paragraph",
+        "url": "https://indiankanoon.org/doc/109877136/"
+      },
+      "caveats": "Exact interest computation and whether further appeal was filed could not be confirmed from the page opened.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Late remittance of a statutory contribution harmed no complaining victim; penalising a private employer for the timing of payments restricts freedom in staffing and payroll administration."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/109877136/",
+          "kind": "judgment",
+          "publisher": "High Court of Karnataka via Indian Kanoon",
+          "date": "2026-03-23",
+          "supports": "title, parties, contribution period, damages amount, ESI Court order, High Court reversal and liability finding"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-ka-0008",
+      "category": "hoarding",
+      "state": "Karnataka",
+      "title": "Hubballi trader's excess rice stock seized and Rs 26.5 lakh demand upheld under ceiling rule",
+      "summary": "Food authorities recorded 5180.80 quintals of rice with a trader against a 1500-quintal ceiling and ordered seizure of the excess. After review the seizure was fixed at 1406.80 quintals with a Rs 26.50 lakh demand. On 12 September 2025 the High Court rejected the trader's writ and left the seizure and demand intact.",
+      "date": "2025-09-12",
+      "date_label": "High Court judgment",
+      "district": "Dharwad",
+      "outcome": "confiscation",
+      "authority": "High Court of Karnataka at Dharwad; Deputy Commissioner; appellate authority",
+      "case_reference": "WRIT PETITION NO.107231 OF 2015 (GM-PDS); order at Annexure-B dated 17.04.2015; order at Annexure-C dated 24.06.2015",
+      "laws": [
+        "Section 3 of the Essential Commodities Act, 1955",
+        "Section 6(a) of the Essential Commodities Act, 1955",
+        "Clause 12 - Ceiling on possession of essential commodities",
+        "Clause 19 - power of entry, search and seizure"
+      ],
+      "acts": [
+        "Essential Commodities Act, 1955"
+      ],
+      "person": "a rice trader in Hubballi, Dharwad district",
+      "penalty": "seizure of 1406.80 quintals of rice; demand of Rs 26.50 lakhs towards cost of seized rice; Rs 10 lakhs deposit with interest to be transferred to the State",
+      "detail": [
+        "The High Court recorded that the stock held by the petitioner was 5180.80 quintals of rice, with 3650.80 quintals in excess of the permissible limit of 1500 quintals, and that the limit of maintaining stock of rice is 1,500 quintals.",
+        "The authorities directed seizure of the excess stock, later fixed after excluding broken rice at seizure of 1406.80 quintals of rice, and called upon the petitioner to pay Rs 26.50 lakhs towards the cost of that quantity.",
+        "The Court recorded a deposit of Rs 10 lakhs by demand draft dated 23.07.2015 and directed that the said amount with interest if any be transferred to the State.",
+        "The Court concluded that it found no reason to interfere with the orders impugned and accordingly the petition is rejected, leaving the seizure and monetary demand in place."
+      ],
+      "current_position": "The writ challenge stands rejected; the seizure of 1406.80 quintals and the Rs 26.50 lakh demand stand upheld.",
+      "quote": {
+        "text": "This Court finds no reason to interfere with the orders impugned and accordingly, the petition is rejected.",
+        "where": "[name withheld] vs The State Of Karnataka, WP No.107231 of 2015, final paragraph",
+        "url": "https://indiankanoon.org/doc/46307393/"
+      },
+      "caveats": "Full text on whether the licence had lapsed versus pure ceiling breach was truncated; no PDS-diversion, adulteration or cheating language appeared in the lines shown.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Holding extra private rice stock above a licensing ceiling involved no PDS diversion, adulteration or cheating on the lines shown; punishing storage and pricing quantities restricts freedom to charge and store what one likes."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/46307393/",
+          "kind": "judgment",
+          "publisher": "High Court of Karnataka via Indian Kanoon",
+          "date": "2025-09-12",
+          "supports": "title, court, petition number, stock and ceiling figures, seizure and Rs amounts, final rejection order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-mh-0002",
+      "category": "forex",
+      "state": "Maharashtra",
+      "title": "Customs pursues two arriving passengers over USD 1.8 lakh found concealed in bags",
+      "summary": "Customs prosecutors in Mumbai charged arriving passengers after about USD 1,80,000 in concealed currency was recovered from handbags. The trial magistrate in Mumbai acquitted the accused in April 2024. The Bombay High Court granted the Customs leave to appeal on 5 May 2026 and admitted the appeal, so prosecution continues.",
+      "date": "2026-05-05",
+      "date_label": "High Court order granting leave to appeal",
+      "district": "Mumbai",
+      "outcome": "prosecution_pending",
+      "authority": "Bombay High Court (Justice M. M. Sathaye); appellant: Commissioner of Customs, Prosecution Cell, CSMIA Mumbai",
+      "case_reference": "Application for Leave to Appeal (State) No. 8 of 2025 against order of acquittal dated 26.04.2024 in C.C. No. 44/SW/2021 (Additional Chief Metropolitan Magistrate, 19th Court, Esplanade, Mumbai)",
+      "laws": [
+        "Section 132 of the Customs Act, 1962",
+        "Section 135(1)(a) of the Customs Act, 1962",
+        "Section 135(1)(b) of the Customs Act, 1962",
+        "Section 120B of the Indian Penal Code, 1860",
+        "Section 3 of FEMA, 1999",
+        "Foreign Exchange Management (Export and Import of Currency) Regulations, 2015"
+      ],
+      "acts": [
+        "Customs Act, 1962",
+        "Foreign Exchange Management Act, 1999"
+      ],
+      "person": "two arriving passengers at Mumbai airport",
+      "detail": [
+        "The High Court recorded that the appellant was the Commissioner of Customs prosecution unit at CSMIA, Mumbai, acting through its officer, and that the trial was C.C. No. 44/SW/2021 before the Esplanade magistrate in Mumbai.",
+        "The High Court recorded the prosecution claim that a grey bag held US dollars worth 1,20,000 dollars concealed in clothes and a pink nylon handbag held currency worth 60,000 US dollars concealed.",
+        "The High Court recorded that the magistrate accepted that seizure of foreign currency from the handbags was proved by cogent evidence but acquitted on 26.04.2024 for lack of proof linking the currency to one accused and on sanction issues.",
+        "The High Court held that sanction and the alleged link to gold smuggled from Bangkok needed deeper review, and ordered that leave is granted, the application is allowed and the appeal is admitted with records called for."
+      ],
+      "current_position": "Acquittal is under challenge; the High Court has admitted the Customs appeal and called for records, so prosecution is pending.",
+      "quote": {
+        "text": "pink coloured nylon hand bag contained currency worth 60,000 US dollars concealed.",
+        "where": "Commissioner of Customs, Prosecution Cell, CSMIA Mumbai vs Respondents, Bombay High Court order dated 5 May 2026",
+        "url": "https://indiankanoon.org/doc/140435495/"
+      },
+      "caveats": "Exact date and terminal of the seizure could not be confirmed from the excerpt; only the trial case number, acquittal date and CSMIA Mumbai appellant address place it in Mumbai. Total of USD 1,20,000 plus USD 60,000 is as recorded by the court.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Carrying or keeping foreign currency outside the authorised-dealer system harmed no complaining victim; the case punishes mere possession and movement of dollars."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/140435495/",
+          "kind": "court_order",
+          "publisher": "Bombay High Court via Indian Kanoon",
+          "date": "2026-05-05",
+          "supports": "court, date, case number, seizure narrative, sections, leave-granted outcome"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-mh-0003",
+      "category": "gold",
+      "state": "Maharashtra",
+      "title": "Tribunal sets aside confiscation of about 3.7 kg gold seized at Zaveri Bazar",
+      "summary": "Customs officers seized about 3,723.65 grams of gold valued at about Rs 2.12 crore from a bullion melting operator's premises at Zaveri Bazar, Mumbai, and ordered absolute confiscation plus a Rs 25 lakh penalty. The operator appealed to the Mumbai customs tribunal. On 20 August 2026 the tribunal allowed the appeal and set aside the confiscation and penalty as challenged.",
+      "date": "2026-08-20",
+      "date_label": "CESTAT Mumbai final order",
+      "incident_date": "2023-02-20",
+      "district": "Mumbai",
+      "outcome": "penalty_set_aside",
+      "authority": "Customs, Excise and Service Tax Appellate Tribunal, Mumbai",
+      "case_reference": "Customs Appeal No. 85063 of 2026; Final Order No. A/86048/2026 (order pronounced in open court on 20.08.2026)",
+      "laws": [
+        "Section 111(d) of the Customs Act, 1962",
+        "Section 112(a) of the Customs Act, 1962",
+        "Section 112(b) of the Customs Act, 1962",
+        "Section 123 of the Customs Act, 1962",
+        "Section 138B of the Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "a bullion melting-shop operator in Zaveri Bazar, Mumbai",
+      "penalty": "Absolute confiscation of 871.120 g (Rs 50,50,971), 831.060 g (Rs 44,29,180) and 2021.470 g (Rs 1,18,05,384), total 3723.650 g valued at Rs 2,12,85,535, and penalty of Rs 25,00,000 under Section 112(a) and (b), all set aside to the extent challenged",
+      "detail": [
+        "The tribunal recorded that the appellant was a bullion melting-shop operator in Mumbai, and the respondent was the [name withheld] (Preventive), Mumbai.",
+        "The tribunal recorded that the seizure was made on 20.02.2023 at Room No. 3, SNK Plaza Building, Khau Galli, Kavi Nirav Lane, Zaveri Bazar, Mumbai, comprising gold of net weight 871.120 grams valued at Rs 50,50,971, 831.060 grams valued at Rs 44,29,180, and 2021.470 grams valued at Rs 1,18,05,384.",
+        "The tribunal recorded that the adjudicator had ordered absolute confiscation under Section 111(d) of the Customs Act, 1962 and imposed penalty of Rs 25,00,000 under Section 112(a) and (b), treating the gold as smuggled under Section 123.",
+        "The tribunal held that the case rested on a retracted statement of a co-operator and other statements where the makers were not offered for cross-examination despite request, contrary to Section 138B, and ordered that the appeal filed by the appellant is allowed with consequential relief."
+      ],
+      "current_position": "Confiscation and penalty stand set aside by the tribunal to the extent challenged; no further appeal is recorded in the order.",
+      "quote": {
+        "text": "The appeal filed by the appellant is allowed, with consequential relief, if any, as per law.",
+        "where": "CESTAT Mumbai, Customs Appeal No. 85063 of 2026, Final Order No. A/86048/2026 dated 20.08.2026",
+        "url": "https://indiankanoon.org/doc/198201694/"
+      },
+      "caveats": "Full text beyond the excerpt could not be opened; weights, values, sections and outcome are taken from verbatim fragments of the order. Whether the department has appealed further could not be confirmed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Keeping and handling gold in a Mumbai shop involved no complaining victim, violence, fraud or adulteration; the state seized and sought to confiscate private stocks for suspected smuggling alone."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/198201694/",
+          "kind": "judgment",
+          "publisher": "CESTAT Mumbai via Indian Kanoon",
+          "date": "2026-08-20",
+          "supports": "parties, seizure place and date, weights and values, sections, penalty, final order and date"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "ef-mh-0004",
       "category": "trade",
       "state": "Maharashtra",
@@ -1881,6 +2101,193 @@
           "publisher": "Telangana High Court via Indian Kanoon",
           "date": "2026-03-24",
           "supports": "ownership address, excess floors, speaking order, sealing, High Court disposal allowing demolition"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-tn-0004",
+      "category": "trade",
+      "state": "Tamil Nadu",
+      "title": "Customs penalised a Chennai forwarder over concealed sewing needles and tapes; High Court set aside duty and penalties",
+      "summary": "The DRI intercepted a Chennai consignment declared as gas stoves and found undeclared sewing-machine needles and steel measuring tapes. Customs held a forwarding agent jointly liable for Rs 4.56 crore duty plus penalties. The Madras High Court on 19 August 2026 set aside the demand against him.",
+      "date": "2026-08-19",
+      "date_label": "High Court order",
+      "incident_date": "2017-12-01",
+      "district": "Chennai",
+      "outcome": "penalty_set_aside",
+      "authority": "Madras High Court (Justice Hemant Chandangoudar); Principal Commissioner of Customs, Chennai; DRI Chennai Zonal Unit",
+      "case_reference": "W.P. No.16050 of 2024; Order-in-Original No.105387/2024 dated 19.03.2024; Bill of Entry No.4228874 dated 01.12.2017; container No. TEMU 6929879",
+      "laws": [
+        "Section 2(26) of the Customs Act, 1962",
+        "Section 28(4) read with Section 28(8) of the Customs Act, 1962",
+        "Section 28AA of the Customs Act, 1962",
+        "Section 114A of the Customs Act, 1962",
+        "Section 114AA of the Customs Act, 1962",
+        "Section 147(3) of the Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "a shipping forwarder in Chennai",
+      "penalty": "Differential duty of Rs 4,56,00,374 with interest and equivalent penalty plus Rs 10,00,000 penalty imposed 19.03.2024; all set aside as against him 19.08.2026",
+      "detail": [
+        "The High Court recorded that the dispute arose from Bill of Entry No.4228874 dated 01.12.2017 filed in the name of a Nellore firm, declared as gas stoves and spare parts, which the DRI Chennai examined and found to conceal undeclared needles and tapes.",
+        "The Customs Department alleged that the forwarder received documents from an untraceable person, gave them to the Customs Broker, paid duty from his firm's bank account, took the delivery order and arranged examination and clearance, and treated him as beneficiary and importer.",
+        "The Court held that involvement in clearance alone did not prove ownership or knowledge of concealment, that agency under Section 147(3) was not established, and that penalties under Sections 114A and 114AA needed proof of liability and knowing use of false documents.",
+        "The Court set aside Order-in-Original No.105387/2024 dated 19.03.2024 insofar as it fastened differential duty, interest and penalties on the forwarder, leaving other noticees unaffected."
+      ],
+      "current_position": "The duty, interest and penalties against the forwarder stand quashed by the Madras High Court order dated 19 August 2026.",
+      "quote": {
+        "text": "Upon examination, the DRI found 2,01,13,000 pieces of sewing machine needles of the brands “Organ” and “Flying Tiger” and 70,200 pieces of steel measuring tapes concealed behind the declared goods.",
+        "where": "W.P. No.16050 of 2024, para 2",
+        "url": "https://www.livelawbiz.com/pdf_upload/2026/08/27/csolomon-selvaraj-696551.pdf"
+      },
+      "caveats": "Bill of Entry No.4228874 dated 01.12.2017 verified; exact 22.12.2017 seizure-memo date and verbatim 2026 para-2 wording require manual PDF verification - figures 2,01,13,000 needles and 70,200 tapes and duty Rs 4,56,00,374 verified in 2020 order and Juris Hour summary of 2026 order.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Moving ordinary hardware for sale harmed no one; the goods were everyday sewing needles and measuring tapes, with no violence, fraud on a person, or prohibited article involved."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.livelawbiz.com/pdf_upload/2026/08/27/csolomon-selvaraj-696551.pdf",
+          "kind": "judgment",
+          "publisher": "Madras High Court",
+          "date": "2026-08-19",
+          "supports": "duty and penalty imposed and then set aside; description of concealed needles and tapes"
+        },
+        {
+          "url": "https://indiankanoon.org/doc/144265720/",
+          "kind": "judgment",
+          "publisher": "Madras High Court via Indian Kanoon",
+          "date": "2023-10-13",
+          "supports": "earlier round on same consignment; seizure, valuation Rs 3,99,16,875 and duty Rs 4,56,00,374; DRI findings"
+        },
+        {
+          "url": "https://www.jurishour.in/indirect-taxes/customs-clearance-smuggling-madras-high-court/",
+          "kind": "news",
+          "publisher": "Juris Hour",
+          "date": "2026-08-22",
+          "supports": "summary of High Court reasoning on clearance versus knowing smuggling"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-tn-0005",
+      "category": "capital",
+      "state": "Tamil Nadu",
+      "title": "Chennai supply-chain firm paid compounding for FEMA contraventions after ED probe",
+      "summary": "The Enforcement Directorate investigated a Chennai-registered supply-chain company under FEMA and filed a complaint before the Adjudicating Authority. The company sought compounding, the RBI compounded the contraventions on 8 April 2026 on ED no-objection for Rs 12,52,984, ending the proceedings. ED reported it on 3 June 2026.",
+      "date": "2026-06-03",
+      "date_label": "ED press release reporting RBI compounding order",
+      "district": "Chennai",
+      "outcome": "penalty",
+      "authority": "Reserve Bank of India (compounding); Directorate of Enforcement",
+      "case_reference": "ED Press Release 3/6/2026 re [name withheld]; RBI compounding order dated 08.04.2026",
+      "laws": [
+        "Section 15 of the Foreign Exchange Management Act, 1999",
+        "Section 16 of the Foreign Exchange Management Act, 1999"
+      ],
+      "acts": [
+        "Foreign Exchange Management Act, 1999"
+      ],
+      "person": "a Chennai-registered supply-chain company",
+      "detail": [
+        "The Enforcement Directorate stated that it took up investigation under FEMA on credible information and filed a complaint under Section 16 before the Adjudicating Authority.",
+        "The company then applied to the RBI for compounding of the contraventions under Section 15, and the ED gave no objection on reference from the RBI.",
+        "The RBI compounded the contraventions vide order dated 08.04.2026 for Rs 12,52,984, which terminated the adjudication proceedings and further litigation on those contraventions.",
+        "Company records show registration in Chennai, Tamil Nadu and a head office in the Sriperumbudur SEZ, Kanchipuram, Tamil Nadu, placing the case in Tamil Nadu."
+      ],
+      "current_position": "Proceedings for the compounded FEMA contraventions stand terminated after the RBI compounding order dated 8 April 2026.",
+      "quote": {
+        "text": "Head Office: Plot No -M3, SIPCOT HI-ECH SEZ, Sriperumbudur, Kanchipuram, Tamil Nadu, India 602106.",
+        "where": "[name withheld] global-network page",
+        "url": "https://www.jusdaindia.com/global-network"
+      },
+      "caveats": "Tamil Nadu nexus verified via company site; ED compounding date, amount, FEMA sections and termination claimed in record require manual verification of ED PDF before listing - PDF existed (202.9KB) but yielded no text layer to tool, and Tracxn page was not accessible.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The breach was a regulatory foreign-exchange reporting and capital-movement matter with no complaining victim, violence, fraud on a person, or proceeds of other crimes alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.enforcementdirectorate.gov.in/media/press-release-documents/3df02113-ad35-4163-b98a-fe7ec983d511_Jusda%20India%20Press%20Release-362026-1.pdf",
+          "kind": "press_release",
+          "publisher": "Directorate of Enforcement",
+          "date": "2026-06-03",
+          "supports": "ED investigation, Section 16 complaint, RBI compounding 08.04.2026, Rs 12,52,984 payment, termination"
+        },
+        {
+          "url": "https://www.jusdaindia.com/global-network",
+          "kind": "news",
+          "publisher": "[name withheld]",
+          "date": null,
+          "supports": "Head Office at SIPCOT HI-TECH SEZ, Sriperumbudur, Kanchipuram, Tamil Nadu"
+        },
+        {
+          "url": "https://tracxn.com/d/legal-entities/india/jusda-india-supply-chain-managementprivate-limited/__Yradw2k07St0_TwFUrlNl_-W7TOoEO5xTbDhsRHVQls",
+          "kind": "news",
+          "publisher": "Tracxn",
+          "date": "2024-06-19",
+          "supports": "Registered at ROC Chennai with Chennai address"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-tn-0006",
+      "category": "business",
+      "state": "Tamil Nadu",
+      "title": "Excise sealed a T.Nagar bar premises after liquor licence suspension; court recorded unsealing",
+      "summary": "After the High Court suspended an FL2 liquor licence in June 2025, Excise sealed a T.Nagar property on 3 September 2025. The landlord trust sought removal of the lock after the licensee surrendered the keys. On 7 November 2025 the High Court recorded that removal had been ordered and disposed of the plea.",
+      "date": "2025-11-07",
+      "date_label": "High Court order",
+      "incident_date": "2025-09-03",
+      "district": "Chennai",
+      "outcome": "seizure",
+      "authority": "Madras High Court (Justice M. Dhandapani); Commissioner and Deputy Commissioner of Prohibition and Excise, Tamil Nadu",
+      "case_reference": "W.P. No.42413 of 2025; eviction notice dated 03.09.2025; order dated 17.06.2025 in W.P. No.11330 of 2025",
+      "laws": [
+        "Article 226 of the Constitution of India"
+      ],
+      "acts": [
+        "Constitution of India"
+      ],
+      "person": "a charitable trust as landlord of bar premises in T.Nagar, Chennai",
+      "detail": [
+        "The High Court recorded that, following its order dated 17.06.2025 in an earlier writ petition, the FL2 licence for the bar in the premises was suspended.",
+        "The Court recorded that the premises at Door No.117, Thyagaraya Road, T.Nagar was then sealed on 03.09.2025 under an eviction notice of the same date.",
+        "The Court recorded that the licensee later surrendered possession and handed keys to the owner on 13.10.2025, after which the owner sought removal of the seal.",
+        "The Government pleader submitted that removal had already been ordered on 03.11.2025, and the Court disposed of the petition on that basis."
+      ],
+      "current_position": "The seal was ordered to be removed under the 3 November 2025 order, as recorded on 7 November 2025.",
+      "quote": {
+        "text": "the F.L.2 license earlier granted for the supply of liquor to the bar which was running in the subject premises was suspended and thereafter, the said premises was sealed on 03.09.2025 with reference to the eviction notice dated 03.09.2025 issued by the 1st respondent.",
+        "where": "W.P. No.42413 of 2025, para 3",
+        "url": "https://indiankanoon.org/doc/70032153/"
+      },
+      "caveats": "The order does not cite the specific excise rule under which the FL2 licence was suspended beyond referring to the earlier court order; no allegation of spurious liquor or harm appears.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Sealing a shop for a licence suspension is licence-permit enforcement against running a business; no violence, cheating, or harm to any person was alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/70032153/",
+          "kind": "judgment",
+          "publisher": "Madras High Court via Indian Kanoon",
+          "date": "2025-11-07",
+          "supports": "licence suspension, sealing 03.09.2025, surrender of keys, removal order, disposal"
         }
       ],
       "verification": "V2"
