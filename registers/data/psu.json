@@ -1689,6 +1689,114 @@
         }
       ],
       "verification": "V2"
+    },
+    {
+      "id": "psu-tn-0009",
+      "category": "jv",
+      "state": "Tamil Nadu",
+      "name": "Chennai Metro Rail Limited (CMRL)",
+      "summary": "Chennai Metro Rail Limited is a joint venture of the Government of India and the Government of Tamil Nadu implementing and operating the Chennai metro. It was incorporated on 03.12.2007 as a Tamil Nadu SPV and converted to a joint venture with equal equity holding. Its latest verified report is the 18th Annual Report 2024-25, with FY2024-25 income Rs 425.64 crore vs Rs 369.49 crore in FY2023-24 per 2026-02-02 news summary.",
+      "date": "2026-02-02",
+      "district": "Chennai",
+      "headquarters": "Chennai, Tamil Nadu",
+      "state_link": "Joint venture with Government of Tamil Nadu; implements Chennai metro and headquartered in Chennai.",
+      "owner": "Joint (Government of India and Government of Tamil Nadu)",
+      "shareholding": "Equal equity holding by Government of India and Government of Tamil Nadu, as stated on company site; exact percentages not disclosed",
+      "administrative": "Ministry of Housing and Urban Affairs (Government of India) and Government of Tamil Nadu",
+      "legal_form": "Government company (joint-venture SPV)",
+      "established": "2007: incorporated 03.12.2007 under the Companies Act as Tamil Nadu SPV, later converted to GoI-GoTN joint venture",
+      "status": "Operating",
+      "financials": "FY2024-25 income Rs 425.64 crore vs Rs 369.49 crore in FY2023-24 per CMRL 18th Annual Report 2024-25 as summarized 2026-02-02; non-fare box revenue Rs 135.39 crore vs Rs 104.30 crore",
+      "detail": [
+        "CMRL states it was created by the Government of Tamil Nadu as an SPV named Chennai Metro Rail Limited incorporated on 03.12.2007 under the Companies Act, and has now been converted into a Joint Venture of Government of India and Government of Tamil Nadu with equal equity holding.",
+        "CMRL's Annual Report page lists the 18th Annual Report 2024-2025 as its latest report, last updated 2026-01-19, and the 2026-02-02 summary of that report says income rose to Rs 425.64 crore in 2024-25 from Rs 369.49 crore, with non-fare box revenue Rs 135.39 crore vs Rs 104.30 crore."
+      ],
+      "caveats": "Exact GoI/GoTN percentage split, net profit, debt and employee count could not be confirmed from official pages opened; revenue figures are from news summary of the official 18th Annual Report, not the report PDF itself.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://chennaimetrorail.org/about-us/",
+          "kind": "company_site",
+          "publisher": "Chennai Metro Rail Limited",
+          "date": "2024-07-22",
+          "supports": "JV equal equity, incorporation 03.12.2007 as TN SPV"
+        },
+        {
+          "url": "https://chennaimetrorail.org/annual-report/",
+          "kind": "annual_report",
+          "publisher": "Chennai Metro Rail Limited",
+          "date": "2026-01-19",
+          "supports": "18th Annual Report 2024-25 exists as latest"
+        },
+        {
+          "url": "https://www.dtnext.in/news/chennai/cmrls-revenue-surges-by-15-to-over-rs-425-crore-this-financial-year",
+          "kind": "news",
+          "publisher": "DT Next",
+          "date": "2026-02-02",
+          "supports": "FY2024-25 revenue Rs 425.64 crore, FY2023-24 Rs 369.49 crore, non-fare box figures"
+        },
+        {
+          "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2061654",
+          "kind": "pib",
+          "publisher": "Press Information Bureau, Ministry of Housing and Urban Affairs",
+          "date": "2024-10-03",
+          "supports": "Phase-II length, stations, Rs 63,246 crore cost"
+        },
+        {
+          "url": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU3073_pCo7mR.pdf",
+          "kind": "government_order",
+          "publisher": "Lok Sabha / Ministry of Housing and Urban Affairs",
+          "date": null,
+          "supports": "54.62% progress, Rs 14,545.91 crore released since Oct 2024"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-tn-0010",
+      "category": "municipal",
+      "state": "Tamil Nadu",
+      "name": "Chennai Smart City Limited (CSCL)",
+      "summary": "Chennai Smart City Limited is the Smart City SPV for Chennai, described in company listing as a public limited state government company based in Chennai, incorporated 15 July 2016, with office at Ripon Building, Chennai. Its most recent verified development is the CAG audit on the Smart Cities Mission put before lawmakers on Sept 8, reported to find 8 planned projects worth Rs 279.03 crore dropped and 20 unplanned projects costing Rs 189.66 crore executed.",
+      "date": "2026-09-08",
+      "district": "Chennai",
+      "headquarters": "Chennai, Tamil Nadu",
+      "state_link": "Smart City SPV for Chennai with office at Ripon Building, Chennai; listing describes it as a public limited state government company.",
+      "owner": "State government (listing describes it as a public limited state government company; 50:50 GoTN-GCC split not verified in opened sources)",
+      "administrative": "Greater Chennai Corporation / Municipal Administration Department, Government of Tamil Nadu; Smart Cities Mission, Ministry of Housing and Urban Affairs",
+      "legal_form": "Government company (Smart City SPV, public limited)",
+      "established": "2016: incorporated 15 July 2016 under the Companies Act, 2013 as Chennai Smart City SPV",
+      "status": "Operating",
+      "detail": [
+        "Company listing states Chennai Smart City Limited (CIN U45500TN2016SGC111491) is a public limited state government company based in Chennai, incorporated 15 July 2016, with office at Ripon Building, Chennai 600003.",
+        "The CAG report on the Smart Cities Mission was put before lawmakers on Sept 8, with summaries saying the SPV proposed 48 projects valued at Rs 1,366.25 crore, 8 planned projects worth Rs 279.03 crore were dropped without valid justification, 20 unplanned projects costing Rs 189.66 crore were executed in their place, with systemic accounting and financial governance failures."
+      ],
+      "caveats": "Full official CAG Smart Cities report text, CSCL latest financials, paid-up capital compliance and employee count could not be confirmed from pages opened; incorporation details rely on MCA-derived listing, not MCA master data itself.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://chennaicorporation.gov.in/images/smart_city_eng_tam.pdf",
+          "kind": "government_order",
+          "publisher": "Greater Chennai Corporation",
+          "date": null,
+          "supports": "50:50 GoTN-GCC SPV, Smart City selection, Rs 500 crore each funding plan"
+        },
+        {
+          "url": "https://www.thecompanycheck.com/company/chennai-smart-city-limited/U45500TN2016SGC111491",
+          "kind": "news",
+          "publisher": "The Company Check (MCA-derived)",
+          "date": "2026-02-17",
+          "supports": "incorporation 15 July 2016, Chennai address, active status"
+        },
+        {
+          "url": "https://www.dtnext.in/news/chennai/fund-diversion-scrapped-tech-projects-in-smart-city-mission",
+          "kind": "news",
+          "publisher": "DT Next",
+          "date": null,
+          "supports": "CAG Smart City Mission findings on CSCL tabled September 8"
+        }
+      ],
+      "verification": "V2"
     }
   ]
 }

@@ -444,6 +444,212 @@
       "verification": "V2"
     },
     {
+      "id": "vc-br-0001",
+      "category": "sex-work",
+      "state": "Bihar",
+      "title": "Muzaffarpur hotel unsealed after closure under prostitution law",
+      "summary": "Police sealed a hotel in Muzaffarpur town after registering a case under the Immoral Traffic (Prevention) Act. The hotel operator's family member challenged the sealing before the Patna High Court. The High Court recorded that no girl or woman was found at the hotel and set aside the sealing order.",
+      "date": "2026-01-20",
+      "date_label": "High Court order",
+      "incident_date": "2025-06-13",
+      "district": "Muzaffarpur",
+      "outcome": "penalty_set_aside",
+      "authority": "Patna High Court; District Magistrate Muzaffarpur; Sub-Divisional Magistrate Muzaffarpur (East)",
+      "case_reference": "Criminal Writ Jurisdiction Case No.1674 of 2025; Muzaffarpur Town P.S. Case No.301/2025; Letter No.1943 dated 12.06.2025",
+      "laws": [
+        "Sections 3, 4, 5, 6 and 7 of the Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "acts": [
+        "Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "person": "a hotel operator's family member in Muzaffarpur",
+      "detail": [
+        "The High Court recorded that the hotel was sealed on 13.06.2025 under orders of the Sub-Divisional Magistrate, Muzaffarpur (East), following a town police case under the Immoral Traffic (Prevention) Act.",
+        "The State's position as recorded by the High Court was that no girl or female was found or apprehended from the hotel during the action.",
+        "The High Court held the sealing of the premises belonging to the petitioner's husband to be completely illegal and set aside the order dated 12.06.2025.",
+        "The High Court directed the State to unseal the premises within a week and allowed the writ petition."
+      ],
+      "current_position": "The sealing order stands set aside and the premises were ordered to be unsealed.",
+      "quote": {
+        "text": "The State respondents are directed to unseal the premises on receipt / production of copy of this order within a week.",
+        "where": "[name withheld] vs The State Of Bihar, Criminal Writ Jurisdiction Case No.1674 of 2025, operative order",
+        "url": "https://indiankanoon.org/doc/86509901/"
+      },
+      "caveats": "The underlying town police case status after remand could not be confirmed from the order excerpt.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The state sealed a business premises over alleged consensual adult sex work, but recorded no minor, no force, and no complaining victim."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/86509901/",
+          "kind": "judgment",
+          "publisher": "Patna High Court via Indian Kanoon",
+          "date": "2026-01-20",
+          "supports": "sealing, ITP Act sections, no woman found, set-aside and unseal directions"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-br-0002",
+      "category": "gambling",
+      "state": "Bihar",
+      "title": "Patna hotel card-game prosecution sent back over gambling and cheating charges",
+      "summary": "Police raided a Patna hotel room in 2015 and seized playing cards and Rs 14,200 from three men. A case was filed under the Bengal Public Gambling Act with an added cheating charge. The Patna High Court recorded that no cheated person was on record and set aside the orders refusing discharge, remitting the matter for fresh consideration.",
+      "date": "2026-09-09",
+      "date_label": "High Court order",
+      "incident_date": "2015-07-20",
+      "district": "Patna",
+      "outcome": "prosecution_pending",
+      "authority": "Patna High Court",
+      "case_reference": "Criminal Miscellaneous No.16056 of 2018; Kotwali P.S. Case No.372 of 2015; Criminal Revision Case No.428 of 2016",
+      "laws": [
+        "Section 420 of the Indian Penal Code",
+        "Sections 3 and 6 of the Bengal Public Gambling Act"
+      ],
+      "acts": [
+        "Bengal Public Gambling Act"
+      ],
+      "person": "three men found in a Patna hotel room",
+      "detail": [
+        "The High Court recorded that police found the three men in Room No. 154 of a Patna hotel and recovered six sets of playing cards with Rs 14,200.",
+        "The High Court recorded that the case was instituted for offences under Section 420 and Sections 3 and 6 of the Bengal Public Gambling Act.",
+        "The High Court recorded that there was neither any allegation that the men cheated any person nor any allegedly cheated person on record.",
+        "The High Court allowed the petition, quashed the Magistrate and revisional orders rejecting discharge, and remitted the matter for fresh consideration."
+      ],
+      "current_position": "The discharge refusal stands quashed and the case is remitted to the Magistrate for fresh consideration.",
+      "quote": {
+        "text": "There is neither any allegation that the petitioners cheated any person nor that they induced anyone to deliver any property.",
+        "where": "[name withheld] vs The State Of Bihar, Criminal Miscellaneous No.16056 of 2018",
+        "url": "https://indiankanoon.org/doc/101225150/"
+      },
+      "caveats": "The fresh discharge decision after remand could not be confirmed from the order excerpt.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The men wagered their own money with cards and cash seized, and the court found no cheated victim on record."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/101225150/",
+          "kind": "judgment",
+          "publisher": "Patna High Court via Indian Kanoon",
+          "date": "2026-09-09",
+          "supports": "raid, cards and cash seizure, sections charged, no-cheating finding, quash-and-remit order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-br-0003",
+      "category": "alcohol",
+      "state": "Bihar",
+      "title": "Dismissed constable reinstated after punishment for drunkenness",
+      "summary": "A Bihar constable was dismissed from service after being found in a drunken condition and booked under the Bihar prohibition law. The dismissal was imposed through a 2019 memo. The Patna High Court allowed the writ petition, set aside the dismissal, and limited back pay to 25 percent of salary.",
+      "date": "2026-09-10",
+      "date_label": "High Court order",
+      "incident_date": "2018-10-07",
+      "district": "Rohtas",
+      "outcome": "penalty_set_aside",
+      "authority": "Patna High Court",
+      "case_reference": "Civil Writ Jurisdiction Case No.2167 of 2020; Dehri Town P.S. Case No.882 of 2018; Dehri P.S. Case No.207 of 2019; Memo No.116/GO dated 02.05.2019",
+      "laws": [
+        "Section 37(c) of the Bihar Prohibition and Excise (Amendment) Act, 2016"
+      ],
+      "acts": [
+        "Bihar Prohibition and Excise Act, 2016"
+      ],
+      "person": "a police constable posted in Bihar",
+      "penalty": "dismissal from service, later set aside; 25% of salary for period out of service",
+      "detail": [
+        "The High Court recorded that the constable absented from duty and was later apprehended in a drunken condition, leading to prohibition cases in Dehri Town and Dehri.",
+        "The High Court recorded that Memo No.116/GO dated 02.05.2019 inflicted the punishment of dismissal from service.",
+        "The High Court stated it had no hesitation to set aside the impugned order and allowed the writ petition.",
+        "The High Court directed that the person shall be entitled to get only 25% of salary for the period out of service till reinstatement."
+      ],
+      "current_position": "The dismissal stands set aside with reinstatement and 25 percent back salary.",
+      "quote": {
+        "text": "he was later on apprehended in drunken condition near Sub-Divisional Office, Dehri Town,",
+        "where": "[name withheld] vs The State Of Bihar, Civil Writ Jurisdiction Case No.2167 of 2020",
+        "url": "https://indiankanoon.org/doc/122573440/"
+      },
+      "caveats": "Whether the underlying criminal prohibition cases resulted in conviction could not be confirmed from the writ order excerpt.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Drinking liquor harmed no third person, yet the state imposed dismissal and criminal cases for intoxication."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/122573440/",
+          "kind": "judgment",
+          "publisher": "Patna High Court via Indian Kanoon",
+          "date": "2026-09-10",
+          "supports": "drunken-condition apprehension, prohibition cases, dismissal memo, set-aside and 25 percent salary"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-br-0004",
+      "category": "beef",
+      "state": "Bihar",
+      "title": "Anticipatory bail refused in Purnea beef-truck case",
+      "summary": "Police seized a truck carrying cow and calf beef and booked a man for illegal beef trade under the Bihar animal-preservation law and penal provisions. The man sought anticipatory bail before the Patna High Court. The High Court refused anticipatory bail but allowed surrender and same-day regular bail consideration.",
+      "date": "2025-01-17",
+      "date_label": "High Court order",
+      "district": "Purnia",
+      "outcome": "bail_refused",
+      "authority": "Patna High Court",
+      "case_reference": "Criminal Miscellaneous No.77998 of 2024; Sadar P.S. Case No.974 of 2022, Purnea Sadar, District Purnia",
+      "laws": [
+        "Sections 269, 278, 295(A) and 429 of the Indian Penal Code",
+        "Sections 4 and 4(B) of the Bihar Preservation and Improvement of Animal Act, 1955"
+      ],
+      "acts": [
+        "Bihar Preservation and Improvement of Animals Act, 1955"
+      ],
+      "person": "a man accused of trading in seized beef in Purnea",
+      "detail": [
+        "The High Court recorded that police seized a truck carrying illegal beef of cows and calves and alleged the man was in the business of illegal beef.",
+        "The High Court recorded that the case was registered under IPC Sections 269, 278, 295(A) and 429 and Sections 4 and 4(B) of the Bihar preservation law.",
+        "The High Court noted no Prevention of Cruelty to Animals Act charge and no cattle-theft or violence allegation in the excerpt.",
+        "The High Court rejected anticipatory bail but directed that a regular bail plea on surrender be decided the same day."
+      ],
+      "current_position": "Anticipatory bail stands rejected; the accused may surrender and seek regular bail.",
+      "quote": {
+        "text": "Allegedly, the police seized a truck carrying illegal beef of cows and calves.",
+        "where": "[name withheld] vs The State Of Bihar, Criminal Miscellaneous No.77998 of 2024",
+        "url": "https://indiankanoon.org/doc/172310390/"
+      },
+      "caveats": "The order also records an allegation that the seized beef was unfit and could cause disease; hygiene was not separately prosecuted as adulteration. The seizure date within 2022 case could not be confirmed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Possessing and trading beef for food involves no complaining victim, with no cruelty, theft, or violence charged in the order."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/172310390/",
+          "kind": "court_order",
+          "publisher": "Patna High Court via Indian Kanoon",
+          "date": "2025-01-17",
+          "supports": "seizure, beef-trade allegation, sections charged, absence of PCA charge, bail refusal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "vc-br-0007",
       "category": "other",
       "state": "Bihar",
@@ -501,6 +707,112 @@
           "publisher": "Indian Kanoon search index",
           "date": null,
           "supports": "recency check: this 2024 Bihar obscenity cognizance case was the most recent qualifying Bihar hit"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-gj-0001",
+      "category": "sex-work",
+      "state": "Gujarat",
+      "title": "Preventive detention as immoral-traffic offender set aside in Vadodara",
+      "summary": "The Police Commissioner of Vadodara had preventively detained a person as an immoral-traffic offender based on two Immoral Traffic Act cases. The High Court recorded the cases under Sections 3, 4 and 5 of the Immoral Traffic law. On 2 March 2026 it quashed the detention order and directed release if the detenu was not required in any other case.",
+      "date": "2026-03-02",
+      "date_label": "High Court order",
+      "district": "Vadodara",
+      "outcome": "detention_set_aside",
+      "authority": "High Court of Gujarat at Ahmedabad (Division Bench: Justice N.S. Sanjay Gowda and Justice D. M. Vyas)",
+      "case_reference": "R/SPECIAL CRIMINAL APPLICATION NO. 1966 of 2026; detention order dated 01/02/2026",
+      "laws": [
+        "Sections 3, 4 and 5 of the Immoral Traffick (Prohibition) Act",
+        "54, 114 and 188 of the IPC",
+        "Section 2(g) of the Gujarat Prevention of Anti-social Activities Act, 1985"
+      ],
+      "acts": [
+        "Immoral Traffic (Prevention) Act, 1956",
+        "Indian Penal Code, 1860",
+        "Gujarat Prevention of Anti-social Activities Act, 1985"
+      ],
+      "person": "a detenu held in Rajkot Central Jail, preventively detained by the Police Commissioner of Vadodara",
+      "detail": [
+        "The High Court recorded that the detenu had been preventively detained under the detention order dated 01/02/2026 by the Police Commissioner, Vadodara, as an immoral-traffic offender under Section 2(g) of the 1985 Act.",
+        "The grounds referenced two criminal cases for offences under Sections 3, 4 and 5 of the Immoral Traffic law and Sections 54, 114 and 188 of the IPC, registered between 19/10/2023 and 17/12/2025.",
+        "The High Court noted that the detenu had received regular bail in those alleged offences.",
+        "The High Court found the record did not show an adverse effect on public order, quashed the detention order dated 01/02/2026, and directed release if the detenu was not required in any other case."
+      ],
+      "current_position": "The preventive detention order stands quashed and the detenu was ordered to be set at liberty if not required elsewhere.",
+      "quote": {
+        "text": "The order impugned dated 01/02/2026 passed by the respondent authority is hereby quashed.",
+        "where": "R/Special Criminal Application No. 1966 of 2026, order dated 02/03/2026",
+        "url": "https://indiankanoon.org/doc/174129507/"
+      },
+      "caveats": "FIR numbers and police-station names were not legible in the excerpt; incident date left null because detention rested on two older cases.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The detention grounds relied on two cases under Sections 3, 4 and 5 of the Immoral Traffic law when classifying the detenu as an immoral-traffic offender."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/174129507/",
+          "kind": "court_order",
+          "publisher": "High Court of Gujarat",
+          "date": "2026-03-02",
+          "supports": "detention order date, sections, Vadodara, quashing order and date"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-gj-0002",
+      "category": "gambling",
+      "state": "Gujarat",
+      "title": "Preventive detention as gaming-house keeper set aside in Rajkot area",
+      "summary": "The District Magistrate had preventively detained a person as a common gaming-house keeper based on Gambling Act cases at Jetpur Udhyognagar Police Station. The High Court recorded the cases under Sections 4 and 5 of the Gambling Act. On 14 September 2026 it quashed the detention order.",
+      "date": "2026-09-14",
+      "date_label": "High Court order",
+      "district": "Rajkot",
+      "outcome": "detention_set_aside",
+      "authority": "High Court of Gujarat at Ahmedabad (Division Bench: Justice Gita Gopi and Justice L. S. Pirzada)",
+      "case_reference": "R/SPECIAL CRIMINAL APPLICATION NO. 12422 of 2026; detention order dated 14.08.2026",
+      "laws": [
+        "Sections 4 and 5 of the Gambling Act",
+        "Section 2(bb) of the Gujarat Prevention of Anti-social (Gambling) Activities Act, 1985 (common gaming-house keeper)"
+      ],
+      "acts": [
+        "Bombay Prevention of Gambling Act, 1887",
+        "Gujarat Prevention of Anti-social (Gambling) Activities Act, 1985"
+      ],
+      "person": "a detenu in gambling cases from Jetpur Udhyognagar area",
+      "detail": [
+        "The High Court recorded that the person was preventively detained under the detention order dated 14.08.2026 as a common gaming-house keeper under Section 2(bb).",
+        "The High Court recorded that the grounds cited Sections 4 and 5 of the Gambling Act cases registered with Jetpur Udhyognagar Police Station, and that bail had been granted in the cited offences.",
+        "The High Court recorded that bail had been granted in the cited cases and found the alleged activities had no bearing on public order.",
+        "The High Court held that the alleged activities did not affect public order, quashed the order dated 14.08.2026, and directed release if the applicant was not required in any other case."
+      ],
+      "current_position": "The preventive detention order stands quashed and the detenue was ordered to be set at liberty if not required elsewhere.",
+      "quote": {
+        "text": "The order impugned dated 14.08.2026 passed by the respondent authority is hereby quashed.",
+        "where": "R/Special Criminal Application No. 12422 of 2026, order dated 14/09/2026",
+        "url": "https://indiankanoon.org/doc/186344846/"
+      },
+      "caveats": "FIR numbers and underlying wager amounts were not legible in the excerpt; Jetpur Udhyognagar is in Rajkot district per police jurisdiction.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The detention order relied on Gambling Act cases to classify the detenu as a common gaming-house keeper; the High Court held the alleged offences had no bearing on public order."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/186344846/",
+          "kind": "court_order",
+          "publisher": "High Court of Gujarat",
+          "date": "2026-09-14",
+          "supports": "detention date, gaming-house-keeper definition, Gambling Act sections and police station, quashing order and date"
         }
       ],
       "verification": "V2"
@@ -1019,6 +1331,118 @@
           "publisher": "Bombay High Court via Indian Kanoon",
           "date": "2025-08-05",
           "supports": "similar earlier customer-only finding that mere presence without money-showering or touching does not attract the same Act"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-mp-0001",
+      "category": "sex-work",
+      "state": "Madhya Pradesh",
+      "title": "Hotel-linked man in Gwalior granted pre-arrest bail in 2025 sex-work raid case",
+      "summary": "Police registered an ITP Act case after a tip led to a raid at a Gwalior hotel where a prostitution racket was alleged. The order contains no reference to minors, force or cheating against the applicant. It granted him anticipatory bail on a Rs 50,000 bond with conditions while the investigation and trial continue.",
+      "date": "2025-06-05",
+      "date_label": "High Court anticipatory-bail order",
+      "district": "Gwalior",
+      "outcome": "prosecution_pending",
+      "authority": "High Court of Madhya Pradesh at Gwalior (Hon'ble Shri Justice Vivek Jain)",
+      "case_reference": "MISC. CRIMINAL CASE No. 24129 of 2025; Crime No. 126/2025",
+      "laws": [
+        "Sections 3, 4, 5, 6 and 7 of Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "acts": [
+        "Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "person": "a hotel-linked man in Gwalior",
+      "detail": [
+        "The High Court recorded that police acted on a tip and stated that \"police raided the hotel at Gwalior, wherein tip off was received\".",
+        "The High Court recorded that constables posed as customers, stating that \"Some Constables posed as customers and then, it was confirmed\".",
+        "The High Court recorded that the applicant was linked through disclosures, stating that the \"present applicant is roped in on the basis of the memorandum\", and the defence said that \"there is no material against the present applicant nor any money trail\".",
+        "The High Court stated that \"this Court is inclined to grant the benefit of anticipatory bail\" and directed release on \"Rs. 50,000/- (Rupees Fifty Thousand)\" with cooperation and reporting conditions.",
+        "The opened order contains no reference to minors, force, threats, deception or ages."
+      ],
+      "current_position": "The applicant was granted anticipatory bail and the prosecution continues subject to trial-court conditions.",
+      "quote": {
+        "text": "Accordingly, this application is allowed",
+        "where": "Madhya Pradesh High Court, MCRC No. 24129 of 2025, order dated 5 June 2025",
+        "url": "https://indiankanoon.org/doc/133276369/"
+      },
+      "caveats": "Exact raid date not stated in the order excerpts; inferred as April 2025 from the companion custody date of 13.04.2025, so incident_date is left null.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The order concerns an allegation of facilitating prostitution under the Immoral Traffic (Prevention) Act and contains no reference to minors, force or fraud."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/133276369/",
+          "kind": "court_order",
+          "publisher": "Indian Kanoon (hosting Madhya Pradesh High Court order)",
+          "date": "2025-06-05",
+          "supports": "raid facts, ITP Act sections, crime number, bail outcome and bond"
+        },
+        {
+          "url": "https://indiankanoon.org/doc/60509902/",
+          "kind": "court_order",
+          "publisher": "Indian Kanoon (hosting Madhya Pradesh High Court order)",
+          "date": "2025-05-05",
+          "supports": "same Crime No. 126/2025 at Police Station University, Gwalior; receptionist's bail; adults found at hotel"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-mp-0003",
+      "category": "alcohol",
+      "state": "Madhya Pradesh",
+      "title": "Indore company director prosecuted over 93 bulk litres of foreign liquor in car",
+      "summary": "The order records that a car was intercepted in Indore and that 93.390 bulk litres of foreign liquor in 283 bottles were seized. The prosecution linked the car to a company whose director was charged under the M.P. Excise Act. The High Court dismissed her petition to quash the case, so the prosecution continues.",
+      "date": "2026-09-02",
+      "date_label": "High Court order dismissing quash petition (heard 19.08.2026, delivered 02.09.2026)",
+      "incident_date": "2023-09-22",
+      "district": "Indore",
+      "outcome": "prosecution_pending",
+      "authority": "High Court of Madhya Pradesh at Indore (Hon'ble Shri Justice Gajendra Singh)",
+      "case_reference": "Crime No.631/2023, Police Station MIG Colony, District Indore",
+      "laws": [
+        "Section 34(2) of M.P. Excise Act, 1915",
+        "Section 61 of M.P. Excise Act",
+        "Section 39 of M.P. Excise Act"
+      ],
+      "acts": [
+        "M.P. Excise Act, 1915"
+      ],
+      "person": "a company director in Indore",
+      "detail": [
+        "The High Court recorded that \"A Skoda Car bearing Registration No.MP-09-WF-9721 was intercepted at 9:30PM on 22.09.2023\" near a business-park crossing in Indore.",
+        "The High Court recorded that the \"search of the car resulted into seizure of 93.390 bulk liters of foreign liquor\" packed as \"containing in 283 bottles each with 330ML capacity.\"",
+        "The High Court recorded that the driver disclosed the car belonged to a company and the prosecution alleged stock moved from the director's house toward a seed centre on her direction.",
+        "The order records no allegation of spurious or poisonous liquor, hooch deaths or violence; the only authenticity point was that \"the seized liquor does not bear the Batch Number so the seized liquor cannot be authenticated.\"",
+        "The High Court ruled that \"Consequently, the petition under Section 528 of BNSS, 2023 is dismissed.\""
+      ],
+      "current_position": "The quash petition stands dismissed and the Excise Act prosecution continues.",
+      "quote": {
+        "text": "search of the car resulted into seizure of 93.390 bulk liters of foreign liquor",
+        "where": "Madhya Pradesh High Court, MCRC No. 13874 of 2026, order delivered 2 September 2026, Crime No. 631/2023",
+        "url": "https://indiankanoon.org/doc/36603621/"
+      },
+      "caveats": "Excise argued the bottles lacked batch numbers and could not be authenticated; no spurious-liquor or poisoning charge was recorded, but the authentication point is noted.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The state prosecuted a person for possessing and moving liquor without a permit, an act with no complaining victim and no alleged poisoning or violence."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/36603621/",
+          "kind": "court_order",
+          "publisher": "Indian Kanoon (hosting Madhya Pradesh High Court order)",
+          "date": "2026-09-02",
+          "supports": "interception, quantity, Excise Act sections, dismissal of quash petition"
         }
       ],
       "verification": "V2"
@@ -1586,6 +2010,168 @@
           "publisher": "Rajasthan High Court (order copy via LiveLaw)",
           "date": "2025-05-06",
           "supports": "recorded raids finding online sale at six places and blocking of sites; DGP affidavit direction"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-tn-0001",
+      "category": "sex-work",
+      "state": "Tamil Nadu",
+      "title": "Customer prosecuted after raid on Chennai massage centre has FIR quashed",
+      "summary": "Police raided a massage centre in Chennai and prosecuted a customer present there under the Immoral Traffic (Prevention) Act. The High Court recorded that there was no allegation of coercion by him. The court quashed the FIR against him.",
+      "date": "2022-06-08",
+      "date_label": "High Court order quashing FIR",
+      "district": "Chennai",
+      "outcome": "quashed",
+      "authority": "Madras High Court; Inspector of Police, Anti-Vice Squad-II, Chennai",
+      "case_reference": "AVS-II P.S. Crime No.9 of 2021; Crl.O.P. No.10334 of 2022",
+      "laws": [
+        "Sections 3(2)(a), 4(1), 5(1)(a) and 5(1)(d) of the Immoral Traffic (Prevention) Act, 1956",
+        "Section 370A(2) of the Indian Penal Code, 1860"
+      ],
+      "acts": [
+        "Immoral Traffic (Prevention) Act, 1956",
+        "Indian Penal Code, 1860"
+      ],
+      "person": "a customer present during a police raid on a massage centre in Chennai",
+      "detail": [
+        "The listed matter was identified in a search listing as Crl. O.P. No.10334 of 2022 decided 8 June 2022 by the Madras High Court with Chennai Anti-Vice Squad-II context; the full raid, sections, no-coercion and quashing findings could not be text-verified in this check and need manual PDF review before publication."
+      ],
+      "current_position": "Quashing as claimed in record needs manual PDF verification; post-2024 Tamil Nadu search claim unverified.",
+      "quote": {
+        "text": "NOT VERIFIED IN THIS CHECK - requires manual PDF verification",
+        "where": "Crl.O.P. No.10334 of 2022, para 9",
+        "url": "https://www.livelaw.in/pdf_upload/udhaya-kumar-v-state-422527.pdf"
+      },
+      "caveats": "Judgment PDF returned binary only and news page was blocked in this check; substantive findings and verbatim quote need manual verification against the PDF before publication.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The act was being present for paid sex between adults with no allegation of force, minors or a complaining victim, yet the state arrested and prosecuted him."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.livelaw.in/pdf_upload/udhaya-kumar-v-state-422527.pdf",
+          "kind": "judgment",
+          "publisher": "Madras High Court via LiveLaw",
+          "date": "2022-06-08",
+          "supports": "raid, arrest as A-5, sections charged, no-coercion finding, quashing"
+        },
+        {
+          "url": "https://www.newindianexpress.com/thesundaystandard/2022/Jun/19/dont-arrest-or-penalise-sex-workers-during-raids-madras-high-court-2467166.html",
+          "kind": "news",
+          "publisher": "The New Indian Express",
+          "date": "2022-06-19",
+          "supports": "summary of raid, arrest of customer, quashing and no-coercion reasoning"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-tn-0002",
+      "category": "gambling",
+      "state": "Tamil Nadu",
+      "title": "Recreation club raided, cash seized and premises sealed for card play with stakes",
+      "summary": "Police raided a registered recreation club in Chennai, seized cards, tokens and cash, and sealed the premises for gaming offences. The High Court ordered de-sealing as the Gaming Act gives no sealing power. The criminal case for gaming was left to proceed under the law.",
+      "date": "2026-06-02",
+      "date_label": "High Court order",
+      "incident_date": "2025-09-17",
+      "district": "Chennai",
+      "outcome": "seizure",
+      "authority": "Madras High Court; Inspector of Police (Law and Order), T3 Korattur; Tahsildar and Revenue Divisional Officer, Ambattur",
+      "case_reference": "Crime No.818 of 2025; WP Crl. No.1229 of 2025",
+      "laws": [
+        "Sections 7 to 9 of the Tamil Nadu Gaming Act, 1930"
+      ],
+      "acts": [
+        "Tamil Nadu Gaming Act, 1930",
+        "Tamil Nadu Societies Registration Act, 1975"
+      ],
+      "person": "operator of a registered recreation club in Chennai",
+      "detail": [
+        "The High Court recorded that respondents 5, 7 and 8 entered the petitioner's premises and confiscated Rs.72,500/- and sealed the premises under Sections 7 to 9 of the Tamil Nadu Gaming Act, 1930.",
+        "The High Court recorded that on receipt of credible information, a raid was conducted on 17.09.2025 in the petitioner's club and the agency secured playing cards, gambling tokens, cash, members attendance register and cigarette packets.",
+        "The High Court recorded that the club was registered under the Tamil Nadu Societies Registration Act with indoor games including cards, but contrary to its objectives it was conducting games with play cards involving cash.",
+        "The High Court held the revenue authorities had no jurisdiction to seal the premises, directed de-sealing on an undertaking not to indulge in illegal activities, and left police free to act in accordance with law."
+      ],
+      "current_position": "Premises ordered to be de-sealed; investigation in Crime No.818 of 2025 was pending and police were left free to proceed under law.",
+      "quote": {
+        "text": "on receipt of credible information, a raid was conducted on 17.09.2025 in the petitioner's club and the investigating agency have secured playing cards, gambling tokens, cash, members attendance register and cigarette packets.",
+        "where": "WP Crl. No.1229 of 2025, para 3",
+        "url": "https://indiankanoon.org/doc/129233406/"
+      },
+      "caveats": "Judgment does not list individual players or stakes per person; no cheating or fraud victim is mentioned.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The action was for members wagering their own money on cards with no allegation of cheating, fixing or any defrauded victim."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/129233406/",
+          "kind": "judgment",
+          "publisher": "Madras High Court via Indian Kanoon",
+          "date": "2026-06-02",
+          "supports": "raid date, seizure of Rs 72,500, sealing, FIR Crime No.818 of 2025 under Sections 7-9, de-sealing order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-tn-0003",
+      "category": "alcohol",
+      "state": "Tamil Nadu",
+      "title": "Man detained as bootlegger over prohibition case has detention set aside",
+      "summary": "Police arrested a man in Karur district in a Tamil Nadu Prohibition Act case and the Collector detained him as a bootlegger. The High Court found delay in sending the detention order for government approval. The court set aside the detention order.",
+      "date": "2026-01-12",
+      "date_label": "High Court order",
+      "incident_date": "2025-05-05",
+      "district": "Karur",
+      "outcome": "detention_set_aside",
+      "authority": "Madras High Court (Madurai Bench); District Magistrate and District Collector, Karur",
+      "case_reference": "Cr.M.P.No.24/2025 dated 02.06.2025; Cr.No.72 of 2025; H.C.P.(MD)No.860 of 2025",
+      "laws": [
+        "Sections 4(1)(C), 4(1)(A) and 4(1)(aaa) of the Tamil Nadu Prohibition Act, 1937 (Tamil Nadu Prohibition (Amendment) Act, 2024)",
+        "Section 2(b) of Tamil Nadu Act 14 of 1982",
+        "Section 3(3) of Tamil Nadu Act 14 of 1982"
+      ],
+      "acts": [
+        "Tamil Nadu Prohibition Act, 1937",
+        "Tamil Nadu Prevention of Dangerous Activities of Bootleggers, Drug-offenders, Forest-offenders, Goondas, Immoral Traffic Offenders, Sand-offenders, Sexual-offenders, Slum-grabbers and Video Pirates Act, 1982"
+      ],
+      "person": "a man detained in Karur district",
+      "detail": [
+        "The High Court recorded that the detenu had been detained by order in Cr.M.P.No.24/2025 dated 02.06.2025 holding him to be a Bootlegger as contemplated under Section 2(b) of Tamil Nadu Act 14 of 1982.",
+        "The High Court recorded that the detenu was arrested and remanded on 05.05.2025 after registration of Cr.No.72 of 2025 for offences under Sections 4(1)(C), 4(1)(A) and 4(1)(aaa) of the prohibition law.",
+        "The High Court recorded that the detention order passed on 02.06.2025 was sent to the Government only on 07.06.2025, in breach of the requirement to report forthwith under Section 3(3).",
+        "The High Court allowed the habeas corpus petition and set aside the detention order, directing release unless required in any other case."
+      ],
+      "current_position": "Preventive detention order dated 02.06.2025 stands set aside; the underlying prohibition case is the ground case.",
+      "quote": {
+        "text": "The detenu has been detained by the second respondent by his order in Cr.M.P.No.24/2025, dated 02.06.2025 holding him to be a \"Bootlegger\", as contemplated under Section 2(b) of Tamil Nadu Act 14 of 1982.",
+        "where": "H.C.P.(MD)No.860 of 2025, para 1",
+        "url": "https://indiankanoon.org/doc/60653219/"
+      },
+      "caveats": "Order does not state quantity or type of liquor seized; no spurious-liquor or violence allegation appears in the order.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The detention was for alleged liquor-law violations with no allegation of spurious liquor, hooch deaths, poisoning or violence in the order."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/60653219/",
+          "kind": "judgment",
+          "publisher": "Madras High Court via Indian Kanoon",
+          "date": "2026-01-12",
+          "supports": "bootlegger detention, FIR number and prohibition sections, arrest date, delay finding and quashing"
         }
       ],
       "verification": "V2"

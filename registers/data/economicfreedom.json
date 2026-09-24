@@ -2355,6 +2355,118 @@
         }
       ],
       "verification": "V2"
+    },
+    {
+      "id": "ef-up-0005",
+      "category": "capital",
+      "state": "Uttar Pradesh",
+      "title": "Noida software exporter faces FEMA adjudication over old export advances",
+      "summary": "The Enforcement Directorate's Lucknow office issued a 2020 show-cause notice to a Noida-based software exporter over unutilised export advances of about Rs 1.97 crore from 2003-05. The Allahabad High Court recorded that the complaint disclosed a prima facie FEMA contravention and dismissed the company's writ challenge. Adjudication for penalty under the Foreign Exchange Management Act was allowed to proceed.",
+      "date": "2021-02-05",
+      "date_label": "High Court judgment dismissing writ against FEMA show-cause notice",
+      "district": "Gautam Buddha Nagar",
+      "outcome": "prosecution_pending",
+      "authority": "Allahabad High Court (Division Bench); Directorate of Enforcement, Lucknow Zonal Office",
+      "case_reference": "Writ-C No. 494 of 2021; SCN No. T-4/18/FEMA/LKZO/2020/AD(RV)/2717 dated 30.09.2020; Complaint under Section 16(3) FEMA",
+      "laws": [
+        "Section 7(3) of the Foreign Exchange Management Act, 1999",
+        "Section 13 of the Foreign Exchange Management Act, 1999",
+        "Section 16(3) of the Foreign Exchange Management Act, 1999",
+        "Regulations 10 and 16 of the Foreign Exchange Management (Export of Goods and Services) Regulations, 2000",
+        "Rule 4 of the Foreign Exchange Management (Adjudication Proceedings and Appeal) Rules, 2000"
+      ],
+      "acts": [
+        "Foreign Exchange Management Act, 1999"
+      ],
+      "person": "a private software-services exporting company in Noida",
+      "detail": [
+        "The High Court recorded that the company was a [name withheld] company with its registered office at Noida engaged in software development and export of computer and business support services.",
+        "The High Court recorded that the Enforcement Directorate alleged that 16 export advances totalling Rs 1,96,98,815.67 received through the authorised dealer during 2003-04 and 2004-05 remained unutilised beyond the stipulated period without documents to substantiate actual export of goods/services/software.",
+        "The High Court recorded that a complaint under Section 16(3) of FEMA was filed on 30.09.2020 alleging contravention of Section 7(3) of FEMA read with Regulations 10 and 16, and a show-cause notice asked why adjudication and penalty under Section 13 should not follow.",
+        "The High Court held that the complaint disclosed the necessary ingredients warranting adjudicatory proceedings and that delay/limitation was a question of fact for adjudication, and dismissed the writ petition without prejudice to defences in adjudication."
+      ],
+      "current_position": "The writ was dismissed on 05.02.2021 and the FEMA adjudication on the export-advance complaint was left to proceed.",
+      "quote": {
+        "text": "the complaint discloses all the necessary ingredients with regard to contravention of the provisions of FEMA warranting adjudicatory proceedings.",
+        "where": "Writ-C No. 494 of 2021, Allahabad High Court, para 19",
+        "url": "https://indiankanoon.org/doc/193906314/"
+      },
+      "caveats": "No more recent clean FEMA/hawala-only case in Uttar Pradesh was found; 2024-2026 hawala mentions (cyber-fraud, forged-identity/infiltration funding) and 2024 DRI cash-plus-gold cases were rejected as proceeds of or linked to other alleged crimes. Incident date is left null because non-utilisation was a continuing paperwork default from 2003-05, flagged via bank reports in 2017-2020.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The case punishes paperwork around cross-border receipts for lawful software exports, with no victim, violence, fraud, or coercion alleged; holding foreign advances and settling them late is a peaceful movement of capital."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/193906314/",
+          "kind": "judgment",
+          "publisher": "Allahabad High Court via Indian Kanoon",
+          "date": "2021-02-05",
+          "supports": "company location and business, advance amounts and years, authorised dealer report, SCN/complaint dates and legal provisions, dismissal of writ"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-up-0006",
+      "category": "business",
+      "state": "Uttar Pradesh",
+      "title": "Farmers acquitted after 40-year licence case over rice truck",
+      "summary": "Marketing inspectors seized a truck with 106 bags of rice near Badausa in 1985 for want of a dealer licence, mandi papers and levy payment. A Banda court convicted the carriers under the Essential Commodities Act and jailed them for three and a half years. The Allahabad High Court held in 2025 that farmers selling their own produce are not dealers and acquitted the survivors.",
+      "date": "2025-09-04",
+      "date_label": "High Court acquittal judgment",
+      "incident_date": "1985-04-08",
+      "district": "Banda",
+      "outcome": "acquitted",
+      "authority": "Allahabad High Court; Special Judge (E.C. Act), Banda (trial court); Senior Marketing Inspector, Atarra",
+      "case_reference": "Criminal Appeal No. 98 of 1986; Special Case No. 6 of 1985; Truck No. UGH 69",
+      "laws": [
+        "Section 7(1)(a)(ii) of the Essential Commodities Act, 1955",
+        "Section 3 of the Essential Commodities Act, 1955",
+        "Order 3 of the U.P. Foodgrains Dealers (Licensing and Restrictions on Hoarding) Order, 1976",
+        "Clause 2(c) and Clause 3 of the U.P. Foodgrains Dealers (Licensing and Restrictions on Hoarding) Order, 1976",
+        "Sections 9 and 17 of the U.P. Krishi Utpadan Mandi Adhiniyam, 1964"
+      ],
+      "acts": [
+        "Essential Commodities Act, 1955",
+        "U.P. Foodgrains Dealers (Licensing and Restrictions on Hoarding) Order, 1976",
+        "Uttar Pradesh Krishi Utpadan Mandi Adhiniyam, 1964"
+      ],
+      "person": "farmers/traders and a truck driver in Banda district",
+      "penalty": "Three and a half years imprisonment imposed 06.01.1986, set aside on 04.09.2025",
+      "detail": [
+        "The High Court recorded that on 8.4.1985 inspectors checked a truck at around 1 a.m. coming from Atarra side and found 106 bags of rice, and that the occupants had no release order, builty, cash memo, mandi gate pass, release certificate, levy payment or dealer licence.",
+        "The High Court recorded that the truck, driver and occupants were taken to the police station at Badausa, the rice was weighed and handed to a local firm on supurdnama, samples were kept, an FIR was lodged and a charge sheet was filed after District Magistrate sanction.",
+        "The High Court recorded that the defence led khatauni and khasra to show the rice was paddy grown on their own fields being carried to the nearby market at Karwi for sale, and that the inspector admitted a farmer bringing produce to the nearest market needs no licence.",
+        "The High Court held that farmers storing and selling foodgrains produced by personal cultivation without engaging in purchase/sale business are expressly excluded from the definition of dealer and need no licence, and that levy/market fee liability falls on purchasers, not producers."
+      ],
+      "current_position": "Conviction and sentence dated 06.01.1986 set aside on 04.09.2025; surviving appellants acquitted and ordered released, with seized rice or its current market price to be returned/paid.",
+      "quote": {
+        "text": "Thus, when a farmer is going to sell his agricultural produce in the market, he is not required to carry any document with regard to his agricultural produce and the same is neither possible for him to obtain nor is required under law.",
+        "where": "Criminal Appeal No. 98 of 1986, Allahabad High Court, para 29",
+        "url": "https://indiankanoon.org/doc/10078595/"
+      },
+      "caveats": "Incident is old (1985) but the latest official act is the 2025 acquittal, which is the most recent qualifying business-licence judgment found for Uttar Pradesh; the 1977 Rice/Paddy Levy Order cited in sanction was held not in force on the incident date.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Carrying one's own harvested rice to a nearby mandi harmed no one; the state seized the truck and grain, jailed and prosecuted the carriers solely for missing licences and market paperwork."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/10078595/",
+          "kind": "judgment",
+          "publisher": "Allahabad High Court via Indian Kanoon",
+          "date": "2025-09-04",
+          "supports": "seizure facts, licence/mandi/levy allegations, trial conviction and sentence, farmer-produce defence, acquittal and release directions"
+        }
+      ],
+      "verification": "V2"
     }
   ]
 }
