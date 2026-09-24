@@ -188,7 +188,7 @@ def card_html(reg, data, r):
                  % (esc(cat_label(data, r["category"])), esc(r.get("legal_form", "")),
                     len(r["sources"]), "" if len(r["sources"]) == 1 else "s"))
     return """
-      <article class="tracker-card" id="%s" data-id="%s" data-cat="%s">
+      <article class="tracker-card" id="%s" data-id="%s" data-cat="%s" data-state="%s">
         <div class="tracker-card-topline">
           <div class="tracker-card-kicker"><span>%s</span><span>%s</span><span>%s</span></div>
           <div class="tracker-card-badges">%s<span class="record-badge level">%s</span></div>
@@ -198,7 +198,7 @@ def card_html(reg, data, r):
         <div class="tracker-card-facts">%s</div>
         <a class="tracker-card-open" href="%s" aria-label="View full record %s">View full record <span aria-hidden="true">&rarr;</span></a>
       </article>""" % (
-        esc(r["id"]), esc(r["id"]), esc(r["category"]), kicker[0], kicker[1], kicker[2],
+        esc(r["id"]), esc(r["id"]), esc(r["category"]), esc(r["state"]), kicker[0], kicker[1], kicker[2],
         badge, esc(r["verification"]), esc(url), esc(title), esc(r["summary"]),
         facts, esc(url), esc(r["id"]))
 
@@ -208,25 +208,42 @@ def records_html(reg, data):
     if not recs:
         return '<div class="emptybox"><p>No records published yet.</p></div>'
     word = data["record_word"]
-    head = ('<div class="tracker-results-head" aria-live="polite"><strong>%d %s</strong>'
+    states = sorted({r["state"] for r in recs})
+    cats = [c for c in data["categories"] if any(r["category"] == c["key"] for r in recs)]
+    opts = lambda items: "".join('<option value="%s">%s</option>' % (esc(v), esc(l)) for v, l in items)
+    filters = ('<style>.filters select{padding:9px 11px;border:1px solid var(--line);background:#fff;font:inherit;'
+               'font-size:14px;border-radius:2px;max-width:100%%}</style>'
+               '<div class="filters" role="search"><span class="flabel">Filter</span>'
+               '<select id="f-state" aria-label="State"><option value="">All states (%d)</option>%s</select>'
+               '<select id="f-cat" aria-label="Category"><option value="">All categories</option>%s</select></div>'
+               % (len(states), opts((st, st) for st in states), opts((c["key"], c["label"]) for c in cats)))
+    head = ('<div class="tracker-results-head" aria-live="polite"><strong id="f-count">%d %s</strong>'
             '<span>newest first</span></div>' % (len(recs), word if len(recs) != 1 else word.rstrip("s")))
-    return head + '\n    <div class="tracker-records">%s\n    </div>' % "".join(
-        card_html(reg, data, r) for r in recs)
+    script = ("<script>(function(){var s=document.getElementById('f-state'),c=document.getElementById('f-cat'),"
+              "n=document.getElementById('f-count'),cards=[].slice.call(document.querySelectorAll('.tracker-records .tracker-card'));"
+              "function go(){var k=0;cards.forEach(function(e){var ok=(!s.value||e.dataset.state===s.value)&&(!c.value||e.dataset.cat===c.value);"
+              "e.hidden=!ok;if(ok)k++});n.textContent=k+' %s';}"
+              "var q=new URLSearchParams(location.search);if(q.get('state'))s.value=q.get('state');if(q.get('cat'))c.value=q.get('cat');"
+              "s.onchange=c.onchange=go;go();})();</script>" % esc(word))
+    return filters + head + '\n    <div class="tracker-records">%s\n    </div>' % "".join(
+        card_html(reg, data, r) for r in recs) + script
 
 
 def link_categories(page, reg, data):
-    """Point each category card at its newest record, or mark it empty."""
-    latest = {}
-    for r in newest_first(data["records"]):
-        latest.setdefault(r["category"], r)
+    """Point each category card at the record list filtered to it, with live counts."""
+    count, states = {}, {}
+    for r in data["records"]:
+        count[r["category"]] = count.get(r["category"], 0) + 1
+        states.setdefault(r["category"], set()).add(r["state"])
 
     def fix(m):
         tag, key, body = m.group(1), m.group(2), m.group(3)
-        r = latest.get(key)
-        if r:
-            href = "/%s/%s" % (reg, r["id"])
-            go = ('<span class="go">%s &middot; %s <span class="arrow">&rarr;</span></span>'
-                  % (esc(r.get("district") or r["state"]), esc(fmt_date(r["date"])[-4:])))
+        n = count.get(key, 0)
+        if n:
+            href = "/%s?cat=%s#records" % (reg, key)
+            ns = len(states[key])
+            go = ('<span class="go">%d record%s &middot; %d state%s <span class="arrow">&rarr;</span></span>'
+                  % (n, "" if n == 1 else "s", ns, "" if ns == 1 else "s"))
         else:
             href = "#records"
             go = '<span class="go">No record yet</span>'
