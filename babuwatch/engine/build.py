@@ -4391,7 +4391,11 @@ PATTERNS_JS = r"""// CopwatchIndia patterns — tier toggle over pre-rendered ch
 })();
 """
 
-CSS_ADDITIONS = """/* Report card (police records, opened record page) */
+CSS_ADDITIONS = """/* Record pages never scroll sideways on phones: grid/flex children may shrink */
+.incident-layout>*,.action-timeline>*,.action-card-head>*{min-width:0}
+.action-card-head{flex-wrap:wrap}
+.action-card,.action-card h3,.action-authority{overflow-wrap:anywhere}
+/* Report card (police records, opened record page) */
 .report-card{border:1px solid var(--line);background:#fffdf8;padding:22px 24px;margin-top:26px}
 .report-card .incident-section-head{margin-bottom:10px}
 .rc-operative{font-family:var(--serif);font-size:1.06rem;line-height:1.6;color:var(--ink);margin:0 0 14px;text-wrap:pretty}
