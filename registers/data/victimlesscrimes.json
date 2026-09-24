@@ -442,6 +442,273 @@
         }
       ],
       "verification": "V2"
+    },
+    {
+      "id": "vc-br-0007",
+      "category": "other",
+      "state": "Bihar",
+      "title": "Shop owner prosecuted in Nawada for alleged obscene video show",
+      "summary": "The Circle Officer raided a house in Roh and arrested two workers over alleged obscene pictures and videos. The Judicial Magistrate at Nawada took cognizance against a local shop owner under obscenity law and cinema law. The High Court recorded that two case-diary witnesses supported the allegation and dismissed the plea to quash the cognizance order.",
+      "date": "2024-11-25",
+      "date_label": "High Court order",
+      "district": "Nawada",
+      "outcome": "prosecution_pending",
+      "authority": "Patna High Court (Justice [name withheld]); Judicial Magistrate First Class, Nawada; Circle Officer, Roh",
+      "case_reference": "CR. MISC. No. 34235 of 2016; Roh P.S. Case No. 50 of 2013",
+      "laws": [
+        "Sections 292 and 293, Indian Penal Code",
+        "Section 7, Bihar Cinemas (Regulation) Act, 1954",
+        "Section 482, Code of Criminal Procedure"
+      ],
+      "acts": [
+        "Indian Penal Code, 1860",
+        "Bihar Cinemas (Regulation) Act, 1954",
+        "Code of Criminal Procedure, 1973"
+      ],
+      "person": "a cloth-shop owner in Roh, Nawada district, alleged to have run the video show",
+      "detail": [
+        "The High Court recorded that the petition sought setting aside the Magistrate's cognizance order dated 02.01.2016 in Roh P.S. Case No. 50 of 2013 under obscenity and cinema law.",
+        "The High Court recorded that the allegation was that obscene pictures and videos were being played in a house, and that the Circle Officer raided the house and arrested two employees of the alleged operator.",
+        "The High Court recorded that the petitioner's counsel said the police chargesheet had exonerated the petitioner, that he owned a saree shop, and that no witness spoke against him.",
+        "The High Court recorded that the State opposed the plea, submitting that two prosecution witnesses named in paragraphs 7 and 8 of the case diary supported the case and the cognizance order was correct.",
+        "The High Court held that the final report in the petitioner's favour was not sufficient to exonerate him, that the offences were prima facie attracted on the case-diary material, and dismissed the petition."
+      ],
+      "current_position": "The quashing petition was dismissed, so the cognizance order stands and the prosecution is to proceed before the Magistrate.",
+      "quote": {
+        "text": "The instant criminal miscellaneous petition has been filed under Section 482 of the Code of Criminal Procedure (in short 'Cr.P.C.') for setting aside the order dated 02.01.2016 passed by the court of learned Judicial Magistrate 1st Class, Nawada, in connection with Roh P.S. Case No. 50 of 2013 by which the cognizance has been taken against the petitioner of the offences under sections 292 and 293 of the Indian Penal Code (in short 'IPC') and section 7 of the Bihar Cinemas (Regulation) Act, 1954.",
+        "where": "CR. MISC. No. 34235 of 2016, order dated 25-11-2024, para 2",
+        "url": "https://indiankanoon.org/doc/196841457/"
+      },
+      "caveats": "Exact screening date and inventory of seized articles not stated in the order; full case diary not reviewed; trial outcome after the 2024 order not confirmed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The only alleged wrong was showing obscene pictures or videos to willing viewers; the order mentions no minors, force, fraud, or other victim."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/196841457/",
+          "kind": "court_order",
+          "publisher": "Indian Kanoon (Patna High Court order mirror)",
+          "date": "2024-11-25",
+          "supports": "cognizance under sections 292, 293 IPC and section 7 Bihar Cinemas Act; Roh PS Case No. 50/2013, Nawada; raid and arrests; dismissal of quashing plea"
+        },
+        {
+          "url": "https://indiankanoon.org/search/?formInput=Bihar+obscenity+292+fromdate:+1-1-2024",
+          "kind": "court_order",
+          "publisher": "Indian Kanoon search index",
+          "date": null,
+          "supports": "recency check: this 2024 Bihar obscenity cognizance case was the most recent qualifying Bihar hit"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-mh-0001",
+      "category": "sex-work",
+      "state": "Maharashtra",
+      "title": "Customer found in hotel room during vice raid faced prosecution under vice and trafficking laws",
+      "summary": "Police raided a lodging hotel and prosecuted a man found in a room with a woman as a customer under the Immoral Traffic (Prevention) Act and trafficking law. The High Court recorded that the victim's statement was never recorded and only police statements were relied on. The Court set aside the refusal to discharge him.",
+      "date": "2024-01-03",
+      "date_label": "High Court order",
+      "incident_date": "2014-10-28",
+      "district": "Thane",
+      "outcome": "quashed",
+      "authority": "Bombay High Court",
+      "case_reference": "Criminal Revision Application No. 347/2023, Sessions Case No. 24/2015 arising out of C.R. No. II 56/2014, Manpada Police Station",
+      "laws": [
+        "Sections 3, 4 and 5 of the Immoral Traffic (Prevention) Act, 1956",
+        "Section 370(3) of the Indian Penal Code"
+      ],
+      "acts": [
+        "Immoral Traffic (Prevention) Act, 1956",
+        "Indian Penal Code"
+      ],
+      "person": "a customer found in a lodging hotel room in the Thane area",
+      "detail": [
+        "The High Court recorded that the FIR was registered on 29/10/2014 after police raided a lodging and boarding hotel on 28/10/2014 at about 8.15 p.m. on the allegation that prostitution activities were being carried out there.",
+        "The High Court recorded that the applicant was accused no. 5 and was alleged to be a customer found in a room with the woman named in the panchnama, with cash of Rs 250 found with the woman.",
+        "The High Court recorded that the State informed the Court that the statement of the victim was not recorded and the only material was the statement of raiding police officials.",
+        "The High Court held that Sections 3 and 4 of the PITA and Section 370 of the IPC were not attracted on those facts and set aside the Sessions Court order dated 25/8/2023 that had rejected discharge, allowing the revision for the applicant only."
+      ],
+      "current_position": "The prosecution under Sections 3, 4, 5 of PITA and Section 370 IPC does not continue against the customer following the High Court order.",
+      "quote": {
+        "text": "In my view, Sections 3 and 4 of the PITA as well as Section 370 of the IPC are not at all attracted in the present facts as the applicant is alleged to be a customer and as the statement of the victim is not recorded.",
+        "where": "Criminal Revision Application No. 347/2023, 2024:BHC-AS:1562, para 9",
+        "url": "https://indiankanoon.org/doc/74160558/"
+      },
+      "caveats": "Victim age and consent were not established by a victim statement; the Court decided on the absence of material. Trial status of co-accused was not confirmed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Paid sex between adults involved no complaining victim, no minor, and no allegation of force or deception against the customer, so prosecution punished a victimless arrangement."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/74160558/",
+          "kind": "judgment",
+          "publisher": "Bombay High Court via Indian Kanoon",
+          "date": "2024-01-03",
+          "supports": "raid date, customer allegation, sections charged, no victim statement, order setting aside discharge refusal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-mh-0002",
+      "category": "gambling",
+      "state": "Maharashtra",
+      "title": "Nine persons raided for playing cards on street face gambling prosecution",
+      "summary": "Police raided a street spot on secret information and arrested nine persons found playing cards, seizing cards and cash. A charge-sheet was filed under the Maharashtra Prevention of Gambling Act. The High Court refused to quash the case and kept the prosecution alive.",
+      "date": "2025-11-06",
+      "date_label": "High Court order",
+      "district": "Yavatmal",
+      "outcome": "prosecution_pending",
+      "authority": "Bombay High Court, Nagpur Bench",
+      "case_reference": "Criminal Application (APL) No. 578 of 2022, FIR No. 0368/2019, Police Station Umarkhed",
+      "laws": [
+        "Section 12(A) of the Maharashtra Prevention of Gambling Act, 1887"
+      ],
+      "acts": [
+        "Maharashtra Prevention of Gambling Act, 1887"
+      ],
+      "person": "persons found playing cards on a street in Umarkhed",
+      "detail": [
+        "The High Court recorded that the crime was registered on a report by a police official who said secret information about gambling led police with panchas to the spot where nine persons were intercepted.",
+        "The High Court recorded that a spot panchnama was drawn, playing cards and amounts were recovered, and the investigating officer filed a charge-sheet after investigation.",
+        "The High Court recorded that the FIR recitals showed the persons were found gaming with cards and cash at a street where the public have access, making prima facie material for Section 12(a).",
+        "The High Court held that the quashing tests were not met and rejected the application, so the gambling prosecution continues."
+      ],
+      "current_position": "The FIR, charge-sheet and proceedings under the Gambling Act continue after refusal to quash.",
+      "quote": {
+        "text": "The recitals of the First Information Report at this stage sufficiently show that the applicants were not only found gaming but the relevant material, i.e. playing cards as well as some amounts were also seized from them and they were found playing cards at the street, where the public is having access.",
+        "where": "Criminal Application (APL) No. 578 of 2022, para 6",
+        "url": "https://indiankanoon.org/doc/113034066/"
+      },
+      "caveats": "Exact incident date in 2019 and exact cash amount were not confirmed from the opened judgment text; no victim or fraud was mentioned.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Wagering their own money on cards harmed no one, with no cheating, fixing, fraud victim, or coercion alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/113034066/",
+          "kind": "judgment",
+          "publisher": "Bombay High Court via Indian Kanoon",
+          "date": "2025-11-06",
+          "supports": "FIR number, gambling allegation, seizure of cards and cash, charge-sheet, refusal to quash"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-mh-0003",
+      "category": "alcohol",
+      "state": "Maharashtra",
+      "title": "Landlord prosecuted after liquor meant for sale in Haryana stored in his rented room",
+      "summary": "Excise officers raided a house and seized foreign liquor meant for sale in Haryana but kept in Maharashtra, charging six persons under the Prohibition Act. The landlord said he had let the room only for electrical goods. The High Court quashed the FIR and charge-sheet against the landlord.",
+      "date": "2025-11-28",
+      "date_label": "High Court judgment",
+      "incident_date": "2024-10-26",
+      "district": "Nagpur",
+      "outcome": "quashed",
+      "authority": "Bombay High Court, Nagpur Bench",
+      "case_reference": "Criminal Application (APL) No. 107/2025, Crime No. 110/2024 dated 26.10.2024, Police Station Jaripatka; Summary Criminal Case No. 925/2025",
+      "laws": [
+        "Sections 65(a)(e), 81, 83, 90 and 98 of the Maharashtra Prohibition Act, 1949"
+      ],
+      "acts": [
+        "Maharashtra Prohibition Act, 1949"
+      ],
+      "person": "a landlord in Nagpur whose rented room was used to store liquor",
+      "detail": [
+        "The High Court recorded that the Excise Inspector reported that liquor for sale in Haryana and banned in Maharashtra was stored at the applicant's house, and a raid during loading of a vehicle led to recovery and confiscation.",
+        "The High Court recorded that the applicant said he was only the landlord who had given a small ground-floor room on leave and licence from 01/11/2023 to 31/07/2026 for storing electrical items, without consent for liquor storage.",
+        "The High Court recorded that Sections 65(a) and (e) punish import, export, transport, sale, purchase or possession of intoxicant, but the applicant's role was limited to being landlord, so no offence was made out even on FIR facts.",
+        "The High Court allowed the application and quashed the FIR and charge-sheet to the extent of the landlord applicant."
+      ],
+      "current_position": "The case is quashed for the landlord; the position of the other accused was not decided in this order.",
+      "quote": {
+        "text": "As can be seen from the above clauses that the role of the applicant is limited to he being a landlord of the premises in question.",
+        "where": "Criminal Application (APL) No. 107/2025, 2025:BHC-NAG:13250-DB, para 9",
+        "url": "https://indiankanoon.org/doc/115262848/"
+      },
+      "caveats": "Quantity of liquor seized and proof of Haryana-only sale marking beyond FIR recitals were not confirmed; no chemical report of spurious liquor was mentioned.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Possessing, carrying and storing drinkable liquor involved no spurious liquor, hooch death, violence, or complaining victim."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/115262848/",
+          "kind": "judgment",
+          "publisher": "Bombay High Court via Indian Kanoon",
+          "date": "2025-11-28",
+          "supports": "FIR details, liquor seizure, sections charged, landlord defence, quashing order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-mh-0004",
+      "category": "beef",
+      "state": "Maharashtra",
+      "title": "Van occupants prosecuted for carrying bones with dried flesh under cattle law",
+      "summary": "Police stopped a pick-up van on a road and seized 15 kg of raw bones with dried flesh, arresting the driver and naming two others. The FIR charged only the cattle-preservation law. The High Court kept the flesh-possession charge alive while quashing the sale charge.",
+      "date": "2025-11-14",
+      "date_label": "High Court judgment",
+      "incident_date": "2025-02-23",
+      "district": "Akola",
+      "outcome": "prosecution_pending",
+      "authority": "Bombay High Court, Nagpur Bench",
+      "case_reference": "Criminal Application (APL) No. 597 of 2025, FIR No. 0076 of 2025 dated 23.02.2025, Akot Police Station",
+      "laws": [
+        "Sections 5B, 5C and 9 of the Maharashtra Animal Preservation Act, 1976"
+      ],
+      "acts": [
+        "Maharashtra Animal Preservation Act, 1976"
+      ],
+      "person": "a driver and two occupants of a pick-up van on a road near Akot",
+      "detail": [
+        "The High Court recorded that police on patrol near Shivneri Dhaba road stopped a Mahindra pick-up van, arrested the driver, and were told by him that the vehicle contained raw bones.",
+        "The High Court recorded that the panchnama showed raw bones with traces of dried flesh weighing 15 kg worth about Rs 30,000 were seized, and an animal husbandry report said the bones were of matured large bovine.",
+        "The High Court recorded that the FIR invoked only Sections 5B, 5C and 9 of the 1976 Act, with no Prevention of Cruelty to Animals Act, theft, or violence charge.",
+        "The High Court held Section 5B was not attracted but Section 5C possession of flesh was prima facie attracted, so prosecution continues for Section 5C."
+      ],
+      "current_position": "The FIR is quashed only for Section 5B; prosecution under Section 5C of the cattle-preservation law continues.",
+      "quote": {
+        "text": "the raw bones with the trace of dried flesh on bones of total weight of 15kg having approximate costs of Rs.30,000/- was found and they were seized.",
+        "where": "Criminal Application (APL) No. 597 of 2025, 2025:BHC-NAG:12098-DB, para 4",
+        "url": "https://indiankanoon.org/doc/23280639/"
+      },
+      "caveats": "Species as cow versus buffalo beyond large bovine opinion and forensic confirmation were not confirmed; live-cattle transport or slaughter was not alleged.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Possessing bovine flesh for food or trade harmed no person, with no cruelty, theft, or violence charge in the case."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/23280639/",
+          "kind": "judgment",
+          "publisher": "Bombay High Court via Indian Kanoon",
+          "date": "2025-11-14",
+          "supports": "vehicle interception, seizure details, sections charged, absence of other charges, continuation of 5C prosecution"
+        }
+      ],
+      "verification": "V2"
     }
   ]
 }

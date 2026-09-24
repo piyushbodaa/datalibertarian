@@ -171,6 +171,252 @@
         }
       ],
       "verification": "V2"
+    },
+    {
+      "id": "cl-ka-0001",
+      "category": "speech",
+      "state": "Karnataka",
+      "title": "High Court quashes case over remarks about Prime Minister in Athani shop dispute",
+      "summary": "Athani Police booked a shopkeeper after a social worker complained about barricades and alleged insulting remarks about the Prime Minister. The Karnataka High Court quashed the proceedings before the Athani court. The Court held the complaint did not show intentional insult to provoke a breach of peace.",
+      "date": "2026-09-24",
+      "date_label": "High Court order reported",
+      "incident_date": "2026-01-07",
+      "outcome": "quashed",
+      "authority": "Karnataka High Court, Justice [name withheld]",
+      "case_reference": "Criminal Petition No.101720 of 2026",
+      "laws": [
+        "Section 285 BNS",
+        "Section 352 BNS"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "a shopkeeper in Athani",
+      "detail": [
+        "The High Court recorded that Athani Police booked the petitioner after a complaint about barricades placed near his shop and alleged insulting remarks against the Prime Minister. LiveLaw reported the complaint was lodged on January 11, 2026 about a January 7, 2026 incident near the petitioner's shop, after a video circulated on a WhatsApp group.",
+        "The High Court recorded that the only allegation was a political statement against the Prime Minister, with no specific allegation that the petitioner abused or intentionally insulted the complainant. The petitioner's counsel argued a political statement could not be converted into a personal prosecution when basic ingredients were not met.",
+        "The High Court held that mere abuse, rudeness or insolence is not intentional insult without the requisite intention or knowledge to provoke breach of peace. LiveLaw reported the Court relied on [name withheld] v. State of U.P. (2023) in interpreting Sections 285 and 352 BNS.",
+        "The High Court noted a four-day delay in the complaint and called the allegations general and omnibus. The Court held continuation of proceedings would amount to abuse of process of law, and quashed the pending case before the Principal Civil Judge and JMFC, Athani."
+      ],
+      "current_position": "The criminal proceedings before the Athani court stand quashed.",
+      "quote": {
+        "text": "The allegation against the petitioner is essentially that, when the complainant questioned him regarding the barricades, he made certain statements against the Hon'ble Prime Minister of India. There is no specific allegation that the petitioner abused or intentionally insulted the complainant so as to provoke a breach of peace..",
+        "where": "[name withheld] v. State of Karnataka & Anr., Criminal Petition No.101720 of 2026, as reproduced by LiveLaw",
+        "url": "https://www.livelaw.in/pdf_upload/2026/09/24/4-5-702292.pdf"
+      },
+      "caveats": "Order date taken from report and upload date of September 24, 2026; full signed order text could not be scraped from the PDF. District not stated on the page, so left null.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "The state prosecuted a person for spoken criticism of a public leader, with no violence, threat, or complaining victim of insult, which is an exercise of speech."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.livelaw.in/pdf_upload/2026/09/24/4-5-702292.pdf",
+          "kind": "court_order",
+          "publisher": "Karnataka High Court via LiveLaw",
+          "date": "2026-09-24",
+          "supports": "quashing order, case number, court reasoning on Sections 285 and 352 BNS"
+        },
+        {
+          "url": "https://www.livelaw.in/high-court/karnataka-high-court/karnataka-high-court-quashes-case-insulting-remarks-flags-delay-omnibus-allegations-551635",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2026-09-24",
+          "supports": "incident dates, Athani Police complaint, barricades and remarks, delay, omnibus allegations, quashing"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "cl-ka-0002",
+      "category": "religion",
+      "state": "Karnataka",
+      "title": "High Court quashes anti-conversion FIR over pamphlets near Jamkhandi temple",
+      "summary": "Police registered an anti-conversion case after three men distributed religious pamphlets and preached near a temple in Jamkhandi. The Karnataka High Court quashed the FIR and trial court proceedings. The Court held a third-party complainant had no standing and no specific conversion or attempt was alleged.",
+      "date": "2025-07-17",
+      "date_label": "High Court order",
+      "incident_date": "2025-05-04",
+      "outcome": "quashed",
+      "authority": "Karnataka High Court, Dharwad Bench, Justice [name withheld]",
+      "laws": [
+        "Sections 299, 351(2) and 3(5) BNS",
+        "Section 5 of the Karnataka Protection of Right to Freedom of Religion Act, 2022"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023",
+        "Karnataka Protection of Right to Freedom of Religion Act, 2022"
+      ],
+      "person": "three men preaching near a temple in Jamkhandi",
+      "detail": [
+        "LawBeat reported that on May 4, 2025 three men were found distributing religious pamphlets and preaching near the Ramatheerth Temple in Jamkhandi. A temple visitor complained they denounced other beliefs, claimed their mission was to spread their faith, and allegedly offered jobs and material benefits.",
+        "The High Court held the FIR was legally invalid because the complainant was an unrelated third party. Citizens for Justice and Peace reported the Court held only a converted person or close family, as listed in Section 4 of the 2022 Act, could complain.",
+        "The High Court held that even taking the FIR at face value, it did not show a concrete act of conversion or attempted conversion of any identifiable person. LawBeat reported the Court said preaching without coercion, allurement, fraud or misrepresentation does not attract the anti-conversion provisions.",
+        "The High Court quashed the FIR and all related proceedings before the Additional Civil Judge and JMFC Court, Jamkhandi."
+      ],
+      "current_position": "The FIR and proceedings before the Jamkhandi court stand quashed.",
+      "quote": {
+        "text": "There is no allegation that the petitioners converted or attempted to convert any person to another religion,",
+        "where": "[name withheld] and Others vs State and Another, Karnataka High Court order dated July 17, 2025, as reproduced by LawBeat",
+        "url": "https://lawbeat.in/pdf_upload/mustafa-and-others-vs-state-and-another-karnataka-high-court-2071541.pdf"
+      },
+      "caveats": "Case number not printed in the reports consulted. District left null because only Jamkhandi is named on the pages opened. The FIR used the language of allurement, but the Court found no identifiable target or victim and no concrete attempt.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "The state prosecuted men for preaching and distributing pamphlets, with no identified converted person or complaining victim, which is propagation of religion without harm to anyone."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://lawbeat.in/pdf_upload/mustafa-and-others-vs-state-and-another-karnataka-high-court-2071541.pdf",
+          "kind": "court_order",
+          "publisher": "Karnataka High Court via LawBeat",
+          "date": "2025-07-17",
+          "supports": "quashing order, no conversion or attempt finding, Section 4 standing point"
+        },
+        {
+          "url": "https://lawbeat.in/top-stories/distributing-islamic-pamphlets-near-temple-without-conversion-attempt-not-an-offence-karnataka-high-court-quashes-fir-1513874",
+          "kind": "news",
+          "publisher": "LawBeat",
+          "date": "2025-07-24",
+          "supports": "May 4 2025 Jamkhandi facts, pamphlets and preaching, BNS and 2022 Act sections, bench and July 17 2025 order date, quashing"
+        },
+        {
+          "url": "https://cjp.org.in/ktaka-hc-ruling-on-states-anti-conversion-law-lays-down-precedent-against-potential-weaponisation-by-third-party-vigilantes/",
+          "kind": "news",
+          "publisher": "Citizens for Justice and Peace",
+          "date": "2025-07-30",
+          "supports": "third-party complainant defect under Section 4, no specific conversion allegation, Article 25 propagation point"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "cl-mh-0001",
+      "category": "speech",
+      "state": "Maharashtra",
+      "title": "Pune court grants bail to party social-media chief held over posts about chief minister",
+      "summary": "Police in the Pune region arrested a state social-media office-bearer in April 2026 over posts about the chief minister and government functioning. He was booked under BNS Section 152 among other sections. A Pune sessions court granted bail in July 2026, holding that criticism of the government alone is not waging war.",
+      "date": "2026-07-15",
+      "date_label": "Sessions court bail order reported",
+      "district": "Pune",
+      "outcome": "prosecution_pending",
+      "authority": "Additional Sessions Judge [name withheld], Pune Sessions Court",
+      "laws": [
+        "Section 152 of the Bharatiya Nyaya Sanhita (BNS)"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "state head of the social-media wing of a Maharashtra political party, based in Pune",
+      "detail": [
+        "India Today reported that the Pune court granted bail to the office-bearer, saying criticism of the government or the chief minister by itself cannot be treated as waging war against the nation.",
+        "ThePrint, carrying PTI, reported that police had arrested the functionary in April on charges of circulating morphed photos of the Maharashtra chief minister and posting content allegedly sympathetic to Naxalites.",
+        "ThePrint reported that the court noted the case papers showed the applicant had questioned the investigation process in certain cases and the functioning of government schemes, which it said fell within the realm of public discourse.",
+        "India Today reported that the court said the investigation was over, the chargesheet had been filed, and no further custodial interrogation was required, and directed release on a personal bond of Rs 25,000 with one or two sureties.",
+        "ThePrint reported that the defence argued the case was politically motivated and protected speech, while the prosecution opposed bail saying objectionable language and offences against the State were involved."
+      ],
+      "current_position": "Released on bail; chargesheet filed and investigation complete, prosecution pending trial with conditions not to tamper with evidence and not to leave the country without permission.",
+      "quote": {
+        "text": "Nothing on record suggests that the accused has declared or incited waging war against the State or committed any act endangering the sovereignty, unity and integrity of India,",
+        "where": "PTI report of Additional Sessions Judge [name withheld] bail order, published by ThePrint on 2026-07-15",
+        "url": "https://theprint.in/india/criticism-of-govt-cm-not-waging-war-against-nation-court-grants-bail-to-ncp-sp-leader/2986773/"
+      },
+      "caveats": "FIR number and full certified bail-order text could not be confirmed; exact April arrest date was reported only as April 2026; Section 152 applicability details beyond what the two outlets quoted were not verified.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "The punished act was social-media criticism of government functioning and the chief minister, with no allegation of violence, threats, fraud or a complaining victim of force; the court itself placed it within public discourse."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.indiatoday.in/india/law-news/story/pune-court-grants-bail-to-ncp-sp-leader-says-criticism-of-government-not-waging-war-ptag-2948125-2026-07-15",
+          "kind": "news",
+          "publisher": "India Today",
+          "date": "2026-07-15",
+          "supports": "arrest in April over morphed photos and alleged Naxalite-sympathy posts, BNS 152 charge, bail grant, Rs 25,000 bond, chargesheet filed"
+        },
+        {
+          "url": "https://theprint.in/india/criticism-of-govt-cm-not-waging-war-against-nation-court-grants-bail-to-ncp-sp-leader/2986773/",
+          "kind": "news",
+          "publisher": "ThePrint via PTI",
+          "date": "2026-07-15",
+          "supports": "court observations on criticism not being waging war, questioning of investigations and schemes as public discourse, Section 152 debatable, bail conditions"
+        }
+      ],
+      "verification": "V1"
+    },
+    {
+      "id": "cl-mh-0002",
+      "category": "religion",
+      "state": "Maharashtra",
+      "title": "Police book 22 women over religious preaching visit to home in Palghar village",
+      "summary": "Mokhada police in Palghar registered an FIR against 22 women over an August 21 visit to a home in Wakadpada village. Police said the women offered religious texts and discussed worship. No arrests were made and investigation continues under BNS Sections 299 and 3(5).",
+      "date": "2026-08-25",
+      "date_label": "Police FIR reported",
+      "incident_date": "2026-08-21",
+      "district": "Palghar",
+      "outcome": "prosecution_pending",
+      "authority": "Mokhada Police Station, Palghar District Police",
+      "laws": [
+        "Section 299 of the Bharatiya Nyaya Sanhita (BNS)",
+        "Section 3(5) of the Bharatiya Nyaya Sanhita (BNS)"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "group of 22 women visitors, described by police as largely from Hyderabad with local contacts, in Wakadpada village",
+      "detail": [
+        "The Times of India, carrying PTI, reported that police registered a case against 22 women for allegedly attempting religious conversion and outraging religious feelings, with the incident in Wakadpada village on Aug 21.",
+        "The Times of India reported that police said an 18-year-old student complained that a group visited his home and offered religious texts including the New Testament free, with claims about curing illness, and that when he refused, remarks about Hindu deities and an invitation to join Christianity followed.",
+        "The Free Press Journal reported that Mokhada police booked the women for allegedly attempting conversion and propagating Christianity while hurting religious feelings, under BNS Sections 299 and 3(5).",
+        "UCA News reported that police named two primary suspects and released the women pending further investigation, with no arrests made so far.",
+        "The Free Press Journal reported that a Mokhada sub-inspector is conducting further investigation."
+      ],
+      "current_position": "FIR registered and under investigation; police say no arrests have been made so far.",
+      "quote": {
+        "text": "A detailed investigation into the matter is currently underway and no arrests have been made so far,",
+        "where": "Times of India PTI report of Mokhada police statement, published 2026-08-25",
+        "url": "https://timesofindia.indiatimes.com/city/mumbai/fir-on-22-women-for-conversion-bid-in-palghar-village/articleshow/133519539.cms"
+      },
+      "caveats": "FIR number and full FIR text could not be confirmed; only police summaries via news were available; claims about cures and remarks are allegations under investigation and were not independently verified.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "The state action targets preaching, offering religious literature and discussing worship, with no conversion effected, no force or violence, and charges limited to outraging religious feelings and common intention."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://timesofindia.indiatimes.com/city/mumbai/fir-on-22-women-for-conversion-bid-in-palghar-village/articleshow/133519539.cms",
+          "kind": "news",
+          "publisher": "The Times of India via PTI",
+          "date": "2026-08-25",
+          "supports": "22 women booked, Wakadpada Aug 21 visit, BNS 299 and 3(5), free texts and cure claim, refusal, no arrests"
+        },
+        {
+          "url": "https://www.freepressjournal.in/mumbai/maharashtra-22-women-booked-in-palghar-over-alleged-religious-conversion-attempt-hurting-hindu-beliefs-probe-underway",
+          "kind": "news",
+          "publisher": "Free Press Journal",
+          "date": "2026-08-27",
+          "supports": "Mokhada police case, 22 women, BNS 299 and 3(5), complaint by 18-year-old, no arrests, investigation by sub-inspector"
+        },
+        {
+          "url": "https://www.ucanews.com/news/22-christian-women-booked-for-alleged-conversion-bid-in-india/115019",
+          "kind": "news",
+          "publisher": "UCA News",
+          "date": "2026-08-27",
+          "supports": "Aug 25 FIR, Aug 21 visit, Bible offer and cure claim, refusal, villagers informed, no arrests, context of new Freedom of Religion Act from Aug 28"
+        }
+      ],
+      "verification": "V1"
     }
   ]
 }

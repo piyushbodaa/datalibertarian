@@ -544,6 +544,727 @@
         }
       ],
       "verification": "V2"
+    },
+    {
+      "id": "ef-br-0002",
+      "category": "forex",
+      "state": "Bihar",
+      "title": "Gaya resident detained under COFEPOSA after DRI seized 124,000 US dollars at home",
+      "summary": "The DRI searched a resident's home in Gaya during a gold-smuggling probe and seized 124,000 US dollars. The High Court recorded that the money was alleged to be commission from smuggled gold. The detention order under COFEPOSA was confirmed by the Central Government and the High Court dismissed the challenge.",
+      "date": "2025-02-17",
+      "date_label": "High Court order dismissing detention challenge",
+      "incident_date": "2023-12-13",
+      "district": "Gaya",
+      "outcome": "detention_upheld",
+      "authority": "Patna High Court (Justices Vipul M. Pancholi and Alok Kumar Pandey); DRI Patna Regional Unit and Lucknow Zonal Unit; Central Economic Intelligence Bureau; Central Government",
+      "case_reference": "Cr. WJC No.1309 of 2024; DRI Patna Unit Case No. 20/2023-24; detention order F. No. PH-12001/08/2-24 COFEPOSA dated 06.03.2024, confirmed 29.05.2024",
+      "laws": [
+        "Section 3(1) of the Conservation of Foreign Exchange and Prevention of Smuggling Activities Act, 1974",
+        "Section 8(b) of the Conservation of Foreign Exchange and Prevention of Smuggling Activities Act, 1974",
+        "Sections 135(1)(a) and 135(1)(b) of the Customs Act, 1962",
+        "Section 108 of the Customs Act, 1962"
+      ],
+      "acts": [
+        "Conservation of Foreign Exchange and Prevention of Smuggling Activities Act, 1974",
+        "Customs Act, 1962"
+      ],
+      "person": "a resident of Gaya",
+      "penalty": "Preventive detention ordered 06.03.2024, executed 11.03.2024, confirmed by Central Government 29.05.2024; High Court challenge dismissed 17.02.2025",
+      "detail": [
+        "The High Court recorded that DRI received intelligence about a syndicate smuggling foreign gold from Yangon (Myanmar) to Gaya through Gaya International Airport, and that four persons were apprehended at the airport on 13.12.2023 with 12004 grams of foreign-origin gold recovered and seized.",
+        "The High Court recorded that a simultaneous DRI search at the Gaya resident's premises recovered 124000 US Dollars in the presence of the resident and two independent witnesses, with a recovery and seizure memo prepared on the spot, and that a statement was recorded under Section 108 of the Customs Act on 14.12.2023.",
+        "The High Court recorded that the detaining authority alleged the dollars were the resident's commission from sale proceeds of smuggled gold, at 1300 US dollars per kg, involving about 200 kg over the prior year.",
+        "The High Court recorded that the detention order dated 06.03.2024 was executed on 11.03.2024, the Advisory Board (COFEPOSA) at Patna opined on 29.04.2024 and 13.05.2024 that detention was justified, and the Central Government confirmed the order on 29.05.2024.",
+        "The High Court held that the detaining authority had followed constitutional, statutory and procedural safeguards, that subjective satisfaction was not vitiated, and dismissed the petition."
+      ],
+      "current_position": "The COFEPOSA detention stands confirmed and the High Court challenge was dismissed on 17.02.2025, while the Customs complaint and confiscation proceedings continue separately.",
+      "quote": {
+        "text": "During the search, total 124000 US Dollars were recovered from his residence in presence of the petitioner and two independent witnesses.",
+        "where": "Cr. WJC No.1309 of 2024, para 2.2 / p.4/35",
+        "url": "https://indiankanoon.org/doc/29803082/"
+      },
+      "caveats": "The dollars were characterised by the authority as alleged commission from gold smuggling rather than a standalone FEMA penalty; no separate FEMA adjudication order was found. Searches for a more recent (2026) Bihar foreign-currency seizure with an official source returned nothing retrievable.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Keeping and holding foreign currency is a peaceful economic act with no complaining victim; the state seized 124,000 US dollars and imposed preventive detention for it."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/29803082/",
+          "kind": "judgment",
+          "publisher": "Patna High Court via Indian Kanoon",
+          "date": "2025-02-17",
+          "supports": "USD seizure, gold seizure at Gaya airport, detention dates, Advisory Board opinion, Central Government confirmation, and dismissal of petition"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-br-0003",
+      "category": "gold",
+      "state": "Bihar",
+      "title": "Traveller held at Patna Junction with 1.15 kg gold paste, bail refused",
+      "summary": "DRI officers intercepted a train passenger at Patna Junction and seized gold in paste form weighing 1153.800 grams valued at Rs 1,39,54,057. A Customs complaint was filed under Section 135(1)(b) of the Customs Act. The Patna High Court refused bail given the quantity, concealment and statutory bar.",
+      "date": "2026-09-21",
+      "date_label": "High Court bail order",
+      "incident_date": "2025-10-04",
+      "district": "Patna",
+      "outcome": "bail_refused",
+      "authority": "Patna High Court (Justice Rudra Prakash Mishra); DRI, Patna Regional Unit",
+      "case_reference": "Criminal Misc. No.31974 of 2026; Complaint Case No. 19 (O) of 2025; DRI Patna Unit Case No. 18 of 2025-26",
+      "laws": [
+        "Section 135(1)(b) of the Customs Act, 1962",
+        "Section 104(6)(c) of the Customs Act, 1962",
+        "Section 108 of the Customs Act, 1962",
+        "Section 137 of the Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "a train passenger intercepted at Patna Junction",
+      "detail": [
+        "The High Court recorded that DRI officers intercepted the traveller on Train No. 12303 upon arrival at Platform No. 4 of Patna Junction on 04.10.2025 at about 15:45 hours.",
+        "The High Court recorded that the traveller allegedly disclosed carrying foreign-origin gold in paste form smuggled from Myanmar, wrapped in transparent plastic and rubber coverings and concealed in three packets inside the pocket of his underwear, and failed to produce any lawful document.",
+        "The High Court recorded that the seized gold weighed 1153.800 grams and was assessed at Rs 1,39,54,057, and that the DRI opposed bail citing the seizure memo, panchnama and a voluntary statement under Section 108 of the Customs Act.",
+        "The High Court held that where the market price exceeds Rs 1 crore the offence under Section 135 is non-bailable under Section 104(6)(c), and that conscious possession and concealment prima facie attracted Section 135(1)(b).",
+        "The High Court rejected the bail application and directed the trial court to expedite the trial; the traveller was in custody since 15.10.2025 with the complaint filed after sanction under Section 137."
+      ],
+      "current_position": "The prosecution under Section 135(1)(b) of the Customs Act is pending for trial and the accused remains in custody after bail was refused on 21.09.2026.",
+      "quote": {
+        "text": "The seized gold weighed 1153.800 grams and was assessed to be valued at Rs. 1,39,54,057/-.",
+        "where": "Criminal Misc. No.31974 of 2026, para 3",
+        "url": "https://indiankanoon.org/doc/30009005/"
+      },
+      "caveats": "The order contains a minor internal inconsistency describing concealment (underwear packets vs a passing reference to trolley bag/clothing); weight, value, place and bail refusal are consistent throughout.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Carrying and storing gold is a peaceful economic act with no complaining victim, no violence, fraud, or adulteration alleged; the state seized the gold and is prosecuting and jailing the carrier for it."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/30009005/",
+          "kind": "judgment",
+          "publisher": "Patna High Court via Indian Kanoon",
+          "date": "2026-09-21",
+          "supports": "interception at Patna Junction, concealment, weight and value, Customs provisions, custody dates, and refusal of bail"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-br-0008",
+      "category": "hoarding",
+      "state": "Bihar",
+      "title": "Collector confiscated rice and wheat from private wheat-products company godown; High Court appeal dismissed",
+      "summary": "The Collector, Samastipur confiscated rice and wheat seized from a private wheat-products company's godown under Section 6-A of the Essential Commodities Act. The company sought release of the Rs 63.01 lakh auction amount with interest. The Patna High Court Division Bench dismissed the appeal on 1 September 2026.",
+      "date": "2026-09-01",
+      "date_label": "High Court Division Bench judgment",
+      "district": "Samastipur",
+      "outcome": "confiscation",
+      "authority": "Patna High Court (Division Bench); Collector, Samastipur",
+      "case_reference": "L.P.A No.274 of 2024 in C.W.J.C. No.5035 of 2020; Confiscation Case No. 50 of 2014",
+      "laws": [
+        "Section 6-A of the Essential Commodities Act, 1955",
+        "Section 6-C of the Essential Commodities Act, 1955"
+      ],
+      "acts": [
+        "Essential Commodities Act, 1955"
+      ],
+      "person": "a private wheat-products company and its director in Samastipur",
+      "penalty": "Confiscation of seized rice and wheat; auction amount of Rs 63,01,000 deposited in treasury; appeal for 18% interest dismissed",
+      "detail": [
+        "The High Court recorded that from the godown of the appellant company a huge quantity of rice and wheat was seized as essential commodities.",
+        "The High Court recorded that after seizure the authorities opened Confiscation Case No. 50 of 2014 and the Collector, Samastipur confiscated the food grains under Section 6-A of the Essential Commodities Act.",
+        "The High Court recorded that the price of the confiscated wheat and rice was later paid to the company, and the company then claimed interest under Section 6-C(2).",
+        "The High Court held that relief claimed in piecemeal manner after an earlier writ order attained finality was not maintainable, and dismissed the appeal."
+      ],
+      "current_position": "Confiscation stands and the appeal for interest was dismissed.",
+      "quote": {
+        "text": "Indisputably, from the godown of the appellant/petitioner huge quantity of rice and wheat were seized as essential commodities.",
+        "where": "L.P.A No.274 of 2024, para 2",
+        "url": "https://indiankanoon.org/doc/135204892/"
+      },
+      "caveats": "Exact seizure date not stated in the judgment; only Confiscation Case No. 50 of 2014 is given. No PDS-diversion or adulteration allegation appears in the judgment.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Storing rice and wheat in a private godown harmed no one; the judgment mentions no violence, fraud, PDS diversion or adulteration."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/135204892/",
+          "kind": "judgment",
+          "publisher": "Patna High Court via Indian Kanoon",
+          "date": "2026-09-01",
+          "supports": "seizure, confiscation case, confiscation order, auction amount, dismissal of appeal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-gj-0001",
+      "category": "crypto",
+      "state": "Gujarat",
+      "title": "Tax reassessment over ZebPay crypto trades quashed by High Court",
+      "summary": "The Income Tax Officer reopened a 2016-17 assessment to tax crypto purchases and sales made through an Indian exchange. The High Court recorded that the same crypto transactions had already been examined and accepted in an earlier assessment. It quashed the fresh reassessment order and notice.",
+      "date": "2025-09-01",
+      "date_label": "High Court judgment",
+      "district": "Ahmedabad",
+      "outcome": "quashed",
+      "authority": "Gujarat High Court (Justice Bhargav D. Karia and Justice Pranav Trivedi)",
+      "case_reference": "R/SPECIAL CIVIL APPLICATION NO. 8600 of 2024",
+      "laws": [
+        "Section 148A(b) of the Income Tax Act, 1961",
+        "Section 148A(d) of the Income Tax Act, 1961",
+        "Section 148 of the Income Tax Act, 1961",
+        "Section 147 of the Income Tax Act, 1961",
+        "Section 142(1) of the Income Tax Act, 1961",
+        "Section 144B of the Income Tax Act, 1961"
+      ],
+      "acts": [
+        "Income Tax Act, 1961"
+      ],
+      "person": "a business owner in Ahmedabad trading crypto through an Indian exchange",
+      "detail": [
+        "The High Court recorded that the tax officer started reassessment on information about cash deposits and crypto purchase and sale seen on the insight portal.",
+        "The High Court recorded that the officer earlier asked for crypto details and proposed adding Rs 8,77,250 as short-term capital gains, but then passed an assessment order accepting the declared income of Rs 3,20,580 with no adverse inference.",
+        "The High Court recorded that the officer then issued a fresh notice on the same crypto ground, saying crypto investment of about Rs 51 lakh and sale of about Rs 59 lakh showed escaped income of Rs 59,89,590.",
+        "The High Court held that reassessment cannot be used to review an earlier view on the same material, and quashed the order and notice dated 13.04.2023."
+      ],
+      "current_position": "The reassessment order and notice stand quashed and no further tax action on that ground survives.",
+      "quote": {
+        "text": "You have invested in Crypto Currency amounting to Rs.51,12,340/0 through ZEBPAY Exchange during the financial year 2015-16 relevant to AY 2016-17.",
+        "where": "C/SCA/8600/2024, judgment dated 01/09/2025, para 8.1 annexure",
+        "url": "https://indiankanoon.org/doc/24954973/"
+      },
+      "caveats": "Incident dates are financial-year 2015-16 transactions; no separate incident date is fixed. Profit figures differ between business-return and capital-gains treatment.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The state pursued tax proceedings only because the person bought and sold bitcoin and other crypto, an act with no victim, no fraud and no force."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/24954973/",
+          "kind": "judgment",
+          "publisher": "Gujarat High Court via Indian Kanoon",
+          "date": "2025-09-01",
+          "supports": "tax action over ZebPay crypto trades, amounts, earlier assessment, quashing of reassessment"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-gj-0002",
+      "category": "forex",
+      "state": "Gujarat",
+      "title": "Confiscation of 32,049 US dollars carried in hand baggage set aside for fresh hearing",
+      "summary": "Customs officers seized foreign currency from a traveller arriving from the United States and later confiscated it with a Rs 10 lakh penalty. The High Court recorded that the show-cause notice and order were never served at the traveller's disclosed overseas address. It quashed the confiscation order and remanded the case for a fresh hearing.",
+      "date": "2025-03-20",
+      "date_label": "High Court order",
+      "incident_date": "2022-10-06",
+      "district": "Ahmedabad",
+      "outcome": "quashed",
+      "authority": "Gujarat High Court (Justice Bhargav D. Karia and Justice D.N. Ray); Superintendent of Customs, Air Intelligence Unit and Additional Commissioner of Customs, Ahmedabad",
+      "case_reference": "R/SPECIAL CIVIL APPLICATION NO. 20637 of 2023; Order-in-Original dated 24.05.2023; punchnama dated 06.10.2022",
+      "laws": [
+        "Sections 111(f), 111(j), 111(l) and 111(m) of the Customs Act, 1962",
+        "Section 112(a)(i) of the Customs Act, 1962",
+        "Section 119 of the Customs Act, 1962",
+        "Section 153(e) of the Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "a United States citizen of Gujarat origin arriving at Ahmedabad airport",
+      "penalty": "Confiscation of foreign currency worth 32,049 USD and trolley bag, plus Rs 10 lakh penalty, as imposed in 2023 before the remand",
+      "detail": [
+        "The High Court recorded that the traveller arrived from Atlanta on 06.10.2022 carrying 32049 USD in hand baggage for repair of an ancestral home.",
+        "Customs said the currency was seized during immigration and a show-cause notice was issued, but the traveller had returned to the United States and did not receive it.",
+        "The High Court recorded that the department admitted the notice returned undelivered as insufficient address and then affixed it on the Custom House notice board.",
+        "The High Court held this was a gross violation of natural justice because the overseas address in the statement and passport was not used, and it remanded the matter for a fresh order within twelve weeks."
+      ],
+      "current_position": "The 2023 confiscation and penalty stand quashed and the case is remanded for fresh adjudication after hearing.",
+      "quote": {
+        "text": "It is not in dispute that the impugned foreign currency was seized on arrival of the petitioner on 06.10.2022 and the panchnama was also carried out at the time of seizure.",
+        "where": "C/SCA/20637/2023, order dated 20/03/2025, para 6",
+        "url": "https://indiankanoon.org/doc/4209448/"
+      },
+      "caveats": "Airport city is inferred from Ahmedabad Customs and Air Intelligence Unit; the judgment does not print the airport name in the extracted text. No 2026 Gujarat forex judgment with foreign currency was found.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The state seized and confiscated foreign currency only for being carried outside the authorised-dealer system, with no victim, violence, fraud or other charge."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/4209448/",
+          "kind": "judgment",
+          "publisher": "Gujarat High Court via Indian Kanoon",
+          "date": "2025-03-20",
+          "supports": "seizure of 32,049 USD, confiscation and Rs 10 lakh penalty, service failure, quashing and remand"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-gj-0003",
+      "category": "gold",
+      "state": "Gujarat",
+      "title": "Rs 4.46 crore Customs penalty upheld in Surat gold-paste smuggling case",
+      "summary": "Customs imposed a Rs 4,46,47,485 penalty on a trader accused of funding gold bought in the United Arab Emirates and smuggled as paste through Surat airport. The High Court recorded that the role fell under both aiding import and dealing in goods liable to confiscation. It dismissed the challenge to the penalty order.",
+      "date": "2026-04-16",
+      "date_label": "High Court judgment",
+      "incident_date": "2023-04-28",
+      "district": "Surat",
+      "outcome": "penalty",
+      "authority": "Gujarat High Court (Justice A.S. Supehia and Justice Pranav Trivedi); Additional Commissioner of Customs, Surat; DRI Regional Unit Surat; Special Operation Group, Surat Police",
+      "case_reference": "R/SPECIAL CIVIL APPLICATION NO. 3265 of 2026; Order-in-Original dated 06.11.2025; show-cause notice dated 22.05.2024",
+      "laws": [
+        "Section 112(a) and Section 112(b) of the Customs Act, 1962",
+        "Section 111 of the Customs Act, 1962",
+        "Section 124 of the Customs Act, 1962",
+        "Section 108 of the Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "a trader in Surat accused of arranging funds for gold purchases abroad",
+      "penalty": "Rs.4,46,47,485 penalty under Section 112 of the Customs Act, 1962",
+      "detail": [
+        "The High Court recorded that police intercepted a car near Surat after two passengers arrived from Sharjah, and recovered gold in paste form weighing 7158 grams.",
+        "Customs said the trader arranged around 2,75,000 Dirhams in the United Arab Emirates to buy gold and dealt in smuggled gold on commission.",
+        "The High Court recorded that the trader challenged the penalty as wrongly imposed under sub-clause (i) for prohibited goods instead of sub-clause (ii) for dutiable goods.",
+        "The High Court held smuggled gold brought without declaration counts as prohibited goods and the penalty under Section 112 was warranted, so it dismissed the petition."
+      ],
+      "current_position": "The writ challenge is dismissed and the Rs 4.46 crore penalty order stands, subject to any statutory appeal.",
+      "quote": {
+        "text": "In the present writ petition, the petitioner has assailed the Order-in-Original dated 06.11.2025 imposing penalty of Rs.4,46,47,485/- by invoking the provisions of Section 112(a) and Section 112(b) of the Customs Act, 1962 (for short \"the Act\").",
+        "where": "C/SCA/3265/2026, judgment dated 16/04/2026, para 1",
+        "url": "https://indiankanoon.org/doc/137543675/"
+      },
+      "caveats": "The judgment decides only the legal challenge to the penalty clause; the underlying smuggling allegations remain as recorded by Customs and DRI and were not tried in this writ case.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The state penalised carrying and storing gold without declaration, an act with no victim, no violence, no fraud and no adulterated product."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/137543675/",
+          "kind": "judgment",
+          "publisher": "Gujarat High Court via Indian Kanoon",
+          "date": "2026-04-16",
+          "supports": "gold-paste interception, penalty amount, legal provisions, dismissal of challenge"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-mh-0004",
+      "category": "trade",
+      "state": "Maharashtra",
+      "title": "DRI seizes 132 containers of farm produce at Nhava Sheva and arrests importer",
+      "summary": "The DRI in Mumbai intercepted 132 containers at Nhava Sheva Port that were declared as Toor Dal but held watermelon seeds and green peas worth about Rs 139 crore. The proprietor of the importing firm was arrested and the goods were seized. The press release is dated 20 April 2026.",
+      "date": "2026-04-20",
+      "date_label": "PIB press release",
+      "incident_date": "2026-04-19",
+      "district": "Raigad",
+      "outcome": "arrest",
+      "authority": "Directorate of Revenue Intelligence, Mumbai",
+      "laws": [
+        "Customs Act, 1962",
+        "DGFT Notification No. 05/2023 dated 05.04.2024",
+        "DGFT Notification No. 37/2015-20 dated 18.12.2019"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "proprietor of an importing firm, intercepted at Nhava Sheva Port",
+      "detail": [
+        "The PIB recorded that the DRI in Mumbai found a smuggling racket involving restricted farm goods at Nhava Sheva Port.",
+        "The PIB recorded that officers intercepted 132 containers with about 3,029 MT of goods misdeclared as Toor Dal or Pigeon Peas.",
+        "The PIB recorded that checks found 2,710 MT of watermelon seeds from Tanzania and Sudan and 319 MT of green peas from Canada, worth about Rs 139 crore.",
+        "The DRI statement as reported said the proprietor of the importing firm, described as a key person behind the operation, was arrested on 19 April 2026 and further probe is underway."
+      ],
+      "current_position": "The goods were seized and the importer was arrested; further investigation was underway.",
+      "quote": {
+        "text": "The Directorate of Revenue Intelligence (DRI), Mumbai has unearthed a major smuggling racket involving restricted agricultural commodities at Nhava Sheva Port.",
+        "where": "PIB Release ID 2253877, press release dated 20 April 2026",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253877"
+      },
+      "caveats": "Case or crime number, court remand details and duty amount could not be confirmed from the press release.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Moving ordinary farm produce across borders harmed no complaining victim; the case punishes misdeclared seeds and peas, not gold, drugs, arms, wildlife or counterfeit goods."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253877",
+          "kind": "press_release",
+          "publisher": "Press Information Bureau, Mumbai",
+          "date": "2026-04-20",
+          "supports": "seizure of 132 containers, quantities and value, misdeclaration, Nhava Sheva Port, arrest"
+        },
+        {
+          "url": "https://www.thehansindia.com/news/national/illegal-consignment-seized-at-nhava-sheva-port-1067791",
+          "kind": "news",
+          "publisher": "The Hans India",
+          "date": "2026-04-21",
+          "supports": "arrest date 19 April, 2,710 MT watermelon seeds and 319 MT green peas, import restriction details"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-mh-0005",
+      "category": "capital",
+      "state": "Maharashtra",
+      "title": "ED searches Mumbai export firm premises in FEMA probe over foreign assets",
+      "summary": "The ED searched multiple premises in Mumbai on 9 July 2026 in a FEMA case involving a Mumbai export company. The agency said it found evidence of undisclosed foreign companies and bank accounts and unrealised export proceeds worth crores of rupees. Devices and documents were seized and examination continues.",
+      "date": "2026-07-10",
+      "date_label": "ED press release",
+      "district": "Mumbai",
+      "outcome": "seizure",
+      "authority": "Directorate of Enforcement",
+      "laws": [
+        "Foreign Exchange Management Act, 1999",
+        "Foreign Exchange Management (Export of Goods and Services) Regulations, 2015"
+      ],
+      "acts": [
+        "Foreign Exchange Management Act, 1999"
+      ],
+      "person": "director of a Mumbai export firm",
+      "detail": [
+        "The ED stated that its Headquarters Investigation Unit searched multiple premises in Mumbai on 9 July 2026 under FEMA in the case of a Mumbai export company.",
+        "The ED stated that evidence of undisclosed foreign companies and foreign bank accounts of a director was found and had not been disclosed in income tax returns.",
+        "The ED stated that export proceeds running into crores of rupees had not been realised despite lapse of permitted time, with no extension from authorised dealer banks or RBI.",
+        "The Indian Express reported that money which ought to have come to India had not come despite substantial time, with no documented recovery efforts."
+      ],
+      "current_position": "Searches and seizures are complete; the seized material is being examined to trace overseas assets and the money trail.",
+      "quote": {
+        "text": "conducted searches on 09.07.2026 at multiple premises in Mumbai under the provisions of Foreign Exchange Management Act, 1999 in the case of Kalanee Impex Private Limited.",
+        "where": "ED press release dated 10.07.2026, opening paragraph",
+        "url": "https://enforcementdirectorate.gov.in/media/press-release-documents/20d34e86-b987-45d8-bfb3-04c29ceb39a1_PRESS%20RELEASE-Search-Kalanee%20Impex-1072026.pdf"
+      },
+      "caveats": "The ED release also mentions older US and UK customs matters for background; their linkage to the Indian exports is still under examination and no FEMA penalty amount was stated. Case number not published.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Holding money abroad and keeping export earnings outside India has no complaining victim; the action targets cross-border capital movement, not drugs, bribes, fraud proceeds or election cash."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://enforcementdirectorate.gov.in/media/press-release-documents/20d34e86-b987-45d8-bfb3-04c29ceb39a1_PRESS%20RELEASE-Search-Kalanee%20Impex-1072026.pdf",
+          "kind": "press_release",
+          "publisher": "Directorate of Enforcement",
+          "date": "2026-07-10",
+          "supports": "Mumbai FEMA searches on 09.07.2026, undisclosed foreign companies and accounts, unrealised export proceeds, seizure of documents and devices"
+        },
+        {
+          "url": "https://indianexpress.com/article/cities/mumbai/ed-raids-shekhar-suman-dharmesh-sangani-kalanee-impex-fema-violations-10780876",
+          "kind": "news",
+          "publisher": "The Indian Express",
+          "date": "2026-07-10",
+          "supports": "Mumbai searches under FEMA, unrealised export proceeds, no documented recovery efforts"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-mh-0006",
+      "category": "business",
+      "state": "Maharashtra",
+      "title": "BIS seizes electronics from Navi Mumbai shop over invalid marks",
+      "summary": "The BIS Mumbai office searched a shop at Vashi Railway Station in Navi Mumbai on 30 July 2026 and seized 12 power banks, headsets and earbuds. The goods bore invalid BIS registration numbers in violation of the BIS Act. BIS said it will file a criminal complaint.",
+      "date": "2026-07-31",
+      "date_label": "PIB press release",
+      "incident_date": "2026-07-30",
+      "district": "Thane",
+      "outcome": "seizure",
+      "authority": "Bureau of Indian Standards, Mumbai Branch Office",
+      "laws": [
+        "Section 17 of the Bureau of Indian Standards Act, 2016",
+        "Section 29 of the Bureau of Indian Standards Act, 2016"
+      ],
+      "acts": [
+        "Bureau of Indian Standards Act, 2016"
+      ],
+      "person": "shop operator in Vashi, Navi Mumbai",
+      "detail": [
+        "The PIB recorded that the BIS Mumbai Branch Office searched a shop at Vashi Railway Station, Navi Mumbai on 30 July 2026 to curb misuse of the BIS Standard Mark.",
+        "The PIB recorded that officers seized 12 electronic products including power banks, wireless headsets and earbuds bearing invalid BIS registration numbers.",
+        "The PIB recorded that one product carried another product's registration number and some variants were outside their BIS registrations, violating Section 17 of the BIS Act, 2016.",
+        "The PIB recorded that BIS will start legal proceedings by filing a criminal complaint under Section 17 read with Section 29 of the Act."
+      ],
+      "current_position": "Goods seized; BIS criminal complaint against the firm to be filed.",
+      "quote": {
+        "text": "The Bureau of Indian Standards (BIS), Mumbai Branch Office, conducted a search and seizure operation on 30 July 2026 at [name withheld], located at Vashi Railway Station, Navi Mumbai as part of its ongoing enforcement activities to curb misuse of the BIS Standard Mark and protect consumer interests.",
+        "where": "PIB Release ID 2292429, press release dated 31 July 2026",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2292429"
+      },
+      "caveats": "Whether the criminal complaint has been filed in court could not be confirmed; no court case number was published.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Selling everyday electronics with paperwork or mark defects harmed no complaining victim; the action is licence-permit enforcement for missing or invalid certification."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2292429",
+          "kind": "press_release",
+          "publisher": "Press Information Bureau, Mumbai",
+          "date": "2026-07-31",
+          "supports": "search and seizure on 30 July 2026 at Vashi, 12 products seized, invalid BIS marks, Sections 17 and 29, criminal complaint to follow"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-mp-0007",
+      "category": "labour",
+      "state": "Madhya Pradesh",
+      "title": "Cement maker faced prosecution for not re-employing contract worker",
+      "summary": "The Labour Commissioner directed prosecution of a private cement company and its Managing Director for alleged breach of a Labour Court award. The award had asked the company to get a new contractor to employ a carpenter engaged through an old contractor. The High Court held there was no violation and quashed the prosecution order.",
+      "date": "2024-11-12",
+      "date_label": "High Court order",
+      "incident_date": "2016-12-24",
+      "district": "Satna",
+      "outcome": "quashed",
+      "authority": "High Court of Madhya Pradesh at Jabalpur (Justice [name withheld]); Labour Commissioner, Madhya Pradesh (prosecution direction)",
+      "case_reference": "WP No. 1680 of 2023; Labour Commissioner order dated 18.10.2022 (Annexure P/12); Labour Court, Satna award dated 29.11.2019/02.01.2020",
+      "laws": [
+        "Section 29 of the Industrial Disputes Act, 1947",
+        "Section 18 of the Industrial Disputes Act, 1947"
+      ],
+      "acts": [
+        "Industrial Disputes Act, 1947"
+      ],
+      "person": "Managing Director and private cement company operating at Maihar (Labour Court case at Satna)",
+      "detail": [
+        "The High Court recorded that the case concerned a cement unit and a carpenter engaged through a labour-supply contractor. The old contractor resigned on 24.12.2016 and the worker was asked to join a new contractor, but instead challenged the change before the Labour Court, Satna.",
+        "The High Court recorded that the Labour Court directed the company and its manager to direct the new contractor to employ the worker on the same pay and conditions, and the company wrote to the new contractor accordingly. The new contractor then asked the worker to join a grinding unit in West Bengal, which the worker refused.",
+        "The High Court recorded that on the worker's application the Labour Commissioner passed the order dated 18.10.2022 directing prosecution of the Managing Director for breach of award under Section 29 for violation of Section 18 of the Industrial Disputes Act.",
+        "The High Court held that the company had only to direct the new contractor, which it did, that there was no direct employer-employee relationship, and that there was no violation of Section 18. The Court held the prosecution direction per se illegal and quashed it."
+      ],
+      "current_position": "The prosecution direction dated 18.10.2022 stands quashed and the writ petition was allowed with no order as to costs.",
+      "quote": {
+        "text": "The order dated 18.10.2022 (Annexure P/12) passed by the learned Labour Court taking cognizance in the matter and directing for prosecution of the petitioners is per se illegal. The same is hereby quashed.",
+        "where": "WP-1680-2023, final paragraph",
+        "url": "https://indiankanoon.org/doc/30737847/"
+      },
+      "caveats": "District is given as Satna on the basis of Labour Court, Satna; the factory town is Maihar (now Maihar district). Exact worker identity and Managing Director name were not relied on for listing.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "A private employer was criminally pursued for a staffing choice about contract labour. No injury, death, unpaid wages owed, child labour or bonded labour was alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/30737847/",
+          "kind": "judgment",
+          "publisher": "High Court of Madhya Pradesh",
+          "date": "2024-11-12",
+          "supports": "prosecution direction under Sections 18/29, contract-labour facts, award, and quashing"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-mp-0008",
+      "category": "hoarding",
+      "state": "Madhya Pradesh",
+      "title": "Fertiliser dealer prosecuted for storing stock at two nearby places",
+      "summary": "Police and the Fertiliser Inspector booked a fertiliser dealer in Ratlam district for storing fertiliser at two places other than the licensed premises. The dealer said the shift was temporary during godown repairs and had been intimated in writing. The High Court held no offence was made out and discharged the dealer.",
+      "date": "2026-02-19",
+      "date_label": "High Court order",
+      "incident_date": "2019-11-17",
+      "district": "Ratlam",
+      "outcome": "quashed",
+      "authority": "High Court of Madhya Pradesh at Indore (Justice [name withheld]); Judicial Magistrate First Class, Ratlam; I Additional Sessions Judge, Ratlam",
+      "case_reference": "MCRC No. 38683 of 2023; RCT No. 35/2020 (JMFC Ratlam); Criminal Revision No. 36/2021; FIR at Police Station Namli on complaint dated 17.11.2019",
+      "laws": [
+        "Clause 6 of the Fertiliser (Control) Order, 1985",
+        "Clause 7 of the Fertiliser (Control) Order, 1985",
+        "Section 3 of the Essential Commodities Act, 1955",
+        "Section 7 of the Essential Commodities Act, 1955"
+      ],
+      "acts": [
+        "Essential Commodities Act, 1955",
+        "Fertiliser (Control) Order, 1985"
+      ],
+      "person": "a fertiliser retail dealer in Namli, Ratlam district",
+      "detail": [
+        "The High Court recorded that the Fertiliser Inspector complained on 17.11.2019 that inspection of a shop at Old Namli Bus Stand showed fertiliser stored at two other places, a tin-shed near a clinic and a shop near a bank on the main road, while the licence permitted storage only at the licensed shop.",
+        "The High Court recorded that police at Namli registered an FIR under Sections 3 and 7 of the Essential Commodities Act read with Clause 7 of the Fertiliser (Control) Order, seized documents, recorded witnesses, and filed a final report. The Magistrate framed charge and the Sessions Court affirmed it.",
+        "The High Court recorded that the dealer contended Clause 7 did not require such intimation, there was no allegation of displaying a price list or offering sale from the two places, and a letter dated 15.10.2019 about temporary shifting for godown repairs had been received by the authority on 16.10.2019.",
+        "The High Court held that violation of Clause 6 or 7 was not prima facie made out, that prosecution would be abuse of process, and quashed the charge orders. The Court stated the petitioner stands discharged."
+      ],
+      "current_position": "Charge order dated 24.2.2021 and revisional order dated 19.07.2023 are quashed and the dealer stands discharged.",
+      "quote": {
+        "text": "Consequently, the order dated 19.07.2023 passed by I Additional Sessions Judge Ratlam in criminal revision no. 36/2021 affirming the order dated 24.2.2021 passed by Judicial Magistrate First Class Namli in RCT No. 35/2020 is quashed. The petitioner stands discharged.",
+        "where": "MCRC No. 38683 of 2023, para 9",
+        "url": "https://indiankanoon.org/doc/175908894/"
+      },
+      "caveats": "Exact inspection date beyond complaint date 17.11.2019 could not be confirmed; quantity and value of fertiliser were not stated in the order.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Storing goods at a different place and paperwork about storage harmed no one. No PDS diversion, adulteration, cheating, spurious product or victim was alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/175908894/",
+          "kind": "judgment",
+          "publisher": "High Court of Madhya Pradesh",
+          "date": "2026-02-19",
+          "supports": "inspection, storage-location allegation, licence No. 553, intimation letter, charge and discharge"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-mp-0009",
+      "category": "property",
+      "state": "Madhya Pradesh",
+      "title": "Developer stopped from building basements on its own land",
+      "summary": "The municipal council told a private developer in Shivpuri to immediately stop work on its own commercial-cum-residential project, alleging basement area beyond 1,566 sqm. The developer said its sanctioned plan allowed two basements of about 2,764 and 2,815 sqm. The High Court held the notice misread the rules and quashed it.",
+      "date": "2026-07-01",
+      "date_label": "High Court order",
+      "district": "Shivpuri",
+      "outcome": "quashed",
+      "authority": "High Court of Madhya Pradesh at Gwalior (Justice [name withheld]); [name withheld], Shivpuri",
+      "case_reference": "WP No. 37075 of 2024; impugned notice dated 08.11.2024 (Annexure P/1); building permission dated 04.03.2024",
+      "laws": [
+        "Madhya Pradesh Municipalities Act, 1961",
+        "Madhya Pradesh Nagar Tatha Gram Nivesh Adhiniyam, 1973",
+        "Madhya Pradesh Bhumi Vikas Rules, 2012 - Rule 2(7), Rule 2(20), Rule 42 with Table No. 4, Rule 76"
+      ],
+      "acts": [
+        "Madhya Pradesh Municipalities Act, 1961",
+        "Madhya Pradesh Nagar Tatha Gram Nivesh Adhiniyam, 1973",
+        "Madhya Pradesh Bhumi Vikas Rules, 2012"
+      ],
+      "person": "a private real-estate development company in Shivpuri district",
+      "detail": [
+        "The High Court recorded that the company owned land of about 5,220 sqm in Shivpuri, had mutation and diversion, and had obtained Nazul NOC, town-planning approval, colonizer licence, Collector permission, municipal building permission and RERA registration before starting work.",
+        "The High Court recorded that the municipal council issued notice dated 08.11.2024 to stop all construction, alleging basement of about 2,876 sqm against permissible ground coverage of 1,566 sqm and alleged violation of the 1973 Adhiniyam and 2012 Rules.",
+        "The High Court recorded that the company replied that the sanctioned building permission itself allowed two basements of the larger areas and that ground coverage and basement area are distinct concepts under the Rules.",
+        "The High Court held that the Rules regulate ground coverage and basements separately, that no rule caps basement area at ground-coverage area, and that the authority could not act against its own sanction without withdrawing it in law. The notice was quashed."
+      ],
+      "current_position": "The stop-construction notice dated 08.11.2024 stands quashed; the company may build per the sanctioned permission dated 04.03.2024, subject to future lawful action for any fresh violation.",
+      "quote": {
+        "text": "Accordingly, the impugned notice/order dated 08.11.2024 (Annexure P/1) is hereby quashed.",
+        "where": "WP-37075-2024, concluding paragraph",
+        "url": "https://indiankanoon.org/doc/23832670/"
+      },
+      "caveats": "Exact construction dates in 2024 were not specified beyond permission/RERA dates; investment figure of about Rs 4.68 crores is as claimed by the company.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Building on one's own diverted and sanctioned land harmed no one. No encroachment on public or another person's land, no victim, and no fraud was alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/23832670/",
+          "kind": "judgment",
+          "publisher": "High Court of Madhya Pradesh",
+          "date": "2026-07-01",
+          "supports": "ownership, permissions, stop-work notice allegation, and quashing"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-up-0003",
+      "category": "gold",
+      "state": "Uttar Pradesh",
+      "title": "Customs confiscation of three concealed gold bars upheld in Uttar Pradesh",
+      "summary": "DRI officers seized three foreign-marked gold bars hidden in shoes from bus passengers at Prayagraj. The High Court held the gold was smuggled foreign-origin gold and restored its confiscation.",
+      "date": "2026-09-02",
+      "date_label": "High Court judgment",
+      "incident_date": "2020-11-28",
+      "district": "Prayagraj",
+      "outcome": "confiscation",
+      "authority": "High Court of Judicature at Allahabad, Lucknow Bench (Justice Shekhar B. Saraf and Justice Abdhesh Kumar Chaudhary); Directorate of Revenue Intelligence, Lucknow Zonal Unit; Commissioner of Customs (Preventive), Lucknow",
+      "case_reference": "CUSTOM APPEAL No. 1 of 2026 with Nos. 2 and 3 of 2026",
+      "laws": [
+        "Section 111(a)(b)(h)(m) of the Customs Act, 1962",
+        "Section 123 of the Customs Act, 1962",
+        "Section 110 of the Customs Act, 1962",
+        "Section 112(b) of the Customs Act, 1962",
+        "Section 130 of the Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "two employees of a jeweller travelling by bus from Nagpur to Prayagraj, and the jeweller who claimed ownership of the gold",
+      "penalty": "Absolute confiscation of 2,997 grams of gold restored; penalties under Section 112 reduced to 50% as reported",
+      "detail": [
+        "The High Court recorded that on 28 November 2020 DRI Lucknow officers intercepted two men on a Nagpur to Prayagraj bus at Prayagraj and recovered three yellow bars weighing 2,997 grams valued at Rs 1,43,85,600, wrapped in tape and hidden in shoes.",
+        "The High Court recorded that the two carriers stated they were carrying foreign-origin gold for delivery at Prayagraj without purchase or import documents, and a later search found silver bullion and cash at the house and shop of the jeweller who claimed the gold.",
+        "The High Court recorded that the adjudicating authority in November 2022 had ordered absolute confiscation of the gold, silver and cash with penalties, but the Commissioner (Appeals) in June 2023 and CESTAT Allahabad in April 2025 set the confiscation aside on GST invoices.",
+        "The High Court held the CESTAT finding perverse, finding contradictions on sellers, on 35 versus 38 pieces sent to a refiner, and unexplained foreign markings, and restored confiscation of the three gold bars while reducing penalties to 50%.",
+        "The news summary of the judgment said the Court kept the confiscation of the three foreign-marked bars but set aside confiscation of silver bullion and Indian cash for lack of proof of foreign origin or smuggling nexus."
+      ],
+      "current_position": "Revenue appeals partly allowed; confiscation of the three gold bars restored and penalties reduced.",
+      "quote": {
+        "text": "The aforesaid three yellow coloured metal bars weighing 2,997 grams valued at Rs. 1,43,85,600/-, were wrapped in tape and concealed inside the shoes of the intercepted persons.",
+        "where": "CUSTOM APPEAL No. 1 of 2026, para 4(a)",
+        "url": "https://indiankanoon.org/doc/84682878/"
+      },
+      "caveats": "Operative paragraphs at the end of the Indian Kanoon text were truncated in fetch; final result on penalties relies on the LiveLawBiz summary. Silver and cash in the same case were released for lack of proof and are not relied on for this listing.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Carrying and storing gold harmed no complaining victim; the case records no violence, fraud, minors, coercion or spurious product, only duty and import-prohibition enforcement."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/84682878/",
+          "kind": "judgment",
+          "publisher": "Allahabad High Court, Lucknow Bench via Indian Kanoon",
+          "date": "2026-09-02",
+          "supports": "interception at Prayagraj, weight and value, concealment, statements, confiscation history and final order restoring gold confiscation"
+        },
+        {
+          "url": "https://www.livelawbiz.com/customs/high-court/customs-act-presumption-of-smuggling-cannot-be-invoked-unless-revenue-first-establishes-foreign-origin-of-seized-goods-allahabad-high-court-549007",
+          "kind": "news",
+          "publisher": "LiveLawBiz",
+          "date": "2026-09-08",
+          "supports": "case number, bench, dates, that gold-bar confiscation was upheld while silver and cash confiscation was set aside and penalties cut to 50%"
+        }
+      ],
+      "verification": "V2"
     }
   ]
 }

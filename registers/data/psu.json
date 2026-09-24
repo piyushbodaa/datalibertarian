@@ -604,6 +604,397 @@
       ],
       "caveats": "The CAG figures are from the company's latest finalised accounts at the time of audit (2021-22). The plant is operating; 'sick' here means its net worth is negative, not that it is closed or listed for sale.",
       "verification": "V2"
+    },
+    {
+      "id": "psu-br-0005",
+      "category": "dfi",
+      "state": "Bihar",
+      "name": "Bihar State Financial Corporation (BSFC)",
+      "summary": "BSFC is a state-level development financial institution established in 1954 under the State Financial Corporations Act, 1951 to finance small and medium industrial units. The Bihar government holds 51.32% and SIDBI 48.43% of its Rs 77.84 crore paid-up capital. It has done no fresh lending since 1990-91 and survives on recovery, rentals and deposits, with its Bihar-Jharkhand bifurcation still pending.",
+      "date": "2024-04-01",
+      "district": "Patna",
+      "headquarters": "Patna, Bihar",
+      "state_link": "Bihar state government holds 51.32% (majority) and the corporation is headquartered at Vittya Nigam Bhawan, Frazer Road, Patna, Bihar",
+      "owner": "State government (Bihar)",
+      "shareholding": "State Govt 51.32% (39,94,770 shares); SIDBI 48.43% (37,69,770 shares); institutional 0.14%; private 0.11%; paid-up capital Rs 77.84 crore, authorised Rs 100 crore (as published on BSFC financial page, no as-of date given)",
+      "administrative": "Government of Bihar",
+      "legal_form": "Statutory corporation (State Financial Corporations Act, 1951)",
+      "established": "1954 under the SFCs Act, 1951",
+      "status": "Sick (net worth negative)",
+      "detail": [
+        "BSFC's official about page states it was established in 1954 under the SFCs Act, 1951 as a state-level development financial institution to provide medium and long term credit to small and medium industrial units, headquartered at Vittya Nigam Bhawan, Frazer Road, Patna (source: bsfc.co.in/about).",
+        "Its official financial page gives authorised capital Rs 100 crore and paid-up capital Rs 77.84 crore with State Govt 51.32% and SIDBI 48.43%; it states IDBI/SIDBI dues are fully settled with nil outstanding, a State Govt loan of Rs 228.47 crore, cumulative disbursement of Rs 438.49 crore to 7,223 units, recovery of Rs 870 crore as on 01.06.2021, and 2,267 units in the loan portfolio as on 01.04.2024 (source: bsfc.co.in/financial).",
+        "The same official page states fresh financing stopped in 1990-91 after SIDBI stopped refinance, recovery is via sale of mortgaged assets under Section 29 of the SFCs Act, OTS-2018 realised Rs 41 crore, and the audited 31.03.2018 balance sheet showed liabilities Rs 595.63 crore against assets Rs 208.72 crore; bifurcation between Bihar and Jharkhand (65.03:34.97) is pending after an inconclusive secretary-level meeting on 14.12.2018 (source: bsfc.co.in/financial)."
+      ],
+      "caveats": "No 2025 or 2026 official development (results, CAG finding, revival order) could be confirmed from opened pages; the most recent official data point is the 01.04.2024 loan-portfolio figure. Latest revenue/profit and employee figures are not published on the pages opened, so financials and employees are null. Administrative department not stated on opened pages.",
+      "on_the_block": true,
+      "sources": [
+        {
+          "url": "https://bsfc.co.in/about",
+          "kind": "company_site",
+          "publisher": "Bihar State Financial Corporation",
+          "date": null,
+          "supports": "establishment 1954 under SFCs Act 1951, DFI role, Patna address"
+        },
+        {
+          "url": "https://bsfc.co.in/financial",
+          "kind": "company_site",
+          "publisher": "Bihar State Financial Corporation",
+          "date": null,
+          "supports": "shareholding percentages, capital, disbursement/recovery figures, 01.04.2024 portfolio, lending stopped 1990-91, 2018 balance sheet, bifurcation"
+        },
+        {
+          "url": "https://bsfc.co.in/",
+          "kind": "company_site",
+          "publisher": "Bihar State Financial Corporation",
+          "date": null,
+          "supports": "shareholding pattern, paid-up capital Rs 77.84 crore, Patna headquarters"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-br-0006",
+      "category": "departmental",
+      "state": "Bihar",
+      "name": "East Central Railway (ECR)",
+      "summary": "East Central Railway is a railway zone of Indian Railways under the Ministry of Railways. It is headquartered at Hajipur, Vaishali district, Bihar, and became operational on 1 October 2002. Its network is reported at about 9,518 track km and fully electrified as of 31 March 2025.",
+      "date": "2025-03-31",
+      "district": "Vaishali",
+      "headquarters": "Hajipur, Bihar",
+      "state_link": "Central-government railway zone headquartered at Hajipur, Bihar (district headquarters of Vaishali)",
+      "owner": "Central government",
+      "administrative": "Ministry of Railways",
+      "legal_form": "Railway zone under the Ministry of Railways",
+      "established": "2002: operational from 1 October 2002, carved from Eastern and North Eastern Railways",
+      "status": "Operating",
+      "detail": [
+        "ECR's official introduction page states the zone is headquartered at Hajipur (Bihar), became fully operational on 1 October 2002, was carved out of parts of the Eastern Railway and North Eastern Railway zones, and comprises five divisions: Danapur, Dhanbad, Pt Deen Dayal Upadhyaya, Sonpur and Samastipur (source: ecr.indianrailways.gov.in introduction page). The division-wise mapping (Sonpur and Samastipur from N.E. Railway; Danapur, Dhanbad and Pt Deen Dayal Upadhyaya from Eastern Railway) is stated on the Wikipedia page (source: Wikipedia East Central Railway zone page).",
+        "As of 31 March 2025 the zone is reported to operate 9,518.196 track km and 4,399.897 route km across Bihar, Jharkhand, Uttar Pradesh and Madhya Pradesh and to be fully electrified; Hajipur is the district headquarters of Vaishali, about 25 km by road from Patna (source: secondary compilation, Wikipedia East Central Railway zone page, which cites the ECR official site). The official introduction page likewise reports over 4,400 route km, more than 9,500 track km, four states, and 100% electrification of broad-gauge routes.",
+        "FY2024-25 station figures compiled on the same page put Patna Junction first (passenger revenue about Rs 816.11 crore, footfall about 5.93 crore), followed by Danapur and Muzaffarpur Junction (source: secondary compilation; an official zone-level earnings release for 2025-26 was not opened)."
+      ],
+      "caveats": "Zone-level revenue/profit and employee counts are not published separately from Indian Railways accounts on the pages opened, so financials and employees are null. Network and station figures above are from a secondary compilation, not an official release opened during this run; no 2026 official zone development was verified.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://ecr.indianrailways.gov.in/view_section.jsp?backgroundColor=LIGHTSTEELBLUE&fontColor=black&id=0,1,261&lang=0",
+          "kind": "company_site",
+          "publisher": "East Central Railway / Ministry of Railways",
+          "date": null,
+          "supports": "headquarters Hajipur (Bihar), formation 1 Oct 2002, five divisions"
+        },
+        {
+          "url": "https://ecr.indianrailways.gov.in/view_section.jsp?lang=0&id=0,1,334",
+          "kind": "company_site",
+          "publisher": "East Central Railway / Ministry of Railways",
+          "date": null,
+          "supports": "zone history and formation"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/East_Central_Railway_zone",
+          "kind": "news",
+          "publisher": "Wikipedia (citing ECR official site and Times of India)",
+          "date": null,
+          "supports": "network size, full electrification as of 31 March 2025, Vaishali location, FY2024-25 station revenues; used as secondary context only"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-br-0007",
+      "category": "statutory",
+      "state": "Bihar",
+      "name": "Bihar State Road Transport Corporation (BSRTC)",
+      "summary": "BSRTC is a statutory road-transport corporation set up in 1959 under the Road Transport Corporation Act, 1950 and wholly owned by the Government of Bihar. In August 2026 it announced the induction of 549 new buses including electric buses under the PM e-Bus Sewa scheme, taking the fleet from about 960 to 1,526. Daily ridership of over one lakh is projected to cross two lakh after deployment.",
+      "date": "2026-08-05",
+      "district": "Patna",
+      "headquarters": "Patna, Bihar",
+      "state_link": "Wholly owned by the Government of Bihar; operates across Bihar from Patna",
+      "owner": "State government (Bihar)",
+      "shareholding": "Wholly owned by Government of Bihar (per BSRTC official site; no percentage table or as-of date published)",
+      "administrative": "Transport Department, Government of Bihar",
+      "legal_form": "Statutory corporation (Road Transport Corporations Act, 1950)",
+      "established": "1959 as a statutory corporation (origin as Rajya Transport in 1953)",
+      "status": "Operating",
+      "detail": [
+        "BSRTC's official site states it is a state-owned road transportation undertaking in Bihar, set up in 1959 under the Road Transport Corporation Act, 1950, wholly owned by the Government of Bihar (source: bsrtc.co.in About Us).",
+        "On 5 August 2026 BSRTC announced induction of 549 new vehicles including electric buses under the Centre's PM e-Bus Sewa scheme: about 200 of 400 allotted e-buses by end-August plus 74 non-AC and 75 AC deluxe buses, raising the fleet from about 960 to 1,526 buses (source: Times of India, Patna, 5 Aug 2026, reporting BSRTC figures).",
+        "The same report states daily ridership over one lakh is projected to cross two lakh, AC e-buses will serve Patna, Gaya, Bhagalpur, Muzaffarpur, Darbhanga and Purnia including pink buses for women with about 180 km range per charge, and Transport Secretary Raj Kumar linked the induction to lower diesel use and stronger urban, rural and interstate connectivity with new terminals and charging infra (source: Times of India, 5 Aug 2026)."
+      ],
+      "caveats": "Fleet and ridership figures are BSRTC figures as reported by news; the official BSRTC/Transport Department release itself was not opened. Latest revenue/profit and employee figures are not available on opened pages, so financials and employees are null.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://bsrtc.co.in/",
+          "kind": "company_site",
+          "publisher": "Bihar State Road Transport Corporation",
+          "date": null,
+          "supports": "set up 1959 under Road Transport Corporation Act 1950, wholly owned by Government of Bihar"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/city/patna/bsrtc-expands-its-fleet-549-new-buses-to-hit-bihar-roads-by-aug-end/amp_articleshow/132952410.cms",
+          "kind": "news",
+          "publisher": "The Times of India",
+          "date": "2026-08-05",
+          "supports": "549-bus induction, PM e-Bus Sewa e-buses, fleet 960 to 1,526, ridership projection, routes and official quotes; news-reported context"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-ka-0003",
+      "category": "bank",
+      "state": "Karnataka",
+      "name": "Canara Bank",
+      "summary": "Canara Bank is an Indian public sector bank headquartered in Bengaluru, Karnataka, founded in Mangalore in 1906 and nationalised in 1969. The Government of India held 62.93% of equity as of the June 2026 quarter disclosure. Its most recent development noted is the appointment of Brajesh Kumar Singh as MD & CEO reported 1 June 2026, alongside the 1 May 2025 formation of Karnataka Grameena Bank under its sponsorship.",
+      "date": "2026-06-01",
+      "district": "Bengaluru Urban",
+      "headquarters": "Bengaluru, Karnataka",
+      "state_link": "Public sector bank based/headquartered in Bengaluru, Karnataka (Head Office Town Hall Junction, Bengaluru)",
+      "owner": "Central government (Government of India promoter)",
+      "shareholding": "Government of India (President of India) held 5,708,548,390 shares, 62.93% of 9,070,651,261 equity shares, quarter ended June 2026; public holding 37.07% (as reported on page opened, citing shareholding disclosure)",
+      "administrative": "Ministry of Finance (Banking Companies (Acquisition and Transfer of Undertakings) Act framework)",
+      "legal_form": "Statutory corporation / Public sector bank (nationalised bank), Listed company (BSE: 532483, NSE: CANBK)",
+      "established": "1906: established 1 July 1906 at Mangalore by Ammembal Subba Rao Pai as Canara Hindu Permanent Fund, renamed Canara Bank Ltd in 1910; nationalised 19 July 1969",
+      "status": "Operating",
+      "employees": "81,260 as of March 2025 (as reported on page opened)",
+      "detail": [
+        "Canara Bank is described as an Indian public sector bank based in Bengaluru, established in 1906 in Mangalore and nationalised in 1969, with head office at Town Hall Junction, Bengaluru, per the pages opened (bank site confirms Bengaluru presence).",
+        "Scale noted on the page: 10,131 branches and 7,907 ATMs and 2,940 CRMs as of June 2025, and 10,097 branches as of March 2026; merger of Syndicate Bank into Canara Bank completed 1 April 2020 creating the fourth-largest PSB at the time, per the page opened.",
+        "Ownership and recent changes: promoter holding 62.93% as of October 2025 and in the June 2026 quarter disclosure; Brajesh Kumar Singh became MD & CEO reported 1 June 2026; sponsored RRBs include Kerala Grameena Bank and Karnataka Grameena Bank headquartered at Ballari with 1,750 branches established 1 May 2025 under One State-One RRB, per the page opened."
+      ],
+      "caveats": "Profit/revenue/asset figures on the opened page carried citation-needed tags and are not used here; latest audited FY2025-26 profit and capital-adequacy figures were not confirmed from an official filing directly opened in this run.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Canara_Bank",
+          "kind": "news",
+          "publisher": "Wikipedia (citing canarabank.com, BSE/SEBI filings, The Hindu, Mint)",
+          "date": "2026-09-09",
+          "supports": "HQ Bengaluru; founded 1906 Mangalore; nationalised 1969; branches/ATMs June 2025; employees March 2025; Govt 62.93% June 2026; MD & CEO 2026-06-01; Karnataka Grameena Bank 2025-05-01"
+        },
+        {
+          "url": "https://canarabank.bank.in/",
+          "kind": "company_site",
+          "publisher": "Canara Bank",
+          "date": null,
+          "supports": "Bank is operating with Bengaluru head-office presence and product lines; page content is menu-heavy so facts rely on the page above"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-mh-0001",
+      "category": "cpse",
+      "state": "Maharashtra",
+      "name": "Mazagon Dock Shipbuilders Limited (MDL)",
+      "summary": "Mazagon Dock Shipbuilders Limited is a Navratna defence shipyard under the Ministry of Defence, headquartered at Dockyard Road, Mumbai. The President of India held 84.83% as on 31.03.2025. Its most recent official development is the keel-laying of the fourth Fast Patrol Vessel (Y-16504) and plate-cutting of the seventh vessel (Y-16507) for the Indian Coast Guard on 06 Apr 2026 at Mumbai.",
+      "date": "2026-04-06",
+      "district": "Mumbai City",
+      "headquarters": "Mumbai, Maharashtra",
+      "state_link": "Central enterprise headquartered in Mumbai, Maharashtra (Dockyard Road, Mumbai-400010)",
+      "owner": "Central government",
+      "shareholding": "President of India 84.83% as of 31.03.2025 (company investor presentation shareholding pattern)",
+      "administrative": "Ministry of Defence",
+      "legal_form": "Listed Government company",
+      "status_label": "Schedule A CPSE, Navratna",
+      "established": "1934 as a private limited company; acquired by the Government of India in 1960",
+      "status": "Operating",
+      "financials": "FY2024-25 (annual report): revenue from operations Rs 11,431.88 crore; profit before tax Rs 3,109.20 crore; profit after tax Rs 2,324.88 crore",
+      "detail": [
+        "MDL is described in its FY2024-25 annual report as the 'Ship & Submarine Builders to the Nation', operating shipbuilding facilities at Mumbai and Nhava under the Ministry of Defence, and the only Indian shipyard to have built both destroyers and conventional submarines for the Indian Navy (source: MDL Annual Report FY2024-25).",
+        "DPE lists Mazagon Dock Shipbuilders Ltd. among Navratna CPSEs in its January 2026 schedule-wise list; MDL states it was conferred Navratna status by DPE in June 2024, the first government-owned shipyard and third defence PSU to receive it (sources: DPE CPSE list January 2026; MDL Annual Report FY2024-25).",
+        "For FY2024-25 MDL reported record revenue of Rs 11,431.88 crore (up 20.76% from Rs 9,466.58 crore in FY2023-24) and record PAT of Rs 2,324.88 crore (up from Rs 1,845.43 crore), with net worth Rs 7,180.84 crore (source: MDL Annual Report FY2024-25 / directors report).",
+        "On 06 Apr 2026 MDL conducted the keel-laying of the fourth Fast Patrol Vessel Y-16504 and plate-cutting of the seventh vessel Y-16507 of the 14-vessel Indian Coast Guard programme at Mumbai, presided over by DIG Rajesh S. Gandhe (source: MDL official website news)."
+      ],
+      "caveats": "Employee count not confirmed in pages opened, left null. FY2025-26 audited figures (revenue Rs 12,839.64 cr, PAT Rs 2,435.77 cr) appear in later filings but FY2024-25 annual report used as stable audited source; April 2025 OFS proposal for up to 4.83% not treated as on-the-block.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://mazagondock.in/images/pdf/Annual%20Report%20FY%202024-25.pdf",
+          "kind": "annual_report",
+          "publisher": "Mazagon Dock Shipbuilders Limited",
+          "date": "2025-05-30",
+          "supports": "HQ Dockyard Road Mumbai; 1934 incorporation; Navratna June 2024; FY2024-25 revenue 11431.88 cr, PBT 3109.20 cr, PAT 2324.88 cr"
+        },
+        {
+          "url": "https://mazagondock.in/",
+          "kind": "company_site",
+          "publisher": "Mazagon Dock Shipbuilders Limited",
+          "date": "2026-04-06",
+          "supports": "06 Apr 2026 FPV keel-laying Y-16504 and plate-cutting Y-16507 at Mumbai"
+        },
+        {
+          "url": "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf",
+          "kind": "dpe_survey",
+          "publisher": "Department of Public Enterprises",
+          "date": "2026-01-01",
+          "supports": "MDL listed as Navratna CPSE"
+        },
+        {
+          "url": "https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/30052025/66458d07-b8e1-4b6f-a9c8-92b4ec807f48.pdf",
+          "kind": "exchange_filing",
+          "publisher": "Mazagon Dock Shipbuilders Limited via BSE",
+          "date": "2025-05-30",
+          "supports": "shareholding pattern as on 31.03.2025: promoters 84.83%"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-mh-0002",
+      "category": "state",
+      "state": "Maharashtra",
+      "name": "Maharashtra State Electricity Distribution Company Limited (MSEDCL / Mahadiscom)",
+      "summary": "MSEDCL is the Maharashtra state-owned power distribution licensee (except Greater Mumbai and certain suburbs), incorporated in June 2005 on unbundling of MSEB, headquartered at Prakashgad, Bandra (East), Mumbai. Its 20th Annual Report for FY2024-25 reports sale of 1,45,056 MUs to about 3.07 crore consumers and a profit of Rs 487.29 crore. The report is the most recent official development verified (FY ended 31 Mar 2025, report uploaded 2026).",
+      "date": "2025-03-31",
+      "district": "Mumbai Suburban",
+      "headquarters": "Mumbai, Maharashtra",
+      "state_link": "State government (Maharashtra) distribution company; registered office Prakashgad, Bandra (East), Mumbai",
+      "owner": "State government (Maharashtra)",
+      "administrative": "Energy Department, Government of Maharashtra",
+      "legal_form": "Government company (State PSU)",
+      "established": "2005 (June 2005) on unbundling of Maharashtra State Electricity Board",
+      "status": "Operating",
+      "financials": "FY2024-25 (20th Annual Report, directors report): total income Rs 1,27,996.58 crore (Rs 1,27,99,658 lakhs); revenue from sale of power to ~3.07 crore consumers; profit Rs 487.29 crore (Rs 48,729 lakhs); sale 1,45,056 MUs",
+      "detail": [
+        "MSEDCL states it was incorporated in June 2005 on unbundling of the erstwhile Maharashtra State Electricity Board as part of power-sector reforms and is the distribution licensee for Maharashtra except Greater Mumbai and certain suburbs (source: MSEDCL 20th Annual Report 2024-25, directors report).",
+        "For FY2024-25 it reports revenue of Rs 1,27,996.58 crore from sale of power to approximately 3.07 crore consumers, total sale 1,45,056 MUs met by purchase of 1,32,414 MUs, distribution loss 15.06% and AT&C loss 15.23% (conventional method), collection efficiency 99.80% (source: same annual report).",
+        "The same report states total income rose from Rs 1,16,81,478 lakhs to Rs 1,27,99,658 lakhs and the company earned a profit of Rs 48,729 lakhs in FY2024-25 (source: same annual report).",
+        "A June 2025 credit-rating rationale using provisional accounts reported operating income Rs 1,26,069.33 crore and a provisional net loss of Rs 1,967.75 crore for FY2025, differing from the later annual-report profit; the annual-report audited figure is used above with the difference noted (source: Acuite Ratings rationale 18 June 2025)."
+      ],
+      "caveats": "Exact government shareholding % and employee count not confirmed in pages opened, left null. Profit figure uses audited annual-report directors report; rating provisional loss differs, flagged above. Exact publication day in June 2026 not stated, so date uses FY-end 2025-03-31.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.mahadiscom.in/wp-content/uploads/2026/06/English-MSEDCL-Annual-Report-24-25.pdf",
+          "kind": "annual_report",
+          "publisher": "Maharashtra State Electricity Distribution Co. Ltd.",
+          "date": "2026-06-01",
+          "supports": "incorporation June 2005; licensee area; FY2024-25 revenue, profit, sales, consumers, losses"
+        },
+        {
+          "url": "https://www.mahadiscom.in/en/statements-of-accounts-en/",
+          "kind": "company_site",
+          "publisher": "Maharashtra State Electricity Distribution Co. Ltd.",
+          "date": null,
+          "supports": "annual financial statements repository including 2024-2025"
+        },
+        {
+          "url": "https://www.acuite.in/documents/ratings/revised/28055-RR-20250618.pdf",
+          "kind": "rating",
+          "publisher": "Acuite Ratings",
+          "date": "2025-06-18",
+          "supports": "provisional FY2025 operating income and net loss; notes discrepancy vs annual report"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-mh-0003",
+      "category": "bank",
+      "state": "Maharashtra",
+      "name": "Bank of Maharashtra (BoM)",
+      "summary": "Bank of Maharashtra is one of the twelve public sector banks, headquartered at Pune, Maharashtra. The Government of India held 73.60% as on 31.03.2026. On 20 Apr 2026 its board approved audited results for the year ended 31 Mar 2026 with net profit Rs 7,019 crore, up 27.17%, and recommended a final dividend of Rs 1.20 per share.",
+      "date": "2026-04-20",
+      "district": "Pune",
+      "headquarters": "Pune, Maharashtra",
+      "state_link": "Central public sector bank headquartered in Pune, Maharashtra (Lokmangal Shivajinagar / Montclaire Baner Pashan, Pune)",
+      "owner": "Central government",
+      "shareholding": "Government of India 73.60% as of 31.03.2026 (audited results analytical ratios)",
+      "administrative": "Department of Financial Services, Ministry of Finance",
+      "legal_form": "Corresponding New Bank / Listed public sector bank",
+      "status": "Operating",
+      "financials": "FY2025-26 (board-approved 20 Apr 2026, press release): net profit Rs 7,019 crore (vs Rs 5,520 crore FY2024-25), up 27.17%; operating profit Rs 10,826 crore; Q4FY26 net profit Rs 2,014 crore",
+      "detail": [
+        "The bank's Financial Results page lists the quarter-and-year-ended 31.03.2026 results, press release and earnings call held 20 Apr 2026 (source: Bank of Maharashtra financial-results page).",
+        "The 20 Apr 2026 press release states total business grew 17.47%, operating profit grew to Rs 10,826 crore and net profit increased 27.17% to Rs 7,019 crore for the year ended 31 Mar 2026; Q4 net profit was Rs 2,014 crore (sources: BoM press release 20 Apr 2026; BSE outcome filing 20 Apr 2026).",
+        "The audited results table shows Government of India holding 73.60% as on 31.03.2026 (down from 79.60% as on 31.03.2025), CET1 14.59%, gross NPA 1.45% and net NPA 0.13% (source: BoM audited financial results for quarter/year ended 31.03.2026).",
+        "The board on 20 Apr 2026 also recommended a final dividend of 12% (Rs 1.20 per Rs 10 share) in addition to the 10% interim dividend declared 13 Jan 2026 (sources: BSE outcome filing; Q3 interim-dividend filing 13 Jan 2026 reported via exchange)."
+      ],
+      "caveats": "Establishment year and employee count not confirmed in pages opened, left null. Full balance-sheet revenue split uses lakhs tables; headline profit figures used.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://bankofmaharashtra.bank.in/writereaddata/documentlibrary/c4d684d2-592b-4da7-aa3d-e959a6eb9e07.pdf",
+          "kind": "company_site",
+          "publisher": "Bank of Maharashtra",
+          "date": "2026-04-20",
+          "supports": "FY2025-26 net profit Rs 7019 cr, operating profit Rs 10826 cr, Q4 net profit Rs 2014 cr"
+        },
+        {
+          "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/68150db5-665b-4dd8-93c3-a86a75dd9eb7.pdf",
+          "kind": "exchange_filing",
+          "publisher": "Bank of Maharashtra via BSE",
+          "date": "2026-04-20",
+          "supports": "board approval 20 Apr 2026; Govt holding 73.60% as on 31.03.2026; final dividend Rs 1.20; capital-raising proposal"
+        },
+        {
+          "url": "https://bankofmaharashtra.bank.in/financial-results",
+          "kind": "company_site",
+          "publisher": "Bank of Maharashtra",
+          "date": "2026-07-20",
+          "supports": "listing of Q4/Year-ended 31.03.2026 results and 20 Apr 2026 earnings call"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-mh-0004",
+      "category": "insurer",
+      "state": "Maharashtra",
+      "name": "Life Insurance Corporation of India (LIC)",
+      "summary": "LIC is a statutory life-insurance corporation under the LIC Act 1956, headquartered at Yogakshema, Nariman Point, Mumbai. The President of India held 96.50% as at 31.03.2025. On 05 Feb 2026 its board approved nine-month FY26 results with PAT Rs 33,998 crore (up 16.68%) and total premium Rs 3,71,293 crore.",
+      "date": "2026-02-05",
+      "district": "Mumbai City",
+      "headquarters": "Mumbai, Maharashtra",
+      "state_link": "Central statutory insurer headquartered in Mumbai, Maharashtra (Yogakshema, Nariman Point, Mumbai-400021)",
+      "owner": "Central government",
+      "shareholding": "President of India 96.50% as at quarter ended 31.03.2025 (shareholding pattern)",
+      "administrative": "Department of Financial Services, Ministry of Finance",
+      "legal_form": "Statutory corporation under the Life Insurance Corporation Act, 1956; Listed",
+      "established": "1956; came into existence 1 September 1956 under Section 3 of the LIC Act 1956",
+      "status": "Operating",
+      "financials": "9M FY2025-26 (board-approved 05 Feb 2026, standalone): total premium income Rs 3,71,293 crore; PAT Rs 33,998 crore (vs Rs 29,138 crore 9M FY25); AUM Rs 59,16,680 crore; solvency 2.19. FY2024-25 PAT was Rs 48,151 crore.",
+      "detail": [
+        "LIC states it is a statutory corporation established under Section 3 of the LIC Act 1956 and came into existence on 1 September 1956, with corporate office at Yogakshema, Jeevan Bima Marg, Mumbai-400021 (source: LIC particulars of organisation page).",
+        "The LIC Act provides the Corporation is a body corporate and the Central Government shall at all times hold not less than 51% of issued equity (and not less than 75% for five years from first non-government issue) (source: LIC Act 1956 as amended 2021, Financial Services).",
+        "Shareholding pattern as at quarter ended 31 Mar 2025 shows Government/President of India holding 6,103,622,781 shares, 96.50% (source: LIC shareholding pattern 31.03.2025).",
+        "For nine months ended 31 Dec 2025 LIC reported PAT Rs 33,998 crore (up 16.68%), total premium Rs 3,71,293 crore (up 9.02%), individual new-business premium Rs 44,941 crore, VNB Rs 8,288 crore (up 27.96%), AUM Rs 59,16,680 crore (up 8.01%) and solvency 2.19 (source: LIC press release 05 Feb 2026)."
+      ],
+      "caveats": "Employee count not confirmed in pages opened, left null. FY2024-25 full-year PAT Rs 48,151 crore from 27 May 2025 release cited for context; latest development used is 05 Feb 2026 9M release.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.licindia.in/documents/d/guest/final-press-release-dated-05-02-2026-2-",
+          "kind": "company_site",
+          "publisher": "Life Insurance Corporation of India",
+          "date": "2026-02-05",
+          "supports": "9M FY26 PAT Rs 33998 cr, total premium Rs 371293 cr, AUM, solvency, VNB"
+        },
+        {
+          "url": "https://licindia.in/the-particulars-of-lic",
+          "kind": "company_site",
+          "publisher": "Life Insurance Corporation of India",
+          "date": null,
+          "supports": "statutory corporation under Sec 3 LIC Act 1956; est 01 Sep 1956; HQ Yogakshema Mumbai"
+        },
+        {
+          "url": "https://www.licindia.in/documents/20121/1452127/L_9A_Shareholding+Pattern_31032025.pdf/e44804ff-af18-6d98-f42f-bab398084479?t=1745303608644",
+          "kind": "exchange_filing",
+          "publisher": "Life Insurance Corporation of India",
+          "date": "2025-03-31",
+          "supports": "President of India 96.50% as at 31.03.2025"
+        },
+        {
+          "url": "https://financialservices.gov.in/sites/default/files/Act-Policies/2026-01/LIC-ACT-1956-AS-AMENDED-2021.pdf",
+          "kind": "statute",
+          "publisher": "Department of Financial Services",
+          "date": null,
+          "supports": "body corporate; minimum 51% central-government holding"
+        }
+      ],
+      "verification": "V2"
     }
   ]
 }
