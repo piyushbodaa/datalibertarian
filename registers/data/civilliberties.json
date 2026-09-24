@@ -492,6 +492,139 @@
         }
       ],
       "verification": "V2"
+    },
+    {
+      "id": "cl-tn-0001",
+      "category": "speech",
+      "state": "Tamil Nadu",
+      "title": "Social-media commentator's cybercrime FIR over temple-land posts quashed by High Court",
+      "summary": "A social-media commentator was booked over posts linking a State minister to a temple-land registration. The Madras High Court quashed the FIR in Crime No. 82 of 2026, holding the cited public-order offences were not made out.",
+      "date": "2026-08-31",
+      "date_label": "High Court order reported",
+      "district": "Tamil Nadu (specific district not verified in sources opened)",
+      "outcome": "quashed",
+      "authority": "Madras High Court; cybercrime police",
+      "case_reference": "Crime No. 82 of 2026",
+      "laws": [
+        "Section 192 of the Bharatiya Nyaya Sanhita, 2023",
+        "Section 353(1)(b) of the Bharatiya Nyaya Sanhita, 2023",
+        "Section 353(2) of the Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "a social-media commentator in Chennai",
+      "detail": [
+        "The Court recorded that the complaint was given by the Junior Personnel Assistant of the State Hindu Religious and Charitable Endowments Minister, alleging wilful malicious disinformation on X and Instagram about registration of land of a Palani temple.",
+        "Police registered Crime No. 82 of 2026 for offences under Sections 192, 353(1)(b) and 353(2) of the BNS.",
+        "The High Court held that the post could be treated as false information and rumour through electronic means but the cited offences require intent or likelihood to cause fear or alarm or to provoke rioting or enmity, which was not made out, and quashed the FIR while leaving open a separate defamation remedy and directing an affidavit of regret and undertaking as reported."
+      ],
+      "current_position": "The FIR in Crime No. 82 of 2026 stands quashed as reported 31 Aug 2026, with liberty to pursue defamation separately.",
+      "quote": {
+        "text": "The instant post can be treated as false information and the spread of a rumour through electronic means.",
+        "where": "Madras High Court order in proceedings relating to Crime No. 82 of 2026, para 19",
+        "url": "https://www.livelaw.in/pdf_upload/2026/08/31/vinoth-suriya-kumar-v-state-697065.pdf"
+      },
+      "caveats": "Full post text was not independently verified; the order relies on screenshots enclosed with the complaint. Penalty field is null because no sentence was imposed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "The state arrested and prosecuted a person for political social-media speech about temple-land management, with no allegation of violence, threats, fraud, minors or coercion."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.livelaw.in/pdf_upload/2026/08/31/vinoth-suriya-kumar-v-state-697065.pdf",
+          "kind": "judgment",
+          "publisher": "Madras High Court (via LiveLaw PDF)",
+          "date": "2026-08-28",
+          "supports": "FIR number, charges, complaint, arrest and bail, reasoning and quashing order"
+        },
+        {
+          "url": "https://www.livelaw.in/high-court/madras-high-court/madras-high-court-minister-false-information-no-criminal-offence-without-intent-547877",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2026-08-31",
+          "supports": "summary of charges, court reasoning, liberty to file defamation"
+        },
+        {
+          "url": "https://www.newindianexpress.com/cities/chennai/2026/Jul/24/voice-of-dissent-should-be-respected-says-chennai-court",
+          "kind": "news",
+          "publisher": "The New Indian Express",
+          "date": "2026-07-24",
+          "supports": "arrest on 15 July, bail, sessions court observation on dissent"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "cl-tn-0002",
+      "category": "religion",
+      "state": "Tamil Nadu",
+      "title": "Thiruvarur prayer house ordered shut and sealed over meetings without permission",
+      "summary": "The Kodavasal Tahsildar ordered a pastor-run trust to close a prayer house within 10 days and the premises were sealed after a police enquiry. The pastor challenged the closure in the Madras High Court. On 13 June 2025 the Court ordered desealing for possession but barred use as a prayer hall without District Collector permission.",
+      "date": "2025-06-13",
+      "date_label": "High Court judgment",
+      "district": "Thiruvarur",
+      "outcome": "seizure",
+      "authority": "Tahsildar, Kodavasal Taluk; District Collector, Thiruvarur; Madras High Court",
+      "case_reference": "W.P. No. 2036 of 2024; impugned proceedings No. Pa.Ve.01/2023/A5 dated 20.01.2024",
+      "laws": [
+        "Rule 4(3) of the Tamil Nadu Panchayats Building Rules, 1997 (referred)",
+        "Rule 47-A under the Tamil Nadu Town and Country Planning Act, 1971 (referred)"
+      ],
+      "acts": [
+        "Tamil Nadu Panchayats Building Rules, 1997",
+        "Tamil Nadu Town and Country Planning Act, 1971"
+      ],
+      "person": "a pastor running a Christian trust in Kodavasal Taluk, Thiruvarur district",
+      "penalty": "Closure notice and seal on prayer premises; continued bar on use as prayer hall without permission",
+      "detail": [
+        "The High Court recorded that the pastor ran a trust established in 2007 and held regular prayer meetings with relatives and neighbours on property purchased in January 2023.",
+        "The High Court recorded that after a complaint, the Kodavasal police held an enquiry, building permission for a church was rejected, and the Tahsildar issued a notice directing closure of the prayer house within 10 days failing which action would follow.",
+        "The District Collector said, according to the judgment, that a prayer hall could not be run without proper permission and that meetings caused disturbance to neighbours.",
+        "The High Court held that a house cannot as a matter of right be used as a prayer hall for large congregations without permission, and that the undertaking to avoid loudspeakers was insufficient.",
+        "The High Court directed removal of the seal to restore possession but barred use as a prayer hall without permission and left it open to authorities to proceed in accordance with law on reuse."
+      ],
+      "current_position": "The seal is to be removed for possession, but the premises must not be used as a prayer hall without District Collector permission.",
+      "quote": {
+        "text": "The property shall not be utilised as a prayer hall for conducting prayer meetings and if the petitioner intends to convert the property into a prayer hall, the petitioner is directed to approach the District Collector and seek for permission.",
+        "where": "W.P. No. 2036 of 2024, Madras High Court judgment dated 13.06.2025, para 9",
+        "url": "https://indiankanoon.org/doc/187955353/"
+      },
+      "caveats": "No 2026 official record of punishment for peaceful worship alone was found; neighbour disturbance was alleged by the Collector but no violence, force or fraud finding was made. Exact sealing date beyond the January 2024 notice was not stated in the judgment.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "The state sealed and ordered closure of premises used for holding Christian prayer meetings, with no allegation of force, fraud, allurement, violence, minors or other complaining-victim conduct in the accepted official findings."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/187955353/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon (Madras High Court judgment)",
+          "date": "2025-06-13",
+          "supports": "trust and prayer meetings, police enquiry, closure notice, seal, directions and bar on prayer-hall use"
+        },
+        {
+          "url": "https://www.livelaw.in/pdf_upload/pastor-ljoseph-wilson-v-district-collector-605966.pdf",
+          "kind": "judgment",
+          "publisher": "Madras High Court (via LiveLaw PDF)",
+          "date": "2025-06-13",
+          "supports": "same official findings and operative directions"
+        },
+        {
+          "url": "https://www.livelaw.in/high-court/madras-high-court/madras-high-court-no-prayer-hall-house-permission-from-authorities-295523",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2025-06-23",
+          "supports": "summary of closure notice, rejection of building permission, and operative directions"
+        }
+      ],
+      "verification": "V2"
     }
   ]
 }

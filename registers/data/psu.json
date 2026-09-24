@@ -606,6 +606,87 @@
       "verification": "V2"
     },
     {
+      "id": "psu-br-0001",
+      "category": "cpse",
+      "state": "Bihar",
+      "name": "Bharat Wagon and Engineering Company Limited (BWEL)",
+      "summary": "Bharat Wagon and Engineering Company Limited is a Central government PSU headquartered in Patna, Bihar, with plants at Muzaffarpur and Mokama. It was a subsidiary of Bharat Bhari Udyog Nigam and its administrative control was transferred from the Department of Heavy Industry to the Ministry of Railways with effect from 13 August 2008. The Cabinet Committee on Economic Affairs announced its closure as a loss-making unit in August 2017 and it is now shown as Under Liquidation.",
+      "date": "2008-08-13",
+      "district": "Patna",
+      "headquarters": "Patna, Bihar",
+      "state_link": "Headquartered in Patna, Bihar, with both manufacturing plants in Bihar (Muzaffarpur and Mokama).",
+      "owner": "Central government",
+      "administrative": "Ministry of Railways (since 13 August 2008; formerly Department of Heavy Industry)",
+      "legal_form": "Government company (CPSE, subsidiary of Bharat Bhari Udyog Nigam)",
+      "established": "1978: established on 4 December 1978 after taking over and merging two sick companies - Arthur Butler & Co and Britannia Engineering Company",
+      "status": "Under closure",
+      "detail": [
+        "Identity and Bihar link: the page states the company is 'Headquartered in Patna' and has 'two manufacturing plants' 'both located in Bihar, one in Muzaffarpur and the other in Mokama' (source: Bharat Wagon and Engineering page).",
+        "Ownership and history: the page states it 'was a Public Sector Undertaking (PSU) of the Government of India' and 'as a subsidiary of Bharat Bhari Udyog Nigam', and that 'The company was established on 4 December 1978 after taking over and merging two sick companies - Arthur Butler & Co and Britannia Engineering Company' (source: same page).",
+        "Administrative control: the page states 'The administrative control of M/s Bharat Wagon & Engg Co Ltd (BWEL), Patna is transferred' 'from the Department of Heavy Industry' 'to the Ministry of Railways w.e.f 13 August 2008' (source: same page).",
+        "Closure status: the page states 'In August 2017, on recommendation of NITI Aayog' 'the Cabinet Committee on Economic Affairs announced the closure of loss-making BWEL', and a related holding-company page lists 'Bharat Wagon and Engineering' as '(Under Liquidation)' (sources: Bharat Wagon page; Bharat Bhari Udyog Nigam page)."
+      ],
+      "caveats": "No exactly-dated 2025 or 2026 official development (results, revival, CAG finding, new unit) could be verified from pages actually opened; the August 2017 closure month is verified but its exact day was not, so the date field uses the latest exactly-dated event verified (13 August 2008 transfer). Shareholding percentages, latest revenue/profit and employee count not available in pages opened, left null, not estimated.",
+      "on_the_block": true,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bharat_Wagon_and_Engineering",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "Patna HQ, Bihar plants, PSU/subsidiary status, 1978 incorporation, 2008 transfer to Railways, August 2017 CCEA closure announcement"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Bharat_Bhari_Udyog_Nigam",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "BWEL listed as Under Liquidation"
+        }
+      ],
+      "verification": "V1"
+    },
+    {
+      "id": "psu-br-0002",
+      "category": "state",
+      "state": "Bihar",
+      "name": "Bihar State Power Holding Company Limited (BSPHCL)",
+      "summary": "Bihar State Power Holding Company Limited is the apex holding company of the unbundled Bihar power sector, owned by the Government of Bihar and based at Vidyut Bhawan, Bailey Road, Patna. It was formed from the former Bihar State Electricity Board (BSEB), established in 1958, which was unbundled in 2011-2012 into five companies. Its distribution subsidiaries are under the Bihar Electricity Regulatory Commission tariff process, with a Tariff Order for FY 2026-27 listed on the regulator site in 2026.",
+      "date": "2012-11-01",
+      "district": "Patna",
+      "headquarters": "Patna, Bihar",
+      "state_link": "Bihar government-owned apex power holding company headquartered at Vidyut Bhawan, Bailey Road, Patna, Bihar.",
+      "owner": "State government (Bihar)",
+      "administrative": "Government of Bihar",
+      "legal_form": "Government company",
+      "established": "1958 as Bihar State Electricity Board, a statutory corporation under the Electricity (Supply) Act, 1948; unbundled 2 August 2011; five successor companies functioning from 1 November 2012",
+      "status": "Operating",
+      "detail": [
+        "Identity and ownership: excerpts state 'Bihar State Power Holding Company Limited', 'Formerly Bihar State Electricity Board (BSEB)', and holder 'Government of Bihar' (source: Bihar State Power Holding Company page).",
+        "History and Patna base: excerpts state 'BSEB was established in 1958 as a statutory corporation under the Electricity (Supply) Act, 1948', 'The BSEB was unbundled on 2 August 2011', 'Vidyut Bhawan, Bailey Road, Patna, India', and 'BSEB formally started functioning as 5 companies on 1 November 2012, namely: Bihar State Power Generation Company Limited, Bihar State Power Transmission Company Limited, North Bihar Power Distribution Company Limited, South Bihar Power Distribution Company Limited, Bihar State Power Holding Company Limited (apex holding company)' (source: same page).",
+        "Recent tariff context: the regulator homepage lists 'Tariff Order of DISCOMS (NBPDCL & SBPDCL) for FY 2026-27' and carries header 'Thursday, 24 September 2026', indicating a 2026 tariff-order development for BSPHCL distribution subsidiaries, but the order's exact issuance date could not be confirmed from the excerpt opened (source: BERC homepage)."
+      ],
+      "caveats": "Shareholding percentages, FY2024-25/FY2025-26 revenue/profit and employee count not available in pages opened, left null. Exact issuance date of the FY 2026-27 tariff order could not be confirmed from excerpts opened, so the date field uses the latest exactly-dated reorganisation event (1 November 2012).",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bihar_State_Power_Holding_Company_Limited",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "name, Government of Bihar ownership, 1958 BSEB origin, 2011 unbundling, Patna address, 1 November 2012 five-company structure"
+        },
+        {
+          "url": "https://berc.co.in/",
+          "kind": "government_order",
+          "publisher": "Bihar Electricity Regulatory Commission",
+          "date": "2026-09-24",
+          "supports": "FY 2026-27 tariff order for NBPDCL/SBPDCL listed; site header date"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "psu-br-0005",
       "category": "dfi",
       "state": "Bihar",
@@ -1090,6 +1171,134 @@
       "verification": "V2"
     },
     {
+      "id": "psu-mh-0005",
+      "category": "dfi",
+      "state": "Maharashtra",
+      "name": "Export-Import Bank of India (EXIM Bank)",
+      "summary": "EXIM Bank is a central development finance institution with an address at Cuffe Parade, Mumbai, Maharashtra. It was created under the Export-Import Bank of India Act passed in September 1981 and commenced operations in March 1982. Its official homepage lists 'Annual Report FY 2025-26' among spotlight items as observed 2026-09-24.",
+      "date": "2026-09-24",
+      "district": "Mumbai City",
+      "headquarters": "Mumbai, Maharashtra",
+      "state_link": "Central enterprise headquartered in Maharashtra (Cuffe Parade, Mumbai).",
+      "owner": "Central government",
+      "administrative": "Central government (exact ministry not confirmed on pages opened)",
+      "legal_form": "Statutory corporation (Export-Import Bank of India Act, 1981)",
+      "established": "1982 (Act passed September 1981; operations commenced March 1982)",
+      "status": "Operating",
+      "detail": [
+        "EXIM Bank's official site states: 'The Export-Import Bank of India Act was passed in September 1981 and the Bank commenced its operations in March 1982.' (source: eximbankindia.in/about-us, opened 2026-09-24).",
+        "Its official site lists the address as 'Centre One Building, Floor 21, World Trade Centre Complex, Cuffe Parade, Mumbai 400005.' (source: eximbankindia.in/contact-us and about-us, opened 2026-09-24; head-office designation not confirmed in excerpt).",
+        "The bank's official homepage lists 'Annual Report FY 2025-26' among spotlight items as observed 2026-09-24; exact publication day not shown, so observation date is used. (source: eximbankindia.in homepage, opened 2026-09-24).",
+        "No official FY2024-25 or FY2025-26 revenue, profit, net-worth, shareholding or employee figures could be retrieved via the permitted fetching tool, so financials and headcount are left null."
+      ],
+      "caveats": "Official FY2024-25/FY2025-26 figures, shareholding percentage and exact Annual Report publication day could not be confirmed: DPE survey, MCA, BSE/NSE filings and PIB pages were unreachable via the WebFetch-only tool (403, cert or DNS errors), and DuckDuckGo search returned a bot-check. Exact ministry allocation (Department of Financial Services, Ministry of Finance) was not verified on pages opened. Date 2026-03-31 marks the FY2025-26 fiscal year-end, not a verified release day.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.eximbankindia.in/about-us",
+          "kind": "company_site",
+          "publisher": "Export-Import Bank of India",
+          "date": null,
+          "supports": "Act September 1981; operations March 1982"
+        },
+        {
+          "url": "https://www.eximbankindia.in/contact-us",
+          "kind": "company_site",
+          "publisher": "Export-Import Bank of India",
+          "date": null,
+          "supports": "head office Cuffe Parade, Mumbai 400005"
+        },
+        {
+          "url": "https://www.eximbankindia.in/",
+          "kind": "company_site",
+          "publisher": "Export-Import Bank of India",
+          "date": null,
+          "supports": "Annual Report FY 2025-26 referenced; business lines"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-mp-0001",
+      "category": "cpse",
+      "state": "Madhya Pradesh",
+      "name": "Northern Coalfields Limited (NCL)",
+      "summary": "Northern Coalfields Limited is a coal-producing government company headquartered in Singrauli, Madhya Pradesh. It is a wholly owned subsidiary of Coal India Limited, a Central government PSU, operating under the Ministry of Coal. The most recent official reference year opened was FY2024-25 (financials as of 31 March 2025); no later dated official development page could be opened.",
+      "date": "2025-03-31",
+      "district": "Singrauli",
+      "headquarters": "Singrauli, Madhya Pradesh",
+      "state_link": "Headquartered in Singrauli, Madhya Pradesh",
+      "owner": "Central government (through Coal India Limited)",
+      "administrative": "Ministry of Coal, Government of India",
+      "legal_form": "Government company (wholly owned subsidiary of Coal India Limited)",
+      "established": "1985",
+      "status": "Operating",
+      "detail": [
+        "Per the Coal India group page excerpt, NCL is listed among Coal India's subsidiaries (verbatim entry 'नोर्देर्ण कोलफील्ड्स लिमिटेड'), supporting its status as a Coal India subsidiary.",
+        "Per the Northern Coalfields Limited reference page excerpt: 'The company was established in 1985 and is headquartered in Singrauli, Madhya Pradesh.'",
+        "Per the same reference excerpts: it is 'a wholly owned subsidiary of Coal India Limited' and 'operating under the Ministry of Coal, Government of India'; the parent is described as 'CIL is a PSU owned by the Central Government of India' producing 'through seven of its wholly owned subsidiaries' including 'Northern Coalfields Limited (NCL)'.",
+        "Per the same parent-level excerpt, the latest dated reference opened was 'Financials as of 31 March 2025'; no NCL-specific FY2024-25 revenue, profit or production figure was present in the opened excerpts."
+      ],
+      "caveats": "No 2026 or 2025 dated official development (results, disinvestment, merger, revival, CAG finding, new unit) could be confirmed from an openable official page (DPE survey, NCL site and PIB pages were blocked/404/cert-error). Financials, shareholding %, Miniratna/Schedule status and employee count are left null and not estimated. Date shown is the FY2024-25 year-end reference, not a new development.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Northern_Coalfields_Limited",
+          "kind": "news",
+          "publisher": "Wikipedia (tertiary reference; official figures not sourced here)",
+          "date": null,
+          "supports": "HQ Singrauli MP; established 1985; wholly owned subsidiary of Coal India; Ministry of Coal; parent owned by Central Government; FY reference 31 March 2025"
+        },
+        {
+          "url": "https://www.coalindia.in/",
+          "kind": "company_site",
+          "publisher": "Coal India Limited",
+          "date": null,
+          "supports": "NCL listed as a Coal India subsidiary (Hindi entry)"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-mp-0002",
+      "category": "state",
+      "state": "Madhya Pradesh",
+      "name": "Madhya Pradesh Power Generating Company Limited (MPPGCL / MPGENCO)",
+      "summary": "Madhya Pradesh Power Generating Company Limited is the state-owned electricity generation utility of Madhya Pradesh. It is a wholly owned company of the MP Government and successor of the erstwhile Madhya Pradesh State Electricity Board. It is listed by the MP Energy Department alongside MPTRANSCO and the three discoms.",
+      "date": "2026-09-24",
+      "headquarters": "Madhya Pradesh, India",
+      "state_link": "Wholly owned by the Government of Madhya Pradesh and engaged in generation in Madhya Pradesh",
+      "owner": "State government (Madhya Pradesh)",
+      "administrative": "Energy Department, Government of Madhya Pradesh",
+      "legal_form": "Government company",
+      "established": "Successor of Madhya Pradesh State Electricity Board (year not confirmed from opened pages)",
+      "status": "Operating",
+      "detail": [
+        "Per the official MPPGCL site excerpt: 'Madhya Pradesh Power Generating Co. Ltd. (MPPGCL) is a wholly owned company' and is 'engaged in generation of electricity in the state of Madhya Pradesh.'",
+        "Per the same official site excerpt: 'It is a successor entity of erstwhile Madhya Pradesh State Electricity Board (MPSEB).'",
+        "Per the MP Energy Department site excerpt, the sector companies listed are 'MPPMCL', 'MPGENCO', 'MPTRANSCO', 'MP East Discom', 'MP Central Discom', 'MP West Discom', supporting MPGENCO/MPPGCL as the state generation company."
+      ],
+      "caveats": "Exact HQ city/district (commonly cited as Jabalpur), installed capacity, FY2024-25/FY2025-26 generation, revenue/profit, shareholding % and employee count could not be confirmed from openable official pages (subpages returned 404; CAG/finance/budget pages blocked or 404). Financials left null. Date shown is the access date of the current official site content, not a new 2025-26 development.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://mppgcl.mp.gov.in/",
+          "kind": "company_site",
+          "publisher": "Madhya Pradesh Power Generating Co. Ltd.",
+          "date": null,
+          "supports": "wholly owned company; generation in MP; successor of MPSEB"
+        },
+        {
+          "url": "https://energy.mp.gov.in/",
+          "kind": "company_site",
+          "publisher": "Energy Department, Government of Madhya Pradesh",
+          "date": null,
+          "supports": "MPGENCO listed as state generation company with transmission and discoms"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "psu-mp-0005",
       "category": "dfi",
       "state": "Madhya Pradesh",
@@ -1160,6 +1369,123 @@
           "publisher": "Odisha Mining Corporation Ltd",
           "date": null,
           "supports": "official site exists; content could not be extracted (fetch returned only title)"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-rj-0005",
+      "category": "dfi",
+      "state": "Rajasthan",
+      "name": "Rajasthan Financial Corporation (RFC)",
+      "summary": "Rajasthan Financial Corporation has its official portal at rfc.rajasthan.gov.in on the rajasthan.gov.in domain. The Finance Department of Rajasthan lists the Budget Speech 2026-2027 dated 11.02.2026 and the Finance Act 2026, with its site shown updated 24-Sep-2026.",
+      "date": "2026-02-11",
+      "district": "Jaipur",
+      "headquarters": "Jaipur, Rajasthan",
+      "state_link": "Official portal rfc.rajasthan.gov.in is on the rajasthan.gov.in domain.",
+      "owner": "State government (Rajasthan)",
+      "status": "Operating",
+      "detail": [
+        "The official portal URL is rfc.rajasthan.gov.in, a rajasthan.gov.in domain indicating a Rajasthan government portal (source: RFC portal root fetch).",
+        "The Finance Department of Rajasthan site states Budget Speech 2026-2027 (11.02.2026), Finance Act, 2026, and Website Updated: 24-Sep-2026 (source: Finance Department homepage).",
+        "No FY2024-25 or FY2025-26 revenue, profit, loan-sanction, shareholding, establishment year or employee figures could be verified from pages actually opened; financials, shareholding and establishment year are left null."
+      ],
+      "caveats": "Could not confirm establishment year, shareholding percentages, FY2024-25/FY2025-26 financials or employee count from pages actually opened; RFC portal returned only the portal shell and the annual-report PDF equivalents were not retrievable; web search returned HTTP 429 throughout, so no 2025-26 results, CAG finding or revival-package development could be dated. Headquarters stated as Jaipur (standard SFC HQ) but street address not verified on opened pages.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://rfc.rajasthan.gov.in/",
+          "kind": "company_site",
+          "publisher": "Rajasthan Financial Corporation / Government of Rajasthan",
+          "date": null,
+          "supports": "existence of RFC official portal on rajasthan.gov.in domain; state link"
+        },
+        {
+          "url": "https://finance.rajasthan.gov.in/",
+          "kind": "government_order",
+          "publisher": "Finance Department, Government of Rajasthan",
+          "date": "2026-09-24",
+          "supports": "administrative department; Budget Speech 2026-2027 dated 11.02.2026; Finance Act 2026; site updated 24-Sep-2026"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-rj-0006",
+      "category": "departmental",
+      "state": "Rajasthan",
+      "name": "North Western Railway (NWR)",
+      "summary": "North Western Railway is listed among Zonal Railways of Indian Railways with portal nwr.indianrailways.gov.in. It shows Ajmer, Bikaner, Jaipur and Jodhpur divisions in Rajasthan. The portal navigation marks commercial pages as updated 31 July 2026.",
+      "date": "2026-07-31",
+      "district": "Jaipur",
+      "headquarters": "Jaipur, Rajasthan",
+      "state_link": "Headquartered at Jaipur and covering the Jaipur, Ajmer, Bikaner and Jodhpur divisions in Rajasthan.",
+      "owner": "Central government",
+      "administrative": "Ministry of Railways",
+      "legal_form": "Departmental undertaking",
+      "status": "Operating",
+      "detail": [
+        "Indian Railways lists North Western Railway among its Zonal Railways linking to nwr.indianrailways.gov.in (source: indianrailways.gov.in homepage).",
+        "The NWR portal shows Ajmer Division, Bikaner Division, Jaipur Division and Jodhpur Division entries (source: NWR portal section page).",
+        "The NWR portal navigation shows Commecial (Updated 31 July 2026), used here as the most recent dated official update observed (source: NWR portal navigation).",
+        "The Indian Railways homepage also lists Payment of Productivity Linked Bonus (PLB) to all eligible non-gazetted Railway employees for the financial year 2024-25, but zone-wise payout figures were not opened, so financials are left null."
+      ],
+      "caveats": "Could not verify zone-level revenue, earnings or staff strength from pages actually opened; NWR pages are navigation-heavy and body content did not render, and the PLB PDF was a scanned image. Headquarters given as Jaipur per the zone's standard HQ listing; the fetched NWR pages show Jaipur division and RRC-Jaipur but not a full HQ address block. Establishment year left null (not verified on opened pages).",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://indianrailways.gov.in/",
+          "kind": "company_site",
+          "publisher": "Ministry of Railways",
+          "date": null,
+          "supports": "NWR is a listed Zonal Railway; PLB FY2024-25 order dated 24.09.2025 exists"
+        },
+        {
+          "url": "https://nwr.indianrailways.gov.in/view_section.jsp?lang=0&id=0,1,261",
+          "kind": "company_site",
+          "publisher": "North Western Railway",
+          "date": "2026-07-31",
+          "supports": "Ajmer, Bikaner, Jaipur and Jodhpur divisions; commercial pages marked updated 31 July 2026"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-rj-0007",
+      "category": "statutory",
+      "state": "Rajasthan",
+      "name": "Rajasthan State Road Transport Corporation (RSRTC)",
+      "summary": "Rajasthan State Road Transport Corporation is a statutory road transport corporation owned by the Government of Rajasthan and headquartered in Jaipur. It was established on 1 October 1964 under the Road Transport Corporations Act 1950. Its most recent official publication observed is the Annual Report for 2024-25 listed on its site, with the site last updated on 23-09-2026 showing 52 depots and 3,708 buses in operation.",
+      "date": "2026-09-23",
+      "district": "Jaipur",
+      "headquarters": "Jaipur, Rajasthan",
+      "state_link": "Established by the Government of Rajasthan and headquartered in Jaipur; operates intercity bus services across Rajasthan.",
+      "owner": "State government (Rajasthan)",
+      "administrative": "Transport Department, Government of Rajasthan",
+      "legal_form": "Statutory corporation (Road Transport Corporations Act, 1950)",
+      "established": "1964 (established 1 October 1964 under the Road Transport Corporations Act 1950)",
+      "status": "Operating",
+      "detail": [
+        "The corporation states it was established by the Government of Rajasthan on 1 October 1964 under the Road Transport Act 1950, is headquartered in Jaipur, and describes a fleet of 5,000 buses with 56 depots in the state plus 3 depots outside (Indore, Ahmedabad, Delhi) (source: RSRTC portal homepage).",
+        "The same homepage's working-update panel shows 52 depots, 3,708 buses, 731,000 average passengers per day and 1,284,000 average km per day, with the page last updated 23/09/2026 (source: RSRTC portal homepage).",
+        "The RSRTC annual-report page lists reports for Year 2024-2025 (AR_2024-25.pdf), 2023-2024 and earlier years, confirming the 2024-25 report as the latest results publication observed (source: RSRTC annual-report page). The full 2024-25 PDF exceeded the fetch size limit so figures inside it are not cited."
+      ],
+      "caveats": "Could not verify FY2024-25 revenue, loss, or employee numbers because the AR_2024-25 PDF exceeded the 5MB fetch limit and web search was rate-limited; financials, shareholding and employees are therefore null. No 2026 disinvestment, merger or closure decision was found on opened pages.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://transport.rajasthan.gov.in/rsrtc/",
+          "kind": "company_site",
+          "publisher": "Transport Department, Government of Rajasthan (RSRTC)",
+          "date": "2026-09-23",
+          "supports": "establishment 1 Oct 1964 under Road Transport Act 1950; HQ Jaipur; fleet and depot counts; daily passengers and km; last-updated date"
+        },
+        {
+          "url": "https://transport.rajasthan.gov.in/content/transportportal/en/RSRTC/public-relation/AnnualReport.html",
+          "kind": "annual_report",
+          "publisher": "Transport Department, Government of Rajasthan (RSRTC)",
+          "date": null,
+          "supports": "Annual Report 2024-25 listed as latest alongside 2023-24 and earlier years"
         }
       ],
       "verification": "V2"

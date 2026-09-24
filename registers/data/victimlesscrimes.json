@@ -1242,6 +1242,352 @@
         }
       ],
       "verification": "V2"
+    },
+    {
+      "id": "vc-rj-0001",
+      "category": "sex-work",
+      "state": "Rajasthan",
+      "title": "Hotel tenancy prosecution under Immoral Traffic Prevention Act kept alive in Chittorgarh",
+      "summary": "Police registered an FIR at Chittorgarh under sections 3, 4, 5 and 7 of the Immoral Traffic (Prevention) Act, 1956 against a hotel tenant and others. The accused sought quashing of the FIR before the Rajasthan High Court. The High Court dismissed the petition on 12 August 2026, so the prosecution continues.",
+      "date": "2026-08-12",
+      "date_label": "High Court order dismissing quashing petition",
+      "district": "Chittorgarh",
+      "outcome": "prosecution_pending",
+      "authority": "Rajasthan High Court, Jodhpur (Justice Kuldeep Mathur)",
+      "case_reference": "S.B. Criminal Miscellaneous (Petition) No. 7263/2026; FIR No.277/2026, Police Station Chittorgarh",
+      "laws": [
+        "Sections 3, 4, 5 and 7 of the Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "acts": [
+        "Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "person": "a hotel tenant in Chittorgarh district",
+      "detail": [
+        "The High Court recorded that the case concerned \"FIR No.277/2026 registered at Police Station Chittorgarh\" and alleged offences under \"Section 3, 4, 5 and 7\" of the \"Immoral Traffic (Prevention) Act, 1956.\"",
+        "The High Court noted the petitioner's claim that \"the petitioner has been falsely implicated in the present case\" and that his name emerged only from a co-accused's account.",
+        "The High Court referred to the police factual report that the petitioner had taken the said hotel on rent and appointed a manager, with a rent deed dated 02.03.2025 and monthly rent \"to the tune of Rs.25,000/-\" remitted through PhonePe.",
+        "The High Court ordered that \"Consequently, the present criminal misc. petition is dismissed\" and \"The stay application also stands dismissed.\""
+      ],
+      "current_position": "The quashing petition was dismissed, so the Immoral Traffic Act prosecution arising from FIR No.277/2026 continues before the trial court.",
+      "quote": {
+        "text": "Consequently, the present criminal misc. petition is dismissed.",
+        "where": "Rajasthan High Court order dated 12/08/2026, S.B. Criminal Miscellaneous (Petition) No. 7263/2026",
+        "url": "https://indiankanoon.org/doc/137337832/"
+      },
+      "caveats": "Only the indexed order excerpt was reviewed; the full FIR contents and whether any victim allegation appears elsewhere in the case file could not be confirmed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The prosecution targets renting premises and arranging paid sex between adults, with no allegation of force, minors or a complaining victim in the material reviewed."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/137337832/",
+          "kind": "court_order",
+          "publisher": "Rajasthan High Court via Indian Kanoon",
+          "date": "2026-08-12",
+          "supports": "FIR number and station, ITP Act sections, rent and manager facts, dismissal of petition, judge and date"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-rj-0002",
+      "category": "gambling",
+      "state": "Rajasthan",
+      "title": "Cricket-betting FIRs under Gambling Ordinance quashed in Hanumangarh",
+      "summary": "Police at Pilibanga in Hanumangarh district registered two FIRs alleging online cricket betting, citing section 13 of the Rajasthan Public Gambling Ordinance Act, 1949 along with BNS and IT Act provisions. The Rajasthan High Court held cheating was not made out and quashed both FIRs on 16 July 2026.",
+      "date": "2026-07-16",
+      "date_label": "High Court order quashing FIRs",
+      "district": "Hanumangarh",
+      "outcome": "quashed",
+      "authority": "Rajasthan High Court, Jodhpur (Justice Baljinder Singh Sandhu)",
+      "case_reference": "CRLMP No.3619/2026 and CRLMP No.3623/2026; FIR No.229/2026 and 228/2026, Police Station Pilibanga, District Hanumangarh",
+      "laws": [
+        "Section 13 of Rajasthan Public Gambling Ordinance Act, 1949",
+        "Section 318(4) of BNS, 2023",
+        "Section 66-D of Information Technology Act"
+      ],
+      "acts": [
+        "Rajasthan Public Gambling Ordinance Act, 1949",
+        "Bharatiya Nyaya Sanhita, 2023",
+        "Information Technology Act, 2000"
+      ],
+      "person": "two men in Hanumangarh accused of facilitating cricket betting",
+      "detail": [
+        "The High Court recorded the cases as “FIR No.229/2026 (CRLMP No.3619/2026)” and “228/2026 (CRLMP No.3623/2026)” at “Police Station Pilibanga, District Hanumangarh.”",
+        "The High Court noted the allegation described in the cited precedent as “functioning as a bookie/broker for facilitating betting in cricket matches,” with “six mobile phones, one TV, a note book containing accounts” and “cash of Rs.7,700/- was seized.”",
+        "The High Court reproduced the reasoning that “there are no traces of cheating” and that “Neither any person purportedly been cheated has approached the police.”",
+        "The High Court held the petitions allowed and the FIRs “are hereby quashed,” while leaving the state “free to file a complaint under the provisions of RPGO” within eight weeks."
+      ],
+      "current_position": "Both FIRs stand quashed as of 16 July 2026; the state was left free to pursue a complaint under the gambling ordinance if it chooses.",
+      "quote": {
+        "text": "there are no traces of cheating.",
+        "where": "Rajasthan High Court order dated 16/07/2026, 2026:RJ-JP:32067 (CRLMP No.3619/2026 and CRLMP No.3623/2026)",
+        "url": "https://indiankanoon.org/doc/119002988/"
+      },
+      "caveats": "A companion petition ([name withheld], CRLMP No.3619/2026) was decided by the same common order; only the [name withheld] order text was reviewed in full.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The case punished wagering of the accused's own money on cricket, with the court expressly finding no cheated person and no victim."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/119002988/",
+          "kind": "court_order",
+          "publisher": "Rajasthan High Court via Indian Kanoon",
+          "date": "2026-07-16",
+          "supports": "FIR numbers and station, gambling and other sections, betting facts and seizure, no-cheating reasoning, quashing order, judge and date"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-rj-0003",
+      "category": "alcohol",
+      "state": "Rajasthan",
+      "title": "Liquor-storage conviction under Rajasthan Excise Act upheld with probation in Deedwana",
+      "summary": "Excise officers recovered 49 cartons of liquor from a field hut near Baldu in Deedwana-Kuchaman and arrested the man found at the spot. The trial court convicted him under the Rajasthan Excise Act and imposed three years' imprisonment plus fines. On 25 February 2026 the High Court maintained the conviction but replaced custody with release on probation.",
+      "date": "2026-02-25",
+      "date_label": "High Court order in revision petition",
+      "district": "Deedwana-Kuchaman",
+      "outcome": "conviction",
+      "authority": "Rajasthan High Court, Jodhpur (Justice Farjand Ali); ACJM Deedwana; Additional Sessions Judge Deedwana",
+      "case_reference": "S.B. Criminal Revision Petition No. 324/2026; Criminal Regular Case No.15/2016; Criminal Appeal No.66/2019",
+      "laws": [
+        "Sections 19/54 and 14/57 of the Rajasthan Excise Act, 1950",
+        "Section 4 of the Probation of Offenders Act, 1958"
+      ],
+      "acts": [
+        "Rajasthan Excise Act, 1950",
+        "Probation of Offenders Act, 1958"
+      ],
+      "person": "a man in Deedwana-Kuchaman found at a field hut where stored liquor was seized",
+      "penalty": "Three years' simple imprisonment per count with fine of Rs.20,000 per count at trial; High Court maintained conviction but ordered release under Section 4 of the Probation of Offenders Act on a personal bond of Rs.25,000 with a like surety for two years, with the fine to be paid within 90 days",
+      "detail": [
+        "The High Court recorded that “Upon search of a hut situated in the field, 49 cartons of liquor were recovered,” described as including “31 cartons contained 1488 quarters of Episode Grain Whisky” along with other brands.",
+        "The High Court noted the prosecution was “for the offences under Sections 19/54 and 14/57 of the Rajasthan Excise Act, 1950,” with trial judgment dated 07.06.2019 and appeal judgment dated 23.02.2026.",
+        "The High Court noted the trial sentence of “sentenced to undergo three years' simple imprisonment” “along with fine of Rs.20,000/- for each offence.”",
+        "The High Court held that “Accordingly, the judgment of conviction is maintained” but ordered that “he should be released under Section 4 of the Probation of Offenders Act, 1958.”"
+      ],
+      "current_position": "The conviction stands; the custodial sentence was replaced by supervised probation with a bond and the fine retained.",
+      "quote": {
+        "text": "Upon search of a hut situated in the field, 49 cartons of liquor were recovered.",
+        "where": "Rajasthan High Court order dated 25/02/2026, S.B. Criminal Revision Petition No. 324/2026",
+        "url": "https://indiankanoon.org/doc/15085800/"
+      },
+      "caveats": "The exact calendar date of the original seizure (described as late January 2015) and the FIR number were not stated in the excerpt reviewed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The punishment was for possessing and storing liquor without a licence, with no allegation of spurious liquor, poisoning, or violence in the material reviewed."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/15085800/",
+          "kind": "court_order",
+          "publisher": "Rajasthan High Court via Indian Kanoon",
+          "date": "2026-02-25",
+          "supports": "recovery details, Excise Act sections, trial sentence, probation modification, judge and date, place as Village Baldu, P.S. Ladnun"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-rj-0004",
+      "category": "beef",
+      "state": "Rajasthan",
+      "title": "Bovine-slaughter prosecution under Rajasthan Bovine Act continues in Rajsamand",
+      "summary": "Police at Kunwariya in Rajsamand district registered FIR No.113/2026 for offences under sections 3, 5, 6 and 8 of the Rajasthan Bovine Animal Act. The accused approached the High Court for bail. On 23 July 2026 the High Court disposed of the plea as withdrawn and directed the applicant to surrender within 30 days, with the trial court to decide a fresh bail plea the same day.",
+      "date": "2026-07-23",
+      "date_label": "High Court bail order",
+      "incident_date": "2026-06-24",
+      "district": "Rajsamand",
+      "outcome": "prosecution_pending",
+      "authority": "Rajasthan High Court, Jodhpur (Justice Ashok Kumar Jain)",
+      "case_reference": "S.B. Criminal Miscellaneous Bail Application No. 9674/2026; FIR No.113/2026 dated 24.06.2026, P.S. Kunwariya, District Rajsamand",
+      "laws": [
+        "Sections 3, 5, 6 and 8 of the Rajasthan Bovine Animal (Prohibition of Slaughter and Regulation of Temporary Migration or Export) Act, 1995"
+      ],
+      "acts": [
+        "Rajasthan Bovine Animal (Prohibition of Slaughter and Regulation of Temporary Migration or Export) Act, 1995"
+      ],
+      "person": "a man in Rajsamand accused in a bovine-slaughter case",
+      "detail": [
+        "The High Court recorded the linkage as “FIR No.113/2026 dated 24.06.2026 registered at P.S. Kunwariya, District Rajsamand.”",
+        "The High Court noted the provisions cited as “for offence under Sections 3, 5, 6 and 8” of the “Rajasthan Bovine Animal (Prohibition of Slaughter and Regulation of Temporary Migration or Export) Act, 1995.”",
+        "The High Court recorded that counsel “offers to withdraw the present bail application under Section 482 of the BNSS” and ordered it “is disposed of as withdrawn.”",
+        "The High Court granted liberty “to surrender before the trial Court within a period of 30 days” and directed “the trial Court is directed to decide the bail application” filed there “on the very same day.”"
+      ],
+      "current_position": "The prosecution continues; the accused was to surrender within 30 days and seek bail before the trial court.",
+      "quote": {
+        "text": "FIR No.113/2026 dated 24.06.2026 registered at P.S. Kunwariya, District Rajsamand",
+        "where": "Rajasthan High Court order dated 23/07/2026, S.B. Criminal Miscellaneous Bail Application No. 9674/2026",
+        "url": "https://indiankanoon.org/doc/119746150/"
+      },
+      "caveats": "The order excerpt gives only statutory numbers with no factual narrative, so the precise slaughter, possession or transport allegation could not be confirmed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The prosecution targets slaughter or possession of bovine animals as such, with no cruelty, theft or violence charge appearing in the order excerpt reviewed."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/119746150/",
+          "kind": "court_order",
+          "publisher": "Rajasthan High Court via Indian Kanoon",
+          "date": "2026-07-23",
+          "supports": "FIR number, date, station and district, Bovine Act sections, withdrawal and surrender direction, judge and date"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-rj-0005",
+      "category": "tobacco",
+      "state": "Rajasthan",
+      "title": "Jodhpur police arrest restaurant operator and fine 21 customers in hookah-bar raid under COTPA",
+      "summary": "Police raided a restaurant-bar on Civil Airport Road, Jodhpur, and arrested the operator for allegedly running an illegal hookah bar. The High Court has recorded that police may act against hookah outlets that sell or use substances prohibited under COTPA. Police also fined 21 people found smoking hookah and seized hookahs, pipes and flavour boxes.",
+      "date": "2025-07-12",
+      "date_label": "police raid reported (news reports dated 12 July 2025); High Court COTPA order dated 29 May 2024",
+      "incident_date": "2025-07-10",
+      "district": "Jodhpur",
+      "outcome": "arrest",
+      "authority": "Airport police station, Jodhpur Commissionerate (Rajasthan Police); Rajasthan High Court (Jodhpur bench, COTPA framework order)",
+      "laws": [
+        "Cigarettes and Other Tobacco Products Act, 2003 (COTPA)",
+        "Section 4A, COTPA 2003 as amended for Rajasthan (prohibition of hookah bars)",
+        "Section 21A, COTPA 2003 as amended for Rajasthan (punishment for running hookah bar)"
+      ],
+      "acts": [
+        "Cigarettes and Other Tobacco Products (Prohibition of Advertisement and Regulation of Trade and Commerce, Production, Supply and Distribution) Act, 2003"
+      ],
+      "person": "a restaurant operator in Jodhpur, and 21 customers found smoking hookah",
+      "penalty": "Operator arrested; Rs 4,200 total fine collected from 21 persons; 17 hookah pots, 18 rubber pipes, 32 chillums, 14 steel plates, 22 flavour boxes, 1 iron tong and 84 filter pipes seized, as reported",
+      "detail": [
+        "The High Court recorded that as long as hookah outlets comply with COTPA no action can be taken against them, but if prohibited substances are sold or used then action can be taken, with Sub-Inspector-rank officers empowered to act.",
+        "Police said that, acting on a tip-off, a large team raided a restaurant-bar on Civil Airport Road (Pabupura, Ratanada area) late on Thursday night and found many people smoking hookah.",
+        "Police said the restaurant operator was arrested for allegedly running the hookah bar illegally, action was taken against 21 people under the COTPA law, and Rs 4,200 was collected as fine.",
+        "Police said they seized 17 hookah pots, 18 rubber pipes, 32 clay chillums (full and empty, tobacco-flavoured), 14 steel plates, 22 flavour boxes (open and sealed), one iron tong and 84 filter pipes from the spot."
+      ],
+      "current_position": "The operator was arrested and the customers were fined on the spot; no bail order, charge sheet or conviction has been confirmed.",
+      "quote": {
+        "text": "As long as the petitioners comply with the provisions of COTPA and do not serve any prohibited substances in the hookah parlour then no action can be taken against them. However, it is made clear that if it is found that the petitioners are selling/using any substances prohibited under the COTPA then surely an action can be taken against them.",
+        "where": "Skygreen Cafe vs State of Rajasthan (2024:RJ-JD:24633), para 1 (quoting order dated 17.07.2023)",
+        "url": "https://indiankanoon.org/doc/111470348/"
+      },
+      "caveats": "No standalone police press release or FIR number for this raid was located; raid facts rest on two news reports quoting the station house officer. Exact COTPA sections applied to each person were not printed. Conviction or further proceedings could not be confirmed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Serving and smoking flavoured tobacco in a hookah bar harms no third party and involves consenting adults; the state punished it with arrest, fines and seizure under tobacco law."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/111470348/",
+          "kind": "court_order",
+          "publisher": "Rajasthan High Court (via Indian Kanoon)",
+          "date": "2024-05-29",
+          "supports": "COTPA enforcement framework for hookah outlets in Jodhpur; police power to act on prohibited tobacco use"
+        },
+        {
+          "url": "https://www.bhaskar.com/local/rajasthan/jodhpur/news/illegal-hookah-bar-on-the-farm-operator-arrested-135431683.html",
+          "kind": "news",
+          "publisher": "Dainik Bhaskar",
+          "date": "2025-07-12",
+          "supports": "raid, arrest of operator, action against 21 persons, Rs 4,200 fine, seizure list"
+        },
+        {
+          "url": "https://doordrishtinews.com/hookah-bar-found-running-illegally-in-restaurant-bar-operator-arrested/rs-thapa/",
+          "kind": "news",
+          "publisher": "Doordrishti News",
+          "date": "2025-07-12",
+          "supports": "second independent report of the same raid, arrest, 21 persons held under COTPA, Rs 4,200 fine, seizure list"
+        },
+        {
+          "url": "https://prsindia.org/files/bills_acts/acts_states/rajasthan/2020/Act%20No.%201%20of%202020%20RJ.pdf",
+          "kind": "gazette",
+          "publisher": "Rajasthan Gazette via PRS India",
+          "date": "2020-01-16",
+          "supports": "Rajasthan Amendment Act creating hookah-bar prohibition (section 4A), seizure power and punishment (section 21A)"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-rj-0006",
+      "category": "vapes",
+      "state": "Rajasthan",
+      "title": "Rajasthan High Court records police seizures of e-cigarettes and orders statewide enforcement of vape ban",
+      "summary": "The High Court recorded that police had seized e-cigarettes and that raids had found online sale and consumption of e-cigarettes at several places in Rajasthan. The Court directed the Director General of Police to form range-level teams to fully implement the 2019 vape ban. It also ordered district-level authorised officers and compliance reports.",
+      "date": "2025-09-18",
+      "date_label": "High Court order",
+      "district": "Jaipur",
+      "outcome": "seizure",
+      "authority": "Rajasthan High Court (Jaipur bench); Rajasthan Police; Chief Secretary, Rajasthan",
+      "case_reference": "D.B. Civil Writ Petition (PIL) No. 10192/2022",
+      "laws": [
+        "Prohibition of Electronic Cigarettes (Production, Manufacture, Import, Export, Transport, Sale, Distribution, Storage and Advertisement) Act, 2019",
+        "Section 6 onwards of the 2019 Act (authorised officers and enforcement)"
+      ],
+      "acts": [
+        "Prohibition of Electronic Cigarettes Act, 2019"
+      ],
+      "person": "online sellers, warehouse operators and users of e-cigarettes in Rajasthan",
+      "detail": [
+        "The High Court was hearing a public interest petition seeking implementation of the 2019 law banning e-cigarettes, and the officer-in-charge told the Court that steps had been taken to seize e-cigarettes and to block websites.",
+        "The High Court directed the Director General of Police to prepare teams of officers from the range headquarters to implement the 2019 Act in full, and directed the Chief Secretary to appoint Collector-rank authorised officers in each district.",
+        "The High Court sought district-wise compliance reports and a Union report on blocked websites and action against sellers, and kept the petition pending for further orders."
+      ],
+      "current_position": "The petition remains pending with enforcement directions in force.",
+      "quote": {
+        "text": "The Director General of Police shall prepare a team of Officers representing the various range headquarters, who would take steps to implement the Act of 2019 in its entirety.",
+        "where": "Rajasthan High Court order dated 18/09/2025 in D.B. Civil Writ Petition (PIL) No. 10192/2022, as reproduced in LiveLaw report",
+        "url": "https://www.livelaw.in/pdf_upload/2052001019220228-621801.pdf"
+      },
+      "caveats": "Exact dates and places of the individual police raids and seizures were not stated in the orders located. No named seller prosecution or conviction was confirmed. A September 2026 interim direction was reported in news but its order copy was not located.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Possessing, selling or vaping e-cigarettes involves consenting adults and no complaining victim; the state seizes the devices, blocks sellers and polices online trade."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.livelaw.in/pdf_upload/2052001019220228-621801.pdf",
+          "kind": "court_order",
+          "publisher": "Rajasthan High Court (order copy via LiveLaw)",
+          "date": "2025-09-18",
+          "supports": "DGP team direction, district authorised officers, compliance reports, recorded seizures"
+        },
+        {
+          "url": "https://www.livelaw.in/high-court/rajasthan-high-court/rajasthan-high-court-hearing-pil-prohibition-of-electronic-cigarettes-act-implementation-304622",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2025-09-22",
+          "supports": "summary of the 18-09-2025 order, DGP and Chief Secretary directions, next hearing date"
+        },
+        {
+          "url": "https://www.livelaw.in/pdf_upload/2052001019220227-599030.pdf",
+          "kind": "court_order",
+          "publisher": "Rajasthan High Court (order copy via LiveLaw)",
+          "date": "2025-05-06",
+          "supports": "recorded raids finding online sale at six places and blocking of sites; DGP affidavit direction"
+        }
+      ],
+      "verification": "V2"
     }
   ]
 }
