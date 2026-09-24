@@ -1477,6 +1477,21 @@ def civil_descriptor(p):
     return ("%s %s" % (record_place(p), post or "public servant")).strip()
 
 
+_URL_FILENAME = re.compile(r"(https?://[^\s\"'<>]*?)[?&]filename=[^&\s\"'<>#]*")
+
+
+def strip_url_names(o):
+    """Drop 'filename=' parameters (party names in download links) from every
+    URL in a public record, recursively."""
+    if isinstance(o, str):
+        return _URL_FILENAME.sub(r"\1", o) if "filename=" in o else o
+    if isinstance(o, list):
+        return [strip_url_names(x) for x in o]
+    if isinstance(o, dict):
+        return {k: strip_url_names(v) for k, v in o.items()}
+    return o
+
+
 def redact_record(c, oracle=None, nosp_extras=None):
     """Return a PUBLIC-SAFE copy: unnamed officers lose `name`, anonymised
     victims lose `name`, non-public fields are dropped, and leftover name
@@ -1563,8 +1578,9 @@ def redact_record(c, oracle=None, nosp_extras=None):
         p, ("display_title", "display_title_redacted", "case_title"),
         ("summary", "summary_verified", "verification_note", "court_quote",
          "verdict_note"))
-    return anonymise_victims(p, c, ("display_title", "display_title_redacted",
-                                    "case_title", "citation"), oracle)
+    anonymise_victims(p, c, ("display_title", "display_title_redacted",
+                             "case_title", "citation"), oracle)
+    return strip_url_names(p)
 
 
 # ---- Tier-2 (trial-court convictions) ----
@@ -2784,10 +2800,19 @@ def action_cards_html(c):
                esc(a.get("independence") or "Unknown"),
                esc(a.get("legal_effect") or "Unknown"),
                esc(a.get("description") or ""), disp_html,
-               esc(a.get("source")
-                   or "judgment text (see public sources)"),
+               source_label_html(a.get("source")),
                rcls, esc(recheck)))
     return "".join(cards)
+
+
+def source_label_html(src):
+    """A source cell: a URL shows as a link named after its outlet (raw URLs
+    can carry party names, e.g. order.law download names), text as text."""
+    s = (src or "").strip()
+    if re.match(r"https?://", s):
+        return '<a href="%s" rel="nofollow noopener">%s</a>' % (
+            esc(s), esc(outlet_name(_host(s))))
+    return esc(s or "judgment text (see public sources)")
 
 
 def followup_block_html(c):
