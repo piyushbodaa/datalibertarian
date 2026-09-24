@@ -57,8 +57,8 @@
   "redirects": [
     {
       "source": "/copwatchindia",
-      "destination": "/babuwatch",
-      "permanent": true
+      "destination": "/babuwatch/tracker?service=police",
+      "permanent": false
     },
     {
       "source": "/copwatchindia/report",
@@ -77,8 +77,8 @@
     },
     {
       "source": "/copwatch",
-      "destination": "/babuwatch",
-      "permanent": true
+      "destination": "/babuwatch/tracker?service=police",
+      "permanent": false
     },
     {
       "source": "/copwatch/:path*",
@@ -87,8 +87,8 @@
     },
     {
       "source": "/babuwatch/copwatchindia",
-      "destination": "/babuwatch",
-      "permanent": true
+      "destination": "/babuwatch/tracker?service=police",
+      "permanent": false
     },
     {
       "source": "/babuwatch/copwatchindia/report",

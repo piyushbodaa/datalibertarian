@@ -2408,6 +2408,356 @@ def followup_block_html(c):
     return block + corr_html + rev_html, len(hist)
 
 
+# ---- Report card (police records only; shown on the opened record page) ----
+# A structured, formally worded card: reference, officers, provisions, the
+# court's finding, disposition, present status and sources. Every field
+# comes from the gated public record (officers via officer_display only);
+# nothing here adds a finding of its own.
+_ACTS = [  # (pattern at the start of a provision, statute name, unit)
+    (r"(?:PC Act|Prevention of Corruption Act)(?:,?\s*(?P<y>1947|1988))?",
+     "Prevention of Corruption Act", "Section"),
+    (r"IPC|I\.P\.C\.?", "Indian Penal Code, 1860", "Section"),
+    (r"CrPC|Cr\.P\.C\.?", "Code of Criminal Procedure, 1973", "Section"),
+    (r"BNSS", "Bharatiya Nagarik Suraksha Sanhita, 2023", "Section"),
+    (r"BNS", "Bharatiya Nyaya Sanhita, 2023", "Section"),
+    (r"BSA", "Bharatiya Sakshya Adhiniyam, 2023", "Section"),
+    (r"(?:Constitution(?: of India)?(?:\s+Art(?:icle)?\.?)?|Article|Art\.?)",
+     "Constitution of India", "Article"),
+    (r"NDPS Act(?:,?\s*1985)?",
+     "Narcotic Drugs and Psychotropic Substances Act, 1985", "Section"),
+    (r"SC/ST (?:\(PoA\) )?Act(?:,?\s*1989)?",
+     "Scheduled Castes and the Scheduled Tribes (Prevention of Atrocities) "
+     "Act, 1989", "Section"),
+    (r"POCSO(?: Act)?(?:,?\s*2012)?",
+     "Protection of Children from Sexual Offences Act, 2012", "Section"),
+    (r"Arms Act(?:,?\s*1959)?", "Arms Act, 1959", "Section"),
+    (r"RPC", "Ranbir Penal Code", "Section"),
+    (r"MV Act(?:,?\s*1988)?", "Motor Vehicles Act, 1988", "Section"),
+    (r"Evidence Act(?:,?\s*1872)?", "Indian Evidence Act, 1872", "Section"),
+    (r"CPC|C\.P\.C\.?", "Code of Civil Procedure, 1908", "Section"),
+    (r"UAPA(?:,?\s*1967)?", "Unlawful Activities (Prevention) Act, 1967",
+     "Section"),
+    (r"POTA(?:,?\s*2002)?", "Prevention of Terrorism Act, 2002", "Section"),
+    (r"NSA(?:,?\s*1980)?", "National Security Act, 1980", "Section"),
+    (r"COTPA(?:,?\s*2003)?",
+     "Cigarettes and Other Tobacco Products Act, 2003", "Section"),
+    (r"J&K PSA(?:,?\s*1978)?", "Jammu and Kashmir Public Safety Act, 1978",
+     "Section"),
+]
+_UNIT_RX = re.compile(r"^(?:(?P<rule>Rules?\b|r\.)|(?P<art>Art(?:icle)?\.?)|"
+                      r"(?:ss?\.|Sections?\b|Sec\.))\s*", re.I)
+_GENERIC_ACT_RX = re.compile(
+    r"^(?P<name>[A-Z][\w&().,/'\- ]*?(?:Act|Rules|Regulations|Code|Manual|"
+    r"Order|Sanhita|Adhiniyam))(?:,?\s*(?P<y>1[89]\d\d|20\d\d))?\b\.?\s*(?P<rest>.*)$")
+_JOIN_RX = re.compile(r"\s+(r/w|read with|punishable under|punishable u/s)\s+",
+                      re.I)
+
+
+def _unit_num(rest, unit):
+    rest = rest.strip().strip(",").strip()
+    m = _UNIT_RX.match(rest)
+    if m:
+        unit = "Rule" if m.group("rule") else (
+            "Article" if m.group("art") else "Section")
+        rest = rest[m.end():]
+    return ("%s %s" % (unit, rest.strip())) if rest.strip() else None
+
+
+def _provision_part(p, prev_act):
+    """One provision -> (\"Section 7\" or None, statute) or None."""
+    for rx, name, unit in _ACTS:
+        m = re.match(r"^(?:%s)(?![A-Za-z])\.?\s*(?P<rest>.*)$" % rx, p, re.I)
+        if m:
+            y = m.groupdict().get("y")
+            act = name + (", " + y if y else "") if "," not in name else name
+            return _unit_num(m.group("rest"), unit), act
+    m = _GENERIC_ACT_RX.match(p)
+    if m:
+        act = m.group("name").strip() + (", " + m.group("y")
+                                         if m.group("y") else "")
+        name = m.group("name").strip()
+        unit = ("Rule" if name.endswith("Rules") else "Regulation"
+                if name.endswith("Regulations") else "Section")
+        return _unit_num(m.group("rest"), unit), act
+    if prev_act and re.match(r"^(?:ss?\.|Sections?|Sec\.|Art\.?|Article|"
+                             r"Rules?|r\.)?\s*\d", p, re.I):
+        return _unit_num(p, "Section"), prev_act
+    return None
+
+
+_SUFFIX_RX = re.compile(
+    r"^(?:(?:Sections?|Sec\.?|ss?\.|u/s)\s*)?(?P<nums>\d[\w()/\-.]*"
+    r"(?:\s*\([IVXivx]+\))?(?:\s+Part\s+[IVX]+)?"
+    r"(?:\s+(?:r/w|read with)\s+\d[\w()/\-.]*)*)\s*,?\s+"
+    r"(?:of\s+(?:the\s+)?)?(?P<act>[A-Za-z][^()]*?)\s*(?P<note>\([^)]*\))?$")
+
+
+def legal_provision(s):
+    """'PC Act 1988 s.13(1)(d) r/w s.13(2)' -> 'Section 13(1)(d) read with
+    Section 13(2) of the Prevention of Corruption Act, 1988'. Anything it
+    cannot parse is shown exactly as recorded."""
+    s = re.sub(r"\s+", " ", (s or "").strip().rstrip(".,;"))
+    if not s:
+        return ""
+    out = _legal_provision(s)
+    if out is None:
+        m = _SUFFIX_RX.match(s)
+        if m:
+            out = _legal_provision("%s %s" % (m.group("act"), m.group("nums")))
+            if out and m.group("note"):
+                out += " " + m.group("note")
+    return out or s
+
+
+def _legal_provision(s):
+    bits = _JOIN_RX.split(s)
+    parts = [("", bits[0])] + [
+        ("read with" if bits[i].lower() == "r/w" else
+         "punishable under" if bits[i].lower().startswith("punishable")
+         else bits[i].lower(), bits[i + 1]) for i in range(1, len(bits) - 1, 2)]
+    parsed, act = [], None
+    for sep, p in parts:
+        r = _provision_part(p.strip(), act)
+        if r is None:
+            return None
+        parsed.append((sep, r[0], r[1]))
+        act = r[1]
+    out, i = "", 0
+    while i < len(parsed):
+        sep0, a = parsed[i][0], parsed[i][2]
+        seg = ""
+        while i < len(parsed) and parsed[i][2] == a:
+            sep, num = parsed[i][0], parsed[i][1]
+            if num:
+                seg += (" %s " % sep if seg else "") + num
+            i += 1
+        seg = (seg + " of the " + a) if seg else ("the " + a)
+        out += (", %s %s" % (sep0, seg)) if out else seg
+    return out
+
+
+def legal_provisions(c):
+    seen, out = set(), []
+    for s in c.get("sections") or []:
+        t = legal_provision(s)
+        if t and t.lower() not in seen:
+            seen.add(t.lower())
+            out.append(t)
+    return out
+
+
+_SERVICE_STATUS = [  # explicit wording only; "dismissed" alone often means a petition
+    (r"\bdismissed from (?:the )?(?:police )?service\b|"
+     r"\bdismissal from (?:the )?service\b", "dismissed from service"),
+    (r"\bremoved from (?:the )?service\b|\bremoval from (?:the )?service\b",
+     "removed from service"),
+    (r"\bcompulsor(?:y|ily) retire", "compulsorily retired"),
+    (r"\breinstate(?:d|ment) (?:in|into) (?:the )?service\b", "reinstated in service"),
+]
+
+
+def officer_present_status(c):
+    blob = " ".join(str(x or "") for x in [
+        c.get("summary"), c.get("verification_note"), c.get("display_title")]
+        + [a.get("description") for a in (c.get("institutional_response")
+                                          or []) if isinstance(a, dict)])
+    hits = [label for rx, label in _SERVICE_STATUS if re.search(rx, blob, re.I)]
+    if len(hits) == 1:
+        return "Recorded in the cited sources as %s." % hits[0]
+    if hits:
+        return ("The cited sources refer to the officer being %s; the present "
+                "position is not ascertained." % " and ".join(hits))
+    return "Not ascertained from the cited sources."
+
+
+_LATER_OUTCOME = {"conviction_set_aside": "conviction set aside",
+                  "pending_appeal": "appeal pending",
+                  "acquitted_on_appeal": "acquitted on appeal",
+                  "upheld": "upheld", "dismissed": "appeal dismissed",
+                  "pending": "appeal pending", "allowed": "appeal allowed"}
+
+
+def _coram(c):
+    js = [re.sub(r"^(?:Hon'?ble\s+)?(?:(?:Mr|Mrs|Ms|Dr)\.?\s+)?(?:Justice\s+)?",
+                 "", j.strip(), flags=re.I) for j in (c.get("judges") or []) if j]
+    js = [j for j in js if j]
+    if not js:
+        return ""
+    return ", ".join(js) + (", J." if len(js) == 1 else ", JJ.")
+
+
+def _accused_phrase(offs, c):
+    if len(offs) == 1:
+        return "the " + offs[0]
+    if offs:
+        return "%d police personnel, namely: %s" % (len(offs), "; ".join(offs))
+    return sw(c, "accused")
+
+
+def report_card_data(c, kind):
+    """kind 'hc' (court-adjudicated incident) or 'trial' (trial-court
+    conviction). Returns (operative sentence, [(label, text)], [(label, url)])
+    or None for records that are not police records."""
+    if (c.get("service") or "police") != "police":
+        return None
+    offs = [o for o in (officer_display(o, c) for o in (c.get("officers") or []))
+            if o]
+    who = _accused_phrase(offs, c)
+    rows, links = [], []
+    if kind == "trial":
+        court = (c.get("trial_court_name") or "the trial court").strip()
+        court = court if court.lower().startswith("the ") else "the " + court
+        cdate = (c.get("conviction_date") or "").strip()
+        operative = "By judgment%s, %s convicted %s." % (
+            " dated %s" % fmt_date(cdate) if re.match(r"^\d{4}-\d\d-\d\d$", cdate)
+            else (" of %s" % cdate if cdate else ""), court, who)
+        ref = c.get("case_number") or c.get("case_title_or_number")
+        src_court = c.get("court")
+        rows.append(("Case reference", "; ".join(x for x in [
+            ref, "reported in the judgment of the %s" % src_court
+            if src_court and src_court.lower() not in court.lower() else ""]
+            if x) or "Not stated"))
+        rows.append(("Court and date", "%s%s" % (
+            court[0].upper() + court[1:], ", %s" % (fmt_date(cdate) if re.match(
+                r"^\d{4}-\d\d-\d\d$", cdate) else cdate) if cdate else "")))
+        disposition = "Conviction recorded by the trial court. Sentence: %s" % (
+            (c.get("sentence") or "not stated in the cited sources").rstrip("."))
+        ap = c.get("appeal_status") or "unknown"
+        status = {
+            "upheld": "The conviction was affirmed in appeal.",
+            "set_aside": "The conviction was set aside in appeal; the "
+                         "acquittal on appeal is the present position.",
+            "pending": "An appeal is pending; the pendency of an appeal is "
+                       "not a finding.",
+            "none_known": "No appeal is known from the cited sources.",
+        }.get(ap, "Whether the conviction was appealed is not known from "
+                  "the cited sources.")
+        if c.get("appeal_url"):
+            links.append(("Appellate judgment", c["appeal_url"]))
+        path = "/trial-court/%s" % t2_id(c)
+        rid = t2_id(c)
+    else:
+        jdate = fmt_date(c.get("judgment_date"), c.get("date_precision"))
+        court = c.get("court") or "the Court"
+        coram = _coram(c)
+        verb = {
+            "conviction_upheld": "affirmed the conviction of",
+            "conviction_by_hc": "recorded the conviction of",
+            "conviction_by_sc": "recorded the conviction of",
+            "disciplinary_upheld": "upheld the disciplinary action taken "
+                                   "against",
+            "adverse_finding_compensation": "returned findings adverse to",
+        }.get(c.get("outcome_type"), "adjudicated the matter concerning")
+        comp = c.get("compensation_inr")
+        operative = "By judgment dated %s%s, the %s%s %s %s%s." % (
+            jdate, " in %s" % c["case_number"] if c.get("case_number") else "",
+            court, " (Coram: %s)" % coram if coram else "", verb, who,
+            ", and directed payment of compensation of %s" % fmt_inr(comp)
+            if comp else "")
+        rows.append(("Case reference", " / ".join(x for x in [
+            c.get("case_number"), c.get("citation")] if x) or "Not stated"))
+        rows.append(("Court and date", "%s%s, %s" % (
+            court, " (Coram: %s)" % coram if coram else "", jdate)))
+        sent = []
+        if c.get("sentence_type"):
+            sent.append({"imprisonment": "imprisonment",
+                         "mixed": "imprisonment and fine", "fine": "fine"}.get(
+                c["sentence_type"], pretty_label(c["sentence_type"]).lower()))
+        if c.get("sentence_max_years") is not None:
+            sent.append("maximum substantive term of %s year%s" % (
+                c["sentence_max_years"],
+                "" if str(c["sentence_max_years"]) == "1" else "s"))
+        disposition = "%s.%s%s" % (
+            OUTCOME_LABEL.get(c.get("outcome_type"),
+                              pretty_label(c.get("outcome_type")) or
+                              "Outcome not stated"),
+            " Sentence: %s." % "; ".join(sent) if sent else "",
+            " Compensation: %s." % fmt_inr(comp) if comp else "")
+        later = []
+        for lp in c.get("later_proceedings") or []:
+            if not isinstance(lp, dict):
+                continue
+            later.append("%s%s: %s." % (
+                lp.get("court") or "Appellate court",
+                ", " + fmt_date(lp["date"]) if lp.get("date") else "",
+                _LATER_OUTCOME.get(lp.get("outcome"),
+                                   pretty_label(lp.get("outcome")).lower()
+                                   or "outcome not recorded")))
+            if lp.get("url"):
+                links.append(("%s order" % (lp.get("court") or "Appellate"),
+                              lp["url"]))
+        acts = [a.get("action_type") for a in (c.get("institutional_response")
+                                               or []) if isinstance(a, dict)]
+        for a in ("Acquitted on appeal", "Order set aside", "Appeal pending"):
+            if a in acts and not later:
+                later.append("Recorded in the cited sources: %s." % a.lower())
+        if later:
+            status = " ".join(later)
+        elif appeal_caveat(c):
+            status = ("The judgment is recent and may be subject to appeal; "
+                      "the pendency of an appeal is not a finding.")
+        else:
+            status = ("No further proceedings are recorded in the cited "
+                      "sources; the judgment is the concluded position shown.")
+        rid = rec_id(c)
+        path = "/incident/%s" % rid
+    station = c.get("police_station_or_unit") or ""
+    rows.append(("Officer(s) at the material time", "; ".join(offs) if offs
+                 else "Not identified in the cited sources" + (
+                     " (%s)" % station if station else "")))
+    rows.append(("Present service status", officer_present_status(c)))
+    provs = legal_provisions(c)
+    rows.append(("Provisions invoked", "; ".join(provs) if provs
+                 else "Not stated in the cited sources"))
+    quote = truncate_quote((c.get("court_quote") or "").strip())
+    if quote:
+        para = c.get("court_quote_para")
+        rows.append(("Finding of the Court (extract)", "“%s”%s" % (
+            quote, " (at para %s)" % para if para else "")))
+    else:
+        rows.append(("Facts in brief", c.get("summary") or
+                     "Not recorded."))
+    rows.append(("Verdict, sentence and quantum", disposition))
+    rows.append(("Present status of the proceedings", status))
+    if c.get("primary_source_url"):
+        links.insert(0, ("Judgment / order (primary source)",
+                         c["primary_source_url"]))
+    links.append(("Permanent link to this record", SITE_URL + path))
+    plate = PLATES.get(rid) or PLATES.get(c.get("merged_id") or "")
+    if plate:
+        rows.insert(0, ("Register number", plate))
+    return operative, rows, links
+
+
+def report_card_html(c, kind):
+    d = report_card_data(c, kind)
+    if not d:
+        return ""
+    operative, rows, links = d
+    items = "".join('<div><dt>%s</dt><dd>%s</dd></div>' % (esc(k), esc(v))
+                    for k, v in rows)
+    src = "".join('<li><a href="%s" rel="nofollow noopener">%s</a></li>'
+                  % (esc(u), esc(k)) for k, u in links)
+    return ("""
+        <section class="incident-section report-card" id="report-card">
+          <div class="incident-section-head"><div><div class="incident-section-label">Detailed record</div><h2>Report card</h2></div></div>
+          <p class="rc-operative">%s</p>
+          <dl class="rc-grid">%s<div><dt>Source orders</dt><dd><ul class="rc-links">%s</ul></dd></div></dl>
+          <p class="rc-note">Compiled from the judgment and the cited sources. Findings are those of the court; this card adds none of its own.</p>
+        </section>""" % (esc(operative), items, src))
+
+
+def report_card_md(c, kind):
+    d = report_card_data(c, kind)
+    if not d:
+        return []
+    operative, rows, links = d
+    return (["## Report card", "", md_esc(operative), ""]
+            + ["- %s: %s" % (md_esc(k), md_esc(v)) for k, v in rows]
+            + ["- Source orders: " + "; ".join(md_link(k, u) for k, u in links),
+               ""])
+
+
 def build_incident(c):
     rid = rec_id(c)
     mid = c["merged_id"]
@@ -2492,7 +2842,7 @@ def build_incident(c):
     <div class="incident-reading-note"><strong>What this record means</strong><p>This page documents a court-adjudicated case from the judgment and cited sources below. Findings are attributed to the court; this record does not add findings of its own.</p><a href="/methodology">How verification works &rarr;</a></div>
 
     <div class="incident-layout">
-      <div class="incident-main">
+      <div class="incident-main">%s
         <section class="incident-section incident-current"><div class="incident-section-label">Current position</div><p>%s</p></section>
 
         <section class="incident-section" id="allegations">
@@ -2534,6 +2884,7 @@ def build_incident(c):
         esc(rid), tombstone, esc(rid), esc(loc), esc(jdate),
         esc(title), esc(summary),
         tier_badge_class(c), esc(tier_label(c)), esc(v_level(c)),
+        report_card_html(c, "hc"),
         esc(current),
         nalleg, alleg_html,
         esc(holding or "Holding not recorded separately."),
@@ -3171,7 +3522,7 @@ def build_trialcourt_record(p):
     <div class="incident-reading-note"><strong>What this record means</strong><p>This page documents a trial-court conviction from the cited sources below. It is not a High Court or Supreme Court finding; the conviction may have been appealed. Findings are attributed to the convicting court; this record does not add findings of its own.</p><a href="/methodology">How verification works &rarr;</a></div>
 
     <div class="incident-layout">
-      <div class="incident-main">
+      <div class="incident-main">%s
         <section class="incident-section incident-current"><div class="incident-section-label">Current position</div><p>%s</p></section>
 
         <section class="incident-section" id="sentence">
@@ -3197,6 +3548,7 @@ def build_trialcourt_record(p):
 """ % (
         esc(cid), esc(cid), esc(loc), esc(cdate),
         esc(title), esc(summary), esc(t2_v(p)),
+        report_card_html(p, "trial"),
         t2_current_position(p),
         esc(p.get("sentence") or "Not stated"),
         esc("; ".join(p.get("sections") or []) or "Not stated"),
@@ -3885,7 +4237,19 @@ PATTERNS_JS = r"""// CopwatchIndia patterns — tier toggle over pre-rendered ch
 })();
 """
 
-CSS_ADDITIONS = """
+CSS_ADDITIONS = """/* Report card (police records, opened record page) */
+.report-card{border:1px solid var(--line);background:#fffdf8;padding:22px 24px;margin-top:26px}
+.report-card .incident-section-head{margin-bottom:10px}
+.rc-operative{font-family:var(--serif);font-size:1.06rem;line-height:1.6;color:var(--ink);margin:0 0 14px;text-wrap:pretty}
+.rc-grid{margin:0;display:grid;gap:0}
+.rc-grid>div{display:grid;grid-template-columns:minmax(0,13rem) minmax(0,1fr);gap:4px 18px;padding:11px 0;border-top:1px solid var(--paper-edge)}
+.rc-grid dt{font-family:var(--sans);font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;color:var(--slate)}
+.rc-grid dd{margin:0;font-family:var(--serif);line-height:1.55;color:var(--ink);overflow-wrap:anywhere}
+.rc-links{margin:0;padding-left:1.1em}
+.rc-links li{margin:2px 0}
+.rc-note{margin:12px 0 0;font-size:.82rem;color:var(--grey)}
+@media (max-width:640px){.report-card{padding:16px}.rc-grid>div{grid-template-columns:minmax(0,1fr)}}
+
 .news-top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
 .news-chips{display:flex;gap:8px;flex-wrap:wrap}
 .chip{display:inline-block;padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:#f1efe8;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#3a3f48}
@@ -4770,8 +5134,9 @@ def md_trialcourt_record(p):
             md_esc(t2_court_level(p)),
             md_esc((p.get("conviction_date") or "date not stated").strip()),
             md_esc(t2_appeal(p))), "",
-         "## Summary", "", md_esc(p.get("summary") or "Not recorded."), "",
-         "## At a glance", "",
+         "## Summary", "", md_esc(p.get("summary") or "Not recorded."), ""]
+    L += report_card_md(p, "trial")
+    L += ["## At a glance", "",
          "- Category: %s" % md_esc(site_category(p)),
          "- Sub-category: %s" % md_esc(t2_subcategory(p)),
          "- Location: %s" % md_esc(location_short(p)),
@@ -4787,6 +5152,7 @@ def md_incident(c):
     title = c.get("display_title") or c.get("case_title") or rid
     url = PUBLIC_BASE + "/incident/" + rid
     body, _ = case_md_body(c)
+    body = report_card_md(c, "hc") + list(body)
     return ("# %s\n\nHTML version: %s\n\n%s\n"
             % (md_esc(title), md_link(url, url), "\n".join(body)))
 
