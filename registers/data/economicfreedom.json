@@ -3162,6 +3162,285 @@
         }
       ],
       "verification": "V2"
+    },
+    {
+      "id": "ef-wb-0004",
+      "category": "trade",
+      "state": "West Bengal",
+      "title": "Customs seizure of 4,000 kg betel nuts at New Jalpaiguri set aside by Tribunal",
+      "summary": "Customs officers seized 4,000 kg of betel nuts at New Jalpaiguri station in 2018 on belief they were smuggled. The adjudicating authority confiscated the goods and fined the consignor Rs 1,60,000. The CESTAT Kolkata set aside the confiscation and penalty on 6 May 2025.",
+      "date": "2025-05-06",
+      "date_label": "CESTAT Final Order",
+      "incident_date": "2018-03-05",
+      "district": "Jalpaiguri",
+      "outcome": "penalty_set_aside",
+      "authority": "Customs, Excise and Service Tax Appellate Tribunal, Eastern Zonal Bench, Kolkata",
+      "case_reference": "Customs Appeal No. 75940 of 2021; Final Order No. 76238/2025; Seizure Case No. 31/IMP/UNCL/CUS/P&I-SLG-CCP-WB/17-18 dated 5.3.18; Order-in-Original No. 01/DC/UN/CUS/SLG/2020-21 dated 1.5.2020; Order-in-Appeal No. 01/DC/UN/CUS/SLG/WB/20-21-KOL/CUS/CCP/AKR/731/2021 dated 10.09.2021",
+      "laws": [
+        "Section 111(b) of the Customs Act, 1962",
+        "Section 111(d) of the Customs Act, 1962",
+        "Section 112(b) of the Customs Act, 1962",
+        "Section 123 of the Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "a betel-nut consignor in Guwahati sending goods to a trading firm in Dum Dum, West Bengal",
+      "penalty": "Confiscation of 4000 kg betel nuts valued Rs 8,00,000 and penalty of Rs 1,60,000 imposed in 2020 and upheld in 2021, both set aside by the Tribunal in 2025",
+      "detail": [
+        "The Tribunal recorded that the consignor had despatched betel nuts under two tax invoices dated 2.3.18 to a Dum Dum firm by railway parcel, and the consignments moving by Saraighat Express were intercepted at New Jalpaiguri Railway Station and seized on 5.3.18 on the belief they were smuggled without payment of duty.",
+        "The Tribunal recorded that a show-cause notice dated 31.8.2018 alleged the 50 sacks of betel nuts were illegally imported, and the adjudicating authority ordered confiscation under Section 111(b) and (d) and a Rs 1,60,000 penalty under Section 112(b), which the Commissioner (Appeals) upheld on 10.9.2021.",
+        "The Tribunal held that betel nuts are non-notified goods for which the burden to prove foreign origin and smuggled character lies on Revenue, and that the only evidence, an ARDF Mangalore report saying samples resembled Myanmar origin, could not establish foreign origin.",
+        "The Tribunal held that if the ARDF report was taken out of record there was no other evidence of foreign origin, so confiscation under Section 111(b) and (d) did not arise and the penalty under Section 112(b) was also set aside with consequential relief.",
+        "No violence, fraud, minors, coercion, trafficking, animal cruelty, or poisonous or spurious goods were alleged; the dispute was only about duty liability and origin of an ordinary farm produce."
+      ],
+      "current_position": "The confiscation and penalty stand set aside by the CESTAT order dated 6 May 2025, with consequential relief as per law.",
+      "quote": {
+        "text": "We observe that 50 nos, of sacks containing total 4000 kgs. of betel nuts valuing Rs.8,00,000/- were seized on 5.3.18, during the course of its transportation through Saraighat Express, at New Jalpaiguri Railway Station.",
+        "where": "CESTAT Kolkata, Customs Appeal No. 75940 of 2021, Final Order No. 76238/2025 dated 06.05.2025, para 7",
+        "url": "https://indiankanoon.org/doc/46091825/"
+      },
+      "caveats": "Searched 2026 Customs/smuggling results for West Bengal; recent 2026 Kolkata CESTAT results concerned gold, which is excluded, so the May 2025 betel-nut order is the most recent qualifying ordinary-goods case found.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Moving ordinary farm produce by rail harmed no one; the state seized the cargo and penalised the trader only for alleged duty evasion on a non-notified good."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/46091825/",
+          "kind": "judgment",
+          "publisher": "CESTAT Eastern Zonal Bench Kolkata via Indian Kanoon",
+          "date": "2025-05-06",
+          "supports": "seizure facts, confiscation and penalty history, and set-aside order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-wb-0005",
+      "category": "capital",
+      "state": "West Bengal",
+      "title": "Leather exporter convicted for unpaid FERA penalty after foreign buyers defaulted",
+      "summary": "The Enforcement Directorate fined a Kolkata leather-goods exporter Rs 1,50,000 in 1997 for non-realisation of export proceeds after foreign buyers refused to pay. For failing to pay that penalty he was prosecuted under Section 57 of FERA and convicted. The Calcutta High Court on 22 May 2024 upheld the conviction but replaced six months imprisonment with a Rs 3 lakh fine.",
+      "date": "2024-05-22",
+      "date_label": "Calcutta High Court judgment",
+      "district": "Kolkata",
+      "outcome": "conviction",
+      "authority": "Calcutta High Court (Appellate Side); Metropolitan Magistrate 15th Court Calcutta; Additional Sessions Judge Fast Track 1st Court Calcutta; Enforcement Directorate Kolkata",
+      "case_reference": "C.R.R. 2901 of 2013; Case No. C-6032 of 2001 (T.R. No. 621 of 2001); Criminal Revision No. 175 of 2012; Adjudication Order No. 33/97/AD dated 16.05.1997; Appeal No. 268/97 before FERA Appellate Board",
+      "laws": [
+        "Section 18(2) of the Foreign Exchange Regulation Act, 1973",
+        "Section 18(3) of the Foreign Exchange Regulation Act, 1973",
+        "Section 51 of the Foreign Exchange Regulation Act, 1973",
+        "Section 57 of the Foreign Exchange Regulation Act, 1973",
+        "Section 49 of the Foreign Exchange Management Act, 1999"
+      ],
+      "acts": [
+        "Foreign Exchange Regulation Act, 1973",
+        "Foreign Exchange Management Act, 1999"
+      ],
+      "person": "a leather-jacket manufacturer and exporter in Kolkata trading as a proprietorship firm",
+      "penalty": "Trial court: 6 months imprisonment and Rs 5,000 fine (in default 2 months more) on 30.08.2012, affirmed 09.07.2013; High Court on 22.05.2024 upheld conviction but modified sentence to fine of Rs 3,00,000 within three months; underlying ED adjudication penalty Rs 1,50,000",
+      "detail": [
+        "The High Court recorded that the petitioner exported leather jackets to buyers in Berlin and New York by air in September and December 1993, the buyers refused payment after taking delivery, and the petitioner applied to the RBI for extension of time to realise the proceeds.",
+        "The High Court recorded that the Deputy/Assistant Director of Enforcement Directorate Kolkata issued a 1996 show-cause notice for contravention of Sections 18(2) and 18(3) of FERA and imposed a Rs 1,50,000 penalty on 16.05.1997 with 45 days to pay, which was not paid and for which no stay was granted.",
+        "The High Court recorded that a complaint under Section 57 of FERA was filed on 24.12.2001 for failure to pay the adjudicated penalty, and the Metropolitan Magistrate convicted the petitioner on 30.08.2012 to six months imprisonment and Rs 5,000 fine, affirmed by the Additional Sessions Judge on 09.07.2013.",
+        "The High Court held that the FERA repeal did not give the petitioner the benefit of FEMA leniency because Sections 49(3) and 49(4) of FEMA preserved offences committed under FERA, and rejected the plea for civil-only treatment.",
+        "The High Court held that Section 57 is disjunctive and, considering the petitioner's age of 75 years and the lapse of time since 1996, upheld the conviction but modified the sentence to a Rs 3 lakh fine payable within three months."
+      ],
+      "current_position": "Conviction stands as modified: only a Rs 3,00,000 fine to be paid within three months from the judgment date, instead of imprisonment.",
+      "quote": {
+        "text": "The conviction of the petitioner is upheld. However the sentence is modified to the extent of payment of fine of Rs.3 lakhs within three months from the date.",
+        "where": "Calcutta High Court, C.R.R. 2901 of 2013, judgment dated 22.05.2024, para 25",
+        "url": "https://indiankanoon.org/doc/42801184/"
+      },
+      "caveats": "Exact day-level incident date for the 1993 exports is not printed (only months), so incident_date is null. Searched 2025 FEMA/hawala/COFEPOSA Calcutta results; the returns were off-topic or fraud-linked, so this May 2024 FERA export-proceeds conviction is the most recent qualifying capital case found.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Exporting jackets and failing to receive payment from foreign buyers involved no victim, fraud, or force; punishment was for a foreign-exchange paperwork and penalty-default offence, a pure capital-control restriction."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/42801184/",
+          "kind": "judgment",
+          "publisher": "Calcutta High Court via Indian Kanoon",
+          "date": "2024-05-22",
+          "supports": "export facts, ED penalty, prosecution history, conviction and modified sentence"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-wb-0006",
+      "category": "business",
+      "state": "West Bengal",
+      "title": "Biscuit maker prosecuted for not filing market-committee returns and fees",
+      "summary": "The Howrah market committee assessed a biscuit manufacturer Rs 50 lakh for not filing fortnightly returns and paying market fees on purchased flour, sugar and oils. It filed Complaint Case No. 29C of 2012 under the APMC Regulation Act. The Calcutta High Court on 12 March 2024 refused to quash the case, so prosecution continues.",
+      "date": "2024-03-12",
+      "date_label": "Calcutta High Court judgment",
+      "district": "Howrah",
+      "outcome": "prosecution_pending",
+      "authority": "Calcutta High Court (Appellate Side); Judicial Magistrate 4th Court Howrah; Howrah Zilla Regulated Market Committee",
+      "case_reference": "C.R.R. 1653 of 2013; Complaint Case No. 29C of 2012 (also recorded as Complaint Case No. 29 of 2012); W.P. No. 20456 (W) of 2012",
+      "laws": [
+        "Section 13 of the West Bengal Agricultural Produce Marketing (Regulation) Act, 1972",
+        "Section 17 of the West Bengal Agricultural Produce Marketing (Regulation) Act, 1972",
+        "Section 17A of the West Bengal Agricultural Produce Marketing (Regulation) Act, 1972",
+        "Section 34(5) of the West Bengal Agricultural Produce Marketing (Regulation) Act, 1972",
+        "Section 34(7) of the West Bengal Agricultural Produce Marketing (Regulation) Act, 1972"
+      ],
+      "acts": [
+        "West Bengal Agricultural Produce Marketing (Regulation) Act, 1972"
+      ],
+      "person": "a biscuit and bakery manufacturer with a factory at Sankrail Food Park, Howrah, and registered office in Kolkata, along with its directors",
+      "penalty": "Suo-motu assessment of Rs 50,00,000 market fees for 08/11/2007 to 23/08/2011; criminal prosecution pending; bail bonds of Rs 500 each at magistrate stage",
+      "detail": [
+        "The High Court recorded that the manufacturer held RMC licence No. 2820/60 as a purchaser of flour, sugar, vanaspati and others from 08.11.2007, renewed for successive years, and was asked to file fortnightly returns under Section 17A on purchased notified commodities.",
+        "The High Court recorded that the firm contended biscuits are not agricultural produce, its turnover is in biscuits, suppliers had already paid market fees, and double collection was barred, while the committee held licensed purchasers must file returns and pay fees on purchases.",
+        "The High Court recorded that after hearings the committee made a suo-motu assessment of about Rs 50,00,000 for 08/11/2007 to 23/08/2011 and then filed Complaint Case No. 29 of 2012 under Sections 34(5) and 34(7) for violation of Section 17A, in which cognizance was taken on 16.01.2012.",
+        "The High Court held that whether the firm is a manufacturer beyond the Act or a licensed trader liable for fees and returns, and contradictions about purchases, require trial evidence and cannot be decided under Section 482 of the Criminal Procedure Code.",
+        "No harm to any person, adulteration, or victim was alleged; the case is solely about licence-returns paperwork and market-fee demands on raw-material purchases."
+      ],
+      "current_position": "The revisional application was dismissed, so the magistrate-court prosecution under Sections 34(5) and 34(7) for violation of Section 17A continues toward trial.",
+      "quote": {
+        "text": "In view of the above discussions, the instant criminal revisional application is dismissed.",
+        "where": "[name withheld] Pvt. Ltd. & Ors vs [name withheld], Calcutta High Court, C.R.R. 1653 of 2013, judgment dated 12.03.2024, para 75",
+        "url": "https://indiankanoon.org/doc/83370573/"
+      },
+      "caveats": "Searched 2024-2025 West Bengal trade-licence, shop-sealed, street-vendor and APMC cases; the only fully documented victimless licence-permit prosecution found with an official judgment is this March 2024 APMC case. No 2025-2026 qualifying business case with an official source was located.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Making and selling biscuits harmed no one; the state prosecuted the business only for missing market-committee returns and fee paperwork on inputs bought for manufacture."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/83370573/",
+          "kind": "judgment",
+          "publisher": "Calcutta High Court via Indian Kanoon",
+          "date": "2024-03-12",
+          "supports": "licence, returns and fee dispute, assessment, criminal complaint, cognizance, and refusal to quash"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-wb-0008",
+      "category": "hoarding",
+      "state": "West Bengal",
+      "title": "Fuel and fertiliser storage conviction upheld with probation in Midnapore",
+      "summary": "The Calcutta High Court on 24 February 2026 upheld a 1989 conviction of an oil and fertiliser dealer for storing diesel, kerosene and fertilisers without licences or papers. The court replaced the one-year jail term with probation and a Rs. 20,000 fine. The judgment records a victimless stocking and paperwork violation with no adulteration or diversion charge.",
+      "date": "2026-02-24",
+      "date_label": "High Court judgment in criminal appeal",
+      "incident_date": "1984-08-30",
+      "district": "Paschim Medinipur",
+      "outcome": "conviction",
+      "authority": "Calcutta High Court (Appellate Side); trial: Special Court (Essential Commodities Act), Midnapore",
+      "case_reference": "C.R.A. 289 of 1989; D.E.B.G.R. Case No.39 of 1984",
+      "laws": [
+        "Section 7(1)(a)(ii) of the Essential Commodities Act, 1955",
+        "Paras 3, 3(5), 3(7) of the West Bengal Motor Spirit and High Speed Diesel Oil Order, 1980",
+        "Para 4 of the West Bengal Kerosene Control Order, 1968",
+        "Paras 3, 3(a), 5 and 21 of the Fertilizer Control Order, 1957",
+        "Section 4 of the Probation of Offenders Act, 1958"
+      ],
+      "acts": [
+        "Essential Commodities Act, 1955"
+      ],
+      "person": "an oil and fertiliser dealer in Midnapore",
+      "penalty": "Trial court: simple imprisonment for 1 year and fine of Rs.1000 (1 month more in default). High Court: conviction upheld; released on probation on Rs.20,000 bond with two sureties; fine of Rs.20,000 to be paid within 60 days.",
+      "detail": [
+        "The High Court recorded that enforcement staff inspected the dealer's oil store in Midnapore on 30.08.1984 and found stored fuels with no licence or papers produced on demand.",
+        "The judgment records the seizure as 200 litres of high-speed diesel in one barrel and two barrels holding 100 litres of kerosene each, plus fertiliser bags in an adjoining room with no licence, account books or returns.",
+        "The court noted that no stock-cum-rate board was displayed at the premises, which formed part of the control-order violations.",
+        "The court upheld the trial court's finding that the dealer failed to produce necessary documents for the seized goods, sustaining the conviction under Section 7(1)(a)(ii) of the Essential Commodities Act, 1955.",
+        "Given the lapse of about 42 years since the 1984 inspection, the court directed release on probation with a Rs.20,000 bond and a Rs.20,000 fine payable within 60 days, disposing of the appeal."
+      ],
+      "current_position": "The conviction stands as modified: the dealer is on probation with a fine payable, and the trial court records were sent down.",
+      "quote": {
+        "text": "200 litres of 'High Speed Oil' (HSD oil) in one barrel",
+        "where": "C.R.A. 289 of 1989, Calcutta High Court judgment dated 24.02.2026",
+        "url": "https://indiankanoon.org/doc/143805466/"
+      },
+      "caveats": "District is given as Midnapore in the judgment (present-day Paschim Medinipur). No separate government press release was traced; the judgment is the official source.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Storing fuel and fertiliser for sale without a permit harmed no complaining victim; there was no allegation of adulteration, spurious product, cheating, or diversion of subsidised goods."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/143805466/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon (mirror of Calcutta High Court judgment)",
+          "date": "2026-02-24",
+          "supports": "conviction, sections, seizure facts, sentence and probation outcome"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-wb-0009",
+      "category": "property",
+      "state": "West Bengal",
+      "title": "Demolition order for 4,014 sq ft of own-building work sent to regularisation in Serampore",
+      "summary": "The Calcutta High Court recorded on 9 January 2026 that [name withheld] had found 4014.75 sq ft of unauthorised construction by private building owners and ordered its demolition. The court kept the finding but allowed regularisation under a December 2023 notification on payment of fees, after the owners pay Rs. 10,00,000 compensation to affected neighbours.",
+      "date": "2026-01-09",
+      "date_label": "High Court review order",
+      "district": "Hooghly",
+      "outcome": "penalty",
+      "authority": "Calcutta High Court (Appellate Side); [name withheld]",
+      "case_reference": "RVW 162 of 2025 (with CAN 1 of 2025, CAN 2 of 2025); WPA 28795 of 2024; WPA 13779 of 2023",
+      "laws": [
+        "Section 218 of the West Bengal Municipal Act, 1993",
+        "West Bengal Municipality (Building) Rules",
+        "Notification dated 4 December, 2023 on regularisation of unauthorised construction"
+      ],
+      "acts": [
+        "West Bengal Municipal Act, 1993"
+      ],
+      "person": "private building owners in Serampore, Hooghly",
+      "penalty": "Demolition notice for 4014.75 sq ft of unauthorised construction; to pay Rs.10,00,000 compensation to neighbours; regularisation only on payment of requisite fees.",
+      "detail": [
+        "The High Court recorded that [name withheld], after hearing both sides with engineer opinions, measured unauthorised construction of 4014.75 sq ft by the private owners.",
+        "The court recorded that the municipality issued a notice in November 2024 directing the owners to demolish the unauthorised construction.",
+        "The court noted the owners sought regularisation under the state policy notified on 4 December 2023 for unauthorised constructions within stated limits.",
+        "The court allowed the review, directing the municipality to extend the benefit of that notification subject to payment of requisite fees, after the owners first pay a consolidated Rs.10,00,000 compensation for cracks and distress to the neighbouring house."
+      ],
+      "current_position": "The demolition direction stands but is to be resolved through paid regularisation once the Rs.10,00,000 compensation is transferred within two weeks of the order.",
+      "quote": {
+        "text": "unauthorised construction of 4014.75 sq. ft. had been undertaken",
+        "where": "RVW 162 of 2025, Calcutta High Court order dated 09-01-2026",
+        "url": "https://indiankanoon.org/doc/55671096/"
+      },
+      "caveats": "Street address of the building was not stated in the available text; location is established via [name withheld] (Hooghly district). The neighbours' crack-damage claim was compensated but causation was not decided; the penalty for building beyond sanction is the listed freedom-relevant act.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The penalty targets how owners built on their own building site (excess floor area beyond sanction), with no allegation of encroachment on public or another person's land."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/55671096/",
+          "kind": "court_order",
+          "publisher": "Indian Kanoon (mirror of Calcutta High Court order)",
+          "date": "2026-01-09",
+          "supports": "demolition notice, extent of unauthorised construction, compensation and regularisation outcome"
+        }
+      ],
+      "verification": "V2"
     }
   ]
 }

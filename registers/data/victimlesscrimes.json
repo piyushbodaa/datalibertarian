@@ -444,6 +444,62 @@
       "verification": "V2"
     },
     {
+      "id": "vc-as-0005",
+      "category": "tobacco",
+      "state": "Assam",
+      "title": "Wholesaler's seized gutka and pan masala kept under food-safety ban",
+      "summary": "Police seized stocks of gutka and pan masala from a wholesale shop in Diphu market in May 2020. The trader asked for interim custody of the perishable goods. The Gauhati High Court on 10 March 2022 upheld the trial court's refusal to return them while the state ban was in force.",
+      "date": "2022-03-10",
+      "date_label": "High Court order",
+      "incident_date": "2020-05-21",
+      "outcome": "seizure",
+      "authority": "Gauhati High Court (Justice Rumi Kumari Phukan)",
+      "case_reference": "Crl.Rev.P./12/2022; PRC No.25/2021; CJM order dated 29.09.2021",
+      "laws": [
+        "Section 397 CrPC",
+        "Section 401 CrPC",
+        "Section 451 CrPC",
+        "Food Safety and Standards Act, 2006 - Section 29, Section 30, Section 30(2)",
+        "Food Safety and Standards (Prohibition and Restrictions on Sales) Regulation, 2011",
+        "Cigarettes and Other Tobacco Products (Prohibition of Advertisement and Regulation of Trade and Commerce, Production, Supply and Distribution) Act, 2003"
+      ],
+      "acts": [
+        "Food Safety and Standards Act, 2006",
+        "Cigarettes and Other Tobacco Products (Prohibition of Advertisement and Regulation of Trade and Commerce, Production, Supply and Distribution) Act, 2003"
+      ],
+      "person": "a wholesale trader in Diphu market",
+      "detail": [
+        "The High Court recorded that the petitioner runs a wholesale outlet in Diphu market and that officers searched it in May 2020 and took stocks of flavoured mixes and tobacco packs.",
+        "The High Court recorded the petitioner's prayer for interim custody of the seized goods, described as praying for zimma of seized articles like Pan Masala, Gutka, etc., on the ground they were perishable.",
+        "The High Court recorded that the State relied on the Food Safety Commissioner's power to prohibit manufacture, storage and distribution in the interest of public health, and on notifications dated 29.11.2019, 12.01.2021 and 27.01.2022 continuing the statewide bar.",
+        "The High Court declined to interfere with the trial court's refusal to release the goods and disposed of the revision with liberty to challenge the notifications before the competent forum."
+      ],
+      "current_position": "Seizure retained; revision disposed of with liberty to challenge the ban notifications separately.",
+      "quote": {
+        "text": "there is no illegality in the order so passed by the learned trial Court",
+        "where": "Crl.Rev.P./12/2022, Gauhati High Court, order dated 10.03.2022",
+        "url": "https://indiankanoon.org/doc/75166749/"
+      },
+      "caveats": "Exact quantities and value of seized stocks could not be confirmed from the excerpt. No more recent pure COTPA or gutka-ban case from Assam was found; recent Assam tobacco cases involved smuggled or foreign cigarettes or added theft charges.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The only allegation was sale and storage of gutka and pan masala in breach of a food-safety ban; no victim, violence, fraud, or spurious product was alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/75166749/",
+          "kind": "judgment",
+          "publisher": "Gauhati High Court via Indian Kanoon",
+          "date": "2022-03-10",
+          "supports": "case number, seizure facts, laws cited, notifications, outcome and quoted finding"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "vc-br-0001",
       "category": "sex-work",
       "state": "Bihar",

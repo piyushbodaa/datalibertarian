@@ -483,6 +483,58 @@
       "verification": "V1"
     },
     {
+      "id": "cl-mp-0001",
+      "category": "speech",
+      "state": "Madhya Pradesh",
+      "title": "Man granted bail after arrest for allegedly outraging religious feelings in Pandhurna",
+      "summary": "Police in Pandhurna district arrested a man in October 2025 for allegedly outraging religious feelings, charging only BNS section 299. The High Court recorded custody since 8 October 2025. On 12 November 2025 the Court granted bail without deciding the merits.",
+      "date": "2025-11-12",
+      "date_label": "High Court bail order",
+      "district": "Pandhurna",
+      "outcome": "prosecution_pending",
+      "authority": "High Court of Madhya Pradesh",
+      "case_reference": "MCRC No. 48650 of 2025; Crime No. 495/2025, Police Station Pandhurna, District Pandhurna",
+      "laws": [
+        "Section 299, Bharatiya Nyaya Sanhita, 2023",
+        "Section 483, Bharatiya Nagarik Suraksha Sanhita, 2023"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023",
+        "Bharatiya Nagarik Suraksha Sanhita, 2023"
+      ],
+      "person": "a man in Pandhurna district",
+      "detail": [
+        "The High Court recorded that the applicant was held in connection with a 2025 Pandhurna police case and had been in custody since 8 October 2025.",
+        "The High Court recorded that the prosecution's allegation was that he had outraged religious feelings, and that the only offence cited was under BNS section 299.",
+        "The order states that the bail application was allowed, with release on a personal bond of Rs 50,000 with one solvent surety, without any finding on the merits.",
+        "No violence, threat, fraud, or other complaining victim is mentioned in the order; the case rests entirely on the alleged speech."
+      ],
+      "current_position": "Released on bail; prosecution continues before the trial court.",
+      "quote": {
+        "text": "As per the prosecution story, allegation against the applicant is of outraging the religious feelings of Hindu religion.",
+        "where": "MCRC No. 48650 of 2025, Madhya Pradesh High Court order dated 12 November 2025",
+        "url": "https://indiankanoon.org/doc/83262581/"
+      },
+      "caveats": "Incident date and exact words of the alleged speech are not given in the order. Bench location and judge name could not be confirmed from the excerpt.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "The state jailed a person solely for alleged speech about religion, with no victim of violence, fraud or coercion named. Punishing hurt-feelings speech chills basic expression."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/83262581/",
+          "kind": "court_order",
+          "publisher": "Madhya Pradesh High Court (via Indian Kanoon)",
+          "date": "2025-11-12",
+          "supports": "case number, crime number, section 299 charge, custody since 08.10.2025, allegation, bail order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "cl-od-0001",
       "category": "speech",
       "state": "Odisha",

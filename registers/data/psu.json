@@ -606,6 +606,68 @@
       "verification": "V2"
     },
     {
+      "id": "psu-tg-0008",
+      "category": "defence",
+      "state": "Telangana",
+      "name": "Bharat Dynamics Limited (BDL)",
+      "summary": "Bharat Dynamics Limited is a Government of India Enterprise under the Ministry of Defence, headquartered at Hyderabad, Telangana. It was incorporated on 16 July 1970 as a Public Sector Undertaking under the Ministry of Defence. Its financial-results index lists BDL 2026-27 Q1 on 14/08/2026, and its shareholding-pattern index lists Shareholding Pattern 30.06.2026 dated 11/07/2026.",
+      "date": "2026-08-14",
+      "district": "Rangareddy",
+      "headquarters": "Hyderabad, Telangana",
+      "state_link": "Corporate Office in Hyderabad (Financial District, Nanakramguda) with three plants in Telangana (Hyderabad, Bhanur, Ibrahimpatnam).",
+      "owner": "Central government",
+      "administrative": "Ministry of Defence",
+      "legal_form": "Government company",
+      "established": "1970: incorporated 16 July 1970 as a Public Sector Undertaking under the Ministry of Defence",
+      "status": "Operating",
+      "detail": [
+        "According to BDL's official site, it is described as A Government of India Enterprise, Ministry of Defence, incorporated on 16 July, 1970 as a Public Sector Undertaking under the Ministry of Defence, Government of India, with Corporate Office at Plot No. 38-39, TSFC Building, Financial District, Nanakramguda, Hyderabad, Telangana - 500032.",
+        "According to BDL's official company-profile excerpt, Headquartered in Hyderabad, BDL has four manufacturing units, out of which three are located in Telangana State (Hyderabad, Bhanur and Ibrahimpatnam) and one Andhra Pradesh (Visakhapatnam).",
+        "According to BDL's official financial-results index, filings include BDL 2026-27 Q1 Financial Results on 14/08/2026, BDL 2025-26 Q4 on 29/05/2026 and BDL 2025-26 Q3 on 31/01/2026; the index lists names and dates with no revenue or profit numbers in the excerpt.",
+        "According to BDL's official shareholding-pattern index, the latest filing is labelled SHAREHOLDING PATTERN 30.06.2026 dated 11/07/2026 with no percentages in the excerpt, and the annual-reports index lists Annual Report 2024-25 on 03/09/2025 with no figures in the excerpt, so shareholding, financials and employees are null."
+      ],
+      "caveats": "Revenue, profit, government holding percentage, Schedule/Navratna status and employee strength could not be confirmed because the BDL index pages accessible here list filings without figures in the excerpt and DPE, BSE, NSE and PIB pages were blocked (403) or unreachable. District is Rangareddy for the Nanakramguda Financial District corporate office; the registered Kanchanbagh works address is in Hyderabad district. No disinvestment or closure decision was evidenced.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.bdl-india.in/",
+          "kind": "company_site",
+          "publisher": "Bharat Dynamics Limited",
+          "date": null,
+          "supports": "Government of India Enterprise under MoD; incorporated 16 July 1970; corporate office Nanakramguda Hyderabad"
+        },
+        {
+          "url": "https://www.bdl-india.in/company-profile",
+          "kind": "company_site",
+          "publisher": "Bharat Dynamics Limited",
+          "date": null,
+          "supports": "Three plants in Telangana (Hyderabad, Bhanur, Ibrahimpatnam) plus Visakhapatnam; Amravati unit upcoming"
+        },
+        {
+          "url": "https://www.bdl-india.in/financial-results",
+          "kind": "company_site",
+          "publisher": "Bharat Dynamics Limited",
+          "date": null,
+          "supports": "Filing dates incl. BDL 2026-27 Q1 on 14/08/2026; no revenue/profit numbers in excerpt"
+        },
+        {
+          "url": "https://www.bdl-india.in/shareholding-pattern",
+          "kind": "company_site",
+          "publisher": "Bharat Dynamics Limited",
+          "date": null,
+          "supports": "Latest shareholding pattern for 30.06.2026 dated 11/07/2026; no percentages in excerpt"
+        },
+        {
+          "url": "https://www.bdl-india.in/annual-reports",
+          "kind": "annual_report",
+          "publisher": "Bharat Dynamics Limited",
+          "date": null,
+          "supports": "Annual Report 2024-25 listed 03/09/2025; no figures in excerpt"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "psu-br-0001",
       "category": "cpse",
       "state": "Bihar",
@@ -1645,6 +1707,101 @@
       "verification": "V2"
     },
     {
+      "id": "psu-od-0006",
+      "category": "departmental",
+      "state": "Odisha",
+      "name": "East Coast Railway (ECoR)",
+      "summary": "East Coast Railway is one of Indian Railways' railway zones, headquartered in Bhubaneswar, Odisha. On 7 February 2025, the Cabinet gave ex-post facto approval to converting about 680 km of Waltair division sections into a new Rayagada division under ECoR.",
+      "date": "2025-02-07",
+      "district": "Khordha",
+      "headquarters": "Bhubaneswar, Odisha",
+      "state_link": "East Coast Railway's zonal headquarters is in Bhubaneswar, Odisha.",
+      "owner": "Central government",
+      "administrative": "Ministry of Railways, Government of India",
+      "legal_form": "Departmental undertaking (railway zone; no separate legal identity)",
+      "established": "3 April 2003: came into existence and became fully operational.",
+      "status": "Operating",
+      "detail": [
+        "East Coast Railway is one of Indian Railways' 19 railway zones. It came into existence and became fully operational on 3 April 2003, with headquarters at Bhubaneswar, Odisha (source: East Coast Railway zone page).",
+        "The zone has three divisions: Sambalpur, Khurda and Rayagada (source: same page).",
+        "On 7 February 2025, the Cabinet gave ex-post facto approval to retaining a truncated Waltair division under the new South Coast Railway and converting about 680 km of its sections into a new Rayagada division under East Coast Railway, headquartered at Rayagada (source: Ministry of Railways release)."
+      ],
+      "caveats": "No official ECoR freight-loading, revenue, profit or employee figure for 2025-2026 was available in pages opened (indianrailways.gov.in extract had no dated achievement; footer 6 Jul 2023). The 2025-02-07 date is the demarcation milestone from a secondary page affecting ECoR, not an ECoR-issued order; the official order/PIB release was not opened. District Khordha inferred from Bhubaneswar city. Not the excluded South Coast Railway.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/East_Coast_Railway_zone",
+          "kind": "news",
+          "publisher": "Wikipedia (secondary)",
+          "date": null,
+          "supports": "Zone identity, Bhubaneswar headquarters, 3 April 2003 operational date and three divisions"
+        },
+        {
+          "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2100854&reg=48&lang=2",
+          "kind": "news",
+          "publisher": "Press Information Bureau, Ministry of Railways",
+          "date": "2025-02-07",
+          "supports": "Cabinet approval concerning the truncated Waltair division and new Rayagada division under ECoR"
+        }
+      ],
+      "verification": "V1"
+    },
+    {
+      "id": "psu-od-0007",
+      "category": "statutory",
+      "state": "Odisha",
+      "name": "Paradip Port Authority (PPA)",
+      "summary": "Paradip Port Authority administers Paradip Port, a natural deep-water port and Odisha's only major port, wholly owned by the Government of India. The PPA site links to the Government of India and the Ministry of Ports, Shipping and Waterways and lists its address in Paradip, Odisha. A PPA Hospital event page records Ayurvedic Day on 23 September 2026; the authority also reported the 21 August inauguration of ₹427.80 crore of projects and 18.5-metre deep-draft capability.",
+      "date": "2026-09-23",
+      "district": "Jagatsinghpur",
+      "headquarters": "Paradip, Odisha",
+      "state_link": "Only major port in Odisha, located at the confluence of the Mahanadi river and the Bay of Bengal; address Paradip, Odisha 754142.",
+      "owner": "Central government",
+      "administrative": "Ministry of Ports, Shipping and Waterways, Government of India",
+      "legal_form": "Port authority (administers Paradip Port; formerly Paradip Port Trust)",
+      "established": "Paradip Port milestones: the Government of India took over management on 1 June 1965; maiden berthing took place on 12 March 1966.",
+      "status": "Operating",
+      "detail": [
+        "The official PPA page records an Ayurvedic Day event at PPA Hospital and is marked last updated 23 September 2026.",
+        "A PPA report dated 21 August 2026 says seven infrastructure projects worth ₹427.80 crore were inaugurated at Paradip Port, marking its 18.5-metre deep-draft capability.",
+        "PPA's official homepage also lists a 2 February 2026 report of a January cargo-handling record of 14.44 MMT, a 1 April report of a historic high for FY 2025–26, and a 27 February report that the Centre approved a ₹797 crore green hydrogen jetty.",
+        "Paradip is a natural deep-water port at the confluence of the Mahanadi river and the Bay of Bengal, and Odisha's only major port. The Government of India took over port management on 1 June 1965; maiden berthing was on 12 March 1966. The Paradip Port page says the port is administered by PPA, formerly Paradip Port Trust, and describes it as wholly owned by the Government of India. The official PPA homepage lists its address as Paradip, Odisha – 754142 and links to the Government of India and Ministry of Ports, Shipping and Waterways."
+      ],
+      "caveats": "Cargo totals and monetary results beyond the headline figures (Rs 427.80 crore projects; 14.44 MMT January handling; Rs 797 crore jetty approval) were not in the extracts opened; annual-report revenue/profit and employee count left null. The Major Port Authorities Act, 2021 was not directly quoted in extracts opened, so the current-Act citation is qualified. District Jagatsinghpur inferred from Paradip city. Shareholding percentages not confirmed.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://paradipport.gov.in/",
+          "kind": "company_site",
+          "publisher": "Paradip Port Authority",
+          "date": null,
+          "supports": "Ministry links, address and official news list"
+        },
+        {
+          "url": "https://paradipport.gov.in/photo_gallery/ayurvedic-day-observed-at-ppa-hospital/",
+          "kind": "company_site",
+          "publisher": "Paradip Port Authority",
+          "date": "2026-09-23",
+          "supports": "PPA Hospital Ayurvedic Day event and page update date"
+        },
+        {
+          "url": "https://paradipport.gov.in/all_news/sarbananda-sonowal-inaugurates-%E2%82%B9427-80-crore-projects-at-paradip-port-marks-18-5-metre-deep-draft-capability/",
+          "kind": "company_site",
+          "publisher": "Paradip Port Authority",
+          "date": "2026-08-21",
+          "supports": "₹427.80 crore projects, 18.5-metre deep-draft capability and event date"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Paradip_Port",
+          "kind": "news",
+          "publisher": "Wikipedia (secondary)",
+          "date": null,
+          "supports": "Port location, Odisha's only major port, history, PPA administration and Government of India ownership"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "psu-rj-0001",
       "category": "cpse",
       "state": "Rajasthan",
@@ -1825,6 +1982,108 @@
       "verification": "V2"
     },
     {
+      "id": "psu-tg-0001",
+      "category": "cpse",
+      "state": "Telangana",
+      "name": "Bharat Dynamics Limited (BDL)",
+      "summary": "Bharat Dynamics Limited (BDL) is a Government of India enterprise under the Ministry of Defence that manufactures ammunition and missile systems. It is headquartered at Nanakramguda, Hyderabad, Telangana. Its official annual-reports page lists Annual Report 2025-26 dated 02/09/2026 and Annual Report 2024-25 dated 03/09/2025.",
+      "date": "2026-09-02",
+      "district": "Hyderabad",
+      "headquarters": "Hyderabad, Telangana",
+      "state_link": "Headquartered in Telangana: corporate office at Plot No. 38-39, TSFC Building, Financial District, Nanakramguda, Hyderabad, Telangana - 500032.",
+      "owner": "Central government",
+      "administrative": "Ministry of Defence, Government of India",
+      "legal_form": "Listed Government company",
+      "status_label": "Miniratna Category-I",
+      "established": "1970 in Hyderabad",
+      "status": "Operating",
+      "detail": [
+        "BDL describes itself as 'A Government of India Enterprise, Ministry of Defence' and gives its address as 'Plot No. 38-39, TSFC Building Near ICICI Towers, Financial District, Nanakramguda, Hyderabad, Telangana - 500032, India' (Source: BDL official contact page).",
+        "BDL's official annual-reports page lists 'Annual Report 2025-26' dated '02/09/2026' and 'Annual Report 2024-25' dated '03/09/2025'; 2025-26 is the newest annual report listed on that page (Source: BDL official annual-reports page).",
+        "The DPE Public Enterprises Survey 2021-22 lists BDL as listed and Miniratna-I, under the Ministry of Defence, with 74.93% Central Government shareholding, Hyderabad corporate office, and 2,674 regular employees as of 31/03/2022. Wikipedia describes BDL as a manufacturer of ammunition and missile systems founded in Hyderabad in 1970 (Sources: DPE Public Enterprises Survey 2021-22; Wikipedia)."
+      ],
+      "caveats": "Shareholding and employee fields remain null because the official DPE Public Enterprises Survey 2021-22 provides historical figures: 74.93% Central Government shareholding and 2,674 regular employees as of 31/03/2022; current values were not verified. Financial and order-book figures for FY2024-25 or FY2025-26 were not extracted from the opened pages. The 2021-22 survey lists BDL as Miniratna-I; a later official classification schedule was not verified.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://bdl-india.in/contact-us",
+          "kind": "company_site",
+          "publisher": "Bharat Dynamics Limited",
+          "date": null,
+          "supports": "Government-enterprise status, Ministry of Defence, headquarters address Nanakramguda Hyderabad"
+        },
+        {
+          "url": "https://bdl-india.in/annual-reports",
+          "kind": "annual_report",
+          "publisher": "Bharat Dynamics Limited",
+          "date": "2026-09-02",
+          "supports": "Annual Report 2025-26 dated 02/09/2026 and Annual Report 2024-25 dated 03/09/2025"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Bharat_Dynamics",
+          "kind": "news",
+          "publisher": "Wikipedia (tertiary)",
+          "date": null,
+          "supports": "Founded in Hyderabad in 1970; ammunition and missile systems manufacturer"
+        },
+        {
+          "url": "https://www.dpe.gov.in/static/uploads/2025/07/485f7cde98ddb681ca37de4c22a3cd54.pdf",
+          "kind": "news",
+          "publisher": "Department of Public Enterprises, Government of India",
+          "date": null,
+          "supports": "For FY2021-22: listed status, Miniratna-I status, Ministry of Defence, 74.93% Central Government shareholding, Hyderabad corporate office, and 2,674 regular employees as of 31/03/2022"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-tg-0002",
+      "category": "state",
+      "state": "Telangana",
+      "name": "Telangana State Beverages Corporation Limited (TSBCL)",
+      "summary": "Telangana State Beverages Corporation Limited is a public-sector company owned by the Government of Telangana. It has a monopoly over wholesale and retail vending of alcohol in Telangana and controls the retail sale of IMFL and beer trade in the state. It is headquartered in Hyderabad, Telangana. It was constituted on 2 June 2014 under the Companies Act, 1956.",
+      "date": "2014-06-02",
+      "district": "Hyderabad",
+      "headquarters": "Hyderabad, Telangana",
+      "state_link": "Owned by the Government of Telangana and headquartered at Hyderabad, Telangana; operates only in Telangana.",
+      "owner": "State government (Telangana)",
+      "administrative": "Revenue (Prohibition & Excise) Department, Government of Telangana",
+      "legal_form": "Government company (constituted under the Companies Act, 1956)",
+      "established": "2014 (constituted 2 June 2014 under the Companies Act, 1956; infobox stamp 3.6.2014)",
+      "status": "Operating",
+      "detail": [
+        "TSBCL is described as a 'public sector company' 'owned by the government of Telangana' with a 'monopoly over wholesale and retail vending of alcohol in Telangana'; its headquarters are listed as 'Hyderabad, Telangana' (Source: Wikipedia page for TSBCL, tertiary summary).",
+        "Its background says 'Telangana State Beverages Corporation Ltd was constituted on 2 June 2014 under the Companies Act, 1956'; its infobox lists 'Retail and Wholesale alcohol (IMFL) vending' and the service territory 'Telangana' (Source: same page).",
+        "The Government of Telangana's Revenue (Prohibition & Excise) page lists the corporation in its organization contacts and states that Telangana Beverages Corporation Limited 'undertakes the functions of purchases, sales and distribution of liquor in the State' (Source: official Telangana State Portal)."
+      ],
+      "caveats": "Financials, shareholding percentage and employee count were not listed in the pages reviewed. The cited Wikipedia page gives 2 June 2014 in its history text and 3.6.2014 in its infobox.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Telangana_State_Beverages_Corporation",
+          "kind": "news",
+          "publisher": "Wikipedia (tertiary)",
+          "date": null,
+          "supports": "State ownership, Hyderabad headquarters, constitution on 2 June 2014 under Companies Act 1956, alcohol vending, and Telangana service territory"
+        },
+        {
+          "url": "https://www.telangana.gov.in/departments/revenue-prohibition-excise/",
+          "kind": "news",
+          "publisher": "Government of Telangana",
+          "date": null,
+          "supports": "Revenue (Prohibition & Excise) department connection and the corporation's statewide liquor purchasing, sales and distribution functions"
+        },
+        {
+          "url": "https://www.tgbcl.telangana.gov.in/ts/index.php/site/whoweare",
+          "kind": "news",
+          "publisher": "Telangana Prohibition and Excise Department",
+          "date": null,
+          "supports": "Lists Telangana State Beverages Corporation Ltd. under the department's organization chart"
+        }
+      ],
+      "verification": "V1"
+    },
+    {
       "id": "psu-tg-0005",
       "category": "dfi",
       "state": "Telangana",
@@ -1949,68 +2208,6 @@
           "publisher": "Comptroller and Auditor General of India",
           "date": "2026-04-02",
           "supports": "CAG Report No. 4 of 2025 on State Public Sector Enterprises for Telangana dated 02-April-2026"
-        }
-      ],
-      "verification": "V2"
-    },
-    {
-      "id": "psu-tg-0008",
-      "category": "defence",
-      "state": "Telangana",
-      "name": "Bharat Dynamics Limited (BDL)",
-      "summary": "Bharat Dynamics Limited is a Government of India Enterprise under the Ministry of Defence, headquartered at Hyderabad, Telangana. It was incorporated on 16 July 1970 as a Public Sector Undertaking under the Ministry of Defence. Its financial-results index lists BDL 2026-27 Q1 on 14/08/2026, and its shareholding-pattern index lists Shareholding Pattern 30.06.2026 dated 11/07/2026.",
-      "date": "2026-08-14",
-      "district": "Rangareddy",
-      "headquarters": "Hyderabad, Telangana",
-      "state_link": "Corporate Office in Hyderabad (Financial District, Nanakramguda) with three plants in Telangana (Hyderabad, Bhanur, Ibrahimpatnam).",
-      "owner": "Central government",
-      "administrative": "Ministry of Defence",
-      "legal_form": "Government company",
-      "established": "1970: incorporated 16 July 1970 as a Public Sector Undertaking under the Ministry of Defence",
-      "status": "Operating",
-      "detail": [
-        "According to BDL's official site, it is described as A Government of India Enterprise, Ministry of Defence, incorporated on 16 July, 1970 as a Public Sector Undertaking under the Ministry of Defence, Government of India, with Corporate Office at Plot No. 38-39, TSFC Building, Financial District, Nanakramguda, Hyderabad, Telangana - 500032.",
-        "According to BDL's official company-profile excerpt, Headquartered in Hyderabad, BDL has four manufacturing units, out of which three are located in Telangana State (Hyderabad, Bhanur and Ibrahimpatnam) and one Andhra Pradesh (Visakhapatnam).",
-        "According to BDL's official financial-results index, filings include BDL 2026-27 Q1 Financial Results on 14/08/2026, BDL 2025-26 Q4 on 29/05/2026 and BDL 2025-26 Q3 on 31/01/2026; the index lists names and dates with no revenue or profit numbers in the excerpt.",
-        "According to BDL's official shareholding-pattern index, the latest filing is labelled SHAREHOLDING PATTERN 30.06.2026 dated 11/07/2026 with no percentages in the excerpt, and the annual-reports index lists Annual Report 2024-25 on 03/09/2025 with no figures in the excerpt, so shareholding, financials and employees are null."
-      ],
-      "caveats": "Revenue, profit, government holding percentage, Schedule/Navratna status and employee strength could not be confirmed because the BDL index pages accessible here list filings without figures in the excerpt and DPE, BSE, NSE and PIB pages were blocked (403) or unreachable. District is Rangareddy for the Nanakramguda Financial District corporate office; the registered Kanchanbagh works address is in Hyderabad district. No disinvestment or closure decision was evidenced.",
-      "on_the_block": false,
-      "sources": [
-        {
-          "url": "https://www.bdl-india.in/",
-          "kind": "company_site",
-          "publisher": "Bharat Dynamics Limited",
-          "date": null,
-          "supports": "Government of India Enterprise under MoD; incorporated 16 July 1970; corporate office Nanakramguda Hyderabad"
-        },
-        {
-          "url": "https://www.bdl-india.in/company-profile",
-          "kind": "company_site",
-          "publisher": "Bharat Dynamics Limited",
-          "date": null,
-          "supports": "Three plants in Telangana (Hyderabad, Bhanur, Ibrahimpatnam) plus Visakhapatnam; Amravati unit upcoming"
-        },
-        {
-          "url": "https://www.bdl-india.in/financial-results",
-          "kind": "company_site",
-          "publisher": "Bharat Dynamics Limited",
-          "date": null,
-          "supports": "Filing dates incl. BDL 2026-27 Q1 on 14/08/2026; no revenue/profit numbers in excerpt"
-        },
-        {
-          "url": "https://www.bdl-india.in/shareholding-pattern",
-          "kind": "company_site",
-          "publisher": "Bharat Dynamics Limited",
-          "date": null,
-          "supports": "Latest shareholding pattern for 30.06.2026 dated 11/07/2026; no percentages in excerpt"
-        },
-        {
-          "url": "https://www.bdl-india.in/annual-reports",
-          "kind": "annual_report",
-          "publisher": "Bharat Dynamics Limited",
-          "date": null,
-          "supports": "Annual Report 2024-25 listed 03/09/2025; no figures in excerpt"
         }
       ],
       "verification": "V2"
@@ -2457,6 +2654,260 @@
           "publisher": "ICRA",
           "date": "2025-09-29",
           "supports": "JV 51:49 incorporated 2012, cost revisions to Rs 21,780.94 cr (MoC Nov 2024), FY24/FY25 key indicators (OI 0/700.5 cr, PAT -1.5/-49.9 cr), sponsor profile and PPA on cost-plus"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-up-0005",
+      "category": "dfi",
+      "state": "Uttar Pradesh",
+      "name": "Small Industries Development Bank of India (SIDBI)",
+      "summary": "SIDBI is the principal all-India financial institution for MSME promotion, financing and development, headquartered at Lucknow, Uttar Pradesh. Its shares are held by the Central government and central-government-controlled banks, insurers and institutions. At its 28th AGM on 24 August 2026, shareholders adopted the FY2025-26 Annual Report.",
+      "date": "2026-08-24",
+      "district": "Lucknow",
+      "headquarters": "Lucknow, Uttar Pradesh",
+      "state_link": "Head office at SIDBI Tower, 15 Ashok Marg, Lucknow-226001, Uttar Pradesh; Lucknow-headquartered bank.",
+      "owner": "Government of India and central-government-owned or controlled banks, insurers and institutions",
+      "shareholding": "SIDBI’s About page displays Government of India 20.85%, SBI 15.65%, LIC 13.33%, NABARD 9.36% and others 40.81% (the page gives no date). FY2025-26 audited consolidated results report Government of India holding 27.57% as at 31.03.2026.",
+      "administrative": "Ministry of Finance, Department of Financial Services",
+      "legal_form": "Statutory corporation (Small Industries Development Bank of India Act, 1989)",
+      "status_label": "All-India Financial Institution (AIFI)",
+      "established": "1990 — set up on 2 April 1990 under an Act of Parliament",
+      "status": "Operating",
+      "financials": "FY2024-25 (standalone, Annual Report 2024-25, AGM 2025-09-29): net profit Rs 4,811 crore (up 19.5% from Rs 4,026 crore); assets Rs 5,68,239 crore; loans and advances Rs 4,96,282 crore; income Rs 38,511 crore; Gross NPA 0.04%. FY2025-26 (consolidated, Board-approved disclosure 2026-05-14): total income Rs 44,068 crore; net profit Rs 5,912 crore (vs Rs 5,596 crore in FY2024-25 consolidated).",
+      "employees": "1,091 as on 31.03.2025 (Annual Report 2024-25)",
+      "detail": [
+        "SIDBI was set up under an Act of Parliament in 1990 as the principal financial institution for promotion, financing and development of MSMEs and coordination of similar institutions, per the Department of Financial Services and SIDBI About page.",
+        "SIDBI’s head office is at SIDBI Tower, 15 Ashok Marg, Lucknow-226001. Its FY2024-25 Annual Report lists 127 branch offices and 15 regional offices.",
+        "FY2024-25 results included net profit of Rs 4,811 crore and assets of Rs 5,68,239 crore. The 29 September 2025 AGM approved a 20% dividend.",
+        "The Board approved audited consolidated FY2025-26 results on 14 May 2026, reporting total income of Rs 44,068 crore, net profit of Rs 5,912 crore, Government of India holding of 27.57% and capital adequacy of 21.79%. The results include SIDBI and three subsidiaries: MUDRA, SVCL and STCL. At the 28th AGM on 24 August 2026 in Lucknow, shareholders adopted the FY2025-26 Annual Report and approved a final dividend of Rs 2 per share."
+      ],
+      "caveats": "Standalone FY2025-26 results not separately extracted; paid-up capital and reserves figures from consolidated disclosure not repeated as standalone. Profit-per-employee not used.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.sidbi.in/about",
+          "kind": "company_site",
+          "publisher": "SIDBI",
+          "date": null,
+          "supports": "establishment 2 April 1990, mandate, Lucknow address, shareholding description"
+        },
+        {
+          "url": "https://www.sidbi.in/annualreport/AnnualReport202425/pdf/Part-I.pdf",
+          "kind": "annual_report",
+          "publisher": "SIDBI",
+          "date": "2025-09-29",
+          "supports": "FY2024-25 net profit 4811 cr, assets, loans, employees 1091, HQ Lucknow, AGM date"
+        },
+        {
+          "url": "https://www.sidbi.in/uploads/financialreport/Financial_results_31.03.2026_Eng_consolidated_Publication.pdf",
+          "kind": "exchange_filing",
+          "publisher": "SIDBI",
+          "date": "2026-05-14",
+          "supports": "FY2025-26 consolidated income 44068 cr, net profit 5912 cr, GoI 27.57%, Board approval 14 May 2026"
+        },
+        {
+          "url": "https://financialservices.gov.in/sidbi",
+          "kind": "government_order",
+          "publisher": "Department of Financial Services, Ministry of Finance",
+          "date": null,
+          "supports": "established under Act 1990, principal FI for MSMEs, administrative ministry"
+        },
+        {
+          "url": "https://www.icra.in/Rating/ShowRationalReportFilePdf/136925",
+          "kind": "rating",
+          "publisher": "ICRA",
+          "date": "2025-08-08",
+          "supports": "shareholding GoI 20.85%, SBI 15.65%, LIC 13.33% as 31.03.2025"
+        },
+        {
+          "url": "https://www.business-standard.com/companies/quarterly-results/sidbi-net-profit-rises-by-19-5-to-record-high-of-4-811-cr-in-fy25-125092901040_1.html",
+          "kind": "news",
+          "publisher": "Business Standard",
+          "date": "2025-09-29",
+          "supports": "context for record profit, Lucknow HQ, balance sheet"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-up-0006",
+      "category": "departmental",
+      "state": "Uttar Pradesh",
+      "name": "North Central Railway (NCR)",
+      "summary": "North Central Railway is a zonal railway of Indian Railways under the Ministry of Railways, headquartered at Prayagraj, Uttar Pradesh. It comprises the Prayagraj, Jhansi and Agra divisions. On 15 January 2025, the Ministry of Railways reported 137 additional trains operated or being run to Prayagraj that day, alongside 349 regular trains, as part of the wider Maha Kumbh plan for more than 13,100 trains.",
+      "date": "2025-01-15",
+      "district": "Prayagraj",
+      "headquarters": "Prayagraj, Uttar Pradesh",
+      "state_link": "The official North Central Railway portal says the zone is headquartered at Prayagraj and spans Uttar Pradesh, Madhya Pradesh, Rajasthan and Haryana.",
+      "owner": "Central government",
+      "administrative": "Ministry of Railways (Railway Board)",
+      "legal_form": "Zonal railway of Indian Railways under the Ministry of Railways",
+      "established": "2003 — North Central Railway in its present form came into existence on 1 April 2003.",
+      "status": "Operating",
+      "employees": "68,856 as on 19.12.2025 (North Central Railway portal)",
+      "detail": [
+        "North Central Railway came into existence in its present form on 1 April 2003, is headquartered at Prayagraj and comprises the Prayagraj, Jhansi and Agra divisions, per the NCR portal.",
+        "The NCR portal reports a total staff strength of 68,856 as of 19 December 2025.",
+        "The Ministry of Railways reported on 15 January 2025 that 137 additional trains were operated or being run to Prayagraj that day, besides 349 regular trains; passengers at Prayagraj stations exceeded 15.6 lakh in the first two days.",
+        "The PIB release describes a wider Indian Railways plan for more than 13,100 trains over the 46-day Maha Kumbh, including over 3,100 specials. It also reports 9 stations, 48 platforms, 17 new Yatri Ashrayas and about 5,900 security personnel across the NCR, NER and NR zones in the Prayagraj area."
+      ],
+      "caveats": "The linked annual-report PDF could not be fetched; no NCR-specific financial figure was verified from the opened pages, so financials remain null.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://ncr.indianrailways.gov.in/view_section.jsp?backgroundColor=LIGHTSTEELBLUE&fontColor=black&id=0%2C1%2C261&lang=0",
+          "kind": "company_site",
+          "publisher": "North Central Railway / Indian Railways",
+          "date": null,
+          "supports": "HQ Prayagraj, three divisions"
+        },
+        {
+          "url": "https://ncr.indianrailways.gov.in/TenderDetails_cpp.jsp?T_ID=11599&id=0&lang=0",
+          "kind": "government_order",
+          "publisher": "North Central Railway",
+          "date": null,
+          "supports": "HQ address Nawab Yusuf Road, Civil Lines, Prayagraj U.P."
+        },
+        {
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2093190",
+          "kind": "pib",
+          "publisher": "Ministry of Railways via PIB Delhi",
+          "date": "2025-01-15",
+          "supports": "137 specials on day 3, 349 regulars, 13100-train plan, stations and security"
+        },
+        {
+          "url": "https://indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2026/INDIAN%20RAILWAYS%20ANNUAL%20REPORT%20%20ACCOUNTS%2C%202024-25%20%28ENGLISH%29%20%281%29.pdf",
+          "kind": "annual_report",
+          "publisher": "Ministry of Railways (Railway Board)",
+          "date": "2026-01-13",
+          "supports": "departmental nature, all-India receipts; zone has no separate accounts"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-up-0007",
+      "category": "statutory",
+      "state": "Uttar Pradesh",
+      "name": "Uttar Pradesh State Road Transport Corporation (UPSRTC)",
+      "summary": "UPSRTC is Uttar Pradesh’s passenger road transport corporation, established under the Road Transport Corporations Act, 1950, and headquartered in Lucknow. It is owned by the Government of Uttar Pradesh. On 25 August 2026, the state Cabinet approved expenditure for 250 new electric buses for FY2026-27 at an estimated total cost of Rs 425.50 crore.",
+      "date": "2026-08-25",
+      "district": "Lucknow",
+      "headquarters": "Lucknow, Uttar Pradesh",
+      "state_link": "Allahabad High Court records that Uttar Pradesh Government Roadways was converted into UPSRTC on 1 June 1972; the official UPSRTC profile lists its headquarters at Tehri Kothi, MG Marg, Lucknow.",
+      "owner": "State government (Uttar Pradesh)",
+      "administrative": "Government of Uttar Pradesh",
+      "legal_form": "Statutory corporation (Road Transport Corporations Act, 1950)",
+      "established": "1972 — established on 01-06-1972 under the Road Transport Corporations Act, 1950.",
+      "status": "Operating",
+      "detail": [
+        "The Allahabad High Court records that UPSRTC was established on 1 June 1972 under Section 3 of the Road Transport Corporations Act, 1950, and incorporated as a body corporate; assets and liabilities of the former Uttar Pradesh Government Roadways were transferred to it.",
+        "The official SUGAM Yatra profile describes UPSRTC as a public-sector passenger road transport corporation serving Uttar Pradesh and adjoining states, and lists its headquarters at Tehri Kothi, MG Marg, Lucknow 226001.",
+        "The Uttar Pradesh Cabinet decision dated 25 August 2026 approves a FY2026-27 expenditure proposal of Rs 400 crore for 250 electric buses: 100 12-metre, 50-seater Type-II buses and 150 12-metre, 41-seater Type-III buses. The estimated total cost is Rs 425.50 crore, with the remaining Rs 25.50 crore to be borne by UPSRTC.",
+        "The Cabinet release says the procurement supports compliance with Delhi’s rule allowing only CNG, electric and BS-VI vehicles from 1 November 2026 under CAQM directions."
+      ],
+      "caveats": "The July 21 PTI report and August 26 TNN report describe the same 250-bus proposal with different timing; the later August 25 UP Cabinet release is used for the approval date. The opened UPSRTC profile did not provide audited financial statements or staff count.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://uptransport.upsdc.gov.in/en-us",
+          "kind": "company_site",
+          "publisher": "Transport Department, Government of Uttar Pradesh",
+          "date": null,
+          "supports": "established 01-06-1972 under Road Transport Act 1950, HQ Lucknow, structure"
+        },
+        {
+          "url": "https://upsrtc.up.gov.in/en/news",
+          "kind": "company_site",
+          "publisher": "UPSRTC",
+          "date": "2025-07-05",
+          "supports": "fleet 13000+, 3.90 mn km, 1.40 mn people, Rs 162.82 mn per day"
+        },
+        {
+          "url": "https://sugamyatra.up.in/about-upsrtc.html",
+          "kind": "company_site",
+          "publisher": "UPSRTC / SUGAM Yatra",
+          "date": null,
+          "supports": "HQ Tehri Kothi MG Marg Lucknow 226001"
+        },
+        {
+          "url": "https://www.freepressjournal.in/uttar-pradesh/uttar-pradesh-yogi-cabinet-approves-42550-crore-plan-to-procure-250-electric-buses-for-upsrtc",
+          "kind": "news",
+          "publisher": "Free Press Journal (PTI)",
+          "date": "2026-07-21",
+          "supports": "cabinet 21 July 2026, 250 buses, Rs 425.50 cr, 400 cr +25.50 cr split"
+        },
+        {
+          "url": "https://auto.economictimes.indiatimes.com/news/commercial-vehicle/uttar-pradesh-approves-400-crore-plan-to-add-250-electric-buses-to-upsrtc-fleet/133527785",
+          "kind": "news",
+          "publisher": "ETAuto / TNN",
+          "date": "2026-08-26",
+          "supports": "250-bus specs, FY27, Delhi NCR norms context"
+        },
+        {
+          "url": "https://invest.up.gov.in/wp-content/uploads/2026/07/4-400_220726.pdf",
+          "kind": "government_order",
+          "publisher": "Invest UP / Government of Uttar Pradesh press compilation",
+          "date": "2026-07-22",
+          "supports": "Rs 400 cr allocation corroboration"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-up-0008",
+      "category": "defence",
+      "state": "Uttar Pradesh",
+      "name": "Advanced Weapons and Equipment India Limited (AWEIL)",
+      "summary": "AWEIL is a Central defence PSU under the Ministry of Defence, headquartered at Kanpur, Uttar Pradesh. Formed through the corporatisation of the Ordnance Factory Board, it operates eight production units in artillery, small arms and defence equipment, including Dhanush. Shri Umesh Singh assumed charge as CMD on 1 April 2025.",
+      "date": "2025-04-01",
+      "district": "Kanpur Nagar",
+      "headquarters": "Kanpur, Uttar Pradesh",
+      "state_link": "Headquarters at Ordnance Factory, Kalpi Road, Kanpur-208009, Uttar Pradesh; three of eight units (Field Gun Factory, Ordnance Factory, Small Arms Factory) at Kanpur.",
+      "owner": "Central government",
+      "administrative": "Ministry of Defence, Department of Defence Production",
+      "legal_form": "Government company (Defence PSU, corporatised ordnance factories)",
+      "status_label": "DPSU",
+      "established": "2021 — incorporated 14 August 2021; operational from 1 October 2021 on corporatisation of Ordnance Factory Board",
+      "status": "Operating",
+      "detail": [
+        "AWEIL describes itself as a Government of India enterprise under the Ministry of Defence, with eight production units and a training academy working in artillery, small arms and defence equipment.",
+        "Its units include Field Gun Factory Kanpur, Ordnance Factory Kanpur, Small Arms Factory Kanpur, Gun and Shell Factory Cossipore, Gun Carriage Factory Jabalpur, Ordnance Factory Project Korwa, Ordnance Factory Tiruchirappalli and Rifle Factory Ishapore; its Academy of Weapons Technology and Management is at Ichapur.",
+        "AWEIL lists its headquarters at OFC, Kalpi Road, Kanpur-208009 and Uttar Pradesh GSTIN 09AAVCA6457D1Z8. Its website says Shri Umesh Singh assumed CMD charge on 1 April 2025.",
+        "The Downloads repository lists the Annual Report 2024-25 and Form MGT-7 for the year ending 31.03.2025. Financial and employee figures were not extracted, so those fields remain null."
+      ],
+      "caveats": "FY2024-25 revenue, profit and employee count from Annual Report PDF not extracted in machine-readable form; shareholding percentage (100% President of India) not verified from opened annual return, so financials, employees and shareholding left null.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://aweil.in/",
+          "kind": "company_site",
+          "publisher": "AWEIL",
+          "date": "2026-09-24",
+          "supports": "Ministry of Defence PSU, 8 units, Kanpur HQ address, CMD from 1 April 2025"
+        },
+        {
+          "url": "https://www.aweil.in/downloads",
+          "kind": "annual_report",
+          "publisher": "AWEIL",
+          "date": "2026-08-07",
+          "supports": "Annual Report 2024-25 and MGT-7 published 25 Feb 2025"
+        },
+        {
+          "url": "https://www.aweil.in/download/Annual-Report-2024-25-en.pdf?v=1.87",
+          "kind": "annual_report",
+          "publisher": "AWEIL",
+          "date": null,
+          "supports": "4th Annual Report 2024-25 exists; financial year ended 31.03.2025"
+        },
+        {
+          "url": "https://www.dpe.gov.in/documents/reports/public-enterprises-survey-2024-25-cDO4IjMtQWa?pageTitle=Public-Enterprises-Survey-2024-25",
+          "kind": "dpe_survey",
+          "publisher": "Department of Public Enterprises",
+          "date": "2025-12-01",
+          "supports": "CPSE coverage context; AWEIL is surveyed CPSE"
         }
       ],
       "verification": "V2"
