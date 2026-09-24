@@ -220596,5 +220596,819 @@
   "merged_case_id": "cop-mz-hc-1",
   "officers_named_public": 0,
   "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0092",
+  "status": "current",
+  "merged_id": "CWC-1377",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs The State Of Assam And 17 Ors",
+  "display_title_redacted": "[name withheld] vs The State Of Assam And 17 Ors",
+  "state": "Assam",
+  "district": "Cachar",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Katigorah Police Station; Kalain Patrol Post",
+  "court": "The Gauhati High Court (High Court of Assam, Nagaland, Mizoram and Arunachal Pradesh)",
+  "court_as_verified": "The Gauhati High Court (High Court of Assam, Nagaland, Mizoram and Arunachal Pradesh)",
+  "bench": null,
+  "case_title": "[name withheld] vs The State Of Assam And 17 Ors",
+  "case_number": "WP(C)/4329/2015",
+  "citation": "2026:GAU-AS:13808-DB",
+  "judges": [
+   "Kalyan Rai Surana",
+   "Susmita Phukan Khaund"
+  ],
+  "judgment_date": "2026-09-17",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2012-07-07",
+  "incident_year": 2012,
+  "category": "Custodial death",
+  "admin_category": "brutality",
+  "admin_subcategory": "custodial_death",
+  "subcategory": "custodial_death",
+  "subcategory_display": "custodial death",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "147/148/149/353/336/323",
+   "448/325/506/354/302/34"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Officer-in-Charge",
+    "role": "involved; no personal liability imposed - State permitted to recover from officials found guilty in departmental proceedings",
+    "unit": "Katigorah Police Station / Kalain Patrol Post",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Officer-in-Charge, Katigorah Police Station / Kalain Patrol Post"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": "compensation_only",
+  "sentence_max_years": null,
+  "compensation_inr": 500000,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/39934608/",
+  "secondary_sources": [],
+  "summary": "The High Court held that the arrest of the 60-year-old man picked up after midnight was illegal. The High Court held that the man had died while in illegal police custody after being taken to Kalain Patrol Post. The High Court directed the State to pay Rs.5,00,000 as palliative compensation to the petitioner for distribution among the heirs. The High Court left criminal liability arising from the related case to the trial court and allowed the State to recover from officials found at fault.",
+  "summary_verified": "The High Court held that the arrest of the 60-year-old man picked up after midnight was illegal. The High Court held that the man had died while in illegal police custody after being taken to Kalain Patrol Post. The High Court directed the State to pay Rs.5,00,000 as palliative compensation to the petitioner for distribution among the heirs. The High Court left criminal liability arising from the related case to the trial court and allowed the State to recover from officials found at fault.",
+  "court_quote": "Thus, the arrest of Md. [name withheld], since deceased, was illegal",
+  "court_quote_para": "Para 11",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "The judgment is verified: Gauhati High Court (Surana & Phukan Khaund JJ.), WP(C)/4329/2015, decided 17.09.2026, Cachar district; illegal-arrest quote is verbatim at para 11; death-in-police-custody finding at paras 13/21; compensation Rs.5,00,000 confirmed. However, the officers field records role 'held_liable', which the judgment does not support: the Court did NOT hold any named officer liable (it expressly left criminal liability to the pending complaint case and only gave the State liberty to recover from officials found guilty in departmental proceedings). The rank/unit (Officer-in-Charge, Katigorah PS / Kalain Patrol Post) is accurate, but the role must be corrected.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Custodial death",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-09-17",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "The Gauhati High Court (High Court of Assam, Nagaland, Mizoram and Arunachal Pradesh)",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The The Gauhati High Court (High Court of Assam, Nagaland, Mizoram and Arunachal Pradesh) recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2026:GAU-AS:13808-DB",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/39934608/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-as-hc"
+  ],
+  "merged_case_id": "cop-as-hc-0",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0075",
+  "status": "current",
+  "merged_id": "CWC-1378",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs The State of Assam and Ors",
+  "display_title_redacted": "[name withheld] vs The State of Assam and Ors",
+  "state": "Assam",
+  "district": "Sonitpur",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Mahabhairab police outpost, Tezpur",
+  "court": "The Gauhati High Court",
+  "court_as_verified": "The Gauhati High Court",
+  "bench": null,
+  "case_title": "[name withheld] vs The State of Assam and Ors",
+  "case_number": "WP(C)/6349/2017",
+  "citation": "2025:GAU-AS:711",
+  "judges": [
+   "Kardak Ete"
+  ],
+  "judgment_date": "2025-01-23",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": "2017-04-20",
+  "incident_year": 2017,
+  "category": "Other",
+  "admin_category": "brutality",
+  "admin_subcategory": "disproportionate_force",
+  "subcategory": "disproportionate_force",
+  "subcategory_display": "disproportionate force",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [],
+  "officers": [
+   {
+    "name": null,
+    "rank": "police personnel",
+    "role": "held_liable",
+    "unit": "Mahabhairab police outpost / Assam Police, Tezpur",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "police personnel, Mahabhairab police outpost / Assam Police, Tezpur"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": "compensation_only",
+  "sentence_max_years": null,
+  "compensation_inr": 500000,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/71316095/",
+  "secondary_sources": [],
+  "summary": "The High Court held that the petitioner, a bystander near a road-accident protest site, suffered a bullet injury when the police opened fire. The High Court held that the firing was done without warning or superior orders and amounted to gross state violence. The High Court directed the respondent authorities to pay Rs.5,00,000 compensation in exercise of public-law jurisdiction. The High Court made clear the award was in addition to any other legal remedy available to the petitioner.",
+  "summary_verified": "The High Court held that the petitioner, a bystander near a road-accident protest site, suffered a bullet injury when the police opened fire. The High Court held that the firing was done without warning or superior orders and amounted to gross state violence. The High Court directed the respondent authorities to pay Rs.5,00,000 compensation in exercise of public-law jurisdiction. The High Court made clear the award was in addition to any other legal remedy available to the petitioner.",
+  "court_quote": "I am inclined to direct that petitionerbe paid an amount of Rs. 5,00,000/- (Rupees five lakhs) only as compensation.",
+  "court_quote_para": "Para 24",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Verified against the cited judgment.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-01-23",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "The Gauhati High Court",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The The Gauhati High Court recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2025:GAU-AS:711",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/71316095/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-as-hc"
+  ],
+  "merged_case_id": "cop-as-hc-1",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0093",
+  "status": "current",
+  "merged_id": "CWC-1379",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs The State of Telangana",
+  "display_title_redacted": "[name withheld] vs The State of Telangana",
+  "state": "Telangana",
+  "district": null,
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Falaknuma Police Station",
+  "court": "High Court for the State of Telangana",
+  "court_as_verified": "High Court for the State of Telangana",
+  "bench": null,
+  "case_title": "[name withheld] vs The State of Telangana",
+  "case_number": "W.P. No. 26326 of 2026",
+  "citation": null,
+  "judges": [
+   "Tangirala Madhavi Devi"
+  ],
+  "judgment_date": "2026-08-07",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": null,
+  "incident_year": null,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "false_implication_fabrication",
+  "subcategory": "false_implication_fabrication",
+  "subcategory_display": "false implication fabrication",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Section 94 of BNSS"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Investigating officer",
+    "role": "named_in_finding",
+    "unit": "Falaknuma Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Investigating officer, Falaknuma Police Station"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": null
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/75788034/",
+  "secondary_sources": [
+   "https://www.barandbench.com/news/user-not-named-in-fir-cited-by-police-telangana-hc-quashes-police-notice-seeking-x-account-details"
+  ],
+  "summary": "The High Court examined a Section 94 BNSS notice sent to X seeking the petitioner's user details in Crime No. 404 of 2026. The High Court held that the FIR contained no reference to the petitioner in any way. The High Court held that there was no basis for issuing the notice against the petitioner. The High Court set aside the notice so far as it treated the petitioner as involved and restrained coercive steps without due process.",
+  "summary_verified": "The High Court examined a Section 94 BNSS notice sent to X seeking the petitioner's user details in Crime No. 404 of 2026. The High Court held that the FIR contained no reference to the petitioner in any way. The High Court held that there was no basis for issuing the notice against the petitioner. The High Court set aside the notice so far as it treated the petitioner as involved and restrained coercive steps without due process.",
+  "court_quote": "there is no basis for the issuance of the notice under Section 94 of BNSS to X (Twitter).",
+  "court_quote_para": "para 4",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Verified against the cited judgment.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-08-07",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court for the State of Telangana",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court for the State of Telangana recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "W.P. No. 26326 of 2026",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/75788034/",
+    "link_checked": null
+   },
+   {
+    "url": "https://www.barandbench.com/news/user-not-named-in-fir-cited-by-police-telangana-hc-quashes-police-notice-seeking-x-account-details",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-tg-hc"
+  ],
+  "merged_case_id": "cop-tg-hc-0",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0094",
+  "status": "current",
+  "merged_id": "CWC-1380",
+  "alias_merged_ids": [],
+  "display_title": "M/s [name withheld] vs [name withheld]",
+  "display_title_redacted": "M/s [name withheld] vs [name withheld]",
+  "state": "Telangana",
+  "district": "Medchal-Malkajgiri",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "HYDRAA with Hyderabad police support",
+  "court": "High Court for the State of Telangana",
+  "court_as_verified": "High Court for the State of Telangana",
+  "bench": null,
+  "case_title": "M/s [name withheld] vs [name withheld]",
+  "case_number": "Contempt Case Nos. 3482 and 3483 of 2026",
+  "citation": null,
+  "judges": [
+   "Anil Kumar Jukanti"
+  ],
+  "judgment_date": "2026-07-27",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": null,
+  "incident_year": null,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "other",
+  "subcategory": "other",
+  "subcategory_display": "other",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Commissioner (IPS officer)",
+    "role": "held_liable",
+    "unit": "Hyderabad Disaster Response and Assets Protection Agency (HYDRAA)",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Commissioner (IPS officer), Hyderabad Disaster Response and Assets Protection Agency (HYDRAA)"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 0,
+  "sentence_type": "imprisonment",
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/27710886/",
+  "secondary_sources": [
+   "https://www.barandbench.com/news/here-is-why-telangana-high-court-ordered-removal-of-ips-officer-as-hydraa-commissioner"
+  ],
+  "summary": "The High Court dealt with contempt petitions alleging HYDRAA staff entered the petitioner's Lothukunta land with police presence and machinery despite restraining orders and an undertaking. The High Court held that detaining the petitioner's representative and registering an FIR were not denied and that the conduct met the test for defiance. The High Court rejected the apology as shorn of penitence. The High Court held the officer guilty of civil contempt and directed that he be relieved as Commissioner of HYDRAA.",
+  "summary_verified": "The High Court dealt with contempt petitions alleging HYDRAA staff entered the petitioner's Lothukunta land with police presence and machinery despite restraining orders and an undertaking. The High Court held that detaining the petitioner's representative and registering an FIR were not denied and that the conduct met the test for defiance. The High Court rejected the apology as shorn of penitence. The High Court held the officer guilty of civil contempt and directed that he be relieved as Commissioner of HYDRAA.",
+  "court_quote": "willful, deliberate, intentional disobedience to the restraining orders of this Court and breach of an undertaking given",
+  "court_quote_para": "para 57",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Verified against the cited judgment.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-07-27",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court for the State of Telangana",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court for the State of Telangana recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "Contempt Case Nos. 3482 and 3483 of 2026",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/27710886/",
+    "link_checked": null
+   },
+   {
+    "url": "https://www.barandbench.com/news/here-is-why-telangana-high-court-ordered-removal-of-ips-officer-as-hydraa-commissioner",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-tg-hc"
+  ],
+  "merged_case_id": "cop-tg-hc-1",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0076",
+  "status": "current",
+  "merged_id": "CWC-1381",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs The State of Telangana",
+  "display_title_redacted": "[name withheld] vs The State of Telangana",
+  "state": "Telangana",
+  "district": null,
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Telangana Police (FIR Nos. 8, 13 and 146 of 2025)",
+  "court": "High Court for the State of Telangana",
+  "court_as_verified": "High Court for the State of Telangana",
+  "bench": null,
+  "case_title": "[name withheld] vs The State of Telangana",
+  "case_number": "Criminal Petition Nos. 4905, 4903 and 8416 of 2025",
+  "citation": null,
+  "judges": [
+   "N. Tukaramji"
+  ],
+  "judgment_date": "2025-09-10",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": null,
+  "incident_year": null,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "false_implication_fabrication",
+  "subcategory": "false_implication_fabrication",
+  "subcategory_display": "false implication fabrication",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Section 176(1) of the BNSS"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Investigating officers",
+    "role": "named_in_finding",
+    "unit": "Telangana Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Investigating officers, Telangana Police"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/25907023/",
+  "secondary_sources": [
+   "https://www.barandbench.com/news/police-action-against-social-media-posts-supreme-court-upholds-telangana-hc-safeguards"
+  ],
+  "summary": "The High Court examined three FIRs registered over social media posts mocking the ruling party on complaints by third parties. The High Court held that the posts were plainly political criticism and satire and disclosed no cognizable offence. The High Court held that continuation of the proceedings would amount to an abuse of process. The High Court quashed all three FIRs and directed detailed guidelines for police to follow before registering FIRs over speech, with a copy to the DGP.",
+  "summary_verified": "The High Court examined three FIRs registered over social media posts mocking the ruling party on complaints by third parties. The High Court held that the posts were plainly political criticism and satire and disclosed no cognizable offence. The High Court held that continuation of the proceedings would amount to an abuse of process. The High Court quashed all three FIRs and directed detailed guidelines for police to follow before registering FIRs over speech, with a copy to the DGP.",
+  "court_quote": "continuation of proceedings would amount to an abuse of process.",
+  "court_quote_para": "para 28",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Verified against the cited judgment.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-09-10",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court for the State of Telangana",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court for the State of Telangana recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "Criminal Petition Nos. 4905, 4903 and 8416 of 2025",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/25907023/",
+    "link_checked": null
+   },
+   {
+    "url": "https://www.barandbench.com/news/police-action-against-social-media-posts-supreme-court-upholds-telangana-hc-safeguards",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-tg-hc"
+  ],
+  "merged_case_id": "cop-tg-hc-2",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0077",
+  "status": "current",
+  "merged_id": "CWC-1382",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] & Anr. vs State of Telangana & Anr.",
+  "display_title_redacted": "[name withheld] & Anr. vs State of Telangana & Anr.",
+  "state": "Telangana",
+  "district": null,
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Gachibowli Police Station, Cyberabad",
+  "court": "Supreme Court of India",
+  "court_as_verified": "Supreme Court of India",
+  "bench": null,
+  "case_title": "[name withheld] & Anr. vs State of Telangana & Anr.",
+  "case_number": "Criminal Appeal arising out of SLP (Crl.) No. 10748 of 2023 (FIR No. 771 of 2020)",
+  "citation": "2025 INSC 870",
+  "judges": [
+   "Vikram Nath",
+   "Sandeep Mehta"
+  ],
+  "judgment_date": "2025-07-18",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": "2021-01-13",
+  "incident_year": 2021,
+  "category": "Other",
+  "admin_category": "brutality",
+  "admin_subcategory": "illegal_detention_false_imprisonment",
+  "subcategory": "illegal_detention_false_imprisonment",
+  "subcategory_display": "illegal detention false imprisonment",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Investigating officers",
+    "role": "named_in_finding",
+    "unit": "Gachibowli Police Station, Cyberabad (Telangana Police)",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Investigating officers, Gachibowli Police Station, Cyberabad (Telangana Police)"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "female"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": "imprisonment",
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/189554683/",
+  "secondary_sources": [],
+  "summary": "The Supreme Court examined the arrest and eight-day custody of a 70-year-old accused in a civil sale-deed dispute under FIR No. 771 of 2020. The Supreme Court held that the complainant was misusing the process of police investigation so as to entangle the accused. The Supreme Court held that the arrest in a civil dispute clearly showed the complainant company's clout on the police agency. The Supreme Court quashed the FIR and all subsequent proceedings as a gross abuse of the process of law.",
+  "summary_verified": "The Supreme Court examined the arrest and eight-day custody of a 70-year-old accused in a civil sale-deed dispute under FIR No. 771 of 2020. The Supreme Court held that the complainant was misusing the process of police investigation so as to entangle the accused. The Supreme Court held that the arrest in a civil dispute clearly showed the complainant company's clout on the police agency. The Supreme Court quashed the FIR and all subsequent proceedings as a gross abuse of the process of law.",
+  "court_quote": "clearly shows the clout of the company of which the complainant is an agent, on the police agency",
+  "court_quote_para": "as summarized from judgment text",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Verified against the cited judgment.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-07-18",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "Supreme Court of India",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The Supreme Court of India recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2025 INSC 870",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/189554683/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-tg-hc"
+  ],
+  "merged_case_id": "cop-tg-hc-3",
+  "officers_named_public": 0,
+  "record_flag": null
  }
 ]
