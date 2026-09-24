@@ -1050,6 +1050,153 @@ def scrub_text_with_record(text, c, oracle=None, nosp_extras=None):
     return text
 
 
+# ---- Withheld names read as force + rank ("Delhi Police Inspector") ----
+# Runs last on every public copy (tier 1 and tier 2). In a case title the
+# officer's party becomes "<force> <rank>"; in prose "[name withheld]"
+# after a rank is dropped (the rank already says who), and name fragments
+# stranded beside a marker by partial upstream redaction are removed.
+# It only ever deletes or replaces name text, never adds a name.
+_WH = "[name withheld]"
+_WH_RANKS = {
+    "constable", "constables", "head", "sub-inspector", "sub-inspectors",
+    "inspector", "inspectors", "asi", "si", "psi", "ssi", "sho", "hc", "pc",
+    "dsp", "sp", "ssp", "dig", "ig", "dgp", "acp", "dcp", "ci", "sdpo",
+    "superintendent", "commissioner", "officer", "officers", "policeman",
+    "policemen", "jawan", "jawans", "havildar", "naik", "sepoy", "rifleman",
+    "sergeant", "subedar", "home-guard", "guard", "warden", "jailor",
+    "jailer", "patwari", "clerk", "engineer", "tehsildar"}
+_WH_SAFE = _WH_RANKS | {
+    "vs", "v", "versus", "and", "another", "others", "ors", "anr", "the",
+    "state", "of", "union", "india", "police", "court", "high", "district",
+    "sessions", "special", "judge", "corpus", "petitioner", "petitioners",
+    "appellant", "appellants", "respondent", "respondents", "complainant",
+    "deceased", "accused", "victim", "minor", "wife", "husband", "father",
+    "mother", "son", "daughter", "late", "mr", "mrs", "ms", "smt", "shri",
+    "sri", "kumari", "km", "dr", "custodial", "death", "case", "murder",
+    "torture", "rape", "bribery", "corruption", "encounter", "killing",
+    "assault", "detention", "illegal", "compensation", "petition", "appeal",
+    "writ", "habeas", "criminal", "civil", "misc", "application", "order",
+    "judgment", "in", "re", "through", "thr", "govt", "government",
+    "senior", "deputy", "assistant", "additional", "chief", "station",
+    "lines", "thana", "crime", "branch", "cell", "unit", "bench", "division",
+    "on", "at", "by", "for", "with", "from", "to", "a", "an", "his", "her",
+    "their", "an", "it", "he", "she", "they", "who", "was", "were", "is"}
+_WH_TOK = r"(?:[A-Z][a-z]+(?:-[A-Z][a-z]+)?|[A-Z]\.)"
+_WH_SPAN = re.compile(r"(?P<pre>(?:%s\s+){0,2})\[name withheld\](?P<post>(?:\s+%s){0,2})"
+                      % (_WH_TOK, _WH_TOK))
+_WH_VS = re.compile(r"\s+(?:vs\.?|v\.|v/s|versus)\s+", re.I)
+_WH_STATE = re.compile(
+    r"(?i)^(?:the\s+)?(?:state|union of india|u\.?\s?o\.?\s?i|govt|government|"
+    r"commissioner|director|superintendent|inspector general|"
+    r"director general|c\.?b\.?i|central bureau|delhi administration|"
+    r"public prosecutor|department|chief secretary|secretary|district "
+    r"magistrate|collector|nct)")
+_WH_FORCE_ACR = re.compile(r"\b(CRPF|BSF|CISF|ITBP|SSB|RPF|NSG|Assam Rifles|"
+                           r"Railway Protection Force|Indian Army|Army)\b")
+_WH_FORCE = re.compile(r"((?:[A-Z][\w.&\-]*\s+){0,3}?[A-Z][\w.&\-]*\s+Police)"
+                       r"(?!\s+(?:Station|Post|Chowki|Outpost|Lines|Thana))\b")
+_WH_OFFICER_PARTY = {"conviction_upheld", "conviction_by_hc",
+                     "conviction_by_sc", "disciplinary_upheld",
+                     "trial_court_conviction"}
+
+
+def officer_descriptor(p, with_rank=True):
+    """'Delhi Police Inspector': the officer's force (from the unit, else
+    the city/district/state) and rank ('personnel' when the rank is unknown
+    or with_rank is False). Police records only."""
+    offs = [o for o in (p.get("officers") or []) if isinstance(o, dict)]
+    force = ""
+    for o in offs:
+        u = o.get("unit") or o.get("display") or ""
+        m = _WH_FORCE_ACR.search(u) or _WH_FORCE.search(u)
+        if m:
+            force = m.group(1).strip()
+            break
+    if not force:
+        place = (p.get("city_town") or p.get("district") or p.get("state")
+                 or "").strip()
+        force = (place + " Police") if place else "Police"
+    rank = next(((o.get("rank") or "").strip() for o in offs
+                 if (o.get("rank") or "").strip()), "") if with_rank else ""
+    if rank.islower():
+        rank = rank.title()
+    return "%s %s" % (force, rank or "personnel")
+
+
+def _clean_withheld(text, drop_after_rank=True):
+    if not isinstance(text, str) or _WH not in text:
+        return text
+
+    def rep(m):
+        pre, post = m.group("pre").split(), m.group("post").split()
+        while pre and pre[-1].rstrip(".").lower() not in _WH_SAFE:
+            pre.pop()
+        while post and post[0].rstrip(".").lower() not in _WH_SAFE:
+            post.pop(0)
+        prev = pre[-1] if pre else (re.findall(r"(\S+)\s*$",
+                                               m.string[:m.start()]) or [""])[0]
+        keep = not (drop_after_rank and
+                    prev.strip("\"'(,").lower() in _WH_RANKS)
+        lead = " " if m.group("pre") and not pre and not keep else ""
+        return lead + " ".join(pre + ([_WH] if keep else []) + post) + (
+            " " if m.group("post") and not post and not keep else "")
+
+    text = _WH_SPAN.sub(rep, text)
+    text = re.sub(r"[ \t]{2,}", " ", text)
+    return re.sub(r" +([,.;:)])", r"\1", text).strip()
+
+
+def _officer_title(title, p, desc):
+    if not isinstance(title, str) or _WH not in title:
+        return title
+    m = _WH_VS.search(title)
+    if not m:
+        return title
+    a, b = title[:m.start()], title[m.end():]
+
+    def party(side):
+        many = side.count(_WH) > 1 or re.search(
+            r"(?i)(?:,|&|\band\b)\s*(?:ors?|others?|anr|another)\.?\s*$", side)
+        return desc + (" and others" if many else "")
+    if _WH in a and _WH_STATE.match(b.strip()) and not _WH_STATE.match(a.strip()):
+        a = party(a)
+    elif _WH in b and _WH_STATE.match(a.strip()):
+        b = party(b)
+    # "(X vs State)" connected appeals: X is a co-accused appellant. When no
+    # officer of the record may be named, X is withheld the same way.
+    if not any(isinstance(o, dict) and o.get("publish_grade") == "named_safe"
+               for o in (p.get("officers") or [])):
+        def conn(mm):
+            inner = mm.group(1)
+            v = _WH_VS.search(inner)
+            if v and _WH_STATE.match(inner[v.end():].strip()) \
+                    and not _WH_STATE.match(inner[:v.start()].strip()):
+                return "(%s%s%s)" % (officer_descriptor(p, with_rank=False),
+                                     v.group(0), inner[v.end():])
+            return mm.group(0)
+        b = re.sub(r"\(([^()]*)\)", conn, b)
+    return a + m.group(0) + b
+
+
+def humanise_withheld(p, title_keys, prose_keys):
+    police = (p.get("service") or "police") == "police"
+    officer_party = (p.get("outcome_type") or "trial_court_conviction") \
+        in _WH_OFFICER_PARTY
+    desc = officer_descriptor(p) if police else ""
+    for k in title_keys:
+        if isinstance(p.get(k), str):
+            if police and officer_party:
+                p[k] = _officer_title(p[k], p, desc)
+            p[k] = _clean_withheld(p[k])
+    for k in prose_keys:
+        if isinstance(p.get(k), str):
+            p[k] = _clean_withheld(p[k], drop_after_rank=(k != "court_quote"))
+    for a in (p.get("institutional_response") or []):
+        if isinstance(a, dict) and isinstance(a.get("description"), str):
+            a["description"] = _clean_withheld(a["description"])
+    return p
+
+
 def redact_record(c, oracle=None, nosp_extras=None):
     """Return a PUBLIC-SAFE copy: unnamed officers lose `name`, anonymised
     victims lose `name`, non-public fields are dropped, and leftover name
@@ -1132,7 +1279,10 @@ def redact_record(c, oracle=None, nosp_extras=None):
     for h in (p.get("later_proceedings") or []):
         if isinstance(h, dict):
             h.pop("persons", None)
-    return p
+    return humanise_withheld(
+        p, ("display_title", "display_title_redacted", "case_title"),
+        ("summary", "summary_verified", "verification_note", "court_quote",
+         "verdict_note"))
 
 
 # ---- Tier-2 (trial-court convictions) ----
@@ -1384,6 +1534,8 @@ def build_t2_public(r, pats, withheld_lows, t1_held=()):
     if isinstance(p.get("sections"), list):
         p["sections"] = [_s(v) if isinstance(v, str) else v
                          for v in p["sections"]]
+    humanise_withheld(p, ("case_title_or_number", "case_title"),
+                      ("summary", "sentence", "court_quote", "verdict_note"))
     return p, downgraded
 
 
