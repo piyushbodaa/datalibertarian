@@ -24,6 +24,8 @@ import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
+import plates as platemod  # noqa: E402
 DATA = os.path.join(HERE, "data")
 REGISTERS = ("victimlesscrimes", "civilliberties", "economicfreedom", "psu")
 
@@ -174,33 +176,40 @@ def card_html(reg, data, r):
     url = "/%s/%s" % (reg, r["id"])
     place = ", ".join(x for x in (r.get("district"), r["state"]) if x)
     if data["kind"] == "case":
-        kicker = (esc(r["id"].upper()), esc(place), esc(fmt_date(r["date"])))
-        badge = '<span class="record-badge reported">%s</span>' % esc(OUTCOME[r["outcome"]])
-        title = r["title"]
-        facts = ('<span><strong>%s</strong> &middot; %s</span><span>%d public source%s</span>'
-                 % (esc(cat_label(data, r["category"])), esc(r["authority"]),
-                    len(r["sources"]), "" if len(r["sources"]) == 1 else "s"))
+        chips = (cat_label(data, r["category"]), OUTCOME[r["outcome"]])
+        head = r["title"]
+        meta = [fmt_date(r["date"]), place, r.get("authority")]
     else:
-        kicker = (esc(r["id"].upper()), esc(r.get("headquarters") or place), esc(r.get("owner", "")))
-        badge = '<span class="record-badge reported">%s</span>' % esc(r["status"])
-        title = r["name"]
-        facts = ('<span><strong>%s</strong> &middot; %s</span><span>%d public source%s</span>'
-                 % (esc(cat_label(data, r["category"])), esc(r.get("legal_form", "")),
-                    len(r["sources"]), "" if len(r["sources"]) == 1 else "s"))
+        chips = (cat_label(data, r["category"]), r["status"])
+        head = r["name"]
+        meta = [fmt_date(r["date"]), r.get("headquarters") or place, r.get("owner")]
+    plate = r.get("_plate")
     return """
-      <article class="tracker-card" id="%s" data-id="%s" data-cat="%s" data-state="%s">
-        <div class="tracker-card-topline">
-          <div class="tracker-card-kicker"><span>%s</span><span>%s</span><span>%s</span></div>
-          <div class="tracker-card-badges">%s<span class="record-badge level">%s</span></div>
-        </div>
-        <h2><a href="%s">%s</a></h2>
-        <p class="tracker-card-summary">%s</p>
-        <div class="tracker-card-facts">%s</div>
-        <a class="tracker-card-open" href="%s" aria-label="View full record %s">View full record <span aria-hidden="true">&rarr;</span></a>
+      <article class="tracker-card news-card" id="%s" data-id="%s" data-cat="%s" data-state="%s" data-district="%s">
+        <div class="news-top"><div class="news-chips"><span class="chip">%s</span><span class="chip chip-out">%s</span></div>%s</div>
+        <h2 class="news-head"><a href="%s">%s</a></h2>
+        <p class="news-meta">%s</p>
+        <p class="news-para">%s</p>
+        <a class="tracker-card-open" href="%s">Read the full record <span aria-hidden="true">&rarr;</span></a>
       </article>""" % (
-        esc(r["id"]), esc(r["id"]), esc(r["category"]), esc(r["state"]), kicker[0], kicker[1], kicker[2],
-        badge, esc(r["verification"]), esc(url), esc(title), esc(r["summary"]),
-        facts, esc(url), esc(r["id"]))
+        esc(r["id"]), esc(r["id"]), esc(r["category"]), esc(r["state"]), esc(r.get("district") or ""),
+        esc(chips[0]), esc(chips[1]),
+        ('<span class="plate" title="Case number">%s</span>' % esc(plate)) if plate else "",
+        esc(url), esc(head), " &middot; ".join(esc(m) for m in meta if m), esc(r["summary"]), esc(url))
+
+
+NEWS_CSS = (".news-top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}"
+            ".news-chips{display:flex;gap:8px;flex-wrap:wrap}"
+            ".chip{display:inline-block;padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:#f1efe8;"
+            "font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#3a3f48}"
+            ".chip-out{background:#f0f7f2;border-color:#9ab6a7;color:#2f6b4a}"
+            ".plate{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-weight:700;font-size:13px;"
+            "letter-spacing:.1em;padding:4px 10px;border:2px solid #1d2230;border-radius:5px;background:#fff;color:#1d2230;white-space:nowrap}"
+            ".news-head{margin-top:14px;font-family:var(--serif);font-size:clamp(20px,2.4vw,25px);font-weight:600;line-height:1.25}"
+            ".news-head a{color:inherit;text-decoration:none}.news-head a:hover{text-decoration:underline}"
+            ".news-meta{margin-top:8px;color:var(--grey);font-size:13.5px;line-height:1.5}"
+            ".news-para{margin-top:12px;color:#363c44;font-size:15px;line-height:1.65}"
+            ".news-card .tracker-card-open{position:static;display:inline-block;margin-top:14px}")
 
 
 def records_html(reg, data):
@@ -211,20 +220,35 @@ def records_html(reg, data):
     states = sorted({r["state"] for r in recs})
     cats = [c for c in data["categories"] if any(r["category"] == c["key"] for r in recs)]
     opts = lambda items: "".join('<option value="%s">%s</option>' % (esc(v), esc(l)) for v, l in items)
+    geo = {}
+    for r in recs:
+        if r.get("district"):
+            geo.setdefault(r["state"], set()).add(r["district"])
+    geo = {k: sorted(v) for k, v in geo.items()}
     filters = ('<style>.filters select{padding:9px 11px;border:1px solid var(--line);background:#fff;font:inherit;'
-               'font-size:14px;border-radius:2px;max-width:100%%}</style>'
+               'font-size:14px;border-radius:2px;max-width:100%%}' + NEWS_CSS + '</style>'
                '<div class="filters" role="search"><span class="flabel">Filter</span>'
                '<select id="f-state" aria-label="State"><option value="">All states (%d)</option>%s</select>'
+               '<select id="f-district" aria-label="District" disabled><option value="">Choose a state first</option></select>'
                '<select id="f-cat" aria-label="Category"><option value="">All categories</option>%s</select></div>'
-               % (len(states), opts((st, st) for st in states), opts((c["key"], c["label"]) for c in cats)))
+               '<script type="application/json" id="f-geo">%s</script>'
+               % (len(states), opts((st, st) for st in states), opts((c["key"], c["label"]) for c in cats),
+                  json.dumps(geo, ensure_ascii=False).replace("</", "<\\/")))
     head = ('<div class="tracker-results-head" aria-live="polite"><strong id="f-count">%d %s</strong>'
             '<span>newest first</span></div>' % (len(recs), word if len(recs) != 1 else word.rstrip("s")))
-    script = ("<script>(function(){var s=document.getElementById('f-state'),c=document.getElementById('f-cat'),"
-              "n=document.getElementById('f-count'),cards=[].slice.call(document.querySelectorAll('.tracker-records .tracker-card'));"
-              "function go(){var k=0;cards.forEach(function(e){var ok=(!s.value||e.dataset.state===s.value)&&(!c.value||e.dataset.cat===c.value);"
-              "e.hidden=!ok;if(ok)k++});n.textContent=k+' %s';}"
-              "var q=new URLSearchParams(location.search);if(q.get('state'))s.value=q.get('state');if(q.get('cat'))c.value=q.get('cat');"
-              "s.onchange=c.onchange=go;go();})();</script>" % esc(word))
+    script = ("<script>(function(){var s=document.getElementById('f-state'),d=document.getElementById('f-district'),"
+              "c=document.getElementById('f-cat'),n=document.getElementById('f-count'),"
+              "G=JSON.parse(document.getElementById('f-geo').textContent||'{}'),"
+              "cards=[].slice.call(document.querySelectorAll('.tracker-records .tracker-card'));"
+              "function fill(keep){var ds=G[s.value]||[];d.innerHTML='<option value=\"\">'+(s.value?'All districts':'Choose a state first')+'</option>'"
+              "+ds.map(function(x){return '<option>'+x.replace(/&/g,'&amp;').replace(/</g,'&lt;')+'</option>'}).join('');"
+              "d.disabled=!ds.length;d.value=keep&&ds.indexOf(keep)>-1?keep:'';}"
+              "function go(){var k=0;cards.forEach(function(e){var ok=(!s.value||e.dataset.state===s.value)&&"
+              "(!d.value||e.dataset.district===d.value)&&(!c.value||e.dataset.cat===c.value);e.hidden=!ok;if(ok)k++});"
+              "n.textContent=k+' %s';var q=new URLSearchParams();if(s.value)q.set('state',s.value);if(d.value)q.set('district',d.value);"
+              "if(c.value)q.set('cat',c.value);history.replaceState(null,'',location.pathname+(q.toString()?'?'+q:'')+location.hash);}"
+              "var q=new URLSearchParams(location.search);if(q.get('state'))s.value=q.get('state');fill(q.get('district'));"
+              "if(q.get('cat'))c.value=q.get('cat');s.onchange=function(){fill('');go()};d.onchange=c.onchange=go;go();})();</script>" % esc(word))
     return filters + head + '\n    <div class="tracker-records">%s\n    </div>' % "".join(
         card_html(reg, data, r) for r in recs) + script
 
@@ -295,7 +319,7 @@ def record_page(reg, data, r, page):
     if data["kind"] == "case":
         h1 = r["title"]
         badge = OUTCOME[r["outcome"]]
-        rows = [("Record", r["id"].upper()), ("Category", cat_label(data, r["category"])),
+        rows = [("Case number", r.get("_plate")), ("Record", r["id"].upper()), ("Category", cat_label(data, r["category"])),
                 ("Location", place), ("Latest official act", fmt_date(r["date"])),
                 ("Incident date", fmt_date(r["incident_date"]) if r.get("incident_date") else "Not stated"),
                 ("Outcome", badge), ("Decided or acted by", r["authority"]),
@@ -306,7 +330,7 @@ def record_page(reg, data, r, page):
     else:
         h1 = r["name"]
         badge = r["status"]
-        rows = [("Record", r["id"].upper()), ("Type", cat_label(data, r["category"])),
+        rows = [("Case number", r.get("_plate")), ("Record", r["id"].upper()), ("Type", cat_label(data, r["category"])),
                 ("Headquarters", r.get("headquarters") or place),
                 ("Andhra Pradesh link" if r["state"] == "Andhra Pradesh" else "State link", r.get("state_link")),
                 ("Owner", r.get("owner")),
@@ -371,7 +395,7 @@ def record_page(reg, data, r, page):
     <nav class="incident-breadcrumb" aria-label="Breadcrumb"><a href="/%(reg)s#records">%(site)s</a><span aria-hidden="true">/</span><span>%(uid)s</span></nav>
     <header class="incident-hero">
       <div class="incident-hero-copy">
-        <div class="incident-overline"><span>%(uid)s</span><span>%(place)s</span><span>%(date)s</span></div>
+        <div class="incident-overline"><span>%(plate)s</span><span>%(place)s</span><span>%(date)s</span></div>
         <h1>%(h1)s</h1>
         <p class="incident-summary">%(summary)s</p>
       </div>
@@ -400,7 +424,7 @@ def record_page(reg, data, r, page):
 </html>
 """ % dict(
         title=esc(h1), site=esc(site), desc=esc(desc), reg=reg, id=esc(r["id"]),
-        uid=esc(r["id"].upper()), head=head, foot=foot, place=esc(place),
+        uid=esc(r["id"].upper()), plate=esc(r.get("_plate") or r["id"].upper()), head=head, foot=foot, place=esc(place),
         date=esc(fmt_date(r["date"])), h1=esc(h1), summary=esc(r["summary"]),
         badge=esc(badge), ver=esc(r["verification"]), note=esc(data["record_note"]),
         current=esc(r.get("current_position") or r["summary"]),
@@ -425,12 +449,15 @@ def landing_line(data):
 def build(out):
     all_problems = []
     datasets = {reg: load(reg) for reg in REGISTERS}
+    plates = platemod.assign_all()
     for reg, data in datasets.items():
         all_problems += validate(reg, data)
     if all_problems:
         raise SystemExit("registers: refusing to build:\n  " + "\n  ".join(all_problems))
 
     for reg, data in datasets.items():
+        for r in data["records"]:
+            r["_plate"] = plates.get(r["id"])
         src = os.path.join(out, reg, "index.html")
         with open(src, encoding="utf-8") as f:
             page = f.read()

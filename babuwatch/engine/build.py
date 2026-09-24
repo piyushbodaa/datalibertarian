@@ -32,6 +32,22 @@ HERE = ROOT
 sys.path.insert(0, ROOT)
 import profiles                                                   # noqa: E402
 
+
+def _load_json(path, default):
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return default
+
+
+# News-style card text (babuwatch/data/plain.json) and number-plate case numbers
+# (registers/plates.json), keyed by record id. Both optional: cards fall back to
+# the record's own title and summary.
+PLAIN = _load_json(os.path.join(os.path.dirname(ENGINE_DIR), "data", "plain.json"), {})
+PLATES = _load_json(os.path.join(os.path.dirname(os.path.dirname(ENGINE_DIR)),
+                                 "registers", "plates.json"), {})
+
 # One engine, many watches. `--watch <slug>` picks a profile from
 # profiles/<slug>.py (default: babuwatch); `--out <dir>` picks where the
 # site is written. Every site-specific constant below comes from the profile,
@@ -1371,6 +1387,36 @@ def build_t2_public(r, pats, withheld_lows, t1_held=()):
     return p, downgraded
 
 
+def first_unit(r):
+    """Police station / unit of a record: the HC field, else the first officer's unit."""
+    if r.get("police_station_or_unit"):
+        return r["police_station_or_unit"]
+    for o in (r.get("officers") or []):
+        if isinstance(o, dict) and o.get("unit"):
+            return o["unit"]
+    return None
+
+
+def news_fields(rec, r, rid, alt=None):
+    """Add plate (pl), headline (h), paragraph (pa), role (ro), station/unit (ps)."""
+    pl = PLATES.get(rid) or (PLATES.get(alt) if alt else None)
+    if pl:
+        rec["pl"] = pl
+    pn = PLAIN.get(rid) or (PLAIN.get(alt) if alt else None)
+    if pn and pn.get("headline") and pn.get("paragraph"):
+        # the plain paragraph replaces the legal summary on the card (keeps the index small)
+        para = pn["paragraph"]
+        if len(para) > INDEX_SUMMARY_CHARS:
+            para = para[:INDEX_SUMMARY_CHARS].rstrip() + "\u2026"
+        rec["h"], rec["su"] = pn["headline"], para
+        if pn.get("role"):
+            rec["ro"] = pn["role"]
+    ps = first_unit(r)
+    if ps:
+        rec["ps"] = ps
+    return rec
+
+
 def build_t2_index_record(p):
     title = p.get("case_title_or_number") or ""
     summ = p.get("summary") or ""
@@ -1401,6 +1447,7 @@ def build_t2_index_record(p):
     ot = t2_officers_search_text(p)
     if ot:
         rec["ot"] = ot
+    news_fields(rec, p, t2_id(p), p.get("merged_id"))
     return index_watch_keys(rec, p)
 
 
@@ -1760,6 +1807,7 @@ def build_index_record(c):
     ot = officers_search_text(c)
     if ot:
         rec["ot"] = ot
+    news_fields(rec, c, rec_id(c), c.get("merged_id"))
     return index_watch_keys(rec, c)
 
 
@@ -1966,13 +2014,25 @@ def extra_filter_ui(cases, t2cases=None):
         <div class="tracker-extra-row tracker-extra-more" aria-label="More case filters">
           <label>Court level<select id="x-level"><option value="all" selected>All levels</option><option value="hc_sc">High Court / Supreme Court</option><option value="trial">Trial court</option></select></label>
           <label>Year<select id="x-year">%s</select></label>
-          <label>District<input id="x-district" type="search" placeholder="Type district&hellip;" autocomplete="off"></label>
+          <label>District<select id="x-district" disabled><option value="">Choose a state first</option></select></label>
+          <label>Police station / unit<select id="x-ps" disabled><option value="">Choose a state first</option></select></label>
           <label>Outcome<select id="x-outcome">%s</select></label>
           <label>Court<select id="x-court">%s</select></label>
         </div>""" % (
         opts([str(y) for y in years]),
         opts(outs, lambda v: OUTCOME_LABEL.get(v, pretty_label(v))),
         opts(courts))
+    geo = {}
+    for r in list(cases) + list(t2cases):
+        st, di = r.get("state"), r.get("district")
+        if not st or not di:
+            continue
+        units = geo.setdefault(st, {}).setdefault(di, [])
+        u = first_unit(r)
+        if u and u not in units:
+            units.append(u)
+    more += ('\n        <script type="application/json" id="x-geo">%s</script>'
+             % json.dumps(geo, ensure_ascii=False, sort_keys=True).replace("</", "<\\/"))
     return simple, more
 
 
@@ -3258,6 +3318,7 @@ TRACKER_JS = r"""// CopwatchIndia tracker — client-side filter/search over /da
     level: document.getElementById("x-level"),
     state: document.getElementById("x-state"),
     district: document.getElementById("x-district"),
+    ps: document.getElementById("x-ps"),
     year: document.getElementById("x-year"),
     category: document.getElementById("x-category"),
     outcome: document.getElementById("x-outcome"),
@@ -3487,6 +3548,7 @@ TRACKER_JS = r"""// CopwatchIndia tracker — client-side filter/search over /da
       level: p.get("level") || "all",
       state: p.get("state") || "",
       district: p.get("district") || "",
+      ps: p.get("ps") || "",
       year: p.get("year") || "",
       category: p.get("category") || "",
       subcategory: p.get("subcategory") || "",
@@ -3497,7 +3559,7 @@ TRACKER_JS = r"""// CopwatchIndia tracker — client-side filter/search over /da
 
   function writeUrl(s) {
     var p = new URLSearchParams();
-    ["filter", "q", "service", "level", "state", "district", "year", "category", "subcategory", "outcome", "court"].forEach(function (k) {
+    ["filter", "q", "service", "level", "state", "district", "ps", "year", "category", "subcategory", "outcome", "court"].forEach(function (k) {
       if (k === "level") {
         if (s[k] && s[k] !== "all") p.set(k, s[k]);
       } else if (s[k]) {
@@ -3516,6 +3578,7 @@ TRACKER_JS = r"""// CopwatchIndia tracker — client-side filter/search over /da
       level: els.level ? els.level.value : "all",
       state: els.state ? els.state.value : "",
       district: els.district ? els.district.value.trim() : "",
+      ps: els.ps ? els.ps.value : "",
       year: els.year ? els.year.value : "",
       category: els.category ? els.category.value : "",
       subcategory: activeSubcat,
@@ -3529,13 +3592,13 @@ TRACKER_JS = r"""// CopwatchIndia tracker — client-side filter/search over /da
     // index responsive). Falls back to on-the-fly join for foreign shapes.
     if (c._hay !== undefined) return c._hay;
     return (caseTitleOf(c) + " " + titleOf(c) + " " +
-      summaryOf(c) + " " + officersText(c) + " " + caseNumOf(c) +
+      summaryOf(c) + " " + (c.h || "") + " " + (c.pl || "") + " " + (c.ps || "") + " " + officersText(c) + " " + caseNumOf(c) +
       " " + ridOf(c) + " " + midOf(c) + " " + locationOf(c)).toLowerCase();
   }
 
   function buildHay(c) {
     c._hay = (caseTitleOf(c) + " " + titleOf(c) + " " +
-      summaryOf(c) + " " + officersText(c) + " " + caseNumOf(c) +
+      summaryOf(c) + " " + (c.h || "") + " " + (c.pl || "") + " " + (c.ps || "") + " " + officersText(c) + " " + caseNumOf(c) +
       " " + ridOf(c) + " " + midOf(c) + " " + locationOf(c)).toLowerCase();
   }
 
@@ -3545,7 +3608,8 @@ TRACKER_JS = r"""// CopwatchIndia tracker — client-side filter/search over /da
     var lv = s.level || "all";
     if (lv !== "all" && levelOf(c) !== lv) return false;
     if (s.state && stateOf(c) !== s.state) return false;
-    if (s.district && districtOf(c).toLowerCase().indexOf(s.district.toLowerCase()) === -1) return false;
+    if (s.district && districtOf(c) !== s.district) return false;
+    if (s.ps && (c.ps || "") !== s.ps) return false;
     if (s.year && jyearOf(c) !== s.year) return false;
     if (s.category && siteCat(c) !== s.category) return false;
     if (s.subcategory && subcatOf(c) !== s.subcategory) return false;
@@ -3561,6 +3625,11 @@ TRACKER_JS = r"""// CopwatchIndia tracker — client-side filter/search over /da
     return true;
   }
 
+  var NEWS_OUTCOME = {
+    trial_court_conviction: "Convicted", conviction_by_hc: "Convicted", conviction_by_sc: "Convicted",
+    conviction_upheld: "Conviction upheld", adverse_finding_compensation: "Compensation ordered",
+    adverse_finding: "Adverse finding", disciplinary_upheld: "Penalty upheld"
+  };
   function cardHtml(c) {
     var rid = ridOf(c);
     var trial = levelOf(c) === "trial";
@@ -3568,27 +3637,20 @@ TRACKER_JS = r"""// CopwatchIndia tracker — client-side filter/search over /da
     var pre = c.w || "";
     var url = trial ? "__BASE__" + pre + "/trial-court/" + encodeURIComponent(rid)
       : "__BASE__" + pre + "/incident/" + encodeURIComponent(rid);
-    var title = titleOf(c);
-    var nsrc = sourceCount(c);
-    var dateline = trial ? "Convicted: " + escHtml(fmtDate(jdateOf(c)))
-      : escHtml(fmtDate(jdateOf(c)));
-    var factsTail = trial ? "Appeal: " + escHtml(appealLabel(c)) : actionSummary(c);
-    var posBit = trial ? escHtml(subcatOf(c) || "Trial-court conviction")
-      : escHtml(primaryPos(c));
-    return '<article class="tracker-card" data-id="' + escHtml(rid) + '">' +
-      '<div class="tracker-card-topline"><div class="tracker-card-kicker"><span>' +
-      escHtml(rid) + "</span><span>" + escHtml(locationOf(c)) + "</span><span>" +
-      dateline + "</span></div>" +
-      '<div class="tracker-card-badges"><span class="record-badge tier">' + tierBadge(c) +
-      '</span><span class="record-badge ' + tierClass(c) + '">' +
-      escHtml(tierLabel(c)) + '</span><span class="record-badge level">' + vLevel(c) + "</span></div></div>" +
-      "<h2><a href=\"" + escHtml(url) + "\">" + escHtml(title) + "</a></h2>" +
-      '<p class="tracker-card-summary">' + escHtml(summaryOf(c)) + "</p>" +
-      '<div class="tracker-card-facts"><span><strong>' + escHtml(siteCat(c)) + "</strong> &middot; " +
-      posBit + "</span><span>" + nsrc + " public source" + (nsrc === 1 ? "" : "s") +
-      "</span><span>" + factsTail + "</span></div>" +
-      '<a class="tracker-card-open" href="' + escHtml(url) + '" aria-label="View full record ' +
-      escHtml(rid) + '">View full record <span aria-hidden="true">&rarr;</span></a></article>';
+    var head = c.h || titleOf(c);
+    var para = c.pa || summaryOf(c);
+    var outc = NEWS_OUTCOME[outcomeOf(c)] || (trial ? "Convicted" : tierLabel(c));
+    var meta = [fmtDate(jdateOf(c)), locationOf(c)];
+    if (c.ro) meta.push(c.ro + " (name withheld)");
+    return '<article class="tracker-card news-card" data-id="' + escHtml(rid) + '">' +
+      '<div class="news-top"><div class="news-chips"><span class="chip">' + escHtml(siteCat(c)) +
+      '</span><span class="chip chip-out">' + escHtml(outc) + "</span></div>" +
+      (c.pl ? '<span class="plate" title="Case number">' + escHtml(c.pl) + "</span>" : "") + "</div>" +
+      '<h2 class="news-head"><a href="' + escHtml(url) + '">' + escHtml(head) + "</a></h2>" +
+      '<p class="news-meta">' + meta.filter(Boolean).map(escHtml).join(" &middot; ") + "</p>" +
+      '<p class="news-para">' + escHtml(para) + "</p>" +
+      '<a class="tracker-card-open" href="' + escHtml(url) + '" aria-label="Read the court record ' +
+      escHtml(c.pl || rid) + '">Read the court record <span aria-hidden="true">&rarr;</span></a></article>';
   }
 
   function render(rows, s) {
@@ -3688,6 +3750,29 @@ TRACKER_JS = r"""// CopwatchIndia tracker — client-side filter/search over /da
     });
   }
 
+  var GEO = {};
+  try { GEO = JSON.parse((document.getElementById("x-geo") || {}).textContent || "{}"); } catch (e) { GEO = {}; }
+  function fillSel(sel, vals, first, keep) {
+    if (!sel) return;
+    sel.innerHTML = '<option value="">' + escHtml(first) + '</option>' + vals.map(function (v) {
+      return '<option value="' + escHtml(v) + '">' + escHtml(v) + '</option>';
+    }).join("");
+    sel.disabled = !vals.length;
+    sel.value = keep && vals.indexOf(keep) !== -1 ? keep : "";
+  }
+  function fillGeo(st, di, ps) {
+    var ds = st && GEO[st] ? Object.keys(GEO[st]).sort() : [];
+    fillSel(els.district, ds, st ? "All districts" : "Choose a state first", di);
+    var units = [];
+    if (st && GEO[st]) {
+      (di && GEO[st][di] ? [di] : ds).forEach(function (d) {
+        (GEO[st][d] || []).forEach(function (u) { if (units.indexOf(u) === -1) units.push(u); });
+      });
+    }
+    units.sort();
+    fillSel(els.ps, units, st ? "All stations / units" : "Choose a state first", ps);
+  }
+
   function setFromState(s) {
     activeFilter = s.filter || "";
     activeSubcat = s.subcategory || "";
@@ -3695,7 +3780,7 @@ TRACKER_JS = r"""// CopwatchIndia tracker — client-side filter/search over /da
     if (els.service) els.service.value = s.service || "";
     if (els.level) els.level.value = s.level || "all";
     if (els.state) els.state.value = s.state || "";
-    if (els.district) els.district.value = s.district || "";
+    fillGeo(s.state || "", s.district || "", s.ps || "");
     if (els.year) els.year.value = s.year || "";
     if (els.category) els.category.value = s.category || "";
     if (els.outcome) els.outcome.value = s.outcome || "";
@@ -3709,10 +3794,12 @@ TRACKER_JS = r"""// CopwatchIndia tracker — client-side filter/search over /da
       ev.preventDefault();
       apply(true);
     });
-    ["service", "level", "state", "year", "category", "outcome", "court"].forEach(function (k) {
+    if (els.state) els.state.addEventListener("change", function () { fillGeo(els.state.value, "", ""); });
+    if (els.district) els.district.addEventListener("change", function () { fillGeo(els.state.value, els.district.value, ""); });
+    ["service", "level", "state", "district", "ps", "year", "category", "outcome", "court"].forEach(function (k) {
       if (els[k]) els[k].addEventListener("change", function () { apply(true); });
     });
-    ["q", "district"].forEach(function (k) {
+    ["q"].forEach(function (k) {
       if (els[k]) els[k].addEventListener("input", function () {
         clearTimeout(searchTimer);
         searchTimer = setTimeout(function () { apply(true); }, 180);
@@ -3729,7 +3816,7 @@ TRACKER_JS = r"""// CopwatchIndia tracker — client-side filter/search over /da
       activeFilter = "";
       activeSubcat = "";
       if (els.q) els.q.value = "";
-      if (els.district) els.district.value = "";
+      fillGeo("", "", "");
       if (els.level) els.level.value = "all";
       ["service", "state", "year", "category", "outcome", "court"].forEach(function (k) {
         if (els[k]) els[k].value = "";
@@ -3799,6 +3886,17 @@ PATTERNS_JS = r"""// CopwatchIndia patterns — tier toggle over pre-rendered ch
 """
 
 CSS_ADDITIONS = """
+.news-top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.news-chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{display:inline-block;padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:#f1efe8;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#3a3f48}
+.chip-out{background:#f0f7f2;border-color:#9ab6a7;color:#2f6b4a}
+.plate{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-weight:700;font-size:13px;letter-spacing:.1em;padding:4px 10px;border:2px solid #1d2230;border-radius:5px;background:#fff;color:#1d2230;white-space:nowrap}
+.news-head{margin-top:14px;font-family:var(--serif);font-size:clamp(20px,2.4vw,25px);font-weight:600;line-height:1.25}
+.news-head a{color:inherit;text-decoration:none}
+.news-head a:hover{text-decoration:underline}
+.news-meta{margin-top:8px;color:var(--grey);font-size:13.5px;line-height:1.5}
+.news-para{margin-top:12px;color:#363c44;font-size:15px;line-height:1.65}
+.news-card .tracker-card-open{position:static;display:inline-block;margin-top:14px}
 /* === court-adjudicated additions (minimal; tokens reused verbatim) === */
 .tracker-extra{margin:18px 0 6px;max-width:100%}
 .tracker-extra-row{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end}

@@ -24,17 +24,18 @@ import build as B
 ALLOWED = {"id", "mid", "ti", "ct", "su", "st", "di", "co", "cn", "ca",
            "sc", "ou", "jd", "jy", "v", "tr", "pp", "na", "as", "ch", "lc",
            "re", "ns", "ot", "lv", "ap", "tier",
-           "w", "sv"}   # umbrella only: home-watch prefix, service
+           "w", "sv",   # umbrella only: home-watch prefix, service
+           "pl", "ps", "h", "ro"}   # number plate, station/unit, news headline, role
 REQUIRED = {"id", "mid", "ti", "su", "ca", "jd", "na"}
 REQUIRED_T2 = REQUIRED | {"lv"}
 # Index fetch budget: each index file stays small (absolute cap) and
 # dense (per-record cap), so the default tracker view loads fast.
 # index.json carries both tiers (the Court-level facet defaults to All);
 # index-trial.json remains as the trial-court fallback slice.
-INDEX_FILE_CAP = 2048 * 1024  # 2MB: 2,040 combined rows ≈1.54MB
+INDEX_FILE_CAP = 3072 * 1024  # 3MB: 2,523 rows with plates, stations and news headlines ≈2.5MB
 # (was 1.5MB at 1,534 rows, 1MB at 1,060 rows; per-row cap below is
 # the binding density guard — recalibrated for day-N volume 2026-09-19)
-INDEX_ROW_CAP = 900
+INDEX_ROW_CAP = 1150  # +plate, station/unit and headline per row
 FILTERS = ["", "A", "B", "actions", "V2", "V3", "pending", "concluded",
            "checked", "never_checked", "stale_checks", "retracted"]
 
