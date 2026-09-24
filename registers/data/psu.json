@@ -1344,6 +1344,47 @@
       "verification": "V2"
     },
     {
+      "id": "psu-ch-0002",
+      "category": "state",
+      "state": "Chandigarh",
+      "name": "Chandigarh Industrial and Tourism Development Corporation Limited (CITCO)",
+      "summary": "CITCO is the Chandigarh Administration's tourism and hospitality government company operating Hotel Mountview, Hotel Shivalikview and Hotel Parkview in Chandigarh. It is registered as a State Government Company with RoC Chandigarh. A 2023-24 CAG inspection reported by The Tribune (Dec 2025) found revenue losses of Rs 53.56 lakh from vacant shops and Rs 37.87 lakh from a bakery outlet decision; a 2026 Administration push to lease its hotels to private players was reported in March 2026.",
+      "date": "2026-08-04",
+      "district": "Chandigarh",
+      "headquarters": "Chandigarh, Chandigarh",
+      "state_link": "Registered with RoC Chandigarh under CIN U45202CH1974SGC003415; State Government Company operating hotels at Sector-10, Sector-17E and Sector-24B, Chandigarh, with office at SCO 121-122, Sector 17-B, Chandigarh-160017",
+      "owner": "State government (Chandigarh)",
+      "administrative": "Chandigarh Administration",
+      "legal_form": "Government company",
+      "established": "1974: incorporated 28.03.1974 under the Companies Act 1956 as Chandigarh Small Industries Development Corporation (CSIDC), functioning from 20.09.1974; tourism functions added in 1982",
+      "status": "Operating",
+      "detail": [
+        "CITCO's official site states: 'The Chandigarh Industrial and Tourism Development Corporation Limited (CITCO) was incorporated as a Company under the Companies Act 1956 on 28.03.1974' and 'was originally known as Chandigarh Small Industries Development Corporation (CSIDC)' and 'started functioning as such from 20.09.1974', with 'additional functions of promotion of Tourism' given in 1982 (company_site, http://citcochandigarh.com/, accessed 2026-09-24).",
+        "The same official site lists CIN 'U45202CH1974SGC003415' and address 'SCO 121-122, SECTOR 17-B, CHANDIGARH-160017' and hotels 'HOTEL MOUNTVIEW Sector-10, Chandigarh', 'HOTEL SHIVALIKVIEW Sector-17E, Chandigarh' and 'HOTEL PARKVIEW Sector-24B, Chandigarh' (company_site).",
+        "The Tribune reported on 29 Dec 2025 a 2023-24 DG Audit inspection highlighting revenue loss of Rs 53.56 lakh from five vacant shops/cabins (three at Hotel Shivalikview vacant since 2020-2022 through March 2025, one booth at Chef Lakeview vacant Dec 2024-Mar 2025, one convenience store at a petrol pump vacant Apr 2024-Mar 2025) and a Rs 37.87 lakh adverse impact from running a bakery shop at Sukhna Lake (operating shortfall Rs 3.30 lakh Jul 2024-Jan 2025, notional rent Rs 28.50 lakh Sep 2023-Mar 2025, fit-out Rs 6.07 lakh) (news, tribuneindia.com).",
+        "Google News RSS for 'CITCO Chandigarh' lists 'Admn revives push to privatise Citco hotels - The Times of India' dated 10 Mar 2026 and 'Chandigarh: CITCO lost Rs 10 crore in 3 years due to poor planning, says CAG report | Hindustan Times' dated 04 Aug 2026 (news, feed accessed 2026-09-24). The Hindustan Times article could not be opened; the Rs 10 crore figure is unverified."
+      ],
+      "caveats": "Shareholding percentages and as-of date could not be confirmed from an official source; financials left null because no DPE survey, annual report, exchange filing, PIB, gazette or accessible CAG PDF with official revenue/profit was opened — Tribune figures are news-reported audit claims, not official figures; full CAG report number and tabling date for the August 2026 finding could not be verified (Hindustan Times page blocked, CAG site 403); employee count not available; administrative department within Chandigarh Administration not confirmed from an official order; TheCompanyCheck (MCA mirror) not verifiable due to JavaScript requirement.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.tribuneindia.com/news/chandigarh/citco-suffers-losses-due-to-mismanagement-audit/",
+          "kind": "news",
+          "publisher": "The Tribune",
+          "date": "2025-12-29",
+          "supports": "2023-24 inspection figures Rs 53.56 lakh (vacant shops), Rs 3.30 lakh (bakery shortfall), Rs 28.50 lakh (notional rent), Rs 6.07 lakh (fit-out), Rs 37.87 lakh total bakery loss as news-reported audit detail"
+        },
+        {
+          "url": "https://news.google.com/rss/search?q=CITCO+Chandigarh&hl=en-IN&gl=IN&ceid=IN%3Aen",
+          "kind": "news",
+          "publisher": "Google News RSS (aggregating Hindustan Times, Times of India, Tribune)",
+          "date": "2026-08-04",
+          "supports": "dates and headlines only: 04 Aug 2026 CAG Rs-10-crore story (unverified), 10 Mar 2026 privatise-hotels story, 29 Dec 2025 audit story"
+        }
+      ],
+      "verification": "V1"
+    },
+    {
       "id": "psu-ch-0006",
       "category": "departmental",
       "state": "Chandigarh",
@@ -5552,6 +5593,115 @@
           "publisher": "Transport Department, Government of Rajasthan (RSRTC)",
           "date": null,
           "supports": "Annual Report 2024-25 listed as latest alongside 2023-24 and earlier years"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-sk-0005",
+      "category": "dfi",
+      "state": "Sikkim",
+      "name": "Sikkim Industrial Development and Investment Corporation Limited (SIDICO)",
+      "summary": "SIDICO is named under the Sikkim government's Commerce and Industries Department, which carries a 'Public Sector Undertaking' link. It is seated in Gangtok, the state capital. No 2025 or 2026 results, disinvestment, merger, revival or CAG finding for it was locatable in accessible official sources, so its current PSU listing verified on 2026-09-24 is used as the latest trace.",
+      "date": "2026-09-24",
+      "district": "Gangtok",
+      "headquarters": "Gangtok, Sikkim (presumed; specific address not verified)",
+      "state_link": "Named under Commerce and Industries Department with a 'Public Sector Undertaking' link on sikkim.gov.in",
+      "owner": "State government (Sikkim)",
+      "administrative": "Commerce and Industries Department, Government of Sikkim",
+      "legal_form": "Government company",
+      "status": "Operating",
+      "detail": [
+        "The official Commerce and Industries Department page names SIDICO among the department's achievements and carries a 'Public Sector Undertaking' link (source: sikkim.gov.in department page, verified 2026-09-24).",
+        "The Wikipedia page for Prem Das Rai states he was 'Chairman of Sikkim Industrial Development and Investment Corporation Limited (SIDICO)' (source: en.wikipedia.org/wiki/Prem_Das_Rai).",
+        "Gangtok is the state capital and the headquarters of Gangtok district (sources: Sikkim page; Gangtok district page), which is why the state-level PSU is placed at Gangtok; its street address and incorporation year could not be confirmed in accessible excerpts.",
+        "The only dated portfolio item visible on the state portal in the window was a Power Department general notification dated 23-09-2026; no dated SIDICO results, decisions or findings were visible (source: sikkim.gov.in homepage, 2026-09-24)."
+      ],
+      "caveats": "Shareholding percentages, FY revenue/profit, employee count, incorporation year and any 2025-2026 results, disinvestment, merger, revival, CAG finding or new-unit decision for SIDICO could not be confirmed in accessible official sources (DPE survey, MCA, CAG and company pages were blocked or returned no Sikkim excerpt); financials, employees, shareholding and established left null. Headquarters street address not verified beyond Gangtok as seat of government. No opinion on sale or closure.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://sikkim.gov.in/departments/commerce-and-industries-department",
+          "kind": "government_order",
+          "publisher": "Government of Sikkim",
+          "date": null,
+          "supports": "SIDICO named under Commerce and Industries Department; Public Sector Undertaking label"
+        },
+        {
+          "url": "https://sikkim.gov.in/",
+          "kind": "government_order",
+          "publisher": "Government of Sikkim",
+          "date": "2026-09-24",
+          "supports": "portal verification date; Power Department notification dated 23-09-2026; department list"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Transport_in_Sikkim",
+          "kind": "news",
+          "publisher": "Wikipedia (tertiary cross-check)",
+          "date": null,
+          "supports": "Gangtok is Sikkim's capital"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Gangtok_district",
+          "kind": "news",
+          "publisher": "Wikipedia (tertiary cross-check)",
+          "date": null,
+          "supports": "Gangtok district headquarters is Gangtok"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-sk-0006",
+      "category": "departmental",
+      "state": "Sikkim",
+      "name": "Sikkim Nationalised Transport (SNT)",
+      "summary": "SNT is the road-transport business run directly by Sikkim's Transport Department, with headquarters at Yatayath Bhavan in Gangtok. It was introduced in 1944 as Sikkim State Transport and renamed the Sikkim Nationalised Transport Department in 1955. It continues to run bus and truck services with three depots in Sikkim and one in Siliguri, West Bengal.",
+      "date": "2026-09-24",
+      "district": "Gangtok",
+      "headquarters": "Yatayath Bhavan, Below Manan Bhawan, Gangtok, Sikkim 737101",
+      "state_link": "Directly administered by the Government of Sikkim through its Transport Department; headquarters at Yatayat Bhavan, Gangtok",
+      "owner": "State government (Sikkim)",
+      "administrative": "Transport Department, Government of Sikkim",
+      "legal_form": "Departmental undertaking",
+      "established": "1944 as Sikkim State Transport; renamed Sikkim Nationalised Transport Department in 1955",
+      "status": "Operating",
+      "detail": [
+        "The official Transport Department page states vehicular transportation was introduced in 1944 as Sikkim State Transport and subsequently renamed the Sikkim Nationalised Transport Department in 1955, and that the Motor Vehicle Division is a constituent part of the Transport Department (source: sikkim.gov.in transport department page).",
+        "The same official page gives the address as Yatayath Bhavan, Below Manan Bhawan, Gangtok, Sikkim 737101 (source: sikkim.gov.in transport department page).",
+        "SNT is directly administered by the Sikkim government and headquartered at Yatayat Bhavan in Gangtok, unlike other states' transports, and operates four depots total (three in Sikkim: Gangtok, Rangpo, Jorethang; one in Siliguri, West Bengal) for passengers, fuel and goods (source: Sikkim Nationalised Transport page, cross-checked 2026-09-24).",
+        "Sikkim Nationalised Transport runs bus and truck services, and Gangtok is the state capital in Gangtok district (sources: Sikkim and Transport in Sikkim pages; Gangtok district page)."
+      ],
+      "caveats": "No dated 2025 or 2026 SNT results, fare/order decision, CAG finding or fleet-induction item was locatable in accessible official sources, so the verification date 2026-09-24 is used; revenue, profit, employee count and shareholding left null. Exact day/month of the 1955 renaming not verified. No opinion on sale or closure.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://sikkim.gov.in/departments/transport-department",
+          "kind": "government_order",
+          "publisher": "Government of Sikkim",
+          "date": null,
+          "supports": "1944 introduction; 1955 renaming as department; constituent of Transport Department; Yatayat Bhavan Gangtok 737101 address"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Sikkim_Nationalised_Transport",
+          "kind": "news",
+          "publisher": "Wikipedia (tertiary cross-check)",
+          "date": null,
+          "supports": "directly administered by Sikkim government; HQ Yatayat Bhavan Gangtok; four depots; departmental character"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Gangtok_district",
+          "kind": "news",
+          "publisher": "Wikipedia (tertiary cross-check)",
+          "date": null,
+          "supports": "Gangtok district headquarters is Gangtok"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Northeast_Frontier_Railway_zone",
+          "kind": "news",
+          "publisher": "Wikipedia (tertiary cross-check)",
+          "date": null,
+          "supports": "rail jurisdiction over Sikkim sits at Maligaon, Guwahati, not Sikkim"
         }
       ],
       "verification": "V2"

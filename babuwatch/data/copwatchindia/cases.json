@@ -217073,5 +217073,2086 @@
   "merged_case_id": "cop-gj-hc-7",
   "officers_named_public": 0,
   "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0076",
+  "status": "current",
+  "merged_id": "CWC-1353",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs State of Bihar ([name withheld] disappearance case)",
+  "display_title_redacted": "[name withheld] vs State of Bihar ([name withheld] disappearance case)",
+  "state": "Bihar",
+  "district": "Bhojpur",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Excise Police, Bihiya Police Station",
+  "court": "Patna High Court",
+  "court_as_verified": "Patna High Court",
+  "bench": null,
+  "case_title": "[name withheld] vs State of Bihar ([name withheld] disappearance case)",
+  "case_number": "Habeas Corpus Petition (CBI transfer order)",
+  "citation": null,
+  "judges": [
+   "Rajeev Ranjan Prasad",
+   "Alok Kumar Sinha"
+  ],
+  "judgment_date": "2026-08-07",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2025-08-13",
+  "incident_year": 2025,
+  "category": "Custodial torture",
+  "admin_category": "brutality",
+  "admin_subcategory": "custodial_torture",
+  "subcategory": "custodial_torture",
+  "subcategory_display": "custodial torture",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Sub-Inspector",
+    "role": "named_in_finding",
+    "unit": "Excise Police, Bihiya",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Sub-Inspector, Excise Police, Bihiya"
+   },
+   {
+    "name": null,
+    "rank": "Assistant Sub-Inspector",
+    "role": "named_in_finding",
+    "unit": "Excise Police, Bihiya",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Assistant Sub-Inspector, Excise Police, Bihiya"
+   },
+   {
+    "name": null,
+    "rank": "Home Guards",
+    "role": "named_in_finding",
+    "unit": "Excise Police, Bihiya",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Home Guards, Excise Police, Bihiya"
+   },
+   {
+    "name": null,
+    "rank": "Drivers",
+    "role": "named_in_finding",
+    "unit": "Excise Police, Bihiya",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Drivers, Excise Police, Bihiya"
+   }
+  ],
+  "officer_count": 4,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://www.thehindu.com/news/national/bihar/patna-high-court-transfers-habeas-corpus-case-to-cbi-citing-police-inaction/article71325085.ece",
+  "secondary_sources": [
+   "https://www.indiatoday.in/india/law-news/story/patna-high-court-orders-cbi-probe-into-sanoj-kumar-disappearance-after-excise-detention-ptag-2967149-2026-08-09",
+   "https://origin-pre-prod.hindustantimes.com/cities/patna-news/patna-hc-orders-cbi-probe-into-disappearance-of-man-from-police-detention-101786276360552.html"
+  ],
+  "summary": "The Patna High Court transferred investigation of [name withheld]'s disappearance to CBI, citing police inaction and bias. [name withheld] was allegedly detained by Excise Police officials on 13 August 2025, brutally assaulted, and disappeared. The Court found 'inaction writ large' and that 'the very credibility of the State investigating agency is at stake' because Excise Police officials were involved and allegedly influenced the investigation.",
+  "summary_verified": "The Patna High Court transferred investigation of [name withheld]'s disappearance to CBI, citing police inaction and bias. [name withheld] was allegedly detained by Excise Police officials on 13 August 2025, brutally assaulted, and disappeared. The Court found 'inaction writ large' and that 'the very credibility of the State investigating agency is at stake' because Excise Police officials were involved and allegedly influenced the investigation.",
+  "court_quote": "On going through the entire materials available on the record, this Court has no iota of doubt that since lodging of the FIR, the State investigating agency did not show any urgency to investigate the matter. This Court is, therefore, of the considered opinion that in this case, the very credibility of the State investigating agency is at stake.",
+  "court_quote_para": "Order paragraph on inaction",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Primary thehindu.com source and India Today/Hindustan Times secondaries were network-blocked; all claims verified against the actual order on Indian Kanoon ([name withheld] vs State of Bihar, CR. WJC No. 1029 of 2026, 07-08-2026, Rajeev Ranjan Prasad & Alok Kumar Sinha): CBI investigation transferred, police inaction/bias found (paras 22-23), quote verbatim (para 23); Excise Police SIs/ASI/Home Guards/drivers, Bihiya, 13.08.2025 all match",
+  "verification_status": "V1",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Custodial torture",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-08-07",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "Patna High Court",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The Patna High Court recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "Habeas Corpus Petition (CBI transfer order)",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://www.thehindu.com/news/national/bihar/patna-high-court-transfers-habeas-corpus-case-to-cbi-citing-police-inaction/article71325085.ece",
+    "link_checked": null
+   },
+   {
+    "url": "https://www.indiatoday.in/india/law-news/story/patna-high-court-orders-cbi-probe-into-sanoj-kumar-disappearance-after-excise-detention-ptag-2967149-2026-08-09",
+    "link_checked": null
+   },
+   {
+    "url": "https://origin-pre-prod.hindustantimes.com/cities/patna-news/patna-hc-orders-cbi-probe-into-disappearance-of-man-from-police-detention-101786276360552.html",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-br-hc"
+  ],
+  "merged_case_id": "cop-br-hc-1",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0077",
+  "status": "current",
+  "merged_id": "CWC-1354",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs State of Bihar through Director General of Police",
+  "display_title_redacted": "[name withheld] vs State of Bihar through Director General of Police",
+  "state": "Bihar",
+  "district": "Buxar",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Murar Police Station",
+  "court": "Patna High Court",
+  "court_as_verified": "Patna High Court",
+  "bench": null,
+  "case_title": "[name withheld] vs State of Bihar through Director General of Police",
+  "case_number": "CR. WJC No. 2515 of 2024",
+  "citation": null,
+  "judges": [
+   "Jitendra Kumar"
+  ],
+  "judgment_date": "2026-06-16",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2024-07-04",
+  "incident_year": 2024,
+  "category": "Custodial torture",
+  "admin_category": "brutality",
+  "admin_subcategory": "custodial_torture",
+  "subcategory": "custodial_torture",
+  "subcategory_display": "custodial torture",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Section 197 CrPC / Section 218 BNSS (sanction not required)"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Station House Officer (former)",
+    "role": "held_liable",
+    "unit": "Murar Police Station, Buxar",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Station House Officer (former), Murar Police Station, Buxar"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/125628724/",
+  "secondary_sources": [
+   "https://timesofindia.indiatimes.com/legal/news/court-warns-unchecked-police-brutality-could-turn-force-like-nazi-germany-orders-fir-against-cop-who-broke-mans-legs/articleshow/131874146.cms",
+   "https://www.newindianexpress.com/states/bihar/2026/Jul/22/nazi-style-policing-comes-under-bashing",
+   "https://www.verdictum.in/patna-high-court/manish-kumar-v-the-state-of-bihar-alleged-police-brutality-police-registration-sho-1616409"
+  ],
+  "summary": "The Patna High Court directed registration of FIR against the former SHO of Murar Police Station for brutally assaulting [name withheld] and breaking both his legs on 4 July 2024. The Court held that a brutal assault by a police officer on a citizen is not part of official duty, so no prior sanction under Section 197 CrPC is required. The Court rejected the police claim that the victim slipped in rain, relying on X-ray reports. The investigation was ordered to be transferred to CID, and the DGP was directed to submit a compliance report within 30 days.",
+  "summary_verified": "The Patna High Court directed registration of FIR against the former SHO of Murar Police Station for brutally assaulting [name withheld] and breaking both his legs on 4 July 2024. The Court held that a brutal assault by a police officer on a citizen is not part of official duty, so no prior sanction under Section 197 CrPC is required. The Court rejected the police claim that the victim slipped in rain, relying on X-ray reports. The investigation was ordered to be transferred to CID, and the DGP was directed to submit a compliance report within 30 days.",
+  "court_quote": "Moreover, for prosecution of the accused, who happened to be a police officer, does not require even sanction under Section 197 Cr.PC/ 218 B.N.S.S. because such brutal act on the part of the police officer against a poor man is not a part of his official duty.",
+  "court_quote_para": "Paragraph 6",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Summary names an individual police officer ([name withheld]); the register must not name officers in any field (officers are tracked by rank/unit/role only) - name removed; All other facts verified correct: CR. WJC 2515/2024, Justice Jitendra Kumar, 16-06-2026, Murar PS Buxar, 04.07.2024 assault, no sanction under 197 CrPC/218 BNSS, X-ray relied on, CID investigation, DGP compliance report within 30 days, quote verbatim",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Custodial torture",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-06-16",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "Patna High Court",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The Patna High Court recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "CR. WJC No. 2515 of 2024",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/125628724/",
+    "link_checked": null
+   },
+   {
+    "url": "https://timesofindia.indiatimes.com/legal/news/court-warns-unchecked-police-brutality-could-turn-force-like-nazi-germany-orders-fir-against-cop-who-broke-mans-legs/articleshow/131874146.cms",
+    "link_checked": null
+   },
+   {
+    "url": "https://www.newindianexpress.com/states/bihar/2026/Jul/22/nazi-style-policing-comes-under-bashing",
+    "link_checked": null
+   },
+   {
+    "url": "https://www.verdictum.in/patna-high-court/manish-kumar-v-the-state-of-bihar-alleged-police-brutality-police-registration-sho-1616409",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-br-hc"
+  ],
+  "merged_case_id": "cop-br-hc-2",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0067",
+  "status": "current",
+  "merged_id": "CWC-1355",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] @ [name withheld] vs State of Bihar through Principal Secretary (Home)",
+  "display_title_redacted": "[name withheld] @ [name withheld] vs State of Bihar through Principal Secretary (Home)",
+  "state": "Bihar",
+  "district": "Gaya",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Central Jail, Gaya; Sarbahda Police Station",
+  "court": "Patna High Court",
+  "court_as_verified": "Patna High Court",
+  "bench": null,
+  "case_title": "[name withheld] @ [name withheld] vs State of Bihar through Principal Secretary (Home)",
+  "case_number": "CR. WJC No. 2761 of 2025",
+  "citation": null,
+  "judges": [
+   "Rajeev Ranjan Prasad",
+   "Sourendra Pandey"
+  ],
+  "judgment_date": "2025-11-13",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": "2025-09-29",
+  "incident_year": 2025,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "illegal_detention_false_imprisonment",
+  "subcategory": "illegal_detention_false_imprisonment",
+  "subcategory_display": "illegal detention false imprisonment",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Article 21 Constitution of India"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Jail Superintendent",
+    "role": "held_liable",
+    "unit": "Central Jail, Gaya",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Jail Superintendent, Central Jail, Gaya"
+   },
+   {
+    "name": null,
+    "rank": "Deputy Jailor",
+    "role": "named_in_finding",
+    "unit": "Central Jail, Gaya",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Deputy Jailor, Central Jail, Gaya"
+   },
+   {
+    "name": null,
+    "rank": "Senior Superintendent of Police",
+    "role": "named_in_finding",
+    "unit": "Gaya",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Senior Superintendent of Police, Gaya"
+   }
+  ],
+  "officer_count": 3,
+  "victims": [
+   {
+    "name": "[name withheld] @ [name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": "compensation_only",
+  "sentence_max_years": null,
+  "compensation_inr": 200000,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/189081861/",
+  "secondary_sources": [
+   "https://www.sabrangindia.in/six-days-behind-bars-after-bail-patna-high-court-orders-%E2%82%B92-lakh-relief-flags-state-wide-pattern-of-illegal-detention"
+  ],
+  "summary": "The Patna High Court awarded Rs 2 lakh compensation to [name withheld] for illegal detention of 5-18 days after his bail release on 29 September 2025. The Jail Superintendent kept him confined without any authorized detention order after a production warrant had expired. The IG Prisons admitted 'illegal detention for at least five days'. The Court held the detention violated Article 21, directed recovery of compensation from the erring official, and ordered the IG Prisons to issue state-wide guidelines to all Jail Superintendents within two weeks.",
+  "summary_verified": "The Patna High Court awarded Rs 2 lakh compensation to [name withheld] for illegal detention of 5-18 days after his bail release on 29 September 2025. The Jail Superintendent kept him confined without any authorized detention order after a production warrant had expired. The IG Prisons admitted 'illegal detention for at least five days'. The Court held the detention violated Article 21, directed recovery of compensation from the erring official, and ordered the IG Prisons to issue state-wide guidelines to all Jail Superintendents within two weeks.",
+  "court_quote": "This Court has no iota of doubt that in this case, the life and liberty of the petitioner has been curtailed to a great extent by keeping him in confinement for 18 days without any authorized detention order from a competent court of law. This Court is further disturbed from the fact that perhaps the same thing is happening as a matter of practice in the State of Bihar.",
+  "court_quote_para": "Paragraph 5",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Verified against the cited judgment.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-11-13",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "Patna High Court",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The Patna High Court recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "CR. WJC No. 2761 of 2025",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/189081861/",
+    "link_checked": null
+   },
+   {
+    "url": "https://www.sabrangindia.in/six-days-behind-bars-after-bail-patna-high-court-orders-%E2%82%B92-lakh-relief-flags-state-wide-pattern-of-illegal-detention",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-br-hc"
+  ],
+  "merged_case_id": "cop-br-hc-3",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0078",
+  "status": "current",
+  "merged_id": "CWC-1356",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs State of Chhattisgarh",
+  "display_title_redacted": "[name withheld] vs State of Chhattisgarh",
+  "state": "Chhattisgarh",
+  "district": "Mahasamund",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "District Jail, Mahasamund",
+  "court": "High Court of Chhattisgarh at Bilaspur",
+  "court_as_verified": "High Court of Chhattisgarh at Bilaspur",
+  "bench": null,
+  "case_title": "[name withheld] vs State of Chhattisgarh",
+  "case_number": "WPCR No. 1 of 2025",
+  "citation": "CGHC010003352025",
+  "judges": [
+   "[name withheld]",
+   "[name withheld]"
+  ],
+  "judgment_date": "2026-08-19",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": null,
+  "incident_year": null,
+  "category": "Custodial death",
+  "admin_category": "brutality",
+  "admin_subcategory": "custodial_death",
+  "subcategory": "custodial_death",
+  "subcategory_display": "custodial death",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Section 302 IPC"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Assistant Jail Superintendent",
+    "role": "named_in_finding",
+    "unit": "District Jail, Mahasamund",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Assistant Jail Superintendent, District Jail, Mahasamund"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": "[name withheld]'s father",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": "compensation_only",
+  "sentence_max_years": null,
+  "compensation_inr": 750000,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/55575265/",
+  "secondary_sources": [],
+  "summary": "The High Court took suo motu cognizance of a custodial death where an undertrial prisoner detained under Section 302 IPC died in District Jail, Mahasamund, with 35 injuries found on his body during postmortem. State counsel stated Rs 7,50,000 had already been paid on 20.09.2025 per Assistant Jail Superintendent letter dated 21.09.2025. The Court strongly criticized custodial violence as a blow to rule of law and directed the Chief Secretary and Director General of Police to file personal affidavits explaining the circumstances, listing the case on 31.08.2026.",
+  "summary_verified": "The High Court took suo motu cognizance of a custodial death where an undertrial prisoner detained under Section 302 IPC died in District Jail, Mahasamund, with 35 injuries found on his body during postmortem. State counsel stated Rs 7,50,000 had already been paid on 20.09.2025 per Assistant Jail Superintendent letter dated 21.09.2025. The Court strongly criticized custodial violence as a blow to rule of law and directed the Chief Secretary and Director General of Police to file personal affidavits explaining the circumstances, listing the case on 31.08.2026.",
+  "court_quote": "Custodial violence, including torture and death in the lock ups, strikes a blow at the Rule of Law, which demands that the powers of the executive should not only be derived from law but also that the same should be limited by law. Custodial violence is a matter of concern. It is aggravated by the fact that it is committed by persons who are supposed to be the protectors of the citizens.",
+  "court_quote_para": "Order Sheet, page 2/3",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "incident_date 2025-09-20 is the compensation payment date (paid on 20.09.2025 per letter dated 21.09.2025), not the custodial death date; death date not stated in order excerpt; sections includes Section 176 CrPC which does not appear in source excerpt; only Section 302 IPC verified; officers claims Jail Superintendent held_liable; source names only Assistant Jail Superintendent (re compensation letter) and directs Chief Secretary and DGP to file personal affidavits; no liability finding against a named officer yet, matter listed to 31.08.2026; outcome_type adverse_finding_compensation overstates: Rs 7,50,000 noted as already paid, not ordered as compensation by this order",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Custodial death",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-08-19",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Chhattisgarh at Bilaspur",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Chhattisgarh at Bilaspur recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "CGHC010003352025",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/55575265/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-ct-hc"
+  ],
+  "merged_case_id": "cop-ct-hc-0",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0079",
+  "status": "current",
+  "merged_id": "CWC-1357",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs State of Chhattisgarh",
+  "display_title_redacted": "[name withheld] vs State of Chhattisgarh",
+  "state": "Chhattisgarh",
+  "district": "Balodabazar-Bhatapara",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Police Station City Kotwali, Balodabazar",
+  "court": "High Court of Chhattisgarh at Bilaspur",
+  "court_as_verified": "High Court of Chhattisgarh at Bilaspur",
+  "bench": null,
+  "case_title": "[name withheld] vs State of Chhattisgarh",
+  "case_number": "CRMP No. 669 of 2026",
+  "citation": "2026:CGHC:13121-DB",
+  "judges": [
+   "[name withheld]",
+   "[name withheld]"
+  ],
+  "judgment_date": "2026-03-19",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2025-04-29",
+  "incident_year": 2025,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "false_implication_fabrication",
+  "subcategory": "false_implication_fabrication",
+  "subcategory_display": "false implication fabrication",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Section 6 of Chhattisgarh Gambling (Prohibition) Act, 2022",
+   "Article 226 Constitution of India"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Head Constable",
+    "role": "named_in_finding",
+    "unit": "Police Station City Kotwali, Balodabazar",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Head Constable, Police Station City Kotwali, Balodabazar"
+   },
+   {
+    "name": null,
+    "rank": "Investigating Officer",
+    "role": "named_in_finding",
+    "unit": "Police Station City Kotwali, Balodabazar",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Investigating Officer, Police Station City Kotwali, Balodabazar"
+   }
+  ],
+  "officer_count": 2,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/121601686/",
+  "secondary_sources": [],
+  "summary": "The High Court quashed FIR No. 0425/2025 dated 29.04.2025 and chargesheet No. 453/2025 under Section 6 of Chhattisgarh Gambling (Prohibition) Act, 2022 against the petitioner, finding he was implicated solely on the custodial memorandum statement of co-accused [name withheld] recorded at 10:30 hours before the petitioner's arrest shown at 11:00 hours on 01.05.2025, with no recovery from petitioner. The Court held it indicates a mala fide exercise of power and abuse of process, noting prior clean acquittals, externment proceedings rejected, and a prior FIR quashed vide order dated 06.08.2025 in CRMP No. 1024/2022.",
+  "summary_verified": "The High Court quashed FIR No. 0425/2025 dated 29.04.2025 and chargesheet No. 453/2025 under Section 6 of Chhattisgarh Gambling (Prohibition) Act, 2022 against the petitioner, finding he was implicated solely on the custodial memorandum statement of co-accused [name withheld] recorded at 10:30 hours before the petitioner's arrest shown at 11:00 hours on 01.05.2025, with no recovery from petitioner. The Court held it indicates a mala fide exercise of power and abuse of process, noting prior clean acquittals, externment proceedings rejected, and a prior FIR quashed vide order dated 06.08.2025 in CRMP No. 1024/2022.",
+  "court_quote": "The undisputed position which emerges from the record is that the present petitioner has been implicated in the crime in question solely on the basis of the memorandum statement of co-accused, namely [name withheld], recorded during police custody. It is well-settled that a memorandum or confessional statement of a co-accused, by itself, does not constitute substantive evidence and cannot be made the sole basis for implicating another accused.",
+  "court_quote_para": "Paragraph 15-16",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "sections lists Section 482 CrPC; source excerpt cites Section 6 of Chhattisgarh Gambling (Prohibition) Act 2022 with Article 226, Section 262 BNSS / Section 482 (BNSS era), not 482 CrPC; officers lists generic Head Constable + Investigating Officer; source names one Head Constable by personal name (correctly redacted in data) and otherwise refers to investigating agency generally with mala fide finding",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-03-19",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Chhattisgarh at Bilaspur",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Chhattisgarh at Bilaspur recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2026:CGHC:13121-DB",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/121601686/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-ct-hc"
+  ],
+  "merged_case_id": "cop-ct-hc-1",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0080",
+  "status": "current",
+  "merged_id": "CWC-1358",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs State of Chhattisgarh",
+  "display_title_redacted": "[name withheld] vs State of Chhattisgarh",
+  "state": "Chhattisgarh",
+  "district": "Durg",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Police Chowki Smriti Nagar, PS Supela",
+  "court": "High Court of Chhattisgarh at Bilaspur",
+  "court_as_verified": "High Court of Chhattisgarh at Bilaspur",
+  "bench": null,
+  "case_title": "[name withheld] vs State of Chhattisgarh",
+  "case_number": "WPCR No. 11 of 2026",
+  "citation": "2026:CGHC:3546-DB",
+  "judges": [
+   "[name withheld]",
+   "[name withheld]"
+  ],
+  "judgment_date": "2026-01-21",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2025-10-22",
+  "incident_year": 2025,
+  "category": "Custodial torture",
+  "admin_category": "brutality",
+  "admin_subcategory": "custodial_torture",
+  "subcategory": "custodial_torture",
+  "subcategory_display": "custodial torture",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Article 21 Constitution of India",
+   "Article 22 Constitution of India",
+   "Arnesh Kumar v State of Bihar",
+   "Satender Kumar Antil v CBI",
+   "D.K. Basu v State of West Bengal",
+   "Section 35 BNSS",
+   "Section 187 BNSS"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "SHO",
+    "role": "named_in_finding",
+    "unit": "Police Chowki Smriti Nagar, PS Supela, Durg",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "SHO, Police Chowki Smriti Nagar, PS Supela, Durg"
+   },
+   {
+    "name": null,
+    "rank": "CSP",
+    "role": "named_in_finding",
+    "unit": "PS Supela, Durg",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "CSP, PS Supela, Durg"
+   },
+   {
+    "name": null,
+    "rank": "ASI",
+    "role": "named_in_finding",
+    "unit": "Police Chowki Smriti Nagar, PS Supela, Durg",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "ASI, Police Chowki Smriti Nagar, PS Supela, Durg"
+   },
+   {
+    "name": null,
+    "rank": "Head Constable",
+    "role": "named_in_finding",
+    "unit": "Police Chowki Smriti Nagar, PS Supela, Durg",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Head Constable, Police Chowki Smriti Nagar, PS Supela, Durg"
+   },
+   {
+    "name": null,
+    "rank": "Head Constable",
+    "role": "named_in_finding",
+    "unit": "Police Chowki Smriti Nagar, PS Supela, Durg",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Head Constable, Police Chowki Smriti Nagar, PS Supela, Durg"
+   },
+   {
+    "name": null,
+    "rank": "Constable",
+    "role": "named_in_finding",
+    "unit": "Police Chowki Smriti Nagar, PS Supela, Durg",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Constable, Police Chowki Smriti Nagar, PS Supela, Durg"
+   },
+   {
+    "name": null,
+    "rank": "Constable",
+    "role": "named_in_finding",
+    "unit": "Police Chowki Smriti Nagar, PS Supela, Durg",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Constable, Police Chowki Smriti Nagar, PS Supela, Durg"
+   }
+  ],
+  "officer_count": 7,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   },
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   },
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   },
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   },
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 5,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/144541158/",
+  "secondary_sources": [],
+  "summary": "The High Court found serious procedural lapses and irregularities by police officials at Smriti Nagar Chowki, Durg. The petitioners were illegally detained, subjected to physical and mental torture, handcuffed illegally, paraded on public roads, and forced to shout humiliating slogans. The SHO appeared unauthorizedly during bail proceedings, prompting adverse judicial observations. The Court directed the DGP to examine the SHO's conduct, take disciplinary measures if warranted, issue standing instructions to all units against deviation from constitutional safeguards, and sensitize police personnel on Arnesh Kumar, Satender Kumar Antil, and D.K. Basu guidelines.",
+  "summary_verified": "The High Court found serious procedural lapses and irregularities by police officials at Smriti Nagar Chowki, Durg. The petitioners were illegally detained, subjected to physical and mental torture, handcuffed illegally, paraded on public roads, and forced to shout humiliating slogans. The SHO appeared unauthorizedly during bail proceedings, prompting adverse judicial observations. The Court directed the DGP to examine the SHO's conduct, take disciplinary measures if warranted, issue standing instructions to all units against deviation from constitutional safeguards, and sensitize police personnel on Arnesh Kumar, Satender Kumar Antil, and D.K. Basu guidelines.",
+  "court_quote": "This Court records its serious concern and strong disapproval of the manner in which respondent No.2, Station House Officer, Police Chowki Smriti Nagar, Police Station Supela, District Durg (C.G.), appears to have acted, revealing a casual and hasty approach in the exercise of police powers, in clear disregard of the constitutional safeguards and procedural mandates governing arrest, detention and treatment of citizens.",
+  "court_quote_para": "Paragraph 31",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "court_quote.text names a police officer by personal name (Shri [name withheld] Sidhu) in violation of privacy rule requiring redaction of officer names in any field; rank/unit verification otherwise matches respondents 2-8",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Custodial torture",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-01-21",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Chhattisgarh at Bilaspur",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Chhattisgarh at Bilaspur recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2026:CGHC:3546-DB",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/144541158/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-ct-hc"
+  ],
+  "merged_case_id": "cop-ct-hc-2",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0081",
+  "status": "current",
+  "merged_id": "CWC-1359",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs The State Of Jharkhand",
+  "display_title_redacted": "[name withheld] vs The State Of Jharkhand",
+  "state": "Jharkhand",
+  "district": null,
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Jharkhand Armed Police",
+  "court": "High Court of Jharkhand at Ranchi",
+  "court_as_verified": "High Court of Jharkhand at Ranchi",
+  "bench": null,
+  "case_title": "[name withheld] vs The State Of Jharkhand",
+  "case_number": "W.P.(S) No. 1702 of 2026",
+  "citation": "2026:JHHC:7904",
+  "judges": [
+   "Ananda Sen"
+  ],
+  "judgment_date": "2026-03-18",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": null,
+  "incident_year": null,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "other",
+  "subcategory": "other",
+  "subcategory_display": "other",
+  "protest_override_heuristic": false,
+  "outcome_type": "disciplinary_upheld",
+  "sections": [],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Constable",
+    "role": "held_liable",
+    "unit": "Jharkhand Armed Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Constable, Jharkhand Armed Police"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 0,
+  "sentence_type": "imprisonment",
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/34982875/",
+  "secondary_sources": [],
+  "summary": "The High Court held that the constable had suppressed a pending criminal case when entering police service. The High Court held that a later acquittal in October 2025 did not automatically undo a dismissal founded on suppression of material facts. The High Court held that there was a distinction between dismissal for a criminal charge and dismissal for suppression. The High Court dismissed the writ petition and kept the removal in place.",
+  "summary_verified": "The High Court held that the constable had suppressed a pending criminal case when entering police service. The High Court held that a later acquittal in October 2025 did not automatically undo a dismissal founded on suppression of material facts. The High Court held that there was a distinction between dismissal for a criminal charge and dismissal for suppression. The High Court dismissed the writ petition and kept the removal in place.",
+  "court_quote": "He was dismissed on the charge that he has suppressed the pendency of criminal case.",
+  "court_quote_para": "operative findings paragraph",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Penalty misstated: judgment uses 'dismissal' (order dated 08.08.2019), not 'removal from service'.; Quoted sentence is not verbatim: the recorded text is only a clause inside a longer sentence in para 6, not a standalone sentence; the verified verbatim sentence is 'He was dismissed on the charge that he has suppressed the pendency of criminal case.' (para 7).; Appeal upheld 29.03.2020 and revision 19.11.2020 (judgment also shows 09.11.2020 in one para) — dates otherwise confirmed.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-03-18",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Jharkhand at Ranchi",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Jharkhand at Ranchi recorded adverse findings against police personnel.",
+    "disposition": "disciplinary upheld",
+    "source": "2026:JHHC:7904",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/34982875/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-jh-hc"
+  ],
+  "merged_case_id": "cop-jh-hc-0",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0082",
+  "status": "current",
+  "merged_id": "CWC-1360",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] (Constable No. 898) vs State Of Jharkhand",
+  "display_title_redacted": "[name withheld] (Constable No. 898) vs State Of Jharkhand",
+  "state": "Jharkhand",
+  "district": null,
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Bagbera police station",
+  "court": "High Court of Jharkhand at Ranchi",
+  "court_as_verified": "High Court of Jharkhand at Ranchi",
+  "bench": null,
+  "case_title": "[name withheld] (Constable No. 898) vs State Of Jharkhand",
+  "case_number": "W.P.(S) No. 2136 of 2023",
+  "citation": null,
+  "judges": [
+   "Ananda Sen"
+  ],
+  "judgment_date": "2026-02-18",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": null,
+  "incident_year": null,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "other",
+  "subcategory": "other",
+  "subcategory_display": "other",
+  "protest_override_heuristic": false,
+  "outcome_type": "disciplinary_upheld",
+  "sections": [],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Constable",
+    "role": "held_liable",
+    "unit": "Bagbera police station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Constable, Bagbera police station"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 0,
+  "sentence_type": "imprisonment",
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/25925037/",
+  "secondary_sources": [],
+  "summary": "The High Court held that the constable deputed for treasure escort duty had left his rifle in the guardroom and remained absent. The High Court held that opportunity was given to participate in the departmental enquiry but the constable did not appear. The High Court held that a delayed appeal filed after sixteen years gave no ground to interfere. The High Court dismissed the writ petition and upheld the removal.",
+  "summary_verified": "The High Court held that the constable deputed for treasure escort duty had left his rifle in the guardroom and remained absent. The High Court held that opportunity was given to participate in the departmental enquiry but the constable did not appear. The High Court held that a delayed appeal filed after sixteen years gave no ground to interfere. The High Court dismissed the writ petition and upheld the removal.",
+  "court_quote": "Opportunity was given to the petitioner but he did not appear before the Enquiry Committee.",
+  "court_quote_para": "operative findings paragraph",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "None; all claims verified. Neutral citation 2026:JHHC:5100 exists and could be added (record shows null).",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-02-18",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Jharkhand at Ranchi",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Jharkhand at Ranchi recorded adverse findings against police personnel.",
+    "disposition": "disciplinary upheld",
+    "source": "W.P.(S) No. 2136 of 2023",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/25925037/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-jh-hc"
+  ],
+  "merged_case_id": "cop-jh-hc-1",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0083",
+  "status": "current",
+  "merged_id": "CWC-1361",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs The State Of Jharkhand",
+  "display_title_redacted": "[name withheld] vs The State Of Jharkhand",
+  "state": "Jharkhand",
+  "district": null,
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Not stated",
+  "court": "High Court of Jharkhand at Ranchi",
+  "court_as_verified": "High Court of Jharkhand at Ranchi",
+  "bench": null,
+  "case_title": "[name withheld] vs The State Of Jharkhand",
+  "case_number": "W.P.(S) No. 5503 of 2022",
+  "citation": null,
+  "judges": [
+   "Ananda Sen"
+  ],
+  "judgment_date": "2026-01-13",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2012-12-06",
+  "incident_year": 2012,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "other",
+  "subcategory": "other",
+  "subcategory_display": "other",
+  "protest_override_heuristic": false,
+  "outcome_type": "disciplinary_upheld",
+  "sections": [],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Constable",
+    "role": "held_liable",
+    "unit": "State police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Constable, State police"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 0,
+  "sentence_type": "imprisonment",
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/66086257/",
+  "secondary_sources": [],
+  "summary": "The High Court held that the police constable absented himself from duty from 06.12.2012 and ignored notices and enquiry proceedings. The High Court held that the departmental finding of prolonged unauthorized absence stood established ex parte. The High Court held that removal was fitting for a uniformed staffer and no violation of natural justice was shown. The High Court dismissed the writ petition.",
+  "summary_verified": "The High Court held that the police constable absented himself from duty from 06.12.2012 and ignored notices and enquiry proceedings. The High Court held that the departmental finding of prolonged unauthorized absence stood established ex parte. The High Court held that removal was fitting for a uniformed staffer and no violation of natural justice was shown. The High Court dismissed the writ petition.",
+  "court_quote": "this writ petition stands dismissed.",
+  "court_quote_para": "final paragraph",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "None; all claims verified. Neutral citation 2026:JHHC:858 exists and could be added (record shows null).",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-01-13",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Jharkhand at Ranchi",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Jharkhand at Ranchi recorded adverse findings against police personnel.",
+    "disposition": "disciplinary upheld",
+    "source": "W.P.(S) No. 5503 of 2022",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/66086257/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-jh-hc"
+  ],
+  "merged_case_id": "cop-jh-hc-2",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0084",
+  "status": "current",
+  "merged_id": "CWC-1362",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs The State Of Jharkhand",
+  "display_title_redacted": "[name withheld] vs The State Of Jharkhand",
+  "state": "Jharkhand",
+  "district": "Dhanbad",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Dhanbad district police",
+  "court": "High Court of Jharkhand at Ranchi",
+  "court_as_verified": "High Court of Jharkhand at Ranchi",
+  "bench": null,
+  "case_title": "[name withheld] vs The State Of Jharkhand",
+  "case_number": "L.P.A No. 303 of 2024",
+  "citation": "2026:JHHC:96-DB",
+  "judges": [
+   "Sujit Narayan Prasad",
+   "Rajesh Kumar"
+  ],
+  "judgment_date": "2026-01-05",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2013-07-29",
+  "incident_year": 2013,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "other",
+  "subcategory": "other",
+  "subcategory_display": "other",
+  "protest_override_heuristic": false,
+  "outcome_type": "disciplinary_upheld",
+  "sections": [],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Constable",
+    "role": "held_liable",
+    "unit": "Dhanbad district police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Constable, Dhanbad district police"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 0,
+  "sentence_type": "imprisonment",
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/196899833/",
+  "secondary_sources": [],
+  "summary": "The High Court held that the constable had fired 11 rounds in the air from his service AK-47 rifle on 29.07.2013. The High Court held that indiscipline and carelessness with a service weapon justified disciplinary action despite a plea of mental imbalance and insomnia. The High Court held that conversion of removal into compulsory retirement needed no interference. The Division Bench dismissed the appeal, affirming the Single Judge order dated 16.02.2024.",
+  "summary_verified": "The High Court held that the constable had fired 11 rounds in the air from his service AK-47 rifle on 29.07.2013. The High Court held that indiscipline and carelessness with a service weapon justified disciplinary action despite a plea of mental imbalance and insomnia. The High Court held that conversion of removal into compulsory retirement needed no interference. The Division Bench dismissed the appeal, affirming the Single Judge order dated 16.02.2024.",
+  "court_quote": "the present appeal fails and is, accordingly, dismissed.",
+  "court_quote_para": "final paragraph",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "None; all claims verified including firing of 11 rounds from AK-47 on 29.07.2013, converted penalty, and final order.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-01-05",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Jharkhand at Ranchi",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Jharkhand at Ranchi recorded adverse findings against police personnel.",
+    "disposition": "disciplinary upheld",
+    "source": "2026:JHHC:96-DB",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/196899833/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-jh-hc"
+  ],
+  "merged_case_id": "cop-jh-hc-3",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0068",
+  "status": "current",
+  "merged_id": "CWC-1363",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs The State Of Jharkhand",
+  "display_title_redacted": "[name withheld] vs The State Of Jharkhand",
+  "state": "Jharkhand",
+  "district": null,
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "State police; petitioner described as Secretary of Police Men's Association",
+  "court": "High Court of Jharkhand at Ranchi",
+  "court_as_verified": "High Court of Jharkhand at Ranchi",
+  "bench": null,
+  "case_title": "[name withheld] vs The State Of Jharkhand",
+  "case_number": "W.P.(S) No. 1637 of 2018",
+  "citation": null,
+  "judges": [
+   "Deepak Roshan"
+  ],
+  "judgment_date": "2025-09-09",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": null,
+  "incident_year": null,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "other",
+  "subcategory": "other",
+  "subcategory_display": "other",
+  "protest_override_heuristic": false,
+  "outcome_type": "disciplinary_upheld",
+  "sections": [],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Not stated; uniformed member",
+    "role": "held_liable",
+    "unit": "State police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Not stated; uniformed member, State police"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 0,
+  "sentence_type": "imprisonment",
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/116509259/",
+  "secondary_sources": [],
+  "summary": "The High Court held that the uniformed staffer had joined a coordinated mass leave and incited colleagues while holding weaponry and shouting slogans. The High Court held that the compulsory retirement imposed after the departmental enquiry was supported by the record. The High Court held that an earlier writ (WPS No. 4872 of 2008) had already left the penalty undisturbed. The High Court dismissed the writ application.",
+  "summary_verified": "The High Court held that the uniformed staffer had joined a coordinated mass leave and incited colleagues while holding weaponry and shouting slogans. The High Court held that the compulsory retirement imposed after the departmental enquiry was supported by the record. The High Court held that an earlier writ (WPS No. 4872 of 2008) had already left the penalty undisturbed. The High Court dismissed the writ application.",
+  "court_quote": "instant application stands dismissed",
+  "court_quote_para": "final paragraph",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "None; all claims verified. Neutral citation 2025:JHHC:27410 exists and could be added (record shows null).",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-09-09",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Jharkhand at Ranchi",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Jharkhand at Ranchi recorded adverse findings against police personnel.",
+    "disposition": "disciplinary upheld",
+    "source": "W.P.(S) No. 1637 of 2018",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/116509259/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-jh-hc"
+  ],
+  "merged_case_id": "cop-jh-hc-4",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0069",
+  "status": "current",
+  "merged_id": "CWC-1364",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs The State Of Jharkhand",
+  "display_title_redacted": "[name withheld] vs The State Of Jharkhand",
+  "state": "Jharkhand",
+  "district": null,
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "JAP-6 Jamshedpur; rail unit Daltonganj",
+  "court": "High Court of Jharkhand at Ranchi",
+  "court_as_verified": "High Court of Jharkhand at Ranchi",
+  "bench": null,
+  "case_title": "[name withheld] vs The State Of Jharkhand",
+  "case_number": "W.P.(S) No. 779 of 2013",
+  "citation": "2025:JHHC:24800",
+  "judges": [
+   "Deepak Roshan"
+  ],
+  "judgment_date": "2025-08-19",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": "2007-08-24",
+  "incident_year": 2007,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "other",
+  "subcategory": "other",
+  "subcategory_display": "other",
+  "protest_override_heuristic": false,
+  "outcome_type": "disciplinary_upheld",
+  "sections": [],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Constable",
+    "role": "held_liable",
+    "unit": "JAP-6 Jamshedpur",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Constable, JAP-6 Jamshedpur"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 0,
+  "sentence_type": "imprisonment",
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/156852770/",
+  "secondary_sources": [],
+  "summary": "The High Court held that the constable reported for duty on 24.08.2007 in an intoxicated condition, abused staff, and fled from hospital during medical examination. The High Court held that the doctor's note of alcoholic smell with oral testimony corroborated the charge despite the absence of a blood test. The High Court held that a prior record of habitual misconduct supported the penalty. The High Court dismissed the writ application and denied reinstatement.",
+  "summary_verified": "The High Court held that the constable reported for duty on 24.08.2007 in an intoxicated condition, abused staff, and fled from hospital during medical examination. The High Court held that the doctor's note of alcoholic smell with oral testimony corroborated the charge despite the absence of a blood test. The High Court held that a prior record of habitual misconduct supported the penalty. The High Court dismissed the writ application and denied reinstatement.",
+  "court_quote": "no relief can be granted to the Petitioner",
+  "court_quote_para": "operative findings paragraph",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "None; all claims verified including intoxication incident of 24.08.2007, removal order dated 30.11.2007, and quoted sentence.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-08-19",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Jharkhand at Ranchi",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Jharkhand at Ranchi recorded adverse findings against police personnel.",
+    "disposition": "disciplinary upheld",
+    "source": "2025:JHHC:24800",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/156852770/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-jh-hc"
+  ],
+  "merged_case_id": "cop-jh-hc-5",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0070",
+  "status": "current",
+  "merged_id": "CWC-1365",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs The State Of Jharkhand",
+  "display_title_redacted": "[name withheld] vs The State Of Jharkhand",
+  "state": "Jharkhand",
+  "district": "Hazaribagh",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "JAP-7, Hazaribagh",
+  "court": "High Court of Jharkhand at Ranchi",
+  "court_as_verified": "High Court of Jharkhand at Ranchi",
+  "bench": null,
+  "case_title": "[name withheld] vs The State Of Jharkhand",
+  "case_number": "W.P.(S) No. 2580 of 2017",
+  "citation": null,
+  "judges": [
+   "Anubha Rawat Choudhary"
+  ],
+  "judgment_date": "2025-05-02",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": "2005-01-04",
+  "incident_year": 2005,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "other",
+  "subcategory": "other",
+  "subcategory_display": "other",
+  "protest_override_heuristic": false,
+  "outcome_type": "disciplinary_upheld",
+  "sections": [],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Armed police personnel",
+    "role": "held_liable",
+    "unit": "JAP-7, Hazaribagh",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Armed police personnel, JAP-7, Hazaribagh"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 0,
+  "sentence_type": "imprisonment",
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/4836846/",
+  "secondary_sources": [],
+  "summary": "The High Court held that the armed-police staffer declined assigned duty on 04.01.2005 and stayed away, with four prior penalties for overstay and absence on record. The High Court held that the case was one of refusal of duty rather than overstay of sanctioned leave. The High Court held that the delayed memorial under the Police Manual gave no ground to reopen the penalty. The High Court dismissed the writ petition.",
+  "summary_verified": "The High Court held that the armed-police staffer declined assigned duty on 04.01.2005 and stayed away, with four prior penalties for overstay and absence on record. The High Court held that the case was one of refusal of duty rather than overstay of sanctioned leave. The High Court held that the delayed memorial under the Police Manual gave no ground to reopen the penalty. The High Court dismissed the writ petition.",
+  "court_quote": "Consequently, this writ petition is dismissed.",
+  "court_quote_para": "final paragraph",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "None; all claims verified. Neutral citation 2025:JHHC:13275 exists and could be added (record shows null).",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-05-02",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Jharkhand at Ranchi",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Jharkhand at Ranchi recorded adverse findings against police personnel.",
+    "disposition": "disciplinary upheld",
+    "source": "W.P.(S) No. 2580 of 2017",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/4836846/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-jh-hc"
+  ],
+  "merged_case_id": "cop-jh-hc-6",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0085",
+  "status": "current",
+  "merged_id": "CWC-1366",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] v. State of Tripura & Ors. — Custodial torture of [name withheld] at East Agartala Police Station",
+  "display_title_redacted": "[name withheld] v. State of Tripura & Ors. — Custodial torture of [name withheld] at East Agartala Police Station",
+  "state": "Tripura",
+  "district": "West Tripura",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "East Agartala Police Station",
+  "court": "High Court of Tripura, Agartala",
+  "court_as_verified": "High Court of Tripura, Agartala",
+  "bench": null,
+  "case_title": "[name withheld] v. State of Tripura & Ors. — Custodial torture of [name withheld] at East Agartala Police Station",
+  "case_number": "W.P.(Crl.) No. 06 of 2026",
+  "citation": null,
+  "judges": [
+   "M.S. Ramachandra Rao, CJ",
+   "Biswajit Palit, J"
+  ],
+  "judgment_date": "2026-07-02",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2026-04-04",
+  "incident_year": 2026,
+  "category": "Custodial torture",
+  "admin_category": "brutality",
+  "admin_subcategory": "custodial_torture",
+  "subcategory": "custodial_torture",
+  "subcategory_display": "custodial torture",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Article 21",
+   "Arnesh Kumar guidelines",
+   "BNSS Section 35"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Sub-Inspector",
+    "role": "held_liable",
+    "unit": "East Agartala Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Sub-Inspector, East Agartala Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Officer-in-Charge",
+    "role": "named_in_finding",
+    "unit": "East Agartala Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Officer-in-Charge, East Agartala Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Assistant Sub-Inspector",
+    "role": "named_in_finding",
+    "unit": "East Agartala Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Assistant Sub-Inspector, East Agartala Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Constable",
+    "role": "named_in_finding",
+    "unit": "East Agartala Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Constable, East Agartala Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Constable",
+    "role": "named_in_finding",
+    "unit": "East Agartala Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Constable, East Agartala Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Special Police Officer",
+    "role": "named_in_finding",
+    "unit": "East Agartala Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Special Police Officer, East Agartala Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Special Police Officer",
+    "role": "named_in_finding",
+    "unit": "East Agartala Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Special Police Officer, East Agartala Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Officer-in-Charge",
+    "role": "named_in_finding",
+    "unit": "East Agartala Women Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Officer-in-Charge, East Agartala Women Police Station"
+   }
+  ],
+  "officer_count": 8,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   },
+   {
+    "name": "[name withheld]",
+    "gender": "female"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 2,
+  "sentence_type": "imprisonment",
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://www.livelaw.in/pdf_upload/2026/09/19/tripura-high-court-cctv-in-police-stations-701196.pdf",
+  "secondary_sources": [
+   "https://neherald.com/tripura/illegal-arrest-east-agartala-police-station-si-found-guilty-by-high-court",
+   "https://timesofindia.indiatimes.com/city/guwahati/tripura-suspends-8-policemen-after-hc-observation-in-custodial-torture-bribery-case/articleshow/131970803.cms",
+   "https://www.indiatodayne.in/tripura/story/tripura-hc-orders-strict-cctv-compliance-in-police-stations-after-custodial-assault-case-1452114-2026-09-17"
+  ],
+  "summary": "The High Court found that [name withheld] was illegally arrested and subjected to custodial torture at East Agartala Police Station on the intervening night of April 4-5, 2026, in the presence of police personnel. A Special Investigation Team constituted by the Court confirmed the allegations prima facie. The Division Bench held the arrest illegal, convicted the Sub-Inspector for contempt (illegal arrest) imposing a fine of Rs 2,000, and directed strict CCTV compliance in all police stations. Several police personnel were suspended and departmental proceedings initiated. The Court also ordered action against a Home Department official for filing a misleading affidavit denying the torture.",
+  "summary_verified": "The High Court found that [name withheld] was illegally arrested and subjected to custodial torture at East Agartala Police Station on the intervening night of April 4-5, 2026, in the presence of police personnel. A Special Investigation Team constituted by the Court confirmed the allegations prima facie. The Division Bench held the arrest illegal, convicted the Sub-Inspector for contempt (illegal arrest) imposing a fine of Rs 2,000, and directed strict CCTV compliance in all police stations. Several police personnel were suspended and departmental proceedings initiated. The Court also ordered action against a Home Department official for filing a misleading affidavit denying the torture.",
+  "court_quote": "The High Court has found the Sub-Inspector (SI) of the East Agartala police station guilty of making an illegal arrest. A division bench comprising Chief Justice M.S. Ramachandra Rao and Justice Biswajit Palit ordered the Sub-Inspector... to pay a fine of Rs 2,000 within the next four weeks. The High Court further directed that failure to deposit the fine would result in one month of imprisonment.",
+  "court_quote_para": "News report of order dated 02.07.2026; Judgment dated 17.09.2026",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Names officers/individuals in fields: 'SI [name withheld]' in sentence, summary and court_quote; also names SPO [name withheld], AMC employee Rabindra Narayan Ghosh and Home Dept official [name withheld] in sentence — per policy, officer names must be removed from all fields.; decision_date is wrong for the adverse finding: the contempt conviction of the Sub-Inspector (fine Rs 2,000, default 1 month simple imprisonment) was pronounced 02.07.2026 in Cont.Cas(C) No.20 of 2026 (connected to W.P.(Crl.) No.06/2026, bench CJ M.S. Ramachandra Rao + B. Palit); 17.09.2026 is the later CCTV-compliance/final judgment. Correct decision_date to 2026-07-02.; Sections: the contempt order cited the Arnesh Kumar arrest guidelines and Sec 41-A CrPC / Sec 35 BNSS safeguards (not D.K. Basu / BNSS Sec 176, which were not in that order).; Suspension count uncertain: reports vary (6 per one article; '8 policemen suspended' per TOI headline); keep non-specific.",
+  "verification_status": "V1",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Custodial torture",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-07-02",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Tripura, Agartala",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Tripura, Agartala recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "W.P.(Crl.) No. 06 of 2026",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://www.livelaw.in/pdf_upload/2026/09/19/tripura-high-court-cctv-in-police-stations-701196.pdf",
+    "link_checked": null
+   },
+   {
+    "url": "https://neherald.com/tripura/illegal-arrest-east-agartala-police-station-si-found-guilty-by-high-court",
+    "link_checked": null
+   },
+   {
+    "url": "https://timesofindia.indiatimes.com/city/guwahati/tripura-suspends-8-policemen-after-hc-observation-in-custodial-torture-bribery-case/articleshow/131970803.cms",
+    "link_checked": null
+   },
+   {
+    "url": "https://www.indiatodayne.in/tripura/story/tripura-hc-orders-strict-cctv-compliance-in-police-stations-after-custodial-assault-case-1452114-2026-09-17",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-tr-hc"
+  ],
+  "merged_case_id": "cop-tr-hc-0",
+  "officers_named_public": 0,
+  "record_flag": null
  }
 ]

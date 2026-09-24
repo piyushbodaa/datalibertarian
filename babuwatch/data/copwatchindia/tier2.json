@@ -84040,5 +84040,250 @@
    }
   ],
   "case_title_or_number": "State vs J&K Police officer (NDPS and counterfeit currency case)"
+ },
+ {
+  "case_id": "t2s-hr-001",
+  "alias_case_ids": [],
+  "verification_status": "V1",
+  "gate_status": "V1",
+  "verified_by": "swarm-verify-cop-hr-trial",
+  "verified_at": "2026-09-24T00:00:00Z",
+  "verdict_note": "court_quote text is not verbatim from source; it is a summary; sections claim Prevention of Corruption Act but source text fetched states no sections specified; case_title, summary and court_quote name officers by personal name",
+  "state": "Haryana",
+  "district": "Kaithal",
+  "court": "Court of Judicial Magistrate First Class, Kaithal",
+  "court_level": "magistrate",
+  "trial_court_name": "Court of Judicial Magistrate First Class, Kaithal",
+  "case_title": "State vs Four CIA-2 Hisar Police Personnel",
+  "case_number": "Not specified in source",
+  "conviction_date": "2026-04-03",
+  "conviction_year": 2026,
+  "date_precision": "day",
+  "incident_date": null,
+  "incident_year": null,
+  "category": "corruption",
+  "subcategory": "bribery_pc_act",
+  "raw_subcategory": "bribery_pc_act",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "name": null,
+    "rank": "Assistant Sub-Inspector",
+    "role": "convicted",
+    "unit": "CIA-2, Hisar",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Assistant Sub-Inspector, CIA-2, Hisar"
+   },
+   {
+    "name": null,
+    "rank": "Head Constable",
+    "role": "convicted",
+    "unit": "CIA-2, Hisar",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Head Constable, CIA-2, Hisar"
+   },
+   {
+    "name": null,
+    "rank": "Head Constable",
+    "role": "convicted",
+    "unit": "CIA-2, Hisar",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Head Constable, CIA-2, Hisar"
+   },
+   {
+    "name": null,
+    "rank": "Constable",
+    "role": "convicted",
+    "unit": "CIA-2, Hisar",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Constable, CIA-2, Hisar"
+   }
+  ],
+  "victims": [
+   {
+    "name": null,
+    "gender": null
+   }
+  ],
+  "sections": [],
+  "sentence": "2 years rigorous imprisonment and Rs 2,000 fine each",
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "appeal_status": "none_known",
+  "appeal_url": null,
+  "source_kind": "news",
+  "source_agency": null,
+  "primary_source_url": "https://www.amarujala.com/haryana/kaithal/four-policemen-found-guilty-of-corruption-kaithal-news-c-18-1-knl1004-878484-2026-04-03",
+  "secondary_sources": [
+   "https://vartahr.com/kaithal-court-police-ko-2-saal-ki-saza-hisar-cia-case/",
+   "https://www.kesari.tv/videos/haryana/-kaithal---districtcourt---ciahisar-657622"
+  ],
+  "summary": "The Judicial Magistrate First Class, Kaithal convicted four police personnel from CIA-2 Hisar for corruption on the basis of testimony of 21 witnesses in a detailed 17-page judgment. Each was sentenced to two years imprisonment and a fine of Rs 2,000.",
+  "court_quote": "2-2 साल की कैद और जुर्माने की सजा सुनाई है।",
+  "confidence": "medium",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "cop-hr-trial",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "bribery pc act",
+  "last_checked": "2026-09-24",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "case_title_or_number": "State vs Four CIA-2 Hisar Police Personnel"
+ },
+ {
+  "case_id": "t2s-hr-002",
+  "alias_case_ids": [],
+  "verification_status": "V1",
+  "gate_status": "V1",
+  "verified_by": "swarm-verify-cop-hr-trial",
+  "verified_at": "2026-09-24T00:00:00Z",
+  "verdict_note": "case_title, summary and court_quote name the convicted officer by personal name; court_quote text is not verbatim from source",
+  "state": "Haryana",
+  "district": "Kaithal",
+  "court": "Court of Additional District and Sessions Judge, Kaithal",
+  "court_level": "sessions",
+  "trial_court_name": "Court of Additional District and Sessions Judge, Kaithal",
+  "case_title": "State vs ASI, Bhagal Police Post",
+  "case_number": "FIR No. 30 dated 12.12.2023 at ACB Ambala",
+  "conviction_date": "2026-03-13",
+  "conviction_year": 2026,
+  "date_precision": "day",
+  "incident_date": "2023-12-07",
+  "incident_year": 2023,
+  "category": "corruption",
+  "subcategory": "bribery_pc_act",
+  "raw_subcategory": "bribery_pc_act",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "name": null,
+    "rank": "Assistant Sub-Inspector",
+    "role": "convicted",
+    "unit": "Bhagal Police Post, Kaithal",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Assistant Sub-Inspector, Bhagal Police Post, Kaithal"
+   }
+  ],
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "sections": [
+   "Section 7 Prevention of Corruption Act, 1988",
+   "Section 13(1)(b) read with Section 13(2) PC Act"
+  ],
+  "sentence": "4 years rigorous imprisonment and Rs 50,000 fine (additional 5 months RI in default)",
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "appeal_status": "none_known",
+  "appeal_url": null,
+  "source_kind": "news",
+  "source_agency": null,
+  "primary_source_url": "https://www.tribuneindia.com/news/haryana/kaithal-asi-sentenced-to-four-years-ri-in-bribery-case/",
+  "secondary_sources": [
+   "https://www.amarujala.com/haryana/kaithal/asi-gets-four-years-imprisonment-for-taking-bribe-kaithal-news-c-18-1-knl1004-864220-2026-03-14",
+   "https://haryana.punjabkesari.in/haryana/news/police-post-incharge-sentenced-to-4-years-in-bribery-case-2306642"
+  ],
+  "summary": "The Additional District and Sessions Judge, Kaithal convicted the ASI posted at Bhagal police post for accepting a bribe of Rs 10,000 caught in an ACB Ambala trap. The co-accused SI was acquitted for lack of evidence. The court sentenced the ASI to four years rigorous imprisonment and a fine of Rs 50,000 with additional imprisonment in default.",
+  "court_quote": "चार वर्ष के कठोर कारावास की सजा सुनाई है",
+  "confidence": "medium",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "cop-hr-trial",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "bribery pc act",
+  "last_checked": "2026-09-24",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "case_title_or_number": "State vs ASI, Bhagal Police Post"
+ },
+ {
+  "case_id": "t2s-hr-003",
+  "alias_case_ids": [],
+  "verification_status": "V1",
+  "gate_status": "V1",
+  "verified_by": "swarm-verify-cop-hr-trial",
+  "verified_at": "2026-09-24T00:00:00Z",
+  "verdict_note": "case_title, summary and court_quote name the convicted officer by personal name; court_quote text is not verbatim from source; judges field contains placeholder text instead of empty or verified name",
+  "state": "Haryana",
+  "district": "Kaithal",
+  "court": "Court of Additional Sessions Judge, Kaithal",
+  "court_level": "sessions",
+  "trial_court_name": "Court of Additional Sessions Judge, Kaithal",
+  "case_title": "State vs ASI, Chika Police Station",
+  "case_number": "FIR by ACB Kurukshetra dated 04.10.2022",
+  "conviction_date": "2025-01-31",
+  "conviction_year": 2025,
+  "date_precision": "day",
+  "incident_date": "2022-10-02",
+  "incident_year": 2022,
+  "category": "corruption",
+  "subcategory": "bribery_pc_act",
+  "raw_subcategory": "bribery_pc_act",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "name": null,
+    "rank": "Assistant Sub-Inspector",
+    "role": "convicted",
+    "unit": "Chika Police Station, Kaithal",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Assistant Sub-Inspector, Chika Police Station, Kaithal"
+   }
+  ],
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "sections": [
+   "Section 7 Prevention of Corruption Act, 1988"
+  ],
+  "sentence": "4 years rigorous imprisonment and Rs 30,000 fine",
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "appeal_status": "none_known",
+  "appeal_url": null,
+  "source_kind": "news",
+  "source_agency": null,
+  "primary_source_url": "https://www.etvbharat.com/hi/!state/bribery-convict-imprisoned-in-kaithal-bribe-taking-asi-convicted-haryana-news-hrs25013102957",
+  "secondary_sources": [],
+  "summary": "The Kaithal court convicted the ASI posted at Chika police station for accepting a bribe of Rs 8,000 in an ACB Kurukshetra trap after a demand linked to an NDPS case. The co-accused SI was acquitted for lack of evidence. The court sentenced the ASI to four years imprisonment and a fine of Rs 30,000.",
+  "court_quote": "कैथल कोर्ट ने रिश्वतखोर एएसआई को जेल की सजा सुनाई है.",
+  "confidence": "medium",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "cop-hr-trial",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "bribery pc act",
+  "last_checked": "2026-09-24",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "case_title_or_number": "State vs ASI, Chika Police Station"
  }
 ]

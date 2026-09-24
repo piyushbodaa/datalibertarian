@@ -444,6 +444,211 @@
       "verification": "V2"
     },
     {
+      "id": "vc-as-0001",
+      "category": "sex-work",
+      "state": "Assam",
+      "title": "Customer held in brothel raid granted bail in Darrang",
+      "summary": "Police in Sipajhar arrested a customer found in a brothel and charged him under the Immoral Traffic (Prevention) Act. The Gauhati High Court recorded that he had spent 20 days in custody. The Court granted bail while the case continued.",
+      "date": "2024-07-17",
+      "date_label": "High Court order",
+      "district": "Darrang",
+      "outcome": "prosecution_pending",
+      "authority": "Gauhati High Court",
+      "case_reference": "Bail Appln./2005/2024, Sipajhar PS Case No. 99/2024",
+      "laws": [
+        "Sections 7/8/9 of the Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "acts": [
+        "Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "person": "a customer in a brothel in Sipajhar",
+      "detail": [
+        "The High Court recorded that the case was Sipajhar PS Case No. 99/2024 under Sections 7/8/9 of the Immoral Traffic (Prevention) Act, 1956.",
+        "The High Court recorded that the petitioner was a customer in a brothel and had been in judicial custody for 20 days.",
+        "The High Court held that further custody was unnecessary and ordered release on bail of Rs 50,000 with one surety to the satisfaction of the CJM, Darrang, Mangaldai.",
+        "The High Court imposed conditions to remain in the area, cooperate with investigation and not influence witnesses."
+      ],
+      "current_position": "Bail was granted on 17 July 2024 and the underlying ITP Act case continued.",
+      "quote": {
+        "text": "The petitioner was a customer in a brothel.",
+        "where": "[name withheld] vs State Of Assam, Gauhati High Court order dated 17.07.2024",
+        "url": "https://indiankanoon.org/doc/80651450/"
+      },
+      "caveats": "Incident date not stated in the excerpt; only the 20-day custody period before 17.07.2024 is given.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The act was paid sex between consenting adults with no allegation of force, minors, deception or a complaining victim."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/80651450/",
+          "kind": "court_order",
+          "publisher": "Gauhati High Court via Indian Kanoon",
+          "date": "2024-07-17",
+          "supports": "sections, customer allegation, custody period, bail order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-as-0002",
+      "category": "gambling",
+      "state": "Assam",
+      "title": "Eatery visitor held over online betting phone granted bail in Barpeta",
+      "summary": "Police in Howly arrested a man found in an eatery after checking his phone for online gaming and betting activity and seized the phone. The case was filed under the Assam Game and Betting Act with BNS conspiracy and petty organised crime sections. The Gauhati High Court granted bail after 17 days in custody.",
+      "date": "2026-08-04",
+      "date_label": "High Court order",
+      "incident_date": "2026-07-18",
+      "district": "Barpeta",
+      "outcome": "prosecution_pending",
+      "authority": "Gauhati High Court",
+      "case_reference": "Bail Appln./2188/2026, Howly P.S. Case No. 119/2026",
+      "laws": [
+        "Sections 61(2)/112 BNS",
+        "Sections 13/14 of the Assam Game and Betting Act, 1970"
+      ],
+      "acts": [
+        "Assam Game and Betting Act, 1970"
+      ],
+      "person": "a visitor to an eatery in Howly",
+      "detail": [
+        "The High Court recorded the police file as Howly P.S. Case No. 119/2026 under Sections 61(2)/112 BNS with Sections 13/14 of the Assam Game and Betting Act, 1970.",
+        "The prosecution said officers acting on a tip entered an eatery on 18.07.2026 and examined a handset showing suspicious transactions, screenshots and WhatsApp communication linked to online gaming and betting.",
+        "The High Court noted the petitioner had been held for 17 days only on suspicion and that the mobile phone had been seized.",
+        "The High Court ordered release on bail of Rs 50,000 with two sureties to the satisfaction of the CJM, Barpeta, with conditions to cooperate and not influence witnesses."
+      ],
+      "current_position": "Bail was granted on 4 August 2026 and investigation continued with the phone seized.",
+      "quote": {
+        "text": "the petitioner has been arrested solely on suspicion regarding the involvement in betting and gaming",
+        "where": "[name withheld] vs The State Of Assam, Gauhati High Court order dated 04.08.2026",
+        "url": "https://indiankanoon.org/doc/2319604/"
+      },
+      "caveats": "Incident date 18.07.2026 is the site-visit date as described in the order; FIR date not separately confirmed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The allegation was wagering the person's own money with no allegation of cheating, fixing, fraud victims, minors or coercion."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/2319604/",
+          "kind": "court_order",
+          "publisher": "Gauhati High Court via Indian Kanoon",
+          "date": "2026-08-04",
+          "supports": "sections, Howly case number, betting allegation, seizure, bail order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-as-0003",
+      "category": "alcohol",
+      "state": "Assam",
+      "title": "Country-liquor brewer held in Jorhat granted bail",
+      "summary": "Excise and police authorities in Titabar arrested a man for manufacturing illicit country liquor under the Assam Excise Act with BNS sections. The Gauhati High Court recorded 21 days in judicial custody. The Court granted bail while the case continued.",
+      "date": "2025-11-03",
+      "date_label": "High Court order",
+      "district": "Jorhat",
+      "outcome": "prosecution_pending",
+      "authority": "Gauhati High Court",
+      "case_reference": "Bail Appln./3435/2025, Titabar P.S Case No. 155/2025",
+      "laws": [
+        "Sections 112/61/3(5) of the BNS, 2023",
+        "Sections 53(1)(a), 54, 63 of the Assam Excise Act"
+      ],
+      "acts": [
+        "Assam Excise Act"
+      ],
+      "person": "a resident of Titabar, Jorhat",
+      "detail": [
+        "The High Court recorded the custody as Titabar P.S Case No. 155/2025 under Sections 112/61/3(5) BNS with Sections 53(1)(a), 54 and 63 of the Assam Excise Act.",
+        "The High Court recorded that the allegation was manufacturing illicit country liquor.",
+        "The High Court noted the petitioner had already spent 21 days in judicial custody.",
+        "The High Court allowed bail of Rs 25,000 with one surety to the satisfaction of the CJM, Jorhat."
+      ],
+      "current_position": "Bail was granted on 3 November 2025 and the excise prosecution continued.",
+      "quote": {
+        "text": "The allegation against the present petitioner is that he was manufacturing illicit country liquors.",
+        "where": "[name withheld] vs The State Of Assam, Gauhati High Court order dated 03.11.2025",
+        "url": "https://indiankanoon.org/doc/158957892/"
+      },
+      "caveats": "Exact arrest and seizure quantities not stated in the excerpt; no spurious-liquor or violence allegation appears.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Brewing and possessing country liquor harmed no one on the facts stated, with no victim, no poisoning and no violence alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/158957892/",
+          "kind": "court_order",
+          "publisher": "Gauhati High Court via Indian Kanoon",
+          "date": "2025-11-03",
+          "supports": "sections, Titabar case number, brewing allegation, custody period, bail order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-as-0004",
+      "category": "beef",
+      "state": "Assam",
+      "title": "Beef-shop vendor in Nagaon given confirmed bail",
+      "summary": "Police in Nagaon booked a shop vendor for selling beef near a temple under the Assam Cattle Preservation Act with a BNS harmony section. Beef was said to have been recovered from the shop. The Gauhati High Court made interim bail absolute with a condition not to sell beef.",
+      "date": "2025-08-18",
+      "date_label": "High Court order",
+      "incident_date": "2025-07-03",
+      "district": "Nagaon",
+      "outcome": "prosecution_pending",
+      "authority": "Gauhati High Court",
+      "case_reference": "AB/1785/2025, Nagaon P.S. Case No. 520/2025",
+      "laws": [
+        "Section 196(1)(b) of the BNS",
+        "Section 13(1) of the Assam Cattle Preservation Act, 2021"
+      ],
+      "acts": [
+        "Assam Cattle Preservation Act, 2021"
+      ],
+      "person": "a shop vendor in Nagaon",
+      "detail": [
+        "The High Court recorded the police file as Nagaon P.S. Case No. 520/2025 under BNS 196(1)(b) with Section 13(1) of the Assam Cattle Preservation Act, 2021, after an FIR dated 03.07.2025.",
+        "The High Court noted the FIR claim of four shops selling beef in Chalchali, with vendors fleeing except one man apprehended and beef recovered from the petitioner's shop.",
+        "The High Court noted the prosecution claim that the shop was within 5 km of a Hanuman Mandir, discussed with reference to Section 8 of the 2021 Act.",
+        "The High Court made the interim bail of 30.07.2025 absolute, directing the petitioner not to sell beef and to appear before the investigator when called."
+      ],
+      "current_position": "Anticipatory bail was confirmed on 18 August 2025 and the cattle-preservation prosecution continued.",
+      "quote": {
+        "text": "from the shop of the petitioner beef was recovered.",
+        "where": "[name withheld] vs State of Assam, Gauhati High Court order dated 18.08.2025",
+        "url": "https://indiankanoon.org/doc/61611620/"
+      },
+      "caveats": "Whether the shop was owned by the petitioner was disputed; ownership not confirmed. No cruelty, theft or violence allegation appears.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Selling and possessing beef harmed no one on the facts stated, with no allegation of cruelty, cattle theft or violence."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/61611620/",
+          "kind": "court_order",
+          "publisher": "Gauhati High Court via Indian Kanoon",
+          "date": "2025-08-18",
+          "supports": "sections, Nagaon case number, FIR date, beef recovery, temple-distance claim, bail outcome"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "vc-as-0005",
       "category": "tobacco",
       "state": "Assam",

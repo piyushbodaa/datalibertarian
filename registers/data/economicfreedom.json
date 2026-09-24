@@ -822,6 +822,117 @@
       "verification": "V2"
     },
     {
+      "id": "ef-ch-0002",
+      "category": "forex",
+      "state": "Chandigarh",
+      "title": "Customs seizure of undeclared US dollars from departing travellers at Chandigarh airport",
+      "summary": "Customs officers seized undeclared US dollars from three departing foreign travellers at Chandigarh airport in July 2024 and filed a complaint under the Customs Act. The High Court recorded that the petitioner had spent over three months in custody and ordered release on bail with a travel bar. The prosecution remained pending.",
+      "date": "2024-10-14",
+      "date_label": "High Court order",
+      "incident_date": "2024-07-13",
+      "district": "Chandigarh",
+      "outcome": "prosecution_pending",
+      "authority": "High Court of Punjab and Haryana at Chandigarh",
+      "case_reference": "CRM-M-46607-2024; criminal complaint No.121 dated 11.09.2024 before CJM Mohali",
+      "laws": [
+        "Section 135 of the Customs Act",
+        "Section 61 of BNS 2023",
+        "Section 483 of BNSS"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "a foreign-national traveller departing from Chandigarh airport",
+      "penalty": "68,800 US dollars seized; bail on personal bond of Rs 3,00,000 with two sureties and bar on leaving India",
+      "detail": [
+        "The High Court recorded that intelligence-based checking took place on 13.07.2024 in the international departure boarding zone at Chandigarh airport after customs and immigration clearance, while the travellers were boarding a flight to Abu Dhabi.",
+        "The High Court recorded that search of hand bags and checked luggage yielded undeclared US currency, including 68,800 US dollars from the petitioner and similar sums from two co-travellers, on the allegation that they had not declared the currency on arrival.",
+        "The High Court recorded that a complaint had been filed under Section 135 of the Customs Act read with Section 61 of BNS 2023, that the cash was already seized, that the passport was with customs, and that the petitioner had spent over three months in judicial custody.",
+        "The High Court ordered that the petitioner be released on regular bail on a personal bond with sureties and directed that the petitioner was not to leave India during the pendency of the criminal proceedings without court permission."
+      ],
+      "current_position": "Released on regular bail with travel restriction while the Customs complaint remains pending.",
+      "quote": {
+        "text": "68,800 US dollars having market value of Rs.57,49,616/-",
+        "where": "CRM-M-46607-2024 order dated 14.10.2024 as reproduced on Indian Kanoon",
+        "url": "https://indiankanoon.org/doc/8530066/"
+      },
+      "caveats": "Full certified judgment pages were not separately opened; facts rely on the Indian Kanoon reproduction of the High Court order. Exact dollar amounts for co-travellers and currency-declaration form details could not be independently verified.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Carrying and holding foreign currency is a peaceful economic act with no complaining victim, and the state met it with seizure, custody and prosecution."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/8530066/",
+          "kind": "court_order",
+          "publisher": "High Court of Punjab and Haryana via Indian Kanoon",
+          "date": "2024-10-14",
+          "supports": "seizure amounts, airport and flight facts, sections, custody period and bail order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-ch-0003",
+      "category": "gold",
+      "state": "Chandigarh",
+      "title": "Confiscation of gold jewellery found on arriving flight upheld by Chandigarh tribunal",
+      "summary": "Customs officers recovered gold bangles and chains hidden in seat storage on a Sharjah-Amritsar flight and confiscated about 1848 gm of gold with penalties. The CESTAT bench at Chandigarh upheld the confiscation and a Rs 10 lakh penalty on the alleged organiser in June 2025. The appeal was dismissed.",
+      "date": "2025-06-03",
+      "date_label": "CESTAT order",
+      "outcome": "confiscation",
+      "authority": "CESTAT Chandigarh",
+      "case_reference": "Appeal against Order-in-Appeal dated 17.07.2023; CESTAT order dated 03.06.2025",
+      "laws": [
+        "Section 110 of the Customs Act",
+        "Section 111 of the Customs Act",
+        "Section 112(a) of the Customs Act",
+        "Section 112(b) of the Customs Act",
+        "Section 118 of the Customs Act",
+        "Section 119 of the Customs Act",
+        "Section 108 of the Customs Act",
+        "Section 138 of the Customs Act"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "an alleged organiser of gold carriage tried in Amritsar airport proceedings",
+      "penalty": "Confiscation of about 1848 gm gold valued about Rs 89,90,521 upheld; penalty of Rs 10 lakhs on the appellant upheld; penalty of Rs 1 lakh each on two couriers noted",
+      "detail": [
+        "The Tribunal recorded that officers acting on intelligence searched an arriving Sharjah-Amritsar flight in April 2021 and found a cloth bundle in seat-back storage containing layered sleeves holding yellow-metal jewellery.",
+        "The Tribunal recorded that two nearby passengers first claimed the items and later said they had carried the gold as paid couriers for the appellant, stating they had charged Rs 20,000 for bringing the gold to India.",
+        "The Tribunal recorded that the seized items were four kadas weighing about 1097.70 gm and two chains weighing about 750.30 gm, together about 1848 gm valued about Rs 89,90,521, assessed as 24-carat gold.",
+        "The Tribunal upheld the lower appellate order maintaining confiscation of the entire gold and the penalties, and dismissed the appeal of the appellant."
+      ],
+      "current_position": "Confiscation and penalties stand after dismissal of the appeal by CESTAT Chandigarh.",
+      "quote": {
+        "text": "four Kadas and two chains, yelloish in colour, appearing to be gold",
+        "where": "CESTAT Chandigarh order dated 03.06.2025 as reproduced on Indian Kanoon",
+        "url": "https://indiankanoon.org/doc/63739169/"
+      },
+      "caveats": "Incident occurred on a flight into Amritsar; Chandigarh nexus is the deciding forum, CESTAT Chandigarh, which satisfies the brief. Exact flight date in April 2021 and full paragraph numbering could not be confirmed from the excerpt.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Carrying and storing gold is a peaceful economic act with no complaining victim, and the state met it with seizure, confiscation and monetary penalties."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/63739169/",
+          "kind": "court_order",
+          "publisher": "CESTAT via Indian Kanoon",
+          "date": "2025-06-03",
+          "supports": "recovery facts, weights and values, confiscation and penalty findings, and dismissal of appeal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "ef-ch-0004",
       "category": "trade",
       "state": "Chandigarh",
@@ -4564,6 +4675,111 @@
           "publisher": "Punjab and Haryana High Court via Indian Kanoon",
           "date": "2026-05-18",
           "supports": "FIR number and Khanna police station in Ludhiana, liquor quantity, Excise Act sections, car registration, and quashing of proclaimed-person order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-py-0007",
+      "category": "labour",
+      "state": "Puducherry",
+      "title": "Garment manufacturer’s challenge to EPF damages for delayed contributions dismissed",
+      "summary": "The provident fund authority imposed damages of Rs 8,23,075 under Section 14B of the EPF Act for delayed contributions. A private garment company in Puducherry challenged the May 2019 order in the Madras High Court. The High Court dismissed the writ petition as misconceived on 29 May 2025.",
+      "date": "2025-05-29",
+      "date_label": "High Court order",
+      "district": "Puducherry",
+      "outcome": "penalty",
+      "authority": "Madras High Court; Regional Provident Fund Commissioner-II",
+      "case_reference": "W.P.No. 8698 of 2021",
+      "laws": [
+        "Section 14B, Employees’ Provident Funds and Miscellaneous Provisions Act, 1952",
+        "Section 7(1), Employees’ Provident Funds and Miscellaneous Provisions Act, 1952"
+      ],
+      "acts": [
+        "Employees’ Provident Funds and Miscellaneous Provisions Act, 1952"
+      ],
+      "person": "a private garment manufacturer in Puducherry",
+      "penalty": "damages amounting to Rs. 8,23,075/- under Section 14B",
+      "detail": [
+        "The High Court recorded that the petitioner was a garment business that sought cancellation of a May 2019 provident fund ruling imposing damages for delay.",
+        "The provident fund authority said wages had been paid but contributions were delayed, and the employer cited money troubles.",
+        "The High Court held that unintentional delay does not excuse liability under Section 14B and dismissed the petition filed much later in March 2021.",
+        "No allegation of injury, death, non-payment of wages owed, child labour or bonded labour was part of the damages case."
+      ],
+      "current_position": "The writ challenge was dismissed and the Section 14B damages demand stands.",
+      "quote": {
+        "text": "the Commissioner imposed damages amounting to Rs. 8,23,075/- under Section 14B",
+        "where": "W.P.No.8698 of 2021, judgment dated 29.05.2025",
+        "url": "https://indiankanoon.org/doc/72455902/"
+      },
+      "caveats": "Full factory address and period of default could not be confirmed from the fetched excerpt; district inferred from Puducherry jurisdiction.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "A private employer was penalised for late deposit of statutory contributions even though wages had been paid, with no worker victim of injury, cheating or coercion."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/72455902/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon / Madras High Court",
+          "date": "2025-05-29",
+          "supports": "parties, EPF Section 14B damages amount, dismissal of writ"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-py-0008",
+      "category": "hoarding",
+      "state": "Puducherry",
+      "title": "Prosecution for possession of 100 bags of urea quashed in Puducherry",
+      "summary": "Police prosecuted a trader in Puducherry for illegal possession of 100 bags of urea under the Fertilizer Control Order and Essential Commodities Act. The case pending since 2019 before Judicial Magistrate No.I, Puducherry Taluk was transferred suo motu. The Madras High Court quashed C.C.No.596 of 2019 on 9 October 2025 for delay and speedy-trial reasons.",
+      "date": "2025-10-09",
+      "date_label": "High Court order",
+      "district": "Puducherry",
+      "outcome": "quashed",
+      "authority": "Madras High Court; Judicial Magistrate No.I, Puducherry Taluk",
+      "case_reference": "Suo Motu TR.No.15307 of 2025; C.C.No.596 of 2019",
+      "laws": [
+        "Section 25(1) and (2), Fertilizer Control Order, 1985",
+        "Section 7(i)(a)(ii), Essential Commodities Act, 1955",
+        "Section 34, Indian Penal Code"
+      ],
+      "acts": [
+        "Essential Commodities Act, 1955",
+        "Fertilizer (Control) Order, 1985"
+      ],
+      "person": "a trader in Puducherry Taluk",
+      "detail": [
+        "The High Court recorded that the allegation was illegal possession of 100 bags of urea contrary to Fertilizer Control Order directions.",
+        "The High Court recorded that the prosecution was under Section 25(1) and (2) of the Fertilizer Control Order read with Section 7(i)(a)(ii) of the Essential Commodities Act read with Section 34 of the Indian Penal Code.",
+        "The High Court noted the case had been pending at the stage of fresh summons since 2019 with no effective hearing likely.",
+        "The High Court held no useful purpose would be served and quashed the trial court case, disposing the transfer case."
+      ],
+      "current_position": "The trial court prosecution in C.C.No.596 of 2019 stands quashed.",
+      "quote": {
+        "text": "The allegation in this case is that the accused were in the illegal possession of 100 bags of urea",
+        "where": "Suo Motu TR.No.15307 of 2025, order dated 09.10.2025",
+        "url": "https://indiankanoon.org/doc/14915318/"
+      },
+      "caveats": "Seizure date and quantity beyond 100 bags, and whether subsidy diversion was alleged, could not be confirmed beyond the fetched excerpt.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Storing fertilizer without prescribed paper harmed no complaining victim, with no allegation of adulteration, cheating, PDS diversion, or danger."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/14915318/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon / Madras High Court",
+          "date": "2025-10-09",
+          "supports": "allegation of 100 bags urea, EC Act and FCO sections, Puducherry court, quashing order"
         }
       ],
       "verification": "V2"
