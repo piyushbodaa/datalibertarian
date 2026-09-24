@@ -220319,5 +220319,282 @@
   "merged_case_id": "cop-dl-hc-7",
   "officers_named_public": 0,
   "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0090",
+  "status": "current",
+  "merged_id": "CWC-1375",
+  "alias_merged_ids": [],
+  "display_title": "Smt. [name withheld] vs The State Of Mizoram And 7 Ors",
+  "display_title_redacted": "Smt. [name withheld] vs The State Of Mizoram And 7 Ors",
+  "state": "Mizoram",
+  "district": "Aizawl",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Vaivakawn Police Station; Mizoram Police Media Cell",
+  "court": "Gauhati High Court (Aizawl Bench)",
+  "court_as_verified": "Gauhati High Court (Aizawl Bench)",
+  "bench": null,
+  "case_title": "Smt. [name withheld] vs The State Of Mizoram And 7 Ors",
+  "case_number": "WP(C)/12/2026",
+  "citation": null,
+  "judges": [
+   "Rajesh Mazumdar"
+  ],
+  "judgment_date": "2026-08-27",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": null,
+  "incident_year": null,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "dereliction_evidence_tampering",
+  "subcategory": "dereliction_evidence_tampering",
+  "subcategory_display": "dereliction evidence tampering",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Section 326(g)/324(5)/191(2) BNS",
+   "Section 129 CrPC",
+   "Section 153A IPC",
+   "Article 226 Constitution of India"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Officer-in-Charge",
+    "role": "named_in_finding",
+    "unit": "Vaivakawn Police Station, Mizoram Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Officer-in-Charge, Vaivakawn Police Station, Mizoram Police"
+   },
+   {
+    "name": null,
+    "rank": "Chief Public Relations Officer / Inspector General of Police (Hqrs)",
+    "role": "named_in_finding",
+    "unit": "Mizoram Police Media Cell",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Chief Public Relations Officer / Inspector General of Police (Hqrs), Mizoram Police Media Cell"
+   }
+  ],
+  "officer_count": 2,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "female"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/134279893/",
+  "secondary_sources": [],
+  "summary": "The High Court held that the Mizoram Police press release naming the petitioner's late husband as the central suspect violated the police media-briefing protocol. The High Court held that the release disclosed evidence theories, forensic details and investigative tactics beyond permissible limits. The High Court held that police personnel on the spot failed to maintain law and order when a mob stoned, torched and looted the petitioner's rented home. The High Court ordered recall of the press release, circulation of the briefing manual, supervised investigation of the mob attack, and assessment of the claimed property loss of Rs. 7,61,130 by a court-appointed assessor.",
+  "summary_verified": "The High Court held that the Mizoram Police press release naming the petitioner's late husband as the central suspect violated the police media-briefing protocol. The High Court held that the release disclosed evidence theories, forensic details and investigative tactics beyond permissible limits. The High Court held that police personnel on the spot failed to maintain law and order when a mob stoned, torched and looted the petitioner's rented home. The High Court ordered recall of the press release, circulation of the briefing manual, supervised investigation of the mob attack, and assessment of the claimed property loss of Rs. 7,61,130 by a court-appointed assessor.",
+  "court_quote": "The protocol laid down by the police manual was violated when disclosure beyond the permissible factors had been made.",
+  "court_quote_para": "as reported on IndianKanoon doc/134279893",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Section 129 CrPC and Section 153A IPC are cited in the judgment, but the entry lists 'Section 129 BNS' and 'Section 153A BNS' — BNS codes are incorrect for these sections; the judgment uses CrPC/IPC references. It appears the modern BNS equivalent was substituted rather than the actual cited section.; The statute 'Section 129 BNS' does not exist in BNS (which has no Section 129); Section 129 CrPC is the correct citation used in the judgment.; Section 153A IPC is cited in the judgment, not 'Section 153A BNS'. While BNS replaced IPC, the judgment uses IPC numbering and the researcher should faithfully reproduce the sections as cited by the court.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-08-27",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "Gauhati High Court (Aizawl Bench)",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The Gauhati High Court (Aizawl Bench) recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "WP(C)/12/2026",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/134279893/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-mz-hc"
+  ],
+  "merged_case_id": "cop-mz-hc-0",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0091",
+  "status": "current",
+  "merged_id": "CWC-1376",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs State Of Mizoram And 3 Ors",
+  "display_title_redacted": "[name withheld] vs State Of Mizoram And 3 Ors",
+  "state": "Mizoram",
+  "district": "Aizawl",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Mizoram Police (ministerial establishment)",
+  "court": "Gauhati High Court (Aizawl Bench)",
+  "court_as_verified": "Gauhati High Court (Aizawl Bench)",
+  "bench": null,
+  "case_title": "[name withheld] vs State Of Mizoram And 3 Ors",
+  "case_number": "WP(C)/169/2019",
+  "citation": "2026:GAU-MZ:303",
+  "judges": [
+   "Sanjeev Kumar Sharma"
+  ],
+  "judgment_date": "2026-06-12",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": null,
+  "incident_year": null,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "other",
+  "subcategory": "other",
+  "subcategory_display": "other",
+  "protest_override_heuristic": false,
+  "outcome_type": "disciplinary_upheld",
+  "sections": [
+   "Rule 1037 Mizoram Police Manual",
+   "Rule 10(7) CCS (CCA) Rules",
+   "FR 54(5)"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Upper Division Clerk / Sub-Inspector of Police (Ministerial)",
+    "role": "held_liable",
+    "unit": "Mizoram Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Upper Division Clerk / Sub-Inspector of Police (Ministerial), Mizoram Police"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 0,
+  "sentence_type": "imprisonment",
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/174883276/",
+  "secondary_sources": [],
+  "summary": "The petitioner was ministerial staff of the Mizoram Police who faced charges of diversion of public funds and underwent successive dismissal and reinstatement rounds. The High Court held that the earlier dismissal orders had been set aside only on procedural grounds and the petitioner had already been restored with liberty for fresh proceedings. The High Court held that the 2016 compulsory-retirement penalty with compassionate pension stood and the intervening suspension periods were rightly treated as non-countable. The High Court dismissed the writ petition seeking counting of about 11 years and 14 days of suspension with back benefits.",
+  "summary_verified": "The petitioner was ministerial staff of the Mizoram Police who faced charges of diversion of public funds and underwent successive dismissal and reinstatement rounds. The High Court held that the earlier dismissal orders had been set aside only on procedural grounds and the petitioner had already been restored with liberty for fresh proceedings. The High Court held that the 2016 compulsory-retirement penalty with compassionate pension stood and the intervening suspension periods were rightly treated as non-countable. The High Court dismissed the writ petition seeking counting of about 11 years and 14 days of suspension with back benefits.",
+  "court_quote": "I do not find any merit in the writ petition, which accordingly stands dismissed.",
+  "court_quote_para": "as reported on IndianKanoon doc/174883276",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Case title is incorrect: the Indian Kanoon record shows '[name withheld] vs State Of Mizoram And 3 Ors', not '[name withheld] vs State Of Mizoram And 3 Ors'. The court did not anonymize the case name. If the researcher intended to anonymize the officer's name, this should be noted separately, but the actual case title should be faithfully reproduced.; The officer's name ([name withheld]) appears in the case title on the judgment but was replaced with '[name withheld]' in the entry. This is inconsistent with the actual record. Anonymization of a convicted/penalized officer is not standard practice for this register unless he is a victim of police misconduct, which he is not.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-06-12",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "Gauhati High Court (Aizawl Bench)",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The Gauhati High Court (Aizawl Bench) recorded adverse findings against police personnel.",
+    "disposition": "disciplinary upheld",
+    "source": "2026:GAU-MZ:303",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/174883276/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-mz-hc"
+  ],
+  "merged_case_id": "cop-mz-hc-1",
+  "officers_named_public": 0,
+  "record_flag": null
  }
 ]
