@@ -1975,30 +1975,54 @@ def index_watch_keys(rec, c):
     return rec
 
 
+NEWS_OUTCOME = {
+    "trial_court_conviction": "Convicted", "conviction_by_hc": "Convicted",
+    "conviction_by_sc": "Convicted", "conviction_upheld": "Conviction upheld",
+    "adverse_finding_compensation": "Compensation ordered",
+    "adverse_finding": "Adverse finding", "disciplinary_upheld": "Penalty upheld"}
+
+
+def news_card_html(c, kind="incident"):
+    """Server-side twin of tracker.js cardHtml(): the news-style card with
+    category + outcome chips, the RTO-style plate, headline, meta line,
+    paragraph and the record link. Used where no script renders cards."""
+    trial = kind == "trial-court"
+    rid = t2_id(c) if trial else rec_id(c)
+    url = rec_path(c, kind, rid)
+    pn = PLAIN.get(rid) or PLAIN.get(c.get("merged_id") or "") or {}
+    head = pn.get("headline") or (c.get("case_title_or_number") if trial else
+                                  c.get("display_title") or c.get("case_title")) or rid
+    para = pn.get("paragraph") or c.get("summary") or ""
+    if len(para) > INDEX_SUMMARY_CHARS:
+        para = para[:INDEX_SUMMARY_CHARS].rsplit(" ", 1)[0].rstrip(",;:") + "\u2026"
+    outc = NEWS_OUTCOME.get(c.get("outcome_type") or ("trial_court_conviction"
+                                                       if trial else ""),
+                            "Convicted" if trial else tier_label(c))
+    jd = (c.get("conviction_date") if trial else c.get("judgment_date")) or ""
+    meta = [x for x in (fmt_date(jd, c.get("date_precision")) if jd else "",
+                        location_short(c)) if x]
+    if pn.get("role"):
+        meta.append(pn["role"] + " (name withheld)")
+    plate = PLATES.get(rid) or PLATES.get(c.get("merged_id") or "")
+    return (
+        '<article class="tracker-card news-card" data-id="%s">'
+        '<div class="news-top"><div class="news-chips"><span class="chip">%s'
+        '</span><span class="chip chip-out">%s</span></div>%s</div>'
+        '<h2 class="news-head"><a href="%s">%s</a></h2>'
+        '<p class="news-meta">%s</p><p class="news-para">%s</p>'
+        '<a class="tracker-card-open" href="%s" aria-label="Read the court record %s">'
+        'Read the court record <span aria-hidden="true">&rarr;</span></a></article>'
+        % (esc(rid), esc(site_category(c)), esc(outc),
+           '<span class="plate" title="Case number">%s</span>' % esc(plate)
+           if plate else "", esc(url), esc(head),
+           " &middot; ".join(esc(x) for x in meta), esc(para), esc(url),
+           esc(plate or rid)))
+
+
 def home_record_card(c):
-    rid = rec_id(c)
-    url = rec_path(c, "incident", rid)
-    title = c.get("display_title") or c.get("case_title") or rid
-    cat = site_category(c)
-    loc = location_short(c)
-    jdate = fmt_date(c.get("judgment_date"), c.get("date_precision"))
-    tier_cls = "tierB" if tier(c) == "B" else "tierA"
-    return ('<article class="rec"><div class="id">%s<span class="st">%s</span>'
-            '</div><div class="body"><h4><a href="%s">%s</a></h4>'
-            '<div class="meta"><span class="cat">%s &middot; %s</span>'
-            '<span>%s</span><span>Judgment: %s</span></div>'
-            '<div class="src">%s</div>'
-            '<div class="status">%s &mdash; %s.</div>'
-            '<a class="home-record-link" href="%s">View record &rarr;</a>'
-            '</div><div class="flags"><span class="badge %s">%s</span>'
-            '<span class="badge lvl"><span class="dot"></span>%s</span></div>'
-            "</article>") % (
-        esc(rid), esc(c.get("state") or ""), esc(url), esc(title),
-        esc(cat), esc(evidence_position(c)), esc(loc), esc(jdate),
-        esc(c.get("summary") or "Summary not recorded."),
-        esc(c.get("court") or "Court not stated"),
-        esc(verification_line(c)),
-        esc(url), tier_cls, esc(tier_label(c)), esc(v_level(c)))
+    return news_card_html(c, "incident")
+
+
 
 
 def build_home(cases, ref_index, t2=None, n_overturned=0):
@@ -2007,7 +2031,8 @@ def build_home(cases, ref_index, t2=None, n_overturned=0):
     lifts <section class="<cls>"> from the watch's templates/<>/index.html."""
     recent = sorted(cases, key=lambda c: (c.get("judgment_date") or ""),
                     reverse=True)[:3]
-    cards = "".join(home_record_card(c) for c in recent)
+    cards = ('<div class="home-news-list">%s</div>'
+             % "".join(home_record_card(c) for c in recent))
     t2 = t2 or []
     n1, n2 = len(cases), len(t2)
     total = n1 + n2
@@ -2077,34 +2102,7 @@ def watches_section(cases, t2):
 
 
 def tracker_card(c):
-    rid = rec_id(c)
-    url = rec_path(c, "incident", rid)
-    title = c.get("display_title") or c.get("case_title") or rid
-    cat = site_category(c)
-    loc = location_short(c)
-    jdate = fmt_date(c.get("judgment_date"), c.get("date_precision"))
-    nsrc = source_count(c)
-    return """
-          <article class="tracker-card" data-id="%s">
-            <div class="tracker-card-topline">
-              <div class="tracker-card-kicker"><span>%s</span><span>%s</span><span>%s</span></div>
-              <div class="tracker-card-badges"><span class="record-badge tier">High Court/Supreme Court</span><span class="record-badge %s">%s</span><span class="record-badge level">%s</span></div>
-            </div>
-            <h2><a href="%s">%s</a></h2>
-            <p class="tracker-card-summary">%s</p>
-            <div class="tracker-card-facts">
-              <span><strong>%s</strong> &middot; %s</span>
-              <span>%d public source%s</span>
-              <span>%s</span>
-            </div>
-            <a class="tracker-card-open" href="%s" aria-label="View full record %s">View full record <span aria-hidden="true">&rarr;</span></a>
-          </article>""" % (
-        esc(rid), esc(rid), esc(loc), esc(jdate),
-        tier_badge_class(c), esc(tier_label(c)), esc(v_level(c)),
-        esc(url), esc(title), esc(c.get("summary") or ""),
-        esc(cat), esc(evidence_position(c)), nsrc,
-        "" if nsrc == 1 else "s", action_summary(c),
-        esc(url), esc(rid))
+    return news_card_html(c, "incident")
 
 
 def filter_pills(active=""):
@@ -4395,6 +4393,7 @@ CSS_ADDITIONS = """/* Record pages never scroll sideways on phones: grid/flex ch
 .incident-layout>*,.action-timeline>*,.action-card-head>*{min-width:0}
 .action-card-head{flex-wrap:wrap}
 .action-card,.action-card h3,.action-authority{overflow-wrap:anywhere}
+.home-news-list{display:grid;gap:16px;margin:22px 0 8px}
 /* Report card (police records, opened record page) */
 .report-card{border:1px solid var(--line);background:#fffdf8;padding:22px 24px;margin-top:26px}
 .report-card .incident-section-head{margin-bottom:10px}
