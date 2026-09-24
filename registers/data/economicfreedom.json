@@ -875,6 +875,57 @@
       "verification": "V2"
     },
     {
+      "id": "ef-ka-0002",
+      "category": "forex",
+      "state": "Karnataka",
+      "title": "Foreign currency valued at Rs 1.14 crore ordered confiscated; heirs may appeal",
+      "summary": "The Customs adjudication order records seizure of foreign currency equivalent to Rs 1,14,22,720 from an Indian passport holder under a Mahazar dated 28 February 2017. It ordered confiscation of the currency and packing material and imposed penalties of Rs 35 lakh under Section 114 and Rs 25 lakh under Section 114AA on that person. A Division Bench of the High Court of Karnataka set aside the single-judge order and gave the heirs liberty to appeal to CESTAT within two weeks of receiving a copy.",
+      "date": "2024-12-02",
+      "date_label": "High Court Division Bench judgment",
+      "incident_date": "2017-02-28",
+      "outcome": "confiscation",
+      "authority": "High Court of Karnataka at Bengaluru (Division Bench); Additional Commissioner of Customs, Bengaluru; Commissioner of Customs (Appeals), Bengaluru",
+      "case_reference": "WA No. 1320 of 2021; Mahazar dated 28.02.2017; Order-in-Original dated 28.08.2018; Appeals 396-401/2018",
+      "laws": [
+        "Sections 113(d), 113(e), 113(h), 118(b), 114, 114AA, 124, 129-A(1) of the Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "An Indian passport holder from whom Customs recorded seizing foreign currency",
+      "penalty": "Order of confiscation of foreign currency equivalent to Rs 1,14,22,720 and packing materials; penalties of Rs 35,00,000 under Section 114 and Rs 25,00,000 under Section 114AA on the passport holder; each of five others received Rs 5,00,000 under Section 114 and Rs 5,00,000 under Section 114AA.",
+      "detail": [
+        "The Customs adjudication order reproduced by the High Court records that foreign currency equivalent to Rs 1,14,22,720 was seized from an Indian passport holder under Mahazar dated 28.02.2017.",
+        "The order records that the currencies were concealed in a white-coloured transparent plastic-wrapped gunny bag, which was also confiscated.",
+        "The Additional Commissioner of Customs passed the confiscation and penalty order on 28.08.2018 following a show-cause notice dated 10.11.2017; the Commissioner of Customs (Appeals), Bengaluru rejected the challenge on 19.12.2018.",
+        "The Division Bench set aside the single-judge order dated 29.10.2021, which had quashed the show-cause notice and impugned orders. It gave the heirs liberty to appeal to CESTAT under Section 129-A(1) within two weeks of receiving a copy; CESTAT was to decide grounds raised but not considered by the authorities below."
+      ],
+      "current_position": "The writ appeal was disposed of after the single-judge order was set aside; the heirs were given liberty to appeal to CESTAT within two weeks of receiving a copy.",
+      "quote": {
+        "text": "I order confiscation of the Foreign Currency equivalent to Rs. 1,14,22,720/-",
+        "where": "Adjudication order dated 28.08.2018 as reproduced in WA No. 1320 of 2021, judgment dated 02-12-2024",
+        "url": "https://indiankanoon.org/doc/187989172/"
+      },
+      "caveats": "The order excerpt does not break down the currency by denomination (dollars, dirhams, etc.); the total is stated as Indian-rupee equivalent. No flight number is stated.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The adjudication orders concern confiscation of foreign currency and Customs penalties; the High Court's disposition concerns the heirs' route to appeal those orders."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/187989172/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon (High Court of Karnataka)",
+          "date": "2024-12-02",
+          "supports": "seizure amount and Mahazar date, confiscation and penalty figures, airport location, procedural history and Division Bench outcome"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "ef-ka-0004",
       "category": "trade",
       "state": "Karnataka",
@@ -1100,6 +1151,113 @@
           "publisher": "High Court of Karnataka via Indian Kanoon",
           "date": "2025-09-12",
           "supports": "title, court, petition number, stock and ceiling figures, seizure and Rs amounts, final rejection order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-kl-0004",
+      "category": "trade",
+      "state": "Kerala",
+      "title": "Kerala High Court grants bail to accused in Bhutan-vehicle smuggling case",
+      "summary": "The Customs Preventive Commissionerate arrested the applicant, accused No. 7 in O.R. No. 1/2026, on allegations that he facilitated the smuggling and registration of Bhutan-origin vehicles without payment of customs duty. The Kerala High Court recorded that Operation Numkhor in Kerala resulted in the seizure of 36 foreign vehicles. It granted bail on a Rs 1 lakh bond with two solvent sureties, subject to conditions.",
+      "date": "2026-06-16",
+      "date_label": "High Court bail order",
+      "district": "Ernakulam",
+      "outcome": "prosecution_pending",
+      "authority": "High Court of Kerala at Ernakulam; Commissionarate of Customs (Preventive), Cochin",
+      "case_reference": "Bail Appl. No. 3090 of 2026; Crime No.1/2026 of Commissionarate of Customs Preventive; O.R. No.1/2026 (accused No.7); CMP No.13 of 2026",
+      "laws": [
+        "Section 135 of the Customs Act, 1962",
+        "Section 483 of the Bharatiya Nagarik Suraksha Sanhita, 2023"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "The applicant, arrayed as accused No. 7 in Customs O.R. No. 1/2026",
+      "detail": [
+        "The High Court recorded that Operation Numkhor was conducted in Kerala and resulted in the seizure of 36 foreign vehicles valued at more than one crore rupees in the domestic market.",
+        "The prosecution alleged that SUVs and MUVs had been smuggled from Bhutan across the Indo-Bhutan border without payment of customs duty. It said scrutiny showed most vehicles had been registered using forged documents and their owners could not produce import documents.",
+        "The prosecution alleged that the applicant facilitated the smuggled vehicles and colluded in their smuggling and registration using forged documents. He was remanded to judicial custody on 27.05.2026; the bail application challenged the lower court order dated 03.06.2026.",
+        "The Court noted that the vehicles had been recovered, the applicant's statement under Section 108 of the Customs Act had been recorded, and he had no criminal antecedents. It found no reason to continue his detention.",
+        "The Court ordered release on a Rs 1 lakh bond with two solvent sureties for the same amount each, one from Kerala. Conditions included cooperating with the investigation, reporting every Saturday, not contacting witnesses or tampering with evidence, and not leaving Kerala without the trial court's permission."
+      ],
+      "current_position": "The applicant was granted bail subject to conditions, including cooperation with the investigation.",
+      "quote": {
+        "text": "was conducted in the State of Kerala, which resulted in the seizure of 36 foreign vehicles",
+        "where": "Bail Appl. No. 3090 of 2026, para 3 (2026:KER:42788)",
+        "url": "https://indiankanoon.org/doc/150695787/"
+      },
+      "caveats": "The order does not state the exact seizure date or seizure location. It records allegations that most vehicle registrations used forged documents.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The order concerns alleged customs-duty evasion involving vehicles smuggled across the Indo-Bhutan border."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/150695787/",
+          "kind": "court_order",
+          "publisher": "High Court of Kerala (via Indian Kanoon)",
+          "date": "2026-06-16",
+          "supports": "Kerala operation, 36 seized vehicles, duty-evasion allegation, custody dates, bail terms"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-kl-0005",
+      "category": "capital",
+      "state": "Kerala",
+      "title": "Supreme Court sets aside COFEPOSA detention for Kottayam hawala dealing",
+      "summary": "The Supreme Court set aside a COFEPOSA detention imposed on a Kottayam man accused of hawala dealing and unlicensed purchase and sale of foreign currency. The detaining authority cited a June 2023 search seizing Rs 6,70,100 in unaccounted cash and alleged Rs 25 crore turnover. The Court quashed the detention for failure to supply relied-upon statements and long delay in deciding representations.",
+      "date": "2024-09-12",
+      "date_label": "Supreme Court judgment giving reasons (order 31.07.2024)",
+      "incident_date": "2023-06-19",
+      "district": "Kottayam",
+      "outcome": "detention_set_aside",
+      "authority": "Supreme Court of India (appeal from Kerala High Court); Detaining Authority under COFEPOSA; Central Government",
+      "case_reference": "Criminal Appeal No. 3083 of 2024; detention order dated 31.08.2023 under Section 3(1) COFEPOSA; confirmation order dated 28.11.2023; Kerala High Court W.P.(Crl.) No. 1271 of 2023 dismissed on 04.03.2024",
+      "laws": [
+        "Section 3(1) of the Conservation of Foreign Exchange and Prevention of Smuggling Activities Act, 1974 (COFEPOSA)",
+        "Section 37 of the Foreign Exchange Management Act, 1999 (FEMA)",
+        "Article 22(5) of the Constitution"
+      ],
+      "acts": [
+        "Conservation of Foreign Exchange and Prevention of Smuggling Activities Act, 1974",
+        "Foreign Exchange Management Act, 1999"
+      ],
+      "person": "a currency-exchange operator in Erattupetta, Kottayam district",
+      "detail": [
+        "The Supreme Court recorded that the detention order dated 31st August 2023 was passed by the Detaining Authority under Section 3(1) of the COFEPOSA to prevent future prejudice to augmentation of foreign exchange.",
+        "The grounds cited a 19.06.2023 search at the home in Nadakkal, Erattupetta, seizing unaccounted Indian currency amounting to Rs 6,70,100 plus gold and silver, and witness statements and phone material alleging hawala dealings.",
+        "The authority alleged the man had indulged in hawala dealings, illegal purchase, sale and carriage of foreign currencies, gathering foreign currency from NRIs without KYC or RBI permission and moving cash by bus via Madurai, with about Rs 25 crore turnover.",
+        "The Court held Preetha Pradeep statements were vital links but were not supplied to the detenu, violating the right to make an effective representation, and that Section 5A COFEPOSA could not save the composite ground.",
+        "The Court also held representations sent in September 2023 but decided only in June 2024 showed callous delay, and directed that the detenu be released forthwith if not required in any other case."
+      ],
+      "current_position": "Detention order and confirmation quashed; the detenu was directed to be released forthwith if not required in any other case.",
+      "quote": {
+        "text": "have indulged yourself in hawala dealings, illegal purchase, sale and carriage of foreign currencies.",
+        "where": "Criminal Appeal No. 3083 of 2024, ground ix",
+        "url": "https://indiankanoon.org/doc/170724436/"
+      },
+      "caveats": "The other supplied page is a separate Kerala High Court detention petition concerning a different detainee; its Rs 1,71,82,506.62 seizure figure should not be attributed to this case. The Supreme Court judgment records Rs 6,70,100 in Indian currency, plus gold and silver. It does not state a FEMA adjudication penalty.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The case concerns alleged unlicensed purchase, sale and carriage of foreign currencies; the Supreme Court set aside the preventive detention on procedural grounds."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/170724436/",
+          "kind": "judgment",
+          "publisher": "Supreme Court of India (via Indian Kanoon)",
+          "date": "2024-09-12",
+          "supports": "Detention dates, search and cash seizure, hawala allegation, quashing and release direction"
         }
       ],
       "verification": "V2"
@@ -1552,6 +1710,57 @@
       "verification": "V2"
     },
     {
+      "id": "ef-mp-0004",
+      "category": "trade",
+      "state": "Madhya Pradesh",
+      "title": "Bank accounts of areca-nut importer frozen over origin-paper doubts; High Court quashes freeze",
+      "summary": "Customs/DRI authorities provisionally attached four bank accounts of an importing firm over doubted Sri Lankan origin certificates for areca-nut consignments. The Madhya Pradesh High Court at Indore held the fresh attachment was without jurisdiction and directed the accounts be defrozen.",
+      "date": "2025-04-21",
+      "date_label": "High Court judgment",
+      "incident_date": "2024-12-03",
+      "outcome": "quashed",
+      "authority": "Madhya Pradesh High Court at Indore (Justices Sushrut Arvind Dharmadhikari and Gajendra Singh)",
+      "case_reference": "W.P. No. 874 of 2025, Neutral Citation 2025:MPHC-IND:10229",
+      "laws": [
+        "Sections 28, 28AAA, 28B, 28BA, 110(5) and 110A of the Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "an importing firm and its allied entity before the Indore bench",
+      "penalty": "Provisional attachment of four bank accounts for six months from 03.12.2024, set aside",
+      "detail": [
+        "The High Court recorded that the petitioners import Sri Lankan-origin areca nuts and that the authorities doubted the origin papers for four late-2022 consignments, treating one certificate for a 30.11.2022 entry as fake.",
+        "The authorities' case, as recorded by the Court, was that the tariff relief claimed under the bilateral pact was suspect, so access to four deposit accounts was blocked, with earlier blocks dated 07.12.2023 and 03.06.2024 followed by a fresh six-month block dated 03.12.2024.",
+        "The Court held that a provisional bank-account attachment needs a pending adjudicatory proceeding begun by a demand notice, and recorded that no show-cause notice under Section 28, 28AAA or 28B had been issued, so inquiry alone could not sustain the freeze.",
+        "The Court allowed the writ, quashed the 03.12.2024 attachment communication, and directed the respondents to defreeze the petitioners' bank accounts immediately."
+      ],
+      "current_position": "The attachment stands quashed and the accounts were ordered to be defrozen; no confiscation or penalty was imposed in this decision.",
+      "quote": {
+        "text": "Respondents are directed to defreeze the bank accounts of the petitioners",
+        "where": "W.P. No. 874 of 2025, operative directions",
+        "url": "https://indiankanoon.org/doc/55582432/"
+      },
+      "caveats": "Petitioners' home town is not stated in the excerpt, so no district is given; Madhya Pradesh nexus is via the Indore bench of the High Court. Whether any later show-cause notice was issued after the judgment could not be confirmed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The judgment concerns customs review of areca-nut origin certificates and claimed duty exemption; it records no allegation of violence, fraud on a person or prohibited goods."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/55582432/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon (mirror of Madhya Pradesh High Court judgment)",
+          "date": "2025-04-21",
+          "supports": "goods, attachment timeline, sections cited, quashing and defreeze directions"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "ef-mp-0007",
       "category": "labour",
       "state": "Madhya Pradesh",
@@ -1708,6 +1917,166 @@
           "publisher": "High Court of Madhya Pradesh",
           "date": "2026-07-01",
           "supports": "ownership, permissions, stop-work notice allegation, and quashing"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-od-0004",
+      "category": "trade",
+      "state": "Odisha",
+      "title": "Customs duty demand on iron ore fines export ends in exporter's favour",
+      "summary": "Customs assessed Rs 13.5 crore duty on two export consignments of iron ore fines. The Commissioner (Appeals) and CESTAT Kolkata set the demand aside. The Orissa High Court dismissed the Commissioner's appeal on 15 January 2026.",
+      "date": "2026-01-15",
+      "date_label": "High Court order",
+      "incident_date": "2021-03-03",
+      "outcome": "penalty_set_aside",
+      "authority": "Orissa High Court at Cuttack; CESTAT Kolkata; [name withheld] (Appeals)",
+      "case_reference": "OTAPL No.50 of 2025; Shipping Bills No.9089712 dated 03.03.2021 and No.9152539 dated 06.03.2021",
+      "laws": [
+        "Section 130 of the Customs Act, 1962",
+        "Section 128 of the Customs Act, 1962",
+        "Section 129A of the Customs Act, 1962",
+        "Section 14 of the Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "an iron-ore exporter in Odisha",
+      "penalty": "Rs.13,50,87,258/- duty levied vide Order dated 08.10.2021, later set aside",
+      "detail": [
+        "The High Court recorded that the exporter submitted two shipping bills for iron ore fines of Indian origin for export of 55,480 Wet Metric Tonne.",
+        "Customs said samples tested above 58% Fe on dry basis and levied duty, while the exporter relied on a private lab report below 58% and claimed nil duty.",
+        "The Commissioner (Appeals) order dated 08.06.2023 set the demand aside, and the Tribunal said the Revenue appeal was devoid of merit.",
+        "The High Court held no substantial question of law arose and dismissed the Commissioner's appeal without disturbing the concurrent findings of fact."
+      ],
+      "current_position": "The duty demand stands set aside and the Revenue appeal stands dismissed with no costs.",
+      "quote": {
+        "text": "levied customs duty to the tune of Rs.13,50,87,258/- vide Order dated 08.10.2021.",
+        "where": "[name withheld] (Preventive) vs [name withheld], OTAPL No.50 of 2025, Orissa High Court order dated 15.01.2026",
+        "url": "https://indiankanoon.org/doc/21617280/"
+      },
+      "caveats": "Port of export not confirmed in excerpt; Odisha nexus is via the deciding court at Cuttack and [name withheld] (Preventive) Bhubaneswar jurisdiction.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Exporting ordinary bulk cargo harmed no one; the dispute was only about Fe-content measurement and duty rate on dry versus wet weight."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/21617280/",
+          "kind": "judgment",
+          "publisher": "Orissa High Court via Indian Kanoon",
+          "date": "2026-01-15",
+          "supports": "court, date, case number, goods, shipping bills, duty amount, outcome"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-od-0006",
+      "category": "business",
+      "state": "Odisha",
+      "title": "Balasore market shopkeepers lose plea against eviction for road work",
+      "summary": "[name withheld] ordered shopkeepers in two market complexes to vacate for road widening and drainage work. The shopkeepers said 50-plus units had traded there for decades. The Orissa High Court dismissed their writs on 9 January 2026 and vacated interim protection.",
+      "date": "2026-01-09",
+      "date_label": "High Court judgment",
+      "incident_date": "2025-09-20",
+      "district": "Balasore",
+      "outcome": "penalty",
+      "authority": "Orissa High Court at Cuttack; [name withheld] and district authorities",
+      "case_reference": "W.P.(C) No.28085 of 2025 with W.P.(C) No.28055 of 2025; CONTC Nos.4571 and 4572 of 2025",
+      "laws": [
+        "Street Vendors (Protection of Livelihood and Regulation of Street Vending) Act, 2014",
+        "Article 19(1)(g) of the Constitution",
+        "Article 21 of the Constitution",
+        "Articles 226 and 227 of the Constitution"
+      ],
+      "acts": [
+        "Street Vendors (Protection of Livelihood and Regulation of Street Vending) Act, 2014"
+      ],
+      "person": "shopkeepers in market complexes in Balasore town",
+      "penalty": "eviction/demolition of shop rooms upheld; writs dismissed",
+      "detail": [
+        "The High Court recorded that the dispute concerns proposed eviction and demolition affecting shop rooms in Golden Jubilee Market and Arunodaya Market Complex within [name withheld].",
+        "The shopkeepers said they had traded for over three decades and sought enforcement of a consultative panel process and protection of livelihood.",
+        "The authorities said the occupiers were encroachers on public-works land blocking road widening and drains, and that hawker law did not cover permanent unauthorised shops.",
+        "The Court rejected the challenge to the eviction and demolition action, dismissed both writs, dropped the linked contempt cases, and asked the town and district to monitor against fresh occupation."
+      ],
+      "current_position": "Writs stand dismissed and interim pause stands vacated, leaving the eviction to proceed under municipal and district supervision.",
+      "quote": {
+        "text": "W.P.(C) Nos.28055 of 2025 and 28085 of 2025 stand dismissed.",
+        "where": "W.P.(C) No.28085 of 2025, Orissa High Court judgment dated 09.01.2026",
+        "url": "https://indiankanoon.org/doc/82522030/"
+      },
+      "caveats": "Exact number of affected shops and rehabilitation offer could not be confirmed from the excerpt; no fine amount was imposed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Running small shops harmed no one; the action was licence-permit and encroachment enforcement over use of public land for livelihood."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/82522030/",
+          "kind": "judgment",
+          "publisher": "Orissa High Court via Indian Kanoon",
+          "date": "2026-01-09",
+          "supports": "court, date, case numbers, market names, eviction facts, laws, dismissal outcome"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-od-0007",
+      "category": "labour",
+      "state": "Odisha",
+      "title": "High Court sets aside labour tribunal wage award against private ferro-alloys plant",
+      "summary": "The management of the private ferro-alloys plant at Theruballi, Rayagada, challenged a 2013 Industrial Tribunal award. The award had answered the wage and additional-dearness-allowance issues in favour of the workmen but rejected their claim on time-bound promotions and grade rationalisation. The Orissa High Court held that the Tribunal had not adequately analysed the evidence or stated the workmen's entitlement, set aside the award, and remitted the reference for fresh adjudication.",
+      "date": "2025-12-10",
+      "date_label": "High Court judgment",
+      "district": "Rayagada",
+      "outcome": "penalty_set_aside",
+      "authority": "Orissa High Court (Justice K. R. Mohapatra and Justice Savitri Ratho); Presiding Officer, Tribunal-cum-Labour Court, Bhubaneswar (award set aside)",
+      "case_reference": "W.P.(C) No.27772 of 2013; Industrial Dispute Case No.6 of 2006; award dated 10.10.2013",
+      "laws": [
+        "Section 10(1) and Section 12(4) of the Industrial Disputes Act, 1947",
+        "Articles 226 and 227 of the Constitution of India"
+      ],
+      "acts": [
+        "Industrial Disputes Act, 1947"
+      ],
+      "person": "management of a private ferro-alloys company at Theruballi, Rayagada",
+      "detail": [
+        "The High Court recorded that the petitioner was the management of M/s. [name withheld] Ltd. at Theruballi, represented through its Vice-President (Operations), and that the opposite parties included the State labour department, the Presiding Officer of the Central Government Industrial Tribunal-cum-Labour Court at Bhubaneswar, and the workers' union.",
+        "The union raised a 21-point charter of demands on 17 December 2004 during the currency of an earlier settlement. After tripartite discussions failed and conciliation ended, the government referred the dispute as Industrial Dispute Case No. 6 of 2006. The Tribunal's award dated 10 October 2013 answered the wage and additional-dearness-allowance issues in favour of the workmen but answered the time-bound promotion and grade-rationalisation issue against them.",
+        "The High Court held that, on the issues before it, the Tribunal cited legal principles but did not adequately discuss the evidence or state the workmen's entitlement. It also found that the Tribunal had not discussed the subject matter and effect of settlements with a group of workmen, the source of its profit and burden figures, or the relevant comparative evidence. The Court set aside the award and remitted the reference for fresh adjudication, with liberty to lead further evidence.",
+        "The High Court directed the parties to appear before the Tribunal on 6 January 2026, allowed the writ petition to that extent, and ordered no costs."
+      ],
+      "current_position": "The 2013 tribunal award stands set aside and the industrial dispute is remanded for fresh adjudication before the Tribunal-cum-Labour Court, Bhubaneswar.",
+      "quote": {
+        "text": "in Industrial Dispute Case No.6 of 2006 answering the reference in favour",
+        "where": "W.P.(C) No.27772 of 2013, judgment dated 10.12.2025",
+        "url": "https://indiankanoon.org/doc/186079418/"
+      },
+      "caveats": "The judgment expressly identifies Theruballi as being in Rayagada district.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "A Tribunal award addressed wage and additional-dearness-allowance terms between workmen and a private employer. The High Court set aside the award after finding that the Tribunal had not adequately assessed the evidence, and remitted the reference for fresh adjudication."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/186079418/",
+          "kind": "judgment",
+          "publisher": "Orissa High Court (via Indian Kanoon)",
+          "date": "2025-12-10",
+          "supports": "parties, ID Case No.6 of 2006, award dated 10.10.2013, setting aside of award, remand direction"
         }
       ],
       "verification": "V2"
@@ -1941,6 +2310,113 @@
           "publisher": "Customs, Excise and Service Tax Appellate Tribunal, Hyderabad via Indian Kanoon",
           "date": "2026-03-18",
           "supports": "interception at RGI Airport Hyderabad, recovery and value of gold, confiscation and penalty history, and dismissal of appeal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-tg-0004",
+      "category": "trade",
+      "state": "Telangana",
+      "title": "Electronics seized from air passenger at Hyderabad airport, writ dismissed",
+      "summary": "Customs officers at Hyderabad airport seized iPhones, watches, drones and consoles from a passenger arriving from Abu Dhabi. The Telangana High Court recorded the seizure through panchanama of 11/12.11.2025 and dismissed the passenger's writ challenge.",
+      "date": "2026-06-09",
+      "date_label": "High Court order",
+      "incident_date": "2025-11-11",
+      "district": "Ranga Reddy",
+      "outcome": "seizure",
+      "authority": "Telangana High Court; Air Customs, Hyderabad; CISF",
+      "case_reference": "W.P. No. 35979 of 2025; Panchanama dated 11/12.11.2025; Show Cause No.05/2026 JC dated 12.02.2026",
+      "laws": [
+        "Section 2(34), 77, 100-110, 102, 108 of the Customs Act, 1962",
+        "Section 10, 12 of the CISF Act, 1968",
+        "Article 21 and Article 226 of the Constitution of India"
+      ],
+      "acts": [
+        "Customs Act, 1962",
+        "CISF Act, 1968"
+      ],
+      "person": "a passenger arriving at Hyderabad airport from Abu Dhabi",
+      "detail": [
+        "The High Court recorded that the petitioner travelled from Abu Dhabi to Hyderabad by Etihad flight on 11.11.2025 and was found in the arrival area at about 20:40 hrs.",
+        "Customs said the goods were examined with neutral witnesses and X-ray, and the High Court recorded that goods were seized by Customs officers through panchanama dated 11/12.11.2025.",
+        "The Court listed the detained electronics as 05 iPhone 17 Pro Max, 28 iPhone 17 Pro, 10 Watch SE, 04 DJI Air 3S drones and 02 Nintendo Switch 2 valued at Rs 35,08,456.",
+        "The Court held the interception took place after exit through the Green Channel and not before Customs clearance, and dismissed the writ with adjudication under show cause dated 12.02.2026 pending."
+      ],
+      "current_position": "Writ dismissed on 09.06.2026; customs adjudication under show cause of 12.02.2026 pending.",
+      "quote": {
+        "text": "goods were seized by Customs officers through Panchanama dated 11/12.11.2025",
+        "where": "Telangana High Court order dated 09.06.2026, W.P. No. 35979 of 2025",
+        "url": "https://indiankanoon.org/doc/32048239/"
+      },
+      "caveats": "Value of larger 1.4 crore claim vs retained set could not be fully reconciled from excerpt; district is airport location in Ranga Reddy.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Carrying ordinary consumer electronics across a border harmed no one; the seizure penalises peaceful trade in everyday goods."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/32048239/",
+          "kind": "judgment",
+          "publisher": "Telangana High Court via Indian Kanoon",
+          "date": "2026-06-09",
+          "supports": "travel date, goods seized, panchanama, show cause, dismissal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-tg-0005",
+      "category": "capital",
+      "state": "Telangana",
+      "title": "Student's foreign currency for tuition confiscated at Hyderabad airport",
+      "summary": "CISF intercepted a student at Hyderabad airport while he was bound for Dubai with UAE dirhams worth INR 7,08,390. He told officials the cash was for semester tuition fees. The Telangana High Court allowed the writ petition on 21.01.2026.",
+      "date": "2026-01-21",
+      "date_label": "High Court order",
+      "district": "Ranga Reddy",
+      "outcome": "confiscation",
+      "authority": "Telangana High Court; Customs, Hyderabad; Commissioner (Appeals)",
+      "case_reference": "W.P. No.1618 of 2026; Order-in-Original dated 09.05.2024",
+      "laws": [
+        "Section 113(d), 113(e), 113(h), 114, 114(i), 128, 129E of the Customs Act, 1962",
+        "Section 13(1) of the Foreign Exchange Management Act, 1999",
+        "Foreign Exchange Management (Export and Import of Currency) Regulations, 2015"
+      ],
+      "acts": [
+        "Customs Act, 1962",
+        "Foreign Exchange Management Act, 1999"
+      ],
+      "person": "a student travelling from Hyderabad to Dubai",
+      "detail": [
+        "The High Court recorded that the traveller was stopped during boarding from Hyderabad toward Dubai and handed to customs intelligence over suspected undeclared foreign notes.",
+        "The currency was described as 30,600 UAE dirhams equivalent to Rs 7,08,390, which the traveller said was for university term fees for an IT master's degree in Dubai.",
+        "The original authority ordered absolute confiscation of the subject foreign currency equivalent to INR 7,08,390; the appeal was dismissed as time-barred and for non-compliance with the pre-deposit requirement.",
+        "The Telangana High Court allowed the writ petition on 21.01.2026."
+      ],
+      "current_position": "The Telangana High Court allowed the writ petition on 21.01.2026.",
+      "quote": {
+        "text": "absolute confiscation of the subject foreign currency equivalent to INR 7,08,390/-",
+        "where": "Telangana High Court, W.P. No. 1618 of 2026, order dated 21.01.2026",
+        "url": "https://indiankanoon.org/doc/113539090/"
+      },
+      "caveats": "Exact July 2023 interception day not confirmed in excerpt, so incident_date left null; merits of FEMA vs Customs charge await appellate decision.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Carrying one's own money abroad to pay fees harmed no one; confiscation punishes peaceful movement of capital."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/113539090/",
+          "kind": "judgment",
+          "publisher": "Telangana High Court via Indian Kanoon",
+          "date": "2026-01-21",
+          "supports": "currency amount, confiscation, penalty, remand direction"
         }
       ],
       "verification": "V2"
@@ -2293,6 +2769,165 @@
       "verification": "V2"
     },
     {
+      "id": "ef-tn-0007",
+      "category": "labour",
+      "state": "Tamil Nadu",
+      "title": "Private school challenged ESI contribution demands, withdrew to seek amnesty",
+      "summary": "The ESI Corporation raised contribution demands against a private matriculation school. The school challenged two 2020 demand orders in the Madras High Court. On 9 September 2026 the Court allowed the school to withdraw the writ petition to avail the ESI Amnesty Scheme.",
+      "date": "2026-09-09",
+      "date_label": "High Court order",
+      "outcome": "penalty",
+      "authority": "Madras High Court (Dr. Anita Sumanth, J.)",
+      "case_reference": "W.P.No.5300 of 2021 with W.M.P.Nos.5859 of 2021 & 40859 of 2026",
+      "laws": [
+        "Employees State Insurance Act, 1948",
+        "Article 226 of the Constitution of India"
+      ],
+      "acts": [
+        "Employees State Insurance Act, 1948"
+      ],
+      "person": "correspondent of a matriculation [name withheld] at Ayyappanthangal",
+      "penalty": "ESI contribution demands Ref.No.51001097680001302/CP/372108 CCR-92962/001 dated 22.05.2020 and No.TN/RECY/45G/51 51001097680001302/CCR-92962 dated 11.09.2020, quantification left to authority under Amnesty Scheme dated 24.07.2025",
+      "detail": [
+        "The High Court recorded that the petitioner is a school at No.1, Raghavendra Nagar, Ayyappanthangal, acting through its correspondent, and the respondents are the ESI Corporation, Regional Office (TN), the Assistant/Deputy Director and the Recovery Officer.",
+        "The High Court recorded that the school challenged two ESI directives from 2020 described as raising a demand of contribution in terms of the Employees State Insurance Act, 1948.",
+        "The High Court recorded that the ESI Amnesty Scheme dated 24.07.2025 was notified during pendency and counsel sought to resolve the dispute through that programme.",
+        "The High Court recorded that counsel for the Corporation raised no objection to eligibility, with quantification to be left to the authority concerned, and ordered that the miscellaneous plea was allowed and the main plea was ended as retracted to permit use of the programme."
+      ],
+      "current_position": "Writ petition dismissed as withdrawn on 9 September 2026; contribution liability to be quantified by ESI authority under the Amnesty Scheme.",
+      "quote": {
+        "text": "dismiss this writ petition as withdrawn, to enable the petitioner to avail the benefit of Amnesty Scheme",
+        "where": "W.P.No.5300 of 2021, operative order dated 09-09-2026",
+        "url": "https://indiankanoon.org/doc/85966285/"
+      },
+      "caveats": "Demand amounts and district were not stated in the excerpt viewed; school address at Ayyappanthangal noted but district not confirmed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "A private employer faced state demands under the ESI Act over staffing contributions, with no allegation of injury, wage theft, child or bonded labour. It is a penalty for hiring choices."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/85966285/",
+          "kind": "court_order",
+          "publisher": "Madras High Court via Indian Kanoon",
+          "date": "2026-09-09",
+          "supports": "court, date, case number, parties, ESI demand references, amnesty scheme, final order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-tn-0008",
+      "category": "hoarding",
+      "state": "Tamil Nadu",
+      "title": "Petroleum storage case quashed over illegal search and delayed samples",
+      "summary": "Police charged a person in Namakkal with storing motor spirit and high speed diesel in violation of the Essential Commodities Act. The case was pending as C.C.No.314 of 2023 before the Judicial Magistrate No.II, Namakkal. On 9 September 2026 the Madras High Court allowed the petition and quashed the trial case.",
+      "date": "2026-09-09",
+      "date_label": "High Court order quashing prosecution",
+      "incident_date": "2021-06-25",
+      "district": "Namakkal",
+      "outcome": "quashed",
+      "authority": "Madras High Court (Justice S. Alli)",
+      "case_reference": "CRL OP No.26485 of 2025 (CRL MP No.18002 of 2025); C.C.No.314 of 2023, JM No.II Namakkal; Crime No.51/2021",
+      "laws": [
+        "Section 7(1) of the Essential Commodities Act, 1955",
+        "Sections 8(4), 8(5) and 8(6) - Motor Spirit and High Speed Diesel (Regulation of Supply, Distribution and Prevention of Malpractices) Order",
+        "Section 528 of BNSS"
+      ],
+      "acts": [
+        "Essential Commodities Act, 1955"
+      ],
+      "person": "a person accused in a Namakkal fuel-storage case",
+      "detail": [
+        "The High Court recorded that on 25.06.2021 at about 18.00 hours a revenue official and assistants proceeded to the scene of occurrence, conducted a search, seized the materials and drew samples.",
+        "The High Court recorded that the materials were later recovered from the Village Administrative Officer, samples were drawn at 22.30 that night and sent to the lab on 06.07.2021, with the lab report dated 18.04.2023.",
+        "The High Court recorded that testing norms IS 2796 and IS 1460 for motor spirit and high speed diesel respectively were discussed, with no allegation of PDS diversion, adulteration, cheating or subsidy theft stated in the excerpt.",
+        "The High Court held that the initial search by an unauthorised team was flawed and later takeover would not, by itself, cure the defect in the initial search and seizure, and that delay and non-communication harmed sample reliability and re-test opportunity.",
+        "The High Court ordered that this Criminal Original Petition is allowed and C.C.No.314 of 2023 pending on the file of the learned Judicial Magistrate No.II, Namakkal, is hereby quashed."
+      ],
+      "current_position": "Prosecution in C.C.No.314 of 2023 stands quashed as of 9 September 2026.",
+      "quote": {
+        "text": "C.C.No.314 of 2023 pending on the file of the learned Judicial Magistrate No.II, Namakkal, is hereby quashed.",
+        "where": "CRL OP No.26485 of 2025, operative order dated 09-09-2026",
+        "url": "https://indiankanoon.org/doc/49408184/"
+      },
+      "caveats": "Exact fuel type and quantity seized were not named in the excerpt viewed; no PDS, adulteration or cheating terms appeared in the excerpt.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Storing and keeping fuel was treated as an offence over paperwork and procedure, with no complaining victim, violence, fraud, or PDS diversion stated. It punishes charging and storing what you like."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/49408184/",
+          "kind": "judgment",
+          "publisher": "Madras High Court via Indian Kanoon",
+          "date": "2026-09-09",
+          "supports": "court, date, case numbers, search and seizure facts, sections, reasoning and quashing order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-tn-0009",
+      "category": "property",
+      "state": "Tamil Nadu",
+      "title": "Nagapattinam building locked and sealed for deviation, writ dismissed",
+      "summary": "A building owner in Nagapattinam Municipality faced lock-and-seal action for unauthorised construction in deviation of permission. The owner sought to quash municipal notice Na.Ka.No.1341/2024/F.1 dated 09.04.2026. On 29 June 2026 the Madras High Court dismissed the writ petition.",
+      "date": "2026-06-29",
+      "date_label": "High Court order dismissing writ",
+      "incident_date": "2025-08-28",
+      "district": "Nagapattinam",
+      "outcome": "penalty",
+      "authority": "Madras High Court (Dr. G. Jayachandran and N. Mala, JJ.)",
+      "case_reference": "W.P.No.18323 of 2026 with W.M.P.No.19669 of 2026; municipal notice Na.Ka.No.1341/2024/F.1 dated 09.04.2026",
+      "laws": [
+        "Sections 49, 56 and 56(4) of the Tamil Nadu Town and Country Planning Act, 1971",
+        "Section 80A of the Tamil Nadu Town and Country Planning Act, 1971"
+      ],
+      "acts": [
+        "Tamil Nadu Town and Country Planning Act, 1971"
+      ],
+      "person": "a building owner in Nagapattinam town",
+      "penalty": "lock and seal of building; writ dismissed, demolition/rectification process under Section 56 upheld",
+      "detail": [
+        "The High Court recorded that the petitioner herein has put up an unauthorised construction and was served with a notice for its removal, with no allegation of encroachment on public or another person's land.",
+        "The High Court recorded the violation as development carried out in deviation of a permission under the Town and Country Planning Act, 1971, including Sections 49, 56 and 56(4).",
+        "The High Court recorded that the petitioner failed to submit either the demolition approval plan within time, and that a lock and seal notice dated 28.08.2025 was issued stating the building would be kept under lock and seal.",
+        "The High Court recorded a revisional proceeding dated 06.01.2026 calling for demolition or rectification submission within three months, followed by municipal notice dated 09.04.2026 after expiry.",
+        "The High Court ordered that this Writ Petition stands dismissed."
+      ],
+      "current_position": "Writ dismissed on 29 June 2026; lock-and-seal and Section 56 proceedings stand.",
+      "quote": {
+        "text": "a lock and seal notice dated 28.08.2025 was issued",
+        "where": "W.P.No.18323 of 2026, order dated 29-06-2026",
+        "url": "https://indiankanoon.org/doc/35835158/"
+      },
+      "caveats": "Precise extent of deviation and building measurements could not be confirmed from the excerpt viewed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "An owner was penalised for how they built on their own land in deviation of sanction, with no victim, encroachment, or harm to others alleged. It punishes use of own property."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/35835158/",
+          "kind": "court_order",
+          "publisher": "Madras High Court via Indian Kanoon",
+          "date": "2026-06-29",
+          "supports": "court, date, case number, Nagapattinam location, Act sections, lock-and-seal chronology, dismissal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "ef-up-0003",
       "category": "gold",
       "state": "Uttar Pradesh",
@@ -2464,6 +3099,66 @@
           "publisher": "Allahabad High Court via Indian Kanoon",
           "date": "2025-09-04",
           "supports": "seizure facts, licence/mandi/levy allegations, trial conviction and sentence, farmer-produce defence, acquittal and release directions"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-up-0009",
+      "category": "property",
+      "state": "Uttar Pradesh",
+      "title": "Raebareli landowner's structure demolished without notice; High Court orders restoration and Rs 20 lakh costs",
+      "summary": "The High Court recorded that revenue officers deleted a recorded tenure-holder's name and demolished a structure on the land in March 2025 without notice or hearing. The High Court set aside the revenue order as illegal and arbitrary. The High Court ordered restoration of possession and Rs 20 lakh costs against the State.",
+      "date": "2025-12-18",
+      "date_label": "High Court judgment",
+      "incident_date": "2025-03-24",
+      "district": "Raebareli",
+      "outcome": "quashed",
+      "authority": "Allahabad High Court (Justice Alok Mathur)",
+      "case_reference": "SDM order dated 10.02.2025; Allahabad High Court judgment dated 18.12.2025",
+      "laws": [
+        "Section 38(5), U.P. Revenue Code, 2006",
+        "Section 67, U.P. Revenue Code, 2006",
+        "Section 229B, U.P. Zamindari Abolition and Land Reforms Act",
+        "Article 300A, Constitution of India"
+      ],
+      "acts": [
+        "U.P. Revenue Code, 2006",
+        "U.P. Zamindari Abolition and Land Reforms Act",
+        "Constitution of India"
+      ],
+      "person": "a woman landowner in Raebareli district",
+      "penalty": "SDM order dated 10.02.2025 set aside; State ordered to pay Rs 20 lakh costs within two months and restore vacant possession within two weeks; departmental inquiry and recovery from responsible officials ordered",
+      "detail": [
+        "The High Court recorded that the petitioner had purchased the land in February 2021 by registered sale deed from the heir of a person in whose favour a declaration under Section 229B had attained finality, with successive mutations in revenue records.",
+        "LawBeat reported that the Sub-Divisional Magistrate, acting on a Naib Tehsildar report alleging a forged entry, passed a suo motu correction order on 10 February 2025 deleting the petitioner's name and recording the land as village-community land, without notice or hearing.",
+        "LawBeat reported that within weeks a revenue team demolished the petitioner's structure on 24 March 2025 and handed the land over for construction of a government department building.",
+        "The High Court held that Section 38 permits only clerical corrections and bars title adjudication, so revenue officers could not nullify a final judicial decree; the High Court further held that even if eviction were warranted, Section 67 procedure with notice, hearing and reasoned order was mandatory and was not followed.",
+        "The High Court held the demolition without notice and without waiting for the appeal period violated due process and the constitutional right to property, and directed restoration, costs and an inquiry by an officer not below Additional Chief Secretary rank."
+      ],
+      "current_position": "The revenue order stands quashed with possession to be restored and costs to be paid; a departmental inquiry was ordered.",
+      "caveats": "Full judgment PDF is scanned and could not be text-extracted here; paragraph numbering not confirmed; one secondary report dates the decision 19 December 2025 while LawBeat gives 18 December 2025; the State had alleged village-community land but the court restored the petitioner's title, so it is treated as own land per the court's finding.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The state demolished a structure on land the court treated as the owner's own holding, with no complaining victim, violence, fraud or encroachment found; peaceful use of one's own land is the protected freedom."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.livelaw.in/pdf_upload/20-lakh-643165.pdf",
+          "kind": "judgment",
+          "publisher": "Allahabad High Court (copy hosted by LiveLaw)",
+          "date": "2025-12-18",
+          "supports": "case title, court, opening finding on revenue proceedings, that it is a court judgment"
+        },
+        {
+          "url": "https://lawbeat.in/news-updates/illegal-demolition-without-due-process-violates-article-300a-allahabad-high-court-orders-restoration-of-land-rs-20-lakh-costs-1551332",
+          "kind": "news",
+          "publisher": "LawBeat",
+          "date": "2025-12-29",
+          "supports": "SDM order date, demolition date, sale-deed and decree history, Sections 38 and 67 findings, Article 300A holding, Rs 20 lakh costs and restoration directions"
         }
       ],
       "verification": "V2"

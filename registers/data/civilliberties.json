@@ -796,6 +796,128 @@
         }
       ],
       "verification": "V2"
+    },
+    {
+      "id": "cl-up-0001",
+      "category": "speech",
+      "state": "Uttar Pradesh",
+      "title": "Man jailed over a year for sharing edited videos and slogan granted bail by Allahabad High Court",
+      "summary": "Police in Hathras district arrested a man in May 2025 for uploading edited videos on Facebook and sharing a slogan, and charged him under Sections 152 and 197 of the BNS. His first bail plea was rejected in July 2025. The Allahabad High Court granted him bail by order dated 14 July 2026, after about 14 months in jail, while the trial remains pending.",
+      "date": "2026-07-14",
+      "date_label": "High Court bail order (second bail application)",
+      "district": "Hathras",
+      "outcome": "prosecution_pending",
+      "authority": "Allahabad High Court (Justice Arun Kumar Singh Deshwal)",
+      "case_reference": "Case Crime No. 194 of 2025; Criminal Misc. Bail Application No. 41516 of 2025 (earlier rejected application No. 20227 of 2025)",
+      "laws": [
+        "Section 152, BNS",
+        "Section 197, BNS"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "a man from Hathras district",
+      "detail": [
+        "The High Court recorded that the applicant faced trial in Case Crime No. 194 of 2025 and had been in custody since May 2025, and it allowed the second bail application while imposing conditions including appearing before the trial court.",
+        "The Court's earlier rejection order recorded that the allegation was that the accused had uploaded edited videos on his Facebook ID and shared a slogan, and that order denied bail at that stage.",
+        "Bar and Bench reported that the accused had spent over a year in jail for allegedly sharing a social-media post showing the Prime Minister apologising to Pakistan along with a slogan, shortly after Operation Sindoor.",
+        "The state opposed bail, calling the conduct harmful to unity, while the applicant's side argued there was no material showing he had forwarded the messages, cited delay with no witnesses examined, and cited parity with a co-accused already granted bail."
+      ],
+      "current_position": "Released on bail by the High Court's 14 July 2026 order; trial in Case Crime No. 194 of 2025 remains pending subject to bail conditions.",
+      "quote": {
+        "text": "I am of the opinion that the applicant is entitled to be enlarged on bail. Accordingly, the present application is allowed.",
+        "where": "Allahabad High Court bail order dated 14.07.2026 in Case Crime No. 194 of 2025 (order text)",
+        "url": "https://www.legalrepublic.in/high-courts/allahabad-hc/asharaf-khan-bail-sections-152-197-bns-hathras-allahabad-hc-2025/judgment.pdf"
+      },
+      "caveats": "The exact date the videos were uploaded was not stated in the material opened; custody is recorded from 13.05.2025 and the posts were described as shared shortly after Operation Sindoor. The first-order text names the police station as Sasni and the second as Sasani Kotwari; both versions are reported as printed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "Sharing edited videos and a slogan on Facebook harmed no person and involved no violence, threats or doxxing; the accused spent about 14 months in jail before trial for expression alone."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/188403480/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon (mirror of Allahabad High Court order)",
+          "date": "2026-07-14",
+          "supports": "bail grant, crime number, sections, police station, custody since 13.05.2025, judge, parity and speedy-trial reasoning"
+        },
+        {
+          "url": "https://indiankanoon.org/doc/2320579/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon (mirror of Allahabad High Court order)",
+          "date": "2025-07-02",
+          "supports": "first bail rejection, description of the Facebook videos and slogan, same crime number and custody start"
+        },
+        {
+          "url": "https://www.barandbench.com/news/allahabad-hc-grants-bail-to-man-booked-for-sharing-social-media-post-showing-pm-apologising-to-pakistan",
+          "kind": "news",
+          "publisher": "Bar and Bench",
+          "date": "2026-07-17",
+          "supports": "reporting of the bail grant, year-long jailing, and description of the shared post and slogan"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "cl-wb-0001",
+      "category": "speech",
+      "state": "West Bengal",
+      "title": "Woman content creator in Malda arrested within hours over video criticising Union Home Minister",
+      "summary": "Police in Malda district arrested a woman content creator on 11 July 2026 after local political leaders complained about a video on border fencing. Police said the video contained abusive remarks about the Union Home Minister and registered a case under the Information Technology Act. Rights advocates criticised the speed of the arrest as chilling political criticism.",
+      "date": "2026-07-11",
+      "date_label": "Arrest reported",
+      "incident_date": "2026-07-11",
+      "district": "Malda",
+      "outcome": "arrest",
+      "authority": "Chanchal Police Station, West Bengal Police; Chanchal Sub-divisional Court",
+      "laws": [
+        "Information Technology Act"
+      ],
+      "acts": [
+        "Information Technology Act"
+      ],
+      "person": "a woman content creator in Malda district",
+      "detail": [
+        "The Observer Post reported that a social media content creator was arrested in West Bengal's Malda district on Saturday after allegedly posting a video containing abusive remarks against the Union Home Minister, and that the arrest came after local political leaders lodged a complaint accusing her of using offensive language while commenting on border fencing and illegal infiltration.",
+        "The Millennium Post reported that the woman from Chanchal in Malda was arrested within 12 hours of the complaint over allegedly posting a video containing abusive and objectionable remarks against the Union Home Minister over the India-Bangladesh border issue, and was produced before a local court.",
+        "Chanchal SDPO [name withheld] was quoted by the Millennium Post as saying a case was registered under the Information Technology Act and investigation was underway.",
+        "The Observer Post reported that a human rights activist said political criticism forms the bedrock of democracy and questioned an arrest made merely 12 hours after a complaint, warning it could discourage public criticism of those in power."
+      ],
+      "current_position": "The creator was produced before court and police investigation was continuing with no further court outcome reported.",
+      "quote": {
+        "text": "Malda: A woman content creator from Malda’s Chanchal was arrested within 12 hours of a complaint lodged by the BJP for allegedly posting a video containing abusive and objectionable remarks against Union Home Minister [name withheld] over the India-Bangladesh border issue.",
+        "where": "Millennium Post report, paras 1-2",
+        "url": "https://www.millenniumpost.in/bengal/malda-content-creator-held-over-video-against-hm-shah-667943"
+      },
+      "caveats": "No FIR number, IT Act section number, or court order was accessible; reliance is on two independent news outlets as permitted for speech arrests.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "The alleged act was a political video criticising a public official on fencing and infiltration, with no violence, threat, fraud, or complaining victim alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theobserverpost.com/west-bengal-content-creator-musu-yesmin-arrested-over-alleged-abusive-remarks-against-amit-shah-rights-activists-raise-free-speech-concerns/",
+          "kind": "news",
+          "publisher": "The Observer Post",
+          "date": "2026-07-11",
+          "supports": "arrest in Malda, video about border fencing, complaint, production before court, activist criticism"
+        },
+        {
+          "url": "https://www.millenniumpost.in/bengal/malda-content-creator-held-over-video-against-hm-shah-667943",
+          "kind": "news",
+          "publisher": "Millennium Post",
+          "date": "2026-07-13",
+          "supports": "arrest within 12 hours, IT Act case, SDPO statement, production before court"
+        }
+      ],
+      "verification": "V1"
     }
   ]
 }

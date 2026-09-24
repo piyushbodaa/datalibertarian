@@ -1029,6 +1029,122 @@
       "verification": "V2"
     },
     {
+      "id": "vc-ka-0005",
+      "category": "tobacco",
+      "state": "Karnataka",
+      "title": "Bengaluru bar operators' COTPA cases quashed subject to smoking-area undertakings",
+      "summary": "The Karnataka High Court heard 12 linked petitions concerning COTPA offences and BNSS NCRs registered by Upparpet and Cottonpet police against bar, restaurant and hotel-bar operators. The petitioners said smoking was not permitted and undertook to take steps to provide designated places for patrons interested in consuming tobacco products. On 12 March 2026 the Court quashed the crimes, NCRs and further proceedings, reserving revival if the State found a legal violation or breach of the undertakings.",
+      "date": "2026-03-12",
+      "date_label": "High Court order",
+      "district": "Bengaluru Urban",
+      "outcome": "quashed",
+      "authority": "High Court of Karnataka at Bengaluru",
+      "case_reference": "Crl. Petitions Nos. 2184, 2132, 2154, 2155, 2162, 2168, 2169, 2171-2174, 2216 of 2026; FIR Nos. 180-190/2025 and 143/2025, Upparpet and Cottonpet PS, pending before V ACJM, Bengaluru",
+      "laws": [
+        "Sections 4 and 21, Cigarettes and Other Tobacco Products Act, 2003",
+        "Section 174, Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "Section 482 CrPC / Section 528 BNSS"
+      ],
+      "acts": [
+        "Cigarettes and Other Tobacco Products Act, 2003"
+      ],
+      "person": "bar, restaurant and hotel-bar operators in Bengaluru",
+      "detail": [
+        "The High Court recorded that the petitioners included operators and directors of bars, restaurants and a hotel bar in Bengaluru, proceeded against by Upparpet and Cottonpet police stations.",
+        "The order lists 12 COTPA crimes, including Crime Nos. 183/2025, 184/2025 and 187/2025, and 12 NCRs under Section 174 BNSS, including NCR Nos. 87, 88 and 91/2025. The petitioners argued that a smoking zone was unnecessary where smoking was not permitted.",
+        "The operators said patrons were not allowed to consume tobacco products and undertook to take steps to provide a designated place or room for patrons interested in consuming tobacco products.",
+        "The High Court stated that it deemed it appropriate to close the proceedings against the petitioners while retaining inspection power with the State. It ordered that prosecution would revive if a legal violation or breach of the affidavits was found."
+      ],
+      "current_position": "As of 12 March 2026, the High Court had quashed the crimes, NCRs and further proceedings; prosecution may revive if the State finds a legal violation or breach of an affidavit or undertaking.",
+      "quote": {
+        "text": "UNDER SECTION 4 AND 21 OF THE CIGARETTES AND OTHER TOBACCO PRODUCTS ACT (COTPA)",
+        "where": "High Court of Karnataka order dated 12 March 2026",
+        "url": "https://indiankanoon.org/doc/27894721/"
+      },
+      "caveats": "The order gives no separate incident date for the FIRs or NCRs.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The charged provisions were Sections 4 and 21 of COTPA and the related BNSS procedure for the NCRs."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/27894721/",
+          "kind": "judgment",
+          "publisher": "High Court of Karnataka via Indian Kanoon",
+          "date": "2026-03-12",
+          "supports": "date, court, FIR numbers, COTPA sections 4 and 21, disposal closing proceedings with revival condition"
+        },
+        {
+          "url": "https://indiankanoon.org/search/?formInput=Karnataka+COTPA+Cigarettes+fromdate:+1-1-2026",
+          "kind": "news",
+          "publisher": "Indian Kanoon search",
+          "date": null,
+          "supports": "recency: batch of 12 March 2026 Karnataka COTPA petitions is the most recent"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-ka-0007",
+      "category": "other",
+      "state": "Karnataka",
+      "title": "Bengaluru bar and restaurant operators prosecuted over alleged dance performances",
+      "summary": "CCB Bengaluru registered three FIRs against bar and restaurant operators over allegations of indecent dance performances at their venues. The High Court held that Section 296 BNS requires evidence of actual annoyance to others and that Section 79 requires intent directed at a particular woman. On 28 April 2025 the High Court allowed the petitions and quashed the three FIRs insofar as they concerned the petitioners.",
+      "date": "2025-04-28",
+      "date_label": "High Court order",
+      "district": "Bengaluru Urban",
+      "outcome": "quashed",
+      "authority": "High Court of Karnataka at Bengaluru; CCB, Bengaluru",
+      "case_reference": "Crl.P No. 3382/2025 with W.P. Nos. 7150/2025, 7157/2025; Crime Nos. 13/2025, 14/2025, 15/2025, CCB Bengaluru, pending before I Addl. CMM",
+      "laws": [
+        "Sections 296 and 79, Bharatiya Nyaya Sanhita, 2023",
+        "Section 4, Indecent Representation of Women (Prohibition) Act, 1986",
+        "Section 4, Cigarettes and Other Tobacco Products Act, 2003",
+        "Sections 31, 92(O), 103, 104, 105, Karnataka Police Act, 1963"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023",
+        "Indecent Representation of Women (Prohibition) Act, 1986",
+        "Cigarettes and Other Tobacco Products Act, 2003",
+        "Karnataka Police Act, 1963"
+      ],
+      "person": "bar and restaurant owners and managers in Bengaluru",
+      "detail": [
+        "The High Court recorded that CCB Bengaluru registered Crime Nos. 15/2025, 13/2025 and 14/2025 against operators of licensed drinking-and-eating venues after information from the CCB Women's Cell and the Commissioner of Police. The allegations said women from other states were made to dance amid flashing lights and loud music to attract customers.",
+        "Police cited Sections 296 and 79 of the BNS, Section 4 of the Indecent Representation of Women Act, Section 4 of the tobacco Act and Karnataka Police Act licensing provisions.",
+        "The High Court held that Section 296 requires an obscene act in or near a public place to cause annoyance to others; without evidence of actual annoyance to a third party, the obscenity claim could not continue.",
+        "The High Court noted there was no material to show that a statement from any woman against whom a Section 79 offence was alleged had been recorded under Section 183(6) BNSS. It also found no allegation that the petitioners intended to insult a particular woman's modesty or directed words, sounds, gestures or objects at her. It said investigation into the Police Act and tobacco offences required prior Magistrate permission because those offences were non-cognizable.",
+        "The High Court ordered that the FIRs insofar as they concerned the petitioners were quashed."
+      ],
+      "current_position": "FIRs quashed on 28 April 2025; no prosecution pending against these petitioners on these FIRs.",
+      "quote": {
+        "text": "is hereby quashed in all these petitions.",
+        "where": "High Court of Karnataka order dated 28 April 2025",
+        "url": "https://indiankanoon.org/doc/56673766/"
+      },
+      "caveats": "The order says women were brought from other states and made to perform dances; it does not state their ages. The listed charges include no separate trafficking or force offence.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The FIRs alleged indecent dance performances and invoked obscenity, indecent-representation, tobacco and venue-licensing provisions; the Court quashed them based on missing statutory elements or required Magistrate permission."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/56673766/",
+          "kind": "judgment",
+          "publisher": "High Court of Karnataka via Indian Kanoon",
+          "date": "2025-04-28",
+          "supports": "date, court, parties, Crime Nos. 13-15/2025 CCB, obscenity sections 296/79 BNS, finding of no annoyance or targeted insult, quashing order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "vc-mh-0001",
       "category": "sex-work",
       "state": "Maharashtra",
@@ -2172,6 +2288,431 @@
           "publisher": "Madras High Court via Indian Kanoon",
           "date": "2026-01-12",
           "supports": "bootlegger detention, FIR number and prohibition sections, arrest date, delay finding and quashing"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-tn-0006",
+      "category": "vapes",
+      "state": "Tamil Nadu",
+      "title": "Chennai e-cigarette possession prosecution quashed",
+      "summary": "Police in Chennai filed a final report alleging possession of six packets of e-cigarettes by a 21-year-old. The High Court held that no court could take cognizance except on a written complaint by an authorised officer. Proceedings before the George Town magistrate were quashed subject to the petitioner's filing an affidavit undertaking not to use e-cigarettes.",
+      "date": "2026-07-21",
+      "date_label": "High Court order (quashing)",
+      "district": "Chennai",
+      "outcome": "quashed",
+      "authority": "Madras High Court (Justice D. Bharatha Chakravarthy)",
+      "case_reference": "CRL OP No. 19258 of 2026; Crime No. 173 of 2025, C-5 Kothaval Chavadi Police Station; STC No. 641 of 2026, VIII Metropolitan Magistrate Court, George Town, Chennai",
+      "laws": [
+        "Section 4 read with Section 7 of the Prohibition of Electronic Cigarettes (Production, Manufacture, Import, Export, Transport, Sale, Distribution, Storage and Advertisement) Act, 2019",
+        "Section 528 of BNSS (petition procedure)"
+      ],
+      "acts": [
+        "Prohibition of Electronic Cigarettes (Production, Manufacture, Import, Export, Transport, Sale, Distribution, Storage and Advertisement) Act, 2019"
+      ],
+      "person": "a 21-year-old in Chennai",
+      "detail": [
+        "The High Court recorded that C-5 Kothaval Chavadi Police Station in Chennai registered Crime No. 173 of 2025 and filed a final report before the VIII Metropolitan Magistrate, George Town, in STC No. 641 of 2026.",
+        "The order states that the petitioner was found in possession of six packets of electronic cigarettes, and that the final report invoked Section 4 read with Section 7 of the 2019 Act.",
+        "The High Court noted the statutory bar that no court can take cognizance of an offence under the Act except upon a written complaint by an authorised officer.",
+        "The High Court allowed the petition and quashed the magistrate proceedings subject to the petitioner's filing an affidavit undertaking not to use electronic cigarettes in any manner."
+      ],
+      "current_position": "Proceedings quashed on 21-07-2026, subject to filing an affidavit undertaking not to use electronic cigarettes.",
+      "quote": {
+        "text": "in possession of electronic cigarettes, totally six packets",
+        "where": "CRL OP No. 19258 of 2026, Madras High Court order dated 21-07-2026",
+        "url": "https://indiankanoon.org/doc/143110590/"
+      },
+      "caveats": "The judgment does not specify the incident date beyond Crime No. 173 of 2025.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The case concerned alleged possession of six packets of electronic cigarettes; the High Court quashed the proceedings because the required written complaint by an authorised officer had not been filed."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/143110590/",
+          "kind": "judgment",
+          "publisher": "Madras High Court via Indian Kanoon",
+          "date": "2026-07-21",
+          "supports": "Court, date, case numbers, police station, sections, quantity, cognizance bar and conditional quashing order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-up-0001",
+      "category": "sex-work",
+      "state": "Uttar Pradesh",
+      "title": "Premises owner in Bareilly jailed under Immoral Traffic Act, granted bail",
+      "summary": "Police in Bareilly booked a premises owner in Case Crime No. 213 of 2025 under Sections 3, 4, 5, 6 of the Immoral Traffic (Prevention) Act. The Allahabad High Court recorded that the applicant had been in jail since 7.6.2025 and granted bail on 26 March 2026. The trial remains pending.",
+      "date": "2026-03-26",
+      "date_label": "High Court bail order",
+      "district": "Bareilly",
+      "outcome": "prosecution_pending",
+      "authority": "Allahabad High Court",
+      "case_reference": "Case Crime No. 213 of 2025, Police Station Prem Nagar, District Bareilly; Criminal Misc. Bail Application No. 30054 of 2025",
+      "laws": [
+        "Sections 3, 4, 5, 6 of U.P. Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "acts": [
+        "Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "person": "a premises owner in Bareilly",
+      "detail": [
+        "The High Court recorded that the bail plea was filed with a prayer to release the applicant in Case Crime No. 213 of 2025 under Sections 3,4,5,6 of the U.P. Immoral Traffic (Prevention) Act, 1956, registered at Police Station Prem Nagar, District Bareilly.",
+        "The High Court recorded that, according to counsel, the applicant was said to be the owner of the premises in which it was alleged that illegal sex trade was being carried out.",
+        "The High Court recorded that the applicant was said to be languishing in jail since 7.6.2025 and gave an undertaking not to misuse liberty.",
+        "The High Court allowed bail, requiring a personal bond of Rs. 50,000 with two sureties, with conditions not to tamper with evidence or intimidate witnesses and to appear before the trial court."
+      ],
+      "current_position": "Released on bail by the High Court; trial in Case Crime No. 213 of 2025 remains pending.",
+      "quote": {
+        "text": "Applicant is said to be the owner of the premise in which it is alleged that illegal sex trade was being carried out.",
+        "where": "Allahabad High Court, 2026:AHC:66751, para 5 (Criminal Misc. Bail Application No. 30054 of 2025)",
+        "url": "https://indiankanoon.org/doc/133154794/"
+      },
+      "caveats": "The order does not give the FIR date or details of the alleged transaction; no allegation of force, minor or complaining victim appears in the order but the full FIR was not examined.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The only allegation described in the order is paid sex organised at a premises, with no complaining victim, violence, minor, force or fraud mentioned in the order."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/133154794/",
+          "kind": "court_order",
+          "publisher": "Allahabad High Court via Indian Kanoon",
+          "date": "2026-03-26",
+          "supports": "crime number, sections, police station and district, jail since 7.6.2025, bail grant and conditions"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-up-0002",
+      "category": "gambling",
+      "state": "Uttar Pradesh",
+      "title": "Two men jailed in Jhansi for gambling under Public Gambling Act and BNS petty organised crime",
+      "summary": "Police in Jhansi booked men in Case Crime No. 151 of 2026 under Section 13 of the Public Gambling Act and Section 112(2) of the BNS. The Allahabad High Court recorded that the applicant had been in jail since 25.04.2026 and granted bail on 23 June 2026. The prosecution remains pending.",
+      "date": "2026-06-23",
+      "date_label": "High Court bail order",
+      "district": "Jhansi",
+      "outcome": "prosecution_pending",
+      "authority": "Allahabad High Court",
+      "case_reference": "Case Crime No. 151 of 2026, Police Station Prem Nagar / Premnagar, District Jhansi; Criminal Misc. Bail Application No. 19960 of 2026",
+      "laws": [
+        "Section 13 of the Public Gambling Act",
+        "Section 112(2) of B.N.S."
+      ],
+      "acts": [
+        "U.P. Public Gambling Act, 1867"
+      ],
+      "person": "a man in Jhansi apprehended in a gambling case",
+      "detail": [
+        "The High Court recorded that the bail plea was filed in Case Crime No. 151 of 2026, under Sections 13 of the Public Gambling Act and Section 112(2) of B.N.S., Police Station Prem Nagar, District Jhansi.",
+        "The High Court recorded that counsel said the applicant was not named in the FIR and that an identically placed co-accused had already been granted bail on 10.06.2026, so parity was claimed.",
+        "The High Court recorded that the applicant had no previous criminal history and had been languishing in jail since 25.04.2026.",
+        "The High Court allowed bail with conditions not to tamper with evidence, not to intimidate witnesses and to appear before the trial court."
+      ],
+      "current_position": "Released on bail by the High Court; trial in Case Crime No. 151 of 2026 remains pending.",
+      "quote": {
+        "text": "The present bail application has been filed on behalf of the applicant in Case Crime No. 151 of 2026, under Sections 13 of the Public Gambling Act and Section 112(2) of B.N.S, Police Station Prem Nagar, District Jhansi with the prayer to enlarge him on bail.",
+        "where": "Allahabad High Court, 2026:AHC:128718, para 2 (Criminal Misc. Bail Application No. 19960 of 2026)",
+        "url": "https://indiankanoon.org/doc/97269710/"
+      },
+      "caveats": "The order does not reproduce the FIR facts of the betting; no cheating or victim allegation appears in the order but the full FIR was not examined.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The case punishes wagering of own money under the gambling law with BNS 112 petty organised crime added, with no allegation of cheating, fixing or defrauded victim in the order."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/97269710/",
+          "kind": "court_order",
+          "publisher": "Allahabad High Court via Indian Kanoon",
+          "date": "2026-06-23",
+          "supports": "crime number, sections, police station and district, jail since 25.04.2026, parity with co-accused, bail grant"
+        },
+        {
+          "url": "https://indiankanoon.org/doc/94288588/",
+          "kind": "court_order",
+          "publisher": "Allahabad High Court via Indian Kanoon",
+          "date": "2026-06-10",
+          "supports": "same Case Crime No. 151 of 2026 under Section 13 Public Gambling Act and 112(2) BNS, co-accused bail on 10.06.2026 supporting parity"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-up-0003",
+      "category": "alcohol",
+      "state": "Uttar Pradesh",
+      "title": "Vehicle owner in Maharajganj faces confiscation for illicit liquor transport under Excise Act",
+      "summary": "Police seized a vehicle in Case Crime No. 58 of 2018 under Section 72 of the U.P. Excise Act in Nichlaul, Maharajganj. The District Magistrate confiscated the vehicle. The Allahabad High Court on 7 May 2026 disposed of the owner's plea by allowing a fresh redemption application on deposit of value.",
+      "date": "2026-05-07",
+      "date_label": "High Court order",
+      "district": "Maharajganj",
+      "outcome": "confiscation",
+      "authority": "District Magistrate, Maharajganj; Allahabad High Court",
+      "case_reference": "Case Crime No. 58 of 2018, Police Station Nichlaul, District Maharajganj; Misc. Case No. D201805447000518; Misc. Appeal No. 2 of 2019",
+      "laws": [
+        "Section 72 of the U.P. Excise Act"
+      ],
+      "acts": [
+        "U.P. Excise Act, 1910"
+      ],
+      "person": "a vehicle owner in Maharajganj",
+      "penalty": "Confiscation of vehicle Registration No. UP 53-G-5253 by District Magistrate order dated 30.07.2018, upheld in appeal dated 12.02.2019",
+      "detail": [
+        "The High Court recorded that the vehicle was seized in Case Crime No. 58 of 2018, under Section 72 of the U.P. Excise Act at Police Station Nichlaul, District Maharajganj.",
+        "The High Court recorded that the owner claimed the vehicle was falsely implicated and was not involved in transportation of illicit liquor, and had filed objections as registered owner.",
+        "The State told the High Court that the vehicle was involved in illegal transportation of illicit liquor in violation of the Excise Act and that confiscation did not suffer from infirmity.",
+        "The High Court did not decide the disputed facts of the FIR but held the owner should be allowed to seek release or redemption on deposit of value as determined by the RTO, and directed the District Magistrate to decide such application within one month."
+      ],
+      "current_position": "Confiscation orders stand; the owner may apply within two weeks for release on deposit of value to be decided within one month.",
+      "quote": {
+        "text": "Learned AGA for the State has submitted that the petitioner's vehicle was seized while it was involved in the illegal transportation of illicit liquor in violation of the provisions of the U.P. Excise Act, and that the order of confiscation of the vehicle does not suffer from any infirmity.",
+        "where": "Allahabad High Court, 2026:AHC:105522, para 5 (Matters Under Article 227 No. 6226 of 2019)",
+        "url": "https://indiankanoon.org/doc/33235501/"
+      },
+      "caveats": "The order does not state quantity of liquor or chemical analysis; no spurious, death or violence allegation appears but the FIR itself was not examined.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The act punished is possessing or carrying illicit liquor without alleging spurious or poisonous liquor, hooch deaths, or violence."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/33235501/",
+          "kind": "court_order",
+          "publisher": "Allahabad High Court via Indian Kanoon",
+          "date": "2026-05-07",
+          "supports": "crime number, section 72, police station and district, seizure and confiscation history, parties positions, High Court direction"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-up-0004",
+      "category": "beef",
+      "state": "Uttar Pradesh",
+      "title": "Two men in Ghazipur jailed for transporting cows under Cow Slaughter Act, granted bail",
+      "summary": "Police in Ghazipur booked two men in Case Crime No. 58 of 2026 under Sections 3/5A/5B/8 of the U.P. Prevention of Cow Slaughter Act. The FIR alleged three cows were recovered and no slaughter weapon or beef was found. The Allahabad High Court granted bail on 23 June 2026.",
+      "date": "2026-06-23",
+      "date_label": "High Court bail order",
+      "district": "Ghazipur",
+      "outcome": "prosecution_pending",
+      "authority": "Allahabad High Court",
+      "case_reference": "Case Crime No. 58 of 2026, Police Station Gahmar, District Ghazipur; Criminal Misc. Bail Application No. 17941 of 2026",
+      "laws": [
+        "Section 3/5A/5B/8 of U.P. Prevention of Cow Slaughter Act"
+      ],
+      "acts": [
+        "U.P. Prevention of Cow Slaughter Act, 1955"
+      ],
+      "person": "two men in Ghazipur accused of transporting cattle",
+      "detail": [
+        "The High Court recorded that bail was sought in Case Crime No. 58 of 2026, under Section 3/5A/5B/8 of the U.P. Prevention of Cow Slaughter Act, Police Station Gahmar, District Ghazipur.",
+        "The High Court recorded counsel's submission that three cows were allegedly recovered, but no weapon of slaughtering or beef was recovered and the only allegation was transportation of cow progeny.",
+        "The High Court recorded that counsel said there was no criminal history, no independent witness supported the case, and the applicants had been in jail since 17.4.2026.",
+        "The High Court granted bail considering the nature of accusations, evidence, period in jail and absence of criminal antecedents, without expressing opinion on merits."
+      ],
+      "current_position": "Released on bail by the High Court; trial in Case Crime No. 58 of 2026 remains pending.",
+      "quote": {
+        "text": "As per the allegation levelled in the first information report three cows were allegedly recovered from the possession of the applicants. No weapon of slaughtering or beef was recovered from the possession of the applicants. The only allegation against the applicants is of transportation of cow progeny.",
+        "where": "Allahabad High Court, 2026:AHC:128671, para 3 (Criminal Misc. Bail Application No. 17941 of 2026)",
+        "url": "https://indiankanoon.org/doc/101209942/"
+      },
+      "caveats": "The order cites Section 5B (injury/endangering) as charged but records no injury, weapon or beef; the full FIR and any veterinary report were not examined.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The act punished is possessing or moving live cows without any beef, slaughter, cruelty charge under the PCA Act, theft or violence alleged in the order."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/101209942/",
+          "kind": "court_order",
+          "publisher": "Allahabad High Court via Indian Kanoon",
+          "date": "2026-06-23",
+          "supports": "crime number, sections, police station and district, recovery of three cows, no weapon or beef, only transportation allegation, jail since 17.4.2026, bail grant"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-up-0005",
+      "category": "tobacco",
+      "state": "Uttar Pradesh",
+      "title": "Trader prosecuted under food safety law for supari found containing tobacco",
+      "summary": "Food safety officers sampled sugandhit supari from a trading firm's unit in Orai and filed a complaint that it contained tobacco. The accused sought quashing of the summons. The Allahabad High Court held supari is food and tobacco in food is punishable under the Food Safety and Standards Act, and dismissed the plea.",
+      "date": "2024-07-09",
+      "date_label": "High Court judgment",
+      "incident_date": "2020-02-20",
+      "district": "Jalaun",
+      "outcome": "prosecution_pending",
+      "authority": "Allahabad High Court; Food Safety officer; Special Judge, Food Safety and Standards Act, Jhansi",
+      "case_reference": "Application U/S 482 No. 11772 of 2024; Sessions Case No. 643 of 2021; summoning order dated 10.09.2021; Non-bailable Warrant dated 27.10.2023",
+      "laws": [
+        "Section 26(2)(v, i & ii), Sections 58, 59(iii), 52(1) - Food Safety and Standards Act, 2006",
+        "Regulation 2.3.4 - Food Safety and Standards (Prohibition and Restriction of Sale) Regulations, 2011",
+        "Regulation 2.3.55 - Food Safety and Standards (Food Products Standards and Food Additives) Regulations, 2011",
+        "Cigarettes and Other Tobacco Products (Prohibition of Advertisement and Regulation of Trade and Commerce, Production, Supply and Distribution) Act, 2003 (discussed)"
+      ],
+      "acts": [
+        "Food Safety and Standards Act, 2006",
+        "Cigarettes and Other Tobacco Products (Prohibition of Advertisement and Regulation of Trade and Commerce, Production, Supply and Distribution) Act, 2003"
+      ],
+      "person": "a firm proprietor and an employee in Orai",
+      "detail": [
+        "The High Court recorded that a Food Security Officer inspected the firm's manufacturing unit on 20.2.2020, found 370 packets of sugandhit supari in stock, and purchased four packets as samples, with one sample sent to the laboratory.",
+        "The High Court recorded that the food analyst reported the sample contained tobacco and lacked labelling particulars, and the complaint alleged violation of Regulation 2.3.4 and packaging and labelling regulations.",
+        "The High Court held that betel nut or supari is a primary food product and not a tobacco product, and that adding tobacco to it makes it unsafe food punishable under Section 59 of the 2006 Act.",
+        "The High Court dismissed the application, finding no illegality in the summons and warrant, and left the licence defence to be raised at the framing of charges."
+      ],
+      "current_position": "The quashing plea was dismissed on 9 July 2024 and the food-safety prosecution continues before the trial court.",
+      "quote": {
+        "text": "2.3.4: Product not to contain any substance which may be injurious to health: Tobacco and nicotine shall not be used as ingredients in any food products.",
+        "where": "[name withheld] And Another vs State Of U.P. And Another, 2024:AHC:111824, para 21",
+        "url": "https://indiankanoon.org/doc/129716583/"
+      },
+      "caveats": "No 2025 or 2026 Uttar Pradesh COTPA or gutka judgment with an official source was found; this 9 July 2024 judgment was the most recent qualifying official record.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The prosecution punishes manufacturing and storing a chewing product with tobacco, an act of consensual production and sale with no complaining victim."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/129716583/",
+          "kind": "judgment",
+          "publisher": "Allahabad High Court via Indian Kanoon",
+          "date": "2024-07-09",
+          "supports": "inspection, sampling, complaint allegations, legal reasoning and dismissal of quashing plea"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-up-0006",
+      "category": "vapes",
+      "state": "Uttar Pradesh",
+      "title": "Police book alleged owner in Noida e-cigarette seizure case under vapes ban law",
+      "summary": "Noida police registered a case over seized electronic cigarettes and named a man as the alleged owner based on co-accused statements. He sought quashing of the FIR. The Allahabad High Court refused to quash it, noting e-cigarettes were recovered and their transportation is not allowed, so the prosecution continues.",
+      "date": "2024-08-22",
+      "date_label": "High Court order dismissing quashing writ",
+      "incident_date": "2024-06-14",
+      "district": "Gautam Budh Nagar",
+      "outcome": "prosecution_pending",
+      "authority": "Allahabad High Court; Noida Police, Sector 20",
+      "case_reference": "CRIMINAL MISC. WRIT PETITION No. 13184 of 2024; Case Crime No. 182 of 2024, Police Station Sector 20, Noida Commissionerate, Gautam Budh Nagar",
+      "laws": [
+        "Sections 8, 20 - Narcotic Drugs and Psychotropic Substances Act, 1985",
+        "Section 4 - Prohibition of Electronic Cigarettes (Production, Manufacture, Import, Export, Transport, Sale, Distribution, Storage and Advertisement) Act, 2019"
+      ],
+      "acts": [
+        "Narcotic Drugs and Psychotropic Substances Act, 1985",
+        "Prohibition of Electronic Cigarettes (Production, Manufacture, Import, Export, Transport, Sale, Distribution, Storage and Advertisement) Act, 2019"
+      ],
+      "person": "a man named by co-accused as owner of seized goods in Noida",
+      "detail": [
+        "The High Court recorded that the FIR dated 14.06.2024 was registered under Sections 8 and 20 of the NDPS Act read with Section 4 of the 2019 vapes Act at Sector 20, Noida, and that two co-accused were arrested on the spot.",
+        "The High Court recorded that the petitioner said he was not arrested on the spot, nothing was recovered from him, and he was implicated only because the co-accused named him as owner of the psychotropic substance and electronic cigarettes.",
+        "The High Court observed that the incorrect mention of a similarly named Act could not by itself quash the FIR where recovery of electronic cigarettes was asserted at several places."
+      ],
+      "current_position": "The writ was dismissed on 22 August 2024 and the FIR and investigation continue; no acquittal or conviction was recorded in the order.",
+      "quote": {
+        "text": "whereas it has been mentioned at several places that in fact the Electronic Cigarettes were recovered and admittedly transportation of the e-cigarettes itself is not allowed.",
+        "where": "[name withheld] vs State Of U.P. And 3 Others, 2024:AHC:135447-DB, para 5",
+        "url": "https://indiankanoon.org/doc/190511050/"
+      },
+      "caveats": "The same FIR also invokes NDPS sections and police alleged cannabis was seized with the vapes; news reports also claim sales to students, but no minor-specific or trafficking charge was filed, so the vapes charge itself was treated as victimless. No 2025 or 2026 Uttar Pradesh vapes case with an official source was found.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The vapes-ban charge criminalises transporting and storing e-cigarettes, an act of possession and trade with no complaining victim."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/190511050/",
+          "kind": "judgment",
+          "publisher": "Allahabad High Court via Indian Kanoon",
+          "date": "2024-08-22",
+          "supports": "FIR number and sections, place, recovery assertion, petitioner's defence and dismissal of quashing plea"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-up-0007",
+      "category": "other",
+      "state": "Uttar Pradesh",
+      "title": "Student arrested for alleged obscenity has charge sheet and summons quashed",
+      "summary": "Police arrested a young student at a bridge in Unnao for alleged obscene remarks and filed a charge sheet under the obscenity provision. A court summoned him to face trial. The Allahabad High Court quashed the charge sheet, summons and entire proceedings, holding annoyance to others was never proved.",
+      "date": "2024-05-30",
+      "date_label": "High Court judgment quashing proceedings",
+      "incident_date": "2023-12-17",
+      "district": "Unnao",
+      "outcome": "quashed",
+      "authority": "Allahabad High Court; Unnao Police, Achalganj; Civil Judge, Senior Division (FTC), Unnao",
+      "case_reference": "APPLICATION U/S 482 No. 4223 of 2024; Case Crime No. 283/2023 under Section 294 IPC, Police Station Achalganj, District Unnao; Criminal Case No. 141/2024; charge sheet no. 204/2023 dated 24.12.2023; summoning order dated 30.01.2024",
+      "laws": [
+        "Section 294 - Indian Penal Code, 1860"
+      ],
+      "acts": [
+        "Indian Penal Code, 1860"
+      ],
+      "person": "a 20-year-old undergraduate student in Unnao",
+      "detail": [
+        "The High Court recorded that patrolling police said an informer told them three persons were doing obscene acts toward passing women, and they caught the student at a bridge and registered the FIR on 17.12.2023.",
+        "The High Court recorded that the arrest memo had no independent witnesses though the spot was a busy public bridge, and that no site plan was prepared and no independent witnesses or passing women were examined.",
+        "The High Court recorded that the charge sheet was filed within a week on police statements alone, and the trial court issued summons without proper application of mind.",
+        "The High Court held the case was a gross misuse of penal law and quashed the summons, the charge sheet and the whole proceedings against the student."
+      ],
+      "current_position": "The prosecution stands quashed by the 30 May 2024 order; no trial remains against the student in this case.",
+      "quote": {
+        "text": "mere performance of obscene or indecent act is not sufficient, but there must be a further proof establish that it was to the annoyance of others, thereby annoyance to others is essential to constitute an offence under this section.",
+        "where": "[name withheld] vs State Of U.P., 2024:AHC-LKO:40954, para 28",
+        "url": "https://indiankanoon.org/doc/61681411/"
+      },
+      "caveats": "No 2025 or 2026 Uttar Pradesh begging, attempted-suicide or obscenity prosecution with an official source was found; this May 2024 obscenity case was the most recent qualifying record.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The state arrested and prosecuted speech and behaviour in public as obscenity even though no member of the public complained and no annoyed person was ever examined, leaving the accused as the only person punished."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/61681411/",
+          "kind": "judgment",
+          "publisher": "Allahabad High Court via Indian Kanoon",
+          "date": "2024-05-30",
+          "supports": "arrest, FIR, charge sheet, summons, absence of witnesses and quashing order"
+        },
+        {
+          "url": "https://www.livelaw.in/high-court/allahabad-high-court/allahabad-high-court-mere-performance-obscene-act-not-sufficient-annoyance-others-constitute-offence-294-ipc-259295",
+          "kind": "news",
+          "publisher": "Live Law",
+          "date": "2024-05-31",
+          "supports": "summary that no woman was examined and proceedings were quashed"
         }
       ],
       "verification": "V2"

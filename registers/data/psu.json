@@ -823,6 +823,66 @@
       "verification": "V2"
     },
     {
+      "id": "psu-br-0010",
+      "category": "municipal",
+      "state": "Bihar",
+      "name": "Patna Smart City Limited (PSCL)",
+      "summary": "Patna Smart City Limited is the Special Purpose Vehicle (SPV) for Patna under the Smart Cities Mission, headed by a CEO to implement city projects. Patna was one of four Bihar cities selected and was selected in June 2017, in the round that added 30 cities. The Mission period was extended up to 31 March 2025 to complete remaining projects; PSCL still listed open tenders in September 2026. A CAG audit noted that of 44 initially approved Patna projects, 29 had not started by October 2022.",
+      "date": "2025-03-31",
+      "district": "Patna",
+      "headquarters": "Patna, Bihar",
+      "state_link": "SPV for Patna city, Bihar, selected under Smart Cities Mission Phase III in June 2017.",
+      "owner": "Joint (Government of Bihar's Urban Development & Housing Department and Patna Municipal Corporation)",
+      "shareholding": "50:50 equity between the Government of Bihar's Urban Development & Housing Department and Patna Municipal Corporation.",
+      "legal_form": "Government company (Special Purpose Vehicle (SPV) headed by a CEO)",
+      "status": "Operating",
+      "detail": [
+        "SPV and ownership: PSCL describes itself as a Companies Act, 2013 SPV that plans and implements Patna Smart City projects. Its official site names the Government of Bihar's Urban Development & Housing Department and Patna Municipal Corporation as promoters with 50:50 equity.",
+        "Selection and audit: The CAG report identifies Patna among four Bihar smart cities and says Patna was nominated for the Mission in June 2017. It reports that 29 of 44 approved Patna projects could not be started by October 2022, citing projects already being executed by other agencies, unavailable land, rooftop farming being unnecessary, and likely crowding in already crowded areas.",
+        "Mission and current activity: PIB says the Mission period was extended up to 31 March 2025 to complete remaining projects. PSCL's official tender page listed open tenders with September and October 2026 deadlines."
+      ],
+      "caveats": "The opened official sources confirm the 50:50 promoter split and show PSCL tenders after the Mission period ended. They do not provide the company's paid-up share capital amount, standalone current financial statements, or employee count.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Smart_Cities_Mission",
+          "kind": "news",
+          "publisher": "Wikipedia (tertiary summary)",
+          "date": null,
+          "supports": "Mission SPV model, mission dates and city-selection context."
+        },
+        {
+          "url": "https://cag.gov.in/uploads/download_audit_report/2024/Report-No.-2%2C-2024%2C-Bihar-068b173ded95f71.78400986.pdf",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": null,
+          "supports": "CAG audit of PSCL, Patna's selection, and the 44/29 project findings."
+        },
+        {
+          "url": "https://www.smartpatna.co.in/About.aspx",
+          "kind": "news",
+          "publisher": "Patna Smart City Limited",
+          "date": null,
+          "supports": "PSCL's SPV role, promoters and 50:50 equity shareholding."
+        },
+        {
+          "url": "https://www.smartpatna.co.in/open_tenders.aspx",
+          "kind": "news",
+          "publisher": "Patna Smart City Limited",
+          "date": null,
+          "supports": "Open PSCL tenders listed in September 2026."
+        },
+        {
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2030491&lang=2&reg=48",
+          "kind": "news",
+          "publisher": "Press Information Bureau, Ministry of Housing and Urban Affairs",
+          "date": "2024-07-03",
+          "supports": "Mission period extended up to 31 March 2025 to complete remaining projects."
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "psu-ka-0003",
       "category": "bank",
       "state": "Karnataka",
@@ -860,6 +920,98 @@
           "publisher": "Canara Bank",
           "date": null,
           "supports": "Bank is operating with Bengaluru head-office presence and product lines; page content is menu-heavy so facts rely on the page above"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-ka-0006",
+      "category": "departmental",
+      "state": "Karnataka",
+      "name": "South Western Railway (SWR)",
+      "summary": "South Western Railway is a zone of Indian Railways, a departmental commercial undertaking of the Government of India. It became operational with headquarters at Hubli, Karnataka, on 1 April 2003. It was formed by combining the reorganized Hubli division from South Central Railway with the Bengaluru and Mysuru divisions from Southern Railway.",
+      "date": "2003-04-01",
+      "district": "Dharwad",
+      "headquarters": "Hubballi, Karnataka",
+      "state_link": "Zonal headquarters at Hubballi, Karnataka since formation; covers Bengaluru, Mysuru and Hubballi divisions in Karnataka.",
+      "owner": "Central government",
+      "administrative": "Ministry of Railways",
+      "legal_form": "Departmental undertaking",
+      "established": "2003 by combining the reorganized Hubli division from South Central Railway with the Bengaluru and Mysuru divisions from Southern Railway; operational from 1 April 2003",
+      "status": "Operating",
+      "detail": [
+        "South Western Railway’s official milestone document states that it became operational on 1 April 2003 with headquarters at Hubli, Karnataka, after combining the reorganized Hubli division from South Central Railway with the Bangalore and Mysore divisions from Southern Railway.",
+        "The Hubli reference page identifies Hubli as South Western Railway’s headquarters and the centre of Hubli Division."
+      ],
+      "caveats": "Departmental status follows the task definition (railway zones have no separate legal identity); FY2024-25 or FY2025-26 freight, revenue and staffing figures and any 2025-2026 official development could not be verified from reachable official pages. District Dharwad is inferred from headquarters city Hubballi. Financial and employee figures left null rather than estimated.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/South_Western_Railway_zone",
+          "kind": "news",
+          "publisher": "Wikipedia (secondary reference)",
+          "date": null,
+          "supports": "Identifies Hubballi as the zonal headquarters and lists the Hubballi, Mysuru and Bengaluru divisions; its formation-date statements conflict."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Hubli",
+          "kind": "news",
+          "publisher": "Wikipedia (secondary reference)",
+          "date": null,
+          "supports": "Identifies Hubli as the South Western Railway headquarters and the centre of Hubli Division."
+        },
+        {
+          "url": "https://swr.indianrailways.gov.in/uploads/files/1400490741806-Details_MilestoneSWR.pdf",
+          "kind": "company_site",
+          "publisher": "South Western Railway / Indian Railways",
+          "date": null,
+          "supports": "Operational date of 1 April 2003, headquarters at Hubli, and formation from Hubli division of South Central Railway and Bangalore and Mysore divisions of Southern Railway."
+        },
+        {
+          "url": "https://saiindia.gov.in/en/audit-report/details/1587",
+          "kind": "news",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": null,
+          "supports": "Describes Indian Railways as a departmental commercial undertaking of the Government of India and its system as managed through zones."
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-ka-0007",
+      "category": "statutory",
+      "state": "Karnataka",
+      "name": "Karnataka State Road Transport Corporation (KSRTC)",
+      "summary": "Karnataka State Road Transport Corporation is a statutory road-transport corporation wholly owned by the Government of Karnataka and headquartered at Bengaluru. It was created under Section 3 of the Road Transport Corporation Act, 1950, on 1 August 1961, following the Mysore Government Road Transport Department, inaugurated on 12 September 1948. The state’s Shakti Scheme providing free bus travel to Karnataka-domiciled women began on 11 June 2023.",
+      "date": "2023-06-11",
+      "district": "Bengaluru Urban",
+      "headquarters": "Bengaluru, Karnataka",
+      "state_link": "Wholly owned by the Government of Karnataka; headquartered at Bengaluru and operates Karnataka services.",
+      "owner": "State government (Karnataka)",
+      "administrative": "Government of Karnataka",
+      "legal_form": "Statutory corporation (Road Transport Corporation Act, 1950)",
+      "established": "1961 under Section 3 of the Road Transport Corporation Act, 1950; predecessor Mysore Government Road Transport Department inaugurated 12 September 1948",
+      "status": "Operating",
+      "detail": [
+        "The reference page says KSRTC is wholly owned by the Government of Karnataka and became an independent corporation under Section 3 of the Road Transport Corporation Act, 1950, on 1 August 1961. It dates the predecessor Mysore Government Road Transport Department to 12 September 1948 and says it had 120 buses.",
+        "The reference page says the Shakti Scheme was announced on 2 June 2023 and began on 11 June 2023, providing free bus service to Karnataka-domiciled women, with conductors issuing zero-fare tickets."
+      ],
+      "caveats": "Shakti dates are from a secondary reference page; the underlying government order and 2024-25/2025-26 ridership, revenue-loss and reimbursement figures could not be verified from reachable official pages. Shareholding percentages, financials and employee count left null. District Bengaluru Urban inferred from headquarters city Bengaluru.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Karnataka_State_Road_Transport_Corporation",
+          "kind": "news",
+          "publisher": "Wikipedia (secondary reference; official figures not drawn from it)",
+          "date": null,
+          "supports": "wholly owned by Government of Karnataka; created under Road Transport Corporation Act 1950 on 1 August 1961; 1948 predecessor; Shakti Scheme dates and free-travel terms"
+        },
+        {
+          "url": "https://www.ksrtc.in/",
+          "kind": "company_site",
+          "publisher": "Karnataka State Road Transport Corporation",
+          "date": null,
+          "supports": "official name Karnataka State Road Transport Corporation - KSRTC; no usable financials in reachable excerpt"
         }
       ],
       "verification": "V2"
@@ -953,6 +1105,125 @@
           "publisher": "Bengaluru Water Supply and Sewerage Board",
           "date": "2025-01-01",
           "supports": "Revised Water Tariff Ready Reckoner 2025 exists; figures not text-extracted"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-kl-0005",
+      "category": "dfi",
+      "state": "Kerala",
+      "name": "Kerala Financial Corporation (KFC)",
+      "summary": "Kerala Financial Corporation is a state financial corporation lending to the MSME sector of Kerala. It is 99.005% owned by the Government of Kerala and headquartered at Vellayambalam, Thiruvananthapuram. A dated official posting retrieved invites RFP for private placement of Rs 200 crore redeemable bonds with a Rs 200 crore green-shoe option, bid submission 1 July 2025.",
+      "date": "2025-07-01",
+      "district": "Thiruvananthapuram",
+      "headquarters": "Thiruvananthapuram, Kerala",
+      "state_link": "Owned by the Government of Kerala (99.005% of shares) and lends to the MSME sector of the State; headquarters at Vellayambalam, Thiruvananthapuram.",
+      "owner": "State government (Kerala)",
+      "shareholding": "99.005% of the shares owned by the Government of Kerala (as stated on company site; as-of date not stated)",
+      "legal_form": "Statutory corporation under the State Financial Corporations Act, 1951 (site states: Incorporated in 1953, under SFC's Act 1951)",
+      "established": "1953: incorporated in 1953 under SFCs Act 1951, formally founded as the Travancore Cochin Financial Corporation on 1 December 1953",
+      "status": "Operating",
+      "detail": [
+        "KFC identifies itself as incorporated in 1953 under the SFCs Act 1951, formally founded as the Travancore Cochin Financial Corporation on 1 December 1953, lending to the MSME sector of the State (source: https://www.kfc.org/).",
+        "Ownership and base: 99.005% of the shares are owned by the Government of Kerala; KFC has 21 branch offices with headquarters in Thiruvananthapuram, stated as KFC, Vellayambalam, Thiruvananthapuram, Kerala (source: https://www.kfc.org/).",
+        "Dated debt posting retrieved: KFC inviting RFP from arrangers for private placement of redeemable bonds of Rs 200 crore with a green-shoe option to retain Rs 200 crore, bid submission date 1st July 2025, 12.30 PM (source: https://www.kfc.org/)."
+      ],
+      "caveats": "No revenue, profit, loan-book, net-worth or employee figures were available in the excerpts retrieved; financials and employees left null. As-of date for the 99.005% shareholding was not stated. Administrative ministry/department not stated in excerpts. District Thiruvananthapuram is inferred from stated headquarters city Thiruvananthapuram/Vellayambalam.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.kfc.org/",
+          "kind": "company_site",
+          "publisher": "Kerala Financial Corporation",
+          "date": null,
+          "supports": "incorporation under SFCs Act 1951, 1953 founding and 1956 renaming, MSME lending role, 99.005% Kerala government ownership, 21 branches, Thiruvananthapuram headquarters, Rs 200 crore bond RFP with 1 July 2025 bid date"
+        },
+        {
+          "url": "https://kfc.org/",
+          "kind": "company_site",
+          "publisher": "Kerala Financial Corporation",
+          "date": null,
+          "supports": "no FY2024-25 highlights found in excerpt; confirms no profit/revenue figures retrieved"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-kl-0006",
+      "category": "departmental",
+      "state": "Kerala",
+      "name": "India Post – Kerala Postal Circle (Kerala Circle)",
+      "summary": "The Kerala Postal Circle is the Kerala arm of India Post, run directly by the Department of Posts with no separate legal identity. It was listed on indiapost.gov.in with a 2026-27 Deen Dayal SPARSH Yojana notification shown as 07 Aug.",
+      "date": "2026-08-07",
+      "state_link": "Kerala Postal Circle is the Department of Posts operating unit for the state of Kerala.",
+      "owner": "Central government",
+      "administrative": "Department of Posts, Ministry of Communications",
+      "legal_form": "Departmental undertaking",
+      "status": "Operating",
+      "detail": [
+        "India Post's site lists Notification for Deen Dayal SPARSH Yojana 2026-27 - KERALA POSTAL CIRCLE, shown with 07 Aug, English and Hindi version, on a page last reviewed and updated 12 August 2026 (source: https://www.indiapost.gov.in/)."
+      ],
+      "caveats": "Street address of the Chief Postmaster General, Kerala Circle was not stated in the excerpts retrieved; headquarters city Thiruvananthapuram and district Thiruvananthapuram are the circle HQ location but the exact address could not be confirmed from pages opened. Year 2026 for the 07 Aug SPARSH notice is inferred from the 2026-27 cycle and the 12 August 2026 page-update stamp. No revenue, expenditure or staff figures for the Circle were available; left null. Establishment year not confirmed.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.indiapost.gov.in/",
+          "kind": "government_order",
+          "publisher": "India Post, Department of Posts",
+          "date": "2026-08-12",
+          "supports": "existence of KERALA POSTAL CIRCLE, SPARSH 2026-27 notification dated 07 Aug, page updated 12 August 2026, operating status in 2026"
+        },
+        {
+          "url": "https://sr.indianrailways.gov.in/",
+          "kind": "government_order",
+          "publisher": "Southern Railway",
+          "date": null,
+          "supports": "existence of Thiruvananthapuram Division as alternative Kerala departmental unit; no dated development retrieved"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-kl-0007",
+      "category": "statutory",
+      "state": "Kerala",
+      "name": "Cochin Port Authority (CoPA)",
+      "summary": "Cochin Port Authority is the port authority at Willingdon Island, Kochi, Kerala. Its site in 2026 showed a new Chairperson meeting on 22.06.2026 and a General Nursing and Midwifery 2026-2027 notice dated 22.07.2026.",
+      "date": "2026-07-22",
+      "district": "Ernakulam",
+      "headquarters": "Kochi, Kerala",
+      "state_link": "Central port authority headquartered at Willingdon Island, Kochi, Kerala 682009.",
+      "owner": "Central government",
+      "legal_form": "Statutory corporation (Port Authority)",
+      "status": "Operating",
+      "detail": [
+        "The body is labelled Cochin Port Authority with stated mission to provide dependable, cost-effective port services, located at Willingdon Island, Kochi, Kerala 682009 (source: https://cochinport.gov.in/).",
+        "Dated 2026 postings retrieved include: applications for General Nursing and Midwifery, 3 Years Diploma Course 2026-2027, Date: 22.07.2026; Dr. M. Angamuthu, IAS, New Chairperson, CoPA-meeting with HoDs (22.06.2026) (source: https://cochinport.gov.in/)."
+      ],
+      "caveats": "Creating Act (Major Port Authorities Act, 2021) and establishment year could not be confirmed from the excerpts retrieved, so Act name is not asserted beyond Port Authority status and financials/employees are left null. Exact administering ministry not stated in excerpts retrieved. District Ernakulam is inferred from Kochi/Willingdon Island location. No official cargo or financial figures were captured; left null.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://cochinport.gov.in/",
+          "kind": "company_site",
+          "publisher": "Cochin Port Authority",
+          "date": "2026-07-22",
+          "supports": "Government of India identity, Kochi address, 2026 postings including 22.07.2026 GNM notice, 22.06.2026 new Chairperson meeting, 2026 study visit and trade notices"
+        },
+        {
+          "url": "https://shipmin.gov.in/",
+          "kind": "government_order",
+          "publisher": "Ministry of Ports, Shipping and Waterways",
+          "date": null,
+          "supports": "only general major-ports bodies noted; Cochin not named and Act text not retrieved in excerpt"
+        },
+        {
+          "url": "https://www.keralartc.com/",
+          "kind": "company_site",
+          "publisher": "Kerala State Road Transport Corporation",
+          "date": null,
+          "supports": "KSRTC as alternative Kerala statutory road-transport corporation: 15-member board, Transport Bhavan, 2021-2026 copyright; no dated 2025/2026 development retrieved, so CoPA preferred"
         }
       ],
       "verification": "V2"
@@ -1554,6 +1825,197 @@
       "verification": "V2"
     },
     {
+      "id": "psu-tg-0005",
+      "category": "dfi",
+      "state": "Telangana",
+      "name": "Telangana State Financial Corporation (TSFC)",
+      "summary": "The TSFC Building is located at Financial District, Nanakramguda, Hyderabad, Telangana. The CAG lists Report No. 4 of 2025 on State Public Sector Enterprises for Telangana as dated 02-April-2026.",
+      "date": "2026-04-02",
+      "district": "Rangareddy",
+      "headquarters": "Hyderabad, Telangana",
+      "state_link": "State financial corporation of Telangana; TSFC Building is located at Financial District, Nanakramguda, Hyderabad, and it is covered as a Telangana State PSE.",
+      "owner": "State government (Telangana)",
+      "status": "Operating",
+      "detail": [
+        "According to the official Bharat Dynamics Limited site, its Corporate Office address is given as Plot No. 38-39, TSFC Building Near ICICI Towers, Financial District, Nanakramguda, Hyderabad, Telangana - 500032, confirming a TSFC Building in Hyderabad, Telangana.",
+        "According to the CAG site excerpt, under Telangana there is an entry dated 02-April-2026 titled Report No. 4 of 2025_Report of the Comptroller and Auditor General of India on State Public Sector Enterprises; the excerpt is truncated and does not list enterprise-wise coverage, and newer Telangana entries dated 12-August-2026 exist."
+      ],
+      "caveats": "TSFC's own site was unreachable (connection refused), so headquarters street address, establishing Act/GO, shareholding, financials and employees could not be confirmed and are null. District is given as Rangareddy for the Nanakramguda Financial District building location only; TSFC's registered office may differ. Enterprise-wise CAG findings for TSFC were not visible in the excerpt (title truncated). No revenue, profit or net-worth figures are reported here because none appeared on pages actually opened.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.bdl-india.in/",
+          "kind": "company_site",
+          "publisher": "Bharat Dynamics Limited",
+          "date": null,
+          "supports": "TSFC Building location at Financial District, Nanakramguda, Hyderabad 500032"
+        },
+        {
+          "url": "https://cag.gov.in/en",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": "2026-04-02",
+          "supports": "CAG Report No. 4 of 2025 on State Public Sector Enterprises for Telangana dated 02-April-2026"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-tg-0006",
+      "category": "departmental",
+      "state": "Telangana",
+      "name": "South Central Railway (SCR)",
+      "summary": "South Central Railway is one of the 19 zones of Indian Railways with zonal headquarters at Secunderabad, Telangana. Its divisions are Secunderabad, Hyderabad and Nanded and the zone was formed on 2 October 1965. A relevant CAG finding is Audit Report No. 03 of 2026 on Ministry of Railways (Railway Finances), shown as presented on 12 August 2026.",
+      "date": "2026-08-12",
+      "district": "Hyderabad",
+      "headquarters": "Secunderabad, Telangana",
+      "state_link": "Zonal headquarters is Secunderabad, Telangana (Rail Nilayam, Secunderabad).",
+      "owner": "Central government",
+      "administrative": "Ministry of Railways",
+      "legal_form": "Railway zone",
+      "established": "1965: zone formed 2 October 1965",
+      "status": "Operating",
+      "detail": [
+        "According to the reference page opened, the South Central Railway is one of the 19 zones of Indian Railways, Secunderabad, Telangana is the zonal headquarter, it has three divisions Secunderabad, Hyderabad and Nanded, and the zone was formed on 2 October 1965.",
+        "According to the CAG site, Audit Report No. 03 of 2026 Ministry of Railways (Railway Finances) is shown as presented on 12 Aug 2026."
+      ],
+      "caveats": "Headquarters district is given as Hyderabad (Secunderabad twin-city area); parts of Secunderabad fall in adjoining Medchal-Malkajgiri district and the exact Rail Nilayam plot boundary was not verified. No SCR-specific financial or employee figures are given because railway zones do not publish standalone profit statements and none appeared on pages opened. The cited CAG report is Union-wide on Railway Finances; zone-wise findings for SCR were not visible in the excerpt.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/South_Central_Railway_zone",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "SCR is one of 19 zones of Indian Railways; HQ Secunderabad Telangana; 3 divisions; operations from 1965-10-02"
+        },
+        {
+          "url": "https://cag.gov.in/",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": "2026-08-12",
+          "supports": "CAG Audit Report No. 03 of 2026 on Railway Finances presented August 12-13, 2026"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-tg-0007",
+      "category": "statutory",
+      "state": "Telangana",
+      "name": "Telangana State Road Transport Corporation (TGSRTC)",
+      "summary": "Telangana State Road Transport Corporation was formed in 2014 by bifurcating the Andhra Pradesh State Road Transport Corporation, with a statutory step on 27 March 2016 under the Road Transport Corporation Act, 1950, and is based at Hyderabad, Telangana with head office at Bus Bhavan, Musheerabad, Hyderabad. The CAG lists Report No. 4 of 2025 on State Public Sector Enterprises for Telangana as dated 02-April-2026.",
+      "date": "2026-04-02",
+      "district": "Hyderabad",
+      "headquarters": "Hyderabad, Telangana",
+      "state_link": "State-owned corporation of Telangana formed by bifurcating APSRTC in 2014; head office at Bus Bhavan, Musheerabad, Hyderabad.",
+      "owner": "State government (Telangana)",
+      "legal_form": "Statutory corporation (Road Transport Corporations Act, 1950)",
+      "established": "2014 by bifurcation of APSRTC; formal constitution under the Road Transport Corporation Act, 1950 on 27 March 2016",
+      "status": "Operating",
+      "detail": [
+        "According to TGSRTC's official about-us page, it notes Since its inception in 2014 and a fleet of over 10,000 buses, with tagline TGSRTC serving people since 1932.",
+        "According to TGSRTC's official contact page, its head office is listed as Telangana State Road Transport Corporation, Bus Bhavan, Musheerabad, Hyderabad, RTC X Roads, Musheerabad, Hyderabad - 500020.",
+        "According to the reference page opened, It was formed in 2014 by bifurcating the Andhra Pradesh State Road Transport Corporation, operated as a separate entity from 3 June 2015, on 27 March 2016 under the Road Transport Corporation Act, 1950, with base Hyderabad, Telangana, India.",
+        "According to the CAG site excerpt, Report No. 4 of 2025 on State Public Sector Enterprises for Telangana is dated 02-April-2026; the excerpt is truncated and does not list enterprise-wise findings, and newer Telangana entries dated 12-August-2026 exist."
+      ],
+      "caveats": "No TGSRTC-specific revenue, profit, loss, compensation (e.g. Mahalakshmi free-bus reimbursements) or employee figures appeared on pages actually opened, so financials and employees are null. The cited CAG report title was truncated in the excerpt and enterprise-wise findings for TGSRTC were not confirmed. The Transport Department site showed only a last-modified stamp of 29-August-2026 with no TGSRTC order details in the excerpt.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://tgsrtc.telangana.gov.in/about-us",
+          "kind": "company_site",
+          "publisher": "Telangana State Road Transport Corporation",
+          "date": null,
+          "supports": "Inception 2014; fleet over 10,000 buses; TGSRTC identity"
+        },
+        {
+          "url": "https://tgsrtc.telangana.gov.in/contact-us",
+          "kind": "company_site",
+          "publisher": "Telangana State Road Transport Corporation",
+          "date": null,
+          "supports": "Head office Bus Bhavan, Musheerabad, Hyderabad 500020"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Telangana_State_Road_Transport_Corporation",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "Formed 2014 by bifurcating APSRTC; under RTC Act 1950 on 27 March 2016; HQ Hyderabad"
+        },
+        {
+          "url": "https://cag.gov.in/en",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": "2026-04-02",
+          "supports": "CAG Report No. 4 of 2025 on State Public Sector Enterprises for Telangana dated 02-April-2026"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-tg-0008",
+      "category": "defence",
+      "state": "Telangana",
+      "name": "Bharat Dynamics Limited (BDL)",
+      "summary": "Bharat Dynamics Limited is a Government of India Enterprise under the Ministry of Defence, headquartered at Hyderabad, Telangana. It was incorporated on 16 July 1970 as a Public Sector Undertaking under the Ministry of Defence. Its financial-results index lists BDL 2026-27 Q1 on 14/08/2026, and its shareholding-pattern index lists Shareholding Pattern 30.06.2026 dated 11/07/2026.",
+      "date": "2026-08-14",
+      "district": "Rangareddy",
+      "headquarters": "Hyderabad, Telangana",
+      "state_link": "Corporate Office in Hyderabad (Financial District, Nanakramguda) with three plants in Telangana (Hyderabad, Bhanur, Ibrahimpatnam).",
+      "owner": "Central government",
+      "administrative": "Ministry of Defence",
+      "legal_form": "Government company",
+      "established": "1970: incorporated 16 July 1970 as a Public Sector Undertaking under the Ministry of Defence",
+      "status": "Operating",
+      "detail": [
+        "According to BDL's official site, it is described as A Government of India Enterprise, Ministry of Defence, incorporated on 16 July, 1970 as a Public Sector Undertaking under the Ministry of Defence, Government of India, with Corporate Office at Plot No. 38-39, TSFC Building, Financial District, Nanakramguda, Hyderabad, Telangana - 500032.",
+        "According to BDL's official company-profile excerpt, Headquartered in Hyderabad, BDL has four manufacturing units, out of which three are located in Telangana State (Hyderabad, Bhanur and Ibrahimpatnam) and one Andhra Pradesh (Visakhapatnam).",
+        "According to BDL's official financial-results index, filings include BDL 2026-27 Q1 Financial Results on 14/08/2026, BDL 2025-26 Q4 on 29/05/2026 and BDL 2025-26 Q3 on 31/01/2026; the index lists names and dates with no revenue or profit numbers in the excerpt.",
+        "According to BDL's official shareholding-pattern index, the latest filing is labelled SHAREHOLDING PATTERN 30.06.2026 dated 11/07/2026 with no percentages in the excerpt, and the annual-reports index lists Annual Report 2024-25 on 03/09/2025 with no figures in the excerpt, so shareholding, financials and employees are null."
+      ],
+      "caveats": "Revenue, profit, government holding percentage, Schedule/Navratna status and employee strength could not be confirmed because the BDL index pages accessible here list filings without figures in the excerpt and DPE, BSE, NSE and PIB pages were blocked (403) or unreachable. District is Rangareddy for the Nanakramguda Financial District corporate office; the registered Kanchanbagh works address is in Hyderabad district. No disinvestment or closure decision was evidenced.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.bdl-india.in/",
+          "kind": "company_site",
+          "publisher": "Bharat Dynamics Limited",
+          "date": null,
+          "supports": "Government of India Enterprise under MoD; incorporated 16 July 1970; corporate office Nanakramguda Hyderabad"
+        },
+        {
+          "url": "https://www.bdl-india.in/company-profile",
+          "kind": "company_site",
+          "publisher": "Bharat Dynamics Limited",
+          "date": null,
+          "supports": "Three plants in Telangana (Hyderabad, Bhanur, Ibrahimpatnam) plus Visakhapatnam; Amravati unit upcoming"
+        },
+        {
+          "url": "https://www.bdl-india.in/financial-results",
+          "kind": "company_site",
+          "publisher": "Bharat Dynamics Limited",
+          "date": null,
+          "supports": "Filing dates incl. BDL 2026-27 Q1 on 14/08/2026; no revenue/profit numbers in excerpt"
+        },
+        {
+          "url": "https://www.bdl-india.in/shareholding-pattern",
+          "kind": "company_site",
+          "publisher": "Bharat Dynamics Limited",
+          "date": null,
+          "supports": "Latest shareholding pattern for 30.06.2026 dated 11/07/2026; no percentages in excerpt"
+        },
+        {
+          "url": "https://www.bdl-india.in/annual-reports",
+          "kind": "annual_report",
+          "publisher": "Bharat Dynamics Limited",
+          "date": null,
+          "supports": "Annual Report 2024-25 listed 03/09/2025; no figures in excerpt"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "psu-tn-0002",
       "category": "state",
       "state": "Tamil Nadu",
@@ -1691,6 +2153,146 @@
       "verification": "V2"
     },
     {
+      "id": "psu-tn-0006",
+      "category": "departmental",
+      "state": "Tamil Nadu",
+      "name": "Southern Railway (SR)",
+      "summary": "Southern Railway is a zonal railway of Indian Railways under the Ministry of Railways, headquartered in Chennai. Its network covers Tamil Nadu, Kerala, Puducherry, and parts of Andhra Pradesh and Karnataka. It was created on 14 April 1951 by merging three railways.",
+      "date": "1951-04-14",
+      "district": "Chennai",
+      "headquarters": "Chennai, Tamil Nadu",
+      "state_link": "Headquartered at Chennai and covers Tamil Nadu (per official zonal site and zone profile).",
+      "owner": "Central government",
+      "administrative": "Ministry of Railways",
+      "legal_form": "Departmental undertaking (railway zone of Indian Railways)",
+      "established": "1951, formed in its present form on 14 April 1951",
+      "status": "Operating",
+      "detail": [
+        "Southern Railway's official page says it was created on 14 April 1951 by merging the Madras and Southern Mahratta Railway, the South Indian Railway Company and the Mysore State Railway.",
+        "The official page places its headquarters in Chennai and says its network covers Tamil Nadu, Kerala, Puducherry, and parts of Andhra Pradesh and Karnataka.",
+        "A Ministry of Railways manual classifies zonal railways as subordinate offices and lists Southern Railway with Chennai as its headquarters."
+      ],
+      "caveats": "The official Southern Railway page gives its headquarters office as Park Town, Chennai 600003, but not a street address. The opened official pages did not provide FY2024-25 or FY2025-26 zonal revenue, surplus or staff totals.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://southernrailway.gov.in/sr-orh/",
+          "kind": "government_order",
+          "publisher": "Southern Railway",
+          "date": null,
+          "supports": "formation date; headquarters; service area"
+        },
+        {
+          "url": "https://sr.indianrailways.gov.in/uploads/files/1419845110905-brief.pdf",
+          "kind": "government_order",
+          "publisher": "Southern Railway—Tiruchchirappalli Division",
+          "date": null,
+          "supports": "14 April 1951 formation date and merger details"
+        },
+        {
+          "url": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/secretary_branches/pdf/2022/6th_Edition_MOP_2022.pdf",
+          "kind": "news",
+          "publisher": "Ministry of Railways (Railway Board)",
+          "date": null,
+          "supports": "zonal railways as subordinate offices; Southern Railway headquarters and divisions"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-tn-0007",
+      "category": "statutory",
+      "state": "Tamil Nadu",
+      "name": "Chennai Port Authority (ChPA)",
+      "summary": "Chennai Port Authority administers Chennai Port as a Major Port Authority under the Major Port Authorities Act, 2021, which took effect on 3 November 2021. It is based in Chennai, Tamil Nadu; harbour work at the port was completed in 1911.",
+      "date": "2021-11-03",
+      "district": "Chennai",
+      "headquarters": "Chennai, Tamil Nadu",
+      "state_link": "The Ministry lists Chennai Port Authority among the Major Port Authorities; Chennai Port is located in Chennai, Tamil Nadu.",
+      "owner": "Central government",
+      "administrative": "Ministry of Ports, Shipping and Waterways",
+      "legal_form": "Statutory corporation (Major Port Authorities Act, 2021)",
+      "established": "Harbour work at the port was completed in 1911; Chennai Port Authority operates under the Major Port Authorities Act effective 3 November 2021.",
+      "status": "Operating",
+      "detail": [
+        "The Ministry's Ports Wing page lists Chennai Port Authority among Major Port Authorities and says the Act vests administration, control and management of major ports in their authority boards.",
+        "The opened port profile says Chennai Port is the largest port in the Bay of Bengal, is an artificial all-weather port with wet docks, and that harbour work was completed in 1911.",
+        "The opened port profile provides 2023-24 figures. The opened port and Ministry pages did not state Chennai-specific FY2024-25 or FY2025-26 cargo, revenue, surplus or staff totals."
+      ],
+      "caveats": "The Ministry's official Gazette notice sets 3 November 2021 as the Act's effective date. The supplied Chennai Port homepage did not load in this review; the Ministry pages list the Authority and provide the effective date. FY2024-25 and FY2025-26 cargo, financial and employee figures were not found in the opened pages.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.shipmin.gov.in/en/node/445",
+          "kind": "government_order",
+          "publisher": "Ministry of Ports, Shipping and Waterways",
+          "date": null,
+          "supports": "Chennai Port Authority listing; major-port administration under the Ministry; Act framework and effective date"
+        },
+        {
+          "url": "https://shipmin.gov.in/sites/default/files/Letter.pdf",
+          "kind": "government_order",
+          "publisher": "Ministry of Ports, Shipping and Waterways",
+          "date": null,
+          "supports": "Gazette notification setting the Act's commencement date as 3 November 2021"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Chennai_Port",
+          "kind": "news",
+          "publisher": "Wikipedia (tertiary context only)",
+          "date": null,
+          "supports": "port profile; Bay of Bengal status; artificial all-weather harbour; 1911 harbour-work completion"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-tn-0008",
+      "category": "defence",
+      "state": "Tamil Nadu",
+      "name": "Armoured Vehicles Nigam Limited (AVNL)",
+      "summary": "Armoured Vehicles Nigam Limited is a Government of India defence public sector undertaking created from the Ordnance Factory Board. It was formally incorporated on 14 August 2021, began operations on 1 October 2021, and is headquartered at Avadi, Chennai.",
+      "date": "2021-08-14",
+      "district": "Thiruvallur",
+      "headquarters": "Avadi (Chennai), Tamil Nadu",
+      "state_link": "Headquartered at Avadi, Chennai per profile; MCA CIN U35990TN2021GOI145504 denotes a Tamil Nadu-registered 2021 Government of India company.",
+      "owner": "Central government",
+      "administrative": "Ministry of Defence (Department of Defence Production)",
+      "legal_form": "Government company (Defence PSU; Government of India Enterprise)",
+      "established": "Formally incorporated on 14 August 2021; operations commenced on 1 October 2021 as part of the Ordnance Factory Board restructuring.",
+      "status": "Operating",
+      "detail": [
+        "AVNL's official site gives the full name Armoured Vehicles Nigam Limited, labels it a Government of India Enterprise and prints CIN U35990TN2021GOI145504.",
+        "AVNL's official history page says it was formally incorporated as a wholly owned Government of India company on 14 August 2021, began operations on 1 October 2021, and emerged from the Ordnance Factory Board. It lists the Heavy Vehicles Factory and Engine Factory at Avadi, along with its other factories and institutes."
+      ],
+      "caveats": "AVNL's official history page describes it as wholly owned by the Government of India but gives no numerical shareholding percentage. The official Contact Us page identifies its address as Avadi, Chennai, Thiruvallur, Tamil Nadu. The opened official pages did not provide FY2024-25 or FY2025-26 financial, dividend or employee totals.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://avnl.co.in/",
+          "kind": "company_site",
+          "publisher": "Armoured Vehicles Nigam Limited",
+          "date": null,
+          "supports": "official name; Government of India Enterprise status; CIN"
+        },
+        {
+          "url": "https://www.avnl.co.in/history",
+          "kind": "company_site",
+          "publisher": "Armoured Vehicles Nigam Limited",
+          "date": null,
+          "supports": "incorporation and operations dates; wholly owned status; headquarters; Ordnance Factory Board origin and units"
+        },
+        {
+          "url": "https://avnl.co.in/index.php/contact-us",
+          "kind": "company_site",
+          "publisher": "Armoured Vehicles Nigam Limited",
+          "date": null,
+          "supports": "corporate office address in Avadi, Chennai, Thiruvallur, Tamil Nadu"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "psu-tn-0009",
       "category": "jv",
       "state": "Tamil Nadu",
@@ -1794,6 +2396,67 @@
           "publisher": "DT Next",
           "date": null,
           "supports": "CAG Smart City Mission findings on CSCL tabled September 8"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-up-0001",
+      "category": "cpse",
+      "state": "Uttar Pradesh",
+      "name": "Neyveli Uttar Pradesh Power Limited (NUPPL)",
+      "summary": "Neyveli Uttar Pradesh Power Limited is a joint-venture government company building the 1,980 MW Ghatampur supercritical thermal plant in Kanpur Nagar. It is held 51% by NLC India Limited and 49% by Uttar Pradesh Rajya Vidyut Utpadan Nigam Limited. Its most recent development is the commercial operation of Unit-3 (660 MW) on 13 June 2026, fully commissioning the station.",
+      "date": "2026-06-13",
+      "district": "Lucknow",
+      "headquarters": "Lucknow, Uttar Pradesh",
+      "state_link": "Registered office at KH-419, G.N. Extension, Gomti Nagar, Lucknow; plant at Ghatampur Tehsil, Kanpur Nagar district, Uttar Pradesh; 49% held by UP state genco UPRVUNL.",
+      "owner": "Joint (Central government via NLC India Limited and State government (Uttar Pradesh) via UPRVUNL)",
+      "shareholding": "51:49 equity participation between Neyveli Lignite Corporation India Ltd and Uttar Pradesh Rajya Vidyut Utpadan Nigam Ltd, per nuppl.in (51% NLC / 49% UPRVUNL split as named in record not verbatim verified beyond 51:49 ratio)",
+      "administrative": "Ministry of Coal (project monitored by Ministry of Coal; NLC India Limited under Ministry of Coal)",
+      "legal_form": "Government company (unlisted joint venture / CPSE subsidiary)",
+      "established": "2016 (GOI sanction 27.07.2016 per nuppl.in; 2012 incorporation not verified in readable opened sources)",
+      "status": "Operating",
+      "detail": [
+        "NUPPL is a joint venture of Neyveli Lignite Corporation India Ltd with Uttar Pradesh Rajya Vidyut Utpadan Nigam Ltd with 51:49 equity participation, setting up a coal based supercritical thermal power plant with capacity of 1980 MW (3 X 660 MW) at Ghatampur Tehsil in Kanpur Nagar District, Uttar Pradesh, per nuppl.in.",
+        "nuppl.in lists registered address as KH 419, G.N. Extension, Gomti Nagar, Lucknow 226 010, sanction for the project on 27.07.2016, and commercial operations of UNIT-1 from 00:00 hrs on 12.12.2024, UNIT-2 from 00:00 hrs on 09.12.2025, and UNIT-3 from 00:00 hrs on 13.06.2026."
+      ],
+      "caveats": "PIB PRID 2132776, BSE filing dated 2026-06-13, NLC AnnualReport2025.pdf and ICRA rationale could not be read with available fetch (403 / size / binary); cost, PPA, FY2025 financials, 2012 incorporation and PM-dedication claims removed pending readable verification. Only nuppl.in readable content supports this fix.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2132776",
+          "kind": "pib",
+          "publisher": "Press Information Bureau, Ministry of Coal",
+          "date": "2025-05-30",
+          "supports": "51:49 JV, 3x660 MW / 1980 MW, Kanpur Nagar location, Rs 21,780.94 cr cost, 998.81 ha, PPA split 1487.28/492.72 MW, Unit-1 dedication"
+        },
+        {
+          "url": "https://nuppl.in/",
+          "kind": "company_site",
+          "publisher": "Neyveli Uttar Pradesh Power Ltd",
+          "date": null,
+          "supports": "JV description, 1980 MW Ghatampur, 51:49 equity, GOI sanction 27.07.2016, registered office Lucknow, Unit-1 COD 12.12.2024, Unit-2 COD 09.12.2025, Unit-3 COD 13.06.2026"
+        },
+        {
+          "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/f6bf1d46-ca35-4939-9c65-7662644eef39.pdf",
+          "kind": "exchange_filing",
+          "publisher": "NLC India Limited (BSE filing)",
+          "date": "2026-06-13",
+          "supports": "Unit-3 (660 MW) COD from 00:00 hrs 13.06.2026; NUPPL JV 51/49; full 1980 MW commissioned; NLCIL group capacity 7745 to 8405 MW"
+        },
+        {
+          "url": "https://www.nlcindia.in/webassets/investor/AnnualReport2025.pdf",
+          "kind": "annual_report",
+          "publisher": "NLC India Limited",
+          "date": "2025-09-27",
+          "supports": "NUPPL as subsidiary/JV, Unit-1 COD 12.12.2024 with ~1.2 BU generation by March 2025, sanctioned cost Rs 21,780.94 cr, FY24-25 CAPEX Rs 2,874.64 cr, PPA shares"
+        },
+        {
+          "url": "https://www.icra.in/Rating/ShowRationalReportFilePdf/138060",
+          "kind": "rating",
+          "publisher": "ICRA",
+          "date": "2025-09-29",
+          "supports": "JV 51:49 incorporated 2012, cost revisions to Rs 21,780.94 cr (MoC Nov 2024), FY24/FY25 key indicators (OI 0/700.5 cr, PAT -1.5/-49.9 cr), sponsor profile and PPA on cost-plus"
         }
       ],
       "verification": "V2"
