@@ -219154,5 +219154,1170 @@
   "merged_case_id": "cop-tr-hc-0",
   "officers_named_public": 0,
   "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0086",
+  "status": "current",
+  "merged_id": "CWC-1367",
+  "alias_merged_ids": [],
+  "display_title": "Shri [name withheld] vs The Director General of Police and Ors",
+  "display_title_redacted": "Shri [name withheld] vs The Director General of Police and Ors",
+  "state": "Andaman and Nicobar Islands",
+  "district": "Nicobar",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Campbell Bay Police Station (Case No. 30 of 2021)",
+  "court": "High Court at Calcutta, Circuit Bench at Port Blair",
+  "court_as_verified": "High Court at Calcutta, Circuit Bench at Port Blair",
+  "bench": null,
+  "case_title": "Shri [name withheld] vs The Director General of Police and Ors",
+  "case_number": "WPA/388/2025",
+  "citation": "2026:CHC-PB:111",
+  "judges": [
+   "Partha Sarathi Sen"
+  ],
+  "judgment_date": "2026-08-10",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": null,
+  "incident_year": null,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "illegal_detention_false_imprisonment",
+  "subcategory": "illegal_detention_false_imprisonment",
+  "subcategory_display": "illegal detention false imprisonment",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Investigating Officer",
+    "role": "named_in_finding",
+    "unit": "Campbell Bay Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Investigating Officer, Campbell Bay Police Station"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/47336075/",
+  "secondary_sources": [
+   "https://indiankanoon.org/doc/34895787/"
+  ],
+  "summary": "The High Court held that the State had produced no document apart from pleading to show compliance with the Supreme Court arrest safeguards in Campbell Bay PS Case No. 30 of 2021. The High Court held that no prima facie evidence had been produced to show compliance with the statutory arrest requirements. The High Court rejected the custodial-harm claim for want of prima facie material beyond a small superficial cut. The High Court directed a Deputy Superintendent of Police-level enquiry within 90 working days and directed disciplinary proceedings against the delinquent forthwith if breach is found.",
+  "summary_verified": "The High Court held that the State had produced no document apart from pleading to show compliance with the Supreme Court arrest safeguards in Campbell Bay PS Case No. 30 of 2021. The High Court held that no prima facie evidence had been produced to show compliance with the statutory arrest requirements. The High Court rejected the custodial-harm claim for want of prima facie material beyond a small superficial cut. The High Court directed a Deputy Superintendent of Police-level enquiry within 90 working days and directed disciplinary proceedings against the delinquent forthwith if breach is found.",
+  "court_quote": "no prima facie evidence has been produced to show compliance of the statutory requirements",
+  "court_quote_para": "Para 11-12",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Verified against the cited judgment.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-08-10",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court at Calcutta, Circuit Bench at Port Blair",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court at Calcutta, Circuit Bench at Port Blair recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2026:CHC-PB:111",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/47336075/",
+    "link_checked": null
+   },
+   {
+    "url": "https://indiankanoon.org/doc/34895787/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-an-hc"
+  ],
+  "merged_case_id": "cop-an-hc-0",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0087",
+  "status": "current",
+  "merged_id": "CWC-1368",
+  "alias_merged_ids": [],
+  "display_title": "The State vs [name withheld]",
+  "display_title_redacted": "The State vs [name withheld]",
+  "state": "Andaman and Nicobar Islands",
+  "district": "Port Blair",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "PS Aberdeen",
+  "court": "High Court at Calcutta, Circuit Bench at Port Blair",
+  "court_as_verified": "High Court at Calcutta, Circuit Bench at Port Blair",
+  "bench": null,
+  "case_title": "The State vs [name withheld]",
+  "case_number": "CRA (DB) 6 of 2024 with CRA (DB) 4 of 2024",
+  "citation": null,
+  "judges": [
+   "Arijit Banerjee",
+   "Apurba Sinha Ray"
+  ],
+  "judgment_date": "2026-08-06",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": null,
+  "incident_year": null,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "custodial_rape_sexual_assault",
+  "subcategory": "custodial_rape_sexual_assault",
+  "subcategory_display": "custodial rape sexual assault",
+  "protest_override_heuristic": false,
+  "outcome_type": "conviction_by_hc",
+  "sections": [
+   "376 IPC",
+   "312 IPC"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Police Constable",
+    "role": "convicted",
+    "unit": "PS Aberdeen, Andaman and Nicobar Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Constable, PS Aberdeen, Andaman and Nicobar Police"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": null,
+    "gender": "female"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": true,
+  "victim_count": 1,
+  "sentence_type": "imprisonment",
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/18626796/",
+  "secondary_sources": [
+   "https://indiankanoon.org/doc/32245148/"
+  ],
+  "summary": "The High Court convicted a serving police constable by its judgment dated 23.04.2026, reversing the Sessions Judge's acquittal dated 24.04.2024 in Sessions Case No. 32 of 2015. The High Court held that intimacy was secured on a false promise of marriage and that the complainant lady constable was coerced into abortions. The High Court imposed the minimum seven-year rigorous imprisonment plus fine for the sexual offence and a concurrent one-year term plus fine for the second offence. The High Court directed that ninety percent of any fine realized be disbursed to the victim as compensation.",
+  "summary_verified": "The High Court convicted a serving police constable by its judgment dated 23.04.2026, reversing the Sessions Judge's acquittal dated 24.04.2024 in Sessions Case No. 32 of 2015. The High Court held that intimacy was secured on a false promise of marriage and that the complainant lady constable was coerced into abortions. The High Court imposed the minimum seven-year rigorous imprisonment plus fine for the sexual offence and a concurrent one-year term plus fine for the second offence. The High Court directed that ninety percent of any fine realized be disbursed to the victim as compensation.",
+  "court_quote": "Ninety percent (90%) of the fine amount, if realized, shall be disbursed to the victim as compensation.",
+  "court_quote_para": "sentence order",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Sections field lists 417 IPC, but the High Court's conviction and sentencing order (primary source doc/18626796) are under Sections 376 and 312 IPC only; 417 IPC was part of the trial charge but not the conviction, and the sentence described covers only two offences.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-08-06",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court at Calcutta, Circuit Bench at Port Blair",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court at Calcutta, Circuit Bench at Port Blair recorded adverse findings against police personnel.",
+    "disposition": "conviction by hc",
+    "source": "CRA (DB) 6 of 2024 with CRA (DB) 4 of 2024",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/18626796/",
+    "link_checked": null
+   },
+   {
+    "url": "https://indiankanoon.org/doc/32245148/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-an-hc"
+  ],
+  "merged_case_id": "cop-an-hc-1",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0088",
+  "status": "current",
+  "merged_id": "CWC-1369",
+  "alias_merged_ids": [],
+  "display_title": "State v. [name withheld] & Anr. (CRL.A. 258/2016)",
+  "display_title_redacted": "State v. [name withheld] & Anr. (CRL.A. 258/2016)",
+  "state": "Delhi",
+  "district": "West Delhi",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Punjabi Bagh",
+  "court": "High Court of Delhi",
+  "court_as_verified": "High Court of Delhi",
+  "bench": null,
+  "case_title": "State v. [name withheld] & Anr. (CRL.A. 258/2016)",
+  "case_number": "CRL.A. 258/2016",
+  "citation": "2026:DHC:XXXX",
+  "judges": [
+   "[name withheld]"
+  ],
+  "judgment_date": "2026-02-27",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2010-11-15",
+  "incident_year": 2010,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "false_implication_fabrication",
+  "subcategory": "false_implication_fabrication",
+  "subcategory_display": "false implication fabrication",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "302",
+   "34 IPC"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Investigating Officer",
+    "role": "named_in_finding",
+    "unit": "Punjabi Bagh Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Investigating Officer, Punjabi Bagh Police Station"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://pub-cc8438e664ef4d32a54c800c7c408282.r2.dev/935dcd20-3732-4c39-a166-941be38b3b9e.pdf",
+  "secondary_sources": [],
+  "summary": "The High Court upheld the acquittal of two accused in a murder case, holding that the Investigating Officer had planted the alleged weapon of offence — an iron rod — at a distance of merely 10-12 feet from the body after the area had already been searched. The Court found the recovery farcical, the medical evidence contradictory, and the investigation seriously defective for failing to seize blood-stained clothes, send them for forensic examination, collect call details, or examine independent witnesses. The Court disbelieved the eyewitnesses due to material contradictions and their failure to disclose the identity of known assailants at the first opportunity.",
+  "summary_verified": "The High Court upheld the acquittal of two accused in a murder case, holding that the Investigating Officer had planted the alleged weapon of offence — an iron rod — at a distance of merely 10-12 feet from the body after the area had already been searched. The Court found the recovery farcical, the medical evidence contradictory, and the investigation seriously defective for failing to seize blood-stained clothes, send them for forensic examination, collect call details, or examine independent witnesses. The Court disbelieved the eyewitnesses due to material contradictions and their failure to disclose the identity of known assailants at the first opportunity.",
+  "court_quote": "The recovery of the iron rod at the instance of Respondent [name withheld] is highly doubtful and the said evidence appears to be planted. The distance between the spot where the body was found and the iron rod allegedly recovered is merely 10-12 feet. It is wholly improbable that the police personnel and Crime Team examining the area for hours did not find the Saria (iron rod) lying just 10-12 feet away from the dead body.",
+  "court_quote_para": "41",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Verified against the full judgment on Indian Kanoon: State (Govt of NCT of Delhi) v. [name withheld] & Anr., CRL.A. 258/2016, decided 27-02-2026. It is a Division Bench judgment authored by [name withheld] with Prathiba M. Singh concurring; data lists only [name withheld], which is acceptable as the authoring judge. Trial appeal from FIR No. 339/2010, PS Punjabi Bagh; offences 302/34 IPC; appeal dismissed, acquittal upheld. Para 41 finding (recovery of iron rod/saria at 10-12 feet from the body 'wholly improbable... police personnel and Crime Team examining the area for hours did not find the Saria'), para 42 'All these circumstances establish that the iron rod was planted' — confirmed.; Citation '2026:DHC:XXXX' is a placeholder; exact incident date (2010-11-15) not independently confirmed but consistent with FIR 339/2010.",
+  "verification_status": "V1",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-02-27",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Delhi",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Delhi recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2026:DHC:XXXX",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://pub-cc8438e664ef4d32a54c800c7c408282.r2.dev/935dcd20-3732-4c39-a166-941be38b3b9e.pdf",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-dl-hc"
+  ],
+  "merged_case_id": "cop-dl-hc-0",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0089",
+  "status": "current",
+  "merged_id": "CWC-1370",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] v. State & Anr. (CRL.A. 897/2006)",
+  "display_title_redacted": "[name withheld] v. State & Anr. (CRL.A. 897/2006)",
+  "state": "Delhi",
+  "district": "West Delhi",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Rajouri Garden Police Station",
+  "court": "High Court of Delhi",
+  "court_as_verified": "High Court of Delhi",
+  "bench": null,
+  "case_title": "[name withheld] v. State & Anr. (CRL.A. 897/2006)",
+  "case_number": "CRL.A. 286/2016 (connected: CRL.A. 326/2016, CRL.A. 691/2016)",
+  "citation": "2026:DHC:XXXX",
+  "judges": [
+   "[name withheld]"
+  ],
+  "judgment_date": "2026-04-04",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2000-06-00",
+  "incident_year": 2000,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "false_implication_fabrication",
+  "subcategory": "false_implication_fabrication",
+  "subcategory_display": "false implication fabrication",
+  "protest_override_heuristic": false,
+  "outcome_type": "conviction_upheld",
+  "sections": [
+   "120B",
+   "193",
+   "195",
+   "218",
+   "465",
+   "389 IPC"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Sub-Inspector",
+    "role": "convicted",
+    "unit": "Rajouri Garden Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Sub-Inspector, Rajouri Garden Police Station"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": "imprisonment",
+  "sentence_max_years": null,
+  "compensation_inr": 300000,
+  "force": "state_police",
+  "primary_source_url": "https://theprint.in/judiciary/stopped-molestation-framed-in-rape-case-hc-ends-case-that-haunted-delhi-man-till-death-26-yrs-on/2898398/",
+  "secondary_sources": [
+   "https://thebarbulletin.com/delhi-hc-false-rape-case-conviction/"
+  ],
+  "summary": "The High Court upheld the conviction of a Sub-Inspector and a lawyer for orchestrating a conspiracy to falsely implicate a man in a rape case. The Sub-Inspector prepared false police records, staged a fake rape using a tutored woman, and planted fabricated medical evidence including semen not belonging to the victim. The complainant later retracted her allegations, and DNA analysis confirmed the fabrication. The Court enhanced compensation to the victim's legal representatives, noting the victim never got justice during his lifetime.",
+  "summary_verified": "The High Court upheld the conviction of a Sub-Inspector and a lawyer for orchestrating a conspiracy to falsely implicate a man in a rape case. The Sub-Inspector prepared false police records, staged a fake rape using a tutored woman, and planted fabricated medical evidence including semen not belonging to the victim. The complainant later retracted her allegations, and DNA analysis confirmed the fabrication. The Court enhanced compensation to the victim's legal representatives, noting the victim never got justice during his lifetime.",
+  "court_quote": "The crime committed by A1, a lawyer and A2, a police officer is in no way justifiable….This is a fit case in which a more stringent sentence ought to have been imposed so as to send a strong message to the people occupying such positions, be it a lawyer or a police officer, that Courts would not treat such crimes lightly or turn a blind eye to such blatant misuse of their position and authority.",
+  "court_quote_para": "67",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Case number is wrong: the appeals are CRL.A. 286/2016 (Haji Mohd. Altaf), CRL.A. 326/2016 ([name withheld]) and CRL.A. 691/2016 ([name withheld] thr. LRs), not CRL.A. 897/2006 - a 2006 appeal is impossible because the trial court (Rohini) convicted only in 2016 (judgment of 29-02-2016).; Sections are wrong: the trial court convicted A1/A2 under Sections 120B, 193, 195, 218, 465, 389 read with 120B IPC, not 120B/193/211/342/384.; court_quote (para 67) could not be verified verbatim from any source located; neither ThePrint nor The Bar Bulletin reproduces the paragraph.; Citation '2026:DHC:XXXX' is a placeholder.",
+  "verification_status": "V1",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-04-04",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Delhi",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Delhi recorded adverse findings against police personnel.",
+    "disposition": "conviction upheld",
+    "source": "2026:DHC:XXXX",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://theprint.in/judiciary/stopped-molestation-framed-in-rape-case-hc-ends-case-that-haunted-delhi-man-till-death-26-yrs-on/2898398/",
+    "link_checked": null
+   },
+   {
+    "url": "https://thebarbulletin.com/delhi-hc-false-rape-case-conviction/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-dl-hc"
+  ],
+  "merged_case_id": "cop-dl-hc-2",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0071",
+  "status": "current",
+  "merged_id": "CWC-1371",
+  "alias_merged_ids": [],
+  "display_title": "GNCTD v. Delhi Police personnel & Ors. (officer name redacted)",
+  "display_title_redacted": "GNCTD v. Delhi Police personnel & Ors. (officer name redacted)",
+  "state": "Delhi",
+  "district": "Delhi",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Delhi Police (various units)",
+  "court": "High Court of Delhi",
+  "court_as_verified": "High Court of Delhi",
+  "bench": null,
+  "case_title": "GNCTD v. Delhi Police personnel & Ors. (officer name redacted)",
+  "case_number": "CRL.A. XXXX/202X",
+  "citation": "2025 LiveLaw (Del) XXX",
+  "judges": [
+   "[name withheld]"
+  ],
+  "judgment_date": "2025-07-31",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": "2013-05-00",
+  "incident_year": 2013,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "custodial_rape_sexual_assault",
+  "subcategory": "custodial_rape_sexual_assault",
+  "subcategory_display": "custodial rape sexual assault",
+  "protest_override_heuristic": false,
+  "outcome_type": "conviction_upheld",
+  "sections": [
+   "354-A",
+   "294",
+   "509 IPC",
+   "POCSO Act"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Police Personnel",
+    "role": "convicted",
+    "unit": "Delhi Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Personnel, Delhi Police"
+   },
+   {
+    "name": null,
+    "rank": "Police Personnel",
+    "role": "convicted",
+    "unit": "Delhi Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Personnel, Delhi Police"
+   },
+   {
+    "name": null,
+    "rank": "Police Personnel",
+    "role": "convicted",
+    "unit": "Delhi Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Personnel, Delhi Police"
+   }
+  ],
+  "officer_count": 3,
+  "victims": [
+   {
+    "name": null,
+    "gender": "female"
+   },
+   {
+    "name": null,
+    "gender": "female"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": true,
+  "victim_count": 2,
+  "sentence_type": "imprisonment",
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://supremetoday.ai/delhi-hc-upholds-sentencing-of-police-personnel-pocso-ipc-20260524035",
+  "secondary_sources": [
+   "https://goachronicle.com/delhi-hc-upholds-conviction-of-three-delhi-police-personnel-in-2013-sexual-harassment-case/"
+  ],
+  "summary": "The High Court upheld the conviction of three Delhi Police personnel for persistent sexual harassment of a neighbor and her minor niece over a decade. The convicts engaged in vulgar acts, verbal abuse, and indecent exposure. The Court rejected pleas for leniency based on age, health, or family responsibilities, holding that as law enforcement officers they violated the very law they were sworn to uphold, and a punitive approach was necessary to restore public confidence.",
+  "summary_verified": "The High Court upheld the conviction of three Delhi Police personnel for persistent sexual harassment of a neighbor and her minor niece over a decade. The convicts engaged in vulgar acts, verbal abuse, and indecent exposure. The Court rejected pleas for leniency based on age, health, or family responsibilities, holding that as law enforcement officers they violated the very law they were sworn to uphold, and a punitive approach was necessary to restore public confidence.",
+  "court_quote": "The convicts were 'none other than the police officials, who are responsible to maintain law and order in society'",
+  "court_quote_para": null,
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "court_quote is not a verbatim judgment extract: 'none other than the police officials, who are responsible to maintain law and order in society' is a confirmed direct quotation, but the surrounding sentences are editorial paraphrase and 'para 12' does not exist in the news sources.; case_number 'CRL.A. XXXX/202X' and citation '2025 LiveLaw (Del) XXX' are placeholders; the sources do not disclose the real case number/citation.; The case title 'GNCTD v. [name withheld] & Ors.' names a police officer ([name withheld], one of the three convicted Delhi Police personnel) - per instructions, officer names in any field must be redacted or the case rejected.",
+  "verification_status": "V1",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-07-31",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Delhi",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Delhi recorded adverse findings against police personnel.",
+    "disposition": "conviction upheld",
+    "source": "2025 LiveLaw (Del) XXX",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://supremetoday.ai/delhi-hc-upholds-sentencing-of-police-personnel-pocso-ipc-20260524035",
+    "link_checked": null
+   },
+   {
+    "url": "https://goachronicle.com/delhi-hc-upholds-conviction-of-three-delhi-police-personnel-in-2013-sexual-harassment-case/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-dl-hc"
+  ],
+  "merged_case_id": "cop-dl-hc-3",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0072",
+  "status": "current",
+  "merged_id": "CWC-1372",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] v. State (correct orientation; officer name should be redacted per register policy)",
+  "display_title_redacted": "[name withheld] v. State (correct orientation; officer name should be redacted per register policy)",
+  "state": "Delhi",
+  "district": "Delhi",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Delhi Police",
+  "court": "High Court of Delhi",
+  "court_as_verified": "High Court of Delhi",
+  "bench": null,
+  "case_title": "[name withheld] v. State (correct orientation; officer name should be redacted per register policy)",
+  "case_number": "CRL.A.315/2021",
+  "citation": "2025 LiveLaw (Del) 1576",
+  "judges": [
+   "[name withheld]"
+  ],
+  "judgment_date": "2025-09-26",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": "XXXX-XX-XX",
+  "incident_year": null,
+  "category": "Other",
+  "admin_category": "corruption",
+  "admin_subcategory": "bribery_pc_act",
+  "subcategory": "bribery_pc_act",
+  "subcategory_display": "bribery pc act",
+  "protest_override_heuristic": false,
+  "outcome_type": "conviction_upheld",
+  "sections": [
+   "12 PC Act",
+   "120B IPC"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Assistant Sub-Inspector",
+    "role": "convicted",
+    "unit": "Delhi Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Assistant Sub-Inspector, Delhi Police"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": null,
+    "gender": null
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": "imprisonment",
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://www.livelaw.in/high-court/delhi-high-court/high-court-upholds-delhi-police-personnels-conviction-for-offering-50k-bribe-to-judge-acquits-two-310984",
+  "secondary_sources": [],
+  "summary": "The High Court upheld the conviction of former ASI [name withheld] for offering a bribe of ₹50,000 to a judge of Tis Hazari Courts to secure a peon's job for a co-accused. The prosecution proved through the testimony of a Head Constable and recovery of the bribe money with a photocopy of the interview letter that the ASI handed over the packet. The Court acquitted him of criminal conspiracy but sustained the conviction under Section 12 of the Prevention of Corruption Act.",
+  "summary_verified": "The High Court upheld the conviction of former ASI [name withheld] for offering a bribe of ₹50,000 to a judge of Tis Hazari Courts to secure a peon's job for a co-accused. The prosecution proved through the testimony of a Head Constable and recovery of the bribe money with a photocopy of the interview letter that the ASI handed over the packet. The Court acquitted him of criminal conspiracy but sustained the conviction under Section 12 of the Prevention of Corruption Act.",
+  "court_quote": "So far as the charge under PC Act is concerned, the Court said the Prosecution evidence overwhelmingly proved that [name withheld] handed over a packet to the Complainant, through Head Constable [name withheld], which was found to contain Rs. 50,000/- along with the photocopy of [name withheld]'s Interview Letter.",
+  "court_quote_para": "8",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Case title orientation is reversed: the convicted ASI is the appellant, so the case is '[name withheld] v. State' (and a connected appeal), not 'State v. [name withheld]'; case number is CRL.A.315/2021 with citation 2025 LiveLaw (Del) 1576.; Decision date: the LiveLaw order PDF is named 'nbk26092025crla3152021143115...', indicating the judgment was pronounced 26-09-2025; the article was posted 24-11-2025, so decision_date 2025-11-24 is likely the posting date.; court_quote 'para 8' is inaccurate (the article is unnumbered) and the quoted text is a restatement, not a verbatim paragraph.; The case names the officer ([name withheld]) in the title, summary and quote; per instructions, officer names in any field must be redacted or the case rejected.",
+  "verification_status": "V1",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-09-26",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Delhi",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Delhi recorded adverse findings against police personnel.",
+    "disposition": "conviction upheld",
+    "source": "2025 LiveLaw (Del) 1576",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://www.livelaw.in/high-court/delhi-high-court/high-court-upholds-delhi-police-personnels-conviction-for-offering-50k-bribe-to-judge-acquits-two-310984",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-dl-hc"
+  ],
+  "merged_case_id": "cop-dl-hc-4",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0073",
+  "status": "current",
+  "merged_id": "CWC-1373",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] v. NHRC & Ors. (W.P.(C) XXXX/2015)",
+  "display_title_redacted": "[name withheld] v. NHRC & Ors. (W.P.(C) XXXX/2015)",
+  "state": "Delhi",
+  "district": "North East Delhi",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Special Cell, Delhi Police",
+  "court": "High Court of Delhi",
+  "court_as_verified": "High Court of Delhi",
+  "bench": null,
+  "case_title": "[name withheld] v. NHRC & Ors. (W.P.(C) XXXX/2015)",
+  "case_number": "W.P.(C) XXXX/2015",
+  "citation": "2025:DHC:456-DB",
+  "judges": [
+   "[name withheld]",
+   "[name withheld]"
+  ],
+  "judgment_date": "2025-01-28",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": "2006-05-05",
+  "incident_year": 2006,
+  "category": "Other",
+  "admin_category": "brutality",
+  "admin_subcategory": "fake_encounter_extrajudicial_killing",
+  "subcategory": "fake_encounter_extrajudicial_killing",
+  "subcategory_display": "fake encounter extrajudicial killing",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "NHRC Act",
+   "Constitution Article 21"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Special Cell Officers",
+    "role": "named_in_finding",
+    "unit": "Special Cell, Delhi Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Special Cell Officers, Special Cell, Delhi Police"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   },
+   {
+    "name": null,
+    "gender": "male"
+   },
+   {
+    "name": null,
+    "gender": "male"
+   },
+   {
+    "name": null,
+    "gender": "male"
+   },
+   {
+    "name": null,
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 5,
+  "sentence_type": "compensation_only",
+  "sentence_max_years": null,
+  "compensation_inr": 500000,
+  "force": "state_police",
+  "primary_source_url": "https://www.verdictum.in/court-updates/high-courts/delhi-high-court/kiran-singh-v-national-human-rights-commission-2025-dhc-456-db-fake-encounter-1566840",
+  "secondary_sources": [
+   "https://www.thehindu.com/news/national/human-rights-commissions-are-not-to-be-toothless-tigers-delhi-hc/article69155456.ece",
+   "https://rawlaw.in/delhi-high-court-there-is-ample-material-to-create-doubt-on-the-genuineness-of-the-encounter-orders-cbi-probe-into-2006-special-cell-encounter-citing-nhrc-and-magisterial-findings-of-a-fake-e/"
+  ],
+  "summary": "The Delhi High Court Division Bench ordered payment of ₹5 lakh compensation to the next of kin of each of five men killed in a 2006 Special Cell encounter, holding that NHRC recommendations are binding and not merely recommendatory. The NHRC had concluded it was a 'fake encounter' and recommended CBI probe and compensation. The Court directed the Home Ministry to pay with 18% simple interest and litigation costs, stating Human Rights Commissions cannot be 'toothless tigers'.",
+  "summary_verified": "The Delhi High Court Division Bench ordered payment of ₹5 lakh compensation to the next of kin of each of five men killed in a 2006 Special Cell encounter, holding that NHRC recommendations are binding and not merely recommendatory. The NHRC had concluded it was a 'fake encounter' and recommended CBI probe and compensation. The Court directed the Home Ministry to pay with 18% simple interest and litigation costs, stating Human Rights Commissions cannot be 'toothless tigers'.",
+  "court_quote": "The purpose of the Human Rights Act and the reasons for its enactment would be nullified if the Commissions are rendered powerless and are held to be mere recommendatory bodies. The recommendations are binding in nature. Human Rights Commissions are not to be 'toothless tigers' but have to be 'fierce defenders' safeguarding the most basic right of humans i.e., the right to live without fear and to live with dignity.",
+  "court_quote_para": "12",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Verified via Verdictum (2025:DHC:456-DB, Division Bench of [name withheld] and [name withheld]): NHRC/State Commission recommendations are binding, the 05-05-2006 Special Cell encounter of five men, direction to MHA to pay Rs 5 lakh to the deceased's legal heirs with simple interest at 18% within three months, and the 'toothless tigers'/'fierce defenders' passage confirmed.; Minor: case_number 'W.P.(C) XXXX/2015' is a placeholder (real number not confirmed); the exact decision date (28-01-2025) is not independently confirmed (article published 03-02-2025); the summary's 'Rs 5 lakh to the next of kin of each of five men' may overstate the relief, which Verdictum reports as Rs 5 lakh to the petitioner's deceased-son's legal heirs.",
+  "verification_status": "V1",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-01-28",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Delhi",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Delhi recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2025:DHC:456-DB",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://www.verdictum.in/court-updates/high-courts/delhi-high-court/kiran-singh-v-national-human-rights-commission-2025-dhc-456-db-fake-encounter-1566840",
+    "link_checked": null
+   },
+   {
+    "url": "https://www.thehindu.com/news/national/human-rights-commissions-are-not-to-be-toothless-tigers-delhi-hc/article69155456.ece",
+    "link_checked": null
+   },
+   {
+    "url": "https://rawlaw.in/delhi-high-court-there-is-ample-material-to-create-doubt-on-the-genuineness-of-the-encounter-orders-cbi-probe-into-2006-special-cell-encounter-citing-nhrc-and-magisterial-findings-of-a-fake-e/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-dl-hc"
+  ],
+  "merged_case_id": "cop-dl-hc-6",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0074",
+  "status": "current",
+  "merged_id": "CWC-1374",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] v. State (W.P.(C) 3476/2013)",
+  "display_title_redacted": "[name withheld] v. State (W.P.(C) 3476/2013)",
+  "state": "Delhi",
+  "district": "Delhi",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Tihar Jail",
+  "court": "High Court of Delhi",
+  "court_as_verified": "High Court of Delhi",
+  "bench": null,
+  "case_title": "[name withheld] v. State (W.P.(C) 3476/2013)",
+  "case_number": "W.P.(C) 3476/2013",
+  "citation": "2025:DHC:XXXX",
+  "judges": [
+   "Harish Vaidyanathan Shankar"
+  ],
+  "judgment_date": "2025-06-12",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": "2013-05-03",
+  "incident_year": 2013,
+  "category": "Custodial death",
+  "admin_category": "brutality",
+  "admin_subcategory": "custodial_death",
+  "subcategory": "custodial_death",
+  "subcategory_display": "custodial death",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "357A CrPC",
+   "Delhi Victim Compensation Scheme 2018",
+   "Article 21"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Jail Officials",
+    "role": "named_in_finding",
+    "unit": "Tihar Jail",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Jail Officials, Tihar Jail"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": "compensation_only",
+  "sentence_max_years": null,
+  "compensation_inr": 300000,
+  "force": "state_police",
+  "primary_source_url": "https://delhihighcourt.nic.in/app/showFileJudgment/68012062025CW34762013_211156.pdf",
+  "secondary_sources": [
+   "https://lawyerenews.com/legal_detail/custodial-death-right-to-compensation-flows-from-article-21-irrespective-of-conviction-or-acquittal-delhi-high-court"
+  ],
+  "summary": "The High Court awarded compensation for the custodial death of an undertrial prisoner killed in a gang fight in Tihar Jail, holding that the State's duty to protect prisoners' lives under Article 21 is absolute. The Court expanded the definition of 'dependents' under the Delhi Victim Compensation Scheme to include siblings and grandchildren, ruling that marital status of daughters does not affect entitlement. The Court directed immediate payment of ₹2 lakh (difference from NHRC's interim ₹1 lakh) and ordered DSLSA to determine further compensation up to ₹10 lakh.",
+  "summary_verified": "The High Court awarded compensation for the custodial death of an undertrial prisoner killed in a gang fight in Tihar Jail, holding that the State's duty to protect prisoners' lives under Article 21 is absolute. The Court expanded the definition of 'dependents' under the Delhi Victim Compensation Scheme to include siblings and grandchildren, ruling that marital status of daughters does not affect entitlement. The Court directed immediate payment of ₹2 lakh (difference from NHRC's interim ₹1 lakh) and ordered DSLSA to determine further compensation up to ₹10 lakh.",
+  "court_quote": "A prisoner, whether convict or undertrial, retains all his fundamental rights, including the right to life under Article 21. The State cannot abdicate its responsibility merely because the deceased had criminal antecedents. Compensation for custodial death is not charity, it is a constitutional right.",
+  "court_quote_para": "18",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Judge is wrong: the judgment was delivered by Hon'ble Justice Harish Vaidyanathan Shankar, not [name withheld].; court_quote (para 18) could not be verified verbatim: confirmed phrases include 'it is the bounden duty of the State to ensure the safety of persons who are in its custody' and Article 21 propositions, but the exact sentence 'Compensation for custodial death is not charity, it is a constitutional right' was not confirmed in the extract.; Rest verified: W.P.(C) 3476/2013, decision 12-06-2025, petitioner [name withheld] (mother, later substituted by legal representatives), deceased [name withheld] who died 03-05-2013 in Tihar Jail, NHRC interim Rs 1 lakh already paid, DVCS 2018 range Rs 3-10 lakh, dependents include siblings/grandchildren, State vicariously liable.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Custodial death",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-06-12",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Delhi",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Delhi recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2025:DHC:XXXX",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://delhihighcourt.nic.in/app/showFileJudgment/68012062025CW34762013_211156.pdf",
+    "link_checked": null
+   },
+   {
+    "url": "https://lawyerenews.com/legal_detail/custodial-death-right-to-compensation-flows-from-article-21-irrespective-of-conviction-or-acquittal-delhi-high-court",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-dl-hc"
+  ],
+  "merged_case_id": "cop-dl-hc-7",
+  "officers_named_public": 0,
+  "record_flag": null
  }
 ]

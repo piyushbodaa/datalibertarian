@@ -84285,5 +84285,155 @@
    }
   ],
   "case_title_or_number": "State vs ASI, Chika Police Station"
+ },
+ {
+  "case_id": "t2s-ch-001",
+  "alias_case_ids": [],
+  "verification_status": "V2",
+  "gate_status": "V2",
+  "verified_by": "swarm-verify-cop-ch-trial",
+  "verified_at": "2026-09-24T00:00:00Z",
+  "verdict_note": "Verified against the cited source.",
+  "state": "Chandigarh",
+  "district": "Chandigarh",
+  "court": "Punjab and Haryana High Court",
+  "court_level": "sessions",
+  "trial_court_name": "Punjab and Haryana High Court",
+  "case_title": "[name withheld] etc vs UT of Chandigarh",
+  "case_number": "CRR No. 2586 of 2009 (O&M)",
+  "conviction_date": "2025-12-09",
+  "conviction_year": 2025,
+  "date_precision": "day",
+  "incident_date": "2003-01-30",
+  "incident_year": 2003,
+  "category": "misconduct",
+  "subcategory": "other",
+  "raw_subcategory": "other",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "name": null,
+    "rank": "Head Constable",
+    "role": "convicted",
+    "unit": "PCR Vehicle No. CH-01-G-0156, Chandigarh",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Head Constable, PCR Vehicle No. CH-01-G-0156, Chandigarh"
+   },
+   {
+    "name": null,
+    "rank": "Constable",
+    "role": "convicted",
+    "unit": "PCR Vehicle No. CH-01-G-0156, Chandigarh",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Constable, PCR Vehicle No. CH-01-G-0156, Chandigarh"
+   }
+  ],
+  "victims": [],
+  "sections": [
+   "Section 68 of the Excise Act"
+  ],
+  "sentence": "Released on probation on probation bonds of Rs. 10,000/- each with costs of Rs. 500/- each, as imposed by Judicial Magistrate First Class, Chandigarh judgment dated 14.01.2006; revision dismissed 09.12.2025",
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "appeal_status": "none_known",
+  "appeal_url": null,
+  "source_kind": "judgment",
+  "source_agency": null,
+  "primary_source_url": "https://indiankanoon.org/doc/106118334/",
+  "secondary_sources": [],
+  "summary": "The Judicial Magistrate First Class, Chandigarh convicted the two PCR policemen under Section 68 of the Excise Act by judgment dated 14.01.2006 and released them on probation. The High Court recorded that the officers were on PCR Vehicle No. CH-01-G-0156 when liquor was found after a wireless message to police post PGI. The High Court held that no ground for interference was made out. The High Court dismissed the revision and maintained the conviction.",
+  "court_quote": "it is hereby held that the present revision petition is devoid of merit and deserves dismissal.",
+  "confidence": "medium",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "cop-ch-trial",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "other",
+  "last_checked": "2026-09-24",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "case_title_or_number": "[name withheld] etc vs UT of Chandigarh"
+ },
+ {
+  "case_id": "t2s-gj-001",
+  "alias_case_ids": [],
+  "verification_status": "V1",
+  "gate_status": "V1",
+  "verified_by": "swarm-verify-cop-gj-trial",
+  "verified_at": "2026-09-24T00:00:00Z",
+  "verdict_note": "case_title names the convicted officer ('Police Inspector A.A. Desai'); project rules require officers' names to be withheld from every field, so the name is redacted in corrections (the officers array itself correctly carries only rank/unit); The court_quote could not be verified as verbatim: the primary Indian Express article and the TOI article are domain-blocked to the checker (existence + headlines confirmed only via Google News RSS), and none of the openable sources (Aaj Tak, DeshGujarat) reproduce that Compass-Jeep sentence — it reads as journalistic paraphrase rather than a verbatim line from a 72-page order, so it is unverified; IPC Sections 302/201 and the presiding judge ([name withheld]) are not stated in any source I could open; they are plausible (murder conviction implies 302) but unconfirmed; case_number is a placeholder, not an actual case number, and is unverifiable; decision date 2026-08-14 is supported by Sandesh and Gujarat Samachar publishing the verdict on 14 Aug 2026 and DeshGujarat/Aaj Tak on 15 Aug 2026",
+  "state": "Gujarat",
+  "district": "Vadodara",
+  "court": "Additional Sessions Court, Karjan (Vadodara District)",
+  "court_level": "sessions",
+  "trial_court_name": "Additional Sessions Court, Karjan (Vadodara District)",
+  "case_title": "State of Gujarat vs [name withheld] (Police Inspector) – Murder of live-in partner [name withheld]",
+  "case_number": "Sessions Case No. (FIR No. at Karjan Police Station, charge sheet filed by Ahmedabad Crime Branch)",
+  "conviction_date": "2026-08-14",
+  "conviction_year": 2026,
+  "date_precision": "day",
+  "incident_date": "2021-06-05",
+  "incident_year": 2021,
+  "category": "brutality",
+  "subcategory": "custodial_torture",
+  "raw_subcategory": "custodial_torture",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "name": null,
+    "rank": "Police Inspector",
+    "role": "convicted",
+    "unit": "Special Operations Group (SOG), Vadodara District",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Inspector, Special Operations Group (SOG), Vadodara District"
+   }
+  ],
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "female"
+   }
+  ],
+  "sections": [
+   "Section 302 IPC",
+   "Section 201 IPC"
+  ],
+  "sentence": "Life imprisonment and fine of Rs 2 lakh",
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "appeal_status": "none_known",
+  "appeal_url": null,
+  "source_kind": "news",
+  "source_agency": null,
+  "primary_source_url": "https://indianexpress.com/article/cities/ahmedabad/no-body-dna-hostile-witnesses-gujarat-police-convict-murder-live-in-partner-10834385",
+  "secondary_sources": [
+   "https://www.aajtak.in/crime/story/sweety-patel-murder-case-former-inspector-ajay-desai-sent-life-imprisonment-ntc-acwi-rptc-2622583-2026-08-15",
+   "https://timesofindia.indiatimes.com/city/vadodara/ex-inspector-gets-life-for-partners-murder/articleshow/133250553.cms"
+  ],
+  "summary": "The Additional Sessions Court, Karjan convicted Police Inspector A.A. Desai, posted with the Special Operations Group, Vadodara District, for the murder of his live-in partner [name withheld]. The court found that Desai strangled Patel in their home on the intervening night of June 4-5, 2021, and with the help of co-accused [name withheld], disposed of her body by burning it at an abandoned hotel in Atali village. The conviction was secured despite the absence of the victim's body and over 40 hostile witnesses, relying on forensic recovery of melted gold ornaments matched to photographs of the victim, CDR and cell-tower evidence placing Desai at the disposal site, and the testimony of the victim's first husband. The court sentenced Desai to life imprisonment for murder under Section 302 IPC and causing disappearance of evidence under Section 201 IPC, with a fine of Rs 2 lakh. Co-accused [name withheld] was convicted for evidence destruction and sentenced to five years' rigorous imprisonment.",
+  "court_quote": "the chain of events — a black Compass Jeep, parked unusually in reverse inside the house of the police inspector the morning after his 'wife' had supposedly vanished in the night and his mobile-phone trail to an abandoned hotel, where the charred body was found — was no coincidence",
+  "confidence": "medium",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "cop-gj-trial",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "custodial torture",
+  "last_checked": "2026-09-24",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "case_title_or_number": "State of Gujarat vs [name withheld] (Police Inspector) – Murder of live-in partner [name withheld]"
  }
 ]
