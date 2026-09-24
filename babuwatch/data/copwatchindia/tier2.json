@@ -84435,5 +84435,81 @@
    }
   ],
   "case_title_or_number": "State of Gujarat vs [name withheld] (Police Inspector) – Murder of live-in partner [name withheld]"
+ },
+ {
+  "case_id": "t2s-ch-002",
+  "alias_case_ids": [],
+  "verification_status": "V1",
+  "gate_status": "V1",
+  "verified_by": "swarm-verify-cop-ch-hc",
+  "verified_at": "2026-09-24T00:00:00Z",
+  "verdict_note": "Primary source is a news report quoting the judgment verbatim rather than the judgment itself, but the reported adverse finding (CBI fabricated evidence; Section 11 PC Act; IPC 120B/192/193/196/199/200; acquittal of [name withheld], Ravinder Bhasin, Rajeev Gupta, [name withheld]) is fully corroborated by both secondary sources; quote is verbatim; Special CBI Court, Chandigarh, Judge [name withheld], verdict 29-03-2025.",
+  "state": "Chandigarh",
+  "district": "Chandigarh",
+  "court": "Special CBI Court, Chandigarh",
+  "court_level": "cbi_court",
+  "trial_court_name": "Special CBI Court, Chandigarh",
+  "case_title": "CBI vs [name withheld] and others (2008 cash-at-judge's-door case)",
+  "case_number": null,
+  "conviction_date": "2025-03-29",
+  "conviction_year": 2025,
+  "date_precision": "day",
+  "incident_date": null,
+  "incident_year": null,
+  "category": "misconduct",
+  "subcategory": "false_implication_fabrication",
+  "raw_subcategory": "false_implication_fabrication",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "name": null,
+    "rank": "Investigating Officers",
+    "role": "held_liable",
+    "unit": "Central Bureau of Investigation",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Investigating Officers, Central Bureau of Investigation"
+   }
+  ],
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "female"
+   }
+  ],
+  "sections": [
+   "Section 11, Prevention of Corruption Act, 1988",
+   "Section 120B, Indian Penal Code",
+   "Sections 192, 193, 196, 199 and 200, Indian Penal Code"
+  ],
+  "sentence": null,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "appeal_status": "none_known",
+  "appeal_url": null,
+  "source_kind": "judgment",
+  "source_agency": null,
+  "primary_source_url": "https://theprint.in/india/2008-cash-at-judges-door-case-cbi-miserably-failed-to-bring-home-guilt-says-court/2576427/",
+  "secondary_sources": [
+   "https://theprint.in/judiciary/why-cbi-court-acquitted-justice-nirmal-yadav-in-2008-cash-at-judges-door-case/2576586/",
+   "https://www.barandbench.com/news/cbi-fabricated-evidence-to-frame-justice-nirmal-yadav-chandigarh-court"
+  ],
+  "summary": "The Special CBI Court acquitted a former Punjab and Haryana High Court judge and three other accused in the 2008 cash-at-judge's-door bribery case. The Court held that the prosecution had miserably failed to bring home the guilt of the accused persons. The Court recorded that instead of standing by its original closure report, the CBI had fabricated highly untrustworthy evidence through a witness whose testimony rested on improvements, assumptions, presumptions, hypothesis and falsehood. The Court acquitted all the accused of the charges framed against them.",
+  "court_quote": "It would have been highly appreciable on the part of a premier investigating agency of the stature of the Central Bureau of Investigation to stick to its very first stance of filing the closure report in the matter in the court of competent jurisdiction rather than fabricating a highly unworthy of trust evidence in the form of [name withheld] whose testimony has been proved to be based upon all improvements, assumptions, presumptions, hypothesis and all falsehood.",
+  "confidence": "medium",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "cop-ch-hc",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "subcategory_display": "false implication fabrication",
+  "last_checked": "2026-09-24",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "case_title_or_number": "CBI vs [name withheld] and others (2008 cash-at-judge's-door case)"
  }
 ]

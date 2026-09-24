@@ -221410,5 +221410,423 @@
   "merged_case_id": "cop-tg-hc-3",
   "officers_named_public": 0,
   "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0078",
+  "status": "current",
+  "merged_id": "CWC-1383",
+  "alias_merged_ids": [],
+  "display_title": "Col [name withheld] vs State Of Ut Chandigarh And Others",
+  "display_title_redacted": "Col [name withheld] vs State Of Ut Chandigarh And Others",
+  "state": "Chandigarh",
+  "district": "Chandigarh",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Special Investigation Team, Chandigarh Police",
+  "court": "High Court of Punjab and Haryana at Chandigarh",
+  "court_as_verified": "High Court of Punjab and Haryana at Chandigarh",
+  "bench": null,
+  "case_title": "Col [name withheld] vs State Of Ut Chandigarh And Others",
+  "case_number": "CRM-M No. 36362 of 2025",
+  "citation": null,
+  "judges": [
+   "[name withheld]"
+  ],
+  "judgment_date": "2025-07-16",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": "2025-03-13",
+  "incident_year": 2025,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "dereliction_evidence_tampering",
+  "subcategory": "dereliction_evidence_tampering",
+  "subcategory_display": "dereliction evidence tampering",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Section 109, Bharatiya Nyaya Sanhita"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Superintendent of Police (SIT in-charge)",
+    "role": "named_in_finding",
+    "unit": "Chandigarh Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Superintendent of Police (SIT in-charge), Chandigarh Police"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/60554382/",
+  "secondary_sources": [
+   "https://theprint.in/judiciary/sit-making-craters-in-probe-hcs-earful-to-chandigarh-police-in-colonel-bath-assault-case/2692785/",
+   "https://theprint.in/india/colonel-assault-3-months-ago-chandigarh-sit-was-handed-case-for-fair-probe-now-accused-cops-untraceable/2693325/",
+   "https://www.barandbench.com/news/army-officer-assault-punjab-and-haryana-hc-says-chandigarh-police-probe-tainted-transfers-case-to-cbi",
+   "https://indiankanoon.org/doc/60554382/"
+  ],
+  "summary": "The High Court held that there are no prospects of a free and fair investigation of the assault case by the Investigating Agency of UT, Chandigarh. The Court found that the Chandigarh Police SIT was proceeding in a tainted manner to give benefit to the accused serving police officials and was trying to create loopholes in the investigation. The Court noted that the SIT called the accused untraceable though all were serving police officials and had already made up its mind to delete the attempt-to-murder charge. The Court withdrew the investigation from UT, Chandigarh with immediate effect and handed it to the Central Bureau of Investigation. The Supreme Court later dismissed the accused officers' petition challenging the transfer, leaving the High Court's order intact.",
+  "summary_verified": "The High Court held that there are no prospects of a free and fair investigation of the assault case by the Investigating Agency of UT, Chandigarh. The Court found that the Chandigarh Police SIT was proceeding in a tainted manner to give benefit to the accused serving police officials and was trying to create loopholes in the investigation. The Court noted that the SIT called the accused untraceable though all were serving police officials and had already made up its mind to delete the attempt-to-murder charge. The Court withdrew the investigation from UT, Chandigarh with immediate effect and handed it to the Central Bureau of Investigation. The Supreme Court later dismissed the accused officers' petition challenging the transfer, leaving the High Court's order intact.",
+  "court_quote": "there are no prospects of free and fair investigation in the case",
+  "court_quote_para": "quoted in report of judgment",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Primary source URL is invalid: indiankanoon.org/doc/136695872/ returns 'Invalid input: digits only' (no such document). All other case facts verified via ThePrint (2692785, 2693325), Bar and Bench (headline confirms tainted-probe/CBI-transfer), and a valid Indian Kanoon Supreme Court order (doc 60554382, SLP Diary No. 41450/2025) which confirms CRM-M No. 36362/2025, HC order dated 16-07-2025, and the Supreme Court's dismissal of the accused police officers' SLP on 04-08-2025.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-07-16",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Punjab and Haryana at Chandigarh",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Punjab and Haryana at Chandigarh recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "CRM-M No. 36362 of 2025",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/60554382/",
+    "link_checked": null
+   },
+   {
+    "url": "https://theprint.in/judiciary/sit-making-craters-in-probe-hcs-earful-to-chandigarh-police-in-colonel-bath-assault-case/2692785/",
+    "link_checked": null
+   },
+   {
+    "url": "https://theprint.in/india/colonel-assault-3-months-ago-chandigarh-sit-was-handed-case-for-fair-probe-now-accused-cops-untraceable/2693325/",
+    "link_checked": null
+   },
+   {
+    "url": "https://www.barandbench.com/news/army-officer-assault-punjab-and-haryana-hc-says-chandigarh-police-probe-tainted-transfers-case-to-cbi",
+    "link_checked": null
+   },
+   {
+    "url": "https://indiankanoon.org/doc/60554382/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-ch-hc"
+  ],
+  "merged_case_id": "cop-ch-hc-0",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0095",
+  "status": "current",
+  "merged_id": "CWC-1384",
+  "alias_merged_ids": [],
+  "display_title": "Dr [name withheld] vs State of Meghalaya & Ors",
+  "display_title_redacted": "Dr [name withheld] vs State of Meghalaya & Ors",
+  "state": "Meghalaya",
+  "district": "East Khasi Hills",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Mawlai Police Station (complaints received via Mawkynroh Police Outpost)",
+  "court": "High Court of Meghalaya at Shillong",
+  "court_as_verified": "High Court of Meghalaya at Shillong",
+  "bench": null,
+  "case_title": "Dr [name withheld] vs State of Meghalaya & Ors",
+  "case_number": "Crl. Petn. No. 91 of 2026",
+  "citation": "2026:MLHC:801",
+  "judges": [
+   "Revati Mohite Dere"
+  ],
+  "judgment_date": "2026-07-29",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2026-05-06",
+  "incident_year": 2026,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "other",
+  "subcategory": "other",
+  "subcategory_display": "other",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "BNS 126(2)"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "unspecified",
+    "role": "named_in_finding",
+    "unit": "Mawlai Police Station / Mawkynroh Police Outpost, East Khasi Hills",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "unspecified, Mawlai Police Station / Mawkynroh Police Outpost, East Khasi Hills"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 0,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/142551119/",
+  "secondary_sources": [
+   "https://www.livelaw.in/high-court/meghalaya-high-court/meghalaya-high-court-police-apply-mind-before-registering-fir-545751"
+  ],
+  "summary": "The High Court quashed two identically worded FIRs registered on the same day against a professor. The High Court held that no cognizable offence was disclosed and that duplicate FIRs on the same allegations cannot stand. The High Court strongly deprecated the police practice of registering FIRs under appropriate sections without first applying mind to the complaint. The High Court directed that any future complaints by the two complainants against law teachers be routed through the Superintendents of Police before action.",
+  "summary_verified": "The High Court quashed two identically worded FIRs registered on the same day against a professor. The High Court held that no cognizable offence was disclosed and that duplicate FIRs on the same allegations cannot stand. The High Court strongly deprecated the police practice of registering FIRs under appropriate sections without first applying mind to the complaint. The High Court directed that any future complaints by the two complainants against law teachers be routed through the Superintendents of Police before action.",
+  "court_quote": "This practice to direct registration of FIRs \"under appropriate sections\" is strongly deprecated.",
+  "court_quote_para": "operative part of judgment dated 29.07.2026",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Verified against the cited judgment.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-07-29",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Meghalaya at Shillong",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Meghalaya at Shillong recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2026:MLHC:801",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/142551119/",
+    "link_checked": null
+   },
+   {
+    "url": "https://www.livelaw.in/high-court/meghalaya-high-court/meghalaya-high-court-police-apply-mind-before-registering-fir-545751",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-ml-hc"
+  ],
+  "merged_case_id": "cop-ml-hc-0",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0079",
+  "status": "current",
+  "merged_id": "CWC-1385",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs State of Meghalaya and Ors",
+  "display_title_redacted": "[name withheld] vs State of Meghalaya and Ors",
+  "state": "Meghalaya",
+  "district": "East Khasi Hills",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "1st Battalion, Meghalaya Police, Mawiong, Shillong",
+  "court": "High Court of Meghalaya at Shillong",
+  "court_as_verified": "High Court of Meghalaya at Shillong",
+  "bench": null,
+  "case_title": "[name withheld] vs State of Meghalaya and Ors",
+  "case_number": "W.A. No. 70 of 2024 (arising from WP(C) No. 309 of 2024)",
+  "citation": "2025:MLHC:236-DB",
+  "judges": [
+   "H. S. Thangkhiew",
+   "B. Bhattacharjee"
+  ],
+  "judgment_date": "2025-03-27",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": "2020-12-15",
+  "incident_year": 2020,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "other",
+  "subcategory": "other",
+  "subcategory_display": "other",
+  "protest_override_heuristic": false,
+  "outcome_type": "disciplinary_upheld",
+  "sections": [],
+  "officers": [
+   {
+    "name": null,
+    "rank": "BN Constable",
+    "role": "held_liable",
+    "unit": "1st Battalion, Meghalaya Police, Mawiong",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "BN Constable, 1st Battalion, Meghalaya Police, Mawiong"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 0,
+  "sentence_type": "imprisonment",
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/141431524/",
+  "secondary_sources": [],
+  "summary": "The High Court Division Bench upheld the dismissal of a battalion constable for unauthorized absence from duty. The High Court held that the misconduct of absence from General Roll Call without leave stood proved in the departmental inquiry. The High Court found no procedural unfairness where the constable offered no defence witnesses and declined questioning opportunities. The High Court dismissed the writ appeal, leaving the dismissal and the Single Judge's rejection of the challenge intact.",
+  "summary_verified": "The High Court Division Bench upheld the dismissal of a battalion constable for unauthorized absence from duty. The High Court held that the misconduct of absence from General Roll Call without leave stood proved in the departmental inquiry. The High Court found no procedural unfairness where the constable offered no defence witnesses and declined questioning opportunities. The High Court dismissed the writ appeal, leaving the dismissal and the Single Judge's rejection of the challenge intact.",
+  "court_quote": "Resultantly, the writ appeal stands dismissed.",
+  "court_quote_para": "operative part of judgment dated 27.03.2025",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Verified against the cited judgment.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-03-27",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Meghalaya at Shillong",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Meghalaya at Shillong recorded adverse findings against police personnel.",
+    "disposition": "disciplinary upheld",
+    "source": "2025:MLHC:236-DB",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/141431524/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-ml-hc"
+  ],
+  "merged_case_id": "cop-ml-hc-1",
+  "officers_named_public": 0,
+  "record_flag": null
  }
 ]
