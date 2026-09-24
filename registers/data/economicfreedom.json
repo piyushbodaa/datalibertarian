@@ -875,6 +875,128 @@
       "verification": "V2"
     },
     {
+      "id": "ef-ka-0004",
+      "category": "trade",
+      "state": "Karnataka",
+      "title": "Customs seizure of 28 MT Indonesian roasted areca nuts quashed by High Court",
+      "summary": "The High Court recorded that Customs seized 28 MT of roasted areca nuts imported from Indonesia under a September 2024 bill of entry. The Court held the seizure memo, provisional assessment and show-cause notice were illegal and ordered release of the goods. The dispute was only over tariff classification and valuation of a farm produce.",
+      "date": "2026-03-09",
+      "date_label": "High Court judgment",
+      "incident_date": "2024-09-06",
+      "district": "Bengaluru Urban",
+      "outcome": "quashed",
+      "authority": "Karnataka High Court (Justice S.R. Krishna Kumar); Commissioner of Customs, City Customs Commissionerate, Bengaluru",
+      "case_reference": "W.P. No. 33823 of 2024 c/w W.P. No. 17776 of 2025, W.P. No. 24075 of 2025; Bill of Entry No. 5470956 dated 06.09.2024; Seizure Memo dated 06.12.2024; SCN No. 674/2024-Customs-SIIB dated 17.12.2024",
+      "laws": [
+        "Section 110 of Customs Act, 1962",
+        "Section 111(d), (m) and (o) of Customs Act, 1962",
+        "Section 28(4) of Customs Act, 1962",
+        "Section 28AA of Customs Act, 1962",
+        "Section 114A of Customs Act, 1962",
+        "Sections 17 and 18 of Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962",
+        "Foreign Trade (Development and Regulation) Act, 1992"
+      ],
+      "person": "a Bengaluru-based importer (sole proprietorship) importing roasted areca nuts from Indonesia",
+      "penalty": "Show-cause notice raised duty demand of Rs 1.78 crore with interest and penalty; seizure memo, communication and show-cause notice were quashed and goods ordered released with waiver certificates",
+      "detail": [
+        "The High Court recorded that the importer brought 28 MT of roasted areca nuts from Indonesia and filed Bill of Entry No. 5470956 dated 06.09.2024 valued at Rs 35,65,800 under tariff entry 20081920.",
+        "The High Court recorded that Customs first sent samples to CRCL New Delhi, which reported the goods as roasted areca nuts, then sent samples to ICAR-CPCRI Kerala, which said roasting could not be ascertained, and then issued a seizure memo on 06.12.2024 under Section 110 alleging Foreign Trade Policy violation.",
+        "The High Court recorded that Customs later issued a show-cause notice dated 17.12.2024 rejecting classification under entry 20081920, re-determining demand of about Rs 1.62 crore to Rs 1.78 crore, and alleging the goods were prohibited and liable to confiscation.",
+        "The High Court held the provisional assessment, re-classification under Chapter 8, valuation and show-cause proceedings were premature and contrary to Sections 17, 18 and 28 and the Valuation Rules, and allowed the petitions.",
+        "The High Court ordered quashing of the seizure memorandum, impugned communications and show-cause notice, release of the goods as declared, and issuance of waiver certificates for demurrage, detention and ground rent within 15 days from the judgment."
+      ],
+      "current_position": "Seizure and show-cause proceedings were quashed and Customs was directed to release the consignment and issue waiver certificates.",
+      "quote": {
+        "text": "Petitioner contends that on 06.08.2024, Petitioner imported 28 MTs of Roasted Areca nuts from CV Neelam Pinang Jaya, Indonesia vide Invoice bearing No.015-NPJ-AUG-2024 along with the packing list issued by the said Neelam Pinang Jaya",
+        "where": "W.P. No. 33823 of 2024 c/w W.P. Nos. 17776/2025, 24075/2025, Karnataka High Court judgment dated 09.03.2026, para 2",
+        "url": "https://indiankanoon.org/doc/99866193/"
+      },
+      "caveats": "Operative release and waiver directions confirmed from full judgment text and secondary legal summary; demurrage compliance after judgment not verified.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Importing an everyday farm produce for sale harmed no one; the only dispute was duty classification and import-policy paperwork, with no victim, fraud, or prohibited commodity."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/99866193/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon / Karnataka High Court",
+          "date": "2026-03-09",
+          "supports": "import details, seizure memo, show-cause notice, classification dispute and quashing with release"
+        },
+        {
+          "url": "https://aadrikaalaw.com/2026/07/07/karnataka-hc-quashes-customs-seizure-ruled-on-classification-and-release-of-imported-roasted-areca-nuts/",
+          "kind": "news",
+          "publisher": "Aadrikaa Law",
+          "date": "2026-07-07",
+          "supports": "summary of seizure dated 06.12.2024, Bill of Entry value and release directions"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-ka-0005",
+      "category": "capital",
+      "state": "Karnataka",
+      "title": "ED searches Bengaluru crypto firms over Rs 2,500 crore cross-border transfers",
+      "summary": "The Enforcement Directorate said it searched six Bengaluru premises on 17 June 2026 over unauthorised cross-border transfers using virtual digital assets. The agency reported preliminary FEMA contraventions of more than Rs 2,500 crore and restraint of bank accounts holding about Rs 6 crore. Investigation was continuing with no arrests announced.",
+      "date": "2026-06-19",
+      "date_label": "ED press release",
+      "district": "Bengaluru Urban",
+      "outcome": "seizure",
+      "authority": "Directorate of Enforcement, Bengaluru Zonal Office",
+      "laws": [
+        "Section 37 of Foreign Exchange Management Act, 1999"
+      ],
+      "acts": [
+        "Foreign Exchange Management Act, 1999"
+      ],
+      "person": "operators of five Bengaluru-based crypto on-ramp/off-ramp firms",
+      "penalty": "Restraint orders on bank accounts holding around Rs 6 crore; preliminary finding of unauthorised cross-border transfers amounting to more than Rs 2,500 crore",
+      "detail": [
+        "The Enforcement Directorate stated that its Bengaluru office conducted searches under Section 37 of FEMA on 17.06.2026 at six Bengaluru premises over alleged unauthorised cross-border transfers using virtual digital assets.",
+        "The Enforcement Directorate stated that none of the entities offering cross-border transfer through virtual assets were authorised by the RBI and they did not comply with purpose-code and Foreign Inward Remittance Certificate requirements.",
+        "The Enforcement Directorate stated that customers deposited rupees, funds were converted into stablecoins such as USDT, sold through exchanges and large OTC deals, and routed to recipients in India and abroad, including via related foreign entities."
+      ],
+      "current_position": "Searches completed and bank balances restrained; ED investigation into the alleged FEMA contraventions continues.",
+      "quote": {
+        "text": "Directorate of Enforcement (ED), Bengaluru Zonal Office has conducted searches under section 37 of FEMA, 1999 on 17.06.2026 at 6 premises in Bengaluru on allegation of unauthorized cross-border transfer of money by multiple entities using Virtual Digital Assets (VDAs).",
+        "where": "ED Press Release 19/06/2026, opening paragraph",
+        "url": "https://enforcementdirectorate.gov.in/media/press-release-documents/251931c2-d148-4bb1-ab23-063869a3c673_Press%20release%20%20FEMA%20Search%201962026.pdf"
+      },
+      "caveats": "Amounts and violations are preliminary ED allegations, not adjudicated findings; no case number or arrests were published.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Moving money across borders through consensual transfers harmed no complaining victim; the allegation is only missing RBI authorisation and paperwork for remittances."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://enforcementdirectorate.gov.in/media/press-release-documents/251931c2-d148-4bb1-ab23-063869a3c673_Press%20release%20%20FEMA%20Search%201962026.pdf",
+          "kind": "press_release",
+          "publisher": "Directorate of Enforcement",
+          "date": "2026-06-19",
+          "supports": "searches, entities, modus operandi, Rs 2,500 crore figure and Rs 6 crore restraint"
+        },
+        {
+          "url": "https://www.thehindu.com/news/cities/bangalore/ed-detects-2500-crore-fema-violations-in-bengaluru-cross-border-crypto-transfers-probe/article71123562.ece",
+          "kind": "news",
+          "publisher": "The Hindu",
+          "date": "2026-06-19",
+          "supports": "search date, place, firms named and investigation continuing"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "ef-mh-0004",
       "category": "trade",
       "state": "Maharashtra",
@@ -1052,7 +1174,7 @@
       "incident_date": "2016-12-24",
       "district": "Satna",
       "outcome": "quashed",
-      "authority": "High Court of Madhya Pradesh at Jabalpur (Justice [name withheld]); Labour Commissioner, Madhya Pradesh (prosecution direction)",
+      "authority": "High Court of Madhya Pradesh at Jabalpur (Justice Vishal Mishra); Labour Commissioner, Madhya Pradesh (prosecution direction)",
       "case_reference": "WP No. 1680 of 2023; Labour Commissioner order dated 18.10.2022 (Annexure P/12); Labour Court, Satna award dated 29.11.2019/02.01.2020",
       "laws": [
         "Section 29 of the Industrial Disputes Act, 1947",
@@ -1104,7 +1226,7 @@
       "incident_date": "2019-11-17",
       "district": "Ratlam",
       "outcome": "quashed",
-      "authority": "High Court of Madhya Pradesh at Indore (Justice [name withheld]); Judicial Magistrate First Class, Ratlam; I Additional Sessions Judge, Ratlam",
+      "authority": "High Court of Madhya Pradesh at Indore (Justice Sanjeev S Kalgaonkar); Judicial Magistrate First Class, Ratlam; I Additional Sessions Judge, Ratlam",
       "case_reference": "MCRC No. 38683 of 2023; RCT No. 35/2020 (JMFC Ratlam); Criminal Revision No. 36/2021; FIR at Police Station Namli on complaint dated 17.11.2019",
       "laws": [
         "Clause 6 of the Fertiliser (Control) Order, 1985",
@@ -1158,7 +1280,7 @@
       "date_label": "High Court order",
       "district": "Shivpuri",
       "outcome": "quashed",
-      "authority": "High Court of Madhya Pradesh at Gwalior (Justice [name withheld]); [name withheld], Shivpuri",
+      "authority": "High Court of Madhya Pradesh at Gwalior (Justice Milind Ramesh Phadke); [name withheld], Shivpuri",
       "case_reference": "WP No. 37075 of 2024; impugned notice dated 08.11.2024 (Annexure P/1); building permission dated 04.03.2024",
       "laws": [
         "Madhya Pradesh Municipalities Act, 1961",
@@ -1198,6 +1320,239 @@
           "publisher": "High Court of Madhya Pradesh",
           "date": "2026-07-01",
           "supports": "ownership, permissions, stop-work notice allegation, and quashing"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-rj-0008",
+      "category": "hoarding",
+      "state": "Rajasthan",
+      "title": "Shopkeeper convicted for storing diesel and kerosene without licence; probation kept",
+      "summary": "A trial court convicted a shopkeeper in Sri Ganganagar district for storing diesel and kerosene without a valid licence under the Essential Commodities Act and released him on probation. The State appealed seeking a substantive sentence. The High Court dismissed the State appeal in April 2026 and kept the probation order.",
+      "date": "2026-04-22",
+      "date_label": "High Court judgment dismissing State appeal",
+      "district": "Sri Ganganagar",
+      "outcome": "conviction",
+      "authority": "Rajasthan High Court, Jodhpur (Justice Farjand Ali); Special Judge, Essential Commodities Act Cases, Sri Ganganagar (trial court)",
+      "case_reference": "S.B. Criminal Appeal No. 100/1999; Criminal Case No. 9/1994, Special Judge, Essential Commodities Act Cases, Sri Ganganagar, judgment dated 12.12.1997",
+      "laws": [
+        "Sections 3/7 of the Essential Commodities Act, 1955",
+        "Section 4 of the Probation of Offenders Act"
+      ],
+      "acts": [
+        "Essential Commodities Act, 1955",
+        "Probation of Offenders Act"
+      ],
+      "person": "a shopkeeper in Sri Ganganagar district",
+      "penalty": "Conviction under Sections 3/7 recorded 12.12.1997; released on probation under Section 4 of the Probation of Offenders Act; State appeal for enhancement dismissed 22.04.2026",
+      "detail": [
+        "The High Court recorded that during inspection of the shop a substantial quantity of diesel and kerosene was found stored without any valid licence or authorisation, in contravention of Control Orders under the Essential Commodities Act.",
+        "The High Court recorded that the trial court had convicted the accused after a full trial but, noting a first offence, a protracted trial and hardship, released him on probation instead of imposing imprisonment.",
+        "The High Court held that sentencing discretion, including probation for first-time offenders where the offence does not exceed seven years, was lawfully exercised and showed no perversity calling for appellate interference.",
+        "The High Court therefore dismissed the State appeal as devoid of merit and sent the record back to the trial court."
+      ],
+      "current_position": "The conviction stands and the probation order continues after the State appeal was dismissed.",
+      "quote": {
+        "text": "during inspection of the shop of the accused-respondent, a substantial quantity of diesel and kerosene oil was found stored, for which the accused failed to produce any valid licence or authorization.",
+        "where": "Rajasthan High Court judgment in S.B. Criminal Appeal No. 100/1999 (2026:RJ-JD:19111), para 2",
+        "url": "https://indiankanoon.org/doc/111743745/"
+      },
+      "caveats": "The 2026 order does not state the exact inspection date or the exact litre quantity; it summarises the 1994 case and the 1997 conviction. The original trial judgment was not separately opened. No PDS diversion, adulteration or cheating allegation appears in the 2026 order.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Storing fuel for sale without a licence harmed no complaining victim; the case records no violence, fraud, minors, coercion, adulteration, PDS diversion or spurious product."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/111743745/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon (Rajasthan High Court - Jodhpur)",
+          "date": "2026-04-22",
+          "supports": "conviction for unlicensed storage of diesel and kerosene, probation, and dismissal of the State appeal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-rj-0009",
+      "category": "property",
+      "state": "Rajasthan",
+      "title": "Resort and hotel buildings in Udaipur eco-sensitive zone face seizure and demolition; writs dismissed",
+      "summary": "The Udaipur development authority ordered seizure and removal of hotel and resort constructions treated as unauthorised building in the Sajjangarh eco-sensitive zone. Owners holding conversion orders, allotments and pattas challenged the orders. The High Court decided the connected petitions together on 1 September 2026 and dismissed the writs.",
+      "date": "2026-09-01",
+      "date_label": "High Court judgment",
+      "district": "Udaipur",
+      "outcome": "seizure",
+      "authority": "Udaipur Development Authority; Rajasthan High Court, Jodhpur (Justice Sameer Jain)",
+      "case_reference": "S.B. Civil Writ Petition No. 6350/2026 with Nos. 3272/2025 and 5844/2025; [2026:RJ-JD:42825]; UDA case No. 174/2025, order dated 23.07.2025; further order dated 06.01.2026",
+      "laws": [
+        "Section 32 of the Udaipur Development Authority Act, 2023",
+        "Section 17 of the Udaipur Development Authority Act, 2023",
+        "Section 90-B of the Rajasthan Land Revenue Act, 1956",
+        "Eco-Sensitive Zone Notification dated 13.02.2017"
+      ],
+      "acts": [
+        "Udaipur Development Authority Act, 2023",
+        "Rajasthan Land Revenue Act, 1956"
+      ],
+      "person": "hotel and resort owners in Udaipur, including a private hotels company",
+      "penalty": "UDA seizure and demolition directions upheld; writ petitions dismissed",
+      "detail": [
+        "The High Court recorded that the batch of petitions challenged orders directing seizure of hotel and resort premises on the ground that they were built in the eco-sensitive zone of the Sajjangarh Wildlife Sanctuary or other prohibited area.",
+        "The High Court recorded that one resort owner claimed ownership of Khasra Nos. 1797 and 1798 at Sisarma, conversion from agricultural to non-agricultural use in 2008, regularisation and allotment for resort use in 2009, and a registered lease deed or patta in 2010, before the 2017 eco-sensitive-zone notification.",
+        "The High Court recorded that the authority alleged construction without requisite permission and land-use change, while owners claimed deemed permission, prior approvals, and that the work was an extension of an existing resort rather than a new unit.",
+        "The Rajasthan High Court website summarises the outcome as: environmental protection prevails over private interest and investment or parity cannot legitimise unauthorised construction, and the writ petitions were dismissed."
+      ],
+      "current_position": "The writ petitions stand dismissed and the authority's seizure and demolition action stands upheld.",
+      "quote": {
+        "text": "whereby the respondents have given directions for seizure of property-premises of the petitioner's Hotel/Resorts, for the reason that the same has been constructed in eco-sensitive zone of the Sajjangrah Wildlife Sanctuary/other prohibited area.",
+        "where": "Rajasthan High Court judgment in S.B. Civil Writ Petition No. 6350/2026 with Nos. 3272/2025 and 5844/2025 (2026:RJ-JD:42825), para 1",
+        "url": "https://indiankanoon.org/doc/26075808/"
+      },
+      "caveats": "The 44-page judgment was reviewed in excerpt; the final operative dismissal paragraphs at the tail were not captured verbatim from Indian Kanoon, so dismissal is supported by the Rajasthan High Court official recent-judgments summary. One UDA order labelled a four-storey construction as encroachment under Section 32, but the case is treated as own-land building control because the owners produced pattas, conversion orders and allotments rather than occupying public land.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Building on claimed private patta land without or beyond plan sanction, or contrary to land-use and zone rules, has no complaining victim; the dispute is about how owners used their own premises."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/26075808/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon (Rajasthan High Court - Jodhpur)",
+          "date": "2026-09-01",
+          "supports": "seizure directions, patta and conversion claims, unauthorised-construction allegations, and case references"
+        },
+        {
+          "url": "https://hcraj.nic.in/hcraj/",
+          "kind": "court_order",
+          "publisher": "Rajasthan High Court",
+          "date": "2026-09-01",
+          "supports": "outcome that the writ petitions challenging sealing and demolition in the Sajjangarh Eco-Sensitive Zone were dismissed"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-tg-0002",
+      "category": "forex",
+      "state": "Telangana",
+      "title": "CESTAT sets aside confiscation of 36,405 US dollars seized at Hyderabad airport",
+      "summary": "Customs officers seized 36,405 US dollars from a USA passport holder bound for London at Rajiv Gandhi International Airport, Hyderabad. The adjudicating authority ordered absolute confiscation and penalties, upheld on first appeal. The CESTAT Hyderabad allowed the appeal and set aside the proceedings.",
+      "date": "2025-11-14",
+      "date_label": "CESTAT Final Order",
+      "incident_date": "2020-09-30",
+      "district": "Hyderabad",
+      "outcome": "penalty_set_aside",
+      "authority": "Customs, Excise and Service Tax Appellate Tribunal, Hyderabad Regional Bench",
+      "case_reference": "Customs Appeal No. 30468 of 2023; Order-in-Appeal No.HYD-CUS-HYC-APP-189-22-23(APP1) dated 03.03.2023; Final Order No. A/30475/2025",
+      "laws": [
+        "Section 113(d), (e) and (h) of the Customs Act, 1962",
+        "Section 123 of the Customs Act, 1962",
+        "Section 6(4) and 6(5) of the Foreign Exchange Management Act, 1999",
+        "Section 16(3) of the Foreign Exchange Management Act, 1999",
+        "Section 38 of the Foreign Exchange Management Act, 1999"
+      ],
+      "acts": [
+        "Customs Act, 1962",
+        "Foreign Exchange Management Act, 1999"
+      ],
+      "person": "an 80-year-old USA passport holder travelling from Hyderabad to London",
+      "penalty": "Absolute confiscation of 36,405 USD and penalties imposed below, set aside by the Tribunal on 14.11.2025 with consequential reliefs as per law",
+      "detail": [
+        "The Tribunal recorded that the appellant was intercepted by CISF officers during security check on the plea that he was carrying foreign currency in hand baggage and was then handed over to Customs, who seized the currency.",
+        "The Tribunal recorded that the appellant stated he was a former professor in Hyderabad till 2000, then worked in the USA, brought currency for expenses, kept the remainder in a Federal Bank locker, and was carrying it for a family medical emergency without knowledge of RBI regulations.",
+        "The Tribunal recorded that the adjudicating authority ordered absolute confiscation and penalties, and the first appellate authority rejected the appeal and upheld that order.",
+        "The Tribunal held that enquiry was not done by a competent officer under the FEMA notification, that seized currency is not notified under Section 123 of the Customs Act so the onus was on Revenue, and that there was no evidence the currency was smuggled.",
+        "The Tribunal held that the appeal is liable to be allowed and allowed it with consequential reliefs."
+      ],
+      "current_position": "Confiscation and penalty stand set aside by the CESTAT Hyderabad order dated 14.11.2025 with consequential relief as per law.",
+      "quote": {
+        "text": "The Customs Authorities have seized the foreign currency.",
+        "where": "Customs Appeal No. 30468 of 2023, Final Order No. A/30475/2025, para 2",
+        "url": "https://indiankanoon.org/doc/5574852/"
+      },
+      "caveats": "Flight date is printed as 30.09.2000 in para 2 but statement and verification are dated 30.09.2020; incident date taken as 2020-09-30. Exact penalty amounts below were not repeated in the Tribunal order text.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Carrying foreign currency for personal and family use harmed no one and involved no victim, fraud or force. It was penalised only for being outside the authorised-dealer system."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/5574852/",
+          "kind": "judgment",
+          "publisher": "Customs, Excise and Service Tax Appellate Tribunal, Hyderabad via Indian Kanoon",
+          "date": "2025-11-14",
+          "supports": "seizure of 36,405 USD at RGIA Hyderabad, confiscation and penalty history, and setting aside of the orders"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-tg-0003",
+      "category": "gold",
+      "state": "Telangana",
+      "title": "CESTAT upholds confiscation of 844 grams of gold paste carried from Singapore to Hyderabad",
+      "summary": "CISF officers intercepted a passenger from Singapore at RGI Airport Hyderabad and handed four concealed gold-paste packets to Customs. Customs extracted 844 grams of gold valued at Rs 34,68,840 and ordered absolute confiscation with penalty. The CESTAT Hyderabad dismissed the appeal and upheld confiscation.",
+      "date": "2026-03-18",
+      "date_label": "CESTAT Final Order",
+      "incident_date": "2020-02-15",
+      "district": "Hyderabad",
+      "outcome": "confiscation",
+      "authority": "Customs, Excise and Service Tax Appellate Tribunal, Hyderabad",
+      "case_reference": "Customs Appeal No. 30558 of 2025; Order-in-Appeal No.HYD-CUS-000-APP1-061-24-25 dated 26.02.2025; Final Order No. A/30168/2026",
+      "laws": [
+        "Section 77 of the Customs Act, 1962",
+        "Section 100 of the Customs Act, 1962",
+        "Section 101 of the Customs Act, 1962",
+        "Section 108 of the Customs Act, 1962",
+        "Section 111 of the Customs Act, 1962",
+        "Section 112 of the Customs Act, 1962",
+        "Section 123 of the Customs Act, 1962",
+        "Section 138B of the Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "a passenger arriving from Singapore to Hyderabad",
+      "penalty": "Absolute confiscation of 844 grams of gold valued at Rs 34,68,840 and penalty of Rs 3,50,000 upheld",
+      "detail": [
+        "The Tribunal recorded that the passenger arrived from Singapore to Hyderabad by flight TR-574 on 15.02.2020 and was intercepted by CISF at the arrivals exit after passing through the green channel as he was moving suspiciously.",
+        "The Tribunal recorded that two packets each weighing 200 grams were recovered from his socks and two packets each weighing 350 grams from his undergarments, admitted to be gold in paste form, later melted to extract 844 grams of 24 ct gold with 999 purity.",
+        "The Tribunal recorded that Customs seized the gold on reasonable belief it was liable for confiscation, issued a show-cause notice, and after remand and de novo adjudication the Commissioner (Appeals) upheld absolute confiscation while reducing penalty to Rs 3,50,000.",
+        "The Tribunal held that passing through the green channel amounts to a declaration of no dutiable goods, that concealment established intent, and that Customs officers had jurisdiction to search and seize under Sections 100 and 101.",
+        "The Tribunal held that gold is notified under Section 123, the appellant produced no evidence of licit origin, denial of cross-examination caused no prejudice, and dismissed the appeal."
+      ],
+      "current_position": "Absolute confiscation and Rs 3,50,000 penalty stand upheld by the CESTAT Hyderabad order dated 18.03.2026; appeal dismissed.",
+      "quote": {
+        "text": "The present appeal has been filed against the Order-in-Appeal No. HYD-CUS-000-APP1-061-24-25 dated 26.02.2025 passed by the Commissioner of Customs and Central Tax (Appeals-I), Hyderabad, whereby, the appellate authority upheld the absolute confiscation of 844 grams of gold valued at Rs. 34,68,840/- and penalty of Rs. 3,50,000/-",
+        "where": "Customs Appeal No. 30558 of 2025, Final Order No. A/30168/2026, para 1",
+        "url": "https://indiankanoon.org/doc/110636015/"
+      },
+      "caveats": "None on core facts; adjudication history involves an ex parte order dated 22.02.2021 and remand before the impugned appellate order.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Carrying gold for sale at profit harmed no one and involved no victim, fraud, force or spurious product. It was punished only for non-declaration and evasion of duty."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/110636015/",
+          "kind": "judgment",
+          "publisher": "Customs, Excise and Service Tax Appellate Tribunal, Hyderabad via Indian Kanoon",
+          "date": "2026-03-18",
+          "supports": "interception at RGI Airport Hyderabad, recovery and value of gold, confiscation and penalty history, and dismissal of appeal"
         }
       ],
       "verification": "V2"

@@ -784,6 +784,99 @@
       "verification": "V2"
     },
     {
+      "id": "psu-ka-0009",
+      "category": "jv",
+      "state": "Karnataka",
+      "name": "Bangalore Metro Rail Corporation Limited (BMRCL)",
+      "summary": "BMRCL is the Special Purpose Vehicle implementing and operating the Bengaluru (Namma) Metro. It is a joint venture of the Government of India and the Government of Karnataka. Its most recent official development used here is the revised fare media brief dated 08.02.2025, while its network page now shows 96.10 km in operation including the 19.15 km Yellow Line.",
+      "date": "2025-02-08",
+      "district": "Bengaluru Urban",
+      "headquarters": "Bengaluru, Karnataka",
+      "state_link": "Joint venture of Government of India and Government of Karnataka for Bengaluru city; project office at BMTC Complex, K.H. Road, Shantinagar, Bengaluru - 560027",
+      "owner": "Joint",
+      "administrative": "Ministry of Housing and Urban Affairs (Central) and Government of Karnataka",
+      "legal_form": "Government company",
+      "status": "Operating",
+      "detail": [
+        "BMRCL describes itself as a joint venture of the Government of India and the Government of Karnataka entrusted with implementation and operation of the Bangalore metro rail project, per its homepage and about-us page.",
+        "Its about-us page states metro services are operating on 96.10 km: East-West corridor 49.59 km (Whitefield to Challaghatta), North-South corridor 27.36 km (Madavara to Silk Institute), and Yellow Line 19.15 km (R.V. Road to Delta Electronics Bommasandra), per BMRCL about-us page.",
+        "The homepage links a fare-revision media brief file named 'Media Brief -English- Fin 08.02.2025', indicating a revised-fare announcement on 08.02.2025, per BMRCL homepage."
+      ],
+      "caveats": "Shareholding percentages, financials, employees and incorporation year not extracted from pages opened; left null. Date 2025-02-08 taken from fare media-brief filename shown on homepage.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://english.bmrc.co.in/",
+          "kind": "company_site",
+          "publisher": "Bangalore Metro Rail Corporation Limited",
+          "date": null,
+          "supports": "joint venture status; project address Bengaluru; fare media brief 08.02.2025 link"
+        },
+        {
+          "url": "https://english.bmrc.co.in/about-us/",
+          "kind": "company_site",
+          "publisher": "Bangalore Metro Rail Corporation Limited",
+          "date": null,
+          "supports": "joint venture SPV statement; 96.10 km operating network with Yellow Line 19.15 km breakdown"
+        },
+        {
+          "url": "https://english.bmrc.co.in/annual-reports/",
+          "kind": "annual_report",
+          "publisher": "Bangalore Metro Rail Corporation Limited",
+          "date": null,
+          "supports": "annual reports section exists; financial figures not extracted"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-ka-0010",
+      "category": "municipal",
+      "state": "Karnataka",
+      "name": "Bengaluru Water Supply and Sewerage Board (BWSSB)",
+      "summary": "BWSSB is the autonomous city water-supply and sewerage utility for Bengaluru. It was formed by the State legislature under the BWSSB Act on 10-09-1964. Its most recent official development used here is the water-shutdown notice dated 22-07-2026 listed on its official site, following 2025 tariff documents.",
+      "date": "2026-07-22",
+      "district": "Bengaluru Urban",
+      "headquarters": "Bengaluru, Karnataka",
+      "state_link": "Karnataka Government board with jurisdiction over entire Bruhat Bengaluru Mahanagara Palike area of 800 sq km",
+      "owner": "State government (Karnataka)",
+      "administrative": "Government of Karnataka",
+      "legal_form": "Statutory corporation (Bangalore Water Supply and Sewerage Board Act)",
+      "established": "1964 by BWSSB Act on 10-09-1964",
+      "status": "Operating",
+      "detail": [
+        "BWSSB states it is an autonomous body formed by the State legislature under the Bangalore Water Supply and Sewerage Board Act on 10-09-1964 for water supply and sewage disposal, per its about-BWSSB page.",
+        "The same page states its jurisdiction is the entire BBMP area of 800 sq km with total installed capacity of 1440 MLD and 10.15 lakh house service connections, per BWSSB about page.",
+        "The BWSSB homepage news list shows 'Water Shutdown on 22-07-2026' and 'Revised Water Tariff Ready Reckoner 2025' plus 'Levy and collection of 50 percent of Pro rata Charges & Regularization of Non Domestic Constructions' linked to file Regularisation_of_Non_domestic_construction_connections_18_02_2025.pdf, per BWSSB homepage."
+      ],
+      "caveats": "Financials, employees and shareholding not applicable/available from pages opened; left null. Tariff PDF content could not be text-extracted so no tariff rates quoted.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://bwssb.karnataka.gov.in/31/about-bwssb/en",
+          "kind": "company_site",
+          "publisher": "Bengaluru Water Supply and Sewerage Board, Government of Karnataka",
+          "date": null,
+          "supports": "formation date 10-09-1964 under BWSSB Act; 800 sq km jurisdiction; 1440 MLD capacity and connection/pipeline figures"
+        },
+        {
+          "url": "https://bwssb.karnataka.gov.in/english",
+          "kind": "company_site",
+          "publisher": "Bengaluru Water Supply and Sewerage Board, Government of Karnataka",
+          "date": "2026-07-22",
+          "supports": "water shutdown notice 22-07-2026; tariff 2025 documents; re-organisation 2026 notice"
+        },
+        {
+          "url": "https://bwssb.karnataka.gov.in/storage/pdf-files/WaterTariff-2025.pdf",
+          "kind": "government_order",
+          "publisher": "Bengaluru Water Supply and Sewerage Board",
+          "date": "2025-01-01",
+          "supports": "Revised Water Tariff Ready Reckoner 2025 exists; figures not text-extracted"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "psu-mh-0001",
       "category": "cpse",
       "state": "Maharashtra",
@@ -992,6 +1085,81 @@
           "publisher": "Department of Financial Services",
           "date": null,
           "supports": "body corporate; minimum 51% central-government holding"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-mp-0005",
+      "category": "dfi",
+      "state": "Madhya Pradesh",
+      "name": "Madhya Pradesh Financial Corporation (MPFC)",
+      "summary": "Madhya Pradesh Financial Corporation is the state financial corporation for Madhya Pradesh, incorporated under the State Financial Corporations Act, 1951. It is controlled by a Board with State Government, SIDBI, RBI and bank representatives and provides term loans and support services to SMEs. Its most recent official development is the New One Time Settlement Scheme-2025 published on its official site.",
+      "date": "2025-02-14",
+      "district": "Indore",
+      "headquarters": "Indore, Madhya Pradesh",
+      "state_link": "State financial corporation of the Government of Madhya Pradesh; headquarters at Finance House, Agra Bombay Road, Indore.",
+      "owner": "State government (Madhya Pradesh)",
+      "administrative": "Department of Industrial Policy and Investment Promotion, Government of Madhya Pradesh; oversight framework of SIDBI/RBI under SFC Act",
+      "legal_form": "Statutory corporation (State Financial Corporations Act, 1951 (No. LXIII of 1951)) functioning as a development finance institution",
+      "established": "1955 under the State Financial Corporations Act, 1951",
+      "status": "Operating",
+      "detail": [
+        "MPFC describes itself as incorporated in 1955 under the State Financial Corporations Act, 1951 (No. LXIII of 1951), working under a Board of Directors with representatives of State Government, SIDBI, RBI, scheduled banks, insurance companies and co-operative banks, per mpfc.org.",
+        "The corporation states its head office is at Indore, the industrial hub of Madhya Pradesh, with 20 offices at different places, and lists term loan, equipment finance, working capital and other fund and non-fund based services, per mpfc.org.",
+        "The site advertises the New One Time Settlement Scheme-2025 (upload/nots-2025.pdf) alongside a New Restructuring Scheme, with application through branch offices; the site footer states last modified/reviewed Feb 14, 2025, per mpfc.org."
+      ],
+      "caveats": "Annual Report 2024-2025 PDF could not be parsed (response too large); financial figures and employee count therefore left null. Exact launch day of OTS-2025 not confirmed beyond 2025 labelling and 2025-02-14 site review date.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://mpfc.org/",
+          "kind": "company_site",
+          "publisher": "Madhya Pradesh Financial Corporation",
+          "date": "2025-02-14",
+          "supports": "name, SFC Act 1951, since 1955, HQ Indore, 20 offices, OTS-2025, board composition"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-od-0002",
+      "category": "state",
+      "state": "Odisha",
+      "name": "Odisha Mining Corporation Limited (OMC)",
+      "summary": "Odisha Mining Corporation Limited (OMC) is a Gold Category State PSU of the Government of Odisha engaged in mining, headquartered at Bhubaneswar. It was formed 16 May 1956 as a joint venture and became wholly state-owned on 17 November 1961. Its most recent development traceable in pages actually opened is robust mineral production with iron ore output of 24.88 MT as on 31 December (reported 4 January 2026) and a July 2025 target of 50 million tons production.",
+      "date": "2026-01-04",
+      "district": "Khordha",
+      "headquarters": "Bhubaneswar, Odisha",
+      "state_link": "Wholly state-owned corporation of Government of Odisha, headquartered at Bhubaneswar",
+      "owner": "State government (Odisha)",
+      "administrative": "Government of Odisha",
+      "legal_form": "Government company (State PSU)",
+      "status_label": "Gold Category State PSU",
+      "established": "16 May 1956 as joint venture of Government of Odisha and Government of India; wholly state-owned from 17 November 1961",
+      "status": "Operating",
+      "financials": "2022-23: profit Rs 4.7k crore as reported by Minister in Assembly (via Times of India 24 July 2024 as cited on opened page); official audited annual-report figures could not be opened, so latest revenue/net worth not confirmed",
+      "detail": [
+        "The opened page identifies OMC as a Gold Category PSU established 16 May 1956 as a joint venture to explore and harness mineral wealth of Odisha, becoming wholly state-owned on 17 November 1961, headquartered at Bhubaneswar and managed by a board with Chairman and Managing Director (Wikipedia page for Odisha Mining Corporation).",
+        "The same page cites Rediff 9 July 2025 that OMC targeted 50 million ton production, and The New Indian Express 4 January 2026 that mineral production was robust with iron ore output touching 24.88 MT as on 31 December and total production reaching 24.8 million tonnes as of December 2025 (same source).",
+        "The same page cites The Times of India 24 July 2024 that OMC recorded Rs 4.7k crore profit in 2022-23 as stated by the Minister in the Assembly; ISO certifications and Golden Peacock Award ERP implementation are also noted (same source)."
+      ],
+      "caveats": "Web search rate-limited and OMC annual reports/company pages could not be opened, so no official audited revenue, profit, net worth, dividend or employee figures verified. Production and profit figures are as cited via news references on the tertiary page, not from an opened official order or annual report. Specific administering department (Steel and Mines), share capital break-up and employee count left null. District Khordha inferred from Bhubaneswar.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Odisha_Mining_Corporation",
+          "kind": "news",
+          "publisher": "Wikipedia (tertiary; cites The New Indian Express 2026-01-04, Rediff 2025-07-09, Times of India 2024-07-24)",
+          "date": null,
+          "supports": "name, Gold Category State PSU, founded 16 May 1956, wholly state-owned 17 Nov 1961, HQ Bhubaneswar, 50 MT target July 2025, 24.88 MT iron ore as on Dec 31, Rs 4.7k cr profit 2022-23"
+        },
+        {
+          "url": "https://omcltd.in/",
+          "kind": "company_site",
+          "publisher": "Odisha Mining Corporation Ltd",
+          "date": null,
+          "supports": "official site exists; content could not be extracted (fetch returned only title)"
         }
       ],
       "verification": "V2"

@@ -453,7 +453,7 @@
       "date_label": "High Court order",
       "district": "Nawada",
       "outcome": "prosecution_pending",
-      "authority": "Patna High Court (Justice [name withheld]); Judicial Magistrate First Class, Nawada; Circle Officer, Roh",
+      "authority": "Patna High Court (Justice Shailendra Singh); Judicial Magistrate First Class, Nawada; Circle Officer, Roh",
       "case_reference": "CR. MISC. No. 34235 of 2016; Roh P.S. Case No. 50 of 2013",
       "laws": [
         "Sections 292 and 293, Indian Penal Code",
@@ -501,6 +501,217 @@
           "publisher": "Indian Kanoon search index",
           "date": null,
           "supports": "recency check: this 2024 Bihar obscenity cognizance case was the most recent qualifying Bihar hit"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-ka-0001",
+      "category": "sex-work",
+      "state": "Karnataka",
+      "title": "Gokarna brothel-law prosecution ends as abated after accused's death",
+      "summary": "The High Court recorded that police and a magistrate had prosecuted a man as accused No.1 in a Gokarna case under brothel-law sections of the Immoral Traffic (Prevention) Act. The man had asked the High Court to quash the cognizance order dated 29.01.2018 in CC No.55/2018 arising from Crime No.37/2016. The High Court dismissed the petition as abated after it was submitted that the petitioner was no more.",
+      "date": "2026-08-03",
+      "date_label": "High Court order",
+      "outcome": "prosecution_pending",
+      "authority": "Karnataka High Court (Justice Anant Ramanath Hegde); JMFC Kumta (cognizance order); Gokarna police",
+      "case_reference": "Crl.P No.100409/2023; CC No.55/2018 (JMFC Kumta); Crime No.37/2016, Gokarna PS",
+      "laws": [
+        "Section 3(1), 7(2B), 3(2A) of the Immoral Traffic (Prevention) Act, 1956",
+        "Section 34 of the Karnataka Excise Act"
+      ],
+      "acts": [
+        "Immoral Traffic (Prevention) Act, 1956",
+        "Karnataka Excise Act, 1965"
+      ],
+      "person": "a businessman residing in Goa, accused No.1 in the Gokarna case",
+      "detail": [
+        "The High Court recorded that the petition sought quashing of the order taking cognizance dated 29.01.2018 by the JMFC at Kumta in CC No.55/2018, arising from Crime No.37/2016 of Gokarna police station, against the petitioner as accused No.1.",
+        "The High Court recorded that the prosecution was for offences punishable under Sections 3(1), 7(2B) and 3(2A) of the Immoral Traffic (Prevention) Act, 1956 and Section 34 of the Karnataka Excise Act.",
+        "The High Court's order states that it was submitted that the petitioner is no more, and the petition was therefore dismissed as abated.",
+        "The order contains no allegation of force, deception, minors, trafficking victims or any complaining victim; it lists only the brothel-law and excise sections."
+      ],
+      "current_position": "The quashing petition stands dismissed as abated; the underlying charge sheet and cognizance in CC No.55/2018 were the live prosecution on record.",
+      "quote": {
+        "text": "THIS CRIMINAL PETITION IS FILED UNDER SECTION 482 OF CR.P.C., IS PRAYING TO QUASH THE ORDER OF TAKING COGNIZANCE DATED 29.01.2018 BY JMFC KUMTA IN CC NO.55/2018 ARISING OUT OF IN CRIME NO.37/2016 GOKARNA P.S. AGAINST THE PETITIONER/ACCUSED NO.1 FOR THE OFFENCES PUNISHABLE UNDER SECTION 3(1), 7(2B), 3(2A), OF IMMORAL TRAFFIC (PREVENTION) ACT, 1956 AND UNDER SECTION 34 OF KARNATAKA EXCISE ACT",
+        "where": "Crl.P No.100409 of 2023, petition prayer recorded in the order",
+        "url": "https://indiankanoon.org/doc/180660991/"
+      },
+      "caveats": "The two-page order gives no raid or incident facts, so consent of the adults and the district could not be confirmed from the order itself; no force, minor or victim is alleged anywhere in it.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The state prosecuted a person under brothel-keeping and public-place prostitution sections, which target paid sex between adults, and the source alleges no victim, force or minor."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/180660991/",
+          "kind": "judgment",
+          "publisher": "Karnataka High Court (via Indian Kanoon)",
+          "date": "2026-08-03",
+          "supports": "prosecution under ITP Act sections and Excise Act, case numbers, and dismissal as abated"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-ka-0002",
+      "category": "gambling",
+      "state": "Karnataka",
+      "title": "Hubballi cricket-betting case under Karnataka Police Act quashed",
+      "summary": "The High Court recorded that Hubballi Sub-Urban police raided three men on a public road in April 2021 for betting on an IPL match and seized cash, phones and a pen. The men were prosecuted under Section 78(1)(a)(vi) of the Karnataka Police Act, 1963. The High Court quashed the whole case, holding cricket betting is not gaming under the Act and the probe breached non-cognizable procedure.",
+      "date": "2026-09-15",
+      "date_label": "High Court order",
+      "incident_date": "2021-04-20",
+      "district": "Dharwad",
+      "outcome": "quashed",
+      "authority": "Karnataka High Court (Justice Venkatesh Naik T); Hubballi Sub-Urban police",
+      "case_reference": "Crl.P No.102417/2026; CC No.2803/2021; Crime No.68/2021, Hubli Sub-Urban PS",
+      "laws": [
+        "Section 78(1)(a)(vi) of the Karnataka Police Act, 1963"
+      ],
+      "acts": [
+        "Karnataka Police Act, 1963"
+      ],
+      "person": "three traders from Hubballi in Dharwad district, accused Nos.1 to 3",
+      "detail": [
+        "The High Court recorded that the Sub-Inspector of Hubballi Sub-Urban police complained that on 20.04.2021 at about 7.35 hours information was received about cricket betting, and staff raided the public road next to Shivakripa Hospital, Hubballi.",
+        "The High Court recorded that the three accused were found betting on an IPL T20 match between Mumbai Indians and Delhi, and police seized more than Rs 8,090, two mobile phones and one ballpoint pen under a seizure panchanama.",
+        "The High Court recorded that Section 78(3) is non-cognizable, so police needed a Magistrate's permission under Section 155 Cr.P.C., which was not shown, and it cited the Vaggeppa guidelines on such permission.",
+        "The High Court cited its coordinate bench view that cricket is a sport and betting on it cannot be brought within the definition of gaming in the Karnataka Police Act, and quashed the proceedings in CC No.2803/2021."
+      ],
+      "current_position": "The prosecution in CC No.2803/2021 under Section 78(1)(a)(vi) stands quashed; no penalty survives.",
+      "quote": {
+        "text": "(ii) The proceedings initiated against the petitioners/accused Nos.1 to 3 in Hubli Sub-Urban Police Station crime No.68/2021, which is registered in C.C.No.2803/2021, pending on the file of learned Principal Civil Judge and JMFC, Hubballi, for the offence punishable under Section 78(1)(a)(vi) of the Karnataka Police, Act, 1963, is hereby quashed.",
+        "where": "Crl.P No.102417 of 2026, operative order",
+        "url": "https://indiankanoon.org/doc/173512225/"
+      },
+      "caveats": "Time of raid is printed as 7.35 hours without a.m./p.m. clarity; team names Delhi as Delhi Daaredevils as printed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The men were punished only for wagering their own money on a cricket match, an act with no victim, cheat or fraud alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/173512225/",
+          "kind": "judgment",
+          "publisher": "Karnataka High Court (via Indian Kanoon)",
+          "date": "2026-09-15",
+          "supports": "raid facts, seizure, charges, reasoning and quashing order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-ka-0003",
+      "category": "alcohol",
+      "state": "Karnataka",
+      "title": "Kundapura bar liquor-raid prosecution quashed over illegal search",
+      "summary": "The High Court recorded that excise officers raided Lakshmi Bar and Restaurant in June 2024 and seized liquor bottles, then booked the traders under Section 32 of the Karnataka Excise Act and licence rules. The traders were charge-sheeted in CC No.220/2025. The High Court quashed the case because officers neither took a search warrant nor recorded reasons as Section 54 mandates.",
+      "date": "2025-07-24",
+      "date_label": "High Court order",
+      "incident_date": "2024-06-02",
+      "district": "Udupi",
+      "outcome": "quashed",
+      "authority": "Karnataka High Court (Justice S.R. Krishna Kumar); Excise Inspector, Kundapura Sub-Division",
+      "case_reference": "Crl.P No.10659/2025; CC No.220/2025; Crime No.63/2023-24/3107IE/310707 dated 03.06.2024; related Crime No.52/2024",
+      "laws": [
+        "Section 32 of the Karnataka Excise Act, 1965",
+        "Rule 10B, 21, 21(3) of the Karnataka Excise Licenses (General Conditions) Rules, 1967"
+      ],
+      "acts": [
+        "Karnataka Excise Act, 1965"
+      ],
+      "person": "two bar-linked traders from Kundapura in Udupi district",
+      "detail": [
+        "The High Court recorded that after the alleged raid on Lakshmi Bar and Restaurant on 02.06.2024 between 7:21 p.m. and 10:00 p.m., an FIR in Crime No.52/2024 was registered for Sections 32 and 34 of the Karnataka Excise Act and liquor bottles were seized.",
+        "The High Court recorded that officers then filed the impugned FIR as Crime No.63/2023-24 and a charge sheet in CC No.220/2025 against the petitioners under Section 32 of the Excise Act and licensing rules.",
+        "The High Court held that compliance with Section 54 of the Excise Act is mandatory, and the failure to obtain a warrant or record written reasons for skipping one vitiated the search, seizure, FIR and charge sheet.",
+        "The High Court allowed the petition and quashed the proceedings in CC No.220/2025 before the Principal Civil Judge and JMFC, Kundapura."
+      ],
+      "current_position": "The prosecution in CC No.220/2025 stands quashed; no penalty survives.",
+      "quote": {
+        "text": "pursuant to the alleged raid conducted on Lakshmi Bar and Restaurant on 02.06.2024 between 7:21 p.m. and 10:00 p.m.",
+        "where": "Crl.P No.10659 of 2025, para 3 (truncated to remove names of private individuals)",
+        "url": "https://indiankanoon.org/doc/137112739/"
+      },
+      "caveats": "No 2026 Karnataka excise judgment for simple possession or sale without aggravating factors was found; a 2026 Excise Act case involving the Juvenile Justice Act was rejected. No spurious liquor, hooch death or violence appears in this case.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The traders were prosecuted only for possessing and handling ordinary liquor at a bar, with no spurious liquor, death, violence or victim alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/137112739/",
+          "kind": "judgment",
+          "publisher": "Karnataka High Court (via Indian Kanoon)",
+          "date": "2025-07-24",
+          "supports": "raid, seizure, FIR and charge-sheet facts, legal reasoning and quashing order"
+        },
+        {
+          "url": "https://indiankanoon.org/doc/108286627/",
+          "kind": "judgment",
+          "publisher": "Karnataka High Court (via Indian Kanoon)",
+          "date": "2025-06-04",
+          "supports": "same 02.06.2024 raid behind the liquor shop and seizure of liquor bottles in related Crime No.52/2024"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-ka-0004",
+      "category": "beef",
+      "state": "Karnataka",
+      "title": "Cattle-law lorry seizure set aside with release on property surety",
+      "summary": "The High Court recorded that Ramnagar police seized a lorry for alleged offences under Sections 4, 5, 7 and 12 of the cattle slaughter preservation law in Crime No.16/2026. The Assistant Commissioner had ordered release only on a Rs 20.9 lakh bank guarantee. The High Court allowed release on immovable-property surety plus a personal bond instead.",
+      "date": "2026-09-09",
+      "date_label": "High Court order",
+      "district": "Uttara Kannada",
+      "outcome": "seizure",
+      "authority": "Karnataka High Court (Justice M.G.S. Kamal); Assistant Commissioner and Sub-Divisional Magistrate, Karwar; Ramnagar police",
+      "case_reference": "WP No.107377/2026; Crime No.16/2026, Ramnagar PS; order MAG/VA/2024-25/Vehicle Release-3 dated 24/03/2026",
+      "laws": [
+        "Sections 4, 5, 7 and 12 of the Karnataka Prevention of Slaughter and Preservation of Cattle Act, 2020"
+      ],
+      "acts": [
+        "Karnataka Prevention of Slaughter and Preservation of Cattle Act, 2020"
+      ],
+      "person": "a lorry owner and trader from Belagavi",
+      "detail": [
+        "The High Court recorded that the petitioner claimed to own lorry No.KA-22/D-8279, seized by police in Crime No.16/2026 for alleged offences under Sections 4, 5, 7 and 12 of the cattle slaughter preservation law.",
+        "The High Court recorded that the petitioner said the cattle were transported with a certificate under the Transport of Animals Rules and that he was not arrayed as an accused in the FIR.",
+        "The High Court recorded that the Assistant Commissioner's order dated 24.03.2026 valued the lorry at about Rs 20,90,000 and demanded a bank guarantee of that sum, which the petitioner could not furnish.",
+        "The High Court directed release of the lorry on surety of immovable property worth above Rs 20,00,000 plus a personal indemnity bond in the prescribed format."
+      ],
+      "current_position": "The seizure stands as the state action, but the lorry must be released at once once the property surety and bond are furnished.",
+      "quote": {
+        "text": "Petitioner herein claimed to be the owner of a lorry bearing registration No.KA.22/D.8279, which was allegedly used for commission of offence punishable under Sections 4, 5, 7 and 12 of the Karnataka Prevention of Slaughter and Preservation of Cattle Act, resultant to seizing of the same by the respondent-police in furtherance to the case registered under Crime No.16/2026.",
+        "where": "WP No.107377 of 2026, para 1",
+        "url": "https://indiankanoon.org/doc/74693298/"
+      },
+      "caveats": "The exact seizure date is not stated in the order; only Crime No.16/2026 and the 24.03.2026 release order are dated. The petitioner's transport-certificate defence is recorded as a claim, not a finding.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The state seized a trader's vehicle only for moving cattle under a food-slaughter ban, an act with no victim, theft or violence charged in this case."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/74693298/",
+          "kind": "judgment",
+          "publisher": "Karnataka High Court (via Indian Kanoon)",
+          "date": "2026-09-09",
+          "supports": "seizure, charges limited to cattle-law sections, valuation, and release-on-surety order"
         }
       ],
       "verification": "V2"
@@ -706,6 +917,328 @@
           "publisher": "Bombay High Court via Indian Kanoon",
           "date": "2025-11-14",
           "supports": "vehicle interception, seizure details, sections charged, absence of other charges, continuation of 5C prosecution"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-mh-0005",
+      "category": "tobacco",
+      "state": "Maharashtra",
+      "title": "Mumbai tobacco FIR under COTPA warning-label provisions quashed as non-cognizable",
+      "summary": "The Mumbai police registered an FIR under COTPA provisions on missing warnings and labels. The accused approached the Bombay High Court. The High Court recorded that the state did not dispute the offences were non-cognizable and quashed the FIR.",
+      "date": "2025-12-04",
+      "date_label": "High Court order",
+      "district": "Mumbai",
+      "outcome": "quashed",
+      "authority": "Bombay High Court (Justices [name withheld] and [name withheld]); Dongri Police Station, Mumbai",
+      "case_reference": "Criminal Application No. 1259 of 2025; C.R. No. 478 of 2025, Dongri Police Station",
+      "laws": [
+        "Sections 7(3) and 20(2) of the Cigarettes and Other Tobacco Products (Prohibition of Advertisement and Regulation of Trade and Commerce, Production, Supply and Distribution) Act, 2003",
+        "Section 223 of the Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "acts": [
+        "Cigarettes and Other Tobacco Products (Prohibition of Advertisement and Regulation of Trade and Commerce, Production, Supply and Distribution) Act, 2003",
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "a person booked in Mumbai under tobacco labelling provisions",
+      "detail": [
+        "The High Court recorded that the applicant sought quashing of C.R. No. 478 of 2025 registered with Dongri Police Station for alleged offences under COTPA Sections 7(3) and 20(2) and BNS Section 223.",
+        "The High Court recorded that the applicant's counsel submitted none of the sections were cognizable so police could not have registered an FIR.",
+        "The High Court recorded that the Additional Public Prosecutor did not dispute that the sections are non-cognizable and admitted an FIR could not have been registered.",
+        "The High Court quashed the FIR but said police may take appropriate steps for the non-cognizable offences in accordance with law."
+      ],
+      "current_position": "The FIR stands quashed; any further action must follow non-cognizable procedure.",
+      "caveats": "The order does not describe the underlying shop, goods, or conduct; no counterfeit or smuggling allegation appears in it. FIR date and incident date could not be confirmed beyond C.R. year 2025.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The prosecution was for selling or importing tobacco without prescribed warnings and labels, an act with no complaining victim."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/531798/",
+          "kind": "statute",
+          "publisher": "Indian Kanoon",
+          "date": null,
+          "supports": "text of COTPA Section 7(3) on import labelling warning requirement"
+        },
+        {
+          "url": "https://indiankanoon.org/doc/65752868/",
+          "kind": "statute",
+          "publisher": "Indian Kanoon",
+          "date": null,
+          "supports": "text of related COTPA labelling and punishment structure context"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-mh-0007",
+      "category": "other",
+      "state": "Maharashtra",
+      "title": "Bar customer prosecuted for watching alleged obscene dance has case quashed",
+      "summary": "Police chargesheeted a customer found sitting in an Andheri bar during a raid over alleged obscene dancing. The Bombay High Court found no overt act by the customer. The High Court quashed the FIR, chargesheet and trial proceedings against the customer.",
+      "date": "2025-11-26",
+      "date_label": "High Court judgment",
+      "incident_date": "2019-04-11",
+      "district": "Mumbai Suburban",
+      "outcome": "quashed",
+      "authority": "Bombay High Court (Justices [name withheld] and [name withheld]); Andheri Police Station, Mumbai",
+      "case_reference": "Criminal Application No. 328 of 2025; FIR No. 48/2019 dated 11.04.2019, Andheri Police Station; C.C. No. 3183/PW/2019",
+      "laws": [
+        "Sections 3 and 8 of the Maharashtra Prohibition of Obscene Dance in Hotels, Restaurants and Bar Rooms and Protection of Dignity of Women (Working Therein) Act, 2016",
+        "Section 131 of the Maharashtra Police Act"
+      ],
+      "acts": [
+        "Maharashtra Prohibition of Obscene Dance in Hotels, Restaurants and Bar Rooms and Protection of Dignity of Women (Working Therein) Act, 2016",
+        "Maharashtra Police Act"
+      ],
+      "person": "a customer present in a bar in Andheri, Mumbai",
+      "detail": [
+        "The High Court recorded that FIR No. 48 of 2019 alleged singers and waitresses were forced to dance and that owners and staff incited dancers, leading to a raid at a bar on Sahar Road, Andheri East.",
+        "The High Court recorded that witnesses named four other persons as throwing notes but listed the applicant only at serial 6 among customers sitting in the bar.",
+        "The High Court recorded that no witness said the applicant threw notes, that no allegation said the applicant touched any woman, and that the state could point to no specific overt act.",
+        "The High Court held mere presence where women allegedly danced obscenely is not enough and quashed the FIR, chargesheet and C.C. No. 3183/PW/2019 against the applicant."
+      ],
+      "current_position": "Proceedings against the customer stand quashed; no trial remains against that person.",
+      "caveats": "The wider FIR alleged owners and staff forced or incited dancers, but the court found no such allegation against this applicant. Incident address and Andheri location are from the judgment; sub-district classification as Mumbai Suburban is inferred.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The customer was punished only for being present and watching adult dancing, with no victim, touching, or money-throwing attributed to that person."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/32184705/",
+          "kind": "judgment",
+          "publisher": "Bombay High Court via Indian Kanoon",
+          "date": "2025-08-05",
+          "supports": "similar earlier customer-only finding that mere presence without money-showering or touching does not attract the same Act"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-mp-0007",
+      "category": "other",
+      "state": "Madhya Pradesh",
+      "title": "High Court quashes obscenity case over protest remark in Singrauli",
+      "summary": "Police filed an obscenity and insult case over remarks made during a 2021 inflation protest near the Collectorate. The High Court held the words were not obscene and quashed the FIR, chargesheet and trial.",
+      "date": "2026-03-05",
+      "date_label": "High Court order",
+      "incident_date": "2021-07-23",
+      "district": "Singrauli",
+      "outcome": "quashed",
+      "authority": "Madhya Pradesh High Court at Jabalpur ([name withheld])",
+      "case_reference": "MCRC No. 55648 of 2024; follow-on case pending before Judicial Magistrate, Singrauli",
+      "laws": [
+        "Section 294 IPC",
+        "Section 504 IPC"
+      ],
+      "acts": [
+        "Indian Penal Code, 1860"
+      ],
+      "person": "a former Cabinet Minister and protest participant in Singrauli district",
+      "detail": [
+        "The High Court recorded that on 23.07.2021 a protest rally was organised by the Indian National Congress over rising inflation, and it was alleged that when a memorandum was being submitted near the Collectorate, the petitioner used improper language against the district administration.",
+        "Police said an FIR was lodged by a Patwari on the directions of the Sub-Divisional Officer, and after investigation a chargesheet adding Section 504 IPC was filed, with the case pending before the Judicial Magistrate, Singrauli.",
+        "The High Court recorded that no independent public witness was cited despite a public-place gathering, and the complainant was a revenue staffer acting on directions.",
+        "The High Court held that colloquial derogatory words such as 'nalayak' are not automatically obscene under Section 294 IPC and that criticism of administration during protest without deliberate provocation is not intentional insult under Section 504 IPC, and quashed the FIR, chargesheet and proceedings."
+      ],
+      "current_position": "The FIR, chargesheet and criminal proceedings stand quashed.",
+      "quote": {
+        "text": "It is a matter of common experience that expressions such as “nalayak” and similar colloquial words are widely used in everyday speech across the country and, depending upon the context, may not necessarily carry the intention to humiliate or abuse a particular individual. Criminal liability cannot be fastened merely on the basis of such expressions unless the statutory ingredients of the offence are clearly established.",
+        "where": "MCRC No. 55648 of 2024, Madhya Pradesh High Court order, para 7 (case title redacted for privacy)",
+        "url": "https://www.livelaw.in/pdf_upload/2026/03/10/bansh-mani-verma-v-state-of-madhya-pradesh-660620.pdf"
+      },
+      "caveats": "Crime/RCT numbers, PS Waidhan, chargesheet date 19.08.2021, Section 528 BNSS and order date 05.03.2026 appear only in the court-order PDF which returned only metadata (9 pages, HIGH COURT OF MADHYA PRADESH JABALPUR) in text extraction; verified facts are limited to LiveLaw report dated 10.03.2026 confirming July 23 2021 INC inflation rally near Collectorate, Patwari complaint on SDO directions, no outside witness, Sections 294/504 IPC, [name withheld], and quashing of FIR/chargesheet before Singrauli magistrate. Case title redacted for privacy.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The only alleged wrong was uttering harsh words at a political protest. The court found no obscene act, no annoyance to the public and no incitement to breach of peace, so no complaining victim."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.livelaw.in/pdf_upload/2026/03/10/bansh-mani-verma-v-state-of-madhya-pradesh-660620.pdf",
+          "kind": "court_order",
+          "publisher": "Madhya Pradesh High Court (via LiveLaw PDF copy)",
+          "date": "2026-03-05",
+          "supports": "FIR/chargesheet numbers, incident date and place, sections 294 and 504 IPC, reasoning on obscenity and insult, quashing order"
+        },
+        {
+          "url": "https://www.livelaw.in/high-court/madhya-pradesh-high-court/madhya-pradesh-high-court-quashes-fir-against-former-minister-says-nalayak-commonly-used-word-525856",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2026-03-10",
+          "supports": "case title, court, judge, sections, protest context and outcome summary"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-od-0001",
+      "category": "sex-work",
+      "state": "Odisha",
+      "title": "House owner prosecuted for letting premises for paid sex in Kendrapara",
+      "summary": "Police registered a 2026 case alleging a house was hired for prostitution-related offences under the Immoral Traffic (Prevention) Act with a BNS trafficking section. The house owner sought pre-arrest bail from the Orissa High Court. The Court refused pre-arrest bail but directed that he may surrender within a month and have any bail plea decided promptly.",
+      "date": "2026-09-10",
+      "date_label": "High Court order",
+      "district": "Kendrapara",
+      "outcome": "bail_refused",
+      "authority": "Orissa High Court (Justice V. Narasingh)",
+      "case_reference": "ABLAPL No.10312 of 2026; G.R. Case No.426 of 2026 arising out of Derabish P.S. Case No.190 of 2026",
+      "laws": [
+        "Section 143(2) of BNS, 2023",
+        "Sections 3/4/5/6/7 of Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023",
+        "Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "person": "a house owner in Kendrapara district",
+      "detail": [
+        "The High Court recorded that the petitioner was seeking pre-arrest bail in G.R. Case No.426 of 2026, arising out of Derabish P.S. Case No.190 of 2026, for offences under BNS section 143(2) with sections 3 to 7 of the Immoral Traffic (Prevention) Act.",
+        "The High Court recorded that the allegation against the petitioner was that his house had been hired for commission of the offences.",
+        "The High Court recorded that the petitioner relied on an order dated 05.08.2026 of the Additional Sessions Judge, Kendrapara, releasing co-accused persons on post-arrest bail.",
+        "The High Court stated it was not inclined to entertain pre-arrest bail, but directed that the petitioner may surrender within one month and that any bail motion be considered on merits promptly, with the case diary made available.",
+        "The order alleges no force, deception, minor, or complaining victim, and describes only the hiring of the house for the alleged offences."
+      ],
+      "current_position": "Prosecution pending; pre-arrest bail refused with liberty to surrender and seek bail before the trial court and higher forum on the same day.",
+      "quote": {
+        "text": "The allegation against the Petitioner is that his house hired for commission of the offences.",
+        "where": "[name withheld] vs State of Odisha, ABLAPL No.10312 of 2026, Orissa High Court order dated 10.09.2026, para 3",
+        "url": "https://indiankanoon.org/doc/38924430/"
+      },
+      "caveats": "The full FIR was not on record; the exact incident date in 2026 could not be confirmed. BNS section 143(2) is a trafficking provision but the order states no victim-related facts. An older May 2025 Khordha case explicitly recorded four adult women and customers, corroborating the consenting-adult pattern, but this September 2026 case is the most recent.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Renting a premises for consensual paid sex between adults harms no one; the order describes no victim, violence, or coercion."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/38924430/",
+          "kind": "court_order",
+          "publisher": "Orissa High Court",
+          "date": "2026-09-10",
+          "supports": "case numbers, charges, allegation, and refusal of pre-arrest bail with surrender direction"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-od-0002",
+      "category": "gambling",
+      "state": "Odisha",
+      "title": "Card players prosecuted for gambling in Nuapada; cash seized",
+      "summary": "Police raided gamblers playing cards, seizing Rs 3,900, and registered a case under section 3 of the Odisha Prevention of Gambling Act with BNS organised-crime sections. A man implicated only by a co-accused disclosure sought pre-arrest bail. The High Court directed him to surrender within a fortnight and be released on bail of Rs 50,000.",
+      "date": "2026-04-23",
+      "date_label": "High Court order",
+      "district": "Nuapada",
+      "outcome": "prosecution_pending",
+      "authority": "Orissa High Court (Justice R.K. Pattanaik)",
+      "case_reference": "ABLAPL No.2743 of 2026; Jonk P.S. Case No.164 of 2025; C.T. Case No.538 of 2025",
+      "laws": [
+        "Sections 111(4)/112(2) (printed as BNSS)",
+        "Section 3 of the Odisha Prevention of Gambling Act"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023",
+        "Odisha Prevention of Gambling Act"
+      ],
+      "person": "a man from the Jonk area of Nuapada district",
+      "detail": [
+        "The High Court recorded that the case alleged the accused were involved in gambling while playing cards, and that Rs 3,900 in cash was recovered and seized from those caught at the spot.",
+        "The High Court recorded that the petitioner was not present at the raid and was implicated only on a disclosure by co-accused persons, with no similar antecedent reported.",
+        "The High Court recorded the State's objection and noted the organised-crime sections invoked alongside the gambling charge.",
+        "The High Court directed that if the petitioner surrenders before the SDJM, Nuapada within a fortnight, he shall be released on a bail bond of Rs 50,000 with one solvent surety and conditions.",
+        "The order alleges no cheating, fixing, or fraud against any victim; the only described act is wagering while playing cards."
+      ],
+      "current_position": "Prosecution pending before the SDJM, Nuapada; the petitioner was directed to surrender and be released on conditional bail.",
+      "quote": {
+        "text": "As per the F.I.R., the accused persons were involved in such gambling while playing cards.",
+        "where": "[name withheld] vs State of Odisha, ABLAPL No.2743 of 2026, Orissa High Court order dated 23.04.2026, para 3",
+        "url": "https://indiankanoon.org/doc/103303439/"
+      },
+      "caveats": "The exact date of the police raid in Jonk P.S. Case No.164 of 2025 could not be confirmed beyond the 2025 case year. The order prints the BNS sections as BNSS, reproduced as printed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Wagering one's own money in a card game harms no one; no cheating or victim is alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/103303439/",
+          "kind": "court_order",
+          "publisher": "Orissa High Court",
+          "date": "2026-04-23",
+          "supports": "gambling-while-playing-cards facts, Rs 3,900 seizure, charges, and surrender-cum-bail direction"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-od-0003",
+      "category": "alcohol",
+      "state": "Odisha",
+      "title": "Scooter seized for carrying contraband liquor in Cuttack",
+      "summary": "Excise authorities seized a TVS Jupiter scooter allegedly used to transport contraband liquor and started confiscation proceedings under the Odisha Excise Act. The vehicle owner's plea for interim release was first refused by the magistrate. The High Court set aside that refusal and ordered the scooter released on an indemnity bond of Rs 50,000 with a surety.",
+      "date": "2026-08-19",
+      "date_label": "High Court order",
+      "incident_date": "2025-06-05",
+      "district": "Cuttack",
+      "outcome": "seizure",
+      "authority": "Orissa High Court (Justice R.K. Pattanaik)",
+      "case_reference": "CRLREV No.517 of 2026; Criminal Misc. Case No.117 of 2025; 2(a) CC Case No.63 of 2023; C.P. No.44/2025-26",
+      "laws": [
+        "Section 52(a) of Odisha Excise Act, 2008",
+        "Section 71 of the Odisha Excise Act, 2008",
+        "Section 503 BNSS"
+      ],
+      "acts": [
+        "Odisha Excise Act, 2008",
+        "Bharatiya Nagarik Suraksha Sanhita, 2023"
+      ],
+      "person": "a vehicle owner in Cuttack",
+      "detail": [
+        "The High Court recorded that the prosecution report revealed a case under section 52(a) of the Odisha Excise Act, 2008, and that the seizure vehicle was a TVS Jupiter bearing registration OD-06-E-3857.",
+        "The High Court recorded the State's objection that the vehicle was involved in transportation of contraband liquor and was subject to a confiscation proceeding, C.P. No.44/2025-26, which was why interim release had been refused.",
+        "The High Court recorded that the vehicle had been seized on 5th June, 2025 and had lain idle at the Excise police station since then.",
+        "The High Court set aside the refusal order and directed release of the scooter to the owner on an indemnity bond of Rs 50,000 with one solvent surety and an undertaking to produce it when required.",
+        "The order alleges no spurious or poisonous liquor, hooch deaths, or violence."
+      ],
+      "current_position": "Seizure stands with confiscation proceeding C.P. No.44/2025-26 pending; interim custody of the scooter was ordered to be given to the owner on conditions.",
+      "quote": {
+        "text": "A copy of the P.R. is at Annexure-1 and the same is gone through and it reveals a case under Section 52(a) of Odisha Excise Act, 2008 to have been registered.",
+        "where": "[name withheld] vs State of Odisha, CRLREV No.517 of 2026, Orissa High Court order dated 19.08.2026, para 3",
+        "url": "https://indiankanoon.org/doc/74641635/"
+      },
+      "caveats": "The quantity of liquor was not stated in the order. The prosecution report named a different man as accused while the revisionist claimed to be the lawful owner; that ownership claim could not be independently verified.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Carrying ordinary contraband liquor harms no one; no poisoning, death, or violence is alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/74641635/",
+          "kind": "court_order",
+          "publisher": "Orissa High Court",
+          "date": "2026-08-19",
+          "supports": "excise charge, contraband-liquor transport, vehicle seizure, confiscation proceeding, and release order with bond"
         }
       ],
       "verification": "V2"

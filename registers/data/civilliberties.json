@@ -182,7 +182,7 @@
       "date_label": "High Court order reported",
       "incident_date": "2026-01-07",
       "outcome": "quashed",
-      "authority": "Karnataka High Court, Justice [name withheld]",
+      "authority": "Karnataka High Court, Justice Venkatesh Naik T",
       "case_reference": "Criminal Petition No.101720 of 2026",
       "laws": [
         "Section 285 BNS",
@@ -240,7 +240,7 @@
       "date_label": "High Court order",
       "incident_date": "2025-05-04",
       "outcome": "quashed",
-      "authority": "Karnataka High Court, Dharwad Bench, Justice [name withheld]",
+      "authority": "Karnataka High Court, Dharwad Bench, Justice Venkatesh Naik T",
       "laws": [
         "Sections 299, 351(2) and 3(5) BNS",
         "Section 5 of the Karnataka Protection of Right to Freedom of Religion Act, 2022"
@@ -417,6 +417,81 @@
         }
       ],
       "verification": "V1"
+    },
+    {
+      "id": "cl-od-0001",
+      "category": "speech",
+      "state": "Odisha",
+      "title": "Orissa High Court refuses pre-arrest bail to news editor booked over video remarks about minister",
+      "summary": "Capital Police in Bhubaneswar booked the editor-in-chief of a digital news platform after a video of his remarks about a State minister was widely circulated on social media. The editor sought pre-arrest bail, saying custodial interrogation was not needed. The Orissa High Court rejected the plea on 6 August 2026 and left the prosecution pending.",
+      "date": "2026-08-06",
+      "date_label": "High Court order",
+      "incident_date": "2026-07-12",
+      "district": "Khordha",
+      "outcome": "bail_refused",
+      "authority": "Orissa High Court (Justice V. Narasingh); Capital Police, Bhubaneswar",
+      "case_reference": "Capital P.S. Case No.561 of 2026; C.T. Case No.1736 of 2026 (SDJM, Bhubaneswar); ABLAPL No.8997 of 2026",
+      "laws": [
+        "Section 353 BNS",
+        "Section 196 BNS",
+        "Section 356 BNS"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "editor-in-chief of a digital news platform in Bhubaneswar",
+      "detail": [
+        "The High Court recorded that the case arose from remarks made during an Odisha Swabhiman Mancha programme on 12.07.2026, where the editor claimed a State minister had tried to bribe him to suppress reports about textbook errors, and that a video of the claim was uploaded and widely circulated on Facebook and other social media platforms.",
+        "Police said the complaint described the statements as false, fabricated, malicious and defamatory, published to tarnish the minister's reputation, mislead the public and disturb public order and confidence in the government, and registered Capital PS case no. 561 dated 14.07.2026 under Sections 353, 196 and 356 BNS.",
+        "The editor told the High Court that even taking the allegations at face value, custodial interrogation was not warranted, that his listed criminal antecedents were irrelevant, and that co-accused persons taken into custody had been released on bail.",
+        "The State opposed bail by citing materials on record including the Section 183 BNSS statement of a correspondent working under the editor, and by placing a list of 20 prior criminal cases across police stations between 2022 and 2026 before the Court.",
+        "Justice V. Narasingh held that the materials did not warrant the exceptional remedy of pre-arrest bail, rejected the application, and clarified that the observations were only for the bail plea and that the accusation had to be established independently in the ongoing probe."
+      ],
+      "current_position": "Pre-arrest bail stands rejected and the criminal case before the SDJM, Bhubaneswar remains pending investigation.",
+      "quote": {
+        "text": "Considering the materials on record and perusal of the statement of the correspondent, who works under the Petitioner, recorded under Section 183 of BNSS and other statements, this Court is not inclined to entertain the application of the Petitioner for grant of “exceptional remedy” of pre-arrest bail. The same accordingly stands rejected.",
+        "where": "ABLAPL No. 8997 of 2026, para 7",
+        "url": "https://www.livelaw.in/pdf_upload/2026/08/11/sudhanshu-sekhar-rout-v-state-of-odisha-693067.pdf"
+      },
+      "caveats": "Full FIR and case diary were not opened; the State's list of 20 prior cases could not be independently verified; later bail or arrest developments after 6 August 2026 were not confirmed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "The prosecution targets reporting-style speech and a circulated video criticising the government over textbook errors, with no allegation of violence, threats, doxxing, fraud, minors or any complaining victim of force."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.livelaw.in/pdf_upload/2026/08/11/sudhanshu-sekhar-rout-v-state-of-odisha-693067.pdf",
+          "kind": "court_order",
+          "publisher": "Orissa High Court (copy hosted by LiveLaw)",
+          "date": "2026-08-06",
+          "supports": "case numbers, FIR gist, charges, bail rejection and quoted order text"
+        },
+        {
+          "url": "https://www.livelaw.in/high-court/orissa-high-court/orissa-high-court-rejects-prearrest-bail-journalist-alleged-remarks-state-education-minister-545270",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2026-08-11",
+          "supports": "summary of FIR, video circulation, sections invoked, bail reasoning and case citation 2026 LiveLaw (Ori) 93"
+        },
+        {
+          "url": "https://www.scconline.com/blog/post/2026/08/21/ori-hc-denies-pre-arrest-bail-to-media-editor-in-bribery-allegations-case/",
+          "kind": "news",
+          "publisher": "SCC Times",
+          "date": "2026-08-21",
+          "supports": "programme date 12 July 2026, SDJM Bhubaneswar pendency, Sections 353/196/356 BNS, Section 183 BNSS statement, decision date 6-8-2026"
+        },
+        {
+          "url": "https://pragativadi.com/media-office-sealed-after-editor-accused-of-defaming-odisha-minister/",
+          "kind": "news",
+          "publisher": "Pragativadi",
+          "date": "2026-07-20",
+          "supports": "background that the case stemmed from criticism over textbook errors, Capital Police complaint of 15 July, and sealing of the channel office"
+        }
+      ],
+      "verification": "V2"
     }
   ]
 }
