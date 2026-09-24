@@ -668,6 +668,163 @@
       "verification": "V2"
     },
     {
+      "id": "psu-as-0005",
+      "category": "dfi",
+      "state": "Assam",
+      "name": "North Eastern Development Finance Corporation Limited (NEDFi)",
+      "summary": "North Eastern Development Finance Corporation Limited (NEDFi) is a Guwahati-based development finance institution registered as a public limited company. Its shareholders are public financial institutions including IDBI, SBI, LIC, SIDBI, IFCI, SUUTI and GIC alongside ICICI. Its most recent reported performance is for FY2024-25, with record sanctions and a profit after tax of Rs 96.01 crore.",
+      "date": "2025-03-31",
+      "district": "Kamrup Metropolitan",
+      "headquarters": "Dispur, Guwahati, Assam",
+      "state_link": "Headquartered at NEDFi House, G.S. Road, Dispur, Guwahati, Assam 781006, so it is a central/regional enterprise headquartered in Assam.",
+      "owner": "Joint (consortium of public financial institutions)",
+      "legal_form": "Public Limited Company registered under the Companies Act, 1956",
+      "established": "1995: incorporated 9 August 1995 under the Companies Act, 1956; formally inaugurated 23 February 1996",
+      "status": "Operating",
+      "financials": "FY2024-25 (FY25, company site): sanctions Rs 882.98 crore; loan outstanding Rs 2,019.50 crore; profit after tax Rs 96.01 crore",
+      "detail": [
+        "NEDFi identifies itself as North Eastern Development Finance Corporation Ltd (NEDFi), a Public Limited Company registered under the Companies Act 1956 on 9th August 1995, with shareholders listed as IDBI, SBI, LICI, SIDBI, ICICI, IFCI, SUUTI and GIC and its subsidiaries (source: nedfi.com who-we-are and annual-report pages).",
+        "Its headquarters contact is given as NEDFi House, G.S. Road, Dispur, Guwahati, Assam Pin 781006, with CIN U65923AS1995GOI004529 (source: nedfi.com annual-report page). Guwahati spans Kamrup Metropolitan and Kamrup Rural districts (source: Guwahati page), with Dispur treated here as Kamrup Metropolitan.",
+        "For FY25 the company states: During FY25, your Corporation delivered record operational milestones; sanctions increased to Rs. 882.98 crore; loan outstanding stands at Rs. 2,019.50 crore; profit after tax INR 96.01 crore (source: nedfi.com who-we-are page). Its site lists Annual Report 2024-25 as the latest report, with earlier reports back to 2004-05 (source: nedfi.com annual-reports page)."
+      ],
+      "caveats": "Shareholding percentages and the 51% government-holding calculation could not be confirmed from opened pages, so shareholding is null; ICICI (private) is among shareholders. Administrative ministry (commonly Ministry of Development of North Eastern Region) was not stated in opened excerpts, so administrative is null. Exact Annual Report 2024-25 adoption/AGM date was not in opened excerpts, so date uses FY-end 2025-03-31. Employee count not available. Assam Financial Corporation site (afcassam.in) and Assam finance portals were unreachable (connection refused/forbidden), so AFC could not be sourced from an opened official page.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.nedfi.com/",
+          "kind": "company_site",
+          "publisher": "NEDFi",
+          "date": null,
+          "supports": "full name, Dispur Guwahati address, shareholder list, cumulative sanctions and office figures"
+        },
+        {
+          "url": "https://www.nedfi.com/who-we-are/",
+          "kind": "company_site",
+          "publisher": "NEDFi",
+          "date": null,
+          "supports": "incorporation 9 August 1995, inauguration 23 February 1996, FY25 sanctions, outstanding and PAT figures"
+        },
+        {
+          "url": "https://www.nedfi.com/annual-reports",
+          "kind": "annual_report",
+          "publisher": "NEDFi",
+          "date": null,
+          "supports": "Annual Report 2024-25 listed as latest; CIN and Guwahati address"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Guwahati",
+          "kind": "news",
+          "publisher": "Wikipedia (tertiary context only)",
+          "date": null,
+          "supports": "Guwahati divided into Kamrup Metropolitan and Kamrup Rural districts"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-as-0006",
+      "category": "departmental",
+      "state": "Assam",
+      "name": "Northeast Frontier Railway (NFR)",
+      "summary": "Northeast Frontier Railway (NFR) is one of the 19 railway zones of Indian Railways, headquartered at Maligaon, Guwahati, Assam. It is run directly by the Ministry of Railways with no separate legal identity. Its most recent major development is the completion and inauguration of the NFR-operated Bairabi-Sairang line connecting Aizawl on 13 September 2025.",
+      "date": "2025-09-13",
+      "district": "Kamrup Metropolitan",
+      "headquarters": "Maligaon, Guwahati, Assam",
+      "state_link": "Headquartered in Maligaon, Guwahati in the state of Assam; operates across Northeastern states plus parts of Bihar and West Bengal.",
+      "owner": "Central government",
+      "administrative": "Ministry of Railways",
+      "legal_form": "Departmental undertaking (railway zone of Indian Railways)",
+      "established": "1958: bifurcated from North Eastern Railway on 15 January 1958",
+      "status": "Operating",
+      "detail": [
+        "NFR is described as one of the 19 railway zones of the Indian Railways, headquartered in Maligaon, Guwahati in the state of Assam, responsible for operation and expansion across Northeastern states and some districts of eastern Bihar and northern West Bengal (source: Northeast Frontier Railway zone page). Its centre is also given as N.F. Railway Headquarter, Maligaon, with five divisions at Katihar, Alipurduar, Lumding, Rangiya and Tinsukia (source: same page).",
+        "Its origin is given as a 15 January 1958 bifurcation/transfer from North Eastern Railway into Northeast Frontier Railway, with the Darjeeling Himalayan Railway merged via North Eastern Railway in 1952 and later into NFR in 1958 (source: same page).",
+        "The Bairabi-Sairang line from Bairabi to Sairang in Mizoram is stated to operate under the Northeast Frontier Railway zone, to be the only railway line connecting Aizawl with the rest of India, to have been initiated in 2015, completed and inaugurated in 2025, with the Bairabi-Sairang section operational and inaugurated by the Prime Minister on 13 September 2025 (source: Bairabi-Sairang line page).",
+        "Indian Railways homepage corroborates the Mizoram connectivity milestone with the item AIZAWL ON THE RAIL MAP TURNING DREAMS INTO REALITY, alongside September 2026 magazine and FY2024-25 bonus materials (source: indianrailways.gov.in homepage)."
+      ],
+      "caveats": "Zone-level revenue, profit and employee figures were not available in opened pages, so financials and employees are null. District Kamrup Metropolitan is inferred from Maligaon, Guwahati location. PIB press-release pages for the inauguration could not be retrieved (404/forbidden), so the inauguration date relies on the tertiary page plus Indian Railways homepage corroboration.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Northeast_Frontier_Railway_zone",
+          "kind": "news",
+          "publisher": "Wikipedia (tertiary context for zone facts)",
+          "date": null,
+          "supports": "19 zones, Maligaon Guwahati HQ, jurisdiction, five divisions, 15 January 1958 formation"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Bairabi%E2%80%93Sairang_line",
+          "kind": "news",
+          "publisher": "Wikipedia (tertiary context for project facts)",
+          "date": "2025-09-13",
+          "supports": "NFR operator, Aizawl link, 2015-2025 timeline, 13 September 2025 inauguration, operational status"
+        },
+        {
+          "url": "https://indianrailways.gov.in/",
+          "kind": "company_site",
+          "publisher": "Indian Railways",
+          "date": null,
+          "supports": "AIZAWL ON THE RAIL MAP item corroborating Mizoram connectivity milestone"
+        },
+        {
+          "url": "https://nfr.indianrailways.gov.in/",
+          "kind": "company_site",
+          "publisher": "Northeast Frontier Railway",
+          "date": null,
+          "supports": "official portal identity (Welcome to North East Frontier Railway)"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-as-0007",
+      "category": "statutory",
+      "state": "Assam",
+      "name": "Assam State Transport Corporation (ASTC)",
+      "summary": "Assam State Transport Corporation (ASTC) is the Government of Assam-owned road transport corporation headquartered at Rupnagar, Guwahati. It began as a state government department in 1948 and was converted into a corporation under the Road Transport Corporation Act, 1950 on 31 March 1970. Its most recent official activity verified from its own site is a Short Notice Inviting Tender at Digboi dated 16 September 2026, alongside an electric-bus programme with only electric purchases from 2025 onward.",
+      "date": "2026-09-16",
+      "district": "Kamrup Metropolitan",
+      "headquarters": "Rupnagar, Guwahati, Assam",
+      "state_link": "Owned road transport corporation of Assam; content ownership shown as Assam State Transport Corporation, Govt. of Assam.",
+      "owner": "State government (Assam)",
+      "administrative": "Transport Department, Government of Assam",
+      "legal_form": "Statutory corporation (Road Transport Corporation Act, 1950)",
+      "established": "1948 as Road Transport, Assam department; corporation status 31 March 1970 under the Road Transport Corporation Act, 1950; started with two buses between Guwahati and Nagaon",
+      "status": "Operating",
+      "detail": [
+        "ASTC is described as the owned road transport corporation of the Government of Assam, started as a state government department with two buses between Guwahati and Nagaon, first created on 16 January 1948 under the Home Department as Road Transport, Assam, and converted to a Corporation under the Road Transport Corporation Act, 1950 on 31 March 1970, with its main office at ASTC Headquarters, Rupnagar, Guwahati (sources: ASTC article excerpts and astc.assam.gov.in site ownership).",
+        "Its network is reported as 10 divisions, 135 bus stations and 3 Inter State Bus Terminals (source: ASTC article excerpts).",
+        "The recent shift is stated as aiming to convert all bus fleets to electric by 2030 with only electric purchases starting 2025, with 200 AC electric buses launched for Guwahati and adjoining areas on 1 January 2024 (source: ASTC article excerpts).",
+        "The latest official site activity verified is Short Notice Inviting Tender, Digboi, posted Wednesday, September 16, 2026, also shown on the homepage with calendar markers 16/09/2026 and 16 Sep 2026 (sources: astc.assam.gov.in latest and homepage)."
+      ],
+      "caveats": "Revenue, profit/loss and employee figures were not available in opened official pages, so financials and employees are null. Pre-2026 e-bus and network numbers come from a tertiary page, not yet cross-checked against ASTC annual report or CAG audit. District Kamrup Metropolitan is inferred from Rupnagar, Guwahati location.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://astc.assam.gov.in/",
+          "kind": "company_site",
+          "publisher": "Assam State Transport Corporation, Govt. of Assam",
+          "date": "2026-09-16",
+          "supports": "Govt. of Assam ownership, Short Notice Inviting Tender Digboi and 16/09/2026 date"
+        },
+        {
+          "url": "https://astc.assam.gov.in/latest",
+          "kind": "company_site",
+          "publisher": "Assam State Transport Corporation, Govt. of Assam",
+          "date": "2026-09-16",
+          "supports": "tender title and posted date 16 September 2026"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Assam_State_Transport_Corporation",
+          "kind": "news",
+          "publisher": "Wikipedia (tertiary context for history and fleet)",
+          "date": null,
+          "supports": "1948 department origin, 31 March 1970 corporation under 1950 Act, Rupnagar HQ, zones/stations, e-bus dates"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "psu-br-0001",
       "category": "cpse",
       "state": "Bihar",
@@ -940,6 +1097,296 @@
           "publisher": "Press Information Bureau, Ministry of Housing and Urban Affairs",
           "date": "2024-07-03",
           "supports": "Mission period extended up to 31 March 2025 to complete remaining projects."
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-gj-0005",
+      "category": "dfi",
+      "state": "Gujarat",
+      "name": "Gujarat State Financial Corporation (GSFC)",
+      "summary": "Gujarat State Financial Corporation is a term-lending institution listed on BSE. Its FY2024-25 figures included total income of Rs 1,724.71 lakh, expenditure of Rs 14,258.71 lakh and a loss of Rs 12,534.00 lakh. The subsequently published 66th Annual Report covers FY2025-26.",
+      "date": "2026-03-31",
+      "district": "Gandhinagar",
+      "headquarters": "Gandhinagar, Gujarat",
+      "state_link": "The Corporation reports borrowings from the Government of Gujarat and acknowledges support from the Government of Gujarat and its departments.",
+      "owner": "Ownership not established by the opened sources",
+      "administrative": "Government of Gujarat support is acknowledged; RBI and SIDBI are also acknowledged, but the administrative department is not identified by the opened sources.",
+      "legal_form": "Statutory corporation (State Financial Corporations Act, 1951); listed company (BSE: 532160)",
+      "established": "Not established by the opened sources",
+      "status": "Loss-making",
+      "financials": "FY2024-25: total income Rs 1,724.71 lakh; net loss Rs 12,534.00 lakh; accumulated loss carried forward Rs 3,42,515.82 lakh (company Directors Report/annual accounts, year ended 31 March 2025)",
+      "employees": "12 staff in FY2024-25; the FY2025-26 report says staff strength subsequently fell to 10.",
+      "detail": [
+        "The Economic Times company page identifies Gujarat State Financial Corporation as a term-lending institution listed on BSE under code 532160.",
+        "The reproduced 66th Directors Report gives FY2024-25 total income of Rs 1,724.71 lakh, total expenditure of Rs 14,258.71 lakh, loss of Rs 12,534.00 lakh and accumulated loss of Rs 3,42,515.82 lakh.",
+        "The report gives FY2025-26 recovery of Rs 83.04 lakh against Rs 212.29 lakh in FY2024-25 and says aggregate principal borrowings from the Government of Gujarat were Rs 66,168.43 lakh at 31 March 2026.",
+        "The report says staff strength fell to 10 in FY2025-26 from 12 in the previous year and that the FY2025-26 accounts were prepared on a going-concern basis."
+      ],
+      "caveats": "Exact government/SIDBI/LIC shareholding percentages as of 2026 could not be confirmed from an opened official page, so shareholding is null. Headquarters building/block confirmed from BSE filing and Goodreturns profile via search; district inferred as Gandhinagar.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/e0f8ce21-296f-472d-a40a-2d15dc7f841c.pdf",
+          "kind": "exchange_filing",
+          "publisher": "Gujarat State Financial Corporation via BSE",
+          "date": "2026-02-25",
+          "supports": "FY2024-25 annual report laid before Gujarat Legislature on 2026-02-16 under S.38(3) SFC Act; TOI report on loss and staff"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/gujarat-state-financial-corporation/directorsreport/companyid-4808.cms",
+          "kind": "news",
+          "publisher": "The Economic Times (reproducing company Directors Report/66th Annual Report text)",
+          "date": null,
+          "supports": "FY2024-25 and FY2025-26 income, expenditure, loss, accumulated loss, borrowings Rs 66,168.43 lakh, recovery, staff strength"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-gj-0006",
+      "category": "departmental",
+      "state": "Gujarat",
+      "name": "Department of Posts – Gujarat Circle (India Post, Gujarat Circle)",
+      "summary": "Gujarat Circle is one of the Department of Posts' 23 postal circles and is headed by a Chief Postmaster General at Ahmedabad. It covers Gujarat and also administers Dadra and Nagar Haveli and Daman and Diu. Advanced Postal Technology 2.0 went live across all 8,884 post offices in the Circle on 22 July 2025.",
+      "date": "2025-07-22",
+      "district": "Ahmedabad",
+      "headquarters": "Ahmedabad, Gujarat",
+      "state_link": "Gujarat Circle is co-terminus with Gujarat (plus Dadra and Nagar Haveli and Daman and Diu) and its circle headquarters is at Khanpur, Ahmedabad.",
+      "owner": "Central government",
+      "administrative": "Ministry of Communications, Department of Posts",
+      "legal_form": "Administrative postal circle of the Department of Posts",
+      "established": "Establishment date not stated in the opened sources",
+      "status": "Operating",
+      "detail": [
+        "India Post states that the Department of Posts comes under the Ministry of Communications, divides the country into 23 postal circles and places each circle under a Chief Postmaster General.",
+        "India Post states that Gujarat Circle also administers the Union Territories of Daman and Diu and Dadra and Nagar Haveli.",
+        "PIB recorded that the Chief Postmaster General of Gujarat Circle assumed charge at Ahmedabad on 25 October 2023.",
+        "Bombay Samachar reports that APT 2.0 went live throughout Gujarat Circle on 22 July 2025, covering all 8,884 post offices and adding UPI or QR payments, real-time SMS tracking, OTP-secured delivery and GPS-enabled postmen.",
+        "The report says more than 26,000 postal staff were trained, the CEPT Mysuru platform replaced SAP and DARPAN 2.0, and a special cover was released."
+      ],
+      "caveats": "Circle revenue/profit and sanctioned staff strength are not published as a commercial P&L and could not be confirmed from an official page, so financials and employees are null. HQ street address (Khanpur, Ahmedabad) comes from non-official directories, not an opened official page.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1970703",
+          "kind": "pib",
+          "publisher": "Press Information Bureau, Ahmedabad (Ministry of Communications)",
+          "date": "2023-10-25",
+          "supports": "Chief Postmaster General, Gujarat Circle, Ahmedabad; HQ city"
+        },
+        {
+          "url": "https://english.bombaysamachar.com/gujarat/gujarat-implements-advanced-postal-technology-2-0-across-all-post-offices/",
+          "kind": "news",
+          "publisher": "Bombay Samachar (English)",
+          "date": "2025-07-23",
+          "supports": "APT 2.0 live 22 July 2025 across 8,884 Gujarat Circle offices; UPI, tracking features; 26,000 staff trained"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-gj-0007",
+      "category": "statutory",
+      "state": "Gujarat",
+      "name": "Deendayal Port Authority (DPA), Kandla",
+      "summary": "Deendayal Port Authority at Kandla, with its administrative office at Gandhidham in Kutch, is a major port authority under the Major Port Authorities Act, 2021 and functions under the Ministry of Ports, Shipping and Waterways. PIB reported on 9 April 2026 that its 2 April shore-to-ship methanol-bunkering trial succeeded and that the port had received Level 6 on the IAPH Port Readiness Level scale.",
+      "date": "2026-04-09",
+      "district": "Kachchh (Kutch)",
+      "headquarters": "Gandhidham, Gujarat",
+      "state_link": "Central major port physically located and headquartered at Gandhidham/Kandla in Kutch district, Gujarat.",
+      "owner": "Central government",
+      "administrative": "Ministry of Ports, Shipping and Waterways",
+      "legal_form": "Statutory corporation (Board of Major Port Authority under the Major Port Authorities Act, 2021; successor to Kandla Port Trust under Major Port Trusts Act, 1963)",
+      "established": "The Major Port Authorities Act, 2021 took effect on 3 November 2021; the first Board was constituted on 28 January 2022 and adopted the name Deendayal Port Authority on 28 February 2022.",
+      "status": "Operating",
+      "detail": [
+        "PIB reported that Deendayal Port Authority conducted a trial shore-to-ship methanol-bunkering operation on 2 April 2026 with Stolt Tankers, J M Baxi, Aegis Vopak and Indian Oil Corporation, with on-site verification by DNV.",
+        "PIB states that DNV rated Kandla Port Level 6 on the IAPH Port Readiness Level scale for methanol bunkering.",
+        "PIB states that the port is working toward approximately 500 KTPA of RFNBO-compliant e-methanol by 2028-29 for deep-sea dual-fuel vessels on the Asia-Europe corridor and plans ship-to-ship bunkering next.",
+        "PIB reported on 28 November 2025 that DPA Kandla was the fastest Indian major port to reach 100 million tonnes in FY2025-26 and handled liquid, dry-bulk, break-bulk and container cargo.",
+        "DPA documents identify it as a major port under the Major Port Authorities Act, 2021, functioning under the Ministry of Ports, Shipping and Waterways, with its administrative office at Gandhidham, Kutch."
+      ],
+      "caveats": "Annual revenue/profit and employee count for FY2024-25 or FY2025-26 could not be confirmed from an opened official page (DPA site PDF did not parse), so financials and employees are null. Establishment/renaming history relies on DPA charter text via search; the Major Port Authorities Act 2021 Gazette was returned in search but not opened in full.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2250569",
+          "kind": "pib",
+          "publisher": "Press Information Bureau, Delhi (Ministry of Ports, Shipping and Waterways)",
+          "date": "2026-04-09",
+          "supports": "2 April 2026 methanol bunkering trial, IAPH Level 6, partners, 500 KTPA e-methanol target"
+        },
+        {
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2195838&lang=2&reg=3",
+          "kind": "pib",
+          "publisher": "Press Information Bureau, Ahmedabad",
+          "date": "2025-11-28",
+          "supports": "Fastest major port to 100 MMT in FY2025-26; No.1 major port"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-jh-0002",
+      "category": "state",
+      "state": "Jharkhand",
+      "name": "Jharkhand Bijli Vitran Nigam Limited (JBVNL)",
+      "summary": "Jharkhand Bijli Vitran Nigam Limited is the largest electricity distribution company of Jharkhand. It is an undertaking of the Jharkhand Energy Department based at Ranchi, formed on unbundling of the erstwhile Jharkhand State Electricity Board. It started operations on 6 January 2014.",
+      "date": "2014-01-06",
+      "district": "Ranchi",
+      "headquarters": "Ranchi, Jharkhand",
+      "state_link": "State-owned distribution utility of the Government of Jharkhand, based at Ranchi",
+      "owner": "State government (Jharkhand)",
+      "administrative": "Energy Department, Government of Jharkhand",
+      "legal_form": "Government company",
+      "established": "2013-2014 on unbundling of Jharkhand State Electricity Board; operations from 2014-01-06",
+      "status": "Operating",
+      "detail": [
+        "JBVNL is the largest Distribution Company of Jharkhand State, incorporated primarily to carry out distribution of electricity to retail and bulk consumers in the state of Jharkhand (source: jbvnl.co.in).",
+        "The company started operations on 6th Jan, 2014, after the unbundling of the erstwhile Jharkhand State Electricity Board (JSEB) in the year 2013 (source: jbvnl.co.in).",
+        "The Jharkhand Government Energy page lists Jharkhand Bijali Vitran Nigam Ltd.- Ranchi among the undertakings of the department (source: jharkhand.gov.in/energy)."
+      ],
+      "caveats": "Could not confirm shareholding %, latest revenue/profit, AT&C losses, employee count, tariff orders, or a 2025/2026 dated official development. JSERC and JUVNL pages returned no usable excerpt or were unreachable via the fetch tool. Date shown is start of operations (2014-01-06), the most recent dated official fact actually opened; not a 2025/2026 development. Financials and employees left null.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.jbvnl.co.in/",
+          "kind": "company_site",
+          "publisher": "Jharkhand Bijli Vitran Nigam Limited",
+          "date": null,
+          "supports": "largest discom of Jharkhand; distribution role; operations from 6 Jan 2014 after 2013 JSEB unbundling"
+        },
+        {
+          "url": "https://www.jharkhand.gov.in/energy",
+          "kind": "company_site",
+          "publisher": "Government of Jharkhand",
+          "date": null,
+          "supports": "JBVNL Ranchi listed as undertaking of the Energy Department"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-jh-0006",
+      "category": "departmental",
+      "state": "Jharkhand",
+      "name": "India Post - Jharkhand Circle (Jharkhand Postal Circle)",
+      "summary": "India Post's Jharkhand Circle is the Department of Posts' departmental undertaking for Jharkhand. It is a Central government departmental undertaking with no separate legal identity, administered circle-wise under a Chief Postmaster General. Its circle headquarters is at Ranchi, Jharkhand.",
+      "date": "2026-09-24",
+      "district": "Ranchi",
+      "headquarters": "Ranchi, Jharkhand",
+      "state_link": "Jharkhand Circle is the India Post circle for the state of Jharkhand, headquartered at Ranchi",
+      "owner": "Central government",
+      "administrative": "Ministry of Communications, Department of Posts",
+      "legal_form": "Departmental undertaking",
+      "established": "Jharkhand Circle created after formation of Jharkhand on 2000-11-15; India Post origins 1854-10-01 as Crown service",
+      "status": "Operating",
+      "detail": [
+        "India Post, operated by the Department of Posts, is described on its homepage as having 150+ years supporting messaging, with August-September 2026 notices displayed, confirming continued operation in 2026 (source: https://www.indiapost.gov.in/; verified via Wayback snapshot 2026-09-21).",
+        "The Department of Posts is split into 23 postal circles, each directed by a Chief Postmaster General, with central office at Dak Bhawan, Sansad Marg, New Delhi; Jharkhand Circle existence is evidenced by the Wikipedia search snippet 'Petarwar comes under Giridih Postal Division (Jharkhand Circle)' (sources: Department of Posts page; Wikipedia API search for postal circles).",
+        "Ranchi became the capital of Jharkhand on 15 November 2000 when 18 southern districts of Bihar were transferred, consistent with circle headquarters at Ranchi (source: Bihar Reorganisation Act page)."
+      ],
+      "caveats": "Exact street address of CPMG Jharkhand Circle Ranchi and circle-wise financials and staff strength were not available on pages opened; financials and employees left null. Date 2026-09-24 is homepage observation date showing Aug-Sep 2026 notices, not a dated circular; exact notice day could not be confirmed.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.indiapost.gov.in/",
+          "kind": "company_site",
+          "publisher": "India Post, Department of Posts",
+          "date": null,
+          "supports": "India Post homepage, Dept of Posts operation, August-September 2026 notices"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Department_of_Posts",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "23 postal circles each headed by Chief Postmaster General; central office Dak Bhawan New Delhi"
+        },
+        {
+          "url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=postal%20circles%20India%20Jharkhand&format=json",
+          "kind": "news",
+          "publisher": "Wikipedia API",
+          "date": null,
+          "supports": "Jharkhand Circle exists: Giridih Postal Division (Jharkhand Circle)"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/South_Eastern_Railway_zone",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "South Eastern Railway HQ Garden Reach, Kolkata"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/East_Central_Railway_zone",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "East Central Railway HQ Hajipur, Bihar"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Bihar_Reorganisation_Act,_2000",
+          "kind": "statute",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "Jharkhand formed 15 November 2000; Ranchi new capital"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-jh-0007",
+      "category": "statutory",
+      "state": "Jharkhand",
+      "name": "Damodar Valley Corporation (DVC)",
+      "summary": "Damodar Valley Corporation is a statutory corporation under the Damodar Valley Corporation Act, 1948 (Act No. XIV of 1948). It is under the Ministry of Power, Government of India, and operates in West Bengal and Jharkhand. It remained a shared interstate corporation after Jharkhand was created in 2000.",
+      "date": "2026-07-31",
+      "district": "Kolkata",
+      "headquarters": "Kolkata, West Bengal",
+      "state_link": "DVC remained shared across state lines after 2000 and operates major thermal and hydel assets in Jharkhand (Koderma, Bokaro, Chandrapura, Maithon, Panchet)",
+      "owner": "Central government with participating state governments (West Bengal and Jharkhand as successor to Bihar)",
+      "administrative": "Ministry of Power, Government of India",
+      "legal_form": "Statutory corporation (Damodar Valley Corporation Act, Act No. XIV of 1948)",
+      "established": "1948-07-07 as first multipurpose river valley project of independent India",
+      "status": "Operating",
+      "detail": [
+        "DVC origin is 7 July 1948 as first multipurpose river valley project; headquarters is at Kolkata; legal basis is Damodar Valley Corporation Act (Act No. XIV of 1948); described as statutory body / statutory corporation under Ministry of Power (sources: DVC Wikipedia page; https://www.dvc.gov.in/).",
+        "DVC is shown as 'Under the Ministry of Power, Govt. of India' and operates in the 'West Bengal and Jharkhand' states (source: https://www.dvc.gov.in/); the Kolkata headquarters is sourced from the DVC Wikipedia page.",
+        "After Bihar reorganisation effective 15 November 2000, a distinct electricity board was established for Jharkhand, while 'Certain bodies such as the Damodar Valley Corporation continued to operate as inter-state' (source: Bihar Reorganisation Act page).",
+        "Koderma Thermal Power Station at Banjhedih, Jainagar, Koderma district, Jharkhand is managed by DVC with two 500-MW units totalling 1000 MW; page revision dated 31 July 2026, used as most-recent confirmation date; DVC page also noted FY2024-25 revenue collections Rs 25,320 crore with 109% collection efficiency reported 2 April 2025, but official annual report was not opened so financials left null (sources: Koderma page; DVC page)."
+      ],
+      "caveats": "Exact participating-government equity split and current Jharkhand government contribution could not be confirmed from pages opened; shareholding left null. FY2024-25 revenue figure seen on DVC Wikipedia page (Rs 25,320 crore, 2 April 2025) is not from an official DVC report opened, so financials left null. Headquarters district is Kolkata (West Bengal); Jharkhand link is via shared ownership and Jharkhand operations, not HQ.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Damodar_Valley_Corporation",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": "2025-04-02",
+          "supports": "established 7 July 1948; HQ Kolkata; statutory under Act XIV of 1948; Ministry of Power; FY2024-25 revenue Rs 25,320 crore reported 2 April 2025"
+        },
+        {
+          "url": "https://www.dvc.gov.in/",
+          "kind": "company_site",
+          "publisher": "Damodar Valley Corporation",
+          "date": null,
+          "supports": "Under Ministry of Power; operates West Bengal and Jharkhand; HQ Kolkata; DVC Act menu"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Bihar_Reorganisation_Act,_2000",
+          "kind": "statute",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "Jharkhand formed 15 Nov 2000; DVC remained shared across state lines"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Koderma_Thermal_Power_Station",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": "2026-07-31",
+          "supports": "Koderma plant in Koderma district Jharkhand managed by DVC, 2x500 MW; revision 31 July 2026"
         }
       ],
       "verification": "V2"
@@ -2908,6 +3355,262 @@
           "publisher": "Department of Public Enterprises",
           "date": "2025-12-01",
           "supports": "CPSE coverage context; AWEIL is surveyed CPSE"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-wb-0001",
+      "category": "cpse",
+      "state": "West Bengal",
+      "name": "Garden Reach Shipbuilders & Engineers Limited (GRSE)",
+      "summary": "Garden Reach Shipbuilders & Engineers Limited is a Central government defence shipyard under the Ministry of Defence, headquartered in Kolkata. It was accorded Navratna status on 19 June 2026 per company site and reported revenue Rs 7,002 crore and PAT Rs 748 crore in FY2025-26. On 25 June 2026 it announced it had emerged L1 for an electric tug for Syama Prasad Mookerjee Port, Kolkata.",
+      "date": "2026-06-25",
+      "district": "Kolkata",
+      "headquarters": "Kolkata, West Bengal",
+      "state_link": "Registered and corporate office at GRSE Bhavan, 61 Garden Reach Road, Kolkata-700024, West Bengal; central PSU headquartered in West Bengal",
+      "owner": "Central government",
+      "shareholding": "President of India majority holding (record states 85,341,240 shares, 74.5% as of 30-06-2025 - exact count not verified, shareholding PDF unreadable)",
+      "administrative": "Ministry of Defence, Department of Defence Production",
+      "legal_form": "Government company, Listed company (NSE: GRSE, BSE: 542011); CIN L35111WB1934GOI007891 not verified in opened sources",
+      "status_label": "Navratna (DPE approval dated 19-06-2026 announced 20-06-2026 per company site; OM No. PD-26/0003/2025-PD-(14508) not verified - filing blocked)",
+      "established": "Origins 1884 as workshop; taken over by Government of India in 1960 per company site; exact incorporation 26 Feb 1934 and first warship INS Ajay 1961 not verified in opened sources",
+      "status": "Operating",
+      "financials": "FY2025-26 per company press page opened: revenue from operations Rs 7,002 crore (FY22 Rs 1,754 crore); PAT Rs 748 crore (FY22 Rs 190 crore). Exact decimals Rs 7,002.16cr / Rs 747.93cr, highest-ever claim and final dividend Rs 6.70 not verified - BSE filing blocked 403.",
+      "detail": [
+        "GRSE is a Defence PSU under the Ministry of Defence with registered office at GRSE Bhavan, 61 Garden Reach Road, Kolkata-700024, origins 1884 as workshop and takeover by Government of India in 1960, per company press page and contact page opened.",
+        "Department of Public Enterprises accorded Navratna status on 19-06-2026 announced 20-06-2026; company reports revenue growth from Rs 1,754 crore in FY2021-22 to Rs 7,002 crore in FY2025-26 and PAT from Rs 190 crore to Rs 748 crore per press page opened.",
+        "Audited FY2025-26 rounded revenue Rs 7,002 crore and PAT Rs 748 crore per press page; exact Rs 7,002.16cr / Rs 747.93cr, highest-ever and 8 warships claims not verified - BSE filing blocked.",
+        "On 25-06-2026 GRSE announced it emerged lowest bidder for a battery-electric tug for Syama Prasad Mookerjee Port, Kolkata per press headline and dateline opened; dimensions 25m/15-tonne bollard-pull, 2-hour endurance, 9-knot, IACS class, prior electric ferry and 13 hybrid ferries not verified in excerpt opened."
+      ],
+      "caveats": "DPE Public Enterprises Survey Schedule classification not separately opened; district taken as Kolkata for Kolkata municipal address. FY2025-26 employee count not confirmed; FY2024-25 count used.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://grse.in/press-releases-2026-27-quarter1/index.php",
+          "kind": "company_site",
+          "publisher": "Garden Reach Shipbuilders & Engineers Ltd.",
+          "date": "2026-06-25",
+          "supports": "Navratna 19-06-2026, FY26 revenue/PAT growth, 8 warships, L1 electric tug 25-06-2026, HQ and history"
+        },
+        {
+          "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9d1c853d-c588-471a-aa34-4dd1930d3957.pdf",
+          "kind": "exchange_filing",
+          "publisher": "GRSE / BSE",
+          "date": "2026-04-28",
+          "supports": "Audited FY2025-26 revenue Rs 7,002.16 cr, PAT Rs 747.93 cr, final dividend Rs 6.70"
+        },
+        {
+          "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/710574cf-becf-4a91-bbc4-977b5118a245.pdf",
+          "kind": "exchange_filing",
+          "publisher": "GRSE / BSE (DPE OM PD-26/0003/2025-PD-(14508) dated 19-06-2026)",
+          "date": "2026-06-20",
+          "supports": "Navratna status grant"
+        },
+        {
+          "url": "https://grse.in/shareholding-pattern-2/Shareholding%20Pattern%20-%20Q1-%202025-26.pdf",
+          "kind": "company_site",
+          "publisher": "Garden Reach Shipbuilders & Engineers Ltd.",
+          "date": "2025-06-30",
+          "supports": "President of India 74.5%, PSU flag"
+        },
+        {
+          "url": "https://grse.in/contact-us/",
+          "kind": "company_site",
+          "publisher": "Garden Reach Shipbuilders & Engineers Ltd.",
+          "date": null,
+          "supports": "Registered office GRSE Bhavan, 61 Garden Reach Road, Kolkata-700024"
+        },
+        {
+          "url": "https://grse.in/rti/file/Proactive-Disclosure-2024-2025_6625.pdf",
+          "kind": "company_site",
+          "publisher": "Garden Reach Shipbuilders & Engineers Ltd.",
+          "date": "2025-03-19",
+          "supports": "Admin ministry Defence Production, incorporation 1934, takeover 1960"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-wb-0002",
+      "category": "state",
+      "state": "West Bengal",
+      "name": "West Bengal State Electricity Distribution Company Limited (WBSEDCL)",
+      "summary": "West Bengal State Electricity Distribution Company Limited is the state-owned power distribution utility wholly owned by the Government of West Bengal, headquartered at Vidyut Bhavan, Salt Lake, Bidhannagar. It distributes power across nearly all of West Bengal. Its most recent official development is the WBERC order dated 29 December 2025 approving FPPCA and Annual Performance Review for FY2023-24, following a multi-year tariff order of 20 March 2025.",
+      "date": "2025-12-29",
+      "district": "North 24 Parganas",
+      "headquarters": "Bidhannagar (Salt Lake), Kolkata, West Bengal",
+      "state_link": "Government of West Bengal undertaking (100% GoWB per Acuite opened); registered at Bidhannagar address as claimed but address text not verified in opened excerpts",
+      "owner": "State government (West Bengal)",
+      "shareholding": "100% held by Government of West Bengal (Acuite rating 19-03-2025 and Infomerics/CAG reports); exact equity Rs crore not extracted, left null",
+      "administrative": "Department of Power and Non-conventional Energy Sources, Government of West Bengal",
+      "legal_form": "Government company (Unlisted), CIN U40109WB2007SGC113473",
+      "established": "Incorporated 16-02-2007 under West Bengal Power Sector Reforms Transfer Scheme 2007; operations from 01-04-2007 on unbundling of West Bengal State Electricity Board",
+      "status": "Operating",
+      "financials": "FY2023-24 per Acuite 19-03-2025 opened: operating income Rs 33,276.84 crore; PAT Rs 132.31 crore; PAT margin 0.40%; tangible net worth Rs 25,722.89 crore; gearing 0.60x. FY2024-25 figures not extracted.",
+      "detail": [
+        "WBSEDCL is wholly-owned undertaking of the West Bengal government per Acuite 19-03-2025 opened, with FY2024 revenues Rs 33,276.84 crore, PAT margin 0.40%, tangible net worth Rs 25,722.89 crore and gearing 0.60x.",
+        "Same Acuite rationale gives FY2024 operating income Rs 33,276.84 crore vs FY2023 Rs 31,361.50 crore context per record; PAT Rs 132.31 crore and GoWB support noted but Rs 1,000 crore grant detail not verified in excerpt opened.",
+        "WBERC tariff grid opened lists TP-98/22-23 multi-year tariff for 2023-24, 2024-25 and 2025-26 dated 20-03-2025, and APR-131/24-25 and FPPCA-126/24-25 approval of FPPCA and APR for FY2023-24 dated 29-12-2025.",
+        "Company site opened confirms Annual Report & Accounts 25-26 listed; Annual Report & Accounts 24-25 contents and Annual Return 24-25 details not verified in excerpt opened."
+      ],
+      "caveats": "FY2024-25 audited revenue/PAT not extracted from WBSEDCL PDFs; FY2023-24 rating-based figures used. Employee count not confirmed from official source, left null. Equity capital not confirmed, left null. Headquarters district shown as North 24 Parganas (Bidhannagar/Salt Lake).",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://wbsedcl.in/irj/go/km/docs/internet/new_website/Annual_Reports.html",
+          "kind": "company_site",
+          "publisher": "WBSEDCL",
+          "date": null,
+          "supports": "Annual Report & Accounts 24-25 and 25-26 existence, C&AG comments, financial statements"
+        },
+        {
+          "url": "https://connect.acuite.in/fcompany-details/WEST_BENGAL_STATE_ELECTRICITY_DISTRIBUTION_COMPANY_LIMITED/19th_Mar_25",
+          "kind": "rating",
+          "publisher": "Acuite Ratings",
+          "date": "2025-03-19",
+          "supports": "100% GoWB owned, FY24 revenue Rs 33,276.84 cr, PAT Rs 132.31 cr, net worth, gearing"
+        },
+        {
+          "url": "https://wberc.gov.in/tariff-related-order?field_tariff_petition_matter_value=All&field_utility_value=West+Bengal+State+Electricity+Distribution+Company+Ltd.+%28WBSEDCL%29",
+          "kind": "government_order",
+          "publisher": "West Bengal Electricity Regulatory Commission",
+          "date": "2025-12-29",
+          "supports": "FPPCA/APR order 29-12-2025 and multi-year tariff order 20-03-2025"
+        },
+        {
+          "url": "https://www.pfcindia.co.in/ensite/DocumentRepository/ckfinder/files/Operations/Performance_Reports_of_State_Power_Utilities/Report%20on%20Performance%20of%20Power%20Utilities%202024-25.pdf",
+          "kind": "government_order",
+          "publisher": "Power Finance Corporation / Ministry of Power",
+          "date": null,
+          "supports": "Coverage of WBSEDCL in state utilities performance report 2024-25"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-wb-0003",
+      "category": "bank",
+      "state": "West Bengal",
+      "name": "UCO Bank",
+      "summary": "UCO Bank is one of the twelve public sector banks, a Government of India undertaking headquartered in Kolkata. Government of India held 90.95% as on 31 March 2025 per bank history page. FY2024-25 profit, dividend and 270 crore share capital plan claimed but not verified - BSE filing unreadable and transcript 404.",
+      "date": "2025-04-28",
+      "district": "Kolkata",
+      "headquarters": "Kolkata, West Bengal",
+      "state_link": "Registered and head office at Kolkata (10 BTM Sarani / 2 India Exchange Place, Kolkata-700001); founded in Kolkata in 1943; only PSB headquartered in West Bengal among the twelve",
+      "owner": "Central government (Government of India promoter, 90.95% as on 31-03-2025)",
+      "shareholding": "Government of India 90.95% as on 31-03-2025 (bank history page; down from 95.39% Dec 2024 after Rs 2,000 cr QIP); public remainder",
+      "administrative": "Ministry of Finance, Department of Financial Services (owner); regulated by Reserve Bank of India; statute: Banking Companies (Acquisition and Transfer of Undertakings) Act, 1970 / UCO name change Act 1985",
+      "legal_form": "Statutory corporation / Banking company (nationalised bank), Listed company (NSE: UCOBANK, BSE: 532505)",
+      "established": "Incorporated 6 January 1943 as United Commercial Bank Ltd., Kolkata; nationalised 19 July 1969; renamed UCO Bank in 1985 by Act of Parliament; listed 2003-04 IPO",
+      "status": "Operating",
+      "detail": [
+        "UCO Bank history page opened states born 6 Jan 1943 as United Commercial Bank Ltd with registered and head office at Kolkata, nationalised 19 July 1969, renamed UCO Bank in 1985 by Act of Parliament, and GoI shareholding 90.95% as on 31-03-2025.",
+        "Overview and corporate address pages opened place head office in Kolkata at 10 BTM Sarani / 10 B T M Sarani Kolkata-700001 West Bengal, with 43 zonal offices and 3000+ service units.",
+        "Q4FY25 profit, NIM, asset quality and NPA ratios claimed but not verified - BSE PDF unreadable encoded.",
+        "Board dividend Rs 0.39 and 270 crore share capital plan to reduce govt holding below 75% claimed but not verified - transcript 404; only Annual Report 2024-25 title listing verified."
+      ],
+      "caveats": "Employee count not taken from official audited source in pages opened, left null. Statute name stated from general nationalisation history; specific Act section not opened. Consolidated vs standalone Q4 figures differ slightly (Rs 665.72 cr consolidated vs Rs 652.43 cr standalone); both noted.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.uco.bank.in/history",
+          "kind": "company_site",
+          "publisher": "UCO Bank",
+          "date": "2026-04-21",
+          "supports": "Founded 1943 Kolkata, nationalised 1969, renamed 1985, listed, GoI 90.95% as on 31-03-2025"
+        },
+        {
+          "url": "https://www.uco.bank.in/overview",
+          "kind": "company_site",
+          "publisher": "UCO Bank",
+          "date": null,
+          "supports": "Headquartered in Kolkata, Govt of India Undertaking, branch/zonal network"
+        },
+        {
+          "url": "https://www.uco.bank.in/corporate-address",
+          "kind": "company_site",
+          "publisher": "UCO Bank",
+          "date": "2026-05-21",
+          "supports": "Head Office 10 BTM Sarani Kolkata-700001"
+        },
+        {
+          "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/e974ccec-e75c-4768-8327-a93818f65148.pdf",
+          "kind": "exchange_filing",
+          "publisher": "UCO Bank / BSE",
+          "date": "2025-04-28",
+          "supports": "FY25 operating profit Rs 6,037 cr, net profit Rs 2,445 cr, Q4 profit Rs 652-653 cr, NPA ratios"
+        },
+        {
+          "url": "https://www.uco.bank.in/documents/d/guest/transcript-q4fy25",
+          "kind": "company_site",
+          "publisher": "UCO Bank",
+          "date": "2025-04-28",
+          "supports": "FY25/Q4 profit, dividend 3.90%, 270 cr share capital plan to cut govt stake below 75%"
+        },
+        {
+          "url": "https://uco.bank.in/fy-2024-25",
+          "kind": "annual_report",
+          "publisher": "UCO Bank",
+          "date": "2025-05-22",
+          "supports": "Annual Report 2024-25 published"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-wb-0004",
+      "category": "insurer",
+      "state": "West Bengal",
+      "name": "National Insurance Company Limited (NICL)",
+      "summary": "National Insurance Company Limited is a wholly Government of India-owned public-sector general insurer headquartered in Kolkata, the only PSU general insurer headquartered in West Bengal. Incorporated in Kolkata in 1906 and nationalised under the General Insurance Business Nationalisation Act 1972, it became independent of GIC in 2002. On 17 April 2025 CRISIL reaffirmed its CCR at AA- but revised outlook to Negative on weak solvency.",
+      "date": "2025-04-17",
+      "district": "Kolkata",
+      "headquarters": "Kolkata, West Bengal",
+      "state_link": "Head office/registered office at 3 Middleton Street, Kolkata-700071; incorporated in Kolkata 1906; only public-sector general insurer with headquarters in Kolkata",
+      "owner": "Central government (100% Government of India)",
+      "shareholding": "Wholly owned by Government of India (100% per overview opened; paid-up capital history not verified in opened excerpts)",
+      "administrative": "Ministry of Finance, Department of Financial Services; registered with IRDAI (Regn No. 58) under Insurance Act 1938",
+      "legal_form": "Government company (Unlisted), Union Govt company, CIN U10200WB1906GOI001713; statutory origin General Insurance Business (Nationalisation) Act 1972, delinked 07-08-2002",
+      "established": "Incorporated 1906 in Kolkata; merged with 21 foreign and 11 Indian companies on nationalisation 1972 per DFS page opened; exact 5 Dec 1906 date and independent from 7 Aug 2002 not verified in opened excerpts",
+      "status": "Operating",
+      "financials": "FY2023-24 per CRISIL 17-04-2025 opened: gross direct premium Rs 15,180 crore; PAT loss Rs 187 crore; combined ratio 126.9%; reported net worth negative Rs 989-995 crore Mar 2024. 9MFY25 gross Rs 12,851 crore per same note; 9M PAT Rs 29cr, combined 127.5% and solvency 1.09x incl FVCA not verified in excerpt. Solvency -0.53x excl FVCA per excerpt.",
+      "detail": [
+        "DFS page opened confirms incorporated 1906 and merged along with 21 foreign and 11 Indian companies after 1972 nationalisation to form National Insurance; Swaraj, GIC subsidiary and 7 Aug 2002 delink details not verified in opened excerpts.",
+        "Overview page opened confirms wholly-owned Government of India undertaking, IRDA Registration No. 58, head office Kolkata, and only Public Sector General Insurance Company with headquarters in Kolkata.",
+        "CRISIL 17-04-2025 opened notes Crisil AA-/Negative (outlook revised from Stable, rating reaffirmed), combined ratio 126.9%, capital negative Rs 989-995 crore and solvency to negative 0.53 times excl FVCA; underwriting deficit Rs 3,686cr and 1.09x incl FVCA not verified in excerpt.",
+        "Same note gives FY24 gross direct premium Rs 15,180cr context and 9M gross Rs 12,851 crore; FY24 PAT -Rs 187cr and 9M PAT Rs 29cr vs -Rs 218cr not fully verified in excerpt opened."
+      ],
+      "caveats": "Full FY2024-25 audited premium/profit not extracted from NIC annual report; CRISIL FY24 + 9MFY25 figures used. Employee/offices count from undated company profile. Paid-up capital current figure not confirmed, left as pattern only. Solvency includes IRDAI forbearance on fair-value change balance.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://nationalinsurance.nic.co.in/en/about-us/company-profile",
+          "kind": "company_site",
+          "publisher": "National Insurance Company Ltd.",
+          "date": null,
+          "supports": "Incorporated Kolkata 1906, 1972 nationalisation merger, delinked 2002, 1730 offices 13000 employees"
+        },
+        {
+          "url": "https://nationalinsurance.nic.co.in/about-us/overview/about-company",
+          "kind": "company_site",
+          "publisher": "National Insurance Company Ltd.",
+          "date": null,
+          "supports": "Wholly-owned GoI, IRDAI Regn 58, head office Kolkata, only PSU general insurer HQ Kolkata"
+        },
+        {
+          "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/NationalInsuranceCoLimited_April%2017_%202025_RR_366754.html",
+          "kind": "rating",
+          "publisher": "CRISIL Ratings",
+          "date": "2025-04-17",
+          "supports": "AA- reaffirmed Negative outlook, FY24 premium/PAT/combined ratio, 9MFY25 PAT, solvency, net worth, govt infusions"
+        },
+        {
+          "url": "https://financialservices.gov.in/public-sector-insurers",
+          "kind": "government_order",
+          "publisher": "Dept. of Financial Services, Ministry of Finance",
+          "date": "2026-01-06",
+          "supports": "NIC as public-sector general insurer nationalised 1972"
         }
       ],
       "verification": "V2"

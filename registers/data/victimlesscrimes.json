@@ -768,6 +768,57 @@
       "verification": "V2"
     },
     {
+      "id": "vc-ct-0005",
+      "category": "tobacco",
+      "state": "Chhattisgarh",
+      "title": "High Court quashes COTPA case over hookah items stored at Raipur delivery outlet",
+      "summary": "Police in Raipur raided a Blinkit dark store in February 2025 and booked two outlet staffers under the tobacco law for storing hookah pipes and flavours. The High Court of Chhattisgarh held mere storage was not running a hookah bar and quashed the FIR, charge-sheet and trial proceedings.",
+      "date": "2026-07-23",
+      "date_label": "High Court order",
+      "incident_date": "2025-02-09",
+      "district": "Raipur",
+      "outcome": "quashed",
+      "authority": "High Court of Chhattisgarh at Bilaspur",
+      "case_reference": "CRMP No. 2885 of 2025; FIR Crime No. 41/2025, P.S. Devendra Nagar, Raipur; Criminal Case No. 13563 of 2025",
+      "laws": [
+        "Sections 4 and 21(1) of the Cigarettes and Other Tobacco Products Act, 2003"
+      ],
+      "acts": [
+        "Cigarettes and Other Tobacco Products (Prohibition of Advertisement and Regulation of Trade and Commerce, Production, Supply and Distribution) Act, 2003"
+      ],
+      "person": "two outlet staffers in Raipur",
+      "detail": [
+        "The High Court recorded that police acted on secret information and raided a Blinkit dark store at Watch Press Complex, Devendra Nagar, Raipur on 09.02.2025, where hookah pipes, papers and flavours valued at Rs 15,000 and computers and laptops valued at Rs 1,50,000 were seized.",
+        "The High Court recorded that FIR Crime No. 41/2025 was registered at Police Station Devendra Nagar on 09.02.2025 for offences under Sections 4 and 21(1) of the COTPA Act, 2003, followed by Challan No. 44/2025 and a cognizance order dated 28.03.2025 by the Judicial Magistrate First Class, Raipur.",
+        "The High Court recorded that the two petitioners were staff at the store in supervisory and delivery roles and that there was no allegation they had opened or run a hookah bar or served hookah to customers at the site.",
+        "The High Court held that the essential ingredient of opening or running a hookah bar was missing on mere possession or storage, allowed the petition under Section 528 of the Bharatiya Nagarik Suraksha Sanhita, 2023, and quashed the FIR, charge-sheet, cognizance order and all proceedings in Criminal Case No. 13563 of 2025."
+      ],
+      "current_position": "The FIR, charge-sheet, cognizance order and trial proceedings stand quashed by the High Court order dated 23.07.2026.",
+      "quote": {
+        "text": "a raid was conducted on 09.02.2025 at the Watch Press Complex, Blinkit Dark Store,",
+        "where": "CRMP No. 2885 of 2025, High Court of Chhattisgarh at Bilaspur, paragraph 4",
+        "url": "https://indiankanoon.org/doc/42168465/"
+      },
+      "caveats": "Seizure values and role descriptions are as recorded by the High Court from police papers; the court did not rule on ownership of the stock.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The prosecution allegations concerned the storage and supply of hookah-related materials at a delivery outlet; the High Court found no allegation that a hookah bar was operated or that hookah was served or consumed there."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/42168465/",
+          "kind": "judgment",
+          "publisher": "High Court of Chhattisgarh at Bilaspur via Indian Kanoon",
+          "date": "2026-07-23",
+          "supports": "FIR number, seizure details, sections charged, staff roles, quashing order and date"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "vc-gj-0001",
       "category": "sex-work",
       "state": "Gujarat",
@@ -869,6 +920,111 @@
           "publisher": "High Court of Gujarat",
           "date": "2026-09-14",
           "supports": "detention date, gaming-house-keeper definition, Gambling Act sections and police station, quashing order and date"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-gj-0005",
+      "category": "tobacco",
+      "state": "Gujarat",
+      "title": "Shopkeeper prosecuted for stocking gutka brands in Kapadvanj",
+      "summary": "The Gujarat High Court recorded that a Food Inspector filed a prosecution against a shopkeeper in Kapadvanj for dealing in gutka brands. The trial court acquitted the shopkeeper in 2012. On 3 December 2024, the High Court dismissed the State's appeal and confirmed the acquittal.",
+      "date": "2024-12-03",
+      "date_label": "High Court judgment",
+      "outcome": "acquitted",
+      "authority": "High Court of Gujarat; Food Inspector of the State of Gujarat; Additional Judicial Magistrate First Class, Kapadvanj",
+      "case_reference": "Appeal under Section 378(4) Cr.P.C. against judgment and order dated 30.11.2012 of Additional Judicial Magistrate First Class, Kapadvanj",
+      "laws": [
+        "Sections 2(1A)(A)(M)(L), 2(IS)(K), 7(1)(5) and 16(1A) of the Prevention of Food Adulteration Act",
+        "Prevention of Food Adulteration Rules"
+      ],
+      "acts": [
+        "Prevention of Food Adulteration Act"
+      ],
+      "person": "a shopkeeper in Kapadvanj",
+      "detail": [
+        "The High Court recorded that the complainant Food Inspector visited the shop of the accused at Azad Chowk, Kapadvanj while performing duties for the State of Gujarat.",
+        "The High Court recorded that the prosecution case was that the shopkeeper was dealing in tobacco articles described as Tulsi Mix Gutka, Manekchand, Mahak, Zatpat, Kuber, Vimal and similar products.",
+        "The High Court recorded that the trial court had acquitted the accused for offences under the food-adulteration provisions cited above by its judgment dated 30.11.2012.",
+        "The Gujarat High Court dismissed the State's appeal and confirmed the trial court's acquittal."
+      ],
+      "current_position": "On 3 December 2024, the Gujarat High Court dismissed the State's appeal and confirmed the trial court's acquittal.",
+      "quote": {
+        "text": "it was found that the respondent - accused was dealing in business of tobacco articles i.e. Tulsi Mix Gutka, Manekchand, Mahak, Zatpat, Kuber, Vimal etc.",
+        "where": "Gujarat High Court judgment, para 2.1",
+        "url": "https://supremetoday.ai/doc/judgement/01300040210"
+      },
+      "caveats": "Only an excerpt of the judgment was accessible; the complete final order and the exact sample-collection date were not verified. District is left null because the excerpt names Kapadvanj town but not the district.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The case concerned a prosecution over gutka under food-adulteration provisions. The Gujarat High Court dismissed the State's appeal and confirmed the trial court's acquittal."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://supremetoday.ai/doc/judgement/01300040210",
+          "kind": "judgment",
+          "publisher": "High Court of Gujarat (text as mirrored by SupremeToday AI)",
+          "date": "2024-12-03",
+          "supports": "prosecution for gutka sale, trial acquittal dated 30.11.2012, State appeal, and quoted finding"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-jh-0005",
+      "category": "tobacco",
+      "state": "Jharkhand",
+      "title": "Anticipatory bail refused in Deoghar tobacco pan-masala and cigarette storage case",
+      "summary": "Police booked a trader in Deoghar for storing banned tobacco pan-masala and cigarette cartons without a GST bill. The High Court recorded the COTPA charge and the state ban. The court dismissed the anticipatory bail plea.",
+      "date": "2026-07-24",
+      "date_label": "High Court order",
+      "district": "Deoghar",
+      "outcome": "bail_refused",
+      "authority": "Jharkhand High Court at Ranchi (Justice Sanjay Kumar Dwivedi)",
+      "case_reference": "A.B.A. No. 4074 of 2026; Deoghar Town P.S. Case No. 122 of 2022",
+      "laws": [
+        "Sections 188, 269, 270 and 420 of the Indian Penal Code",
+        "Section 20(1) COTPA Act",
+        "Section 3 of Epidemic Diseases Act"
+      ],
+      "acts": [
+        "Indian Penal Code",
+        "Cigarettes and Other Tobacco Products Act, 2003",
+        "Epidemic Diseases Act, 1897"
+      ],
+      "person": "a trader in Deoghar",
+      "detail": [
+        "The High Court recorded that the underlying matter is Deoghar Town P.S. Case No. 122 of 2022, pending before the Chief Judicial Magistrate, Deoghar.",
+        "Police alleged that five gunny bags of tobacco pan-masala and cigarette cartons without a GST bill were found stored in a house said to belong to the petitioner.",
+        "The High Court recorded that tobacco pan-masala has already been banned by the Government of Jharkhand.",
+        "The High Court recorded that an earlier anticipatory bail plea (A.B.A. No. 7468 of 2022) was dismissed for default and another (A.B.A. No. 1628 of 2026) was dismissed as withdrawn with liberty to move the trial court, and that a notice under Section 35(3) of the Bharatiya Nagarik Suraksha Sanhita, 2023 had been issued.",
+        "The High Court held that no fresh ground was made out and dismissed the anticipatory bail petition."
+      ],
+      "current_position": "Anticipatory bail stands dismissed and the trial-court prosecution remains pending.",
+      "quote": {
+        "text": "There is direct allegation against this petitioner of keeping five gunny bags of tobacco pan masala and some cigarettes cartels without GST bill",
+        "where": "Jharkhand High Court, A.B.A. No. 4074 of 2026, order dated 24 July 2026",
+        "url": "https://order.law/api/pdf/JHHC010219962026?filename=JHHC010219962026_1_2026-07-24"
+      },
+      "caveats": "Exact seizure date in 2022 could not be confirmed from the order excerpt; only the 2022 police case number is confirmed. Sections 188, 269, 270, 420 and Epidemic Diseases Act were also charged for the same storage, but no individual cheated person or victim of violence is named; the tobacco allegation itself has no complaining victim.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The alleged act is storing and selling tobacco products banned by the state; no individual complaining victim, violence, or minors were alleged for the tobacco charge itself."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://order.law/library/courts/jharkhand-high-court/2026/jul/JHHC010219962026/uttam-kumar-barnwal-uttam-kumar-barnweal-vs-the-state-of-jharkhand",
+          "kind": "judgment",
+          "publisher": "Jharkhand High Court via order.law",
+          "date": "2026-07-24",
+          "supports": "case numbers, sections, tobacco allegation, state ban, dismissal of anticipatory bail"
         }
       ],
       "verification": "V2"
@@ -1840,6 +1996,67 @@
       "verification": "V2"
     },
     {
+      "id": "vc-od-0005",
+      "category": "tobacco",
+      "state": "Odisha",
+      "title": "Orissa High Court upholds statewide ban on sale of chewing tobacco",
+      "summary": "The Odisha health department barred making, storing, moving and selling food containing tobacco or nicotine, including chewing tobacco. A Cuttack-based chewing-tobacco maker challenged the ban. The High Court dismissed the writ petitions on 21 August 2026 and upheld the ban.",
+      "date": "2026-08-21",
+      "date_label": "High Court judgment",
+      "incident_date": "2026-01-21",
+      "district": "Cuttack",
+      "outcome": "penalty",
+      "authority": "High Court of Orissa at Cuttack (Dr. Justice Sanjeeb K. Panigrahi)",
+      "case_reference": "W.P.(C) Nos. 6107, 8849, 11468, 11505 & 11510 of 2026",
+      "laws": [
+        "Section 30(2)(d) of the Food Safety and Standards Act, 2006",
+        "Regulation 2.3.4 of the Food Safety and Standards (Prohibition and Restrictions on Sales) Regulations, 2011",
+        "Cigarettes and Other Tobacco Products (Prohibition of Advertisement and Regulation of Trade and Commerce, Production, Supply and Distribution) Act, 2003 (discussed)"
+      ],
+      "acts": [
+        "Food Safety and Standards Act, 2006",
+        "Cigarettes and Other Tobacco Products (Prohibition of Advertisement and Regulation of Trade and Commerce, Production, Supply and Distribution) Act, 2003"
+      ],
+      "person": "a chewing-tobacco manufacturing company in Cuttack selling under a branded mark",
+      "detail": [
+        "The High Court recorded that the State issued Notification No.2065/H&F.W. dated 21.01.2026 covering manufacture, packing, storage, transport, distribution and sale of food containing tobacco or nicotine, including scented chewables sold as gutkha or pan masala.",
+        "The High Court recorded that the petitioner firm limited its challenge to chewing tobacco, with or without additives, flavours and scents, and that an interim order dated 9 March 2026 had directed that no punitive, penal or criminal action be taken against it till the next date.",
+        "The High Court recorded that a clarification dated 29.01.2026 kept tobacco-free pan masala outside the ban, and that GST authorities issued a letter dated 30.01.2026 and show-cause notices dated 05.02.2026 about registration review.",
+        "The High Court held that tobacco in food is barred by Regulation 2.3.4, that the notification was enforcement under Section 30(2)(d) of the 2006 Act, and that the writ petitions stood dismissed with interim protection vacated."
+      ],
+      "current_position": "The writ petitions stand dismissed and the 21 January 2026 prohibition as enforcement of Regulation 2.3.4 remains in force, with separate GST cases to be decided under their own law.",
+      "quote": {
+        "text": "Regulation 2.3.4 provides that tobacco and nicotine shall not be used as ingredients in any food products.",
+        "where": "[name withheld] vs State Of Odisha, judgment dated 21.08.2026, reasoning paragraph as printed on Indian Kanoon",
+        "url": "https://indiankanoon.org/doc/77617940/"
+      },
+      "caveats": "District is given as Cuttack as the seat of the deciding court and the petitioner's base; the notification applies statewide. No separate printed sentence of fine or imprisonment was imposed in this writ decision.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Making and selling chewing tobacco to willing adult buyers harmed no complaining victim; the State punished the act through a sales ban backed by penal consequences."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/77617940/",
+          "kind": "judgment",
+          "publisher": "High Court of Orissa at Cuttack via Indian Kanoon",
+          "date": "2026-08-21",
+          "supports": "notification number and date, ban scope, dismissal of writs, Regulation 2.3.4 holding"
+        },
+        {
+          "url": "https://indiankanoon.org/doc/182662458/",
+          "kind": "court_order",
+          "publisher": "High Court of Orissa at Cuttack via Indian Kanoon",
+          "date": "2026-03-09",
+          "supports": "lead case number W.P.(C) No.6107 of 2026, notification challenged, interim protection against penal action"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "vc-rj-0001",
       "category": "sex-work",
       "state": "Rajasthan",
@@ -2769,6 +2986,109 @@
           "publisher": "Live Law",
           "date": "2024-05-31",
           "supports": "summary that no woman was examined and proceedings were quashed"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-wb-0001",
+      "category": "sex-work",
+      "state": "West Bengal",
+      "title": "High Court quashes ITPA case against alleged customer in Siliguri prostitution case",
+      "summary": "A petitioner charged under Sections 3, 4, 5, 6 and 7 of the Immoral Traffic (Prevention) Act sought to quash proceedings in a case pending in Siliguri. The High Court held that an alleged customer did not fall within the penal provisions charged and quashed the case against him.",
+      "date": "2025-12-22",
+      "date_label": "High Court order",
+      "district": "Darjeeling",
+      "outcome": "quashed",
+      "authority": "High Court at Calcutta, Circuit Bench at Jalpaiguri (Justice Rai Chattopadhyay)",
+      "case_reference": "CRR 407 of 2025; Sessions Case No. 89 (06) of 2022; GR Case No. 280 of 2020",
+      "laws": [
+        "Sections 3, 4, 5, 6 and 7 of the Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "acts": [
+        "Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "person": "an alleged customer in a brothel-raid case in Siliguri",
+      "detail": [
+        "The High Court recorded that the petitioner had been charged under Sections 3, 4, 5, 6 and 7 of the Immoral Traffic (Prevention) Act, 1956 and sought quashing of Sessions Case No. 89 (06) of 2022 pending before the Additional District and Sessions Judge, 1st Court at Siliguri, Darjeeling.",
+        "The petitioner's counsel submitted that he was allegedly only the customer in the prostitution carried on at the instance of other co-accused, and that there was no material that he controlled the place or lived on earnings of prostitution.",
+        "The State opposed the prayer and submitted that a customer also falls within Section 7 of the Act as a person with whom prostitution is carried on.",
+        "The High Court recorded that a co-ordinate Bench in Suresh Babu had held an alleged customer cannot be treated as subject to the penal provisions under the Act, and that its own reading of Sections 3, 4, 5, 6 and 7 substantiated the petitioner's submission.",
+        "The High Court allowed the revision and quashed the criminal case concerning the present petitioner."
+      ],
+      "current_position": "The prosecution against the alleged customer stands quashed by the High Court order dated 22 December 2025.",
+      "quote": {
+        "text": "The petitioner who has been charged with offences under Sections 3, 4, 5, 6 and 7 of the Immoral Traffic (Prevention) Act, 1956 has come up before this Court in the instant case seeking quashing of the criminal proceedings against him being Sessions Case No. 89 (06) of 2022 corresponding to GR Case No. 280 of 2020, now pending in the Court of learned Additional District and Sessions Judge, 1st Court at Siliguri, Darjeeling.",
+        "where": "Calcutta High Court, CRR 407 of 2025, para 1",
+        "url": "https://indiankanoon.org/doc/180530644/"
+      },
+      "caveats": "Incident date not stated in the order beyond GR Case No. 280 of 2020; no allegation of force, minor or complaining victim appears in the order.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The record concerns prosecution under the Immoral Traffic (Prevention) Act of a person alleged to be a customer; the High Court quashed the case, finding that the alleged customer did not fall within the provisions charged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/180530644/",
+          "kind": "judgment",
+          "publisher": "High Court at Calcutta, Circuit Bench at Jalpaiguri via Indian Kanoon",
+          "date": "2025-12-22",
+          "supports": "charges, customer claim, court reasoning and quashing order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-wb-0007",
+      "category": "other",
+      "state": "West Bengal",
+      "title": "Supreme Court quashed obscenity proceedings over nude sports photograph published in a Kolkata newspaper",
+      "summary": "A private complainant initiated proceedings after an Indian sports magazine and a Kolkata newspaper published a nude photograph of an international tennis player and his fiancée. An Alipore magistrate found a prima facie case under Section 292 IPC and subsequently ordered the accused to face trial under that provision or, alternatively, Section 4 of the Indecent Representation of Women (Prohibition) Act, 1986. The Supreme Court set aside the criminal proceedings after finding that the photograph and article were not obscene when viewed in context under the contemporary community-standards test.",
+      "date": "2014-02-03",
+      "date_label": "Supreme Court judgment",
+      "district": "Kolkata",
+      "outcome": "quashed",
+      "authority": "Supreme Court of India (prosecution by State of West Bengal)",
+      "case_reference": "Supreme Court Criminal Appeal No. 902 of 2004, arising from Criminal Revision No. 1591 of 1994 before the Calcutta High Court",
+      "laws": [
+        "Section 292, Indian Penal Code, 1860",
+        "Section 4, Indecent Representation of Women (Prohibition) Act, 1986"
+      ],
+      "acts": [
+        "Indian Penal Code, 1860",
+        "Indecent Representation of Women (Prohibition) Act, 1986"
+      ],
+      "person": "newspaper and sports-magazine personnel prosecuted over publication of the photograph and accompanying article",
+      "detail": [
+        "The Supreme Court recorded that Sports World reproduced the article and photograph as its cover story on 05.05.1993 and that Anandabazar Patrika, a newspaper widely circulated in Kolkata, published them on 06.05.1993.",
+        "The Court recorded the magistrate's finding that 'a prima facie case is made out against the accused persons under Section 292 IPC.'",
+        "The Court applied the contemporary community-standards test and found that the photograph and article, viewed in the context of their anti-racism message, were not objectionable under Section 292 IPC or Section 4 of the Indecent Representation of Women (Prohibition) Act, 1986.",
+        "The Court concluded: 'We are, therefore, inclined to allow this appeal and set aside the criminal proceedings initiated against the Appellants.'"
+      ],
+      "current_position": "Criminal proceedings were finally set aside by the Supreme Court.",
+      "quote": {
+        "text": "We are, therefore, inclined to allow this appeal and set aside the criminal proceedings initiated against the Appellants.",
+        "where": "Supreme Court Criminal Appeal No. 902 of 2004, judgment dated 3 February 2014, paragraph 32",
+        "url": "https://indiankanoon.org/doc/195958005/"
+      },
+      "caveats": "No qualifying 2024-2026 West Bengal obscenity, begging, suicide or consensual-conduct prosecution with an official record was found; this landmark acquittal is older (2014) but is the most recent qualifying case located. Exact publication/incident date not extracted from the excerpt.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Publishing a consensual adult sports photograph harmed no one; there was no complaining victim, no minor and no coercion, only the state punishing alleged obscenity."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/195958005/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon (Supreme Court of India, 3 February 2014)",
+          "date": "2014-02-03",
+          "supports": "Charge under Section 292 IPC, Kolkata publication, and quashing of proceedings"
         }
       ],
       "verification": "V2"

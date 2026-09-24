@@ -173,6 +173,156 @@
       "verification": "V2"
     },
     {
+      "id": "cl-ar-0001",
+      "category": "speech",
+      "state": "Arunachal Pradesh",
+      "title": "Court acquits journalist prosecuted for criminal defamation over a 2019 investigative report",
+      "summary": "A senior journalist working for a digital news portal was prosecuted in a criminal defamation case over a November 2019 investigative report on land dealings near the China border. The complaint was filed by a former advisor to the chief minister. On 25 June 2025 the Court of the Judicial Magistrate First Class, Namsai, dismissed the complaint for non-prosecution and acquitted the journalist.",
+      "date": "2025-06-25",
+      "date_label": "Namsai court order (dismissal and acquittal)",
+      "incident_date": "2019-11-29",
+      "district": "Namsai",
+      "outcome": "acquitted",
+      "authority": "Court of the Judicial Magistrate First Class, Namsai, Arunachal Pradesh",
+      "laws": [
+        "Sections 500 and 501, Indian Penal Code, 1860",
+        "Section 256, Code of Criminal Procedure, 1973"
+      ],
+      "acts": [
+        "Indian Penal Code, 1860",
+        "Code of Criminal Procedure, 1973"
+      ],
+      "person": "a senior journalist who served as EastMojo's chief correspondent in Arunachal Pradesh",
+      "detail": [
+        "The Arunachal Observer reported that a senior journalist was proceeded against under Sections 500 and 501 of the Indian Penal Code over a November 2019 investigative article published by the digital news portal EastMojo, titled \"Arunachal: Land Mafia near China border risking national security?\", which dealt with alleged irregularities in land dealings.",
+        "The Arunachal Observer recorded that the complaint was filed by a former advisor to the chief minister. EastMojo reported that after the article the journalist received telephonic threats and that the state's press bodies condemned the intimidation as an attack on journalistic freedom.",
+        "The Arunachal Observer recorded that the case came before the Judicial Magistrate First Class, Namsai. The Sentinel reported: \"Judicial Magistrate First Class [name withheld], while passing the order on June 25, cited Section 256 of the CrPC, which empowers courts to dismiss cases for non-prosecution.\"",
+        "The same report noted that the complainant and his counsel were absent despite a final opportunity granted on payment of Rs 2,000 in costs. EastMojo reported that the journalist said a bailable arrest warrant had been issued against her during the case and that she had travelled repeatedly from Itanagar to Namsai for hearings."
+      ],
+      "current_position": "The complaint was dismissed for non-prosecution and the journalist stands cleared of the allegations; the case is closed.",
+      "quote": {
+        "text": "Judicial Magistrate First Class [name withheld], while passing the order on June 25, cited Section 256 of the CrPC, which empowers courts to dismiss cases for non-prosecution.",
+        "where": "The Sentinel, \"Arunachal journalist Irani Lepcha acquitted in defamation case\", 28 June 2025",
+        "url": "https://www.sentinelassam.com/north-east-india-news/arunachal-news/arunachal-journalist-irani-lepcha-acquitted-in-defamation-case"
+      },
+      "caveats": "The prosecution was initiated by a private complainant (a former advisor to the chief minister), not by the police, so the state's role is that of the court that took cognisance of the complaint and later acquitted; no FIR or case number could be found. The court order itself could not be opened — Indian Kanoon returned repeated HTTP 504 errors on every search attempt — and the account rests on reporting by several state and regional outlets. The dismissal was for non-prosecution (the complainant's repeated absence), not a verdict on the merits.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "The journalist was made to answer a criminal defamation prosecution in a state court for a news report, which is an exercise of the freedom of speech and of the press, and the case alleged no violence, fraud or coercion of any victim of the kind the register excludes."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arunachalobserver.org/2025/06/28/apuwj-hails-press-freedom-court-acquits-scribe-in-defamation-case/",
+          "kind": "news",
+          "publisher": "Arunachal Observer",
+          "date": "2025-06-28",
+          "supports": "order of 25 June 2025, offences under IPC ss.500 and 501, dismissal under CrPC s.256, Rs 2,000 costs, acquittal"
+        },
+        {
+          "url": "https://www.eastmojo.com/arunachal-pradesh/2025/06/27/arunachal-journalist-irani-lepcha-acquitted-in-defamation-case/",
+          "kind": "news",
+          "publisher": "EastMojo",
+          "date": "2025-06-27",
+          "supports": "acquittal, role of the private complainant, bailable arrest warrant, repeated hearings, 2019 article"
+        },
+        {
+          "url": "https://www.sentinelassam.com/north-east-india-news/arunachal-news/arunachal-journalist-irani-lepcha-acquitted-in-defamation-case",
+          "kind": "news",
+          "publisher": "The Sentinel (Assam)",
+          "date": null,
+          "supports": "acquittal and press-freedom framing"
+        },
+        {
+          "url": "https://archive.arunachaltimes.in/index.php/2025/06/28/court-acquits-journalist-in-defamation-case-apuwj-hails-press-freedom-win/",
+          "kind": "news",
+          "publisher": "The Arunachal Times",
+          "date": "2025-06-28",
+          "supports": "acquittal and journalists' union response"
+        }
+      ],
+      "verification": "V1"
+    },
+    {
+      "id": "cl-br-0002",
+      "category": "religion",
+      "state": "Bihar",
+      "title": "Nineteen held in Kaimur for distributing religious literature in government schools",
+      "summary": "Kaimur police arrested 19 members of a Christian group for distributing Bibles and pamphlets among pupils in two government schools without headmaster permission. Police said Bibles, photos, pamphlets, vehicles and a bike were seized and the group was remanded in judicial custody. The accused later said they entered on a principal's invitation and were granted bail.",
+      "date": "2024-09-28",
+      "date_label": "Arrest and remand reported",
+      "incident_date": "2024-09-27",
+      "district": "Kaimur",
+      "outcome": "arrest",
+      "authority": "Bhagwanpur Police, Kaimur Police; CJM Court, Bhabua",
+      "case_reference": "FIR on complaint of headmaster of school in Nibiya village as printed, number not printed",
+      "laws": [
+        "trespassing as printed, section numbers not printed",
+        "obstructing government work as printed, section numbers not printed",
+        "propagating religion in an illegal manner as printed, provision not specified"
+      ],
+      "acts": [
+        "trespassing as printed, section numbers not printed",
+        "obstructing government work as printed, section numbers not printed",
+        "propagating religion in an illegal manner as printed, provision not specified"
+      ],
+      "person": "19 members of a Christian group, mostly visitors from Telangana, in Kaimur district",
+      "detail": [
+        "The Times of India recorded that 19 members of the Christian community, including 11 women, were arrested in Kaimur district for distributing religious literature among students of two government-run schools without permission from the headmasters.",
+        "Police said most of the arrested persons were from Telangana, and that three four-wheelers, a bike and religious literature including Bibles, photos and pamphlets were seized from them.",
+        "Police said the arrests followed a complaint by the headmaster of a school in Nibiya village, and that the arrested persons were produced before a CJM court in Bhabua and remanded in judicial custody.",
+        "Crux, citing the Times of India, recorded that the group was charged with trespassing, obstructing government work and propagating religion in an illegal manner, and was granted bail after the charges.",
+        "The accused told the press that they were on a tour via Varanasi, were distributing books on the road, were invited by a man who said he was a school principal, and that only two of them entered the school on that invitation."
+      ],
+      "current_position": "Arrested and remanded, then granted bail after moving bail petitions.",
+      "quote": {
+        "text": "As many as 19 members of the Christian community, including 11 women, have been arrested in Bihar's Kaimur district for distributing religious literature among students of two government-run schools without taking permission from the headmasters concerned.",
+        "where": "Times of India report dated 2024-09-28, opening paragraph",
+        "url": "https://timesofindia.indiatimes.com/city/patna/19-held-for-school-religious-drive/articleshow/113751240.cms"
+      },
+      "caveats": "FIR number and exact penal sections were not printed; counts vary as 18 or 19 across outlets; whether any principal gave permission remains disputed; later trial status could not be confirmed; no official police press release page was opened.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "The state arrested people for preaching and sharing religious books, with no allegation of force, fraud, allurement with a victim, or violence printed in the arrest reports."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://timesofindia.indiatimes.com/city/patna/19-held-for-school-religious-drive/articleshow/113751240.cms",
+          "kind": "news",
+          "publisher": "The Times of India",
+          "date": "2024-09-28",
+          "supports": "19 arrests, literature and vehicles seized, headmaster complaint, CJM remand and charges as described"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/city/hyderabad/christian-community-arrested-in-bihar-school-for-distributing-religious-literature/articleshow/113773215.cms",
+          "kind": "news",
+          "publisher": "The Times of India",
+          "date": "2024-09-29",
+          "supports": "arrest by Bhagwanpur police, production before magistrate, bail, and accused claim of principal invitation"
+        },
+        {
+          "url": "https://cruxnow.com/church-in-asia/2024/09/christians-arrested-for-distributing-religious-literature-in-north-india",
+          "kind": "news",
+          "publisher": "Crux",
+          "date": "2024-09-30",
+          "supports": "date of arrests as September 26, charges listed, seizure, bail, and invitation defence"
+        },
+        {
+          "url": "https://www.etvbharat.com/hi/!state/18-people-including-woman-arrested-in-kaimur-for-distributing-religious-books-in-schools-bihar-news-brs24092802399",
+          "kind": "news",
+          "publisher": "ETV Bharat",
+          "date": "2024-09-28",
+          "supports": "two schools in Bhagwanpur block, detention, FIR, seizure of vehicles and literature, police statements"
+        }
+      ],
+      "verification": "V1"
+    },
+    {
       "id": "cl-gj-0001",
       "category": "speech",
       "state": "Gujarat",
@@ -235,6 +385,64 @@
         }
       ],
       "verification": "V2"
+    },
+    {
+      "id": "cl-hr-0001",
+      "category": "speech",
+      "state": "Haryana",
+      "title": "Truck driver jailed over misleading Instagram post about an alleged Faridabad lynching",
+      "summary": "Faridabad Cyber Police arrested a truck driver after he reposted an old video with a false claim that a communal lynching had occurred in Faridabad. Two news outlets reported that a court then sent him to judicial custody.",
+      "date": "2026-04-27",
+      "date_label": "Arrest and court remand",
+      "incident_date": "2026-04-10",
+      "district": "Faridabad",
+      "outcome": "prosecution_pending",
+      "authority": "Faridabad Cyber Police, Cyber Central Police Station and a Faridabad court",
+      "laws": [
+        "Sections 299 and 356(2) of the Bharatiya Nyaya Sanhita, 2023, among others"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "a truck driver originally from Farrukhabad and staying in Palghar",
+      "detail": [
+        "The Times of India reported that Faridabad's cyber unit detected the Instagram post during routine monitoring on 10 April 2026. It showed a person being beaten and falsely described the incident as a communal lynching in Faridabad.",
+        "The Times of India reported that Cyber Central Police Station registered a case under Sections 299 and 356(2) of the BNS, among other provisions, based on a complaint from the cyber cell.",
+        "Police told The Times of India that the driver was traced to Maharashtra and apprehended there on 27 April. Faridabad police said he had tagged several accounts to increase the post's reach.",
+        "Amar Ujala independently reported that police arrested the driver in Palghar and produced him before a court, which sent him to judicial custody.",
+        "The reports attribute to police an alleged admission that the video was from somewhere else and had been misrepresented. No judicial finding on that allegation was reported."
+      ],
+      "current_position": "The driver was in judicial custody and the prosecution remained pending as of the latest opened reports.",
+      "quote": {
+        "text": "The accused tagged several individuals and accounts to amplify the post’s visibility.",
+        "where": "Times of India report quoting Faridabad police spokesperson [name withheld]",
+        "url": "https://timesofindia.indiatimes.com/city/gurgaon/false-insta-post-on-lynching-in-fbd-leads-to-arrest/articleshow/130617059.cms"
+      },
+      "caveats": "No FIR, remand order or police press release was located. The speech exception therefore relies on two independent news reports. The reports do not print the FIR number, all charged provisions, the remanding court's name or the length of custody.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "The state arrested and prosecuted him for an Instagram post. The reports identify no complainant harmed by the post, no threat against a particular person and no allegation that he participated in the violence shown in the reused video."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://timesofindia.indiatimes.com/city/gurgaon/false-insta-post-on-lynching-in-fbd-leads-to-arrest/articleshow/130617059.cms",
+          "kind": "news",
+          "publisher": "The Times of India",
+          "date": "2026-04-30",
+          "supports": "Post, police monitoring, arrest, BNS sections, judicial custody and police statements"
+        },
+        {
+          "url": "https://www.amarujala.com/amp/delhi-ncr/faridabad/youth-arrested-for-inciting-religious-sentiments-on-social-media-faridabad-news-c-26-1-fbd1021-68748-2026-04-30",
+          "kind": "news",
+          "publisher": "Amar Ujala",
+          "date": "2026-04-30",
+          "supports": "Independent confirmation of the post, Palghar arrest, court production and judicial custody"
+        }
+      ],
+      "verification": "V1"
     },
     {
       "id": "cl-ka-0001",

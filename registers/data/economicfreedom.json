@@ -1710,6 +1710,69 @@
       "verification": "V2"
     },
     {
+      "id": "ef-mp-0003",
+      "category": "gold",
+      "state": "Madhya Pradesh",
+      "title": "Three gold bars seized in Indore car confiscated with penalty",
+      "summary": "DRI officers stopped a car at a toll plaza in Indore and seized three gold bars of about 3 kg said to be of foreign origin. The adjudicating authority ordered absolute confiscation and a Rs 6 lakh penalty. CESTAT upheld that order in May 2026 and the High Court later admitted a challenge.",
+      "date": "2026-05-19",
+      "date_label": "CESTAT final order",
+      "incident_date": "2023-09-08",
+      "district": "Indore",
+      "outcome": "confiscation",
+      "authority": "Customs, Excise and Service Tax Appellate Tribunal, New Delhi; DRI Indore",
+      "case_reference": "CESTAT Final Order Nos. 50970-50975/2026 dated 19-05-2026; subsequent Section 130 appeal admitted by the Madhya Pradesh High Court at Indore",
+      "laws": [
+        "Section 108 of the Customs Act, 1962",
+        "Section 111 of the Customs Act, 1962",
+        "Section 112(b)(i) of the Customs Act, 1962",
+        "Section 138B of the Customs Act, 1962",
+        "Section 130 of the Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "two car occupants intercepted near Indore and a trader appellant dealing in gold",
+      "penalty": "Absolute confiscation of three gold bars weighing about 3 kg and a penalty of Rs 6 lakh under Section 112(b)(i), upheld by Commissioner (Appeals) and CESTAT",
+      "detail": [
+        "The Tribunal record states that on specific intelligence, DRI Indore officers intercepted a car at Sonway Toll Plaza, Indore, and found three yellow-metal bars wrapped in newspaper concealed in cavities beneath the rear seat.",
+        "Juris Hour, reporting the High Court appeal, states the Department treated the bars as foreign-origin smuggled gold, and that a Rs 6 lakh penalty under Section 112(b)(i) was imposed and upheld by the Commissioner (Appeals) and by CESTAT in its 19 May 2026 final order.",
+        "The High Court Bench at Indore admitted the Section 130 appeal and framed eight substantial questions, including whether confiscation and penalty could rest on a retracted Section 108 statement without Section 138B compliance and on an assayer's opinion on foreign origin.",
+        "The High Court issued notice, granted time for reply and directed no coercive action against the appellant pending hearing."
+      ],
+      "current_position": "Confiscation and penalty stand as upheld by CESTAT; the High Court has admitted the appeal, framed questions of law and ordered no coercive action meanwhile.",
+      "quote": {
+        "text": "This order disposes of 6 appeals arising out of the same investigation all the appellants being co-noticees to the show cause notice.",
+        "where": "CESTAT Final Order Nos. 50970-50975/2026 dated 19-05-2026, opening paragraph as indexed",
+        "url": "https://supremetoday.ai/doc/judgement/INDCESTAT00000026323"
+      },
+      "caveats": "The full CESTAT order text was not openly accessible beyond the indexed header and facts; penalty and confiscation details are corroborated by the High Court appeal report. District is Indore based on the toll-plaza interception.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The case concerned alleged customs violations involving the possession, transport and asserted foreign origin of gold."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://supremetoday.ai/doc/judgement/INDCESTAT00000026323",
+          "kind": "judgment",
+          "publisher": "SupremeToday index of CESTAT",
+          "date": "2026-05-19",
+          "supports": "CESTAT coram, hearing and decision dates, final order number, DRI Indore interception at Sonway Toll Plaza and 3 concealed bars"
+        },
+        {
+          "url": "https://www.jurishour.in/indirect-taxes/legality-gold-confiscation-retracted-statement-questioned/",
+          "kind": "news",
+          "publisher": "Juris Hour",
+          "date": "2026-08-12",
+          "supports": "3 kg seizure at Sonway Toll Plaza Indore on 8 September 2023, Rs 6 lakh penalty under Section 112(b)(i), CESTAT order 19 May 2026, High Court admission and eight questions, no coercive action"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "ef-mp-0004",
       "category": "trade",
       "state": "Madhya Pradesh",
@@ -3159,6 +3222,62 @@
           "publisher": "LawBeat",
           "date": "2025-12-29",
           "supports": "SDM order date, demolition date, sale-deed and decree history, Sections 38 and 67 findings, Article 300A holding, Rs 20 lakh costs and restoration directions"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-wb-0003",
+      "category": "gold",
+      "state": "West Bengal",
+      "title": "CESTAT upholds confiscation of 6 kg gold recovered from carriers after a Kolkata hotel stop",
+      "summary": "DRI officers went to Hotel Samrat in Kolkata on 12 June 2019. A search of Room 10 found no incriminating material; officers then took four carriers to the DRI office, where personal and baggage searches recovered six 1 kg gold bars worth Rs 2,01,60,000. On 21 August 2026, CESTAT Kolkata affirmed absolute confiscation and the Rs 25,000 penalty on each of four appellants, while reducing the fifth appellant's penalty from Rs 2,25,000 to Rs 1,00,000.",
+      "date": "2026-08-21",
+      "date_label": "CESTAT final order",
+      "incident_date": "2019-06-12",
+      "district": "Kolkata",
+      "outcome": "confiscation",
+      "authority": "Customs, Excise and Service Tax Appellate Tribunal, Eastern Zonal Bench, Kolkata",
+      "case_reference": "Customs Appeal Nos. 75587–75591 of 2023, Final Order Nos. 76121–76125/2026",
+      "laws": [
+        "Section 110 of the Customs Act, 1962",
+        "Section 111 of the Customs Act, 1962",
+        "Section 112 of the Customs Act, 1962",
+        "Section 123 of the Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "carriers whose persons and baggage were searched at a Kolkata DRI office",
+      "penalty": "Absolute confiscation of 6000 grams of gold affirmed; penalty of Rs 1,00,000 on one appellant and Rs 25,000 each on four others",
+      "detail": [
+        "The Tribunal recorded that DRI officers reached Hotel Samrat, 144 M.G. Road, Kolkata, on 12 June 2019. A search of Room 10 found no incriminating material; officers then took appellants 2 to 5 to the DRI office, where searches of their persons and baggage recovered the gold bars.",
+        "The Tribunal recorded recovery of six yellow metal bars of about one kilogram each, totalling 6000 grams and valued at Rs 2,01,60,000 at Rs 3,360 per gram.",
+        "The Tribunal recorded that none of the apprehended persons could produce any licit document for possession or transport of the gold at the time of seizure.",
+        "The Tribunal affirmed absolute confiscation of the gold and maintained penalties of Rs 25,000 each on four carriers while reducing the main penalty from Rs 2,25,000 to Rs 1,00,000.",
+        "The appeals addressed whether the gold was smuggled and whether the documents and statements supported confiscation and penalties; the Tribunal affirmed confiscation."
+      ],
+      "current_position": "Confiscation stands affirmed as of 21 August 2026 with reduced penalty for one appellant.",
+      "quote": {
+        "text": "During such search, six yellow-coloured metallic bars, each weighing approximately one kilogram, were recovered.",
+        "where": "CESTAT Kolkata, Final Order Nos. 76121–76125/2026 dated 21.08.2026",
+        "url": "https://indiankanoon.org/doc/133687874/"
+      },
+      "caveats": "Smuggling origin beyond lack of documents was not detailed in the excerpt; full adjudication order was not opened.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "This customs case concerned carriage of gold treated by the authorities as smuggled. The Tribunal affirmed confiscation and penalties, reducing one penalty."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/133687874/",
+          "kind": "judgment",
+          "publisher": "CESTAT Eastern Zonal Bench, Kolkata via Indian Kanoon",
+          "date": "2026-08-21",
+          "supports": "hotel search facts, weight and value, lack of documents, confiscation affirmed and penalties"
         }
       ],
       "verification": "V2"
