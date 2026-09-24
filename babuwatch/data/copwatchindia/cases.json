@@ -212106,5 +212106,2352 @@
   "merged_case_id": "GAP3-36-001",
   "officers_named_public": 0,
   "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0059",
+  "status": "current",
+  "merged_id": "CWC-1320",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] and Others vs The State of Madhya Pradesh and Others",
+  "display_title_redacted": "[name withheld] and Others vs The State of Madhya Pradesh and Others",
+  "state": "Madhya Pradesh",
+  "district": "Indore",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Police Station MIG, Indore; CID Headquarters, Bhopal",
+  "court": "High Court of Madhya Pradesh, Indore Bench",
+  "court_as_verified": "High Court of Madhya Pradesh, Indore Bench",
+  "bench": null,
+  "case_title": "[name withheld] and Others vs The State of Madhya Pradesh and Others",
+  "case_number": "CRR No. 258 of 2026",
+  "citation": "2026:MPHC-IND:15546",
+  "judges": [
+   "Gajendra Singh"
+  ],
+  "judgment_date": "2026-06-16",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2015-12-19",
+  "incident_year": 2015,
+  "category": "Custodial death",
+  "admin_category": "brutality",
+  "admin_subcategory": "custodial_death",
+  "subcategory": "custodial_death",
+  "subcategory_display": "custodial death",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "306",
+   "342",
+   "193",
+   "32",
+   "176",
+   "173",
+   "197"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Constable",
+    "role": "held_liable",
+    "unit": "Police Station MIG, Indore",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Constable, Police Station MIG, Indore"
+   },
+   {
+    "name": null,
+    "rank": "Constable",
+    "role": "held_liable",
+    "unit": "Police Station MIG, Indore",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Constable, Police Station MIG, Indore"
+   },
+   {
+    "name": null,
+    "rank": "Inspector",
+    "role": "held_liable",
+    "unit": "Police Station MIG, Indore",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Inspector, Police Station MIG, Indore"
+   }
+  ],
+  "officer_count": 3,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/47171834/",
+  "secondary_sources": [],
+  "summary": "The High Court dismissed a criminal revision filed by three police officers challenging the trial court's rejection of their claim for sanction under Section 197 CrPC. The Court held that the officers subjected the deceased [name withheld] to physical assault and mental torture while in custody at Police Station MIG, Indore, leading to his death, and subsequently attempted to cover up the incident by failing to record his custody in the Roznamcha and making false CCTNS entries. The Court affirmed that the 'reasonable nexus' test for Section 197 protection was not satisfied as the alleged acts were not in discharge of official duty.",
+  "summary_verified": "The High Court dismissed a criminal revision filed by three police officers challenging the trial court's rejection of their claim for sanction under Section 197 CrPC. The Court held that the officers subjected the deceased [name withheld] to physical assault and mental torture while in custody at Police Station MIG, Indore, leading to his death, and subsequently attempted to cover up the incident by failing to record his custody in the Roznamcha and making false CCTNS entries. The Court affirmed that the 'reasonable nexus' test for Section 197 protection was not satisfied as the alleged acts were not in discharge of official duty.",
+  "court_quote": "The above incident is not a result where revision petitioners were performing the duty to handle the violent mob and were justified in using the criminal force and exceeded their scope of use of force but it is a case where alleged use of force is when the deceased was in custody of the police in police station and there was no occasion to exercise the use of force or physical assault followed by various acts to cover up the incident.",
+  "court_quote_para": "13",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Verified against the cited judgment.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Custodial death",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-06-16",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Madhya Pradesh, Indore Bench",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Madhya Pradesh, Indore Bench recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2026:MPHC-IND:15546",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/47171834/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-mp-hc"
+  ],
+  "merged_case_id": "cop-mp-hc-0",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0051",
+  "status": "current",
+  "merged_id": "CWC-1321",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] and Another vs The State of Madhya Pradesh and Another",
+  "display_title_redacted": "[name withheld] and Another vs The State of Madhya Pradesh and Another",
+  "state": "Madhya Pradesh",
+  "district": "Guna",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Myana Police Station; Jhagar Chowki",
+  "court": "Supreme Court of India",
+  "court_as_verified": "Supreme Court of India",
+  "bench": null,
+  "case_title": "[name withheld] and Another vs The State of Madhya Pradesh and Another",
+  "case_number": "Criminal Appeal arising out of SLP (Crl.) No. 3450 of 2025",
+  "citation": "2025 INSC 711",
+  "judges": [
+   "Vikram Nath",
+   "Sandeep Mehta"
+  ],
+  "judgment_date": "2025-05-15",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": "2024-07-13",
+  "incident_year": 2024,
+  "category": "Custodial death",
+  "admin_category": "brutality",
+  "admin_subcategory": "custodial_death",
+  "subcategory": "custodial_death",
+  "subcategory_display": "custodial death",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "105",
+   "115(2)",
+   "3(5)",
+   "120",
+   "3(2)(v) SC/ST Act"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Town Inspector",
+    "role": "named_in_finding",
+    "unit": "Myana Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Town Inspector, Myana Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Police Personnel",
+    "role": "named_in_finding",
+    "unit": "Myana Police Station and Jhagar Chowki",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Personnel, Myana Police Station and Jhagar Chowki"
+   }
+  ],
+  "officer_count": 2,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   },
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 2,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/133860967/",
+  "secondary_sources": [],
+  "summary": "The Supreme Court transferred the investigation into the custodial death of [name withheld] to the CBI, directing that police officials found responsible be arrested within one month. The Court found that [name withheld] was subjected to brutal third-degree torture including hanging upside down, chilli powder, petrol, salt, and hot water, leading to his death. The sole eyewitness [name withheld] was illegally detained for over 24 hours and subsequently implicated in multiple false cases to coerce him. The Court observed that the local police investigation lacked credibility as allegations were against their own personnel, and even the post-mortem appeared influenced.",
+  "summary_verified": "The Supreme Court transferred the investigation into the custodial death of [name withheld] to the CBI, directing that police officials found responsible be arrested within one month. The Court found that [name withheld] was subjected to brutal third-degree torture including hanging upside down, chilli powder, petrol, salt, and hot water, leading to his death. The sole eyewitness [name withheld] was illegally detained for over 24 hours and subsequently implicated in multiple false cases to coerce him. The Court observed that the local police investigation lacked credibility as allegations were against their own personnel, and even the post-mortem appeared influenced.",
+  "court_quote": "The involvement of the police officials in the custodial death of [name withheld] is clearly borne out from the statement of the sole eye-witness [name withheld] and stands further corroborated during the magisterial inquiry. The victims' family tried to lodge the FIR immediately after the incident, but the local police officials prevented them from doing so. It is only after the magisterial inquiry was conducted that the FIR came to be registered wherein the offence of culpable homicide amounting to murder was omitted. Nearly eight months have passed since the FIR was registered but till date, not a single accused has been arrested.",
+  "court_quote_para": "29",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Verified against the cited judgment.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Custodial death",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-05-15",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "Supreme Court of India",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The Supreme Court of India recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2025 INSC 711",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/133860967/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-mp-hc"
+  ],
+  "merged_case_id": "cop-mp-hc-1",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0052",
+  "status": "current",
+  "merged_id": "CWC-1322",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs The State of Madhya Pradesh and Others",
+  "display_title_redacted": "[name withheld] vs The State of Madhya Pradesh and Others",
+  "state": "Madhya Pradesh",
+  "district": "Jabalpur",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Mahila Thana, Jabalpur; Office of Superintendent of Police, Jabalpur",
+  "court": "High Court of Madhya Pradesh, Jabalpur Bench",
+  "court_as_verified": "High Court of Madhya Pradesh, Jabalpur Bench",
+  "bench": null,
+  "case_title": "[name withheld] vs The State of Madhya Pradesh and Others",
+  "case_number": "W.P. No. 28981 of 2024",
+  "citation": "2025:MPHC-JBP:3856",
+  "judges": [
+   "G.S. Ahluwalia"
+  ],
+  "judgment_date": "2025-01-28",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": "2024-09-20",
+  "incident_year": 2024,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "illegal_detention_false_imprisonment",
+  "subcategory": "illegal_detention_false_imprisonment",
+  "subcategory_display": "illegal detention false imprisonment",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Article 226",
+   "41A Cr.P.C."
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "SHO",
+    "role": "held_liable",
+    "unit": "Mahila Thana, Jabalpur",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "SHO, Mahila Thana, Jabalpur"
+   },
+   {
+    "name": null,
+    "rank": "Superintendent of Police",
+    "role": "held_liable",
+    "unit": "Jabalpur",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Superintendent of Police, Jabalpur"
+   }
+  ],
+  "officer_count": 2,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/158106960/",
+  "secondary_sources": [],
+  "summary": "The High Court found that the SHO, Mahila Thana, Jabalpur illegally issued a Look Out Circular against the petitioner without any basis, resulting in his detention at Hyderabad International Airport despite a trial court order permitting him to travel abroad. The Court noted the SHO failed to withdraw the LOC even after the petitioner was granted bail and travel permission, and the SP failed to periodically review the LOC. The SHO was placed under suspension and a departmental enquiry was initiated. The Court strongly deprecated the conduct of the SP who failed to produce departmental enquiry records.",
+  "summary_verified": "The High Court found that the SHO, Mahila Thana, Jabalpur illegally issued a Look Out Circular against the petitioner without any basis, resulting in his detention at Hyderabad International Airport despite a trial court order permitting him to travel abroad. The Court noted the SHO failed to withdraw the LOC even after the petitioner was granted bail and travel permission, and the SP failed to periodically review the LOC. The SHO was placed under suspension and a departmental enquiry was initiated. The Court strongly deprecated the conduct of the SP who failed to produce departmental enquiry records.",
+  "court_quote": "It is further submitted that after having issued notice under Section 41-A of Cr.P.C. there was no occasion for the SHO, Mahila Thana, Jabalpur, to have an apprehension that petitioner may flee away. Furthermore, after the bail was granted by the Trial Court therefore, the apprehension of fleeing away which might have been in the mind of SHO should have come to an end and thus she should have withdrawn the LOC but that was not done.",
+  "court_quote_para": "11",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "The summary names the SHO of Mahila Thana, Jabalpur (an officer) in the summary field, which must be removed; Sections field is inaccurate: '226' is Article 226 of the Constitution (the writ jurisdiction, not a penal section) and '439' (bail) is not a section of this case; the relevant cited provisions are Article 226 and Section 41-A Cr.P.C.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-01-28",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Madhya Pradesh, Jabalpur Bench",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Madhya Pradesh, Jabalpur Bench recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2025:MPHC-JBP:3856",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/158106960/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-mp-hc"
+  ],
+  "merged_case_id": "cop-mp-hc-3",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0060",
+  "status": "current",
+  "merged_id": "CWC-1323",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs The State of Madhya Pradesh and Others",
+  "display_title_redacted": "[name withheld] vs The State of Madhya Pradesh and Others",
+  "state": "Madhya Pradesh",
+  "district": "Narsinghpur",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Police Station Narsinghpur",
+  "court": "High Court of Madhya Pradesh, Jabalpur Bench",
+  "court_as_verified": "High Court of Madhya Pradesh, Jabalpur Bench",
+  "bench": null,
+  "case_title": "[name withheld] vs The State of Madhya Pradesh and Others",
+  "case_number": "W.A. No. 2812 of 2024",
+  "citation": "2026:MPHC-JBP:31111",
+  "judges": [
+   "Vivek Rusia",
+   "Pradeep Mittal"
+  ],
+  "judgment_date": "2026-04-21",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2009-03-22",
+  "incident_year": 2009,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "dereliction_evidence_tampering",
+  "subcategory": "dereliction_evidence_tampering",
+  "subcategory_display": "dereliction evidence tampering",
+  "protest_override_heuristic": false,
+  "outcome_type": "disciplinary_upheld",
+  "sections": [
+   "214",
+   "215 M.P. Police Regulations",
+   "FR-54"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Police Officer",
+    "role": "held_liable",
+    "unit": "Police Station Narsinghpur",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Officer, Police Station Narsinghpur"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": null,
+    "gender": null
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": "imprisonment",
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/85035813/",
+  "secondary_sources": [],
+  "summary": "The High Court upheld a departmental penalty of a fine of Rs.5,000 imposed on a police officer for misconduct in unlawfully detaining a Scorpio vehicle at Police Station Narsinghpur and failing to initiate legal action, despite his acquittal in the parallel criminal trial under the Prevention of Corruption Act. The Court held that departmental proceedings are based on a distinct standard of proof and the misconduct relating to unlawful detention of the vehicle and failure to take appropriate action was duly established in the departmental enquiry, justifying the penalty.",
+  "summary_verified": "The High Court upheld a departmental penalty of a fine of Rs.5,000 imposed on a police officer for misconduct in unlawfully detaining a Scorpio vehicle at Police Station Narsinghpur and failing to initiate legal action, despite his acquittal in the parallel criminal trial under the Prevention of Corruption Act. The Court held that departmental proceedings are based on a distinct standard of proof and the misconduct relating to unlawful detention of the vehicle and failure to take appropriate action was duly established in the departmental enquiry, justifying the penalty.",
+  "court_quote": "Although the appellant was acquitted in the criminal case, the departmental findings relating to his conduct in stopping a vehicle, detaining it at the police station, and failing to take appropriate legal action were duly established, thereby justifying the imposition of penalty.",
+  "court_quote_para": "11",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "The sentence field inaccurately states the dismissal period was 'treated as no work, no pay'; per the judgment, the fine of Rs 5,000 was upheld (substituted for the dismissal) but the treatment of the dismissal period was REMITTED for fresh consideration under FR-54, not finally decided",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-04-21",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Madhya Pradesh, Jabalpur Bench",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Madhya Pradesh, Jabalpur Bench recorded adverse findings against police personnel.",
+    "disposition": "disciplinary upheld",
+    "source": "2026:MPHC-JBP:31111",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/85035813/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-mp-hc"
+  ],
+  "merged_case_id": "cop-mp-hc-4",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0061",
+  "status": "current",
+  "merged_id": "CWC-1324",
+  "alias_merged_ids": [],
+  "display_title": "Deputy Superintendent of Police v. State Human Rights Commission",
+  "display_title_redacted": "Deputy Superintendent of Police v. State Human Rights Commission",
+  "state": "Tamil Nadu",
+  "district": "Kanniyakumari",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Kotticode Police Station",
+  "court": "Madurai Bench of the Madras High Court",
+  "court_as_verified": "Madurai Bench of the Madras High Court",
+  "bench": null,
+  "case_title": "Deputy Superintendent of Police v. State Human Rights Commission",
+  "case_number": "WP(MD) No. (unreported, March 2026)",
+  "citation": "2026 LiveLaw (Mad) (unreported)",
+  "judges": [
+   "G.R. Swaminathan",
+   "R. Kalaimathi"
+  ],
+  "judgment_date": "2026-03-03",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2019-05",
+  "incident_year": 2019,
+  "category": "Custodial torture",
+  "admin_category": "brutality",
+  "admin_subcategory": "custodial_torture",
+  "subcategory": "custodial_torture",
+  "subcategory_display": "custodial torture",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Section 18, Protection of Human Rights Act, 1993"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Deputy Superintendent of Police",
+    "role": "held_liable",
+    "unit": "Kotticode Police Station area",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Deputy Superintendent of Police, Kotticode Police Station area"
+   },
+   {
+    "name": null,
+    "rank": "Inspector",
+    "role": "held_liable",
+    "unit": "Kotticode Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Inspector, Kotticode Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Special squad member (rank not stated)",
+    "role": "held_liable",
+    "unit": "Kotticode Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Special squad member (rank not stated), Kotticode Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Special squad member (rank not stated)",
+    "role": "held_liable",
+    "unit": "Kotticode Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Special squad member (rank not stated), Kotticode Police Station"
+   }
+  ],
+  "officer_count": 4,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": "compensation_only",
+  "sentence_max_years": null,
+  "compensation_inr": 600000,
+  "force": "state_police",
+  "primary_source_url": "https://lawchakra.in/high-court/police-custodial-injury-of-63-year-old-man/",
+  "secondary_sources": [
+   "https://www.livelaw.in/high-court/madras-high-court/madras-high-court-police-brutality-5-lakh-compensation-upheld-524520"
+  ],
+  "summary": "The Madurai Bench of the Madras High Court upheld a State Human Rights Commission order directing payment of Rs 6 lakh compensation to a 63-year-old man who suffered head injuries in police custody. The police claimed the victim had hit his head against a steel bar inside the police vehicle. The Division Bench rejected this explanation as \"fantastic\" and contrary to common sense, noting medical records clearly showed the injuries were sustained while in custody. The court confirmed the SHRC's direction to recover Rs 3 lakh from the DSP, Rs 1 lakh each from the Inspector and two special squad members, and exonerated the driver.",
+  "summary_verified": "The Madurai Bench of the Madras High Court upheld a State Human Rights Commission order directing payment of Rs 6 lakh compensation to a 63-year-old man who suffered head injuries in police custody. The police claimed the victim had hit his head against a steel bar inside the police vehicle. The Division Bench rejected this explanation as \"fantastic\" and contrary to common sense, noting medical records clearly showed the injuries were sustained while in custody. The court confirmed the SHRC's direction to recover Rs 3 lakh from the DSP, Rs 1 lakh each from the Inspector and two special squad members, and exonerated the driver.",
+  "court_quote": "We can invoke the rule of common sense and easily conclude that the story that the complainant hit himself and that is how the head injuries were caused is fantastic.",
+  "court_quote_para": "para 12",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Wrong geography: the primary source (lawchakra.in) states [name withheld] was detained at Kotticode Police Station and references Marthandam Police Station, both in Kanniyakumari district; the entry says Sivaganga/Manamadurai, which appears nowhere in the source.; incident_date 2022-09-01 is wrong - the injury was sustained during arrest in May 2019; September 2022 is when the State Human Rights Commission passed its order, not the incident.; Officer units 'Manamadurai' are unsupported; the two liable persons are described in the source only as 'two members of the special squad' ([name withheld] and [name withheld]) - their rank is not stated as Special Sub-Inspector.; Case title names police officer [name withheld]; per register rules officer names must be redacted to rank/unit.; Secondary source URL (livelaw.in/.../524520) is a different case: Thamaraiselvi v. SI Magitha Anna Christy (Guduvancherry, Rs 5 lakh, 2026 LiveLaw (Mad) 90, Anita Sumanth & Mummineni Sudheer Kumar) - misattributed citation for this case.; Core finding verified: Madurai Bench (G.R. Swaminathan & R. Kalaimathi), SHRC Rs 6 lakh compensation upheld (Rs 3 lakh recoverable from DSP, Rs 1 lakh each from Inspector and two squad members, driver exonerated), 'fantastic'/rule of common sense quote is verbatim.",
+  "verification_status": "V1",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Custodial torture",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-03-03",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "Madurai Bench of the Madras High Court",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The Madurai Bench of the Madras High Court recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2026 LiveLaw (Mad) (unreported)",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://lawchakra.in/high-court/police-custodial-injury-of-63-year-old-man/",
+    "link_checked": null
+   },
+   {
+    "url": "https://www.livelaw.in/high-court/madras-high-court/madras-high-court-police-brutality-5-lakh-compensation-upheld-524520",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-tn-hc"
+  ],
+  "merged_case_id": "cop-tn-hc-0",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0062",
+  "status": "current",
+  "merged_id": "CWC-1325",
+  "alias_merged_ids": [],
+  "display_title": "State of Tamil Nadu v. [name withheld] (Custodial Death of a Minor)",
+  "display_title_redacted": "State of Tamil Nadu v. [name withheld] (Custodial Death of a Minor)",
+  "state": "Tamil Nadu",
+  "district": "Madurai",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "S.S. Colony Police Station",
+  "court": "Madurai Bench of the Madras High Court",
+  "court_as_verified": "Madurai Bench of the Madras High Court",
+  "bench": null,
+  "case_title": "State of Tamil Nadu v. [name withheld] (Custodial Death of a Minor)",
+  "case_number": "W.A.(MD) No. 823 of 2024",
+  "citation": "2026 LiveLaw (Mad) (unreported)",
+  "judges": [
+   "G. Jayachandran",
+   "K.K. Ramakrishnan"
+  ],
+  "judgment_date": "2026-01-07",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2019-01-01",
+  "incident_year": 2019,
+  "category": "Custodial death",
+  "admin_category": "brutality",
+  "admin_subcategory": "custodial_death",
+  "subcategory": "custodial_death",
+  "subcategory_display": "custodial death",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Article 21, Constitution of India",
+   "Section 357A, CrPC"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Inspector",
+    "role": "named_in_finding",
+    "unit": "S.S. Colony Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Inspector, S.S. Colony Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Special Sub-Inspector",
+    "role": "named_in_finding",
+    "unit": "S.S. Colony Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Special Sub-Inspector, S.S. Colony Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Head Constable",
+    "role": "named_in_finding",
+    "unit": "S.S. Colony Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Head Constable, S.S. Colony Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Grade I Constable",
+    "role": "named_in_finding",
+    "unit": "S.S. Colony Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Grade I Constable, S.S. Colony Police Station"
+   }
+  ],
+  "officer_count": 4,
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": true,
+  "victim_count": 1,
+  "sentence_type": "compensation_only",
+  "sentence_max_years": null,
+  "compensation_inr": 2300000,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/165886415/",
+  "secondary_sources": [
+   "https://indiankanoon.org/doc/49692536/"
+  ],
+  "summary": "The Madurai Bench of the Madras High Court modified the compensation awarded by a Single Judge for the custodial death of a 17-year-old boy, [name withheld], who died in 2019 after being picked up by S.S. Colony police for an alleged jewellery theft. The Division Bench reduced the multiplier from 18 to 16 but affirmed the principle that compensation in custodial death cases need not strictly follow motor accident formulae. The court directed the State to pay the balance of Rs 18 lakh with 6% interest from September 2024. The Single Judge had found the boy was kept in illegal custody for three days and subjected to torture, with post-mortem revealing 25 ante-mortem injuries.",
+  "summary_verified": "The Madurai Bench of the Madras High Court modified the compensation awarded by a Single Judge for the custodial death of a 17-year-old boy, [name withheld], who died in 2019 after being picked up by S.S. Colony police for an alleged jewellery theft. The Division Bench reduced the multiplier from 18 to 16 but affirmed the principle that compensation in custodial death cases need not strictly follow motor accident formulae. The court directed the State to pay the balance of Rs 18 lakh with 6% interest from September 2024. The Single Judge had found the boy was kept in illegal custody for three days and subjected to torture, with post-mortem revealing 25 ante-mortem injuries.",
+  "court_quote": "This Court is of the view that while paying compensation in the case of a custodial death, we cannot be very strict in applying the formula and though the learned Single Judge has erroneously applied the multiplier '18' instead of '16', we do not want to interfere with the compensation awarded, except to say that even according to the formula adopted by the learned single Judge, the compensation will be only Rs.22,98,000/- and should be rounded off to Rs.23,00,000/-.",
+  "court_quote_para": "para 3",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Victim is a minor (17 years old) and his name '[name withheld]' appears in victims[0].name and in the case_title; per register rules minors must not be named - redact.; The judgment itself (Indian Kanoon 165886415) never names the deceased - it refers only to 'the writ petitioner's son'; the name '[name withheld]' is unverified.; incident_date 2019-01-01 is an unverified placeholder; the source only establishes the death was in 2019.; Everything else verified: W.A.(MD) No. 823 of 2024, Madurai Bench (G. Jayachandran & K.K. Ramakrishnan), decided 07.01.2026, S.S. Colony PS Madurai; Single Judge Rs 25 lakh reduced to Rs 23,00,000 (22,98,000 rounded), balance Rs 18 lakh with 6% interest from 27.09.2024; quote verbatim (para 3); adverse finding against police for custodial death of a 17-year-old.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Custodial death",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-01-07",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "Madurai Bench of the Madras High Court",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The Madurai Bench of the Madras High Court recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2026 LiveLaw (Mad) (unreported)",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/165886415/",
+    "link_checked": null
+   },
+   {
+    "url": "https://indiankanoon.org/doc/49692536/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-tn-hc"
+  ],
+  "merged_case_id": "cop-tn-hc-1",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0063",
+  "status": "current",
+  "merged_id": "CWC-1326",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] v. Inspector of Police (Double Murder Acquittal - Slipshod Investigation)",
+  "display_title_redacted": "[name withheld] v. Inspector of Police (Double Murder Acquittal - Slipshod Investigation)",
+  "state": "Tamil Nadu",
+  "district": "Dindigul",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Thaadikombu Police Station",
+  "court": "Madurai Bench of the Madras High Court",
+  "court_as_verified": "Madurai Bench of the Madras High Court",
+  "bench": null,
+  "case_title": "[name withheld] v. Inspector of Police (Double Murder Acquittal - Slipshod Investigation)",
+  "case_number": "Crl.A.(MD) Nos. 973, 1094 of 2023 and 642 of 2024",
+  "citation": "2026:MHC:1790",
+  "judges": [
+   "N. Anand Venkatesh",
+   "K.K. Ramakrishnan"
+  ],
+  "judgment_date": "2026-06-01",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2012-05-18",
+  "incident_year": 2012,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "dereliction_evidence_tampering",
+  "subcategory": "dereliction_evidence_tampering",
+  "subcategory_display": "dereliction evidence tampering",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Section 302, IPC",
+   "Section 32, Indian Evidence Act"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Investigating Officer",
+    "role": "named_in_finding",
+    "unit": "Thaadikombu Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Investigating Officer, Thaadikombu Police Station"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": "D1 and D2 (deceased)",
+    "gender": "null"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "http://24law-prod.s3.ap-south-1.amazonaws.com/pdf/1780393981_muthukumar-v-inspector-of-police-677416.pdf",
+  "secondary_sources": [],
+  "summary": "The Madurai Bench of the Madras High Court acquitted four accused in a double murder case, setting aside their conviction and life sentences. The Division Bench held that the investigation conducted by [name withheld] (the Investigating Officer) was \"one of the most slipshod investigations we have seen in recent times.\" The court found that vital witnesses were intentionally left out and their statements not recorded under Section 161 CrPC. The dying declaration of one victim could not be relied upon without corroboration, which was absent due to the defective investigation. The court expressed anguish that two precious lives were lost and the prosecution failed to prove its case only because of the bizarre manner of investigation.",
+  "summary_verified": "The Madurai Bench of the Madras High Court acquitted four accused in a double murder case, setting aside their conviction and life sentences. The Division Bench held that the investigation conducted by [name withheld] (the Investigating Officer) was \"one of the most slipshod investigations we have seen in recent times.\" The court found that vital witnesses were intentionally left out and their statements not recorded under Section 161 CrPC. The dying declaration of one victim could not be relied upon without corroboration, which was absent due to the defective investigation. The court expressed anguish that two precious lives were lost and the prosecution failed to prove its case only because of the bizarre manner of investigation.",
+  "court_quote": "[name withheld] has conducted one of the most slipshod investigation we have seen in the recent times. Two precious lives have been lost and going by the postmortem reports, we find that very serious injuries had been sustained by D1 and D2. Apart from that, vital witnesses who could have lent a lot of credence and strength to the case of prosecution were intentionally left out and even their statements not recorded under Section 161(3) of Cr.P.C.",
+  "court_quote_para": "para 49-50",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "incident_date 2018-01-01 is wrong: the double murder occurred on 18.05.2012 (Crime No. 264 of 2012).; police_station_or_unit 'Dindigul Police Station' is wrong: the correct station is Thaadikombu Police Station, Dindigul District.; Investigating Officer's unit should also be Thaadikombu Police Station.; Everything else verified: Crl.A.(MD) Nos. 973, 1094 of 2023 and 642 of 2024; 2026:MHC:1790; N. Anand Venkatesh & K.K. Ramakrishnan; decided 01.06.2026; four accused (A1-A4) acquitted, convictions set aside; 'slipshod investigation' quote verbatim (paras 49-50); departmental action directed against [name withheld].",
+  "verification_status": "V1",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-06-01",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "Madurai Bench of the Madras High Court",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The Madurai Bench of the Madras High Court recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2026:MHC:1790",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "http://24law-prod.s3.ap-south-1.amazonaws.com/pdf/1780393981_muthukumar-v-inspector-of-police-677416.pdf",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-tn-hc"
+  ],
+  "merged_case_id": "cop-tn-hc-2",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0053",
+  "status": "current",
+  "merged_id": "CWC-1327",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] v. Chief Secretary to Government of Tamil Nadu ([name withheld] Custodial Death)",
+  "display_title_redacted": "[name withheld] v. Chief Secretary to Government of Tamil Nadu ([name withheld] Custodial Death)",
+  "state": "Tamil Nadu",
+  "district": "Sivaganga",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Thiruppuvanam Police Station",
+  "court": "Madurai Bench of the Madras High Court",
+  "court_as_verified": "Madurai Bench of the Madras High Court",
+  "bench": null,
+  "case_title": "[name withheld] v. Chief Secretary to Government of Tamil Nadu ([name withheld] Custodial Death)",
+  "case_number": "WP(MD) No. 17949 of 2025",
+  "citation": "2025 LiveLaw (Mad) (unreported)",
+  "judges": [
+   "S.M. Subramaniam",
+   "A.D. Maria Clete"
+  ],
+  "judgment_date": "2025-07-22",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": "2025-06-27",
+  "incident_year": 2025,
+  "category": "Custodial death",
+  "admin_category": "brutality",
+  "admin_subcategory": "custodial_death",
+  "subcategory": "custodial_death",
+  "subcategory_display": "custodial death",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Article 21, Constitution of India",
+   "Section 103, BNS (Murder)",
+   "Section 357A, CrPC"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Inspector",
+    "role": "named_in_finding",
+    "unit": "Thiruppuvanam Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Inspector, Thiruppuvanam Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Sub-Inspector",
+    "role": "named_in_finding",
+    "unit": "Thiruppuvanam Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Sub-Inspector, Thiruppuvanam Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Head Constable",
+    "role": "named_in_finding",
+    "unit": "Thiruppuvanam Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Head Constable, Thiruppuvanam Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Grade I Constable",
+    "role": "named_in_finding",
+    "unit": "Thiruppuvanam Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Grade I Constable, Thiruppuvanam Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Grade I Constable",
+    "role": "named_in_finding",
+    "unit": "Thiruppuvanam Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Grade I Constable, Thiruppuvanam Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Deputy Superintendent of Police",
+    "role": "named_in_finding",
+    "unit": "Manamadurai Sub-Division",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Deputy Superintendent of Police, Manamadurai Sub-Division"
+   },
+   {
+    "name": null,
+    "rank": "Superintendent of Police",
+    "role": "named_in_finding",
+    "unit": "Sivaganga District",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Superintendent of Police, Sivaganga District"
+   }
+  ],
+  "officer_count": 7,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": "compensation_only",
+  "sentence_max_years": null,
+  "compensation_inr": 2500000,
+  "force": "state_police",
+  "primary_source_url": "https://www.thehindu.com/news/national/tamil-nadu/sivaganga-custodial-death-case-madras-high-court-directs-tn-government-to-pay-25-lakh-as-interim-compensation/article69843299.ece",
+  "secondary_sources": [
+   "https://courtbook.in/posts/tamil-nadu-govt-must-pay-25-lakh-more-to-family-of-man-killed-in-police-custody-madras-hc",
+   "https://timesofindia.indiatimes.com/city/chennai/tamil-nadu-custodial-death-case-madras-hc-orders-rs-25-lakh-interim-compensation-to-temple-guard-ajith-kumars-family-directs-witness-protection-steps/articleshow/122832550.cms"
+  ],
+  "summary": "The Madurai Bench of the Madras High Court directed the Tamil Nadu government to pay an additional Rs 25 lakh as interim compensation to the family of [name withheld], a 29-year-old temple security guard who died in police custody at Thiruppuvanam police station in Sivaganga district. The court called it a \"police-organized crime\" and noted that a judicial inquiry by a District Judge confirmed Ajith died due to custodial torture. The autopsy revealed over 40 injuries. The court observed the earlier Rs 7.5 lakh compensation was inadequate. Five police personnel were arrested and the case transferred to CBI. The court also directed witness protection and ordered the CBI to complete the probe by August 20, 2025.",
+  "summary_verified": "The Madurai Bench of the Madras High Court directed the Tamil Nadu government to pay an additional Rs 25 lakh as interim compensation to the family of [name withheld], a 29-year-old temple security guard who died in police custody at Thiruppuvanam police station in Sivaganga district. The court called it a \"police-organized crime\" and noted that a judicial inquiry by a District Judge confirmed Ajith died due to custodial torture. The autopsy revealed over 40 injuries. The court observed the earlier Rs 7.5 lakh compensation was inadequate. Five police personnel were arrested and the case transferred to CBI. The court also directed witness protection and ordered the CBI to complete the probe by August 20, 2025.",
+  "court_quote": "The compensation of Rs 7.5 lakh is not sufficient. A higher amount must be paid in custodial death cases.",
+  "court_quote_para": "oral observation",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "court_quote is not verbatim: 'Even a murderer wouldn't have inflicted such brutality' is a paraphrase - The News Minute's verbatim wording is 'Even an ordinary murderer would not have caused these many injuries.' Only the second sentence ('The compensation of Rs 7.5 lakh is not sufficient. A higher amount must be paid in custodial death cases.') is confirmed verbatim (courtbook.in).; incident_date 2025-06-15 is wrong: [name withheld] was taken into custody on 27 June 2025 and died on 28 June 2025 (per The South First and The News Minute).; Victim's age is disputed across sources (27, 28, 29); the register's 29 matches News18/The News Minute, so left unchanged but flagged.; Core finding verified: WP(MD) No. 17949 of 2025, Madurai Bench (S.M. Subramaniam & A.D. Maria Clete), order of 22.07.2025; additional Rs 25 lakh interim compensation on top of Rs 7.5 lakh already paid; 'police-organized crime'; District Judge ([name withheld]) judicial inquiry confirmed custodial torture; autopsy showed ~44 external injuries; five of six suspended officers were arrested; CBI took over with probe deadline.",
+  "verification_status": "V1",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Custodial death",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-07-22",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "Madurai Bench of the Madras High Court",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The Madurai Bench of the Madras High Court recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2025 LiveLaw (Mad) (unreported)",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://www.thehindu.com/news/national/tamil-nadu/sivaganga-custodial-death-case-madras-high-court-directs-tn-government-to-pay-25-lakh-as-interim-compensation/article69843299.ece",
+    "link_checked": null
+   },
+   {
+    "url": "https://courtbook.in/posts/tamil-nadu-govt-must-pay-25-lakh-more-to-family-of-man-killed-in-police-custody-madras-hc",
+    "link_checked": null
+   },
+   {
+    "url": "https://timesofindia.indiatimes.com/city/chennai/tamil-nadu-custodial-death-case-madras-hc-orders-rs-25-lakh-interim-compensation-to-temple-guard-ajith-kumars-family-directs-witness-protection-steps/articleshow/122832550.cms",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-tn-hc"
+  ],
+  "merged_case_id": "cop-tn-hc-3",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0054",
+  "status": "current",
+  "merged_id": "CWC-1328",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] v. State of Tamil Nadu (Custodial Torture Causing Disability)",
+  "display_title_redacted": "[name withheld] v. State of Tamil Nadu (Custodial Torture Causing Disability)",
+  "state": "Tamil Nadu",
+  "district": "Chengalpattu",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Sathurangapattinam Police Station",
+  "court": "Madras High Court (Principal Seat)",
+  "court_as_verified": "Madras High Court (Principal Seat)",
+  "bench": null,
+  "case_title": "[name withheld] v. State of Tamil Nadu (Custodial Torture Causing Disability)",
+  "case_number": "Habeas Corpus Petition (2017), decided 2025-05-10",
+  "citation": "2025 LiveLaw (Mad) (unreported)",
+  "judges": [
+   "M.S. Ramesh",
+   "N. Senthilkumar"
+  ],
+  "judgment_date": "2025-05-10",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": "2017-08-26",
+  "incident_year": 2017,
+  "category": "Custodial torture",
+  "admin_category": "brutality",
+  "admin_subcategory": "custodial_torture",
+  "subcategory": "custodial_torture",
+  "subcategory_display": "custodial torture",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Article 21, Constitution of India",
+   "TN Subordinate Services (Discipline and Appeal) Rules"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Inspector",
+    "role": "named_in_finding",
+    "unit": "Sathurangapattinam Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Inspector, Sathurangapattinam Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Sub-Inspector",
+    "role": "named_in_finding",
+    "unit": "Sathurangapattinam Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Sub-Inspector, Sathurangapattinam Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Head Constable",
+    "role": "named_in_finding",
+    "unit": "Sathurangapattinam Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Head Constable, Sathurangapattinam Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Grade I Constable",
+    "role": "named_in_finding",
+    "unit": "Sathurangapattinam Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Grade I Constable, Sathurangapattinam Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Grade I Constable",
+    "role": "named_in_finding",
+    "unit": "Sathurangapattinam Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Grade I Constable, Sathurangapattinam Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Grade I Constable",
+    "role": "named_in_finding",
+    "unit": "Sathurangapattinam Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Grade I Constable, Sathurangapattinam Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Grade I Constable",
+    "role": "named_in_finding",
+    "unit": "Sathurangapattinam Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Grade I Constable, Sathurangapattinam Police Station"
+   }
+  ],
+  "officer_count": 7,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": "compensation_only",
+  "sentence_max_years": null,
+  "compensation_inr": 1000000,
+  "force": "state_police",
+  "primary_source_url": "https://www.newindianexpress.com/states/tamil-nadu/2025/May/10/pay-rs-10-lakh-to-man-who-suffered-disability-due-to-police-torture-madras-hc",
+  "secondary_sources": [],
+  "summary": "The Madras High Court ordered the State to pay Rs 10 lakh compensation to [name withheld], an auto driver who suffered permanent disability after police torture in 2017. He was forcibly taken into illegal custody on August 26, 2017, and tortured by seven policemen, resulting in severe injuries to his kidneys and fingers. Four fingers on each hand were amputated due to gangrene, causing loss of livelihood. The court relied on a commission report headed by retired High Court judge [name withheld], which found the injuries were caused by lathis and indicated involvement of police personnel. The court also directed the Chengalpattu SP to frame charges against the police personnel on duty between August 27-31, 2017, and complete a departmental inquiry within six months.",
+  "summary_verified": "The Madras High Court ordered the State to pay Rs 10 lakh compensation to [name withheld], an auto driver who suffered permanent disability after police torture in 2017. He was forcibly taken into illegal custody on August 26, 2017, and tortured by seven policemen, resulting in severe injuries to his kidneys and fingers. Four fingers on each hand were amputated due to gangrene, causing loss of livelihood. The court relied on a commission report headed by retired High Court judge [name withheld], which found the injuries were caused by lathis and indicated involvement of police personnel. The court also directed the Chengalpattu SP to frame charges against the police personnel on duty between August 27-31, 2017, and complete a departmental inquiry within six months.",
+  "court_quote": "The fact remains that the injuries were caused by lathis and the report also suggests the involvement of police personnel.",
+  "court_quote_para": "order paragraph",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Verified against the cited judgment.",
+  "verification_status": "V1",
+  "verification_badge": "V1 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Custodial torture",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-05-10",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "Madras High Court (Principal Seat)",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The Madras High Court (Principal Seat) recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2025 LiveLaw (Mad) (unreported)",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://www.newindianexpress.com/states/tamil-nadu/2025/May/10/pay-rs-10-lakh-to-man-who-suffered-disability-due-to-police-torture-madras-hc",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-tn-hc"
+  ],
+  "merged_case_id": "cop-tn-hc-4",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0055",
+  "status": "current",
+  "merged_id": "CWC-1329",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] v. State (NDPS Case - Fabricated Evidence)",
+  "display_title_redacted": "[name withheld] v. State (NDPS Case - Fabricated Evidence)",
+  "state": "Tamil Nadu",
+  "district": "Chennai",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "V4 Rajamangalam Police Station",
+  "court": "Madras High Court (Principal Seat)",
+  "court_as_verified": "Madras High Court (Principal Seat)",
+  "bench": null,
+  "case_title": "[name withheld] v. State (NDPS Case - Fabricated Evidence)",
+  "case_number": "Crl.A. No. 1202 of 2025",
+  "citation": "2025 LiveLaw (Mad) (unreported)",
+  "judges": [
+   "G.K. Ilanthiraiyan"
+  ],
+  "judgment_date": "2025-08-12",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": "2021-12-06",
+  "incident_year": 2021,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "false_implication_fabrication",
+  "subcategory": "false_implication_fabrication",
+  "subcategory_display": "false implication fabrication",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Section 8(c) r/w 20(b)(ii)(C), NDPS Act",
+   "Section 50, NDPS Act"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Inspector of Police",
+    "role": "named_in_finding",
+    "unit": "V4 Rajamangalam Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Inspector of Police, V4 Rajamangalam Police Station"
+   },
+   {
+    "name": null,
+    "rank": "Police Constable",
+    "role": "named_in_finding",
+    "unit": "V4 Rajamangalam Police Station",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Constable, V4 Rajamangalam Police Station"
+   }
+  ],
+  "officer_count": 2,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": "imprisonment",
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/13125224/",
+  "secondary_sources": [],
+  "summary": "The Madras High Court acquitted [name withheld] in an NDPS case where he was convicted for possession of 20.3 kg of ganja. The Single Judge found that the police had fabricated the case: the seizure mahazar, arrest report, and arrest intimation all contained the crime number (Crime No. 931 of 2021) before the FIR was even registered. The court noted the prosecution failed to examine any independent witness from the public despite the alleged seizure occurring in a marketplace. The informant and investigating officer were the same person (PW1), and all documents were typed, indicating they were prepared in the police station rather than at the scene. The court applied the Supreme Court's ruling in Kaaljit Singh v. State of Punjab that such discrepancies create serious doubts fatal to the prosecution case.",
+  "summary_verified": "The Madras High Court acquitted [name withheld] in an NDPS case where he was convicted for possession of 20.3 kg of ganja. The Single Judge found that the police had fabricated the case: the seizure mahazar, arrest report, and arrest intimation all contained the crime number (Crime No. 931 of 2021) before the FIR was even registered. The court noted the prosecution failed to examine any independent witness from the public despite the alleged seizure occurring in a marketplace. The informant and investigating officer were the same person (PW1), and all documents were typed, indicating they were prepared in the police station rather than at the scene. The court applied the Supreme Court's ruling in Kaaljit Singh v. State of Punjab that such discrepancies create serious doubts fatal to the prosecution case.",
+  "court_quote": "Therefore, the entire case of the prosecution is not legitimate and creates doubt over the case of the prosecution... the entire case of the prosecution is foisted one and the prosecution failed to prove the charge in the manner known to law.",
+  "court_quote_para": "para 6-7",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "sections wrongly include 'Section 21, Indian Evidence Act' - the judgment never mentions any Evidence Act section (it cites NDPS ss. 8(c), 20(b)(ii)(C) & 22(C), s.50 NDPS, s.415 BNSS, and Art. 21 Constitution); remove.; Minor imprecision: summary says seizure occurred 'in a marketplace'; the judgment says the arrest took place at the market near Villivakkam railway station - essentially accurate, not a blocker.; Everything else verified: Crl.A. No. 1202 of 2025, G.K. Ilanthiraiyan, decided 12.08.2025; 20.3 kg ganja, Crime No. 931 of 2021, V4 Rajamangalam PS Chennai, incident 06.12.2021; trial court 10-year RI + Rs 1 lakh fine conviction set aside; acquittal; quote verbatim (paras 6 and 6.1); fabrication found (crime number in seizure mahazar/arrest memo before FIR registration, informant = IO, no independent witness).",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-08-12",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "Madras High Court (Principal Seat)",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The Madras High Court (Principal Seat) recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2025 LiveLaw (Mad) (unreported)",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/13125224/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-tn-hc"
+  ],
+  "merged_case_id": "cop-tn-hc-5",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0056",
+  "status": "current",
+  "merged_id": "CWC-1330",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] v. State (NDPS Case - Fabricated Documents)",
+  "display_title_redacted": "[name withheld] v. State (NDPS Case - Fabricated Documents)",
+  "state": "Tamil Nadu",
+  "district": "Chennai",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "NIB-CID, Chennai",
+  "court": "Madras High Court (Principal Seat)",
+  "court_as_verified": "Madras High Court (Principal Seat)",
+  "bench": null,
+  "case_title": "[name withheld] v. State (NDPS Case - Fabricated Documents)",
+  "case_number": "Crl.A. Nos. 41, 83 & 212 of 2023",
+  "citation": "2025 LiveLaw (Mad) (unreported)",
+  "judges": [
+   "G.K. Ilanthiraiyan"
+  ],
+  "judgment_date": "2025-08-21",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": "2019-12-21",
+  "incident_year": 2019,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "false_implication_fabrication",
+  "subcategory": "false_implication_fabrication",
+  "subcategory_display": "false implication fabrication",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Section 8(c) r/w 20(b)(ii)(C), NDPS Act",
+   "Section 50, NDPS Act"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Inspector of Police",
+    "role": "named_in_finding",
+    "unit": "NIB-CID, Chennai",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Inspector of Police, NIB-CID, Chennai"
+   },
+   {
+    "name": null,
+    "rank": "Police Constable",
+    "role": "named_in_finding",
+    "unit": "NIB-CID, Chennai",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Constable, NIB-CID, Chennai"
+   },
+   {
+    "name": null,
+    "rank": "Police Constable",
+    "role": "named_in_finding",
+    "unit": "NIB-CID, Chennai",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Constable, NIB-CID, Chennai"
+   },
+   {
+    "name": null,
+    "rank": "Police Constable",
+    "role": "named_in_finding",
+    "unit": "NIB-CID, Chennai",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Constable, NIB-CID, Chennai"
+   }
+  ],
+  "officer_count": 4,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   },
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   },
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   },
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 4,
+  "sentence_type": "imprisonment",
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/163929601/",
+  "secondary_sources": [],
+  "summary": "The Madras High Court acquitted four accused in an NDPS case involving alleged possession of 54 kg of ganja at Egmore Railway Station. The Single Judge found multiple fabrications by the NIB-CID police: (1) all documents (secret information, search notice, seizure mahazar, arrest report, inspection memo) were typed, indicating preparation in the police station rather than at the scene; (2) joint search notice and joint consent were obtained from all four accused, violating Section 50(1) NDPS Act which requires individual communication of the right to be searched before a gazetted officer or magistrate; (3) the prosecution failed to produce the general diary or permission from a superior officer despite PW1's deposition; (4) there was an unexplained 9-day delay in producing the contraband before the trial court. The court held these discrepancies created suspicion that a false case was registered.",
+  "summary_verified": "The Madras High Court acquitted four accused in an NDPS case involving alleged possession of 54 kg of ganja at Egmore Railway Station. The Single Judge found multiple fabrications by the NIB-CID police: (1) all documents (secret information, search notice, seizure mahazar, arrest report, inspection memo) were typed, indicating preparation in the police station rather than at the scene; (2) joint search notice and joint consent were obtained from all four accused, violating Section 50(1) NDPS Act which requires individual communication of the right to be searched before a gazetted officer or magistrate; (3) the prosecution failed to produce the general diary or permission from a superior officer despite PW1's deposition; (4) there was an unexplained 9-day delay in producing the contraband before the trial court. The court held these discrepancies created suspicion that a false case was registered.",
+  "court_quote": "All the documents such as secret information, search information, seizure mahazar, arrest report, inspection memo, etc. were in typed versions. There is no evidence to show that PW1 and his team went to the scene of crime with all equipments such as computer, printer, etc. Therefore, all the documents were already prepared in the police station and a false case was registered against the appellants.",
+  "court_quote_para": "para 7-8",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "sections wrongly include 'Section 52A, NDPS Act' - the judgment does not mention s.52A (it discusses NDPS ss. 8(c), 20(b)(ii)(B)/(C), 50/50(1), and s.374(2) CrPC); remove.; Minor: paragraph 2 of the judgment gives the incident date as 21.01.2019 while paragraphs 4, 7 and 12 say 21.12.2019; the register's 2019-12-21 matches the latter and the actual seizure/production dates.; Everything else verified: Crl.A. Nos. 41, 83 & 212 of 2023, G.K. Ilanthiraiyan, decided 21.08.2025; 54 kg ganja at Egmore Railway Station, NIB-CID Chennai (Crime No. 116 of 2019); four accused ([name withheld], [name withheld], [name withheld], [name withheld]) acquitted and trial convictions (CC.No.81 of 2020) set aside; quote verbatim (para 8); joint search notice/joint consent violation of s.50(1); all documents typed/prepared in station; unexplained 9-day delay in producing contraband.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-08-21",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "Madras High Court (Principal Seat)",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The Madras High Court (Principal Seat) recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2025 LiveLaw (Mad) (unreported)",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/163929601/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-tn-hc"
+  ],
+  "merged_case_id": "cop-tn-hc-6",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0064",
+  "status": "current",
+  "merged_id": "CWC-1331",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] (Corpus) And Another vs State Of U.P. And 2 Others",
+  "display_title_redacted": "[name withheld] (Corpus) And Another vs State Of U.P. And 2 Others",
+  "state": "Uttar Pradesh",
+  "district": "Prayagraj",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "P.S. Meja, District Prayagraj",
+  "court": "High Court of Judicature at Allahabad",
+  "court_as_verified": "High Court of Judicature at Allahabad",
+  "bench": null,
+  "case_title": "[name withheld] (Corpus) And Another vs State Of U.P. And 2 Others",
+  "case_number": "HABEAS CORPUS WRIT PETITION No. - 1222 of 2026",
+  "citation": "2026:AHC:196414-DB",
+  "judges": [
+   "Atul Sreedharan",
+   "Achal Sachdev"
+  ],
+  "judgment_date": "2026-09-18",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2026-08-15",
+  "incident_year": 2026,
+  "category": "Other",
+  "admin_category": "brutality",
+  "admin_subcategory": "illegal_detention_false_imprisonment",
+  "subcategory": "illegal_detention_false_imprisonment",
+  "subcategory_display": "illegal detention false imprisonment",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Sections 318(4), 336(3), 338, 340(2), 351(3) of BNS",
+   "Sections 21 and 22 of the Immigration and Foreigners Act, 2025",
+   "Section 12 of the Passport Act, 1967"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Constable",
+    "role": "held_liable",
+    "unit": "P.S. Meja, District Prayagraj",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Constable, P.S. Meja, District Prayagraj"
+   },
+   {
+    "name": null,
+    "rank": "Station House Officer",
+    "role": "held_liable",
+    "unit": "P.S. Meja, District Prayagraj",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Station House Officer, P.S. Meja, District Prayagraj"
+   },
+   {
+    "name": null,
+    "rank": "Additional Inspector / Investigating Officer",
+    "role": "held_liable",
+    "unit": "P.S. Meja, District Prayagraj",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Additional Inspector / Investigating Officer, P.S. Meja, District Prayagraj"
+   }
+  ],
+  "officer_count": 3,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": "compensation_only",
+  "sentence_max_years": null,
+  "compensation_inr": 50000,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/198729602/",
+  "secondary_sources": [],
+  "summary": "The High Court held that the corpus was taken from his shop on 15.08.2026 and produced before the Magistrate only on 19.08.2026 without procedural backing. The High Court held that the detention from 15.08.2026 till production was illegal custody. The High Court ordered release unless wanted in another case and directed the State to pay Rs. 50,000 as compensation for illegal detention. The High Court directed the State to recover the amount from erring personnel after a disciplinary inquiry within three months.",
+  "summary_verified": "The High Court held that the corpus was taken from his shop on 15.08.2026 and produced before the Magistrate only on 19.08.2026 without procedural backing. The High Court held that the detention from 15.08.2026 till production was illegal custody. The High Court ordered release unless wanted in another case and directed the State to pay Rs. 50,000 as compensation for illegal detention. The High Court directed the State to recover the amount from erring personnel after a disciplinary inquiry within three months.",
+  "court_quote": "petitioner was held in illegal custody from 15.08.2026 till he was produced",
+  "court_quote_para": "para 5",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Verified against the cited judgment.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-09-18",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Judicature at Allahabad",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Judicature at Allahabad recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2026:AHC:196414-DB",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/198729602/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-up-hc"
+  ],
+  "merged_case_id": "cop-up-hc-0",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0065",
+  "status": "current",
+  "merged_id": "CWC-1332",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs State Of U.P. And 3 Others",
+  "display_title_redacted": "[name withheld] vs State Of U.P. And 3 Others",
+  "state": "Uttar Pradesh",
+  "district": "Chandauli",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "P.S. Saiyadraja, District Chandauli",
+  "court": "High Court of Judicature at Allahabad",
+  "court_as_verified": "High Court of Judicature at Allahabad",
+  "bench": null,
+  "case_title": "[name withheld] vs State Of U.P. And 3 Others",
+  "case_number": "CRIMINAL MISC. WRIT PETITION No. - 11697 of 2026",
+  "citation": "2026:AHC:188247",
+  "judges": [
+   "Sandeep Jain"
+  ],
+  "judgment_date": "2026-09-09",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2025-05-12",
+  "incident_year": 2025,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "other",
+  "subcategory": "other",
+  "subcategory_display": "other",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "U.P. Prevention of Cow Slaughter Act",
+   "Prevention of Cruelty to Animals Act"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Police personnel",
+    "role": "held_liable",
+    "unit": "P.S. Saiyadraja, District Chandauli",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police personnel, P.S. Saiyadraja, District Chandauli"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": "[name withheld]",
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": "compensation_only",
+  "sentence_max_years": null,
+  "compensation_inr": 420000,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/188158070/",
+  "secondary_sources": [],
+  "summary": "The High Court held that the police had no power or jurisdiction to seize or confiscate the vehicle in the cow-slaughter case. The High Court held that no permit is required to transport cow and progeny within Uttar Pradesh. The High Court quashed the confiscation order dated 12.01.2026 and the appellate order dated 28.03.2026. The High Court directed return of the vehicle and awarded monthly compensation from seizure plus a lump sum for mental agony and litigation.",
+  "summary_verified": "The High Court held that the police had no power or jurisdiction to seize or confiscate the vehicle in the cow-slaughter case. The High Court held that no permit is required to transport cow and progeny within Uttar Pradesh. The High Court quashed the confiscation order dated 12.01.2026 and the appellate order dated 28.03.2026. The High Court directed return of the vehicle and awarded monthly compensation from seizure plus a lump sum for mental agony and litigation.",
+  "court_quote": "the police has no power or jurisdiction to seize or confiscate the vehicle in question",
+  "court_quote_para": "para 13-14",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "compensation_inr is null but judgment awards Rs. 25,000/month from 12.05.2025 till release plus Rs. 20,000 lump sum for mental agony; court_quote para field says 'as reported' but quote appears at para 13-14 of judgment (quoting Kaliya precedent)",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-09-09",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Judicature at Allahabad",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Judicature at Allahabad recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2026:AHC:188247",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/188158070/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-up-hc"
+  ],
+  "merged_case_id": "cop-up-hc-1",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0066",
+  "status": "current",
+  "merged_id": "CWC-1333",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] And 2 Others vs State Of U.P. And 3 Others",
+  "display_title_redacted": "[name withheld] And 2 Others vs State Of U.P. And 3 Others",
+  "state": "Uttar Pradesh",
+  "district": "Agra",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Police Station Sadar Bazar / Police Station Cyber Crime, Agra",
+  "court": "High Court of Judicature at Allahabad",
+  "court_as_verified": "High Court of Judicature at Allahabad",
+  "bench": null,
+  "case_title": "[name withheld] And 2 Others vs State Of U.P. And 3 Others",
+  "case_number": "HABEAS CORPUS WRIT PETITION No. - 1079 of 2026",
+  "citation": "2026:AHC:165122",
+  "judges": [
+   "Sandeep Jain"
+  ],
+  "judgment_date": "2026-08-06",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": null,
+  "incident_year": null,
+  "category": "Other",
+  "admin_category": "brutality",
+  "admin_subcategory": "illegal_detention_false_imprisonment",
+  "subcategory": "illegal_detention_false_imprisonment",
+  "subcategory_display": "illegal detention false imprisonment",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Section 87 BNS",
+   "U.P. Prohibition of Unlawful Conversion of Religion Act, 2021"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Inspector",
+    "role": "held_liable",
+    "unit": "Police Station Cyber Crime, Agra",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Inspector, Police Station Cyber Crime, Agra"
+   },
+   {
+    "name": null,
+    "rank": "Sub-Inspector",
+    "role": "held_liable",
+    "unit": "Police Station Cyber Crime, Agra",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Sub-Inspector, Police Station Cyber Crime, Agra"
+   }
+  ],
+  "officer_count": 2,
+  "victims": [
+   {
+    "name": null,
+    "gender": "female"
+   },
+   {
+    "name": null,
+    "gender": "female"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 2,
+  "sentence_type": "compensation_only",
+  "sentence_max_years": null,
+  "compensation_inr": 2500000,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/34334003/",
+  "secondary_sources": [],
+  "summary": "The High Court held that confinement of the two adult women in the parental home against their wishes was unlawful and without legal sanction. The High Court held that the State machinery failed to discharge its constitutional obligations to protect their liberty. The High Court declared both women free to live where they choose and directed police protection and return of documents. The High Court awarded Rs. 25,00,000 compensation to be shared equally, payable by the father and the State, with liberty to recover from erring staff.",
+  "summary_verified": "The High Court held that confinement of the two adult women in the parental home against their wishes was unlawful and without legal sanction. The High Court held that the State machinery failed to discharge its constitutional obligations to protect their liberty. The High Court declared both women free to live where they choose and directed police protection and return of documents. The High Court awarded Rs. 25,00,000 compensation to be shared equally, payable by the father and the State, with liberty to recover from erring staff.",
+  "court_quote": "The State machinery failed to discharge its constitutional obligations",
+  "court_quote_para": "para 61",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Verified against the cited judgment.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-08-06",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Judicature at Allahabad",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Judicature at Allahabad recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "2026:AHC:165122",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/34334003/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-up-hc"
+  ],
+  "merged_case_id": "cop-up-hc-2",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2025-0057",
+  "status": "current",
+  "merged_id": "CWC-1334",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] And Others vs State Of U.P. Thru. Secy. Home Lko. And Others",
+  "display_title_redacted": "[name withheld] And Others vs State Of U.P. Thru. Secy. Home Lko. And Others",
+  "state": "Uttar Pradesh",
+  "district": "Bahraich",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Police Station Matera, District Bahraich",
+  "court": "High Court of Judicature at Allahabad, Lucknow Bench",
+  "court_as_verified": "High Court of Judicature at Allahabad, Lucknow Bench",
+  "bench": null,
+  "case_title": "[name withheld] And Others vs State Of U.P. Thru. Secy. Home Lko. And Others",
+  "case_number": "CRIMINAL MISC. WRIT PETITION No. - 9068 of 2025",
+  "citation": null,
+  "judges": [
+   "Abdul Moin",
+   "Babita Rani"
+  ],
+  "judgment_date": "2025-10-30",
+  "date_precision": "day",
+  "judgment_year": 2025,
+  "incident_date": "2025-09-18",
+  "incident_year": 2025,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "false_implication_fabrication",
+  "subcategory": "false_implication_fabrication",
+  "subcategory_display": "false implication fabrication",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Section 189 of BNSS, 2023 / Section 169 Cr.P.C."
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Police personnel",
+    "role": "held_liable",
+    "unit": "Police Station Matera, District Bahraich",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police personnel, Police Station Matera, District Bahraich"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": false,
+  "victim_count": 1,
+  "sentence_type": "compensation_only",
+  "sentence_max_years": null,
+  "compensation_inr": 50000,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/189713960/",
+  "secondary_sources": [],
+  "summary": "The High Court held that the conversion FIR dated 13.09.2025 was a glaring example of authorities acting to score brownie points. The High Court held that despite the woman's statement that she had gone on her own accord and return of jewellery, the authorities failed to release the petitioner under Section 169 Cr.P.C. / Section 189 BNSS. The High Court quashed the FIR and ordered immediate release if not wanted elsewhere. The High Court imposed exemplary cost of Rs. 75,000 on the State, with Rs. 50,000 to petitioner no.1 and Rs. 25,000 to Legal Aid.",
+  "summary_verified": "The High Court held that the conversion FIR dated 13.09.2025 was a glaring example of authorities acting to score brownie points. The High Court held that despite the woman's statement that she had gone on her own accord and return of jewellery, the authorities failed to release the petitioner under Section 169 Cr.P.C. / Section 189 BNSS. The High Court quashed the FIR and ordered immediate release if not wanted elsewhere. The High Court imposed exemplary cost of Rs. 75,000 on the State, with Rs. 50,000 to petitioner no.1 and Rs. 25,000 to Legal Aid.",
+  "court_quote": "in order to score brownie points on the basis of the FIR",
+  "court_quote_para": "para 7",
+  "confidence": "medium",
+  "verdict": "accept",
+  "verdict_note": "Verified against the cited judgment.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Material fact supported",
+    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2025-10-30",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Judicature at Allahabad, Lucknow Bench",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court of Judicature at Allahabad, Lucknow Bench recorded adverse findings against police personnel.",
+    "disposition": "adverse finding compensation",
+    "source": "CRIMINAL MISC. WRIT PETITION No. - 9068 of 2025",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-24",
+    "scope": "Swarm scout and independent verification pass (Muse Spark)."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-24",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/189713960/",
+    "link_checked": null
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": false,
+  "verified_by": [
+   "swarm-verify-cop-up-hc"
+  ],
+  "merged_case_id": "cop-up-hc-3",
+  "officers_named_public": 0,
+  "record_flag": null
  }
 ]

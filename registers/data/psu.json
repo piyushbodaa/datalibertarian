@@ -733,6 +733,89 @@
       "verification": "V2"
     },
     {
+      "id": "psu-ar-0005",
+      "category": "dfi",
+      "state": "Arunachal Pradesh",
+      "name": "Arunachal Pradesh Industrial Development & Financial Corporation Ltd (APIDFCL/APIDFC)",
+      "summary": "The Arunachal Pradesh Industrial Development & Financial Corporation Ltd is a Government of Arunachal Pradesh undertaking incorporated on 9 August 1978 under the Companies Act 1956. It acts as the state's apex industrial development and financial institution lending term loans to APST entrepreneurs. Its most recent verifiable official statement gives a 51.07% / 48.93% equity split involving the Ministry of Tribal Affairs.",
+      "date": "1978-08-09",
+      "district": "Papum Pare",
+      "headquarters": "Itanagar, Arunachal Pradesh",
+      "state_link": "Official site describes it as 'a Government of Arunachal Pradesh Undertaking' headquartered at C Sector, Itanagar 791111, Arunachal Pradesh",
+      "owner": "State government (Arunachal Pradesh)",
+      "shareholding": "51.07% stated as held by APIDFCL and 48.93% by Ministry of Tribal Affairs, as worded on company site; as-of date not stated — see caveats",
+      "administrative": "Government of Arunachal Pradesh (specific department not stated on cited pages)",
+      "legal_form": "Government company (incorporated under the Companies Act 1956)",
+      "established": "1978 by incorporation under the Companies Act 1956",
+      "status": "Operating",
+      "detail": [
+        "The corporation is named as 'The Arunachal Pradesh Industrial Development & Financial Corporation Ltd (APIDFCL)' and described as 'a Government of Arunachal Pradesh Undertaking was incorporated on 9th August,1978 under the Companies Act 1956' (company_site, apidfc.in).",
+        "Its mandate is stated as 'The Corporation was established as the Apex Industrial Development & Financial Institution for promotion of Industries and to act as catalyst for growth of entrepreneurship, Industrialization and employment generation for tribal populace of the state' and 'lending financial assistance by way of term loan only to APST entrepreneurs' (company_site, apidfc.in).",
+        "The site states 'The 51.07% equity share is held by the APIDFCL and 48.93% equity share is held by Ministry of Tribal Affairs' — wording is circular as published; no as-of date, paid-up capital amount, or annual figures were available on pages opened (company_site, apidfc.in).",
+        "Contact page gives address as 'C Sector, Near Capital Auto Agency, Itanagar 791111, Arunachal Pradesh' with Managing Director contact mdapidfcl@gmail.com (company_site, apidfc.in/contact)."
+      ],
+      "caveats": "No 2025 or 2026 results, disinvestment, merger, revival, CAG finding, or new project found on pages opened; financials (revenue, profit, net worth) and employees not available so left null. Shareholding sentence on site is circular ('held by the APIDFCL') with no as-of date. District Papum Pare inferred from Itanagar location, not stated on cited pages. Headquarters city from contact address.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.apidfc.in/",
+          "kind": "company_site",
+          "publisher": "Arunachal Pradesh Industrial Development & Financial Corporation Ltd",
+          "date": null,
+          "supports": "official name, state-undertaking status, incorporation date 1978-08-09 under Companies Act 1956, mandate, 51.07%/48.93% share split wording"
+        },
+        {
+          "url": "https://www.apidfc.in/contact",
+          "kind": "company_site",
+          "publisher": "Arunachal Pradesh Industrial Development & Financial Corporation Ltd",
+          "date": null,
+          "supports": "Itanagar C Sector address Itanagar 791111 Arunachal Pradesh"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-ar-0006",
+      "category": "departmental",
+      "state": "Arunachal Pradesh",
+      "name": "Arunachal Pradesh State Transport Services (APSTS)",
+      "summary": "Arunachal Pradesh State Transport Services is the state-owned road transport service of Arunachal Pradesh under the state's Transport Ministry/Department. It is headquartered at the APSTS Bus Station, Itanagar, and was established on 15 December 1975. The state portal links 'APSTS Bus Services' to apsts.arunachal.gov.in, indicating operation as a departmental service.",
+      "date": "1975-12-15",
+      "district": "Papum Pare",
+      "headquarters": "Itanagar, Arunachal Pradesh",
+      "state_link": "State-owned service of the Government of Arunachal Pradesh, headquartered at APSTS Bus Station Itanagar; state portal lists 'APSTS Bus Services'",
+      "owner": "State government (Arunachal Pradesh)",
+      "administrative": "Ministry/Department of Transport, Government of Arunachal Pradesh",
+      "legal_form": "Departmental undertaking (state transport service; separate RTC Act incorporation not confirmed on pages opened)",
+      "established": "1975 (15 December 1975 reported; establishing instrument not confirmed)",
+      "status": "Operating",
+      "detail": [
+        "APSTS is described as 'Arunachal Pradesh State Transport Services (or APSTS) is the state-owned road transport corporation in the Indian state of Arunachal Pradesh' and 'Public Sector Corporation under the Ministry of Transport of the State Government's of Arunachal Pradesh' (tertiary source, Wikipedia excerpt).",
+        "Its headquarters 'are located at APSTS Bus Station of Itanagar' and establishment timing is shown as '15 December 1975' with trade focus 'Public transport bus service' (tertiary source, Wikipedia excerpt).",
+        "The Arunachal Pradesh state portal's only reference is a services entry titled 'APSTS Bus Services' linking to 'https://apsts.arunachal.gov.in/' (government portal, arunachalpradesh.gov.in), supporting continued operation as a state service.",
+        "No separate legal identity, statute, financials, fleet size, or 2025-2026 official development could be confirmed from official pages opened; treated as departmental undertaking for this inventory rather than a confirmed statutory corporation."
+      ],
+      "caveats": "Establishment date, ownership structure and HQ from tertiary excerpt only; no official APSTS annual report, gazette, or Transport Department order opened to confirm RTC-Act status, financials, or employees — all left null. No 2025-2026 official development found. District inferred from Itanagar. Legal form classified as departmental undertaking because 'Services' and gov.in hosting indicate departmental operation, but statutory creation cannot be ruled out.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Arunachal_Pradesh_State_Transport_Services",
+          "kind": "news",
+          "publisher": "Wikipedia (tertiary; not official)",
+          "date": null,
+          "supports": "name APSTS, state-owned, under Ministry of Transport, HQ APSTS Bus Station Itanagar, establishment 15 December 1975, public transport bus service"
+        },
+        {
+          "url": "https://arunachalpradesh.gov.in/",
+          "kind": "company_site",
+          "publisher": "Government of Arunachal Pradesh (state portal)",
+          "date": null,
+          "supports": "state portal lists 'APSTS Bus Services' linking to apsts.arunachal.gov.in"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "psu-as-0001",
       "category": "cpse",
       "state": "Assam",
@@ -1259,6 +1342,47 @@
         }
       ],
       "verification": "V2"
+    },
+    {
+      "id": "psu-ch-0006",
+      "category": "departmental",
+      "state": "Chandigarh",
+      "name": "Chandigarh Transport Undertaking (CTU)",
+      "summary": "Chandigarh Transport Undertaking (CTU) is the public transport unit of the Chandigarh administration. It is run directly as a departmental undertaking, managed by the Home Secretary acting as transport secretary and director. No 2025 or 2026 official development could be verified from accessible pages, so the last verified milestone reported here is its creation on 01.11.1966.",
+      "date": "1966-11-01",
+      "district": "Chandigarh",
+      "headquarters": "Chandigarh, Chandigarh",
+      "state_link": "Owned and operated by the Chandigarh administration; headquarters at Plot No. 701, Industrial Area Phase I, Chandigarh 160001.",
+      "owner": "Union Territory Administration (Chandigarh)",
+      "administrative": "Chandigarh Administration (Transport Department; managed by Home Secretary)",
+      "legal_form": "Departmental undertaking",
+      "established": "1966 as a result of trifurcation of Punjab Roadways at re-organisation of Punjab State",
+      "status": "Operating",
+      "detail": [
+        "CTU is described as 'the public transport unit of the Chandigarh administration in India', per the Chandigarh Transport Undertaking page.",
+        "CTU 'came into existence on 01.11.1966 with a fleet of 30 buses, as a result of trifurcation of Punjab Roadways at the time of re-organisation of Punjab State', per the same page.",
+        "'It is managed by the Home Secretary, who acts as transport secretary and director', per the same page, supporting departmental (no separate legal identity) status.",
+        "'CTU has 603 buses, out of which 436 buses serve the Chandigarh region', and its listed address is 'Plot No. 701, Chandigarh Transport Undertaking, Industrial Area Phase I, Chandigarh, 160001', per the same page; year for fleet figure not stated on page."
+      ],
+      "caveats": "No 2025 or 2026 official development such as results, e-bus induction order, CAG finding or merger could be verified because official sites (chdctu.gov.in, chandigarh.gov.in) and PIB/DPE pages could not be opened (certificate/403 errors) and the accessible CTU page contains no e-bus/depot sentences for those years. Financials, employees and shareholding not available on pages opened, left null. Date shown is establishment date, the only dated verified milestone, not a recent development.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Chandigarh_Transport_Undertaking",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "CTU ownership by Chandigarh administration, establishment 01.11.1966 from Punjab Roadways trifurcation, management by Home Secretary, headquarters address, fleet 603 buses with 436 serving Chandigarh region"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Northern_Railway_zone",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "Northern Railway headquartered at Baroda House New Delhi, not Chandigarh; Chandigarh served only by Chandigarh station (CDG) — why railway zone not chosen as Chandigarh-headquartered departmental unit"
+        }
+      ],
+      "verification": "V1"
     },
     {
       "id": "psu-ct-0006",
@@ -1871,6 +1995,108 @@
           "publisher": "Wikipedia (tertiary; cites official sources)",
           "date": null,
           "supports": "Mormugao among India's 14 major ports as of 2024"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-ga-0009",
+      "category": "jv",
+      "state": "Goa",
+      "name": "Konkan Railway Corporation Limited (KRCL)",
+      "summary": "Konkan Railway Corporation Limited is a Government railway company operating the 741-kilometre line connecting Maharashtra, Goa and Karnataka. It was set up as a centre-state vehicle with equity from the Government of India and the states of Maharashtra, Karnataka, Kerala and Goa. Its full Roha-Mangalore operations commenced on 26 January 1998 and it is headquartered at CBD Belapur in Navi Mumbai.",
+      "date": "1998-01-26",
+      "headquarters": "CBD Belapur, Navi Mumbai, Maharashtra",
+      "state_link": "Goa holds equity in the venture (6% per one source) and the line serves Goa on the Maharashtra-Goa-Karnataka route.",
+      "owner": "Central government (one source says 100% Government of India; another source describes a joint 51% GoI plus states structure including Goa — see caveats)",
+      "administrative": "Ministry of Railways",
+      "legal_form": "Government company",
+      "established": "1990 as a company; full train operations from 1998-01-26",
+      "status": "Operating",
+      "detail": [
+        "Konkan Railway is described as created on 19 July 1990, with the first passenger train on 20 March 1993 between Udupi and Mangalore and full operations of trains on 26 January 1998 (source: Konkan Railway Corporation Limited page).",
+        "One page describes funding as Government of India 51%, Maharashtra 22%, Karnataka 15%, Kerala 6% and Goa 6%, with headquarters at CBD Belapur in Navi Mumbai (source: Konkan Railway page). A separate corporation page says it is wholly owned by the Government of India (100%) and headquartered at CBD Belapur in Navi Mumbai (source: Konkan Railway Corporation Limited page).",
+        "The operator's own site identifies the operator as Konkan Railway Corporation Limited, Ministry of Railways and describes the 741-kilometre line connecting Maharashtra, Goa and Karnataka States (source: konkanrailway.com homepage).",
+        "A later upgrade note states partial doubling and full Roha-Thokur wiring finished March 2022 (source: Konkan Railway page, month precision only, no exact day given)."
+      ],
+      "caveats": "Shareholding left null because two opened pages conflict (51%+states including Goa 6% vs 100% GoI) and no official KRCL annual report/MCA filing could be fetched to resolve it; official 2024-25 or 2025-26 revenue/profit/employees not available in fetchable pages so financials and employees left null; district left null because exact district of Belapur not stated in opened excerpts; date uses last exact-day milestone (1998-01-26) since March 2022 wiring lacked a day and no 2025-2026 audited results or press release could be fetched; DuckDuckGo search, DPE, PIB and several KRCL subpages failed to fetch (cert/403/socket errors).",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Konkan_Railway",
+          "kind": "news",
+          "publisher": "Wikipedia (tertiary, non-official; used only for HQ/shareholding/history where official pages were not fetchable)",
+          "date": null,
+          "supports": "51%/22%/15%/6%/6% split; HQ CBD Belapur; history including March 2022 wiring and Goa realignment context"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Konkan_Railway_Corporation_Limited",
+          "kind": "news",
+          "publisher": "Wikipedia (tertiary, non-official; used only where official pages were not fetchable)",
+          "date": null,
+          "supports": "created 19 July 1990; full ops 26 Jan 1998; first train 20 Mar 1993; wholly-owned 100% GoI statement; HQ CBD Belapur"
+        },
+        {
+          "url": "https://konkanrailway.com/",
+          "kind": "company_site",
+          "publisher": "Konkan Railway Corporation Limited",
+          "date": null,
+          "supports": "operator Ministry of Railways; 741-km line connects Maharashtra, Goa and Karnataka; Annual Accounts labels listed without figures"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-ga-0010",
+      "category": "municipal",
+      "state": "Goa",
+      "name": "Imagine Panaji Smart City Development Limited (IPSCDL)",
+      "summary": "Imagine Panaji Smart City Development Limited is a wholly owned Government Company and Special Purpose Vehicle of the Government of Goa for Panaji city. It serves as State Mission Directorate for AMRUT and State Mission Management Unit for the Smart Cities Mission. Its official site as accessed in September 2026 catalogues completed Panaji-area civic interventions.",
+      "date": "2026-09-24",
+      "district": "North Goa",
+      "headquarters": "Panaji, Goa – 403001",
+      "state_link": "Wholly owned SPV of the Government of Goa for Panaji city; Smart City SPVs are municipal-type enterprises.",
+      "owner": "State government (Goa)",
+      "shareholding": "Government of Goa 100% (described as wholly owned Government Company; no as-of date or percentage breakdown beyond wholly owned given)",
+      "administrative": "Government of Goa (also State Mission Directorate/Management Unit for AMRUT and Smart Cities Mission)",
+      "legal_form": "Government company (Special Purpose Vehicle)",
+      "status": "Operating",
+      "detail": [
+        "The company states it is a wholly owned Government Company and Special Purpose Vehicle of the Government of Goa, formed to bring development of smart urban infrastructural facilities/projects for Panaji City (source: imaginepanaji.com homepage and about page).",
+        "It serves as State Mission Directorate for AMRUT and State Mission Management Unit for Smart Cities Mission (source: imaginepanaji.com about page).",
+        "Its headquarters is given as Rua Joao Castro Road, near Old Patto Bridge, Panaji, Goa – 403001 (source: imaginepanaji.com contact page).",
+        "The site catalogues dozens of finished Panaji-area interventions spanning oversight technology, seafront, footpaths, lighting, waste and parking, with no per-scheme finish dates shown in excerpts (source: imaginepanaji.com homepage)."
+      ],
+      "caveats": "No dated 2025-2026 annual report, accounts, employee count or financials could be fetched, so financials, employees and established left null; date is verification date of live official site (2026-09-24, task date) not a new launch, because no per-project completion dates were shown in excerpts; district North Goa inferred from Panaji location, not explicitly stated in excerpts; Smart Cities Mission central closure materials and MoHUA pages failed to fetch (403/refused).",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.imaginepanaji.com/",
+          "kind": "company_site",
+          "publisher": "Imagine Panaji Smart City Development Limited",
+          "date": null,
+          "supports": "wholly owned Government Company SPV of Government of Goa; purpose for Panaji; projects catalogue"
+        },
+        {
+          "url": "https://www.imaginepanaji.com/about",
+          "kind": "company_site",
+          "publisher": "Imagine Panaji Smart City Development Limited",
+          "date": null,
+          "supports": "wholly owned SPV; State Mission Directorate for AMRUT; State Mission Management Unit for Smart Cities Mission"
+        },
+        {
+          "url": "https://www.imaginepanaji.com/contact",
+          "kind": "company_site",
+          "publisher": "Imagine Panaji Smart City Development Limited",
+          "date": null,
+          "supports": "HQ address Panaji, Goa – 403001"
+        },
+        {
+          "url": "https://cag.gov.in/",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": null,
+          "supports": "CAG lists Goa Reports No.3 and No.4 of 2025; shows recency of Goa PSU oversight context only"
         }
       ],
       "verification": "V2"
@@ -3353,6 +3579,172 @@
       "verification": "V2"
     },
     {
+      "id": "psu-kl-0009",
+      "category": "jv",
+      "state": "Kerala",
+      "name": "Kochi Metro Rail Limited (KMRL)",
+      "summary": "Kochi Metro Rail Limited builds and operates the Kochi Metro rapid-transit system and is jointly controlled by the Central and Kerala governments, with Union Housing and Urban Affairs Ministry nominees and Kerala government secretaries sitting together on its board. Its most recent official publications are the 14th Annual Report for 2024-25 (posted December 2025) and the Annual Return for 2024-25 (posted February 2026). The latest readable results on its site cover FY2023-24, when metro operations earned an operating surplus but the company reported a large overall pre-tax loss.",
+      "date": "2026-02-13",
+      "district": "Ernakulam",
+      "headquarters": "Kochi, Kerala",
+      "state_link": "Jointly owned with the Government of Kerala; headquarters at JLN Metro Station, Kaloor, Kochi (Ernakulam district), Kerala",
+      "owner": "Joint (Government of India + Government of Kerala)",
+      "administrative": "Ministry of Housing and Urban Affairs (Centre); Transport (Metro) Department, Government of Kerala",
+      "legal_form": "Government company (joint-venture special purpose vehicle for the Kochi Metro)",
+      "established": "2011 as an SPV of the Centre and the State for the Kochi Metro (first annual report covers 2011-12)",
+      "status": "Loss-making",
+      "financials": "FY2023-24 (company site): metro operations revenue Rs 151.30 crore; other income Rs 16.93 crore; metro operating expenses Rs 145.29 crore; operating surplus Rs 22.94 crore; loss before tax Rs 433.49 crore",
+      "detail": [
+        "KMRL describes its mission as making Kochi more liveable through public transit and shifting from a metro builder-operator toward an integrated urban-mobility provider across bus, boat, auto, taxi and metro modes, per its official about page, which also lists the Annual Report 2024-25 in English and Hindi among its latest publications.",
+        "Joint ownership is evidenced on the company's official board page: the 12-member board includes four Centre-linked nominee directors (OSD(UT), Joint Secretary and Additional Secretary of the Ministry of Housing and Urban Affairs, plus an NCRTC finance director) alongside four Kerala-government nominees (the Chief Secretary, Additional Chief Secretary (Finance), Secretary Transport (Metro), and the Ernakulam District Collector), chaired by Shri Srinivas R Katikithala with Shri Loknath Behera as Managing Director.",
+        "The company's project page lists the operating extent as Aluva to SN Junction (24 stations), with Phase IA (Petta to SN Junction) and Phase IB (SN Junction to Thripunithura Terminal) extensions and a JLN Stadium to Infopark corridor whose detailed project report was submitted to the Central Government.",
+        "For FY2023-24 the company site reports metro operations revenue of Rs 151.30 crore plus Rs 16.93 crore of other income, Rs 145.29 crore of metro operating expenses yielding a Rs 22.94 crore operating surplus, but after finance costs of about Rs 294.22 crore, depreciation of about Rs 179.54 crore and other comprehensive deficit, a pre-tax shortfall of Rs 433.49 crore; core transit intake of about Rs 168.23 crore was up about Rs 36.01 crore (27.24%) on the prior year."
+      ],
+      "caveats": "Exact current equity percentages could not be confirmed: the large annual-report PDFs exceeded fetch limits and the Annual Return 2024-25 PDF (posted at a February 2026 file path, hence the date above) downloaded as unreadable binary, so the date is inferred from the official upload path. Employee count and FY2024-25 figures are therefore left null. The commonly cited equal Centre-State equity split is not asserted because no readable official page verified it.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://kochimetro.org/about-us/",
+          "kind": "company_site",
+          "publisher": "Kochi Metro Rail Limited",
+          "date": null,
+          "supports": "vision/mission and Annual Report 2024-25 listing"
+        },
+        {
+          "url": "https://kochimetro.org/annual-reports/",
+          "kind": "company_site",
+          "publisher": "Kochi Metro Rail Limited",
+          "date": null,
+          "supports": "FY2023-24 financial figures; Annual Report 2024-25 and Annual Return 2024-25 file links with 2025/2026 upload paths"
+        },
+        {
+          "url": "https://kochimetro.org/contact-us/",
+          "kind": "company_site",
+          "publisher": "Kochi Metro Rail Limited",
+          "date": null,
+          "supports": "headquarters address (JLN Metro Station, Kaloor, Ernakulam)"
+        },
+        {
+          "url": "https://kochimetro.org/board-of-directors/",
+          "kind": "company_site",
+          "publisher": "Kochi Metro Rail Limited",
+          "date": null,
+          "supports": "joint Centre-State board composition, chairman and managing director"
+        },
+        {
+          "url": "https://kochimetro.org/the-project/",
+          "kind": "company_site",
+          "publisher": "Kochi Metro Rail Limited",
+          "date": null,
+          "supports": "operating corridors, phases and Phase 2 DPR status"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-kl-0010",
+      "category": "municipal",
+      "state": "Kerala",
+      "name": "Kerala Water Authority (KWA)",
+      "summary": "The Kerala Water Authority is the state statutory body and nodal agency for drinking-water supply and sewerage schemes in Kerala, headquartered at Jalabhavan, Vellayambalam, Thiruvananthapuram. It was created on 1 April 1984 under the Kerala Water and Waste Water Ordinance 1984, replaced by the Kerala Water Supply and Sewerage Act 1986 (Act 14 of 1986). Its most recent substantive official development is the 13 March 2026 launch of phase-1 construction of the Rs 260 crore Koipram Jal Jeevan Mission drinking-water scheme in Pathanamthitta district.",
+      "date": "2026-03-13",
+      "district": "Thiruvananthapuram",
+      "headquarters": "Thiruvananthapuram, Kerala",
+      "state_link": "Kerala state statutory water board headquartered in the state capital, implementing state-wide water supply and sewerage schemes",
+      "owner": "State government (Kerala)",
+      "administrative": "Water Resources Department, Government of Kerala",
+      "legal_form": "Statutory corporation (Kerala Water Supply and Sewerage Act 1986, Act 14 of 1986)",
+      "established": "1984: founded 1 April 1984 under the Kerala Water and Waste Water Ordinance 1984; ordinance replaced by the 1986 Act",
+      "status": "Operating",
+      "detail": [
+        "The Authority's official about page states that the Kerala Water Supply and Sewerage Act 1986 (Act 14 of 1986) replaced the 1984 ordinance, and describes KWA as one of the nodal agencies for implementing water supply and sewerage schemes in the State, with organised piped water supply in Kerala dating to the early twentieth century.",
+        "On 13 March 2026 the Authority reported the construction launch of the first phase of the Koipram drinking-water scheme after a nine-year wait, inaugurated by Minister Veena George with Water Resources Minister Roshi Augustin joining online (facts translated from the official Malayalam post).",
+        "The post describes a Rs 260 crore comprehensive Jal Jeevan Mission scheme covering seven village councils (Koipram, Puramattam, Thottapuzhassery, Ezhumattoor, Iraviperoor, Kalloppara, Kunnanthananm) across Aranmula, Thiruvalla and Ranni constituencies, termed the district's largest drinking-water scheme, to supply treated water to 1.5 lakh people; current works costing Rs 109.5 crore include a 40-million-litre treatment plant and a 12-metre-diameter intake well, with Rs 10.58 crore of state funds for land at Poovathoor.",
+        "KWA's finance-and-accounts page lists Annual Accounts, Budget Estimates, Receipts and Payments, Income and Expenditure and Audit Reports sections, but no figures were readable in the fetched excerpts, so enterprise financials and headcount are left null."
+      ],
+      "caveats": "Enterprise-level financials and employee strength could not be confirmed from readable official pages, so both are null; the Rs 260 crore and Rs 109.5 crore figures are project costs, not enterprise revenue. Scheme details are translated from the Authority's Malayalam post. Shareholding is null because KWA is a statutory body with no share capital.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://kwa.kerala.gov.in/en/",
+          "kind": "company_site",
+          "publisher": "Kerala Water Authority",
+          "date": null,
+          "supports": "creation date and ordinance, nodal-agency role, headquarters address"
+        },
+        {
+          "url": "https://kwa.kerala.gov.in/en/about_kwa/",
+          "kind": "company_site",
+          "publisher": "Kerala Water Authority",
+          "date": null,
+          "supports": "1986 Act replacing the ordinance, nodal-agency status, history"
+        },
+        {
+          "url": "https://kwa.kerala.gov.in/en/news/",
+          "kind": "company_site",
+          "publisher": "Kerala Water Authority",
+          "date": null,
+          "supports": "2026 news items and their dates"
+        },
+        {
+          "url": "https://kwa.kerala.gov.in/en/2026/03/13/%e0%b4%aa%e0%b4%a4%e0%b5%8d%e0%b4%a4%e0%b4%a8%e0%b4%82%e0%b4%a4%e0%b4%bf%e0%b4%9f%e0%b5%8d%e0%b4%9f-%e0%b4%95%e0%b5%8b%e0%b4%af%e0%b4%bf%e0%b4%aa%e0%b5%8d%e0%b4%b0%e0%b4%82-%e0%b4%9c%e0%b4%b2%e0%b4%9c/",
+          "kind": "company_site",
+          "publisher": "Kerala Water Authority",
+          "date": "2026-03-13",
+          "supports": "Koipram scheme costs, coverage, works and ministers"
+        },
+        {
+          "url": "https://kwa.kerala.gov.in/en/finance-accounts/",
+          "kind": "company_site",
+          "publisher": "Kerala Water Authority",
+          "date": null,
+          "supports": "existence of annual accounts and audit report sections (no figures)"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-kl-0011",
+      "category": "sick",
+      "state": "Kerala",
+      "name": "Kerala Paper Products Limited (KPPL, formerly Hindustan Newsprint Limited)",
+      "summary": "Kerala Paper Products Limited (KPPL, formerly Hindustan Newsprint Limited) is the newsprint mill company of Kottayam district incorporated in 1983 as a Central government company, for whose privatisation the Government of India announced plans in October 2016. After an insolvency sale process in which the resolution professional offered the company at Rs 360 crore, Kerala's KINFRA bid Rs 146 crore on behalf of the state government and took it over; it was renamed KPPL in 2021 and is now a Kerala state PSU under revival. No 2025-2026 official development could be verified because central and CAG portals were unreachable, so the entry is anchored on the 2021 takeover milestone with full disclosure.",
+      "date": "2021-01-30",
+      "district": "Kottayam",
+      "headquarters": "Kottayam, Kerala",
+      "state_link": "Acquired by KINFRA on behalf of the Government of Kerala and now a Kerala state PSU; mill company of Kottayam district",
+      "owner": "State government (Kerala) (since takeover; formerly Central government)",
+      "administrative": "Government of Kerala (acquired through KINFRA, the Kerala Industrial Infrastructure Development Corporation)",
+      "legal_form": "Government company",
+      "established": "1983: incorporated 7 June 1983 under the Companies Act 1956 as Hindustan Newsprint Ltd; renamed Kerala Paper Products Limited in 2021",
+      "status": "Loss-making",
+      "detail": [
+        "Hindustan Newsprint was incorporated under the Companies Act 1956 on 7 June 1983 in Kottayam district as a Central public-sector government company, and on 28 October 2016 the Government of India announced its privatisation, per the company history summary (the cited Economic Times article is dated 28 October 2016; the Wikipedia body text erroneously says 28 October 2017).",
+        "The company went through an insolvency sale: the resolution professional put it up for sale at Rs 360 crore, KINFRA (acquiring on behalf of the Kerala government and not intending to operate it directly) quoted Rs 146 crore, and the state offer was cleared by the adjudicating forum in late 2019, per contemporaneous reporting and cited records.",
+        "KINFRA's acquisition nod was reported on 30 January 2021, the company was renamed Kerala Paper Products Limited in 2021, and it is now recorded as a public-sector undertaking under the Government of Kerala; a 2022 account describes how the state government revived the loss-making PSU acquired from the Centre.",
+        "Enterprise financials, current operating status and headcount are left null: sale-process figures are transaction values rather than company accounts, and no readable CAG, DPE, DIPAM or government-order page for 2025-2026 could be opened to confirm the latest revival position."
+      ],
+      "caveats": "Official recent evidence (CAG, DPE, DIPAM, government order) for 2025-2026 could not be opened: cag.gov.in, dpe.gov.in, dipam.gov.in and pib.gov.in refused connections, and the KPPL/KINFRA project pages were unreachable, so the date reflects the news-reported January 2021 acquisition nod rather than a fresh official order. Current production status, financials, shareholding and headcount are unverified and left null; sale figures above are bid values, not accounts.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hindustan_Newsprint",
+          "kind": "news",
+          "publisher": "Wikipedia (tertiary summary of company history; used only where official pages were unreachable)",
+          "date": null,
+          "supports": "incorporation date and place, Central-PSU status, 2017 privatisation announcement, rename to KPPL in 2021, now a Kerala PSU, late-2019 clearance of Rs 146 crore offer"
+        },
+        {
+          "url": "https://www.onmanorama.com/news/kerala/2021/01/30/kinfra-gets-nod-to-acquire-ailing-hindustan-newsprint-ltd.html",
+          "kind": "news",
+          "publisher": "OnManorama",
+          "date": "2021-01-30",
+          "supports": "KINFRA acquiring HNL for the Kerala government, Rs 360 crore ask, Rs 146 crore state bid"
+        }
+      ],
+      "verification": "V1"
+    },
+    {
       "id": "psu-mh-0001",
       "category": "cpse",
       "state": "Maharashtra",
@@ -4027,6 +4419,51 @@
       "verification": "V2"
     },
     {
+      "id": "psu-mz-0002",
+      "category": "state",
+      "state": "Mizoram",
+      "name": "Mizoram Handloom & Handicrafts Development Corporation Ltd. (ZOHANDCO)",
+      "summary": "Mizoram Handloom & Handicrafts Development Corporation Ltd. (ZOHANDCO) is a Government of Mizoram Undertaking for handloom and handicrafts development. Its official site confirms 2026 activity including State Handloom Expo Aizawl 2026 and extension of an auction notice until 5th June, 2026.",
+      "date": "2026-06-05",
+      "district": "Aizawl",
+      "headquarters": "Not published on official site",
+      "state_link": "Described on its official site as 'A Government of Mizoram Undertaking'",
+      "owner": "State government (Mizoram)",
+      "legal_form": "Government company",
+      "status": "Operating",
+      "detail": [
+        "According to the official homepage, the entity is titled 'Mizoram Handloom & Handicrafts Development Corporation Ltd. (ZOHANDCO)' and is described as 'A Government of Mizoram Undertaking' under 'Government of Mizoram, India'.",
+        "According to the official homepage's 'Latest Updates' sidebar, 2026 activity includes 'STATE HANDLOOM EXPO AIZAWL. 2026', '12th INDIA INTERNATIONAL MSME EXPO & SUMMIT -2026 CHUNGCHANG' and 'Extension of Auction Notice until 5th June, 2026 (Friday)', indicating continued operating activity in 2026.",
+        "The official Contact Us page currently states 'To be update' and does not publish an address, phone, or email."
+      ],
+      "caveats": "Incorporation year, shareholding percentages, administrative department, financial figures, employee count, and official headquarters address could not be confirmed from pages opened; district Aizawl inferred from expo name; exact publication date of expo notices not shown, so dated auction extension used as date.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://zohandco.mizoram.gov.in/",
+          "kind": "company_site",
+          "publisher": "Government of Mizoram / ZOHANDCO",
+          "date": null,
+          "supports": "official full name and Government of Mizoram Undertaking status"
+        },
+        {
+          "url": "https://zohandco.mizoram.gov.in/page/contact-us",
+          "kind": "company_site",
+          "publisher": "Government of Mizoram / ZOHANDCO",
+          "date": null,
+          "supports": "Aizawl office address, phone and email"
+        },
+        {
+          "url": "https://zohandco.mizoram.gov.in/category/news",
+          "kind": "company_site",
+          "publisher": "Government of Mizoram / ZOHANDCO",
+          "date": null,
+          "supports": "2026 expo and 5th June 2026 auction-notice extension as most recent development"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "psu-mz-0009",
       "category": "jv",
       "state": "Mizoram",
@@ -4487,6 +4924,37 @@
           "publisher": "Comptroller and Auditor General of India",
           "date": null,
           "supports": "Punjab reports listed are State Revenues, Compliance Audit (Civil) and State Finances 2023-24; no PSU-specific Punjab report in excerpt"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-py-0002",
+      "category": "state",
+      "state": "Puducherry",
+      "name": "Puducherry Distilleries Limited (PDL)",
+      "summary": "Puducherry Distilleries Limited is a Puducherry government-owned distillery enterprise whose official website identifies it as 'A Government of Puducherry undertaking'. It publishes active procurement notices on the Government of Puducherry portal (py.gov.in). Its most recent official development is two notices dated 12-09-2026 for auction of scrap and supply of aluminium caps.",
+      "date": "2026-09-12",
+      "district": "Puducherry",
+      "headquarters": "Puducherry, Puducherry",
+      "state_link": "Identified on its official website (pdlindia.in) as 'A Government of Puducherry undertaking' wholly subscribed by the Government of Puducherry; its 12-09-2026 tender notices in its name are published on the Government of Puducherry portal (py.gov.in).",
+      "owner": "State government (Puducherry)",
+      "legal_form": "Government company",
+      "status": "Operating",
+      "detail": [
+        "The Government of Puducherry portal groups entities under the heading 'Undertakings/Organisations', and on the same portal lists 'Puducherry Distilleries Ltd. - Auction for the disposal of Scrap Items through Online at www.auctionindia.com dt. 12-09-2026' (source: py.gov.in).",
+        "The same portal also lists 'Puducherry Distilleries Ltd. - Notice Inviting e-Tender for the Supply of Aluminium Caps dt. 12-09-2026' (source: py.gov.in), indicating active operations as of September 2026.",
+        "No official shareholding percentage, financial figures, employee count, or incorporation details were available on the pages actually opened; they are therefore left null (source: py.gov.in excerpt only)."
+      ],
+      "caveats": "Shareholding %, administrative department, incorporation year, financials (revenue/profit), employees, and exact street address could not be confirmed from pages actually opened and are left null. Headquarters district/city inferred from Puducherry government portal listing; exact registered-office address not confirmed. Ownership inferred from listing under Undertakings/Organisations on government portal; exact paid-up capital share not confirmed.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.py.gov.in/",
+          "kind": "government_order",
+          "publisher": "Government of Puducherry",
+          "date": null,
+          "supports": "Undertakings/Organisations heading and two Puducherry Distilleries Ltd notices dated 12-09-2026"
         }
       ],
       "verification": "V2"

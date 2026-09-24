@@ -1047,6 +1047,185 @@
       "verification": "V2"
     },
     {
+      "id": "ef-dl-0004",
+      "category": "trade",
+      "state": "Delhi",
+      "title": "Delhi High Court upholds confiscation of 25 lakh foreign cigarettes and Rs 25 lakh penalty",
+      "summary": "Customs ordered absolute confiscation of 25,01,200 foreign cigarette sticks and a Rs 25 lakh penalty. The Delhi High Court recorded the seizure from a vehicle and a godown. On 13 February 2026 it dismissed the trader's appeal.",
+      "date": "2026-02-13",
+      "date_label": "High Court judgment dismissing appeal",
+      "incident_date": "2018-12-21",
+      "outcome": "confiscation",
+      "authority": "High Court of Delhi at New Delhi (Justice Nitin Wasudeo Sambre, Justice Ajay Digpaul); Commissioner of Customs Preventive; Directorate of Revenue Intelligence",
+      "case_reference": "CUSAA 7/2026 & CM APPL. 7007/2026",
+      "laws": [
+        "Section 130 of the Customs Act, 1962",
+        "Section 2(33) of the Customs Act (prohibited goods)",
+        "Section 2(39) of the Customs Act (Smuggling)",
+        "Section 110 of the Customs Act (Seizure of goods, documents and things)",
+        "Section 111 of the Customs Act (confiscation of improperly imported goods)",
+        "Section 112 of the Customs Act (penalty for improper importation of goods)",
+        "Section 123 of the Customs Act (burden of proof in certain cases)"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "a trader residing in Shakarpur, Delhi",
+      "penalty": "absolute confiscation of 25,01,200 cigarette sticks and penalty of Rs. 25,00,000",
+      "detail": [
+        "The High Court recorded that DRI officers acted on the night of 20th/21st December, 2018, leading to recovery of 150 cigarette cartons from a light commercial vehicle and 33 cartons from a godown.",
+        "The High Court recorded that the adjudicating authority ordered absolute confiscation of the smuggled sticks and imposed a penalty amounting to Rs. 25,00,000.",
+        "The High Court recorded that the appellant was present at the spot and was detained, and that the goods were foreign-origin cigarettes with no duty paid.",
+        "The High Court held that the appeal lacked merit and dismissed it, leaving the confiscation and penalty in place."
+      ],
+      "current_position": "The appeal stands dismissed and the confiscation and penalty stand upheld.",
+      "quote": {
+        "text": "It was evaluated that the total 25,01,200 cigarette sticks of foreign origin were seized from the aforesaid consignment.",
+        "where": "[name withheld] vs Commissioner of Customs Preventive, Delhi High Court judgment dated 13 February 2026, reasons paragraph",
+        "url": "https://indiankanoon.org/doc/110753499/"
+      },
+      "caveats": "Godown street address and district in Delhi could not be confirmed from the excerpt; only vehicle number, Shakarpur residence, and IGI Airport reference were visible.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Moving ordinary cigarettes without paying duty harmed no complaining victim, with no violence, fraud, minors or spurious product alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/110753499/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon (Delhi High Court judgment)",
+          "date": "2026-02-13",
+          "supports": "goods, seizure, confiscation, penalty, dismissal, case number, court, date"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-dl-0005",
+      "category": "capital",
+      "state": "Delhi",
+      "title": "Delhi High Court keeps FEMA penalties for NRNR deposits but sets aside confiscation",
+      "summary": "The Enforcement Directorate penalised three deposit holders for contravention over NRNR accounts opened while in Canada. The Appellate Tribunal and adjudicator had imposed penalties plus confiscation. On 8 April 2026 the Delhi High Court kept the penalties but set aside the confiscation as non-speaking.",
+      "date": "2026-04-08",
+      "date_label": "High Court judgment partially allowing appeals",
+      "outcome": "penalty",
+      "authority": "High Court of Delhi at New Delhi (Justice Navin Chawla, Justice Ravinder Dudeja); Special Director, Directorate of Enforcement; Appellate Tribunal for Foreign Exchange, New Delhi",
+      "case_reference": "MISC. APPEAL (FEMA) 2/2025, 3/2025, 4/2025; Appeal No. 210/2010, 212/2010, 213/2010; Adjudication Order No. ADJ/25-28/B/SDE/RAJ/2010/FEMA dated 17.08.2010",
+      "laws": [
+        "Section 3(b) of FEMA",
+        "Section 6(3)(f) of FEMA",
+        "Regulation 5(1)(iv) and Schedule 4",
+        "Section 13(1) of FEMA",
+        "Section 13(2) of FEMA",
+        "Section 19 of FEMA",
+        "Section 35 of FEMA"
+      ],
+      "acts": [
+        "Foreign Exchange Management Act, 1999"
+      ],
+      "person": "three deposit holders who had lived in Canada",
+      "penalty": "penalties upheld; confiscation of NRNR balances set aside",
+      "detail": [
+        "The High Court recorded that the appellants opened Non-Resident (Non-Repatriable) Rupee Accounts while in Canada and in 2001 obtained loans against those accounts to open further accounts.",
+        "The High Court recorded that the adjudicator found contravention of Section 3(b) read with Section 6(3)(f) and imposed penalties plus confiscation of balances.",
+        "The High Court recorded that the Tribunal's common order dated 31.05.2012 had upheld the action, and the appeals before the High Court were reserved on 11.03.2026.",
+        "The High Court held there was no warrant to interfere with the penalties but the confiscation direction could not be sustained, and partially allowed the appeals."
+      ],
+      "current_position": "Penalties stand; confiscation stands set aside after the 8 April 2026 judgment.",
+      "quote": {
+        "text": "The appeals are partially allowed in the above terms.",
+        "where": "[name withheld] vs Special Director Enf. Dte., Delhi High Court judgment pronounced 08.04.2026, operative paragraph",
+        "url": "https://indiankanoon.org/doc/62481379/"
+      },
+      "caveats": "Penalty amounts in rupees could not be confirmed from the excerpt; only the fact of penalties and confiscation was visible.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Holding deposits and borrowing against them involved no complaining victim, with the judgment noting there was no loss of foreign exchange."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/62481379/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon (Delhi High Court judgment)",
+          "date": "2026-04-08",
+          "supports": "NRNR facts, FEMA provisions, penalty and confiscation history, partial allowance, court, date"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-dl-0006",
+      "category": "business",
+      "state": "Delhi",
+      "title": "Delhi High Court orders sealing of shops and Rs 10,000 spot fines in vendor crackdown",
+      "summary": "MCD removed temporary encroachments and the Delhi High Court directed sealing of shops that encroach or allow unauthorised vendors. The court imposed on-spot fines of Rs 10,000 on traders. On 11 August 2026 it issued directions for Samaypur Badli with a beat officer and STF hearing.",
+      "date": "2026-08-11",
+      "date_label": "High Court order",
+      "incident_date": "2025-04-08",
+      "district": "North Delhi",
+      "outcome": "penalty",
+      "authority": "High Court of Delhi at New Delhi (Justice Prathiba M. Singh, Justice Vikas Mahajan); Municipal Corporation of Delhi; Delhi Police; Special Task Force",
+      "case_reference": "W.P.(C) 425/2025 & CM APPLs.3276/2026, 3379/2026, 4640/2026, 6426/2026, 13426/2026, 13457/2026; CNR No. DLHC011005912024",
+      "laws": [
+        "Article 226 of the Constitution of India",
+        "Section 285 of the Bharatiya Nyaya Sanhita, 2023",
+        "Section 66 Delhi Police Act",
+        "Sections 345A read with 347 Delhi Municipal Corporation Act, 1957",
+        "Section 57(1)(aa) of the Delhi Development Act, 1957"
+      ],
+      "acts": [
+        "Delhi Municipal Corporation Act, 1957",
+        "Delhi Police Act",
+        "Delhi Development Act, 1957",
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "shopkeepers and unauthorised vegetable, fruit and street vendors near Samaypur Badli, Delhi",
+      "penalty": "fines and penalties as permissible under law on traders/vendors; costs of Rs. 25,000 on the SDM; sealing of encroaching shops",
+      "detail": [
+        "The High Court recorded that MCD removed temporary encroachments on 8th April, 2025 near Railway Road, Village Samaypur and the Samaypur Badli station area.",
+        "The High Court ordered deployment of a beat officer from 10:00 A.M. to 8:00 P.M. to prevent re-occurrence of encroachment.",
+        "The High Court ordered that shops of shopkeepers who encroach on the pavements or allow unauthorised vendors to vend shall be sealed.",
+        "The High Court directed all concerned parties to appear before the Special Task Force on 7th September, 2026."
+      ],
+      "current_position": "Removal, sealing and fine directions stand with STF review listed for 7 September 2026.",
+      "quote": {
+        "text": "The shops of shopkeepers who encroach on the pavements or allow unauthorised vendors to vend, shall also be sealed.",
+        "where": "[name withheld] vs Municipal Corporation of Delhi, Delhi High Court order dated 11th August 2026, directions paragraph",
+        "url": "https://indiankanoon.org/doc/180873305/"
+      },
+      "caveats": "Whether individual vendors were fined on the spot in Samaypur, beyond the direction, could not be confirmed from the excerpt.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Selling vegetables, fruit and street goods without a designated spot harmed no complaining victim and involved no violence, fraud or unsafe product."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/180873305/",
+          "kind": "court_order",
+          "publisher": "Indian Kanoon (Delhi High Court order)",
+          "date": "2026-08-11",
+          "supports": "removal, sealing, fines, beat officer, STF date, case number, court, area"
+        },
+        {
+          "url": "https://www.barandbench.com/news/litigation/nehru-place-a-no-vending-zone-delhi-high-court-orders-removal-of-unauthorised-vendors",
+          "kind": "news",
+          "publisher": "Bar and Bench",
+          "date": "2026-03-30",
+          "supports": "context that Delhi High Court treats Nehru Place as no-vending zone and orders removal with costs"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "ef-dl-0007",
       "category": "labour",
       "state": "Delhi",
@@ -1741,6 +1920,114 @@
           "publisher": "Himachal Pradesh High Court, reproduced by Indian Kanoon",
           "date": "2026-08-12",
           "supports": "Identity and livelihood of the vendors, de-notification date, displacement, governing law, deficiencies in the municipal record, and direction to reassess."
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-hr-0004",
+      "category": "trade",
+      "state": "Haryana",
+      "title": "Anticipatory bail refused in DRI probe into foreign cigarettes seized from Palwal truck",
+      "summary": "The Directorate of Revenue Intelligence opened an inquiry after foreign-origin cigarettes were seized from a truck intercepted in Palwal. The Delhi High Court recorded that the case pertains to smuggling of foreign cigarettes under the Customs Act. It refused anticipatory bail and dismissed the application.",
+      "date": "2026-08-13",
+      "date_label": "High Court order",
+      "incident_date": "2025-09-12",
+      "district": "Palwal",
+      "outcome": "bail_refused",
+      "authority": "Delhi High Court; Directorate of Revenue Intelligence",
+      "case_reference": "BAIL APPLN. 48/2026 and CRL.M.A. 468/2026; File No. DRI/HQGI/338/XIV/ENQ-7/INT-NIL/2025/1402",
+      "laws": [
+        "Section 108 of the Customs Act, 1962",
+        "Section 482 of the Bharatiya Nagarik Suraksha Sanhita (BNSS)",
+        "provisions of the Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "an applicant named in a DRI inquiry after a truck interception in Palwal",
+      "detail": [
+        "The High Court recorded that the DRI was conducting an inquiry in connection with the seizure of foreign-origin cigarettes following an interception of a truck in Palwal, Haryana, on 12.09.2025.",
+        "The Court recorded that the applicant sought anticipatory bail under Section 482 of the BNSS in connection with summons issued under Section 108 of the Customs Act, 1962.",
+        "The Court recorded that counsel submitted the applicant is innocent and has been falsely implicated as there is no specific role attributed to the applicant.",
+        "The Court held it was not inclined to grant benefit of anticipatory bail, observing such offences require thorough investigation including custodial interrogation in appropriate cases, and dismissed the application."
+      ],
+      "current_position": "Anticipatory bail stands refused and the DRI inquiry continues.",
+      "quote": {
+        "text": "The instant case pertains to smuggling of foreign cigarettes, an offence under provisions of Customs Act, 1962.",
+        "where": "BAIL APPLN. 48/2026 and CRL.M.A. 468/2026, order dated 13.08.2026",
+        "url": "https://indiankanoon.org/doc/70811791/"
+      },
+      "caveats": "Quantity and value of cigarettes and the applicant's exact role were not confirmed from the pages opened.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Moving ordinary cigarettes across borders for sale harmed no complaining victim; the state acted for duty-evasion alone."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/70811791/",
+          "kind": "court_order",
+          "publisher": "Delhi High Court via Indian Kanoon",
+          "date": "2026-08-13",
+          "supports": "seizure place and date, DRI inquiry, statutes, bail refusal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-hr-0005",
+      "category": "capital",
+      "state": "Haryana",
+      "title": "ED seizure of Gurgaon property under FEMA challenged alongside rejection of overseas-investment nod",
+      "summary": "The Enforcement Directorate seized a property in Gurgaon under Section 37A of FEMA over suspected holding of foreign securities. It also rejected a request for no-objection to invest USD 100 million in an overseas-linked entity. The High Court order dated 16 September 2026 records both actions and the writs challenging them.",
+      "date": "2026-09-16",
+      "date_label": "High Court order",
+      "incident_date": "2026-02-03",
+      "district": "Gurugram",
+      "outcome": "seizure",
+      "authority": "Directorate of Enforcement (Assistant Director, Bengaluru Zonal Office); High Court of Karnataka",
+      "case_reference": "WP No. 16763 of 2026 and WP No. 7283 of 2026; Seizure Order No. 1 of 2026 dated 03.02.2026; File No. F.NO.T-3/BGZO/91/2021/12050",
+      "laws": [
+        "Section 37A of the Foreign Exchange Management Act, 1999",
+        "Section 4 of the Foreign Exchange Management Act, 1999",
+        "Rule 10 of the OI Rules",
+        "Article 226 of the Constitution"
+      ],
+      "acts": [
+        "Foreign Exchange Management Act, 1999"
+      ],
+      "person": "a company owning property in Gurgaon and seeking to invest abroad",
+      "penalty": "Seizure of property situated in DLF City, Phase V, Sector 53, Gurgaon, Haryana 122022, vide order dated 03.02.2026",
+      "detail": [
+        "The High Court recorded that the petitioner company owns property situated in DLF City, Phase No.V, Sector 53, Gurgaon, Haryana 122022, seized under Section 37A of the FEMA.",
+        "The Court recorded that an order bearing No.1 of 2026 seizing the property of the petitioner came to be passed on 03.02.2026 by the Assistant Director, ED.",
+        "The Court recorded that the alleged contravention relates to an NCD transaction in March 2015 suspected to have been held in contravention of Section 4.",
+        "The Court recorded that on 26.11.2025 the company sought no-objection under Rule 10 of the OI Rules for investment of USD 100 million in a Gift City entity, and on 13.01.2026 the Assistant Director rejected the NOC application."
+      ],
+      "current_position": "Seizure stands while the writs challenging the seizure and the NOC rejection are before the High Court.",
+      "quote": {
+        "text": "vide order bearing No.1 of 2026, seizing the property of the petitioner",
+        "where": "[name withheld] Pvt Ltd vs The Assistant Director, WP No. 16763/2026 and WP No. 7283/2026, order dated 16.09.2026",
+        "url": "https://indiankanoon.org/doc/167252322/"
+      },
+      "caveats": "Final outcome of the writs was not visible in the pages opened; no fraud, bribery or other predicate crime was mentioned in the excerpts.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Holding capital abroad and moving money for investment involves no complaining victim; the state seized property and blocked the investment under FEMA alone."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/167252322/",
+          "kind": "court_order",
+          "publisher": "High Court of Karnataka via Indian Kanoon",
+          "date": "2026-09-16",
+          "supports": "Gurgaon property, seizure order and date, FEMA sections, NOC rejection"
         }
       ],
       "verification": "V2"
@@ -3351,6 +3638,119 @@
           "publisher": "High Court of Madhya Pradesh",
           "date": "2026-07-01",
           "supports": "ownership, permissions, stop-work notice allegation, and quashing"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-mz-0003",
+      "category": "gold",
+      "state": "Mizoram",
+      "title": "DRI gold arrest followed by High Court bail for Aizawl resident",
+      "summary": "DRI officials arrested a person from Aizawl in a gold case and the Gauhati High Court later allowed regular bail. The court recorded recovery of 996.38 grams of suspected smuggled gold of foreign origin valued at Rs 1,62,31,030. The prosecution under the Customs Act remains pending subject to bail conditions.",
+      "date": "2026-05-07",
+      "date_label": "High Court order",
+      "incident_date": "2026-03-09",
+      "district": "Aizawl",
+      "outcome": "prosecution_pending",
+      "authority": "Gauhati High Court; Directorate of Revenue Intelligence",
+      "case_reference": "Bail Appln./1129/2026; Case No. 45/CL/IMP/GOLD/DRI/GZU/2025-26",
+      "laws": [
+        "Section 104 Customs Act, 1962",
+        "Section 110 Customs Act, 1962",
+        "Section 135 Customs Act, 1962",
+        "Section 483 BNSS, 2023"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "a resident of Aizawl, Mizoram",
+      "detail": [
+        "The High Court recorded that the petitioner sought regular bail in Bail Appln./1129/2026 linked to DRI Case No. 45/CL/IMP/GOLD/DRI/GZU/2025-26 under sections of the Customs Act.",
+        "The High Court recorded that the gist of the allegation is that on 09.03.2026, DRI officials recovered 996.38 grams of suspected smuggled gold of foreign origin valued at Rs. 1,62,31,030.",
+        "The High Court recorded that the petitioner was arrested on 09.03.2026 and that the petitioner is a resident of Tuikual North, Aizawl Municipal Council, Aizawl, Mizoram.",
+        "The High Court allowed the bail petition on 07-05-2026 on furnishing a bail bond of Rs. 50,000 with two sureties, with conditions not to abscond and to cooperate with remaining investigation."
+      ],
+      "current_position": "Released on bail; Customs prosecution/investigation continues under DRI case.",
+      "quote": {
+        "text": "The gist of the allegation is that on 09.03.2026, the DRI official recovered 996.38 grams of suspected smuggled gold of foreign origin of value Rs. 1,62,31,030/-.",
+        "where": "[name withheld] vs The Union Of India, Bail Appln./1129/2026, Gauhati High Court order dated 07-05-2026",
+        "url": "https://indiankanoon.org/doc/12147415/"
+      },
+      "caveats": "Full seizure location not visible in excerpt accessed; Mizoram link established by petitioner's Aizawl residence, Aizawl-origin movement pattern in related cases, and jurisdiction of High Court of Assam, Nagaland, Mizoram and Arunachal Pradesh. Bail bond amount stated in order summary as Rs. 50,000 with two sureties.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Keeping or carrying gold harms no complaining victim; the case punishes peaceful possession and movement of gold with seizure, arrest and prosecution."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/12147415/",
+          "kind": "court_order",
+          "publisher": "Gauhati High Court via Indian Kanoon",
+          "date": "2026-05-07",
+          "supports": "arrest date, gold quantity and value, bail allowed, case numbers, Customs Act sections, Aizawl residence"
+        },
+        {
+          "url": "https://indiankanoon.org/search/?formInput=Aizawl+gold+smuggling+Customs",
+          "kind": "news",
+          "publisher": "Indian Kanoon search index",
+          "date": null,
+          "supports": "identification of most recent Mizoram-linked gold case among candidates"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-mz-0004",
+      "category": "trade",
+      "state": "Mizoram",
+      "title": "Customs prosecution over 18,600 kg betel-nut movement stayed in Champhai",
+      "summary": "Customs prosecuted a transporter for moving 310 bags of dry betel nuts seized at Kawlbem. The complaint was filed under Section 135 of the Customs Act, 1962 before the Chief Judicial Magistrate, Champhai. The High Court stayed further proceedings in that complaint on 21 August 2026.",
+      "date": "2026-08-21",
+      "date_label": "High Court order staying trial-court proceedings",
+      "incident_date": "2020-03-17",
+      "district": "Champhai",
+      "outcome": "prosecution_pending",
+      "authority": "Gauhati High Court, Aizawl Bench",
+      "case_reference": "Crl.Pet./35/2025; Criminal Complaint Case No. 23/2023 before Chief Judicial Magistrate, Champhai",
+      "laws": [
+        "Section 135 of the Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "a transporter moving goods from Kawlbem toward Aizawl",
+      "detail": [
+        "The High Court recorded that personnel of the 46 Assam Rifles intercepted two trucks at Kawlbem carrying betel nuts and handed them to the Customs Preventive Force at Champhai.",
+        "The High Court recorded that the seizure involved a total of 310 bags (18,600 kg) of dry betel nuts moved in trucks bearing Registration Nos. AS-11-DC 1411 and AS-11-AC 6857.",
+        "The High Court recorded that the Customs authorities filed Criminal Complaint Case No. 23/2023 before the Chief Judicial Magistrate, Champhai, under Section 135 of the Customs Act, 1962.",
+        "The High Court noted prior adjudication history in which CESTAT set aside the order dated 13.09.2021, finding there was no evidence to show that the seized areca nuts were of foreign origin.",
+        "The High Court ordered that further proceedings in the Champhai complaint are stayed until further orders and listed the petition for 15.09.2026."
+      ],
+      "current_position": "The criminal complaint remains pending but stayed by the High Court until further orders.",
+      "quote": {
+        "text": "further proceedings in Criminal Complaint Case No. 23/2023 pending before the Court of the Chief Judicial Magistrate, Champhai, are hereby stayed until further orders.",
+        "where": "Order dated 21.08.2026 in Crl.Pet./35/2025, operative paragraph",
+        "url": "https://indiankanoon.org/doc/169018222/"
+      },
+      "caveats": "Full judgment text could not be re-fetched verbatim beyond excerpts due to rate limits; goods quantity, dates and stay wording are from indexed excerpts of the official order.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Moving ordinary farm produce involves no victim, violence, fraud or contraband, and is a peaceful act of internal trade."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/169018222/",
+          "kind": "court_order",
+          "publisher": "Gauhati High Court - Aizawl",
+          "date": "2026-08-21",
+          "supports": "case number, seizure facts, complaint number, statute, and stay order"
         }
       ],
       "verification": "V2"
