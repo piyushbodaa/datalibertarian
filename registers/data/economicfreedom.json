@@ -710,6 +710,229 @@
       "verification": "V2"
     },
     {
+      "id": "ef-dl-0002",
+      "category": "forex",
+      "state": "Delhi",
+      "title": "Customs prosecution over foreign currency carried through Delhi airport ends in acquittal",
+      "summary": "Customs prosecuted an airport immigration official over an alleged plan to carry foreign currency worth Rs 27,77,263 from Delhi to Hong Kong. The Delhi High Court dismissed Customs' appeal and left the official's acquittal intact because the necessary evidence had not been proved.",
+      "date": "2026-02-11",
+      "date_label": "Delhi High Court judgment",
+      "incident_date": "1999-04-16",
+      "district": "New Delhi",
+      "outcome": "acquitted",
+      "authority": "Preventive Officers, Customs; trial court; High Court of Delhi",
+      "case_reference": "CRL.A. 872/2016",
+      "laws": [
+        "Section 135(1)(a) of the Customs Act, 1962",
+        "Section 110 of the Customs Act, 1962",
+        "Section 108 of the Customs Act, 1962",
+        "Section 30 of the Indian Evidence Act, 1872",
+        "Section 33 of the Indian Evidence Act, 1872"
+      ],
+      "acts": [
+        "Customs Act, 1962",
+        "Indian Evidence Act, 1872",
+        "Code of Criminal Procedure, 1973"
+      ],
+      "person": "an airport immigration official in Delhi",
+      "detail": [
+        "The High Court recorded that Customs intercepted a departing passenger at Indira Gandhi International Airport on the night of 16-17 April 1999 and found assorted foreign currencies valued at Rs 27,77,263 in his bag.",
+        "The High Court recorded the prosecution allegation that an immigration official arranged for the currency to be handed to the passenger inside the airport for carriage to Hong Kong.",
+        "The High Court said the passenger and a café attendant pleaded guilty and were convicted, although the available record did not reveal their sentences. The immigration official contested the prosecution and was acquitted by the trial court.",
+        "The High Court found that Customs had not established the evidence needed against the immigration official. It dismissed Customs' appeal on 11 February 2026."
+      ],
+      "current_position": "The trial-court acquittal of the airport immigration official remains in force after the Delhi High Court dismissed Customs' appeal.",
+      "quote": {
+        "text": "17. In the result, the appeal, sans merit, is dismissed. Application(s), if any, pending, shall stand closed.",
+        "where": "CRL.A. 872/2016, paragraph 17, page 26",
+        "url": "https://delhihighcourt.nic.in/app/showFileJudgment/76011022026CRLA8722016_104045.pdf"
+      },
+      "caveats": "The incident occurred in 1999; 11 February 2026 is the date of the latest official act. The High Court said the record did not reveal the sentences imposed on the passenger and café attendant who pleaded guilty. The selected person was acquitted, so no penalty applies to him.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The prosecuted conduct was arranging or carrying foreign currency outside the authorised system. The judgment records no violence, coercion, fraud against a private person or other complaining victim."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://delhihighcourt.nic.in/app/showFileJudgment/76011022026CRLA8722016_104045.pdf",
+          "kind": "judgment",
+          "publisher": "High Court of Delhi",
+          "date": "2026-02-11",
+          "supports": "The airport interception, value of the foreign currency, prosecution allegations, earlier convictions, acquittal and dismissal of the Customs appeal."
+        },
+        {
+          "url": "https://indiankanoon.org/doc/45047717/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon",
+          "date": "2026-02-11",
+          "supports": "Searchable copy of CRL.A. 872/2016, including the facts, statutory provisions and operative order."
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-dl-0007",
+      "category": "labour",
+      "state": "Delhi",
+      "title": "Private garment company ordered to reinstate two workers transferred out of Delhi",
+      "summary": "The Delhi High Court held that a private garment company illegally terminated two skilled workers under the guise of transferring them from Delhi to Gurgaon. It ordered reinstatement in Delhi, continuity of service and 50% back wages.",
+      "date": "2026-05-30",
+      "date_label": "Delhi High Court judgment",
+      "incident_date": "2010-06-12",
+      "district": "South East Delhi",
+      "outcome": "penalty",
+      "authority": "Delhi High Court",
+      "case_reference": "W.P.(C) 13060/2018 and W.P.(C) 13067/2018",
+      "laws": [
+        "Sections 2(s), 11-A, 25-F, 25-G and 25-H of the Industrial Disputes Act, 1947"
+      ],
+      "acts": [
+        "Industrial Disputes Act, 1947"
+      ],
+      "person": "a private garment company operating an Okhla unit",
+      "penalty": "Reinstatement in Delhi with continuity of service and 50% back wages from termination until reinstatement, to be implemented within four weeks",
+      "detail": [
+        "The High Court recorded that the two permanent skilled hand-embroidery workers were removed from the employer's muster rolls after a purported transfer from its Okhla unit to Gurgaon.",
+        "The employer maintained that it had merely transferred them and that they failed to report at the new workplace. The Court found that the employer had not proved service of the transfer letters or any operational necessity for the transfer.",
+        "The Court recorded that no charge-sheet or domestic inquiry preceded removal of the workers' names from the muster rolls. It held that the transfers were used as a guise for illegal termination.",
+        "The Court set aside the Labour Court award and directed reinstatement in Delhi with continuity of service and 50% back wages."
+      ],
+      "current_position": "The High Court's final judgment requires the private employer to reinstate the workers and pay 50% back wages.",
+      "quote": {
+        "text": "On the contrary, the material on record demonstrates that the workwomen were illegally terminated from service under the guise of transfer.",
+        "where": "W.P.(C) 13060/2018 and W.P.(C) 13067/2018, paragraph 20",
+        "url": "https://indiankanoon.org/doc/173766075/"
+      },
+      "caveats": "The judgment records allegations that statutory employment benefits and earned wages were not provided, but the operative ruling selected here concerns termination under the guise of transfer. The precise amount of back wages is not calculated in the judgment.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "This was a state-imposed consequence for a private employer's decision to transfer or discontinue staff. The record contains no allegation that the staffing decision involved violence, coercion, minors or harm to a complaining victim."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/173766075/",
+          "kind": "judgment",
+          "publisher": "Delhi High Court via Indian Kanoon",
+          "date": "2026-05-30",
+          "supports": "Employment history, transfer dispute, finding of illegal termination, reinstatement and 50% back-wage direction"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-dl-0008",
+      "category": "hoarding",
+      "state": "Delhi",
+      "title": "Essential Commodities Act case over excess recorded rice and missing shop records quashed",
+      "summary": "Food-supplies officials inspected a Najafgarh fair-price shop and reported 7.74 quintals of rice beyond the recorded balance and unavailable current records. After a beneficiary survey supported the shopkeeper and the licence was restored, the Delhi High Court quashed the FIR and all consequential proceedings.",
+      "date": "2026-01-13",
+      "date_label": "Delhi High Court judgment",
+      "incident_date": "2014-05-01",
+      "district": "South West Delhi",
+      "outcome": "quashed",
+      "authority": "Department of Food Supplies and Consumer Affairs, Delhi Police and Delhi High Court",
+      "case_reference": "CRL.M.C. 6469/2023; FIR No. 371/2014, P.S. Najafgarh",
+      "laws": [
+        "Section 7 of the Essential Commodities Act, 1955",
+        "Sections 7/10/55 of the Essential Commodities Act, 1955",
+        "Delhi Specified Articles (Regulation & Distribution) Order 1981",
+        "Delhi Kerosene Oil (Exports & Price) Order 1962"
+      ],
+      "acts": [
+        "Essential Commodities Act, 1955"
+      ],
+      "person": "a fair-price-shop operator in Najafgarh",
+      "detail": [
+        "The High Court recorded that food-supplies officials inspected the Najafgarh shop on 1 May 2014. They said current records were not inside the shop and physical stock included 7.74 quintals of rice although the April record showed no balance.",
+        "The shopkeeper replied that the material was waste grain containing wheat, rice and dust and was not meant for sale or distribution.",
+        "The High Court recorded that a door-to-door survey covered 187 cardholders. The located cardholders said they had received specified food articles on time, and no further infraction was reported during the following decade.",
+        "The competent authority restored the shop licence. The High Court then quashed the FIR and all consequential proceedings."
+      ],
+      "current_position": "The FIR and every consequential proceeding were quashed by the Delhi High Court.",
+      "quote": {
+        "text": "Consequently, to secure the ends of justice, FIR No. 371/2014 dated 03.05.2014, registered at P.S. Najafgarh, Delhi, under Sections 7/10/55 Essential Commodities Act, 1955 along with all consequential proceedings emanating therefrom, is hereby, quashed.",
+        "where": "CRL.M.C. 6469/2023, paragraph 16, page 4",
+        "url": "https://delhihighcourt.nic.in/app/showFileJudgment/60913012026CRLMM64692023_095359.pdf"
+      },
+      "caveats": "Paragraph 1 describes the FIR as dated 2 May 2014, while the operative paragraph describes it as dated 3 May 2014. The shop participated in the subsidised distribution system, but the judgment records excess stock rather than diversion and says surveyed cardholders received supplies on time.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The prosecution arose from alleged excess storage and unavailable records. The official judgment records timely distribution to surveyed beneficiaries and does not establish diversion, adulteration or cheating."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://delhihighcourt.nic.in/app/showFileJudgment/60913012026CRLMM64692023_095359.pdf",
+          "kind": "judgment",
+          "publisher": "Delhi High Court",
+          "date": "2026-01-13",
+          "supports": "Inspection allegations, stock quantity, beneficiary survey, licence restoration and quashing of the FIR"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-dl-0009",
+      "category": "property",
+      "state": "Delhi",
+      "title": "Demolition order retained against extra rooms and toilet above an owned flat",
+      "summary": "MCD ordered demolition of construction beyond the sanctioned plan above an owned flat in Delhi. The Delhi High Court refused interim interference with that order, while leaving the owner's statutory appeal to be decided on its merits.",
+      "date": "2026-07-21",
+      "date_label": "Delhi High Court order",
+      "incident_date": "2026-04-28",
+      "outcome": "penalty",
+      "authority": "Municipal Corporation of Delhi, Appellate Tribunal MCD and Delhi High Court",
+      "case_reference": "W.P.(C) 8077/2026; CM APPL. 38618/2026; CM APPL. 38619/2026",
+      "laws": [
+        "Sections 343(1), 444 and 491 of the Delhi Municipal Corporation Act, 1957",
+        "National Capital Territory of Delhi Laws (Special Provisions) Second Amendment Act, 2011"
+      ],
+      "acts": [
+        "Delhi Municipal Corporation Act, 1957",
+        "National Capital Territory of Delhi Laws (Special Provisions) Second Amendment Act, 2011"
+      ],
+      "person": "the owner and occupier of a third-floor flat in Delhi",
+      "penalty": "Demolish the booked unauthorised construction within 15 days, failing which MCD may demolish it at the owner's risk and cost",
+      "detail": [
+        "The High Court reproduced MCD's finding that the applicant owned and occupied the third-floor flat and that construction existed above it beyond the sanctioned building plan.",
+        "MCD said the previous permission covered only a barsati room, whereas two rooms and a toilet had been constructed. It ordered the booked construction demolished under Section 343 of the Delhi Municipal Corporation Act.",
+        "The Appellate Tribunal MCD rejected interim relief, while the main statutory appeal remained pending.",
+        "The High Court found no infirmity requiring writ interference and dismissed the petition. It directed the tribunal to decide the appeal independently on its merits."
+      ],
+      "current_position": "The demolition order remains operative, but the owner's merits appeal before the Appellate Tribunal MCD remained pending when the High Court disposed of the writ petition.",
+      "quote": {
+        "text": "I, Assistant Engineer- Building Department - South Zone, Municipal Corporation of Delhi, vested with the powers of the Commissioner-M.C.D. under Section 343 (1) read with Section 491 of DMC Act, hereby order the applicant to demolish the unauthorised construction, as has been booked by the Department, within fifteen days from the receipt of this order, failing which it will be demolished by the M.C.D. at his / her risk and cost.",
+        "where": "W.P.(C) 8077/2026, paragraph 2.3, pages 2–3",
+        "url": "https://indiankanoon.org/doc/141437228/"
+      },
+      "caveats": "The order identifies the premises as Flat No. 935 and an MCD South Zone property but does not print a complete address in the opened text. The construction was reportedly raised by the present owner's predecessor; the order treated the present owner and occupier as responsible.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The sanction concerns how an owner used and built above an owned flat. The official order identifies no encroachment on public or another person's land and no injured or complaining victim."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/141437228/",
+          "kind": "court_order",
+          "publisher": "Delhi High Court via Indian Kanoon",
+          "date": "2026-07-21",
+          "supports": "Ownership and occupancy, nature of construction, MCD demolition order, rejection of interim relief and pending appeal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "ef-gj-0001",
       "category": "crypto",
       "state": "Gujarat",
@@ -870,6 +1093,383 @@
           "publisher": "Gujarat High Court via Indian Kanoon",
           "date": "2026-04-16",
           "supports": "gold-paste interception, penalty amount, legal provisions, dismissal of challenge"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-gj-0004",
+      "category": "trade",
+      "state": "Gujarat",
+      "title": "CESTAT sets aside seizure of imported steel coils at Mundra port",
+      "summary": "Mundra Customs seized a consignment of stainless steel coils and proposed confiscation and penalties. The Commissioner (Appeals) had sided with the importer in November 2025 and the department appealed. On 4 February 2026 the CESTAT at Ahmedabad dismissed the department's appeal and ordered the goods released within 10 days.",
+      "date": "2026-02-04",
+      "date_label": "CESTAT final order",
+      "incident_date": "2025-02-27",
+      "district": "Kachchh",
+      "outcome": "penalty_set_aside",
+      "authority": "Customs, Excise & Service Tax Appellate Tribunal, West Zonal Bench at Ahmedabad",
+      "case_reference": "Customs Appeal No. 11511 of 2025 - DB; Customs Misc. Application (Stay) No. 10647 of 2025; Final Order No. 10060/2026",
+      "laws": [
+        "Section 110(1) of the Customs Act, 1962",
+        "Section 110(2) of the Customs Act, 1962",
+        "Section 111(d) of the Customs Act, 1962",
+        "Section 111(m) of the Customs Act, 1962",
+        "Section 112(a)(i) of the Customs Act, 1962",
+        "Section 124 of the Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "a steel trading firm importing via Mundra port",
+      "detail": [
+        "The Tribunal recorded that the consignment was Cold Rolled Stainless Steel Coils grade J2 imported under Bill of Entry No. 8109186 dated 31.01.2025 with a total assessable value of Rs. 3,91,64,616.",
+        "The Tribunal recorded that examination found a net weight of 4,12,720 kg against a declared net weight of 4,12,524 kg, an excess of 196 kg, and that the value was found fair as per contemporary NIDB data.",
+        "The Tribunal recorded that the department alleged imports in violation of a Ministry of Steel circular, put the goods on hold, and seized them vide Seizure Memo dated 27.02.2025 under Section 110(1), proposing confiscation under Section 111(d) and (m) and penalty under Section 112(a)(i).",
+        "The Tribunal recorded that the lower appellate authority's ruling dated 14.11.2025 had sided with the importer and the Commissioner of Customs-Mundra appealed against it.",
+        "The Tribunal held that the seizure stood vacated because no show cause notice was issued within the statutory six-month limit in Section 110(2), dismissed the department's appeal, and directed release of the goods within 10 days of receipt of the order."
+      ],
+      "current_position": "The department's appeal stands dismissed and the seized steel coils are to be released to the importer.",
+      "quote": {
+        "text": "Goods to be released within 10 days of the receipt of order.",
+        "where": "Final Order No. 10060/2026, operative paragraph",
+        "url": "https://indiankanoon.org/doc/176455941/"
+      },
+      "caveats": "The Indian Kanoon excerpt truncates mid-reasoning; the operative dismissal and release direction are visible but extended legal discussion is not.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Importing ordinary steel coils harmed no one; the dispute was over paperwork weight difference and circular compliance, with value found fair."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/176455941/",
+          "kind": "court_order",
+          "publisher": "CESTAT Ahmedabad via Indian Kanoon",
+          "date": "2026-02-04",
+          "supports": "goods description, Bill of Entry and seizure dates, sections invoked, dismissal of appeal and release direction"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-gj-0007",
+      "category": "labour",
+      "state": "Gujarat",
+      "title": "Drug maker forced to face Labour Court trial over senior executive's exit",
+      "summary": "The Assistant Labour Commissioner in Vadodara referred a dispute over a senior executive's resignation and separation to the Labour Court for adjudication. The company said the executive was a manager, not a workman, and had resigned voluntarily. The Gujarat High Court on 2 April 2026 dismissed the company's appeal and kept the reference alive.",
+      "date": "2026-04-02",
+      "date_label": "High Court CAV judgment",
+      "incident_date": "2023-08-08",
+      "district": "Vadodara",
+      "outcome": "prosecution_pending",
+      "authority": "Gujarat High Court (Division Bench: Justice Bhargav D. Karia and Justice L. S. Pirzada); Assistant Labour Commissioner, Vadodara; Labour Court, Vadodara",
+      "case_reference": "C/LPA/1177/2025 in C/SCA/2707/2024; Reference (T-LC) No.410 of 2023; Order of reference dated 28.11.2023",
+      "laws": [
+        "Section 2(k), Section 2(s), Section 10(1) and Section 12(5) of the Industrial Disputes Act, 1947"
+      ],
+      "acts": [
+        "Industrial Disputes Act, 1947"
+      ],
+      "person": "a private pharmaceutical manufacturer in Vadodara as employer",
+      "detail": [
+        "The High Court recorded that the executive worked as Senior Executive/Manager Administration - Supervisor on Rs 76,268 per month, was relieved on 08.08.2023 with Rs 4,43,468 paid as full and final settlement, and then complained to the Assistant Labour Commissioner on 06.09.2023.",
+        "The High Court recorded that the Assistant Labour Commissioner by order dated 28.11.2023 referred the dispute to the Labour Court, Vadodara as Reference (T-LC) No.410 of 2023 on the question of reinstatement with continuity and back wages.",
+        "The High Court held that the appropriate government only forms an administrative opinion that a dispute exists or is apprehended, and whether the person is a workman or resigned voluntarily must be decided by the Labour Court on evidence.",
+        "The High Court concluded that the Single Judge committed no error in dismissing the company's writ petition, and dismissed the Letters Patent Appeal so the Labour Court adjudication will proceed."
+      ],
+      "current_position": "The reference before the Labour Court, Vadodara survives and the employer must contest reinstatement and back-wages claims there.",
+      "quote": {
+        "text": "Whether the workman [name redacted] should be reinstated on his original place with continuity of service and back wages or not?",
+        "where": "C/LPA/1177/2025, para 9 reproducing the reference order dated 28.11.2023",
+        "url": "https://indiankanoon.org/doc/94034030/"
+      },
+      "caveats": "Company address and factory location beyond Vadodara proceedings could not be confirmed; no fine or imprisonment was imposed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The state compelled a private employer to stand trial over a staffing separation, with no allegation of injury, death, unpaid wages owed, child or bonded labour."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/94034030/",
+          "kind": "judgment",
+          "publisher": "Gujarat High Court",
+          "date": "2026-04-02",
+          "supports": "employer identity, salary and post, resignation and settlement, reference order, dismissal of appeal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-gj-0008",
+      "category": "hoarding",
+      "state": "Gujarat",
+      "title": "Diesel and furnace oil dealer faced confiscation for excess stock and missing papers",
+      "summary": "Supply officers checking a fuel dealership found extra diesel and furnace oil, no price-stock board, no furnace-oil licence and an un-updated stock register. The Collector confiscated Rs 84,875 of seized stock. The Gujarat High Court on 21 April 2026 dismissed the State's revision and left the acquittal and release of goods in place.",
+      "date": "2026-04-21",
+      "date_label": "High Court judgment",
+      "incident_date": "2007-12-29",
+      "district": "Bhavnagar",
+      "outcome": "penalty_set_aside",
+      "authority": "Gujarat High Court (Justice Hasmukh D. Suthar); Collector, Bhavnagar; Additional Sessions Judge, Bhavnagar",
+      "case_reference": "R/CR.RA/588/2011; Criminal Appeal No.44/2008; Collector order dated 27.05.2008",
+      "laws": [
+        "Sections 3, 8 and 9 of the Gujarat Essential Commodities (Control and Regulation of Business) Order, 1977",
+        "Section 3(1) and 3(3) of the Solvent Raffinate and Slop (Purchase, Sale, Stock and Prohibition of use in Automobiles) Order, 2000",
+        "Section 6A of the Essential Commodities Act, 1955"
+      ],
+      "acts": [
+        "Essential Commodities Act, 1955",
+        "Gujarat Essential Commodities (Control and Regulation of Business) Order, 1977"
+      ],
+      "person": "a dealer in light diesel oil and furnace oil in Bhavnagar district",
+      "penalty": "Collector confiscated Rs 84,875 out of seized stock of Rs 1,69,750 on 27.05.2008; set aside on appeal on 04.10.2011 and release confirmed by High Court on 21.04.2026",
+      "detail": [
+        "The High Court recorded that during checking on 29/12/2007 the dealer was found with no price-stock display, 225 litres extra diesel and 8,150 litres extra furnace oil, no licence to sell furnace oil, an un-updated stock register and no purchase bills for the excess.",
+        "The High Court recorded that the Collector, Bhavnagar issued show-cause notice on 29/01/2008 and on 27.05.2008 ordered confiscation of 50% of the seized stock valued at Rs 84,875.",
+        "The High Court recorded that the Additional Sessions Judge, Bhavnagar allowed Criminal Appeal No.44/2008 on 04.10.2011 and quashed the confiscation for violation of natural justice and lack of measurement and cross-examination.",
+        "The High Court held that technical breaches without any allegation of black-marketing do not warrant seizure or confiscation, and dismissed the State revision as meritless."
+      ],
+      "current_position": "The confiscation stands set aside and the seized goods were ordered to be released to the dealer.",
+      "quote": {
+        "text": "Over and above the same, the failure to maintain a stock register or any other technical breach in absence of any allegations of black-marketing, does not warrant the seizure or confiscation of the goods.",
+        "where": "R/CR.RA/588/2011, para 13",
+        "url": "https://indiankanoon.org/doc/5132120/"
+      },
+      "caveats": "Exact shop address within Bhavnagar district was not stated beyond Collector and Sessions Court jurisdiction.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The punishment was for storing extra fuel, missing display board and missing licence, with the court noting no black-marketing, PDS diversion, adulteration or cheating was alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/5132120/",
+          "kind": "judgment",
+          "publisher": "Gujarat High Court",
+          "date": "2026-04-21",
+          "supports": "checking date, irregularities, confiscation amount, appeal history, black-marketing finding and dismissal of revision"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-gj-0009",
+      "category": "property",
+      "state": "Gujarat",
+      "title": "Owners faced cancellation of regularisation and demolition notice for shops on own land",
+      "summary": "Owners of shops and a cellar in a commercial complex in Ahmedabad had extra ground-floor and parking-area construction regularised in 2015. The municipal authority cancelled the regularisation and issued a demolition notice. The Gujarat High Court on 22 June 2026 quashed both the cancellation order and the notice.",
+      "date": "2026-06-22",
+      "date_label": "High Court CAV judgment",
+      "district": "Ahmedabad",
+      "outcome": "quashed",
+      "authority": "Gujarat High Court (Justice Niral R. Mehta); Ahmedabad Municipal Corporation",
+      "case_reference": "C/SCA/5539/2018; impugned order dated 19.03.2018 under Section 8(4); notice dated 02.04.2018 under Section 260(1)(a)",
+      "laws": [
+        "Section 5, Section 6(3) and Section 8(4) of the Gujarat Regularisation of Unauthorised Development Act, 2011",
+        "Section 260(1)(a) of the Bombay Provincial Municipal Corporation Act, 1949 / Gujarat Provincial Municipal Corporation Act"
+      ],
+      "acts": [
+        "Gujarat Regularisation of Unauthorised Development Act, 2011",
+        "Bombay Provincial Municipal Corporation Act, 1949"
+      ],
+      "person": "owners of shops and a cellar in a commercial complex on private land in Ahmedabad",
+      "detail": [
+        "The High Court recorded that the building stands on private land bearing Survey No.7449 of Town Planning Scheme No.4 at Rajpur-Hirpur, Maninagar, Ahmedabad, and the application sought regularisation of 83.16 sq metres on the ground floor plus 24.95 sq metres in parking area.",
+        "The High Court recorded that the Corporation regularised the construction on 12th October 2015 after fees, the present owners bought the shops and cellar by registered sale deeds in October 2016, and then leased shops to a bank.",
+        "The High Court recorded that the authority passed an order on 19th March 2018 cancelling the 2015 regularisation and issued a notice on 2nd April 2018 under Section 260(1)(a) threatening removal.",
+        "The High Court held that Section 8 only guides scrutiny under Section 6 and gives no power to review or recall a Section 6(3) regularisation order, so the cancellation was without jurisdiction."
+      ],
+      "current_position": "The cancellation order and the demolition notice stand quashed and the 2015 regularisation revives.",
+      "quote": {
+        "text": "The impugned order dated 19th March, 2018 passed under Section 8(4) of the Act, as well as the consequential notice dated 02nd April, 2018 issued under Section 260(1)(a) of the Gujarat Provincial Municipal Corporation Act, are hereby quashed and set aside.",
+        "where": "C/SCA/5539/2018, para 14",
+        "url": "https://indiankanoon.org/doc/158828319/"
+      },
+      "caveats": "Original date of the extra construction was not proved, only that it was regularised in 2015; purchase prices and lease details were not relied on for the listing.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The action targeted extra building on the owners' own private land, not encroachment on government or another person's land, with no victim or public-land issue."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/158828319/",
+          "kind": "judgment",
+          "publisher": "Gujarat High Court",
+          "date": "2026-06-22",
+          "supports": "private land details, regularisation and sale history, cancellation order and demolition notice, quashing"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-jh-0007",
+      "category": "labour",
+      "state": "Jharkhand",
+      "title": "Private company ordered to reinstate dismissed field worker, upheld by High Court",
+      "summary": "The Labour Court at Jamshedpur ordered a private company to reinstate a Jamshedpur field worker with continuity of service and 25% back wages after dismissal without a domestic inquiry. The company and the worker both filed writs. The Jharkhand High Court dismissed both writs on 29 August 2026, leaving the reinstatement order intact.",
+      "date": "2026-08-29",
+      "date_label": "High Court order",
+      "incident_date": "2014-03-18",
+      "district": "East Singhbhum",
+      "outcome": "prosecution_pending",
+      "authority": "High Court of Jharkhand at Ranchi; Labour Court",
+      "case_reference": "W.P.(L) No. 4123 of 2019 and W.P.(L) No. 3746 of 2019; B.S. Case No. 01 of 2014 decided on 20.04.2019",
+      "laws": [
+        "Section 26(2) of the Bihar Shops and Establishments Act, 1953",
+        "Bihar Shops and Establishment Act, 1953"
+      ],
+      "acts": [
+        "Bihar Shops and Establishments Act, 1953"
+      ],
+      "person": "a private company employer in Jamshedpur under Ranchi branch",
+      "penalty": "direction to re-instate with continuity of service and with 25% of back wages",
+      "detail": [
+        "The High Court recorded that the matters were W.P.(L) No. 4123 of 2019 and W.P.(L) No. 3746 of 2019, arising from B.S. Case No. 01 of 2014 decided on 20.04.2019.",
+        "The High Court recorded that the worker was posted in the field at Jamshedpur under the Ranchi Branch Establishment and was terminated by letter dated 18.03.2014 without a domestic inquiry after allegations of absence from duty since 05.07.2013.",
+        "The High Court recorded that the Labour Court directed reinstatement with continuity of service and 25% back wages.",
+        "The High Court dismissed both writs on 29.08.2026."
+      ],
+      "current_position": "Both writs dismissed on 29 August 2026; Labour Court reinstatement with 25% back wages stands.",
+      "quote": {
+        "text": "has given a direction to re-instatement of complainant in the employment",
+        "where": "W.P.(L) Nos. 4123 and 3746 of 2019, High Court of Jharkhand",
+        "url": "https://indiankanoon.org/doc/15554301/"
+      },
+      "caveats": "Excerpts only; full percentage calculation of back wages not confirmed. Designation dispute noted as designation is not decisive.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The state machinery ordered a private employer to take back a dismissed worker and pay back wages, penalising a firing decision with no victim beyond the employment relationship."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/15554301/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon / High Court of Jharkhand at Ranchi",
+          "date": "2026-08-29",
+          "supports": "parties, Jamshedpur posting, termination date, Labour Court reinstatement order, dismissal of writs"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-jh-0008",
+      "category": "hoarding",
+      "state": "Jharkhand",
+      "title": "Confiscation of stored wheat and rice set aside for lack of stock limit",
+      "summary": "Officials seized 73 bags of wheat and 206 bags of rice from a trader's premises in Chauparan and the Deputy Commissioner confiscated them in 2009. The trader challenged the confiscation. The Jharkhand High Court Division Bench allowed the appeal on 3 January 2024 and quashed the confiscation, ordering release or sale proceeds.",
+      "date": "2024-01-03",
+      "date_label": "High Court judgment",
+      "district": "Hazaribag",
+      "outcome": "penalty_set_aside",
+      "authority": "High Court of Jharkhand at Ranchi (Division Bench); Deputy Commissioner, Hazaribag; Sub-Divisional Officer, Barhi",
+      "case_reference": "L.P.A. No. 191 of 2015; W.P.(C) No. 4673 of 2013; Confiscation Case No. 72 of 2008; Chauparan P.S. Case No. 194 of 2008",
+      "laws": [
+        "Section 3 of the Essential Commodities Act",
+        "Section 6A of the Essential Commodities Act",
+        "Section 6C of the Essential Commodities Act",
+        "Section 7 of the Essential Commodities Act"
+      ],
+      "acts": [
+        "Essential Commodities Act"
+      ],
+      "person": "a trader in Chauparan, Hazaribag district",
+      "penalty": "confiscation of 73 bags of wheat and 206 bags of rice vide order dated 11.06.2009, later quashed",
+      "detail": [
+        "The High Court recorded that a raid on the writ petitioner's premises recovered and seized 32.85 quintals of wheat and 92.70 quintals of rice kept concealed in bags.",
+        "The High Court recorded that no documents for the articles could be produced before the raiding party. The State invoked prevention of black-marketing, while absence of a storage limit was relied upon in challenging the confiscation.",
+        "The High Court recorded that Confiscation Case No. 72 of 2008 was initiated under Section 6A of the Essential Commodities Act concerning 73 bags of wheat and 206 bags of rice, which the Deputy Commissioner confiscated by order dated 11.06.2009.",
+        "The High Court allowed the appeal, set aside the writ order dated 10.03.2015, quashed the confiscation order dated 11.06.2009 and directed release of the articles or payment of their sale proceeds."
+      ],
+      "current_position": "Confiscation quashed on 3 January 2024; goods or sale proceeds to be returned to the trader.",
+      "quote": {
+        "text": "32.85 quintal of wheat and 92.70 quintal of rice kept concealed in bags were recovered and seized.",
+        "where": "L.P.A. No. 191 of 2015, High Court of Jharkhand judgment dated 3 January 2024",
+        "url": "https://indiankanoon.org/doc/53946309/"
+      },
+      "caveats": "FIR also cited IPC sections 409/413/414/421; full FIR facts not verified. No PDS label appears in excerpts but PDS status could not be fully excluded beyond absence of that label.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Storing rice and wheat on private premises harmed no one; the state seized and confiscated foodgrain for paperwork and stock-limit reasons later found unsustainable."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/53946309/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon / High Court of Jharkhand at Ranchi",
+          "date": "2024-01-03",
+          "supports": "seizure quantity, confiscation case and order dates, EC Act sections, Hazaribag/Barhi authorities, appeal allowed and confiscation quashed"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-jh-0009",
+      "category": "property",
+      "state": "Jharkhand",
+      "title": "Sealed godown on purchased village land ordered to be unsealed",
+      "summary": "The Ranchi Regional Development Authority ordered demolition and sealing of a GCI-sheet godown on purchased land at Sidroll, Namkum, alleging that RRDA approval had not been obtained. The owner, who had received construction permission from the Gram Panchayat in 2011, challenged the orders. The Jharkhand High Court quashed the orders on 14 November 2025 and directed that the property be unsealed.",
+      "date": "2025-11-14",
+      "date_label": "High Court order",
+      "incident_date": "2022-03-14",
+      "district": "Ranchi",
+      "outcome": "penalty_set_aside",
+      "authority": "High Court of Jharkhand at Ranchi; Vice-Chairman, Ranchi Regional Development Authority",
+      "case_reference": "W.P.(C) No. 1592 of 2022; U.C. Case No. 169/2021 order dated 19 January 2022; Misc. Appeal Case No. 07 of 2022 order dated 28.03.2022",
+      "laws": [
+        "Section 30 of the Jharkhand Regional Development Authority Act",
+        "Jharkhand Regional Development Authority Act",
+        "Jharkhand Panchayat Raj Act, 2001"
+      ],
+      "acts": [
+        "Jharkhand Regional Development Authority Act",
+        "Jharkhand Panchayat Raj Act, 2001"
+      ],
+      "person": "a landowner in village Sidroll, Namkum, Ranchi district",
+      "penalty": "sealing of godown/structure on 14 March 2022 and demolition/closure direction dated 19 January 2022, both quashed",
+      "detail": [
+        "The High Court recorded that the petitioner purchased land and the structure standing on it by registered sale deed dated 3 October 2008 at village Sidroll, under Thana Namkum, Khata No. 27, Plot Nos. 1145 and 1146 in Ranchi district.",
+        "The High Court recorded that the petitioner received permission from the Gram Panchayat on 12 January 2011 and thereafter constructed a GCI-sheet godown, while the development authority later alleged that no prior RRDA approval had been obtained.",
+        "The High Court recorded that the Vice-Chairman directed deployment of police force on 14 March 2022 to ensure that the godown was sealed and that the building was consequently sealed.",
+        "The High Court held that RRDA lacked jurisdiction in the Panchayat-governed area, quashed the 19 January 2022 order in U.C. Case No. 169/2021 and the 28 March 2022 appellate order in Misc. Appeal Case No. 07 of 2022, and directed that the Sidroll property be unsealed."
+      ],
+      "current_position": "Sealing and removal orders quashed on 14 November 2025; property to be unsealed.",
+      "quote": {
+        "text": "The building was consequently sealed and still remains sealed.",
+        "where": "W.P.(C) No. 1592 of 2022, High Court of Jharkhand order pronounced 14/11/2025",
+        "url": "https://indiankanoon.org/doc/96514359/"
+      },
+      "caveats": "Petitioner array includes a foundation and an individual allottee; exact ownership split not fully verified. Compensation left to civil remedy.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Building a godown on one's own purchased land harmed no one; the state sealed it for lacking a development-authority paper."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/96514359/",
+          "kind": "court_order",
+          "publisher": "Indian Kanoon / High Court of Jharkhand at Ranchi",
+          "date": "2025-11-14",
+          "supports": "ownership by sale deed, Sidroll location, godown construction, RRDA sealing, quashing and unsealing direction"
         }
       ],
       "verification": "V2"
@@ -1263,6 +1863,112 @@
       "verification": "V2"
     },
     {
+      "id": "ef-kl-0007",
+      "category": "labour",
+      "state": "Kerala",
+      "title": "High Court quashes minimum-wage notification for private finance firms",
+      "summary": "The State had fixed minimum wages for staff in non-banking private finance firms by notification dated 16.01.2020. An association of private lending firms challenged it. The Division Bench allowed the appeal on 18 December 2025 and quashed the notification.",
+      "date": "2025-12-18",
+      "date_label": "Division Bench judgment",
+      "incident_date": "2020-01-16",
+      "district": "Ernakulam",
+      "outcome": "penalty_set_aside",
+      "authority": "High Court of Kerala at Ernakulam, Division Bench of Justice Sushrut Arvind Dharmadhikari and Justice Syam Kumar V.M.",
+      "case_reference": "WA No. 1609/2025 against WP(C) No. 9184/2021; 2025:KER:97576",
+      "laws": [
+        "Section 3, Section 5 Minimum Wages Act, 1948",
+        "Section 27 Minimum Wages Act, 1948"
+      ],
+      "acts": [
+        "Minimum Wages Act, 1948"
+      ],
+      "person": "association of private [name withheld] employers in Kerala",
+      "penalty": "Exhibit P7 minimum-wage notification dated 16.01.2020 quashed; no costs",
+      "detail": [
+        "The High Court recorded that the petitioner is a welfare group for private lending firms that opposed state notices setting floor pay for staff in that trade.",
+        "The High Court recorded that the association said inclusion in the schedule lacked advance gazette notice, pay fixation copied a panel report, ignored objections, skipped board advice, and applied one scale to tiny and huge firms alike.",
+        "The High Court recorded that a Single Judge had rejected the writ petition on 09.04.2024 and the appeal attacked that rejection.",
+        "The High Court held the impugned judgment was fit to be interfered with, allowed the appeal, and quashed the pay notice, with no costs ordered."
+      ],
+      "current_position": "The minimum-wage notification Exhibit P7 stands quashed after the Division Bench allowed the appeal.",
+      "quote": {
+        "text": "Writ Appeal is allowed. Exhibit P7 notification is quashed.",
+        "where": "WA No. 1609/2025, operative paragraph",
+        "url": "https://indiankanoon.org/doc/140475651/"
+      },
+      "caveats": "Full text of Exhibit P7 wage rates not extracted; district shown as court seat as employers are statewide.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The state imposed a wage floor on private employers for staffing decisions; no worker injury, cheating, child or bonded labour was involved, so it was a victimless economic regulation."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/140475651/",
+          "kind": "judgment",
+          "publisher": "High Court of Kerala via Indian Kanoon",
+          "date": "2025-12-18",
+          "supports": "date, court, parties, Exhibit P7 notification, outcome quashed"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-kl-0008",
+      "category": "hoarding",
+      "state": "Kerala",
+      "title": "Rice-hoarding prosecution over 2,527 kg stock quashed",
+      "summary": "Police seized 2,527 kg of rice in 27 plastic and 24 jute bags in Nilambur in 2010 and prosecuted under the Rationing Order and Essential Commodities Act. The High Court found no witness proved the stock was public-distribution grain and the seizure witness disowned the inventory. It quashed all proceedings in C.C. No. 29/2018 on 15 February 2024.",
+      "date": "2024-02-15",
+      "date_label": "High Court order quashing prosecution",
+      "incident_date": "2010-08-25",
+      "district": "Malappuram",
+      "outcome": "quashed",
+      "authority": "High Court of Kerala at Ernakulam, Justice Bechu Kurian Thomas",
+      "case_reference": "Crl.M.C. No. 658/2024; C.C. No. 29/2018 (Crime No. 754/2010, Nilambur)",
+      "laws": [
+        "Section 5A Kerala Rationing Order, 1966",
+        "Section 3 Essential Commodities Act, 1955",
+        "Section 7 Essential Commodities Act, 1955"
+      ],
+      "acts": [
+        "Essential Commodities Act, 1955"
+      ],
+      "person": "a trader accused in Nilambur",
+      "detail": [
+        "The High Court recorded that on 25.08.2010 the accused was alleged to have hoarded 2,527 kg of rice in 27 plastic sacks and 24 jute sacks in premises hired by another accused.",
+        "The High Court recorded that the seizure attestor disowned the inventory signature and that there was no certification or other material showing that the seized stock was public-distribution rice or tracing its source.",
+        "The High Court recorded that the substratum of the prosecution case, even as against the petitioner, had been destroyed.",
+        "The High Court held that no purpose would be achieved by continuing the prosecution and quashed all proceedings against the petitioner in C.C. No. 29/2018."
+      ],
+      "current_position": "All proceedings against the petitioner in C.C. No. 29/2018 stand quashed.",
+      "quote": {
+        "text": "on 25.08.2010, the accused was found to have hoarded 2527 Kgs. of rice in 27 plastic sacks",
+        "where": "Crl.M.C. No. 658 of 2024, prosecution version paragraph",
+        "url": "https://indiankanoon.org/doc/186232542/"
+      },
+      "caveats": "No newer pure-hoarding case found; all 2025-2026 EC Act cases reviewed involved alleged PDS theft or diversion and were rejected.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Storing rice is a peaceful economic act with no complaining victim; the court found no proof of PDS diversion, adulteration or cheating, only storage above the permitted paper."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/186232542/",
+          "kind": "court_order",
+          "publisher": "High Court of Kerala via Indian Kanoon",
+          "date": "2024-02-15",
+          "supports": "seizure quantity, statutes, reasoning and quashing outcome"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "ef-mh-0002",
       "category": "forex",
       "state": "Maharashtra",
@@ -1344,7 +2050,7 @@
       "person": "a bullion melting-shop operator in Zaveri Bazar, Mumbai",
       "penalty": "Absolute confiscation of 871.120 g (Rs 50,50,971), 831.060 g (Rs 44,29,180) and 2021.470 g (Rs 1,18,05,384), total 3723.650 g valued at Rs 2,12,85,535, and penalty of Rs 25,00,000 under Section 112(a) and (b), all set aside to the extent challenged",
       "detail": [
-        "The tribunal recorded that the appellant was a bullion melting-shop operator in Mumbai, and the respondent was the [name withheld] (Preventive), Mumbai.",
+        "The tribunal recorded that the appellant was a bullion melting-shop operator in Mumbai, and the respondent was the Commissioner of Customs (Preventive), Mumbai.",
         "The tribunal recorded that the seizure was made on 20.02.2023 at Room No. 3, SNK Plaza Building, Khau Galli, Kavi Nirav Lane, Zaveri Bazar, Mumbai, comprising gold of net weight 871.120 grams valued at Rs 50,50,971, 831.060 grams valued at Rs 44,29,180, and 2021.470 grams valued at Rs 1,18,05,384.",
         "The tribunal recorded that the adjudicator had ordered absolute confiscation under Section 111(d) of the Customs Act, 1962 and imposed penalty of Rs 25,00,000 under Section 112(a) and (b), treating the gold as smuggled under Section 123.",
         "The tribunal held that the case rested on a retracted statement of a co-operator and other statements where the makers were not offered for cross-examination despite request, contrary to Section 138B, and ordered that the appeal filed by the appellant is allowed with consequential relief."
@@ -1994,7 +2700,7 @@
       "date_label": "High Court order",
       "incident_date": "2021-03-03",
       "outcome": "penalty_set_aside",
-      "authority": "Orissa High Court at Cuttack; CESTAT Kolkata; [name withheld] (Appeals)",
+      "authority": "Orissa High Court at Cuttack; CESTAT Kolkata; Commissioner of Customs (Appeals)",
       "case_reference": "OTAPL No.50 of 2025; Shipping Bills No.9089712 dated 03.03.2021 and No.9152539 dated 06.03.2021",
       "laws": [
         "Section 130 of the Customs Act, 1962",
@@ -2016,10 +2722,10 @@
       "current_position": "The duty demand stands set aside and the Revenue appeal stands dismissed with no costs.",
       "quote": {
         "text": "levied customs duty to the tune of Rs.13,50,87,258/- vide Order dated 08.10.2021.",
-        "where": "[name withheld] (Preventive) vs [name withheld], OTAPL No.50 of 2025, Orissa High Court order dated 15.01.2026",
+        "where": "Commissioner of Customs (Preventive) vs [name withheld], OTAPL No.50 of 2025, Orissa High Court order dated 15.01.2026",
         "url": "https://indiankanoon.org/doc/21617280/"
       },
-      "caveats": "Port of export not confirmed in excerpt; Odisha nexus is via the deciding court at Cuttack and [name withheld] (Preventive) Bhubaneswar jurisdiction.",
+      "caveats": "Port of export not confirmed in excerpt; Odisha nexus is via the deciding court at Cuttack and Commissioner of Customs (Preventive) Bhubaneswar jurisdiction.",
       "sections": [
         {
           "label": "Why it is listed",
@@ -2140,6 +2846,165 @@
           "publisher": "Orissa High Court (via Indian Kanoon)",
           "date": "2025-12-10",
           "supports": "parties, ID Case No.6 of 2006, award dated 10.10.2013, setting aside of award, remand direction"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-pb-0004",
+      "category": "trade",
+      "state": "Punjab",
+      "title": "Rice exporters penalised for alleged misdeclaration of rice variety win appeal in Ludhiana customs case",
+      "summary": "Customs authorities treated exported parboiled rice as non-parboiled rice and confirmed duty with penalties and a redemption fine. The exporters appealed to the tribunal at Chandigarh. The tribunal set aside the lower orders and allowed the appeals.",
+      "date": "2026-08-18",
+      "date_label": "CESTAT order",
+      "district": "Ludhiana",
+      "outcome": "penalty_set_aside",
+      "authority": "Customs, Excise and Service Tax Appellate Tribunal, Chandigarh Regional Bench",
+      "case_reference": "Customs Appeal No. 60035 of 2026 with Nos. 60036, 60041, 60042, 60045 of 2026",
+      "laws": [
+        "Section 17 of the Customs Act, 1962",
+        "Section 18 of the Customs Act, 1962",
+        "Section 28(4) of the Customs Act, 1962",
+        "Section 110 of the Customs Act, 1962",
+        "Section 113(i) of the Customs Act, 1962",
+        "Section 125 of the Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "rice exporters based in Moga district",
+      "penalty": "demand of duty along with penalties, and redemption fine imposed below, set aside on appeal",
+      "detail": [
+        "The Tribunal recorded that the appellants are engaged in exporting rice and had declared outbound consignments as parboiled rice, according to the order text on Indian Kanoon.",
+        "The order records that representative samples were drawn and sent to the Central Revenues Control Laboratory at New Delhi, which reported the rice had characteristics of non-parboiled rice attracting 20% export duty, according to the order text.",
+        "The Tribunal recorded that the lower authorities confirmed the demand of duty along with penalties, and also imposed a redemption fine, according to the order text.",
+        "The Tribunal held that the impugned orders are set aside and the appeals are allowed, with consequential benefits, according to the order text."
+      ],
+      "current_position": "The duty, penalty and fine orders stand set aside and the exporters' appeals stand allowed.",
+      "quote": {
+        "text": "samples under reference have characteristics of Non-Parboiled Rice",
+        "where": "M/S S.K Brothers vs Commissioner of Customs Ludhiana, CESTAT order dated 18.08.2026, as reproduced on Indian Kanoon",
+        "url": "https://indiankanoon.org/doc/159372386/"
+      },
+      "caveats": "Exact shipment dates and duty amounts could not be confirmed from the excerpt; only the Jan-Feb 2023 span and 20% rate were visible.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Moving ordinary farm produce across borders harmed no one; the dispute was only about tariff classification and export duty on rice."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/159372386/",
+          "kind": "court_order",
+          "publisher": "CESTAT Chandigarh via Indian Kanoon",
+          "date": "2026-08-18",
+          "supports": "exporter location in Moga and Ludhiana, Jan-Feb 2023 exports, 20% duty claim, penalties and redemption fine, and final setting aside of orders"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-pb-0005",
+      "category": "capital",
+      "state": "Punjab",
+      "title": "DRI seizure of foreign currency from Amritsar-Dubai passenger leads to bail refusal",
+      "summary": "DRI officers intercepted a passenger at Amritsar airport travelling to Dubai and seized undeclared foreign currency worth about Rs 2.66 crore. The passenger was arrested under the Customs Act. The High Court dismissed the anticipatory-bail pleas of two connected men.",
+      "date": "2025-11-17",
+      "date_label": "High Court order",
+      "incident_date": "2025-05-03",
+      "district": "Amritsar",
+      "outcome": "bail_refused",
+      "authority": "Punjab and Haryana High Court; Directorate of Revenue Intelligence",
+      "case_reference": "CRM-M-43695-2025 and CRM-M-40702-2025; DRI F.No. DRI/ASR/855/INT/01/2025",
+      "laws": [
+        "Section 135(1)(i)(A) of the Customs Act, 1962",
+        "Section 482 of the BNSS"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "a passenger travelling from Amritsar to Dubai, and two men seeking pre-arrest relief",
+      "detail": [
+        "The High Court recorded that officers intercepted a passenger at the departure side of the Amritsar international airport while travelling from Amritsar to Dubai on SpiceJet Flight SG55 on 03.05.2025, according to the order text on Indian Kanoon.",
+        "The order records recovery of 2,681 US dollar notes of 100 denomination, hidden in layers of clothes in checked-in baggage, with total tariff value of Rs 2,66,29,598, according to the order text.",
+        "The order records that as the currency was unaccounted and exceeded permissible RBI limits, it was seized and the person was arrested by the DRI, according to the order text.",
+        "The High Court recorded that it found no merit in the pre-arrest pleas and dismissed them, according to the order text."
+      ],
+      "current_position": "The currency remains seized, the arrest stands, and the pre-arrest bail pleas stand dismissed.",
+      "quote": {
+        "text": "As the currency was unaccounted and exceeded the permissible RBI limits, it was seized",
+        "where": "[name withheld] vs Intelligence Officer, DRI, Punjab and Haryana High Court order dated 17.11.2025, as reproduced on Indian Kanoon",
+        "url": "https://indiankanoon.org/doc/131382151/"
+      },
+      "caveats": "Ownership dispute between the intercepted passenger and the bail seekers, and any later trial progress, could not be confirmed from the excerpt.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Carrying money abroad without declaration harmed no one; there was no allegation of drugs, fraud, force or any complaining victim."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/131382151/",
+          "kind": "court_order",
+          "publisher": "Punjab and Haryana High Court via Indian Kanoon",
+          "date": "2025-11-17",
+          "supports": "Amritsar airport interception, Dubai travel, currency amount and concealment, DRI seizure and arrest, Customs Act section, and bail dismissal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-pb-0006",
+      "category": "business",
+      "state": "Punjab",
+      "title": "Prosecution for transporting liquor without licence continues after proclaimed-person order set aside",
+      "summary": "Police in Khanna booked a man for alleged recovery of 27 boxes of country-made and English liquor being carried in a car. The trial court declared him a proclaimed person. The High Court allowed his plea and quashed the proclaimed-person order.",
+      "date": "2026-05-18",
+      "date_label": "High Court order",
+      "incident_date": "2017-10-28",
+      "district": "Ludhiana",
+      "outcome": "quashed",
+      "authority": "Punjab and Haryana High Court; Punjab Police",
+      "case_reference": "FIR No. 278 dated 28.10.2017, Police Station City Khanna, Police District Khanna, District Ludhiana",
+      "laws": [
+        "Sections 61/1/14 of the Excise Act"
+      ],
+      "acts": [
+        "Punjab Excise Act, 1914"
+      ],
+      "person": "a man from Khanna area accused of transporting liquor",
+      "detail": [
+        "The High Court recorded FIR No. 278 dated 28.10.2017 under the Excise Act at Police Station City Khanna, Police District Khanna, District Ludhiana, according to the order text on Indian Kanoon.",
+        "The order notes recovery of 27 boxes of country made liquor and English liquor while being carried in a car, according to the order text.",
+        "The order records no allegation of spurious or poisonous liquor, violence, cheating, minors or any complaining victim, based on the excerpt shown.",
+        "The High Court allowed the petition and quashed the order dated 14.06.2023 declaring the petitioner a proclaimed person, according to the order text."
+      ],
+      "current_position": "The proclaimed-person order stands quashed; the underlying Excise Act prosecution remains as per the FIR.",
+      "quote": {
+        "text": "recovery of 27 boxes of country made liquor and English liquor,",
+        "where": "[name withheld] vs State of Punjab, Punjab and Haryana High Court order dated 18.05.2026, as reproduced on Indian Kanoon",
+        "url": "https://indiankanoon.org/doc/45061127/"
+      },
+      "caveats": "Whether sale or only possession was alleged, and the current trial stage, could not be confirmed from the excerpt; no spurious-liquor allegation appeared.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Possessing or moving licit liquor without a permit harmed no one; it is a licence-permit violation with no victim and no spurious product alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/45061127/",
+          "kind": "court_order",
+          "publisher": "Punjab and Haryana High Court via Indian Kanoon",
+          "date": "2026-05-18",
+          "supports": "FIR number and Khanna police station in Ludhiana, liquor quantity, Excise Act sections, car registration, and quashing of proclaimed-person order"
         }
       ],
       "verification": "V2"

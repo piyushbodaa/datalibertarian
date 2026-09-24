@@ -246,6 +246,61 @@
       "verification": "V1"
     },
     {
+      "id": "cl-as-0001",
+      "category": "speech",
+      "state": "Assam",
+      "title": "Four accused granted bail in case concerning political leaflets",
+      "summary": "Four people were arrested in connection with a case concerning political-party leaflets carrying allegedly provocative remarks against a particular person. The case was registered under BNS Sections 152, 175, 196, 197, 353 and 61(2). The Gauhati High Court granted each accused bail on a bond of Rs 30,000 with one surety of the same amount.",
+      "date": "2026-03-19",
+      "date_label": "High Court bail order",
+      "district": "Kamrup Metropolitan",
+      "outcome": "prosecution_pending",
+      "authority": "Gauhati High Court",
+      "case_reference": "Bail Appln./757/2026; Dispur P.S. Case No. 135/2026",
+      "laws": [
+        "Section 152 of BNS, 2023",
+        "Section 175 of BNS, 2023",
+        "Section 196 of BNS, 2023",
+        "Section 197 of BNS, 2023",
+        "Section 353 of BNS, 2023",
+        "Section 61(2) of BNS, 2023"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "four accused in a case concerning political leaflets",
+      "detail": [
+        "The High Court recorded that the accused were arrested in connection with Dispur P.S. Case No. 135/2026, registered under Sections 152/175/196/197/353/61(2) of BNS, 2023.",
+        "Defence counsel submitted that police found a truck parked at a residential complex carrying political-party leaflets with provocative slogans. The Additional Public Prosecutor submitted that a good quantity of leaflets had been seized during the investigation.",
+        "After examining the case diary, the High Court recorded that the two leaflets produced before it were the only two leaflets seized by police and that they contained remarks against a particular person.",
+        "The High Court found that the seized material could not, at that stage of the investigation, be regarded as containing remarks endangering India's sovereignty so as to attract Section 152 BNS. It also noted that no public disorder had been reported and granted bail subject to cooperation with the investigation, non-interference with witnesses and a restriction on leaving the jurisdiction without permission."
+      ],
+      "current_position": "The High Court granted the four accused bail while the investigation remained pending.",
+      "quote": {
+        "text": "registered under Sections 152/175/196/197/353/61(2) of BNS, 2023.",
+        "where": "Gauhati High Court order in Bail Appln./757/2026 dated 19-03-2026",
+        "url": "https://indiankanoon.org/doc/198859037/"
+      },
+      "caveats": "FIR date and exact text of the leaflets could not be confirmed from the pages opened; news corroboration could not be fetched.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "The alleged conduct concerned possession and attempted circulation of political leaflets criticising a particular person; the order reports no resulting public disorder or violence."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/198859037/",
+          "kind": "court_order",
+          "publisher": "Gauhati High Court via Indian Kanoon",
+          "date": "2026-03-19",
+          "supports": "arrest, sections charged, seizure of leaflets, bail of Rs 30,000 each"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "cl-br-0002",
       "category": "religion",
       "state": "Bihar",
@@ -813,6 +868,59 @@
           "publisher": "Pragativadi",
           "date": "2026-07-20",
           "supports": "background that the case stemmed from criticism over textbook errors, Capital Police complaint of 15 July, and sealing of the channel office"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "cl-pb-0001",
+      "category": "speech",
+      "state": "Punjab",
+      "title": "Actor's TV interview remarks on Valmiki led to two criminal cases, later quashed",
+      "summary": "Police in Jalandhar registered an FIR under Sections 295 and 295-A IPC, with Section 3 of the SC/ST Act added later, while police in Amritsar registered a second FIR under Section 295 IPC, over a film actor's remarks about Valmiki in a news-channel interview. The Punjab and Haryana High Court held that the necessary ingredients of the alleged offences were missing. It quashed both FIRs and all subsequent proceedings against the speaker on 7 August 2024.",
+      "date": "2024-08-07",
+      "date_label": "High Court order (quashing)",
+      "incident_date": "2022-06-09",
+      "district": "Jalandhar",
+      "outcome": "quashed",
+      "authority": "Punjab and Haryana High Court (Justice Pankaj Jain)",
+      "case_reference": "CRM-M-11320-2023; FIR No. 67 dated 10.06.2022, PS Navi Baradri, Jalandhar; FIR No. 167 dated 11.06.2022, PS Cantonment, Amritsar",
+      "laws": [
+        "Sections 295, 295-A IPC",
+        "Section 3 of the SC/ST Act"
+      ],
+      "acts": [
+        "Indian Penal Code, 1860",
+        "Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act, 1989"
+      ],
+      "person": "a film actor in Punjab",
+      "detail": [
+        "The High Court recorded that the petitioner, described as an actor with a career spanning over 40 years, gave an interview to a Punjabi news channel on 9 June 2022 about the depiction of gun violence in cinema and its effect on young people, using an illustration concerning Valmiki.",
+        "The High Court recorded that FIR No. 67 dated 10 June 2022 was registered at Police Station Navi Baradri, Jalandhar, under Sections 295 and 295-A IPC, with Section 3 of the SC/ST Act added later. FIR No. 167 dated 11 June 2022 was registered at Police Station Cantonment, Amritsar, under Section 295 IPC. The complaint reproduced in the judgment alleged that the remarks had hurt the sentiments of the Valmiki and Ravidasiya communities.",
+        "The High Court found that the necessary ingredients to constitute the alleged offences were missing and that continuation of the proceedings would result in a miscarriage of justice.",
+        "The High Court allowed petition CRM-M-11320-2023 and quashed both FIRs and all subsequent proceedings qua the petitioner, by an order pronounced on 7 August 2024."
+      ],
+      "current_position": "Both FIRs and all proceedings against the speaker stand quashed since 7 August 2024.",
+      "quote": {
+        "text": "In view of above, the present petition is allowed.",
+        "where": "CRM-M-11320-2023, Punjab and Haryana High Court, order pronounced 7 August 2024",
+        "url": "https://indiankanoon.org/doc/88786309/"
+      },
+      "caveats": "No victim name or full interview transcript could be confirmed from the order excerpt; district reflects the first FIR (Jalandhar) though a second FIR lay in Amritsar. No more recent qualifying pure-speech case was found; 2025-2026 candidates examined were rejected as noted.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "The prosecution punished illustrative commentary in a media interview about a revered figure; the remarks involved no violence, threat, fraud, or complaining victim of any other offence, and the court itself found no offence was made out."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/88786309/",
+          "kind": "judgment",
+          "publisher": "Punjab and Haryana High Court via Indian Kanoon",
+          "date": "2024-08-07",
+          "supports": "FIR numbers and dates, sections charged, speech attributed, quashing order and date"
         }
       ],
       "verification": "V2"

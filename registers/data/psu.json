@@ -668,6 +668,59 @@
       "verification": "V2"
     },
     {
+      "id": "psu-as-0001",
+      "category": "cpse",
+      "state": "Assam",
+      "name": "Numaligarh Refinery Limited (NRL)",
+      "summary": "Numaligarh Refinery Limited's official website identifies it as a Navratna Public Sector Undertaking of the Government of India under the Ministry of Petroleum & Natural Gas and as a public-sector oil company in Assam. The homepage lists Financial Year 2025-26 and Financial Year 2026-27 corporate-announcement sections, a 32nd Annual General Meeting item, and a last-update date of 23/09/2026.",
+      "date": "2026-09-23",
+      "state_link": "The official website title identifies NRL as a public-sector oil company in Assam, and its refinery-expansion document describes a refinery and pipeline terminating at Numaligarh in Assam.",
+      "owner": "Central government (CPSE under Ministry of Petroleum & Natural Gas)",
+      "administrative": "Ministry of Petroleum & Natural Gas",
+      "legal_form": "Public sector undertaking",
+      "status_label": "Navratna CPSE",
+      "status": "Operating",
+      "detail": [
+        "The official NRL homepage states: 'This is the Official Website of Numaligarh Refinery Limited (NRL) a Navratna Public Sector Undertaking of the Govt. of India under Ministry of Petroleum & Natural Gas.'",
+        "The official homepage is titled 'Numaligarh Refinery Limited | Public Sector Oil Company Assam India'.",
+        "The homepage lists 'Financial Year 2025-26', 'Financial Year 2026-27', '32nd Annual General Meeting of Numaligarh Refinery Ltd. held', and 'Last Updated on: 23/09/2026'.",
+        "The official refinery-expansion document says NRL is expanding refinery capacity from 3.0 MMTPA to 9.0 MMTPA and describes the pipeline route as including Assam and ending at Numaligarh."
+      ],
+      "caveats": "The cited profile, contact, and expansion-project page URLs did not expose their claimed page-specific contents. The homepage and its linked official expansion-project PDF support the retained statements. The opened sources did not confirm headquarters, district, shareholding percentages, incorporation year, financial figures, or employee count.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.nrl.co.in/about-us/profile",
+          "kind": "company_site",
+          "publisher": "Numaligarh Refinery Limited",
+          "date": null,
+          "supports": "Navratna PSU under Ministry of Petroleum & Natural Gas; Assam India identity"
+        },
+        {
+          "url": "https://www.nrl.co.in/contact-us",
+          "kind": "company_site",
+          "publisher": "Numaligarh Refinery Limited",
+          "date": null,
+          "supports": "Public Sector Oil Company Assam India header; Shareholding Pattern page exists but figures not shown"
+        },
+        {
+          "url": "https://www.nrl.co.in/about-us/nrl-expansion-project",
+          "kind": "company_site",
+          "publisher": "Numaligarh Refinery Limited",
+          "date": "2026-09-23",
+          "supports": "Refinery Expansion Project exists; FY2025-26 and 32nd AGM disclosures; last updated 23/09/2026"
+        },
+        {
+          "url": "https://www.nrl.co.in/",
+          "kind": "company_site",
+          "publisher": "Numaligarh Refinery Limited",
+          "date": null,
+          "supports": "Refinery Expansion Project link; official domain"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "psu-as-0005",
       "category": "dfi",
       "state": "Assam",
@@ -820,6 +873,47 @@
           "publisher": "Wikipedia (tertiary context for history and fleet)",
           "date": null,
           "supports": "1948 department origin, 31 March 1970 corporation under 1950 Act, Rupnagar HQ, zones/stations, e-bus dates"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-as-0009",
+      "category": "jv",
+      "state": "Assam",
+      "name": "Brahmaputra Cracker and Polymer Limited (BCPL)",
+      "summary": "Brahmaputra Cracker and Polymer Limited is a Government of India petrochemical public-sector undertaking with its registered office in Guwahati, Assam and its headquarters and plant at Lepetkata, Dibrugarh, Assam. It is a joint venture in which GAIL (India) Limited holds 70%, while the Government of Assam, Numaligarh Refinery Limited and Oil India Limited each hold 10%. The latest dated company development visible on the official homepage is BCPL's 19th Foundation Day on 8 January 2026.",
+      "date": "2026-01-08",
+      "district": "Dibrugarh",
+      "headquarters": "Lepetkata, Dibrugarh, Assam",
+      "state_link": "Registered office in Guwahati, Assam; plant/head office at Lepetkata, Dibrugarh, Assam; Government of Assam reported as 10% joint-venture partner.",
+      "owner": "Joint",
+      "shareholding": "GAIL (India) Limited (70%), Government of Assam (10%), Numaligarh Refinery Limited (10%), Oil India Limited (10%) — as reported on secondary profile; as-of date not given; official split not verifiable on fetchable official page",
+      "administrative": "Ministry of Petroleum and Natural Gas",
+      "legal_form": "Government company",
+      "established": "BCPL celebrated its 19th Foundation Day on 8 January 2026.",
+      "status": "Operating",
+      "detail": [
+        "The official BCPL website tags the firm as '( A Government of India Enterprise)' and gives its domicile as 'Registered Office: 7th Floor, NRL Centre, 122A G.S Road, Christian Basti, Guwahati, Assam-781005' (source: bcplonline.co.in).",
+        "The same official excerpt describes BCPL as 'a public sector undertaking of the Government of India' and as 'under the Ministry of Petroleum and Natural Gas' (source: bcplonline.co.in).",
+        "A secondary profile lists head office at 'Lepetkata', 'Dibrugarh', 'India', plant as 'situated at Lepetkata, Dibrugarh City, Assam, India', launch as '5 February 2016', and backing as 'GAIL (India) Limited' with '(70%)', plus 'Government of Assam', 'Numaligarh Refinery' and 'Oil India', each with '(10%)' (source: Brahmaputra Cracker and Polymer Limited profile page)."
+      ],
+      "caveats": "Employee count was not available on the opened pages. The shareholding percentages are stated on the secondary profile page, while the official homepage confirms BCPL's Government of India public-sector status, petroleum-ministry control, registered office and a 2026 Foundation Day event.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://bcplonline.co.in/",
+          "kind": "company_site",
+          "publisher": "Brahmaputra Cracker and Polymer Limited",
+          "date": null,
+          "supports": "Government of India Enterprise tag; Guwahati Assam registered office address; Ministry of Petroleum and Natural Gas control"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Brahmaputra_Cracker_and_Polymer_Limited",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "Lepetkata Dibrugarh head office and plant location; 5 February 2016 launch; GAIL 70% and Assam/OIL/NRL 10% each JV backing — secondary, official split not corroborated on fetchable official page"
         }
       ],
       "verification": "V2"
@@ -1097,6 +1191,371 @@
           "publisher": "Press Information Bureau, Ministry of Housing and Urban Affairs",
           "date": "2024-07-03",
           "supports": "Mission period extended up to 31 March 2025 to complete remaining projects."
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-ct-0006",
+      "category": "departmental",
+      "state": "Chhattisgarh",
+      "name": "South East Central Railway (SECR)",
+      "summary": "South East Central Railway is an Indian Railways zone headquartered at Bilaspur, Chhattisgarh. It comprises the Bilaspur, Raipur and Nagpur divisions. The sources opened support its Bilaspur headquarters, divisional structure and 2003 commencement, but not the claimed 2026 apprentice-recruitment development.",
+      "date": "2003-04-03",
+      "district": "Bilaspur",
+      "headquarters": "Bilaspur, Chhattisgarh",
+      "state_link": "Zonal headquarters at Bilaspur, Chhattisgarh.",
+      "owner": "Central government",
+      "administrative": "Ministry of Railways",
+      "legal_form": "Zonal railway of Indian Railways",
+      "established": "Inaugurated 20 September 1998 and dedicated to the nation 3 April 2003; formerly part of South Eastern Railway",
+      "status": "Operating",
+      "detail": [
+        "South East Central Railway is listed as an Indian Railways zone headquartered at Bilaspur and comprising the Bilaspur, Raipur and Nagpur divisions.",
+        "The Wikipedia page states that the zone was formerly part of South Eastern Railway, was inaugurated on 20 September 1998 and was dedicated to the nation on 3 April 2003.",
+        "The claimed 2026 apprentice recruitment and September 2026 re-engagement notice could not be verified from the cited URLs.",
+        "No revenue, profit or employee figures were established by the sources opened, so financials and employees remain null."
+      ],
+      "caveats": "Headquarters and formation history rely partly on a secondary page; the official railway pages accessed confirm the zone and its Bilaspur/Raipur/Nagpur structure but the full HQ postal address was not captured. The 1,191-vacancy figure comes from secondary search excerpts, not the official RRC notification PDF, which was not opened. Revenue, profit and employee figures could not be confirmed from official sources accessed and are null.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/South_East_Central_Railway_zone",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "HQ at Bilaspur; Bilaspur/Raipur/Nagpur divisions; 1998/2003 formation history"
+        },
+        {
+          "url": "https://indianrailways.gov.in/",
+          "kind": "company_site",
+          "publisher": "Indian Railways",
+          "date": null,
+          "supports": "SECR listed as a zonal railway with link to secr.indianrailways.gov.in"
+        },
+        {
+          "url": "https://secr.indianrailways.gov.in/",
+          "kind": "company_site",
+          "publisher": "South East Central Railway / Ministry of Railways",
+          "date": null,
+          "supports": "Bilaspur/Raipur/Nagpur mandals; Railway Minister references; fresh September 2026 notices"
+        },
+        {
+          "url": "https://www.bing.com/search?q=SECR+Bilaspur+freight+loading+record+2025",
+          "kind": "news",
+          "publisher": "Bing search excerpts (SarkariResult and recruitment portals)",
+          "date": "2026-05-13",
+          "supports": "2026 apprentice drive: 1191 vacancies; notification reported May-June 2026"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-dl-0001",
+      "category": "cpse",
+      "state": "Delhi",
+      "name": "NTPC Limited (NTPC)",
+      "summary": "NTPC Limited is a central public sector electricity generation company under the Ministry of Power, Government of India, headquartered in New Delhi. The Government of India retains a majority equity holding in it and it holds Maharatna status. Its company site reports an installed capacity of 91,221 MW and a registered office at Lodi Road, New Delhi.",
+      "date": "2026-09-24",
+      "district": "New Delhi",
+      "headquarters": "New Delhi, Delhi",
+      "state_link": "Central enterprise headquartered in Delhi: registered office at NTPC Bhawan, SCOPE Complex, Lodi Road, New Delhi-110003.",
+      "owner": "Central government",
+      "shareholding": "51.10% equity with Government of India (as stated in tertiary source; as-of date not stated in excerpt; official DPE/MCA holding not retrievable via fetchable pages)",
+      "administrative": "Ministry of Power, Government of India",
+      "legal_form": "Government company (Listed company)",
+      "status_label": "Maharatna CPSE (Maharatna status conferred in May 2010 per the cited tertiary source)",
+      "established": "1975 (CIN L40101DL1975GOI007966 per company site)",
+      "status": "Operating",
+      "employees": "18,816 for 2025 (tertiary source; official annual-report figure not retrievable)",
+      "detail": [
+        "NTPC is a central public sector undertaking engaged in electricity generation and other activities, headquartered in New Delhi under the Ministry of Power, Government of India. The cited tertiary source says the Government of India holds 51.10% of its equity and that Maharatna status was conferred in May 2010.",
+        "The company site gives its registered office as NTPC Bhawan, SCOPE Complex, 7 Institutional Area, Lodi Road, New Delhi-110003, with CIN L40101DL1975GOI007966, and displays installed capacity of 91,221 MW and community investment of Rs 529 crore.",
+        "The NTPC homepage displays several dated 2026 updates, including a term-loan invitation dated 18 September 2026 and a Q4/FY26 conference-call notice dated 19 May 2026."
+      ],
+      "caveats": "Official FY2024-25/FY2025-26 revenue, profit and current Government shareholding were not established from the opened official homepage. Wikipedia reports 18,816 employees for 2025, while the NTPC homepage viewed on 24 September 2026 displays 16,779 employees.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://ntpc.co.in/",
+          "kind": "company_site",
+          "publisher": "NTPC Limited",
+          "date": null,
+          "supports": "registered office Lodi Road New Delhi; CIN; 91,221 MW installed capacity; Rs 529 crore community investment"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/NTPC_Limited",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "central PSU generation; New Delhi base; Ministry of Power; 51.10% equity; Maharatna May 2010; 18,816 workforce for 2025 (tertiary context only)"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-dl-0002",
+      "category": "state",
+      "state": "Delhi",
+      "name": "Delhi Transco Limited (DTL)",
+      "summary": "Delhi Transco Limited is the State Transmission Utility for Delhi, carved out of the Delhi Vidyut Board on 1 July 2002. It is wholly owned by the Government of Delhi and operates Delhi's transmission network. Its official site confirms its creation on 1 July 2002 and its STU status.",
+      "date": "2002-07-01",
+      "district": "New Delhi",
+      "headquarters": "New Delhi, Delhi",
+      "state_link": "State PSU owned by the Government of Delhi: State Transmission Utility of Delhi; wholly owned by Delhi Government per successor-company record.",
+      "owner": "State government (Delhi)",
+      "shareholding": "100% Government of Delhi (wholly owned; per tertiary successor-company record; official equity split/as-of date not retrievable)",
+      "administrative": "Department of Power, Government of NCT of Delhi",
+      "legal_form": "Government company",
+      "established": "2002 (1 July 2002, carved out of Delhi Vidyut Board after Delhi power-sector restructuring)",
+      "status": "Operating",
+      "detail": [
+        "Delhi Transco Limited came into existence on 1 July 2002. It was carved out of the Delhi Vidyut Board as a separate entity following restructuring of Delhi's power sector and was accorded the status of State Transmission Utility for Delhi.",
+        "DTL discharges State Transmission Utility functions under Section 39(2) of the Electricity Act, 2003, transmitting power by establishing and operating an efficient and reliable transmission network.",
+        "On 1 July 2002, the Delhi Vidyut Board was unbundled into six successor companies. The cited tertiary source states that DTL and IPGCL are wholly owned by the Delhi Government."
+      ],
+      "caveats": "The opened sources do not provide a dated equity statement or employee count. The date shown is DTL's formation date rather than a recent corporate development.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.dtl.gov.in/",
+          "kind": "company_site",
+          "publisher": "Delhi Transco Limited",
+          "date": null,
+          "supports": "came into existence 1 July 2002; carved out of Delhi Vidyut Board; STU of Delhi status"
+        },
+        {
+          "url": "https://www.dtl.gov.in/content/about-us",
+          "kind": "company_site",
+          "publisher": "Delhi Transco Limited",
+          "date": null,
+          "supports": "STU functions under Clause 39(2) of Electricity Act 2003"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Delhi_Transco_Limited",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "unbundled into six successor companies 1 July 2002; DTL wholly owned by Delhi Government (tertiary context only)"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-dl-0003",
+      "category": "bank",
+      "state": "Delhi",
+      "name": "Punjab National Bank (PNB)",
+      "summary": "Punjab National Bank is an Indian public-sector bank headquartered at Dwarka, New Delhi. It was nationalised by the Government of India in 1969 and remains government-owned. The Reserve Bank of India page gives its head-office address as Plot No. 4, Sector 10, Dwarka, New Delhi-110075.",
+      "date": "2026-09-24",
+      "district": "South West Delhi",
+      "headquarters": "Dwarka, New Delhi, Delhi",
+      "state_link": "Central public sector bank headquartered in Delhi: corporate office at Dwarka, New Delhi; listed among the twelve public sector banks.",
+      "owner": "Central government",
+      "administrative": "Government of India",
+      "legal_form": "Nationalised public-sector bank; listed on BSE and NSE",
+      "established": "1894-1895 (board first met 23 May 1894; opened for business 12 April 1895 at Lahore; nationalised 19 July 1969 with 13 other banks)",
+      "status": "Operating",
+      "detail": [
+        "Punjab National Bank, also known as PNB, is an Indian public-sector bank based in New Delhi with its headquarters in Dwarka, Delhi. Its board first met on 23 May 1894, it opened for business on 12 April 1895 in Lahore, and the Government of India nationalised it with 13 other major commercial banks on 19 July 1969.",
+        "The Reserve Bank of India page gives PNB's head-office address as Plot No. 4, Sector 10, Dwarka, New Delhi-110075.",
+        "The Reserve Bank of India includes PNB in its list titled 'SBI & Nationalised Banks,' which contains twelve banks."
+      ],
+      "caveats": "The opened sources do not establish the Ministry of Finance attribution used in the original record. Government shareholding percentage, official financial figures and employee count were left null. The district follows from the Dwarka head-office location.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://pnb.bank.in/",
+          "kind": "company_site",
+          "publisher": "Punjab National Bank",
+          "date": null,
+          "supports": "corporate office Plot No. 4 Sector 10 Dwarka New Delhi-110075"
+        },
+        {
+          "url": "https://www.rbi.org.in/commonman/english/scripts/banksinindia.aspx",
+          "kind": "government_order",
+          "publisher": "Reserve Bank of India",
+          "date": null,
+          "supports": "PNB listed among twelve public sector banks"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Punjab_National_Bank",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "public sector bank based in New Delhi; Dwarka HQ; 1894/1895 origin; 1969 nationalisation (tertiary context only)"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-dl-0006",
+      "category": "departmental",
+      "state": "Delhi",
+      "name": "Northern Railway (NR)",
+      "summary": "Northern Railway is a zonal railway administered under the Ministry of Railways. It is headquartered at Baroda House in New Delhi and was officially notified as a railway zone on 14 April 1952. Official Northern Railway documents show continuing headquarters activity at Baroda House in 2025.",
+      "date": "1952-04-14",
+      "district": "New Delhi",
+      "headquarters": "Baroda House, New Delhi, Delhi",
+      "state_link": "Central railway zone headquartered at Baroda House, New Delhi, Delhi.",
+      "owner": "Central government",
+      "administrative": "Ministry of Railways",
+      "legal_form": "Departmental undertaking (railway zone)",
+      "established": "Officially notified as a railway zone on 14 April 1952; origin traced to 3 March 1859",
+      "status": "Operating",
+      "detail": [
+        "Northern Railway is headquartered at Baroda House in New Delhi, according to the Northern Railway zone page and official Northern Railway documents.",
+        "\"Officially notified as a new railway zone on 14 April 1952, its origin goes back to 3 March 1859\", according to the Northern Railway zone page.",
+        "The Ministry of Railways' Manual of Office Procedure classifies zonal railways as subordinate offices, and an official Northern Railway document identifies its Headquarters Office at Baroda House, New Delhi."
+      ],
+      "caveats": "Headquarters city and zone dates above come from a secondary page because official railway sub-pages fetched returned no usable sentences; this should be rechecked against the Railway Year Book or a gazette. Exact zone financials, employee count, and any 2025/2026 official development (new lines, trains, CAG finding) could not be confirmed from pages actually accessible and are left null. Shareholding is not applicable to a departmental undertaking.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Northern_Railway_zone",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "headquarters at Baroda House New Delhi; notified 14 April 1952, origin 3 March 1859"
+        },
+        {
+          "url": "https://nr.indianrailways.gov.in/",
+          "kind": "company_site",
+          "publisher": "Northern Railway / Ministry of Railways",
+          "date": null,
+          "supports": "official site carries a Northern Railway headquarters section; sub-pages fetched returned only navigation labels"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-dl-0007",
+      "category": "statutory",
+      "state": "Delhi",
+      "name": "Delhi Transport Corporation (DTC)",
+      "summary": "Delhi Transport Corporation is the Delhi government's road-transport undertaking, headquartered at I.P. Estate, New Delhi. Its predecessor authority was constituted under the Road Transport Corporations Act, 1950; DTC was set up in 1971 and was taken over by the Government of NCT of Delhi on 05.08.1996. Its official homepage also displays multiple notices dated in 2025 and 2026.",
+      "date": "1996-08-05",
+      "district": "Central Delhi",
+      "headquarters": "I.P. Estate, New Delhi, Delhi",
+      "state_link": "Undertaking of / taken over by the Government of NCT of Delhi; HQ at I.P. Estate, New Delhi.",
+      "owner": "State government (Delhi)",
+      "administrative": "Government of NCT of Delhi (Transport)",
+      "legal_form": "Statutory corporation (Road Transport Corporation Act, 1950)",
+      "established": "Set up in 1971; predecessor authority constituted under the Road Transport Corporation Act, 1950; taken over by Govt. of NCT, Delhi on 05.08.1996",
+      "status": "Operating",
+      "detail": [
+        "The official address is given as 'Delhi Transport Corporation (HQ), Government of National Capital Territory of Delhi, I.P. Estate: New Delhi-110002', per https://dtc.delhi.gov.in/.",
+        "'A Delhi Road Transport Authority was constituted under the Road Transport Corporation Act, 1950' and 'became undertaking of Municipal Corporation of Delhi by an Act of Parliament in April, 1958', per https://dtc.delhi.gov.in/.",
+        "'Thus the DTC was set up in 1971' and 'was finally taken over by Govt. of NCT, Delhi on 05.08.1996', per https://dtc.delhi.gov.in/."
+      ],
+      "caveats": "Latest financials (revenue, profit/loss), fleet/financial-year figures, employee count, and any 2025/2026 development (e-bus induction, CAG finding, merger/closure decision) could not be confirmed from pages actually accessible and are left null. District (Central Delhi) is inferred from the I.P. Estate address, not stated on the page. Status 'Operating' means the official site is active, not a verified profitability finding.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://dtc.delhi.gov.in/",
+          "kind": "company_site",
+          "publisher": "Delhi Transport Corporation / Government of NCT of Delhi",
+          "date": null,
+          "supports": "HQ address and GNCTD link; Road Transport Corporation Act 1950 origin; set up 1971; taken over by Govt of NCT Delhi on 05.08.1996"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-dl-0009",
+      "category": "jv",
+      "state": "Delhi",
+      "name": "Delhi Metro Rail Corporation Limited (DMRC)",
+      "summary": "DMRC is the centre-state joint venture that builds and runs the Delhi Metro, held 50:50 by the Government of India and the Government of NCT of Delhi. It is a government company under the Companies Act, 2013 and is headquartered in New Delhi. On 8 March 2026, two Phase IV corridors were inaugurated, completing India's first operational 'ring metro'.",
+      "date": "2026-03-08",
+      "district": "New Delhi",
+      "headquarters": "New Delhi, Delhi",
+      "state_link": "A centre-state joint venture of the Government of NCT of Delhi (50%) and the Centre (50%), with its registered office in New Delhi.",
+      "owner": "Joint (Central government 50% and State government (Delhi) 50%)",
+      "shareholding": "GoI 50% and GNCTD 50% of paid-up equity; paid-up equity share capital ₹24,128.49 crore as on 31 March 2025",
+      "administrative": "Ministry of Housing and Urban Affairs (GoI) and Transport Department, GNCTD",
+      "legal_form": "Government company (joint venture) under the Companies Act, 2013 (s.2(45)); CIN U74899DL1995GOI068150",
+      "established": "1995; incorporated under the Companies Act, 1956 and registered with the Registrar of Companies, Delhi",
+      "status": "Operating",
+      "financials": "FY2024-25 (DMRC 30th Annual Report): revenue from operations ₹7,338.97 crore; net loss ₹1,597.81 crore; operating surplus of ₹412.79 crore from traffic operations; paid-up equity ₹24,128.49 crore as on 31 March 2025",
+      "employees": "13,708 as on 31 March 2025",
+      "detail": [
+        "DMRC is a 50:50 joint venture of the Government of India and the Government of NCT of Delhi; its secretarial audit records that 100% of paid-up capital is held by the two governments in equal proportion and that the company is a Government Company within the meaning of s.2(45) of the Companies Act, 2013. Its registered office is Metro Bhawan, Fire Brigade Lane, Barakhamba Road, New Delhi-110001 (DMRC 30th Annual Report, 2024-25).",
+        "For FY2024-25 DMRC reported revenue from operations of ₹7,338.97 crore and a net loss of ₹1,597.81 crore, after finance costs of ₹581.38 crore and depreciation and amortisation of ₹2,609.37 crore; the traffic-operations segment alone recorded an operating surplus of ₹412.79 crore. Paid-up equity rose to ₹24,128.49 crore as on 31 March 2025, allotted equally to GoI and GNCTD, and the Corporation employed 13,708 people (DMRC 30th Annual Report, 2024-25).",
+        "On 8 March 2026 the Prime Minister inaugurated two Phase IV corridors — the Majlis Park–Maujpur Babarpur section of the Pink Line (about 12.3 km) and the Deepali Chowk–Majlis Park section of the Magenta Line (about 9.9 km) — which completed the Pink Line's circular configuration. The same event saw foundation stones laid for three Phase V-A corridors.",
+        "As reported for 2024-25, DMRC operated about 394.25 km with 289 stations. It was executing roughly 110 km across six Phase IV corridors, and the three priority corridors were 63.28% physically complete as on 31 March 2025 (DMRC 30th Annual Report, 2024-25)."
+      ],
+      "caveats": "The exact incorporation date (3 May 1995) appears on DMRC's corporate web page, which rendered only as a script shell during this check; the 1995 incorporation is confirmed by the CIN shown in the annual report. DMRC is a joint-venture government company and is not classified in the DPE Public Enterprises Survey schedule, so no Schedule/Navratna status label applies. Phase IV completion figures are works-in-progress.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://backend.delhimetrorail.com/documents/9862/Annual-Report-2024-2025-English.pdf",
+          "kind": "annual_report",
+          "publisher": "Delhi Metro Rail Corporation Limited",
+          "date": "2025-09-19",
+          "supports": "50:50 GoI/GNCTD ownership, s.2(45) government company, paid-up equity ₹24,128.49 crore, FY2024-25 revenue ₹7,338.97 crore and net loss ₹1,597.81 crore, operating surplus ₹412.79 crore, 13,708 employees, Phase IV status, registered office"
+        },
+        {
+          "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2236008",
+          "kind": "pib",
+          "publisher": "Press Information Bureau (Prime Minister's Office)",
+          "date": "2026-03-06",
+          "supports": "8 March 2026 inauguration of the Majlis Park–Maujpur Babarpur (Pink Line, ~12.3 km) and Deepali Chowk–Majlis Park (Magenta Line, ~9.9 km) Phase IV corridors"
+        },
+        {
+          "url": "https://metrorailnews.in/modi-inaugurated-2-new-sections-of-delhi-metro/",
+          "kind": "news",
+          "publisher": "Metro Rail News",
+          "date": "2026-03-09",
+          "supports": "corridor lengths and completion of the Pink Line ring metro"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-dl-0010",
+      "category": "municipal",
+      "state": "Delhi",
+      "name": "Delhi Jal Board (DJB)",
+      "summary": "DJB is the statutory water and sewerage utility of the National Capital Territory of Delhi, constituted in 1998 under the Delhi Water Board Act. It is a body corporate of the Government of NCT of Delhi, chaired by the Delhi minister in charge of water. A CAG performance audit report on its functioning was laid before the Delhi Legislative Assembly on 23 March 2026.",
+      "date": "2026-03-23",
+      "district": "Central Delhi",
+      "headquarters": "New Delhi, Delhi",
+      "state_link": "A statutory board of the Government of NCT of Delhi, constituted by and answerable to the GNCTD, serving most of Delhi's water and sewerage services.",
+      "owner": "State government (Delhi)",
+      "administrative": "Urban Development Department, Government of NCT of Delhi; the Board is chaired by the minister in charge of water",
+      "legal_form": "Statutory corporation (Delhi Water Board Act, 1998 – Delhi Act No. 4 of 1998)",
+      "established": "1998 (constituted on 6 April 1998 under the Delhi Water Board Act 1998, taking over the erstwhile Delhi Water Supply and Sewage Disposal Undertaking)",
+      "status": "Loss-making",
+      "financials": "CAG Report No. 3 of 2025 (accounts submitted for statutory audit up to 2021-22): total outstanding loan and interest payable ₹66,595 crore as on March 2022; except in 2020-21, excess expenditure over income was met from earnest money, withheld security deposits and unspent capital funds; non-revenue water was 51–53% of supply and affected revenues by ₹4,988 crore",
+      "detail": [
+        "The Delhi Water Board Act, 1998 (Delhi Act No. 4 of 1998) establishes a board that is a body corporate with perpetual succession; its chairperson is the minister in charge of water in the GNCTD, and the 'Government' for the Act is the Government of NCT of Delhi.",
+        "The CAG's Performance Audit Report No. 3 of 2025 on the 'Functioning of Delhi Jal Board' was laid before the Delhi Legislature on 23 March 2026. It found that total outstanding loan and interest payable stood at ₹66,595 crore as on March 2022, that Separate Audit Reports opined that accounts submitted up to 2021-22 did not depict a 'true and fair picture', and that, except in 2020-21, excess expenditure over income was met from earnest money, withheld security deposits and unspent capital funds.",
+        "The audit also found that non-revenue water was 51–53% of the average water supplied per day, affecting revenues by ₹4,988 crore; that transmission losses rose from 16% to 21% during 2017–22; and that the Asian Development Bank withdrew ₹2,243 crore of financing for rehabilitation of the Wazirabad water treatment plant."
+      ],
+      "caveats": "DJB is a statutory corporation with no share capital, so no shareholding percentage is reported (it is wholly constituted and controlled by the GNCTD). The latest audited accounts available to the CAG were only up to 2021-22, so no current profit/loss figure is confirmed. A current employee count could not be confirmed (the CAG noted a 3,057-staff mismatch between IFMS and personnel records and a rise in regular-staff shortage from 23.09% to 32.12%). The official DJB website did not load during this check; the constitution date and headquarters address are from secondary/official-page search snippets. A Delhi Budget 2026-27 allocation of ₹9,000 crore to DJB was reported in news but is not cited here as an official figure.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://cag.gov.in/uploads/PressRelease/PR-Press-Release-on-Report-No-3-of-2025-069c383c1c5b4d3-75064279.pdf",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": "2026-03-24",
+          "supports": "Report No. 3 of 2025 laid before the Delhi Legislature on 23 March 2026; outstanding loan of ₹66,595 crore; NRW 51–53% and ₹4,988 crore revenue impact; ₹2,243 crore ADB withdrawal; accounts not true and fair"
+        },
+        {
+          "url": "https://www.watcon.org/storage/pdfs/d201301.pdf",
+          "kind": "statute",
+          "publisher": "Government of NCT of Delhi – The Delhi Water Board Act, 1998 (Delhi Act No. 4 of 1998)",
+          "date": "1998-04-02",
+          "supports": "statutory basis of the Board, its constitution, and the minister in charge of water as chairperson"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Delhi_Jal_Board",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "constitution date of 6 April 1998 and incorporation of the Delhi Water Supply and Sewage Disposal Undertaking"
         }
       ],
       "verification": "V2"
@@ -1392,6 +1851,132 @@
       "verification": "V2"
     },
     {
+      "id": "psu-jk-0001",
+      "category": "cpse",
+      "state": "Jammu and Kashmir",
+      "name": "Chenab Valley Power Projects Limited (CVPPL)",
+      "summary": "CVPPL is a government joint-venture company implementing hydroelectric projects in the Chenab basin; the company website states an NHPC 51% / JKSPDCL 49% structure, while CARE Ratings reported NHPC 59.25% and JKSPDCL 40.75% as of 30 September 2025. On 30 January 2026, it lowered the 420-tonne turbine rotor for Unit II of the 1,000 MW Pakal Dul Hydroelectric Project.",
+      "date": "2026-01-30",
+      "district": "Jammu",
+      "headquarters": "Jammu, Jammu and Kashmir",
+      "state_link": "CVPPL is headquartered in Jammu and is jointly owned by central CPSE NHPC and Jammu and Kashmir government enterprise JKSPDCL.",
+      "owner": "Joint: Central government-controlled NHPC Limited and State government (Jammu and Kashmir)-controlled JKSPDCL",
+      "shareholding": "Company website states NHPC Limited 51% and JKSPDCL 49%; CARE Ratings reported NHPC 59.25% and JKSPDCL 40.75% as on 30 September 2025",
+      "administrative": "Ministry of Power, Government of India, through NHPC Limited; Government of Jammu and Kashmir through JKSPDCL",
+      "legal_form": "Unlisted government company and joint-venture CPSE under the Companies Act, 2013",
+      "established": "2011; incorporated on 13 June 2011 as a joint venture of NHPC Limited and JKSPDCL",
+      "status": "Operating",
+      "detail": [
+        "The company website states that CVPPL was incorporated on 13 June 2011, is owned 51% by NHPC and 49% by JKSPDCL, and is responsible for four Chenab-basin projects with aggregate capacity of 3,094 MW.",
+        "CVPPL's official release of 30 January 2026 records the lowering of the Unit II rotor at Pakal Dul. It describes the rotor as having 20 poles and weighing 420 tonnes, and the project as four 250 MW units."
+      ],
+      "caveats": "The company is still constructing its principal projects and reported no revenue from operations in FY2024-25. DPE did not show a separate Schedule A-D or Ratna designation in the sources opened.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://reports-pesurvey.dpe.gov.in/pesurveyreports/FY2024-25/PESurveyReportFY2024-25_English.pdf",
+          "kind": "dpe_survey",
+          "publisher": "Department of Public Enterprises, Ministry of Finance",
+          "date": null,
+          "supports": "CPSE classification and FY2024-25 employment breakdown"
+        },
+        {
+          "url": "https://www.cvppindia.com/",
+          "kind": "company_site",
+          "publisher": "Chenab Valley Power Projects Limited",
+          "date": null,
+          "supports": "Incorporation date, ownership, projects and aggregate capacity"
+        },
+        {
+          "url": "https://cvppindia.com/newsdet.aspx?id=469",
+          "kind": "company_site",
+          "publisher": "Chenab Valley Power Projects Limited",
+          "date": "2026-01-30",
+          "supports": "Lowering of the 420-tonne Unit II rotor at Pakal Dul"
+        },
+        {
+          "url": "https://www.cvppindia.com/contact.aspx",
+          "kind": "company_site",
+          "publisher": "Chenab Valley Power Projects Limited",
+          "date": null,
+          "supports": "Headquarters address in Jammu"
+        },
+        {
+          "url": "https://www.cvppindia.com/admin_panel/Files/9202512039404.pdf",
+          "kind": "annual_report",
+          "publisher": "Chenab Valley Power Projects Limited",
+          "date": "2025-05-08",
+          "supports": "FY2024-25 audited financial figures and registered office"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-jk-0002",
+      "category": "state",
+      "state": "Jammu and Kashmir",
+      "name": "Jammu and Kashmir Bank Limited (J&K Bank)",
+      "summary": "J&K Bank is a listed scheduled commercial bank headquartered in Srinagar; the governments of Jammu and Kashmir and Ladakh jointly hold a 59.40% promoter stake. On 29 July 2026, the bank reported a net profit of Rs 424 crore for the quarter ended 30 June 2026.",
+      "date": "2026-07-29",
+      "district": "Srinagar",
+      "headquarters": "Srinagar, Jammu and Kashmir",
+      "state_link": "The bank is headquartered in Srinagar and is majority-owned jointly by the governments of Jammu and Kashmir and Ladakh.",
+      "owner": "Joint: Governments of the Union Territories of Jammu and Kashmir and Ladakh",
+      "shareholding": "Governments of Jammu and Kashmir and Ladakh jointly held 59.40% as of 31 March 2026; the separate holdings of the two governments were not disclosed in the opened source",
+      "legal_form": "Listed government company and scheduled commercial banking company",
+      "status_label": "Listed on NSE and BSE; classified by the Department of Financial Services as a private-sector bank rather than one of the twelve PSBs",
+      "established": "1938; incorporated as a banking company",
+      "status": "Operating",
+      "financials": "Q1 FY2026-27: net profit Rs 424 crore. FY2025-26: net profit Rs 2,363.47 crore; total business Rs 290,341 crore as of 31 March 2026",
+      "employees": "11,934 as of 31 March 2026",
+      "detail": [
+        "The bank's official profile says it was incorporated in 1938, is listed on NSE and BSE, and has its corporate headquarters in Srinagar.",
+        "The same profile reports that the governments of Jammu and Kashmir and Ladakh jointly held 59.40% as of 31 March 2026. That majority holding makes it eligible here as a state-level government company, although banking authorities classify it as a private-sector bank.",
+        "The bank announced on 29 July 2026 that it earned Rs 424 crore in the April-June 2026 quarter.",
+        "Its official FY2025-26 earnings release reported annual profit of Rs 2,363.47 crore, total business of Rs 290,341 crore and 11,934 employees at 31 March 2026."
+      ],
+      "caveats": "The official disclosures aggregate the promoter stake of the Jammu and Kashmir and Ladakh governments; their individual percentages could not be confirmed. No single state administrative department was confirmed, so the administrative field is null. J&K Bank is included under the state-enterprise category, not the twelve-bank PSB category.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.jkb.bank.in/about-us",
+          "kind": "company_site",
+          "publisher": "Jammu and Kashmir Bank Limited",
+          "date": null,
+          "supports": "Incorporation, headquarters, listing, scheduled-bank status and 59.40% government holding"
+        },
+        {
+          "url": "https://www.jkb.bank.in/",
+          "kind": "company_site",
+          "publisher": "Jammu and Kashmir Bank Limited",
+          "date": "2026-07-29",
+          "supports": "Q1 FY2026-27 net profit of Rs 424 crore"
+        },
+        {
+          "url": "https://jkb.bank.in/sites/default/files/2026-05/PRESS_RELEASE_05052026.pdf",
+          "kind": "exchange_filing",
+          "publisher": "Jammu and Kashmir Bank Limited",
+          "date": "2026-05-05",
+          "supports": "FY2025-26 net profit, total business and corporate-headquarters address"
+        },
+        {
+          "url": "https://jkb.bank.in/sites/default/files/2026-05/PRESENTATION_CONCALL.pdf",
+          "kind": "exchange_filing",
+          "publisher": "Jammu and Kashmir Bank Limited",
+          "date": "2026-05-05",
+          "supports": "Employee count as of 31 March 2026 and FY2025-26 performance ratios"
+        },
+        {
+          "url": "https://www.financialservices.gov.in/private-sector-banks",
+          "kind": "company_site",
+          "publisher": "Department of Financial Services, Ministry of Finance",
+          "date": null,
+          "supports": "Regulatory classification of J&K Bank among private-sector banks"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "psu-ka-0003",
       "category": "bank",
       "state": "Karnataka",
@@ -1614,6 +2199,137 @@
           "publisher": "Bengaluru Water Supply and Sewerage Board",
           "date": "2025-01-01",
           "supports": "Revised Water Tariff Ready Reckoner 2025 exists; figures not text-extracted"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-kl-0001",
+      "category": "cpse",
+      "state": "Kerala",
+      "name": "Cochin Shipyard Limited (CSL)",
+      "summary": "Cochin Shipyard Limited is a Government of India shipbuilding and ship-repair company headquartered at Kochi, Kerala. It is a listed Schedule A Miniratna Category I company under the Ministry of Ports, Shipping and Waterways. Its current official investor page lists the Annual Report 2025-26, including the notice for the 54th AGM.",
+      "date": "2026-09-24",
+      "district": "Ernakulam",
+      "headquarters": "Kochi, Kerala",
+      "state_link": "Headquartered at Perumanoor P.O., Kochi - 682015, Kerala, India; CIN L63032KL1972GOI002414 (KL = Kerala).",
+      "owner": "Central government",
+      "administrative": "Ministry of Ports, Shipping and Waterways",
+      "legal_form": "Government company, Listed company",
+      "status_label": "Schedule A CPSE, Miniratna Category I",
+      "established": "1972 as a Government of India company; yard conceived in 1969, first-phase facilities completed by 1982",
+      "status": "Operating",
+      "detail": [
+        "Cochin Shipyard Limited was incorporated in 1972 as a fully owned Government of India company. Its registered address is Perumanoor P O, Kochi - 682015, Kerala, India, and its CIN is L63032KL1972GOI002414. The official website identifies the Ministry of Ports, Shipping and Waterways.",
+        "The company history page states that the yard was conceived in 1969 as the first greenfield shipbuilding yard in the country, was designed and constructed with technical collaboration from Mitsubishi Heavy Industries, Japan, and completed its first-phase facilities in 1982. Shipbuilding commenced in 1978; the same page refers to ship-repair commencement in both 1981 and 1982.",
+        "The corporate profile describes CSL as one of India's leading shipbuilding and repair yards and says it is certified to ISO 9001:2015, ISO 14001:2015 and ISO 45001:2018 standards.",
+        "The current official investor page lists the Annual Report 2025-26 including the notice for the 54th AGM. The older standalone annual-report page displays reports only through 2020-21, while the standalone financial-results page displays years only through 2021-22."
+      ],
+      "caveats": "Shareholding percentage as of 2025/2026, FY2024-25 and FY2025-26 revenue/profit, and employee count could not be confirmed from official pages opened; financial-results page excerpt showed only quarter labels without amounts and annual-report PDFs were too large to fetch. Status_label Schedule A Miniratna is supported by official-site search snippet and company-site context, not by a dedicated DPE survey page which was not accessible (403).",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://cochinshipyard.in/",
+          "kind": "company_site",
+          "publisher": "Cochin Shipyard Limited",
+          "date": "2026-09-24",
+          "supports": "fully owned Government of India company 1972; address Kochi Kerala; CIN; last-modified date"
+        },
+        {
+          "url": "https://cochinshipyard.in/history",
+          "kind": "company_site",
+          "publisher": "Cochin Shipyard Limited",
+          "date": "2026-09-24",
+          "supports": "conceived 1969, incorporated 1972, operations 1978/1981/1982, Mitsubishi collaboration"
+        },
+        {
+          "url": "https://cochinshipyard.in/coporate-profile",
+          "kind": "company_site",
+          "publisher": "Cochin Shipyard Limited",
+          "date": "2026-09-24",
+          "supports": "leading yard description, ISO certification, Ministry identity"
+        },
+        {
+          "url": "https://cochinshipyard.in/investors",
+          "kind": "company_site",
+          "publisher": "Cochin Shipyard Limited",
+          "date": "2026-09-24",
+          "supports": "investor tiles, CIN, address, Ministry, 2026 copyright"
+        },
+        {
+          "url": "https://cochinshipyard.in/financial-results",
+          "kind": "company_site",
+          "publisher": "Cochin Shipyard Limited",
+          "date": "2026-09-24",
+          "supports": "financial-results archive structure only up to 2021-22 in excerpt, no figures"
+        },
+        {
+          "url": "https://cochinshipyard.in/annual-report",
+          "kind": "company_site",
+          "publisher": "Cochin Shipyard Limited",
+          "date": null,
+          "supports": "annual reports 2012-13 to 2020-21 listed, showing older filings only in accessible view"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cochin_Shipyard",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "Miniratna status context only; official figures not used from here"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-kl-0002",
+      "category": "state",
+      "state": "Kerala",
+      "name": "Kerala State Electricity Board Limited (KSEBL)",
+      "summary": "Kerala State Electricity Board Limited is the Kerala state-owned power utility headquartered at Thiruvananthapuram. It is the corporate successor to the Kerala State Electricity Board constituted in 1957. KSEBL was incorporated under the Companies Act, 1956 in 2011 and began operating as the successor company in 2013 after the transfer of the former board's assets and liabilities.",
+      "date": "2026-09-24",
+      "district": "Thiruvananthapuram",
+      "headquarters": "Thiruvananthapuram, Kerala",
+      "state_link": "State utility of Kerala; corporate headquarters at Vydyuthi Bhavanam, Pattom, Thiruvananthapuram, Kerala; successor of Kerala State Electricity Board via Government of Kerala order.",
+      "owner": "State government (Kerala)",
+      "administrative": "Power Department, Government of Kerala",
+      "legal_form": "Government company (successor entity under Electricity Act 2003)",
+      "established": "1957 as Kerala State Electricity Board; Kerala State Electricity Board Limited incorporated on 14-01-2011 and operating as the successor company from 01-11-2013",
+      "status": "Operating",
+      "detail": [
+        "KSEBL's registered and corporate office is at Vydyuthi Bhavanam, Pattom, Thiruvananthapuram - 695004, Kerala.",
+        "The Kerala State Electricity Board was constituted by the Government of Kerala in 1957 under the Electricity (Supply) Act, 1948. Following restructuring under section 131 of the Electricity Act, 2003, Kerala State Electricity Board Limited was incorporated under the Companies Act, 1956 on 14 January 2011 and began operating as an independent successor company on 1 November 2013.",
+        "KSEBL is owned by the Government of Kerala and operates under the state's Power Department."
+      ],
+      "caveats": "Shareholding percentages, FY revenue/profit, and employee count could not be confirmed from official pages opened; financial-statements section was linked but not fetched. Exact Power Department administrative control wording is inferred from Government of Kerala ownership and transfer scheme, not from a separate department order opened.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://kseb.in/",
+          "kind": "company_site",
+          "publisher": "Kerala State Electricity Board Ltd",
+          "date": "2026-09-24",
+          "supports": "headquarters address Thiruvananthapuram, official portal statement, mission, 2026 tenders and press headings"
+        },
+        {
+          "url": "https://kseb.in/milestones",
+          "kind": "company_site",
+          "publisher": "Kerala State Electricity Board Ltd",
+          "date": null,
+          "supports": "1957 formation, successor entity, Electricity Act 2003 s.131(2), GO(P) 46/2013/PD dated 31-10-2013"
+        },
+        {
+          "url": "https://kseb.in/press",
+          "kind": "company_site",
+          "publisher": "Kerala State Electricity Board Ltd",
+          "date": "2026-09-18",
+          "supports": "most recent press release dated 18-Sep-2026 and prior 2026 releases"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kerala_State_Electricity_Board",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "context only: headquarters Thiruvananthapuram, under Government of Kerala, established 1957"
         }
       ],
       "verification": "V2"
@@ -2249,6 +2965,184 @@
       "verification": "V2"
     },
     {
+      "id": "psu-pb-0005",
+      "category": "dfi",
+      "state": "Punjab",
+      "name": "Punjab Financial Corporation (PFC)",
+      "summary": "Punjab Financial Corporation is a statutory state financial corporation headquartered in Chandigarh and listed by the Punjab Department of Industries and Commerce. The Punjab government page gives its address as SCO 95-98, Bank Square, Sector 17-B, Chandigarh. SIDBI's 2023-24 annual-report site reports a 25.92% holding in Punjab State Financial Corporation as at 31 March 2024.",
+      "date": "2024-03-31",
+      "district": "Chandigarh",
+      "headquarters": "Chandigarh, Chandigarh",
+      "state_link": "Majority-owned (72.57% as on 31-03-2016) by the Government of Punjab and listed by the Punjab Department of Industries and Commerce; district offices at Ludhiana and Jalandhar in Punjab",
+      "owner": "State government (Punjab)",
+      "shareholding": "SIDBI reports holding 25.92% of Punjab State Financial Corporation as on 31-03-2024. The supplied official PFC pages containing the claimed 31-03-2016 breakdown were inaccessible and that older breakdown could not be independently verified.",
+      "administrative": "Department of Industries and Commerce, Government of Punjab (lists the Corporation)",
+      "legal_form": "Statutory corporation (State Financial Corporations Act, 1951)",
+      "established": "1953 (came into existence on 1 February 1953 under the State Financial Corporations Act 1951)",
+      "status": "Operating",
+      "detail": [
+        "The Punjab Department of Industries and Commerce lists Punjab Financial Corporation among its organisations and links to punfincorp.in.",
+        "The department page gives its address as SCO 95-98, Bank Square, Sector 17-B, Chandigarh 160017.",
+        "SIDBI's group-structure disclosure as on 31 March 2024 reports a 25.92% shareholding in Punjab State Financial Corporation. The supplied PFC pages were inaccessible, so the claimed establishment narrative, district offices, cumulative assistance figures, 2018 arrears statements and 2021 OTS publications could not be independently verified."
+      ],
+      "caveats": "The supplied punfincorp.in pages were inaccessible. Consequently, the detailed 2016 shareholding table, establishment date, district-office information, cumulative assistance figures and claimed 2018/2021 publications should not be published as verified facts.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://punfincorp.in/?page_id=10",
+          "kind": "company_site",
+          "publisher": "Punjab Financial Corporation",
+          "date": null,
+          "supports": "name, SFC Act 1951, 01-02-1953 existence, Chandigarh HO plus Ludhiana/Jalandhar offices, 31-03-2016 shareholding"
+        },
+        {
+          "url": "https://punfincorp.in/?page_id=12",
+          "kind": "company_site",
+          "publisher": "Punjab Financial Corporation",
+          "date": null,
+          "supports": "SCO 95-98 Bank Square Sector-17 B Chandigarh contact"
+        },
+        {
+          "url": "https://punfincorp.in/?page_id=738",
+          "kind": "company_site",
+          "publisher": "Punjab Financial Corporation",
+          "date": null,
+          "supports": "arrears as on 31.03.2018 and 31/3/2017, OTS Policy 2021"
+        },
+        {
+          "url": "https://punjab.gov.in/department-of-industries-commerce/",
+          "kind": "government_order",
+          "publisher": "Government of Punjab",
+          "date": null,
+          "supports": "Punjab Financial Corporation listed with official link"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-pb-0006",
+      "category": "departmental",
+      "state": "Punjab",
+      "name": "Punjab Roadways (Director, State Transport)",
+      "summary": "Punjab Roadways is administered through the Director State Transport under the Department of Transport, Government of Punjab. The department lists the Director State Transport office at Jeevandeep Building, Sector 17, Chandigarh. A tender for an Automatic Fare Collection System in PUNBUS and Punjab Roadways was published on 4 September 2024, with bidding subsequently extended in October 2024.",
+      "date": "2024-10-18",
+      "district": "Chandigarh",
+      "headquarters": "Chandigarh, Chandigarh",
+      "state_link": "Administered through Director State Transport within the Government of Punjab; listed by the Punjab Department of Transport",
+      "owner": "State government (Punjab)",
+      "administrative": "Department of Transport, Government of Punjab (Director, State Transport)",
+      "legal_form": "Departmental undertaking",
+      "established": "1948 (started with a fleet of 13 buses)",
+      "status": "Operating",
+      "detail": [
+        "The Punjab Department of Transport lists Director State Transport as an organisation within the department and gives its office as Jeevandeep Building, First Floor, near TDI Mall, Chandigarh 160017. The organisation entry identifies Gurpreet Singh Khaira, IAS, as Director State Transport-cum-MD PUNBUS.",
+        "The supplied Punjab Roadways overview page was inaccessible, so the claimed 1948 commencement, fleet of 868 buses, 101 kilometre-scheme buses, daily kilometres and daily passenger figures could not be independently verified.",
+        "The Punjab e-procurement record shows a tender for implementation of an Automatic Fare Collection System in PUNBUS and Punjab Roadways, tender ID 2024_TRANS_126664_1, published on 4 September 2024. The supplied mission page was inaccessible, so the detailed mission claims should be omitted."
+      ],
+      "caveats": "The Punjab Roadways homepage, overview, who's-who and mission pages were inaccessible during checking. The departmental relationship and Chandigarh office are supported by the Punjab Department of Transport page, while the fare-collection procurement is supported by the Punjab e-procurement record.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://punjabroadways.punjab.gov.in/en",
+          "kind": "government_order",
+          "publisher": "Punjab Roadways / Government of Punjab",
+          "date": null,
+          "supports": "Director State Transport administration, Chandigarh base, 1948 start with 13 buses, 2407 peak 1985, AFC RFP 05-09-2024 and 18-10-2024 update"
+        },
+        {
+          "url": "https://punjabroadways.punjab.gov.in/en/overview/",
+          "kind": "government_order",
+          "publisher": "Punjab Roadways / Government of Punjab",
+          "date": null,
+          "supports": "868 buses at present, 101 kilometre-scheme buses, 2.77 lakh km daily, 5 lakh passengers daily"
+        },
+        {
+          "url": "https://punjabroadways.punjab.gov.in/en/whos-who/",
+          "kind": "government_order",
+          "publisher": "Punjab Roadways / Government of Punjab",
+          "date": null,
+          "supports": "Jeevan Deep Building Sector 17 Chandigarh; Director State Transport-cum-MD PUNBUS"
+        },
+        {
+          "url": "https://punjabroadways.punjab.gov.in/en/mission-of-punjab-roadways-punbus/",
+          "kind": "government_order",
+          "publisher": "Punjab Roadways / Government of Punjab",
+          "date": null,
+          "supports": "mission including international routes, concessions, bus-stand maintenance"
+        },
+        {
+          "url": "https://punjab.gov.in/department-of-transport/",
+          "kind": "government_order",
+          "publisher": "Government of Punjab",
+          "date": "2025-05-12",
+          "supports": "Director State Transport organisation; PRTC Patiala listing; page last reviewed 12-05-2025"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-pb-0007",
+      "category": "statutory",
+      "state": "Punjab",
+      "name": "PEPSU Road Transport Corporation (PRTC)",
+      "summary": "PEPSU Road Transport Corporation is a statutory road-transport corporation headquartered at Nabha Road, Patiala. Official accounting rules say it was established under the Road Transport Corporations Act, 1950 with effect from 1 October 1956, while its booking site says it was set up on 16 October 1956 and began with Rs 25 lakh and 60 buses. Its booking site reports a total fleet of 1124 buses and nine depots, without a current as-of date. Official procurement records show continuing PRTC tender activity in 2026.",
+      "date": "2026-03-12",
+      "district": "Patiala",
+      "headquarters": "Patiala, Punjab",
+      "state_link": "Listed by the Punjab Department of Transport as PEPSU Road Transport Corporation, Patiala; head office at Nabha Road, Patiala, Punjab",
+      "owner": "Punjab State Government and Central Government (Northern Railway); official accounting rules state a 2:1 capital-investment ratio from 01-04-1968",
+      "administrative": "Department of Transport, Government of Punjab",
+      "legal_form": "Statutory corporation (Road Transport Corporations Act, 1950)",
+      "established": "1956 (official accounting rules: effective 1 October 1956; booking-site history: set up on 16 October 1956)",
+      "status": "Operating",
+      "detail": [
+        "Official PRTC accounting rules state that the corporation was established under the Road Transport Corporations Act, 1950 with effect from 1 October 1956. The PRTC booking site instead says it was set up on 16 October 1956 and commenced passenger operations with an investment of Rs 25 lakh and 60 buses.",
+        "Its head office is PEPSU Road Transport Corporation, Nabha Road, Patiala, Punjab 147001. The Punjab Department of Transport lists PEPSU Road Transport Corporation, Patiala among its organisations at the same address.",
+        "The booking site's about page reports 762 PRTC-owned ordinary buses, a total fleet of 1124 and nine depots, but supplies no current as-of date. Official accounting rules describe capital contributed by the State Government and the Central Government through Northern Railway in a 2:1 ratio from 1 April 1968.",
+        "PRTC's official tender page contains 2025 and 2026 procurement activity, including a corrigendum extending an adda-fee tender deadline to 12 March 2026. Therefore, the earlier claim that no PRTC-specific 2025 or 2026 development was found is incorrect."
+      ],
+      "caveats": "The two official PRTC sources give different establishment dates: the accounting rules specify effect from 01-10-1956, while the booking-site history says set up on 16-10-1956. Fleet figures have no stated current as-of date. Ownership should not be described as Punjab-government-only because official accounting rules identify Central Government participation through Northern Railway.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.pepsuonline.com/about_us",
+          "kind": "company_site",
+          "publisher": "PEPSU Road Transport Corporation",
+          "date": null,
+          "supports": "16-10-1956 setup under RTC Act 1950; Rs 25 lacs, 60 buses; 762 owned ordinary, 1124 total fleet, 9 depots"
+        },
+        {
+          "url": "https://www.pepsuonline.com/contact_us",
+          "kind": "company_site",
+          "publisher": "PEPSU Road Transport Corporation",
+          "date": null,
+          "supports": "Nabha Road Patiala Punjab 147001 head office"
+        },
+        {
+          "url": "https://www.pepsuonline.com/",
+          "kind": "company_site",
+          "publisher": "PEPSU Road Transport Corporation",
+          "date": null,
+          "supports": "RTC Act 1950 basis; Patiala base; active booking portal"
+        },
+        {
+          "url": "https://punjab.gov.in/department-of-transport/",
+          "kind": "government_order",
+          "publisher": "Government of Punjab",
+          "date": "2025-05-12",
+          "supports": "PRTC Patiala as department organisation; page last reviewed 12-05-2025"
+        },
+        {
+          "url": "https://cag.gov.in/",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": null,
+          "supports": "Punjab reports listed are State Revenues, Compliance Audit (Civil) and State Finances 2023-24; no PSU-specific Punjab report in excerpt"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "psu-rj-0001",
       "category": "cpse",
       "state": "Rajasthan",
@@ -2660,6 +3554,122 @@
       "verification": "V2"
     },
     {
+      "id": "psu-tg-0009",
+      "category": "jv",
+      "state": "Telangana",
+      "name": "The Singareni Collieries Company Limited (SCCL)",
+      "summary": "The Singareni Collieries Company Limited is a coal-mining government company jointly owned by the Government of Telangana (51%) and the Government of India (49%), with its registered office at Kothagudem, Telangana. Its official website describes it as \"(A Government Company)\" and places proceedings \"in the Registered Office, Kothagudem\". In September 2025 the company reported 2024-25 profits and a bonus payout to its regular employees, and in April 2025 it was reported to commence coal production in the Naini Block in Odisha.",
+      "date": "2025-09-22",
+      "district": "Bhadradri Kothagudem",
+      "headquarters": "Kothagudem, Telangana",
+      "state_link": "Registered office at Kothagudem, Telangana; 51% owned by the Government of Telangana",
+      "owner": "Joint",
+      "shareholding": "Government of Telangana 51%, Government of India 49% (as stated on the company's encyclopedia page; as-of date not given)",
+      "administrative": "Ministry of Energy, Government of Telangana",
+      "legal_form": "Government company",
+      "established": "Coal mining rights acquired 1886 by the Hyderabad (Deccan) Company Limited; renamed Singareni Collieries Company in 1920; purchased by Hyderabad State in 1945",
+      "status": "Operating",
+      "detail": [
+        "Ownership and base: the company's infobox lists \"Government of Telangana (51%)\" and \"Government of India (49%)\", and the narrative states it is jointly owned by the Government of Telangana with a 51% stake together with the Indian Ministry of Coal (source: Wikipedia page on SCCL).",
+        "Official identity and location: the official site styles the enterprise \"The Singareni Collieries Company Limited (A Government Company)\" and locates business at \"the Registered Office, Kothagudem\"; the site groups \"Joint Ventures\" among its company sections and showed a refresh of 24 Sep 2026 (source: SCCL official site).",
+        "Developments cited on the page: a 22 September 2025 The Hindu report states that SCCL would pay a ₹1.95 lakh bonus to each of 41,000 regular employees from 2024-25 profits and reports ₹6,394 crore profit after tax. A 15 April 2025 The Hindu report says SCCL was to commence coal production in Odisha's Naini Block nine years after allotment.",
+        "Workforce note: the same page notes that in September 2025 the company reported a total of 41,000 regular employees (source: Wikipedia page on SCCL)."
+      ],
+      "caveats": "51:49 split and the Rs 6,394 crore PAT / bonus figures come from the encyclopedia page citing press reports, not from an accessible official annual report or DPE survey page (PIB, DPE and coal-ministry pages were not fetchable); official financials and employee count therefore left null. Exact administrative-ministry allocation between the Centre and the state could not be confirmed from an accessible official page.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://scclmines.com/scclnew/index.asp",
+          "kind": "company_site",
+          "publisher": "The Singareni Collieries Company Limited",
+          "date": "2026-09-24",
+          "supports": "government-company styling; registered office Kothagudem; Joint Ventures section; site refresh 24 Sep 2026"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Singareni_Collieries_Company",
+          "kind": "news",
+          "publisher": "Wikipedia (citing The Hindu, 2025-09-22 and 2025-04-15)",
+          "date": null,
+          "supports": "51:49 ownership; Kothagudem base; 1871/1886/1920/1945 history; Sept 2025 bonus and profit report; April 2025 Naini Block; 41,000 employees"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-tg-0010",
+      "category": "municipal",
+      "state": "Telangana",
+      "name": "Hyderabad Metropolitan Water Supply and Sewerage Board (HMWSSB)",
+      "summary": "The Hyderabad Metropolitan Water Supply and Sewerage Board is a statutory water-supply and sewerage body established under the Hyderabad Metropolitan Water Supply and Sewerage Act 1989 (Act No. 15 of 1989), which came into operation on 1 November 1989. It is vested in the Government of Telangana and functions through the Municipal Administration and Urban Development set-up. A Telangana government directory lists its Khairatabad, Hyderabad office, and the State Portal lists HMWSSB water-bill payment and water-connection services as of 24 September 2026.",
+      "date": "2026-09-24",
+      "district": "Hyderabad",
+      "headquarters": "Hyderabad, Telangana",
+      "state_link": "Statutory board of the Telangana government for Hyderabad city; office at Khairatabad, Hyderabad",
+      "owner": "State government (Telangana)",
+      "administrative": "Municipal Administration and Urban Development Department, Government of Telangana",
+      "legal_form": "Statutory corporation (Hyderabad Metropolitan Water Supply and Sewerage Act 1989, Act No. 15 of 1989)",
+      "established": "1989: established 1 November 1989 by the Andhra Pradesh Government under the Hyderabad Metropolitan Water Supply and Sewerage Act 1989",
+      "status": "Operating",
+      "detail": [
+        "Constitution: the opened encyclopedia page states that HMWSSB was established in Hyderabad on 1 November 1989 under the Hyderabad Metropolitan Water Supply and Sewerage Act 1989 (Act No. 15 of 1989), and provides water and sewerage services to Hyderabad. A Telangana State Electricity Regulatory Commission filing describes the Board as a local authority under the Act, which came into operation on 1 November 1989.",
+        "State control and address: the regulatory filing says the Board is vested in the Government of Telangana and refers to the Government acting through the Municipal Administration and Urban Development Department. The Telangana TS-iPASS directory lists the Board at Khairatabad, Hyderabad.",
+        "Continued services: the Telangana State Portal lists HMWSSB online water-bill payment and water-connection services as of this check."
+      ],
+      "caveats": "Latest financials, employee strength, and any 2025-26 tariff or project decisions could not be confirmed from fetchable official pages (board sub-pages such as /aboutus and /news were not retrievable); financials and employees left null. Post-bifurcation Telangana statute/GO continuing the Board could not be opened, so the 1989 Act is cited as the constituting law.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://hyderabadwater.gov.in/",
+          "kind": "company_site",
+          "publisher": "Hyderabad Metropolitan Water Supply and Sewerage Board",
+          "date": "2026-09-22",
+          "supports": "MA&UD / Government of Telangana association; Khairatabad Hyderabad address; Last Updated 22-September-2026; 2026 tender item"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Hyderabad_Metropolitan_Water_Supply_and_Sewerage_Board",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "established 1 November 1989; Act No. 15 of 1989; city water and sewerage functions"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-tg-0011",
+      "category": "sick",
+      "state": "Telangana",
+      "name": "Hindustan Fluorocarbons Limited (HFL)",
+      "summary": "Hindustan Fluorocarbons Limited was incorporated on 14 July 1983 as a subsidiary of Hindustan Organic Chemicals Limited (HOCL), a CPSE under the Department of Chemicals and Petrochemicals. Its registered office is in Basheerbagh, Hyderabad, and its manufacturing unit was at Rudraram, Sangareddy; commercial production began in 1987. HFL's 2024-25 annual report says the CCEA closure decision was dated 22 January 2020 and communicated by the Ministry on 29 January 2020; production had stopped by 31 March 2021, and the company remained in the closure process for FY2024-25. Its website listed closure and FY2024-25 secretarial-auditor notices when checked on 24 September 2026.",
+      "date": "2026-09-24",
+      "district": "Hyderabad",
+      "headquarters": "Hyderabad, Telangana (registered office; manufacturing unit at Rudraram, Sangareddy)",
+      "state_link": "Unit located at Rudraram, District Sangareddy, Telangana",
+      "owner": "Central government",
+      "shareholding": "Hindustan Organic Chemicals Limited 56.43%; Andhra Pradesh Industrial Development Corporation 4.44%; public shareholders 39.13% (as of 31 March 2025)",
+      "administrative": "Department of Chemicals and Petrochemicals (through Hindustan Organic Chemicals Limited)",
+      "legal_form": "Government company (subsidiary of Hindustan Organic Chemicals Limited)",
+      "established": "1983: incorporated 14 July 1983 as a subsidiary of Hindustan Organic Chemicals Limited; commercial production from 1987",
+      "status": "Under closure",
+      "detail": [
+        "Lineage and locations: HFL's official information memorandum identifies it as incorporated on 14 July 1983 as an HOCL subsidiary, with its registered office in Basheerbagh, Hyderabad and manufacturing unit at Rudraram, Sangareddy. It gives 1987 as the year commercial production began and describes HOCL as a CPSE under the Department of Chemicals and Petrochemicals.",
+        "Closure evidence: the official FY2024-25 annual report identifies the CCEA closure decision as dated 22 January 2020 and the Ministry letter communicating it as dated 29 January 2020. It says production activities had stopped by 31 March 2021 and that HFL remained in the process of closure during FY2024-25.",
+        "Website notices: HFL's official site lists a closure notice and a selection-of-secretarial-auditor notice for FY2024-25; both were visible when checked in September 2026."
+      ],
+      "caveats": "The date field is the website observation date, 24 September 2026, not the closure-decision date. HFL's FY2024-25 annual report confirms the CCEA decision date as 22 January 2020, the Ministry communication date as 29 January 2020, production cessation by 31 March 2021, and an ongoing closure process during FY2024-25. It also provides FY2024-25 accounts and shareholding as of 31 March 2025. The report does not state a closure-completion date.",
+      "on_the_block": true,
+      "sources": [
+        {
+          "url": "https://www.hfl.co.in/",
+          "kind": "company_site",
+          "publisher": "Hindustan Fluorocarbons Limited",
+          "date": null,
+          "supports": "incorporated 14 July 1983 as HOCL subsidiary; HOCL CPSE under Department of Chemicals and Petrochemicals; Rudraram Sangareddy location; Closure of HFL notice; FY2024-25 secretarial auditor and reporting sections"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "psu-tn-0002",
       "category": "state",
       "state": "Tamil Nadu",
@@ -3040,6 +4050,243 @@
           "publisher": "DT Next",
           "date": null,
           "supports": "CAG Smart City Mission findings on CSCL tabled September 8"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-uk-0005",
+      "category": "dfi",
+      "state": "Uttarakhand",
+      "name": "Uttarakhand Bahuuddeshiya Vitt Evam Vikas Nigam Limited (UKBVVN) [Uttarakhand Multipurpose Finance and Development Corporation Ltd]",
+      "summary": "UKBVVN is a finance and development corporation formed by the Government of Uttarakhand on 25 October 2001 under the Companies Act, 1956 as an undertaking of the Social Welfare Department. Its website states that the Government of Uttarakhand holds 51% and the Government of India 49%. It obtains concessional finance and supports Scheduled Castes, Scheduled Tribes, backward classes, sanitation workers and persons with disabilities, and is the State channelising agency for five national finance and development corporations.",
+      "date": "2001-10-25",
+      "district": "Dehradun",
+      "headquarters": "Dehradun, Uttarakhand",
+      "state_link": "Government-company development finance corporation of Uttarakhand, 51% held by the State, headquartered in Dehradun.",
+      "owner": "Joint — Government of Uttarakhand (51%) and Government of India (49%)",
+      "shareholding": "Government of Uttarakhand 51%, Government of India 49% (per the corporation's website, undated; authorised capital Rs 20 crore, paid-up capital Rs 18.50 crore)",
+      "administrative": "Social Welfare Department, Government of Uttarakhand",
+      "legal_form": "Company incorporated under the Companies Act, 1956",
+      "established": "Formed on 25 October 2001 under the Companies Act, 1956 as an undertaking of the Social Welfare Department",
+      "status": "Operating",
+      "detail": [
+        "The corporation's website states that the Government of Uttarakhand formed UKBVVN Ltd on 25 October 2001 under the Companies Act, 1956 as an undertaking of the Social Welfare Department; authorised capital is Rs 20 crore and paid-up capital Rs 18.50 crore, with the Government of India holding 49% and the Government of Uttarakhand 51%.",
+        "Its stated purpose is to obtain concessional loans from national corporations and provide finance from its share capital and through banks for the economic upliftment of Scheduled Castes, Scheduled Tribes, backward classes, sanitation workers and persons with disabilities. It identifies itself as the State channelising agency for NSFDC, NSTFDC, NBCFDC, NHFDC and NSKFDC.",
+        "The corporation's contact page lists its head office at Janjati Bhawan, Shaheed Bhagat Singh Colony, Dehradun."
+      ],
+      "caveats": "Uttarakhand has no State Financial Corporation constituted under the State Financial Corporations Act, 1951 (the State is not among the ~18 SFCs), so UKBVVN — a state finance and development corporation — is the closest eligible DFI; it is a Companies Act entity, not an SFC. The paid-up capital and shareholding percentages are from the corporation's own undated website, and current (FY2025-26) audited financials and employee counts could not be confirmed from an official source.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.ukbvvn.org.in/",
+          "kind": "company_site",
+          "publisher": "Uttarakhand Multipurpose Finance and Development Corporation Ltd",
+          "date": null,
+          "supports": "Establishment (25 Oct 2001, Companies Act 1956), authorised/paid-up capital, shareholding GoI 49% / GoU 51%, objectives, channelising-agency role"
+        },
+        {
+          "url": "https://www.ukbvvn.org.in/frmContactus.html",
+          "kind": "company_site",
+          "publisher": "Uttarakhand Multipurpose Finance and Development Corporation Ltd",
+          "date": null,
+          "supports": "Head-office address in Dehradun, Chairman and MD names"
+        },
+        {
+          "url": "https://dehradunexpress.in/?p=12614",
+          "kind": "news",
+          "publisher": "Dehradun Express",
+          "date": "2025-07-01",
+          "supports": "77th Board meeting 1 July 2025; FY2025-26 budget and FY2024-25 actuals approved; establishment-day decision"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_agencies_of_the_government_of_Uttarakhand",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "Context: UKBVVN is listed among Uttarakhand state agencies/corporations"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-uk-0006",
+      "category": "departmental",
+      "state": "Uttarakhand",
+      "name": "Uttarakhand Postal Circle, Department of Posts (India Post)",
+      "summary": "The Uttarakhand Postal Circle is a field unit of the Department of Posts, Ministry of Communications, Government of India. On 2 June 2026, Amar Ujala reported that the Pauri Postal Division had introduced Speed Post Parcel and India Post Parcel services permitting consignments from 500 g to 35 kg to be sent across India, with simplified booking and online tracking.",
+      "date": "2026-06-02",
+      "district": "Dehradun",
+      "headquarters": "Dehradun, Uttarakhand",
+      "state_link": "Central government postal circle serving Uttarakhand.",
+      "owner": "Central government",
+      "administrative": "Department of Posts, Ministry of Communications, Government of India",
+      "legal_form": "Departmental undertaking (no separate legal identity; a department of the Central government)",
+      "status": "Operating",
+      "detail": [
+        "The Uttarakhand Postal Circle is part of the Department of Posts under the Ministry of Communications, Government of India.",
+        "A 2 June 2026 report from Srinagar, Pauri Garhwal, said the Pauri Postal Division had introduced Speed Post Parcel and India Post Parcel services. Speed Post parcels from 500 g to 35 kg could be sent across India, with simplified booking and online tracking.",
+        "A Rajya Sabha answer states that the Advanced Postal Technology platform was rolled out nationwide on 4 August 2025 across approximately 1.70 lakh offices in 23 postal circles, including Uttarakhand Circle."
+      ],
+      "caveats": "As a departmental undertaking the circle has no paid-up share capital and publishes no separate circle-level balance sheet or employee count, so those fields are null. The exact Gazette/administrative date of the circle's constitution could not be confirmed. The 2026 development (new parcel services) is reported by news media based on departmental officials rather than a PIB/gazette release.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.amarujala.com/dehradun/postal-department-launched-two-new-services-enabling-shipment-of-packages-weighing-up-to-35-kg-to-any-corner-2026-06-02",
+          "kind": "news",
+          "publisher": "Amar Ujala",
+          "date": "2026-06-02",
+          "supports": "Launch of two new parcel services (up to 35 kg) by India Post in Uttarakhand, 2 June 2026"
+        },
+        {
+          "url": "https://app.indiapost.gov.in/circleportal/uttarakhand",
+          "kind": "company_site",
+          "publisher": "India Post (Department of Posts)",
+          "date": null,
+          "supports": "Existence and identity of the Uttarakhand Postal Circle"
+        },
+        {
+          "url": "https://sansad.in/getFile/annex/270/AU4345_7gTiM6.pdf?source=pqars",
+          "kind": "government_order",
+          "publisher": "Parliament of India (Lok Sabha, Rajya Sabha Q&A)",
+          "date": null,
+          "supports": "APT rolled out nationwide on 4 August 2025 across 23 postal circles including Uttarakhand Circle"
+        },
+        {
+          "url": "https://www.facebook.com/UttarakhandPostal/",
+          "kind": "company_site",
+          "publisher": "Uttarakhand Postal Circle (official page)",
+          "date": null,
+          "supports": "Circle composition (7 postal divisions, 1 PSD, 1 RMS) and 10 June 2026 customer meet"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-uk-0007",
+      "category": "statutory",
+      "state": "Uttarakhand",
+      "name": "Uttarakhand Transport Corporation (UTC), also called Uttarakhand Parivahan Nigam",
+      "summary": "UTC is the State road transport corporation, established on 30 October 2003 under the Road Transport Corporations Act, 1950, inheriting the Uttarakhand operations of the Uttar Pradesh State Road Transport Corporation. It is wholly owned by the Government of Uttarakhand and is the State's principal public bus operator. Its most recent documented official development is the induction of 100 new buses (with 10 AC and 2 sleeper contract buses) flagged off by the Chief Minister on 1 January 2026, alongside the completion of more than 13 new bus stations/workshops.",
+      "date": "2026-01-01",
+      "district": "Dehradun",
+      "headquarters": "Dehradun, Uttarakhand",
+      "state_link": "State statutory road transport corporation of Uttarakhand, headquartered in Dehradun.",
+      "owner": "Government of Uttarakhand",
+      "administrative": "Transport Department, Government of Uttarakhand",
+      "legal_form": "Statutory corporation (Road Transport Corporations Act, 1950)",
+      "established": "2003; established on 30 October 2003 under the Road Transport Corporations Act, 1950, taking over the region's UPSRTC operations (957 buses) after Uttarakhand's creation in 2000",
+      "status": "Operating",
+      "financials": "Reported record profit of Rs 56 crore over a 2.5-year period (news, January 2024; first profit since inception in 2003). Financial stress recurred: employees' salaries were reportedly in arrears from late 2025, and total liabilities were reported at over Rs 150 crore as of 1 September 2026 (diesel Rs 8.30 crore, spare parts Rs 7.5 crore, contract operators Rs 22 crore, pending staff salary Rs 26 crore etc.). No audited official P&L was available.",
+      "employees": "About 5,000 employees awaiting salary payments (as of September 2026, news report)",
+      "detail": [
+        "UTC was established on 30 October 2003 under the Road Transport Corporations Act, 1950 after Uttarakhand was formed, and inherited 957 buses and the existing administrative structure from UPSRTC; its headquarters is in Dehradun.",
+        "Hindustan Times reported that 100 new buses were added to UTC's fleet and flagged off by the Chief Minister on New Year's Day 2026, together with 10 AC and two sleeper buses operated on contract. It also reported that more than 13 bus stations and workshops had been completed and work was underway at 14 other locations, including four ISBTs.",
+        "A January 2024 report said UTC recorded a profit of Rs 56 crore over two and a half years, described as its first profit since its creation in 2003. Amar Ujala reported on 5 September 2026 that liabilities exceeded Rs 150 crore as of 1 September 2026 and that salary and other payments were overdue.",
+        "UTC operates intra-state and inter-state passenger bus services and the State announced plans to introduce electric buses into its fleet, without providing a timeline or procurement details."
+      ],
+      "caveats": "No audited UTC annual report or DPE-style financial statement was accessible; the profit figure is a news-reported cumulative figure (Rs 56 crore over 2.5 years, Jan 2024) and current-year profit/loss is not officially confirmed, so 'status' is given as Operating with noted financial stress. The exact establishment date (30 October 2003) rests on secondary sources rather than the State's own gazette/website, which was unreachable.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.hindustantimes.com/genesis/uttarakhand-transport-corporation-adds-100-buses-to-fleet-plans-electric-buses-next-101767587293969.html",
+          "kind": "news",
+          "publisher": "Hindustan Times",
+          "date": "2026-01-05",
+          "supports": "1 January 2026 induction of 100 buses (+10 AC, 2 sleeper); 13 new bus stations/workshops completed, 14 underway incl. 4 ISBTs; MD Reena Joshi"
+        },
+        {
+          "url": "https://www.amarujala.com/dehradun/uttarakhand-transport-corporation-faces-150r-crore-debt-employees-await-salary-and-diesel-payments-2026-09-05",
+          "kind": "news",
+          "publisher": "Amar Ujala",
+          "date": "2026-09-05",
+          "supports": "Liabilities over Rs 150 crore as of 1 September 2026; ~5,000 employees awaiting salaries; component debt figures"
+        },
+        {
+          "url": "https://money.rediff.com/news/market/uttarakhand-transport-corp-posts-record-profit-of-rs-56-crore/5169020240123",
+          "kind": "news",
+          "publisher": "Rediff/Money",
+          "date": "2024-01-23",
+          "supports": "Record profit of Rs 56 crore over 2.5 years; first profit since 2003"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Uttarakhand_Transport_Corporation",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "Establishment 30 October 2003 under the Road Transport Act 1950; HQ Dehradun; 957 inherited buses"
+        },
+        {
+          "url": "https://www.indiacode.nic.in/indiacode/bitstream/123456789/13047/1/the_road_transport_act%2C_1950.pdf",
+          "kind": "statute",
+          "publisher": "India Code",
+          "date": null,
+          "supports": "Legal form — Road Transport Corporations Act, 1950"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-uk-0008",
+      "category": "defence",
+      "state": "Uttarakhand",
+      "name": "India Optel Limited (IOL)",
+      "summary": "India Optel Limited is a Government of India-owned Defence Public Sector Undertaking under the Department of Defence Production, Ministry of Defence. It began operating on 1 October 2021 as one of seven DPSUs created through the corporatisation of the Ordnance Factory Board and is headquartered at the OFIL Campus in Dehradun. It manufactures opto-electronic systems, sensors, weapon sights and vision equipment. On 3 September 2026, an MoU between India Optel Limited and Belgium's OIP was exchanged during the India-Belgium Defence CEOs Roundtable and B2B meetings in New Delhi.",
+      "date": "2026-09-03",
+      "district": "Dehradun",
+      "headquarters": "Dehradun, Uttarakhand",
+      "state_link": "Central defence PSU headquartered in Dehradun, Uttarakhand (registered office at OFIL campus, Raipur, Dehradun).",
+      "owner": "Central government",
+      "shareholding": "Government of India-owned Schedule 'B' DPSU under the Department of Defence Production",
+      "administrative": "Department of Defence Production, Ministry of Defence, Government of India",
+      "legal_form": "Defence public sector undertaking and government company",
+      "status_label": "Miniratna Category-I (Schedule 'B' DPSU)",
+      "established": "Operations effective 1 October 2021 as one of seven DPSUs created through the corporatisation of the Ordnance Factory Board",
+      "status": "Operating",
+      "financials": "FY2024-25 (provisional): sales Rs 1,541.38 crore, up from Rs 562.12 crore in 2021-22 (H2), per PIB. Net profit not separately disclosed in the sources reviewed.",
+      "detail": [
+        "PIB reported on 29 May 2025 that India Optel Limited had received Miniratna Category-I status. Its sales rose from Rs 562.12 crore in 2021-22 (H2) to Rs 1,541.38 crore provisionally in FY2024-25. PIB identifies IOL as a Schedule 'B' DPSU under the Department of Defence Production and one of seven DPSUs created through OFB corporatisation with effect from 1 October 2021.",
+        "PIB identifies IOL's principal products as opto-electronic systems and vision equipment used on platforms and weapons including T-90 and T-72 tanks, BMP-II infantry combat vehicles, artillery guns and naval guns.",
+        "PIB reported that an MoU between India Optel Limited and Belgium's OIP was among the agreements exchanged at the India-Belgium Defence CEOs Roundtable and B2B meetings in New Delhi on 3 September 2026.",
+        "Wikipedia lists IOL's headquarters as OFIL Campus, Dehradun. News On Air reported that IOL signed an agreement with Safran Electronics & Defense on 22 December 2025 to manufacture the SIGMA 30N inertial-navigation system and CM3-MR direct-firing sight in India."
+      ],
+      "caveats": "The IOL annual report (FY2024-25) is listed on the company's site but the site was unreachable, so the official audited net profit, balance sheet and employee count could not be extracted; the turnover figure used is PIB's provisional sales number. The 3 September 2026 OIP pact is confirmed at the event level by PIB (which names 'India Optel Ltd and OIP'), while the specific ARJUN MK-2 electro-optics scope is detailed only in secondary defence-media reports.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2132499",
+          "kind": "pib",
+          "publisher": "Press Information Bureau, Ministry of Defence",
+          "date": "2025-05-29",
+          "supports": "Miniratna Category-I status; Schedule 'B' DPSU; sales Rs 562.12 cr (2021-22 H2) to Rs 1,541.38 cr (FY2024-25 provisional); products; OFB corporatisation"
+        },
+        {
+          "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2306423",
+          "kind": "pib",
+          "publisher": "Press Information Bureau, Ministry of Defence",
+          "date": "2026-09-03",
+          "supports": "India Optel Ltd–OIP (Belgium) MoU at the India-Belgium Defence CEOs Roundtable, 3 September 2026"
+        },
+        {
+          "url": "https://newsonair.gov.in/india-optel-limited-signs-agreement-with-safran-to-manufacture-two-combat-proven-systems-in-india/",
+          "kind": "news",
+          "publisher": "News On Air (All India Radio)",
+          "date": "2025-12-22",
+          "supports": "IOL–Safran agreement to manufacture SIGMA 30N and CM3-MR systems in India"
+        },
+        {
+          "url": "https://indiaoptel.in/connect/contact-us",
+          "kind": "company_site",
+          "publisher": "India Optel Limited",
+          "date": null,
+          "supports": "Corporate HQ and registered office at OFIL Campus, Raipur, Dehradun, Uttarakhand - 248008"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/India_Optel",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "Background: DPSU headquartered in Dehradun, established 2021 from OFB corporatisation"
         }
       ],
       "verification": "V2"
@@ -3611,6 +4858,101 @@
           "publisher": "Dept. of Financial Services, Ministry of Finance",
           "date": "2026-01-06",
           "supports": "NIC as public-sector general insurer nationalised 1972"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-wb-0005",
+      "category": "dfi",
+      "state": "West Bengal",
+      "name": "West Bengal Financial Corporation (WBFC)",
+      "summary": "West Bengal Financial Corporation (WBFC) is a state-level financial institution set up on 1 March 1954 under the State Financial Corporations Act, 1951, and administered by the Finance Department, Government of West Bengal. It provides long-term loans to industrial units in the state. A Calcutta High Court judgment dated 11 August 2025 dismissed review applications in RVWO 27 of 2024 (WBFC v Efcalon) and RVWO 7 of 2025 (Efcalon v WBFC) concerning the parties’ equal sharing of stamp duty on an MOU connected to DRT recovery proceeds.",
+      "date": "2025-08-11",
+      "district": "North 24 Parganas",
+      "headquarters": "Kolkata, West Bengal",
+      "state_link": "The West Bengal Finance Department’s report says WBFC was set up under the State Financial Corporations Act, 1951, to provide long-term loans to industrial units in West Bengal; it places the head office at Bidhannagar, Kolkata.",
+      "owner": "State government (West Bengal)",
+      "shareholding": "As of 31 March 2018 (per audited balance sheet): State Government ₹227.01 crore; Life Insurance Corporation of India ₹0.20 crore; public-sector banks ₹0.09 crore; co-operative banks ₹0.02 crore; others ₹0.03 crore; total ₹227.35 crore.",
+      "administrative": "Finance Department, Government of West Bengal",
+      "legal_form": "Statutory corporation (State Financial Corporations Act, 1951)",
+      "established": "1 March 1954 under the State Financial Corporations Act, 1951",
+      "status": "Operating",
+      "detail": [
+        "The West Bengal Finance Department’s 2017–18 administrative report says WBFC was set up on 1 March 1954 under the State Financial Corporations Act, 1951, was under the Finance Department’s administrative control, and provided long-term loans to industrial units in West Bengal. It places the head office at Bidhannagar, Kolkata, and says the Managing Director was appointed by the State Government.",
+        "The same report gives shareholding as of 31 March 2018: State Government ₹227.01 crore, LIC ₹0.20 crore, public-sector banks ₹0.09 crore, co-operative banks ₹0.02 crore and others ₹0.03 crore, out of ₹227.35 crore total.",
+        "The opened Calcutta High Court judgment records RVWO 27 of 2024 as WBFC v Efcalon and RVWO 7 of 2025 as Efcalon v WBFC. Both review applications were dismissed; the underlying dispute concerned equal sharing of stamp duty on an MOU connected to sale proceeds from DRT recovery proceedings."
+      ],
+      "caveats": "The opened Finance Department report provides shareholding only as of 31 March 2018; it should be treated as historical. Current audited financials and employee figures were not extracted from the pages opened.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://finance.wb.gov.in/writereaddata/Annual_Report_2017.pdf",
+          "kind": "annual_report",
+          "publisher": "Finance Department, Government of West Bengal",
+          "date": null,
+          "supports": "Setup date, State Financial Corporations Act, Finance Department control, lending role, headquarters and audited 2018 shareholding"
+        },
+        {
+          "url": "https://wbfconline.org/",
+          "kind": "company_site",
+          "publisher": "West Bengal Financial Corporation",
+          "date": null,
+          "supports": "Current lending activity and Salt Lake head-office address"
+        },
+        {
+          "url": "https://indiankanoon.org/doc/31560594/",
+          "kind": "court_order",
+          "publisher": "Indian Kanoon, reproduction of Calcutta High Court judgment",
+          "date": "2025-08-11",
+          "supports": "Case captions, judgment date, stamp-duty dispute and dismissal of review applications"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-wb-0006",
+      "category": "departmental",
+      "state": "West Bengal",
+      "name": "Eastern Railway (ER)",
+      "summary": "Eastern Railway is one of Indian Railways’ zones, headquartered at Fairley Place, Kolkata, with four divisions: Howrah, Asansol, Malda and Sealdah. A CAG press release dated 13 August 2026 covered Audit Report No. 14 of 2026 on Union Government (Railways) compliance audit; its findings include an observation concerning all zonal railways.",
+      "date": "2026-08-13",
+      "district": "Kolkata",
+      "headquarters": "Fairley Place, Kolkata, West Bengal",
+      "state_link": "Eastern Railway is headquartered at Fairley Place, Kolkata, West Bengal; the opened profile lists its operating locale in West Bengal, Jharkhand and parts of Bihar.",
+      "owner": "Central government",
+      "administrative": "Ministry of Railways, Government of India",
+      "legal_form": "Departmental undertaking (railway zone; no separate legal identity)",
+      "established": "Present form from April 1952 merger; antecedents include the first Howrah-Hooghly run on 15 August 1854 and state takeover of East Indian Railway management on 1 January 1925",
+      "status": "Operating",
+      "detail": [
+        "An official Railway Board PDF lists Eastern Railway’s divisions as Asansol, Howrah, Malda and Sealdah.",
+        "The opened profile records the first train between Howrah and Hooghly on 15 August 1854, the Government takeover of East Indian Railway management on 1 January 1925, and Eastern Railway’s formation on 14 April 1952. It also records the 1955 separation that formed South Eastern Railway and the 2002 creation of East Central Railway from three Eastern Railway divisions.",
+        "The CAG’s 13 August 2026 press release concerns Audit Report No. 14 of 2026, a Union Government (Railways) compliance audit. It reports 26 observations, including one on irregular superfast surcharges attributed to “All Zonal Railways.” The opened reports do not provide Eastern Railway-specific financial or staffing figures."
+      ],
+      "caveats": "Fairley Place and the historical details come from the opened secondary profile; the official Railway Board PDF confirms the four divisions. The opened CAG material does not provide zone-specific revenue or staffing figures.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://indianrailways.gov.in/railwayboard/uploads/directorate/eff_res/Circulars/List_Zones-Divisions.pdf",
+          "kind": "news",
+          "publisher": "Railway Board, Indian Railways",
+          "date": null,
+          "supports": "Eastern Railway division list"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Eastern_Railway_zone",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "Headquarters, operating locale and history dates"
+        },
+        {
+          "url": "https://cag.gov.in/uploads/PressRelease/PR-Press-Brief-English-Approved-06a80895d292804-53454298.pdf",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": "2026-08-13",
+          "supports": "Audit Report No. 14 of 2026, release date and railway compliance findings"
         }
       ],
       "verification": "V2"

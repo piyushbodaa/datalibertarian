@@ -975,6 +975,56 @@
       "verification": "V2"
     },
     {
+      "id": "vc-jh-0002",
+      "category": "gambling",
+      "state": "Jharkhand",
+      "title": "[name withheld] alleges Ranchi raid, detention of organisers and seizure of equipment",
+      "summary": "A [name withheld] told the High Court that Ranchi authorities had raided its event, detained the organisers at Gonda police station without an FIR, and seized cards, plastic coins and equipment. It argued that poker is a game of skill outside the Public Gambling Act. The Court permitted a fresh NOC or clearance application and directed the Deputy Commissioner to decide it within six weeks.",
+      "date": "2025-04-07",
+      "date_label": "High Court order",
+      "district": "Ranchi",
+      "outcome": "seizure",
+      "authority": "High Court of Jharkhand at Ranchi; Sub-Divisional Officer Ranchi; Gonda police station",
+      "case_reference": "W.P.(C) No. 1121 of 2025",
+      "laws": [
+        "Public Gambling Act, 1867"
+      ],
+      "acts": [
+        "Public Gambling Act, 1867"
+      ],
+      "person": "a [name withheld] organising games in Ranchi",
+      "detail": [
+        "The High Court recorded that the petitioner sought directions against restraint of poker events in Ranchi, contending that poker is neither gaming nor gambling under the Public Gambling Act, and also sought a No Objection Certificate.",
+        "Counsel for the petitioner alleged that the Sub-Divisional Officer conducted a raid, that all organisers were detained at Gonda police station without registration of an FIR, and that they were released on executing bonds after a permission letter was shown.",
+        "Counsel for the petitioner further alleged that the organising team's cards, plastic coins, materials and other equipment were seized and that the hotel was sealed, causing the petitioner heavy financial loss.",
+        "The High Court disposed of the writ after permitting the petitioner to make a fresh representation for clearance or an NOC, which the Deputy Commissioner was directed to decide within six weeks after providing an opportunity of hearing."
+      ],
+      "current_position": "The writ was disposed of with liberty to seek NOC; the Deputy Commissioner of Ranchi is to decide within six weeks.",
+      "quote": {
+        "text": "in which all the organizers were detained at Gonda police Station without registering any F.I.R.",
+        "where": "W.P.(C) No. 1121 of 2025, order dated 07.04.2025",
+        "url": "https://indiankanoon.org/doc/92724923/"
+      },
+      "caveats": "The order decides only the NOC procedure; it does not finally decide whether poker is gambling. No FIR number or raid date is stated in the order.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The association alleged that authorities detained organisers and seized poker equipment without registering an FIR or complaint; the order records no allegation of cheating, fixing or defrauded victims."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/92724923/",
+          "kind": "court_order",
+          "publisher": "High Court of Jharkhand",
+          "date": "2025-04-07",
+          "supports": "prayer, raid, detention without FIR, seizure of cards and coins, final direction"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "vc-jh-0005",
       "category": "tobacco",
       "state": "Jharkhand",
@@ -1352,6 +1402,220 @@
           "publisher": "High Court of Karnataka via Indian Kanoon",
           "date": "2025-04-28",
           "supports": "date, court, parties, Crime Nos. 13-15/2025 CCB, obscenity sections 296/79 BNS, finding of no annoyance or targeted insult, quashing order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-kl-0001",
+      "category": "sex-work",
+      "state": "Kerala",
+      "title": "High Court quashes 2013 paid-sex case against alleged customer in Ernakulam",
+      "summary": "The High Court recorded that police had booked an alleged customer and others over paid sexual activity at a lodge in 2013. It found that the petitioner was only a customer and quashed the proceedings against him.",
+      "date": "2026-03-17",
+      "date_label": "High Court order",
+      "incident_date": "2013-06-20",
+      "district": "Ernakulam",
+      "outcome": "quashed",
+      "authority": "High Court of Kerala at Ernakulam (Justice C. Pratheep Kumar)",
+      "case_reference": "CRL.MC NO. 3930 OF 2025; Crime No.852/2013 of Kothamangalam Police Station; CC No.562/2015",
+      "laws": [
+        "Sections 2(f), 3, 4 and 5 of the Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "acts": [
+        "Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "person": "a man from Ernakulam district described as a customer",
+      "detail": [
+        "The High Court recorded that the case arose from Crime No.852/2013 of Kothamangalam Police Station, Ernakulam, pending as CC No.562/2015.",
+        "The High Court recorded that the prosecution case is that on 20.6.2013, in the morning, one accused took another accused in a car to a lodge for paid sexual activity, with arrangements attributed to a middle accused.",
+        "The High Court recorded that the petitioner herein was only a customer and he has taken another accused for paid activity, with no reference in the excerpt to minors, force or coercion.",
+        "The High Court ordered that all further proceedings against the petitioner in CC No.562/2015 arising from the said crime are quashed."
+      ],
+      "current_position": "The case against the customer stands quashed; no trial remains against that person.",
+      "quote": {
+        "text": "All further proceedings against the petitioner in CC. No.562/2015",
+        "where": "CRL.MC NO. 3930 OF 2025, operative paragraph",
+        "url": "https://indiankanoon.org/doc/45357065/"
+      },
+      "caveats": "Full FIR and lodge records were not opened; reliance is on the High Court order excerpt. Ages of other accused beyond the customer were not stated, but no minor or force allegation appears.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The act was paid sex between consenting adults with no complaining victim, force or minor involved, yet punished under brothel-trafficking law."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/45357065/",
+          "kind": "court_order",
+          "publisher": "High Court of Kerala via Indian Kanoon",
+          "date": "2026-03-17",
+          "supports": "date, court, crime number, sections, customer allegation, quashing order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-kl-0003",
+      "category": "alcohol",
+      "state": "Kerala",
+      "title": "High Court grants bail in Wayanad excess-liquor possession case",
+      "summary": "Excise officers searched a room in Wayanad on 16 September 2026 and seized about 64 litres of liquor and alcohol-mixed liquid. A person was remanded from 17 September 2026 under Abkari Act sections on illicit possession and sale. The High Court granted bail on a Rs 1 lakh bond with reporting conditions.",
+      "date": "2026-09-22",
+      "date_label": "High Court order",
+      "incident_date": "2026-09-16",
+      "district": "Wayanad",
+      "outcome": "prosecution_pending",
+      "authority": "High Court of Kerala at Ernakulam (Justice Kauser Edappagath)",
+      "case_reference": "BAIL APPL. NO. 5439 OF 2026; Crime No.154/2026 of Kalpetta Excise Circle Office",
+      "laws": [
+        "Sections 55(a), 55(i) and 58 of the Kerala Abkari Act, 1 of 1077"
+      ],
+      "acts": [
+        "Kerala Abkari Act"
+      ],
+      "person": "a media-company executive linked to premises in Wayanad district",
+      "detail": [
+        "The High Court recorded that the offences alleged are punishable under Sections 55(a), 55(i) and 58 of the Kerala Abkari Act, in Crime No.154/2026 of Kalpetta Excise Circle Office, Wayanad.",
+        "The High Court recorded that on 16.09.2026 at about 2:45 p.m., excise officers searched a first-floor room and recovered 43.850 litres of Foreign Made Foreign Liquor and other stocks including wine and alcohol-mixed liquid.",
+        "News reports said the allegation was possessing liquor in excess of the legally permissible levels under the Kerala Abkari Act, with ownership of the room disputed after a bank sale in 2022.",
+        "The High Court recorded that seizure was complete and custody had started on 17.09.2026, and allowed the bail plea on a Rs 1 lakh bond with two sureties, Saturday reporting and no-leave-Kerala conditions."
+      ],
+      "current_position": "The person is on bail with conditions while the excise case remains under investigation or trial.",
+      "quote": {
+        "text": "The offences alleged are punishable under Sections 55(a), 55(i) and 58 of the Kerala Abkari Act, 1 of 1077.",
+        "where": "Bail Appl. No. 5439 of 2026, prosecution-case paragraph",
+        "url": "https://indiankanoon.org/doc/183394437/"
+      },
+      "caveats": "Ownership and possession of the room are disputed; the Court noted a serious dispute. Laboratory analysis of the 12.750 litres of alcohol-mixed liquid was not confirmed in the excerpt.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Possessing or storing liquor above the legal limit harms no one else; no spurious liquor, hooch death or violence is alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/183394437/",
+          "kind": "court_order",
+          "publisher": "High Court of Kerala via Indian Kanoon",
+          "date": "2026-09-22",
+          "supports": "date, court, crime number, sections, search date and quantities, bail conditions"
+        },
+        {
+          "url": "https://www.barandbench.com/news/reporter-tv-md-anto-augustine-moves-kerala-high-court-for-bail-in-alcohol-possession-case",
+          "kind": "news",
+          "publisher": "Bar and Bench",
+          "date": "2026-09-18",
+          "supports": "excess-limit liquor allegation under Abkari Act and bail context"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-kl-0006",
+      "category": "vapes",
+      "state": "Kerala",
+      "title": "Car occupants held with e-cigarettes and small-quantity drugs get passports back",
+      "summary": "The High Court recorded that police in Chokli found two men travelling in a car with ganja, charas, MDMA, nicotine fluid and e-cigarettes. The Magistrate had treated the offences as non-bailable and kept their passports. The High Court held all the alleged offences were bailable, set aside that order and directed return of the passports.",
+      "date": "2020-02-06",
+      "date_label": "High Court order",
+      "incident_date": "2019-11-27",
+      "district": "Kannur",
+      "outcome": "prosecution_pending",
+      "authority": "High Court of Kerala at Ernakulam",
+      "case_reference": "Crl.MC.No.8975 OF 2019(B) and Crl.MC.No.8979 OF 2019(B); Crime No.683/2019 of Chokli police station",
+      "laws": [
+        "Section 4(1) read with 7 of the Prohibition of Electronic Cigarettes Act, 2019",
+        "Sections 22(a) and 20(b)(ii)A of the Narcotic Drugs and Psychotropic Substances Act"
+      ],
+      "acts": [
+        "Prohibition of Electronic Cigarettes Act, 2019",
+        "Narcotic Drugs and Psychotropic Substances Act, 1985"
+      ],
+      "person": "two motorists travelling in a car at Chokli",
+      "penalty": "No sentence; Magistrate's passport-impounding order set aside and passports ordered returned forthwith",
+      "detail": [
+        "The High Court recorded that the petitioners were the first and third accused in Crime No.683/2019 of the Chokli police station.",
+        "Police said that on 27.11.2019 the men were found in a car bearing Reg.No.KL 18/K-3198 with 1.530 grams of ganja, 2.40 grams of charas, 40 milligrams of MDMA, two bottles of nicotine fluid and e-cigarettes.",
+        "The High Court recorded that the alleged offences included narcotics provisions and Section 4(1) read with 7 of the e-cigarette prohibition law, which the Magistrate had called non-bailable small-quantity offences.",
+        "The High Court held all the alleged offences were bailable, set aside the Magistrate's order and directed that the impounded passports be returned forthwith."
+      ],
+      "current_position": "Pretrial passport condition set aside; the underlying prosecution is not shown as quashed.",
+      "quote": {
+        "text": "two bottles of nicotine fluid and e- cigarettes while they were travelling in the car",
+        "where": "[name withheld] vs The Station House Officer, Crl.MC Nos.8975 and 8979 of 2019(B), order text as reproduced on Indian Kanoon",
+        "url": "https://indiankanoon.org/doc/35306105/"
+      },
+      "caveats": "No post-2020 pure-vape Kerala judgment was found; this case also involves small-quantity NDPS allegations, disclosed here, but no violence, minor, fraud or other listed harm. District is not stated in the order beyond Chokli police station, so district is left null.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Possessing and using e-cigarettes or vapes harms no other person; the vape allegation concerns private possession in a car with no complainant, violence or coercion."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/35306105/",
+          "kind": "judgment",
+          "publisher": "High Court of Kerala via Indian Kanoon",
+          "date": "2020-02-06",
+          "supports": "crime number and station, seizure list including e-cigarettes, sections and order returning passports"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-kl-0007",
+      "category": "other",
+      "state": "Kerala",
+      "title": "Debt-collection scolding charged as obscenity quashed as private-space speech",
+      "summary": "The High Court recorded that a man went to a woman's courtyard in Parippally over payments due to a lender and scolded her, leading to a final report under BNS Section 296(b) alone. The court held the place was admittedly private and the word used was not obscene. The court allowed the petition and quashed the proceedings in C.C.No.681 of 2024.",
+      "date": "2025-08-08",
+      "date_label": "High Court order",
+      "incident_date": "2024-07-31",
+      "district": "Kollam",
+      "outcome": "quashed",
+      "authority": "High Court of Kerala at Ernakulam",
+      "case_reference": "CRL.MC NO. 9873 OF 2024; C.C.No.681 of 2024; CRIME NO.707/2024 OF Parippally Police Station, Kollam",
+      "laws": [
+        "Section 296(b) of the Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "a man who went to a house courtyard in Parippally over a debt",
+      "detail": [
+        "The High Court recorded the case as Crime No.707/2024 of Parippally Police Station, Kollam, leading to C.C.No.681 of 2024, with the final report pursued under Section 296(b) of the Bharatiya Nyaya Sanhita alone.",
+        "Police said that on 31.07.2024 at about 11.15 a.m. the man went to the courtyard of the house of the de facto complainant and scolded her over overdue payments owed to a commercial lender.",
+        "The High Court held that the place of the alleged act was admittedly a private space, so the public-obscenity provision was not attracted, and that the specific word allegedly uttered could not be termed obscene.",
+        "The High Court allowed the petition and quashed the proceedings in C.C.No.681 of 2024."
+      ],
+      "current_position": "Proceedings in C.C.No.681 of 2024 stand quashed; no conviction.",
+      "quote": {
+        "text": "Thus, the place where the offences are said to have been committed, is admittedly a private space.",
+        "where": "[name withheld] vs Sub Inspector Of Police, CRL.MC NO. 9873 OF 2024, order text as reproduced on Indian Kanoon",
+        "url": "https://indiankanoon.org/doc/170511441/"
+      },
+      "caveats": "The initial FIR cited additional BNS provisions (126(2), 332(c), 74, 76, 79 r/w 3(5)); the court dealt with the final report under Section 296(b) alone. Initial allegations named a woman complainant annoyed by scolding, which is inherent to an obscenity charge and involves none of the listed disqualifiers.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Scolding over a debt in a private courtyard with words the court found not obscene harmed no one; the only alleged wrong is offensive speech with no violence, injury, minor or fraud in the final charge."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/170511441/",
+          "kind": "judgment",
+          "publisher": "High Court of Kerala via Indian Kanoon",
+          "date": "2025-08-08",
+          "supports": "crime number and station, incident date and place, final-report section 296(b) alone, reasoning and quashing order"
         }
       ],
       "verification": "V2"
@@ -2399,6 +2663,162 @@
           "publisher": "Rajasthan High Court (order copy via LiveLaw)",
           "date": "2025-05-06",
           "supports": "recorded raids finding online sale at six places and blocking of sites; DGP affidavit direction"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-tg-0002",
+      "category": "gambling",
+      "state": "Telangana",
+      "title": "Card-gambling prosecution over three-cards betting quashed",
+      "summary": "Police went to a plot in Hasthinapuram after receiving information about gambling and booked the players under the Telangana State Gaming Act for playing three cards for money. Cash of Rs 19,740, three mobile phones and one set of playing cards were seized. The High Court quashed the trial proceedings against the petitioner, who was accused No.1.",
+      "date": "2025-11-14",
+      "date_label": "High Court order (proceedings quashed)",
+      "incident_date": "2025-07-24",
+      "district": "Ranga Reddy",
+      "outcome": "quashed",
+      "authority": "Telangana High Court (Justice K. Sujana)",
+      "case_reference": "Criminal Petition No.14887 of 2025; C.C.No.3776 of 2025 (VI AJCJ-cum-VI AJMFC, Ranga Reddy at L.B. Nagar)",
+      "laws": [
+        "Sections 3 and 4, Telangana State Gaming Act, 1974"
+      ],
+      "acts": [
+        "Telangana State Gaming Act, 1974"
+      ],
+      "person": "the petitioner, accused No.1 in a card-gambling case",
+      "detail": [
+        "The High Court recorded that on 24.07.2025 police received information about gambling and went to Plot No.374, Vishweshwariah Engineers Colony, Hasthinapuram.",
+        "Police said the accused were found playing a three-cards game by betting money.",
+        "Police said they seized net cash of Rs 19,740, three mobile phones and one set of playing cards.",
+        "The High Court held the proceedings against the petitioner were liable to be quashed and allowed the criminal petition."
+      ],
+      "current_position": "The trial-court proceedings against the petitioner stand quashed.",
+      "quote": {
+        "text": "Accordingly, the Criminal Petition is allowed and the proceedings against the petitioner/accused No.1 in C.C.No.3776 of 2025 on the file of the learned VI Additional Junior Civil Judge-cum-VI Additional Judicial Magistrate of First Class, Ranga Reddy District, at L.B. Nagar, are hereby quashed.",
+        "where": "Criminal Petition No.14887 of 2025, order dated 14.11.2025",
+        "url": "https://indiankanoon.org/doc/37168888/"
+      },
+      "caveats": "The full charge-sheet narrative beyond the raid and seizure is not detailed in the order excerpt.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The alleged act was betting money on a card game, with no cheating, fixing or defrauded victim alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/37168888/",
+          "kind": "court_order",
+          "publisher": "Telangana High Court (via Indian Kanoon)",
+          "date": "2025-11-14",
+          "supports": "sections, raid date and place, gambling activity, seizure amount, quash order, date"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-tg-0003",
+      "category": "alcohol",
+      "state": "Telangana",
+      "title": "Home liquor-storage prosecution under Excise Act quashed",
+      "summary": "Police searched a house in Parkal town and seized branded whisky bottles and beer allegedly stored without approval. The householder was booked under the Excise Act and for disobeying a public-servant order. The High Court quashed the trial-court case.",
+      "date": "2026-07-07",
+      "date_label": "High Court order (proceedings quashed)",
+      "incident_date": "2023-11-26",
+      "outcome": "quashed",
+      "authority": "Telangana High Court",
+      "case_reference": "Criminal Petition No.8624 of 2026; C.C.No.132 of 2024",
+      "laws": [
+        "Section 34(A), Telangana Excise Act, 1968",
+        "Section 188, Indian Penal Code, 1860"
+      ],
+      "acts": [
+        "Telangana Excise Act, 1968",
+        "Indian Penal Code, 1860"
+      ],
+      "person": "a man in Parkal town found storing liquor bottles at home",
+      "detail": [
+        "The High Court recorded that a patrol acting on a tip searched a house in Parkal town and found stored liquor bottles said to have been bought from local wine shops without official approval.",
+        "The High Court recorded the seizure as branded stock, including Royal Stag bottles in full and half sizes.",
+        "Police registered the case under the Excise Act with an additional disobedience count under the penal code.",
+        "The High Court allowed the criminal petition and quashed the trial-court proceedings."
+      ],
+      "current_position": "The trial-court case stands quashed.",
+      "quote": {
+        "text": "Accordingly, the Criminal Petition is allowed and the proceedings in C.C.No.132 of 2024 on the file of the Additional Junior Civil Judge, at Parkal, against the petitioner/accused, are hereby quashed.",
+        "where": "Criminal Petition No.8624 of 2026, order dated 07.07.2026",
+        "url": "https://indiankanoon.org/doc/158332592/"
+      },
+      "caveats": "The order excerpt gives bottle counts but the beer count varies between summaries, so only the whisky-bottle sentence is quoted. The district is not printed in the excerpt, so none is given though Parkal town is named.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The act was possessing ordinary branded liquor at home, with no spurious or poisonous drink and no violence alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/158332592/",
+          "kind": "court_order",
+          "publisher": "Telangana High Court (via Indian Kanoon)",
+          "date": "2026-07-07",
+          "supports": "sections, house search and bottle seizure, quash order, date"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-tg-0007",
+      "category": "other",
+      "state": "Telangana",
+      "title": "Three FIRs over political posts quashed; two included an online-obscenity charge",
+      "summary": "Police in Ramagundam and Karimnagar registered three FIRs over political posts. Two FIRs included Section 67 of the Information Technology Act; the third involved allegedly defamatory and abusive posts about the Chief Minister. On 10 September 2025, the High Court allowed three quash petitions and quashed the proceedings in all three FIRs.",
+      "date": "2025-09-10",
+      "date_label": "High Court judgment",
+      "district": "Peddapalli and Karimnagar",
+      "outcome": "quashed",
+      "authority": "High Court for the State of Telangana at Hyderabad (Justice N. Tukaramji); Telangana Cyber Security Bureau (CCPS Ramagundam, CCPS Karimnagar) and GDK-I Town police, Ramagundam",
+      "case_reference": "Criminal Petition Nos. 4905, 4903 and 8416 of 2025; FIR No.8 of 2025 (CCPS Ramagundam), FIR No.13 of 2025 (CCPS Karimnagar), FIR No.146 of 2025 (GDK-I Town, Ramagundam)",
+      "laws": [
+        "Sections 192, 353(1)(b), 352 and 356 read with Sections 61(2) and 3(5), Bharatiya Nyaya Sanhita, 2023",
+        "Section 67, Information Technology Act, 2000"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023",
+        "Information Technology Act, 2000"
+      ],
+      "person": "a social-media user in the Ramagundam–Karimnagar region",
+      "detail": [
+        "The judgment records that the petitioner posted a tweet saying: 'Congress is the scourge of the state! If the field is affected by the pest, the people will be disturbed.'",
+        "The Court noted a further post carrying a photograph of the Chief Minister of Telangana with the slogans 'No Vision, No Mission, Only 20% Commission!' and criticism of the '15-month rule of the [name withheld] led Congress Government'.",
+        "The police registered FIR No.8 of 2025 at CCPS Ramagundam, FIR No.13 of 2025 at CCPS Karimnagar, and FIR No.146 of 2025 at GDK-I Town, Ramagundam.",
+        "FIR Nos.8 and 13 included BNS Sections 192, 353(1)(b), 352 and 356 read with Section 61(2), and Section 67 of the Information Technology Act. FIR No.146 invoked BNS Sections 352 and 356(2) read with Section 3(5).",
+        "The Court allowed the three criminal petitions and quashed the proceedings in all three FIRs."
+      ],
+      "current_position": "All three FIRs stand quashed; no prosecution survives.",
+      "quote": {
+        "text": "In light of the above directions, Criminal Petition Nos. 4905, 4903, and 8416 of 2025 are allowed.",
+        "where": "Telangana High Court, Criminal Petition Nos. 4905, 4903 and 8416 of 2025, judgment pronounced 10.09.2025",
+        "url": "https://indiankanoon.org/doc/93467638/"
+      },
+      "caveats": "The judgment says the complaint in FIR No.146 was filed on 18 March 2025 and concerned posts encountered on 4 and 11 March 2025. It does not give posting dates for FIR Nos.8 and 13 or mention arrests.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The High Court quashed FIRs concerning political criticism and allegedly abusive political posts after finding the invoked provisions insufficient to sustain the proceedings."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/93467638/",
+          "kind": "judgment",
+          "publisher": "High Court for the State of Telangana at Hyderabad via Indian Kanoon",
+          "date": "2025-09-10",
+          "supports": "tweets, FIR numbers and stations, charges, quashing result, date and judge"
         }
       ],
       "verification": "V2"
