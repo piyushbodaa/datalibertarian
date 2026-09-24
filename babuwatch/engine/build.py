@@ -1064,7 +1064,8 @@ _WH_RANKS = {
     "superintendent", "commissioner", "officer", "officers", "policeman",
     "policemen", "jawan", "jawans", "havildar", "naik", "sepoy", "rifleman",
     "sergeant", "subedar", "home-guard", "guard", "warden", "jailor",
-    "jailer", "patwari", "clerk", "engineer", "tehsildar"}
+    "jailer", "patwari", "clerk", "engineer", "tehsildar",
+    "officer-in-charge", "in-charge", "oc", "io"}
 _WH_SAFE = _WH_RANKS | {
     "vs", "v", "versus", "and", "another", "others", "ors", "anr", "the",
     "state", "of", "union", "india", "police", "court", "high", "district",
@@ -1123,20 +1124,21 @@ def officer_descriptor(p, with_rank=True):
     return "%s %s" % (force, rank or "personnel")
 
 
-def _clean_withheld(text, drop_after_rank=True):
+def _clean_withheld(text, drop_after_rank=True, extra_ranks=frozenset()):
     if not isinstance(text, str) or _WH not in text:
         return text
+    ranks, safe = _WH_RANKS | set(extra_ranks), _WH_SAFE | set(extra_ranks)
 
     def rep(m):
         pre, post = m.group("pre").split(), m.group("post").split()
-        while pre and pre[-1].rstrip(".").lower() not in _WH_SAFE:
+        while pre and pre[-1].rstrip(".").lower() not in safe:
             pre.pop()
-        while post and post[0].rstrip(".").lower() not in _WH_SAFE:
+        while post and post[0].rstrip(".").lower() not in safe:
             post.pop(0)
         prev = pre[-1] if pre else (re.findall(r"(\S+)\s*$",
                                                m.string[:m.start()]) or [""])[0]
         keep = not (drop_after_rank and
-                    prev.strip("\"'(,").lower() in _WH_RANKS)
+                    prev.strip("\"'(,").lower() in ranks)
         lead = " " if m.group("pre") and not pre and not keep else ""
         return lead + " ".join(pre + ([_WH] if keep else []) + post) + (
             " " if m.group("post") and not post and not keep else "")
@@ -1171,30 +1173,245 @@ def _officer_title(title, p, desc):
             v = _WH_VS.search(inner)
             if v and _WH_STATE.match(inner[v.end():].strip()) \
                     and not _WH_STATE.match(inner[:v.start()].strip()):
-                return "(%s%s%s)" % (officer_descriptor(p, with_rank=False),
-                                     v.group(0), inner[v.end():])
+                who = (officer_descriptor(p, with_rank=False)
+                       if (p.get("service") or "police") == "police"
+                       else ("%s public servant" % record_place(p)).strip())
+                return "(%s%s%s)" % (who, v.group(0), inner[v.end():])
             return mm.group(0)
         b = re.sub(r"\(([^()]*)\)", conn, b)
     return a + m.group(0) + b
+
+
+_RANK_NAME = re.compile(
+    r"\b(?P<rank>(?i:head\s+constables?|constables?|sub-inspectors?|"
+    r"inspectors?|asi|si|psi|ssi|sho|dsp|acp|dcp|havildar|naik|sepoy|"
+    r"daroga|officer-in-charge|policem[ae]n|jawans?))\s+"
+    r"(?P<name>[A-Z][a-z]+\.?(?:\s+[A-Z][a-z]+\.?){0,2})\b")
+
+
+def _strip_rank_names(text, keep_words, place_words):
+    """Drop a personal name written straight after a police rank unless the
+    naming gate cleared it (keep_words) or it is a place of the record."""
+    if not isinstance(text, str):
+        return text
+
+    def rep(m):
+        toks = m.group("name").split()
+        for i, w in enumerate(toks):
+            lw = w.rstrip(".").lower()
+            if lw in _WH_SAFE or lw in keep_words or lw in place_words or \
+                    lw in ("general", "director", "act", "court", "section"):
+                return m.group(0) if i == 0 else m.group("rank") + " " + \
+                    " ".join(toks[i:])
+        return m.group("rank")
+    return _RANK_NAME.sub(rep, text)
 
 
 def humanise_withheld(p, title_keys, prose_keys):
     police = (p.get("service") or "police") == "police"
     officer_party = (p.get("outcome_type") or "trial_court_conviction") \
         in _WH_OFFICER_PARTY
-    desc = officer_descriptor(p) if police else ""
+    desc = officer_descriptor(p) if police else civil_descriptor(p)
+    # a civil servant's own post words also stand in for the name
+    post_words = set() if police else {
+        w.lower() for w in re.findall(r"[A-Za-z][A-Za-z-]+",
+                                      desc)[-1:]}
     for k in title_keys:
         if isinstance(p.get(k), str):
-            if police and officer_party:
+            if officer_party:
                 p[k] = _officer_title(p[k], p, desc)
-            p[k] = _clean_withheld(p[k])
+            p[k] = _clean_withheld(p[k], extra_ranks=post_words)
+    keep = {w.lower() for o in (p.get("officers") or []) if isinstance(o, dict)
+            and o.get("publish_grade") == "named_safe"
+            for n in (o.get("name"), o.get("name_public")) if n
+            for w in re.findall(r"[A-Za-z]+", n)}
+    places = {w.lower() for k in ("district", "city_town", "state",
+                                  "police_station_or_unit", "trial_court_name")
+              for w in re.findall(r"[A-Za-z]+", str(p.get(k) or ""))}
+    places |= {w.lower() for o in (p.get("officers") or []) if isinstance(o, dict)
+               for w in re.findall(r"[A-Za-z]+", str(o.get("unit") or ""))}
     for k in prose_keys:
         if isinstance(p.get(k), str):
-            p[k] = _clean_withheld(p[k], drop_after_rank=(k != "court_quote"))
+            p[k] = _clean_withheld(p[k], drop_after_rank=(k != "court_quote"),
+                                   extra_ranks=post_words)
+            if police:
+                p[k] = _strip_rank_names(p[k], keep, places)
     for a in (p.get("institutional_response") or []):
         if isinstance(a, dict) and isinstance(a.get("description"), str):
-            a["description"] = _clean_withheld(a["description"])
+            a["description"] = _clean_withheld(a["description"],
+                                               extra_ranks=post_words)
     return p
+
+
+# ---- Victims read as place + person ("a Delhi man"); never by name ----
+# Complainants, victims, witnesses and minors are never named (site
+# promise; a wrong name is a liability). Every public record: victim names
+# in any text become "a <place> <man|woman|boy|girl|youngster|newborn|
+# resident>", the victim rows carry that descriptor (+ age), and a
+# withheld victim party in a title reads the same way.
+_VIC_ROLE = re.compile(
+    r"\b(?P<the>[Tt]he\s+)?(?P<role>complainant|victim|deceased|petitioner|"
+    r"informant|witness|detenu|corpus|prosecutrix|survivor|son|daughter|wife|"
+    r"husband|brother|sister|father|mother)\s+(?P<desc>an?\s[^,.;:()]{1,40}?\s"
+    r"(?:man|woman|boy|girl|youngster|newborn|resident))\b")
+_VIC_HONORIFIC = re.compile(
+    r"\b(?:Mr|Mrs|Ms|Smt|Shri|Sri|Kumari|Km|Dr)\.?\s+(?=an?\s[^,.;:()]{1,40}?\s"
+    r"(?:man|woman|boy|girl|youngster|newborn|resident)\b)")
+
+
+_VIC_TEXT_KEYS = (  # narrative fields only: places, courts, ids, urls untouched
+    "summary", "summary_verified", "summary_redacted", "verification_note",
+    "court_quote", "display_title", "display_title_redacted", "case_title",
+    "case_title_or_number", "case_number", "citation", "verdict_note",
+    "editor_notes",
+    "fidelity_changes", "allegations", "institutional_response",
+    "followup_history", "corrections", "sentence", "victims_redacted")
+
+
+def record_place(p):
+    return re.sub(r"\s*\([^()]*\)", "", (p.get("city_town") or p.get("district")
+                                          or p.get("state") or "")).strip()
+
+
+def victim_person(v, p):
+    """('Delhi man', age or None) for one victim entry of record p."""
+    txt = v if isinstance(v, str) else " ".join(
+        str(v.get(k) or "") for k in ("name", "description", "role"))
+    g = "" if isinstance(v, str) else str(v.get("gender") or "").lower()
+    if not g:
+        if re.search(r"\b(woman|women|girl|female|wife|daughter|mother|sister|"
+                     r"widow|prosecutrix)\b", txt, re.I):
+            g = "female"
+        elif re.search(r"\b(man|men|boy|male|husband|son|father|brother)\b",
+                       txt, re.I):
+            g = "male"
+    try:
+        age = int(v.get("age")) if isinstance(v, dict) and \
+            v.get("age") not in (None, "") else None
+    except (TypeError, ValueError):
+        age = None
+    if age == 0:
+        noun = "newborn"
+    elif age is not None and age < 18:
+        noun = "girl" if g.startswith("f") else "boy" if g.startswith("m") \
+            else "youngster"
+    else:
+        noun = "woman" if g.startswith("f") else "man" if g.startswith("m") \
+            else "resident"
+    return ("%s %s" % (record_place(p), noun)).strip(), age
+
+
+def _victim_name(v):
+    n = v.get("name") if isinstance(v, dict) else v if isinstance(v, str) else None
+    if not isinstance(n, str):
+        return None
+    n = re.sub(r"\s*\([^()]*\)", "", n).strip()
+    return n if re.search(r"[A-Z][a-z]", n) else None
+
+
+def victim_names_of(r, oracle=None):
+    names = [n for n in (_victim_name(v) for v in (r.get("victims") or []))
+             if n]
+    names += [n for n in oracle_victim_legals(r, oracle) if n]
+    return names
+
+
+def _grammar_after_victims(text):
+    text = _VIC_HONORIFIC.sub("", text)
+    text = _VIC_ROLE.sub(lambda m: "%s%s, %s," % (m.group("the") or "",
+                                                 m.group("role"),
+                                                 m.group("desc")), text)
+    return re.sub(r",\s*([,.;:)])", r"\1", text)
+
+
+def anonymise_victims(p, raw, title_keys, oracle=None):
+    """In place on a public copy `p` built from raw record `raw`."""
+    vics = p.get("victims") or []
+    if isinstance(vics, str):
+        vics = [vics]
+    persons = [victim_person(v, p) for v in vics if v]
+    first = persons[0][0] if persons else ""
+    vnames = [n.lower() for n in victim_names_of(raw, oracle)]
+    # the gate protects names a record publishes; victims no longer are
+    lits = [l for l in record_protected_literals(raw)
+            if not any(v in l.lower() or l.lower() in v for v in vnames)]
+    groups = []   # (patterns, person) per named victim
+    for v in vics:
+        n = _victim_name(v)
+        if n:
+            pats = compile_name_alternates([n])
+            if pats:
+                groups.append((pats, victim_person(v, p)[0]))
+    legal = oracle_victim_legals(raw, oracle)
+    if legal and first:
+        groups.append((compile_name_alternates(legal), first))
+
+    def scrub(s, title=False):
+        if not isinstance(s, str) or not s:
+            return s
+        for pats, person in groups:
+            rep = person.title() if title else (
+                "an " if person[:1].lower() in "aeio" else "a ") + person
+            s = scrub_names(s, pats, rep, literals=lits)
+        return s if title else _grammar_after_victims(s)
+
+    def walk(o, key=""):
+        if isinstance(o, str):
+            if re.search(r"(url|_id|ids?$|source)", key):
+                return o
+            return scrub(o, title=key in title_keys)
+        if isinstance(o, list):
+            return [walk(x, key) for x in o]
+        if isinstance(o, dict):
+            return {k: (walk(x, k) if k not in ("victims", "officers") else x)
+                    for k, x in o.items()}
+        return o
+
+    if groups:
+        for k in _VIC_TEXT_KEYS:
+            if k in p:
+                p[k] = walk(p[k], k)
+    # Victim rows: descriptor (+ role, age) instead of any name.
+    out = []
+    for v in vics:
+        if not v:
+            continue
+        person, age = victim_person(v, p)
+        role = v.get("role") if isinstance(v, dict) else None
+        d = person[0].upper() + person[1:] + (
+            " (%s)" % role if isinstance(role, str) and role.strip() and
+            not re.search(r"[A-Z][a-z]+\s+[A-Z][a-z]+", role) else "") + (
+            ", age %d" % age if age else "")
+        if isinstance(v, dict):
+            v = dict(v, name=None, descriptor=d)
+            v.pop("description", None)
+            out.append(v)
+        else:
+            out.append(d)
+    if vics:
+        p["victims"] = out
+    # A withheld victim party in a title reads as the victim descriptor.
+    if first:
+        for k in title_keys:
+            t = p.get(k)
+            if not isinstance(t, str) or _WH not in t:
+                continue
+            m = _WH_VS.search(t)
+            if m:
+                a, b = t[:m.start()], t[m.end():]
+                if _WH in a and not _WH_STATE.match(a.strip()):
+                    a = a.replace(_WH, first.title(), 1)
+                p[k] = a + m.group(0) + b
+    return p
+
+
+def civil_descriptor(p):
+    """'Visakhapatnam Enforcement Officer': place + post of a civil servant."""
+    offs = [o for o in (p.get("officers") or []) if isinstance(o, dict)]
+    post = (p.get("post") or next((o.get("rank") for o in offs
+                                   if o.get("rank")), "") or "").strip()
+    post = re.sub(r"\s*\([^()]*\)", "", post)
+    return ("%s %s" % (record_place(p), post or "public servant")).strip()
 
 
 def redact_record(c, oracle=None, nosp_extras=None):
@@ -1279,10 +1496,12 @@ def redact_record(c, oracle=None, nosp_extras=None):
     for h in (p.get("later_proceedings") or []):
         if isinstance(h, dict):
             h.pop("persons", None)
-    return humanise_withheld(
+    humanise_withheld(
         p, ("display_title", "display_title_redacted", "case_title"),
         ("summary", "summary_verified", "verification_note", "court_quote",
          "verdict_note"))
+    return anonymise_victims(p, c, ("display_title", "display_title_redacted",
+                                    "case_title", "citation"), oracle)
 
 
 # ---- Tier-2 (trial-court convictions) ----
@@ -1536,6 +1755,7 @@ def build_t2_public(r, pats, withheld_lows, t1_held=()):
                          for v in p["sections"]]
     humanise_withheld(p, ("case_title_or_number", "case_title"),
                       ("summary", "sentence", "court_quote", "verdict_note"))
+    anonymise_victims(p, r, ("case_title_or_number", "case_title"))
     return p, downgraded
 
 
@@ -2284,6 +2504,9 @@ def victim_descriptors(c):
     """Role nouns for anonymised records (victims_redacted only; legal
     names never render — R40-R43); names as recorded otherwise."""
     vics = c.get("victims") or []
+    if any(isinstance(v, dict) and v.get("descriptor") for v in vics):
+        return [(v.get("descriptor") if isinstance(v, dict) else str(v))
+                or "a person" for v in vics if v]
     if is_anonymised(c):
         red = c.get("victims_redacted") or []
         out = []
@@ -3645,7 +3868,7 @@ def build_trialcourt_record(p):
     idate = (p.get("incident_date") or "Date not stated").strip()
     officers = [officer_display(o, p) for o in (p.get("officers") or [])]
     off_txt = "; ".join(officers) if officers else "None stated"
-    vics = [(v if isinstance(v, str) else (v.get("role") or v.get("description") or v.get("name") or "")) for v in (p.get("victims") or []) if v]
+    vics = [(v if isinstance(v, str) else (v.get("descriptor") or v.get("role") or v.get("description") or "")) for v in (p.get("victims") or []) if v]
     vics = [v for v in vics if v]
     vic_txt = "; ".join(vics) if vics else "Not stated"
     nsrc = t2_source_count(p)
@@ -4746,7 +4969,7 @@ def t2_md_section(p):
     title = p.get("case_title_or_number") or cid
     offs = [officer_display(o, p) for o in (p.get("officers") or [])]
     vics = [(v if isinstance(v, str)
-             else (v.get("role") or v.get("description") or v.get("name")
+             else (v.get("descriptor") or v.get("role") or v.get("description")
                    or "")) for v in (p.get("victims") or []) if v]
     vics = [v for v in vics if v]
     srcs = []
@@ -6750,6 +6973,46 @@ def _scrub_public_dicts(ctx, public_cases, t2public, over_public=None):
     return spans, log, bad
 
 
+def assert_no_victim_names(dist, raw_records, fail=True):
+    """Complainants and victims are never named: fail the build if any
+    victim's full name (2+ words) appears in any published file."""
+    names = set()
+    for r in raw_records:
+        for n in victim_names_of(r):
+            if PLACEHOLDER_NAME_RX.search(n):
+                continue
+            words = re.findall(r"[A-Za-z][A-Za-z.'-]*", n)
+            if len(words) >= 2 and len(" ".join(words)) >= 6 and \
+                    all(w[:1].isupper() for w in words if len(w) > 2):
+                names.add(" ".join(words))
+    if not names:
+        return []
+    rx = re.compile(r"\b(?:%s)\b" % "|".join(
+        re.escape(n).replace(r"\ ", r"\s+")
+        for n in sorted(names, key=len, reverse=True)))
+    hits = []
+    for root, _d, files in os.walk(dist):
+        for f in files:
+            if not f.endswith((".html", ".json", ".md", ".txt", ".csv",
+                               ".xml")):
+                continue
+            path = os.path.join(root, f)
+            text = open(path, encoding="utf-8", errors="replace").read()
+            for m in rx.finditer(text):
+                # judges and presiding officers may be named
+                if re.search(r"(?i)(judge|justice|presiding officer|magistrate|"
+                             r"hon'?ble|court\b[^.;:\n]{0,60}\()[^.;:\n]{0,20}$",
+                             text[max(0, m.start() - 100):m.start()]):
+                    continue
+                hits.append((os.path.relpath(path, dist), m.group(0)))
+                break
+    for h in hits[:15]:
+        print("VICTIM-NAME LEAK: %s: %s" % h)
+    if hits and fail:
+        raise SystemExit("victim names found in %d published files" % len(hits))
+    return hits
+
+
 def scrub_dist_final(raw_cases, public_cases, oracle_by_id=None,
                      nosp_extras=None, raw_t2=None, public_t2=None,
                      t2_downgraded=None, ctx=None, skip_dicts=False):
@@ -7691,6 +7954,8 @@ def main():
     scrub_dist_final(publishable, cases, oracle_by_id, nosp_extras,
                      _assert_t2_raw, _assert_t2_pub, t2_downgraded,
                      ctx=_pre_ctx, skip_dicts=True)
+    assert_no_victim_names(DIST, list(publishable) + list(_assert_t2_raw),
+                           fail=os.environ.get("VICTIM_CHECK") == "fail")
 
     idx_kb = os.path.getsize(os.path.join(DIST, "index.html")) / 1024.0
     trk_kb = os.path.getsize(os.path.join(DIST, "tracker", "index.html")) / 1024.0
