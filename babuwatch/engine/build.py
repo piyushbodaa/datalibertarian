@@ -4026,9 +4026,11 @@ TRACKER_JS = r"""// CopwatchIndia tracker — client-side filter/search over /da
       });
     }
     if (els.count) {
-      var vis = Math.min(shown, rows.length);
-      els.count.textContent = "showing " + fmtN(vis) + " of __TOTAL_ALL__" +
-        " records (__N_HCSC__ HC/SC \u00b7 __N_TRIAL__ trial court)";
+      var vis = Math.min(shown, rows.length), all = "__TOTAL_ALL__";
+      els.count.textContent = "showing " + fmtN(vis) + " of " +
+        (fmtN(rows.length) === all
+          ? all + " records (__N_HCSC__ HC/SC \u00b7 __N_TRIAL__ trial court)"
+          : fmtN(rows.length) + " matching records (" + all + " in all)");
       var sib = els.count.nextElementSibling;
       if (sib) sib.textContent = "";
     }
