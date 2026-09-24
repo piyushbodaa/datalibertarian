@@ -1,0 +1,609 @@
+{
+  "register": "psu",
+  "site_name": "PSUs",
+  "kind": "enterprise",
+  "record_word": "enterprises",
+  "detail_label": "From official sources",
+  "record_note": "This page is a factual profile built from official sources: enterprise filings, the DPE Public Enterprises Survey, PIB releases, government orders and CAG reports. Figures carry their year; where no official figure was found, the field is left out rather than estimated.",
+  "landing_tail": "Government, Inc. &mdash; every business the state runs: central, state, banks, insurers, and the rest.",
+  "stats": [
+    {
+      "value": "records",
+      "label": "Enterprises listed",
+      "sub": "PSUs inventoried"
+    },
+    {
+      "value": "categories",
+      "label": "Types tracked",
+      "sub": "beyond central & state"
+    },
+    {
+      "value": "states",
+      "label": "States covered",
+      "sub": "of 36 states & UTs"
+    },
+    {
+      "value": "on_the_block",
+      "label": "Sick or on the block",
+      "sub": "net worth wiped out, closing or for sale"
+    }
+  ],
+  "categories": [
+    {
+      "key": "cpse",
+      "label": "Central PSUs (CPSEs)"
+    },
+    {
+      "key": "state",
+      "label": "State PSUs (SLPEs)"
+    },
+    {
+      "key": "bank",
+      "label": "Public sector banks"
+    },
+    {
+      "key": "insurer",
+      "label": "Public sector insurers"
+    },
+    {
+      "key": "dfi",
+      "label": "Development finance institutions"
+    },
+    {
+      "key": "departmental",
+      "label": "Departmental undertakings"
+    },
+    {
+      "key": "statutory",
+      "label": "Statutory corporations"
+    },
+    {
+      "key": "defence",
+      "label": "Defence PSUs"
+    },
+    {
+      "key": "jv",
+      "label": "Joint ventures & subsidiaries"
+    },
+    {
+      "key": "municipal",
+      "label": "Municipal & local-body enterprises"
+    },
+    {
+      "key": "sick",
+      "label": "Sick, closed & on the block"
+    }
+  ],
+  "records": [
+    {
+      "id": "psu-ap-0001",
+      "category": "cpse",
+      "state": "Andhra Pradesh",
+      "district": "Visakhapatnam",
+      "date": "2025-01-17",
+      "name": "Rashtriya Ispat Nigam Limited (Visakhapatnam Steel Plant)",
+      "headquarters": "Visakhapatnam, Andhra Pradesh",
+      "state_link": "Headquarters and plant in Visakhapatnam",
+      "owner": "Central government",
+      "shareholding": "100% Government of India",
+      "administrative": "Ministry of Steel",
+      "legal_form": "Government company",
+      "status_label": "Schedule A CPSE",
+      "established": "Incorporated 1982 under the Companies Act, 1956",
+      "status": "Loss-making; revival package",
+      "on_the_block": true,
+      "financials": "April-December 2024: total income Rs 12,615.03 crore; loss before tax Rs 3,943.43 crore. Net worth Rs (-)4,538 crore on 31 March 2024.",
+      "summary": "The state-owned company behind the Visakhapatnam Steel Plant, India's only shore-based integrated steel plant in the government sector, with 7.3 million tonnes a year of liquid-steel capacity. With its net worth wiped out and bank loans in default, the Union Cabinet approved a Rs 11,440 crore revival plan in January 2025.",
+      "detail": [
+        "RINL runs the Visakhapatnam Steel Plant, which the Ministry of Steel describes as 'the only offshore steel plant under Government sector in the state of Andhra Pradesh', with an installed capacity of 7.3 million tonnes a year of liquid steel. It is a Schedule A CPSE under the Ministry of Steel, 100% owned by the Government of India.",
+        "According to the Cabinet's January 2025 release, RINL's 'financial condition is critical': its net worth on 31 March 2024 was Rs (-)4,538 crore, current liabilities of Rs 26,114.92 crore far exceeded current assets of Rs 7,686.24 crore, it had exhausted its bank borrowing limits, and it defaulted on capital-loan repayments and interest in June 2024.",
+        "On 17 January 2025 the Cabinet Committee on Economic Affairs approved a revival plan of Rs 11,440 crore: Rs 10,300 crore of fresh equity and conversion of a Rs 1,140 crore working-capital loan into preference shares, 'to keep RINL as a going concern'. In April to December 2024 RINL reported total income of Rs 12,615.03 crore and a loss before tax of Rs 3,943.43 crore, and total liabilities of about Rs 38,965 crore on 31 December 2024."
+      ],
+      "sources": [
+        {
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2093843",
+          "kind": "pib",
+          "publisher": "PIB, Ministry of Steel",
+          "date": "2025-01-17",
+          "supports": "Schedule A status, 100% government ownership, capacity, financial condition, the Rs 11,440 crore revival plan"
+        },
+        {
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2099915",
+          "kind": "pib",
+          "publisher": "PIB, Ministry of Steel",
+          "date": "2025-02-04",
+          "supports": "April-December 2024 production, income, loss and liabilities"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-ap-0002",
+      "category": "state",
+      "state": "Andhra Pradesh",
+      "district": "Guntur",
+      "date": "2026-08-21",
+      "name": "Andhra Pradesh Industrial Infrastructure Corporation Limited (APIIC)",
+      "headquarters": "Mangalagiri, Guntur district",
+      "state_link": "Wholly owned by the Government of Andhra Pradesh",
+      "owner": "State government (Andhra Pradesh)",
+      "shareholding": "Wholly owned by the Government of Andhra Pradesh; paid-up capital Rs 16.33 crore",
+      "administrative": "Industries and Commerce Department, Government of Andhra Pradesh",
+      "legal_form": "Government company",
+      "established": "Incorporated 26 September 1973",
+      "status": "Operating",
+      "summary": "The state's industrial landlord: a wholly state-owned company that acquires land, develops industrial parks and allots plots to investors at prices the government sets. In August 2026 the government approved discounted APIIC land and incentives for two data-centre projects near Visakhapatnam.",
+      "detail": [
+        "APIIC was incorporated on 26 September 1973 and is 'a wholly owned Undertaking of Government of Andhra Pradesh', with a paid-up capital of Rs 16.33 crore, according to its own website. It says it has developed more than 300 industrial parks and allots land and sheds to entrepreneurs.",
+        "In August 2026 the government approved land and tailor-made incentives for two data-centre projects: 200 acres at Jagnadhapuram near Visakhapatnam, to be allotted at a 25% discount on the APIIC cost for a Rs 58,743 crore, 486 MW project, and 433.30 acres at Makavaripalem in Anakapalli district at the fixed APIIC price, The New Indian Express reported.",
+        "APIIC's revenue, profit and staff numbers were not found in the official pages we checked."
+      ],
+      "sources": [
+        {
+          "url": "https://apiic.in/about-us/",
+          "kind": "company_site",
+          "publisher": "APIIC",
+          "date": null,
+          "supports": "incorporation date, capital, wholly-owned status and functions"
+        },
+        {
+          "url": "https://www.newindianexpress.com/states/andhra-pradesh/2026/Aug/24/two-major-data-centres-get-land-and-incentives-in-andhra-pradesh",
+          "kind": "news",
+          "publisher": "The New Indian Express",
+          "date": "2026-08-24",
+          "supports": "the August 2026 land allotments and pricing at APIIC cost"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-ap-0003",
+      "category": "bank",
+      "state": "Andhra Pradesh",
+      "district": null,
+      "date": "2026-07-15",
+      "name": "Union Bank of India",
+      "headquarters": "Mumbai, Maharashtra",
+      "state_link": "Absorbed Andhra Bank on 1 April 2020",
+      "owner": "Central government",
+      "shareholding": "Government of India 74.76% (30 June 2026); 25.24% public",
+      "administrative": "Department of Financial Services, Ministry of Finance",
+      "legal_form": "Nationalised bank (corresponding new bank under the Banking Companies (Acquisition and Transfer of Undertakings) Act, 1970)",
+      "established": "1919; nationalised 1969",
+      "status": "Operating; listed",
+      "financials": "FY2025-26: net profit Rs 18,697 crore; interest income Rs 1,05,992 crore. Q1 FY2026-27: net profit Rs 5,332 crore.",
+      "summary": "A nationalised bank three-quarters owned by the Government of India, into which Andhra Bank and Corporation Bank were merged on 1 April 2020. It reported a net profit of Rs 18,697 crore for 2025-26.",
+      "detail": [
+        "On 1 April 2020 Andhra Bank and Corporation Bank were amalgamated into Union Bank of India, which the bank's profile says is headquartered in Mumbai and was registered in 1919. The Government of India holds 74.76% of its paid-up capital.",
+        "For 2025-26 the bank reported a net profit of Rs 18,697 crore and interest income of Rs 1,05,992 crore, and recommended a dividend of Rs 5 a share. On 15 July 2026 it reported a net profit of Rs 5,332 crore for the April-June 2026 quarter."
+      ],
+      "sources": [
+        {
+          "url": "https://www.unionbankofindia.bank.in/pdf/final-press-release-q4fy2026-english.pdf",
+          "kind": "company_site",
+          "publisher": "Union Bank of India",
+          "date": null,
+          "supports": "FY2025-26 net profit, interest income and dividend"
+        },
+        {
+          "url": "https://www.unionbankofindia.bank.in/en/common/profile",
+          "kind": "company_site",
+          "publisher": "Union Bank of India",
+          "date": null,
+          "supports": "government shareholding, amalgamation of Andhra Bank and Corporation Bank on 1 April 2020, network"
+        },
+        {
+          "url": "https://www.indiainfoline.com/news/companies/union-bank-of-india-q1-results-net-profit-jumps-30-to-5332-crore-asset-quality-improves",
+          "kind": "news",
+          "publisher": "IIFL",
+          "date": "2026-07-15",
+          "supports": "Q1 FY2026-27 net profit"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-ap-0004",
+      "category": "insurer",
+      "state": "Andhra Pradesh",
+      "district": null,
+      "date": "2026-07-07",
+      "name": "Agriculture Insurance Company of India Limited (AIC)",
+      "headquarters": "New Delhi",
+      "state_link": "Implementing agency for crop insurance in Andhra Pradesh clusters (West Godavari, Sri Sathya Sai, Vizianagaram)",
+      "owner": "Central public sector (GIC Re, NABARD and the four public sector general insurers)",
+      "administrative": "Department of Financial Services, Ministry of Finance",
+      "legal_form": "Government company",
+      "established": "Incorporated 20 December 2002; began business 1 April 2003",
+      "status": "Operating",
+      "financials": "Crossed Rs 10,000 crore in gross premium in 2025-26 (Department of Financial Services).",
+      "summary": "The state-owned crop insurer, owned by other public sector financial institutions. In Andhra Pradesh it is the notified implementing agency for the government's crop-insurance schemes in West Godavari, Sri Sathya Sai and Vizianagaram districts; the state extended those schemes for 2026-27 in July 2026.",
+      "detail": [
+        "AIC was set up in 2002 by the General Insurance Corporation of India, NABARD and the four public sector general insurers to run crop insurance. The Department of Financial Services reported in January 2026 that it crossed Rs 10,000 crore in gross premium in 2025-26.",
+        "The Andhra Pradesh Gazette of 9 September 2024 names AIC as the implementing agency for Cluster VI (West Godavari, Sri Sathya Sai and Vizianagaram districts) under the Pradhan Mantri Fasal Bima Yojana for 2024-26.",
+        "In July 2026 the state government extended the Pradhan Mantri Fasal Bima Yojana and the Restructured Weather Based Crop Insurance Scheme for the 2026-27 agricultural year, The Hindu reported. Farmers with seasonal crop loans are enrolled automatically unless they opt out."
+      ],
+      "sources": [
+        {
+          "url": "https://uncomplycate.com/wp-content/uploads/2024/09/Andhra-Pradesh-Govt.-notified-regarding-the-Pradhan-Mantri-Fasal-Bima-Yojana-PMFBY.pdf",
+          "kind": "gazette",
+          "publisher": "Andhra Pradesh Gazette Extraordinary (copy)",
+          "date": "2024-09-09",
+          "supports": "AIC as implementing agency for Cluster VI in Andhra Pradesh"
+        },
+        {
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2214310",
+          "kind": "pib",
+          "publisher": "PIB, Ministry of Finance",
+          "date": "2026-01-13",
+          "supports": "Rs 10,000 crore gross premium milestone in 2025-26"
+        },
+        {
+          "url": "https://financialservices.gov.in/public-sector-insurers",
+          "kind": "government_order",
+          "publisher": "Department of Financial Services",
+          "date": null,
+          "supports": "AIC's establishment and promoters"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-govt-extends-crop-insurance-schemes-for-2026-27-agricultural-year/article71194051.ece",
+          "kind": "news",
+          "publisher": "The Hindu",
+          "date": "2026-07-07",
+          "supports": "extension of the crop-insurance schemes for 2026-27 and automatic enrolment"
+        }
+      ],
+      "caveats": "The current shareholding split and staff numbers were not found in an official source. The 2026-27 cluster allocation for Andhra Pradesh was not located; the 2024-26 gazette is the latest found.",
+      "verification": "V2"
+    },
+    {
+      "id": "psu-ap-0005",
+      "category": "dfi",
+      "state": "Andhra Pradesh",
+      "district": null,
+      "date": "2026-05-05",
+      "name": "National Bank for Agriculture and Rural Development (NABARD)",
+      "headquarters": "Mumbai, Maharashtra",
+      "state_link": "Regional office at Vijayawada; publishes the state's annual priority-sector credit plan",
+      "owner": "Central government",
+      "shareholding": "100% Government of India",
+      "administrative": "Department of Financial Services, Ministry of Finance",
+      "legal_form": "Statutory corporation (National Bank for Agriculture and Rural Development Act, 1981)",
+      "established": "12 July 1982",
+      "status": "Operating",
+      "financials": "FY2023-24: total income Rs 48,847 crore; profit after tax Rs 6,103 crore.",
+      "summary": "The government's apex rural development bank, wholly owned by the Centre, which refinances rural lenders and lends to states for rural infrastructure. On 5 May 2026 its Andhra Pradesh State Focus Paper projected Rs 5.11 lakh crore of priority-sector credit in the state for 2026-27.",
+      "detail": [
+        "NABARD was set up under the National Bank for Agriculture and Rural Development Act, 1981 and is wholly owned by the Government of India. It refinances cooperative and rural banks, lends to state governments for rural infrastructure, and plans rural credit.",
+        "For 2023-24 its annual report shows total income of Rs 48,847 crore and profit after tax of Rs 6,103 crore.",
+        "On 5 May 2026 Chief Minister N. Chandrababu Naidu released NABARD's State Focus Paper for Andhra Pradesh, projecting priority-sector credit of Rs 5.11 lakh crore for 2026-27, including Rs 5,313 crore earmarked for horticulture in Rayalaseema and Prakasam, The Hindu reported."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nabard.org/content.aspx?id=492",
+          "kind": "company_site",
+          "publisher": "NABARD",
+          "date": null,
+          "supports": "ownership and functions"
+        },
+        {
+          "url": "https://www.nabard.org/annual-report/leveraging-finance-for-growth.html",
+          "kind": "annual_report",
+          "publisher": "NABARD",
+          "date": null,
+          "supports": "2023-24 income and profit"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/chief-minister-chandrababu-naidu-unveils-nabard-credit-plan-of-511-lakh-crore-for-202627-fiscal/article70943558.ece",
+          "kind": "news",
+          "publisher": "The Hindu",
+          "date": "2026-05-05",
+          "supports": "the 2026-27 State Focus Paper for Andhra Pradesh"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-ap-0006",
+      "category": "departmental",
+      "state": "Andhra Pradesh",
+      "district": "Visakhapatnam",
+      "date": "2026-06-01",
+      "name": "South Coast Railway (Indian Railways)",
+      "headquarters": "Visakhapatnam, Andhra Pradesh",
+      "state_link": "Railway zone headquartered in Visakhapatnam, covering lines mainly in Andhra Pradesh",
+      "owner": "Central government",
+      "shareholding": "No share capital; part of Indian Railways, a departmental undertaking",
+      "administrative": "Ministry of Railways (Railway Board)",
+      "legal_form": "Departmental undertaking (zone constituted under section 3 of the Railways Act, 1989)",
+      "established": "Announced February 2019; operational 1 June 2026",
+      "status": "Operating",
+      "summary": "Indian Railways' 18th zone, a business run directly by a ministry with no separate legal identity. Announced in 2019, it began operating from Visakhapatnam on 1 June 2026, with four divisions: Visakhapatnam, Vijayawada, Guntur and Guntakal.",
+      "detail": [
+        "The government announced a new South Coast Railway zone headquartered at Visakhapatnam in February 2019. Railways are run as a departmental undertaking of the Ministry of Railways: budget-funded, with no share capital and no legal identity of their own.",
+        "The zone was constituted by a Railway Board gazette notification of 4 May 2026 and officially began operations on 1 June 2026 as the 18th zone of Indian Railways, The Hindu reported. It runs four divisions (Visakhapatnam, Vijayawada, Guntur and Guntakal) from a temporary office while its permanent headquarters is built.",
+        "No zone-level revenue, profit or staff figures have been published; Indian Railways' accounts are consolidated nationally."
+      ],
+      "sources": [
+        {
+          "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1566566&reg=3&lang=2",
+          "kind": "pib",
+          "publisher": "PIB, Ministry of Railways",
+          "date": "2019-02-27",
+          "supports": "announcement of the South Coast Railway zone at Visakhapatnam"
+        },
+        {
+          "url": "https://www.thehindu.com/news/cities/Visakhapatnam/scor-launches-ops-in-vizag-gm-unveils-new-railway-zones-system-map/article71048983.ece",
+          "kind": "news",
+          "publisher": "The Hindu",
+          "date": "2026-06-01",
+          "supports": "start of operations, 18th zone, four divisions, temporary office"
+        },
+        {
+          "url": "https://www.govtstaff.com/2026/05/formation-south-coast-railway-rayagada-division-railway-board-gazette-notification.html",
+          "kind": "news",
+          "publisher": "GovtStaff (copy of the gazette notification)",
+          "date": "2026-05-04",
+          "supports": "gazette notification constituting the zone"
+        }
+      ],
+      "caveats": "The gazette notification was read from a third-party copy, not the official e-Gazette.",
+      "verification": "V2"
+    },
+    {
+      "id": "psu-ap-0007",
+      "category": "statutory",
+      "state": "Andhra Pradesh",
+      "district": "NTR (Vijayawada)",
+      "date": "2026-07-09",
+      "name": "Andhra Pradesh State Road Transport Corporation (APSRTC)",
+      "headquarters": "Vijayawada, NTR district",
+      "state_link": "State government's bus corporation",
+      "owner": "State government (Andhra Pradesh)",
+      "shareholding": "No share capital; capital contributed at formation by the Centre and the state",
+      "administrative": "Transport Department, Government of Andhra Pradesh",
+      "legal_form": "Statutory corporation (Road Transport Corporations Act, 1950)",
+      "established": "Under the Road Transport Corporations Act, 1950; origins in 1932",
+      "status": "Loss-making",
+      "financials": "FY2023-24 (provisional): total operating income Rs 7,175.71 crore; loss after tax Rs 1,566.76 crore.",
+      "employees": "47,687 (1 July 2024)",
+      "summary": "The state's bus corporation, created under a 1950 Act of Parliament, running more than 11,000 buses from 129 depots. It lost about Rs 1,567 crore in 2023-24 on provisional figures. On 9 July 2026 the government denied reports that it was privatising APSRTC.",
+      "detail": [
+        "APSRTC is a statutory corporation under the Road Transport Corporations Act, 1950. It traces its origins to June 1932, when it began as a wing of the Nizam State Railway, and says it runs from 129 depots and 423 bus stations, connecting 14,123 villages.",
+        "CARE Ratings' March 2025 rationale reports provisional figures of Rs 7,175.71 crore in total operating income and a loss after tax of Rs 1,566.76 crore for 2023-24, after a loss of Rs 1,770.80 crore in 2022-23, and a fleet of 11,216 buses. Its organisation chart listed 47,687 staff on 1 July 2024.",
+        "On 9 July 2026 the state's Special Chief Secretary (Transport) dismissed reports of APSRTC's privatisation as false, saying the induction of electric buses under the Centre's PM e-Bus Sewa scheme 'does not involve the transfer of RTC assets or services to private entities', The Hindu reported."
+      ],
+      "sources": [
+        {
+          "url": "https://www.apsrtc.ap.gov.in/profile.php",
+          "kind": "company_site",
+          "publisher": "APSRTC",
+          "date": null,
+          "supports": "establishment under the 1950 Act, headquarters, network"
+        },
+        {
+          "url": "https://www.apsrtc.ap.gov.in/images/ORGANIZATION%20CHART%20%20july%202024%20(1).pdf",
+          "kind": "company_site",
+          "publisher": "APSRTC",
+          "date": "2024-07-01",
+          "supports": "staff strength"
+        },
+        {
+          "url": "https://www.careratings.com/upload/CompanyFiles/PR/202503140340_Andhra_Pradesh_State_Road_Transport_Corporation.pdf",
+          "kind": "rating",
+          "publisher": "CARE Ratings",
+          "date": "2025-03-14",
+          "supports": "provisional 2022-23 and 2023-24 income and losses, fleet and depots"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/no-privatisation-of-apsrtc-e-buses-wont-transfer-assets-to-private-firms-government/article71203104.ece",
+          "kind": "news",
+          "publisher": "The Hindu",
+          "date": "2026-07-10",
+          "supports": "the government's 9 July 2026 denial of privatisation"
+        }
+      ],
+      "caveats": "The 2023-24 figures are provisional, from a credit-rating rationale; audited accounts were not found online.",
+      "verification": "V2"
+    },
+    {
+      "id": "psu-ap-0008",
+      "category": "defence",
+      "state": "Andhra Pradesh",
+      "district": "Visakhapatnam",
+      "date": "2026-08-31",
+      "name": "Hindustan Shipyard Limited",
+      "headquarters": "Visakhapatnam, Andhra Pradesh",
+      "state_link": "Headquarters and shipyard in Visakhapatnam",
+      "owner": "Central government",
+      "shareholding": "100% Government of India (31 March 2025); paid-up capital Rs 301.99 crore",
+      "administrative": "Department of Defence Production, Ministry of Defence",
+      "legal_form": "Government company",
+      "status_label": "Schedule B CPSE",
+      "established": "Incorporated under the Indian Companies Act, 1913",
+      "status": "Operating",
+      "financials": "FY2024-25: net profit Rs 213.48 crore (DPE Public Enterprises Survey, via PIB).",
+      "summary": "The Ministry of Defence's shipyard at Visakhapatnam, wholly owned by the Government of India, which builds and repairs ships and submarines for the Navy and other users. On 31 August 2026 the Navy commissioned INS Nipun, a diving-support vessel the yard designed and built.",
+      "detail": [
+        "Hindustan Shipyard Limited was incorporated under the Indian Companies Act, 1913 to build and repair ships and submarines for defence, merchant, marine and oil-sector users. It is a Schedule B CPSE under the Department of Defence Production, Ministry of Defence, 100% owned by the Government of India, with 624 regular employees on 31 March 2025, according to the Public Enterprises Selection Board.",
+        "A Ministry of Heavy Industries reply of 10 March 2026, drawing on the DPE Public Enterprises Survey, lists its net profit for 2024-25 as Rs 21,348 lakh (Rs 213.48 crore), up from Rs 11,882 lakh in 2023-24.",
+        "The yard delivered INS Nipun, the second Nistar-class diving support vessel, to the Navy on 30 July 2026, and the Navy commissioned it on 31 August 2026. The Ministry of Defence said it was 'indigenously designed and constructed by Hindustan Shipyard Limited, Visakhapatnam'."
+      ],
+      "sources": [
+        {
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2305003&reg=48&lang=2",
+          "kind": "pib",
+          "publisher": "PIB, Ministry of Defence",
+          "date": "2026-08-31",
+          "supports": "commissioning of INS Nipun built by the yard"
+        },
+        {
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2292073&lang=1&reg=48",
+          "kind": "pib",
+          "publisher": "PIB, Ministry of Defence",
+          "date": "2026-07-30",
+          "supports": "delivery of INS Nipun"
+        },
+        {
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2237538",
+          "kind": "pib",
+          "publisher": "PIB, Ministry of Heavy Industries",
+          "date": "2026-03-10",
+          "supports": "2024-25 and 2023-24 net profit from the DPE survey"
+        },
+        {
+          "url": "https://www.ddpmod.gov.in/sites/default/files/9b7fa17a72aa5092156a7b36fea55755db56c1bdc5b67364ef4e8682c3cc7657/5c6216c9226a1fe5e107fc27e32ed07c4ad92922f75d11f5b3d0dfaee343d8f5.pdf",
+          "kind": "government_order",
+          "publisher": "Public Enterprises Selection Board (via Department of Defence Production)",
+          "date": "2025-10-01",
+          "supports": "Schedule B status, ministry, 100% ownership, capital and staff"
+        }
+      ],
+      "caveats": "Revenue for 2024-25 was not given in the official release used.",
+      "verification": "V2",
+      "employees": "624 regular employees (31 March 2025)"
+    },
+    {
+      "id": "psu-ap-0009",
+      "category": "jv",
+      "state": "Andhra Pradesh",
+      "district": "Visakhapatnam",
+      "date": "2026-08-05",
+      "name": "Dredging Corporation of India Limited",
+      "headquarters": "Visakhapatnam, Andhra Pradesh",
+      "state_link": "Headquarters in Visakhapatnam; the Visakhapatnam Port Authority is one of its four owners",
+      "owner": "Central public sector (four major port authorities)",
+      "shareholding": "73.47% held by four major port authorities (Visakhapatnam, Paradip, Jawaharlal Nehru and Deendayal); rest public",
+      "administrative": "Ministry of Ports, Shipping and Waterways",
+      "legal_form": "Listed company owned by central port authorities",
+      "established": "Incorporated 1976",
+      "status": "Operating; listed",
+      "financials": "FY2025-26: turnover Rs 1,214.09 crore, profit after tax Rs 4.75 crore. Q1 FY2026-27: operational income Rs 355.43 crore, profit after tax Rs 11.24 crore.",
+      "summary": "A listed dredging company whose controlling stake the Centre sold to four government-owned port authorities rather than to private buyers. It posted its highest-ever turnover of Rs 1,214.09 crore in 2025-26 and a profit of Rs 11.24 crore in the April-June 2026 quarter.",
+      "detail": [
+        "Dredging Corporation of India was set up to dredge India's major ports. The Government of India sold its entire 73.47% holding to four major port authorities (Visakhapatnam, Paradip, Jawaharlal Nehru and Deendayal), so control passed from one arm of the state to others rather than to private buyers.",
+        "The company reported its 'highest ever Annual Turnover of Rs. 1214.09 Crore' and a profit after tax of Rs 4.75 crore for 2025-26. For the quarter to 30 June 2026 it reported operational income of Rs 355.43 crore, up 46.73%, and a profit after tax of Rs 11.24 crore."
+      ],
+      "sources": [
+        {
+          "url": "https://nsearchives.nseindia.com/corporate/DREDGECORP_19052026184115_20260519PRESSRELEASE.pdf",
+          "kind": "exchange_filing",
+          "publisher": "Dredging Corporation of India (NSE filing)",
+          "date": "2026-05-19",
+          "supports": "FY2025-26 turnover and profit; ownership by the four port authorities"
+        },
+        {
+          "url": "https://dredge-india.com/about",
+          "kind": "company_site",
+          "publisher": "Dredging Corporation of India",
+          "date": null,
+          "supports": "history and shareholding"
+        },
+        {
+          "url": "https://www.thehindu.com/news/cities/Visakhapatnam/dcil-returns-to-profit-in-first-quarter-on-higher-operational-income/article71305969.ece",
+          "kind": "news",
+          "publisher": "The Hindu",
+          "date": "2026-08-05",
+          "supports": "Q1 FY2026-27 income and profit"
+        }
+      ],
+      "caveats": "Staff numbers and the DPE schedule were not confirmed from an official source.",
+      "verification": "V2"
+    },
+    {
+      "id": "psu-ap-0010",
+      "category": "municipal",
+      "state": "Andhra Pradesh",
+      "district": "Visakhapatnam",
+      "date": "2026-08-14",
+      "name": "Greater Visakhapatnam Smart City Corporation Limited",
+      "headquarters": "Visakhapatnam, Andhra Pradesh",
+      "state_link": "Owned jointly by the state government and the Greater Visakhapatnam Municipal Corporation",
+      "owner": "State government and municipal corporation (50:50)",
+      "shareholding": "50% Government of Andhra Pradesh, 50% Greater Visakhapatnam Municipal Corporation; paid-up capital Rs 200 crore",
+      "administrative": "Municipal Administration and Urban Development Department, Government of Andhra Pradesh",
+      "legal_form": "Government company (Smart City special purpose vehicle)",
+      "established": "Incorporated 11 March 2016",
+      "status": "Operating",
+      "summary": "The city's Smart City company, owned half by the state and half by the municipal corporation, which runs Visakhapatnam's command-and-control centre and smart-city projects. In August 2026 it tendered a five-year contract to upgrade and operate the command centre.",
+      "detail": [
+        "Greater Visakhapatnam Smart City Corporation Limited was incorporated on 11 March 2016 as the special purpose vehicle for Visakhapatnam under the Smart Cities Mission. An Andhra Pradesh GST advance ruling records that its capital is held equally by the state government and the Greater Visakhapatnam Municipal Corporation.",
+        "It runs the city's Integrated Command and Control Centre and has built sewerage and water-recycling works with the municipal corporation. A tender published in August 2026 sought a contractor to upgrade the command centre and its ERP systems and operate them for five years."
+      ],
+      "sources": [
+        {
+          "url": "https://24law.in/pdf/1762154324_greater-visakhapatnam-smart-city-corporation-limited.pdf",
+          "kind": "government_order",
+          "publisher": "Authority for Advance Ruling (GST), Andhra Pradesh (copy)",
+          "date": null,
+          "supports": "50:50 ownership by the state and the municipal corporation; functions"
+        },
+        {
+          "url": "https://www.thecompanycheck.com/company/greater-visakhapatnam-smart-city-corporation-limited/U84119AP2016PLC098495",
+          "kind": "news",
+          "publisher": "TheCompanyCheck (MCA data)",
+          "date": "2026-02-26",
+          "supports": "incorporation date and paid-up capital"
+        },
+        {
+          "url": "https://www.firsttender.com/tenders-detail-2608144137550.html",
+          "kind": "news",
+          "publisher": "FirstTender (tender listing)",
+          "date": "2026-08-14",
+          "supports": "the August 2026 command-centre tender"
+        }
+      ],
+      "caveats": "The sources here are copies and aggregators of official records rather than the originals; revenue, profit and staff figures were not found.",
+      "verification": "V1"
+    },
+    {
+      "id": "psu-ap-0011",
+      "category": "sick",
+      "state": "Andhra Pradesh",
+      "district": "SPSR Nellore",
+      "date": "2026-03-06",
+      "name": "Andhra Pradesh Power Development Company Limited (APPDCL)",
+      "headquarters": "Krishnapatnam, SPSR Nellore district",
+      "state_link": "State-owned power company; plant at Krishnapatnam",
+      "owner": "State government (Andhra Pradesh), through APGENCO and the power distribution companies",
+      "shareholding": "APGENCO 51%, distribution companies 45.04%, Government of Andhra Pradesh 3.96% (CRISIL, September 2025)",
+      "administrative": "Energy Department, Government of Andhra Pradesh",
+      "legal_form": "Government company",
+      "established": "Incorporated 1 March 2006",
+      "status": "Sick (net worth negative)",
+      "on_the_block": true,
+      "financials": "Latest finalised accounts (2021-22), per CAG: loss Rs 1,227.55 crore; accumulated losses Rs 3,863.65 crore; net worth Rs (-)1,795.37 crore; long-term borrowing Rs 16,155.38 crore.",
+      "summary": "The state company that owns the 2,400 MW Sri Damodaram Sanjeevaiah thermal power station at Krishnapatnam. In a report tabled on 6 March 2026 the CAG named it the source of 98% of the losses of Andhra Pradesh's loss-making state enterprises, with a Rs 1,227.55 crore loss and its net worth wiped out.",
+      "detail": [
+        "APPDCL was formed in 2006 to build and run the Sri Damodaram Sanjeevaiah Thermal Power Station, three 800 MW supercritical coal units at Krishnapatnam, and sells its power to the state's distribution companies.",
+        "The CAG's compliance audit of Andhra Pradesh state public sector enterprises (Report No. 7 of 2025), tabled in the legislature on 6 March 2026, found that of Rs 1,251.63 crore lost by five state enterprises, '98.07 per cent amounting to ₹1,227.55 crore was contributed by one power sector SPSE i.e., Andhra Pradesh Power Development Company Limited'.",
+        "On its latest finalised accounts (2021-22), the CAG lists APPDCL's paid-up capital at Rs 2,068.28 crore, long-term borrowing at Rs 16,155.38 crore, accumulated losses at Rs 3,863.65 crore and net worth at Rs (-)1,795.37 crore. The same report counts 21 inactive Andhra Pradesh state enterprises that have 'effectively ceased to carry out their operations or are under liquidation process'."
+      ],
+      "sources": [
+        {
+          "url": "https://cag.gov.in/uploads/download_audit_report/2025/Compliance-Audit-Commercial-069aaf5937f5ec5.44950541.pdf",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India, Report No. 7 of 2025",
+          "date": "2026-03-06",
+          "supports": "APPDCL's loss, accumulated losses, net worth and borrowing; the 21 inactive state enterprises"
+        },
+        {
+          "url": "https://cag.gov.in/en/audit-report/details/124284",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": "2026-03-06",
+          "supports": "report details and tabling date"
+        },
+        {
+          "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/AndhraPradeshPowerDevelopmentCompanyLimited_September_29_2025_RR_377877.html",
+          "kind": "rating",
+          "publisher": "CRISIL Ratings",
+          "date": "2025-09-29",
+          "supports": "shareholding and the power plant"
+        }
+      ],
+      "caveats": "The CAG figures are from the company's latest finalised accounts at the time of audit (2021-22). The plant is operating; 'sick' here means its net worth is negative, not that it is closed or listed for sale.",
+      "verification": "V2"
+    }
+  ]
+}

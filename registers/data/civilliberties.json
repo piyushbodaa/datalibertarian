@@ -1,0 +1,176 @@
+{
+  "register": "civilliberties",
+  "site_name": "Civil Liberties",
+  "kind": "case",
+  "record_word": "records",
+  "detail_label": "Attributed to the sources",
+  "record_note": "This page records what the cited court records and reports say happened. Findings belong to the court or authority that made them; this register adds none of its own. Names of private individuals are withheld unless a naming gate clears them.",
+  "landing_tail": "Punished for exercising basic freedoms &mdash; freedom of speech, freedom of religion, and more sections to come.",
+  "stats": [
+    {
+      "value": "records",
+      "label": "Victims listed",
+      "sub": "people punished for freedoms"
+    },
+    {
+      "value": "categories",
+      "label": "Sections open",
+      "sub": "speech & religion to start"
+    },
+    {
+      "value": "states",
+      "label": "States covered",
+      "sub": "of 36 states & UTs"
+    },
+    {
+      "value": "acts",
+      "label": "Laws cited",
+      "sub": "distinct statutes used"
+    }
+  ],
+  "categories": [
+    {
+      "key": "speech",
+      "label": "Freedom of speech"
+    },
+    {
+      "key": "religion",
+      "label": "Freedom of religion"
+    }
+  ],
+  "records": [
+    {
+      "id": "cl-ap-0001",
+      "category": "speech",
+      "state": "Andhra Pradesh",
+      "district": "Krishna",
+      "date": "2026-07-05",
+      "date_label": "Fifth arrest and remand (reports give 4 or 5 July)",
+      "incident_date": "2026-06-28",
+      "title": "YouTuber arrested five times in a week after a speech criticising the Deputy Chief Minister; anti-terror law added",
+      "outcome": "arrest",
+      "authority": "Andhra Pradesh Police (several districts); remanded by a court at Gannavaram",
+      "case_reference": null,
+      "laws": [
+        "Sections 13 and 39, Unlawful Activities (Prevention) Act, 1967",
+        "Sections 147, 148, 152, 192, 197(1)(d) and 353(1)(b), Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "acts": [
+        "Unlawful Activities (Prevention) Act, 1967",
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "A Dalit Christian YouTuber and activist",
+      "summary": "A YouTuber who criticised Deputy Chief Minister Pawan Kalyan at a Dalit Christian meeting in Eluru on 28 June 2026 was arrested five times in about a week by police in different districts, each time in a new case after the last one ended in bail or a refused remand. The fifth case, over a video posted in November 2025, added the anti-terror law UAPA, and a court remanded him to judicial custody until 18 July.",
+      "detail": [
+        "News reports say the YouTuber spoke at a Dalit Christian meeting in Eluru in late June 2026, where he attacked ruling-party leaders over what he called inaction on atrocities against Dalits. IANS reported the date as 28 June and said the complaint concerned 'derogatory remarks' against Deputy Chief Minister Pawan Kalyan.",
+        "According to ThePrint, he was first taken into custody on 30 June by Kakinada district police. After bail he was arrested again on 2 July by Sarpavaram police in a pending 2025 case, then on 3 July by Machilipatnam and Inaguduru police, and on 4 July by Payakaraopeta police, when a court at Anakapalli rejected the remand request. IANS reported that he 'secured bail for the fourth time on July 4'.",
+        "He was then arrested a fifth time by Gannavaram police in Krishna district at the Vempadu toll plaza. Police invoked sections 13 and 39 of the Unlawful Activities (Prevention) Act and several sections of the Bharatiya Nyaya Sanhita, including section 152 (acts endangering the sovereignty and integrity of India). ThePrint reported that police said a video he posted on 25 November 2025 was 'very provocative' and 'supported and encouraged banned organisations such as the Maoists', and that it showed pictures of Maoist leaders killed in encounters.",
+        "A court at Gannavaram remanded him to judicial custody until 18 July 2026, and he was lodged in Nellore Central Jail, according to the same reports. His wife told reporters that he 'spoke the very same language that Pawan Kalyan used'."
+      ],
+      "current_position": "Remanded to judicial custody until 18 July 2026 in the UAPA case, according to news reports. We have not found a published court order or any later report on bail.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Speech, then a stack of cases",
+          "text": "The first arrest followed a political speech criticising a minister. The pattern that followed, a fresh arrest in a different district each time a court released him, ending in an anti-terror charge over a months-old video, is the kind of use of criminal process against speech this register documents. The courts have made no finding on the charges."
+        }
+      ],
+      "caveats": "No court order in these cases has been published online yet, so this record rests on news reports (V1). Reports differ on whether the fifth arrest was on 4 or 5 July 2026. We do not know whether he has since been granted bail in the UAPA case.",
+      "sources": [
+        {
+          "url": "https://theprint.in/india/andhra-uapa-invoked-against-youtuber-bachalakuri-joseph-for-alleged-provocative-video/2978921/",
+          "kind": "news",
+          "publisher": "ThePrint",
+          "date": "2026-07-06",
+          "supports": "UAPA sections 13 and 39, the police description of the November 2025 video, arrest at Vempadu toll plaza, 14-day remand, Nellore Central Jail, the Eluru speech"
+        },
+        {
+          "url": "https://assamtribune.com/national/youtuber-remanded-after-andhra-police-slap-uapa-charges-1613913",
+          "kind": "news",
+          "publisher": "IANS via The Assam Tribune",
+          "date": "2026-07-06",
+          "supports": "fifth arrest in less than a week, bail for the fourth time on 4 July, BNS sections charged, remand until 18 July by a Gannavaram court, the 28 June Eluru meeting, his wife's statement"
+        },
+        {
+          "url": "https://theprint.in/opinion/hyderabad-heart/prashna-raavan-uapa-arrest-andhra-pradesh/2980579/",
+          "kind": "news",
+          "publisher": "ThePrint (column)",
+          "date": "2026-07-08",
+          "supports": "dates and police stations of the five arrests; Anakapalli court rejecting remand after the fourth arrest"
+        }
+      ],
+      "verification": "V1"
+    },
+    {
+      "id": "cl-ap-0002",
+      "category": "religion",
+      "state": "Andhra Pradesh",
+      "district": "Bapatla",
+      "date": "2026-05-23",
+      "date_label": "Caste certificates cancelled by gazette notification",
+      "incident_date": "2026-03-24",
+      "title": "Pastor loses Scheduled Caste status for practising Christianity; his caste certificates are cancelled",
+      "outcome": "status_cancelled",
+      "authority": "Supreme Court of India; District Collector, Bapatla",
+      "case_reference": "Criminal Appeal No. 1580 of 2026, 2026 INSC 283 (from Crl.P. No. 7114 of 2022, High Court of Andhra Pradesh; FIR No. 08 of 2021, Chandole Police Station)",
+      "laws": [
+        "Paragraph 3, Constitution (Scheduled Castes) Order, 1950",
+        "Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act, 1989 (protection held unavailable)",
+        "Andhra Pradesh (Scheduled Castes, Scheduled Tribes and Backward Classes) Regulation of Issue of Community Certificates Act, 1993"
+      ],
+      "acts": [
+        "Constitution (Scheduled Castes) Order, 1950",
+        "Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act, 1989",
+        "Andhra Pradesh Regulation of Issue of Community Certificates Act, 1993"
+      ],
+      "person": "A pastor from Kothapalem village, Bapatla district",
+      "summary": "A Dalit pastor who said he was assaulted and warned to stop holding Sunday prayer meetings lost the protection of the anti-atrocities law because he practises Christianity. On 24 March 2026 the Supreme Court held that conversion ends Scheduled Caste status 'from the moment of conversion'. On 23 May 2026 the Bapatla district collector cancelled his three caste certificates.",
+      "detail": [
+        "The Supreme Court recorded that the appellant, from Kothapalem village in Pittalavanipalem mandal, belongs by birth to the Madiga community, a Scheduled Caste, and had for about ten years been conducting Sunday prayer meetings as a pastor in houses in the village.",
+        "He alleged that in January 2021 men from the village assaulted him, abused him by caste and 'warned him against continuing the prayer meetings'. Chandole police registered FIR No. 08 of 2021 under the SC/ST (Prevention of Atrocities) Act and the Indian Penal Code and filed a charge sheet.",
+        "On 30 April 2025 the High Court of Andhra Pradesh quashed the case, holding that a person who 'had been openly professing Christianity and working as a Pastor' cannot claim protection under the SC/ST Act. On 24 March 2026 a Supreme Court bench of Justices Prashant Kumar Mishra and Manmohan dismissed his appeal. It held that under paragraph 3 of the Constitution (Scheduled Castes) Order, 1950, only Hindus, Sikhs and Buddhists can be members of a Scheduled Caste, and that no statutory benefit or protection tied to caste status can be extended to anyone else.",
+        "News reports say that after the ruling a District Level Scrutiny Committee enquired into his caste status, and that on its recommendation the Bapatla District Collector cancelled three certificates issued to him (dated 15 March 2021, 22 October 2022 and 28 February 2025) with immediate effect, by an Extraordinary Gazette notification dated 23 May 2026.",
+        "The Supreme Court also agreed with the High Court that the investigation material did not support the assault and intimidation allegations. This record takes no view on those allegations; it concerns the holding that his religion alone removes his caste status."
+      ],
+      "current_position": "Scheduled Caste status held lost by the Supreme Court (24 March 2026); caste certificates cancelled by the Bapatla district collector (gazette of 23 May 2026, as reported).",
+      "quote": {
+        "heading": "What the Supreme Court held",
+        "text": "No person who professes a religion other than Hindu, Sikh or Buddhist shall be deemed to be a member of a Scheduled Caste. This bar under Clause 3 of the Constitution (Scheduled Castes) Order, 1950 is categorical and absolute. Conversion to any religion not specified in Clause 3 results in immediate and complete loss of Scheduled Caste status from the moment of conversion regardless of birth.",
+        "where": "Supreme Court of India, 2026 INSC 283 (Criminal Appeal No. 1580 of 2026), conclusions (b)",
+        "url": "https://api.sci.gov.in/supremecourt/2025/26891/26891_2025_16_1501_69653_Judgement_24-Mar-2026.pdf"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A status that depends on faith",
+          "text": "A Hindu, Sikh or Buddhist of the same caste keeps Scheduled Caste status and the legal protections that go with it; a Christian or Muslim loses them. The pastor's certificates were cancelled because of the religion he practises, which makes this a penalty on professing a faith."
+        }
+      ],
+      "caveats": "We have not located the 23 May 2026 gazette notification online; its details come from news reports that quote it. The Supreme Court judgment is the primary record.",
+      "sources": [
+        {
+          "url": "https://api.sci.gov.in/supremecourt/2025/26891/26891_2025_16_1501_69653_Judgement_24-Mar-2026.pdf",
+          "kind": "judgment",
+          "publisher": "Supreme Court of India",
+          "date": "2026-03-24",
+          "supports": "facts of the prayer meetings and the 2021 complaint, the High Court's 2025 quashing, the holding on Scheduled Caste status, dismissal of the appeal"
+        },
+        {
+          "url": "https://www.vsktelangana.org/Encyc/2026/5/26/andhra-pradesh-cancels-pastor-anands-sc-certificate-apex-courts-verdict-scst-act-christian-converts.html",
+          "kind": "news",
+          "publisher": "VSK Telangana",
+          "date": "2026-05-26",
+          "supports": "cancellation of three certificates by the Bapatla collector, the 23 May 2026 gazette, the 1993 Act, the scrutiny committee"
+        },
+        {
+          "url": "https://organiser.org/2026/05/25/355070/bharat/andhra-pradesh-cancels-pastor-anands-sc-certificate-following-supreme-courts-verdict-on-sc-st-act-on-christian-converts/",
+          "kind": "news",
+          "publisher": "Organiser",
+          "date": "2026-05-25",
+          "supports": "cancellation of the certificates by the Bapatla collector and the gazette date"
+        }
+      ],
+      "verification": "V2"
+    }
+  ]
+}

@@ -1,0 +1,549 @@
+{
+  "register": "economicfreedom",
+  "site_name": "Economic Freedom",
+  "kind": "case",
+  "record_word": "records",
+  "detail_label": "Attributed to the sources",
+  "record_note": "This page records what the cited court, tribunal and government records say happened. Findings belong to the court or authority that made them; this register adds none of its own. Names of private individuals are withheld unless a naming gate clears them.",
+  "landing_tail": "Jailed for trading freely &mdash; crypto, foreign currency, gold, and the other things that are legal in free economies and criminal here.",
+  "stats": [
+    {
+      "value": "records",
+      "label": "Incidents published",
+      "sub": "each with its source"
+    },
+    {
+      "value": "categories",
+      "label": "Groups tracked",
+      "sub": "across 7 freedoms"
+    },
+    {
+      "value": "states",
+      "label": "States covered",
+      "sub": "of 36 states & UTs"
+    },
+    {
+      "value": "acts",
+      "label": "Laws cited",
+      "sub": "distinct statutes used"
+    }
+  ],
+  "categories": [
+    {
+      "key": "crypto",
+      "label": "Buying, holding and trading crypto"
+    },
+    {
+      "key": "forex",
+      "label": "Holding and spending foreign currency"
+    },
+    {
+      "key": "gold",
+      "label": "Keeping and bringing in gold"
+    },
+    {
+      "key": "trade",
+      "label": "Trading across borders"
+    },
+    {
+      "key": "capital",
+      "label": "Moving and investing your capital"
+    },
+    {
+      "key": "business",
+      "label": "Opening and running a business"
+    },
+    {
+      "key": "labour",
+      "label": "Hiring and firing"
+    },
+    {
+      "key": "hoarding",
+      "label": "Charging and storing what you like"
+    },
+    {
+      "key": "property",
+      "label": "Owning, converting and building"
+    }
+  ],
+  "records": [
+    {
+      "id": "ef-ap-0001",
+      "category": "crypto",
+      "state": "Andhra Pradesh",
+      "district": "YSR Kadapa",
+      "date": "2026-07-29",
+      "date_label": "High Court order",
+      "incident_date": "2023-10-25",
+      "title": "Crypto seller's whole bank account frozen for nearly three years over a buyer's cyber complaint",
+      "outcome": "seizure",
+      "authority": "Crime Branch, Indore police (freeze via ICICI Bank, Kadapa); High Court of Andhra Pradesh (partly lifted)",
+      "case_reference": "W.P. No. 7582 of 2026",
+      "laws": [
+        "Article 226, Constitution of India (writ petition against the debit freeze)"
+      ],
+      "acts": [
+        "Constitution of India"
+      ],
+      "person": "A software professional in Kadapa",
+      "summary": "A Kadapa software professional sold 1,360 USDT, a dollar-linked cryptocurrency, to a buyer on a peer-to-peer platform in May 2023. After a cyber-fraud complaint against the buyer in Indore, police had the seller's entire bank account debit-frozen, though he was not named as an accused. On 29 July 2026 the High Court ordered the account unfrozen except for the Rs 26,600 in dispute.",
+      "detail": [
+        "The High Court recorded the seller's account that he accepted a request to buy 1,360 USDT at Rs 92.60 each and that on 26 May 2023 the buyer paid Rs 1,25,936 into his account at ICICI Bank, Kadapa.",
+        "A cyber-fraud complaint was later registered in Indore, Madhya Pradesh, against the purchaser. On 25 October 2023 the Indore Crime Branch emailed the bank instructing it to debit-freeze the seller's account, and the bank froze it.",
+        "Justice Ravi Cheemalapati found 'no material placed on record to show that the petitioner is an accused in any crime', and that the police communication showed the disputed transaction was only Rs 26,600. He directed the bank to 'mark lien only on the specific disputed amount while unfreezing the remainder of the account'."
+      ],
+      "current_position": "Account ordered unfrozen on 29 July 2026, except for a lien on Rs 26,600.",
+      "quote": {
+        "heading": "What the High Court said",
+        "text": "However, there is no material placed on record to show that the petitioner is an accused in any crime or that the entire amount lying in the petitioner's bank account represents the proceeds of any alleged cyber fraud.",
+        "where": "W.P. No. 7582 of 2026, order dated 29 July 2026, para 6",
+        "url": "https://indiankanoon.org/doc/27404620/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Frozen for trading crypto",
+          "text": "The seller's recorded act was an ordinary sale of cryptocurrency. The fraud complaint was against someone else, yet his whole account, and his access to his own money, was frozen for close to three years."
+        }
+      ],
+      "caveats": "The freeze was ordered by police in Madhya Pradesh; the seller, his bank and the deciding court are in Andhra Pradesh. The order does not explain why the disputed amount (Rs 26,600) differs from the sale price (Rs 1,25,936), or give the Indore complaint number.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/27404620/",
+          "kind": "court_order",
+          "publisher": "High Court of Andhra Pradesh (via Indian Kanoon)",
+          "date": "2026-07-29",
+          "supports": "the USDT sale, the freeze instruction, the court's findings and the partial unfreezing"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-ap-0002",
+      "category": "forex",
+      "state": "Andhra Pradesh",
+      "district": "Guntur and West Godavari",
+      "date": "2026-07-21",
+      "date_label": "Customs tribunal final order",
+      "incident_date": "2023-10-18",
+      "title": "Foreign currency seized from a bus passenger and a gold merchant; tribunal upholds its release",
+      "outcome": "seizure",
+      "authority": "Vijayawada Customs (Preventive) Commissionerate (seizure); Customs, Excise and Service Tax Appellate Tribunal, Hyderabad (final order)",
+      "case_reference": "Customs Appeal No. 30301 of 2025; Final Order No. A/30384/2026",
+      "laws": [
+        "Sections 112, 121, 123 and 125, Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "A bus passenger from Kakinada and a gold merchant in Narsapur",
+      "summary": "In October 2023 customs officers stopped a bus at Kaza toll plaza and seized foreign currency worth about Rs 13.10 lakh from a passenger, then searched a Narsapur gold merchant's shop and seized 940 grams of gold and US$4,250. The adjudicating officer confiscated everything and imposed an Rs 8 lakh penalty. On appeal the currency was released on redemption; on 21 July 2026 the tribunal dismissed Customs' challenge.",
+      "detail": [
+        "The New Indian Express reported, citing customs officials, that officers of the Vijayawada Customs (Preventive) Commissionerate intercepted a Vijayawada-to-Nellore bus at Kaza toll plaza in Guntur district in October 2023 and held a man from Kakinada carrying foreign currency worth around Rs 13.10 lakh. Officials said he was travelling to Chennai to exchange the notes for smuggled gold.",
+        "In a follow-up search, customs officers searched a gold merchant's premises in Narsapur, West Godavari district, and recovered 940.46 grams of gold and US$4,250. The tribunal later recorded the total foreign currency seized as equivalent to Rs 16,63,041.",
+        "The adjudicating authority ordered absolute confiscation of the gold, confiscation of the foreign currency, and a penalty of Rs 8,00,000. The Commissioner (Appeals), Guntur, set aside the confiscation of the foreign currency and allowed its redemption, released part of the gold unconditionally, and reduced the penalty.",
+        "On 21 July 2026 the Customs, Excise and Service Tax Appellate Tribunal in Hyderabad dismissed the department's appeal, holding that gold 'is not prohibited goods' and that the appellate order was reasoned and balanced."
+      ],
+      "current_position": "Customs' appeal dismissed on 21 July 2026; the appellate order releasing the currency on redemption stands.",
+      "quote": {
+        "heading": "What the tribunal recorded",
+        "text": "The dispute arises out of seizure of (i) Gold weighing 940.46 grams (comprising 415.93 grams without marking and 524.53 grams with foreign markings), and (ii) foreign currency equivalent Rs. 16,63,041/-.",
+        "where": "Customs Appeal No. 30301 of 2025, final order dated 21 July 2026, para 3",
+        "url": "https://indiankanoon.org/doc/68459786/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Carrying dollars, treated as contraband",
+          "text": "Holding and carrying foreign currency is ordinary in open economies. Here it was seized from a bus passenger and a merchant, confiscated and penalised, and took nearly three years and two appeals to resolve."
+        }
+      ],
+      "caveats": "The dates and the bus interception come from a news report quoting customs officials; the tribunal order gives the quantities and the adjudication history. The reduced penalty and the redemption fine are not stated in the tribunal order. The gold in this case is recorded, but the gold category uses a separate case.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/68459786/",
+          "kind": "judgment",
+          "publisher": "Customs, Excise and Service Tax Appellate Tribunal, Hyderabad (via Indian Kanoon)",
+          "date": "2026-07-21",
+          "supports": "quantities seized, adjudication and appeal history, the tribunal's reasoning and dismissal of the department's appeal"
+        },
+        {
+          "url": "https://www.newindianexpress.com/vijayawada/2023/Oct/21/customs-officials-seize-rs-553-lakhgold-and-rs-16-lakh-foreign-currency-notes-2625953.html",
+          "kind": "news",
+          "publisher": "The New Indian Express",
+          "date": "2023-10-21",
+          "supports": "the bus interception at Kaza toll plaza, the Rs 13.10 lakh in foreign currency, the Narsapur search and the US$4,250"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-ap-0003",
+      "category": "gold",
+      "state": "Andhra Pradesh",
+      "district": "Visakhapatnam",
+      "date": "2026-08-13",
+      "date_label": "Customs tribunal final order",
+      "incident_date": "2022-03-05",
+      "title": "Jeweller's 1.6 kg of gold and Rs 62.7 lakh cash confiscated as 'smuggled'; tribunal sets it aside after four years",
+      "outcome": "confiscation",
+      "authority": "Directorate of Revenue Intelligence (search); Customs adjudicating authority (confiscation); Customs, Excise and Service Tax Appellate Tribunal, Hyderabad (set aside)",
+      "case_reference": "Customs Appeal Nos. 30189 to 30191 of 2024; Final Order Nos. A/30448 to 30450/2026",
+      "laws": [
+        "Sections 110, 111, 112, 121 and 123, Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "Managers of a jewellery business in Visakhapatnam and a carrier",
+      "summary": "On 5 March 2022 revenue intelligence officers searched a Visakhapatnam jewellery business and seized four gold biscuits (1.6 kg) and Rs 62.71 lakh in cash, treating the gold as smuggled because it bore foreign markings. The owners produced a purchase invoice, bank transfer and tax returns. Customs confiscated everything and imposed penalties; on 13 August 2026 the tribunal set the confiscation and penalties aside.",
+      "detail": [
+        "The tribunal recorded that four gold biscuits of 400 grams each, valued at Rs 21,20,000, and Rs 62,71,000 in Indian currency were seized from the business premises on Town Kotha Road, Visakhapatnam, on 5 March 2022. Officers proceeded on the basis that the gold was of foreign origin and smuggled, and that the cash was the sale proceeds of smuggled gold.",
+        "The original authority ordered absolute confiscation of the gold and currency and imposed penalties; the Commissioner (Appeals) rejected the appeals. The appellants said the biscuits were part of eight bought from a supplier in Yanam under a tax invoice dated 4 March 2022, paid for by RTGS and shown in GST returns, and that the cash was business income.",
+        "The tribunal held that 'foreign markings alone do not invariably establish that the gold was smuggled', that the documentary defence had not been verified, and that the link between the cash and any smuggled gold was not established. It noted that the Kolkata bench had earlier released gold seized in the linked Kolkata case. It set aside the confiscation and the penalties."
+      ],
+      "current_position": "Confiscation and penalties set aside by the tribunal on 13 August 2026. The department may appeal.",
+      "quote": {
+        "heading": "What the tribunal said",
+        "text": "However, foreign markings alone do not invariably establish that the gold was smuggled.",
+        "where": "Customs Appeal Nos. 30189 to 30191 of 2024, final order dated 13 August 2026, para 33",
+        "url": "https://indiankanoon.org/doc/48238730/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Owning gold, presumed smuggled",
+          "text": "Gold is not prohibited in India, but it is a notified good under section 123 of the Customs Act, which shifts the burden of proof onto the person found holding it. A jeweller with a purchase invoice lost his stock and cash for four years."
+        }
+      ],
+      "caveats": "The penalty amounts are not stated in the tribunal order. The seizure followed an earlier seizure in Kolkata involving one of the appellants.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/48238730/",
+          "kind": "judgment",
+          "publisher": "Customs, Excise and Service Tax Appellate Tribunal, Hyderabad (via Indian Kanoon)",
+          "date": "2026-08-13",
+          "supports": "the search, quantities, the owners' documents, the tribunal's reasoning and the setting aside"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-ap-0004",
+      "category": "trade",
+      "state": "Andhra Pradesh",
+      "district": "Visakhapatnam",
+      "date": "2026-08-16",
+      "date_label": "Ministry of Finance press release",
+      "incident_date": null,
+      "title": "Nine arrested over areca-nut imports that avoided India's 100% tariff; searches in Visakhapatnam",
+      "outcome": "arrest",
+      "authority": "Directorate of Revenue Intelligence, Ministry of Finance",
+      "case_reference": null,
+      "laws": [
+        "Basic Customs Duty of 100% on areca nuts; SAFTA duty exemption and rules of origin (Customs Act sections not stated in the release)"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "Importers, customs brokers and import-export code holders in Kolkata and Visakhapatnam",
+      "summary": "India charges a 100% customs duty on areca nuts unless they come from a South Asian free-trade partner. The Directorate of Revenue Intelligence says syndicates brought in nuts grown in Indonesia, Thailand and Malaysia while declaring them Bangladeshi. On 16 August 2026 the Ministry of Finance announced nine arrests, searches in Kolkata and Visakhapatnam, and the seizure of 160 tonnes of areca nuts and Rs 75 lakh in cash.",
+      "detail": [
+        "According to the Ministry of Finance, imports of areca nuts attract Basic Customs Duty of 100%, but nuts that qualify as Bangladeshi under the South Asian Free Trade Area rules of origin are fully exempt.",
+        "The DRI said syndicates imported nuts 'originating and sourced from Indonesia, Thailand, Malaysia and other South-East Asian countries' while declaring Bangladesh as the country of origin. After a month-long operation, officers carried out simultaneous searches at premises linked to importers, customs brokers and IEC holders in Kolkata and Visakhapatnam.",
+        "The release says officers seized about Rs 75 lakh in cash, 'believed to be sale proceeds', and a live consignment of about 160 tonnes of areca nuts; nine people were arrested and a customs broker's licence was suspended. The DRI puts the duty avoided 'in recent years' at more than Rs 2,500 crore."
+      ],
+      "current_position": "Nine arrests announced on 16 August 2026; investigation continuing. No court has ruled.",
+      "quote": {
+        "heading": "What the Ministry of Finance said",
+        "text": "Thereafter, simultaneous searches were conducted at multiple premises linked to importers, Customs Brokers and IEC holders in Kolkata and Visakhapatnam.",
+        "where": "PIB release, Ministry of Finance, 16 August 2026",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2300102"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A farm product behind a 100% wall",
+          "text": "Areca nuts are a legal farm product. The offence alleged is paying no duty by claiming a false origin; the loser is the exchequer, not any private person. This register documents such cases because the tariff wall is what makes ordinary trade a crime. The DRI calls it fraud on the exchequer, and no court has yet decided the case."
+        }
+      ],
+      "caveats": "The release does not give dates, crime numbers, the places of arrest or how much of the activity took place in Andhra Pradesh; the Andhra Pradesh link is the searches in Visakhapatnam. The Rs 2,500 crore figure is the DRI's estimate of duty avoided.",
+      "sources": [
+        {
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2300102",
+          "kind": "press_release",
+          "publisher": "Press Information Bureau, Ministry of Finance",
+          "date": "2026-08-16",
+          "supports": "the duty regime, the modus operandi alleged, the searches in Kolkata and Visakhapatnam, seizures, arrests and the licence suspension"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-ap-0005",
+      "category": "capital",
+      "state": "Andhra Pradesh",
+      "district": "Nellore",
+      "date": "2026-09-10",
+      "date_label": "Customs tribunal final order",
+      "incident_date": "2022-10-17",
+      "title": "Bullion trader's Rs 1.69 crore in cash seized as 'smuggling proceeds'; released four years later",
+      "outcome": "confiscation",
+      "authority": "Customs (Preventive), Vijayawada (search and confiscation); Customs, Excise and Service Tax Appellate Tribunal, Hyderabad (final order)",
+      "case_reference": "Customs Appeal No. 30314 of 2024",
+      "laws": [
+        "Sections 112(a), 112(b), 121 and 123, Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "A bullion trader in Nellore",
+      "summary": "In October 2022 customs officers searched a Nellore bullion trader's home and office and seized Rs 1,68,95,000 in cash, alleging it was the sale proceeds of smuggled gold, though no gold or smuggling document was found. The cash was confiscated and a Rs 10 lakh penalty imposed. The first appeal set that aside but ordered fresh adjudication; on 10 September 2026 the tribunal dismissed Customs' appeal and ordered the money released.",
+      "detail": [
+        "The tribunal recorded that Customs (Preventive), Vijayawada, searched the trader's residence and business premises in Nellore on 17 and 18 October 2022 and recovered Rs 84,95,000 from the home and Rs 84,00,000 from the office. No gold, bullion, foreign packaging or document showing illicit import was found.",
+        "The trader said the cash came from retail bullion sales below Rs 2 lakh each and customers' advance bookings before Dhanteras, and produced GST returns, bill books and KYC records. Three customers summoned by the department confirmed paying cash for bullion or advances.",
+        "The Additional Commissioner nonetheless ordered absolute confiscation of the cash under section 121 of the Customs Act and a penalty of Rs 10,00,000 on 5 July 2023. The Commissioner (Appeals) set that order aside but sent the case back for fresh adjudication. On 10 September 2026 the tribunal dismissed the department's appeal, set aside the direction for fresh adjudication, the confiscation and the penalties, and directed that 'the seized currency shall be released forthwith'."
+      ],
+      "current_position": "Confiscation and penalties set aside; release of the cash ordered on 10 September 2026, almost four years after the seizure.",
+      "quote": {
+        "heading": "What the tribunal said",
+        "text": "Mere possession of a substantial amount of cash may give rise to suspicion or justify enquiry. It does not, by itself, establish that the currency represents sale proceeds of smuggled goods.",
+        "where": "Customs Appeal No. 30314 of 2024, final order dated 10 September 2026, para 18",
+        "url": "https://indiankanoon.org/doc/54171753/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Keeping your own cash",
+          "text": "A trader's working capital was taken for four years on suspicion alone. The tribunal found no evidence tying the money to any smuggling."
+        }
+      ],
+      "caveats": "This category is meant for moving and investing capital, including hawala and foreign-exchange cases. No recent Andhra Pradesh case of that kind with an official record and no other alleged crime was found, so this record covers holding capital. The adjudicating authority also relied on a separate gold seizure at Bollapalli toll plaza; the tribunal found no link established.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/54171753/",
+          "kind": "judgment",
+          "publisher": "Customs, Excise and Service Tax Appellate Tribunal, Hyderabad (via Indian Kanoon)",
+          "date": "2026-09-10",
+          "supports": "the search, amounts, the trader's evidence, the adjudication history, the tribunal's findings and the release order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-ap-0006",
+      "category": "business",
+      "state": "Andhra Pradesh",
+      "district": "NTR (Vijayawada)",
+      "date": "2026-07-07",
+      "date_label": "Eviction drive began (reported)",
+      "incident_date": "2026-07-07",
+      "title": "140 Vijayawada street vendors without certificates evicted from Besant Road after a High Court order",
+      "outcome": "penalty",
+      "authority": "Vijayawada Municipal Corporation, on the direction of the High Court of Andhra Pradesh",
+      "case_reference": "W.P.(PIL) No. 81 of 2025 with W.P.(PIL) No. 103 of 2025 (High Court order of 4 February 2026)",
+      "laws": [
+        "Street Vendors (Protection of Livelihood and Regulation of Street Vending) Act, 2014, section 18(3)",
+        "A.P. Street Vendors (Protection of Livelihood and Regulation of Street Vending) Rules, 2017"
+      ],
+      "acts": [
+        "Street Vendors (Protection of Livelihood and Regulation of Street Vending) Act, 2014"
+      ],
+      "person": "Street vendors on Besant Road, Vijayawada",
+      "summary": "Acting on a public-interest petition by shop owners, the High Court on 4 February 2026 directed Vijayawada's municipal commissioner to ensure only licensed vendors operate on Besant Road. Officials found only 90 of 257 hawkers held vending certificates. On 7 July 2026 the corporation began evicting the rest; officials said 140 were removed on the first day.",
+      "detail": [
+        "Shop owners on Besant Road, one of Vijayawada's main shopping streets, filed public-interest petitions complaining of congestion. On 4 February 2026 a bench of Chief Justice Dhiraj Singh Thakur and Justice Challa Gunaranjan directed that 'only those vendors who are earlier licensed to conduct their vending operations would be permitted', and directed the commissioner to act, with police help if required. It noted that eviction or relocation of a street vendor requires 30 days' notice under section 18(3) of the Street Vendors Act.",
+        "The Hindu reported, citing officials of the corporation's town-planning department, that only 90 of the 257 hawkers identified on the road had valid vending certificates. Show-cause notices were issued in April and eviction orders in June. Vendors were offered an alternative vending zone on C.K. Reddy Road, which many refused, saying there was no market there.",
+        "The eviction began on 7 July 2026 amid protests; officials said 140 hawkers were evicted that day. A lemon seller of 30 years told The Hindu she would 'not earn even half' at the new site."
+      ],
+      "current_position": "Unlicensed vendors evicted from Besant Road from 7 July 2026; an alternative zone was offered.",
+      "quote": {
+        "heading": "What the High Court directed",
+        "text": "only those vendors who are earlier licensed to conduct their vending operations would be permitted strictly in accordance with their licenses in the zones for which the said licenses were issued.",
+        "where": "W.P.(PIL) No. 81 of 2025, order dated 4 February 2026, para 2",
+        "url": "https://indiankanoon.org/doc/183783797/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Selling without a certificate",
+          "text": "The vendors' offence was trading without a vending certificate. Shopkeepers' complaints of congestion are real, but the remedy was to remove the livelihood of everyone without the right paper."
+        }
+      ],
+      "caveats": "The numbers of vendors and the eviction come from officials quoted by The Hindu, not from an official document we have seen. The corporation's notices and eviction orders have not been located online.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/183783797/",
+          "kind": "court_order",
+          "publisher": "High Court of Andhra Pradesh (via Indian Kanoon)",
+          "date": "2026-02-04",
+          "supports": "the direction that only licensed vendors operate, the direction to the commissioner, the 30-day notice rule"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/besant-road-clears-up-after-hawker-eviction/article71199435.ece",
+          "kind": "news",
+          "publisher": "The Hindu",
+          "date": "2026-07-08",
+          "supports": "90 of 257 certified, notices in April and June, the alternative zone, eviction from 7 July and 140 evicted"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-ap-0007",
+      "category": "labour",
+      "state": "Andhra Pradesh",
+      "district": "Tirupati",
+      "date": "2026-04-10",
+      "date_label": "High Court judgment",
+      "incident_date": "2015-07-15",
+      "title": "Labour contractor pursued for ESI contributions for a period she says she employed no one; High Court sets demand aside after ten years",
+      "outcome": "penalty_set_aside",
+      "authority": "Employees' State Insurance Corporation (demand); High Court of Andhra Pradesh (set aside and remanded)",
+      "case_reference": "W.P. No. 23255 of 2016",
+      "laws": [
+        "Sections 45-A and 45-C to 45-I, Employees' State Insurance Act, 1948"
+      ],
+      "acts": [
+        "Employees' State Insurance Act, 1948"
+      ],
+      "person": "A woman labour contractor in Tirupati",
+      "penalty": "Rs 1,44,788 in contributions determined; recovery proceedings; set aside",
+      "summary": "In 2015 the Employees' State Insurance Corporation ordered a Tirupati labour contractor to pay Rs 1,44,788 in contributions for June 2010 to March 2011 and started recovery. A municipal certificate said she had supplied no contract labour from April 2010. On 10 April 2026 the High Court set the demand aside and sent it back for a fresh hearing.",
+      "detail": [
+        "The High Court recorded that the contractor ran a labour-supply establishment registered with the ESI Corporation from 2007. The Corporation issued an ad hoc notice for Rs 2,84,750 in May 2015 and, on 15 July 2015, an order under section 45-A determining Rs 1,44,788 for June 2010 to March 2011, followed by recovery proceedings in 2016.",
+        "She relied on a certificate dated 17 October 2015 from the Health Officer of the Tirupati Municipal Corporation stating that she had not supplied any labour on contract basis from 1 April 2010, and said she had paid contributions for the five workers engaged on a later contract.",
+        "Justice K. Sreenivasa Reddy held that the order demanding contributions for 2010 to 2011 'appears to be unjustifiable', set aside the 2015 order and the 2016 recovery proceedings, and directed a fresh notice and hearing."
+      ],
+      "current_position": "Demand set aside on 10 April 2026 and remanded for a fresh hearing.",
+      "quote": {
+        "heading": "What the High Court said",
+        "text": "ordering the Writ Petitioner to pay the contributions for the period from 01.06.2010 to 31.03.2011 appears to be unjustifiable.",
+        "where": "W.P. No. 23255 of 2016, judgment dated 10 April 2026, para 17",
+        "url": "https://indiankanoon.org/doc/46398901/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A payroll tax on staff she says she did not have",
+          "text": "The case turns on a mandatory social-insurance levy on employers. The contractor spent a decade contesting a demand for a period in which, on the municipality's own certificate, she supplied no labour."
+        }
+      ],
+      "caveats": "This is a civil demand and recovery, not a criminal prosecution. Liability has not been finally decided; the Corporation may issue a fresh notice. The High Court order calls the district Chittoor, which then included Tirupati.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/46398901/",
+          "kind": "judgment",
+          "publisher": "High Court of Andhra Pradesh (via Indian Kanoon)",
+          "date": "2026-04-10",
+          "supports": "the ESI notices and order, the municipal certificate, the court's finding and the remand"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-ap-0008",
+      "category": "hoarding",
+      "state": "Andhra Pradesh",
+      "district": "Visakhapatnam",
+      "date": "2025-07-24",
+      "date_label": "High Court judgment",
+      "incident_date": "2025-06-01",
+      "title": "Diesel-delivery tankers seized for carrying fuel 'without proper invoices'; released only against Rs 32 lakh security",
+      "outcome": "seizure",
+      "authority": "Civil Supplies Department, Visakhapatnam (seizure); District Collector (Civil Supplies) (release conditions); High Court of Andhra Pradesh",
+      "case_reference": "W.P. No. 19152 of 2025",
+      "laws": [
+        "Section 6-A, Essential Commodities Act, 1955"
+      ],
+      "acts": [
+        "Essential Commodities Act, 1955"
+      ],
+      "person": "Three fuel transporters, including a mobile diesel-delivery business",
+      "summary": "On 1 June 2025 a civil-supplies officer in Visakhapatnam stopped three tankers belonging to fuel transporters, including a doorstep diesel-delivery business, and seized them for carrying diesel 'without proper invoices'. The collector would release them only against bank guarantees totalling Rs 32 lakh while confiscation proceedings under the Essential Commodities Act ran. On 24 July 2025 the High Court let the owners give property security instead.",
+      "detail": [
+        "The High Court recorded that on 1 June 2025 the Assistant Supply Officer and staff intercepted the vehicles and found they 'were transporting diesel unauthorizedly without proper invoices', seized them, and reported to the District Collector (Civil Supplies), Visakhapatnam, for proceedings under section 6-A of the Essential Commodities Act, which allows confiscation.",
+        "The collector ordered the vehicles released only if the owners furnished bank guarantees of Rs 12,00,000, Rs 10,00,000 and Rs 10,00,000. The owners, from Kakinada and Visakhapatnam districts, called this an onerous condition.",
+        "Justice T.C.D. Sekhar allowed the petition and directed release on third-party immovable property security for the same amounts, with an undertaking not to sell or alter the vehicles while the confiscation proceedings continue."
+      ],
+      "current_position": "Vehicles released on property security from July 2025; confiscation proceedings under section 6-A pending.",
+      "quote": {
+        "heading": "What the High Court recorded",
+        "text": "on 01.06.2025, Respondent No.3 along with staff intercepted the subject vehicles and found that the subject lorries were transporting diesel unauthorizedly without proper invoices, accordingly, the said lorries were seized.",
+        "where": "W.P. No. 19152 of 2025, judgment dated 24 July 2025, para 2",
+        "url": "https://indiankanoon.org/doc/110368743/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Fuel, paperwork and a price-control law",
+          "text": "The Essential Commodities Act lets the state control how goods are stored, moved and sold. Here it was used to seize a fuel business's vehicles over invoices, with no allegation of adulteration, theft or harm to anyone."
+        }
+      ],
+      "caveats": "This category is meant for hoarding, stock-limit and price cases. The more recent Andhra Pradesh Essential Commodities Act cases found in 2026 involved subsidised ration rice or cheating and were left out. The judgment does not say where exactly the vehicles were stopped or what the diesel was for.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/110368743/",
+          "kind": "judgment",
+          "publisher": "High Court of Andhra Pradesh (via Indian Kanoon)",
+          "date": "2025-07-24",
+          "supports": "the interception and seizure, the section 6-A reference, the bank-guarantee condition and the court's relief"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-ap-0009",
+      "category": "property",
+      "state": "Andhra Pradesh",
+      "district": "West Godavari",
+      "date": "2026-08-11",
+      "date_label": "High Court order",
+      "incident_date": "2020-10-15",
+      "title": "Palakollu homeowner paid Rs 2.68 lakh for an addition to his own house; the municipality still sought demolition",
+      "outcome": "penalty",
+      "authority": "Palakollu Municipality; Judicial First Class Magistrate, Palakollu; High Court of Andhra Pradesh",
+      "case_reference": "W.P. Nos. 20287 and 20202 of 2020; municipal notice Roc. No. 989/2014/G1 dated 15 October 2020",
+      "laws": [
+        "Section 340, Andhra Pradesh Municipalities Act, 1965",
+        "G.O.Ms. No. 198 (cited by the municipality)"
+      ],
+      "acts": [
+        "Andhra Pradesh Municipalities Act, 1965"
+      ],
+      "person": "A homeowner in Palakollu",
+      "penalty": "Rs 2,68,678 deposited on 24 July 2025 (as stated by the owner and recorded by the court)",
+      "summary": "In October 2020 Palakollu Municipality ordered a homeowner to remove construction below the water tank of his own house, built with municipal permission, and threatened demolition. He says he paid a penalty of Rs 2,68,678 fixed by the local magistrate; the municipality says paying does not regularise the building. On 11 August 2026 the High Court set the notices aside because they were sent to the wrong address, leaving the municipality free to start again.",
+      "detail": [
+        "The High Court recorded that the homeowner holds municipal permission for his house in Palakollu, and that in October 2020 the municipality, 'at the behest of the some third parties', issued notices calling on him to remove alleged unauthorised construction below the water tank.",
+        "The owner told the court he had paid the penalty determined by the Judicial First Class Magistrate, Palakollu, depositing Rs 2,68,678 on 24 July 2025 under section 340 of the Andhra Pradesh Municipalities Act, and that the municipality could not act against construction for which he had paid the compounding fee. The municipality replied that under G.O.Ms. No. 198 paying a penalty does not regularise an unauthorised construction.",
+        "Justice Harinath N. held that the notices had admittedly been issued to the wrong address, set them aside, and left the municipality free to issue fresh proceedings after hearing the owner."
+      ],
+      "current_position": "Demolition notices set aside on 11 August 2026 for a wrong address; the municipality may issue fresh proceedings.",
+      "quote": {
+        "heading": "What the owner told the court",
+        "text": "It is also submitted that the petitioner has paid the penalty as determined by the Judicial First Class Magistrate, Palakollu, and an amount of Rs.2,68,678/- was deposited into the account of the Additional Civil Judge, Palakollu, on 24.07.2025.",
+        "where": "W.P. No. 20287 of 2020, common order dated 11 August 2026, para 4",
+        "url": "https://indiankanoon.org/doc/28325550/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for building on your own land",
+          "text": "The construction is inside the owner's own house. He was fined, and still faces demolition, for how he built on property he owns."
+        }
+      ],
+      "caveats": "The notices were prompted by complaints from third parties whom the order does not identify; it does not say whether they claimed any harm. The penalty payment is the owner's statement as recorded by the court. The case has taken almost six years so far.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/28325550/",
+          "kind": "court_order",
+          "publisher": "High Court of Andhra Pradesh (via Indian Kanoon)",
+          "date": "2026-08-11",
+          "supports": "the notices, the penalty payment, the municipality's position and the setting aside"
+        }
+      ],
+      "verification": "V2"
+    }
+  ]
+}

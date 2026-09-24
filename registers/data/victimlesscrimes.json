@@ -1,0 +1,447 @@
+{
+  "register": "victimlesscrimes",
+  "site_name": "Victimless Crimes",
+  "kind": "case",
+  "record_word": "records",
+  "detail_label": "Attributed to the sources",
+  "record_note": "This page records what the cited court records say happened. Findings belong to the court or authority that made them; this register adds none of its own. Names of private individuals are withheld unless a naming gate clears them.",
+  "landing_tail": "Convicted though no one was harmed &mdash; prostitution, gambling, alcohol, beef and food prohibitions, cigarettes, e-cigarettes and vapes.",
+  "stats": [
+    {
+      "value": "records",
+      "label": "Incidents published",
+      "sub": "each with its source"
+    },
+    {
+      "value": "categories",
+      "label": "Categories tracked",
+      "sub": "prostitution to vapes"
+    },
+    {
+      "value": "states",
+      "label": "States covered",
+      "sub": "of 36 states & UTs"
+    },
+    {
+      "value": "acts",
+      "label": "Laws cited",
+      "sub": "distinct statutes used"
+    }
+  ],
+  "categories": [
+    {
+      "key": "sex-work",
+      "label": "Prostitution & sex work"
+    },
+    {
+      "key": "gambling",
+      "label": "Gambling & betting"
+    },
+    {
+      "key": "alcohol",
+      "label": "Alcohol"
+    },
+    {
+      "key": "beef",
+      "label": "Beef, meat & food"
+    },
+    {
+      "key": "tobacco",
+      "label": "Tobacco & cigarettes"
+    },
+    {
+      "key": "vapes",
+      "label": "E-cigarettes & vapes"
+    },
+    {
+      "key": "other",
+      "label": "Other victimless offences"
+    }
+  ],
+  "records": [
+    {
+      "id": "vc-ap-0001",
+      "category": "sex-work",
+      "state": "Andhra Pradesh",
+      "district": "Visakhapatnam",
+      "date": "2026-08-04",
+      "date_label": "High Court order",
+      "incident_date": "2026-06-13",
+      "title": "Pre-arrest bail refused to alleged go-between after a police raid on a Visakhapatnam hotel room",
+      "outcome": "bail_refused",
+      "authority": "High Court of Andhra Pradesh",
+      "case_reference": "Crl.P. No. 5787 of 2026 (Crime No. 147 of 2026, Airport Police Station, Visakhapatnam)",
+      "laws": [
+        "Sections 143(3) and 144(2), Bharatiya Nyaya Sanhita, 2023",
+        "Sections 3(1), 4(1) and 5(1)(a), Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023",
+        "Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "person": "A Visakhapatnam man, accused no. 4",
+      "summary": "Police raided a Visakhapatnam hotel on a tip-off, found a man and a woman in a room, and charged the people said to have arranged the meeting for Rs 1,500 under human-trafficking and brothel laws. On 4 August 2026 the High Court refused pre-arrest bail to the man accused of linking customers to the organiser.",
+      "detail": [
+        "According to the prosecution case recorded by the High Court, on 13 June 2026 the Inspector of Police, Airport Police Station, Visakhapatnam, acting 'on receipt of credible information regarding prostitution activities', raided a hotel at Madhavadhara and found 'a man and a woman' in a room 'allegedly engaged in prostitution'. The customer had been arranged 'after collecting Rs.1,500/- towards sexual services'. Two mobile phones and Rs 500 were seized.",
+        "Police registered Crime No. 147 of 2026 under sections 143(3) and 144(2) of the Bharatiya Nyaya Sanhita, the new code's human-trafficking provisions, and sections 3, 4 and 5 of the Immoral Traffic (Prevention) Act, which punish keeping a brothel, living on the earnings of sex work and procuring.",
+        "The petitioner, accused no. 4, argued that the only evidence against him was a co-accused's confession and that the raid was not led by a special police officer as the Immoral Traffic Act requires. The State replied that the legality of the raid was a matter for trial.",
+        "Justice Y. Lakshmana Rao held that the case record showed the petitioner 'acted as a crucial person in running the brothel by luring customers and coordinating between the customers and the organiser', noted that 'there are no adverse antecedents reported against the petitioner', and dismissed the petition."
+      ],
+      "current_position": "Pre-arrest bail refused on 4 August 2026 while the investigation continued. We have not located any later order.",
+      "quote": {
+        "heading": "What the High Court said",
+        "text": "In view of the specific overt acts attributed against the petitioner, this Court is not inclined to grant pre-arrest bail to the petitioner, as it would amount to giving a shield, protection or licence to the petitioner in respect of the specific allegations levelled against him",
+        "where": "Crl.P. No. 5787 of 2026, order dated 4 August 2026, para 14",
+        "url": "https://indiankanoon.org/doc/162631009/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A paid encounter, charged as trafficking",
+          "text": "The order describes a paid sexual encounter arranged by phone, found by police acting on a tip-off. It records no complaint by anyone involved and no allegation of force, deception or a minor, yet police charged the people who arranged it under human-trafficking and brothel-keeping laws."
+        }
+      ],
+      "caveats": "The order does not give the ages of the man and woman found in the room. It refers to the statements of 'the other victims', the term trafficking law uses for anyone in sex work, without describing what they said.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/162631009/",
+          "kind": "court_order",
+          "publisher": "High Court of Andhra Pradesh (via Indian Kanoon)",
+          "date": "2026-08-04",
+          "supports": "the raid, charges, arguments, the court's reasons and the refusal of bail"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-ap-0002",
+      "category": "gambling",
+      "state": "Andhra Pradesh",
+      "district": "Srikakulam",
+      "date": "2026-09-15",
+      "date_label": "High Court order recording the conviction",
+      "incident_date": null,
+      "title": "Gaming case in Srikakulam ends in conviction for one of at least sixteen accused",
+      "outcome": "conviction",
+      "authority": "Trial court, Srikakulam district (STC No. 209 of 2025); recorded by the High Court of Andhra Pradesh",
+      "case_reference": "Crime No. 120 of 2024, G. Sigadam Police Station; STC No. 209 of 2025; Crl.P. No. 1353 of 2025 (High Court)",
+      "laws": [
+        "Section 112(2), Bharatiya Nyaya Sanhita, 2023",
+        "Section 3 read with section 4, Andhra Pradesh Gaming Act, 1974"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023",
+        "Andhra Pradesh Gaming Act, 1974"
+      ],
+      "person": "Accused no. 16 in a G. Sigadam police case",
+      "penalty": "Not stated in the High Court order",
+      "summary": "G. Sigadam police in Srikakulam district booked at least sixteen people under the Andhra Pradesh Gaming Act and the new penal code's 'petty organised crime' section, which covers unauthorised betting and gambling. One of them was convicted on 10 June 2025, the High Court recorded on 15 September 2026 when it closed his petition to quash the case.",
+      "detail": [
+        "In 2024 G. Sigadam police registered Crime No. 120 of 2024 under section 112(2) of the Bharatiya Nyaya Sanhita and section 3 read with section 4 of the Andhra Pradesh Gaming Act, 1974. Section 112 of the Sanhita defines 'petty organised crime' to include unauthorised betting or gambling by a member of a group.",
+        "Accused no. 16 asked the High Court in 2025 to quash the case. On 15 September 2026 the Assistant Public Prosecutor, on the written instructions of the station house officer, told the court that while the petition was pending police had filed a charge sheet, the case had been numbered STC No. 209 of 2025, and the petitioner 'got convicted vide Judgment dated 10.06.2025'.",
+        "Justice Maheswara Rao Kuncheam closed the petition. The order does not give the sentence or say which of the charged sections the conviction was under."
+      ],
+      "current_position": "Convicted by the trial court on 10 June 2025, as recorded by the High Court on 15 September 2026. Any appeal is not known.",
+      "quote": {
+        "heading": "What the High Court recorded",
+        "text": "pending the Criminal Petition, police filed charge sheet in Crime No.120 of 2024 of G.Sigadam Police Station, Srikakulam District and the same was numbered as STC No.209 of 2025 and in the said case, petitioner got convicted vide Judgment dated 10.06.2025.",
+        "where": "Crl.P. No. 1353 of 2025, order dated 15 September 2026, para 3",
+        "url": "https://indiankanoon.org/doc/49886629/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A wager, punished as organised crime",
+          "text": "The only statute charged besides the organised-crime section is the Gaming Act. The High Court order records no complainant, no cheating and no violence."
+        }
+      ],
+      "caveats": "The High Court order lists only the sections charged. It does not describe the game, the number of people caught, the trial court's name or the sentence. The trial-court judgment has not been located online.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/49886629/",
+          "kind": "court_order",
+          "publisher": "High Court of Andhra Pradesh (via Indian Kanoon)",
+          "date": "2026-09-15",
+          "supports": "the crime number, sections, STC number and the date of conviction"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-ap-0003",
+      "category": "alcohol",
+      "state": "Andhra Pradesh",
+      "district": "Nandyal",
+      "date": "2026-05-05",
+      "date_label": "High Court judgment",
+      "incident_date": "2025-07-24",
+      "title": "Man detained without trial as a 'bootlegger' over liquor cases in which he already had bail; High Court orders release",
+      "outcome": "detention_set_aside",
+      "authority": "Collector and District Magistrate, Nandyal (detention); High Court of Andhra Pradesh (set aside)",
+      "case_reference": "W.P. No. 29381 of 2025; detention order dated 24 July 2025; G.O.Rt. No. 1614, General Administration (SC-I) Department, dated 3 September 2025",
+      "laws": [
+        "Section 2(b) ('bootlegger'), Andhra Pradesh Prevention of Dangerous Activities of Bootleggers, Dacoits, Drug Offenders, Goondas, Immoral Traffic Offenders and Land Grabbers Act, 1986",
+        "Andhra Pradesh Prohibition Act, 1995 (four underlying cases)"
+      ],
+      "acts": [
+        "Andhra Pradesh Prevention of Dangerous Activities Act, 1986",
+        "Andhra Pradesh Prohibition Act, 1995"
+      ],
+      "person": "A man from Panyam; his wife brought the petition",
+      "summary": "Nandyal's district collector ordered a man detained without trial as a 'bootlegger' because of four cases against him under the prohibition law, in every one of which courts had already granted him bail. The state confirmed the detention in September 2025. On 5 May 2026 the High Court set the order aside and directed his release.",
+      "detail": [
+        "On 24 July 2025 the Collector and District Magistrate of Nandyal ordered the preventive detention of the petitioner's husband, treating him as a 'bootlegger' under section 2(b) of the 1986 preventive-detention law. The High Court recorded that 'about four crimes were registered against the detenu for the offences punishable under the A.P. Prohibition Act' and that 'conditional bail was granted to him in all the said four crimes'.",
+        "The detaining authority reasoned that his repeated offences were 'prejudicial to the maintenance of public order and posing danger to public safety and health'. The State confirmed the order by G.O.Rt. No. 1614 on 3 September 2025, 'and since then he has been in custody', the court recorded.",
+        "A Division Bench of Justices Cheekati Manavendranath Roy and Tuhin Kumar Gedela held that the bail orders, and the effect of their conditions, had not been placed before and weighed by the detaining authority, which 'invalidates the order of preventive detention'. It set the order aside and directed that he 'be released forthwith'.",
+        "The judgment records no allegation of violence, of spurious or poisonous liquor, or of harm to any person. The only conduct it mentions is repeated offences under the prohibition law."
+      ],
+      "current_position": "Detention set aside on 5 May 2026 and release ordered. The four Prohibition Act cases themselves are not described in the judgment.",
+      "quote": {
+        "heading": "What the High Court recorded",
+        "text": "About four crimes were registered against the detenu for the offences punishable under the A.P. Prohibition Act. Conditional bail was granted to him in all the said four crimes.",
+        "where": "W.P. No. 29381 of 2025, judgment dated 5 May 2026, para 3",
+        "url": "https://indiankanoon.org/doc/174831131/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Jail without trial for selling drink",
+          "text": "Preventive detention lets the state imprison a person for up to a year without a trial. Here it was used against a man whose only recorded conduct was liquor offences, after courts had released him on bail in each of them."
+        }
+      ],
+      "caveats": "The judgment does not say what the four Prohibition Act cases involved (quantities, or whether liquor was sold or only possessed), or the exact date he was taken into custody.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/174831131/",
+          "kind": "judgment",
+          "publisher": "High Court of Andhra Pradesh (via Indian Kanoon)",
+          "date": "2026-05-05",
+          "supports": "the detention and confirmation orders, the four Prohibition Act cases and bail, the court's reasons and the release order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-ap-0004",
+      "category": "beef",
+      "state": "Andhra Pradesh",
+      "district": "Vizianagaram",
+      "date": "2025-07-03",
+      "date_label": "High Court interim order",
+      "incident_date": "2025-06-06",
+      "title": "Beef trader's licence cancelled by text message; High Court suspends the cancellation",
+      "outcome": "licence_cancelled",
+      "authority": "Vizianagaram Municipal Corporation (cancellation); High Court of Andhra Pradesh (interim suspension)",
+      "case_reference": "W.P. No. 16293 of 2025; trade licence No. TL/03809/20",
+      "laws": [
+        "Municipal trade licence (the order does not cite the statute)"
+      ],
+      "acts": [
+        "Municipal trade licensing"
+      ],
+      "person": "A beef trader in Vizianagaram",
+      "summary": "Vizianagaram's municipal corporation cancelled a beef trader's licence with a text message to his phone on 6 June 2025, without notice or reasons. It later said he had not produced receipts showing he bought his beef from a licensed supplier. On 3 July 2025 the High Court suspended the cancellation.",
+      "detail": [
+        "The High Court recorded that the trader's licence was cancelled 'on the basis of a message to the mobile number of the Petitioner on 06.06.2025'. His counsel said no prior notice was issued and no reasons were given.",
+        "On written instructions, the corporation's standing counsel told the court that the Municipal Health Officer had reported that the trader 'failed to furnish receipts for procurement of beef from Vizag Foods Private Limited', and that complaints had been received of unauthorised slaughter of cows and buffaloes 'by certain traders' in the Cantonment area.",
+        "The court held that because cancelling the licence had civil consequences, the trader should have been given notice first. It suspended the cancellation for four weeks and left the corporation free to issue notice about the complaints."
+      ],
+      "current_position": "Cancellation suspended for four weeks from 3 July 2025; the case was listed for 31 July 2025. We have not located any later order.",
+      "quote": {
+        "heading": "What the High Court said",
+        "text": "as there are civil consequences for cancellation of the trade license of the Petitioner, this Court is of the opinion that, the Petitioner should have been put on notice before taking any action in this regard.",
+        "where": "W.P. No. 16293 of 2025, order dated 3 July 2025",
+        "url": "https://indiankanoon.org/doc/166234556/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A livelihood switched off by SMS",
+          "text": "Selling beef harms no one who does not choose to buy it. The trader's licence, and with it his business, was cancelled by text message over paperwork about where his meat came from."
+        }
+      ],
+      "caveats": "The order does not say whether the trader himself was accused of slaughtering cattle; the slaughter complaints it mentions concern 'certain traders' in the area. More recent 2026 cattle cases in the state were not used for this category because they also charge cruelty to animals during transport.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/166234556/",
+          "kind": "court_order",
+          "publisher": "High Court of Andhra Pradesh (via Indian Kanoon)",
+          "date": "2025-07-03",
+          "supports": "the cancellation by text message, the corporation's stated grounds and the interim suspension"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-ap-0005",
+      "category": "tobacco",
+      "state": "Andhra Pradesh",
+      "district": "Guntur",
+      "date": "2026-08-06",
+      "date_label": "High Court order",
+      "incident_date": "2017-11-16",
+      "title": "Rs 2 lakh food-safety fine in a tobacco case set aside nine years later",
+      "outcome": "penalty_set_aside",
+      "authority": "Joint Collector-cum-Adjudicating Officer, Guntur (penalty); High Court of Andhra Pradesh (set aside)",
+      "case_reference": "Crl.R.C. No. 210 of 2019; Crl.A. No. 100 of 2018 (Principal District and Sessions Judge, Guntur); Rc. No. 1024/2017-L.2",
+      "laws": [
+        "Section 96, Food Safety and Standards Act, 2006"
+      ],
+      "acts": [
+        "Food Safety and Standards Act, 2006"
+      ],
+      "person": "A resident of Macherla",
+      "penalty": "Rs 2,00,000, reduced to Rs 70,000 on appeal; both set aside",
+      "summary": "In November 2017 Guntur's joint collector fined a Macherla man Rs 2 lakh under the food-safety law; on appeal the fine was cut to Rs 70,000. On 6 August 2026 the High Court set both orders aside, applying its settled view that chewing tobacco and khaini are not 'food', so the food-safety law cannot be used to punish trade in them.",
+      "detail": [
+        "The High Court recorded that on 16 November 2017 the Joint Collector-cum-Adjudicating Officer, Guntur, imposed a penalty of Rs 2,00,000 on the petitioner under section 96 of the Food Safety and Standards Act, 2006. On appeal, the Principal District and Sessions Judge, Guntur, reduced it to Rs 70,000 on 30 January 2019.",
+        "The petitioner's counsel relied on earlier High Court rulings that chewing tobacco and khaini are not food within the Act, and that trade in tobacco is governed by the Cigarettes and Other Tobacco Products Act, 2003, not the food-safety law. One of those rulings, quoted in the order, notes that 'the trade in Tobacco is not impermissible in India'.",
+        "Justice Y. Lakshmana Rao held that, 'in view of the constant view taken by this Court', the Sessions judgment and the collector's order were 'liable to be interfered and set aside', and set both aside on 6 August 2026."
+      ],
+      "current_position": "Penalty set aside on 6 August 2026, nearly nine years after it was imposed.",
+      "quote": {
+        "heading": "The rule the High Court applied",
+        "text": "chewing tobacco and khaini are not the food within the definition of Section 3(j) of 'the Act.,' and the manufacture, sale or exposing for sale of tobacco etc., is governed by the provisions of the Cigarettes and Other Tobacco Products (Prohibition of Advertisement and Regulation of Trade and Commerce, Production, Supply and Distribution) Act, 2003",
+        "where": "Crl.R.C. No. 210 of 2019, order dated 6 August 2026, para 4 (recording an earlier order of the High Court)",
+        "url": "https://indiankanoon.org/doc/55061107/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A fine for a lawful trade",
+          "text": "Tobacco is a legal product in India. The man was fined under a law the High Court has repeatedly held does not apply to it, and it took nine years and three levels of adjudication to undo."
+        }
+      ],
+      "caveats": "The order does not describe the goods or the conduct that was penalised. That the case concerned tobacco products follows from the ground on which the High Court decided it. Macherla is now in Palnadu district; the order refers to Guntur district.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/55061107/",
+          "kind": "court_order",
+          "publisher": "High Court of Andhra Pradesh (via Indian Kanoon)",
+          "date": "2026-08-06",
+          "supports": "the 2017 penalty, the 2019 appeal, the legal ground and the setting aside"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-ap-0006",
+      "category": "vapes",
+      "state": "Andhra Pradesh",
+      "district": "Visakhapatnam",
+      "date": "2026-03-09",
+      "date_label": "High Court judgment",
+      "incident_date": "2024-03-24",
+      "title": "Police charged a Visakhapatnam shopkeeper with 'poisoning' for storing e-cigarettes; High Court quashes the case",
+      "outcome": "quashed",
+      "authority": "Visakhapatnam City police (prosecution); High Court of Andhra Pradesh (quashed)",
+      "case_reference": "Crl.P. No. 12896 of 2025; C.C. No. 2896 of 2025 (IV Additional Chief Judicial Magistrate, Visakhapatnam); FIR No. 57 of 2024, III Town Police Station",
+      "laws": [
+        "Section 5 read with section 8, Prohibition of Electronic Cigarettes Act, 2019",
+        "Sections 284 and 328, Indian Penal Code, 1860"
+      ],
+      "acts": [
+        "Prohibition of Electronic Cigarettes Act, 2019",
+        "Indian Penal Code, 1860"
+      ],
+      "person": "A shopkeeper in Visakhapatnam",
+      "summary": "In March 2024 Visakhapatnam's City Task Force raided shops selling e-cigarettes and charged a shopkeeper not only under the e-cigarette ban but under penal-code sections for negligence with poison and for causing hurt by poison. On 9 March 2026 the High Court quashed the whole prosecution: e-cigarettes are not 'poison', and the storage offence is non-cognizable, so police could not file a charge sheet for it.",
+      "detail": [
+        "The Hindu reported on 24 March 2024 that Visakhapatnam's City Task Force raided two shops, arrested two people for selling banned e-cigarettes, and seized several hundred of them.",
+        "III Town police registered FIR No. 57 of 2024 under section 5 read with section 8 of the Prohibition of Electronic Cigarettes Act, 2019, which bans storing e-cigarettes, and under sections 284 and 328 of the Indian Penal Code, which punish negligent conduct with poisonous substances and causing hurt by poison. A charge sheet followed, and the case was numbered C.C. No. 2896 of 2025.",
+        "Justice Y. Lakshmana Rao held that e-cigarettes are not a 'poisonous substance' under section 284, and that the facts alleged did not amount to administering poison under section 328. He further held that the storage offence under the e-cigarette law is non-cognizable, so it had to be pursued by a written complaint from an authorised officer, not a police charge sheet. The proceedings were quashed."
+      ],
+      "current_position": "Prosecution quashed by the High Court on 9 March 2026.",
+      "quote": {
+        "heading": "What the High Court held",
+        "text": "Electronic cigarettes, which form the subject matter of the present prosecution, do not, by any legally tenable construction or judicial interpretation, answer the description of a 'poisonous substance' within the contemplation of Section 284 of 'the I.P.C.,' nor do the facts alleged constitute the administration of poison or stupefying substances as envisaged under Section 328 of 'the I.P.C.'",
+        "where": "Crl.P. No. 12896 of 2025, judgment dated 9 March 2026, para 6",
+        "url": "https://indiankanoon.org/doc/4646405/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Storing a product, charged as poisoning",
+          "text": "Adults who buy e-cigarettes choose to. The shopkeeper was prosecuted for keeping them in stock, and police added poisoning charges that the High Court found had no legal basis."
+        }
+      ],
+      "caveats": "The judgment gives the FIR number but not the date of the raid; the date is taken from The Hindu's report, which gives the number seized as both 734 and 743. The Hindu report mentions two shops; the judgment concerns one accused.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/4646405/",
+          "kind": "judgment",
+          "publisher": "High Court of Andhra Pradesh (via Indian Kanoon)",
+          "date": "2026-03-09",
+          "supports": "the FIR, sections charged, the court's reasoning and the quashing"
+        },
+        {
+          "url": "https://www.thehindu.com/news/cities/Visakhapatnam/ctf-raids-two-shops-seize-734-banned-e-cigarettes/article67987626.ece",
+          "kind": "news",
+          "publisher": "The Hindu",
+          "date": "2024-03-24",
+          "supports": "the City Task Force raid, arrests and seizure"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-ap-0007",
+      "category": "other",
+      "state": "Andhra Pradesh",
+      "district": "Kakinada",
+      "date": "2026-01-06",
+      "date_label": "High Court order",
+      "incident_date": null,
+      "title": "Woman on hunger strike to meet the Chief Minister booked for attempted suicide",
+      "outcome": "prosecution_pending",
+      "authority": "Kakinada Urban police, on a complaint by the Mandal Executive Magistrate; recorded by the High Court of Andhra Pradesh",
+      "case_reference": "Cr. No. 80 of 2023 (section 309 read with 34 IPC); W.P. No. 21912 of 2023 (High Court)",
+      "laws": [
+        "Section 309 read with section 34, Indian Penal Code, 1860"
+      ],
+      "acts": [
+        "Indian Penal Code, 1860"
+      ],
+      "person": "A woman from Kakinada",
+      "summary": "A Kakinada woman in a property dispute with two police constables went on hunger strike after being refused a meeting with the Chief Minister. According to the State, she was taken to hospital when her health deteriorated, tried to take her own life there, and was then booked for attempted suicide on the complaint of the local executive magistrate. On 6 January 2026 the High Court directed police not to interfere with her liberty except by due process.",
+      "detail": [
+        "The woman petitioned the High Court alleging that police officers were harassing her and her disabled daughter and pressing her to settle a property dispute with two police constables on their terms, including by admitting the two of them to a mental hospital in Visakhapatnam.",
+        "The Assistant Government Pleader, on instructions, told the court that the Chief Minister's security staff did not allow her to meet the Chief Minister at his camp office; that when she sat on hunger strike a medical team advised shifting her to the Government Hospital as her health was deteriorating; and that she 'tried to commit suicide' after admission. On the complaint of the Mandal Executive Magistrate, Kakinada Urban, a case was registered under section 309 read with section 34 of the Indian Penal Code, the offence of attempting suicide.",
+        "Justice Venkata Jyothirmai Pratapa disposed of the petition by directing the respondents 'not to interfere with the personal liberty of the petitioner and her daughter, except under due process of law'. The order does not deal with the attempted-suicide case itself.",
+        "Section 115 of the Mental Healthcare Act, 2017 provides that a person who attempts suicide is presumed, unless proved otherwise, to have severe stress, and shall not be tried and punished under section 309."
+      ],
+      "current_position": "The attempted-suicide case (Cr. No. 80 of 2023) was registered; its present status is not stated in the High Court order.",
+      "quote": {
+        "heading": "What the State told the High Court",
+        "text": "On the complaint made by the Mandal Executive Magistrate, Kakinada Urban regarding the petitioner's attempt to commit suicide, a case in Cr.No.80 of 2023 was registered u/s 309 r/w 34 IPC.",
+        "where": "W.P. No. 21912 of 2023, order dated 6 January 2026, para 4",
+        "url": "https://indiankanoon.org/doc/26415901/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Prosecuted for her own distress",
+          "text": "The only person the alleged act could have harmed was the woman herself. Parliament has said such a person should be presumed to be under severe stress and not punished, yet a criminal case was registered against her on an official's complaint."
+        }
+      ],
+      "caveats": "The facts about the hunger strike and the suicide attempt are the State's account, given on instructions; they were not tested by the court. The order does not give the date of the incident or say whether the case has been charge-sheeted or closed. If you or someone you know is struggling, Tele-MANAS (14416) offers free support.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/26415901/",
+          "kind": "court_order",
+          "publisher": "High Court of Andhra Pradesh (via Indian Kanoon)",
+          "date": "2026-01-06",
+          "supports": "the petitioner's allegations, the State's account, the section 309 case and the court's direction"
+        },
+        {
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2249/1/A2017-10.pdf",
+          "kind": "statute",
+          "publisher": "India Code (Mental Healthcare Act, 2017)",
+          "date": null,
+          "supports": "section 115: presumption of severe stress in case of attempt to commit suicide"
+        }
+      ],
+      "verification": "V2"
+    }
+  ]
+}
