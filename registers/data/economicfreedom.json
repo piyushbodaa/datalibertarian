@@ -1313,6 +1313,110 @@
       "verification": "V2"
     },
     {
+      "id": "ef-hp-0005",
+      "category": "capital",
+      "state": "Himachal Pradesh",
+      "title": "ED searches Naldehra project over alleged undisclosed foreign investments",
+      "summary": "The Directorate of Enforcement searched six premises in Himachal Pradesh and Delhi under FEMA and seized cash, foreign currency, records and digital evidence. ED said the investigation concerned alleged undisclosed foreign investments, bank accounts and assets and remained in progress.",
+      "date": "2025-09-21",
+      "date_label": "ED press release",
+      "incident_date": "2025-09-20",
+      "outcome": "seizure",
+      "authority": "Directorate of Enforcement, Shimla",
+      "laws": [
+        "Foreign Exchange Management Act, 1999"
+      ],
+      "acts": [
+        "Foreign Exchange Management Act, 1999"
+      ],
+      "person": "owners and related entities of a Delhi-based aerospace and real-estate group with a residential project at Naldehra",
+      "detail": [
+        "ED said its Shimla office searched six premises in Himachal Pradesh and Delhi on 19 and 20 September 2025 under FEMA.",
+        "ED said the investigation concerned alleged undisclosed assets, foreign investments and financial interests associated with a group operating in aerospace and real estate. Its Naldehra residential project was among the searched premises.",
+        "ED said records revealed alleged financial interests or assets in Singapore, Dubai, Thailand and the British Virgin Islands. It estimated their value at more than Rs 80 crore.",
+        "ED said it seized about Rs 50 lakh in Indian currency and USD 14,700, froze three lockers, and seized records and digital evidence.",
+        "ED said its investigation was still in progress. The release did not report an arrest, adjudicated FEMA contravention or final penalty."
+      ],
+      "current_position": "As of the 21 September 2025 press release, the FEMA investigation was in progress and no final adjudication was reported.",
+      "quote": {
+        "text": "The total cash seized during the search operations is Rs. 50 Lakh (approx.) in Indian currency (including cash of Rs. 50,000/ seized in old 500-rupee currency notes) in addition to seized foreign currency of USD 14,700.",
+        "where": "ED press release dated 21.09.2025, page 2",
+        "url": "https://www.enforcementdirectorate.gov.in/media/press-release-documents/37e44cc8-602f-4b69-a43b-03af5c8ce44b_Press%20release_Search-Imperial%20Group%2021.09.2025%20_FINAL.pdf"
+      },
+      "caveats": "The release does not identify which of the six premises yielded each seized item. It describes Naldehra as being in Himachal Pradesh but does not print its district. ED's allegations had not been finally adjudicated as of the release.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The stated basis of the action was holding and moving private capital through foreign companies, accounts and assets. The official release identified no violence, coercion, fraud victim, drugs, bribery or other complaining victim."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.enforcementdirectorate.gov.in/media/press-release-documents/37e44cc8-602f-4b69-a43b-03af5c8ce44b_Press%20release_Search-Imperial%20Group%2021.09.2025%20_FINAL.pdf",
+          "kind": "press_release",
+          "publisher": "Directorate of Enforcement",
+          "date": "2025-09-21",
+          "supports": "Search dates and locations, FEMA basis, alleged foreign investments and assets, cash and foreign-currency seizure, frozen lockers, and continuing investigation."
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-hp-0006",
+      "category": "business",
+      "state": "Himachal Pradesh",
+      "title": "Solan vending zones de-notified, displacing petty traders",
+      "summary": "Municipal Corporation, Solan de-notified two Saproon vending zones after vendors had been displaced during highway work. The Himachal Pradesh High Court directed the Corporation to reassess that decision within four weeks because relevant livelihood and street-vending protections had apparently not been considered.",
+      "date": "2026-08-12",
+      "date_label": "High Court judgment",
+      "incident_date": "2024-08-13",
+      "district": "Solan",
+      "outcome": "status_cancelled",
+      "authority": "Municipal Corporation, Solan; Himachal Pradesh High Court",
+      "case_reference": "CWP No. 8741/2025; 2026:HHC:33862",
+      "laws": [
+        "Sections 3, 4, 5, 18, 21, 29 and 38 of the Street Vendors (Protection of Livelihood and Regulation of Street Vending) Act, 2014",
+        "Clause 14 of the Himachal Pradesh Street Vendors (Protection of Livelihood and Regulation of Street Vending) Scheme, 2016",
+        "Rules 4 and 5 of the Himachal Pradesh Street Vendors (Protection of Livelihood and Regulation of Street Vending) Rules, 2016"
+      ],
+      "acts": [
+        "Street Vendors (Protection of Livelihood and Regulation of Street Vending) Act, 2014"
+      ],
+      "person": "24 petty street vendors near Bus Stop Saproon and Valley Side Saproon, Solan",
+      "detail": [
+        "The High Court recorded that 24 petitioners or their predecessors had earned a livelihood through street vending near Bus Stop Saproon and Valley Side Saproon for more than 30 years. They sold fruit, vegetables, fast food, tea, roasted corn, groundnuts and other food.",
+        "The High Court recorded that Municipal Corporation, Solan had notified the two locations as Vending Zones 4 and 5 on 11 October 2023. The Corporation de-notified them through a Town Vending Committee decision on 13 August 2024.",
+        "The Court recorded that the vendors had been displaced while the Solan-Parwanoo highway was widened and had not been returned after the work was completed. The Corporation said alternative vending zones existed, but most petitioners did not appear in its 2021 survey.",
+        "The Court found that the mode of the 2021 survey was not available on record and that it was unclear whether street vendors comprised the required share of the Town Vending Committee.",
+        "The High Court said relevant factors had apparently not been considered and directed the Corporation to reassess the de-notification within four weeks. It disposed of the petition without itself restoring the zones."
+      ],
+      "current_position": "The de-notification was not quashed, but Municipal Corporation, Solan was ordered to reconsider it within four weeks in accordance with the street-vending law and the Court's observations.",
+      "quote": {
+        "text": "All the above relevant factors have apparently not been considered by respondent No.3 while de-notifying vending Zones No.4 & 5. In view of above & in the interest of justice, it is deemed appropriate to direct respondent No. 3-Municipal Corporation, Solan to have a relook/reassess and revisit its decision of de-notifying Vending Zones Nos. 4 and 5, in accordance with law as also keeping in view the aforesaid observations made in Malkit Singh & Another.4 within four weeks. Ordered accordingly.",
+        "where": "CWP No. 8741/2025, 2026:HHC:33862, page 21-22",
+        "url": "https://indiankanoon.org/doc/69314466/"
+      },
+      "caveats": "The judgment does not say that the vending zones were restored or that the vendors had returned by the decision date. It also does not identify the exact date on which each vendor was physically displaced.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The vendors were conducting ordinary petty trade, and the record discloses no violence, fraud, unsafe product or complaining victim. The state action removed their recognised places of business and disrupted their livelihoods."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/69314466/",
+          "kind": "judgment",
+          "publisher": "Himachal Pradesh High Court, reproduced by Indian Kanoon",
+          "date": "2026-08-12",
+          "supports": "Identity and livelihood of the vendors, de-notification date, displacement, governing law, deficiencies in the municipal record, and direction to reassess."
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "ef-jh-0007",
       "category": "labour",
       "state": "Jharkhand",

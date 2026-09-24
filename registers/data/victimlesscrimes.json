@@ -2099,6 +2099,108 @@
       "verification": "V2"
     },
     {
+      "id": "vc-nl-0005",
+      "category": "tobacco",
+      "state": "Nagaland",
+      "title": "Twenty Chozuba shops penalised during tobacco-control drive",
+      "summary": "A government enforcement squad inspected shops near educational institutions in Chozuba. Nagaland DIPR reported that 20 shops were penalised under Section 6(b) of COTPA 2003.",
+      "date": "2026-09-09",
+      "date_label": "Nagaland DIPR report",
+      "incident_date": "2026-09-08",
+      "district": "Phek",
+      "outcome": "penalty",
+      "authority": "National Tobacco Control Programme, Phek; Chozuba district administration; and Nagaland Police personnel",
+      "laws": [
+        "Section 6(b) of COTPA 2003"
+      ],
+      "acts": [
+        "Cigarettes and Other Tobacco Products Act, 2003"
+      ],
+      "person": "20 shop operators in Chozuba",
+      "penalty": "The amount and form of the penalties were not reported.",
+      "detail": [
+        "Nagaland DIPR said the National Tobacco Control Programme, Phek, and a block enforcement squad conducted an enforcement drive near educational institutions in Chozuba on 8 September 2026.",
+        "DIPR identified the participating public authorities as the district administration and police personnel, alongside Dobashis and local organisations.",
+        "DIPR reported that 20 shops found violating Section 6(b) of COTPA 2003 were penalised.",
+        "The official report did not identify any sale to a particular minor, complaining victim, counterfeit product or smuggled cigarette."
+      ],
+      "current_position": "The 20 shops had been penalised, but the official report did not disclose the amounts or any later proceedings.",
+      "quote": {
+        "text": "During the conduct, 20 shops found violating were penalised under section 6(b) of COTPA 2003 (Prohibition of Sale of Tobacco Products to Minors or by Minors).",
+        "where": "Nagaland DIPR report, body text",
+        "url": "https://ipr.nagaland.gov.in/surprise-checking-of-shops-conducted-in-chozuba"
+      },
+      "caveats": "The official report does not specify each shop, the products seized, the penalty amounts or whether the alleged violation was proximity to an educational institution or sale to or by minors. A 21 September 2026 Dimapur seizure report was newer, but only a news report was found, so it did not satisfy the official-source requirement.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The reported conduct was selling or stocking lawful tobacco products in a prohibited area. The official account identifies no injured or complaining person."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ipr.nagaland.gov.in/surprise-checking-of-shops-conducted-in-chozuba",
+          "kind": "press_release",
+          "publisher": "Department of Information & Public Relations, Government of Nagaland",
+          "date": "2026-09-09",
+          "supports": "The date and location of the drive, participating authorities, number of shops penalised and Section 6(b) attribution."
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-nl-0007",
+      "category": "other",
+      "state": "Nagaland",
+      "title": "Kohima shops fined and goods seized under single-use plastic ban",
+      "summary": "A government Special Task Force inspected Kohima shops for compliance with the single-use plastic ban. Nagaland DIPR reported that officials seized single-use plastic items and fined non-compliant shops.",
+      "date": "2024-11-08",
+      "date_label": "Nagaland DIPR report",
+      "incident_date": "2024-11-08",
+      "district": "Kohima",
+      "outcome": "penalty",
+      "authority": "Kohima Special Task Force, district administration, Kohima Municipal Council and Nagaland Police personnel",
+      "laws": [
+        "ongoing Single-Use Plastic (SUP) ban"
+      ],
+      "acts": [
+        "ongoing Single-Use Plastic (SUP) ban"
+      ],
+      "person": "shop operators in Kohima",
+      "penalty": "Fines were imposed and single-use plastic items were seized; amounts were not reported.",
+      "detail": [
+        "Nagaland DIPR said the Special Task Force carried out a field inspection in Kohima on 8 November 2024 to enforce the ongoing single-use plastic ban.",
+        "DIPR said the team included the district administration, Kohima Municipal Council, police personnel, Dobashis and the district public-relations office.",
+        "DIPR reported that several shops were found stocking and using single-use plastics.",
+        "DIPR said the task force seized a significant quantity of the items and imposed fines on the non-compliant shops."
+      ],
+      "current_position": "The goods had been seized and the shops fined; no appeal or later proceeding was reported.",
+      "quote": {
+        "text": "During the inspection, several shops were found in violation of the SUP ban by stocking and using single-use plastics. In response, the STF seized a significant quantity of SUP items and imposed fines on the non-compliant shops.",
+        "where": "Nagaland DIPR report, body text",
+        "url": "https://ipr.nagaland.gov.in/STF-CONDUCTS-FIELD-INSPECTION-FOR-SUP-BAN-IMPLEMENTATION-IN-KOHIMA"
+      },
+      "caveats": "The DIPR report does not identify the underlying notification or statutory provision, number of shops, quantity seized or fine amounts. Searches for 2025-2026 found later single-use-plastic notifications and threatened penalties, but no later official report confirming that a person was actually penalised. Searches also covered begging, attempted suicide, obscenity and public drinking without locating a qualifying recent Nagaland case.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The state penalised shop operators for stocking or using ordinary single-use plastic goods. The official report identifies no complainant, violence, fraud, coercion or directly injured person."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ipr.nagaland.gov.in/STF-CONDUCTS-FIELD-INSPECTION-FOR-SUP-BAN-IMPLEMENTATION-IN-KOHIMA",
+          "kind": "press_release",
+          "publisher": "Department of Information & Public Relations, Government of Nagaland",
+          "date": "2024-11-08",
+          "supports": "The inspection date, location, participating authorities, conduct attributed to the shops, seizures and fines."
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "vc-od-0001",
       "category": "sex-work",
       "state": "Odisha",

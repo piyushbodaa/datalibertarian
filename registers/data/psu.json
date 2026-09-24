@@ -4055,6 +4055,120 @@
       "verification": "V2"
     },
     {
+      "id": "psu-tr-0005",
+      "category": "dfi",
+      "state": "Tripura",
+      "name": "Tripura Industrial Development Corporation Limited (TIDCL)",
+      "summary": "TIDCL is a Government of Tripura company that performs the functions of both a State Financial Corporation and a State Industrial Development Corporation, including term lending to MSMEs. On 31 July 2026, the state e-procurement portal published a TIDCL tender for four fully built AC CNG buses, 18 electric passenger three-wheelers and charging facilities for nine industrial estates.",
+      "date": "2026-07-31",
+      "district": "West Tripura",
+      "headquarters": "Agartala, Tripura",
+      "state_link": "It is a Government of Tripura undertaking headquartered at Kunjaban, Agartala, and functions as Tripura's State Financial Corporation.",
+      "owner": "State government (Tripura)",
+      "administrative": "Department of Industries and Commerce, Government of Tripura",
+      "legal_form": "Unlisted State government company incorporated under the Companies Act, 1956; also performs State Financial Corporation functions under the State Financial Corporations Act, 1951",
+      "established": "1974; incorporated on 28 March 1974 under the Companies Act, 1956",
+      "status": "Sick (net worth negative)",
+      "financials": "FY2022-23, in accounts finalised during FY2024-25: turnover Rs 6.21 crore; net loss Rs 10.03 crore; paid-up capital including share-application money Rs 16.17 crore; accumulated loss Rs 35.44 crore; loans outstanding Rs 128.41 crore.",
+      "employees": "51 as reported with the FY2022-23 financial results finalised during FY2024-25",
+      "detail": [
+        "TIDCL's official website identifies it as a Department of Industries and Commerce, Government of Tripura undertaking and gives its head office as Shilpa Nigam Bhawan, Khejurbagan, Kunjaban, Agartala, West Tripura.",
+        "A 2025 Government of Tripura procurement document says TIDCL was set up in 1974 under the Companies Act, 1956, functions as both the State Financial Corporation and State Industrial Development Corporation, provides term loans to MSMEs, and develops industrial infrastructure.",
+        "The CAG's 2023-24 audit appendices classify TIDCL in the financing sector. Its latest finalised FY2022-23 accounts reported turnover of Rs 6.21 crore, a net loss of Rs 10.03 crore and accumulated losses exceeding paid-up capital, establishing negative net worth.",
+        "The Tripura e-procurement portal recorded a TIDCL tender published on 31 July 2026 for four AC CNG buses, 18 electric passenger three-wheelers and charging facilities across nine industrial estates."
+      ],
+      "caveats": "An official percentage-wise shareholder table was not located, so shareholding is null. The latest financial figures found are for FY2022-23, although CAG records that those accounts were finalised during FY2024-25. The 2026 procurement record establishes that a tender was issued, not that the vehicles had been delivered.",
+      "on_the_block": true,
+      "sources": [
+        {
+          "url": "https://tidc.netlify.app/",
+          "kind": "company_site",
+          "publisher": "Tripura Industrial Development Corporation Limited",
+          "date": null,
+          "supports": "Government of Tripura undertaking status, administrative department, activities and Agartala head-office address"
+        },
+        {
+          "url": "https://tripura.gov.in/sites/default/files/Expression_merged.pdf",
+          "kind": "government_order",
+          "publisher": "Government of Tripura",
+          "date": null,
+          "supports": "1974 establishment, company form, dual SFC/SIDC role, term lending and industrial-infrastructure functions"
+        },
+        {
+          "url": "https://cag.gov.in/uploads/download_audit_report/2025/10--Appendic-069ccc56eea6918.67024619.pdf",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": null,
+          "supports": "FY2022-23 turnover, loss, capital, accumulated loss, loans, manpower and financing-sector classification"
+        },
+        {
+          "url": "https://tripuratenders.gov.in/nicgep/app?component=%24DirectLink_11&page=FrontEndTenderDetails&service=direct",
+          "kind": "government_order",
+          "publisher": "eProcurement System of Government of Tripura",
+          "date": "2026-07-31",
+          "supports": "Latest identified official project: procurement of CNG buses, electric passenger vehicles and charging facilities for nine industrial estates"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-tr-0007",
+      "category": "statutory",
+      "state": "Tripura",
+      "name": "Tripura Road Transport Corporation (TRTC)",
+      "summary": "TRTC is the Government of Tripura's road-transport statutory corporation, constituted under the Road Transport Corporations Act, 1950. In the state budget presented on 21 March 2025, the Government provided a FY2025-26 grant-in-aid budget of Rs 10 crore for TRTC, against a FY2024-25 revised estimate of the same amount.",
+      "date": "2025-03-21",
+      "district": "West Tripura",
+      "headquarters": "Agartala, Tripura",
+      "state_link": "It is the Government of Tripura's statutory road-transport corporation and is headquartered at Krishnanagar, Agartala.",
+      "owner": "State government (Tripura)",
+      "administrative": "Transport Department, Government of Tripura",
+      "legal_form": "Statutory corporation under the Road Transport Corporations Act, 1950",
+      "established": "1969; established by the Government of Tripura under the Road Transport Corporations Act, 1950",
+      "status": "Sick (net worth negative)",
+      "financials": "FY2019-20, in accounts finalised during FY2022-23: turnover Rs 1.47 crore; net profit Rs 0.52 crore; accumulated loss Rs 288.04 crore; paid-up capital including share-application money Rs 163.96 crore; loans outstanding Rs 0.25 crore.",
+      "employees": "133 as reported with the FY2019-20 financial results finalised during FY2022-23",
+      "detail": [
+        "TRTC's official website states that it was established in 1969 under the Road Transport Corporations Act, 1950 as a Government of Tripura undertaking to provide coordinated transport services.",
+        "The Government of Tripura's FY2025-26 expenditure budget provided total TRTC grants-in-aid of Rs 10 crore. The budget was presented in the Legislative Assembly on 21 March 2025.",
+        "CAG identifies TRTC as Tripura's working statutory corporation. Its latest finalised FY2019-20 accounts showed turnover of Rs 1.47 crore and a Rs 0.52 crore profit for that year, but accumulated losses of Rs 288.04 crore exceeded paid-up capital of Rs 163.96 crore.",
+        "CAG reported manpower of 133 with those accounts and capital employed of negative Rs 123.83 crore, consistent with an enterprise whose net worth had been eroded."
+      ],
+      "caveats": "Shareholding is not applicable in the ordinary company sense because TRTC is a statutory corporation, so the field is null. The latest finalised financial statements identified by CAG were only for FY2019-20; the newer budget allocation is not revenue or profit. No official closure or disinvestment decision was found.",
+      "on_the_block": true,
+      "sources": [
+        {
+          "url": "https://thetrtc.com/welcome",
+          "kind": "company_site",
+          "publisher": "Tripura Road Transport Corporation",
+          "date": null,
+          "supports": "Government of Tripura undertaking status, 1969 establishment, governing Act and transport functions"
+        },
+        {
+          "url": "https://finance.tripura.gov.in/sites/default/files/Expenditure%20Budget%202025-26%20Volume%202%20-%20Part%20I.pdf",
+          "kind": "government_order",
+          "publisher": "Finance Department, Government of Tripura",
+          "date": "2025-03-21",
+          "supports": "FY2025-26 TRTC grant-in-aid budget of Rs 10 crore and FY2024-25 revised estimate"
+        },
+        {
+          "url": "https://cag.gov.in/uploads/download_audit_report/2025/10--Appendic-069ccc56eea6918.67024619.pdf",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": null,
+          "supports": "Statutory-corporation classification and FY2019-20 turnover, profit, capital, accumulated loss, loans, manpower and capital employed"
+        },
+        {
+          "url": "https://tripura.gov.in/sites/default/files/R_5_trtc.pdf",
+          "kind": "government_order",
+          "publisher": "Tripura Road Transport Corporation, Government of Tripura",
+          "date": "2019-08-08",
+          "supports": "TRTC's Krishnanagar, Agartala address and direct Government of Tripura undertaking description"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "psu-uk-0005",
       "category": "dfi",
       "state": "Uttarakhand",
@@ -4287,6 +4401,178 @@
           "publisher": "Wikipedia",
           "date": null,
           "supports": "Background: DPSU headquartered in Dehradun, established 2021 from OFB corporatisation"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-uk-0009",
+      "category": "jv",
+      "state": "Uttarakhand",
+      "name": "THDC India Limited (THDCIL)",
+      "summary": "THDCIL is a government power company and subsidiary of NTPC Limited, jointly owned by NTPC and the Government of Uttar Pradesh, with its registered and corporate office in Rishikesh, Uttarakhand. On 17 September 2026 it filed its FY2025-26 annual report and the notice of its 38th annual general meeting; it declared commercial operation of the fourth 250 MW unit of the Tehri pumped-storage plant with effect from 12 April 2026, and an 11 MWac floating-solar plant entered commercial operation on 17 July 2026.",
+      "date": "2026-09-17",
+      "district": "Dehradun",
+      "headquarters": "Rishikesh, Uttarakhand",
+      "state_link": "A central-government-controlled enterprise headquartered at Rishikesh in Dehradun district, Uttarakhand.",
+      "owner": "Joint: NTPC Limited and State government (Uttar Pradesh)",
+      "shareholding": "NTPC Limited 74.496%; Governor of Uttar Pradesh 25.504%, as of 31 March 2025.",
+      "administrative": "Ministry of Power, Government of India, through holding company NTPC Limited",
+      "legal_form": "Government company under Companies Act 2013 s.2(45); unlisted public company with listed non-convertible debt securities",
+      "status_label": "Schedule A, Miniratna Category-I CPSE",
+      "established": "1988; incorporated in July 1988 under the Companies Act 1956 as a Government of India–Government of Uttar Pradesh joint venture.",
+      "status": "Operating",
+      "financials": "FY2024-25 standalone: revenue from operations Rs 2,682.80 crore; profit for the period from continuing operations Rs 732.91 crore. FY2025-26 audited results and annual report were filed in 2026, but their numerical tables could not be reliably extracted from the opened pages.",
+      "detail": [
+        "THDCIL's company profile says it was incorporated as a public limited company in July 1988. Following NTPC's strategic acquisition on 25 March 2020, its equity is held by NTPC Limited and the Government of Uttar Pradesh in the ratio 74.496:25.504.",
+        "The FY2024-25 annual report identifies THDCIL as a Companies Act government company. Its standalone accounts reported revenue from operations of Rs 2,682.80 crore and profit from continuing operations of Rs 732.91 crore for FY2024-25.",
+        "THDCIL's exchange-disclosure page records commercial operation of Tehri PSP Unit IV, rated 250 MW, from 12 April 2026. It also records commercial operation of an 11 MWac floating-solar plant at Khurja from 17 July 2026, taking total installed and commercial capacity to 3,918 MW.",
+        "On 17 September 2026 THDCIL submitted its FY2025-26 annual report and notice of its 38th annual general meeting under the SEBI listing regulations."
+      ],
+      "caveats": "The current employee count was not confirmed. Although the FY2025-26 annual report and audited-result filing were opened through THDCIL's official index, their numerical financial tables were not retrievable, so the latest fully verified figures shown are FY2024-25. Rishikesh is administered within Dehradun district at the stated corporate-office address.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.thdc.co.in/en/investors_corner/corporate-announcement",
+          "kind": "exchange_filing",
+          "publisher": "THDC India Limited",
+          "date": "2026-09-17",
+          "supports": "FY2025-26 annual-report filing, 2026 project commissioning disclosures and listed-debt status."
+        },
+        {
+          "url": "https://www.thdc.co.in/en/about-us/company-thdcil",
+          "kind": "company_site",
+          "publisher": "THDC India Limited",
+          "date": null,
+          "supports": "Incorporation, ownership, strategic acquisition, business and Miniratna/Schedule A status."
+        },
+        {
+          "url": "https://www.thdc.co.in/index.php/en/about-us/joint-ventures-subsidiaries",
+          "kind": "company_site",
+          "publisher": "THDC India Limited",
+          "date": "2026-06-12",
+          "supports": "NTPC holding-company relationship and 74.496:25.504 ownership."
+        },
+        {
+          "url": "https://www.thdc.co.in/sites/default/files/performance/THDCIL_Annual_Report_2024_25.pdf",
+          "kind": "annual_report",
+          "publisher": "THDC India Limited",
+          "date": "2025-09-27",
+          "supports": "Government-company classification, FY2024-25 shareholding and financial results."
+        },
+        {
+          "url": "https://thdc.co.in/en/performance/annual-reports",
+          "kind": "company_site",
+          "publisher": "THDC India Limited",
+          "date": "2026-09-17",
+          "supports": "Availability of FY2025-26 annual report and Rishikesh registered/corporate-office address."
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-uk-0010",
+      "category": "municipal",
+      "state": "Uttarakhand",
+      "name": "Dehradun Smart City Limited (DSCL)",
+      "summary": "DSCL is the Companies Act special-purpose vehicle created under Uttarakhand's Urban Development Department to implement the Smart Cities Mission in Dehradun; Dehradun Nagar Nigam is a substantial shareholder and board participant. The CAG's November 2025 performance audit found, among other matters, that a Rs 4.55 crore solid-waste monitoring module remained unused through February 2025.",
+      "date": "2025-11-12",
+      "district": "Dehradun",
+      "headquarters": "Dehradun, Uttarakhand",
+      "state_link": "A Dehradun city-level SPV under Uttarakhand's Urban Development Department, with Dehradun Nagar Nigam holding a substantial equity interest.",
+      "owner": "Joint local-body/state-government bodies",
+      "shareholding": "Dehradun Nagar Nigam held 49,997 of 100,000 issued shares, or 49.997%, as of 31 March 2019; the Uttarakhand Municipal Accounting Manual describes DSCL as the city's Smart City SPV. A current shareholder register was not located.",
+      "administrative": "Urban Development Department, Government of Uttarakhand",
+      "legal_form": "Government company and Smart Cities Mission special-purpose vehicle incorporated under the Companies Act 2013",
+      "established": "2017; incorporated on 15 September 2017 as the Smart Cities Mission SPV for Dehradun.",
+      "status": "Operating",
+      "financials": "FY2021-22: turnover Rs 0 crore; net profit/loss Rs 0 crore; paid-up capital Rs 0.40 crore; net worth Rs 0.40 crore. Separately, CAG reported that DSCL spent Rs 634.11 crore during 2016-17 to 2022-23 from Rs 737.50 crore released.",
+      "detail": [
+        "CAG Report No. 5 of 2025 says Dehradun was Uttarakhand's only selected Smart City and that DSCL was established under the Urban Development Department on 15 September 2017. The SPV board includes government and urban-local-body representation.",
+        "The Uttarakhand Municipal Accounting Manual records that Dehradun Nagar Nigam held 49,997 of DSCL's 100,000 issued equity shares as of 31 March 2019 and that the Municipal Commissioner was a director.",
+        "CAG reported that Rs 737.50 crore had been released to DSCL through March 2023 and that it had spent Rs 634.11 crore. CAG's SPSE appendix separately reports FY2021-22 turnover and net result as nil, paid-up capital of Rs 0.40 crore and net worth of Rs 0.40 crore.",
+        "The November 2025 performance audit found that a biometric and sensor-based solid-waste module costing Rs 4.55 crore, operationally available since March 2022, remained unused through February 2025. The report was countersigned by the Comptroller and Auditor General on 12 November 2025."
+      ],
+      "caveats": "A current DSCL annual report, shareholder register and employee count were not available from the opened official pages. The latest company-level financial figures available in the CAG SPSE appendix were FY2021-22; mission receipts and expenditure are not equivalent to operating revenue. The local body's 49.997% holding is documented as of 31 March 2019 and should not be treated as a current percentage without an updated filing.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://cag.gov.in/webroot/uploads/download_audit_report/2025/Report-No.-05-Smart-Cities-UK---19-11-2025-signed-069b02aa24e1a16.54541284.pdf",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": "2025-11-12",
+          "supports": "Establishment, administrative control, mission role, project expenditure and 2025 performance-audit findings."
+        },
+        {
+          "url": "https://cag.gov.in/uploads/download_audit_report/2025/Uttrakhand-SPSEs_Report-No-4_English-19-11-25-signed-069b027136324e4.40790578.pdf",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": "2025-11-10",
+          "supports": "FY2021-22 paid-up capital, turnover, result, net worth and SPSE classification."
+        },
+        {
+          "url": "https://cpgfm.icai.org/wp-content/uploads/2022/08/Uttarakhand_municipal_ACCOUNTING_MANUAL_2021.pdf",
+          "kind": "government_order",
+          "publisher": "Urban Development Department, Government of Uttarakhand / Institute of Chartered Accountants of India",
+          "date": "2021-03-31",
+          "supports": "Dehradun Nagar Nigam shareholding and municipal relationship."
+        },
+        {
+          "url": "https://uktenders.gov.in/nicgep/app?component=%24DirectLink&page=FrontEndViewTender&service=direct&sp=SErms74BaH41IdA5G%2FpYR6A%3D%3D",
+          "kind": "company_site",
+          "publisher": "Government of Uttarakhand eProcurement System",
+          "date": "2023-06-07",
+          "supports": "DSCL office address in Dehradun."
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-uk-0011",
+      "category": "sick",
+      "state": "Uttarakhand",
+      "name": "Uttarakhand Power Corporation Limited (UPCL)",
+      "summary": "UPCL is Uttarakhand's state-owned electricity-distribution company and the sole distribution licensee serving all 13 districts. The CAG's November 2025 report classified it among the state enterprises whose net worth was completely eroded and reported FY2023-24 net worth of minus Rs 3,830.15 crore.",
+      "date": "2025-11-10",
+      "district": "Dehradun",
+      "headquarters": "Dehradun, Uttarakhand",
+      "state_link": "An Uttarakhand state public-sector enterprise under the state Energy Department, headquartered in Dehradun and distributing electricity throughout the state.",
+      "owner": "State government (Uttarakhand)",
+      "shareholding": "Government of Uttarakhand equity equalled the full reported paid-up capital of Rs 1,529.91 crore as of 31 March 2023, indicating 100% state ownership at that date; a later percentage was not separately stated.",
+      "administrative": "Department of Energy, Government of Uttarakhand",
+      "legal_form": "Government company incorporated under the Companies Act 1956",
+      "established": "2001; incorporated on 12 February 2001 under the Companies Act 1956.",
+      "status": "Sick (net worth negative)",
+      "financials": "FY2023-24: revenue from operations Rs 9,648.12 crore; total revenue Rs 10,077.88 crore; net loss Rs 146.91 crore; accumulated losses Rs 5,434.99 crore; net worth minus Rs 3,830.15 crore.",
+      "detail": [
+        "CAG describes UPCL as the sole electricity-distribution licensee in Uttarakhand, serving 29.13 lakh consumers across all 13 districts as of 31 March 2024. It was incorporated on 12 February 2001 and is administratively controlled by the state Energy Secretary.",
+        "CAG's FY2023-24 financial table reports revenue from operations of Rs 9,648.12 crore, total revenue of Rs 10,077.88 crore and a net loss of Rs 146.91 crore.",
+        "The same audit reports accumulated losses of Rs 5,434.99 crore and negative net worth of Rs 3,830.15 crore at 31 March 2024. CAG explained that negative net worth means the owners' investment has been wiped out by accumulated losses.",
+        "The report also contains a subject-specific audit of billing efficiency and revenue realisation. The audit incorporated UPCL's November 2024 response and the Government of Uttarakhand's endorsement dated 8 January 2025 before being countersigned on 10 November 2025."
+      ],
+      "caveats": "UPCL is operating and is labelled sick here solely because its officially reported net worth is negative; no closure, liquidation or disinvestment decision was found. A current employee count and a shareholder percentage after 31 March 2023 were not confirmed.",
+      "on_the_block": true,
+      "sources": [
+        {
+          "url": "https://cag.gov.in/uploads/download_audit_report/2025/Uttrakhand-SPSEs_Report-No-4_English-19-11-25-signed-069b027136324e4.40790578.pdf",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": "2025-11-10",
+          "supports": "Incorporation, operations, administrative control, FY2023-24 financial performance, negative net worth and audit development."
+        },
+        {
+          "url": "https://cag.gov.in/webroot/uploads/download_audit_report/2023/10-Chapter_5-066cdb2dccf4e96.88330443.pdf",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": "2024-03-31",
+          "supports": "Earlier confirmation that UPCL's net worth was negative and that reported state equity equalled paid-up capital as of 31 March 2023."
+        },
+        {
+          "url": "https://www.upcl.org/wss/form-downloads",
+          "kind": "company_site",
+          "publisher": "Uttarakhand Power Corporation Limited",
+          "date": null,
+          "supports": "Continuing electricity-distribution operations and corporate identity."
         }
       ],
       "verification": "V2"
