@@ -378,6 +378,72 @@
       "verification": "V1"
     },
     {
+      "id": "cl-ct-0001",
+      "category": "speech",
+      "state": "Chhattisgarh",
+      "title": "Christian forum office-bearer arrested in Raipur over social media comment",
+      "summary": "Raipur Civil Lines police arrested the president of the Chhattisgarh Christian Forum late on a Friday night over a Facebook comment about a Hindu deity. The complaint was filed by a BJP spokesperson. Police booked the case under BNS sections on enmity, religious feelings and insult.",
+      "date": "2026-08-08",
+      "date_label": "Arrest reported (police statement on Saturday)",
+      "district": "Raipur",
+      "outcome": "arrest",
+      "authority": "Raipur Civil Lines police",
+      "laws": [
+        "Section 196 BNS",
+        "Section 299 BNS",
+        "Section 352(2) BNS"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "president of a Christian forum in Raipur",
+      "detail": [
+        "Scroll reported that the forum president was arrested and produced for custody, stating: 'He was arrested on Friday night'. The same report said the complaint came from a ruling-party leader.",
+        "Outlook reported that the arrest happened in Raipur late Friday night following a complaint lodged by a BJP spokesperson and 'at the Civil Lines police station'.",
+        "Outlook quoted the police account of the sections as 'under Sections 196 (promoting enmity between different groups)' and '299 (deliberate and malicious acts intended to outrage religious feelings)'.",
+        "Outlook further quoted the third section as '352(2) (intentional insult with intent to provoke breach of peace)'. The report said the complainant gave police URLs and screenshots.",
+        "No allegation of violence, threat, doxxing, fraud, or coercion by the accused was reported; the case rests only on the comment about a deity."
+      ],
+      "current_position": "Arrested and case registered; further investigation reported as under way.",
+      "quote": {
+        "text": "He was arrested late Friday night",
+        "where": "Outlook article 'Chhattisgarh Christian Forum Office-Bearer Held Over Objectionable Social Media Post', published 8 August 2026",
+        "url": "https://www.outlookindia.com/national/chhattisgarh-christian-forum-office-bearer-held-over-objectionable-social-media-post-on-lord-shiva-2"
+      },
+      "caveats": "No court order or FIR copy found online; reliance is on three independent news reports quoting police, as permitted for speech arrests. Exact FIR number and post text could not be confirmed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "The state arrested a person for a social-media comment about a deity. The act harmed no one and involved no violence, threat, or fraud."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://scroll.in/latest/1094899/chhattisgarh-christian-group-chief-arrested-for-hurting-religious-sentiments-on-social-media",
+          "kind": "news",
+          "publisher": "Scroll",
+          "date": "2026-08-09",
+          "supports": "arrest, place, complaint, custody"
+        },
+        {
+          "url": "https://www.outlookindia.com/national/chhattisgarh-christian-forum-office-bearer-held-over-objectionable-social-media-post-on-lord-shiva-2",
+          "kind": "news",
+          "publisher": "Outlook India",
+          "date": "2026-08-08",
+          "supports": "arrest time and place, complainant, BNS sections, screenshots given to police"
+        },
+        {
+          "url": "https://www.dailypioneer.com/news/christian-forums-arun-pannalal-arrested-in-raipur-over-shiva-remark-bajrang-dal-protests",
+          "kind": "news",
+          "publisher": "The Pioneer",
+          "date": "2026-08-08",
+          "supports": "arrest, sections, complaint, investigation under way"
+        }
+      ],
+      "verification": "V1"
+    },
+    {
       "id": "cl-gj-0001",
       "category": "speech",
       "state": "Gujarat",
@@ -495,6 +561,66 @@
           "publisher": "Amar Ujala",
           "date": "2026-04-30",
           "supports": "Independent confirmation of the post, Palghar arrest, court production and judicial custody"
+        }
+      ],
+      "verification": "V1"
+    },
+    {
+      "id": "cl-jk-0002",
+      "category": "religion",
+      "state": "Jammu and Kashmir",
+      "title": "Shia mourners face UAPA FIR over flags and slogans at Muharram procession",
+      "summary": "Police in Srinagar registered an open FIR against Shia mourners for raising flags and slogans during the 8th Muharram procession through the traditional Guru Bazaar-Dalgate route. Kashmir Life reported the case as FIR No. 36 of 2024 at Kothibagh Police Station invoking BNS provisions and section 13 of the UAPA. A second outlet noted dozens arrested under the stringent law for waving Palestinian and Hezbollah flags at the mid-July Srinagar march.",
+      "date": "2024-07-17",
+      "date_label": "FIR reported",
+      "incident_date": "2024-07-15",
+      "district": "Srinagar",
+      "outcome": "prosecution_pending",
+      "authority": "Jammu and Kashmir Police (Kothibagh Police Station, Srinagar)",
+      "case_reference": "FIR No. 36/2024, Kothibagh Police Station, Srinagar",
+      "laws": [
+        "Sections 22, 23, 152 of BNS (as printed '2223, 152 of BNS Sections')",
+        "Section 13, UAPA"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023",
+        "Unlawful Activities (Prevention) Act, 1967"
+      ],
+      "person": "Shia mourners in Srinagar",
+      "detail": [
+        "Kashmir Life reported that Jammu and Kashmir Police registered an FIR against Shia mourners for raising Hezbollah flags and slogans during the 8th Muharram procession in Srinagar.",
+        "Kashmir Life reported the open FIR was filed at Kothibagh Police Station as FIR No. 36 of 2024 under BNS sections and section 13 of the UAPA, with identities not disclosed.",
+        "Kashmir Life described the procession as the 8th Muharram march through the traditional Guru Bazaar-Dalgate route, with police concern framed as inciting unrest and disturbing public order.",
+        "Middle East Monitor separately noted that dozens were arrested under the stringent law for waving Palestinian and Hezbollah flags at the mid-July Srinagar march, and quoted counsel saying merely waving a flag is not a criminal offence."
+      ],
+      "current_position": "Open FIR registered and reported in July 2024; no disclosed accused list, charge sheet, or court outcome could be confirmed.",
+      "quote": {
+        "text": "The Jammu and Kashmir Police have registered a First Information Report (FIR) against Shia mourners",
+        "where": "Kashmir Life, 'Shia Mourners in Srinagar Face UAPA Charges', 17 July 2024",
+        "url": "https://kashmirlife.net/shia-mourners-in-srinagar-face-uapa-charges-for-hezbollah-slogans-368927/"
+      },
+      "caveats": "No official FIR copy, gazette, or court order could be opened; sections appear in the report as '2223, 152 of BNS Sections' and are transcribed as printed; exact procession day is inferred from reports dated 15-17 July 2024.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "Mourners were prosecuted under anti-terror law for flags and slogans raised during a religious procession, with no violence, injury, fraud, or complaining victim alleged in the reports."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://kashmirlife.net/shia-mourners-in-srinagar-face-uapa-charges-for-hezbollah-slogans-368927/",
+          "kind": "news",
+          "publisher": "Kashmir Life",
+          "date": "2024-07-17",
+          "supports": "FIR against mourners, Hezbollah flags and slogans at 8th Muharram procession, Kothibagh FIR No. 36/2024, BNS and 13 UAPA sections, route, undisclosed identities"
+        },
+        {
+          "url": "https://www.middleeastmonitor.com/20240723-is-waving-a-palestinian-flag-a-crime-in-india/",
+          "kind": "news",
+          "publisher": "Middle East Monitor",
+          "date": "2024-07-23",
+          "supports": "second outlet corroboration that dozens were arrested under the stringent law for waving Palestinian and Hezbollah flags at the Srinagar mid-July march"
         }
       ],
       "verification": "V1"

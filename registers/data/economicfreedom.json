@@ -546,6 +546,118 @@
       "verification": "V2"
     },
     {
+      "id": "ef-as-0001",
+      "category": "crypto",
+      "state": "Assam",
+      "title": "Gauhati High Court orders release of Bitcoin trader's frozen bank account",
+      "summary": "Assam Police's cyber cell had a P2P Bitcoin seller's bank account frozen after he sold Rs 8,000 worth of Bitcoin on Binance. No cheating or fraud charge was laid against him. The Gauhati High Court allowed his plea and the account lien was directed to be removed.",
+      "date": "2024-04-08",
+      "date_label": "High Court order",
+      "incident_date": "2022-08-09",
+      "district": "Kamrup (Metro)",
+      "outcome": "penalty_set_aside",
+      "authority": "Gauhati High Court (Hon'ble Mrs. Justice Malasri Nandi); CID Cyber Crime Cell, Assam, Guwahati; Chandmari Police Station, Guwahati",
+      "case_reference": "Crl.Pet./1018/2023; Chandmari P.S. GDE No. 415/2022; complaint No. 30408220003232 dated 09.08.2022",
+      "laws": [
+        "Section 482, Code of Criminal Procedure, 1973"
+      ],
+      "acts": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "person": "a P2P Bitcoin seller using a Guwahati-linked bank account",
+      "penalty": "Account freeze with lien of Rs 5,000 and UPI recall of Rs 8,000; High Court allowed the release prayer",
+      "detail": [
+        "The High Court recorded that the petitioner was 'actively engaged in the world of cryptocurrency trading', 'particularly in Bitcoin, through the popular exchange platform, Binance.'",
+        "The order states that on 08.08.2022 he sold Bitcoin for 'a total amount of Rs.8,000/-', paid by UPI into his Jupiter/Federal Bank account, with a Binance receipt showing completion; the next day the bank told him 'his account has been frozen on instructions and orders of a Law Enforcement Agency(LEA).'",
+        "The freeze traced to 'a complaint against his account number was lodged at the National Cyber Crime Reporting Portal' 'vide complaint No. 30408220003232 dated 09.08.2022', linked to Chandmari P.S. GDE No. 415/2022. The investigating officer later reported the account 'is not freezed' but 'under inactive status', with a centrally marked lien, and that 'Chandmari O/C has sent notice dated 19-10-2023 to the bank for removing of the said lien.'",
+        "The Court held 'the prayer of the petitioner is allowed' and 'Accordingly, the revision petition stands disposed of.' The excerpt sets out no penal section and no allegation of trickery or dishonest gain against the petitioner."
+      ],
+      "current_position": "The petition was allowed and disposed of on 08.04.2024, with the lien-removal process for the account already initiated by the police.",
+      "quote": {
+        "text": "his account has been frozen on instructions and orders of a Law Enforcement Agency(LEA).",
+        "where": "Gauhati High Court, Crl.Pet./1018/2023, order dated 08.04.2024",
+        "url": "https://indiankanoon.org/doc/31636547/"
+      },
+      "caveats": "District inferred as Kamrup (Metro) from Chandmari P.S., Guwahati. The buyer is described in the order as informant, but the excerpt attributes no fraud or cheating allegation to the petitioner.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "A voluntary P2P Bitcoin sale for Rs 8,000, with coins delivered and receipted, harmed no one; the seller faced an account freeze without any cheating charge against him."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/31636547/",
+          "kind": "judgment",
+          "publisher": "Gauhati High Court via Indian Kanoon",
+          "date": "2024-04-08",
+          "supports": "trading facts, freeze, complaint and GDE numbers, IO report, final direction"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-as-0003",
+      "category": "gold",
+      "state": "Assam",
+      "title": "CESTAT sets aside confiscation of gold seized by DRI in Guwahati",
+      "summary": "DRI's Guwahati unit seized six gold bars weighing 996.020 grams from a man near Pan Bazar, Guwahati, and later four more bars from a Guwahati residence. The Commissioner of Customs (Preventive), Shillong ordered absolute confiscation plus penalties. On 24.06.2026 the CESTAT set aside the confiscation of the six bars and set aside the penalties.",
+      "date": "2026-06-24",
+      "date_label": "CESTAT final order",
+      "incident_date": "2017-10-27",
+      "district": "Kamrup (Metro)",
+      "outcome": "penalty_set_aside",
+      "authority": "Customs, Excise & Service Tax Appellate Tribunal, Regional Bench (Court No. 1); Directorate of Revenue Intelligence, Guwahati Zonal Unit; Commissioner of Customs (Preventive), NER, Shillong",
+      "case_reference": "Seizure Case No. 18/CL/IMP/GOLD/DRI/GAU/2017-18 dated 28.10.2017; Order-in-Original No.CCP/NER/12/2019 dated 19.07.2019; Customs Appeal Nos. 77220, 77221 & 77223 of 2019; Final Order Nos. 75764-75766/2026",
+      "laws": [
+        "Section 111(b), Customs Act, 1962",
+        "Section 111(d), Customs Act, 1962",
+        "Section 112(b)(i), Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "three appellants: a carrier intercepted in Guwahati and two associates",
+      "penalty": "Absolute confiscation of six gold bars (996.020 g) out of ten bars (1660.240 g, valued at Rs 50,70,386) and penalties of Rs 3,00,000, Rs 2,00,000 and Rs 1,50,000; confiscation and penalties set aside on 24.06.2026",
+      "detail": [
+        "The Tribunal recorded that 'on 27.10.2017, at about 19:00 hours,' officers of the DRI, 'Guwahati Zonal Unit,' effected the interception 'near City Bus Stop, Pan Bazar, Guwahati' and 'recovered 6 (six) pieces of gold bars collectively weighing 996.020 grams,' under 'Seizure Case No. 18/CL/IMP/GOLD/DRI/GAU/2017-18 dated 28.10.2017.'",
+        "The order notes a later recovery of 'another 4 (four) gold bars collectively weighing 664.220 grams along with Indian currency amounting to Rs.1,53,320/-' from a residence at Kumarpara, Athgaon, Guwahati, taking the adjudicated total to 'all the 10 (ten) gold bars collectively weighing 1660.240 grams' 'valued at Rs.50,70,386/-'. The Commissioner of Customs (Preventive), Shillong, by Order-in-Original No.CCP/NER/12/2019 dated 19.07.2019, had ordered absolute confiscation with penalties under Sections 111(b), 111(d) and 112(b)(i).",
+        "After hearing on 'DATE OF HEARING : 25 MAY 2026' and pronouncement on 'DATE OF PRONOUNCEMENT : 24 JUNE 2026', the Tribunal held the six-bar absolute-confiscation direction 'is held to be unsustainable and is hereby set aside,' and the penalties 'are accordingly set aside.' No violence, fraud, or complaining victim figures in the case; it was purely a customs-control seizure."
+      ],
+      "current_position": "The six-bar confiscation stands set aside and the penalties on the three appellants stand set aside under Final Order Nos. 75764-75766/2026.",
+      "quote": {
+        "text": "recovered 6 (six) pieces of gold bars collectively weighing 996.020 grams.",
+        "where": "CESTAT (Kolkata), Final Order Nos. 75764-75766/2026 dated 24.06.2026",
+        "url": "https://indiankanoon.org/doc/144840884/"
+      },
+      "caveats": "The visible excerpt confirms the six-bar confiscation and all three penalties were set aside; the treatment of the remaining four bars and seized cash could not be fully confirmed from the excerpt. Appeal numbering appears across linked matters as 77221-77223 of 2019.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Carrying and storing gold harmed no one; the only allegation was breach of customs controls, with no victim, violence, fraud or adulteration involved."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/144840884/",
+          "kind": "judgment",
+          "publisher": "CESTAT via Indian Kanoon",
+          "date": "2026-06-24",
+          "supports": "interception facts, seizure number, weights and value, adjudication history, final order setting aside confiscation and penalties"
+        },
+        {
+          "url": "https://dri.nic.in/",
+          "kind": "press_release",
+          "publisher": "Directorate of Revenue Intelligence",
+          "date": null,
+          "supports": "pattern of DRI gold enforcement in Guwahati, including a June 2025 gold-wires seizure at Guwahati airport"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "ef-br-0002",
       "category": "forex",
       "state": "Bihar",
@@ -705,6 +817,167 @@
           "publisher": "Patna High Court via Indian Kanoon",
           "date": "2026-09-01",
           "supports": "seizure, confiscation case, confiscation order, auction amount, dismissal of appeal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-ct-0003",
+      "category": "gold",
+      "state": "Chhattisgarh",
+      "title": "RPF seizure of gold bar at Bilaspur station left to Customs adjudication",
+      "summary": "Railway Protection Force officers seized a 1-kg gold bar at Bilaspur station and more gold from premises in 2021. The possessor challenged the 2022 Customs show-cause notice before the High Court. The High Court dismissed the writ as premature and left the case to Customs adjudication and appeal.",
+      "date": "2025-09-16",
+      "date_label": "High Court order",
+      "incident_date": "2021-11-19",
+      "district": "Bilaspur",
+      "outcome": "seizure",
+      "authority": [
+        "High Court of Chhattisgarh at Bilaspur",
+        "Railway Protection Force"
+      ],
+      "case_reference": "WPC No. 4921 of 2025, [petitioner anonymized] vs Union of India",
+      "laws": [
+        "Section 110 Customs Act, 1962",
+        "Section 123 Customs Act, 1962",
+        "Section 128 Customs Act, 1962",
+        "Section 129 Customs Act, 1962",
+        "Sections 12 and 13 RPF Act"
+      ],
+      "acts": [
+        "Customs Act, 1962",
+        "Railway Protection Force Act, 1957"
+      ],
+      "person": "a trader carrying gold at Bilaspur railway station",
+      "detail": [
+        "The High Court recorded that a 1-kg gold bar was taken at Bilaspur railway station on 19.11.2021 and that further gold was taken from premises on 19-20.11.2021.",
+        "The Customs department said the seizure followed interception and papers pointing to foreign-origin smuggling and invoked the burden on the possessor to show lawful origin.",
+        "The possessor said the gold was of Indian origin bought lawfully with bills and that the search and show-cause notice dated 18.06.2022 were without jurisdiction.",
+        "The High Court held the writ against the show-cause notice was premature, involved disputed facts for the adjudicator, and that an appeal to Commissioner (Appeals) and CESTAT was available.",
+        "The High Court dismissed the petition and directed the petitioner to avail statutory remedies under the Customs Act, 1962."
+      ],
+      "current_position": "Writ dismissed on 16.09.2025; seizure stands and show-cause notice proceeds to adjudication with appeal remedy preserved.",
+      "quote": {
+        "text": "The SCN dated 18.06.2022 alleges confiscation of all seized gold",
+        "where": "[petitioner anonymized] vs Union of India, WPC No. 4921 of 2025, judgment text",
+        "url": "https://indiankanoon.org/doc/51057826/"
+      },
+      "caveats": "Full authenticated certified copy not opened; weight and purity details beyond 1 kg and dates taken from court summary. Final confiscation or penalty outcome after adjudication not yet recorded.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Carrying and storing gold harmed no one. No violence, fraud, theft or victim was alleged; the case is only about bringing in and keeping gold without proving lawful origin."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/51057826/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon / High Court of Chhattisgarh",
+          "date": "2025-09-16",
+          "supports": "seizure facts, SCN date, dismissal holding and case number"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-ct-0005",
+      "category": "capital",
+      "state": "Chhattisgarh",
+      "title": "Tax addition upheld over hawala-paid marble purchase in Durg-Bhilai",
+      "summary": "The Income-tax Appellate Tribunal in Raipur dismissed a Durg-Bhilai purchaser's appeal on 25 November 2024. The Tribunal sustained an addition of Rs 46,48,425 as unexplained investment for marble purchases paid through hawala. A mobile phone seized from the purchaser's residence contained a WhatsApp message evidencing the payments, and the amount was taxed under section 69.",
+      "date": "2024-11-25",
+      "date_label": "ITAT order",
+      "district": "Durg",
+      "outcome": "penalty",
+      "authority": "Income-tax Appellate Tribunal, Raipur Bench",
+      "case_reference": "ITA No. 383/RPR/2024 (Assessment Year 2014-15)",
+      "laws": [
+        "Section 69, Income-tax Act, 1961"
+      ],
+      "acts": [
+        "Income-tax Act, 1961"
+      ],
+      "person": "a marble purchaser in Durg-Bhilai",
+      "penalty": "Rs 46,48,425 added as unexplained investment under section 69; appeal dismissed",
+      "detail": [
+        "The Tribunal recorded that a search of the residential premises of the purchaser at Pushpak Nagar, Durg-Bhilai led to the seizure of a mobile phone; a WhatsApp message recovered from it indicated that Rs 46,48,425 had been paid for marble purchases partly by cheque and partly in cash.",
+        "The Tribunal recorded that the purchaser accepted that Rs 46,48,425 paid towards the marble purchases had moved through hawala.",
+        "The Tribunal treated the amount as an unexplained investment of the purchaser under section 69 of the Income-tax Act.",
+        "The Tribunal dismissed the appeal, so the addition of Rs 46,48,425 to total income stands."
+      ],
+      "current_position": "The appeal stands dismissed and the Rs 46,48,425 addition is sustained.",
+      "quote": {
+        "text": "he has accepted an amount of Rs. 46,48,425/- was paid by him through hawala.",
+        "where": "ITAT Raipur order in ITA No. 383/RPR/2024",
+        "url": "https://indiankanoon.org/doc/61591525/"
+      },
+      "caveats": "The order is from a statutory tax tribunal rather than a constitutional court. The date of the underlying search and the marble seller's identity could not be confirmed from the pages opened.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Paying for ordinary building material through an informal transfer harmed no complaining victim, yet the state taxed the sum as unexplained investment and upheld the penalty on appeal."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/61591525/",
+          "kind": "court_order",
+          "publisher": "Income-tax Appellate Tribunal, Raipur Bench (via Indian Kanoon)",
+          "date": "2024-11-25",
+          "supports": "hawala payment for marbles, residence search, section 69 addition, appeal dismissed"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-ct-0006",
+      "category": "business",
+      "state": "Chhattisgarh",
+      "title": "Street vendor's confiscated goods case disposed with direction to Raipur civic body",
+      "summary": "The High Court of Chhattisgarh recorded that a street vendor near Ayurvedic College, Raipur sought release of confiscated goods and a vending certificate. The Court directed the Municipal Corporation of Raipur to consider the vendor's application dated 18.04.2024 within three months. The Court disposed of the writ petition with that direction on 10 June 2024.",
+      "date": "2024-06-10",
+      "date_label": "High Court order",
+      "district": "Raipur",
+      "outcome": "seizure",
+      "authority": "High Court of Chhattisgarh at Bilaspur; Municipal Corporation of Raipur",
+      "case_reference": "WPC No. 2590 of 2024 (2024:CGHC:18587)",
+      "laws": [
+        "Street Vendors (Protection of Livelihood and Regulation of Street Vendor) Act, 2014"
+      ],
+      "acts": [
+        "Street Vendors (Protection of Livelihood and Regulation of Street Vendor) Act, 2014"
+      ],
+      "person": "a street vendor near Ayurvedic College, Raipur",
+      "detail": [
+        "The High Court recorded that the petitioner is a street vendor earning a livelihood near Ayurvedic College, Raipur.",
+        "The High Court recorded the vendor's prayer for release of confiscated goods and for a vending certificate under the Street Vendors Act, 2014.",
+        "The High Court directed the authorities to consider the vendor's application dated 18.04.2024, preferably within three months of receiving the order.",
+        "The High Court disposed of the writ petition with that observation and direction."
+      ],
+      "current_position": "The petition stands disposed of with a direction to the civic body to decide the vendor's application; release of the goods was sought but its outcome is not recorded in the order.",
+      "quote": {
+        "text": "10.1 Issue a writ of mandamus directing the respondents to release the petitioner's confiscated goods;",
+        "where": "WPC No. 2590 of 2024, prayer clause",
+        "url": "https://indiankanoon.org/doc/27665948/"
+      },
+      "caveats": "The type and quantity of the confiscated goods, and the date and authority of the confiscation, are not stated in the order. Whether the goods were later released could not be confirmed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Selling goods on the street to earn a living harmed no complaining victim, yet the vendor's goods were confiscated by the civic body."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/27665948/",
+          "kind": "court_order",
+          "publisher": "High Court of Chhattisgarh (via Indian Kanoon)",
+          "date": "2024-06-10",
+          "supports": "confiscated goods, vending place, Act, application date, direction and disposal"
         }
       ],
       "verification": "V2"
@@ -928,6 +1201,62 @@
           "publisher": "Delhi High Court via Indian Kanoon",
           "date": "2026-07-21",
           "supports": "Ownership and occupancy, nature of construction, MCD demolition order, rejection of interim relief and pending appeal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-ga-0007",
+      "category": "labour",
+      "state": "Goa",
+      "title": "Supreme Court revives Factories Act prosecution against Goa laundry operator over missing registration",
+      "summary": "The State of Goa prosecuted a private laundry operator for running a central unit without sanctioned drawings, operating permit and enrolment filings. The Bombay High Court at Goa had quashed the summons, but the Supreme Court on 3 March 2025 set aside that order and restored the complaint to the JMFC, Panaji, for trial.",
+      "date": "2025-03-03",
+      "date_label": "Supreme Court judgment",
+      "incident_date": "2019-05-20",
+      "district": "North Goa",
+      "outcome": "prosecution_pending",
+      "authority": "Supreme Court of India (appeal from High Court of Bombay at Goa; complaint before JMFC, Panaji)",
+      "case_reference": "Criminal Appeal arising from Stamp Number Main No. 944 of 2020 (F); JMFC Panaji order dated 04.12.2019",
+      "laws": [
+        "Section 2(k), Factories Act, 1948",
+        "Section 2(m), Factories Act, 1948",
+        "Section 6, Factories Act, 1948",
+        "Section 92, Factories Act, 1948",
+        "Rules 3, 4, 6, Goa Factories Rules, 1985"
+      ],
+      "acts": [
+        "Factories Act, 1948"
+      ],
+      "person": "a private laundry operator (occupier) running a central unit with collection points in Goa, charged under the Factories Act",
+      "detail": [
+        "The Supreme Court recorded that the case arose from an inspection of the laundry premises. The judgment notes the \"inspection conducted on 20.05.2019 in the premises\" followed by a compliance note dated 24.05.2019 and further proceedings before the magistrate.",
+        "The High Court recorded that the allegation was failure to obtain approvals and filings required for a factory. The charge was framed as operating \"as required under Rule 3 of the Goa Factories Rules, 1985\" and thereby \"committing offences punishable under Section 92 thereof\".",
+        "The High Court at Goa had quashed the JMFC Panaji's summons order dated 04.12.2019 on the view that dry-cleaning/laundry was not a manufacturing process. The Supreme Court disagreed, holding washing/cleaning for customer delivery falls within Section 2(k) and a premises with 10+ workers using machinery can fall within Section 2(m).",
+        "The Supreme Court opened its order with \"Leave granted.\" and closed by stating \"we allow the appeal and set aside the order of the High Court\" concerning the High Court order dated 06.09.2021, directing that the magistrate's order \"would stand restored to file of the learned JMFC, Panaji\".",
+        "No allegation of injury, death, unpaid wages owed, child labour or bonded labour appears in the judgment excerpts reviewed; the case concerns only missing plan approvals, permit and enrolment paperwork."
+      ],
+      "current_position": "Complaint and summons stand revived before the JMFC, Panaji, for trial under the Factories Act.",
+      "quote": {
+        "text": "we allow the appeal and set aside the order of the High Court",
+        "where": "The State of Goa vs [name withheld], Supreme Court, decided 3 March 2025, operative paragraph",
+        "url": "https://indiankanoon.org/doc/174327794/"
+      },
+      "caveats": "Full complaint number and worker headcount were not confirmed from the excerpts; reliance is on the Indian Kanoon text of the Supreme Court judgment.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "A private employer faces criminal prosecution only for missing staffing-related registrations and permits for a laundry service, with no complaining victim, injury or wage theft alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/174327794/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon (Supreme Court judgment text)",
+          "date": "2025-03-03",
+          "supports": "inspection date, sections charged, High Court quashing, Supreme Court revival and restoration to JMFC Panaji"
         }
       ],
       "verification": "V2"
@@ -1417,6 +1746,58 @@
       "verification": "V2"
     },
     {
+      "id": "ef-jh-0002",
+      "category": "forex",
+      "state": "Jharkhand",
+      "title": "Ranchi brothers face continued prosecution for receiving foreign currency in 1991-92",
+      "summary": "The Enforcement Directorate prosecuted two Ranchi residents for receiving foreign currency in 1991-92. The Jharkhand High Court recorded cognizance taken on 31.05.2002 in the ED complaint. By order dated 25 October 2024 the High Court dismissed their quashing petition, so prosecution continues.",
+      "date": "2024-10-25",
+      "date_label": "High Court order",
+      "district": "Ranchi",
+      "outcome": "prosecution_pending",
+      "authority": "High Court of Jharkhand at Ranchi; Enforcement Directorate as complainant",
+      "case_reference": "Cr. M. P. No. 1903 of 2024; Complaint Case C-III-85/2002 corresponding to FERA/FEMA 2/02; cognizance order dated 31.05.2002",
+      "laws": [
+        "Section 56 read with Sections 49(3) and 49(4) of the Foreign Exchange Management Act, 1999",
+        "Section 9(1)(a) and Section 9(1)(b)(i) read with Section 64(2) of the Foreign Exchange Regulation Act, 1973"
+      ],
+      "acts": [
+        "Foreign Exchange Management Act, 1999",
+        "Foreign Exchange Regulation Act, 1973"
+      ],
+      "person": "two brothers residing in Ranchi",
+      "detail": [
+        "The High Court recorded that the petitioners reside at Ashok Nagar, Argora in Ranchi district, establishing the Jharkhand locus.",
+        "The High Court recorded that on the basis of the allegations a complaint Case C-III-85/2002 was registered and that vide order dated 31.05.2002 cognizance was taken by the court concerned for currency-control offences.",
+        "The High Court recorded that the allegation was receipt of foreign exchange amounting in total US$ 3,15,000 and 1000 pounds during 1991-92, rendered liable to prosecution under Section 56 of the said Act.",
+        "The High Court held that the instant petition stands dismissed, leaving the ED prosecution pending; a separate older CBI case about fake allotments and diversion of public funds was noted only as background that led to discovery of the remittances."
+      ],
+      "current_position": "Quashing petition dismissed on 25 October 2024; the ED complaint case and cognizance order stand and prosecution is pending.",
+      "quote": {
+        "text": "amounting in total US$ 3,15,000/- and pounds 1000 during the year 1991-92",
+        "where": "Cr. M. P. No. 1903 of 2024, High Court of Jharkhand at Ranchi, judgment dated 25-10-2024",
+        "url": "https://indiankanoon.org/doc/84982917/"
+      },
+      "caveats": "Exact dates of the 1991-92 transfers and trial progress after 25 October 2024 could not be confirmed from the pages opened. The older Doranda PS/RC fraud background was not charged in the present ED complaint.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Keeping or receiving foreign currency outside the authorised-dealer system harmed no complaining victim; the present case charges only currency-control violations."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/84982917/",
+          "kind": "judgment",
+          "publisher": "High Court of Jharkhand at Ranchi via Indian Kanoon",
+          "date": "2024-10-25",
+          "supports": "Ranchi residence, foreign currency amounts, complaint number, cognizance date, sections charged, and dismissal of petition"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "ef-jh-0007",
       "category": "labour",
       "state": "Jharkhand",
@@ -1855,6 +2236,119 @@
           "publisher": "High Court of Karnataka via Indian Kanoon",
           "date": "2025-09-12",
           "supports": "title, court, petition number, stock and ceiling figures, seizure and Rs amounts, final rejection order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-kl-0002",
+      "category": "forex",
+      "state": "Kerala",
+      "title": "FEMA penalty for receiving foreign payment outside authorised channels, upheld to the Supreme Court",
+      "summary": "The Enforcement Directorate's Cochin office took action under Section 3(c) of FEMA against two men for receiving payment otherwise than through an authorised person. The Kerala High Court rejected their appeals in March 2025 and their review petitions in November 2025. The Supreme Court refused to interfere on 6 February 2026 and dismissed their petitions.",
+      "date": "2026-02-06",
+      "date_label": "Supreme Court order dismissing challenge to Kerala High Court FEMA judgment",
+      "outcome": "penalty",
+      "authority": "Supreme Court of India; High Court of Kerala at Ernakulam; Assistant Director of Enforcement, FEMA, Cochin",
+      "case_reference": "SLP (Crl) Diary No. 2623/2026; Kerala HC RP Nos. 1389/2025 and 1406/2025 in MFA(FEMA) Nos. 3/2024 and 4/2024",
+      "laws": [
+        "Section 3(c), Foreign Exchange Management Act, 1999",
+        "Section 35, Foreign Exchange Management Act, 1999",
+        "Section 18, Foreign Exchange Management Act, 1999"
+      ],
+      "acts": [
+        "Foreign Exchange Management Act, 1999"
+      ],
+      "person": "two men proceeded against by the ED's Cochin office",
+      "penalty": "FEMA penalty imposed by the Assistant Director, Cochin, affirmed through appeals (exact amount not visible in the excerpts opened)",
+      "detail": [
+        "The High Court recorded that the FEMA appeals before it had arisen from the orders of the Cochin enforcement office and the Chennai appellate authority, and that they were filed under the FEMA appeal provision.",
+        "The High Court said the dispute concerned only action under Section 3(c) of FEMA, and it rejected the review petitions, holding there was no error apparent on the face of the record.",
+        "The Supreme Court condoned the delay in filing, found no reason to interfere with the High Court's orders, and dismissed the special leave petitions."
+      ],
+      "current_position": "The FEMA penalty stands; the Supreme Court dismissed the special leave petitions on 6 February 2026.",
+      "quote": {
+        "text": "had arisen from the orders rendered by the Assistant Director of Enforcement, Foreign Exchange Management Act, Cochin.",
+        "where": "Kerala High Court review order in RP Nos. 1389/2025 and 1406/2025",
+        "url": "https://indiankanoon.org/doc/54754826/"
+      },
+      "caveats": "The exact foreign currency amounts and the place of receipt are not visible in the excerpts opened; the March 2025 common judgment (MFA(FEMA) Nos. 3-4/2024) could not be opened. No fraud, violence or other victim element appears in the portions reviewed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Receiving money outside the authorised-dealer system is a consensual transfer between willing parties; the record shows no violence, fraud victim, or coercion."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/54754826/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon (High Court of Kerala order dated 25-11-2025)",
+          "date": "2025-11-25",
+          "supports": "FEMA Section 3(c) action from Cochin ED; appellate history; dismissal of review petitions"
+        },
+        {
+          "url": "https://indiankanoon.org/doc/175335378/",
+          "kind": "court_order",
+          "publisher": "Indian Kanoon (Supreme Court daily order dated 06-02-2026)",
+          "date": "2026-02-06",
+          "supports": "SLP dismissed; no interference with Kerala High Court FEMA judgment"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-kl-0003",
+      "category": "gold",
+      "state": "Kerala",
+      "title": "Tribunal upholds confiscation of 13 kg smuggled gold at Cochin airport, scales back penalties",
+      "summary": "Customs officers seized thirteen one-kg gold bars hidden in airport shuttle coaches at Cochin in May 2015 and penalised 33 people in an alleged airport smuggling network. The tribunal upheld confiscation of the unclaimed 13 kg but cut penalties to the seized quantity, and set aside the confiscation of a jewellery-shop owner's stock, car and penalty for lack of proof.",
+      "date": "2026-02-06",
+      "date_label": "CESTAT final order",
+      "incident_date": "2015-05-24",
+      "district": "Ernakulam",
+      "outcome": "confiscation",
+      "authority": "Customs, Excise & Service Tax Appellate Tribunal, Bangalore; Commissioner of Customs, Cochin",
+      "case_reference": "Final Order No. 20173-20205/2026 in 33 appeals (lead C/20312), against Order-in-Original dated 03-02-2017, Commissioner, Cochin",
+      "laws": [
+        "Section 110, Customs Act, 1962",
+        "Section 112(a) & (b), Customs Act, 1962",
+        "Section 108, Customs Act, 1962",
+        "Section 138B, Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "a jewellery-shop owner in Kochi (lead appellant) with 32 co-appellants including airport ground and airline staff, alleged carriers and handlers",
+      "penalty": "13 kg gold confiscated; penalties scaled back to the seized quantity (e.g. Rs 2 crore reduced to Rs 25 lakh for some); lead appellant's confiscation and penalty set aside",
+      "detail": [
+        "The Tribunal recorded that officers intercepted an arriving Dubai-Cochin passenger who admitted concealing eight gold bars, and found four taped packets of eight 1-kg bars plus five more abandoned 1-kg bars in two shuttle coaches.",
+        "The Tribunal stated that the gold was seized under Section 110 of the Customs Act, 1962, and that confiscation of the unclaimed 13 kg stands upheld and sustained.",
+        "The Tribunal held the revenue had not proved that ornaments in the jewellery-shop owner's shop came from contraband, and set aside the confiscation of his gold jewellery and vehicle along with his penalty.",
+        "The Tribunal rejected penalties computed on an alleged 2000 kg network total, limiting them to the seized 13 kg, and set aside penalties on several staff and associates for lack of corroboration."
+      ],
+      "current_position": "Confiscation of the 13 kg stands; reduced penalties apply as per the 6 February 2026 tribunal order.",
+      "quote": {
+        "text": "confiscation of the same stands upheld and sustained.",
+        "where": "CESTAT Final Order No. 20173-20205/2026 dated 06-02-2026 ([name withheld] vs Cochin-Cus)",
+        "url": "https://indiankanoon.org/doc/76632376/"
+      },
+      "caveats": "The order decides appeals from a 2017 adjudication of a 2015 seizure; no more recent Kerala gold order was found. COFEPOSA detentions of some accused, affirmed by the Kerala High Court, are noted in the order but their dates are not detailed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Carrying gold across a border harmed no one; the order describes concealment and duty evasion only, with no violence, fraud victim, or harmful product."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/76632376/",
+          "kind": "judgment",
+          "publisher": "Indian Kanoon (CESTAT Bangalore order dated 06-02-2026)",
+          "date": "2026-02-06",
+          "supports": "seizure facts, sections applied, confiscation upheld, penalties reduced, lead appellant relief"
         }
       ],
       "verification": "V2"
@@ -2515,6 +3009,73 @@
           "publisher": "Indian Kanoon (hosting High Court of Judicature at Bombay judgment)",
           "date": "2026-09-11",
           "supports": "court and case number, FIR number section and police station, survey number and council, notices, chargesheet, final quashing order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-mn-0003",
+      "category": "gold",
+      "state": "Manipur",
+      "title": "Customs appeal over gold seized from an Imphal Airport passenger remains pending",
+      "summary": "Customs absolutely confiscated 498 grams of gold and imposed a Rs 1.70 lakh penalty after a passenger was intercepted at Imphal Airport. CESTAT set aside the order for lack of corroborating evidence and procedural unfairness. The Customs Department's appeal remains pending before the Manipur High Court, which adjourned it on 10 September 2026.",
+      "date": "2026-09-10",
+      "date_label": "Manipur High Court order",
+      "incident_date": "2019-06-30",
+      "district": "Imphal West",
+      "outcome": "prosecution_pending",
+      "authority": "Customs Department; Commissioner of Customs (Appeals), Guwahati; Customs, Excise and Service Tax Appellate Tribunal, Kolkata; High Court of Manipur at Imphal",
+      "case_reference": "Cus.App. No. 1 of 2024; MC(CUS.APP.) No. 2 of 2024; MC(CUS.APP.) No. 5 of 2026; MC(CUS.APP.) No. 6 of 2024; Customs Appeal No. 75588 of 2022; Final Order No. 76021/2023; OIO No. COM/CUS/ADDL./COMMR/45/2021",
+      "laws": [
+        "Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "a passenger travelling from Imphal to Jaipur",
+      "penalty": "Absolute confiscation of three gold pieces weighing 498 grams, valued at Rs 17,03,160, and a penalty of Rs 1,70,000; both were later set aside by CESTAT.",
+      "detail": [
+        "CESTAT recorded that the passenger was intercepted at Imphal Airport on 30 June 2019 while travelling to Jaipur. Customs recovered three pieces of gold weighing 498 grams.",
+        "CESTAT recorded that the adjudicating authority absolutely confiscated the gold, valued at Rs 17,03,160, and imposed a penalty of Rs 1,70,000.",
+        "CESTAT said Customs had relied principally on a purported confession and had not supplied important relied-upon documents. It also found no proper corroborating investigation and no evidence showing that the marking on the gold established foreign origin.",
+        "CESTAT set aside the appellate order and allowed the passenger's appeal. Customs then brought Cus.App. No. 1 of 2024 before the Manipur High Court.",
+        "The Manipur High Court recorded on 10 September 2026 that the appeal would stand over with similar matters to 18 November 2026. It expressly said it was not passing a tagging order."
+      ],
+      "current_position": "Customs' appeal against the CESTAT decision is pending before the Manipur High Court and was listed for 18 November 2026.",
+      "quote": {
+        "text": "As similar matters are scheduled to be taken up on 18.11.2026, let captioned matters also stand over to 18.11.2026. To be noted, we are not passing any tagging order but we are only listing on the same date.",
+        "where": "Cus.App. No. 1 of 2024 with connected miscellaneous applications, paragraph 1",
+        "url": "https://indiankanoon.org/doc/181442275/"
+      },
+      "caveats": "The latest High Court order is procedural and does not decide the merits. The public High Court order does not reproduce the underlying facts; those details come from the reproduced CESTAT judgment. The airport's district is stated as Imphal West based on the location of Imphal International Airport, but the opened judgment describes the place only as Imphal Airport. The selected case has the most recent official act found, although its seizure predates newer qualifying seizures whose final official decisions were issued in 2025 or earlier in 2026.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The alleged act was carrying gold on a domestic flight from Imphal. The opened decisions disclose no violence, fraud, coercion, victim, poisonous product or theft of public goods, and CESTAT found that Customs lacked corroborating evidence that the gold was smuggled."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/181442275/",
+          "kind": "court_order",
+          "publisher": "High Court of Manipur",
+          "date": "2026-09-10",
+          "supports": "The latest official act, case numbers, parties, pending High Court appeal and adjournment to 18 November 2026."
+        },
+        {
+          "url": "https://indiankanoon.org/search/?formInput=retracted+confession+and+statements+year%3A2023",
+          "kind": "judgment",
+          "publisher": "Customs, Excise and Service Tax Appellate Tribunal, indexed by Indian Kanoon",
+          "date": "2023-07-04",
+          "supports": "The tribunal result identifying the appeal and recording that the purported confession was retracted."
+        },
+        {
+          "url": "https://www.casemine.com/judgement/in/64fc911ff6fa7f68ca48f026",
+          "kind": "judgment",
+          "publisher": "Customs, Excise and Service Tax Appellate Tribunal, reproduced by CaseMine",
+          "date": "2023-07-04",
+          "supports": "Incident date and place, weight and value of the gold, original confiscation and penalty, evidentiary defects, and CESTAT's order setting aside the Customs decision."
         }
       ],
       "verification": "V2"
@@ -3955,6 +4516,64 @@
           "publisher": "Madras High Court via Indian Kanoon",
           "date": "2026-06-29",
           "supports": "court, date, case number, Nagapattinam location, Act sections, lock-and-seal chronology, dismissal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-tr-0007",
+      "category": "labour",
+      "state": "Tripura",
+      "title": "Pharmaceutical employer remains subject to industrial-dispute proceedings over dismissals",
+      "summary": "The Tripura Government referred disputes over staffing dismissals to the Labour Court, West Tripura. On 28 November 2025, the High Court permitted the private employer to withdraw its revisions and seek relief through fresh writ petitions, leaving the references and adjudication orders undisturbed.",
+      "date": "2025-11-28",
+      "date_label": "High Court order",
+      "incident_date": "2022-03-31",
+      "district": "West Tripura",
+      "outcome": "prosecution_pending",
+      "authority": "Government of Tripura Labour Department; Labour Court, West Tripura; High Court of Tripura",
+      "case_reference": "CRP 63/2025, CRP 64/2025, CRP 65/2025, CRP 66/2025 and CRP 67/2025",
+      "laws": [
+        "Section 10 of the Industrial Disputes Act, 1947"
+      ],
+      "acts": [
+        "Industrial Disputes Act, 1947"
+      ],
+      "person": "a private pharmaceutical employer operating in Tripura",
+      "detail": [
+        "The High Court recorded that Glenmark Pharmaceuticals Limited challenged government references dated 31 March 2022 and 1 April 2022 under Section 10 of the Industrial Disputes Act, 1947.",
+        "In a separate case, M/S Zydus Healthcare Ltd v. Shri [name withheld] (WP(C) 544/2025 and 545/2025), the High Court judgment of 17 November 2025 recorded that one reference asked whether an employee's retrenchment was illegal and what relief he should receive. It said Labour Case No.05 of 2022 was then registered before the Labour Court, West Tripura.",
+        "That same judgment recorded that the Labour Court rejected Zydus's request to decide the validity of its domestic inquiry and the employee's status as preliminary issues. The High Court dismissed Zydus's writ petitions, leaving the labour proceeding in place.",
+        "On 28 November 2025, the High Court allowed Glenmark to withdraw five civil revisions (CRP 63/2025 to CRP 67/2025) with liberty to challenge the references and adjudication orders through fresh writ petitions."
+      ],
+      "current_position": "The five revisions were withdrawn, while the underlying government references and Labour Court adjudication orders remained open to challenge through fresh writ petitions.",
+      "quote": {
+        "text": "Counsel for the petitioners seeks to withdraw all these revisions with liberty to challenge in fresh Writ Petitions the references under Section 10 of Industrial Disputes Act, 1947 dt. 31.03.2022 and dt. 01.04.2022 and also the orders impugned in these revisions pursuant to adjudication as per the said references.",
+        "where": "CRP 65/2025, CRP 66/2025 and CRP 67/2025, page 3",
+        "url": "https://indiankanoon.org/doc/89721557/"
+      },
+      "caveats": "The 28 November order is brief and does not reproduce the allegations behind every dismissal. The 17 November judgment provides fuller facts for one connected employee dispute. The records do not show whether fresh writ petitions were subsequently filed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "The state subjected a private employer's dismissal decisions to compulsory labour adjudication. The official records identify no violence, injury, child labour, bonded labour or unpaid-wage allegation."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/89721557/",
+          "kind": "court_order",
+          "publisher": "High Court of Tripura",
+          "date": "2025-11-28",
+          "supports": "The case numbers, statutory references, withdrawal of the revisions and liberty to file fresh writ petitions."
+        },
+        {
+          "url": "https://indiankanoon.org/doc/185043946/",
+          "kind": "judgment",
+          "publisher": "High Court of Tripura",
+          "date": "2025-11-17",
+          "supports": "The termination dispute, government reference, Labour Case No.05 of 2022, Labour Court order and dismissal of the employer's writ petitions."
         }
       ],
       "verification": "V2"

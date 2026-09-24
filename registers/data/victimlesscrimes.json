@@ -819,6 +819,210 @@
       "verification": "V2"
     },
     {
+      "id": "vc-dl-0001",
+      "category": "sex-work",
+      "state": "Delhi",
+      "title": "Spa owner prosecuted over paid sex in Dwarka, acquitted in 2025",
+      "summary": "Police raided a spa in Dwarka after a tip and prosecuted the people found there under the Immoral Traffic (Prevention) Act. The judgment shows the sole remaining accused, the spa owner, denied the charge and faced trial. The trial court acquitted him in May 2025.",
+      "date": "2025-05-17",
+      "date_label": "Trial court judgment of acquittal",
+      "incident_date": "2021-12-10",
+      "district": "South West Delhi",
+      "outcome": "acquitted",
+      "authority": "Metropolitan Magistrate, Dwarka Courts, Delhi",
+      "case_reference": "FIR No: 856/2021, P.S. Dwarka North",
+      "laws": [
+        "Sections 3, 4, 5 & 8 of the Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "acts": [
+        "Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "person": "the owner of a spa in Dwarka",
+      "detail": [
+        "The court recorded that police acted on secret information about a spa in Dwarka. The judgment states the allegation as secret information about illegal activity at the spa.",
+        "The court recorded that police sent a constable as a decoy customer with two Rs 500 notes. The order states that after a signal the raiding party entered the spa and the notes were recovered from the receptionist.",
+        "The court recorded that seven other accused had admitted guilt in December 2022 and proceedings against one accused ended on his death. The order states the trial continued only against the sole remaining accused, who denied the charge.",
+        "The court held the prosecution case was not proved against the remaining accused. The order states the accused was pronounced not guilty and was accordingly acquitted."
+      ],
+      "current_position": "The prosecution against the sole remaining accused ended in acquittal on 17 May 2025.",
+      "quote": {
+        "text": "on receipt of secret information regarding illegal/ immoral activities carrying on in one SPA",
+        "where": "State vs [name withheld], FIR No 856/2021, judgment dated 17.05.2025",
+        "url": "https://indiankanoon.org/doc/190068871/"
+      },
+      "caveats": "Full witness discussion could not be re-verified after rate-limiting; reliance is on the operative findings and FIR/sections lines. Later 2025-2026 Delhi ITP matters were checked but appeared to add trafficking charges.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The case punished consensual adult paid sex in a spa under brothel and solicitation provisions, with no minor, force, or complaining victim alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/190068871/",
+          "kind": "judgment",
+          "publisher": "Dwarka District Court via Indian Kanoon",
+          "date": "2025-05-17",
+          "supports": "FIR number, ITP Act sections 3/4/5/8, decoy-customer raid, acquittal and date"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-dl-0002",
+      "category": "gambling",
+      "state": "Delhi",
+      "title": "Two men prosecuted for playing cards in a Delhi park, acquitted in 2026",
+      "summary": "Police on patrol in Vikas Puri detained two men found playing cards in a park and seized cards and cash. The men were charged under the Delhi Public Gambling Act and pleaded not guilty. The magistrate acquitted both men in September 2026.",
+      "date": "2026-09-03",
+      "date_label": "Trial court judgment of acquittal",
+      "incident_date": "2026-06-23",
+      "district": "West Delhi",
+      "outcome": "acquitted",
+      "authority": "Judicial Magistrate First Class-05 (South West), Dwarka Courts, Delhi",
+      "case_reference": "Cr Cases: 70999/2026; FIR No: 235/2026, P.S. Vikas Puri",
+      "laws": [
+        "Sections 12/9/55 of the Delhi Public Gambling Act, 1955"
+      ],
+      "acts": [
+        "Delhi Public Gambling Act, 1955"
+      ],
+      "person": "two men in Vikas Puri",
+      "detail": [
+        "The court recorded that a patrol reached a park in Vikas Puri in the evening. The order states the time and place as about 5.50 PM at a park near F Block, Vikas Puri.",
+        "The court recorded that the men were found playing cards and others fled. The order states they were found engaged in gambling with playing cards.",
+        "The court recorded seizure of 50 playing cards and cash totalling Rs 550. The order states the cards and cash were counted and taken into possession.",
+        "The court recorded that the accused pleaded not guilty and the charge was tried. The order states both accused persons were acquitted."
+      ],
+      "current_position": "Both accused were acquitted on 3 September 2026, ending the prosecution.",
+      "quote": {
+        "text": "accused persons were found engaged in the acts of gambling with the help of playing cards",
+        "where": "State vs [name withheld], Cr Cases 70999/2026, FIR No 235/2026, judgment dated 03.09.2026",
+        "url": "https://indiankanoon.org/doc/28136694/"
+      },
+      "caveats": "Names of the second accused and full witness reasoning beyond the operative lines could not be re-verified; no cheating or fraud section appears in the sections line.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The men wagered their own money on a card game in a park, with no cheating, fixing, or victim alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/28136694/",
+          "kind": "judgment",
+          "publisher": "Dwarka District Court via Indian Kanoon",
+          "date": "2026-09-03",
+          "supports": "FIR 235/2026, sections 12/9/55 Delhi Public Gambling Act, park card-play facts, 50 cards and Rs 550 seizure, acquittal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-dl-0003",
+      "category": "alcohol",
+      "state": "Delhi",
+      "title": "Man prosecuted for holding Haryana-marked liquor in Delhi, acquitted in 2026",
+      "summary": "Police charged a man in Bhalswa Dairy with possessing 95 quarter bottles of country liquor marked for sale in Haryana only. He was prosecuted under Section 33 of the Delhi Excise Act and pleaded not guilty. The magistrate acquitted him in September 2026.",
+      "date": "2026-09-17",
+      "date_label": "Trial court judgment of acquittal",
+      "incident_date": "2015-12-28",
+      "district": "North Delhi",
+      "outcome": "acquitted",
+      "authority": "Judicial Magistrate First Class-01, North District, Rohini Courts, Delhi",
+      "case_reference": "FIR No: 865/2015, P.S. Bhalswa Dairy",
+      "laws": [
+        "Section 33 of the Delhi Excise Act, 2009"
+      ],
+      "acts": [
+        "Delhi Excise Act, 2009"
+      ],
+      "person": "a resident of Bhalswa Dairy",
+      "detail": [
+        "The court recorded that police found the man with 95 quarter bottles of liquor. The order describes the bottles as country liquor marked for sale in Haryana only.",
+        "The court recorded the charge as Section 33 of the Delhi Excise Act. The order lists the offence complained or proved as Section 33.",
+        "The court recorded that the accused pleaded not guilty and the case went to trial. The order reserved judgment in August 2026 after evidence.",
+        "The court held the charge was not proved. The order states the accused was acquitted of the offence under Section 33."
+      ],
+      "current_position": "The accused was acquitted on 17 September 2026, ending the prosecution.",
+      "quote": {
+        "text": "Asli Santara Masaledar Deshi Sharab for Sale in Haryana only",
+        "where": "State vs [name withheld], FIR No 865/2015, judgment dated 17.09.2026",
+        "url": "https://indiankanoon.org/doc/146218003/"
+      },
+      "caveats": "Quantity breakup beyond 95 quarters and witness details were not re-verified; no spurious-liquor or violence section appears in the sections line.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Possessing and carrying liquor for personal sale or use harmed no one, with no spurious liquor, hooch death, or violence alleged."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/146218003/",
+          "kind": "judgment",
+          "publisher": "Rohini District Court via Indian Kanoon",
+          "date": "2026-09-17",
+          "supports": "FIR 865/2015, 95 quarter bottles, Haryana-only marking, Section 33 Delhi Excise Act, acquittal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-dl-0004",
+      "category": "beef",
+      "state": "Delhi",
+      "title": "Three men prosecuted for transporting cattle allegedly for slaughter, acquitted in 2026",
+      "summary": "Police in Dwarka charged three men with transporting four cows and a calf in a tempo allegedly to sell for slaughter. They were prosecuted under the Delhi Agricultural Cattle Preservation Act and pleaded not guilty. The magistrate acquitted them in June 2026 for lack of proof of slaughter purpose.",
+      "date": "2026-06-04",
+      "date_label": "Trial court judgment of acquittal",
+      "incident_date": "2014-07-03",
+      "district": "South West Delhi",
+      "outcome": "acquitted",
+      "authority": "Judicial Magistrate First Class-06/SWD, Dwarka Courts, Delhi",
+      "case_reference": "FIR No: 424/2014, PS Dwarka North",
+      "laws": [
+        "Sections 5/7 of the Delhi Agricultural Cattle Preservation Act read with Section 34 of the Indian Penal Code, 1860"
+      ],
+      "acts": [
+        "Delhi Agricultural Cattle Preservation Act, 1994"
+      ],
+      "person": "three men in Dwarka",
+      "detail": [
+        "The court recorded that police found four cows and one calf in a tempo at Dwarka. The order states there were four cows and one calf in the vehicle.",
+        "The court recorded the prosecution claim that the cattle were meant for slaughter. The order states the intention attributed to the accused was to slaughter the cows.",
+        "The court recorded that no independent witness, photo or video, or buyer or slaughter-site link was produced. The order states the prosecution failed to prove beyond reasonable doubt that transport was for slaughter.",
+        "The court acquitted all three accused. The order states the accused persons are acquitted as per the operative part."
+      ],
+      "current_position": "All three accused were acquitted on 4 June 2026, ending the prosecution.",
+      "quote": {
+        "text": "There were total four cows and one calf in the said tanker.",
+        "where": "State vs [name withheld], FIR No 424/2014, judgment pronounced 04.06.2026",
+        "url": "https://indiankanoon.org/doc/162448237/"
+      },
+      "caveats": "Vehicle number and full witness depositions were not re-verified; the sections line shows no Prevention of Cruelty to Animals Act, theft, or violence charge.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Moving cattle allegedly for slaughter and eating beef harms no person, and the case charged no cruelty, theft, or violence."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/162448237/",
+          "kind": "judgment",
+          "publisher": "Dwarka District Court via Indian Kanoon",
+          "date": "2026-06-04",
+          "supports": "FIR 424/2014, 4 cows plus calf, slaughter-purpose allegation, sections 5/7 Cattle Preservation Act, acquittal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "vc-gj-0001",
       "category": "sex-work",
       "state": "Gujarat",
@@ -2099,6 +2303,56 @@
       "verification": "V2"
     },
     {
+      "id": "vc-nl-0003",
+      "category": "alcohol",
+      "state": "Nagaland",
+      "title": "Nine prohibition cases under Nagaland liquor ban sent back for cognizance orders",
+      "summary": "Police in Nagaland filed first reports and charge sheets in nine cases under the Nagaland Liquor Total Prohibition Act, 1989. The Gauhati High Court answered a reference on how courts may take cognizance of such offences. It sent the matters back to the magistrate for fresh orders.",
+      "date": "2024-11-25",
+      "date_label": "High Court judgment",
+      "outcome": "prosecution_pending",
+      "authority": "Gauhati High Court",
+      "case_reference": "Crl.Ref./1/2021",
+      "laws": [
+        "Sections 42, 43, 44 of the Nagaland Liquor Total Prohibition Act, 1989"
+      ],
+      "acts": [
+        "Nagaland Liquor Total Prohibition Act, 1989"
+      ],
+      "person": "persons accused in nine GR cases in Nagaland",
+      "penalty": "imprisonment for a term which may extend to three years",
+      "detail": [
+        "The High Court recorded that the matter arises from nine GR cases registered in connection with the state liquor-ban law, beginning with police first reports and followed by charge sheets.",
+        "The High Court set out the statute's reporting, cognizance and penalty provisions, including that no court shall take cognizance of an offence under the Act unless a complaint is made by the prohibition authority.",
+        "The High Court stated the penalty rule for illegal import and related liquor acts, and discussed the power to stop proceedings in certain cases.",
+        "The High Court held that stoppage did not arise when cognizance itself had not yet been taken, answered the reference, and remitted the matter to the magistrate to pass appropriate orders."
+      ],
+      "current_position": "The reference stands answered and the nine cases were remitted to the magistrate for appropriate orders on cognizance.",
+      "quote": {
+        "text": "The matter arises out of 9 nos. of GR cases which were registered in connection with the Nagaland Liquor Total Prohibition Act, 1989 (Act of 1989).",
+        "where": "Crl.Ref./1/2021, judgment dated 25.11.2024",
+        "url": "https://indiankanoon.org/doc/91904587/"
+      },
+      "caveats": "Individual GR numbers, districts, liquor quantities and personal details of the accused were not visible in the excerpts opened; no violence, spurious liquor or additional charges appeared in the portions reviewed.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The prosecutions are for importing, possessing or otherwise handling liquor under a total-prohibition law, acts with no complaining victim."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/91904587/",
+          "kind": "judgment",
+          "publisher": "Gauhati High Court via Indian Kanoon",
+          "date": "2024-11-25",
+          "supports": "case number, date, court, nine GR cases under NLTP Act 1989, FIRs and charge sheets, cognizance rule, penalty, and remittal order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "vc-nl-0005",
       "category": "tobacco",
       "state": "Nagaland",
@@ -2418,6 +2672,161 @@
           "publisher": "High Court of Orissa at Cuttack via Indian Kanoon",
           "date": "2026-03-09",
           "supports": "lead case number W.P.(C) No.6107 of 2026, notification challenged, interim protection against penal action"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-pb-0001",
+      "category": "sex-work",
+      "state": "Punjab",
+      "title": "Anticipatory bail refused for hotel manager accused of running brothel in Zirakpur",
+      "summary": "Police booked a person in Zirakpur for allegedly running paid sex work under Sections 3, 4 and 5 of the Immoral Traffic (Prevention) Act. The High Court recorded that three women were found at the hotel and released after their statements were noted, with prophylactic packets seized. The court dismissed the plea for pre-arrest protection on 22 July 2026.",
+      "date": "2026-07-22",
+      "date_label": "High Court order",
+      "incident_date": "2026-01-19",
+      "district": "Sahibzada Ajit Singh Nagar",
+      "outcome": "bail_refused",
+      "authority": "High Court of Punjab and Haryana at Chandigarh (Justice Sumeet Goel)",
+      "case_reference": "CRM-M-36583-2026, FIR No.29 dated 19.01.2026, Police Station Zirakpur",
+      "laws": [
+        "Sections 3, 4, 5 of the Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "acts": [
+        "Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "person": "a hotel manager in Zirakpur",
+      "detail": [
+        "The High Court recorded that the case concerns FIR No.29 dated 19.01.2026 for offences under Sections 3, 4 and 5 of the Immoral Traffic (Prevention) Act at Police Station Zirakpur, SAS Nagar, Mohali.",
+        "Police said a hotel on Bhabat Road taken on rent was being used as a brothel, with women brought from different states on promise of payment and cash collected from visitors, according to the status report dated 21.07.2026 summarized in the order.",
+        "Police said an associate was caught at the reception, three women were found in a room and released after their statements were noted, and nine prophylactic packets were seized from the reception drawer.",
+        "The High Court recorded that no ground for false implication was made out at that stage, that custodial questioning was needed to uncover the network, and that the petition was devoid of merits."
+      ],
+      "current_position": "Anticipatory bail stands dismissed and investigation/trial continues without pre-arrest protection.",
+      "quote": {
+        "text": "of the Immoral Traffic (Prevention) Act, 1956, at Police Station Zirakpur, SAS Nagar, Mohali. The petition is, thus, devoid of merits and is hereby dismissed.",
+        "where": "CRM-M-36583-2026, order dated 22.07.2026",
+        "url": "https://indiankanoon.org/doc/93709173/"
+      },
+      "caveats": "Full FIR and statements of the three women were not independently opened; order summary does not allege minors or force.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The alleged act was arranging paid sex for money at a hotel. The order does not explicitly allege minors or force, though it refers to the recovered women as 'girls/victims', so fully consensual-adult framing is not established by the order itself."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/93709173/",
+          "kind": "court_order",
+          "publisher": "High Court of Punjab and Haryana via Indian Kanoon",
+          "date": "2026-07-22",
+          "supports": "FIR number, sections, place, and dismissal of anticipatory bail"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-pb-0002",
+      "category": "gambling",
+      "state": "Punjab",
+      "title": "High Court orders release of Rs 1.53 lakh seized in Dirba gambling case",
+      "summary": "Police booked eleven people in Dirba for gambling under the Public Gambling Act and seized cash of Rs 1,53,040. A trial court convicted some accused and acquitted others in 2024. The High Court on 28 April 2026 allowed the plea of one accused and directed release of the seized cash to him on an indemnity bond.",
+      "date": "2026-04-28",
+      "date_label": "High Court order",
+      "incident_date": "2020-06-21",
+      "district": "Sangrur",
+      "outcome": "penalty_set_aside",
+      "authority": "High Court of Punjab and Haryana at Chandigarh (Justice H.S. Grewal)",
+      "case_reference": "CRM-M-58103-2025, FIR No.133 dated 21.06.2020, Police Station Dirba",
+      "laws": [
+        "Sections 13/3/67 of Public Gambling Act, 1867"
+      ],
+      "acts": [
+        "Public Gambling Act, 1867"
+      ],
+      "person": "a gambler in Dirba, Sangrur",
+      "penalty": "Seizure of Rs 1,53,040 ordered to be released on indemnity bond",
+      "detail": [
+        "The High Court recorded the case as FIR No.133 dated 21.06.2020 at Police Station Dirba, District Sangrur under Sections 13/3/67 of Public Gambling Act, 1867.",
+        "The High Court noted that currency amounting to Rs.1,53,040 was seized and that eleven accused were involved, with some convicted by the trial court and the petitioner acquitted by judgment dated 20.08.2024.",
+        "The High Court recorded that the magistrate refused release of the cash by order dated 19.08.2025 on the ground that there were eleven accused and the petitioner could not be treated as sole owner.",
+        "The High Court held the petition was allowed and directed the trial court to release the amount of Rs.1,53,040 to the petitioner after verification on an indemnity bond."
+      ],
+      "current_position": "Seizure set aside to the extent the cash is to be released to the acquitted petitioner on bond.",
+      "quote": {
+        "text": "Sections 13/3/67 of Public Gambling Act, 1867. present petition is allowed. The trial Court is directed to release the amount of Rs.1,53,040/- to the petitioner",
+        "where": "CRM-M-58103-2025, order dated 28.04.2026",
+        "url": "https://indiankanoon.org/doc/92142531/"
+      },
+      "caveats": "Exact sub-section breakup of 13/3/67 as printed could not be further clarified from the summary page.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The alleged act was wagering the accused persons' own money with no allegation of cheating, fixing or a defrauded victim."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/92142531/",
+          "kind": "court_order",
+          "publisher": "High Court of Punjab and Haryana via Indian Kanoon",
+          "date": "2026-04-28",
+          "supports": "FIR, sections, place, seized amount, and order to release cash"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-pb-0003",
+      "category": "alcohol",
+      "state": "Punjab",
+      "title": "Conviction for stocking liquor without permit upheld with jail cut to six months in Rajpura",
+      "summary": "Police raided a house store in Rajpura on a tip of unlicensed sale and said 15 cartons of First Choice liquor were found. The trial court in 2019 imposed three years plus Rs 1 lakh fine, affirmed on appeal in 2025. The High Court on 1 January 2026 kept the conviction but cut jail to six months.",
+      "date": "2026-01-01",
+      "date_label": "High Court revision order",
+      "incident_date": "2014-05-13",
+      "district": "Patiala",
+      "outcome": "conviction",
+      "authority": "High Court of Punjab and Haryana at Chandigarh (Justice Yashvir Singh Rathor)",
+      "case_reference": "CRR No.2671 of 2025, FIR No.97 dated 13.05.2014, Police Station City Rajpura",
+      "laws": [
+        "Section 61(1)(a) of the Punjab Excise Act, 1914"
+      ],
+      "acts": [
+        "Punjab Excise Act, 1914"
+      ],
+      "person": "a resident of Rajpura",
+      "penalty": "six months rigorous imprisonment instead of three years; fine Rs 1 lakh with 3 months default",
+      "detail": [
+        "The High Court recorded the case as FIR No.97 dated 13.05.2014 at Police Station City Rajpura under Section 61(1)(a) of the Punjab Excise Act, 1914.",
+        "Police said a patrol acting on a tip raided the house store and found 15 boxes of liquor make First Choice, took samples, sealed bottles and jars, and sent the accused for trial.",
+        "The High Court noted the Judicial Magistrate at Rajpura convicted on 05.01.2019 with three years plus Rs 1 lakh fine, and the Additional Sessions Judge at Patiala dismissed the appeal on 22.09.2025.",
+        "The High Court on 01.01.2026 kept the concurrent findings of guilt but reduced jail to six months rigorous imprisonment, keeping the fine and default term the same."
+      ],
+      "current_position": "Conviction stands with reduced six-month sentence; revision dismissed as modified.",
+      "quote": {
+        "text": "15 boxes of liquor make First Choice were found lying in the store of said house. reduced to six months' rigorous imprisonment instead of three years",
+        "where": "CRR No.2671 of 2025, order pronounced 01.01.2026",
+        "url": "https://indiankanoon.org/doc/53572318/"
+      },
+      "caveats": "Chemical report on liquor quality was not detailed on the page; no spurious-liquor allegation appears.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "The act was possessing and selling ordinary liquor without a permit, with no allegation of spurious or poisonous liquor, hooch deaths or violence."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/53572318/",
+          "kind": "court_order",
+          "publisher": "High Court of Punjab and Haryana via Indian Kanoon",
+          "date": "2026-01-01",
+          "supports": "FIR, section, quantity, prior conviction, and reduced sentence"
         }
       ],
       "verification": "V2"

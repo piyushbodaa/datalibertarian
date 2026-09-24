@@ -1561,6 +1561,256 @@
       "verification": "V2"
     },
     {
+      "id": "psu-ga-0001",
+      "category": "cpse",
+      "state": "Goa",
+      "name": "Goa Shipyard Limited (GSL)",
+      "summary": "Goa Shipyard Limited is a defence shipbuilder headquartered at Vasco da Gama, Goa, owned by the Central government under the Ministry of Defence (Department of Defence Production). It is listed as a Miniratna Category-I CPSE. Its most recent development is the launch of the second Project 1135.6 frigate Tavasya at Goa on 22 March 2025, for expected delivery in 2027.",
+      "date": "2025-03-22",
+      "district": "South Goa",
+      "headquarters": "Vasco da Gama, Goa",
+      "state_link": "Central enterprise headquartered at Vasco da Gama, Goa",
+      "owner": "Central government",
+      "administrative": "Ministry of Defence, Department of Defence Production",
+      "legal_form": "Government company",
+      "status_label": "Miniratna Category-I",
+      "established": "1957 as Estaleiros Navais de Goa; developed for naval craft after 1961",
+      "status": "Operating",
+      "financials": "Year labelled 2025 on page opened: revenue Rs 2,850.60 crore; operating earnings Rs 378.64 crore; net earnings Rs 288.44 crore; assets Rs 7,335.99 crore",
+      "employees": "1386 (2025)",
+      "detail": [
+        "Goa Shipyard is described as a public sector undertaking for defence ship building located on the West Coast of India at Vasco da Gama, Goa, with home base listed as Vasco da Gama, Goa (source: Goa Shipyard Wikipedia page opened).",
+        "The CPSE list row gives Goa Shipyard under Ministry of Defence D/o Defence Production with status Miniratna Category-I (source: List of public sector undertakings in India page opened). Origins trace to 1957 as Estaleiros Navais de Goa for mineral-trade barges, repurposed after 1961 for naval and coast-guard craft, with about 167 hulls completed (source: Goa Shipyard page opened).",
+        "The Tavasya milestone: keel laid 18 June 2021 under the 20 November 2018 pact and 30 January 2019 order for two Triput-group frigates at GSL; lead ship Triput launched 23 July 2024 and Tavasya launched 22 March 2025; planned handovers Triput October 2026 and Tavasya in 2027 (source: Talwar-class frigate page opened).",
+        "2025 scale figures listed are revenue Rs 2,850.60 crore, operating earnings Rs 378.64 crore, net earnings Rs 288.44 crore, assets Rs 7,335.99 crore, ownership total Rs 1,620.58 crore, headcount 1386 (source: Goa Shipyard page opened)."
+      ],
+      "caveats": "Official DPE survey, GSL site, annual report and PIB pages could not be opened (403 Forbidden / certificate error / 503 on retries); shareholding % and FY label, Schedule category and exact employee as-of date could not be confirmed from official sources, so shareholding left null and 2025 figures are as labelled on the compilation page, not verified against the annual report.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Goa_Shipyard",
+          "kind": "news",
+          "publisher": "Wikimedia (Wikipedia compilation)",
+          "date": null,
+          "supports": "Vasco da Gama HQ; public-sector defence shipbuilder; 2025 revenue, earnings, assets, headcount; 1957 origins"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_public_sector_undertakings_in_India",
+          "kind": "news",
+          "publisher": "Wikimedia (Wikipedia compilation of DPE list)",
+          "date": null,
+          "supports": "Ministry of Defence D/o Defence Production; Miniratna Category-I"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Talwar-class_frigate",
+          "kind": "news",
+          "publisher": "Wikimedia (Wikipedia compilation)",
+          "date": null,
+          "supports": "Tavasya keel 18 June 2021, launch 22 March 2025, expected delivery 2027; Triput launch 23 July 2024"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Vasco_da_Gama,_Goa",
+          "kind": "news",
+          "publisher": "Wikimedia (Wikipedia compilation)",
+          "date": null,
+          "supports": "Vasco da Gama in Mormugao taluka, South Goa district"
+        }
+      ],
+      "verification": "V1"
+    },
+    {
+      "id": "psu-ga-0002",
+      "category": "state",
+      "state": "Goa",
+      "name": "Kadamba Transport Corporation Limited (KTCL)",
+      "summary": "Kadamba Transport Corporation Limited is the Government of Goa road-transport undertaking, set up in 1980. It operates public bus services in Goa and adjoining areas from its base at Alto Porvorim, Bardez, Goa. Its most recent development is expansion to a 651-vehicle fleet in 2025-26, comprising 480 diesel and 171 battery-electric coaches by early 2026, with 100 more electric buses planned in 2026.",
+      "date": "2026-01-01",
+      "district": "North Goa",
+      "headquarters": "Alto Porvorim, Goa",
+      "state_link": "Government of Goa road transport undertaking",
+      "owner": "State government (Goa)",
+      "administrative": "Government of Goa",
+      "legal_form": "Government company (Limited)",
+      "established": "1980 by then Chief Minister Pratapsingh Rane",
+      "status": "Operating",
+      "detail": [
+        "The operator is described as a Government of Goa road transport undertaking and as a Government of Goa undertaking, set up in 1980 by then Chief Minister Pratapsingh Rane (source: Kadamba Transport Corporation page opened).",
+        "Fleet scale is listed as 651 vehicles in 2025-26; at start of 2026: 480 diesel units plus 171 battery-powered air-conditioned coaches, versus 450 diesel plus 93 electric in November 2024; planned in 2026: purchase of 100 additional electric buses (source: Kadamba Transport Corporation page opened).",
+        "The base is given as KADAMBA TRANSPORT CORPORATION LTD., Parasio de Goa, Alto Porvorim, Bardez-Goa, Pin 403521 (source: ktclgoa.com page opened); Porvorim is grouped with North Goa district (source: North Goa district page opened)."
+      ],
+      "caveats": "Exact calendar date for the early-2026 fleet level is not given on the page opened, so 2026-01-01 is an approximate marker for that development; current financials, employee count, shareholding % and administering department were not available on pages opened, so left null; official Goa gazette/order and KTCL annual report could not be opened (goa.gov.in returned 503).",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kadamba_Transport_Corporation",
+          "kind": "news",
+          "publisher": "Wikimedia (Wikipedia compilation)",
+          "date": null,
+          "supports": "Goa government ownership; 1980 establishment; 651 fleet 2025-26; 480 diesel + 171 electric early 2026; 100 more electrics planned 2026"
+        },
+        {
+          "url": "https://ktclgoa.com/",
+          "kind": "company_site",
+          "publisher": "Kadamba Transport Corporation Ltd.",
+          "date": null,
+          "supports": "HQ address Paraiso de Goa, Alto Porvorim, Bardez-Goa 403521"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/North_Goa_district",
+          "kind": "news",
+          "publisher": "Wikimedia (Wikipedia compilation)",
+          "date": null,
+          "supports": "Porvorim grouped with North Goa district"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-ga-0005",
+      "category": "dfi",
+      "state": "Goa",
+      "name": "Economic Development Corporation of Goa Limited (EDC Ltd)",
+      "summary": "Economic Development Corporation Limited is listed in the Government of Goa's official Departments roster. It is the Goa government's state-level financial institution for industrial and enterprise finance. No dated 2025-2026 development, financials, or shareholding could be verified from accessibly sourced pages.",
+      "date": "2026-09-24",
+      "district": "North Goa",
+      "headquarters": "Panaji, Goa",
+      "state_link": "Listed as a Department of the Government of Goa in the state's official departments roster",
+      "owner": "State government (Goa)",
+      "administrative": "Government of Goa",
+      "legal_form": "Government company (state financial institution)",
+      "established": "1975 (incorporated 12 March 1975 under the Companies Act, 1956)",
+      "status": "Operating",
+      "detail": [
+        "The Government of Goa's Departments roster contains a linked entry labeled 'Economic Development Corporation Limited', confirming it as a Goa government body (source: goa.gov.in departments roster excerpt).",
+        "The Department page states 'It is popularly known as EDC and is a State Financial Institution set up by the Government of Goa' and gives the address 'EDC Limited, 1st Floor, \"EDC House\", Dr. A.B Road, Panaji-Goa', confirming the Panaji headquarters and the state financial institution mandate (source: goa.gov.in/department/economic-development-corporation/).",
+        "The same page records incorporation on 12 March 1975 as a Public Limited Company, RBI registration as an NBFC (NBFC-ND-SI), and twin status as State Industrial Development Corporation and State Financial Corporation.",
+        "No dated 2025-2026 development, financials, or shareholding details were verifiable from accessible pages; annual reports are downloadable only for 2017-18 through 2021-22."
+      ],
+      "caveats": "Headquarters city (Panaji), district (North Goa), shareholding %, financials, employees, establishment year, and any 2025-2026 development could not be confirmed from accessible pages; date given is the roster-access date, not a corporate development. Official EDC site and DPE/CAG figures were unreachable (connection errors, 403s).",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.goa.gov.in/departments/",
+          "kind": "government_order",
+          "publisher": "Government of Goa (goa.gov.in)",
+          "date": null,
+          "supports": "EDC Limited listed as a Goa government department entry"
+        },
+        {
+          "url": "https://www.goa.gov.in/",
+          "kind": "government_order",
+          "publisher": "Government of Goa (goa.gov.in)",
+          "date": null,
+          "supports": "Goa government portal context for departments and directorates"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-ga-0006",
+      "category": "departmental",
+      "state": "Goa",
+      "name": "Electricity Department, Government of Goa",
+      "summary": "The Electricity Department is a department of the Government of Goa that distributes power in the state from Vidyut Bhavan, Panaji. Its official site announces a tariff cycle for FY 2025-26 to FY 2029-30 effective 01/10/2025 and a smart-meter rollout commenced in Division I, Panjim. It operates with no separate legal identity, i.e. as a departmental undertaking.",
+      "date": "2025-10-01",
+      "district": "North Goa",
+      "headquarters": "Panaji, Goa",
+      "state_link": "Department of the Government of Goa serving the state of Goa from Panaji",
+      "owner": "State government (Goa)",
+      "administrative": "Electricity Department, Government of Goa",
+      "legal_form": "Departmental undertaking",
+      "established": "Year not confirmed from accessible pages",
+      "status": "Operating",
+      "detail": [
+        "The body is identified as 'Electricity Department, Government of Goa' with base listed as 'Vidyut Bhavan, Panaji, Goa', and its stated role is 'Providing reliable and quality power to the state of Goa' (source: goaelectricity.gov.in excerpt).",
+        "Its tariff cycle is stated as 'FY 2025-26 to FY 2029-30 w.e.f. 01/10/2025' (source: goaelectricity.gov.in excerpt).",
+        "Its rollout note states 'Smart meter installation has commenced in Division I, Panjim (Taleigao, Bambolim, Corlim and Panjim City)' and that 'Smart Meter installation is free of cost for all consumers' (source: goaelectricity.gov.in excerpt).",
+        "It appears as 'Electricity Department' in the Government of Goa's Departments roster (source: goa.gov.in departments excerpt)."
+      ],
+      "caveats": "District (North Goa) is inferred from Panaji location, not stated in excerpts. Revenue, profit, and employee figures not available on accessible pages. Exact smart-meter commencement day is not dated in the excerpt beyond the tariff effective date.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.goaelectricity.gov.in/about-us/",
+          "kind": "company_site",
+          "publisher": "Electricity Department, Government of Goa",
+          "date": null,
+          "supports": "Name, Panaji base, power-supply role, tariff cycle w.e.f. 01/10/2025, smart-meter rollout in Division I Panjim"
+        },
+        {
+          "url": "https://www.goaelectricity.gov.in/",
+          "kind": "company_site",
+          "publisher": "Electricity Department, Government of Goa",
+          "date": null,
+          "supports": "Name, Vidyut Bhavan Panaji base, power-supply role"
+        },
+        {
+          "url": "https://www.goa.gov.in/departments/",
+          "kind": "government_order",
+          "publisher": "Government of Goa (goa.gov.in)",
+          "date": null,
+          "supports": "Electricity Department listed as a Goa government department"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-ga-0007",
+      "category": "statutory",
+      "state": "Goa",
+      "name": "Mormugao Port Authority (MPA)",
+      "summary": "Mormugao Port Authority operates Mormugao Port at Mormugao, Goa, and is owned by the Government of India under the Ministry of Ports, Shipping and Waterways. The port was recognised as a major port in 1963 under the Major Port Trusts Act, 1963 and was renamed from 'Mormugao Port Trust' to 'Mormugao Port Authority' in 2022. Its office is at Headland Sada, Mormugao, Goa.",
+      "date": "2022-01-01",
+      "district": "South Goa",
+      "headquarters": "Mormugao, Goa",
+      "state_link": "Central statutory port authority headquartered at Mormugao, Goa (Headland Sada)",
+      "owner": "Central government",
+      "administrative": "Ministry of Ports, Shipping and Waterways, Government of India",
+      "legal_form": "Statutory corporation (Major Port Authorities Act, 2021; earlier Major Port Trusts Act, 1963)",
+      "established": "Commissioned in 1885; recognised as a major port in 1963",
+      "status": "Operating",
+      "employees": "Around 2,600 employees and about 4,000 pensioners (undated figure from tertiary source; year not confirmed)",
+      "detail": [
+        "'Mormugao Port is a port on the western coast of India, in the coastal state of Goa' and 'Mormugao Port is located in the town of Mormugao, Goa, India'; it is 'Operated by Mormugao Port Authority' and infobox states 'Owned by Government of India' (source: Mormugao Port wiki excerpt).",
+        "'Commissioned in 1885 on the site of a natural harbour, it is one of India's oldest ports'; 'The port was recognised as a major port in 1963 under the Major Port Trusts Act, 1963', and 'It was renamed from \"Mormugao Port Trust\" to \"Mormugao Port Authority\" in 2022' (source: Mormugao Port wiki excerpts).",
+        "The official site identifies the entity as 'MORMUGAO PORT AUTHORITY' under '(Ministry of Ports, Shipping and Waterways, Govt. Of India)' with address 'SAARASI Administrative Office Building, Mormugao Headland Sada, Goa - 403 804' (source: mormugaoport.gov.in excerpt).",
+        "'As of 2024, the country has 14 major ports and 217 non-major ports', with 'Mormugao Port' listed among them (source: Ports in India wiki, tabular entry); 'The port employs around 2,600 employees and has about 4,000 pensioners' (source: Mormugao Port Authority wiki excerpt, undated)."
+      ],
+      "caveats": "Only the year (2022) of the Trust-to-Authority rename is verified, so the date uses January 1 as a placeholder day/month. District (South Goa) is inferred from Mormugao location. Revenue, profit, cargo tonnage for 2024-25/2025-26, and employee as-of date could not be verified from accessible pages; the port's interior pages were rate-limited (503). Statute succession (2021 Act replacing 1963 Act) is stated as legal form but the 2021 Act text itself was not accessible.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://mormugaoport.gov.in/",
+          "kind": "company_site",
+          "publisher": "Mormugao Port Authority",
+          "date": "2026-09-24",
+          "supports": "Official name, Ministry of Ports Shipping and Waterways, Headland Sada Goa address; site last-updated date"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Mormugao_Port",
+          "kind": "news",
+          "publisher": "Wikipedia (tertiary; cites official sources)",
+          "date": null,
+          "supports": "Mormugao Goa location, MPA as operator, GoI ownership, 1963 major-port recognition under 1963 Act, 2022 rename"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Mormugao_Port_Authority",
+          "kind": "news",
+          "publisher": "Wikipedia (tertiary; cites official sources)",
+          "date": null,
+          "supports": "2022 rename, Mormugao Goa locale, ~2,600 employees and ~4,000 pensioners (undated)"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ports_in_India",
+          "kind": "news",
+          "publisher": "Wikipedia (tertiary; cites official sources)",
+          "date": null,
+          "supports": "Mormugao among India's 14 major ports as of 2024"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "psu-gj-0005",
       "category": "dfi",
       "state": "Gujarat",
@@ -1683,6 +1933,146 @@
           "publisher": "Press Information Bureau, Ahmedabad",
           "date": "2025-11-28",
           "supports": "Fastest major port to 100 MMT in FY2025-26; No.1 major port"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-hr-0005",
+      "category": "dfi",
+      "state": "Haryana",
+      "name": "Haryana Financial Corporation (HFC)",
+      "summary": "Haryana Financial Corporation is a state-owned financial agency of the Government of Haryana. It is listed by the Haryana government among its Boards and Corporations and is overseen via the Department of Industries & Commerce. No 2025 or 2026 official results or reform decision could be verified from accessible official pages.",
+      "date": "1967-04-01",
+      "district": "Chandigarh",
+      "headquarters": "Chandigarh, Haryana",
+      "state_link": "Owned by the Government of Haryana and listed on the Haryana government Boards and Corporations portal; head office at Sector 17-C, Chandigarh serving Haryana districts.",
+      "owner": "State government (Haryana)",
+      "administrative": "Department of Industries & Commerce, Haryana",
+      "legal_form": "Statutory corporation (State Financial Corporations Act, 1951)",
+      "established": "1967 as a state financial corporation; 1 April 1967",
+      "status": "Operating",
+      "detail": [
+        "Haryana government's Boards and Corporations directory lists 'HFC' with link to hfcindia.org.in, confirming it as a Haryana state corporation (source: haryana.gov.in boards-and-corporations page).",
+        "Its head office is given as '30 Bays Building, Ground Floor, Sector 17-C, Chandigarh' with oversight 'Government of Haryana' and admin link 'Department of Industries & Commerce, Haryana', established '1 April 1967' and described as 'State owned Indian financial agency' with 'branches at various district headquarters of the state' (source: Haryana Financial Corporation encyclopaedia page).",
+        "No 2025-26 annual report, exchange filing, PIB release, CAG finding or Haryana order on results, disinvestment, merger or revival could be opened from this environment; the corporation's own site certificate was invalid and BSE/PIB/CAG detail pages returned 403, so financials and employees are left null (sources: failed fetches noted in caveats)."
+      ],
+      "caveats": "Financial figures, shareholding %, employee count and any 2025-2026 development could not be confirmed; hfcindia.org.in certificate invalid, bseindia.com and indiacode 403, CAG detail pages 404. Date shown is establishment, not a recent development.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.haryana.gov.in/boards-and-corporations/",
+          "kind": "government_order",
+          "publisher": "Government of Haryana",
+          "date": null,
+          "supports": "HFC listed as Haryana Board/Corporation"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Haryana_Financial_Corporation",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "headquarters Sector 17-C Chandigarh; Government of Haryana oversight; est. 1 April 1967; state-owned financial agency"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/National_Housing_Bank",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "NHB head office New Delhi, hence not Haryana-headquartered central DFI"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-hr-0006",
+      "category": "departmental",
+      "state": "Haryana",
+      "name": "Haryana Roadways (Haryana Transport Department)",
+      "summary": "Haryana Roadways is the public transport unit run directly by the Government of Haryana Transport Department with no separate legal identity. Its head office is at Sector 17, Chandigarh. Its official site reports about 4000 buses via 24 depots and 13 sub-depots, last updated 11 September 2026.",
+      "date": "2026-09-11",
+      "district": "Chandigarh",
+      "headquarters": "Chandigarh, Haryana",
+      "state_link": "Unit of the Government of Haryana Transport Department; head office Chandigarh serving Haryana rural and urban routes.",
+      "owner": "State government (Haryana)",
+      "administrative": "Transport Department, Government of Haryana",
+      "legal_form": "Departmental undertaking",
+      "status": "Operating",
+      "detail": [
+        "Haryana Roadways is described as 'the public transport unit of the Government of Haryana' and 'a major part of Haryana Transport Department' and 'the principal service provider for passenger transport in the state' (source: Haryana Roadways page).",
+        "The Transport Department's official site states 'It has a fleet of about 4000 buses being operated by 24 depots and 13 sub-depots' with objectives 'To improve and strengthen public transportation services for rural & urban areas' (source: hartrans.gov.in).",
+        "The same official site identifies 'HEAD OFFICE' as 'Address: 2nd Floor, 30 Bays Building, Sector 17, Chandigarh-160017' and shows 'Last Updated: September 11, 2026 02:47 PM', plus an RFP 'for development of bus terminals at Karnal, Pipli, Sonipat, Ballabhgarh, Gurugram-Sector 29' with comments due '15.01.2024' (source: hartrans.gov.in and contact-us page)."
+      ],
+      "caveats": "No 2025-2026 dated results, CAG finding or closure decision found; date shown is the official site Last Updated stamp. Financials and staff strength not published on accessible pages, left null.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://hartrans.gov.in/",
+          "kind": "company_site",
+          "publisher": "Transport Department, Government of Haryana",
+          "date": "2026-09-11",
+          "supports": "fleet 4000 buses, 24 depots 13 sub-depots; Last Updated 2026-09-11; bus terminal RFP"
+        },
+        {
+          "url": "https://hartrans.gov.in/contact-us",
+          "kind": "company_site",
+          "publisher": "Transport Department, Government of Haryana",
+          "date": null,
+          "supports": "HEAD OFFICE 2nd Floor 30 Bays Building Sector 17 Chandigarh-160017"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Haryana_Roadways",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "public transport unit of Government of Haryana; part of Haryana Transport Department"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Northern_Railway_zone",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "Northern Railway HQ Baroda House New Delhi, Ambala division at Ambala; hence zone not Haryana-headquartered"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-hr-0007",
+      "category": "statutory",
+      "state": "Haryana",
+      "name": "Haryana State Agricultural Marketing Board (HSAMB)",
+      "summary": "The Haryana State Agricultural Marketing Board is a Haryana statutory board regulating agricultural produce markets. It was constituted on 1 August 1969 with headquarters at Chandigarh. It is listed by the Haryana government among Boards and Corporations.",
+      "date": "1969-08-01",
+      "district": "Chandigarh",
+      "headquarters": "Chandigarh, Haryana",
+      "state_link": "Haryana government board listed as Agriculture Marketing Board; constituted for Haryana mandis and headquartered at Chandigarh.",
+      "owner": "State government (Haryana)",
+      "administrative": "Agriculture Department, Government of Haryana",
+      "legal_form": "Statutory corporation/board (Punjab Agricultural Produce Markets Act, 1961 as applicable to Haryana)",
+      "established": "1969 by constitution on 1 August 1969",
+      "status": "Operating",
+      "detail": [
+        "Haryana government's Boards and Corporations directory lists 'Agriculture Marketing Board' with link hsamb.org.in (source: haryana.gov.in).",
+        "The Board's official site states 'Haryana State Agricultural Marketing Board was constituted on Ist August, 1969' and 'with its headquarter at Chandigarh, the capital of Haryana' and that 'The Agricultural produce in Haryana is being regulated under the Punjab Agricultural Produce Markets Act,1961' (source: hsamb.org.in).",
+        "State warehousing corporations derive from the Warehousing Corporation Act 1962 where 'the Central Warehousing Corporation may subscribe to the share capital of a State Warehousing Corporation', illustrating the statutory model for the alternative Haryana State Warehousing Corporation, whose own domain was unreachable (sources: Central Warehousing Corporation page; haryana.gov.in listing Warehousing Corporation at hwc.org.in)."
+      ],
+      "caveats": "No 2025-2026 results, CAG finding or project could be verified for HSAMB from accessible pages; financials and employees left null. Haryana State Warehousing Corporation would also qualify but its site was unreachable/hijacked and HQ could not be verified without inventing.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://www.haryana.gov.in/boards-and-corporations/",
+          "kind": "government_order",
+          "publisher": "Government of Haryana",
+          "date": null,
+          "supports": "Agriculture Marketing Board and Warehousing Corporation listed as Haryana boards/corporations"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Central_Warehousing_Corporation",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "Warehousing Corporation Act 1962 state warehousing model"
         }
       ],
       "verification": "V2"
@@ -2715,6 +3105,117 @@
       "verification": "V2"
     },
     {
+      "id": "psu-ml-0001",
+      "category": "cpse",
+      "state": "Meghalaya",
+      "name": "North Eastern Electric Power Corporation Limited (NEEPCO)",
+      "summary": "NEEPCO is a central public sector undertaking and power generating company of India's North Eastern region, headquartered in Shillong, Meghalaya. It is a subsidiary of NTPC Limited. Its most recent verifiable strategic development is the Government of India's approval on 21 November 2019 of the takeover of NEEPCO by NTPC Limited.",
+      "date": "2019-11-21",
+      "district": "East Khasi Hills",
+      "headquarters": "Shillong, Meghalaya",
+      "state_link": "Headquartered at Shillong, Meghalaya",
+      "owner": "Central government (through NTPC Limited)",
+      "administrative": "Ministry of Power",
+      "legal_form": "Government company",
+      "status_label": "Schedule A CPSE (Miniratna status not re-verified in accessible excerpts)",
+      "established": "1976 as a central generating company for the Northeast (year not re-verified in accessible excerpts)",
+      "status": "Operating",
+      "detail": [
+        "NEEPCO is 'a central public sector undertaking' and 'a subsidiary of the Maharatna PSU, NTPC Ltd'; the NTPC Limited Wikipedia page lists 'NEEPCO' and 'THDC India Limited' as subsidiaries (source: NTPC Limited and NEEPCO pages).",
+        "The takeover date is stated on the NEEPCO page: 'On 21 November 2019, the Government of India approved the take over of NEEPCO by NTPC Limited'; the THDC India Limited page records the same 21 November 2019 decision (source: NEEPCO page, THDC India Limited page).",
+        "NEEPCO's headquarters is Shillong, Meghalaya, India, and it was formed on 2 April 1976 to plan, investigate, design, construct, generate, operate and maintain power stations in the North Eastern Region of India (source: NEEPCO page).",
+        "Shillong is 'the capital of Meghalaya, India' and 'the headquarters of the East Khasi Hills district' (source: Shillong page)."
+      ],
+      "caveats": "NEEPCO's Shillong headquarters address and 100% NTPC shareholding could not be re-verified in an accessible official excerpt (neepco.co.in rendered only as 'NEEPCO'; ntpc.co.in blocked by bot check; DPE survey PDF returned 403). Schedule/Miniratna label, financials (revenue/profit FY2024-25 or FY2025-26), employee count and exact closing date of the 2020 deal are left null. No dated 2025 or 2026 official development was verifiable through accessible pages, so the dated CCEA decision (2019-11-21) is used as the most recent verifiable strategic development date.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/North_Eastern_Electric_Power_Corporation_Limited",
+          "kind": "news",
+          "publisher": "Wikipedia (NEEPCO)",
+          "date": null,
+          "supports": "central PSU; subsidiary of NTPC; HQ Shillong; formed 2 April 1976; takeover approved 21 November 2019"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/NTPC_Limited",
+          "kind": "news",
+          "publisher": "Wikipedia (NTPC Limited)",
+          "date": null,
+          "supports": "NEEPCO and THDC India Limited listed as subsidiaries"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/THDC_India_Limited",
+          "kind": "news",
+          "publisher": "Wikipedia (THDC India Limited)",
+          "date": null,
+          "supports": "date 21 November 2019 GOI approval of NTPC takeover in the same transaction"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Shillong",
+          "kind": "news",
+          "publisher": "Wikipedia (Shillong)",
+          "date": null,
+          "supports": "Shillong is capital of Meghalaya and HQ of East Khasi Hills district"
+        },
+        {
+          "url": "https://neepco.co.in/",
+          "kind": "company_site",
+          "publisher": "NEEPCO",
+          "date": null,
+          "supports": "official site identity only; rendered as 'NEEPCO' to this fetcher"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-ml-0007",
+      "category": "statutory",
+      "state": "Meghalaya",
+      "name": "Meghalaya Transport Corporation (MTC)",
+      "summary": "Meghalaya Transport Corporation is the state road-transport corporation overseen by the Transport Department, Government of Meghalaya. It was constituted under the Road Transport Corporations Act, 1950 to strengthen public transport in the state. Its most recent official transport activity noted is the flagging off of AGEY vehicles for SHGs under MSRLS on 22.09.2026.",
+      "date": "2026-09-22",
+      "district": "East Khasi Hills",
+      "headquarters": "Shillong, Meghalaya",
+      "state_link": "Owned by Government of Meghalaya; administered by state Transport Department for road transport in Meghalaya",
+      "owner": "State government (Meghalaya)",
+      "administrative": "Transport Department, Government of Meghalaya",
+      "legal_form": "Statutory corporation (Road Transport Corporations Act, 1950)",
+      "established": "Constituted under the Road Transport Corporations Act, 1950 (notification year not available in fetchable excerpt)",
+      "status": "Operating",
+      "detail": [
+        "The Transport Department primarily deals with matters related to road transport in Meghalaya, and administers the Motor Vehicles Taxation Act and rules framed thereunder, per megtransport.gov.in.",
+        "The same portal states the Department oversees the Meghalaya Transport Corporation, which was constituted under the Road Transport Corporations Act, 1950, to bolster shared mobility statewide, per megtransport.gov.in.",
+        "The Meghalaya Government portal records flagged off the AGEY vehicles for SHGs under MSRLS on 22.09.2026, the most recent dated official transport-related development available in fetchable excerpts.",
+        "No MTC-specific annual report figures, shareholding percentages or employee counts were available in fetchable excerpts; CAG lists Status of Accounts of State PSUs but without MTC figures in the excerpt."
+      ],
+      "caveats": "Headquarters street address, shareholding, financials and employee counts for MTC could not be confirmed from fetchable excerpts and are left null. Date 2026-09-22 is a dated Transport Department activity, not an MTC annual filing; no MTC-specific 2026 or 2025 filing was fetchable.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://megtransport.gov.in/",
+          "kind": "company_site",
+          "publisher": "Transport Department, Government of Meghalaya / Meghalaya Transport Corporation portal",
+          "date": null,
+          "supports": "Transport Department role; MTC constituted under Road Transport Corporations Act, 1950; oversight"
+        },
+        {
+          "url": "https://meghalaya.gov.in/",
+          "kind": "government_order",
+          "publisher": "Government of Meghalaya",
+          "date": "2026-09-24",
+          "supports": "Flagged off AGEY vehicles for SHGs under MSRLS on 22.09.2026; Last Updated September 24, 2026"
+        },
+        {
+          "url": "https://cag.gov.in/",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": null,
+          "supports": "Status of Accounts of State PSUs listed; no MTC figures in excerpt"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
       "id": "psu-mp-0001",
       "category": "cpse",
       "state": "Madhya Pradesh",
@@ -2823,6 +3324,156 @@
           "publisher": "Madhya Pradesh Financial Corporation",
           "date": "2025-02-14",
           "supports": "name, SFC Act 1951, since 1955, HQ Indore, 20 offices, OTS-2025, board composition"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-mz-0009",
+      "category": "jv",
+      "state": "Mizoram",
+      "name": "Mizoram Rural Bank (MRB)",
+      "summary": "Mizoram Rural Bank is a Regional Rural Bank sponsored by State Bank of India and headquartered in Aizawl. It is jointly owned by the Government of India (50%), Government of Mizoram (15%) and State Bank of India (35%). Its most recent development is its continuation as Mizoram's single RRB under the Finance Ministry's 'One State-One RRB' consolidation effective 1 May 2025, which consolidated 43 RRBs into 28 banks including Mizoram Rural Bank.",
+      "date": "2025-05-01",
+      "district": "Aizawl",
+      "headquarters": "Aizawl, Mizoram",
+      "state_link": "Headquartered in Aizawl and 15% owned by the Government of Mizoram; operates across all 11 districts of Mizoram.",
+      "owner": "Joint (Central government, State government (Mizoram), State Bank of India)",
+      "shareholding": "Government of India 50%, Government of Mizoram 15%, State Bank of India 35% (as reported in opened page; as-of date not stated)",
+      "administrative": "Ministry of Finance, Government of India",
+      "legal_form": "Regional Rural Bank (statutory RRB constituted under the Regional Rural Bank Act, 1976)",
+      "established": "1983 (27 September 1983)",
+      "status": "Operating",
+      "detail": [
+        "Mizoram Rural Bank (MRB) is a Regional Rural Bank in Mizoram sponsored by State Bank of India, under the ownership of Ministry of Finance, Government of India, with shares listed as Government of India (50%), Government of Mizoram (15%) and State Bank of India (35%) (source: Mizoram Rural Bank page).",
+        "The Bank is headquartered in Aizawl, was established on 27 September 1983, and is reported to have 106 branches covering all the 11 districts and 26 RD blocks; an infobox gives 105 branches, showing a discrepancy in the same page (source: Mizoram Rural Bank page; year not stated).",
+        "Under the 'One State-One RRB' strategy which aims to rationalize costs by consolidating 43 RRBs into 28 banks, it was put into action by the finance ministry from May 1, 2025, and as of 1 May 2025 there are 28 RRBs with a network of 22,966 branches, including Mizoram Rural Bank in the retained list (source: Regional Rural Bank page)."
+      ],
+      "caveats": "Official figures not confirmed: latest revenue, profit, net worth, employee count and audited FY2024-25 or FY2025-26 annual report could not be opened; shareholding as-of date not stated in opened page; constituting statute and DPE/CAG classification not verified in opened official pages.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mizoram_Rural_Bank",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "name, sponsorship, ownership ministry, 50/15/35 shareholding, headquarters Aizawl, establishment 27 Sep 1983, 106 branches / 11 districts / 26 RD blocks"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Regional_Rural_Bank",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "One State-One RRB consolidation 43 to 28, effective 1 May 2025, 28 RRBs and 22,966 branches, Mizoram Rural Bank retained"
+        }
+      ],
+      "verification": "V1"
+    },
+    {
+      "id": "psu-mz-0010",
+      "category": "municipal",
+      "state": "Mizoram",
+      "name": "Aizawl Smart City Limited (ASCL)",
+      "summary": "Aizawl Smart City Limited is the Special Purpose Vehicle for implementation of Smart Cities Mission projects in Aizawl, affiliated to the Government of Mizoram. Aizawl is part of the Smart Cities Mission, an initiative by the Ministry of Housing and Urban Affairs implemented through city SPVs headed by a CEO. Its most recent development is closure of the Mission itself, officially shut down on 31 March 2025.",
+      "date": "2025-03-31",
+      "district": "Aizawl",
+      "headquarters": "Aizawl, Mizoram",
+      "state_link": "Implements Smart City projects in Aizawl, Mizoram; official site identifies as Aizawl Smart City, Government of Mizoram, India.",
+      "owner": "Joint (Central government and State government (Mizoram))",
+      "administrative": "Ministry of Housing and Urban Affairs (Mission) and Government of Mizoram (implementation)",
+      "legal_form": "Government company (Special Purpose Vehicle; exact incorporation details not verified in opened pages)",
+      "established": "Not confirmed in opened pages; Aizawl described as part of Smart Cities Mission and placed in mid-2017 cohort per excerpt",
+      "status": "Operating",
+      "detail": [
+        "Aizawl is described as the capital and most populous city of Mizoram, part of the Smart Cities Mission, an initiative by the Ministry of Housing and Urban Affairs aimed at urban development and infrastructure enhancement (source: Aizawl page).",
+        "The Mission governance model provides that each city will create a Special Purpose Vehicle (SPV) headed by a CEO to implement projects; the official city site identifies as Aizawl Smart City, Government of Mizoram, India and lists active procurement such as EOI for Shifting Incinerators, leasing of OFC dark fibre, digital infrastructure and bio-medical waste facility at Tuirial (sources: Smart Cities Mission page; Aizawl Smart City official site).",
+        "The project was officially shut down on 31 March 2025, with context that by 2025 only 18 out of 100 cities had declared full completion of all planned projects, and the excerpt places the Mizoram centre within the mid-2017 thirty-member cohort without a separate Aizawl completion tally (source: Smart Cities Mission page)."
+      ],
+      "caveats": "Exact legal incorporation date, CIN, 50:50 or other centre-state-ULB shareholding, latest project-wise completion, financials and employee count could not be confirmed in pages successfully opened; no official Aizawl-specific completion order opened.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://aizawlsmartcity.mizoram.gov.in/",
+          "kind": "company_site",
+          "publisher": "Aizawl Smart City / Government of Mizoram",
+          "date": null,
+          "supports": "affiliation to Government of Mizoram; active tenders/EOIs"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Aizawl",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "Aizawl is capital/most populous city of Mizoram; part of Smart Cities Mission, MoHUA initiative"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Smart_Cities_Mission",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "SPV headed by CEO model; shutdown 31 March 2025; 18 of 100 cities fully complete by 2025; mid-2017 cohort"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-nl-0002",
+      "category": "state",
+      "state": "Nagaland",
+      "name": "Nagaland Industrial Development Corporation Limited (NIDC)",
+      "summary": "Nagaland Industrial Development Corporation Limited is a state-run industrial promotion corporation of Nagaland. It developed the Agro & Food Processing Special Economic Zone associated with Chumoukedima district. No 2025-2026 enterprise filing could be opened, so status is given as verified on 2026-09-24 with financials unconfirmed.",
+      "date": "2026-09-24",
+      "district": "Chumoukedima",
+      "headquarters": "Dimapur, Nagaland",
+      "state_link": "Described verbatim as state-run Nagaland Industrial Development Corporation Limited developing the Agro & Food Processing Special Economic Zone in Chumoukedima district context",
+      "owner": "State government (Nagaland)",
+      "administrative": "Department of Industries and Commerce, Government of Nagaland (confirmed from official industry.nagaland.gov.in page)",
+      "legal_form": "Government company (described as Corporation Limited and state-run; incorporation number and authorised capital not confirmed)",
+      "established": "1970",
+      "status": "Operating",
+      "detail": [
+        "The Chumoukedima district page states: It is developed by state-run Nagaland Industrial Development Corporation Limited, referring to the Agro & Food Processing Special Economic Zone (AFSEZ), described as one of the few exclusive Agro Food Products SEZ in India. Source is the Chumoukedima district page opened.",
+        "The Neiphiu Rio page states he also served as Chairman in Nagaland Industrial Development Corporation, Nagaland Khadi & Village, supporting Nagaland-government control. Source is the Neiphiu Rio page opened.",
+        "A Wikipedia search for Nagaland Industrial Development Corporation notes it does not have a dedicated entry but links the heading Chumoukedima district with developed by state-run Nagaland Industrial Development Corporation Limited and links Public Sector Undertakings in India. Source is the Wikipedia search page opened.",
+        "The CAG national portal opened showing Last Updated: 24 Sep 2026 with Recent Reports, Audit Reports and Press Release sections, but no Nagaland SLPE figures could be retrieved from it in this session. The DPE survey portal opened but showed only portal navigation with no enterprise figures. Hence financials, shareholding, employees and establishment year are left null."
+      ],
+      "caveats": "Headquarters given as operating/project district (Chumoukedima) from the district page actually opened; registered-office street address not confirmed because industries.nagaland.gov.in DNS failed, nagaland.gov.in returned 403, and zaubacorp/opencorporates were blocked. Established year, shareholding, financials and employees are null because no annual report, MCA record, CAG Nagaland report or gazette could be opened. Date 2026-09-24 is the verification date tied to the CAG portal last-updated stamp, not an enterprise filing date; no 2025-2026 enterprise-specific development could be verified.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ch%C3%BCmoukedima_district",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "state-run NIDC developed the Agro & Food Processing SEZ"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Neiphiu_Rio",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "served as Chairman in Nagaland Industrial Development Corporation"
+        },
+        {
+          "url": "https://en.wikipedia.org/w/index.php?search=Nagaland+Industrial+Development+Corporation",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "no dedicated entry; matches link NIDC to Chumoukedima district and Public Sector Undertakings"
+        },
+        {
+          "url": "https://cag.gov.in/",
+          "kind": "cag",
+          "publisher": "Comptroller and Auditor General of India",
+          "date": "2026-09-24",
+          "supports": "portal Last Updated 24 Sep 2026; no Nagaland SLPE figures retrieved"
+        },
+        {
+          "url": "https://dpe.gov.in/public-enterprises-survey/",
+          "kind": "dpe_survey",
+          "publisher": "Department of Public Enterprises",
+          "date": null,
+          "supports": "survey portal checked; no enterprise figures retrieved"
         }
       ],
       "verification": "V2"
@@ -4050,6 +4701,53 @@
           "publisher": "DT Next",
           "date": null,
           "supports": "CAG Smart City Mission findings on CSCL tabled September 8"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "psu-tr-0002",
+      "category": "state",
+      "state": "Tripura",
+      "name": "Tripura State Electricity Corporation Limited (TSECL)",
+      "summary": "Tripura State Electricity Corporation Limited is the Tripura government's power distribution and generation utility. It is listed by the Tripura Power Department alongside the department itself. Its most recent official development is the Tripura Electricity Regulatory Commission's Tariff Order for FY 2026-27 listed under What's New.",
+      "date": "2026-04-01",
+      "district": "West Tripura",
+      "headquarters": "Agartala, Tripura",
+      "state_link": "Listed on the Tripura State Power Department site as Tripura State Electricity Corporation Limited; serves Tripura",
+      "owner": "State government (Tripura)",
+      "administrative": "Power Department, Government of Tripura",
+      "legal_form": "Government company",
+      "status": "Operating",
+      "detail": [
+        "The Tripura Power Department site identifies itself as 'Tripura State Power Department' with greeting 'Welcome to Power Department, Govt of Tripura' and lists 'Tripura State Electricity Corporation Limited' as a utility name (source: power.tripura.gov.in).",
+        "Agartala is confirmed as 'the capital' of Tripura and the most populous city, and as admin centre for 'West Tripura' (source: Tripura overview page). TSECL headquarters city is therefore given as Agartala, West Tripura.",
+        "The Tripura Electricity Regulatory Commission site's What's New list includes 'Tariff Order for the FY 2026-27' with no revenue figure shown in the excerpt (source: terc.tripura.gov.in). The tariff year FY 2026-27 is the basis for the 2026 development date, taken as 2026-04-01 start of the tariff year.",
+        "No official revenue, profit, employee-count or shareholding percentage was visible in the excerpts actually opened; those fields are left null (sources: power.tripura.gov.in; terc.tripura.gov.in)."
+      ],
+      "caveats": "Exact day/month of the FY 2026-27 tariff order issuance was not visible in the excerpt; date set to 2026-04-01 as start of FY 2026-27 tariff period and should be verified against the full order PDF. Incorporation year, shareholding %, financials and employee count could not be confirmed from pages actually opened and are left null.",
+      "on_the_block": false,
+      "sources": [
+        {
+          "url": "https://power.tripura.gov.in/",
+          "kind": "company_site",
+          "publisher": "Power Department, Government of Tripura",
+          "date": null,
+          "supports": "TSECL name listing; Power Department identity"
+        },
+        {
+          "url": "https://terc.tripura.gov.in/",
+          "kind": "government_order",
+          "publisher": "Tripura Electricity Regulatory Commission",
+          "date": null,
+          "supports": "Tariff Order for the FY 2026-27 listed under What's New"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Tripura",
+          "kind": "news",
+          "publisher": "Wikipedia",
+          "date": null,
+          "supports": "Agartala capital; West Tripura district"
         }
       ],
       "verification": "V2"
