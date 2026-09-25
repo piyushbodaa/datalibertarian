@@ -44,8 +44,8 @@
       "category": "speech",
       "state": "Andhra Pradesh",
       "district": "Krishna",
-      "date": "2026-07-05",
-      "date_label": "Fifth arrest and remand (reports give 4 or 5 July)",
+      "date": "2026-09-17",
+      "date_label": "Seven-day police custody granted in the UAPA case",
       "incident_date": "2026-06-28",
       "title": "YouTuber arrested five times in a week after a speech criticising the Deputy Chief Minister; anti-terror law added",
       "outcome": "arrest",
@@ -65,9 +65,10 @@
         "News reports say the YouTuber spoke at a Dalit Christian meeting in Eluru in late June 2026, where he attacked ruling-party leaders over what he called inaction on atrocities against Dalits. IANS reported the date as 28 June and said the complaint concerned 'derogatory remarks' against Deputy Chief Minister Pawan Kalyan.",
         "According to ThePrint, he was first taken into custody on 30 June by Kakinada district police. After bail he was arrested again on 2 July by Sarpavaram police in a pending 2025 case, then on 3 July by Machilipatnam and Inaguduru police, and on 4 July by Payakaraopeta police, when a court at Anakapalli rejected the remand request. IANS reported that he 'secured bail for the fourth time on July 4'.",
         "He was then arrested a fifth time by Gannavaram police in Krishna district at the Vempadu toll plaza. Police invoked sections 13 and 39 of the Unlawful Activities (Prevention) Act and several sections of the Bharatiya Nyaya Sanhita, including section 152 (acts endangering the sovereignty and integrity of India). ThePrint reported that police said a video he posted on 25 November 2025 was 'very provocative' and 'supported and encouraged banned organisations such as the Maoists', and that it showed pictures of Maoist leaders killed in encounters.",
-        "A court at Gannavaram remanded him to judicial custody until 18 July 2026, and he was lodged in Nellore Central Jail, according to the same reports. His wife told reporters that he 'spoke the very same language that Pawan Kalyan used'."
+        "A court at Gannavaram remanded him to judicial custody until 18 July 2026, and he was lodged in Nellore Central Jail, according to the same reports. His wife told reporters that he 'spoke the very same language that Pawan Kalyan used'.",
+        "On 17 September 2026 a court at Gannavaram granted Gannavaram police seven days' custody of him in the UAPA case, Deccan Chronicle reported. Police said they wanted to question him about the network behind his videos, alleged links with former IAS and IPS officers, and political motives, and alleged that remarks at the Eluru meeting could encourage youngsters towards Naxalism."
       ],
-      "current_position": "Remanded to judicial custody until 18 July 2026 in the UAPA case, according to news reports. We have not found a published court order or any later report on bail.",
+      "current_position": "In police custody in the UAPA case from 18 September 2026 for seven days, per Deccan Chronicle; the prosecutions are pending.",
       "sections": [
         {
           "label": "Why it is listed",
@@ -97,6 +98,13 @@
           "publisher": "ThePrint (column)",
           "date": "2026-07-08",
           "supports": "dates and police stations of the five arrests; Anakapalli court rejecting remand after the fourth arrest"
+        },
+        {
+          "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/court-grants-seven-day-custody-of-youtuber-joseph-ravan-1988277",
+          "kind": "news",
+          "publisher": "Deccan Chronicle",
+          "date": "2026-09-17",
+          "supports": "seven-day police custody granted on 17 September 2026 and the police's reasons"
         }
       ],
       "verification": "V1"
@@ -2796,6 +2804,135 @@
         }
       ],
       "verification": "V2"
+    },
+    {
+      "id": "cl-tg-0002",
+      "category": "speech",
+      "state": "Telangana",
+      "district": "Hyderabad",
+      "title": "Author arrested and copies seized the day before launching a book critical of Ambedkar",
+      "summary": "Hyderabad police arrested the author of a 730-page Telugu book critical of B.R. Ambedkar on 17 September 2026, a day before its planned launch, and seized copies. The State told the Telangana High Court a case had been registered under BNS sections for public mischief and promoting enmity. The court closed a petition seeking to stop the launch after noting the arrest and seizure.",
+      "date": "2026-09-17",
+      "date_label": "Arrest and seizure reported to the High Court",
+      "incident_date": "2026-09-17",
+      "outcome": "arrest",
+      "authority": "Hyderabad City Police; Telangana High Court, Justice T. Madhavi Devi",
+      "case_reference": "Case registered by Hyderabad police (number not reported)",
+      "laws": [
+        "Section 353(2) of the Bharatiya Nyaya Sanhita, 2023",
+        "Section 196 of the Bharatiya Nyaya Sanhita, 2023",
+        "Section 350 of the Bharatiya Nyaya Sanhita, 2023",
+        "Section 61(2) of the Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "an author and Dalit activist in Hyderabad",
+      "detail": [
+        "The New Indian Express reported that a petitioner asked the Telangana High Court to stop the launch on 18 September of a book said to contain objectionable remarks about Ambedkar, claiming its title, cover and contents could promote hostility.",
+        "The government pleader told the court the author had been arrested and would be produced for judicial remand, that a case was registered under Sections 353(2), 196, 350 and 61(2) BNS, and that some copies had been seized.",
+        "Deccan Chronicle reported the State said it had taken precautionary measures to prevent law-and-order problems at the launch, and that copies were already being sold online.",
+        "The court asked about steps to remove the book from online platforms and closed the proceedings."
+      ],
+      "current_position": "The author was arrested and sent for judicial remand; the criminal case and moves to remove the book online are pending.",
+      "quote": {
+        "text": "A case was registered under Sections 353(2), 196, 350 and 61(2) of the Bharatiya Nyaya Sanhita (BNS), he said.",
+        "where": "The New Indian Express, 18.09.2026, reporting the government pleader's statement in court",
+        "url": "https://www.newindianexpress.com/states/telangana/2026/Sep/18/telangana-hc-seeks-action-on-dr-br-ambedkar-book"
+      },
+      "caveats": "The FIR was not read. The book's contents are disputed; no court has examined them. Reports differ on whether the author is described as an activist.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "An author was arrested and his book seized before publication for its views on a historical figure, with no allegation that he threatened or harmed anyone."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.newindianexpress.com/states/telangana/2026/Sep/18/telangana-hc-seeks-action-on-dr-br-ambedkar-book",
+          "kind": "news",
+          "publisher": "The New Indian Express",
+          "date": "2026-09-18",
+          "supports": "arrest, sections, seizure, court proceedings"
+        },
+        {
+          "url": "https://www.deccanchronicle.com/southern-states/telangana/telangana-hc-disposes-petition-on-preventive-action-against-unveiling-of-book-on-ambedkar-1988355",
+          "kind": "news",
+          "publisher": "Deccan Chronicle",
+          "date": "2026-09-18",
+          "supports": "arrest, seizure, charges of public mischief and promoting enmity, online sales"
+        }
+      ],
+      "verification": "V1"
+    },
+    {
+      "id": "cl-wb-0004",
+      "category": "speech",
+      "state": "West Bengal",
+      "district": "North 24 Parganas",
+      "title": "Police register FIR against a digital news outlet over a report of an MP's allegations, and seek its X account data",
+      "summary": "Bidhannagar cyber police registered an FIR on 19 September 2026 over a digital news outlet's X and YouTube posts reporting an MP's allegation that senior Muslim officers were kept out of the Union Home Minister's meetings in West Bengal. The FIR invokes enmity, religious-feelings, public-mischief and defamation sections of the BNS. Police asked X for the outlet's account and device data.",
+      "date": "2026-09-19",
+      "date_label": "FIR registered",
+      "incident_date": "2026-09-01",
+      "outcome": "prosecution_pending",
+      "authority": "Bidhannagar Cyber Crime Police Station, West Bengal Police",
+      "case_reference": "FIR at Bidhannagar Cyber Crime Police Station dated 19.09.2026 (number not reported); accused listed as 'Unknown1'",
+      "laws": [
+        "Section 196(1) of the Bharatiya Nyaya Sanhita, 2023",
+        "Section 299 of the Bharatiya Nyaya Sanhita, 2023",
+        "Section 353(1)(b), 353(1)(c) and 353(2) of the Bharatiya Nyaya Sanhita, 2023",
+        "Section 356(2) of the Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "an independent digital news outlet and its staff",
+      "detail": [
+        "The Observer Post reported that the FIR followed a private complaint and concerns posts reporting an MP's allegations, first made publicly on 1 September, that senior Muslim IAS and IPS officers were excluded from official meetings during the Union Home Minister's visits.",
+        "The FIR lists the accused as 'Unknown1' and names no journalist; in a letter to X, police called the information 'entirely fabricated' and 'malicious'.",
+        "Police sought account-creation and login information for the outlet's X handle and Android device details, for a period in February 2026 that the outlet says predates both the FIR and the events reported.",
+        "The outlet reported that Meta removed a related Instagram carousel in India on 19 September after a legal demand under the IT Rules."
+      ],
+      "current_position": "The FIR is under investigation; no arrests were reported.",
+      "quote": {
+        "text": "The FIR was registered at the Bidhannagar Cyber Crime Police Station on September 19 following a complaint",
+        "where": "The Observer Post, 24.09.2026",
+        "url": "https://theobserverpost.com/west-bengal-police-file-fir-against-maktoob-over-report-on-mahua-moitras-allegations/"
+      },
+      "caveats": "The FIR was not read; details come from the outlet's own account and two other outlets. The police's claim that the report was false has not been tested in court.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "A news outlet faces a criminal case and a demand for its account data for reporting a legislator's public allegations, with no allegation of violence."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://theobserverpost.com/west-bengal-police-file-fir-against-maktoob-over-report-on-mahua-moitras-allegations/",
+          "kind": "news",
+          "publisher": "The Observer Post",
+          "date": "2026-09-24",
+          "supports": "FIR date, police station, sections, X data request"
+        },
+        {
+          "url": "https://maktoobmedia.com/post?id=116529&slug=west-bengal-police-file%C2%A0fir-against-maktoob-over-report-on-exclusion-of-muslim-officers-from-amit-shahs-meetings-seek-x-account-data",
+          "kind": "news",
+          "publisher": "Maktoob Media (the outlet named)",
+          "date": "2026-09-24",
+          "supports": "the outlet's account of the FIR and the X data request"
+        },
+        {
+          "url": "https://muslimmirror.com/fir-filed-against-maktoob-for-reporting-moitras-claims-on-exclusion-of-muslim-officers/",
+          "kind": "news",
+          "publisher": "Muslim Mirror",
+          "date": "2026-09-24",
+          "supports": "FIR over the report"
+        }
+      ],
+      "verification": "V1"
     }
   ]
 }
