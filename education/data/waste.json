@@ -1,0 +1,74 @@
+{
+ "source": "Ministry of Education, press release on UDISE+ 2025-26, PIB 7 July 2026",
+ "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282141",
+ "years": [
+  "2022-23",
+  "2023-24",
+  "2024-25",
+  "2025-26"
+ ],
+ "single_teacher_schools": [
+  118190,
+  110971,
+  104125,
+  100843
+ ],
+ "zero_enrolment_schools": [
+  10294,
+  12954,
+  7993,
+  5663
+ ],
+ "teachers": [
+  9483294,
+  9807600,
+  10122420,
+  10273020
+ ],
+ "dropout_rate_pct": {
+  "preparatory": [
+   8.7,
+   3.7,
+   2.3,
+   1.8
+  ],
+  "middle": [
+   8.1,
+   5.2,
+   3.5,
+   3.6
+  ],
+  "secondary": [
+   13.8,
+   10.9,
+   8.2,
+   7.0
+  ]
+ },
+ "retention_rate_pct": {
+  "foundational": [
+   92.1,
+   98.0,
+   98.9,
+   98.5
+  ],
+  "preparatory": [
+   90.9,
+   85.4,
+   92.4,
+   91.1
+  ],
+  "middle": [
+   75.8,
+   78.0,
+   82.8,
+   83.7
+  ],
+  "secondary": [
+   44.1,
+   45.6,
+   47.2,
+   51.9
+  ]
+ }
+}
