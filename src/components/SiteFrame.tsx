@@ -13,6 +13,7 @@ function figuresDate(iso: string): string {
 
 const NAV = [
   { to: "/", label: "Home", end: true },
+  { to: "/spending", label: "Spending" },
   { to: "/compare", label: "Compare" },
   { to: "/states", label: "States" },
   { to: "/union", label: "Centre" },
@@ -64,23 +65,25 @@ export function SiteFrame({ children }: { children: ReactNode }) {
       </a>
       <header className="site-header">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3 sm:px-6">
-          <NavLink to="/" className="min-w-0 no-underline text-ink hover:text-rust">
+          <a href="/" className="min-w-0 no-underline text-ink hover:text-rust">
             <span className="font-display text-[1.2rem] font-semibold tracking-tight sm:text-[1.45rem]">
               Data Libertarian
             </span>
             <span className="mt-0.5 hidden text-[0.72rem] text-ink/55 sm:block">
               Official books · cited rupees
             </span>
-          </NavLink>
+          </a>
           <HeaderSearch />
         </div>
         <nav className="mx-auto max-w-6xl border-t border-ink/10 px-2 sm:px-4" aria-label="Site">
           <div className="nav-scroll">
-            {NAV.map((item) => (
+            {NAV.map((item) => item.to === "/" ? (
+              <a key="home" href="/" className="nav-link">{item.label}</a>
+            ) : (
               <NavLink
                 key={item.to}
                 to={item.to}
-                end={"end" in item ? item.end : false}
+                end={"end" in item ? Boolean((item as { end?: boolean }).end) : false}
                 className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}
               >
                 {item.label}

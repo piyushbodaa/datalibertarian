@@ -32,7 +32,7 @@ function page(path: string, body: string, notFound = false) {
 
 // Discover real internal links from rendered pages. Only generated paths exist on the host;
 // unknown URLs reach Vercel's static 404 instead of a catch-all 200 rewrite.
-const pending = new Set(["/", "/compare", "/sources", "/corrections", "/inflation", "/search"]);
+const pending = new Set(["/", "/spending", "/compare", "/sources", "/corrections", "/inflation", "/search"]);
 const visited = new Set<string>();
 const rendered = new Set<string>();
 for (const path of pending) {

@@ -56,6 +56,111 @@
   ],
   "redirects": [
     {
+      "source": "/victimlesscrimes/vc-ap-0001",
+      "destination": "/victimlesscrimes",
+      "permanent": false
+    },
+    {
+      "source": "/psu/psu-tg-0001",
+      "destination": "/psu/psu-tg-0008",
+      "permanent": true
+    },
+    {
+      "source": "/psu/psu-uk-0009",
+      "destination": "/psu/psu-uk-0001",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/incident/CW-2023-0055",
+      "destination": "/babuwatch/incident/CW-2023-0032",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/data/case/CW-2023-0055.json",
+      "destination": "/babuwatch/data/case/CW-2023-0032.json",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/incident/CW-2023-0046",
+      "destination": "/babuwatch/incident/CW-2023-0018",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/data/case/CW-2023-0046.json",
+      "destination": "/babuwatch/data/case/CW-2023-0018.json",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/incident/CW-2023-0049",
+      "destination": "/babuwatch/incident/CW-2023-0022",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/data/case/CW-2023-0049.json",
+      "destination": "/babuwatch/data/case/CW-2023-0022.json",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/incident/CW-2023-0038",
+      "destination": "/babuwatch/incident/CW-2023-0005",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/data/case/CW-2023-0038.json",
+      "destination": "/babuwatch/data/case/CW-2023-0005.json",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/incident/CW-2022-0030",
+      "destination": "/babuwatch/incident/CW-2022-0012",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/data/case/CW-2022-0030.json",
+      "destination": "/babuwatch/data/case/CW-2022-0012.json",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/incident/CW-2023-0011",
+      "destination": "/babuwatch/incident/CW-2023-0040",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/data/case/CW-2023-0011.json",
+      "destination": "/babuwatch/data/case/CW-2023-0040.json",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/incident/CW-2024-0033",
+      "destination": "/babuwatch/incident/CW-2024-0004",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/data/case/CW-2024-0033.json",
+      "destination": "/babuwatch/data/case/CW-2024-0004.json",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/trial-court/T2LC-06-002",
+      "destination": "/babuwatch/tracker",
+      "permanent": false
+    },
+    {
+      "source": "/babuwatch/data/case/T2LC-06-002.json",
+      "destination": "/babuwatch/tracker",
+      "permanent": false
+    },
+    {
+      "source": "/babuwatch/trial-court/t2s-ch-002",
+      "destination": "/babuwatch/tracker",
+      "permanent": false
+    },
+    {
+      "source": "/babuwatch/data/case/t2s-ch-002.json",
+      "destination": "/babuwatch/tracker",
+      "permanent": false
+    },
+    {
       "source": "/copwatchindia",
       "destination": "/babuwatch/tracker?service=police",
       "permanent": false

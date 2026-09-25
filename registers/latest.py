@@ -140,7 +140,39 @@ def tally(rows):
     return "<table>%s</table>" % body
 
 
+def write_sitemaps(out):
+    """Root sitemap becomes an index over the spending pages (prerender's
+    sitemap), the registers and Babuwatch (audit 2026-09-25, finding 31)."""
+    base = "https://datalibertarian.in"
+    root = os.path.join(out, "sitemap.xml")
+    parts = []
+    if os.path.exists(root):
+        with open(root, encoding="utf-8") as f:
+            spa = f.read()
+        if "<sitemapindex" not in spa:
+            with open(os.path.join(out, "sitemap-spending.xml"), "w", encoding="utf-8") as f:
+                f.write(spa)
+            parts.append("/sitemap-spending.xml")
+    urls = ["/"]
+    for key in ("babuwatch", "civilliberties", "victimlesscrimes", "economicfreedom", "psu", "education"):
+        if os.path.exists(os.path.join(out, key + ".html")) or os.path.isdir(os.path.join(out, key)):
+            urls.append("/" + key)
+    for key in ("civilliberties", "victimlesscrimes", "economicfreedom", "psu"):
+        urls += ["/%s/%s" % (key, r["id"]) for r in reg.load(key)["records"]]
+    with open(os.path.join(out, "sitemap-registers.xml"), "w", encoding="utf-8") as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">%s</urlset>'
+                % "".join("<url><loc>%s%s</loc></url>" % (base, u) for u in urls))
+    parts.append("/sitemap-registers.xml")
+    if os.path.exists(os.path.join(out, "babuwatch", "sitemap.xml")):
+        parts.append("/babuwatch/sitemap.xml")
+    with open(root, "w", encoding="utf-8") as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">%s</sitemapindex>'
+                % "".join("<sitemap><loc>%s%s</loc></sitemap>" % (base, p) for p in parts))
+    print("latest: sitemap index with %d sitemaps, %d register URLs" % (len(parts), len(urls)))
+
+
 def build(out):
+    write_sitemaps(out)
     rows = babuwatch_rows(out)
     with open(os.path.join(HERE, "plates.json"), encoding="utf-8") as f:
         plates = json.load(f)

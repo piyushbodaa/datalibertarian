@@ -94,13 +94,24 @@ function InflationHostGate() {
   return null;
 }
 
+/** "/" is the static registers homepage (served by vercel rewrite). If the SPA
+ * is asked to render it after client-side navigation, reload so every visit to
+ * "/" shows the same page (audit 2026-09-25, finding 28). */
+function SiteHomeReload() {
+  useEffect(() => {
+    if (typeof window !== "undefined") window.location.replace("/");
+  }, []);
+  return null;
+}
+
 export default function App() {
   return (
     <SiteFrame>
       <InflationHostGate />
       <ErrorBoundary><Suspense fallback={<PageFallback />}>
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/" element={<SiteHomeReload />} />
+          <Route path="/spending" element={<HomePage />} />
           <Route path="/inflation" element={<InflationPage />} />
           <Route path="/inflation/method" element={<InflationMethodPage />} />
           <Route path="/inflation/item/:id" element={<InflationItemPage />} />

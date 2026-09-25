@@ -18,7 +18,9 @@ test("static pages expose figures and metadata without JavaScript", async ({ req
   const html=await state.text();
   expect(html.replace(/<!--.*?-->/g, "")).toContain("Sikkim Police");expect(html).toContain('rel="canonical"');expect(html).toContain('property="og:image"');
   expect(await (await request.get("/robots.txt")).text()).toContain("Sitemap:");
-  expect(await (await request.get("/sitemap.xml")).text()).toContain("<urlset");
+  expect(await (await request.get("/sitemap.xml")).text()).toContain("<sitemapindex");
+  expect(await (await request.get("/sitemap-spending.xml")).text()).toContain("<urlset");
+  expect(await (await request.get("/sitemap-registers.xml")).text()).toContain("/civilliberties");
   const missing=await request.get("/not-a-real-page");expect(missing.status()).toBe(404);expect(await missing.text()).toContain('content="noindex"');
 });
 

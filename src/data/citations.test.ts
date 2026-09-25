@@ -826,7 +826,8 @@ describe("GOLD modules copy pack figures", () => {
     assert.equal(gram.bag["2515"], tg2515);
     const tg = resolveSide("telangana")!;
     assert.equal(tg.bag["health-functional"], tgHealthFunctional);
-    assert.equal(tg.bag["police-functional"], tgObject010);
+    assert.equal(tg.bag["obj-01"], tgObject010);
+    assert.equal(tg.bag["police-functional"], undefined);
   });
 });
 

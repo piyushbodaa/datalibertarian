@@ -129,6 +129,7 @@ ANONYMISE = {"CWC-0047", "CWC-0090", "CWC-0131", "CWC-0134", "CWC-0153",
              "CWC-0401", "CWC-0403", "CWC-0413", "CWC-0431"}
 OUTCOME_LABEL = {
     "adverse_finding_compensation": "Adverse finding + compensation",
+    "adverse_finding": "Adverse finding",
     "conviction_upheld": "Conviction upheld",
     "conviction_by_hc": "Conviction entered by High Court",
     "conviction_by_sc": "Conviction entered by Supreme Court",
@@ -322,7 +323,26 @@ def v_level(c):
     v = str(c.get("verification_status") or "V2").strip().upper()
     if v == "V3" and not v3_earned(c):
         return "V2"
-    return v if v in ("V2", "V3") else "V2"
+    return v if v in ("V1", "V2", "V3") else "V2"
+
+
+def has_compensation(c):
+    """A compensation award is shown only when the record carries an amount or
+    codes the relief as compensation; an adverse finding alone is not one."""
+    try:
+        amt = float(c.get("compensation_inr") or 0)
+    except (TypeError, ValueError):
+        amt = 0
+    return amt > 0 or c.get("sentence_type") == "compensation_only"
+
+
+def outcome_code(c, default=""):
+    """Outcome as displayed: adverse_finding_compensation without any award
+    renders as a plain adverse finding (audit 2026-09-25, finding 35)."""
+    o = c.get("outcome_type") or default
+    if o == "adverse_finding_compensation" and not has_compensation(c):
+        return "adverse_finding"
+    return o
 
 
 def tier(c):
@@ -1647,6 +1667,22 @@ def t2_iso_date(s):
     return ""
 
 
+def t2_date_display(r, missing="Date not stated"):
+    """Human form of a trial conviction date at its stated precision: a full
+    ISO date, 'March 2005' for YYYY-MM, '2005' for YYYY. When the source
+    gives no date, the record's conviction_date_note (e.g. 'before 11
+    August 2003') is shown instead of an invented day (audit findings 01-02)."""
+    s = str(r.get("conviction_date") or "").strip()
+    if re.match(r"^\d{4}-\d{2}-\d{2}$", s):
+        return fmt_date(s)
+    if re.match(r"^\d{4}-\d{2}$", s):
+        return fmt_date(s + "-01", "month")
+    if s:
+        return s
+    note = (r.get("conviction_date_note") or "").strip()
+    return ("date not stated; %s" % note) if note else missing
+
+
 def t2_year(r):
     m = re.search(r"\b((?:19|20)\d{2})\b",
                   str(r.get("conviction_date") or ""))
@@ -2220,7 +2256,7 @@ def build_index_record(c):
     if sub:
         rec["sc"] = sub
     if c.get("outcome_type"):
-        rec["ou"] = c["outcome_type"]
+        rec["ou"] = outcome_code(c)
     rec["jd"] = c.get("judgment_date") or ""
     jy = c.get("judgment_year")
     if jy is not None and str(jy) != rec["jd"][:4]:
@@ -2294,8 +2330,7 @@ def news_card_html(c, kind="incident"):
     para = pn.get("paragraph") or c.get("summary") or ""
     if len(para) > INDEX_SUMMARY_CHARS:
         para = para[:INDEX_SUMMARY_CHARS].rsplit(" ", 1)[0].rstrip(",;:") + "\u2026"
-    outc = NEWS_OUTCOME.get(c.get("outcome_type") or ("trial_court_conviction"
-                                                       if trial else ""),
+    outc = NEWS_OUTCOME.get(outcome_code(c, "trial_court_conviction" if trial else ""),
                             "Convicted" if trial else tier_label(c))
     jd = (c.get("conviction_date") if trial else c.get("judgment_date")) or ""
     meta = [x for x in (fmt_date(jd, c.get("date_precision")) if jd else "",
@@ -2353,7 +2388,8 @@ def build_home(cases, ref_index, t2=None, n_overturned=0):
         elif sec == "watches":
             parts.append(watches_section(cases, t2))
         elif sec.startswith("ref:"):
-            parts.append(static_links(extract_section(ref_index, sec[4:])))
+            parts.append(fill(static_links(extract_section(ref_index, sec[4:])),
+                              total=fmt_thousands(total)))
         else:
             raise SystemExit("unknown home section %r" % sec)
     return "\n".join(parts)
@@ -2430,7 +2466,7 @@ def extra_filter_ui(cases, t2cases=None):
     states = sorted(set(c.get("state", "") for c in both if c.get("state")))
     cats = [v for v in SITE_CATEGORIES
             if any(site_category(c) == v for c in both)]
-    outs = sorted(set(c.get("outcome_type", "") for c in both
+    outs = sorted(set(outcome_code(c) for c in both
                       if c.get("outcome_type")))
     courts = sorted(
         set([c.get("court", "") for c in cases if c.get("court")]
@@ -2543,7 +2579,7 @@ def build_tracker(cases, pre_render=60, t2cases=None, n_overturned=0):
       <div class="tracker-records" id="tracker-records">
 %s
       </div>
-      <noscript><div class="tracker-empty"><h2>Filtering needs JavaScript</h2><p>Showing the %d most recent of %s records. Browse by <a href="/#states">state</a> or <a href="/data">download the dataset</a>.</p></div></noscript>
+      <noscript><div class="tracker-empty"><h2>Filtering needs JavaScript</h2><p>Showing the %d most recent of %s records. Browse by state from the <a href="/tracker">tracker&rsquo;s state filter</a> or <a href="/data">download the dataset</a>.</p></div></noscript>
     </div>
   </section>
 """ % (head, overturned_note(n_overturned), pills_main, simple_ui,
@@ -3069,9 +3105,16 @@ def report_card_data(c, kind):
         court = (c.get("trial_court_name") or "the trial court").strip()
         court = court if court.lower().startswith("the ") else "the " + court
         cdate = (c.get("conviction_date") or "").strip()
-        operative = "By judgment%s, %s convicted %s." % (
-            " dated %s" % fmt_date(cdate) if re.match(r"^\d{4}-\d\d-\d\d$", cdate)
-            else (" of %s" % cdate if cdate else ""), court, who)
+        if re.match(r"^\d{4}-\d\d-\d\d$", cdate):
+            when = " dated %s" % fmt_date(cdate)
+        elif re.match(r"^\d{4}(-\d\d)?$", cdate):
+            when = " in %s" % t2_date_display(c)
+        elif cdate:
+            when = " of %s" % cdate
+        else:
+            note = (c.get("conviction_date_note") or "").strip()
+            when = " (date not stated in the sources%s)" % ("; " + note if note else "")
+        operative = "By judgment%s, %s convicted %s." % (when, court, who)
         ref = c.get("case_number") or c.get("case_title_or_number")
         src_court = c.get("court")
         rows.append(("Case reference", "; ".join(x for x in [
@@ -3129,8 +3172,8 @@ def report_card_data(c, kind):
                 c["sentence_max_years"],
                 "" if str(c["sentence_max_years"]) == "1" else "s"))
         disposition = "%s.%s%s" % (
-            OUTCOME_LABEL.get(c.get("outcome_type"),
-                              pretty_label(c.get("outcome_type")) or
+            OUTCOME_LABEL.get(outcome_code(c),
+                              pretty_label(outcome_code(c)) or
                               "Outcome not stated"),
             " Sentence: %s." % "; ".join(sent) if sent else "",
             " Compensation: %s." % fmt_inr(comp) if comp else "")
@@ -3233,8 +3276,8 @@ def build_incident(c):
     sub = (c.get("subcategory_display")
            or pretty_label(c.get("subcategory")).lower()
            or "Not stated")
-    out = OUTCOME_LABEL.get(c.get("outcome_type"),
-                            pretty_label(c.get("outcome_type")) or "Not stated")
+    out = OUTCOME_LABEL.get(outcome_code(c),
+                            pretty_label(outcome_code(c)) or "Not stated")
     case_ref = " / ".join(x for x in [c.get("case_number"), c.get("citation")]
                           if x) or "Not stated"
     officers = officer_lines(c)
@@ -3790,7 +3833,7 @@ def trial_card(r):
     url = rec_path(r, "trial-court", cid)
     title = r.get("case_title_or_number") or cid
     loc = location_short(r)
-    cdate = (r.get("conviction_date") or "Date not stated").strip()
+    cdate = t2_date_display(r)
     nsrc = t2_source_count(r)
     return """
           <article class="tracker-card" data-id="%s">
@@ -3911,8 +3954,7 @@ def t2_source_list_html(r):
 
 def t2_current_position(r):
     court = esc(r.get("trial_court_name") or "The trial court")
-    date = esc((r.get("conviction_date") or "a date not stated in the cited "
-                "sources").strip())
+    date = esc(t2_date_display(r, "a date not stated in the cited sources"))
     ap = r.get("appeal_status") or "unknown"
     base = "%s convicted %s on %s." % (court, sw(r, "accused"), date)
     if ap == "upheld":
@@ -3952,7 +3994,7 @@ def build_trialcourt_record(p):
     path = "/trial-court/%s" % cid
     title = p.get("case_title_or_number") or cid
     loc = location_short(p)
-    cdate = (p.get("conviction_date") or "Date not stated").strip()
+    cdate = t2_date_display(p)
     idate = (p.get("incident_date") or "Date not stated").strip()
     officers = [officer_display(o, p) for o in (p.get("officers") or [])]
     off_txt = "; ".join(officers) if officers else "None stated"
@@ -4141,6 +4183,7 @@ TRACKER_JS = r"""// CopwatchIndia tracker — client-side filter/search over /da
 
   var OUTCOME_LABEL = {
     adverse_finding_compensation: "Adverse finding + compensation",
+    adverse_finding: "Adverse finding",
     conviction_upheld: "Conviction upheld",
     conviction_by_hc: "Conviction entered by High Court",
     conviction_by_sc: "Conviction entered by Supreme Court",
@@ -4215,7 +4258,7 @@ TRACKER_JS = r"""// CopwatchIndia tracker — client-side filter/search over /da
     if (isSlim(c)) return "V2";
     var v = String(c.verification_status || "V2").toUpperCase();
     if (v === "V3" && !v3earned(c)) return "V2";
-    return (v === "V2" || v === "V3") ? v : "V2";
+    return (v === "V1" || v === "V2" || v === "V3") ? v : "V2";
   }
   function tier(c) {
     if (levelOf(c) === "trial") return "T";
@@ -4440,7 +4483,7 @@ TRACKER_JS = r"""// CopwatchIndia tracker — client-side filter/search over /da
 
   var NEWS_OUTCOME = {
     trial_court_conviction: "Convicted", conviction_by_hc: "Convicted", conviction_by_sc: "Convicted",
-    conviction_upheld: "Conviction upheld", adverse_finding_compensation: "Compensation ordered",
+    conviction_upheld: "Conviction upheld", adverse_finding_compensation: "Compensation ordered", adverse_finding: "Adverse finding",
     adverse_finding: "Adverse finding", disciplinary_upheld: "Penalty upheld"
   };
   function cardHtml(c) {
@@ -4824,8 +4867,8 @@ def case_md_body(c):
     rid = c.get("record_id") or mid
     title = c.get("display_title") or c.get("case_title") or rid
     cat = site_category(c)
-    out = OUTCOME_LABEL.get(c.get("outcome_type"),
-                            pretty_label(c.get("outcome_type")) or "Not stated")
+    out = OUTCOME_LABEL.get(outcome_code(c),
+                            pretty_label(outcome_code(c)) or "Not stated")
     lines = []
     rendered = set()
 
@@ -5069,8 +5112,8 @@ def t2_md_section(p):
         srcs.append(u)
     srclinks = "; ".join(md_link(_host(u) or u, u) if u.startswith("http")
                          else md_esc(u) for u in srcs)
-    cdate = (p.get("conviction_date") or "Date not stated").strip()
-    if p.get("conviction_year"):
+    cdate = t2_date_display(p)
+    if p.get("conviction_year") and str(p["conviction_year"]) not in cdate:
         cdate += " (%s)" % p["conviction_year"]
     idate = (p.get("incident_date") or "Not stated").strip()
     if p.get("incident_year"):
@@ -5123,9 +5166,8 @@ def llms_full_txt(cases, t2=None, n_overturned=0):
                        + [r.get("state") for r in t2 if r.get("state")]))
     years = sorted(c.get("judgment_year") for c in cases
                    if c.get("judgment_year"))
-    cyears = sorted((r.get("conviction_year") or t2_year(r))
-                    for r in t2)
-    cyears = [y for y in cyears if y]
+    cyears = sorted(y for y in ((r.get("conviction_year") or t2_year(r))
+                                for r in t2) if y)
     span = ("%d\u2013%d" % (years[0], years[-1]) if years
             else "unknown span")
     cspan = ("%d\u2013%d" % (cyears[0], cyears[-1]) if cyears
@@ -5581,7 +5623,7 @@ def md_trialcourt_state(state, clist):
                  % (title.replace("[", "\\[").replace("]", "\\]"),
                     PUBLIC_BASE, rec_path(r, "trial-court", cid),
                     r.get("trial_court_name") or "court not stated",
-                    (r.get("conviction_date") or "date not stated").strip(),
+                    t2_date_display(r, "date not stated"),
                     t2_appeal(r)))
     L.append("")
     return "\n".join(L)
@@ -5600,7 +5642,7 @@ def md_trialcourt_record(p):
          "Trial-court conviction (%s; %s). Convicted %s. Appeal status: %s."
          % (md_esc(p.get("trial_court_name") or "court not stated"),
             md_esc(t2_court_level(p)),
-            md_esc((p.get("conviction_date") or "date not stated").strip()),
+            md_esc(t2_date_display(p, "date not stated")),
             md_esc(t2_appeal(p))), "",
          "## Summary", "", md_esc(p.get("summary") or "Not recorded."), ""]
     L += report_card_md(p, "trial")
@@ -5984,11 +6026,9 @@ def build_dataset_meta(cases, t2cases=None, n_overturned=0):
     states = sorted(set([c.get("state") for c in cases if c.get("state")]
                         + [r.get("state") for r in t2cases
                            if r.get("state")]))
-    years = sorted([c.get("judgment_year") for c in cases
-                    if c.get("judgment_year")]
-                   + [(r.get("conviction_year") or t2_year(r))
-                      for r in t2cases])
-    years = [y for y in years if y]
+    years = sorted(y for y in ([c.get("judgment_year") for c in cases]
+                               + [(r.get("conviction_year") or t2_year(r))
+                                  for r in t2cases]) if y)
     dist = [
         {"@type": "DataDownload", "name": "cases.json",
          "contentUrl": PUBLIC_BASE + "/data/cases.json",
