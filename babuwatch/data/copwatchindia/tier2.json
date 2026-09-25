@@ -5197,12 +5197,13 @@
   "appeal_url": null,
   "source_kind": "news",
   "source_agency": "Chhattisgarh High Court (via 24Law report of appeal judgment) corroborating trial-court conviction",
-  "primary_source_url": "https://24law.in/story/cruel-police-torture-led-to-custodial-death-chhattisgarh-high-court-calls-it-an-intolerable-betrayal",
+  "primary_source_url": "https://24law.in/pdf/1753362711_3531-chhattisgarh-hc-re-state-of-chhattisgarh.pdf",
   "secondary_sources": [
+   "https://24law.in/story/cruel-police-torture-led-to-custodial-death-chhattisgarh-high-court-calls-it-an-intolerable-betrayal",
    "https://chhattisgarhtopnews.com/sc-commission-notices-to-admn-on-custodial-death-of-dalit/",
    "https://www.latestly.com/agency-news/life-sentence-for-four-cops-in-custodial-death-case-667948.html"
   ],
-  "summary": "The trial court convicted SHO [name withheld], constables [name withheld] and [name withheld] and home guard [name withheld] of PS Mulmula under IPC 302/34 and sentenced each to life imprisonment for the 17 September 2016 custodial death of Satish Norge, who was picked up drunk from the CSPDCL sub-station Nariyara, medically found injury-free, then brought dead to CHC Pamgarh with 26 external injuries. The Chhattisgarh High Court Division Bench in July 2025 held the death was culpable homicide not amounting to murder, substituted a conviction under IPC 304 Part II/34 with 10 years RI each, and affirmed the acquittal under the SC/ST Act for want of proof of [name withheld] knowledge.",
+  "summary": "The trial court convicted SHO [name withheld], constables [name withheld] and [name withheld] and home guard [name withheld] of PS Mulmula under IPC 302/34 and sentenced each to life imprisonment for the 17 September 2016 custodial death of a 35-year-old man, who was picked up drunk from the CSPDCL sub-station Nariyara, medically found injury-free, then brought dead to CHC Pamgarh with 26 external injuries. The Chhattisgarh High Court Division Bench in July 2025 held the death was culpable homicide not amounting to murder, substituted a conviction under IPC 304 Part II/34 with 10 years RI each, and affirmed the acquittal under the SC/ST Act for want of proof of [name withheld] knowledge.",
   "court_quote": "Deceased died homicidal death in police custody and it is a case of custodial death.",
   "confidence": "high",
   "tier": "Tier A — Externally reported or officially recorded",
@@ -5233,9 +5234,13 @@
     "corrections_applied": [
      "sentence"
     ]
+   },
+   {
+    "date": "2026-09-25",
+    "scope": "Official source added: Chhattisgarh High Court judgment of 22.07.2025 in CRA No. 611/2019 and connected appeals (2025:CGHC:34873-DB; copy hosted by 24Law), arising from the Special Judge (Atrocities) Janjgir-Champa judgment of 26-2-2019; confirms conviction altered to Section 304 Part I and life sentences replaced by ten years' RI."
    }
   ],
-  "case_title_or_number": "State vs [name withheld] and others (custodial death of Satish Norge at PS Mulmula, 17 September 2016; FIR 19 September 2016)"
+  "case_title_or_number": "State vs [name withheld] and others (custodial death of a 35-year-old man at PS Mulmula, 17 September 2016; FIR 19 September 2016)"
  },
  {
   "case_id": "t2w3-21-001",
@@ -18041,7 +18046,7 @@
   "court_level": "cbi_court",
   "trial_court_name": "Special CBI Court, Mumbai (Judge U.D. Salvi; trial transferred from Gujarat by Supreme Court)",
   "case_title": "CBI vs Jaswant Nai & Ors (B. B. case)",
-  "case_number": null,
+  "case_number": "Sessions Case No. 634 of 2004 (Special Judge, Greater Mumbai)",
   "conviction_date": "2008-01-21",
   "conviction_year": 2008,
   "date_precision": "day",
@@ -18068,7 +18073,10 @@
     "gender": "female"
    }
   ],
-  "sections": [],
+  "sections": [
+   "IPC 217",
+   "IPC 218"
+  ],
   "sentence": "Not confirmed in sources reviewed",
   "sentence_type": "imprisonment",
   "sentence_max_years": 3,
@@ -18076,14 +18084,15 @@
   "appeal_url": "https://www.livemint.com/Politics/ID93J9sUnI1x0dWAX6mtoN/Bilkis-Bano-case-Bombay-HC-upholds-life-imprisonment-to-11.html?facet=amp",
   "source_kind": "news",
   "source_agency": null,
-  "primary_source_url": "https://en.wikipedia.org/wiki/Bilkis_Bano_case",
+  "primary_source_url": "https://api.sci.gov.in/supremecourt/2022/38741/38741_2022_12_1501_49383_Judgement_08-Jan-2024.pdf",
   "secondary_sources": [
+   "https://en.wikipedia.org/wiki/Bilkis_Bano_case",
    "http://pucl.org/manage-writings/the-twenty-two-year-old-struggle-of-bilkis-bano-a-journey-of-hope-courage-and-camaraderie/",
    "https://www.newsfolo.com/india/bombay-high-court-rejects-cbis-death-plea-convicts-bilkis-bano-case/2708/amp/",
    "https://www.scoopwhoop.com/news/bombay-hc-upholds-conviction-of-12-accused-in-2002-bilkis-bano-gang-rape-case/"
   ],
-  "summary": "Head Constable [name withheld] of Limkheda Police Station (Dahod) was convicted on 21 January 2008 by Special CBI Judge U.D. Salvi in Mumbai — where the Supreme Court had transferred the [name withheld] trial — for falsifying evidence/refusing to record [name withheld]'s initial complaint after the March 2002 gang-rape and murder of her family during the Gujarat riots; eleven other accused received life imprisonment while six other police officials and two doctors were acquitted at trial. The Bombay High Court in May 2017 upheld the life sentences and additionally convicted the seven trial-acquitted policemen/doctors; the appeal status of Gori's own trial conviction is not confirmed in the sources reviewed.",
-  "court_quote": "The trial court had sentenced head constable Somabhai Gori of the Limkheda police station to three-year imprisonment for framing false records and refusing to lodge B. B.'s first complaint.",
+  "summary": "Head Constable [name withheld] of Limkheda Police Station (Dahod) was convicted on 21 January 2008 by Special CBI Judge U.D. Salvi in Mumbai — where the Supreme Court had transferred the [name withheld] trial — for falsifying evidence/refusing to record [name withheld]'s initial complaint after the March 2002 gang-rape and murder of her family during the Gujarat riots; eleven other accused received life imprisonment while six other police officials and two doctors were acquitted at trial. The Bombay High Court in May 2017 upheld the life sentences and additionally convicted the seven trial-acquitted policemen/doctors; the appeal status of his own trial conviction is not confirmed in the sources reviewed.",
+  "court_quote": "The police officer, [name withheld] was convicted of the offence punishable under Sections 217 and 218 of the IPC.",
   "confidence": "medium",
   "tier": "Tier A — Externally reported or officially recorded",
   "source_job": "t2w2-08",
@@ -18110,6 +18119,14 @@
     "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
     "result": "t2w2-08-012=wrong_facts",
     "corrections_applied": []
+   },
+   {
+    "date": "2026-09-25",
+    "scope": "Official source added: Supreme Court judgment of 08.01.2024 in W.P.(Crl.) No. 491 of 2022 (sci.gov.in), para 3.3: the Special Judge, Greater Mumbai, by judgment dated 21.01.2008 in Sessions Case No. 634 of 2004, convicted the police officer under Sections 217 and 218 IPC."
+   },
+   {
+    "date": "2026-09-25",
+    "scope": "Court quote replaced with the Supreme Court judgment of 08.01.2024, para 3.3 (the earlier text was a news report line, not the court)."
    }
   ],
   "case_title_or_number": "CBI vs Jaswant Nai & Ors incl. [name withheld] ([name withheld] gang-rape/murder, 2002 Gujarat riots; Limkheda PS)"
@@ -19918,7 +19935,7 @@
   "appeal_status": "pending",
   "appeal_url": "https://indiankanoon.org/doc/21326974/",
   "source_kind": "judgment",
-  "source_agency": "[name withheld] and Haryana High Court — Crl. Misc. No.9973 of 2013 in Crl. Appeal No.2107-SB of 2005, Justice Ranjit Singh, order dated 19-02-2013 (stay of conviction declined; appeal pending), recording the trial-court conviction and sentence",
+  "source_agency": "Punjab and Haryana High Court — Crl. Misc. No.9973 of 2013 in Crl. Appeal No.2107-SB of 2005, Justice Ranjit Singh, order dated 19-02-2013 (stay of conviction declined; appeal pending), recording the trial-court conviction and sentence",
   "primary_source_url": "https://indiankanoon.org/doc/21326974/",
   "secondary_sources": [],
   "summary": "Per the High Court order, Head Constable [name withheld] of Haryana Police (PS Taoru), prosecuted under ss.7/13 of the PC Act and ss.225/353/186 IPC for demanding Rs 15,000/month (settled at Rs 10,000/month, payable 09-12-2003) from a dumper operator and then obstructing the SVB Gurgaon raiding party (DSP [name withheld]) and helping SHO [name withheld] — from whose pocket 20 notes of Rs 500 were recovered — to bolt from the trap spot, stands convicted under ss.353 and 225 IPC with 9 months RI plus Rs 1,000 fine on each count. The appeal was admitted on 06-12-2005 and was still pending in 2013 (stay of conviction sought, dismissed from service 09-02-2006); trial-court name and exact conviction date not stated in the stay order (conviction pre-dates December 2005). SHO [name withheld]'s own trial outcome not traced — no row added for him.",
@@ -19975,11 +19992,11 @@
   "verdict_note": "Conviction confirmed by LiveLaw/SCC (SC judgment reporting); SC 23-09-2016 upheld guilt, reduced 18-month term to period undergone.",
   "state": "Haryana",
   "district": "Panchkula",
-  "court": "Special Court (CBI), Chandigarh",
+  "court": "Court of the Chief Judicial Magistrate, Chandigarh",
   "court_level": "cbi_court",
-  "trial_court_name": "Special CBI Court, Chandigarh",
+  "trial_court_name": "Court of the Chief Judicial Magistrate, Chandigarh",
   "case_title": "CBI v. [name withheld] (R. G. molestation case)",
-  "case_number": null,
+  "case_number": "Challan No. 3/17-11-2000 (CJM, Chandigarh)",
   "conviction_date": "2009-12-21",
   "conviction_year": 2009,
   "date_precision": "day",
@@ -20017,12 +20034,13 @@
   "appeal_url": "https://www.livelaw.in/amp/ruchika-molestation-case-sc-upholds-rathods-conviction-reduces-jail-term",
   "source_kind": "news",
   "source_agency": null,
-  "primary_source_url": "https://www.livelaw.in/amp/ruchika-molestation-case-sc-upholds-rathods-conviction-reduces-jail-term",
+  "primary_source_url": "https://indiankanoon.org/doc/30822518/",
   "secondary_sources": [
+   "https://www.livelaw.in/amp/ruchika-molestation-case-sc-upholds-rathods-conviction-reduces-jail-term",
    "https://en.wikipedia.org/wiki/Ruchika_Girhotra_case",
    "https://www.scconline.com/blog/post/2016/09/23/ruchika-girhotra-case-s-p-s-rathores-conviction-upheld-sentence-mitigated-due-to-old-age/"
   ],
-  "summary": "The Special CBI Court, Chandigarh, convicted former Haryana DGP [name withheld] on 21 December 2009 under section 354 IPC for molesting [name withheld] tennis player [name withheld] in the HLTA office in 1990, after a CBI prosecution following the family's 19-year fight. The trial court gave six months, enhanced to 18 months rigorous imprisonment on revision in May 2010. The [name withheld] and Haryana High Court upheld the conviction, and on 23 September 2016 the Supreme Court (Justices Gowda and Agrawal) upheld the finding of guilt while reducing the sentence to the five months already served as a special case given his very advanced age.",
+  "summary": "The Chief Judicial Magistrate, Chandigarh, convicted former Haryana DGP [name withheld] on 21 December 2009 under section 354 IPC for molesting a teenage tennis player in the HLTA office in 1990, after a CBI prosecution following the family's 19-year fight. The trial court gave six months, enhanced to 18 months rigorous imprisonment on revision in May 2010. The Punjab and Haryana High Court upheld the conviction, and on 23 September 2016 the Supreme Court (Justices Gowda and Agrawal) upheld the finding of guilt while reducing the sentence to the five months already served as a special case given his very advanced age.",
   "court_quote": null,
   "confidence": "high",
   "tier": "Tier A — Externally reported or officially recorded",
@@ -20047,6 +20065,14 @@
     "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
     "result": "t2-14-007=holds",
     "corrections_applied": []
+   },
+   {
+    "date": "2026-09-25",
+    "scope": "Official source added: Supreme Court judgment S.P.S. Rathore v. C.B.I. & Anr., 23.09.2016 (Indian Kanoon): records the Chief Judicial Magistrate, Chandigarh judgment of 21.12.2009 under Section 354 IPC, the enhancement by the Additional Sessions Judge on 25.05.2010, and reduces the sentence to the period already undergone."
+   },
+   {
+    "date": "2026-09-25",
+    "scope": "Court corrected from the Supreme Court judgment: the conviction was by the Chief Judicial Magistrate, Chandigarh."
    }
   ],
   "case_title_or_number": "CBI vs [name withheld] (1990 [name withheld] molestation, Panchkula)"
@@ -20304,7 +20330,7 @@
   "appeal_status": "upheld",
   "appeal_url": "https://indiankanoon.org/doc/149925161/",
   "source_kind": "judgment",
-  "source_agency": "[name withheld] & Haryana High Court (Justice L.N. Mittal) recording the Special Judge/ASJ Jhajjar conviction, via Indian Kanoon",
+  "source_agency": "Punjab & Haryana High Court (Justice L.N. Mittal) recording the Special Judge/ASJ Jhajjar conviction, via Indian Kanoon",
   "primary_source_url": "https://indiankanoon.org/doc/149925161/",
   "secondary_sources": [],
   "summary": "Special Judge / Additional Sessions Judge, Jhajjar, by judgment dated 12 January 2000 and sentence order dated 14 January 2000 convicted Head Constable [name withheld] under Section 7 of the Prevention of Corruption Act for demanding and accepting a Rs 1,000 bribe on 19 July 1994 to hush up a case against the complainant's brother, in a trap laid with phenolphthalein-marked notes and the SDM as shadow witness. The High Court (Justice L.N. Mittal, 30 August 2011) upheld the conviction, holding the trap and demand proved, but reduced rigorous imprisonment from two years to one. For T2-21: conviction details are recited in the appellate judgment, which was the source actually opened.",
@@ -20398,7 +20424,7 @@
   "appeal_status": "pending",
   "appeal_url": null,
   "source_kind": "judgment",
-  "source_agency": "[name withheld] & Haryana High Court (Justice Rajiv Narain Raina, CWP 12027/2012; DB LPA 1516/2013) recording the Special Judge, Delhi conviction, via Indian Kanoon",
+  "source_agency": "Punjab & Haryana High Court (Justice Rajiv Narain Raina, CWP 12027/2012; DB LPA 1516/2013) recording the Special Judge, Delhi conviction, via Indian Kanoon",
   "primary_source_url": "https://indiankanoon.org/doc/129035888/",
   "secondary_sources": [
    "https://indiankanoon.org/doc/154534730/"
@@ -20498,7 +20524,7 @@
   "source_agency": "Central Bureau of Investigation (CBI)",
   "primary_source_url": "https://cbi.gov.in/press-detail/MzUzNQ==",
   "secondary_sources": [],
-  "summary": "The CBI press release states that the Special Judge for CBI Cases, Ambala sentenced then-Head Constable [name withheld] to ten years RI with Rs.40,000 fine in the case of the rape of a Rohtak woman and her subsequent suicide. The release states EHC [name withheld] called the woman to CIA Staff Rohtak on 10.04.2008 (a day after her husband's arrest in a motorcycle-theft case) and raped her with another person in a room by the main gate; after Haryana Police inaction she died by suicide at Police Headquarters Panchkula on 09.06.2008, and the [name withheld] & Haryana High Court ordered a CBI probe; CBI chargesheeted [name withheld] and Constable [name withheld] for rape on 08.09.2008 and three more CIA-1 men for confinement and record-framing conspiracy on 15.04.2009.",
+  "summary": "The CBI press release states that the Special Judge for CBI Cases, Ambala sentenced then-Head Constable [name withheld] to ten years RI with Rs.40,000 fine in the case of the rape of a Rohtak woman and her subsequent suicide. The release states EHC [name withheld] called the woman to CIA Staff Rohtak on 10.04.2008 (a day after her husband's arrest in a motorcycle-theft case) and raped her with another person in a room by the main gate; after Haryana Police inaction she died by suicide at Police Headquarters Panchkula on 09.06.2008, and the Punjab & Haryana High Court ordered a CBI probe; CBI chargesheeted [name withheld] and Constable [name withheld] for rape on 08.09.2008 and three more CIA-1 men for confinement and record-framing conspiracy on 15.04.2009.",
   "court_quote": "The Special Judge for CBI Cases, Ambala(Haryana) has sentenced Shri Balraj, then Head Constable & Shri [name withheld], then Constable to undergo ten years Rigorous Imprisonment with fine of Rs.40,000/-each.",
   "confidence": "high",
   "tier": "Tier A — Externally reported or officially recorded",
@@ -20938,7 +20964,7 @@
   "appeal_status": "upheld",
   "appeal_url": "https://indiankanoon.org/doc/23029604/",
   "source_kind": "judgment",
-  "source_agency": "[name withheld] & Haryana High Court (Justice Augustine George Masih) recording the Special Judge, Rohtak conviction, via Indian Kanoon",
+  "source_agency": "Punjab & Haryana High Court (Justice Augustine George Masih) recording the Special Judge, Rohtak conviction, via Indian Kanoon",
   "primary_source_url": "https://indiankanoon.org/doc/23029604/",
   "secondary_sources": [
    "https://www.courtkutchehry.com/judgements/183381/dharampal-appellant-hash-state-of-haryana-and-others-respondent-4/"
@@ -21051,7 +21077,7 @@
    "https://IAMC.COM/iamc-weekly-news-roundup-march-24th-2014/",
    "https://indiankanoon.org/doc/38174802/"
   ],
-  "summary": "The Special CBI Court on 20 March 2014 sentenced then-Inspector [name withheld] and Constable [name withheld] of the Haryana Police to life imprisonment for the 25 October 1994 fake encounter in which Jitender Pahal and [name withheld] — both in police custody — were shot dead at close range and shown as killed in an exchange of fire. Then-DGP Lachhman Dass and two other policemen were acquitted; the CBI had registered the case (RC-2(S)/96) on [name withheld] & Haryana High Court orders after the victim's mother alleged the encounter was staged.",
+  "summary": "The Special CBI Court on 20 March 2014 sentenced then-Inspector [name withheld] and Constable [name withheld] of the Haryana Police to life imprisonment for the 25 October 1994 fake encounter in which Jitender Pahal and [name withheld] — both in police custody — were shot dead at close range and shown as killed in an exchange of fire. Then-DGP Lachhman Dass and two other policemen were acquitted; the CBI had registered the case (RC-2(S)/96) on Punjab & Haryana High Court orders after the victim's mother alleged the encounter was staged.",
   "court_quote": "The Court of District and Sessions Judge Ambala has held accused [name withheld] and [name withheld] guilty for commission of offence U/s 302/201/218/193/34 of IPC.",
   "confidence": "high",
   "tier": "Tier A — Externally reported or officially recorded",
@@ -21109,8 +21135,8 @@
   "court_level": "sessions",
   "trial_court_name": "Court of Additional Sessions Judge, Gurugram (Judge Sudheer Parmar)",
   "case_title": "State v. Mahipal Singh",
-  "case_number": null,
-  "conviction_date": "2020-02-07",
+  "case_number": "Session Case No. 82 of 2019 (CNR HRGR01-000512-2019)",
+  "conviction_date": "2020-02-06",
   "conviction_year": 2020,
   "date_precision": "day",
   "incident_date": "2018-10-13",
@@ -21154,12 +21180,13 @@
   "appeal_url": "https://www.devdiscourse.com/article/law-order/3615534-supreme-court-halts-execution-of-gurugram-convict",
   "source_kind": "news",
   "source_agency": null,
-  "primary_source_url": "https://www.livelaw.in/news-updates/death-penalty-awarded-to-police-officer-who-murdered-wife-and-son-of-judge-152483",
+  "primary_source_url": "https://www.livelaw.in/pdf_upload/pdf_upload-370004.pdf",
   "secondary_sources": [
+   "https://www.livelaw.in/news-updates/death-penalty-awarded-to-police-officer-who-murdered-wife-and-son-of-judge-152483",
    "https://indialegallive.com/top-news-of-the-day/news/x-pso-gets-death-sentence-killing-judges-wife-son/",
    "https://www.latestly.com/agency-news/gurugram-court-awards-death-penalty-to-pso-who-shot-dead-judges-wife-son-in-2018-1524224.html"
   ],
-  "summary": "Additional Sessions Judge Sudheer Parmar, Gurugram, on 7 February 2020 (reported 8 February 2020) awarded the death sentence to Haryana Police PSO [name withheld] for shooting dead Ritu and Dhruv, the wife and son of Additional Sessions Judge Krishna Kant Sharma, in Arcadia market Gurugram on 13 October 2018 following an altercation over car keys. The court relied on the accused's extra-judicial confession and the dying declaration of Ritu, rejecting the spur-of-the-moment leniency plea given his gross misuse of a security-duty position. Confirmation/appeal posture unknown.",
+  "summary": "Additional Sessions Judge Sudheer Parmar, Gurugram, on 7 February 2020 (reported 8 February 2020) awarded the death sentence to Haryana Police PSO [name withheld] for shooting dead the wife and son of a Gurugram Additional Sessions Judge, in Arcadia market Gurugram on 13 October 2018 following an altercation over car keys. The court relied on the accused's extra-judicial confession and the dying declaration of Ritu, rejecting the spur-of-the-moment leniency plea given his gross misuse of a security-duty position. Confirmation/appeal posture unknown.",
   "court_quote": "When a protector turns into a predator and misuses his position and utilizes his service revolver to commit a crime, his actions are proof that he is beyond reform and a threat to society at large. Thus, the accused deserves nothing except the extreme penalty of death.",
   "confidence": "high",
   "tier": "Tier A — Externally reported or officially recorded",
@@ -21184,6 +21211,14 @@
     "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
     "result": "t2-07-010=holds",
     "corrections_applied": []
+   },
+   {
+    "date": "2026-09-25",
+    "scope": "Official source added: Judgment of the Additional Sessions Judge, Gurugram in Session Case 82 of 2019 (CNR HRGR01-000512-2019; copy hosted by LiveLaw): convicted on 06.02.2020, death sentence announced 07.02.2020, subject to High Court confirmation."
+   },
+   {
+    "date": "2026-09-25",
+    "scope": "Date corrected from the judgment: conviction decided 06.02.2020; the death sentence was announced on 07.02.2020."
    }
   ],
   "corrections": [
@@ -21193,7 +21228,7 @@
     "note": "round-8 protective redaction (R40/R41 minor): name -> a minor boy"
    }
   ],
-  "case_title_or_number": "State v. [name withheld] (murder of ASJ's wife and son, Gurugram; exact case number not reported)"
+  "case_title_or_number": "State v. [name withheld] (Session Case No. 82 of 2019, Additional Sessions Judge, Gurugram)"
  },
  {
   "case_id": "t2-13-029",
@@ -29546,8 +29581,8 @@
   "court_level": "sessions",
   "trial_court_name": "Fast Track Special Court (POCSO), Thiruvananthapuram (Special Judge Rekha R)",
   "case_title": "State v. [name withheld]",
-  "case_number": null,
-  "conviction_date": "2024-05-06",
+  "case_number": "S.C. No. 485/2020 (Crime No. 2452/2019, Peroorkada Police Station)",
+  "conviction_date": "2024-04-29",
   "conviction_year": 2024,
   "date_precision": "day",
   "incident_date": null,
@@ -29585,8 +29620,10 @@
   "appeal_url": null,
   "source_kind": "news",
   "source_agency": null,
-  "primary_source_url": "https://www.livelaw.in/news-updates/kerala-court-ex-sub-inspector-jailed-minor-sexual-assault-256547",
-  "secondary_sources": [],
+  "primary_source_url": "https://www.livelaw.in/pdf_upload/police-pocso-536975.pdf",
+  "secondary_sources": [
+   "https://www.livelaw.in/news-updates/kerala-court-ex-sub-inspector-jailed-minor-sexual-assault-256547"
+  ],
   "summary": "Special Judge Rekha R of the Fast Track Special Court (POCSO), Thiruvananthapuram found former police sub-inspector [name withheld] guilty of sexually assaulting a [name withheld] and sentenced him to six years' rigorous imprisonment with a Rs 25,000 fine. The child, daughter of a deceased police constable living with her mother in the police quarters, had come to the accused's quarters seeking information for a children's club event when he put his hands around her, forced her onto his lap and demanded a kiss. The court relied on the victim's reliable testimony with the s.30 POCSO presumption, held positive career records are no evidence of good character, and convicted him for sexual assault by a police officer plus sexual harassment.",
   "court_quote": "On evaluating the entire evidence adduced by the prosecution, it can be concluded that prosecution succeeded in proving that accused who was known and identified as a police officer committed sexual assault on PW 1 at 5 to 5.15 pm at his quarters.",
   "confidence": "medium",
@@ -29612,6 +29649,14 @@
     "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
     "result": "t2-11-005=holds",
     "corrections_applied": []
+   },
+   {
+    "date": "2026-09-25",
+    "scope": "Official source added: Judgment of the Fast Track Special Court (POCSO), Thiruvananthapuram in S.C. No. 485/2020 (Crime No. 2452/2019, Peroorkada Police Station) dated 29/04/2024 (copy hosted by LiveLaw): six years' RI and Rs 25,000 fine confirmed."
+   },
+   {
+    "date": "2026-09-25",
+    "scope": "Date corrected from the judgment: dated 29/04/2024 (the earlier 6 May 2024 was a report date)."
    }
   ],
   "case_title_or_number": "State vs [name withheld] — sexual assault of [name withheld] (POCSO Special Case; number not stated)"
@@ -29994,11 +30039,11 @@
   "verdict_note": "Vigilance court convicted ex-DGP; 4 yrs RI + Rs 30.84L fine; corroborated by LiveLaw/IANS/B&B.",
   "state": "Kerala",
   "district": "Kottayam",
-  "court": "Kerala High Court",
+  "court": "Court of the Enquiry Commissioner and Special Judge (Vigilance), Kottayam",
   "court_level": "special_acb",
   "trial_court_name": "Enquiry Commissioner and Special Judge (Vigilance), Kottayam (Sri K.V. Rejanish)",
   "case_title": "State (VACB Special Cell) v. [name withheld]",
-  "case_number": null,
+  "case_number": "C.C. 03/2020 (VC 03/2007/SCE), CNR KLVC020000482020",
   "conviction_date": "2026-09-17",
   "conviction_year": 2026,
   "date_precision": "day",
@@ -30031,8 +30076,9 @@
   "appeal_url": null,
   "source_kind": "news",
   "source_agency": null,
-  "primary_source_url": "https://www.livelaw.in/news-updates/keralam-court-former-dgp-tomin-j-thachankary-guilty-disproportionate-assets-case-550453",
+  "primary_source_url": "https://www.livelaw.in/pdf_upload/2026/09/17/9562323f-28a8-41fd-bf83-db8f780bfaee-700808.pdf",
   "secondary_sources": [
+   "https://www.livelaw.in/news-updates/keralam-court-former-dgp-tomin-j-thachankary-guilty-disproportionate-assets-case-550453",
    "https://hiindia.com/keralas-former-dgp-thachankary-convicted-in-corruption-case-sentenced-to-four-years-jail-lead/",
    "https://www.barandbench.com/news/kerala-court-sentences-ex-dgp-tomin-thachankary-to-4-years-jail-in-disproportionate-assets-case",
    "https://www.livelaw.in/high-court/kerala-high-court/kerala-high-court-government-order-further-investigation-disproportionate-assets-case-tomin-j-thachankary-302168",
@@ -30063,6 +30109,14 @@
     "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
     "result": "t2-11-003=holds",
     "corrections_applied": []
+   },
+   {
+    "date": "2026-09-25",
+    "scope": "Official source added: Judgment of the Enquiry Commissioner and Special Judge (Vigilance), Kottayam in C.C. 03/2020 (VC 03/2007/SCE) dated 17.09.2026 (copy hosted by LiveLaw): guilty under S.13(2) r/w 13(1)(e) PC Act; four years' RI and Rs 30,84,892 fine confirmed."
+   },
+   {
+    "date": "2026-09-25",
+    "scope": "Court corrected from the judgment: the Special Judge (Vigilance), Kottayam, not the Kerala High Court."
    }
   ],
   "case_title_or_number": "State (VACB Special Cell) vs [name withheld] — disproportionate assets Rs 64,70,891 (check period 01-01-2003 to 04-07-2007)"
@@ -30129,7 +30183,7 @@
   "secondary_sources": [
    "https://www.the-laws.com/encyclopedia/browse/Case?caseId=419891220000&title=state-of-m-p-vs-rampal-singh"
   ],
-  "summary": "The trial court convicted Police Constable [name withheld] of Sarafa Chowki, Jaora, under IPC section 377 and sentenced him to 2 years' rigorous imprisonment with a Rs 200 fine for picking up 16-year-old [name withheld] from Jaora railway station around midnight on 11 October 1976 on the pretext that he was a suspect pickpocket, taking him to his chowki-campus quarter and committing sodomy on him, corroborated by medical evidence and the Chemical Examiner's semen finding. The Additional Sessions Judge acquitted him on appeal, but on 19 January 1989 the MP High Court (V.D. Gyani, J., Criminal Appeal No. 79 of 1985) accepted the [name withheld]'s appeal, set aside the acquittal and restored the trial court's conviction and sentence. CAVEAT: exact trial court name and conviction date not stated in the HC judgment (pre-1985); needs lower-court record backfill.",
+  "summary": "The trial court convicted Police Constable [name withheld] of Sarafa Chowki, Jaora, under IPC section 377 and sentenced him to 2 years' rigorous imprisonment with a Rs 200 fine for picking up 16-year-old [name withheld] from Jaora railway station around midnight on 11 October 1976 on the pretext that he was a suspect pickpocket, taking him to his chowki-campus quarter and committing sodomy on him, corroborated by medical evidence and the Chemical Examiner's semen finding. The Additional Sessions Judge acquitted him on appeal, but on 19 January 1989 the MP High Court (V.D. Gyani, J., Criminal Appeal No. 79 of 1985) accepted the [name withheld]'s appeal, set aside the acquittal and restored the trial court's conviction and sentence. CAVEAT: exact trial court name and conviction date not stated in the HC judgment (pre-1985).",
   "court_quote": "The accused-respondent has been acquitted of a charge under section 377, IPC by the lower appellant Court.",
   "confidence": "medium",
   "tier": "Tier A — Externally reported or officially recorded",
@@ -30217,7 +30271,7 @@
   "source_agency": null,
   "primary_source_url": "https://indiankanoon.org/doc/312089/",
   "secondary_sources": [],
-  "summary": "The Special Judge convicted ASI Shambhu Dayal Nagar of PS Malanpur for demanding Rs 5,000 (settled at Rs 3,500) from complainant [name withheld] to neither seize his rifle nor arrest him and his brother in a village assault case, caught in a trap on 21 August 1996; he drew 1 year RI each under PC Act ss.7 and 13(1)(d)/13(2). The MP High Court (Gwalior, Cr.A. 2/1999, 30 January 2003) set aside the conviction, but the Supreme Court on 2 November 2006 (Crl.A. 261/2004) restored the Special Judge's conviction and sentence on overwhelming evidence. CAVEAT: exact trial court name and conviction date not stated in the SC judgment (pre-1999); needs HC-judgment backfill.",
+  "summary": "The Special Judge convicted ASI Shambhu Dayal Nagar of PS Malanpur for demanding Rs 5,000 (settled at Rs 3,500) from complainant [name withheld] to neither seize his rifle nor arrest him and his brother in a village assault case, caught in a trap on 21 August 1996; he drew 1 year RI each under PC Act ss.7 and 13(1)(d)/13(2). The MP High Court (Gwalior, Cr.A. 2/1999, 30 January 2003) set aside the conviction, but the Supreme Court on 2 November 2006 (Crl.A. 261/2004) restored the Special Judge's conviction and sentence on overwhelming evidence. CAVEAT: exact trial court name and conviction date not stated in the SC judgment (pre-1999).",
   "court_quote": "the impugned judgment of the High Court is set aside and the judgment of the Special Judge is restored",
   "confidence": "medium",
   "tier": "Tier A — Externally reported or officially recorded",
@@ -35732,7 +35786,7 @@
   "source_agency": "MP High Court (Jabalpur, CRA 45/2019 bail order 16 January 2019) recording trial conviction and sentence",
   "primary_source_url": "https://indiankanoon.org/doc/125201007/",
   "secondary_sources": [],
-  "summary": "ASI [name withheld] of PS Kotwali Seoni was convicted under PC Act ss.7 and 13(1)(d)/13(2) for demanding Rs 4,000 and receiving Rs 2,000 on 4 March 2016 from complainant [name withheld] for acting on her FIR, with the prosecution alleging he had already taken Rs 1 lakh from her in the same matter; he drew an effective 4 years RI with a Rs 10,000 fine. On 16 January 2019 the MP High Court (CRA 45/2019) suspended the sentence and granted bail, noting the demand transcription showed no specific bribe demand; the appeal remains pending. CAVEAT: trial-court name and conviction date are per the HC bail order's reference (judgment dated 13.12.2018); trial judgment not yet backfilled.",
+  "summary": "ASI [name withheld] of PS Kotwali Seoni was convicted under PC Act ss.7 and 13(1)(d)/13(2) for demanding Rs 4,000 and receiving Rs 2,000 on 4 March 2016 from complainant [name withheld] for acting on her FIR, with the prosecution alleging he had already taken Rs 1 lakh from her in the same matter; he drew an effective 4 years RI with a Rs 10,000 fine. On 16 January 2019 the MP High Court (CRA 45/2019) suspended the sentence and granted bail, noting the demand transcription showed no specific bribe demand; the appeal remains pending. CAVEAT: trial-court name and conviction date are per the HC bail order's reference (judgment dated 13.12.2018); the trial judgment itself is not online.",
   "court_quote": "A perusal of record reveals that appellant stands convicted under Sections 7 and 13(1)(d) read with section 13(2) of the Prevention of Corruption Act, 1988 and has been sentenced to undergo effective rigorous imprisonment for a period of 4 years and fine in the sum of Rs.10,000/- with default stipulation.",
   "confidence": "high",
   "tier": "Tier A — Externally reported or officially recorded",
@@ -40149,13 +40203,14 @@
   "appeal_url": "https://www.livelaw.in/high-court/bombay-high-court/bombay-high-court-mumbai-police-encounter-specialist-pradeep-sharma-acquittal-fake-encounter-case-lakhan-bhaiya-252769",
   "source_kind": "news",
   "source_agency": null,
-  "primary_source_url": "https://www.livelaw.in/high-court/bombay-high-court/bombay-high-court-mumbai-police-encounter-specialist-pradeep-sharma-acquittal-fake-encounter-case-lakhan-bhaiya-252769",
+  "primary_source_url": "https://www.livelaw.in/pdf_upload/lakhan-bhaiya-judgement-march-19-529456.pdf",
   "secondary_sources": [
+   "https://www.livelaw.in/high-court/bombay-high-court/bombay-high-court-mumbai-police-encounter-specialist-pradeep-sharma-acquittal-fake-encounter-case-lakhan-bhaiya-252769",
    "https://english.tupaki.com/entertainment/article/life-term-for-staged-shootout-to-21-including-13-policemen/16619",
    "https://www.barandbench.com/news/bombay-high-court-overturns-acquittal-former-cop-pradeep-sharma-fake-encounter-case",
    "https://www.livelaw.in/top-stories/fake-encounter-case-supreme-court-refuses-to-suspend-conviction-of-ex-mumbai-cop-pradeep-sharma-for-contesting-assembly-elections-265783"
   ],
-  "summary": "The Mumbai Sessions Court on 5 July 2013 delivered the first-ever conviction of policemen in a fake encounter, holding 21 accused including 13 Mumbai policemen guilty for abducting Vashi resident [name withheld] and killing him in a staged shooting at Versova on 11 November 2006; three officers were convicted of murder and 18 accused of abetting, all sentenced to life on 12 July 2013. On 19 March 2024 the Bombay High Court (Justices Revati Mohite Dere and Gauri Godse) upheld life terms for 12 policemen and one civilian, acquitted six civilians, and reversed the trial acquittal of encounter specialist [name withheld], sentencing him to life, calling the trial acquittal perverse. (A 13th convicted policeman died post-conviction and proceedings abated; Sharma's SLP was admitted by the Supreme Court with interim no-surrender relief.)",
+  "summary": "The Mumbai Sessions Court on 5 July 2013 delivered the first-ever conviction of policemen in a fake encounter, holding 21 accused including 13 Mumbai policemen guilty for abducting Vashi resident [name withheld] and killing him in a staged shooting at Versova on 11 November 2006; three officers were convicted of murder and 18 accused of abetting, all sentenced to life on 12 July 2013. On 19 March 2024 the Bombay High Court (Justices Revati Mohite Dere and Gauri Godse) upheld life terms for 12 policemen and one civilian, acquitted six civilians, and reversed the trial acquittal of encounter specialist [name withheld], sentencing him to life, calling the trial acquittal perverse. (A 13th convicted policeman died post-conviction and proceedings abated; His SLP was admitted by the Supreme Court with interim no-surrender relief.)",
   "court_quote": null,
   "confidence": "medium",
   "tier": "Tier A — Externally reported or officially recorded",
@@ -40181,6 +40236,10 @@
     "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
     "result": "t2-16-004=holds, t2-17-005=holds",
     "corrections_applied": []
+   },
+   {
+    "date": "2026-09-25",
+    "scope": "Official source added: Bombay High Court judgment of 19.03.2024 (2024:BHC-AS:13216-DB, Criminal Appeal No. 707 of 2019 and connected appeals; copy hosted by LiveLaw), which sets out the 2013 trial-court convictions and decides the appeals."
    }
   ],
   "case_title_or_number": "State (SIT) v. [name withheld] & Ors ([name withheld] fake encounter case)"
@@ -70661,7 +70720,7 @@
   "source_agency": null,
   "primary_source_url": "https://indiankanoon.org/doc/173424380/",
   "secondary_sources": [],
-  "summary": "The Madurai Special Court for PC Act cases on 14 December 2022 convicted the Sub-Inspector of Kadupatti police station for demanding Rs.30,000 (reduced to Rs.15,000) to drop three names from Crime No.131/2017 and accepting Rs.15,000 in a V&AC trap laid on 30 May 2017 outside the police station, sentencing him to 3 years RI under PC Act s.7 and 4 years RI under s.13(2) r/w s.13(1)(d) concurrently. Seventeen prosecution witnesses and 33 documents were examined at trial. The Madras High Court (Madurai Bench) suspended the substantive sentence pending disposal of CRL.A.(MD)No.884 of 2022; the officer's name is redacted in the published order and needs backfill from the appeal memo or DVAC note.",
+  "summary": "The Madurai Special Court for PC Act cases on 14 December 2022 convicted the Sub-Inspector of Kadupatti police station for demanding Rs.30,000 (reduced to Rs.15,000) to drop three names from Crime No.131/2017 and accepting Rs.15,000 in a V&AC trap laid on 30 May 2017 outside the police station, sentencing him to 3 years RI under PC Act s.7 and 4 years RI under s.13(2) r/w s.13(1)(d) concurrently. Seventeen prosecution witnesses and 33 documents were examined at trial. The Madras High Court (Madurai Bench) suspended the substantive sentence pending disposal of CRL.A.(MD)No.884 of 2022; the officer's name is redacted in the published order.",
   "court_quote": "At the conclusion of the trial, the trial court found the petitioner guilty and sentenced him to undergo 3 years R/I.",
   "confidence": "high",
   "tier": "Tier A — Externally reported or officially recorded",
@@ -73793,14 +73852,14 @@
   },
   "verified_by": "t2mverify-chunk-045",
   "verified_at": "2026-09-18T11:12:00Z",
-  "verdict_note": "Thoothukudi sessions court gave 9 cops life for 1999 Vincent custodial death; PTI + SC appeal record confirm.",
+  "verdict_note": "Thoothukudi sessions court gave 9 cops life for 1999 custodial death; PTI + SC appeal record confirm.",
   "state": "Tamil Nadu",
   "district": "Thoothukudi",
   "court": "Additional Sessions Court, Thoothukudi",
   "court_level": "sessions",
   "trial_court_name": "Additional Sessions Court, Thoothukudi district",
-  "case_title": "State v. DSP (then Inspector) and others (Vincent custodial death, Thalamuthu Nagar PS, 1999)",
-  "case_number": null,
+  "case_title": "State v. DSP (then Inspector) and others (custodial death, Thalamuthu Nagar PS, 1999)",
+  "case_number": "Sessions Case No. 223 of 2006",
   "conviction_date": "2025-04-05",
   "conviction_year": 2025,
   "date_precision": "day",
@@ -73846,12 +73905,13 @@
   "appeal_url": "https://lawbeat.in/supreme-court-judgments/sc-suspends-life-term-in-1999-custodial-death-case-flags-conflicting-evidence-1543923",
   "source_kind": "news",
   "source_agency": null,
-  "primary_source_url": "https://www.latestly.com/agency-news/latest-news-tn-court-sentences-dsp-8-others-to-life-imprisonment-in-custodial-death-case-6761239.html",
+  "primary_source_url": "https://lawbeat.in/pdf_upload/s-ramakrishnan-vs-revenue-divisional-officer-thoothukudi-district-tamil-nadu-2096722.pdf",
   "secondary_sources": [
+   "https://www.latestly.com/agency-news/latest-news-tn-court-sentences-dsp-8-others-to-life-imprisonment-in-custodial-death-case-6761239.html",
    "https://lawbeat.in/supreme-court-judgments/sc-suspends-life-term-in-1999-custodial-death-case-flags-conflicting-evidence-1543923",
    "https://www.devdiscourse.com/article/law-order/3335909-court-hands-life-sentences-in-1999-custodial-death-case"
   ],
-  "summary": "The Thoothukudi Additional Sessions Court sentenced nine police personnel, including a DSP who was inspector at the time, to life imprisonment for the 1999 custodial death of Vincent at Thalamuthu Nagar police station, acquitting two of eleven accused. The verdict came 26 years after the death, which an RDO enquiry in October 1999 had examined. Convict names and exact sections were not carried in the PTI report and must be backfilled from the judgment before grading above V2.",
+  "summary": "The Thoothukudi Additional Sessions Court sentenced nine police personnel, including a DSP who was inspector at the time, to life imprisonment for the 1999 custodial death of a man at Thalamuthu Nagar police station, acquitting two of eleven accused. The verdict came 26 years after the death, which an RDO enquiry in October 1999 had examined. The case was tried as Sessions Case No. 223 of 2006 under Section 302 IPC. In November 2025 the Supreme Court suspended the life sentence of one convict, a police officer at the time, pending his appeal in the Madras High Court.",
   "court_quote": null,
   "confidence": "medium",
   "tier": "Tier A — Externally reported or officially recorded",
@@ -73877,9 +73937,13 @@
     "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
     "result": "t2-17-012=holds, t2-18-011=holds",
     "corrections_applied": []
+   },
+   {
+    "date": "2026-09-25",
+    "scope": "Official source added: Supreme Court order in Criminal Appeal arising out of SLP(Crl.) No. 15596/2025 (signed 28.11.2025; copy hosted by LawBeat), which records the trial court's life sentences in Sessions Case No. 223 of 2006 for the 1999 custodial death at Thalamuthu Nagar Police Station, and suspends the sentence of one convict (A-11) pending his appeal in the Madras High Court."
    }
   ],
-  "case_title_or_number": "State v. DSP (then Inspector) and others (Vincent custodial death, Thalamuthu Nagar PS, 1999)"
+  "case_title_or_number": "State v. DSP (then Inspector) and others (custodial death, Thalamuthu Nagar PS, 1999)"
  },
  {
   "case_id": "t2-01-008",
@@ -76397,7 +76461,7 @@
   "court": "Tripura High Court",
   "court_level": "sessions",
   "trial_court_name": "District and Sessions Court, West Tripura (Judge Subhasish Sharma Roy)",
-  "case_title": "[name withheld] v. [name withheld] & Ors. (Bodhisatya Das murder)",
+  "case_title": "[name withheld] v. [name withheld] & Ors. (murder of a bank manager)",
   "case_number": null,
   "conviction_date": "2023-06-02",
   "conviction_year": 2023,
@@ -76440,7 +76504,7 @@
    "https://boroktimes.com/tripura-four-convicted-including-traffic-cop-for-murder-of-bank-manager/",
    "https://www.devdiscourse.com/article/law-order/3922198-tripura-high-court-acquits-two-in-bank-managers-murder-case"
   ],
-  "summary": "District and Sessions Judge Subhasish Sharma Roy, West Tripura, on 2 June 2023 found Traffic Police Inspector [name withheld] and three others guilty of murdering bank manager Bodhisatya (Budhisatya) Das on the night of 3–4 August 2019 in Agartala, sentencing each to life rigorous imprisonment with a Rs 50,000 fine on 3 June 2023. Das was stabbed to death following a roadside brawl after a drinking session; co-convict Shoaib Miah (Omar Sharif) wielded the knife. On appeal, the Tripura High Court on 26 May 2026 acquitted co-accused [name withheld] and Sumit Banik (common intention not made out) and had earlier rejected Omar Sharif's review; no appeal outcome for [name withheld] is reported.",
+  "summary": "District and Sessions Judge Subhasish Sharma Roy, West Tripura, on 2 June 2023 found Traffic Police Inspector [name withheld] and three others guilty of murdering a bank manager on the night of 3–4 August 2019 in Agartala, sentencing each to life rigorous imprisonment with a Rs 50,000 fine on 3 June 2023. Das was stabbed to death following a roadside brawl after a drinking session; co-convict Shoaib Miah (Omar Sharif) wielded the knife. On appeal, the Tripura High Court on 26 May 2026 acquitted co-accused [name withheld] and Sumit Banik (common intention not made out) and had earlier rejected Omar Sharif's review; no appeal outcome for [name withheld] is reported.",
   "court_quote": null,
   "confidence": "high",
   "tier": "Tier A — Externally reported or officially recorded",
@@ -76467,7 +76531,7 @@
     "corrections_applied": []
    }
   ],
-  "case_title_or_number": "Sessions trial for murder of bank manager Bodhisatya Das, Agartala (intervening night of 03/08/2019–04/08/2019; 56 witnesses)"
+  "case_title_or_number": "Sessions trial for murder of bank manager the bank manager Das, Agartala (intervening night of 03/08/2019–04/08/2019; 56 witnesses)"
  },
  {
   "case_id": "t2-12-007",
@@ -78211,7 +78275,9 @@
  },
  {
   "case_id": "t2-17-009",
-  "alias_case_ids": [],
+  "alias_case_ids": [
+   "t2-14-001"
+  ],
   "verification_status": "V2",
   "gate_status": "V2",
   "verify_passes": {
@@ -78272,13 +78338,19 @@
   "appeal_url": "https://www.livelaw.in/news-updates/allahabad-high-court-pilibhit-fake-encounter1991-police-cant-kill-accused-dreaded-criminal-216843",
   "source_kind": "news",
   "source_agency": null,
-  "primary_source_url": "https://www.livemint.com/Politics/h3SICJmH3S0rx2Sd2lbbtL/Pilibhit-encounter-CBI-court-awards-life-sentence-to-47-pol.html",
+  "primary_source_url": "https://www.livelaw.in/pdf_upload/devendra-pandey-and-others-vs-state-of-up-thru-cbi-along-with-connected-matters-allahabad-high-court-449401.pdf",
   "secondary_sources": [
+   "https://www.livemint.com/Politics/h3SICJmH3S0rx2Sd2lbbtL/Pilibhit-encounter-CBI-court-awards-life-sentence-to-47-pol.html",
    "https://en.wikipedia.org/wiki/Sikh_masacre_in_Pilibhit_forest",
    "https://www.domain-b.com/amp/economy/government-1/pilibhit-fake-encounter-special-cbi-court-sentences-47-policemen-to-life",
-   "https://www.livelaw.in/news-updates/allahabad-high-court-pilibhit-fake-encounter1991-police-cant-kill-accused-dreaded-criminal-216843"
+   "https://www.livelaw.in/news-updates/allahabad-high-court-pilibhit-fake-encounter1991-police-cant-kill-accused-dreaded-criminal-216843",
+   "https://cbi.gov.in/press-detail/MTg3MQ==",
+   "https://www.livelaw.in/pdf_upload/devendra-pandey-and-others-v-state-of-up-thru-cbi-and-connected-appeals-allahabad-hc-419288.pdf",
+   "https://www.livemint.com/Politics/h3SICJmH3S0rx2Sd2lbbtL/Pilibhit-encounter-CBI-court-awards-life-sentence-to-47-pol.html?facet=amp",
+   "https://www.livelaw.in/news-updates/allahabad-high-court-pilibhit-encounter-1991-exceeded-power-convicts-43cops-304parti-ipc-216837",
+   "https://www.livelaw.in/news-updates/barbaric-inhuman-killing-allahabad-hc-denies-bail-34-cops-accused-killing-sikhs-fake-encounter-terrorists-200083"
   ],
-  "summary": "The Lucknow Special CBI Court held 47 UP policemen guilty of abducting ten Sikh pilgrims from a bus on 12 July 1991, dividing them into groups and shooting them dead in cold blood in staged encounters to earn gallantry rewards, then fabricating records; all were sentenced to life on 4 April 2016 after a Supreme Court-ordered CBI probe. The Allahabad High Court in December 2022 sustained guilt but converted the conviction to IPC s.304 Part I with seven years for 43 appellants. Individual convict names to be backfilled from the judgment text.",
+  "summary": "The Lucknow Special CBI Court held 47 UP policemen guilty of abducting ten Sikh pilgrims from a bus on 12 July 1991, dividing them into groups and shooting them dead in cold blood in staged encounters to earn gallantry rewards, then fabricating records; all were sentenced to life on 4 April 2016 after a Supreme Court-ordered CBI probe. The Allahabad High Court in December 2022 sustained guilt but converted the conviction to IPC s.304 Part I with seven years for 43 appellants.",
   "court_quote": "fake encounter",
   "confidence": "high",
   "tier": "Tier A — Externally reported or officially recorded",
@@ -78305,104 +78377,17 @@
     "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
     "result": "t2-17-009=holds",
     "corrections_applied": []
+   },
+   {
+    "date": "2026-09-25",
+    "scope": "Official source added: Allahabad High Court (Lucknow Bench) judgment of 15.12.2022 in Criminal Appeal No. 549 of 2016 and connected appeals (copy hosted by LiveLaw), which sets out the trial judgment of 04.04.2016 and alters the conviction to Section 304 Part I with seven years' RI and Rs 10,000 fine; CBI press release on the 2016 sentencing added."
+   },
+   {
+    "date": "2026-09-25",
+    "scope": "Duplicate record t2-14-001 (same 1991 Pilibhit case, same 04.04.2016 judgment) merged into this record; its sources are kept here and its URL redirects here."
    }
   ],
   "case_title_or_number": "CBI v. UP PAC personnel (1991 Pilibhit fake encounter of Sikh pilgrims)"
- },
- {
-  "case_id": "t2-14-001",
-  "alias_case_ids": [],
-  "verification_status": "V1",
-  "gate_status": "V1",
-  "verify_passes": {
-   "t2-14-001": {
-    "ds": "accept",
-    "mverify": "accept",
-    "mverify2": "accept",
-    "or2": "flag"
-   }
-  },
-  "verified_by": "t2mverify-chunk-042",
-  "verified_at": "2026-09-18T13:05:34Z",
-  "verdict_note": "Multiple reports confirm Lucknow CBI court sentenced 47 UP policemen to life on 04.04.2016 for the 1991 Pilibhit fake encounter.",
-  "state": "Uttar Pradesh",
-  "district": "Pilibhit",
-  "court": "Special Judge, CBI / Additional District Judge, Lucknow",
-  "court_level": "cbi_court",
-  "trial_court_name": "Special Judge, CBI / Additional District Judge, Lucknow (Special Judge Lallu Singh)",
-  "case_title": "CBI v. UP Police personnel (1991 Pilibhit fake encounter)",
-  "case_number": null,
-  "conviction_date": "2016-04-04",
-  "conviction_year": 2016,
-  "date_precision": "day",
-  "incident_date": "1991-07-12",
-  "incident_year": 1991,
-  "category": "brutality",
-  "subcategory": "fake_encounter_extrajudicial_killing",
-  "raw_subcategory": "fake_encounter_extrajudicial_killing",
-  "outcome_type": "trial_court_conviction",
-  "officers": [
-   {
-    "rank": "Constable to Inspector",
-    "unit": "Uttar Pradesh Police (Pilibhit / PAC)",
-    "publish_grade": "unnamed",
-    "name_public": null,
-    "display": "Constable to Inspector, Uttar Pradesh Police (Pilibhit / PAC)",
-    "key2_union": null,
-    "name": null
-   }
-  ],
-  "victims": [],
-  "sections": [
-   "IPC 120B",
-   "IPC 302",
-   "IPC 364",
-   "IPC 365",
-   "IPC 218",
-   "IPC 117"
-  ],
-  "sentence": "Life imprisonment (all 47) on 4 April 2016; guilt pronounced 1 April 2016",
-  "sentence_type": "imprisonment",
-  "sentence_max_years": null,
-  "appeal_status": "upheld",
-  "appeal_url": "https://www.livelaw.in/news-updates/allahabad-high-court-pilibhit-fake-encounter1991-police-cant-kill-accused-dreaded-criminal-216843",
-  "source_kind": "news",
-  "source_agency": null,
-  "primary_source_url": "https://www.livemint.com/Politics/h3SICJmH3S0rx2Sd2lbbtL/Pilibhit-encounter-CBI-court-awards-life-sentence-to-47-pol.html?facet=amp",
-  "secondary_sources": [
-   "https://www.livelaw.in/news-updates/allahabad-high-court-pilibhit-encounter-1991-exceeded-power-convicts-43cops-304parti-ipc-216837",
-   "https://www.livelaw.in/news-updates/barbaric-inhuman-killing-allahabad-hc-denies-bail-34-cops-accused-killing-sikhs-fake-encounter-terrorists-200083"
-  ],
-  "summary": "The Special CBI court at Lucknow held 47 UP policemen guilty on 1 April 2016 of a staged 'fake encounter' and sentenced them to life imprisonment on 4 April 2016. The court found they had dragged Sikh pilgrims off a bus and gunned them down in three staged shootouts, then falsely claimed they killed Khalistani terrorists. The CBI, probing on Supreme Court orders, told the court the motive was earning awards for killing 'terrorists'. On appeal the Allahabad High Court sustained guilt but converted the conviction of 43 appellants from section 302 to section 304 Part I IPC.",
-  "court_quote": "Special judge [name withheld] had on 1 April held the policemen guilty of a fake encounter.",
-  "confidence": "high",
-  "tier": "Tier A — Externally reported or officially recorded",
-  "source_job": "t2-14",
-  "r8_check": {
-   "date": "2026-09-19",
-   "member_verdicts": {
-    "t2-14-001": "wrong_facts"
-   },
-   "applied": [],
-   "noted": [
-    "t2-14-001:appeal_status"
-   ]
-  },
-  "verification_badge": "V1 · Provenance checked — internal only",
-  "tier_badge": null,
-  "subcategory_display": "fake encounter extrajudicial killing",
-  "last_checked": "2026-09-19",
-  "followup_status": "checked",
-  "followup_history": [
-   {
-    "date": "2026-09-19",
-    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
-    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
-    "result": "t2-14-001=wrong_facts",
-    "corrections_applied": []
-   }
-  ],
-  "case_title_or_number": "CBI vs UP Police personnel (1991 Pilibhit fake encounter; 10 Sikh pilgrims killed 12-13 July 1991)"
  },
  {
   "case_id": "t2-16-003",
@@ -81732,7 +81717,7 @@
   },
   "verified_by": "t2mverify-chunk-046",
   "verified_at": "2026-09-18T13:00:00Z",
-  "verdict_note": "D&SJ Azamgarh convicted retired SHO [name withheld]; life + Rs 1 lakh fine for 2003 custodial shooting of Harilal Yadav.",
+  "verdict_note": "D&SJ Azamgarh convicted retired SHO [name withheld]; life + Rs 1 lakh fine for 2003 custodial shooting of the FCI employee.",
   "state": "Uttar Pradesh",
   "district": "Azamgarh",
   "court": "Court of District and Sessions Judge, Azamgarh",
@@ -81779,7 +81764,7 @@
   "source_agency": null,
   "primary_source_url": "https://www.amarujala.com/uttar-pradesh/azamgarh/22-years-after-police-custodial-murder-verdict-retired-so-gets-life-imprisonment-azamgarh-news-c-258-1-svns1001-144975-2026-02-05",
   "secondary_sources": [],
-  "summary": "District and Sessions Judge Jayprakash Pandey, Azamgarh, on 4 February 2026 convicted retired SHO [name withheld] for the 29 March 2003 custodial shooting of FCI employee Harilal Yadav, arrested on a battery-theft charge and shot inside Rani ki Sarai lock-up at the SHO's instigation, dying later at the district hospital. The court imposed life imprisonment with a Rs 1 lakh fine plus a consecutive 1-year term under IPC 504, ending a 22-year trial that followed a CBCID chargesheet in February 2005; co-accused Head Constable Narendra [name withheld] died in 2017.",
+  "summary": "District and Sessions Judge Jayprakash Pandey, Azamgarh, on 4 February 2026 convicted retired SHO [name withheld] for the 29 March 2003 custodial shooting of an FCI employee, arrested on a battery-theft charge and shot inside Rani ki Sarai lock-up at the SHO's instigation, dying later at the district hospital. The court imposed life imprisonment with a Rs 1 lakh fine plus a consecutive 1-year term under IPC 504, ending a 22-year trial that followed a CBCID chargesheet in February 2005; co-accused Head Constable Narendra [name withheld] died in 2017.",
   "court_quote": "The court held the then station in-charge guilty and sentenced him to life imprisonment with a fine of one lakh rupees.",
   "confidence": "high",
   "tier": "Tier A — Externally reported or officially recorded",
@@ -81806,7 +81791,7 @@
     "corrections_applied": []
    }
   ],
-  "case_title_or_number": "State (CBCID) v. [name withheld] — Harilal Yadav custodial shooting, Rani ki Sarai PS (2003)"
+  "case_title_or_number": "State (CBCID) v. [name withheld] — the FCI employee custodial shooting, Rani ki Sarai PS (2003)"
  },
  {
   "case_id": "t2-18-004",

@@ -1229,10 +1229,17 @@ def _strip_rank_names(text, keep_words, place_words):
     return _RANK_NAME.sub(rep, text)
 
 
+def title_party_is_officer(p):
+    """True when the private party in "X v. State" is the officer. A record
+    sets `title_party: "victim"` when victims or their families brought the
+    appeal (e.g. an appeal against acquittal)."""
+    return ((p.get("outcome_type") or "trial_court_conviction")
+            in _WH_OFFICER_PARTY and p.get("title_party") != "victim")
+
+
 def humanise_withheld(p, title_keys, prose_keys):
     police = (p.get("service") or "police") == "police"
-    officer_party = (p.get("outcome_type") or "trial_court_conviction") \
-        in _WH_OFFICER_PARTY
+    officer_party = title_party_is_officer(p)
     desc = officer_descriptor(p) if police else civil_descriptor(p)
     # a civil servant's own post words also stand in for the name
     post_words = set() if police else {
@@ -1443,8 +1450,7 @@ def anonymise_victims(p, raw, title_keys, oracle=None):
     cleared = [n.lower() for o in (raw.get("officers") or []) if isinstance(o, dict)
                and o.get("publish_grade") == "named_safe"
                for n in (o.get("name"), o.get("name_public")) if n]
-    officer_party = (p.get("outcome_type") or "trial_court_conviction") \
-        in _WH_OFFICER_PARTY
+    officer_party = title_party_is_officer(p)
     police = (p.get("service") or "police") == "police"
     who_off = officer_descriptor(p) if police else civil_descriptor(p)
     who_vic = (first or "%s resident" % record_place(p)).strip()
@@ -6238,10 +6244,12 @@ def publish_hold(r, tier):
 
 
 def held_page(rid, reason, path):
-    main = ('<section class="wrap narrow"><h1>This record is not '
-            'published</h1><p>Record %s is held back because %s</p>'
-            '<p><a href="/tracker">Search the published records</a></p>'
-            '</section>' % (esc(rid), esc(HOLD_REASON_TEXT[reason])))
+    main = ('<section class="section"><div class="wrap"><div class="sec-head">'
+            '<div class="kicker">Record %s</div><h2>This record is not '
+            'published</h2><p>It is held back because %s</p>'
+            '<p><a href="/tracker">Search the published records</a> &middot; '
+            '<a href="/methodology">How records are chosen</a></p>'
+            '</div></div></section>' % (esc(rid), esc(HOLD_REASON_TEXT[reason])))
     return page_shell("Record not published \u2014 " + SITE_NAME,
                       "This record is held back pending an official source.",
                       path, main, route="/tracker",

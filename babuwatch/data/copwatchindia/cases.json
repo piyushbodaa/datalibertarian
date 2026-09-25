@@ -74885,7 +74885,9 @@
   "record_id": "CW-2026-0024",
   "status": "current",
   "merged_id": "CWC-0063",
-  "alias_merged_ids": [],
+  "alias_merged_ids": [
+   "CWC-0956"
+  ],
   "display_title": "State of Jammu and Kashmir and Others v. [name withheld]",
   "display_title_redacted": "State of Jammu and Kashmir and Others v. [name withheld]",
   "state": "Jammu and Kashmir",
@@ -75008,6 +75010,10 @@
     "corrections_applied": [
      "court_quote_para"
     ]
+   },
+   {
+    "date": "2026-09-25",
+    "scope": "Duplicate record CW-2026-0050 (same court, LPAW No. 268/2011, judgment of 30 May 2026) merged into this record; its sources are kept here and its URL redirects here."
    }
   ],
   "followup_status": "checked",
@@ -75041,164 +75047,6 @@
    "chunk-27"
   ],
   "merged_case_id": "CHANDI-009",
-  "officers_named_public": 0,
-  "record_flag": null
- },
- {
-  "record_id": "CW-2026-0050",
-  "status": "current",
-  "merged_id": "CWC-0956",
-  "alias_merged_ids": [],
-  "display_title": "State of Jammu and Kashmir & Ors. v. [name withheld]",
-  "display_title_redacted": "State of Jammu and Kashmir & Ors. v. [name withheld]",
-  "state": "Jammu and Kashmir",
-  "district": "Srinagar",
-  "district_at_time": null,
-  "city_town": "Srinagar",
-  "police_station_or_unit": "Zadibal Police Station",
-  "court": "Jammu and Kashmir and Ladakh High Court",
-  "court_as_verified": "High Court of Jammu and Kashmir and Ladakh",
-  "bench": null,
-  "case_title": "State of Jammu and Kashmir & Ors. v. [name withheld]",
-  "case_number": null,
-  "citation": "2026 LiveLaw (JKL) 237",
-  "judges": [
-   "Sanjeev Kumar",
-   "Sanjay Parihar"
-  ],
-  "judgment_date": "2026-05-30",
-  "date_precision": "day",
-  "judgment_year": 2026,
-  "incident_date": "2004-01-01",
-  "incident_year": 2004,
-  "category": "Other",
-  "admin_category": "misconduct",
-  "admin_subcategory": "other",
-  "subcategory": "other",
-  "subcategory_display": "other",
-  "protest_override_heuristic": false,
-  "outcome_type": "disciplinary_upheld",
-  "sections": [
-   "RPC 120-B",
-   "Arms Act s.7",
-   "Arms Act s.24"
-  ],
-  "officers": [
-   {
-    "name": null,
-    "rank": "Driver Constable",
-    "unit": "J&K Police",
-    "role": "held_liable",
-    "publish_grade": "unnamed",
-    "gate_reasons": [
-     "ledger:no_row",
-     "key2:no_row"
-    ],
-    "ledger_role": null,
-    "key2": null,
-    "key2_agy": null,
-    "key2_claude": null,
-    "key2_union": null,
-    "key2_gemapi": null,
-    "key2_openrouter": null,
-    "key2_gpt56": null,
-    "grok": null,
-    "jev_risk": null,
-    "jev_p_culpable": null,
-    "key2_gpt": null,
-    "later_outcome": null,
-    "name_public": null,
-    "display": "Driver Constable, J&K Police"
-   }
-  ],
-  "officer_count": 1,
-  "victims": [],
-  "victims_redacted": null,
-  "anonymised": false,
-  "victim_count": 0,
-  "sentence_type": "dismissal",
-  "sentence_max_years": null,
-  "compensation_inr": null,
-  "force": "state_police",
-  "primary_source_url": "https://www.livelaw.in/high-court/jammu-kashmir/jammu-and-kashmir-high-court-enemy-infiltrated-government-through-employees-to-disintegrate-nation-jk-hc-upholds-dismissal-of-police-constable-who-sheltered-pakistani-militant-possessed-grenades-536508",
-  "secondary_sources": [
-   "https://www.barandbench.com/news/jammu-kashmir-high-court-restores-dismissal-of-policeman-accused-of-militant-links"
-  ],
-  "summary": "The judgment of the Jammu and Kashmir and Ladakh High Court records the following account. Driver Constable [name withheld] was arrested in 2004 by Zadibal Police Station, Srinagar, for contact with a Pakistani militant, arranging his hideout, and possessing two hand grenades. He was dismissed from service in 2007 under Section 126(2)(c) of the J&K Constitution with the enquiry dispensed with on State-security grounds. A Single Judge set the dismissal aside for want of recorded reasons. The Division Bench allowed the State's Letters Patent Appeal, holding the clause-(c) satisfaction on committee material needed no disclosure and the enquiry would have been futile, and restored the dismissal.",
-  "summary_verified": "Driver Constable [name withheld] was arrested in 2004 by Zadibal Police Station, Srinagar, for contact with a Pakistani militant, arranging his hideout, and possessing two hand grenades. He was dismissed from service in 2007 under Section 126(2)(c) of the J&K Constitution with the enquiry dispensed with on State-security grounds. A Single Judge set the dismissal aside for want of recorded reasons. The Division Bench allowed the State's Letters Patent Appeal, holding the clause-(c) satisfaction on committee material needed no disclosure and the enquiry would have been futile, and restored the dismissal.",
-  "court_quote": "The respondent was one such pawn in the hands of the enemy who had been persuaded to act not only against his employer but also against his country for extraneous reasons and considerations. Not only had he established contacts with a Pakistani militant, but he had also arranged a hideout for him.",
-  "court_quote_para": "25",
-  "confidence": "medium",
-  "verdict": "accept",
-  "verdict_note": "J&K HC Division Bench set aside Single Judge order and upheld 2007 dismissal of constable for militant links.",
-  "verification_status": "V2",
-  "verification_badge": "V2 · Externally reported",
-  "tier_badge": "Externally reported",
-  "tier": "Tier A — Externally reported or officially recorded",
-  "tier_history": [
-   "Tier A — Externally reported or officially recorded"
-  ],
-  "allegations": [
-   {
-    "category": "Other",
-    "primary": true,
-    "position": "Material fact supported",
-    "position_explainer": "Reliable material supports a specifically documented fact relevant to that allegation, not necessarily the full allegation, causation, intent, unlawfulness, or responsibility.",
-    "official_finding_relation": "supports allegation"
-   }
-  ],
-  "institutional_response": [
-   {
-    "date": "2026-05-30",
-    "action_type": "Order issued",
-    "status": "Concluded",
-    "authority": "Jammu and Kashmir and Ladakh High Court",
-    "independence": "External",
-    "legal_effect": "Binding",
-    "description": "The Jammu and Kashmir and Ladakh High Court upheld service punishment imposed on police personnel.",
-    "disposition": "Disciplinary action · Procedural only",
-    "source": "2026 LiveLaw (JKL) 237",
-    "recheck": "Not yet re-checked."
-   }
-  ],
-  "later_proceedings": [],
-  "final_outcome_url": null,
-  "followup_history": [
-   {
-    "date": "2026-09-19",
-    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
-    "method": "skills-guided adversarial re-verification of the published record against the judgment text (reverify/t1-*/adversarial-8.jsonl)",
-    "result": "wrong_facts",
-    "corrections_applied": []
-   }
-  ],
-  "followup_status": "checked",
-  "last_checked": "2026-09-19",
-  "link_checked_per_url": [
-   {
-    "url": "https://www.livelaw.in/high-court/jammu-kashmir/jammu-and-kashmir-high-court-enemy-infiltrated-government-through-employees-to-disintegrate-nation-jk-hc-upholds-dismissal-of-police-constable-who-sheltered-pakistani-militant-possessed-grenades-536508",
-    "link_checked": null
-   },
-   {
-    "url": "https://www.barandbench.com/news/jammu-kashmir-high-court-restores-dismissal-of-policeman-accused-of-militant-links",
-    "link_checked": null
-   }
-  ],
-  "source_assessment": {
-   "established": null,
-   "basis": null
-  },
-  "v3_basis": null,
-  "publication_basis": null,
-  "reviews": [],
-  "retracted": {
-   "is_retracted": false
-  },
-  "fidelity_checked": true,
-  "verified_by": [
-   "chunk-46"
-  ],
-  "merged_case_id": "SWOTHERM-024",
   "officers_named_public": 0,
   "record_flag": null
  },
@@ -147344,13 +147192,13 @@
   "secondary_sources": [
    "https://www.the-laws.com/encyclopedia/browse/case?caseId=611002996000&title=pritam-singh-vs-state-of-punjab"
   ],
-  "summary": "The judgment of the Punjab and Haryana High Court records the following account. Santokh Singh, a 35-year-old bank branch manager, was handed over by his father [name withheld] to Inspector [name withheld], SHO [name withheld], on 29 December 1992 and was never released; police claimed he escaped from handcuffs during a terrorist ambush on 11 January 1993 while being taken for arms recovery. Two successive Sessions Judge enquiries rejected the ambush and escape story as not believable and found prima facie that Santokh Singh was eliminated in a stage-managed encounter, holding Inspector [name withheld] liable. The High Court directed the SHO to register a murder case, with investigation by an officer not below SP rank from outside Jalandhar range within four months. Holding the State vicariously liable for murder by its functionaries, the Court awarded Rs. 3,00,000 shared equally by widow [name withheld] and three children. Matters not addressed in the cited judgment text are not recorded here.",
-  "summary_verified": "Santokh Singh, a 35-year-old bank branch manager, was handed over by his father [name withheld] to Inspector [name withheld], SHO [name withheld], on 29 December 1992 and was never released; police claimed he escaped from handcuffs during a terrorist ambush on 11 January 1993 while being taken for arms recovery. Two successive Sessions Judge enquiries rejected the ambush and escape story as not believable and found prima facie that Santokh Singh was eliminated in a stage-managed encounter, holding Inspector [name withheld] liable. The High Court directed the SHO to register a murder case, with investigation by an officer not below SP rank from outside Jalandhar range within four months. Holding the State vicariously liable for murder by its functionaries, the Court awarded Rs. 3,00,000 shared equally by widow [name withheld] and three children.",
-  "court_quote": "Encounter as alleged and escape of Santokh Singh was just stage managed to eliminate Santokh Singh.",
+  "summary": "The judgment of the Punjab and Haryana High Court records the following account. A 35-year-old bank branch manager was handed over by his father [name withheld] to Inspector [name withheld], SHO [name withheld], on 29 December 1992 and was never released; police claimed he escaped from handcuffs during a terrorist ambush on 11 January 1993 while being taken for arms recovery. Two successive Sessions Judge enquiries rejected the ambush and escape story as not believable and found prima facie that the branch manager was eliminated in a stage-managed encounter, holding Inspector [name withheld] liable. The High Court directed the SHO to register a murder case, with investigation by an officer not below SP rank from outside Jalandhar range within four months. Holding the State vicariously liable for murder by its functionaries, the Court awarded Rs. 3,00,000 shared equally by widow [name withheld] and three children. Matters not addressed in the cited judgment text are not recorded here.",
+  "summary_verified": "A 35-year-old bank branch manager was handed over by his father [name withheld] to Inspector [name withheld], SHO [name withheld], on 29 December 1992 and was never released; police claimed he escaped from handcuffs during a terrorist ambush on 11 January 1993 while being taken for arms recovery. Two successive Sessions Judge enquiries rejected the ambush and escape story as not believable and found prima facie that the branch manager was eliminated in a stage-managed encounter, holding Inspector [name withheld] liable. The High Court directed the SHO to register a murder case, with investigation by an officer not below SP rank from outside Jalandhar range within four months. Holding the State vicariously liable for murder by its functionaries, the Court awarded Rs. 3,00,000 shared equally by widow [name withheld] and three children.",
+  "court_quote": "Encounter as alleged and escape of [name withheld] was just stage managed to eliminate [name withheld].",
   "court_quote_para": "9",
   "confidence": "high",
   "verdict": "accept",
-  "verdict_note": "P&H HC held Santokh Singh eliminated in stage-managed encounter fixing liability on Inspector [name withheld], ordering murder-case registration and Rs 3 lakh to family.",
+  "verdict_note": "P&H HC held the branch manager eliminated in stage-managed encounter fixing liability on Inspector [name withheld], ordering murder-case registration and Rs 3 lakh to family.",
   "verification_status": "V2",
   "verification_badge": "V2 · Externally reported",
   "tier_badge": "Externally reported",
@@ -196916,8 +196764,8 @@
   "status": "current",
   "merged_id": "CWC-0510",
   "alias_merged_ids": [],
-  "display_title": "Zulfikar Nasir & Ors. v. State of Uttar Pradesh & Ors.",
-  "display_title_redacted": "Zulfikar Nasir & Ors. v. State of Uttar Pradesh & Ors.",
+  "display_title": "[name withheld] & Ors. v. State of Uttar Pradesh & Ors.",
+  "display_title_redacted": "[name withheld] & Ors. v. State of Uttar Pradesh & Ors.",
   "state": "Uttar Pradesh",
   "district": "Meerut",
   "district_at_time": null,
@@ -196926,7 +196774,7 @@
   "court": "Delhi High Court",
   "court_as_verified": "Delhi High Court",
   "bench": null,
-  "case_title": "Zulfikar Nasir & Ors. v. State of Uttar Pradesh & Ors.",
+  "case_title": "[name withheld] & Ors. v. State of Uttar Pradesh & Ors.",
   "case_number": "Crl.A. 574/2015 and connected appeals",
   "citation": "2018 SCC OnLine Del 12153",
   "judges": [
@@ -197369,8 +197217,9 @@
   "sentence_max_years": null,
   "compensation_inr": null,
   "force": "state_police",
-  "primary_source_url": "https://www.livelaw.in/breaking-delhi-hc-reverses-acquittal-of-16-policemen-in-hashimpura-massacre-case-sentences-all-to-life-imprisonment",
+  "primary_source_url": "https://indiankanoon.org/doc/113980221/",
   "secondary_sources": [
+   "https://www.livelaw.in/breaking-delhi-hc-reverses-acquittal-of-16-policemen-in-hashimpura-massacre-case-sentences-all-to-life-imprisonment",
    "https://www.scconline.com/blog/post/2018/11/02/hashimpura-tragedy-16-pac-personnel-accused-of-targeted-killings-convicted-in-an-attempt-to-avert-systematic-failure-and-misscariage-of-justice-del-hc/",
    "https://www.verdictum.in/court-updates/supreme-court/supreme-court-grants-bail-to-eight-convicts-in-the-1987-hashimpura-massacre-case-1560213",
    "https://www.barandbench.com/news/hashimpura-massacre-16-cops-convicted-targeted-killings-muslims"
@@ -197442,6 +197291,14 @@
     "corrections_applied": [
      "sections"
     ]
+   },
+   {
+    "date": "2026-09-25",
+    "scope": "Official source added: Delhi High Court judgment (Indian Kanoon), matched on parties, court, 31 October 2018 decision date, Crl.A. 574/2015 and the life sentences of the 16 accused."
+   },
+   {
+    "date": "2026-09-25",
+    "scope": "Title corrected: the appellants were survivors and victims' families appealing the 2015 acquittals, not police personnel; their names are withheld."
    }
   ],
   "followup_status": "checked",
@@ -197481,7 +197338,8 @@
   ],
   "merged_case_id": "SWDISPRO-001",
   "officers_named_public": 0,
-  "record_flag": null
+  "record_flag": null,
+  "title_party": "victim"
  },
  {
   "record_id": "CW-2018-0029",
@@ -198728,7 +198586,7 @@
   "sentence_max_years": 0.038,
   "compensation_inr": null,
   "force": "state_police",
-  "primary_source_url": "https://lawbeat.in/sites/default/files/2022-08/Arnesh Kumar Judgment.pdf",
+  "primary_source_url": "https://lawbeat.in/sites/default/files/2022-08/Arnesh%20Kumar%20Judgment.pdf",
   "secondary_sources": [
    "https://lawbeat.in/news-updates/allahabad-high-court-sentences-police-officer-14-day-imprisonment-violating-arnesh-kumar-guidelines",
    "https://www.scconline.com/blog/post/2022/08/24/allahabad-high-court-grants-14-days-imprisonment-to-investigating-officer-for-violating-arnesh-kumar-guidelines-in-contempt/"
@@ -198772,7 +198630,12 @@
   ],
   "later_proceedings": [],
   "final_outcome_url": null,
-  "followup_history": [],
+  "followup_history": [
+   {
+    "date": "2026-09-25",
+    "scope": "Official source added: Allahabad High Court order in Contempt Application (Criminal) No. 5 of 2022 dated 18.8.2022 (copy hosted by LawBeat): Kanth Police Station investigating officer sentenced to 14 days' simple imprisonment and Rs 1,000 fine, sentence kept in abeyance 60 days."
+   }
+  ],
   "followup_status": "never_checked",
   "last_checked": null,
   "link_checked_per_url": [
@@ -220484,8 +220347,10 @@
   "sentence_max_years": null,
   "compensation_inr": null,
   "force": "state_police",
-  "primary_source_url": "https://www.livelaw.in/telangana-high-court/telangana-high-court-police-officer-ignored-arrest-protection-order-551732",
-  "secondary_sources": [],
+  "primary_source_url": "https://www.livelaw.in/pdf_upload/2026/09/24/160-katta-vamsi-702308.pdf",
+  "secondary_sources": [
+   "https://www.livelaw.in/telangana-high-court/telangana-high-court-police-officer-ignored-arrest-protection-order-551732"
+  ],
   "summary": "The High Court recorded that it had granted a man interim protection from arrest on 21.04.2026, extended on 23.04.2026 and 27.04.2026, in an FIR registered at Saroor Nagar Police Station, and that he was nevertheless arrested on 28.04.2026 and produced before the Magistrate, who refused remand. The High Court rejected the investigating officer's apology and his explanation that he did not know of the extension, holding that he knew of the first protection order and should have verified its status, including from the court's website. The High Court held the investigating officer guilty of wilful disobedience and sentenced him to one month's imprisonment and a fine of Rs. 2,000; the contempt case against a sub-inspector was dismissed because he had no role in the arrest. At the Public Prosecutor's request the sentence was suspended till 19.10.2026 to allow an appeal.",
   "summary_verified": "The High Court recorded that it had granted a man interim protection from arrest on 21.04.2026, extended on 23.04.2026 and 27.04.2026, in an FIR registered at Saroor Nagar Police Station, and that he was nevertheless arrested on 28.04.2026 and produced before the Magistrate, who refused remand. The High Court rejected the investigating officer's apology and his explanation that he did not know of the extension, holding that he knew of the first protection order and should have verified its status, including from the court's website. The High Court held the investigating officer guilty of wilful disobedience and sentenced him to one month's imprisonment and a fine of Rs. 2,000; the contempt case against a sub-inspector was dismissed because he had no role in the arrest. At the Public Prosecutor's request the sentence was suspended till 19.10.2026 to allow an appeal.",
   "court_quote": "This Court holds that respondent No.1 has willfully disobeyed the orders passed by this Court and is, therefore, liable to be punished for contempt.",
@@ -220529,6 +220394,10 @@
    {
     "date": "2026-09-25",
     "scope": "Past-week sweep: record written from the order text; quote checked verbatim against the order."
+   },
+   {
+    "date": "2026-09-25",
+    "scope": "Official source added: Telangana High Court order in C.C. No. 2485 of 2026 dated 18.09.2026 (copy hosted by LiveLaw); quote checked verbatim, sentence of one month and Rs 2,000 fine confirmed, suspended till 19.10.2026 for appeal."
    }
   ],
   "followup_status": "checked",

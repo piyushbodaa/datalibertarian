@@ -56,6 +56,26 @@
   ],
   "redirects": [
     {
+      "source": "/babuwatch/trial-court/t2-14-001",
+      "destination": "/babuwatch/trial-court/t2-17-009",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/data/case/t2-14-001.json",
+      "destination": "/babuwatch/data/case/t2-17-009.json",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/incident/CW-2026-0050",
+      "destination": "/babuwatch/incident/CW-2026-0024",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/data/case/CW-2026-0050.json",
+      "destination": "/babuwatch/data/case/CW-2026-0024.json",
+      "permanent": true
+    },
+    {
       "source": "/victimlesscrimes/vc-ap-0001",
       "destination": "/victimlesscrimes",
       "permanent": false
