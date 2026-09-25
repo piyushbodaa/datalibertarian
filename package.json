@@ -5,13 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build && tsx scripts/prerender.tsx && cp public/snapshot.html dist/index.html && cp dist/victimlesscrimes/index.html dist/victimlesscrimes.html && cp dist/civilliberties/index.html dist/civilliberties.html && cp dist/economicfreedom/index.html dist/economicfreedom.html && cp dist/psu/index.html dist/psu.html && npm run build:registers && npm run build:babuwatch",
+    "build": "tsc --noEmit && vite build && tsx scripts/prerender.tsx && cp public/snapshot.html dist/index.html && cp dist/victimlesscrimes/index.html dist/victimlesscrimes.html && cp dist/civilliberties/index.html dist/civilliberties.html && cp dist/economicfreedom/index.html dist/economicfreedom.html && cp dist/psu/index.html dist/psu.html && npm run build:registers && npm run build:babuwatch && npm run build:latest",
     "preview": "vite preview",
     "test": "tsx --test src/data/citations.test.ts src/data/compare/median.test.ts src/data/inflation.test.ts",
     "test:browser": "playwright test",
     "build:babuwatch": "python3 babuwatch/build_all.py --out dist && python3 babuwatch/engine/check_links.py --root dist --scope /babuwatch",
     "test:babuwatch": "python3 -m unittest discover -s babuwatch/engine -p 'test_*.py'",
     "build:registers": "python3 registers/build.py --out dist",
+    "build:latest": "python3 registers/latest.py --out dist",
     "test:registers": "python3 -m unittest discover -s registers -p 'test_*.py'"
   },
   "dependencies": {
