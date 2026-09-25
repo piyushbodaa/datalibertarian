@@ -40,6 +40,7 @@ OUTCOME = {
     "licence_cancelled": "Licence cancelled",
     "arrest": "Arrested",
     "status_cancelled": "Status cancelled",
+    "status_cancellation_set_aside": "Status cancelled; order set aside",
     "seizure": "Goods seized",
     "confiscation": "Goods confiscated",
     "quashed": "Case quashed",

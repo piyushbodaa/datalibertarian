@@ -2675,6 +2675,127 @@
           "text": "A journalist faces a criminal case over political and religious commentary on social media that the police's own inquiry said showed no deliberate incitement."
         }
       ]
+    },
+    {
+      "id": "cl-up-0004",
+      "category": "religion",
+      "state": "Uttar Pradesh",
+      "district": "Jaunpur",
+      "title": "Two men booked for attending a religious gathering at Nizamuddin Markaz in 2020 cleared after six years",
+      "summary": "Shahganj police in Jaunpur booked two men in April 2020 after learning they had attended a religious gathering at the Nizamuddin Markaz in Delhi, alleging they might spread Covid-19; both later tested negative. The Allahabad High Court quashed the case on 18 September 2026. It held they were falsely implicated on the basis of presumption and assumption.",
+      "date": "2026-09-18",
+      "date_label": "High Court order quashing the case",
+      "incident_date": "2020-04-02",
+      "outcome": "quashed",
+      "authority": "Allahabad High Court, Justice Gautam Chowdhary; Shahganj Police Station, Jaunpur",
+      "case_reference": "Application u/s 528 BNSS No. 9690 of 2025; Case No. 1576 of 2020; Case Crime No. 82 of 2020",
+      "laws": [
+        "Section 188 of the Indian Penal Code, 1860",
+        "Section 269 of the Indian Penal Code, 1860",
+        "Section 307 of the Indian Penal Code, 1860",
+        "Section 51(b) of the Disaster Management Act, 2005",
+        "Section 3 of the Epidemic Diseases Act, 1897"
+      ],
+      "acts": [
+        "Indian Penal Code, 1860",
+        "Disaster Management Act, 2005",
+        "Epidemic Diseases Act, 1897"
+      ],
+      "person": "two men from Jaunpur district",
+      "detail": [
+        "The High Court recorded that the Incharge Inspector of Shahganj police station lodged an FIR on 02.04.2020 alleging the two had gone to the Nizamuddin Markaz in Delhi to attend a religious gathering and were staying at home secretly, with an apprehension they might be infected and infect others.",
+        "The FIR invoked Sections 188, 269 and 307 IPC (attempt to murder among them), the Disaster Management Act and the Epidemic Diseases Act; they were sent to a quarantine centre and police filed a chargesheet on 08.05.2020.",
+        "The High Court recorded that their Covid-19 tests were negative and that the State did not dispute the facts put forward by the applicants.",
+        "The High Court held they were falsely implicated and quashed the proceedings before the Additional Chief Judicial Magistrate, Jaunpur."
+      ],
+      "current_position": "The proceedings in Case No. 1576 of 2020 stand quashed against both men.",
+      "quote": {
+        "text": "Thus, it is crystal clear that the applicants have been falsely implicated in the case with false and frivolous allegations due to ulterior motive and malafide intently and only on the basis of presumption and assumption.",
+        "where": "Application u/s 528 BNSS No. 9690 of 2025, Allahabad High Court, order dated 18.09.2026, para 7",
+        "url": "https://indiankanoon.org/doc/165756683/"
+      },
+      "caveats": "The case was brought under epidemic and public-health provisions, not a religion law; it is listed because the FIR rested on their attendance at a religious gathering.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "Two men were prosecuted for six years, including for attempt to murder, because they had attended a religious gathering, though they tested negative and no one was harmed."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/165756683/",
+          "kind": "judgment",
+          "publisher": "Allahabad High Court (Indian Kanoon)",
+          "date": "2026-09-18",
+          "supports": "FIR, sections, chargesheet, negative tests, reasoning and quashing order"
+        },
+        {
+          "url": "https://www.livelaw.in/high-court/allahabad-high-court/allahabad-hc-falsely-implicated-nizamuddin-markaz-visit-covid19-551205",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2026-09-22",
+          "supports": "report of the order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "cl-tn-0004",
+      "category": "religion",
+      "state": "Tamil Nadu",
+      "district": "Tiruvannamalai",
+      "title": "Official's Scheduled Caste certificate cancelled on looks alone as proof he was Christian; High Court sets it aside",
+      "summary": "A Tiruvannamalai district vigilance committee declared a senior customs official's Adi Dravidar (Scheduled Caste) certificate not genuine just before his retirement, finding his family still professed Christianity after reconverting to Hinduism. The Madras High Court set the order aside on 11 September 2026. It held the committee had relied on his fair complexion, physique, languages and hair.",
+      "date": "2026-09-11",
+      "date_label": "High Court order setting aside the cancellation",
+      "outcome": "status_cancellation_set_aside",
+      "authority": "Madras High Court, Justice D. Bharatha Chakravarthy; District Level Vigilance Committee, Tiruvannamalai",
+      "case_reference": "W.P. No. 32793 of 2026 (2026:MHC:3830)",
+      "laws": [
+        "Community certificate verification by the District Level Vigilance Committee (proceedings dated 04.05.2026)"
+      ],
+      "acts": [
+        "Constitution (Scheduled Castes) Order, 1950"
+      ],
+      "person": "an assistant commissioner of customs in Chennai",
+      "detail": [
+        "The High Court recorded that his father, originally Hindu Adi Dravidar, converted to Christianity in 1960, that he was born in 1966, and that father and son reconverted to Hinduism in 1983 at the Arya Samaj Centre, Chennai.",
+        "The High Court recorded that verification of his community certificate began shortly before his superannuation in May 2026 and that the District Level Vigilance Committee held it not genuine by proceedings dated 04.05.2026.",
+        "The High Court held that the committee's reasons, including his complexion, height, physique, languages spoken and curly hair, were not expert anthropological inputs and could not stand scrutiny of law.",
+        "The High Court set aside the order and directed a personal hearing, with fresh orders within eight weeks of his appearance."
+      ],
+      "current_position": "The cancellation is set aside; the committee must hear him and decide afresh.",
+      "quote": {
+        "text": "it merely holds the petitioner as a Christian only because he is fair in colour and has good physique and speaks both Tamil and English and his hair is curly. The same cannot stand scrutiny of law.",
+        "where": "W.P. No. 32793 of 2026, Madras High Court, order dated 11.09.2026, para 5",
+        "url": "https://indiankanoon.org/doc/40894152/"
+      },
+      "caveats": "The order was dated 11 September and reported on 19 September 2026. The committee may still reach the same conclusion on fresh evidence; Scheduled Caste status is not available to those professing Christianity under the 1950 Order.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "A legal status was taken away on the ground that the holder professed a faith, decided on his appearance and speech rather than evidence."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/40894152/",
+          "kind": "judgment",
+          "publisher": "Madras High Court (Indian Kanoon)",
+          "date": "2026-09-11",
+          "supports": "family history, cancellation, reasoning, directions"
+        },
+        {
+          "url": "https://www.livelaw.in/madras-high-court/madras-high-court-fair-complexion-tall-height-tamil-english-fluency-not-prove-christianity-550793",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2026-09-19",
+          "supports": "report of the order, retirement timing"
+        }
+      ],
+      "verification": "V2"
     }
   ]
 }
