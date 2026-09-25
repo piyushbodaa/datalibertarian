@@ -6312,6 +6312,123 @@
         }
       ],
       "verification": "V2"
+    },
+    {
+      "id": "ef-as-0002",
+      "category": "business",
+      "state": "Assam",
+      "district": "Sonitpur",
+      "title": "Forest officials sealed furniture shops and seized their stock over missing registration; High Court orders it returned",
+      "summary": "Forest Department officials sealed furniture businesses in Dhekiajuli and seized their furniture, saying they were operating without registration under the Assam Wood-Based Industries Rules, 2022. The Gauhati High Court held the shops must register, but that breaching the Rules is not a forest offence because the Rules prescribe no punishment. It ordered the shops de-sealed, the furniture returned and the confiscation proceedings quashed.",
+      "date": "2026-08-29",
+      "date_label": "High Court judgment (signed 29 August; reported 18 September 2026)",
+      "outcome": "quashed",
+      "authority": "Gauhati High Court, Justice Devashis Baruah; Assam Forest Department",
+      "case_reference": "WP(C)/4126/2026 and connected petitions (2026:GAU-AS:12282)",
+      "laws": [
+        "Rules 8, 15, 16 and 17 of the Assam Wood-Based Industries (Promotion and Regulation) Rules, 2022 (as cited)",
+        "Sections 34, 35, 40, 41, 49, 51 and 63 of the Assam Forest Regulation, 1891 (as cited)"
+      ],
+      "acts": [
+        "Assam Wood-Based Industries Rules, 2022",
+        "Assam Forest Regulation, 1891"
+      ],
+      "person": "furniture makers and sellers in Dhekiajuli town",
+      "detail": [
+        "LiveLaw reported that the petitioners manufactured and sold wooden furniture with GST registration and trade licences from the Dhekiajuli Municipal Board, and that forest officials sealed their premises and seized furniture.",
+        "The High Court held the businesses are secondary wood-based industrial units that must register under the 2022 Rules.",
+        "The High Court held that the Rules prescribe no punishment, so their breach is not a 'forest offence' that allows seizure and confiscation.",
+        "The High Court declared the sealing and seizure illegal, directed the premises de-sealed and the furniture returned, quashed the confiscation proceedings and directed that registration applications be processed."
+      ],
+      "current_position": "The shops are to be de-sealed and the furniture returned; they must register under the 2022 Rules.",
+      "quote": {
+        "text": "The seizure of the furnitures from the Petitioners’ business premises was illegal and unauthorized",
+        "where": "WP(C)/4126/2026, Gauhati High Court, judgment signed 29.08.2026, para 39(D)",
+        "url": "https://www.livelaw.in/pdf_upload/2026/09/17/display-11-700844.pdf"
+      },
+      "caveats": "The judgment carries a digital signature dated 29.08.2026; LiveLaw reported it on 18.09.2026. LiveLaw's headline attributes the case to Tripura; the judgment is from the Gauhati High Court concerning Assam.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "Licensed shopkeepers had their businesses sealed and stock seized for a paperwork lapse, with no allegation that the wood was illegal or that anyone was harmed."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.livelaw.in/pdf_upload/2026/09/17/display-11-700844.pdf",
+          "kind": "judgment",
+          "publisher": "Gauhati High Court (via LiveLaw PDF)",
+          "date": "2026-08-29",
+          "supports": "sealing, seizure, reasoning and directions"
+        },
+        {
+          "url": "https://www.livelaw.in/tripura-high-court/furniture-shop-register-assam-wood-industry-rules-forest-dept-cant-seize-goods-550615",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2026-09-18",
+          "supports": "report of the judgment, licences held"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-ch-0001",
+      "category": "property",
+      "state": "Chandigarh",
+      "district": "Chandigarh",
+      "title": "High Court upholds demolition of a decades-old fish and poultry farm on farmland in Mani Majra",
+      "summary": "Chandigarh's estate authorities ordered the demolition of sheds built for a fish-farming and poultry business on agricultural land in village Mani Majra under the Punjab New Capital (Periphery) Control Act. The petitioners said they had run the business for 20 to 30 years and had bought the land. The Punjab and Haryana High Court dismissed their challenge on 15 September 2026.",
+      "date": "2026-09-15",
+      "date_label": "High Court judgment dismissing the challenge",
+      "incident_date": "2026-04-13",
+      "outcome": "penalty",
+      "authority": "Punjab and Haryana High Court (Justices Jasgurpreet Singh Puri and Pravindra Singh Chauhan); Chandigarh Administration",
+      "case_reference": "CWP-16435-2026",
+      "laws": [
+        "Sections 5, 6 and 11 of the Punjab New Capital (Periphery) Control Act, 1952 (as amended by the Chandigarh Administration (Amended) Act, 1972)"
+      ],
+      "acts": [
+        "Punjab New Capital (Periphery) Control Act, 1952"
+      ],
+      "person": "a family running a fish and poultry business",
+      "detail": [
+        "LiveLaw reported the petitioners said they had farmed fish and poultry on the land for 20 to 30 years, selling at source since 1999, first with the owners' permission and later after buying it through GPA, will and agreement documents.",
+        "They had built animal and tin sheds and obtained electricity connections; a demolition order of 13.04.2026 declared the structures unauthorised under the 1952 Act.",
+        "The High Court held the order was passed in accordance with the Act's procedure and natural justice, and that the right to livelihood cannot license a breach of the statute protecting Chandigarh's planned periphery.",
+        "The High Court dismissed the writ petition."
+      ],
+      "current_position": "The demolition order of 13 April 2026 stands.",
+      "quote": {
+        "text": "has been passed strictly in accordance with the procedure prescribed under ‘the Act of 1952’",
+        "where": "CWP-16435-2026, Punjab and Haryana High Court, judgment dated 15.09.2026, para 23",
+        "url": "https://www.livelaw.in/pdf_upload/2026/09/24/2-26-702191.pdf"
+      },
+      "caveats": "Whether the petitioners hold clear title is disputed; they claim through GPA and agreement documents. The judgment was dated 15 September and reported on 24 September 2026.",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A peaceful economic act",
+          "text": "A long-running farm business faces demolition for building sheds on land it says it owns, with no allegation that anyone else's land or safety was affected."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.livelaw.in/pdf_upload/2026/09/24/2-26-702191.pdf",
+          "kind": "judgment",
+          "publisher": "Punjab and Haryana High Court (via LiveLaw PDF)",
+          "date": "2026-09-15",
+          "supports": "demolition order, Act, reasoning and dismissal"
+        },
+        {
+          "url": "https://www.livelaw.in/punjab-and-haryana-high-court/punjab-haryana-high-court-right-to-livelihood-upholds-demolition-of-fish-poultry-shed-551564",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2026-09-24",
+          "supports": "business history, land claim, livelihood argument"
+        }
+      ],
+      "verification": "V2"
     }
   ]
 }
