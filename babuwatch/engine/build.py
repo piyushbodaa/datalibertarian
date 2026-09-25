@@ -6166,6 +6166,88 @@ def gate_records(raw_cases):
     return kept
 
 
+# ---- Publish holds (owner decision 2026-09-25) ----
+# A record publishes only when one of its links is the court order itself
+# or an official agency page; a record that rests on news reports alone is
+# held until an official copy is added. High Court / Supreme Court records
+# publish at V2 and above (V1 is internal only, as the methodology says).
+# Employees of public-sector enterprises (banks, CPSEs) are held until the
+# core civil services are covered. Held records still feed the name-scrub
+# patterns and leak assertions; they are only kept off the site.
+DOC_HOSTS = ("indiankanoon.org", "courtkutchehry.com", "casemine.com",
+             "advocatekhoj.com", "the-laws.com", "courtbook.in",
+             "refread.com", "caseon.in", "legalindia.com")
+PSU_EMPLOYER = re.compile(r"public sector|\bPSU\b|\bbank\b|Corporation of "
+                          r"India|\bLimited\b|\bLtd\b", re.I)
+HOLD_REASON_TEXT = {
+    "news_only": "it rests on news reports alone. It will return once an "
+                 "official copy of the court order or agency record is "
+                 "added.",
+    "v1_hcsc": "its source has not yet been checked to the standard a High "
+               "Court or Supreme Court record needs (V2).",
+    "psu": "it concerns an employee of a public-sector enterprise. Babuwatch "
+           "covers the core civil services first and will add public-sector "
+           "enterprises, starting with government banks, after that.",
+}
+
+
+def source_is_document(u):
+    """True when a URL is the court order or an official record itself:
+    a government host, a judgment repository, a hosted PDF, or an archived
+    copy of one of those."""
+    from urllib.parse import urlparse
+    p = urlparse(u)
+    host = p.netloc.lower().split(":")[0]
+    host = host[4:] if host.startswith("www.") else host
+    if host in ("web.archive.org", "archive.org"):
+        rest = p.path[1:] + ("?" + p.query if p.query else "")
+        m = re.search(r"https?://\S+", rest)
+        if m:
+            return source_is_document(m.group(0))
+        # archive.org items of Indian government orders and gazettes
+        return bool(re.search(r"/(?:download|details)/in\.(?:gov|gazette)\.",
+                              p.path))
+    if host.endswith((".gov.in", ".nic.in")) or host == "gov.in":
+        return True
+    if any(host == d or host.endswith("." + d) for d in DOC_HOSTS):
+        return True
+    path = p.path.lower()
+    return path.endswith(".pdf") or "/pdf_upload/" in path
+
+
+def record_source_urls(r):
+    out = [r.get("primary_source_url")]
+    for s in r.get("secondary_sources") or []:
+        out.append(s.get("url") if isinstance(s, dict) else s)
+    return [u.strip().split()[0] for u in out
+            if isinstance(u, str) and u.strip().startswith("http")]
+
+
+def publish_hold(r, tier):
+    """The reason a record is held off the site, or None. `tier` is
+    "hcsc" (cases.json) or "trial" (tier2 / overturned rows)."""
+    if tier == "hcsc" and str(r.get("verification_status")
+                              or "V2").strip().upper() == "V1":
+        return "v1_hcsc"
+    if not any(source_is_document(u) for u in record_source_urls(r)):
+        return "news_only"
+    if r.get("service") == "civil" and PSU_EMPLOYER.search(
+            r.get("department") or ""):
+        return "psu"
+    return None
+
+
+def held_page(rid, reason, path):
+    main = ('<section class="wrap narrow"><h1>This record is not '
+            'published</h1><p>Record %s is held back because %s</p>'
+            '<p><a href="/tracker">Search the published records</a></p>'
+            '</section>' % (esc(rid), esc(HOLD_REASON_TEXT[reason])))
+    return page_shell("Record not published \u2014 " + SITE_NAME,
+                      "This record is held back pending an official source.",
+                      path, main, route="/tracker",
+                      extra_head='<meta name="robots" content="noindex">')
+
+
 def _name_literals(name):
     """Literal candidate strings for one name: spelling variants, every
     contiguous word-run of length >= 2, distinctive singles (len >= 5,
@@ -7684,6 +7766,30 @@ def main():
         sys.exit("BUILD REFUSED: %d scrub-residual leak(s) in public "
                  "dicts (genuine scrub bug; showing %d)"
                  % (len(_pre_bad), min(200, len(_pre_bad))))
+    # Publish holds: drop held records from every rendered set (after the
+    # scrub, which keeps their names in the patterns).
+    held = {}
+    for c in publishable:
+        why = publish_hold(c, "hcsc")
+        if why:
+            held[("incident", c.get("record_id") or c.get("merged_id"))] = why
+    for r in raw_t2:
+        why = publish_hold(r, "trial")
+        if why:
+            held[("trial-court", t2_id(r))] = why
+    held_over = {t2_id(r) for r in over_rows
+                 if isinstance(r, dict) and publish_hold(r, "trial")}
+    cases = [c for c in cases if ("incident", rec_id(c)) not in held]
+    t2public = [p for p in t2public if ("trial-court", t2_id(p)) not in held]
+    over_public = [p for p in over_public if t2_id(p) not in held_over]
+    n_overturned = len(over_public)
+    print("hold: %d HC/SC and %d trial-court records held off the site "
+          "(%s); %d set-aside rows held"
+          % (sum(1 for k in held if k[0] == "incident"),
+             sum(1 for k in held if k[0] == "trial-court"),
+             ", ".join("%s=%d" % kv for kv in
+                       sorted(Counter(held.values()).items())),
+             len(held_over)))
     SERVICE_COUNTS.update({s: 0 for s in SERVICE_WORDS})
     SERVICE_COUNTS.update(Counter((r.get("service") or "")
                                   for r in list(cases) + list(t2public)))
@@ -7959,6 +8065,14 @@ def main():
                     % (esc(rid), esc(SITE_NAME), esc(new_url),
                        esc(new_url), esc(new_url), esc(rid)))
             write(os.path.join(DIST, "incident", mid, "index.html"), stub)
+    # Held records keep their old URLs as a noindex notice page.
+    for (kind, hid), why in sorted(held.items()):
+        path = "/%s/%s" % (kind, hid)
+        write(os.path.join(DIST, kind, hid, "index.html"),
+              held_page(hid, why, path))
+        write(os.path.join(DIST, kind, hid, "index.md"),
+              "# This record is not published\n\nRecord %s is held back "
+              "because %s\n" % (hid, HOLD_REASON_TEXT[why]))
     # Trial-court records (+ Markdown twins). The section's index and its
     # per-state listings build only when the watch wants them: owner
     # decision 2026-09-23 — Babuwatch has no Trial Courts section; the

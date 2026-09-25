@@ -250,7 +250,8 @@ class TestDistConsistency(unittest.TestCase):
                   encoding="utf-8") as f:
             cases = json.load(f)
         want = len([c for c in load_input()
-                    if c.get("record_flag") != "review_remove"])
+                    if c.get("record_flag") != "review_remove"
+                    and not B.publish_hold(c, "hcsc")])
         self.assertEqual(len(cases), want)
         for c in cases[:40] + cases[-5:]:
             rid = c.get("record_id") or c["merged_id"]
