@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Education &mdash; Data Libertarian</title>
+<meta name="description" content="India's schools by who runs them: how many schools, students and teachers are in government, aided, private and other schools, state by state, from the Ministry of Education's UDISE+ data.">
+<meta name="theme-color" content="#F7F5EF">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#12151C; --ink-2:#3A3F48; --dim:#6B7280; --paper:#F7F5EF; --card:#FBFAF6; --line:#D9D5C8; --grid:#E6E2D6;
+  --stamp:#B3261E; --ledger:#2F6F4E;
+  --govt:#2a78d6; --pvt:#eb6834; --aided:#1baf7a; --other:#eda100;
+  --serif:'Lora',Georgia,serif; --sans:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace; --w:1200px;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.55 var(--sans)}
+a{color:inherit}
+.wrap{max-width:var(--w);margin:0 auto;padding:0 24px}
+.kicker{font:500 11.5px/1.2 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--stamp)}
+.dbl{border:0;border-top:3px double var(--ink);margin:0}
+.mast{padding:18px 0 12px}
+.mast .wrap{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand{font:600 14px/1 var(--mono);letter-spacing:.22em;text-transform:uppercase;text-decoration:none}
+.brand span{color:var(--stamp)}
+.mast nav{display:flex;gap:18px;flex-wrap:wrap}
+.mast nav a{font:500 13px/1 var(--sans);color:var(--ink-2);text-decoration:none}
+.mast nav a:hover,.mast nav a[aria-current]{color:var(--stamp)}
+.hero{padding:40px 0 18px}
+.hero h1{font:600 clamp(30px,4.6vw,50px)/1.08 var(--serif);letter-spacing:-.012em;margin:14px 0 16px;max-width:20em}
+.hero p{font-size:17px;color:var(--ink-2);max-width:40em;margin:0}
+.tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;margin:28px 0 8px;border-top:1px solid var(--ink);border-bottom:1px solid var(--line)}
+.tile{padding:16px 18px 16px 0}
+.tile+.tile{padding-left:18px;border-left:1px solid var(--line)}
+.tile .v{font:600 30px/1.1 var(--mono);letter-spacing:-.01em}
+.tile .l{font-size:13px;color:var(--ink-2);margin-top:6px}
+.tile .d{font:400 12px/1.4 var(--mono);color:var(--dim);margin-top:4px}
+.sec{padding:40px 0 6px}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-bottom:10px;border-bottom:3px double var(--ink)}
+.sec-head h2{font:600 26px/1.15 var(--serif);margin:6px 0 0}
+.sec-head p{margin:0;color:var(--dim);font-size:13.5px;max-width:36em}
+.fig{background:var(--card);border:1px solid var(--line);padding:18px 20px 16px;margin-top:20px}
+.fig h3{font:600 17px/1.3 var(--serif);margin:0}
+.fig .cap{font-size:13px;color:var(--dim);margin:4px 0 0}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;margin:14px 0 4px;font-size:12.5px;color:var(--ink-2)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:12px;height:12px;border-radius:3px;display:inline-block}
+.share{display:grid;grid-template-columns:90px 1fr;gap:36px 14px;align-items:center;margin-top:14px}
+.share .rl{font:500 12.5px var(--mono);color:var(--ink-2)}
+.bar{display:flex;gap:2px;height:24px}
+.seg{height:100%;min-width:2px;position:relative;outline:none}
+.seg:first-child{border-radius:4px 0 0 4px}.seg:last-child{border-radius:0 4px 4px 0}
+.seg:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.seg b{position:absolute;left:0;right:0;top:-19px;text-align:center;font:500 11.5px var(--mono);color:var(--ink);white-space:nowrap}
+.seg.small b{display:none}
+.trend svg{width:100%;height:auto;display:block;margin-top:8px;overflow:visible}
+.trend .gl{stroke:var(--grid);stroke-width:1}
+.trend .ax{font:400 11.5px var(--mono);fill:var(--dim)}
+.trend .ln{fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.trend .dot{stroke:var(--card);stroke-width:2}
+.trend .lab{font:600 12px var(--mono);fill:var(--ink)}
+.trend .hit{fill:transparent;cursor:crosshair}
+.trend .xh{stroke:var(--ink-2);stroke-width:1;opacity:0}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.tbl-wrap{overflow-x:auto;margin-top:16px;border:1px solid var(--line);background:var(--card)}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;min-width:880px}
+th,td{padding:9px 12px;text-align:right;border-bottom:1px solid var(--grid);font-size:13.5px;white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+th{font:500 11px/1.3 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);background:var(--paper);position:sticky;top:0;cursor:pointer;user-select:none;vertical-align:bottom;white-space:normal}
+th[aria-sort="ascending"]::after{content:" \2191"}th[aria-sort="descending"]::after{content:" \2193"}
+tr.india td{font-weight:600;background:#F2EFE6}
+td.up{color:var(--ledger)}td.down{color:var(--stamp)}
+.tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--paper);font:12px/1.45 var(--sans);padding:7px 9px;border-radius:4px;max-width:260px;opacity:0;transition:opacity .08s;z-index:10}
+.doors{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:20px}
+.door{border:1px dashed var(--line);background:transparent;padding:14px 16px}
+.door .n{font:500 11px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--dim)}
+.door h3{font:600 16.5px/1.3 var(--serif);margin:6px 0 6px}
+.door p{font-size:13px;color:var(--ink-2);margin:0}
+.door .s{font:400 11.5px/1.4 var(--mono);color:var(--dim);margin-top:8px}
+.notes{font-size:13px;color:var(--ink-2);max-width:60em}
+.notes li{margin:6px 0}
+footer{margin-top:48px;border-top:3px double var(--ink);padding:18px 0 34px;font-size:12.5px;color:var(--dim)}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+a:focus-visible{outline:2px solid var(--stamp);outline-offset:3px}
+@media (max-width:900px){.tiles{grid-template-columns:repeat(2,minmax(0,1fr))}.tile:nth-child(3){padding-left:0;border-left:0}.tile:nth-child(n+3){border-top:1px solid var(--line)}.pair{grid-template-columns:1fr}.doors{grid-template-columns:1fr 1fr}}
+@media (max-width:620px){.trend .ax{font-size:18px}.trend .lab{font-size:19px}.trend .ln{stroke-width:3}.wrap{padding:0 16px}.mast nav{display:none}.doors{grid-template-columns:1fr}.share{grid-template-columns:70px 1fr}.tile .v{font-size:24px}}
+</style>
+</head>
+<body>
+<header class="mast"><div class="wrap">
+  <a class="brand" href="/">Data <span>Libertarian</span></a>
+  <nav aria-label="Registers"><a href="/babuwatch">Babuwatch</a><a href="/civilliberties">Civil Liberties</a><a href="/victimlesscrimes">Victimless Crimes</a><a href="/economicfreedom">Economic Freedom</a><a href="/psu">PSUs</a><a href="/education" aria-current="page">Education</a></nav>
+</div></header>
+<div class="wrap"><hr class="dbl"></div>
+<main>
+<!--@edu-hero--><!--@/edu-hero-->
+
+<section class="sec" aria-labelledby="h-share"><div class="wrap">
+  <div class="sec-head"><div><div class="kicker">Who runs the schools, and who fills them</div><h2 id="h-share">Most schools are the state's; most children are not in them</h2></div>
+    <p>Share of schools and of enrolled students by management. Government here includes state and central schools (Kendriya Vidyalayas, Navodayas and others).</p></div>
+  <!--@edu-share--><!--@/edu-share-->
+  <!--@edu-trend--><!--@/edu-trend-->
+</div></section>
+
+<section class="sec" aria-labelledby="h-states"><div class="wrap">
+  <div class="sec-head"><div><div class="kicker">State by state</div><h2 id="h-states">Every state and union territory</h2></div>
+    <p>Click a column heading to sort. The change column is the rise or fall in private schools' share of students since 2022-23, in percentage points.</p></div>
+  <!--@edu-table--><!--@/edu-table-->
+</div></section>
+
+<section class="sec" aria-labelledby="h-next"><div class="wrap">
+  <div class="sec-head"><div><div class="kicker">Being sourced</div><h2 id="h-next">What this page will add next</h2></div>
+    <p>Each door opens only when an official source is attached and checked. Until then it stays empty; nothing is estimated.</p></div>
+  <div class="doors">
+    <div class="door"><div class="n">Not yet sourced</div><h3>What the state spends per child</h3><p>Union and state education budgets (major heads 2202 and 4202) divided by the children in government schools, set against private fees.</p><div class="s">Union Budget and state budget books</div></div>
+    <div class="door"><div class="n">Not yet sourced</div><h3>What children learn</h3><p>Learning levels in government and private schools, class by class and state by state.</p><div class="s">PARAKH Rashtriya Sarvekshan; ASER</div></div>
+    <div class="door"><div class="n">Not yet sourced</div><h3>Schools the state shuts</h3><p>Recognition rules under the RTE Act, schools closed or fined for missing them, and the unrecognised schools parents still choose.</p><div class="s">RTE Act s.18-19; state notifications; court orders</div></div>
+    <div class="door"><div class="n">Not yet sourced</div><h3>Who decides the fee</h3><p>State fee-regulation laws and committees, capping what private schools may charge.</p><div class="s">State Acts and gazettes</div></div>
+    <div class="door"><div class="n">Not yet sourced</div><h3>The 25% quota bill</h3><p>Seats private schools must give free under RTE s.12(1)(c), and what states owe them in reimbursement.</p><div class="s">Samagra Shiksha PAB minutes; state orders</div></div>
+    <div class="door"><div class="n">Not yet sourced</div><h3>Exams and permits</h3><p>Paper leaks in state-run exams, and the approvals colleges and coaching centres need to open.</p><div class="s">Official notices, UGC/AICTE, court records</div></div>
+  </div>
+</div></section>
+
+<section class="sec" aria-labelledby="h-src"><div class="wrap">
+  <div class="sec-head"><div><div class="kicker">Sources and method</div><h2 id="h-src">Where every number comes from</h2></div></div>
+  <!--@edu-sources--><!--@/edu-sources-->
+</div></section>
+</main>
+<footer><div class="wrap"><span>Data Libertarian &mdash; every figure links to the document it came from. Nothing on this page is estimated.</span><span><a href="/">Home</a></span></div></footer>
+<div class="tip" id="tip" role="tooltip"></div>
+<script>
+(function(){
+  var tip=document.getElementById("tip");
+  function show(e){var t=e.currentTarget.getAttribute("data-tip");if(!t)return;tip.textContent=t;tip.style.opacity=1;move(e);}
+  function move(e){var r=e.currentTarget.getBoundingClientRect();var x=(e.clientX||r.left+r.width/2)+12,y=(e.clientY||r.top)+14;
+    if(x+270>innerWidth)x=innerWidth-270;tip.style.left=x+"px";tip.style.top=y+"px";}
+  function hide(){tip.style.opacity=0;}
+  document.querySelectorAll("[data-tip]").forEach(function(el){el.addEventListener("mouseenter",show);el.addEventListener("mousemove",move);
+    el.addEventListener("mouseleave",hide);el.addEventListener("focus",show);el.addEventListener("blur",hide);});
+  document.querySelectorAll(".trend").forEach(function(fig){
+    var xh=fig.querySelector(".xh");fig.querySelectorAll(".hit").forEach(function(h){
+      h.addEventListener("mouseenter",function(){xh.setAttribute("x1",h.dataset.x);xh.setAttribute("x2",h.dataset.x);xh.style.opacity=.5;});
+      h.addEventListener("mouseleave",function(){xh.style.opacity=0;});});});
+  var table=document.querySelector("table.sortable");if(!table)return;
+  table.querySelectorAll("th").forEach(function(th,i){th.tabIndex=0;function sort(){
+    var asc=th.getAttribute("aria-sort")!=="ascending";table.querySelectorAll("th").forEach(function(o){o.removeAttribute("aria-sort");});
+    th.setAttribute("aria-sort",asc?"ascending":"descending");var tb=table.tBodies[0];
+    var rows=[].slice.call(tb.rows).filter(function(r){return !r.classList.contains("india");});
+    rows.sort(function(a,b){var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;var nx=parseFloat(x),ny=parseFloat(y);
+      var c=(isNaN(nx)||isNaN(ny))?String(x).localeCompare(String(y)):nx-ny;return asc?c:-c;});
+    rows.forEach(function(r){tb.appendChild(r);});}
+    th.addEventListener("click",sort);th.addEventListener("keydown",function(e){if(e.key==="Enter"||e.key===" "){e.preventDefault();sort();}});});
+})();
+</script>
+</body>
+</html>
