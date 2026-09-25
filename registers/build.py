@@ -437,12 +437,13 @@ def record_page(reg, data, r, page):
 # ---------------------------------------------------------------- landing
 
 def landing_line(data):
+    """Short count line for the landing page's register ledger: "<b>101</b>records · 29 states & UTs"."""
     n = len(data["records"])
-    states = sorted({r["state"] for r in data["records"]})
     if not n:
-        return "<b>Structure preview.</b> " + data["landing_tail"]
+        return "<b>&mdash;</b>structure preview"
+    states = len({r["state"] for r in data["records"]})
     word = data["record_word"] if n != 1 else data["record_word"].rstrip("s")
-    return "<b>%d %s live</b> (%s). %s" % (n, esc(word), esc(", ".join(states)), data["landing_tail"])
+    return "<b>%s</b>%s &middot; %d state%s &amp; UTs" % (format(n, ","), esc(word), states, "" if states == 1 else "s")
 
 
 # ---------------------------------------------------------------- main

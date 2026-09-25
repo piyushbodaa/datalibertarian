@@ -5,7 +5,8 @@ Runs last in the site build (npm run build:latest), after build:registers and
 build:babuwatch, and fills <!--@latest-->...<!--@/latest--> in dist/index.html and
 dist/snapshot.html. Babuwatch cards come from dist/babuwatch/data/index.json, the
 engine's name-gated public index, never from the raw data files; register cards come
-from registers/data/*.json, which hold no private names. If the Babuwatch index is
+from registers/data/*.json, which hold no private names. It also fills the hero tally
+(<!--@tally-->) and the Babuwatch count line (<!--@count:babuwatch-->). If the Babuwatch index is
 missing (the watches were not built) that column is left out.
 
 Python 3 stdlib only.
@@ -66,25 +67,32 @@ def officer_short(ot):
     return first
 
 
-def card(href, tag, meta, title, summary):
-    return ('<a class="case" href="%s"><div class="case-meta"><span class="tag">%s</span>%s</div>'
-            '<div class="case-t">%s</div><div class="case-s">%s</div></a>'
-            % (reg.esc(href), reg.esc(tag), reg.esc(meta), reg.esc(title), reg.esc(summary)))
+def card(href, plate, outcome, cat, title, summary, meta):
+    return ('<a class="case" href="%s"><div class="case-top"><span class="plate">%s</span><span class="stamp">%s</span></div>'
+            '<div class="case-cat">%s</div><div class="case-t">%s</div><div class="case-s">%s</div>'
+            '<div class="case-meta">%s</div></a>'
+            % (reg.esc(href), reg.esc(plate or "—"), reg.esc(outcome), reg.esc(cat), reg.esc(title),
+               reg.esc(summary), reg.esc(meta)))
 
 
-def column(href, name, blurb, cards, more):
-    return ('<div class="lat-col"><div class="lat-head"><a href="%s">%s &rarr;</a><span>%s</span></div>%s'
-            '<a class="lat-more" href="%s">%s &rarr;</a></div>'
-            % (reg.esc(href), reg.esc(name), reg.esc(blurb), "".join(cards), reg.esc(href), reg.esc(more)))
+def column(no, href, name, blurb, cards, more):
+    return ('<div class="lat-col"><div class="lat-head"><span class="lat-no">No. %s</span><a href="%s">%s</a>'
+            '<span class="lat-blurb">%s</span></div>%s<a class="lat-more" href="%s">%s &rarr;</a></div>'
+            % (no, reg.esc(href), reg.esc(name), reg.esc(blurb), "".join(cards), reg.esc(href), reg.esc(more)))
 
 
-def babuwatch_column(out):
+def babuwatch_rows(out):
     path = os.path.join(out, "babuwatch", "data", "index.json")
     if not os.path.exists(path):
-        return ""
+        return []
     with open(path, encoding="utf-8") as f:
-        rows = [r for r in json.load(f) if isinstance(r, dict) and r.get("jd")]
-    newest = sorted(rows, key=lambda r: (r["jd"], r["id"]), reverse=True)
+        return [r for r in json.load(f) if isinstance(r, dict)]
+
+
+def babuwatch_column(rows):
+    newest = sorted((r for r in rows if r.get("jd")), key=lambda r: (r["jd"], r["id"]), reverse=True)
+    if not newest:
+        return ""
     picks = []
     for service in ("police", "civil"):  # one police, one civil servant, then newest overall
         pick = next((r for r in newest if r.get("sv") == service and r not in picks), None)
@@ -97,26 +105,47 @@ def babuwatch_column(out):
         kind = "trial-court" if r.get("tier") == "trial" else "incident"
         outcome = BW_OUTCOME.get(r.get("ou"), (r.get("ou") or "").replace("_", " ").capitalize())
         who = "Police" if r.get("sv") == "police" else "Civil servant"
-        title = "%s: %s" % (outcome, officer_short(r.get("ot"))) if r.get("ot") else outcome
-        meta = " · ".join(x for x in (who, short_date(r["jd"]), r.get("st")) if x)
-        cards.append(card("/babuwatch/%s/%s" % (kind, r["id"]), r.get("ca") or "Court record", meta,
-                          title, clip(r.get("su"))))
-    return column("/babuwatch/tracker", "Babuwatch", "police and civil servants found against by courts",
+        title = officer_short(r.get("ot")) or r.get("ti") or ""
+        meta = " · ".join(x for x in (short_date(r["jd"]), r.get("st"), r.get("co")) if x)
+        cards.append(card("/babuwatch/%s/%s" % (kind, r["id"]), r.get("pl"), outcome,
+                          "%s · %s" % (who, r.get("ca") or "court record"), title, clip(r.get("su")), meta))
+    return column("01", "/babuwatch/tracker", "Babuwatch", "police and civil servants found against by courts",
                   cards, "All Babuwatch records")
 
 
-def register_column(key, name, blurb):
+def register_column(no, key, name, blurb, plates):
     data = reg.load(key)
     cards = []
     for r in reg.newest_first(data["records"])[:PER_COLUMN]:
-        tag = reg.cat_label(data, r["category"])
-        meta = " · ".join((reg.OUTCOME.get(r["outcome"], r["outcome"]), short_date(r["date"]), r["state"]))
-        cards.append(card("/%s/%s" % (key, r["id"]), tag, meta, r["title"], clip(r["summary"])))
-    return column("/" + key, name, blurb, cards, "All %s records" % name)
+        meta = " · ".join((short_date(r["date"]), r["state"]))
+        cards.append(card("/%s/%s" % (key, r["id"]), plates.get(r["id"]), reg.OUTCOME.get(r["outcome"], r["outcome"]),
+                          reg.cat_label(data, r["category"]), r["title"], clip(r["summary"]), meta))
+    return column(no, "/" + key, name, blurb, cards, "All %s records" % name)
+
+
+def babuwatch_count(rows):
+    if not rows:
+        return "court records"
+    police = sum(1 for r in rows if r.get("sv") == "police")
+    return "<b>%s</b>court records<br>%s police &middot; %s civil servants" % (
+        format(len(rows), ","), format(police, ","), format(len(rows) - police, ","))
+
+
+def tally(rows):
+    counts = [("Babuwatch", len(rows))] + [(name, len(reg.load(key)["records"])) for key, name, _ in REGISTER_COLUMNS]
+    body = "".join('<tr><td>%s</td><td class="n">%s</td></tr>' % (reg.esc(n), format(c, ",")) for n, c in counts)
+    body += '<tr class="total"><td>Case records</td><td class="n">%s</td></tr>' % format(sum(c for _, c in counts), ",")
+    body += '<tr class="sub"><td>Public enterprises inventoried</td><td class="n">%s</td></tr>' % format(
+        len(reg.load("psu")["records"]), ",")
+    return "<table>%s</table>" % body
 
 
 def build(out):
-    html = babuwatch_column(out) + "".join(register_column(*c) for c in REGISTER_COLUMNS)
+    rows = babuwatch_rows(out)
+    with open(os.path.join(HERE, "plates.json"), encoding="utf-8") as f:
+        plates = json.load(f)
+    latest = babuwatch_column(rows) + "".join(
+        register_column("%02d" % (i + 2), key, name, blurb, plates) for i, (key, name, blurb) in enumerate(REGISTER_COLUMNS))
     for name in ("index.html", "snapshot.html"):
         path = os.path.join(out, name)
         if not os.path.exists(path):
@@ -125,8 +154,11 @@ def build(out):
             page = f.read()
         if "<!--@latest-->" not in page:
             continue
+        page = reg.fill(page, "latest", latest)
+        page = reg.fill(page, "tally", tally(rows))
+        page = reg.fill(page, "count:babuwatch", babuwatch_count(rows))
         with open(path, "w", encoding="utf-8") as f:
-            f.write(reg.fill(page, "latest", html))
+            f.write(page)
         print("latest: filled %s" % name)
 
 

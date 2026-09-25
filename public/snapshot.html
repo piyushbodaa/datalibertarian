@@ -3,88 +3,186 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Data Libertarian</title>
+<title>Data Libertarian &mdash; public registers of the Indian state</title>
+<meta name="description" content="Public registers of what the Indian state spends and whom it punishes: court-adjudicated records against public servants, victimless crimes, civil liberties, economic freedom and public enterprises, each entry attributed to its source.">
+<meta name="theme-color" content="#F7F5EF">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#0b0d10;--fg:#e8eaed;--dim:#8b9199;--line:#23272d;--acc:#e8b23a;--hi:#1b2f22;--his:#4ade80}
+:root{
+  --ink:#12151C; --ink-2:#3A3F48; --dim:#6B7280; --paper:#F7F5EF; --paper-2:#EFECE3; --card:#FBFAF6;
+  --line:#D9D5C8; --rule:#12151C; --stamp:#B3261E; --stamp-soft:#F3DEDA; --ledger:#2F6F4E;
+  --serif:'Lora',Georgia,serif; --sans:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace; --w:1200px;
+}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--fg);
- font:14px/1.5 ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
-header{padding:20px 22px 12px;border-bottom:1px solid var(--line)}
-h1{margin:0;font-size:17px;font-weight:600;letter-spacing:.2px}
-.sub{color:var(--dim);font-size:12px;margin-top:4px}
-a{color:var(--acc);text-decoration:none}
-a:hover{text-decoration:underline}
-.regs{margin-top:14px;display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
-.reg{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:8px;
- padding:12px 14px;text-decoration:none;color:inherit;background:#10141a}
-.reg:hover{border-color:var(--acc)}
-.regs-kicker{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.7px;margin:14px 0 2px}
-.reg .n{font-weight:600;font-size:14px;color:var(--acc)}
-.reg .d{color:var(--dim);font-size:12px;margin-top:4px}
-.reg .d b{color:var(--fg);font-weight:600}
-.latest{padding:26px 22px 30px}
-.latest h2{margin:2px 0 0;font-size:17px;font-weight:600}
-.latest .sub{max-width:720px}
-.lat-grid{margin-top:16px;display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
-.lat-col{display:flex;flex-direction:column;gap:10px;min-width:0}
-.lat-head{display:flex;flex-direction:column;border-bottom:1px solid var(--line);padding-bottom:6px}
-.lat-head a{font-weight:600;font-size:14px}
-.lat-head span{color:var(--dim);font-size:11.5px}
-.case{display:block;border:1px solid var(--line);border-radius:8px;padding:11px 13px;background:#10141a;color:inherit;text-decoration:none}
-.case:hover{border-color:var(--acc);text-decoration:none}
-.case-meta{color:var(--dim);font-size:11px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
-.tag{color:var(--acc);border:1px solid #4a3d1c;border-radius:10px;padding:0 7px;font-size:10.5px;white-space:nowrap}
-.case-t{font-weight:600;font-size:13.5px;margin-top:6px;line-height:1.35}
-.case-s{color:var(--dim);font-size:12px;margin-top:5px;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
-.lat-more{font-size:12px}
-footer{border-top:1px solid var(--line);padding:10px 22px;color:var(--dim);font-size:11.5px}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.55 var(--sans)}
+a{color:inherit}
+.wrap{max-width:var(--w);margin:0 auto;padding:0 24px}
+.mono{font-family:var(--mono)}
+.kicker{font:500 11.5px/1.2 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--stamp)}
+.dbl{border:0;border-top:3px double var(--rule);margin:0}
+
+/* masthead */
+.mast{padding:18px 0 12px}
+.mast .wrap{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand{font:600 14px/1 var(--mono);letter-spacing:.22em;text-transform:uppercase;text-decoration:none}
+.brand span{color:var(--stamp)}
+.mast nav{display:flex;gap:18px;flex-wrap:wrap}
+.mast nav a{font:500 13px/1 var(--sans);color:var(--ink-2);text-decoration:none}
+.mast nav a:hover{color:var(--stamp)}
+
+/* hero */
+.hero{padding:44px 0 40px}
+.hero .wrap{display:grid;grid-template-columns:repeat(8,1fr);gap:24px;align-items:start}
+.hero-text{grid-column:1 / span 5}
+.hero h1{font:600 clamp(34px,5.2vw,58px)/1.06 var(--serif);letter-spacing:-.015em;margin:14px 0 18px}
+.hero p{font-size:17px;color:var(--ink-2);max-width:36em;margin:0}
+.hero .cta{margin-top:24px;display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;font:600 14px/1 var(--sans);padding:12px 16px;border:1.5px solid var(--ink);text-decoration:none}
+.btn.solid{background:var(--ink);color:var(--paper)}
+.btn:hover{border-color:var(--stamp);color:var(--stamp)}
+.btn.solid:hover{background:var(--stamp);color:#fff}
+.tally{grid-column:6 / span 3;background:var(--card);border:1px solid var(--line);padding:18px 20px 16px}
+.tally h2{font:500 11.5px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin:0 0 10px}
+.tally table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.tally td{padding:7px 0;border-bottom:1px dotted var(--line);font-size:14px}
+.tally td.n{text-align:right;font:500 14px var(--mono)}
+.tally tr.total td{border-bottom:0;border-top:1.5px solid var(--ink);padding-top:10px;font-weight:600}
+.tally tr.total td.n{font-size:18px;font-weight:600;text-decoration:underline double;text-underline-offset:5px}
+.tally tr.sub td{color:var(--dim);border-bottom:0;font-size:13px;padding-top:12px}
+.tally .note{font-size:12px;color:var(--dim);margin-top:10px}
+
+/* section heads */
+.sec{padding:40px 0 8px}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-bottom:10px;border-bottom:3px double var(--rule)}
+.sec-head h2{font:600 26px/1.15 var(--serif);margin:6px 0 0}
+.sec-head p{margin:0;color:var(--dim);font-size:13.5px;max-width:34em}
+
+/* register ledger */
+.ledger{list-style:none;margin:0;padding:0}
+.ledger li{border-bottom:1px solid var(--line)}
+.row{display:grid;grid-template-columns:56px minmax(170px,2fr) minmax(0,3.4fr) minmax(250px,2fr) 28px;gap:20px;align-items:baseline;padding:18px 8px 18px 0;text-decoration:none;position:relative}
+.row::before{content:"";position:absolute;left:-12px;top:14px;bottom:14px;width:3px;background:transparent;transition:background .15s}
+.row:hover::before,.row:focus-visible::before{background:var(--stamp)}
+.row:hover .row-name{color:var(--stamp)}
+.row-no{font:500 13px var(--mono);color:var(--dim)}
+.row-name{font:600 22px/1.2 var(--serif)}
+.row-desc{font-size:14px;color:var(--ink-2)}
+.row-count{font:400 12.5px/1.45 var(--mono);color:var(--ink-2);text-align:right}
+.row-count b{display:block;font:600 20px/1.2 var(--mono);color:var(--ink)}
+.row-go{font:500 18px var(--mono);color:var(--dim);text-align:right}
+
+/* latest cases */
+.lat-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;padding:22px 0 12px}
+.lat-col{display:flex;flex-direction:column;gap:14px;min-width:0}
+.lat-head{display:flex;flex-direction:column;gap:2px;padding-bottom:8px;border-bottom:1px solid var(--ink)}
+.lat-no{font:500 11.5px var(--mono);letter-spacing:.14em;color:var(--stamp)}
+.lat-head a{font:600 19px/1.2 var(--serif);text-decoration:none}
+.lat-head a:hover{color:var(--stamp)}
+.lat-blurb{font-size:12.5px;color:var(--dim)}
+.case{display:flex;flex-direction:column;gap:7px;background:var(--card);border:1px solid var(--line);padding:14px 15px 13px;text-decoration:none;transition:border-color .15s,transform .15s}
+.case:hover{border-color:var(--ink);transform:translateY(-2px)}
+.case-top{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.plate{font:500 10.5px/1 var(--mono);letter-spacing:.06em;border:1px solid var(--ink-2);padding:4px 6px;white-space:nowrap}
+.stamp{font:600 10px/1.1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--stamp);border:1.5px solid var(--stamp);padding:3px 6px;transform:rotate(-2deg);text-align:center;max-width:62%}
+.case-cat{font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ledger)}
+.case-t{font:600 16.5px/1.3 var(--serif)}
+.case-s{font-size:13px;color:var(--ink-2);display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.case-meta{font:400 11.5px var(--mono);color:var(--dim);padding-top:7px;border-top:1px dotted var(--line)}
+.lat-more{font:600 13px var(--sans);text-decoration:none;color:var(--ink)}
+.lat-more:hover{color:var(--stamp)}
+
+/* footer */
+footer{margin-top:48px;border-top:3px double var(--rule);padding:18px 0 34px;font-size:12.5px;color:var(--dim)}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+footer a{color:var(--ink-2)}
+
+a:focus-visible{outline:2px solid var(--stamp);outline-offset:3px}
+@media (max-width:1180px){.lat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:1020px){
+  .hero-text{grid-column:1 / -1}.tally{grid-column:1 / -1}
+  .row{grid-template-columns:44px 1fr auto;row-gap:4px}
+  .row-desc{grid-column:2 / -1}.row-count{grid-column:2 / -1;text-align:left}.row-count b{display:inline;margin-right:6px}
+  .row-go{display:none}
+}
+@media (max-width:620px){
+  .wrap{padding:0 16px}.hero{padding:30px 0 30px}.hero p{font-size:16px}
+  .lat-grid{grid-template-columns:1fr}
+  .mast nav{display:none}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}.case:hover{transform:none}}
 </style>
 </head>
 <body>
-<header>
-  <h1>Every rupee, every post, every station</h1>
-  <div class="sub">Public registers built from court records and official books &mdash;
-    every case is attributed to the court or agency that decided it. Scroll down for the latest cases.</div>
-  <div class="regs-kicker">The registers &mdash; one live, four being built</div>
-  <div class="regs">
-    <a class="reg" href="/babuwatch">
-      <div class="n">Babuwatch &rarr;</div>
-      <div class="d"><b>2,523 records live.</b> Convicted and censured &ldquo;babus&rdquo; &mdash;
-        518 civil servants and 2,005 police records, each attributed to the court that decided it.
-        Incident tracker, patterns dashboard, methodology.</div>
-    </a>
-    <a class="reg" href="/victimlesscrimes">
-      <div class="n">Victimless Crimes &rarr;</div>
-      <div class="d"><!--@count:victimlesscrimes--><b>Structure preview.</b> Convicted though no one was harmed &mdash;
-        prostitution, gambling, alcohol, beef and food prohibitions,
-        cigarettes, e-cigarettes and vapes. Records to follow.<!--@/count:victimlesscrimes--></div>
-    </a>
-    <a class="reg" href="/civilliberties">
-      <div class="n">Civil Liberties &rarr;</div>
-      <div class="d"><!--@count:civilliberties--><b>Structure preview.</b> Punished for exercising basic freedoms &mdash;
-        freedom of speech, freedom of religion, and more sections to come.<!--@/count:civilliberties--></div>
-    </a>
-    <a class="reg" href="/economicfreedom">
-      <div class="n">Economic Freedom &rarr;</div>
-      <div class="d"><!--@count:economicfreedom--><b>Structure preview.</b> Jailed for trading freely &mdash;
-        crypto, foreign currency, gold, and the other things that are legal
-        in free economies and criminal here.<!--@/count:economicfreedom--></div>
-    </a>
-    <a class="reg" href="/psu">
-      <div class="n">PSUs &rarr;</div>
-      <div class="d"><!--@count:psu--><b>Structure preview.</b> Government, Inc. &mdash;
-        every business the state runs: central, state, banks, insurers,
-        and the rest. Entries to follow.<!--@/count:psu--></div>
-    </a>
+<header class="mast">
+  <div class="wrap">
+    <a class="brand" href="/">Data <span>Libertarian</span></a>
+    <nav aria-label="Registers">
+      <a href="/babuwatch">Babuwatch</a><a href="/civilliberties">Civil Liberties</a><a href="/victimlesscrimes">Victimless Crimes</a><a href="/economicfreedom">Economic Freedom</a><a href="/psu">PSUs</a>
+    </nav>
   </div>
 </header>
-<section class="latest" aria-labelledby="latest-h">
-  <div class="regs-kicker">Most recent cases</div>
-  <h2 id="latest-h">Latest from the registers</h2>
-  <div class="sub">The newest records in each register. Findings belong to the court or agency that made them;
-    open a card for the full record and its sources.</div>
-  <div class="lat-grid"><!--@latest--><div class="lat-col"><div class="lat-head"><span>Latest cases are added when the site is built.</span></div></div><!--@/latest--></div>
+<div class="wrap"><hr class="dbl"></div>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-text">
+      <div class="kicker">A public register of the Indian state</div>
+      <h1>Every rupee, every post, every station.</h1>
+      <p>Who the state punished, for what, and on whose word &mdash; built from court records and official books.
+        Every entry is attributed to the court or agency that decided it, and every figure links to its source.</p>
+      <div class="cta"><a class="btn solid" href="#latest">See the latest cases</a><a class="btn" href="/babuwatch/tracker">Search Babuwatch</a></div>
+    </div>
+    <aside class="tally" aria-label="Records on the registers">
+      <h2>On the registers today</h2>
+      <!--@tally--><table><tr class="total"><td>Records</td><td class="n">&mdash;</td></tr></table><!--@/tally-->
+      <div class="note">Counted from the published data at every build. Nothing here is estimated.</div>
+    </aside>
+  </div>
 </section>
-<footer>Data Libertarian &mdash; sources &amp; method published per figure.</footer>
+
+<section class="sec" aria-labelledby="reg-h">
+  <div class="wrap">
+    <div class="sec-head"><div><div class="kicker">The registers</div><h2 id="reg-h">Five ledgers, one standard of proof</h2></div>
+      <p>Pick a register to see its dashboard, every record and the method behind it.</p></div>
+    <ol class="ledger">
+      <li><a class="row" href="/babuwatch"><span class="row-no">01</span><span class="row-name">Babuwatch</span>
+        <span class="row-desc">Police officers and civil servants found against by courts: convictions, compensation orders and adverse findings.</span>
+        <span class="row-count"><!--@count:babuwatch-->court records<!--@/count:babuwatch--></span><span class="row-go" aria-hidden="true">&rarr;</span></a></li>
+      <li><a class="row" href="/civilliberties"><span class="row-no">02</span><span class="row-name">Civil Liberties</span>
+        <span class="row-desc">People arrested, charged or detained for speaking, reporting, protesting, worshipping or converting.</span>
+        <span class="row-count"><!--@count:civilliberties-->records<!--@/count:civilliberties--></span><span class="row-go" aria-hidden="true">&rarr;</span></a></li>
+      <li><a class="row" href="/victimlesscrimes"><span class="row-no">03</span><span class="row-name">Victimless Crimes</span>
+        <span class="row-desc">Prosecutions where no one was harmed: alcohol, gambling, sex work, beef, tobacco and vapes.</span>
+        <span class="row-count"><!--@count:victimlesscrimes-->records<!--@/count:victimlesscrimes--></span><span class="row-go" aria-hidden="true">&rarr;</span></a></li>
+      <li><a class="row" href="/economicfreedom"><span class="row-no">04</span><span class="row-name">Economic Freedom</span>
+        <span class="row-desc">Penalties for trading, investing, hiring and building freely: gold, forex, crypto, licences, land.</span>
+        <span class="row-count"><!--@count:economicfreedom-->records<!--@/count:economicfreedom--></span><span class="row-go" aria-hidden="true">&rarr;</span></a></li>
+      <li><a class="row" href="/psu"><span class="row-no">05</span><span class="row-name">PSUs</span>
+        <span class="row-desc">Government, Inc.: every business the state runs &mdash; central, state, banks, insurers and the rest.</span>
+        <span class="row-count"><!--@count:psu-->enterprises<!--@/count:psu--></span><span class="row-go" aria-hidden="true">&rarr;</span></a></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sec" id="latest" aria-labelledby="latest-h">
+  <div class="wrap">
+    <div class="sec-head"><div><div class="kicker">Most recent cases</div><h2 id="latest-h">Latest from the registers</h2></div>
+      <p>The newest records in each register. Findings belong to the court or agency that made them; open a card for the full record and its sources.</p></div>
+    <div class="lat-grid"><!--@latest--><div class="lat-col"><div class="lat-head"><span class="lat-blurb">Latest cases are added when the site is built.</span></div></div><!--@/latest--></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Data Libertarian &mdash; sources and method published per record. Names of private individuals are withheld.</span>
+    <span><a href="/babuwatch/methodology">Methodology</a> &middot; <a href="/babuwatch/about">About</a></span>
+  </div>
+</footer>
 </body>
 </html>
