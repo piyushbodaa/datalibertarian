@@ -19974,112 +19974,10 @@
   "case_title_or_number": "State (SVB Gurgaon) v. [name withheld] — trial conviction recorded in Crl. Appeal No.2107-SB of 2005 (Crl. Misc. No.9973 of 2013, order dated 19-02-2013); trap of 09-12-2003, PS Taoru"
  },
  {
-  "case_id": "t2-14-007",
-  "alias_case_ids": [],
-  "verification_status": "V1",
-  "gate_status": "V1",
-  "verify_passes": {
-   "t2-14-007": {
-    "ds": "accept",
-    "muse": "accept",
-    "mverify": "accept",
-    "mverify2": "accept",
-    "or2": "flag"
-   }
-  },
-  "verified_by": "t2verify-chunk-01",
-  "verified_at": "2026-09-18T04:14:00Z",
-  "verdict_note": "Conviction confirmed by LiveLaw/SCC (SC judgment reporting); SC 23-09-2016 upheld guilt, reduced 18-month term to period undergone.",
-  "state": "Haryana",
-  "district": "Panchkula",
-  "court": "Court of the Chief Judicial Magistrate, Chandigarh",
-  "court_level": "cbi_court",
-  "trial_court_name": "Court of the Chief Judicial Magistrate, Chandigarh",
-  "case_title": "CBI v. [name withheld] (R. G. molestation case)",
-  "case_number": "Challan No. 3/17-11-2000 (CJM, Chandigarh)",
-  "conviction_date": "2009-12-21",
-  "conviction_year": 2009,
-  "date_precision": "day",
-  "incident_date": "1990-08-01",
-  "incident_year": 1990,
-  "category": "misconduct",
-  "subcategory": "other",
-  "raw_subcategory": "other",
-  "outcome_type": "trial_court_conviction",
-  "officers": [
-   {
-    "rank": "Inspector General of Police (later Director General of Police)",
-    "unit": "Haryana Police; President, Haryana Lawn Tennis Association",
-    "publish_grade": "unnamed",
-    "name_public": null,
-    "display": "Inspector General of Police (later Director General of Police), Haryana Police; President, Haryana Lawn Tennis Association",
-    "key2_union": null,
-    "name": null
-   }
-  ],
-  "victims": [
-   {
-    "name": "R. G.",
-    "age": 14,
-    "gender": "female"
-   }
-  ],
-  "sections": [
-   "IPC 354"
-  ],
-  "sentence": "6 months RI + Rs 1,000 fine (21 December 2009); enhanced to 18 months RI on revision (Sessions court, 25 May 2010); Supreme Court upheld guilt but reduced sentence to period already undergone (5 months) considering advanced age (23 September 2016)",
-  "sentence_type": "imprisonment",
-  "sentence_max_years": 0.5,
-  "appeal_status": "upheld",
-  "appeal_url": "https://www.livelaw.in/amp/ruchika-molestation-case-sc-upholds-rathods-conviction-reduces-jail-term",
-  "source_kind": "news",
-  "source_agency": null,
-  "primary_source_url": "https://indiankanoon.org/doc/30822518/",
-  "secondary_sources": [
-   "https://www.livelaw.in/amp/ruchika-molestation-case-sc-upholds-rathods-conviction-reduces-jail-term",
-   "https://en.wikipedia.org/wiki/Ruchika_Girhotra_case",
-   "https://www.scconline.com/blog/post/2016/09/23/ruchika-girhotra-case-s-p-s-rathores-conviction-upheld-sentence-mitigated-due-to-old-age/"
-  ],
-  "summary": "The Chief Judicial Magistrate, Chandigarh, convicted former Haryana DGP [name withheld] on 21 December 2009 under section 354 IPC for molesting a teenage tennis player in the HLTA office in 1990, after a CBI prosecution following the family's 19-year fight. The trial court gave six months, enhanced to 18 months rigorous imprisonment on revision in May 2010. The Punjab and Haryana High Court upheld the conviction, and on 23 September 2016 the Supreme Court (Justices Gowda and Agrawal) upheld the finding of guilt while reducing the sentence to the five months already served as a special case given his very advanced age.",
-  "court_quote": null,
-  "confidence": "high",
-  "tier": "Tier A — Externally reported or officially recorded",
-  "source_job": "t2-14",
-  "r8_check": {
-   "date": "2026-09-19",
-   "member_verdicts": {
-    "t2-14-007": "holds"
-   },
-   "applied": [],
-   "noted": []
-  },
-  "verification_badge": "V1 · Provenance checked — internal only",
-  "tier_badge": null,
-  "subcategory_display": "other",
-  "last_checked": "2026-09-19",
-  "followup_status": "checked",
-  "followup_history": [
-   {
-    "date": "2026-09-19",
-    "scope": "Round-8 full re-verification: published record re-checked against the judgment text (outcome, officers, quote, key facts) plus methodology-compliance pass",
-    "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
-    "result": "t2-14-007=holds",
-    "corrections_applied": []
-   },
-   {
-    "date": "2026-09-25",
-    "scope": "Official source added: Supreme Court judgment S.P.S. Rathore v. C.B.I. & Anr., 23.09.2016 (Indian Kanoon): records the Chief Judicial Magistrate, Chandigarh judgment of 21.12.2009 under Section 354 IPC, the enhancement by the Additional Sessions Judge on 25.05.2010, and reduces the sentence to the period already undergone."
-   },
-   {
-    "date": "2026-09-25",
-    "scope": "Court corrected from the Supreme Court judgment: the conviction was by the Chief Judicial Magistrate, Chandigarh."
-   }
-  ],
-  "case_title_or_number": "CBI vs [name withheld] (1990 [name withheld] molestation, Panchkula)"
- },
- {
   "case_id": "t2-07-009",
-  "alias_case_ids": [],
+  "alias_case_ids": [
+   "t2-14-007"
+  ],
   "verification_status": "V2",
   "gate_status": "V2",
   "verify_passes": {
@@ -20096,12 +19994,12 @@
   "verdict_note": "CBI special court Chandigarh convicted ex-DGP [name withheld] u/s 354 IPC on 22.12.2009 for molesting [name withheld] a [name withheld]; agent subcategory 'molestation' corrected to 'other'.",
   "state": "Haryana",
   "district": "Panchkula",
-  "court": "Special CBI Court, Chandigarh",
+  "court": "Court of the Chief Judicial Magistrate, Chandigarh",
   "court_level": "cbi_court",
-  "trial_court_name": "Special CBI Court, Chandigarh (CBI Special Magistrate J.S. Sidhu)",
+  "trial_court_name": "Court of the Chief Judicial Magistrate, Chandigarh",
   "case_title": "CBI v. [name withheld]",
-  "case_number": null,
-  "conviction_date": "2009-12-22",
+  "case_number": "Challan No. 3/17-11-2000 (CJM, Chandigarh)",
+  "conviction_date": "2009-12-21",
   "conviction_year": 2009,
   "date_precision": "day",
   "incident_date": "1990-08-12",
@@ -20131,20 +20029,22 @@
   "sections": [
    "IPC 354"
   ],
-  "sentence": "6 months rigorous imprisonment plus Rs 1,000 fine (1 month RI in default), in-camera proceedings; sentence later enhanced to 18 months RI by District and Sessions Court Chandigarh (May 2010); Supreme Court upheld conviction but reduced sentence to already undergone (23 September 2016)",
+  "sentence": "6 months RI + Rs 1,000 fine (21 December 2009); enhanced to 18 months RI on revision (Sessions court, 25 May 2010); Supreme Court upheld guilt but reduced sentence to period already undergone (5 months) considering advanced age (23 September 2016)",
   "sentence_type": "mixed",
   "sentence_max_years": 0.5,
   "appeal_status": "upheld",
   "appeal_url": "https://www.livelaw.in/amp/ruchika-molestation-case-sc-upholds-rathods-conviction-reduces-jail-term",
-  "source_kind": "news",
+  "source_kind": "judgment",
   "source_agency": null,
-  "primary_source_url": "http://www.topnews.in/ruchika-case-rajya-sabha-discusses-matter-accused-dgp-gets-sixmonth-jail-term-2246433",
+  "primary_source_url": "https://indiankanoon.org/doc/30822518/",
   "secondary_sources": [
+   "http://www.topnews.in/ruchika-case-rajya-sabha-discusses-matter-accused-dgp-gets-sixmonth-jail-term-2246433",
    "https://en.wikipedia.org/wiki/Ruchika_Girhotra_case",
    "https://indiankanoon.org/doc/12136724/",
-   "https://www.livelaw.in/amp/ruchika-molestation-case-sc-upholds-rathods-conviction-reduces-jail-term"
+   "https://www.livelaw.in/amp/ruchika-molestation-case-sc-upholds-rathods-conviction-reduces-jail-term",
+   "https://www.scconline.com/blog/post/2016/09/23/ruchika-girhotra-case-s-p-s-rathores-conviction-upheld-sentence-mitigated-due-to-old-age/"
   ],
-  "summary": "CBI Special Magistrate J.S. Sidhu, Chandigarh, on 22 December 2009 convicted former Haryana DGP S.P.[name withheld] under IPC section 354 for molesting [name withheld] tennis player [name withheld] in Panchkula on 12 August 1990, sentencing him to six months rigorous imprisonment with Rs 1,000 fine. The teenager died by suicide three years later, and her family alleged sustained police harassment for pursuing the case. The conviction was upheld on appeal (District and Sessions Court enhanced the term to 18 months; the Supreme Court upheld the conviction in September 2016 while reducing the sentence to that already served).",
+  "summary": "The Chief Judicial Magistrate, Chandigarh, convicted former Haryana DGP [name withheld] on 21 December 2009 under section 354 IPC for molesting a teenage tennis player in the HLTA office in 1990, after a CBI prosecution following the family's 19-year fight. The trial court gave six months, enhanced to 18 months rigorous imprisonment on revision in May 2010. The Punjab and Haryana High Court upheld the conviction, and on 23 September 2016 the Supreme Court (Justices Gowda and Agrawal) upheld the finding of guilt while reducing the sentence to the five months already served as a special case given his very advanced age.",
   "court_quote": null,
   "confidence": "high",
   "tier": "Tier A — Externally reported or officially recorded",
@@ -20169,6 +20069,10 @@
     "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
     "result": "t2-07-009=holds",
     "corrections_applied": []
+   },
+   {
+    "date": "2026-09-25",
+    "scope": "Duplicate record t2-14-007 (same Ruchika case) merged into this record. Primary source is now the Supreme Court judgment S.P.S. Rathore v. C.B.I. (23.09.2016), which dates the Chief Judicial Magistrate, Chandigarh conviction to 21.12.2009; the old URL redirects here."
    }
   ],
   "case_title_or_number": "CBI v. S.P.[name withheld] ([name withheld] molestation; exact case number not reported)"

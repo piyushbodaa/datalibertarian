@@ -85,9 +85,53 @@ def fmt_date(d):
     return "%d %s %s" % (int(da), months[int(mo) - 1], y)
 
 
-def load(register):
+def load_all(register):
+    """Every record in the register's data file, published or held."""
     with open(os.path.join(DATA, register + ".json"), encoding="utf-8") as f:
         return json.load(f)
+
+
+# Owner decision 2026-09-25: every register publishes only records checked
+# against an official record (V2). A record that rests on news reports alone
+# (V1) is held back until an official record is found; its page says so.
+def is_published(r):
+    return r.get("verification") == "V2"
+
+
+def load(register):
+    """The register as published: held records left out."""
+    data = load_all(register)
+    return dict(data, records=[r for r in data["records"] if is_published(r)])
+
+
+def held_page(reg, data, r, page):
+    head, foot = chrome(page, reg)
+    site = data["site_name"]
+    return """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Record not published &mdash; %(site)s</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="/babuwatch/assets/brand/favicon.ico" sizes="48x48">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/babuwatch/styles.css">
+</head>
+<body>
+%(head)s
+<main id="main">
+<section class="section"><div class="wrap"><div class="sec-head">
+<div class="kicker">Record %(uid)s</div><h2>This record is not published</h2>
+<p>It is held back because it rests on news reports alone. %(site)s publishes only records checked against an official record &mdash; a court order, a gazette or an agency release &mdash; and this one will return once such a record is found.</p>
+<p><a href="/%(reg)s#records">See the published records</a></p>
+</div></div></section>
+</main>
+%(foot)s
+<script src="/babuwatch/public-nav.js" defer></script>
+</body>
+</html>
+""" % dict(site=esc(site), uid=esc(r["id"].upper()), reg=reg, head=head, foot=foot)
 
 
 # ---------------------------------------------------------------- validation
@@ -469,12 +513,13 @@ def landing_line(data):
 
 def build(out):
     all_problems = []
-    datasets = {reg: load(reg) for reg in REGISTERS}
+    full = {reg: load_all(reg) for reg in REGISTERS}
     plates = platemod.assign_all()
-    for reg, data in datasets.items():
+    for reg, data in full.items():
         all_problems += validate(reg, data)
     if all_problems:
         raise SystemExit("registers: refusing to build:\n  " + "\n  ".join(all_problems))
+    datasets = {reg: load(reg) for reg in REGISTERS}
 
     for reg, data in datasets.items():
         for r in data["records"]:
@@ -491,8 +536,12 @@ def build(out):
         for r in data["records"]:
             with open(os.path.join(out, reg, r["id"] + ".html"), "w", encoding="utf-8") as f:
                 f.write(record_page(reg, data, r, page))
-        print("registers: %s -> %d record page%s" % (reg, len(data["records"]),
-                                                     "" if len(data["records"]) == 1 else "s"))
+        held = [r for r in full[reg]["records"] if not is_published(r)]
+        for r in held:
+            with open(os.path.join(out, reg, r["id"] + ".html"), "w", encoding="utf-8") as f:
+                f.write(held_page(reg, data, r, page))
+        print("registers: %s -> %d record page%s, %d held (news reports only)"
+              % (reg, len(data["records"]), "" if len(data["records"]) == 1 else "s", len(held)))
 
     for name in ("index.html", "snapshot.html"):
         path = os.path.join(out, name)
@@ -512,7 +561,7 @@ if __name__ == "__main__":
     ap.add_argument("--check", action="store_true", help="validate data only")
     a = ap.parse_args()
     if a.check:
-        probs = [p for reg in REGISTERS for p in validate(reg, load(reg))]
+        probs = [p for reg in REGISTERS for p in validate(reg, load_all(reg))]
         print("\n".join(probs) or "registers: data OK")
         sys.exit(1 if probs else 0)
     build(a.out)

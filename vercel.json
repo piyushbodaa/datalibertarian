@@ -56,6 +56,16 @@
   ],
   "redirects": [
     {
+      "source": "/babuwatch/trial-court/t2-14-007",
+      "destination": "/babuwatch/trial-court/t2-07-009",
+      "permanent": true
+    },
+    {
+      "source": "/babuwatch/data/case/t2-14-007.json",
+      "destination": "/babuwatch/data/case/t2-07-009.json",
+      "permanent": true
+    },
+    {
       "source": "/babuwatch/trial-court/t2-14-001",
       "destination": "/babuwatch/trial-court/t2-17-009",
       "permanent": true
@@ -161,17 +171,7 @@
       "permanent": true
     },
     {
-      "source": "/babuwatch/trial-court/T2LC-06-002",
-      "destination": "/babuwatch/tracker",
-      "permanent": false
-    },
-    {
       "source": "/babuwatch/data/case/T2LC-06-002.json",
-      "destination": "/babuwatch/tracker",
-      "permanent": false
-    },
-    {
-      "source": "/babuwatch/trial-court/t2s-ch-002",
       "destination": "/babuwatch/tracker",
       "permanent": false
     },

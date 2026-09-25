@@ -28879,9 +28879,7 @@
   "force": "state_police",
   "primary_source_url": "https://www.livelaw.in/pdf_upload/2026/07/28/ashraf-beg-v-state-of-chhattisgarh-ors-689784.pdf",
   "secondary_sources": [
-   "https://www.livelaw.in/high-court/chhattisgarh-high-court/compensation-illegal-detention-jail-despite-furnishing-bail-bond-543308",
-   "https://www.courtkutchehry.com/judgements/533795/lakshmana-k-ips-appellant-hash-cbi-and-another-respondent/",
-   "https://en.wikipedia.org/wiki/Arikkad_Varghese"
+   "https://www.livelaw.in/high-court/chhattisgarh-high-court/compensation-illegal-detention-jail-despite-furnishing-bail-bond-543308"
   ],
   "summary": "The judgment of the Chhattisgarh High Court records the following account. Summoned to Police Station Gharghoda, Raigarh, Ashraf Beg was arrested merely on suspicion though no cognizable or non-bailable offence was made out, and an Ishtgasa under BNSS ss.170/126 was prepared on 25 October 2025. Although the Executive Magistrate ordered his release on a Rs.1 lakh bond and he furnished it, the bond was sent for verification and he spent about four days in judicial custody before release. The Chhattisgarh High Court held that a person arrested merely on suspicion where only a bailable case exists must be released on bail and cannot be remanded to custody. The Court held the detention violated the petitioner's Article 21 right to life and liberty, allowed the writ petition, and directed the State to pay Rs.25,000 compensation within 30 days, citing D.K. Basu, Nilabati Behera and Sube Singh. Matters not addressed in the cited judgment text are not recorded here.",
   "summary_verified": "Summoned to Police Station Gharghoda, Raigarh, Ashraf Beg was arrested merely on suspicion though no cognizable or non-bailable offence was made out, and an Ishtgasa under BNSS ss.170/126 was prepared on 25 October 2025. Although the Executive Magistrate ordered his release on a Rs.1 lakh bond and he furnished it, the bond was sent for verification and he spent about four days in judicial custody before release. The Chhattisgarh High Court held that a person arrested merely on suspicion where only a bailable case exists must be released on bail and cannot be remanded to custody. The Court held the detention violated the petitioner's Article 21 right to life and liberty, allowed the writ petition, and directed the State to pay Rs.25,000 compensation within 30 days, citing D.K. Basu, Nilabati Behera and Sube Singh.",
@@ -28932,6 +28930,10 @@
      "secondary_sources",
      "sections"
     ]
+   },
+   {
+    "date": "2026-09-25",
+    "scope": "Two unrelated sources removed (a 2010 Kerala judgment in a different, 1970 case and an encyclopedia page about that case); the record rests on the Chhattisgarh High Court order in WPCR No. 564 of 2025."
    }
   ],
   "followup_status": "checked",
@@ -181701,6 +181703,10 @@
     "method": "skills-guided adversarial re-verification of the published record against the judgment text (reverify/t1-*/adversarial-8.jsonl)",
     "result": "holds",
     "corrections_applied": []
+   },
+   {
+    "date": "2026-09-25",
+    "scope": "Compensation ordered by the NHRC (recoverable from the three policemen) with no fixed amount in the order; the High Court kept the recovery in force."
    }
   ],
   "followup_status": "checked",
@@ -181727,7 +181733,8 @@
   ],
   "merged_case_id": "GAP3-89-004",
   "officers_named_public": 0,
-  "record_flag": null
+  "record_flag": null,
+  "compensation_ordered": true
  },
  {
   "record_id": "CW-2023-0039",
