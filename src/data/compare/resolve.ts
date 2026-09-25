@@ -12,7 +12,7 @@ import { gj2055, gj2055Minors, gj4055, gjFunctional } from "../gujarat/police";
 import { tn2055, tn4055, tnDemand22Voted, tnFunctional } from "../tamil-nadu/police";
 import { ka109, ka2055, ka4055, kaDemand05Home, kaFunctional } from "../karnataka/police";
 import { kl2055, kl4055, klFunctional } from "../kerala/police";
-import { od2055, odDemand01, odFunctional } from "../odisha/police";
+import { od2055, odDemand01 } from "../odisha/police";
 import { ap2055, ap4055, apDemandX, apFunctional } from "../andhra-pradesh/police";
 import { pb2055, pb4055, pbFunctional } from "../punjab/police";
 import { hr2055, hr4055, hrFunctional } from "../haryana/police";
@@ -215,8 +215,10 @@ export function resolveSide(slug: string | undefined): CompareSide | undefined {
     });
   }
   if (slug === "telangana") {
+    // tgObject010 is the sum of object-010 PAY lines, not a 2055 + 4055 police
+    // total, so it compares only as salaries (audit 2026-09-25, finding 23).
     return goldState(slug, {
-      "police-functional": tgObject010,
+      "obj-01": tgObject010,
       "health-functional": tgHealthFunctional,
       "health-run": tgHealthRun,
       "health-cap": tgHealthCap,
@@ -256,8 +258,9 @@ export function resolveSide(slug: string | undefined): CompareSide | undefined {
     });
   }
   if (slug === "odisha") {
+    // Odisha prints 2055 only (no 4055 police head), so it is compared on
+    // running costs and kept out of the full police total and its median (finding 24).
     return goldState(slug, {
-      "police-functional": odFunctional,
       "2055": od2055,
       "mixed-grant": odDemand01,
     });

@@ -9,8 +9,8 @@
   "stats": [
     {
       "value": "records",
-      "label": "Victims listed",
-      "sub": "people punished for freedoms"
+      "label": "Records published",
+      "sub": "each with its source"
     },
     {
       "value": "categories",

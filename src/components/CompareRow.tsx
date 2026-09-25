@@ -76,7 +76,7 @@ function Cell({
             <CitationChip citationId={money.citationId} compact />
           </>
         ) : (
-          <span className="text-ink/45">— {blank ?? "not printed in this book"}</span>
+          <span className="text-ink/45">— {blank ?? "not in this site’s data yet — this does not mean the book omits it"}</span>
         )}
       </dd>
     </div>

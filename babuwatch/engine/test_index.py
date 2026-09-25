@@ -132,12 +132,24 @@ class TestIndexShape(unittest.TestCase):
             got = sum(1 for r in self.idx if idx_matches(r, f))
             self.assertEqual(got, want, "filter=%r" % f)
 
+    def test_verification_level_in_index(self):
+        # A V1 HC/SC record must reach the index as V1, never default to V2 (finding 08).
+        for c, r in zip(self.cases, self.idx):
+            self.assertEqual(r.get("v", "V2"), B.v_level(c))
+
+    def test_compensation_only_when_ordered(self):
+        for c, r in zip(self.cases, self.idx):
+            if r.get("ou") == "adverse_finding_compensation":
+                self.assertTrue(B.has_compensation(c), c.get("record_id"))
+
     def test_facet_values_agree(self):
         for c, r in zip(self.cases, self.idx):
             self.assertEqual(r.get("st", ""), c.get("state") or "")
             self.assertEqual(r.get("di", ""), c.get("district") or "")
             self.assertEqual(r.get("co", ""), c.get("court") or "")
-            self.assertEqual(r.get("ou", ""), c.get("outcome_type") or "")
+            # "ou" is the displayed outcome: an adverse finding with no award
+            # is not shown as compensation (audit 2026-09-25, finding 35).
+            self.assertEqual(r.get("ou", ""), B.outcome_code(c) if c.get("outcome_type") else "")
             jy = r.get("jy", r["jd"][:4] if r["jd"] else "")
             self.assertEqual(str(jy), str(c.get("judgment_year") or ""))
             self.assertEqual(r["ca"], B.site_category(c))

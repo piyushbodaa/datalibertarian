@@ -5,7 +5,7 @@
   "record_word": "records",
   "detail_label": "Attributed to the sources",
   "record_note": "This page records what the cited court records say happened. Findings belong to the court or authority that made them; this register adds none of its own. Names of private individuals are withheld unless a naming gate clears them.",
-  "landing_tail": "Convicted though no one was harmed &mdash; prostitution, gambling, alcohol, beef and food prohibitions, cigarettes, e-cigarettes and vapes.",
+  "landing_tail": "Prosecuted where no one complained &mdash; prostitution, gambling, alcohol, beef and food prohibitions, cigarettes, e-cigarettes and vapes.",
   "stats": [
     {
       "value": "records",
@@ -59,60 +59,6 @@
     }
   ],
   "records": [
-    {
-      "id": "vc-ap-0001",
-      "category": "sex-work",
-      "state": "Andhra Pradesh",
-      "district": "Visakhapatnam",
-      "date": "2026-08-04",
-      "date_label": "High Court order",
-      "incident_date": "2026-06-13",
-      "title": "Pre-arrest bail refused to alleged go-between after a police raid on a Visakhapatnam hotel room",
-      "outcome": "bail_refused",
-      "authority": "High Court of Andhra Pradesh",
-      "case_reference": "Crl.P. No. 5787 of 2026 (Crime No. 147 of 2026, Airport Police Station, Visakhapatnam)",
-      "laws": [
-        "Sections 143(3) and 144(2), Bharatiya Nyaya Sanhita, 2023",
-        "Sections 3(1), 4(1) and 5(1)(a), Immoral Traffic (Prevention) Act, 1956"
-      ],
-      "acts": [
-        "Bharatiya Nyaya Sanhita, 2023",
-        "Immoral Traffic (Prevention) Act, 1956"
-      ],
-      "person": "A Visakhapatnam man, accused no. 4",
-      "summary": "Police raided a Visakhapatnam hotel on a tip-off, found a man and a woman in a room, and charged the people said to have arranged the meeting for Rs 1,500 under human-trafficking and brothel laws. On 4 August 2026 the High Court refused pre-arrest bail to the man accused of linking customers to the organiser.",
-      "detail": [
-        "According to the prosecution case recorded by the High Court, on 13 June 2026 the Inspector of Police, Airport Police Station, Visakhapatnam, acting 'on receipt of credible information regarding prostitution activities', raided a hotel at Madhavadhara and found 'a man and a woman' in a room 'allegedly engaged in prostitution'. The customer had been arranged 'after collecting Rs.1,500/- towards sexual services'. Two mobile phones and Rs 500 were seized.",
-        "Police registered Crime No. 147 of 2026 under sections 143(3) and 144(2) of the Bharatiya Nyaya Sanhita, the new code's human-trafficking provisions, and sections 3, 4 and 5 of the Immoral Traffic (Prevention) Act, which punish keeping a brothel, living on the earnings of sex work and procuring.",
-        "The petitioner, accused no. 4, argued that the only evidence against him was a co-accused's confession and that the raid was not led by a special police officer as the Immoral Traffic Act requires. The State replied that the legality of the raid was a matter for trial.",
-        "Justice Y. Lakshmana Rao held that the case record showed the petitioner 'acted as a crucial person in running the brothel by luring customers and coordinating between the customers and the organiser', noted that 'there are no adverse antecedents reported against the petitioner', and dismissed the petition."
-      ],
-      "current_position": "Pre-arrest bail refused on 4 August 2026 while the investigation continued. We have not located any later order.",
-      "quote": {
-        "heading": "What the High Court said",
-        "text": "In view of the specific overt acts attributed against the petitioner, this Court is not inclined to grant pre-arrest bail to the petitioner, as it would amount to giving a shield, protection or licence to the petitioner in respect of the specific allegations levelled against him",
-        "where": "Crl.P. No. 5787 of 2026, order dated 4 August 2026, para 14",
-        "url": "https://indiankanoon.org/doc/162631009/"
-      },
-      "sections": [
-        {
-          "label": "Why it is listed",
-          "heading": "A paid encounter, charged as trafficking",
-          "text": "The order describes a paid sexual encounter arranged by phone, found by police acting on a tip-off. It records no complaint by anyone involved and no allegation of force, deception or a minor, yet police charged the people who arranged it under human-trafficking and brothel-keeping laws."
-        }
-      ],
-      "caveats": "The order does not give the ages of the man and woman found in the room. It refers to the statements of 'the other victims', the term trafficking law uses for anyone in sex work, without describing what they said.",
-      "sources": [
-        {
-          "url": "https://indiankanoon.org/doc/162631009/",
-          "kind": "court_order",
-          "publisher": "High Court of Andhra Pradesh (via Indian Kanoon)",
-          "date": "2026-08-04",
-          "supports": "the raid, charges, arguments, the court's reasons and the refusal of bail"
-        }
-      ],
-      "verification": "V2"
-    },
     {
       "id": "vc-ap-0002",
       "category": "gambling",

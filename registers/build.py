@@ -150,6 +150,25 @@ def cat_label(data, key):
     return key
 
 
+STATUTE_WORDS = re.compile(r"\b(Act|Sanhita|Code|Ordinance|Order|Regulation|Adhiniyam|Constitution)\b")
+NOT_STATUTE = re.compile(r"(?i)not (printed|stated|reported|specified)|provision|as printed|clause|contract|guideline|"
+                         r"proceedings|office order|disciplinary|circular|policy|committee|unknown")
+
+
+def statute_key(name):
+    """Canonical key for the 'distinct statutes' counter (audit finding 13):
+    only named statutes count; placeholders, contract clauses, guidelines and
+    disciplinary proceedings do not, and 'X Act' and 'X Act, 2000' are one."""
+    s = str(name or "").strip()
+    if not s or NOT_STATUTE.search(s) or not STATUTE_WORDS.search(s):
+        return None
+    s = re.sub(r"\(.*?\)", "", s)
+    s = re.sub(r"(?i)^the\s+", "", s)
+    s = re.sub(r",?\s*\b(18|19|20)\d{2}\b.*$", "", s)
+    s = re.sub(r"[^a-z]+", " ", s.lower()).strip()
+    return s or None
+
+
 def stats_html(data):
     recs = data["records"]
     states = {r["state"] for r in recs}
@@ -162,7 +181,7 @@ def stats_html(data):
         elif t["value"] == "states":
             num = len(states)
         elif t["value"] == "acts":
-            num = len({a for r in recs for a in r.get("acts", [])})
+            num = len({k for r in recs for k in map(statute_key, r.get("acts", [])) if k})
         elif t["value"] == "on_the_block":
             num = sum(1 for r in recs if r.get("on_the_block"))
         else:

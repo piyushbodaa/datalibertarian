@@ -90,7 +90,8 @@ export function crumbsFor(pathname: string): Crumb[] {
 }
 
 export function titleFor(pathname: string, search = ""): string {
-  if (pathname === "/") return "Data Libertarian — official books, cited rupees";
+  if (pathname === "/") return "Data Libertarian — public registers of the Indian state";
+  if (pathname === "/spending") return "Spending overview — Data Libertarian";
   if (pathname === "/inflation" || pathname.startsWith("/inflation/")) {
     const parts = crumbsFor(pathname).slice(1).map((crumb) => crumb.label);
     return `${parts.join(" · ")} — Data Libertarian`;

@@ -6,6 +6,14 @@
 <title>Data Libertarian &mdash; public registers of the Indian state</title>
 <meta name="description" content="Public registers of what the Indian state spends and whom it punishes: court-adjudicated records against public servants, victimless crimes, civil liberties, economic freedom and public enterprises, each entry attributed to its source.">
 <meta name="theme-color" content="#F7F5EF">
+<link rel="canonical" href="https://datalibertarian.in/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Data Libertarian">
+<meta property="og:title" content="Data Libertarian &mdash; public registers of the Indian state">
+<meta property="og:description" content="Court records against public servants, prosecutions for victimless acts and speech, economic-freedom cases, public enterprises and government spending &mdash; each entry attributed to its source.">
+<meta property="og:url" content="https://datalibertarian.in/">
+<meta property="og:image" content="https://datalibertarian.in/social-preview.png">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -33,12 +41,22 @@ a{color:inherit}
 .mast nav{display:flex;gap:18px;flex-wrap:wrap}
 .mast nav a{font:500 13px/1 var(--sans);color:var(--ink-2);text-decoration:none}
 .mast nav a:hover{color:var(--stamp)}
+.mnav{display:none;position:relative}
+.mnav summary{list-style:none;cursor:pointer;font:600 13px/1 var(--sans);border:1.5px solid var(--ink);padding:8px 12px}
+.mnav summary::-webkit-details-marker{display:none}
+.mnav[open] summary{background:var(--ink);color:var(--paper)}
+.mnav nav{position:absolute;right:0;top:40px;z-index:5;background:var(--card);border:1px solid var(--line);padding:12px 16px;display:flex;flex-direction:column;gap:12px;min-width:210px;box-shadow:0 8px 24px rgba(18,21,28,.12)}
+.tools{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;padding:18px 0 4px}
+.tool{display:block;border:1px solid var(--line);background:var(--card);padding:14px 15px;text-decoration:none}
+.tool:hover{border-color:var(--ink)}
+.tool b{display:block;font:600 16.5px/1.25 var(--serif)}
+.tool span{display:block;font-size:13px;color:var(--ink-2);margin-top:4px}
 
 /* hero */
 .hero{padding:44px 0 40px}
 .hero .wrap{display:grid;grid-template-columns:repeat(8,1fr);gap:24px;align-items:start}
 .hero-text{grid-column:1 / span 5}
-.hero h1{font:600 clamp(34px,5.2vw,58px)/1.06 var(--serif);letter-spacing:-.015em;margin:14px 0 18px}
+.hero h1{font:600 clamp(34px,5.2vw,58px)/1.06 var(--serif);letter-spacing:-.015em;margin:14px 0 18px;text-wrap:balance}
 .hero p{font-size:17px;color:var(--ink-2);max-width:36em;margin:0}
 .hero .cta{margin-top:24px;display:flex;gap:12px;flex-wrap:wrap}
 .btn{display:inline-block;font:600 14px/1 var(--sans);padding:12px 16px;border:1.5px solid var(--ink);text-decoration:none}
@@ -103,6 +121,7 @@ footer a{color:var(--ink-2)}
 a:focus-visible{outline:2px solid var(--stamp);outline-offset:3px}
 @media (max-width:1180px){.lat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:1020px){
+  .tools{grid-template-columns:1fr 1fr}
   .hero-text{grid-column:1 / -1}.tally{grid-column:1 / -1}
   .row{grid-template-columns:44px 1fr auto;row-gap:4px}
   .row-desc{grid-column:2 / -1}.row-count{grid-column:2 / -1;text-align:left}.row-count b{display:inline;margin-right:6px}
@@ -111,7 +130,7 @@ a:focus-visible{outline:2px solid var(--stamp);outline-offset:3px}
 @media (max-width:620px){
   .wrap{padding:0 16px}.hero{padding:30px 0 30px}.hero p{font-size:16px}
   .lat-grid{grid-template-columns:1fr}
-  .mast nav{display:none}
+  .mast nav{display:none}.mnav{display:block}.mnav nav{display:flex}.tools{grid-template-columns:1fr}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}.case:hover{transform:none}}
 </style>
@@ -120,9 +139,10 @@ a:focus-visible{outline:2px solid var(--stamp);outline-offset:3px}
 <header class="mast">
   <div class="wrap">
     <a class="brand" href="/">Data <span>Libertarian</span></a>
-    <nav aria-label="Registers">
-      <a href="/babuwatch">Babuwatch</a><a href="/civilliberties">Civil Liberties</a><a href="/victimlesscrimes">Victimless Crimes</a><a href="/economicfreedom">Economic Freedom</a><a href="/psu">PSUs</a>
+    <nav aria-label="Site">
+      <a href="/babuwatch">Babuwatch</a><a href="/civilliberties">Civil Liberties</a><a href="/victimlesscrimes">Victimless Crimes</a><a href="/economicfreedom">Economic Freedom</a><a href="/psu">PSUs</a><a href="/spending">Spending</a><a href="/inflation">Inflation</a>
     </nav>
+    <details class="mnav"><summary>Menu</summary><nav aria-label="Site (mobile)"><a href="/babuwatch">Babuwatch</a><a href="/civilliberties">Civil Liberties</a><a href="/victimlesscrimes">Victimless Crimes</a><a href="/economicfreedom">Economic Freedom</a><a href="/psu">PSUs</a><a href="/spending">Spending</a><a href="/inflation">Inflation</a></nav></details>
   </div>
 </header>
 <div class="wrap"><hr class="dbl"></div>
@@ -131,10 +151,11 @@ a:focus-visible{outline:2px solid var(--stamp);outline-offset:3px}
 <section class="hero">
   <div class="wrap">
     <div class="hero-text">
-      <div class="kicker">A public register of the Indian state</div>
-      <h1>Every rupee, every post, every station.</h1>
-      <p>Who the state punished, for what, and on whose word &mdash; built from court records and official books.
-        Every entry is attributed to the court or agency that decided it, and every figure links to its source.</p>
+      <div class="kicker">From court records and official books</div>
+      <h1>The Indian state, on the record.</h1>
+      <p>Officials the courts have found against. People arrested, charged or penalised for speaking, worshipping,
+        trading, or private choices that harm no one. The businesses the state owns and the money it spends.
+        Every entry names the court or agency that decided it and links to its source.</p>
       <div class="cta"><a class="btn solid" href="#latest">See the latest cases</a><a class="btn" href="/babuwatch/tracker">Search Babuwatch</a></div>
     </div>
     <aside class="tally" aria-label="Records on the registers">
@@ -166,6 +187,19 @@ a:focus-visible{outline:2px solid var(--stamp);outline-offset:3px}
         <span class="row-desc">Government, Inc.: every business the state runs &mdash; central, state, banks, insurers and the rest.</span>
         <span class="row-count"><!--@count:psu-->enterprises<!--@/count:psu--></span><span class="row-go" aria-hidden="true">&rarr;</span></a></li>
     </ol>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="spend-h">
+  <div class="wrap">
+    <div class="sec-head"><div><div class="kicker">Spending and prices</div><h2 id="spend-h">What the state spends, from its own books</h2></div>
+      <p>Budget figures taken line by line from official budget documents, each with its citation. An empty cell means not yet read, never zero.</p></div>
+    <div class="tools">
+      <a class="tool" href="/spending"><b>Spending overview</b><span>Union, state, city and village books in one place.</span></a>
+      <a class="tool" href="/compare"><b>Compare two governments</b><span>Side by side, only where the accounting scope matches.</span></a>
+      <a class="tool" href="/states"><b>State police budgets</b><span>What each state's own books print for its police.</span></a>
+      <a class="tool" href="/inflation"><b>Inflation</b><span>Official price indices and government-observed retail prices, with dates.</span></a>
+    </div>
   </div>
 </section>
 
