@@ -5021,6 +5021,472 @@
         }
       ],
       "verification": "V2"
+    },
+    {
+      "id": "vc-dl-0008",
+      "category": "alcohol",
+      "state": "Delhi",
+      "district": "North",
+      "title": "Delhi court acquits a man from north Delhi charged with carrying 95 quarter bottles of liquor, nearly 11 years after the FIR",
+      "summary": "Delhi Police charged a man from north Delhi under Section 33 of the Delhi Excise Act after allegedly finding 95 quarter bottles of country liquor labelled for sale only in Haryana, in FIR 865/2015 at Bhalswa Dairy police station. On 17 September 2026 the Judicial Magistrate First Class-01, North District, Rohini Courts acquitted, holding the prosecution had not proved the charge beyond reasonable doubt.",
+      "date": "2026-09-17",
+      "date_label": "Trial court judgment",
+      "incident_date": "2015-12-28",
+      "outcome": "acquitted",
+      "authority": "Judicial Magistrate First Class-01, North District, Rohini Courts; Delhi Police (Bhalswa Dairy police station)",
+      "case_reference": "FIR No. 865/2015, PS Bhalswa Dairy",
+      "laws": [
+        "Section 33 of the Delhi Excise Act, 2009"
+      ],
+      "acts": [
+        "Delhi Excise Act, 2009"
+      ],
+      "person": "a man from north Delhi",
+      "detail": [
+        "The court recorded the prosecution case that the accused was found with 95 quarter bottles of liquor marked for sale in Haryana only, without a licence or permit.",
+        "The court recorded that public persons asked to join the investigation declined, and weighed gaps in the chain of recovery and case property.",
+        "The court held the charge was not proved beyond reasonable doubt and gave the accused the benefit of doubt."
+      ],
+      "current_position": "Acquitted on 17 September 2026.",
+      "caveats": "The State may appeal. Quantity is as alleged by the prosecution.",
+      "quote": {
+        "text": "Accordingly, this Court hereby accords the benefit of doubt to the accused for the offences u/s 33 of Delhi Excise Act and holds the accused not guilty of commission of the said offence.",
+        "where": "Judicial Magistrate First Class-01, North District, Rohini Courts, judgment dated 17 September 2026",
+        "url": "https://indiankanoon.org/doc/146218003/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Possessing or carrying liquor harms no complaining victim; the case was pursued only under excise or prohibition law."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/146218003/",
+          "kind": "judgment",
+          "publisher": "Judicial Magistrate First Class-01, North District, Rohini Courts (Indian Kanoon)",
+          "date": "2026-09-17",
+          "supports": "charge, recovery alleged, reasoning and acquittal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-dl-0009",
+      "category": "alcohol",
+      "state": "Delhi",
+      "district": "West",
+      "title": "Delhi court acquits a woman from Mundka charged with carrying 160 quarter bottles of liquor",
+      "summary": "Delhi Police charged a woman from Mundka under Section 33 of the Delhi Excise Act after allegedly finding 160 quarter bottles of country liquor labelled for sale only in Haryana, in FIR 132/2025 at Mundka police station. On 17 September 2026 the Judicial Magistrate First Class-06, West District, Tis Hazari Courts acquitted, holding the prosecution had not proved the charge beyond reasonable doubt.",
+      "date": "2026-09-17",
+      "date_label": "Trial court judgment",
+      "incident_date": "2025-02-12",
+      "outcome": "acquitted",
+      "authority": "Judicial Magistrate First Class-06, West District, Tis Hazari Courts; Delhi Police (Mundka police station)",
+      "case_reference": "FIR No. 132/2025, PS Mundka",
+      "laws": [
+        "Section 33 of the Delhi Excise Act, 2009"
+      ],
+      "acts": [
+        "Delhi Excise Act, 2009"
+      ],
+      "person": "a woman from Mundka",
+      "detail": [
+        "The court recorded the prosecution case that the accused was found with 160 quarter bottles of liquor marked for sale in Haryana only, without a licence or permit.",
+        "The court recorded that public persons asked to join the investigation declined, and weighed gaps in the chain of recovery and case property.",
+        "The court held the charge was not proved beyond reasonable doubt and gave the accused the benefit of doubt."
+      ],
+      "current_position": "Acquitted on 17 September 2026.",
+      "caveats": "The State may appeal. Quantity is as alleged by the prosecution.",
+      "quote": {
+        "text": "Accordingly, this Court hereby accords the benefit of doubt to the accused and holds the accused person not guilty of the commission of the said offences.",
+        "where": "Judicial Magistrate First Class-06, West District, Tis Hazari Courts, judgment dated 17 September 2026",
+        "url": "https://indiankanoon.org/doc/40327302/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Possessing or carrying liquor harms no complaining victim; the case was pursued only under excise or prohibition law."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/40327302/",
+          "kind": "judgment",
+          "publisher": "Judicial Magistrate First Class-06, West District, Tis Hazari Courts (Indian Kanoon)",
+          "date": "2026-09-17",
+          "supports": "charge, recovery alleged, reasoning and acquittal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-dl-0010",
+      "category": "alcohol",
+      "state": "Delhi",
+      "district": "West",
+      "title": "Delhi court acquits a woman living near the Tikri border charged with carrying 87 quarter bottles of liquor",
+      "summary": "Delhi Police charged a woman living near the Tikri border under Section 33 of the Delhi Excise Act after allegedly finding 87 quarter bottles of country liquor labelled for sale only in Haryana, in FIR 631/2024 at Mundka police station. On 22 September 2026 the Judicial Magistrate First Class-06, West District, Tis Hazari Courts acquitted, holding the prosecution had not proved the charge beyond reasonable doubt.",
+      "date": "2026-09-22",
+      "date_label": "Trial court judgment",
+      "incident_date": "2024-10-06",
+      "outcome": "acquitted",
+      "authority": "Judicial Magistrate First Class-06, West District, Tis Hazari Courts; Delhi Police (Mundka police station)",
+      "case_reference": "FIR No. 631/2024, PS Mundka",
+      "laws": [
+        "Section 33 of the Delhi Excise Act, 2009"
+      ],
+      "acts": [
+        "Delhi Excise Act, 2009"
+      ],
+      "person": "a woman living near the Tikri border",
+      "detail": [
+        "The court recorded the prosecution case that the accused was found with 87 quarter bottles of liquor marked for sale in Haryana only, without a licence or permit.",
+        "The court recorded that public persons asked to join the investigation declined, and weighed gaps in the chain of recovery and case property.",
+        "The court held the charge was not proved beyond reasonable doubt and gave the accused the benefit of doubt."
+      ],
+      "current_position": "Acquitted on 22 September 2026.",
+      "caveats": "The State may appeal. Quantity is as alleged by the prosecution.",
+      "quote": {
+        "text": "the prosecution has not been able to demonstrate an uninterrupted chain of circumstances and the possibility of false implication of the accused cannot be ruled out.",
+        "where": "Judicial Magistrate First Class-06, West District, Tis Hazari Courts, judgment dated 22 September 2026",
+        "url": "https://indiankanoon.org/doc/113457965/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Possessing or carrying liquor harms no complaining victim; the case was pursued only under excise or prohibition law."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/113457965/",
+          "kind": "judgment",
+          "publisher": "Judicial Magistrate First Class-06, West District, Tis Hazari Courts (Indian Kanoon)",
+          "date": "2026-09-22",
+          "supports": "charge, recovery alleged, reasoning and acquittal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-dl-0011",
+      "category": "alcohol",
+      "state": "Delhi",
+      "district": "North",
+      "title": "Delhi court acquits a woman from Shahbad Dairy charged with carrying five cartons of 50 quarter bottles each of liquor, five years after the FIR",
+      "summary": "Delhi Police charged a woman from Shahbad Dairy under Section 33 of the Delhi Excise Act after allegedly finding five cartons of 50 quarter bottles each of country liquor labelled for sale only in Haryana, in FIR 373/2021 at Shahbad Dairy police station. On 19 September 2026 the Judicial Magistrate First Class-05, North District, Rohini Courts acquitted, holding the prosecution had not proved the charge beyond reasonable doubt.",
+      "date": "2026-09-19",
+      "date_label": "Trial court judgment",
+      "incident_date": "2021-07-13",
+      "outcome": "acquitted",
+      "authority": "Judicial Magistrate First Class-05, North District, Rohini Courts; Delhi Police (Shahbad Dairy police station)",
+      "case_reference": "FIR No. 373/2021, PS Shahbad Dairy",
+      "laws": [
+        "Section 33 of the Delhi Excise Act, 2009"
+      ],
+      "acts": [
+        "Delhi Excise Act, 2009"
+      ],
+      "person": "a woman from Shahbad Dairy",
+      "detail": [
+        "The court recorded the prosecution case that the accused was found with five cartons of 50 quarter bottles each of liquor marked for sale in Haryana only, without a licence or permit.",
+        "The court recorded that public persons asked to join the investigation declined, and weighed gaps in the chain of recovery and case property.",
+        "The court held the charge was not proved beyond reasonable doubt and gave the accused the benefit of doubt."
+      ],
+      "current_position": "Acquitted on 19 September 2026.",
+      "caveats": "The State may appeal. Quantity is as alleged by the prosecution.",
+      "quote": {
+        "text": "these factors show that a lot of gaps and crevices exist in its version, and the benefit of this accrues to the accused",
+        "where": "Judicial Magistrate First Class-05, North District, Rohini Courts, judgment dated 19 September 2026",
+        "url": "https://indiankanoon.org/doc/132144275/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Possessing or carrying liquor harms no complaining victim; the case was pursued only under excise or prohibition law."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/132144275/",
+          "kind": "judgment",
+          "publisher": "Judicial Magistrate First Class-05, North District, Rohini Courts (Indian Kanoon)",
+          "date": "2026-09-19",
+          "supports": "charge, recovery alleged, reasoning and acquittal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-gj-0003",
+      "category": "alcohol",
+      "state": "Gujarat",
+      "district": "Surat",
+      "title": "High Court frees man detained without trial as a 'bootlegger' under Gujarat's anti-social activities law",
+      "summary": "Surat's District Magistrate ordered a man preventively detained as a 'bootlegger' under the Gujarat Prevention of Anti-social Activities Act on 3 August 2026, citing Prohibition Act cases at Olpad police station. The Gujarat High Court quashed the detention on 23 September 2026 and ordered his release. It held the grounds did not show any threat to public order.",
+      "date": "2026-09-23",
+      "date_label": "High Court order quashing detention",
+      "incident_date": "2026-08-03",
+      "outcome": "detention_set_aside",
+      "authority": "Gujarat High Court (Justices Gita Gopi and L.S. Pirzada); District Magistrate, Surat",
+      "case_reference": "R/Special Criminal Application No. 11871 of 2026",
+      "laws": [
+        "Section 3 of the Gujarat Prevention of Anti-social Activities Act, 1985 ('bootlegger', Section 2(b))",
+        "Sections 65, 81 and 98 of the Gujarat Prohibition Act, 1949 (cases cited in the grounds)"
+      ],
+      "acts": [
+        "Gujarat Prevention of Anti-social Activities Act, 1985",
+        "Gujarat Prohibition Act, 1949"
+      ],
+      "person": "a man from Surat district",
+      "detail": [
+        "The High Court recorded that the detention order dated 03.08.2026 branded the man a bootlegger under Section 2(b) of the Act, relying on Prohibition Act cases registered at Olpad police station.",
+        "The petitioner argued the grounds concerned at most law and order, not public order, as registering liquor offences does not by itself affect public order.",
+        "The High Court held the detaining authority's satisfaction was not legal or valid and quashed the order, directing his release unless required in another case."
+      ],
+      "current_position": "Released by order of 23 September 2026 unless wanted in another case; the Prohibition Act cases continue.",
+      "caveats": "One of the cited cases also invoked BNS organised-crime sections alongside the Prohibition Act.",
+      "quote": {
+        "text": "The order impugned dated 03.08.2026 passed by the respondent authority is hereby quashed.",
+        "where": "R/SCR.A/11871/2026, Gujarat High Court, order dated 23.09.2026, para 11",
+        "url": "https://indiankanoon.org/doc/64752530/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Possessing or carrying liquor harms no complaining victim; the case was pursued only under excise or prohibition law."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/64752530/",
+          "kind": "court_order",
+          "publisher": "Gujarat High Court (Indian Kanoon)",
+          "date": "2026-09-23",
+          "supports": "detention order, grounds, reasoning and quashing"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-gj-0004",
+      "category": "alcohol",
+      "state": "Gujarat",
+      "district": "Kheda",
+      "title": "Man held for ten months as a 'bootlegger' under preventive detention freed by High Court",
+      "summary": "A man was detained without trial as a 'bootlegger' under the Gujarat Prevention of Anti-social Activities Act by an order of 26 November 2025, on the basis of Prohibition Act cases at Chaklashi and Dakor police stations. The Gujarat High Court quashed the detention on 22 September 2026 and ordered his release.",
+      "date": "2026-09-22",
+      "date_label": "High Court order quashing detention",
+      "incident_date": "2025-11-26",
+      "outcome": "detention_set_aside",
+      "authority": "Gujarat High Court (Justices Gita Gopi and L.S. Pirzada); District Magistrate",
+      "case_reference": "R/Special Criminal Application No. 12248 of 2026 (neutral citation R/SCR.A/12248/2026)",
+      "laws": [
+        "Section 3 of the Gujarat Prevention of Anti-social Activities Act, 1985 ('bootlegger', Section 2(b))",
+        "Sections 65, 81, 83, 98(2) and 116-B of the Gujarat Prohibition Act, 1949 (cases cited in the grounds)"
+      ],
+      "acts": [
+        "Gujarat Prevention of Anti-social Activities Act, 1985",
+        "Gujarat Prohibition Act, 1949"
+      ],
+      "person": "a man from Kheda district",
+      "detail": [
+        "The High Court recorded that the detention order dated 26.11.2025 treated him as a bootlegger, citing four cases under the Gujarat Prohibition Act at Chaklashi and Dakor police stations.",
+        "The detenu's counsel argued the cases were registered without evidence and that liquor offences did not disturb public order.",
+        "The High Court held the detaining authority's satisfaction was not legal or valid, quashed the order and directed his release unless required in another case."
+      ],
+      "current_position": "Released by order of 22 September 2026 unless wanted in another case; the Prohibition Act cases continue.",
+      "caveats": "Two of the cited cases also invoked BNS organised-crime sections alongside the Prohibition Act. The district is inferred from the police stations named.",
+      "quote": {
+        "text": "The order impugned dated 26.11.2025 passed by the respondent authority is hereby quashed.",
+        "where": "R/SCR.A/12248/2026, Gujarat High Court, order dated 22.09.2026, para 11",
+        "url": "https://indiankanoon.org/doc/121067765/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Possessing or carrying liquor harms no complaining victim; the case was pursued only under excise or prohibition law."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/121067765/",
+          "kind": "court_order",
+          "publisher": "Gujarat High Court (Indian Kanoon)",
+          "date": "2026-09-22",
+          "supports": "detention order, grounds, reasoning and quashing"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-hp-0001",
+      "category": "alcohol",
+      "state": "Himachal Pradesh",
+      "district": "Kangra",
+      "title": "High Court upholds acquittal in liquor-transport case after 19 years",
+      "summary": "Police in Kangra district prosecuted a jeep driver for carrying 58 boxes of country liquor and five boxes of beer; a Jawali magistrate convicted him in 2007 and an appellate court acquitted him in 2013. On 24 September 2026 the Himachal Pradesh High Court dismissed the State's appeal, holding the sample evidence could not prove the contents were liquor.",
+      "date": "2026-09-24",
+      "date_label": "High Court judgment dismissing State appeal",
+      "outcome": "acquitted",
+      "authority": "Himachal Pradesh High Court, Justice Rakesh Kainthla",
+      "case_reference": "Cr. Appeal No. 4250 of 2013 (2026:HHC:41035)",
+      "laws": [
+        "Section 61(1)(a) of the Punjab Excise Act, 1914 (as applied in Himachal Pradesh)"
+      ],
+      "acts": [
+        "Punjab Excise Act, 1914"
+      ],
+      "person": "a jeep driver in Kangra district",
+      "detail": [
+        "The High Court recorded that police found 58 boxes of country liquor, each with 12 pouches of 750 ml, and 5 boxes of beer in a Mahindra jeep.",
+        "The Sub-Divisional Judicial Magistrate, Jawali convicted the driver on 01.02.2007; the Additional Sessions Judge, Kangra at Dharamshala acquitted him on 04.06.2013 and the State appealed.",
+        "The High Court held the chain of sampling was not proved, so the analysis report could not establish that the bottles and pouches held liquor, and that the appellate court's view was reasonable.",
+        "The High Court dismissed the appeal on 24 September 2026."
+      ],
+      "current_position": "Acquittal upheld on 24 September 2026, 19 years after the trial-court conviction.",
+      "caveats": "The trial record of 2007 was not read; the facts are as recorded in the High Court judgment.",
+      "quote": {
+        "text": "In view of the above, the present appeal fails, and it is dismissed.",
+        "where": "Cr. Appeal No. 4250 of 2013, Himachal Pradesh High Court, judgment dated 24.09.2026, para 33",
+        "url": "https://indiankanoon.org/doc/134855147/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Possessing or carrying liquor harms no complaining victim; the case was pursued only under excise or prohibition law."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/134855147/",
+          "kind": "judgment",
+          "publisher": "Himachal Pradesh High Court (Indian Kanoon)",
+          "date": "2026-09-24",
+          "supports": "seizure, conviction history, reasoning and dismissal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-ct-0001",
+      "category": "gambling",
+      "state": "Chhattisgarh",
+      "district": "Raipur",
+      "title": "Two held for selling online betting-app IDs in Raipur granted bail",
+      "summary": "Raipur's Telibandha police booked three men under the Public Gambling Act, the Chhattisgarh Gambling (Prohibition) Act and the BNS 'petty organised crime' section after allegedly finding them selling IDs for an online betting application. On 17 September 2026 the Chhattisgarh High Court granted two of them bail and refused the third.",
+      "date": "2026-09-17",
+      "date_label": "High Court bail order",
+      "outcome": "prosecution_pending",
+      "authority": "Chhattisgarh High Court, Justice Ravindra Kumar Agrawal; Telibandha Police Station, Raipur",
+      "case_reference": "Crime No. 202 of 2026, PS Telibandha",
+      "laws": [
+        "Section 4(a) of the Public Gambling Act, 1867",
+        "Section 7 of the Chhattisgarh Gambling (Prohibition) Act, 2022",
+        "Section 112(2) of the Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "acts": [
+        "Public Gambling Act, 1867",
+        "Chhattisgarh Gambling (Prohibition) Act, 2022",
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "two young men in Raipur",
+      "detail": [
+        "The High Court recorded the prosecution case that police seized a vehicle and two mobile phones, and that one accused disclosed he had a betting application's ID and password and had been selling IDs for two years for a commission.",
+        "The case was registered under the Public Gambling Act, the state gambling law and Section 112(2) BNS.",
+        "The High Court granted regular bail to two applicants on personal bonds of Rs 50,000 and rejected the bail of a third."
+      ],
+      "current_position": "Two accused on bail; the prosecution is pending before the trial court.",
+      "caveats": "Names in the quoted sentence are withheld by this register. No allegation of cheating any bettor appears in the order read.",
+      "quote": {
+        "text": "The applicants [name withheld] and [name withheld] shall be released on regular bail",
+        "where": "Chhattisgarh High Court bail order dated 17.09.2026, para 10",
+        "url": "https://indiankanoon.org/doc/165933086/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Betting one's own money harms no complaining victim; the case rests on gambling law, with no allegation that anyone was cheated."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/165933086/",
+          "kind": "court_order",
+          "publisher": "Chhattisgarh High Court (Indian Kanoon)",
+          "date": "2026-09-17",
+          "supports": "FIR, seizure, charges and bail"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-gj-0006",
+      "category": "sex-work",
+      "state": "Gujarat",
+      "district": "Ahmedabad",
+      "title": "High Court quashes 16-year-old immoral traffic case against a hotel customer",
+      "summary": "Ahmedabad police raided a hotel in 2010 using a decoy customer and booked a man found there as a customer under the Immoral Traffic (Prevention) Act. The Gujarat High Court quashed the FIR against him on 18 September 2026, sixteen years later.",
+      "date": "2026-09-18",
+      "date_label": "High Court judgment quashing the FIR",
+      "incident_date": "2010-01-17",
+      "outcome": "quashed",
+      "authority": "Gujarat High Court, Justice P.M. Raval; DCB Police Station, Ahmedabad",
+      "case_reference": "R/Criminal Misc. Application No. 7082 of 2018",
+      "laws": [
+        "Sections 3, 5, 7 and 9 of the Immoral Traffic (Prevention) Act, 1956",
+        "Section 188 of the Indian Penal Code, 1860"
+      ],
+      "acts": [
+        "Immoral Traffic (Prevention) Act, 1956",
+        "Indian Penal Code, 1860"
+      ],
+      "person": "a man found at a hotel during a raid",
+      "detail": [
+        "The High Court recorded that the FIR of 17.01.2010 at DCB Police Station said a hotel was running a brothel, and that police sent a decoy customer before raiding it.",
+        "The petitioner was shown by the investigating agency as a customer at the time of the raid, and argued the Act's sections could not be invoked against a customer.",
+        "The High Court quashed the FIR and all consequential proceedings against him."
+      ],
+      "current_position": "Proceedings against the customer stand quashed.",
+      "caveats": "The case against the hotel's operators is not covered by this order.",
+      "quote": {
+        "text": "along with all consequential proceedings arising therefrom qua the present petitioner, stands quashed and set aside.",
+        "where": "R/Criminal Misc. Application No. 7082 of 2018, Gujarat High Court, judgment dated 18.09.2026, para 5",
+        "url": "https://indiankanoon.org/doc/21396553/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complaining victim",
+          "text": "Paying for sex between consenting adults harms no complaining victim; no force, deception or minor was alleged against the person listed."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/21396553/",
+          "kind": "judgment",
+          "publisher": "Gujarat High Court (Indian Kanoon)",
+          "date": "2026-09-18",
+          "supports": "FIR, raid, petitioner's role, quashing"
+        },
+        {
+          "url": "https://www.livelaw.in/high-court/gujarat-high-court/gujarat-high-court-brother-customer-immoral-traffic-act-551060",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2026-09-21",
+          "supports": "report of the order"
+        }
+      ],
+      "verification": "V2"
     }
   ]
 }
