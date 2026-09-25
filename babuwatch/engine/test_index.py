@@ -259,6 +259,28 @@ class TestDistConsistency(unittest.TestCase):
             with open(p, encoding="utf-8") as f:
                 self.assertEqual(json.load(f), c, rid)
 
+    def test_outcome_agrees_across_exports(self):
+        # Page, index, cases.json and cases.csv carry one outcome code.
+        if not self.has_dist:
+            self.skipTest("dist/ not built")
+        import csv
+        with open(os.path.join(self.dist, "data", "cases.json"),
+                  encoding="utf-8") as f:
+            exp = {c["record_id"]: c.get("outcome_type") or ""
+                   for c in json.load(f)}
+        with open(os.path.join(self.dist, "data", "index.json"),
+                  encoding="utf-8") as f:
+            idx = {r["id"]: r.get("ou", "") for r in json.load(f)}
+        for rid, ou in exp.items():
+            self.assertEqual(idx.get(rid, ou), ou, rid)
+        p = os.path.join(self.dist, "data", "cases.csv")
+        if os.path.exists(p):
+            with open(p, encoding="utf-8") as f:
+                for row in csv.DictReader(f):
+                    if row.get("record_id") in exp:
+                        self.assertEqual(row.get("outcome_type") or "",
+                                         exp[row["record_id"]], row["record_id"])
+
     def test_trial_index_shape(self):
         if not self.has_dist:
             self.skipTest("dist/ not built")

@@ -39,7 +39,7 @@ export function InflationItemPage() {
           </p>
         </section>
         <section className="border border-[var(--rule)] border-l-[3px] border-l-[var(--rust)] px-4 py-6">
-          <p className="kicker">You paid</p>
+          <p className="kicker">Government-observed price</p>
           {pair ? (
             <>
               <p className="mt-4 text-sm text-ink/70">From</p>
