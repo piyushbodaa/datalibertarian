@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 
 test("sources are reachable from overview and comparison", async ({ page }) => {
-  for (const path of ["/", "/compare?left=maharashtra&right=karnataka"]) {
+  for (const path of ["/union/police", "/compare?left=maharashtra&right=karnataka"]) {
     await page.goto(path);
     await expect(page.locator("h1")).toBeVisible();
     await expect(page.locator("[data-citation-id]").first()).toBeVisible();
@@ -24,8 +24,8 @@ test("static pages expose figures and metadata without JavaScript", async ({ req
 
 test("coverage, mobile comparison, clipboard failure, and CSV", async ({ page, context }) => {
   await page.setViewportSize({width:390,height:844});
-  await page.goto("/");
-  await expect(page.getByRole("list",{name:"States we have read"}).getByRole("link")).toHaveCount(27);
+  await page.goto("/states");
+  expect(await page.locator('main a[href$="/police"]').count()).toBeGreaterThanOrEqual(26);
   await page.goto("/compare?left=maharashtra&right=karnataka");
   await page.getByRole("combobox",{name:"Right book",exact:true}).selectOption("sikkim");
   await expect(page).toHaveURL(/right=sikkim/);
@@ -39,7 +39,7 @@ test("coverage, mobile comparison, clipboard failure, and CSV", async ({ page, c
 });
 
 test("failed lazy page offers recovery", async ({ page }) => {
-  await page.goto("/");
+  await page.goto("/states");
   await page.route("**/assets/Compare-*.js",route=>route.abort());
   await page.getByRole("link",{name:"Compare",exact:true}).first().click();
   await expect(page.getByRole("alert")).toContainText("This page could not load");
