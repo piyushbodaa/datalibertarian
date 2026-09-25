@@ -25,7 +25,7 @@ test("static pages expose figures and metadata without JavaScript", async ({ req
 test("coverage, mobile comparison, clipboard failure, and CSV", async ({ page, context }) => {
   await page.setViewportSize({width:390,height:844});
   await page.goto("/states");
-  expect(await page.locator('main a[href$="/police"]').count()).toBeGreaterThanOrEqual(26);
+  await expect.poll(() => page.locator('main a[href$="/police"]').count()).toBeGreaterThanOrEqual(26);
   await page.goto("/compare?left=maharashtra&right=karnataka");
   await page.getByRole("combobox",{name:"Right book",exact:true}).selectOption("sikkim");
   await expect(page).toHaveURL(/right=sikkim/);
