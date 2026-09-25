@@ -82595,7 +82595,7 @@
   },
   "verified_by": "t2mverify-chunk-046",
   "verified_at": "2026-09-18T13:00:00Z",
-  "verdict_note": "District Judge Court Lucknow convicted dismissed constable [name withheld] of culpable homicide for 2018 Vivek Tiwari shooting; sentence due 21 Sep 2026.",
+  "verdict_note": "District Judge Court Lucknow convicted a dismissed constable of culpable homicide (17 Sep 2026) and sentenced him to 10 years (21 Sep 2026).",
   "state": "Uttar Pradesh",
   "district": "Lucknow",
   "court": "District Judge Court, Lucknow",
@@ -82632,16 +82632,19 @@
   "sections": [
    "IPC 304"
   ],
-  "sentence": "Convicted of culpable homicide; quantum of sentence to be pronounced 21 September 2026 (pending at extraction). Co-accused constable Sandeep Kumar acquitted.",
-  "sentence_type": null,
-  "sentence_max_years": null,
+  "sentence": "10 years' imprisonment and a fine of Rs 20,000 under Part II of Section 304 IPC, pronounced on 21 September 2026; time already spent in jail since 2018 is set off. A co-accused constable was acquitted on 17 September 2026.",
+  "sentence_type": "imprisonment",
+  "sentence_max_years": 10,
   "appeal_status": "none_known",
   "appeal_url": null,
   "source_kind": "news",
   "source_agency": null,
   "primary_source_url": "https://www.amarujala.com/lucknow/apple-manager-murder-case-constable-convicted-of-culpable-homicide-second-accused-acquitted-wife-kalpana-up-2026-09-17",
-  "secondary_sources": [],
-  "summary": "The Lucknow District Judge Court on 17 September 2026 convicted dismissed constable [name withheld] of culpable homicide not amounting to murder for shooting Apple manager Vivek Tiwari in Gomti Nagar on the night of 28 September 2018 when police tried to stop his car, while acquitting co-accused constable Sandeep Kumar for want of evidence. Both policemen had been dismissed from service; the court fixed 21 September 2026 for the sentence hearing, and the victim's wife publicly criticised the verdict as too lenient.",
+  "secondary_sources": [
+   "https://www.hindustantimes.com/cities/lucknow-news/exconstable-sentenced-to-10-years-imprisonment-in-apple-executive-s-killing-101790011186854.html",
+   "https://indianexpress.com/article/cities/lucknow/apple-executive-vivek-tiwari-murder-lucknow-2018-eight-years-later-justice-10887774/"
+  ],
+  "summary": "The Lucknow District Judge's court on 17 September 2026 convicted a dismissed constable of culpable homicide not amounting to murder for shooting a 38-year-old Lucknow man, an Apple area sales manager, at a late-night patrol stop in Gomti Nagar Extension on the night of 28-29 September 2018, and acquitted a second constable for want of evidence. On 21 September 2026 the court sentenced him to 10 years' imprisonment and a Rs 20,000 fine, setting off the time he has been in jail since 2018; news reports say the court held he fired knowing the act was likely to cause death but without intent to murder. Both constables had been dismissed from service, and the victim's family said they would challenge the verdict.",
   "court_quote": "The court held dismissed constable [name withheld] guilty of culpable homicide not amounting to murder.",
   "confidence": "high",
   "tier": "Tier A — Externally reported or officially recorded",
@@ -82657,7 +82660,7 @@
   "verification_badge": "V2 · Externally reported",
   "tier_badge": "Externally reported",
   "subcategory_display": "disproportionate force",
-  "last_checked": "2026-09-19",
+  "last_checked": "2026-09-25",
   "followup_status": "checked",
   "followup_history": [
    {
@@ -82666,9 +82669,13 @@
     "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
     "result": "t2-18-008=holds",
     "corrections_applied": []
+   },
+   {
+    "date": "2026-09-25",
+    "scope": "Sentence of 21 Sep 2026 added from news reports (Hindustan Times, Indian Express); acquitted co-accused's name removed from the text."
    }
   ],
-  "case_title_or_number": "State v. [name withheld] & Anr — Vivek Tiwari (Apple manager) shooting (2018)"
+  "case_title_or_number": "State v. [name withheld] & Anr — Gomti Nagar patrol shooting of a Lucknow man (2018)"
  },
  {
   "case_id": "t2w4-19-002",

@@ -96345,10 +96345,11 @@
   "primary_source_url": "https://www.livelaw.in/pdf_upload/2026/07/15/kahc0103716320261-686997.pdf",
   "secondary_sources": [
    "https://www.livelaw.in/high-court/karnataka-high-court/illegal-arrest-5-lakh-compensation-kodagu-homestay-owner-us-tourist-rape-541365",
-   "https://www.barandbench.com/news/litigation/karnataka-hc-orders-5-lakh-compensation-to-coorg-homestay-owner-illegally-arrested-for-not-reporting-rape-of-tourist"
+   "https://www.barandbench.com/news/litigation/karnataka-hc-orders-5-lakh-compensation-to-coorg-homestay-owner-illegally-arrested-for-not-reporting-rape-of-tourist",
+   "https://www.livelaw.in/top-stories/supreme-court-refuses-interfere-compensation-awarded-illegal-arrest-kodagu-homestay-case-551569"
   ],
-  "summary": "replace 'though the court found he had not been told of the assault' with the court's actual finding at para 8 (owners were not immediately at home; after being informed they took all legally necessary steps) and that illegality rested on arrest for non-cognizable offences without Arnesh Kumar/41-41A compliance. Matters not addressed in the cited judgment text are not recorded here.",
-  "summary_verified": "replace 'though the court found he had not been told of the assault' with the court's actual finding at para 8 (owners were not immediately at home; after being informed they took all legally necessary steps) and that illegality rested on arrest for non-cognizable offences without Arnesh Kumar/41-41A compliance",
+  "summary": "The Karnataka High Court held that a Kodagu homestay owner's arrest by Kutta Police in April 2026, in a case over the alleged rape of a foreign guest, was illegal: the offences alleged against him personally were non-cognizable, he was not present when the alleged offence occurred, and the arrest did not comply with the safeguards in Arnesh Kumar and Sections 41/41A. He had been held for 13 days before bail. The High Court declined to quash the FIR but ordered the State to pay him Rs. 5,00,000 as compensation. On 22.09.2026 the Supreme Court dismissed the State of Karnataka's special leave petition against that order.",
+  "summary_verified": "The Karnataka High Court held that a Kodagu homestay owner's arrest by Kutta Police in April 2026, in a case over the alleged rape of a foreign guest, was illegal: the offences alleged against him personally were non-cognizable, he was not present when the alleged offence occurred, and the arrest did not comply with the safeguards in Arnesh Kumar and Sections 41/41A. He had been held for 13 days before bail. The High Court declined to quash the FIR but ordered the State to pay him Rs. 5,00,000 as compensation. On 22.09.2026 the Supreme Court dismissed the State of Karnataka's special leave petition against that order.",
   "court_quote": "In the case at hand, in view of the preceding analysis, the arrest of the petitioner is held to be manifestly illegal and in patent violation of the guidelines laid down by the Apex Court in ARNESH KUMAR supra. The inevitable legal consequence of such a finding is that the petitioner becomes entitled to compensation payable by the State for the unlawful invasion of his liberty and dignity. This Court deems it appropriate to assess such compensation at ₹5,00,000/-, to be paid by the State to the petitioner.",
   "court_quote_para": "21",
   "confidence": "high",
@@ -96384,7 +96385,14 @@
     "recheck": "Not yet re-checked."
    }
   ],
-  "later_proceedings": [],
+  "later_proceedings": [
+   {
+    "court": "Supreme Court of India",
+    "date": "2026-09-22",
+    "url": "https://www.livelaw.in/pdf_upload/2026/09/23/51123202622374625order22-sep-2026-702080.pdf",
+    "outcome": "dismissed"
+   }
+  ],
   "final_outcome_url": null,
   "followup_history": [
    {
@@ -96397,10 +96405,14 @@
      "court_quote",
      "court_quote_para"
     ]
+   },
+   {
+    "date": "2026-09-25",
+    "scope": "Later proceedings: Supreme Court order of 22.09.2026 in SLP (Crl.) No. 16734/2026 read; summary rewritten from the High Court findings (the previous text was a verifier note)."
    }
   ],
   "followup_status": "checked",
-  "last_checked": "2026-09-19",
+  "last_checked": "2026-09-25",
   "link_checked_per_url": [
    {
     "url": "https://www.livelaw.in/pdf_upload/2026/07/15/kahc0103716320261-686997.pdf",
@@ -221826,6 +221838,425 @@
    "swarm-verify-cop-ml-hc"
   ],
   "merged_case_id": "cop-ml-hc-1",
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0096",
+  "status": "current",
+  "merged_id": "CWC-1386",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs Investigating Officer, Saroor Nagar Police Station & Anr",
+  "display_title_redacted": "[name withheld] vs Investigating Officer, Saroor Nagar Police Station & Anr",
+  "state": "Telangana",
+  "district": "Ranga Reddy",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Saroor Nagar Police Station",
+  "court": "High Court for the State of Telangana",
+  "court_as_verified": "High Court for the State of Telangana",
+  "bench": null,
+  "case_title": "[name withheld] vs Investigating Officer, Saroor Nagar Police Station & Anr",
+  "case_number": "Contempt Case No. 2485 of 2026",
+  "citation": null,
+  "judges": [
+   "K. Sujana"
+  ],
+  "judgment_date": "2026-09-18",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2026-04-28",
+  "incident_year": 2026,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "illegal_detention_false_imprisonment",
+  "subcategory": "illegal_detention_false_imprisonment",
+  "subcategory_display": "illegal detention false imprisonment",
+  "protest_override_heuristic": false,
+  "outcome_type": "conviction_by_hc",
+  "sections": [
+   "Sections 10, 11 and 12 of the Contempt of Courts Act, 1971"
+  ],
+  "officers": [
+   {
+    "rank": "Investigating Officer (reported as an Assistant Commissioner of Police)",
+    "role": "convicted",
+    "unit": "Saroor Nagar Police Station, Telangana Police",
+    "name": null,
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Investigating Officer (reported as an Assistant Commissioner of Police), Saroor Nagar Police Station, Telangana Police"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": true,
+  "victim_count": 1,
+  "sentence_type": "imprisonment",
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://www.livelaw.in/telangana-high-court/telangana-high-court-police-officer-ignored-arrest-protection-order-551732",
+  "secondary_sources": [],
+  "summary": "The High Court recorded that it had granted a man interim protection from arrest on 21.04.2026, extended on 23.04.2026 and 27.04.2026, in an FIR registered at Saroor Nagar Police Station, and that he was nevertheless arrested on 28.04.2026 and produced before the Magistrate, who refused remand. The High Court rejected the investigating officer's apology and his explanation that he did not know of the extension, holding that he knew of the first protection order and should have verified its status, including from the court's website. The High Court held the investigating officer guilty of wilful disobedience and sentenced him to one month's imprisonment and a fine of Rs. 2,000; the contempt case against a sub-inspector was dismissed because he had no role in the arrest. At the Public Prosecutor's request the sentence was suspended till 19.10.2026 to allow an appeal.",
+  "summary_verified": "The High Court recorded that it had granted a man interim protection from arrest on 21.04.2026, extended on 23.04.2026 and 27.04.2026, in an FIR registered at Saroor Nagar Police Station, and that he was nevertheless arrested on 28.04.2026 and produced before the Magistrate, who refused remand. The High Court rejected the investigating officer's apology and his explanation that he did not know of the extension, holding that he knew of the first protection order and should have verified its status, including from the court's website. The High Court held the investigating officer guilty of wilful disobedience and sentenced him to one month's imprisonment and a fine of Rs. 2,000; the contempt case against a sub-inspector was dismissed because he had no role in the arrest. At the Public Prosecutor's request the sentence was suspended till 19.10.2026 to allow an appeal.",
+  "court_quote": "This Court holds that respondent No.1 has willfully disobeyed the orders passed by this Court and is, therefore, liable to be punished for contempt.",
+  "court_quote_para": "18",
+  "confidence": "high",
+  "verdict": "accept",
+  "verdict_note": "Checked against the order dated 18.09.2026 (LiveLaw PDF of Contempt Case No. 2485 of 2026). The order text calls the officer the Investigating Officer; the rank of Assistant Commissioner of Police comes from news reports.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Court finding",
+    "position_explainer": "A court has made a finding on this allegation.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-09-18",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court for the State of Telangana",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court held the investigating officer guilty of contempt and sentenced him to one month's imprisonment and a fine of Rs. 2,000, suspended till 19.10.2026.",
+    "disposition": "conviction by HC (contempt)",
+    "source": "Contempt Case No. 2485 of 2026",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-25",
+    "scope": "Past-week sweep: record written from the order text; quote checked verbatim against the order."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-25",
+  "link_checked_per_url": [
+   {
+    "url": "https://www.livelaw.in/telangana-high-court/telangana-high-court-police-officer-ignored-arrest-protection-order-551732",
+    "link_checked": "2026-09-25"
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": true,
+  "verified_by": [
+   "claude-opus-5.5-week-0925"
+  ],
+  "merged_case_id": null,
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0097",
+  "status": "current",
+  "merged_id": "CWC-1387",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs State Of Punjab",
+  "display_title_redacted": "[name withheld] vs State Of Punjab",
+  "state": "Punjab",
+  "district": "Sahibzada Ajit Singh Nagar",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Police Station Mataur, SAS Nagar",
+  "court": "Supreme Court of India",
+  "court_as_verified": "Supreme Court of India",
+  "bench": null,
+  "case_title": "[name withheld] vs State Of Punjab",
+  "case_number": "Criminal Appeal No. 4234 of 2026 (SLP (Crl.) No. 11103 of 2026)",
+  "citation": "2026 INSC 1022",
+  "judges": [
+   "Ujjal Bhuyan",
+   "Atul S. Chandurkar"
+  ],
+  "judgment_date": "2026-09-21",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2026-05-17",
+  "incident_year": 2026,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "illegal_detention_false_imprisonment",
+  "subcategory": "illegal_detention_false_imprisonment",
+  "subcategory_display": "illegal detention false imprisonment",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Article 22(1) of the Constitution of India",
+   "Article 22(2) of the Constitution of India",
+   "Section 47 of the Bharatiya Nagarik Suraksha Sanhita, 2023"
+  ],
+  "officers": [
+   {
+    "rank": "Assistant Sub-Inspector (investigating officer)",
+    "role": "named_in_finding",
+    "unit": "Police Station Mataur, SAS Nagar, Punjab Police",
+    "name": null,
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Assistant Sub-Inspector (investigating officer), Police Station Mataur, SAS Nagar, Punjab Police"
+   },
+   {
+    "rank": "Inspector, Station House Officer",
+    "role": "named_only",
+    "unit": "Police Station Mataur, SAS Nagar, Punjab Police",
+    "name": null,
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Inspector, Station House Officer, Police Station Mataur, SAS Nagar, Punjab Police"
+   }
+  ],
+  "officer_count": 2,
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": true,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/144049703/",
+  "secondary_sources": [
+   "https://www.livelaw.in/pdf_upload/2026/09/21/3504120262026-09-21-701585.pdf",
+   "https://www.livelaw.in/top-stories/police-officer-who-arrests-without-furnishing-written-grounds-must-face-departmental-enquiry-supreme-court-551024"
+  ],
+  "summary": "The Supreme Court recorded that Punjab Police arrested a man at about 07:54 am on 17.05.2026 in a case registered at Mataur Police Station and produced him before the duty Magistrate only around noon on 18.05.2026, and that no written grounds of arrest were given to him; the Magistrate declared the arrest illegal and ordered his release. The Supreme Court set aside the High Court's order of 29.05.2026 staying that release. It held that re-arrest after such a breach needs the Magistrate's permission on an application that first furnishes the grounds of arrest. The State told the Court that a preliminary enquiry found the investigating Assistant Sub-Inspector guilty of blatant neglect of duty and that he was suspended, while the Station House Officer was transferred. The Court directed departmental enquiry in such lapses and expressed no opinion on the merits of the accusation.",
+  "summary_verified": "The Supreme Court recorded that Punjab Police arrested a man at about 07:54 am on 17.05.2026 in a case registered at Mataur Police Station and produced him before the duty Magistrate only around noon on 18.05.2026, and that no written grounds of arrest were given to him; the Magistrate declared the arrest illegal and ordered his release. The Supreme Court set aside the High Court's order of 29.05.2026 staying that release. It held that re-arrest after such a breach needs the Magistrate's permission on an application that first furnishes the grounds of arrest. The State told the Court that a preliminary enquiry found the investigating Assistant Sub-Inspector guilty of blatant neglect of duty and that he was suspended, while the Station House Officer was transferred. The Court directed departmental enquiry in such lapses and expressed no opinion on the merits of the accusation.",
+  "court_quote": "If the enquiry culminates in adverse finding against the erring police officer(s), it would entail departmental action with entry in the service book of such officer(s).",
+  "court_quote_para": "25",
+  "confidence": "high",
+  "verdict": "accept",
+  "verdict_note": "Checked against the Supreme Court judgment dated 21.09.2026 (2026 INSC 1022). No compensation was awarded in this judgment.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Court finding",
+    "position_explainer": "A court has made a finding on this allegation.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-09-21",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "Supreme Court of India",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The Supreme Court upheld the Magistrate's finding that the arrest breached Article 22 and set aside the High Court's stay; the State reported the investigating officer suspended and the SHO transferred.",
+    "disposition": "adverse finding",
+    "source": "2026 INSC 1022",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-25",
+    "scope": "Past-week sweep: record written from the order text; quote checked verbatim against the order."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-25",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/144049703/",
+    "link_checked": "2026-09-25"
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": true,
+  "verified_by": [
+   "claude-opus-5.5-week-0925"
+  ],
+  "merged_case_id": null,
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0098",
+  "status": "current",
+  "merged_id": "CWC-1388",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs The State Of Maharashtra And Anr",
+  "display_title_redacted": "[name withheld] vs The State Of Maharashtra And Anr",
+  "state": "Maharashtra",
+  "district": "Mumbai Suburban",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "Kasturba Marg Police Station, Borivali East",
+  "court": "High Court of Judicature at Bombay",
+  "court_as_verified": "High Court of Judicature at Bombay",
+  "bench": null,
+  "case_title": "[name withheld] vs The State Of Maharashtra And Anr",
+  "case_number": "Criminal Application No. 612 of 2018",
+  "citation": null,
+  "judges": [
+   "Milind N. Jadhav"
+  ],
+  "judgment_date": "2026-09-10",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2018-02-04",
+  "incident_year": 2018,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "false_implication_fabrication",
+  "subcategory": "false_implication_fabrication",
+  "subcategory_display": "false implication fabrication",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Sections 353, 504 and 506 of the Indian Penal Code, 1860 (charges quashed)"
+  ],
+  "officers": [
+   {
+    "rank": "Police Constable (complainant)",
+    "role": "held_liable",
+    "unit": "Kasturba Marg Police Station, Mumbai Police",
+    "name": null,
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "display": "Police Constable (complainant), Kasturba Marg Police Station, Mumbai Police"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": true,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/56743685/",
+  "secondary_sources": [
+   "https://www.livelaw.in/bombay-high-court/cop-demanded-rs-300-bribe-foisted-false-case-551096"
+  ],
+  "summary": "The High Court recorded that a constable stopped a Mumbai jeweller on his motorcycle in Borivali East on 04.02.2018, kept his licence, and, by the man's account, demanded Rs. 500 as a penalty or Rs. 300 as a bribe; the man was then detained at Kasturba Marg Police Station until an FIR for assault and intimidation was registered around 2:00 am. The High Court held that the man's mobile-phone video and the constable's WhatsApp messages with senior officers prima facie showed the constable and his colleagues were instrumental in foisting a false case. It noted that police-station CCTV footage that should have been preserved was not available. The High Court quashed the chargesheet before the Borivali Metropolitan Magistrate and ordered any confiscated licence returned.",
+  "summary_verified": "The High Court recorded that a constable stopped a Mumbai jeweller on his motorcycle in Borivali East on 04.02.2018, kept his licence, and, by the man's account, demanded Rs. 500 as a penalty or Rs. 300 as a bribe; the man was then detained at Kasturba Marg Police Station until an FIR for assault and intimidation was registered around 2:00 am. The High Court held that the man's mobile-phone video and the constable's WhatsApp messages with senior officers prima facie showed the constable and his colleagues were instrumental in foisting a false case. It noted that police-station CCTV footage that should have been preserved was not available. The High Court quashed the chargesheet before the Borivali Metropolitan Magistrate and ordered any confiscated licence returned.",
+  "court_quote": "the prosecution story is not only unbelievable but in my opinion it is a false and concocted story and case foisted on the Applicant.",
+  "court_quote_para": "11",
+  "confidence": "high",
+  "verdict": "accept",
+  "verdict_note": "Checked against the order dated 10.09.2026 (reported 21.09.2026). The High Court made a prima facie finding while quashing; no compensation or action against the constable was ordered.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Court finding (prima facie)",
+    "position_explainer": "The court made a prima facie finding while quashing the case against the man.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-09-10",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Judicature at Bombay",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court quashed the chargesheet, finding prima facie that the complainant constable and colleagues foisted a false case.",
+    "disposition": "adverse finding",
+    "source": "Criminal Application No. 612 of 2018",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-25",
+    "scope": "Past-week sweep: record written from the order text; quote checked verbatim against the order."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-25",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/56743685/",
+    "link_checked": "2026-09-25"
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": true,
+  "verified_by": [
+   "claude-opus-5.5-week-0925"
+  ],
+  "merged_case_id": null,
   "officers_named_public": 0,
   "record_flag": null
  }
