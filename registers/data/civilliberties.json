@@ -2443,6 +2443,238 @@
           "text": "A citizen faces criminal charges for filming and posting the condition of a public school, with no allegation of violence or threats."
         }
       ]
+    },
+    {
+      "id": "cl-mh-0003",
+      "category": "speech",
+      "state": "Maharashtra",
+      "district": "Mumbai Suburban",
+      "title": "Police detain a Congress MP and student activists protesting outside IIT Bombay over a student's death",
+      "summary": "Mumbai police detained a Congress MP, party workers and NSUI student activists on 24 September 2026 as they protested outside IIT Bombay's Powai campus over the death of a second-year student. The protesters were demanding accountability from the institute. They were taken to a police station; no charges were reported.",
+      "date": "2026-09-24",
+      "date_label": "Protest detention reported",
+      "incident_date": "2026-09-24",
+      "outcome": "arrest",
+      "authority": "Mumbai Police",
+      "case_reference": "No FIR number reported",
+      "laws": [
+        "Detention during a protest; provisions not printed in the cited reports"
+      ],
+      "acts": [
+        "Provisions not printed in the cited reports"
+      ],
+      "person": "a Congress Member of Parliament, party workers and NSUI student activists",
+      "detail": [
+        "The New Indian Express reported that the MP and dozens of Congress workers and NSUI activists gathered outside the Powai campus to express solidarity with the family of a 22-year-old student found dead in his hostel room on 18 September.",
+        "The New Indian Express reported that police detained the MP and several protesters, including women workers, and took them to a local police station, an official said.",
+        "ThePrint reported that the MP called the death an 'institutional murder' and demanded a comprehensive probe, and that the institute reissued an apology for its earlier statement about the death."
+      ],
+      "current_position": "Protesters were detained and taken to a police station; no FIR or charges were reported.",
+      "quote": {
+        "text": "took them to a local police station for further legal action, an official said.",
+        "where": "The New Indian Express, 24.09.2026",
+        "url": "https://www.newindianexpress.com/states/maharashtra/2026/Sep/24/iit-bombay-student-suicide-congress-mp-varsha-gaikwad-nsui-protesters-detained"
+      },
+      "caveats": "Whether the protesters were formally arrested, released or charged was not reported. The student's name is withheld.",
+      "sources": [
+        {
+          "url": "https://www.newindianexpress.com/states/maharashtra/2026/Sep/24/iit-bombay-student-suicide-congress-mp-varsha-gaikwad-nsui-protesters-detained",
+          "kind": "news",
+          "publisher": "The New Indian Express",
+          "date": "2026-09-24",
+          "supports": "protest, detention, removal to a police station"
+        },
+        {
+          "url": "https://theprint.in/politics/iit-bombay-students-death-congress-mp-varsha-gaikwad-detained-during-protest/3052599/",
+          "kind": "news",
+          "publisher": "ThePrint",
+          "date": "2026-09-24",
+          "supports": "detention of the MP, party workers and NSUI activists; demands"
+        }
+      ],
+      "verification": "V1",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "Police detained a legislator and students for a protest demanding accountability, with no report of violence by the protesters."
+        }
+      ]
+    },
+    {
+      "id": "cl-mh-0004",
+      "category": "speech",
+      "state": "Maharashtra",
+      "district": "Mumbai Suburban",
+      "title": "Mumbai police search activists' homes over a Gaza solidarity kite-flying event",
+      "summary": "Bandra police searched the homes of members of a pro-Palestine citizens' group on 18 September 2026 after videos showed them flying kites with Palestinian flags and posters in Bandra West on 15 September. Police said the organisers had no permission and examined books and other material. The group says there was no warrant or notice and that members were detained for questioning and their phones taken.",
+      "date": "2026-09-18",
+      "date_label": "Police search of homes",
+      "incident_date": "2026-09-15",
+      "outcome": "seizure",
+      "authority": "Mumbai Police (Bandra police)",
+      "case_reference": "No FIR number reported; a panchnama of seized material was being prepared",
+      "laws": [
+        "Search and questioning over an event held without permission; provisions not printed in the cited reports"
+      ],
+      "acts": [
+        "Provisions not printed in the cited reports"
+      ],
+      "person": "members of a pro-Palestine citizens' group, including a 26-year-old student volunteer",
+      "detail": [
+        "Hindustan Times reported that videos on social media showed the group flying kites and displaying Palestinian flags and posters near Otters Club in Bandra West on 15 September, as part of an international 'Global Gaza Kite Weekend'.",
+        "Police told Hindustan Times the organisers had not obtained permission, that they questioned those involved and searched their homes for material including books, and that a panchnama was being prepared.",
+        "The Hindu reported the group's statement that the search at a student volunteer's home began at 5:30 pm without a warrant, written notice or documentation, and that members present were not allowed to leave.",
+        "The group said members' phones were seized and later returned, and that one person was questioned at Bandra police station and released that evening."
+      ],
+      "current_position": "Police said seized material was being analysed; no FIR or charges were reported.",
+      "quote": {
+        "text": "We questioned them and even checked their houses in Vakola for any material like books or any other material.",
+        "where": "A police officer, quoted by Hindustan Times, 20.09.2026",
+        "url": "https://www.hindustantimes.com/cities/mumbai-news/they-checked-our-books-phones-police-search-homes-of-pro-palestine-activists-after-kite-event-101789844047872.html"
+      },
+      "caveats": "The account of the search without a warrant comes from the group; police gave their reasons to Hindustan Times. No FIR was reported.",
+      "sources": [
+        {
+          "url": "https://www.hindustantimes.com/cities/mumbai-news/they-checked-our-books-phones-police-search-homes-of-pro-palestine-activists-after-kite-event-101789844047872.html",
+          "kind": "news",
+          "publisher": "Hindustan Times",
+          "date": "2026-09-20",
+          "supports": "event, police reasons, searches, panchnama, group's allegations"
+        },
+        {
+          "url": "https://www.thehindu.com/news/cities/mumbai/mumbai-police-search-activists-home-over-kite-event-for-palestinian-children/article71487492.ece",
+          "kind": "news",
+          "publisher": "The Hindu",
+          "date": "2026-09-20",
+          "supports": "search on 18 September without a warrant, detention at home, questioning at Bandra police station"
+        }
+      ],
+      "verification": "V1",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "Police searched homes and questioned people for a peaceful, symbolic solidarity event, with no allegation of violence."
+        }
+      ]
+    },
+    {
+      "id": "cl-tg-0001",
+      "category": "speech",
+      "state": "Telangana",
+      "district": "Hyderabad",
+      "title": "Opposition party's social-media convener arrested after police break into his home over a post",
+      "summary": "Hyderabad police arrested an opposition party's social-media convener at his home on 18 September 2026 over a post questioning an incident at Saifabad police station, breaking the lock of his gate to enter. A Nampally court refused to remand him. The Telangana High Court the same day directed police not to arrest him and to proceed by notice, noting all the offences carry less than three years.",
+      "date": "2026-09-18",
+      "date_label": "Arrest, remand refusal and High Court order",
+      "incident_date": "2026-09-18",
+      "outcome": "arrest",
+      "authority": "Hyderabad City Police; Nampally court; Telangana High Court, Justice T. Madhavi Devi",
+      "case_reference": "Case registered at Saifabad police station (number not reported)",
+      "laws": [
+        "Offences punishable with less than three years' imprisonment (sections not printed in the cited reports)",
+        "Section 35(3) of the Bharatiya Nagarik Suraksha Sanhita, 2023 (notice of appearance)"
+      ],
+      "acts": [
+        "Bharatiya Nagarik Suraksha Sanhita, 2023"
+      ],
+      "person": "the social-media convener of an opposition party in Telangana",
+      "detail": [
+        "Siasat reported that police surrounded his house from early morning and broke open the lock of the iron grill to arrest him over a social-media post about an incident at Saifabad police station on 14 September involving staff of a party leader.",
+        "Siasat reported that the Nampally court rejected the police remand request in view of Supreme Court guidelines.",
+        "The New Indian Express reported that the Telangana High Court directed police not to arrest him, to issue a notice under Section 35(3) BNSS, and allowed the investigation to continue subject to his cooperation.",
+        "The New Indian Express reported the court was told all offences in the FIR carry less than three years' imprisonment."
+      ],
+      "current_position": "Protected from arrest by the High Court; the investigation continues through notice.",
+      "quote": {
+        "text": "the court said it was rejecting the remand request in view of the guidelines laid down by the Supreme Court.",
+        "where": "Siasat, 19.09.2026",
+        "url": "https://www.siasat.com/court-rejects-krishanks-remand-after-dramatic-arrest-3544647/"
+      },
+      "caveats": "The FIR and the court orders were not read directly; the post's wording was not reported in full. The post reportedly targeted an IPS officer.",
+      "sources": [
+        {
+          "url": "https://www.siasat.com/court-rejects-krishanks-remand-after-dramatic-arrest-3544647/",
+          "kind": "news",
+          "publisher": "The Siasat Daily",
+          "date": "2026-09-19",
+          "supports": "arrest, break-in, remand refused, post subject"
+        },
+        {
+          "url": "https://www.newindianexpress.com/states/telangana/2026/Sep/19/telangana-hc-protects-brs-leader-krishank-from-arrest-in-social-media-post-case",
+          "kind": "news",
+          "publisher": "The New Indian Express",
+          "date": "2026-09-19",
+          "supports": "High Court direction not to arrest, Section 35(3) notice, offences under three years"
+        }
+      ],
+      "verification": "V1",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "A political worker was arrested in a pre-dawn raid over a social-media post about police conduct, for offences the court was told carry under three years."
+        }
+      ]
+    },
+    {
+      "id": "cl-dl-0002",
+      "category": "speech",
+      "state": "Delhi",
+      "district": "New Delhi",
+      "title": "Court orders FIR against a journalist over X posts even after police found commentary and satire",
+      "summary": "A lawyer complained that a journalist's posts and videos on X in 2025 insulted Hindu figures, historical personalities and the Prime Minister. The police status report said the posts contained commentary, criticism and satire and found no deliberate attempt to incite communal disharmony. On 17 September 2026 a Patiala House magistrate still directed the Cyber Police to register an FIR.",
+      "date": "2026-09-17",
+      "date_label": "Magistrate's order directing an FIR",
+      "incident_date": "2025-02-09",
+      "outcome": "prosecution_pending",
+      "authority": "Chief Judicial Magistrate, Patiala House Courts; Cyber Police Station, New Delhi",
+      "case_reference": "Application under Section 175(3) BNSS (number not reported)",
+      "laws": [
+        "Section 175(3) of the Bharatiya Nagarik Suraksha Sanhita, 2023 (court-directed FIR)"
+      ],
+      "acts": [
+        "Bharatiya Nagarik Suraksha Sanhita, 2023"
+      ],
+      "person": "a journalist who posts on X",
+      "detail": [
+        "LiveLaw reported that a lawyer alleged the posts and videos between February and April 2025 insulted Hindu beliefs and figures, the Prime Minister and historical figures and tried to promote communal disharmony.",
+        "LiveLaw reported that the Cyber Police status report said the posts contained obscenity, material directly targeting Hinduism and political or historical commentary, criticism and satire, and that its inquiry found no evidence of a deliberate attempt to incite communal disharmony.",
+        "The magistrate held that authorship, dissemination and electronic records needed investigation and that the complaint disclosed cognizable offences, while expressing no opinion on the merits.",
+        "Deccan Chronicle reported the court directed the SHO to register the FIR and file a compliance report within a week."
+      ],
+      "current_position": "An FIR was ordered; investigation by the Cyber Police is pending.",
+      "quote": {
+        "text": "Such evidence is not wholly within the reach of the complainant,",
+        "where": "Chief Judicial Magistrate, Patiala House Courts, order dated 17.09.2026, as quoted by LiveLaw",
+        "url": "https://www.livelaw.in/news-updates/delhi-court-orders-fir-against-x-user-karishma-aziz-over-derogatory-posts-targeting-hinduism-pm-modi-savarkar-550533"
+      },
+      "caveats": "The order itself was not read; the account is from LiveLaw and Deccan Chronicle. The complaint also alleges obscenity.",
+      "sources": [
+        {
+          "url": "https://www.livelaw.in/news-updates/delhi-court-orders-fir-against-x-user-karishma-aziz-over-derogatory-posts-targeting-hinduism-pm-modi-savarkar-550533",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2026-09-17",
+          "supports": "complaint, police status report, magistrate's reasoning"
+        },
+        {
+          "url": "https://www.deccanchronicle.com/nation/delhi-hc-directs-fir-against-journalist-over-alleged-derogatory-posts-against-hindu-saints-1988419",
+          "kind": "news",
+          "publisher": "Deccan Chronicle",
+          "date": "2026-09-18",
+          "supports": "direction to register FIR and compliance report"
+        }
+      ],
+      "verification": "V1",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "A journalist faces a criminal case over political and religious commentary on social media that the police's own inquiry said showed no deliberate incitement."
+        }
+      ]
     }
   ]
 }
