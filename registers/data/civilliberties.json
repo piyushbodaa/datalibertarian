@@ -1778,6 +1778,671 @@
         }
       ],
       "verification": "V1"
+    },
+    {
+      "id": "cl-tn-0003",
+      "category": "speech",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "title": "Madras High Court quashes hate-speech case over a political leader's press-meet remark",
+      "summary": "A Salem magistrate took cognisance of a private complaint under hate-speech sections against a former Tamil Nadu BJP president over a remark at a press meet attributed to a freedom fighter. The Madras High Court quashed the case on 24 September 2026. It held there was no material that the speech was intended or likely to incite violence or promote disharmony.",
+      "date": "2026-09-24",
+      "date_label": "High Court order quashing the case",
+      "outcome": "quashed",
+      "authority": "Madras High Court, Justice G.K. Ilanthiraiyan; Judicial Magistrate No. IV, Salem",
+      "case_reference": "Crl.O.P. No. 9798 of 2026; C.C. No. 306 of 2026",
+      "laws": [
+        "Section 153A of the Indian Penal Code, 1860",
+        "Section 505(1)(c) of the Indian Penal Code, 1860"
+      ],
+      "acts": [
+        "Indian Penal Code, 1860"
+      ],
+      "person": "a former state president of the BJP in Tamil Nadu",
+      "detail": [
+        "The High Court recorded that a Salem resident filed a private complaint alleging the petitioner, at a press meet, attributed to freedom fighter Muthuramalinga Thevar a 1956 statement that the complainant said was never made and was provocative.",
+        "The Judicial Magistrate No. IV, Salem took cognisance under Sections 153A and 505(1)(c) of the IPC and issued summons in C.C. No. 306 of 2026; the High Court had earlier stayed the trial.",
+        "The High Court held the speech did not refer to two or more groups, was made as a political response to remarks by a member of another party, and that there was no material showing actual or imminent disharmony, enmity, hatred or violence.",
+        "The High Court held the foundational ingredients of the offences were not disclosed and quashed the proceedings on 24 September 2026."
+      ],
+      "current_position": "The proceedings in C.C. No. 306 of 2026 before the Salem magistrate stand quashed.",
+      "quote": {
+        "text": "The criminal process cannot be permitted to be used as a weapon for settling political scores or to stifle legitimate political dissent.",
+        "where": "Crl.O.P. No. 9798 of 2026, Madras High Court, pronounced 24.09.2026, para 14",
+        "url": "https://www.livelaw.in/pdf_upload/2026/09/24/annamalai-v-piyush-702399.pdf"
+      },
+      "caveats": "The complaint was a private complaint, not a police FIR; the magistrate's cognisance and summons are the state action. The remark itself is described only as reported in the order.",
+      "sources": [
+        {
+          "url": "https://www.livelaw.in/pdf_upload/2026/09/24/annamalai-v-piyush-702399.pdf",
+          "kind": "judgment",
+          "publisher": "Madras High Court (via LiveLaw PDF)",
+          "date": "2026-09-24",
+          "supports": "complaint, cognisance, sections, reasoning and quashing order"
+        },
+        {
+          "url": "https://www.livelaw.in/madras-high-court/madras-high-court-hate-speech-case-annamalai-muthuramalinga-thevar-quashed-551737",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2026-09-25",
+          "supports": "summary of the order and arguments"
+        }
+      ],
+      "verification": "V2",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "A political leader faced prosecution under hate-speech sections for a remark at a press meet, with no allegation that anyone was harmed or that violence followed."
+        }
+      ]
+    },
+    {
+      "id": "cl-ka-0003",
+      "category": "speech",
+      "state": "Karnataka",
+      "district": "Bengaluru Urban",
+      "title": "High Court ends five-year-old IT Act case over a student's Instagram post after an actor's death",
+      "summary": "Bengaluru police booked a student in 2021 over an offensive Instagram story posted after a film actor's death. The Karnataka High Court quashed the case on 18 September 2026. It held the post, though vulgar, was not obscene under the IT Act and did not promote enmity between groups.",
+      "date": "2026-09-18",
+      "date_label": "High Court order quashing the case",
+      "incident_date": "2021-11-01",
+      "outcome": "quashed",
+      "authority": "Karnataka High Court, Justice Suraj Govindaraj; Subramanya Nagar Police Station, Bengaluru",
+      "case_reference": "Criminal Petition No. 3845 of 2025; C.C. No. 3031/2022; Crime No. 159/2021",
+      "laws": [
+        "Section 67 of the Information Technology Act, 2000",
+        "Section 153A of the Indian Penal Code, 1860"
+      ],
+      "acts": [
+        "Information Technology Act, 2000",
+        "Indian Penal Code, 1860"
+      ],
+      "person": "a university student from Bengaluru",
+      "detail": [
+        "The High Court recorded that on a police sub-inspector's complaint, Subramanya Nagar Police registered Crime No. 159/2021 after an Instagram story showing a beer bottle with an offensive message was posted from the student's account after the actor's death in 2021.",
+        "The High Court held the expression, though vulgar and objectionable, was not material satisfying the ingredients of obscenity under Section 67 of the IT Act.",
+        "The High Court held that public offence or indignation is distinct from promoting enmity between groups, and that the material did not disclose any identifiable group against which enmity was promoted under Section 153A IPC.",
+        "The High Court quashed the proceedings pending before the XXXII ACJM, Bengaluru, while telling the petitioner that expression in the public domain carries a responsibility to exercise restraint."
+      ],
+      "current_position": "The proceedings in C.C. No. 3031/2022 stand quashed.",
+      "quote": {
+        "text": "The allegation that the post caused concern among members of the public or affected public sentiment cannot, without more, satisfy the ingredients of Section 153A IPC.",
+        "where": "Criminal Petition No. 3845 of 2025, Karnataka High Court, order dated 18.09.2026, para 19",
+        "url": "https://www.livelaw.in/pdf_upload/2026/09/24/3-702235.pdf"
+      },
+      "caveats": "The court did not decide the disputed question of who uploaded the post. The post's wording is not reproduced here.",
+      "sources": [
+        {
+          "url": "https://www.livelaw.in/pdf_upload/2026/09/24/3-702235.pdf",
+          "kind": "judgment",
+          "publisher": "Karnataka High Court (via LiveLaw PDF)",
+          "date": "2026-09-18",
+          "supports": "FIR, sections, reasoning and quashing order"
+        },
+        {
+          "url": "https://www.livelaw.in/karnataka-high-court/karnataka-high-court-quashes-it-act-case-young-student-offensive-instagram-post-puneeth-rajkumar-death-550689",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2026-09-18",
+          "supports": "report of the hearing and order"
+        }
+      ],
+      "verification": "V2",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "A student was prosecuted for five years over an offensive social-media post that the court found was neither obscene nor aimed at any group, with no allegation of violence or threats."
+        }
+      ]
+    },
+    {
+      "id": "cl-wb-0002",
+      "category": "speech",
+      "state": "West Bengal",
+      "district": "South 24 Parganas",
+      "title": "Calcutta High Court quashes criminal defamation case against TV editor and reporter over a recorded phone call",
+      "summary": "A singer filed a criminal defamation complaint after a news channel circulated the audio of a reporter's phone call in which he swore. An Alipore magistrate summoned the channel's editor and the reporter. The Calcutta High Court quashed the case on 16 September 2026, holding that reproducing the complainant's own words is not an imputation.",
+      "date": "2026-09-16",
+      "date_label": "High Court order quashing the case",
+      "incident_date": "2022-01-27",
+      "outcome": "quashed",
+      "authority": "Calcutta High Court, Justice Uday Kumar; Judicial Magistrate, 9th Court, Alipore",
+      "case_reference": "CRR 4680 of 2022 with CRR 842 of 2023; Complaint Case No. 1286 of 2022",
+      "laws": [
+        "Section 499 of the Indian Penal Code, 1860",
+        "Section 500 of the Indian Penal Code, 1860",
+        "Section 34 of the Indian Penal Code, 1860"
+      ],
+      "acts": [
+        "Indian Penal Code, 1860"
+      ],
+      "person": "a television news editor and a reporter",
+      "detail": [
+        "LiveLaw reported that a reporter of a Bengali news channel called a singer on 27 January 2022 for a reaction, that the singer responded with expletives and later apologised on Facebook, and that the channel circulated the audio.",
+        "The Additional Chief Judicial Magistrate, Alipore took cognisance on 19.05.2022 and the Judicial Magistrate, 9th Court issued summons on 14.07.2022 against the editor and the reporter.",
+        "The High Court held that a faithful reproduction of the complainant's own words, without an independent imputation by the accused, does not meet the ingredients of defamation, and that no independent witness said the complainant's reputation was lowered.",
+        "The High Court also found the cognizance order was passed on a printed pro forma and that the mandatory inquiry for accused living outside the magistrate's jurisdiction was not held, and quashed the proceedings against both."
+      ],
+      "current_position": "Complaint Case No. 1286 of 2022 stands quashed against the editor and the reporter.",
+      "quote": {
+        "text": "the continuation of Complaint Case No. 1286 of 2022 against both petitioners is an egregious abuse of the process of law and a travesty of justice.",
+        "where": "CRR 4680 of 2022 with CRR 842 of 2023, Calcutta High Court, order dated 16.09.2026",
+        "url": "https://indiankanoon.org/doc/165238539/"
+      },
+      "caveats": "The complainant did not appear and the High Court heard the matter ex parte.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/165238539/",
+          "kind": "judgment",
+          "publisher": "Calcutta High Court (Indian Kanoon)",
+          "date": "2026-09-16",
+          "supports": "case numbers, cognizance and summons dates, reasoning, quashing order"
+        },
+        {
+          "url": "https://www.livelaw.in/calcutta-high-court/calcutta-high-court-quashes-defamation-case-against-republic-editor-reporter-over-alleged-phone-call-with-singer-kabir-suman-550674",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2026-09-18",
+          "supports": "background of the phone call and apology"
+        }
+      ],
+      "verification": "V2",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "Journalists were prosecuted for criminal defamation for publishing a public figure's own recorded words, with no allegation of fabrication or harm beyond reputation."
+        }
+      ]
+    },
+    {
+      "id": "cl-wb-0003",
+      "category": "speech",
+      "state": "West Bengal",
+      "district": "Kolkata",
+      "title": "Newspaper editor and journalist booked over 'saffron hooliganism' headline; High Court bars coercive action",
+      "summary": "West Bengal police registered FIRs against journalists of a Bengali daily over the headline 'Gerua Gundami' (saffron hooliganism) on a report about campus violence. On 24 September 2026 the Calcutta High Court directed police not to take coercive steps against them until 15 December 2026. The criminal cases remain open.",
+      "date": "2026-09-24",
+      "date_label": "High Court interim order reported",
+      "incident_date": "2026-08-21",
+      "outcome": "prosecution_pending",
+      "authority": "Calcutta High Court, Justice Saugata Bhattacharyya; West Bengal Police",
+      "case_reference": "[name withheld] & Anr. v The State of West Bengal & Ors. (case number not reported)",
+      "laws": [
+        "FIR over a newspaper headline; sections not printed in the cited reports"
+      ],
+      "acts": [
+        "Sections not printed in the cited reports"
+      ],
+      "person": "an editor and a journalist of a Bengali daily newspaper",
+      "detail": [
+        "Bar & Bench reported that the newspaper used the headline 'Gerua Gundami' in its 21 August 2026 report on clashes at Jadavpur University on 19-20 August between ABVP and Left-affiliated student groups.",
+        "LiveLaw reported that FIRs followed and that counsel told the court the journalists were accused of attempting to incite communal feeling, and that the headline had drawn objections from the Chief Minister.",
+        "Bar & Bench reported that the State told the court custodial interrogation was not required and that the journalists had complied with police notices.",
+        "The High Court directed police not to take coercive steps till 15 December 2026, and directed the journalists to cooperate; the matter is next listed on 1 December."
+      ],
+      "current_position": "The FIRs remain under investigation; no coercive steps may be taken against the journalists till 15 December 2026 or further order.",
+      "quote": {
+        "text": "Concerned police authorities are directed not to take coercive steps against petitioners till 15th December, 2026 or until further order, whichever is earlier.",
+        "where": "Calcutta High Court order, as quoted by Bar & Bench, 25.09.2026",
+        "url": "https://www.barandbench.com/news/litigation/calcutta-high-court-grants-relief-to-abp-editor-journalist-in-fir-over-gerua-gundami-headline"
+      },
+      "caveats": "The court order and FIR text were not located; the sections invoked were not printed in either report.",
+      "sources": [
+        {
+          "url": "https://www.barandbench.com/news/litigation/calcutta-high-court-grants-relief-to-abp-editor-journalist-in-fir-over-gerua-gundami-headline",
+          "kind": "news",
+          "publisher": "Bar & Bench",
+          "date": "2026-09-25",
+          "supports": "headline, incident, State's submission and the operative direction"
+        },
+        {
+          "url": "https://www.livelaw.in/calcutta-high-court/calcutta-high-court-protects-anandabazar-patrika-journalists-from-arrest-over-saffron-hooliganism-headline-551604",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2026-09-24",
+          "supports": "FIRs, allegations, Chief Minister's objection, next date"
+        }
+      ],
+      "verification": "V1",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "Journalists face criminal cases over the wording of a newspaper headline, with no allegation of violence or threats by them."
+        }
+      ]
+    },
+    {
+      "id": "cl-gj-0002",
+      "category": "speech",
+      "state": "Gujarat",
+      "district": "Gandhinagar",
+      "title": "Journalist convicted of defaming a conglomerate over tweets jailed for a week, then granted bail",
+      "summary": "A Mansa magistrate convicted a journalist of criminal defamation in February 2026 over tweets and articles about Adani Enterprises and sentenced him to one year. During his appeal a Gandhinagar sessions court issued a non-bailable warrant for non-appearance and he was taken into custody on 17 September 2026. The Gujarat High Court refused interim relief on 23 September, and the sessions court granted him bail on 24 September.",
+      "date": "2026-09-24",
+      "date_label": "Sessions court bail reported",
+      "incident_date": "2021-09-03",
+      "outcome": "conviction",
+      "authority": "Judicial Magistrate First Class, Mansa; Principal District and Sessions Court, Gandhinagar; Gujarat High Court, Justice M.K. Thakker",
+      "case_reference": "R/Special Criminal Application (Quashing) No. 13853 of 2026 (Gujarat High Court)",
+      "laws": [
+        "Criminal defamation, Indian Penal Code, 1860 (section number not printed in the cited sources)"
+      ],
+      "acts": [
+        "Indian Penal Code, 1860"
+      ],
+      "person": "an independent journalist who lives in Kerala",
+      "detail": [
+        "LiveLaw reported that the Judicial Magistrate First Class, Mansa convicted the journalist of defamation on 10 February 2026 and sentenced him to one year's simple imprisonment and a Rs 5,000 fine, on a complaint by Adani Enterprises Ltd over tweets.",
+        "The Hindu reported that the appellate sessions court suspended the sentence on 9 March 2026 on condition that he attend the appeal hearings, then issued a non-bailable warrant for non-appearance and he was taken into custody on 17 September 2026.",
+        "The Gujarat High Court issued notice on his plea against the warrant and custody on 19 September 2026 and, LiveLaw reported, reserved its verdict and refused interim release on 23 September.",
+        "The Hindu reported that the Principal District and Sessions Judge, Gandhinagar granted him bail on 24 September 2026."
+      ],
+      "current_position": "Out on bail from 24 September 2026; his appeal against the conviction and his High Court plea against the warrant are pending.",
+      "quote": {
+        "text": "Considering the submissions advanced by learned advocate, let Notice be issued, making it returnable on 21.09.2026.",
+        "where": "Gujarat High Court, R/SCR.A/13853/2026, order dated 19.09.2026, para 4",
+        "url": "https://www.livelaw.in/pdf_upload/2026/09/21/scra138532026gjhc240720022026119092026-701420.pdf"
+      },
+      "caveats": "The trial-court judgment was not located; conviction details are from LiveLaw and The Hindu. The complainant is a company.",
+      "sources": [
+        {
+          "url": "https://www.livelaw.in/pdf_upload/2026/09/21/scra138532026gjhc240720022026119092026-701420.pdf",
+          "kind": "court_order",
+          "publisher": "Gujarat High Court (via LiveLaw PDF)",
+          "date": "2026-09-19",
+          "supports": "custody after the warrant, notice on the plea"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/court-grants-bail-to-journalist-ravi-nair-convicted-in-defamation-case-filed-by-adani-enterprises/article71507237.ece",
+          "kind": "news",
+          "publisher": "The Hindu",
+          "date": "2026-09-24",
+          "supports": "conviction and sentence, suspension, arrest date, bail on 24 September"
+        },
+        {
+          "url": "https://www.livelaw.in/gujarat-high-court/gujarat-high-court-ravi-nair-plea-for-interim-release-from-custody-adani-551410",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2026-09-23",
+          "supports": "High Court reserved verdict and refused interim release"
+        }
+      ],
+      "verification": "V2",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "A journalist was convicted and jailed under criminal defamation law over tweets and articles criticising a business group, with no allegation of violence or threats."
+        }
+      ]
+    },
+    {
+      "id": "cl-dl-0001",
+      "category": "speech",
+      "state": "Delhi",
+      "district": "New Delhi",
+      "title": "JNU fined eight students Rs 19,000 each for cheering a protest; High Court stays the fines",
+      "summary": "JNU's Proctorial Committee fined eight students Rs 19,000 each for indiscipline, alleging they cheered and supported protesters who damaged a facial-recognition system. The Delhi High Court stayed the fines on 10 September 2026. It held that at best the students were seen smiling at protesters and that cheering a demonstration is a valuable right.",
+      "date": "2026-09-10",
+      "date_label": "High Court interim order",
+      "outcome": "penalty",
+      "authority": "Delhi High Court, Justice Jasmeet Singh; Proctorial Committee, Jawaharlal Nehru University",
+      "case_reference": "W.P.(C) 13316/2026",
+      "laws": [
+        "Proctorial Committee office orders dated 02.02.2026 imposing fines for indiscipline"
+      ],
+      "acts": [
+        "JNU disciplinary proceedings (Proctorial Committee)"
+      ],
+      "person": "eight students of Jawaharlal Nehru University",
+      "detail": [
+        "The High Court recorded that the Chief Proctor issued show-cause notices alleging that five students shook camera stands and cheered students vandalising the facial-recognition system, and that three encouraged it by clapping and sloganeering.",
+        "The High Court recorded that the students denied the acts and said they were, at best, seen smiling at the protesters, and that the Proctorial Committee fined each of them Rs 19,000 on 02.02.2026.",
+        "The High Court held that even if the allegations were taken as correct, smiling at protesters is not indiscipline, and that the University's act struck a blow at the students' fundamental rights.",
+        "The High Court stayed the fines until the next date of hearing."
+      ],
+      "current_position": "The fines are stayed; the petition is listed for 12 January 2027 per LiveLaw.",
+      "quote": {
+        "text": "the right to express dissent/demonstrate and/or to express support by way of cheering for a demonstration, to my mind, constitutes a valuable right which cannot be allowed to be curbed or interdicted in any manner.",
+        "where": "W.P.(C) 13316/2026, Delhi High Court, order dated 10.09.2026, para 11",
+        "url": "https://indiankanoon.org/doc/66007178/"
+      },
+      "caveats": "This is an interim stay; the challenge to the fines is still to be decided.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/66007178/",
+          "kind": "court_order",
+          "publisher": "Delhi High Court (Indian Kanoon)",
+          "date": "2026-09-10",
+          "supports": "allegations, fines, reasoning and stay"
+        },
+        {
+          "url": "https://www.livelaw.in/delhi-high-court/jnu-students-right-to-dissent-smiling-at-protestors-cheering-demonstrations-550832",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2026-09-19",
+          "supports": "report of the order and next date"
+        }
+      ],
+      "verification": "V2",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "A public university penalised students for cheering and supporting a protest, which the court described as a valuable right, with no finding that they damaged anything."
+        }
+      ]
+    },
+    {
+      "id": "cl-ka-0004",
+      "category": "speech",
+      "state": "Karnataka",
+      "district": "Bengaluru Urban",
+      "title": "Legislator to face defamation trial over press-conference bribery allegations against a minister",
+      "summary": "A Karnataka minister filed a criminal defamation complaint against a member of the Legislative Council over allegations he made at 2024 press conferences about bribes for land-use conversion. A Bengaluru magistrate took cognisance under Section 356(2) BNS. The Karnataka High Court refused to quash the case on 7 September 2026, leaving good faith and truth to be decided at trial.",
+      "date": "2026-09-07",
+      "date_label": "High Court order refusing to quash",
+      "incident_date": "2024-07-05",
+      "outcome": "prosecution_pending",
+      "authority": "Karnataka High Court, Justice Anant Ramanath Hegde; XLII Additional Chief Judicial Magistrate, Bengaluru",
+      "case_reference": "Criminal Petition No. 14685 of 2025; C.C. No. 23151/2025",
+      "laws": [
+        "Section 356(2) of the Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "a member of the Karnataka Legislative Council",
+      "detail": [
+        "LiveLaw reported that at press conferences on 5 and 9 July 2024 about suspensions in the Mysore Urban Development Authority case, the legislator alleged the then urban development minister fixed bribes for land-use conversion.",
+        "The High Court recorded that the minister's complaint led the XLII Additional Chief Judicial Magistrate, Bengaluru to take cognisance under Section 356(2) BNS in C.C. No. 23151/2025.",
+        "The High Court recorded the petitioner's argument that the statements fell under Exception 8 to Section 356 (good faith) and held that, as he did not dispute making them, good faith and harm to reputation must be tested at trial.",
+        "The High Court dismissed the petition without expressing any opinion on the merits."
+      ],
+      "current_position": "The defamation case in C.C. No. 23151/2025 continues before the Bengaluru magistrate.",
+      "quote": {
+        "text": "The Court is of the view that as to whether the statements were made in good faith, whether the statements fall under the exceptions and whether the statements have actually lowered the reputation of the complainant/respondent, are the matters that have to be considered at the time of trial.",
+        "where": "Criminal Petition No. 14685 of 2025, Karnataka High Court, order dated 07.09.2026",
+        "url": "https://www.livelaw.in/pdf_upload/2026/09/24/defamation-702184.pdf"
+      },
+      "caveats": "The order is dated 7 September and was reported on 24 September 2026. The complainant is a serving minister suing in a personal capacity.",
+      "sources": [
+        {
+          "url": "https://www.livelaw.in/pdf_upload/2026/09/24/defamation-702184.pdf",
+          "kind": "court_order",
+          "publisher": "Karnataka High Court (via LiveLaw PDF)",
+          "date": "2026-09-07",
+          "supports": "case numbers, section, arguments, reasoning and dismissal"
+        },
+        {
+          "url": "https://www.livelaw.in/karnataka-high-court/karnataka-high-court-refuses-quash-defamation-case-proceedings-mysore-mlc-551675",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2026-09-24",
+          "supports": "press-conference statements and dates"
+        }
+      ],
+      "verification": "V2",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "An opposition legislator faces criminal prosecution for corruption allegations he made against a minister at a press conference, with no allegation of violence."
+        }
+      ]
+    },
+    {
+      "id": "cl-ka-0005",
+      "category": "speech",
+      "state": "Karnataka",
+      "district": "Dakshina Kannada",
+      "title": "High Court quashes enmity FIR over a WhatsApp status posted after the 2024 election result",
+      "summary": "Subramanya police in Dakshina Kannada registered an FIR under Section 505(2) IPC after a party worker complained about a man's WhatsApp status on the 2024 Lok Sabha result. The Karnataka High Court quashed the FIR on 11 September 2026. It held a WhatsApp status seen by one's contacts is not publication or circulation, and showed no intent to cause disorder.",
+      "date": "2026-09-11",
+      "date_label": "High Court order quashing the FIR",
+      "incident_date": "2024-06-05",
+      "outcome": "quashed",
+      "authority": "Karnataka High Court, Justice Rajesh Rai K; Subramanya Police Station",
+      "case_reference": "Criminal Petition No. 5909 of 2024; Crime No. 38/2024",
+      "laws": [
+        "Section 505(2) of the Indian Penal Code, 1860"
+      ],
+      "acts": [
+        "Indian Penal Code, 1860"
+      ],
+      "person": "a 49-year-old resident of Sullia taluk",
+      "detail": [
+        "The High Court recorded that a Congress party worker complained on 07.06.2024 that the man's WhatsApp status on 05.06.2024 about the election result created enmity between communities, and that Subramanya Police registered Crime No. 38/2024 under Section 505(2) IPC.",
+        "The High Court held that a careful reading of the status disclosed no intention or motive to cause disorder or incite people to violence.",
+        "The High Court held that a WhatsApp status is not a public forum and is normally visible only to people in the user's contact list, so the ingredient of publication or circulation was absent.",
+        "The High Court held that continuing the case was an abuse of process and quashed the FIR."
+      ],
+      "current_position": "The FIR in Crime No. 38/2024 stands quashed.",
+      "quote": {
+        "text": "Moreover, the same was posted in WhatsApp status, which is neither a social media platform nor any public forum and it is accessible normally to people who are in his contact list.",
+        "where": "Criminal Petition No. 5909 of 2024, Karnataka High Court, order dated 11.09.2026",
+        "url": "https://www.livelaw.in/pdf_upload/2026/09/24/enmity-702179.pdf"
+      },
+      "caveats": "The order is dated 11 September and was reported on 24 September 2026. The status text is not reproduced here; the court found it did not show intent to cause disorder.",
+      "sources": [
+        {
+          "url": "https://www.livelaw.in/pdf_upload/2026/09/24/enmity-702179.pdf",
+          "kind": "court_order",
+          "publisher": "Karnataka High Court (via LiveLaw PDF)",
+          "date": "2026-09-11",
+          "supports": "FIR, section, reasoning and quashing order"
+        },
+        {
+          "url": "https://www.livelaw.in/karnataka-high-court/karnataka-high-court-whatsapp-status-public-platform-statements-made-cannot-constitute-publication-551563",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2026-09-24",
+          "supports": "report of the order"
+        }
+      ],
+      "verification": "V2",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "A man was booked for a WhatsApp status shared with his contacts, which the court found was neither public circulation nor an incitement to violence."
+        }
+      ]
+    },
+    {
+      "id": "cl-up-0002",
+      "category": "speech",
+      "state": "Uttar Pradesh",
+      "district": "Gautam Buddh Nagar",
+      "title": "Student activist held under NSA after Noida wage protest; High Court quashed it, Supreme Court stays its strictures",
+      "summary": "Noida's District Magistrate ordered a 24-year-old Delhi University graduate detained under the National Security Act after the April 2026 workers' wage protest. On 2 September 2026 the Allahabad High Court quashed the detention as passed without application of mind and ordered Rs 5 lakh compensation. On 23 September the Supreme Court stayed the compensation and strictures against the Magistrate pending hearing.",
+      "date": "2026-09-23",
+      "date_label": "Supreme Court interim order",
+      "incident_date": "2026-05-13",
+      "outcome": "detention_set_aside",
+      "authority": "Supreme Court of India (Justices Satish Chandra Sharma and N. Kotiswar Singh); Allahabad High Court (Justices Atul Sreedharan and Achal Sachdev); District Magistrate, Gautam Buddh Nagar",
+      "case_reference": "SLP (Crl.) Diary No. 56202/2026 with SLP (Crl.) No. 18010/2026; HCWP No. 960/2026 (Allahabad High Court)",
+      "laws": [
+        "National Security Act, 1980 (preventive detention)"
+      ],
+      "acts": [
+        "National Security Act, 1980"
+      ],
+      "person": "a 24-year-old Delhi University history graduate and student activist",
+      "detail": [
+        "LiveLaw reported that she was arrested in cases arising from the Noida workers' protest for higher wages in April 2026 and that Uttar Pradesh Police invoked the National Security Act against her and a journalist-activist on 13 May 2026.",
+        "LiveLaw reported that on 2 September 2026 the Allahabad High Court quashed her detention, holding the order and grounds were devoid of material and passed without application of mind, and awarded Rs 5 lakh compensation to be recovered from the District Magistrate's salary.",
+        "Before the Supreme Court the State argued, LiveLaw reported, that she was fomenting trouble and that the agitation led to arson and destruction of public property in April; her counsel appeared on caveat.",
+        "The Supreme Court stayed paragraphs 27 to 33 of the High Court judgment, including the costs and strictures, and listed the case on 7 October 2026."
+      ],
+      "current_position": "The High Court's quashing of the NSA detention is under challenge; its compensation and strictures are stayed pending the Supreme Court hearing on 7 October 2026.",
+      "quote": {
+        "text": "this Court is of the opinion that till the matter is heard on merits, the operation of paras nos. 27 to 33 of the impugned judgment including award of costs and strictures against the petitioner shall remain stayed.",
+        "where": "Supreme Court record of proceedings (revised), SLP (Crl.) Diary No. 56202/2026, 23.09.2026, para 8",
+        "url": "https://www.livelaw.in/pdf_upload/2026/09/24/562022026163774576order23-sep-2026-702268.pdf"
+      },
+      "caveats": "The High Court judgment itself was not read; its findings are from LiveLaw. The State alleges she instigated a protest that turned violent; no court has found that she did.",
+      "sources": [
+        {
+          "url": "https://www.livelaw.in/pdf_upload/2026/09/24/562022026163774576order23-sep-2026-702268.pdf",
+          "kind": "court_order",
+          "publisher": "Supreme Court of India (via LiveLaw PDF)",
+          "date": "2026-09-23",
+          "supports": "the stay of paras 27-33, costs and strictures; next date"
+        },
+        {
+          "url": "https://www.livelaw.in/top-stories/supreme-court-stays-allahabad-hc-order-quashing-students-nsa-detention-slamming-noida-dm-medha-roopam-551502",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2026-09-23",
+          "supports": "arrest, NSA invocation, High Court findings, State's arguments"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/sc-stays-hc-order-to-recover-5-lakh-from-noida-dm-in-nsa-detention-case/article71501204.ece",
+          "kind": "news",
+          "publisher": "The Hindu",
+          "date": "2026-09-23",
+          "supports": "Supreme Court stay"
+        }
+      ],
+      "verification": "V2",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "A student activist was held without trial under a preventive-detention law after a wage protest, on grounds a High Court found devoid of material."
+        }
+      ]
+    },
+    {
+      "id": "cl-pb-0002",
+      "category": "speech",
+      "state": "Punjab",
+      "district": "Sangrur",
+      "title": "Youth detained after waving a black flag at the Chief Minister's event alleges custodial torture",
+      "summary": "Police detained a Sikh youth on 2 September 2026 after he waved a black cloth and raised slogans behind the stage at the Chief Minister's event in Sangrur district, and took preventive action against him. His family told the Punjab and Haryana High Court he was beaten in custody. On 21 September the DGP told the court the injuries may be self-inflicted; an SIT is inquiring.",
+      "date": "2026-09-21",
+      "date_label": "High Court hearing on DGP's affidavit",
+      "incident_date": "2026-09-02",
+      "outcome": "arrest",
+      "authority": "Punjab and Haryana High Court, Justice Vikram Aggarwal; Punjab Police (Cheema police station)",
+      "case_reference": "[name withheld] v. State of Punjab and Others (petition under Section 528 BNSS; number not reported)",
+      "laws": [
+        "Sections 126 and 170 of the Bharatiya Nagarik Suraksha Sanhita, 2023 (preventive action)"
+      ],
+      "acts": [
+        "Bharatiya Nagarik Suraksha Sanhita, 2023"
+      ],
+      "person": "a Sikh youth from Sangrur district",
+      "detail": [
+        "The DGP's affidavit, as reported by LiveLaw and Hindustan Times, said the youth waved a black cloth and raised slogans from a house behind the stage of the Chief Minister's programme on 2 September, was detained, taken to Cheema police station and locked up under preventive Sections 126 and 170 BNSS, then released on a personal bond by an Executive Magistrate.",
+        "The family's petition alleges he was beaten, his beard plucked and he was stripped and assaulted in custody, and seeks a CBI probe; a Sangrur hospital recorded ten blunt injuries on 3 September.",
+        "The DGP told the court the timing of the injuries was inconsistent with the allegation and cited a medical opinion that self-infliction could not be ruled out.",
+        "Hindustan Times reported that four police personnel were transferred and an SIT of IPS officers was formed; the NHRC has also sought a verification report. The court listed the case for 15 October."
+      ],
+      "current_position": "Released on a personal bond; the custodial-torture allegation is under SIT inquiry and pending before the High Court (next hearing 15 October 2026).",
+      "quote": {
+        "text": "Duration of injuries mentioned (are of) within 2 to 6 hours as prior to examination, whereas alleged custodial torture is of the evening of 02.09.2026; thus there is considerable discrepancy in time.",
+        "where": "DGP's affidavit before the Punjab and Haryana High Court, as quoted by Hindustan Times, 22.09.2026",
+        "url": "https://www.hindustantimes.com/cities/chandigarh-news/punjab-possibility-of-self-inflicted-injuries-can-t-be-ruled-out-101790018623367-amp.html"
+      },
+      "caveats": "No court order was located. The torture allegation is disputed by the State and has not been adjudicated. The DGP also said he had scuffled with locals earlier that day.",
+      "sources": [
+        {
+          "url": "https://www.livelaw.in/high-court/punjab-and-haryana-high-court/punjab-haryana-high-court-alleged-custodial-torture-of-youth-who-showed-black-flag-to-punjab-cm-551049",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2026-09-21",
+          "supports": "detention, preventive sections, DGP affidavit, SIT, next date"
+        },
+        {
+          "url": "https://www.hindustantimes.com/cities/chandigarh-news/punjab-possibility-of-self-inflicted-injuries-can-t-be-ruled-out-101790018623367-amp.html",
+          "kind": "news",
+          "publisher": "Hindustan Times",
+          "date": "2026-09-22",
+          "supports": "black flag, detention, injuries, transfers, SIT"
+        }
+      ],
+      "verification": "V1",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "A young man was detained for a silent protest with a black flag at a political event, with no allegation that he harmed anyone during the protest."
+        }
+      ]
+    },
+    {
+      "id": "cl-up-0003",
+      "category": "speech",
+      "state": "Uttar Pradesh",
+      "district": "Farrukhabad",
+      "title": "Student booked under IT Act for a video showing a waterlogged government school",
+      "summary": "Farrukhabad police registered an FIR on 19 August 2026 against a student and opposition-party member who filmed and posted a video of a waterlogged, dilapidated government primary school. He has asked the Allahabad High Court to quash it. The FIR says the school's image was damaged; it alleges no violence.",
+      "date": "2026-09-18",
+      "date_label": "Quashing petition reported",
+      "incident_date": "2026-08-16",
+      "outcome": "prosecution_pending",
+      "authority": "Uttar Pradesh Police, Farrukhabad; Allahabad High Court (petition pending)",
+      "case_reference": "FIR dated 19.08.2026 (number not reported)",
+      "laws": [
+        "Section 352 of the Bharatiya Nyaya Sanhita, 2023",
+        "Section 353 of the Bharatiya Nyaya Sanhita, 2023",
+        "Section 66 of the Information Technology Act, 2000"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023",
+        "Information Technology Act, 2000"
+      ],
+      "person": "a student and social-media creator in Farrukhabad district",
+      "detail": [
+        "LiveLaw reported that on 16 August 2026 he entered a government primary school at Karanpur Majra Basmal, which was closed, and recorded a video showing water-logging and a disused building, saying children had nowhere to sit.",
+        "LiveLaw reported that an FIR was lodged on 19 August under Sections 352 and 353 BNS and Section 66 of the IT Act, alleging he spoke 'useless talk' with teachers while accompanied by a person said to be drunk, and that the school's image was damaged.",
+        "His petition argues the FIR does not reproduce any insulting words, alleges no violence or threat, and that recording and posting a video is not a computer offence under Section 66.",
+        "Times of India and Bar & Bench also reported the petition; it was expected to be heard the following week."
+      ],
+      "current_position": "The FIR is pending; the quashing petition has been filed in the Allahabad High Court.",
+      "quote": {
+        "text": "the video was made and published \"in good faith\" to highlight the condition of a public educational institution",
+        "where": "Petition as summarised by LiveLaw, 18.09.2026",
+        "url": "https://www.livelaw.in/high-court/allahabad-high-court/allahabad-hc-cjp-member-up-police-fir-video-dilapidated-govt-school-550618"
+      },
+      "caveats": "The FIR and petition were not read directly. The account of events is the petitioner's; the FIR's allegation about a drunk companion is untested.",
+      "sources": [
+        {
+          "url": "https://www.livelaw.in/high-court/allahabad-high-court/allahabad-hc-cjp-member-up-police-fir-video-dilapidated-govt-school-550618",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2026-09-18",
+          "supports": "video, FIR date and sections, petition grounds"
+        },
+        {
+          "url": "https://www.barandbench.com/news/cjp-activist-moves-allahabad-high-court-against-fir-over-video-on-dilapidated-school-in-up",
+          "kind": "news",
+          "publisher": "Bar & Bench",
+          "date": "2026-09-18",
+          "supports": "petition against the FIR over the school video"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/city/allahabad/farrukhabad-school-video-cjp-member-moves-alld-hc-against-fir/articleshow/134341908.cms",
+          "kind": "news",
+          "publisher": "The Times of India",
+          "date": "2026-09-18",
+          "supports": "petition against the FIR over the school video"
+        }
+      ],
+      "verification": "V1",
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Punished for a freedom",
+          "text": "A citizen faces criminal charges for filming and posting the condition of a public school, with no allegation of violence or threats."
+        }
+      ]
     }
   ]
 }
