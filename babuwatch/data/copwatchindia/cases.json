@@ -220717,5 +220717,384 @@
   "merged_case_id": null,
   "officers_named_public": 0,
   "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0099",
+  "status": "current",
+  "merged_id": "CWC-1389",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs The State NCT of Delhi",
+  "display_title_redacted": "[name withheld] vs The State NCT of Delhi",
+  "state": "Delhi",
+  "district": "North East",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "PS New Usmanpur",
+  "court": "Delhi High Court",
+  "court_as_verified": "Delhi High Court",
+  "bench": null,
+  "case_title": "[name withheld] vs The State NCT of Delhi",
+  "case_number": "W.P.(CRL.) 3031/2026",
+  "citation": null,
+  "judges": [
+   "Navin Chawla",
+   "Arun Bhardwaj"
+  ],
+  "judgment_date": "2026-09-25",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2026-08-21",
+  "incident_year": 2026,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "illegal_detention_false_imprisonment",
+  "subcategory": "illegal_detention_false_imprisonment",
+  "subcategory_display": "illegal detention false imprisonment",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Article 22 of the Constitution of India",
+   "Section 528 of the Bharatiya Nagarik Suraksha Sanhita, 2023"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Investigating Officer",
+    "unit": "PS New Usmanpur, Delhi Police",
+    "role": "held_liable",
+    "publish_grade": "unnamed",
+    "gate_reasons": [
+     "ledger:no_row",
+     "key2:no_row"
+    ],
+    "ledger_role": null,
+    "key2": null,
+    "key2_agy": null,
+    "key2_claude": null,
+    "key2_union": null,
+    "key2_gemapi": null,
+    "key2_openrouter": null,
+    "key2_gpt56": null,
+    "grok": null,
+    "jev_risk": null,
+    "jev_p_culpable": null,
+    "key2_gpt": null,
+    "later_outcome": null,
+    "name_public": null,
+    "display": "Investigating Officer, PS New Usmanpur, Delhi Police"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": true,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/64980943/",
+  "secondary_sources": [
+   "https://advocategandhi.com/delhi-high-court-holds-re-arrest-illegal-where-accused-released-for-violation-of-article-22-safeguards-was-taken-back-into-custody-without-judicial-permission/"
+  ],
+  "summary": "The High Court recorded that a man arrested in an FIR at New Usmanpur police station was released by a Karkardooma magistrate on 23.07.2026 because the grounds of arrest supplied to him bore no date or time and gave no details of the incident, as the Supreme Court requires in Mihir Rajesh Shah. Police re-arrested him on 21.08.2026 after POCSO Act offences were added to the FIR, without first seeking the superior officer's endorsement and the court's permission that the Supreme Court prescribes for a re-arrest. The State's counsel, on instructions, accepted that this procedure was not followed. On 25.09.2026 a Division Bench held the re-arrest illegal and in violation of his fundamental rights, and ordered his immediate release on the original magistrate's terms, without expressing any view on the merits of the accusation.",
+  "summary_verified": "The High Court recorded that a man arrested in an FIR at New Usmanpur police station was released by a Karkardooma magistrate on 23.07.2026 because the grounds of arrest supplied to him bore no date or time and gave no details of the incident, as the Supreme Court requires in Mihir Rajesh Shah. Police re-arrested him on 21.08.2026 after POCSO Act offences were added to the FIR, without first seeking the superior officer's endorsement and the court's permission that the Supreme Court prescribes for a re-arrest. The State's counsel, on instructions, accepted that this procedure was not followed. On 25.09.2026 a Division Bench held the re-arrest illegal and in violation of his fundamental rights, and ordered his immediate release on the original magistrate's terms, without expressing any view on the merits of the accusation.",
+  "court_quote": "the re-arrest of the petitioner cannot be justified and is found to be illegal and in violation of his fundamental rights.",
+  "court_quote_para": "15",
+  "confidence": "high",
+  "verdict": "accept",
+  "verdict_note": "Checked against the Delhi High Court order dated 25.09.2026 in W.P.(CRL.) 3031/2026 (Indian Kanoon). The State's concession is at para 13; the finding and release direction at paras 15-16. The underlying accusation is not assessed by the court and is not described here beyond the offences added.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Court finding",
+    "position_explainer": "A court has made a finding on this allegation.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-09-25",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "Delhi High Court",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The Delhi High Court held the re-arrest illegal and in violation of Article 22 and directed the petitioner's immediate release on the terms set by the magistrate on 23.07.2026.",
+    "disposition": "Adverse finding (illegal re-arrest) · release ordered · no compensation",
+    "source": "W.P.(CRL.) 3031/2026",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-27",
+    "scope": "Past-days sweep (25-27 Sep): record written from the order text on Indian Kanoon; quote checked verbatim; the petitioner, an accused in a POCSO case, is not named."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-27",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/64980943/",
+    "link_checked": "2026-09-27"
+   },
+   {
+    "url": "https://advocategandhi.com/delhi-high-court-holds-re-arrest-illegal-where-accused-released-for-violation-of-article-22-safeguards-was-taken-back-into-custody-without-judicial-permission/",
+    "link_checked": "2026-09-27"
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": true,
+  "verified_by": [
+   "claude-opus-5.5-week-0927"
+  ],
+  "merged_case_id": null,
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0100",
+  "status": "current",
+  "merged_id": "CWC-1390",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs The State of Madhya Pradesh and Others",
+  "display_title_redacted": "[name withheld] vs The State of Madhya Pradesh and Others",
+  "state": "Madhya Pradesh",
+  "district": "Jabalpur",
+  "district_at_time": null,
+  "city_town": "Jabalpur",
+  "police_station_or_unit": "City Superintendent of Police, Gohalpur Division, Jabalpur",
+  "court": "Madhya Pradesh High Court",
+  "court_as_verified": "Madhya Pradesh High Court",
+  "bench": "Jabalpur",
+  "case_title": "[name withheld] vs The State of Madhya Pradesh and Others",
+  "case_number": "Writ Petition No. 2985 of 2026 with Writ Petition No. 2986 of 2026",
+  "citation": "2026:MPHC-JBP:70034",
+  "judges": [
+   "Vivek Agarwal",
+   "Avanindra Kumar Singh"
+  ],
+  "judgment_date": "2026-09-11",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2026-01-06",
+  "incident_year": 2026,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "illegal_detention_false_imprisonment",
+  "subcategory": "illegal_detention_false_imprisonment",
+  "subcategory_display": "illegal detention false imprisonment",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Section 3(2) of the National Security Act, 1980",
+   "Article 21 and 22 of the Constitution of India"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "City Superintendent of Police",
+    "unit": "Gohalpur Division, Jabalpur, Madhya Pradesh Police",
+    "role": "named_in_finding",
+    "publish_grade": "unnamed",
+    "gate_reasons": [
+     "ledger:no_row",
+     "key2:no_row"
+    ],
+    "ledger_role": null,
+    "key2": null,
+    "key2_agy": null,
+    "key2_claude": null,
+    "key2_union": null,
+    "key2_gemapi": null,
+    "key2_openrouter": null,
+    "key2_gpt56": null,
+    "grok": null,
+    "jev_risk": null,
+    "jev_p_culpable": null,
+    "key2_gpt": null,
+    "later_outcome": null,
+    "name_public": null,
+    "display": "City Superintendent of Police, Gohalpur Division, Jabalpur, Madhya Pradesh Police"
+   },
+   {
+    "name": null,
+    "rank": "Additional Superintendent of Police (City)",
+    "unit": "Jabalpur, Madhya Pradesh Police",
+    "role": "named_in_finding",
+    "publish_grade": "unnamed",
+    "gate_reasons": [
+     "ledger:no_row",
+     "key2:no_row"
+    ],
+    "ledger_role": null,
+    "key2": null,
+    "key2_agy": null,
+    "key2_claude": null,
+    "key2_union": null,
+    "key2_gemapi": null,
+    "key2_openrouter": null,
+    "key2_gpt56": null,
+    "grok": null,
+    "jev_risk": null,
+    "jev_p_culpable": null,
+    "key2_gpt": null,
+    "later_outcome": null,
+    "name_public": null,
+    "display": "Additional Superintendent of Police (City), Jabalpur, Madhya Pradesh Police"
+   },
+   {
+    "name": null,
+    "rank": "Superintendent of Police",
+    "unit": "Jabalpur, Madhya Pradesh Police",
+    "role": "named_in_finding",
+    "publish_grade": "unnamed",
+    "gate_reasons": [
+     "ledger:no_row",
+     "key2:no_row"
+    ],
+    "ledger_role": null,
+    "key2": null,
+    "key2_agy": null,
+    "key2_claude": null,
+    "key2_union": null,
+    "key2_gemapi": null,
+    "key2_openrouter": null,
+    "key2_gpt56": null,
+    "grok": null,
+    "jev_risk": null,
+    "jev_p_culpable": null,
+    "key2_gpt": null,
+    "later_outcome": null,
+    "name_public": null,
+    "display": "Superintendent of Police, Jabalpur, Madhya Pradesh Police"
+   }
+  ],
+  "officer_count": 3,
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   },
+   {
+    "name": null,
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": true,
+  "victim_count": 2,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/102960373/",
+  "secondary_sources": [
+   "https://www.livelaw.in/pdf_upload/2026/09/22/rajendra-thakur-v-state-of-mp-701658.pdf",
+   "https://www.livelaw.in/high-court/madhya-pradesh-high-court/madhya-pradesh-high-court-sets-aside-nsa-detention-order-over-incorrect-criminal-antecedents-551185"
+  ],
+  "summary": "Two brothers in Jabalpur were detained under the National Security Act by the District Magistrate's order of 6.1.2026, after a country-made bomb explosion on 4.1.2026 that police attributed to one of them; the detention was extended on 1.4.2026 and 6.7.2026. The High Court found that the City Superintendent of Police, Gohalpur, listed fourteen cases as pending trial when the petitioner had been acquitted in eleven of them, some as far back as 2004, and that the report went from the CSP to the Additional SP, the SP and the District Magistrate on the same day. It held that this incorrect supply of data, its mechanical forwarding and the District Magistrate's reliance on it without verification vitiated the detention, which could have been checked on CCTNS 'with the slightest of efforts'. The court also recorded that the SP had issued a show-cause notice to a sub-inspector over manipulation of CCTV footage of 4.1.2026. The detention orders were set aside on 11.09.2026.",
+  "summary_verified": "Two brothers in Jabalpur were detained under the National Security Act by the District Magistrate's order of 6.1.2026, after a country-made bomb explosion on 4.1.2026 that police attributed to one of them; the detention was extended on 1.4.2026 and 6.7.2026. The High Court found that the City Superintendent of Police, Gohalpur, listed fourteen cases as pending trial when the petitioner had been acquitted in eleven of them, some as far back as 2004, and that the report went from the CSP to the Additional SP, the SP and the District Magistrate on the same day. It held that this incorrect supply of data, its mechanical forwarding and the District Magistrate's reliance on it without verification vitiated the detention, which could have been checked on CCTNS 'with the slightest of efforts'. The court also recorded that the SP had issued a show-cause notice to a sub-inspector over manipulation of CCTV footage of 4.1.2026. The detention orders were set aside on 11.09.2026.",
+  "court_quote": "this lacuna of non-application of mind, arising out of the incorrect supply of data by the concerned City Superintendent of Police, Gohalpur, District Jabalpur, and its mechanical forwarding by the Additional Superintendent of Police and the Superintendent of Police to the District Magistrate, Jabalpur, coupled with the District Magistrate's blatant reliance upon such data without seeking its verification, vitiates the impugned order of detention.",
+  "court_quote_para": "24",
+  "confidence": "high",
+  "verdict": "accept",
+  "verdict_note": "Checked against the full common order dated 11.09.2026 (Indian Kanoon; neutral citation 2026:MPHC-JBP:70034). LiveLaw's PDF copy stops at page 8, before the operative paragraphs; the Indian Kanoon text includes paras 21-30. The bomb allegation is the State's case and is still under investigation (Crime No. 19/2026); the court made no finding on it.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Court finding",
+    "position_explainer": "A court has made a finding on this allegation.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-09-11",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "Madhya Pradesh High Court",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The Madhya Pradesh High Court set aside the NSA detention order of 6.1.2026 against both brothers, finding non-application of mind caused by incorrect criminal-history data supplied by police.",
+    "disposition": "Adverse finding (preventive detention vitiated by incorrect police data) · detention set aside",
+    "source": "Writ Petition No. 2985 of 2026 with Writ Petition No. 2986 of 2026",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-09-27",
+    "scope": "Past-days sweep (25-27 Sep): record written from the full order on Indian Kanoon; quote checked verbatim; judgment date is 11.09.2026 (reported 22.09.2026). Detainees are not named."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-09-27",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/102960373/",
+    "link_checked": "2026-09-27"
+   },
+   {
+    "url": "https://www.livelaw.in/pdf_upload/2026/09/22/rajendra-thakur-v-state-of-mp-701658.pdf",
+    "link_checked": "2026-09-27"
+   },
+   {
+    "url": "https://www.livelaw.in/high-court/madhya-pradesh-high-court/madhya-pradesh-high-court-sets-aside-nsa-detention-order-over-incorrect-criminal-antecedents-551185",
+    "link_checked": "2026-09-27"
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": true,
+  "verified_by": [
+   "claude-opus-5.5-week-0927"
+  ],
+  "merged_case_id": null,
+  "officers_named_public": 0,
+  "record_flag": null
  }
 ]

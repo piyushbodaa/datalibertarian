@@ -5433,6 +5433,210 @@
         }
       ],
       "verification": "V2"
+    },
+    {
+      "id": "vc-br-0008",
+      "category": "alcohol",
+      "state": "Bihar",
+      "district": "Khagaria",
+      "date": "2026-09-19",
+      "date_label": "High Court anticipatory-bail order",
+      "incident_date": null,
+      "title": "Khagaria man named in a 45-litre country-liquor raid on someone else's premises granted pre-arrest bail",
+      "outcome": "prosecution_pending",
+      "authority": "Chautham Police Station, Khagaria; Patna High Court",
+      "case_reference": "Criminal Miscellaneous No. 65830 of 2026; Chautham P.S. Case No. 229 of 2026",
+      "laws": [
+        "Sections 30(a), 30(c) and 36, Bihar Prohibition and Excise Act, 2016"
+      ],
+      "acts": [
+        "Bihar Prohibition and Excise Act, 2016"
+      ],
+      "person": "A resident of Sonvarsha Ghat, Khagaria district",
+      "summary": "Chautham police in Khagaria raided a co-accused's premises on a tip-off about stored liquor and recovered 45 litres of country-made liquor and liquor-making articles. A man from the village was also named under Bihar's prohibition law. On 19 September 2026 the Patna High Court granted him anticipatory bail, noting the recovery was from an open place accessible to all that belonged to the co-accused.",
+      "detail": [
+        "The High Court recorded that police, acting on a tip-off about storage of illicit liquor, raided the premises of a co-accused and recovered 45 litres of country-made liquor along with articles used for manufacturing liquor. The case was registered under sections 30(a), 30(c) and 36 of the Bihar Prohibition and Excise Act.",
+        "The petitioner's counsel argued that the recovery was from the co-accused's premises, from an open place easily accessible to all, that the petitioner's identification was doubtful, and that he had fair antecedents. The co-accused had already been granted anticipatory bail by another bench.",
+        "Justice Harish Kumar granted anticipatory bail on bonds of Rs 10,000 with two sureties, one of them a close family member, on arrest or surrender before the Exclusive Special Excise Judge, Khagaria, within four weeks."
+      ],
+      "current_position": "Anticipatory bail granted on 19 September 2026; the excise case is pending.",
+      "quote": {
+        "heading": "What the High Court noted",
+        "text": "taking note of the fact that the alleged recovery has been made from an open place easily accessible to all",
+        "where": "Cr. Misc. No. 65830 of 2026, order dated 19 September 2026, para 6",
+        "url": "https://indiankanoon.org/doc/24085058/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Liquor, and no one harmed",
+          "text": "The only law charged is Bihar's prohibition statute. The order records no complainant, no injury and no allegation that the liquor was spurious."
+        }
+      ],
+      "caveats": "The order does not say whether the petitioner was present at the raid or how he came to be named. His name is withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/24085058/",
+          "kind": "court_order",
+          "publisher": "Patna High Court (via Indian Kanoon)",
+          "date": "2026-09-19",
+          "supports": "the case number, sections, the 45-litre recovery from the co-accused's premises and the grant of anticipatory bail"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-br-0009",
+      "category": "alcohol",
+      "state": "Bihar",
+      "district": "East Champaran",
+      "date": "2026-09-25",
+      "date_label": "High Court anticipatory-bail order",
+      "incident_date": null,
+      "title": "Man implicated only by a co-accused's police-custody confession in a Motihari spirit seizure granted provisional pre-arrest bail",
+      "outcome": "prosecution_pending",
+      "authority": "Motihari Town Police Station, East Champaran; Patna High Court",
+      "case_reference": "Criminal Miscellaneous No. 68786 of 2026; Motihari Town P.S. Case No. 653 of 2023",
+      "laws": [
+        "Sections 30(a), 30(b), 30(c), 33, 34(b) and 41(1), Bihar Prohibition and Excise Act, 2016"
+      ],
+      "acts": [
+        "Bihar Prohibition and Excise Act, 2016"
+      ],
+      "person": "A resident of Govindganj, East Champaran district",
+      "summary": "Motihari Town police seized 1,000 litres of spirit from a pick-up vehicle in 2023 and later named a man who was not arrested at the spot and did not own the vehicle, on the strength of a co-accused's confession in police custody. On 25 September 2026 the Patna High Court granted him provisional anticipatory bail on a Rs 500 bond.",
+      "detail": [
+        "The High Court recorded that the case, registered in 2023 under several sections of the Bihar Prohibition and Excise Act, concerned the recovery of 1,000 litres of spirit from a Bolero pick-up vehicle.",
+        "The petitioner's counsel told the court that he was not arrested from the spot, nothing was recovered from his conscious possession, he did not own the vehicle, and he was implicated on the basis of a co-accused's confessional statement in police custody, which has no evidentiary value. Counsel also submitted that the 2018 amendment to the Act removed the concepts of deemed possession and presumed offender.",
+        "Justice Satyavrat Verma granted provisional anticipatory bail on bonds of Rs 500 with two sureties, on arrest or surrender within six weeks. The bail is to be confirmed only if the trial court finds the petitioner has no criminal antecedents."
+      ],
+      "current_position": "Provisional anticipatory bail granted on 25 September 2026, to be confirmed on verification of antecedents; the excise case is pending.",
+      "quote": {
+        "heading": "What the High Court recorded",
+        "text": "petitioner was not arrested from the spot as such nothing was recovered from his conscious possession and is not the owner of the seized vehicle",
+        "where": "Cr. Misc. No. 68786 of 2026, order dated 25 September 2026, para 4 (the petitioner's submission)",
+        "url": "https://indiankanoon.org/doc/5015618/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Prohibition, three years on",
+          "text": "The case is a prohibition-law seizure with no complaining victim. The petitioner was drawn in three years later through another accused's statement in police custody."
+        }
+      ],
+      "caveats": "The quantity (1,000 litres of spirit) suggests transport in bulk; the order does not say what the spirit was for or whether it was tested. The co-accused's confession is described only by the petitioner's counsel. Names are withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/5015618/",
+          "kind": "court_order",
+          "publisher": "Patna High Court (via Indian Kanoon)",
+          "date": "2026-09-25",
+          "supports": "the sections, the 1,000-litre seizure, the confession-based implication and the provisional anticipatory bail"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-br-0010",
+      "category": "alcohol",
+      "state": "Bihar",
+      "district": "Saran",
+      "date": "2026-09-19",
+      "date_label": "High Court anticipatory-bail order",
+      "incident_date": null,
+      "title": "Man named through two co-accused's custody confessions after a Saran liquor seizure granted provisional pre-arrest bail",
+      "outcome": "prosecution_pending",
+      "authority": "Dariyapur Police Station, Saran; Patna High Court",
+      "case_reference": "Criminal Miscellaneous No. 65651 of 2026; Dariyapur P.S. Case No. 547 of 2026",
+      "laws": [
+        "Sections 30(a) and 41(1), Bihar Prohibition and Excise Act, 2016"
+      ],
+      "acts": [
+        "Bihar Prohibition and Excise Act, 2016"
+      ],
+      "person": "A man from Samastipur district living in Patna",
+      "summary": "Dariyapur police in Saran seized 283.2 litres of liquor from a Scorpio vehicle and named a man who was not caught at the spot and did not own the vehicle, on the basis of two co-accused's confessions in police custody. On 19 September 2026 the Patna High Court granted him provisional anticipatory bail on a Rs 500 bond.",
+      "detail": [
+        "The High Court recorded that the case was registered under sections 30(a) and 41(1) of the Excise Act over the recovery of 283.2 litres of liquor from a Scorpio vehicle.",
+        "The petitioner's counsel submitted that he was not arrested from the spot, nothing was recovered from his conscious possession, he did not own the vehicle, and he was implicated on the confessional statements of two co-accused in police custody, which have no evidentiary value.",
+        "Justice Satyavrat Verma granted provisional anticipatory bail on bonds of Rs 500 with two sureties, on arrest or surrender within six weeks, to be confirmed only if the trial court finds no criminal antecedents."
+      ],
+      "current_position": "Provisional anticipatory bail granted on 19 September 2026, to be confirmed on verification of antecedents; the excise case is pending.",
+      "quote": {
+        "heading": "What the High Court recorded",
+        "text": "petitioner was not arrested from the spot, as such, nothing was recovered from his conscious possession and is not the owner of the seized vehicle",
+        "where": "Cr. Misc. No. 65651 of 2026, order dated 19 September 2026, para 4 (the petitioner's submission)",
+        "url": "https://indiankanoon.org/doc/61476370/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Liquor, and no one harmed",
+          "text": "The only law charged is Bihar's prohibition statute. The order records no complainant and no harm to any person."
+        }
+      ],
+      "caveats": "The order records the petitioner's submissions and the grant of bail; it makes no finding on the facts. Names are withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/61476370/",
+          "kind": "court_order",
+          "publisher": "Patna High Court (via Indian Kanoon)",
+          "date": "2026-09-19",
+          "supports": "the sections, the 283.2-litre seizure, the confession-based implication and the provisional anticipatory bail"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-br-0011",
+      "category": "alcohol",
+      "state": "Bihar",
+      "district": "Supaul",
+      "date": "2026-09-19",
+      "date_label": "High Court anticipatory-bail order",
+      "incident_date": null,
+      "title": "Supaul man accused over 41.4 litres of liquor found in a bush granted provisional pre-arrest bail",
+      "outcome": "prosecution_pending",
+      "authority": "Excise Police Station, Simrahi, Supaul; Patna High Court",
+      "case_reference": "Criminal Miscellaneous No. 65634 of 2026; Excise Simrahi P.S. Case No. 93 of 2025; S.T. Excise Case No. 1313 of 2025",
+      "laws": [
+        "Section 30(a), Bihar Prohibition and Excise Act, 2016"
+      ],
+      "acts": [
+        "Bihar Prohibition and Excise Act, 2016"
+      ],
+      "person": "A resident of Birpur, Supaul district",
+      "summary": "Excise police at Simrahi in Supaul booked a man under Bihar's prohibition law over 41.4 litres of liquor recovered from a bush, a place his counsel said was open to the public and not his. He was named at the instance of a local person. On 19 September 2026 the Patna High Court granted him provisional anticipatory bail.",
+      "detail": [
+        "The High Court recorded that the case was registered under section 30(a) of the Excise Act over the recovery of 41.4 litres of liquor from a bush, and that the petitioner has one earlier case under the Excise Act.",
+        "The petitioner's counsel submitted that he was not arrested from the spot, the recovery was from a place that did not belong to him and was accessible to the public at large, and he was implicated at the instance of a local person who had not informed the police before the FIR.",
+        "Justice Satyavrat Verma granted provisional anticipatory bail on bonds of Rs 5,000 with two sureties, on arrest or surrender within six weeks, to be confirmed if the trial court finds no more than the one disclosed antecedent."
+      ],
+      "current_position": "Provisional anticipatory bail granted on 19 September 2026; S.T. Excise Case No. 1313 of 2025 is pending.",
+      "quote": {
+        "heading": "What the High Court recorded",
+        "text": "even alleged recovery is from a place, which does not belong to the petitioner and is accessible to public at large",
+        "where": "Cr. Misc. No. 65634 of 2026, order dated 19 September 2026, para 4 (the petitioner's submission)",
+        "url": "https://indiankanoon.org/doc/139032291/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Liquor, and no one harmed",
+          "text": "The only law charged is Bihar's prohibition statute. The order records no complainant and no harm to any person."
+        }
+      ],
+      "caveats": "The petitioner has one earlier Excise Act case, as the order records. The order makes no finding on the facts. Names are withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/139032291/",
+          "kind": "court_order",
+          "publisher": "Patna High Court (via Indian Kanoon)",
+          "date": "2026-09-19",
+          "supports": "the sections, the 41.4-litre recovery from a bush, the earlier case and the provisional anticipatory bail"
+        }
+      ],
+      "verification": "V2"
     }
   ]
 }
