@@ -46,6 +46,13 @@ a{color:inherit}
 .mnav summary::-webkit-details-marker{display:none}
 .mnav[open] summary{background:var(--ink);color:var(--paper)}
 .mnav nav{position:absolute;right:0;top:40px;z-index:5;background:var(--card);border:1px solid var(--line);padding:12px 16px;display:flex;flex-direction:column;gap:12px;min-width:210px;box-shadow:0 8px 24px rgba(18,21,28,.12)}
+.find-search{margin:18px 0 6px;max-width:720px}
+.find-search label{display:block;font-size:13.5px;font-weight:600;margin-bottom:6px}
+.find-search div{display:flex;gap:0}
+.find-search input{flex:1;min-width:0;height:48px;padding:0 14px;border:1.5px solid var(--ink);border-right:0;background:#fff;font:400 16px var(--sans);color:var(--ink)}
+.find-search button{height:48px;padding:0 20px;border:1.5px solid var(--ink);background:var(--ink);color:var(--paper);font:600 15px var(--sans);cursor:pointer}
+.find-search button:hover{background:var(--stamp);border-color:var(--stamp)}
+.find-search input:focus-visible{outline:2px solid var(--stamp);outline-offset:0}
 .tools{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;padding:18px 0 4px}
 .tool{display:block;border:1px solid var(--line);background:var(--card);padding:14px 15px;text-decoration:none}
 .tool:hover{border-color:var(--ink)}
@@ -140,9 +147,9 @@ a:focus-visible{outline:2px solid var(--stamp);outline-offset:3px}
   <div class="wrap">
     <a class="brand" href="/">Data <span>Libertarian</span></a>
     <nav aria-label="Site">
-      <a href="/babuwatch">Babuwatch</a><a href="/civilliberties">Civil Liberties</a><a href="/victimlesscrimes">Victimless Crimes</a><a href="/economicfreedom">Economic Freedom</a><a href="/psu">PSUs</a><a href="/crime">Crime</a><a href="/spending">Spending</a><a href="/inflation">Inflation</a>
+      <a href="/babuwatch">Babuwatch</a><a href="/civilliberties">Civil Liberties</a><a href="/victimlesscrimes">Victimless Crimes</a><a href="/economicfreedom">Economic Freedom</a><a href="/psu">PSUs</a><a href="/crime">Crime</a><a href="/spending">Spending</a><a href="/inflation">Inflation</a><a href="/by-state">States</a>
     </nav>
-    <details class="mnav"><summary>Menu</summary><nav aria-label="Site (mobile)"><a href="/babuwatch">Babuwatch</a><a href="/civilliberties">Civil Liberties</a><a href="/victimlesscrimes">Victimless Crimes</a><a href="/economicfreedom">Economic Freedom</a><a href="/psu">PSUs</a><a href="/crime">Crime</a><a href="/spending">Spending</a><a href="/inflation">Inflation</a></nav></details>
+    <details class="mnav"><summary>Menu</summary><nav aria-label="Site (mobile)"><a href="/babuwatch">Babuwatch</a><a href="/civilliberties">Civil Liberties</a><a href="/victimlesscrimes">Victimless Crimes</a><a href="/economicfreedom">Economic Freedom</a><a href="/psu">PSUs</a><a href="/crime">Crime</a><a href="/spending">Spending</a><a href="/inflation">Inflation</a><a href="/by-state">States</a><a href="/changes">What changed</a></nav></details>
   </div>
 </header>
 <div class="wrap"><hr class="dbl"></div>
@@ -156,13 +163,34 @@ a:focus-visible{outline:2px solid var(--stamp);outline-offset:3px}
       <p>Officials the courts have found against. People arrested, charged or penalised for speaking, worshipping,
         trading, or private choices that harm no one. The businesses the state owns and the money it spends.
         Every entry names the court or agency that decided it and links to its source.</p>
-      <div class="cta"><a class="btn solid" href="#latest">See the latest cases</a><a class="btn" href="/babuwatch/tracker">Search Babuwatch</a></div>
+      <div class="cta"><a class="btn solid" href="#find-h">Find something</a><a class="btn" href="#latest">See the latest cases</a><a class="btn" href="/by-state">Browse by state</a></div>
     </div>
     <aside class="tally" aria-label="Records on the registers">
       <h2>On the registers today</h2>
       <!--@tally--><table><tr class="total"><td>Records</td><td class="n">&mdash;</td></tr></table><!--@/tally-->
       <div class="note">Counted from the published data at every build. Nothing here is estimated.</div>
     </aside>
+  </div>
+</section>
+
+<section class="sec find" aria-labelledby="find-h">
+  <div class="wrap">
+    <div class="sec-head"><div><div class="kicker">Start here</div><h2 id="find-h">What do you want to find?</h2></div>
+      <p>Search everything, or pick a way in.</p></div>
+    <form class="find-search" role="search" action="/search" method="get">
+      <label for="find-q">Search court records, registers, crime, budgets and prices</label>
+      <div><input id="find-q" name="q" type="search" placeholder="A state, a law, an official post, a budget line&hellip;" enterkeyhint="search"><button type="submit">Search</button></div>
+    </form>
+    <div class="tools">
+      <a class="tool" href="/by-state"><b>Explore my state</b><span>Spending, crime, court records and registers for one state or union territory.</span></a>
+      <a class="tool" href="/babuwatch/tracker"><b>Find a court record</b><span>Findings against police officers and civil servants, by state, court and outcome.</span></a>
+      <a class="tool" href="/spending"><b>See government spending</b><span>Union, state, city and village budgets, from their own books.</span></a>
+      <a class="tool" href="/crime"><b>Compare crime figures</b><span>What the police registered, state by state, and how to read it.</span></a>
+      <a class="tool" href="/inflation"><b>Explore prices</b><span>Official price indices and retail prices, with dates.</span></a>
+      <a class="tool" href="/civilliberties"><b>See who was punished for speaking</b><span>Arrests and prosecutions for speech, religion and other freedoms.</span></a>
+      <a class="tool" href="/psu"><b>See what the government owns</b><span>Businesses run by the Union and the states.</span></a>
+      <a class="tool" href="/changes"><b>What changed</b><span>New records, updated outcomes and newly read books, newest first.</span></a>
+    </div>
   </div>
 </section>
 
@@ -219,7 +247,7 @@ a:focus-visible{outline:2px solid var(--stamp);outline-offset:3px}
 <section class="sec" id="latest" aria-labelledby="latest-h">
   <div class="wrap">
     <div class="sec-head"><div><div class="kicker">Most recent cases</div><h2 id="latest-h">Latest from the registers</h2></div>
-      <p>The newest records in each register. Findings belong to the court or agency that made them; open a card for the full record and its sources.</p></div>
+      <p>The newest records in each register, by the date of the court order or event, not the day we added them. Findings belong to the court or agency that made them. <a href="/changes">See what changed &rarr;</a></p></div>
     <div class="lat-grid"><!--@latest--><div class="lat-col"><div class="lat-head"><span class="lat-blurb">Latest cases are added when the site is built.</span></div></div><!--@/latest--></div>
   </div>
 </section>

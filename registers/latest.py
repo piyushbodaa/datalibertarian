@@ -22,6 +22,19 @@ sys.path.insert(0, HERE)
 import build as reg  # noqa: E402
 
 PER_COLUMN = 2
+# When each record reached the site (scripts/changes.ts, from git history), kept
+# apart from the date of the court order or event the card leads with.
+CHANGES = os.path.join(HERE, "..", "src", "data", "changes.json")
+try:
+    with open(CHANGES, encoding="utf-8") as _f:
+        FIRST_SEEN = json.load(_f).get("firstSeen", {})
+except FileNotFoundError:
+    FIRST_SEEN = {}
+
+
+def added(key):
+    d = FIRST_SEEN.get(key)
+    return "added %s" % short_date(d) if d else ""
 SUMMARY_CHARS = 230
 REGISTER_COLUMNS = (
     ("civilliberties", "Civil Liberties", "punished for speaking, believing, assembling"),
@@ -106,7 +119,8 @@ def babuwatch_column(rows):
         outcome = BW_OUTCOME.get(r.get("ou"), (r.get("ou") or "").replace("_", " ").capitalize())
         who = "Police" if r.get("sv") == "police" else "Civil servant"
         title = officer_short(r.get("ot")) or r.get("ti") or ""
-        meta = " · ".join(x for x in (short_date(r["jd"]), r.get("st"), r.get("co")) if x)
+        event = ("Convicted " if r.get("tier") == "trial" else "Judgment ") + short_date(r["jd"])
+        meta = " · ".join(x for x in (event, r.get("st"), r.get("co"), added("babuwatch:%s" % r.get("mid", r["id"]))) if x)
         cards.append(card("/babuwatch/%s/%s" % (kind, r["id"]), r.get("pl"), outcome,
                           "%s · %s" % (who, r.get("ca") or "court record"), title, clip(r.get("su")), meta))
     return column("01", "/babuwatch/tracker", "Babuwatch", "police and civil servants found against by courts",
@@ -117,7 +131,7 @@ def register_column(no, key, name, blurb, plates):
     data = reg.load(key)
     cards = []
     for r in reg.newest_first(data["records"])[:PER_COLUMN]:
-        meta = " · ".join((short_date(r["date"]), r["state"]))
+        meta = " · ".join(x for x in ("Latest step " + short_date(r["date"]), r["state"], added("%s:%s" % (key, r["id"]))) if x)
         cards.append(card("/%s/%s" % (key, r["id"]), plates.get(r["id"]), reg.OUTCOME.get(r["outcome"], r["outcome"]),
                           reg.cat_label(data, r["category"]), r["title"], clip(r["summary"]), meta))
     return column(no, "/" + key, name, blurb, cards, "All %s records" % name)
