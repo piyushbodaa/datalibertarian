@@ -120,6 +120,7 @@ export function SiteFrame({ children }: { children: ReactNode }) {
           <Link to="/sources">Method</Link>
           <Link to="/corrections">Report a correction</Link>
           <Link to="/inflation">Inflation</Link>
+          <a href="/crime">Crime</a>
           <Link to="/compare">Compare</Link>
           <Link to="/states">States</Link>
           <Link to="/union">Centre</Link>

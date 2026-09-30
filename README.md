@@ -10,6 +10,8 @@ This is not an NGO or grant tracker. It follows taxpayer money through official 
 
 **Babuwatch:** court-adjudicated records against public servants at `/babuwatch` (civil servants) and `/babuwatch/copwatchindia` (police). Code, data and docs in [`babuwatch/`](./babuwatch/README.md).
 
+**Crime:** police-registered rape, murder, theft and robbery at `/crime`, from NCRB Crime in India 2023. Static pages built by `scripts/crime/build.tsx` (`npm run build:crime`) from data in `src/data/crime/`, which `scripts/crime/extract_*.py` regenerate from the NCRB PDF with checks against printed totals.
+
 ## Run
 
 ```

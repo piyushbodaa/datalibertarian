@@ -12,3 +12,6 @@ playwright-report/
 # babuwatch engine local builds
 babuwatch/dist
 __pycache__/
+
+# local credentials, never commit
+.aws

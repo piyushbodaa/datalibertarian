@@ -30,6 +30,8 @@ PROFILE = {
     "tagline": "A Data Libertarian Project",
     "base": "/babuwatch",
     "parent": None,
+    # The seal, name and tagline lead to the Data Libertarian home page.
+    "brand_home": "/",
     "switcher_blurb": "All public servants",
     # Owner decision 2026-09-23: Babuwatch keeps reusing Copwatch India's
     # address until it has one of its own.

@@ -11,6 +11,8 @@ PROFILE = {
     "tagline": "A Centre for Liberty Project",
     "base": "/babuwatch/copwatchindia",
     "parent": "babuwatch",
+    # The seal, name and tagline lead to the Data Libertarian home page.
+    "brand_home": "/",
     "switcher_blurb": "Police officers",
     "contact_email": "contact@copwatchindia.org",
     "templates": "copwatchindia",

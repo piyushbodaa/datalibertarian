@@ -44,6 +44,10 @@
   }
   .brand .seal svg{width:100%;height:100%;display:block}
   .brand .seal img{width:100%;height:100%;display:block;object-fit:contain;border-radius:50%}
+  /* The seal, name and tagline all link to the Data Libertarian home. */
+  .brand a{color:inherit;text-decoration:none}
+  .brand a.name:hover,.brand a.tagline:hover{text-decoration:underline;text-underline-offset:3px}
+  .brand a:focus-visible{outline:2px solid var(--brass);outline-offset:3px;border-radius:2px}
   .brand-text{display:flex;flex-direction:column;line-height:1.2}
   .brand .name{font-size:16px}
   .brand .tagline{font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--grey);font-weight:500}

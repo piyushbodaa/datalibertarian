@@ -85,6 +85,9 @@ SITE_URL = SITE_ORIGIN + BASE
 SITE_NAME = P["site_name"]
 SHORT_NAME = P["short_name"]
 TAGLINE = P["tagline"]
+# Where the seal, name and tagline point. A watch nested in a larger site sets
+# "brand_home" to a site-root path; without it they point at this watch's home.
+BRAND_HOME = ("@ROOT@" + P["brand_home"]) if P.get("brand_home") else "/"
 CONTACT_EMAIL = P["contact_email"]
 # Served base for every absolute URL emitted by the AI-access layer
 # (llms.txt, llms-full.txt, Markdown twins, JSON endpoints, robots.txt).
@@ -2041,6 +2044,7 @@ def shell_tokens(tpl):
     profile. Done on the template before %-formatting, so '%' in copy is
     escaped and page content is never touched."""
     for k, v in (("SITE_NAME", esc(SITE_NAME)), ("TAGLINE", esc(TAGLINE)),
+                 ("BRAND_HOME", BRAND_HOME),
                  ("OG_ALT", T["og_alt"]),
                  ("FOOT_TAGLINE", T["footer_tagline"]),
                  ("FOOT_ABOUT", T["footer_about"]),
@@ -2176,13 +2180,13 @@ def page_shell(title, desc, path, main_html, route=None, og_type="website",
 @@SWITCHER@@
 <header class="masthead">
   <div class="wrap">
-    <a class="brand" href="/">
-      <span class="seal" aria-hidden="true"><img src="/assets/brand/logo-mark-saffron.svg" width="40" height="40" alt=""></span>
+    <div class="brand">
+      <a class="seal" href="@@BRAND_HOME@@" aria-label="@@TAGLINE@@ home"><img src="/assets/brand/logo-mark-saffron.svg" width="40" height="40" alt=""></a>
       <span class="brand-text">
-        <span class="name">@@SITE_NAME@@</span>
-        <span class="tagline">@@TAGLINE@@</span>
+        <a class="name" href="@@BRAND_HOME@@">@@SITE_NAME@@</a>
+        <a class="tagline" href="@@BRAND_HOME@@">@@TAGLINE@@</a>
       </span>
-    </a>
+    </div>
     <nav class="links" aria-label="Primary">%s</nav>    <button class="navtoggle" type="button" aria-label="Open menu" aria-controls="mobile-navigation" aria-expanded="false">&#9776;</button>
   </div>
   <nav class="mobilenav" id="mobile-navigation" aria-label="Primary mobile">%s</nav></header>
