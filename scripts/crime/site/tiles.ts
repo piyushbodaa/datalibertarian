@@ -1,0 +1,43 @@
+/**
+ * Tile-grid map: one equal square per state or union territory, placed roughly where it
+ * sits. Equal squares let a small state read as clearly as a large one, and the grid draws
+ * no boundary lines, so it makes no claim about any border.
+ */
+export const TILES: { name: string; code: string; col: number; row: number }[] = [
+  { name: "Jammu & Kashmir", code: "JK", col: 2, row: 0 },
+  { name: "Ladakh", code: "LA", col: 3, row: 0 },
+  { name: "Chandigarh", code: "CH", col: 1, row: 1 },
+  { name: "Punjab", code: "PB", col: 2, row: 1 },
+  { name: "Himachal Pradesh", code: "HP", col: 3, row: 1 },
+  { name: "Uttarakhand", code: "UK", col: 4, row: 1 },
+  { name: "Rajasthan", code: "RJ", col: 1, row: 2 },
+  { name: "Haryana", code: "HR", col: 2, row: 2 },
+  { name: "Delhi", code: "DL", col: 3, row: 2 },
+  { name: "Uttar Pradesh", code: "UP", col: 4, row: 2 },
+  { name: "Bihar", code: "BR", col: 5, row: 2 },
+  { name: "Sikkim", code: "SK", col: 6, row: 2 },
+  { name: "Arunachal Pradesh", code: "AR", col: 8, row: 2 },
+  { name: "Gujarat", code: "GJ", col: 0, row: 3 },
+  { name: "Madhya Pradesh", code: "MP", col: 2, row: 3 },
+  { name: "Chhattisgarh", code: "CG", col: 3, row: 3 },
+  { name: "Jharkhand", code: "JH", col: 4, row: 3 },
+  { name: "West Bengal", code: "WB", col: 5, row: 3 },
+  { name: "Meghalaya", code: "ML", col: 6, row: 3 },
+  { name: "Assam", code: "AS", col: 7, row: 3 },
+  { name: "Nagaland", code: "NL", col: 8, row: 3 },
+  { name: "D&N Haveli and Daman & Diu", code: "DD", col: 0, row: 4 },
+  { name: "Maharashtra", code: "MH", col: 1, row: 4 },
+  { name: "Telangana", code: "TG", col: 2, row: 4 },
+  { name: "Odisha", code: "OD", col: 3, row: 4 },
+  { name: "Tripura", code: "TR", col: 6, row: 4 },
+  { name: "Mizoram", code: "MZ", col: 7, row: 4 },
+  { name: "Manipur", code: "MN", col: 8, row: 4 },
+  { name: "Goa", code: "GA", col: 1, row: 5 },
+  { name: "Karnataka", code: "KA", col: 2, row: 5 },
+  { name: "Andhra Pradesh", code: "AP", col: 3, row: 5 },
+  { name: "A&N Islands", code: "AN", col: 5, row: 6 },
+  { name: "Lakshadweep", code: "LD", col: 1, row: 6 },
+  { name: "Kerala", code: "KL", col: 2, row: 6 },
+  { name: "Tamil Nadu", code: "TN", col: 3, row: 6 },
+  { name: "Puducherry", code: "PY", col: 4, row: 6 },
+];
