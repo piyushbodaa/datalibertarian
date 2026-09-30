@@ -35,6 +35,8 @@
 .dl-nav-foot{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:6px 22px;margin:10px 0 0;padding:12px 0 16px;border-top:1px solid var(--dl-line);font-size:13px}
 .dl-nav-foot a{text-decoration:underline;text-underline-offset:3px}
 .dl-nav-foot a:hover{color:var(--dl-stamp)}
+.dl-nav-link{white-space:nowrap;padding:6px 2px}
+.dl-nav-link:hover,.dl-nav-link[aria-current="page"]{text-decoration:underline;text-underline-offset:3px}
 .dl-nav-search input{width:150px;height:28px;padding:0 9px;border:1px solid #3A3F48;border-radius:3px;
   background:#1E222B;color:var(--dl-paper);font:inherit;font-weight:400}
 .dl-nav-search input::placeholder{color:#9CA0A8}

@@ -131,6 +131,10 @@ export function StatesPage() {
         Official police figures where we have read the book. {goldN} states from official books.
         The rest are not ready.
       </p>
+      <p className="mt-2 max-w-2xl text-sm text-ink/75">
+        For everything we hold on one place, including crime figures and court records,{" "}
+        <a href="/by-state">browse by state</a>.
+      </p>
 
       <section className="mt-8 border-y border-ink/20 py-8">
         <h2 className="font-display text-2xl font-semibold tracking-tight">From official books</h2>

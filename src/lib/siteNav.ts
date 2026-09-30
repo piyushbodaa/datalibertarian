@@ -3,6 +3,10 @@
 // every built page (React, registers, Crime, Babuwatch, the homepage), and
 // vite.config.ts adds it in dev. Section menus stay in their own headers.
 
+import { jurisdictions } from "../data/states";
+
+const STATE_SLUGS = new Set(jurisdictions.map((j) => j.slug));
+
 export type NavItem = { href: string; name: string; what: string };
 export type NavGroup = { title: string; items: NavItem[] };
 
@@ -75,7 +79,8 @@ export function renderSiteNav(path: string): string {
     `<div class="dl-nav" role="navigation" aria-label="Data Libertarian"><div class="dl-nav-in">` +
     `<a class="dl-nav-brand" href="/">Data Libertarian</a>${section}` +
     `<details class="dl-nav-explore"><summary>Explore</summary><div class="dl-nav-panel">${groups}` +
-    `<p class="dl-nav-foot"><a href="/">All projects on the home page</a><a href="/corrections">Report a correction</a></p></div></details>` +
+    `<p class="dl-nav-foot"><a href="/by-state">Browse by state</a><a href="/">All projects on the home page</a><a href="/corrections">Report a correction</a></p></div></details>` +
+    `<a class="dl-nav-link" href="/by-state"${path === "/by-state" || STATE_SLUGS.has(path.slice(1)) ? ' aria-current="page"' : ""}>States</a>` +
     `<form class="dl-nav-search" role="search" action="/search" method="get"><label for="dl-nav-q" class="dl-nav-sr">Search the site</label>` +
     `<input id="dl-nav-q" name="q" type="search" placeholder="Search" enterkeyhint="search"></form>` +
     `</div></div>`

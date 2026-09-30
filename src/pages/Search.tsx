@@ -181,7 +181,7 @@ export function SearchPage() {
                 <Link key={w} className="mr-2" to={`/search?q=${encodeURIComponent(w)}`}>“{w}”</Link>
               ))}</li>
             ) : null}
-            <li>Browse instead: <Link to="/states">states</Link>, <a href="/babuwatch/tracker">every court record</a>, <a href="/crime">crime figures</a></li>
+            <li>Browse instead: <a href="/by-state">by state</a>, <a href="/babuwatch/tracker">every court record</a>, <a href="/crime">crime figures</a></li>
             <li>See what we have read so far: <Link to="/sources">sources &amp; methodology</Link></li>
           </ul>
         </section>
