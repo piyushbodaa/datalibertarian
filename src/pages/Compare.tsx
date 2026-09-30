@@ -389,7 +389,7 @@ export function ComparePage() {
       ) : null}
 
       <p className="mt-8 text-sm">
-        <Link to="/sources">Method</Link>
+        <Link to="/sources">Sources &amp; methodology</Link>
         {" · "}
         <Link to="/search">Search</Link>
       </p>

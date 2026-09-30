@@ -96,7 +96,7 @@ export function OdPolicePage() {
           {" · "}
           <Link to="/compare?left=maharashtra&right=odisha">Compare with Maharashtra</Link>
           {" · "}
-          <Link to="/sources">Method</Link>
+          <Link to="/sources">Sources &amp; methodology</Link>
         </p>
       </section>
     </article>

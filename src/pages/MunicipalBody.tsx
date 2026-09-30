@@ -33,7 +33,7 @@ export function MunicipalBodyPage() {
           {" · "}
           <Link to={`/${body.stateSlug}/police`}>{body.state} Police</Link>
           {" · "}
-          <Link to="/sources">Method</Link>
+          <Link to="/sources">Sources &amp; methodology</Link>
         </p>
       </article>
     );
@@ -130,7 +130,7 @@ export function MunicipalBodyPage() {
           {" · "}
           <Link to={`/compare?left=${body.slug}`}>Compare this book</Link>
           {" · "}
-          <Link to="/sources">Method</Link>
+          <Link to="/sources">Sources &amp; methodology</Link>
         </p>
       </section>
     </article>

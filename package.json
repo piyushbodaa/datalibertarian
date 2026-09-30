@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build && tsx scripts/prerender.tsx && tsx scripts/export-inflation.ts && cp public/snapshot.html dist/index.html && cp dist/victimlesscrimes/index.html dist/victimlesscrimes.html && cp dist/civilliberties/index.html dist/civilliberties.html && cp dist/economicfreedom/index.html dist/economicfreedom.html && cp dist/psu/index.html dist/psu.html && npm run build:crime && npm run build:registers && npm run build:babuwatch && npm run build:latest && npm run build:states && npm run build:changes && npm run build:search && npm run build:sitenav",
+    "build": "tsc --noEmit && vite build && tsx scripts/prerender.tsx && tsx scripts/export-inflation.ts && cp public/snapshot.html dist/index.html && cp dist/victimlesscrimes/index.html dist/victimlesscrimes.html && cp dist/civilliberties/index.html dist/civilliberties.html && cp dist/economicfreedom/index.html dist/economicfreedom.html && cp dist/psu/index.html dist/psu.html && npm run build:crime && npm run build:registers && npm run build:babuwatch && npm run build:latest && npm run build:states && npm run build:changes && npm run build:records && npm run build:search && npm run build:sitenav",
     "preview": "vite preview",
     "test": "tsx --test src/data/citations.test.ts src/data/compare/median.test.ts src/data/inflation.test.ts src/data/crime/crime.test.ts src/lib/siteNav.test.ts src/lib/siteSearch.test.ts src/data/changes.test.ts",
     "test:browser": "playwright test",
@@ -17,6 +17,7 @@
     "build:crime": "tsx scripts/crime/build.tsx --out dist",
     "build:states": "tsx scripts/states.ts dist",
     "build:changes": "tsx scripts/changes-page.ts dist",
+    "build:records": "tsx scripts/record-links.ts dist",
     "changes": "tsx scripts/changes.ts",
     "build:search": "tsx scripts/search-index.ts dist",
     "build:sitenav": "tsx scripts/site-nav.ts dist"

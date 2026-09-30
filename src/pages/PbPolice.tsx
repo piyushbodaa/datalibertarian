@@ -103,7 +103,7 @@ export function PbPolicePage() {
           {" · "}
           <Link to="/compare?left=punjab&right=haryana">Compare with Haryana</Link>
           {" · "}
-          <Link to="/sources">Method</Link>
+          <Link to="/sources">Sources &amp; methodology</Link>
         </p>
       </section>
     </article>

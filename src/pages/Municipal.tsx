@@ -63,7 +63,7 @@ export function MunicipalPage() {
         {" · "}
         <Link to="/gram">Village</Link>
         {" · "}
-        <Link to="/sources">Method</Link>
+        <Link to="/sources">Sources &amp; methodology</Link>
       </p>
     </article>
   );

@@ -23,3 +23,10 @@ test("inserts once, after a leading skip link", () => {
 test("leaves fragments without a body alone", () => {
   assert.equal(injectSiteNav("<div>part</div>", "/"), "<div>part</div>");
 });
+
+test("adds the directory footer once, before the last </body>", () => {
+  const page = '<html><head></head><body><main></main><script>var s="</body>"</script></body></html>';
+  const out = injectSiteNav(page, "/");
+  assert.equal(out.split('class="dl-foot"').length, 2);
+  assert.ok(out.indexOf('class="dl-foot"') > out.indexOf("<script>"));
+});

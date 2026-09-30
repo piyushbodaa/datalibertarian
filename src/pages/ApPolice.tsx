@@ -114,7 +114,7 @@ export function ApPolicePage() {
           {" · "}
           <Link to="/compare?left=andhra-pradesh&right=telangana">Compare with Telangana</Link>
           {" · "}
-          <Link to="/sources">Method</Link>
+          <Link to="/sources">Sources &amp; methodology</Link>
         </p>
       </section>
     </article>

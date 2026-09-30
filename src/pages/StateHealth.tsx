@@ -66,7 +66,7 @@ export function StateHealthPage() {
           {" · "}
           <Link to="/states">All states</Link>
           {" · "}
-          <Link to="/sources">Method</Link>
+          <Link to="/sources">Sources &amp; methodology</Link>
         </p>
       </article>
     );
@@ -148,7 +148,7 @@ export function StateHealthPage() {
           {" · "}
           <Link to={`/compare?left=${j.slug}&right=telangana&field=health-functional`}>Compare with Telangana</Link>
           {" · "}
-          <Link to="/sources">Method</Link>
+          <Link to="/sources">Sources &amp; methodology</Link>
         </p>
       </section>
     </article>

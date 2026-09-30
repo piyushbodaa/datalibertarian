@@ -107,7 +107,7 @@ export function CgPolicePage() {
           {" · "}
           <Link to="/compare?left=maharashtra&right=chhattisgarh">Compare with Maharashtra</Link>
           {" · "}
-          <Link to="/sources">Method</Link>
+          <Link to="/sources">Sources &amp; methodology</Link>
         </p>
       </section>
     </article>

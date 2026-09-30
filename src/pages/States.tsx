@@ -199,7 +199,7 @@ export function StatesPage() {
       <p className="mt-10 max-w-2xl text-sm text-ink/65">
         Delhi Police sits in the Centre’s books. <Link to="/union/delhi-police">Open Delhi Police</Link>
         {" · "}
-        <Link to="/sources">Method</Link>
+        <Link to="/sources">Sources &amp; methodology</Link>
       </p>
     </article>
   );
