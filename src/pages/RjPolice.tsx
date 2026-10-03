@@ -112,7 +112,7 @@ export function RjPolicePage() {
           {" · "}
           <Link to="/compare?left=maharashtra&right=rajasthan">Compare with Maharashtra</Link>
           {" · "}
-          <Link to="/sources">Method</Link>
+          <Link to="/sources">Sources &amp; methodology</Link>
         </p>
       </section>
     </article>

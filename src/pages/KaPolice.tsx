@@ -121,7 +121,7 @@ export function KaPolicePage() {
           {" · "}
           <Link to="/compare?left=maharashtra&right=karnataka">Compare with Maharashtra</Link>
           {" · "}
-          <Link to="/sources">Method</Link>
+          <Link to="/sources">Sources &amp; methodology</Link>
         </p>
       </section>
     </article>

@@ -39,7 +39,7 @@ export function EmptyPolicePage() {
           <p className="mt-6">
             <Link to="/states">All states</Link>
             {" · "}
-            <Link to="/sources">Method</Link>
+            <Link to="/sources">Sources &amp; methodology</Link>
           </p>
         </section>
       </article>
@@ -61,7 +61,7 @@ export function EmptyPolicePage() {
           <p className="mt-6">
             <Link to="/states">All states</Link>
             {" · "}
-            <Link to="/sources">Method</Link>
+            <Link to="/sources">Sources &amp; methodology</Link>
           </p>
         </section>
       </article>
@@ -95,7 +95,7 @@ export function EmptyPolicePage() {
         </Link>
       </p>
       <p className="mt-6 text-sm">
-        <Link to="/sources">Method</Link>
+        <Link to="/sources">Sources &amp; methodology</Link>
       </p>
     </article>
   );

@@ -75,7 +75,7 @@ export const NAV = [
   { href: "/crime/rape", label: "Rape", id: "rape" },
   { href: "/crime/murder", label: "Murder", id: "murder" },
   { href: "/crime/stealing", label: "Theft & robbery", id: "stealing" },
-  { href: "/crime/method", label: "Method", id: "method" },
+  { href: "/crime/method", label: "Sources & method", id: "method" },
 ] as const;
 export type PageId = (typeof NAV)[number]["id"];
 
@@ -180,7 +180,7 @@ export function Page({
                 </div>
                 <div className="foot-col">
                   <h5>About</h5>
-                  <a href="/crime/method">Method</a>
+                  <a href="/crime/method">Sources &amp; methodology</a>
                   <a href="/corrections">Report a correction</a>
                   <a href="/babuwatch/about">About us</a>
                 </div>

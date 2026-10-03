@@ -10,7 +10,7 @@ const LABELS: Record<string, string> = {
   states: "States",
   municipal: "City",
   gram: "Village",
-  sources: "Method",
+  sources: "Sources & methodology",
   corrections: "Corrections",
   inflation: "Inflation",
   method: "Method",
