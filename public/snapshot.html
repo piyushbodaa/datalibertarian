@@ -80,6 +80,15 @@ a{color:inherit}
 .tally tr.sub td{color:var(--dim);border-bottom:0;font-size:13px;padding-top:12px}
 .tally .note{font-size:12px;color:var(--dim);margin-top:10px}
 
+/* demo video */
+.demo{padding:8px 0 8px}
+.demo-box{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,3fr);gap:24px;align-items:center}
+.demo video{display:block;width:100%;aspect-ratio:16/9;background:var(--ink);border:1px solid var(--line)}
+.demo h2{font:600 26px/1.15 var(--serif);margin:6px 0 10px}
+.demo p{margin:0;color:var(--ink-2);font-size:14.5px}
+.demo ol{margin:12px 0 0;padding-left:20px;color:var(--ink-2);font-size:14px}
+.demo li{margin:3px 0}
+
 /* section heads */
 .sec{padding:40px 0 8px}
 .sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-bottom:10px;border-bottom:3px double var(--rule)}
@@ -128,6 +137,7 @@ footer a{color:var(--ink-2)}
 a:focus-visible{outline:2px solid var(--stamp);outline-offset:3px}
 @media (max-width:1180px){.lat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:1020px){
+  .demo-box{grid-template-columns:1fr}
   .tools{grid-template-columns:1fr 1fr}
   .hero-text{grid-column:1 / -1}.tally{grid-column:1 / -1}
   .row{grid-template-columns:44px 1fr auto;row-gap:4px}
@@ -170,6 +180,28 @@ a:focus-visible{outline:2px solid var(--stamp);outline-offset:3px}
       <!--@tally--><table><tr class="total"><td>Records</td><td class="n">&mdash;</td></tr></table><!--@/tally-->
       <div class="note">Counted from the published data at every build. Nothing here is estimated.</div>
     </aside>
+  </div>
+</section>
+
+<section class="sec demo" aria-labelledby="demo-h">
+  <div class="wrap">
+    <div class="demo-box">
+      <video controls preload="metadata" playsinline poster="/demo/tour.jpg" aria-describedby="demo-d">
+        <source src="/demo/tour.mp4" type="video/mp4">
+        Your browser cannot play this video. <a href="/demo/tour.mp4">Download the film (MP4, 5 MB)</a>.
+      </video>
+      <div>
+        <div class="kicker">The short film</div>
+        <h2 id="demo-h">What this site does, in under a minute</h2>
+        <p id="demo-d">48 seconds, with captions on screen, so it works with the sound off. It covers:</p>
+        <ol>
+          <li>Why the rape figure most reports quote is less than half the count</li>
+          <li>The four case registers and what is on them today</li>
+          <li>Babuwatch: court findings against public servants</li>
+          <li>Search, court records, crime figures, your state and budgets</li>
+        </ol>
+      </div>
+    </div>
   </div>
 </section>
 

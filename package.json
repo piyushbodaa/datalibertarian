@@ -20,7 +20,8 @@
     "build:records": "tsx scripts/record-links.ts dist",
     "changes": "tsx scripts/changes.ts",
     "build:search": "tsx scripts/search-index.ts dist",
-    "build:sitenav": "tsx scripts/site-nav.ts dist"
+    "build:sitenav": "tsx scripts/site-nav.ts dist",
+    "demo:video": "node scripts/demo/capture.mjs && node scripts/demo/render.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
