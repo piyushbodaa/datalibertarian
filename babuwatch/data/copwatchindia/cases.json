@@ -221466,5 +221466,310 @@
   "merged_case_id": null,
   "officers_named_public": 0,
   "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0103",
+  "status": "current",
+  "merged_id": "CWC-1393",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs CBI",
+  "display_title_redacted": "[name withheld] vs CBI",
+  "state": "Delhi",
+  "district": "New Delhi",
+  "district_at_time": null,
+  "city_town": "New Delhi",
+  "police_station_or_unit": "Sports Cell, CISF Headquarters, New Delhi",
+  "court": "Delhi High Court",
+  "court_as_verified": "High Court of Delhi",
+  "bench": null,
+  "case_title": "[name withheld] vs CBI",
+  "case_number": "CRL.A. 578/2010",
+  "citation": null,
+  "judges": [
+   "Vimal Kumar Yadav"
+  ],
+  "judgment_date": "2026-09-22",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2004-10-28",
+  "incident_year": 2004,
+  "category": "Other",
+  "admin_category": "corruption",
+  "admin_subcategory": "bribery_pc_act",
+  "subcategory": "bribery_pc_act",
+  "subcategory_display": "bribery pc act",
+  "protest_override_heuristic": false,
+  "outcome_type": "conviction_upheld",
+  "sections": [
+   "Section 7 of the Prevention of Corruption Act, 1988",
+   "Section 13(2) read with Section 13(1)(d) of the Prevention of Corruption Act, 1988"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Assistant Sub-Inspector (Ministerial)",
+    "unit": "Sports Cell, CISF Headquarters, New Delhi",
+    "role": "convicted",
+    "publish_grade": "unnamed",
+    "gate_reasons": [
+     "ledger:no_row",
+     "key2:no_row"
+    ],
+    "ledger_role": null,
+    "key2": null,
+    "key2_agy": null,
+    "key2_claude": null,
+    "key2_union": null,
+    "key2_gemapi": null,
+    "key2_openrouter": null,
+    "key2_gpt56": null,
+    "grok": null,
+    "jev_risk": null,
+    "jev_p_culpable": null,
+    "key2_gpt": null,
+    "later_outcome": null,
+    "name_public": null,
+    "display": "Assistant Sub-Inspector (Ministerial), Sports Cell, CISF Headquarters, New Delhi"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": true,
+  "victim_count": 1,
+  "sentence_type": "imprisonment",
+  "sentence_max_years": 2,
+  "compensation_inr": null,
+  "force": "central_armed",
+  "primary_source_url": "https://indiankanoon.org/doc/55967950/",
+  "secondary_sources": [],
+  "summary": "The Delhi High Court recorded that an Assistant Sub-Inspector (Ministerial) in the Sports Cell of CISF Headquarters, New Delhi, handling the kit allowance of a CISF Inspector who had coached the Indian junior judo team at an Asian championship in Doha, demanded Rs. 5,000 to release the Rs. 10,000 cheque and was caught by the CBI on 28.10.2004 accepting Rs. 3,000. The Special Judge, CBI, Patiala House Courts convicted him on 20.04.2010 under Sections 7 and 13(2) read with 13(1)(d) of the Prevention of Corruption Act, 1988 and sentenced him to two years' rigorous imprisonment and a fine of Rs. 5,000 on each count, concurrently. On 22.09.2026, sixteen years after the appeal was filed, the High Court rejected his defence that the money was repayment of a loan, upheld the conviction and directed him to surrender to serve the sentence.",
+  "summary_verified": "The Delhi High Court recorded that an Assistant Sub-Inspector (Ministerial) in the Sports Cell of CISF Headquarters, New Delhi, handling the kit allowance of a CISF Inspector who had coached the Indian junior judo team at an Asian championship in Doha, demanded Rs. 5,000 to release the Rs. 10,000 cheque and was caught by the CBI on 28.10.2004 accepting Rs. 3,000. The Special Judge, CBI, Patiala House Courts convicted him on 20.04.2010 under Sections 7 and 13(2) read with 13(1)(d) of the Prevention of Corruption Act, 1988 and sentenced him to two years' rigorous imprisonment and a fine of Rs. 5,000 on each count, concurrently. On 22.09.2026, sixteen years after the appeal was filed, the High Court rejected his defence that the money was repayment of a loan, upheld the conviction and directed him to surrender to serve the sentence.",
+  "court_quote": "The conviction of the Appellant under Section 7 of the Prevention of Corruption Act, 1988, is accordingly upheld.",
+  "court_quote_para": "53",
+  "confidence": "high",
+  "verdict": "accept",
+  "verdict_note": "Checked against the Delhi High Court judgment dated 22.09.2026 in CRL.A. 578/2010 (Indian Kanoon). Trial-court conviction and sentence at para 1, the trap at para 2, findings at paras 50-52, and the order upholding the conviction and directing surrender at paras 53-54. The complainant, a CISF Inspector, is not named here.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Court finding",
+    "position_explainer": "A court has made a finding on this allegation.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-09-22",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Delhi",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court dismissed the appeal, upheld the 2010 conviction under Sections 7 and 13(2) read with 13(1)(d) of the PC Act, and directed the appellant to surrender to serve two years' rigorous imprisonment.",
+    "disposition": "conviction upheld · surrender directed",
+    "source": "CRL.A. 578/2010",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-10-05",
+    "scope": "Copwatch convictions sweep (5 Oct): record written from the judgment text on Indian Kanoon; quote checked verbatim; the officer and the complainant are not named."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-10-05",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/55967950/",
+    "link_checked": "2026-10-05"
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": true,
+  "verified_by": [
+   "claude-opus-5.5-week-1005"
+  ],
+  "merged_case_id": null,
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0104",
+  "status": "current",
+  "merged_id": "CWC-1394",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs State of Gujarat & Anr.",
+  "display_title_redacted": "[name withheld] vs State of Gujarat & Anr.",
+  "state": "Gujarat",
+  "district": "Rajkot",
+  "district_at_time": null,
+  "city_town": "Rajkot",
+  "police_station_or_unit": "Pradhyumannagar Police Station, Rajkot",
+  "court": "Gujarat High Court",
+  "court_as_verified": "High Court of Gujarat",
+  "bench": null,
+  "case_title": "[name withheld] vs State of Gujarat & Anr.",
+  "case_number": "R/Special Criminal Application (Direction) No. 9593 of 2024",
+  "citation": null,
+  "judges": [
+   "M. K. Thakker"
+  ],
+  "judgment_date": "2026-09-28",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2023-03-25",
+  "incident_year": 2023,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "custodial_death",
+  "subcategory": "custodial_death",
+  "subcategory_display": "custodial death",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Section 154 of the Code of Criminal Procedure, 1973",
+   "Section 176 of the Code of Criminal Procedure, 1973",
+   "Article 226 of the Constitution of India"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Officer-in-charge",
+    "unit": "Pradhyumannagar Police Station, Rajkot",
+    "role": "named_in_finding",
+    "publish_grade": "unnamed",
+    "gate_reasons": [
+     "ledger:no_row",
+     "key2:no_row"
+    ],
+    "ledger_role": null,
+    "key2": null,
+    "key2_agy": null,
+    "key2_claude": null,
+    "key2_union": null,
+    "key2_gemapi": null,
+    "key2_openrouter": null,
+    "key2_gpt56": null,
+    "grok": null,
+    "jev_risk": null,
+    "jev_p_culpable": null,
+    "key2_gpt": null,
+    "later_outcome": null,
+    "name_public": null,
+    "display": "Officer-in-charge, Pradhyumannagar Police Station, Rajkot"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": true,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/174018341/",
+  "secondary_sources": [],
+  "summary": "The High Court recorded that a Joint Director General of Foreign Trade at Rajkot, arrested by the CBI in a bribery trap on 24.03.2023, was kept in his office overnight while the post-trap panchnama continued, and died on the morning of 25.03.2023 after, as a CBI constable reported, jumping from a window. Rajkot's Pradhyumannagar police registered only an accidental-death inquiry; an SIT found the CBI officers had not taken proper care but were not involved in the death, and a judicial inquiry under Section 176 CrPC found they had caused no harm. His family sought an FIR alleging murder. On 28.09.2026 the High Court held that, instead of registering an FIR or treating the family's complaint as a private complaint, the police had folded it into the Section 176 inquiry, contrary to the Supreme Court's ruling in Lalita Kumari. It directed registration of an FIR against an unknown person and further investigation under the supervision of the DIG, CID Crime, with a report within three months.",
+  "summary_verified": "The High Court recorded that a Joint Director General of Foreign Trade at Rajkot, arrested by the CBI in a bribery trap on 24.03.2023, was kept in his office overnight while the post-trap panchnama continued, and died on the morning of 25.03.2023 after, as a CBI constable reported, jumping from a window. Rajkot's Pradhyumannagar police registered only an accidental-death inquiry; an SIT found the CBI officers had not taken proper care but were not involved in the death, and a judicial inquiry under Section 176 CrPC found they had caused no harm. His family sought an FIR alleging murder. On 28.09.2026 the High Court held that, instead of registering an FIR or treating the family's complaint as a private complaint, the police had folded it into the Section 176 inquiry, contrary to the Supreme Court's ruling in Lalita Kumari. It directed registration of an FIR against an unknown person and further investigation under the supervision of the DIG, CID Crime, with a report within three months.",
+  "court_quote": "instead of taking appropriate action, either by registering an FIR or by treating the same as a private complaint, the said complaint was made a part of the inquiry conducted under Section 176 of the Code of Criminal Procedure",
+  "court_quote_para": "12",
+  "confidence": "high",
+  "verdict": "accept",
+  "verdict_note": "Checked against the Gujarat High Court judgment dated 28.09.2026 (Indian Kanoon). The custody timeline is at paras 2.1-2.3, the SIT and judicial-inquiry conclusions at paras 2.5-2.6, the finding on non-registration at para 12, and the direction for an FIR and DIG-supervised investigation at para 17. The court made no finding that any officer caused the death; the SIT and the judicial inquiry had found no CBI involvement. Names of the deceased, his family and the officers are withheld.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Court finding",
+    "position_explainer": "A court has made a finding on this allegation.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-09-28",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Gujarat",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court held the police had not registered an FIR on the family's complaint about a death in CBI custody and had folded it into the Section 176 inquiry; it directed an FIR against an unknown person and investigation under the supervision of the DIG, CID Crime, with a report in three months.",
+    "disposition": "Adverse finding (failure to register FIR in a custodial death) · FIR and supervised investigation directed · no compensation",
+    "source": "R/SCR.A/9593/2024",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-10-05",
+    "scope": "Copwatch convictions sweep (5 Oct): record written from the judgment text on Indian Kanoon; quote checked verbatim; no personal finding against any officer is claimed."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-10-05",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/174018341/",
+    "link_checked": "2026-10-05"
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": true,
+  "verified_by": [
+   "claude-opus-5.5-week-1005"
+  ],
+  "merged_case_id": null,
+  "officers_named_public": 0,
+  "record_flag": null
  }
 ]
