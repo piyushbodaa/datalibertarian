@@ -36,6 +36,7 @@ export const SITE_NAV: NavGroup[] = [
       { href: "/states", name: "State police budgets", what: "What each state's own books print for its police" },
       { href: "/compare", name: "Compare two governments", what: "Side by side, where the accounting scope matches" },
       { href: "/psu", name: "PSUs", what: "Businesses the government owns" },
+      { href: "/education", name: "Education", what: "Schools, students and teachers, from UDISE+" },
     ],
   },
   {

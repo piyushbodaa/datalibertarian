@@ -1,0 +1,14 @@
+{
+ "note": "State budget allocations for school education, from each state's own budget documents. Only verified rows are listed.",
+ "states": {
+  "Andhra Pradesh": {
+   "year": "2026-27",
+   "value_crore": 32308,
+   "item": "School Education Department (of which Rs 1,500 crore for public-school infrastructure)",
+   "source": "Andhra Pradesh Budget Speech 2026-27 (English), para on allocations, presented 14 Feb 2026",
+   "source_url": "https://apfinance.gov.in/...Bud@et26-27/documents/SpeechEnglish.pdf",
+   "quote": "Rs. 32,308 crore for School Education Department of which Rs.1,500 crore is proposed for overhauling the infrastructure in public schools",
+   "related": "Thalliki Vandanam provided Rs.15,000 per child annually benefiting 67.27 lakh students (same speech, para 32)"
+  }
+ }
+}
