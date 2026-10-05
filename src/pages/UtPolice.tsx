@@ -70,7 +70,7 @@ export function UtPolicePage({ slug }: { slug: string }) {
           {" · "}
           <Link to={`/compare?left=${j.slug}&right=sikkim`}>Compare with Sikkim</Link>
           {" · "}
-          <Link to="/sources">Method</Link>
+          <Link to="/sources">Sources &amp; methodology</Link>
         </p>
       </section>
     </article>

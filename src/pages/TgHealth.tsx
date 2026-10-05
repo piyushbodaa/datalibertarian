@@ -128,7 +128,7 @@ export function TgHealthPage() {
           {" · "}
           <Link to="/compare?left=telangana&right=maharashtra">Compare with Maharashtra</Link>
           {" · "}
-          <Link to="/sources">Method</Link>
+          <Link to="/sources">Sources &amp; methodology</Link>
         </p>
       </section>
     </article>

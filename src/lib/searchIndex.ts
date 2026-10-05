@@ -38,6 +38,7 @@ import { delhiEstInfra } from "../data/union/delhi-police";
 import { commissionerates } from "../data/telangana/commissionerates";
 import { pickAmount } from "../data/maharashtra-police";
 import { INFLATION_ITEMS } from "../data/inflation/items";
+import { queryTerms, score } from "./siteSearch";
 import { latest } from "../data/inflation/yoy";
 
 export type SearchHit = {
@@ -208,18 +209,19 @@ const ENTRIES: Entry[] = [
   { item: delhiEstInfra, entity: "Delhi Police (Union)", href: "/union/delhi-police" },
 ];
 
+/** Every budget line and inflation item matching all words of the query, best first. */
 export function searchHeads(query: string): SearchHit[] {
-  const q = query.trim().toLowerCase();
-  if (q.length < 2) return [];
-  const hits: SearchHit[] = [];
+  const terms = queryTerms(query);
+  if (!terms.length || query.trim().length < 2) return [];
+  const scored: { hit: SearchHit; s: number }[] = [];
   for (const e of ENTRIES) {
-    const blob = `${e.item.plainLabel} ${e.item.officialName} ${e.item.head} ${e.entity} ${e.item.id}`.toLowerCase();
-    if (!blob.includes(q)) continue;
+    const s = score(terms, e.item.plainLabel, `${e.item.officialName} ${e.item.head} ${e.entity} ${e.item.id} ${e.href.replaceAll("-", " ")}`);
+    if (!s) continue;
     const money =
       pickAmount(e.item, "2026-27", "be") ??
       pickAmount(e.item, "2025-26", "be") ??
       e.item.amounts[0];
-    hits.push({
+    scored.push({ s, hit: {
       id: e.item.id,
       plainLabel: e.item.plainLabel,
       officialName: e.item.officialName,
@@ -227,20 +229,19 @@ export function searchHeads(query: string): SearchHit[] {
       entity: e.entity,
       href: e.href,
       money,
-    });
+    } });
   }
   for (const item of INFLATION_ITEMS) {
-    const blob = `${item.plainLabel} ${item.officialName} inflation ${item.id}`.toLowerCase();
-    if (!blob.includes(q)) continue;
-    if (!latest(item.observed)) continue;
-    hits.push({
+    const s = score(terms, item.plainLabel, `${item.officialName} inflation prices ${item.category} ${item.id}`);
+    if (!s || !latest(item.observed)) continue;
+    scored.push({ s, hit: {
       id: item.id,
       plainLabel: item.plainLabel,
       officialName: item.officialName,
       head: item.category,
       entity: "Inflation",
       href: `/inflation/item/${item.id}`,
-    });
+    } });
   }
-  return hits.slice(0, 40);
+  return scored.sort((a, b) => b.s - a.s).map((x) => x.hit);
 }

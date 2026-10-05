@@ -95,7 +95,7 @@ export function TracePage() {
       <p className="mt-6 text-sm">
         <Link to={`/compare?left=${side.entity.slug}`}>Compare this book</Link>
         {" · "}
-        <Link to="/sources">Method</Link>
+        <Link to="/sources">Sources &amp; methodology</Link>
       </p>
     </article>
   );

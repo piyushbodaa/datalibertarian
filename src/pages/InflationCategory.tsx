@@ -85,7 +85,7 @@ export function InflationCategoryPage() {
         <p className="mt-6">
           <Link to="/inflation">Inflation</Link>
           {" · "}
-          <Link to="/inflation/method">Method</Link>
+          <Link to="/inflation/method">Price sources &amp; methodology</Link>
         </p>
       </section>
     </article>

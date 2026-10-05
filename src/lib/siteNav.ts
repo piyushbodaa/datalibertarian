@@ -3,6 +3,10 @@
 // every built page (React, registers, Crime, Babuwatch, the homepage), and
 // vite.config.ts adds it in dev. Section menus stay in their own headers.
 
+import { jurisdictions } from "../data/states";
+
+const STATE_SLUGS = new Set(jurisdictions.map((j) => j.slug));
+
 export type NavItem = { href: string; name: string; what: string };
 export type NavGroup = { title: string; items: NavItem[] };
 
@@ -75,19 +79,38 @@ export function renderSiteNav(path: string): string {
     `<div class="dl-nav" role="navigation" aria-label="Data Libertarian"><div class="dl-nav-in">` +
     `<a class="dl-nav-brand" href="/">Data Libertarian</a>${section}` +
     `<details class="dl-nav-explore"><summary>Explore</summary><div class="dl-nav-panel">${groups}` +
-    `<p class="dl-nav-foot"><a href="/">All projects on the home page</a><a href="/corrections">Report a correction</a></p></div></details>` +
+    `<p class="dl-nav-foot"><a href="/by-state">Browse by state</a><a href="/">All projects on the home page</a><a href="/corrections">Report a correction</a></p></div></details>` +
+    `<a class="dl-nav-link" href="/by-state"${path === "/by-state" || STATE_SLUGS.has(path.slice(1)) ? ' aria-current="page"' : ""}>States</a>` +
     `<form class="dl-nav-search" role="search" action="/search" method="get"><label for="dl-nav-q" class="dl-nav-sr">Search the site</label>` +
     `<input id="dl-nav-q" name="q" type="search" placeholder="Search" enterkeyhint="search"></form>` +
     `</div></div>`
   );
 }
 
-/** Insert the bar at the top of a full HTML page, after a leading skip link. */
+/** The site-wide footer: a directory of every section, the same on every page. */
+export function renderSiteFooter(): string {
+  const cols = SITE_NAV.map((g) =>
+    `<div><h2>${esc(g.title)}</h2><ul>${g.items.map((i) => `<li><a href="${i.href}">${esc(i.name)}</a></li>`).join("")}</ul></div>`).join("");
+  const ways: [string, string][] = [
+    ["/by-state", "Browse by state"], ["/search", "Search"], ["/changes", "What changed"],
+    ["/sources", "Budget sources & methodology"], ["/crime/method", "Crime methodology"],
+    ["/babuwatch/methodology", "Babuwatch methodology"], ["/corrections", "Report a correction"],
+  ];
+  return (
+    `<footer class="dl-foot" aria-label="Data Libertarian site directory"><div class="dl-foot-in">` +
+    `<p class="dl-foot-brand"><a href="/">Data Libertarian</a><span>The Indian state, on the record. Every figure links to its source; empty means unread, not zero.</span></p>` +
+    `<div class="dl-foot-cols">${cols}<div><h2>Find your way</h2><ul>${ways.map(([h, l]) => `<li><a href="${h}">${esc(l)}</a></li>`).join("")}</ul></div></div>` +
+    `</div></footer>`
+  );
+}
+
+/** Insert the bar at the top of a full HTML page, after a leading skip link, and the directory footer at the end. */
 export function injectSiteNav(html: string, path: string): string {
   if (html.includes(SITE_NAV_MARK) || !/<body[^>]*>/i.test(html)) return html;
   const assets = '<link rel="stylesheet" href="/site-nav.css"><script src="/site-nav.js" defer></script>';
   const withHead = html.replace(/<\/head>/i, assets + "</head>");
+  const withFoot = withHead.replace(/<\/body>(?![\s\S]*<\/body>)/i, renderSiteFooter() + "</body>");
   const skip = /(<body[^>]*>\s*<a [^>]*class="(?:skip|skip-link)"[^>]*>[\s\S]*?<\/a>)/i;
-  if (skip.test(withHead)) return withHead.replace(skip, (m) => m + renderSiteNav(path));
-  return withHead.replace(/(<body[^>]*>)/i, (m) => m + renderSiteNav(path));
+  if (skip.test(withFoot)) return withFoot.replace(skip, (m) => m + renderSiteNav(path));
+  return withFoot.replace(/(<body[^>]*>)/i, (m) => m + renderSiteNav(path));
 }

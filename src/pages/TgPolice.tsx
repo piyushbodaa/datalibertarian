@@ -81,7 +81,7 @@ export function TgPolicePage() {
           {" · "}
           <Link to="/states">All states</Link>
           {" · "}
-          <Link to="/sources">Method</Link>
+          <Link to="/sources">Sources &amp; methodology</Link>
         </p>
       </section>
     </article>

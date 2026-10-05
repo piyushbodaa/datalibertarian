@@ -273,7 +273,7 @@ export function MurderPage() {
             cols={[
               { label: "2024", value: (s) => s.murder.y2024 },
               { label: "2023", value: (s) => s.murder.y2023 },
-              { label: "2021", value: (s) => s.murder.y2022 },
+              { label: "2022", value: (s) => s.murder.y2022 },
               { label: "Per lakh", value: (s) => s.murder.rate, fmt: one },
               { label: "Chargesheet %", value: (s) => s.murder.chargesheetRate, fmt: one },
             ]}

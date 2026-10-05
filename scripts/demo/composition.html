@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Data Libertarian demo</title>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<!--
+  The demo video, drawn one frame at a time. render.mjs opens this page at the
+  output size, calls window.render(t) for every frame and screenshots it.
+  Every figure here is copied from the built site; change them together.
+-->
+<style>
+:root{
+  --ink:#12151C; --ink-2:#3A3F48; --dim:#6B7280; --paper:#F7F5EF; --paper-2:#EFECE3; --card:#FBFAF6;
+  --line:#D9D5C8; --stamp:#B3261E; --ledger:#2F6F4E;
+  --serif:'Lora',Georgia,serif; --sans:'Inter',system-ui,sans-serif; --mono:'IBM Plex Mono',ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100vw;height:100vh;overflow:hidden;background:var(--paper);color:var(--ink);font-family:var(--sans)}
+/* u = 1% of the short side, so type is the same size in 16:9 and 1:1 */
+body{--u:1vmin}
+.scene{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;opacity:0;will-change:opacity,transform}
+.grain{position:absolute;inset:0;pointer-events:none;z-index:50;background-size:256px 256px}
+.kicker{font:500 calc(var(--u)*1.9)/1.2 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--stamp)}
+
+/* corner marks */
+.bug{position:absolute;z-index:40;font:600 calc(var(--u)*1.7)/1 var(--mono);letter-spacing:.24em;text-transform:uppercase}
+.bug.tl{left:calc(var(--u)*5);top:calc(var(--u)*5)}
+.bug.bl{left:calc(var(--u)*5);bottom:calc(var(--u)*5);font-weight:500;letter-spacing:.06em;text-transform:none;color:var(--dim)}
+.bug span{color:var(--stamp)}
+
+/* A: the hook */
+#A .col{width:min(86vw,calc(var(--u)*120));text-align:center}
+#A .num{font:600 calc(var(--u)*19)/1 var(--serif);letter-spacing:-.02em;font-variant-numeric:tabular-nums;position:relative;display:inline-block}
+#A .old{position:relative;display:inline-block;transform-origin:50% 100%}
+#A .strike{position:absolute;left:-4%;top:52%;height:calc(var(--u)*1.1);width:108%;background:var(--stamp);transform-origin:0 50%;transform:scaleX(0)}
+#A .lab{font:400 calc(var(--u)*3)/1.35 var(--sans);color:var(--ink-2);margin-top:calc(var(--u)*2.4)}
+#A .lab b{font-weight:600;color:var(--ink)}
+#A .new{color:var(--ink)}
+#A .why{font:400 calc(var(--u)*2.5)/1.45 var(--sans);color:var(--ink-2);margin:calc(var(--u)*3) auto 0;max-width:calc(var(--u)*86)}
+#A .why b{color:var(--stamp);font-weight:600}
+#A .src{font:400 calc(var(--u)*1.7)/1.4 var(--mono);color:var(--dim);margin-top:calc(var(--u)*3)}
+
+/* B: statement */
+#B{background:var(--ink);color:var(--paper)}
+#B .col{width:min(86vw,calc(var(--u)*130));text-align:center}
+#B p{font:600 calc(var(--u)*7)/1.15 var(--serif);letter-spacing:-.01em}
+#B p+p{margin-top:calc(var(--u)*2.4);color:#E6B7B1;font-style:italic;font-weight:500}
+
+/* C: title */
+#C .col{text-align:center;width:min(88vw,calc(var(--u)*130))}
+#C .brand{font:600 calc(var(--u)*2.6)/1 var(--mono);letter-spacing:.3em;text-transform:uppercase}
+#C .brand span{color:var(--stamp)}
+#C .rule{height:calc(var(--u)*.9);border-top:3px double var(--ink);border-bottom:0;margin:calc(var(--u)*3) auto;transform:scaleX(0);width:100%}
+#C h1{font:600 calc(var(--u)*10)/1.04 var(--serif);letter-spacing:-.02em}
+#C h1 .w{display:inline-block;opacity:0}
+#C .sub{font:400 calc(var(--u)*2.7)/1.4 var(--sans);color:var(--ink-2);margin-top:calc(var(--u)*3.4)}
+
+/* D: the ledger */
+#D .col{width:min(88vw,calc(var(--u)*140))}
+#D h2{font:600 calc(var(--u)*5)/1.1 var(--serif);margin-top:calc(var(--u)*1.2);padding-bottom:calc(var(--u)*2);border-bottom:3px double var(--ink)}
+#D .row{display:grid;grid-template-columns:calc(var(--u)*6) 1fr auto;align-items:baseline;gap:calc(var(--u)*2);padding:calc(var(--u)*2.1) 0;border-bottom:1px solid var(--line);opacity:0}
+#D .no{font:500 calc(var(--u)*1.9) var(--mono);color:var(--dim)}
+#D .nm{font:600 calc(var(--u)*3.8)/1.1 var(--serif)}
+#D .ds{display:block;font:400 calc(var(--u)*2)/1.3 var(--sans);color:var(--ink-2);margin-top:calc(var(--u)*.6)}
+#D .ct{font:600 calc(var(--u)*4.2)/1 var(--mono);font-variant-numeric:tabular-nums;text-align:right}
+#D .total{display:flex;justify-content:space-between;align-items:baseline;padding-top:calc(var(--u)*2.4);opacity:0}
+#D .total .k{font:600 calc(var(--u)*3)/1 var(--sans)}
+#D .total .v{font:600 calc(var(--u)*6)/1 var(--mono);position:relative}
+#D .total .v i{position:absolute;left:0;right:0;bottom:calc(var(--u)*-1.4);height:calc(var(--u)*1);border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:scaleX(0);transform-origin:100% 50%}
+#D .psu{font:400 calc(var(--u)*2.1)/1.3 var(--mono);color:var(--dim);margin-top:calc(var(--u)*3.2);opacity:0}
+
+/* E: stamps */
+#E .wrap{display:flex;align-items:center;gap:calc(var(--u)*7);width:min(90vw,calc(var(--u)*150))}
+#E .doc{flex:0 0 calc(var(--u)*52);height:calc(var(--u)*64);background:var(--card);border:1px solid var(--line);box-shadow:0 calc(var(--u)*2) calc(var(--u)*5) rgba(18,21,28,.12);padding:calc(var(--u)*4.5) calc(var(--u)*4.5);position:relative;overflow:hidden}
+#E .doc .hd{font:500 calc(var(--u)*1.6)/1.3 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dim);padding-bottom:calc(var(--u)*2);border-bottom:3px double var(--ink);margin-bottom:calc(var(--u)*3)}
+#E .doc .ln{height:calc(var(--u)*1.1);background:var(--paper-2);margin:calc(var(--u)*1.7) 0;border-radius:1px}
+#E .st{position:absolute;font:600 calc(var(--u)*2.7)/1.1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--stamp);border:calc(var(--u)*.45) solid var(--stamp);padding:calc(var(--u)*1.2) calc(var(--u)*2);opacity:0;white-space:nowrap;background:rgba(251,250,246,.55)}
+#E .txt h2{font:600 calc(var(--u)*6.2)/1.08 var(--serif);margin:calc(var(--u)*1.6) 0 calc(var(--u)*2.4)}
+#E .txt p{font:400 calc(var(--u)*2.6)/1.45 var(--sans);color:var(--ink-2)}
+#E .txt .split{font:500 calc(var(--u)*2.1)/1.4 var(--mono);color:var(--ledger);margin-top:calc(var(--u)*2.4)}
+#E .txt>*{opacity:0}
+
+/* F: the site */
+#F{background:var(--paper-2)}
+.shot{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:0}
+.frame{width:80vw;height:72vh;background:#fff;border:1px solid var(--line);box-shadow:0 calc(var(--u)*3) calc(var(--u)*8) rgba(18,21,28,.18);display:flex;flex-direction:column;overflow:hidden;border-radius:calc(var(--u)*1)}
+.bar{flex:0 0 calc(var(--u)*5);display:flex;align-items:center;gap:calc(var(--u)*1.1);padding:0 calc(var(--u)*1.8);background:var(--paper);border-bottom:1px solid var(--line)}
+.bar i{width:calc(var(--u)*1.1);height:calc(var(--u)*1.1);border-radius:50%;background:var(--line)}
+.bar .url{margin-left:calc(var(--u)*1.6);flex:1;max-width:calc(var(--u)*70);height:calc(var(--u)*3.1);border-radius:calc(var(--u)*1.6);background:#fff;border:1px solid var(--line);font:400 calc(var(--u)*1.6)/calc(var(--u)*3) var(--mono);padding:0 calc(var(--u)*1.6);color:var(--ink-2);white-space:nowrap;overflow:hidden}
+.bar .url b{color:var(--ink);font-weight:500}
+.view{flex:1;position:relative;overflow:hidden}
+.view img{position:absolute;left:0;top:0;width:100%;transform-origin:50% 0}
+.cap{margin-top:calc(var(--u)*3.2);display:flex;align-items:baseline;gap:calc(var(--u)*2);width:80vw}
+.cap .n{font:500 calc(var(--u)*1.9) var(--mono);white-space:nowrap;color:var(--stamp);letter-spacing:.1em}
+.cap .t{font:600 calc(var(--u)*3.9)/1.15 var(--serif)}
+
+/* G: end card */
+#G .col{text-align:center}
+#G .line{font:600 calc(var(--u)*6.4)/1.1 var(--serif);letter-spacing:-.01em}
+#G .url{display:inline-block;position:relative;font:600 calc(var(--u)*5.2)/1 var(--mono);margin-top:calc(var(--u)*5);letter-spacing:-.01em}
+#G .url u{position:absolute;left:0;right:0;bottom:calc(var(--u)*-1.6);height:calc(var(--u)*.7);background:var(--stamp);transform:scaleX(0);transform-origin:0 50%}
+#G .tags{font:500 calc(var(--u)*1.9)/1.6 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin-top:calc(var(--u)*5.4)}
+
+/* square: stack the stamp scene, make room under the browser frame */
+body.sq #E .wrap{flex-direction:column;gap:calc(var(--u)*4);text-align:center}
+body.sq #E .doc{flex:none;width:calc(var(--u)*52);height:calc(var(--u)*40)}
+body.sq #E .txt h2{font-size:calc(var(--u)*5.4)}
+body.sq .frame{width:88vw;height:66vh}
+body.sq .cap{width:88vw}
+</style>
+</head>
+<body>
+<div class="grain" id="grain"></div>
+
+<div class="bug tl" id="bugT">Data <span>Libertarian</span></div>
+<div class="bug bl" id="bugB">datalibertarian.in</div>
+
+<section class="scene" id="A"><div class="col">
+  <div class="kicker" id="aK">Crime in India 2024 &middot; Rape</div>
+  <div style="margin-top:calc(var(--u)*3)"><span class="num old" id="aOld"><span id="aOldN">29,536</span><span class="strike" id="aStrike"></span></span></div>
+  <div class="lab" id="aLab1">rapes registered in 2024. <b>The figure most reports quote.</b></div>
+  <div><span class="num new" id="aNew">72,849</span></div>
+  <div class="lab" id="aLab2"><b>The number the police actually registered.</b></div>
+  <p class="why" id="aWhy">29,536 is Section 376 alone. Rape of a girl under eighteen is usually filed under the POCSO Act, in a separate row: <b>43,313 cases</b>.</p>
+  <div class="src" id="aSrc">Source: NCRB, Crime in India 2024, Vol. I, Table 3A.2</div>
+</div></section>
+
+<section class="scene" id="B"><div class="col">
+  <p id="b1">The numbers are public.</p>
+  <p id="b2">Reading them properly is the hard part.</p>
+</div></section>
+
+<section class="scene" id="C"><div class="col">
+  <div class="brand" id="cB">Data <span>Libertarian</span></div>
+  <div class="rule" id="cR"></div>
+  <h1 id="cH"><span class="w">The</span> <span class="w">Indian</span> <span class="w">state,</span><br><span class="w">on</span> <span class="w">the</span> <span class="w">record.</span></h1>
+  <p class="sub" id="cS">From court records and official books. Every entry links to its source.</p>
+</div></section>
+
+<section class="scene" id="D"><div class="col">
+  <div class="kicker">On the registers today</div>
+  <h2>Four case registers, one standard of proof</h2>
+  <div class="row"><span class="no">01</span><span class="nm">Babuwatch<span class="ds">Court findings against police and civil servants</span></span><span class="ct" data-n="2430">0</span></div>
+  <div class="row"><span class="no">02</span><span class="nm">Civil Liberties<span class="ds">Punished for speech, reporting, protest or faith</span></span><span class="ct" data-n="26">0</span></div>
+  <div class="row"><span class="no">03</span><span class="nm">Victimless Crimes<span class="ds">Prosecutions where no one was harmed</span></span><span class="ct" data-n="104">0</span></div>
+  <div class="row"><span class="no">04</span><span class="nm">Economic Freedom<span class="ds">Penalties for trading, investing and building</span></span><span class="ct" data-n="116">0</span></div>
+  <div class="total"><span class="k">Case records</span><span class="v"><span id="dT">0</span><i></i></span></div>
+  <div class="psu">+ 135 public enterprises inventoried in the PSU register</div>
+</div></section>
+
+<section class="scene" id="E"><div class="wrap">
+  <div class="doc">
+    <div class="hd">Judgment &middot; Order of the court</div>
+    <div class="ln" style="width:92%"></div><div class="ln" style="width:100%"></div><div class="ln" style="width:84%"></div>
+    <div class="ln" style="width:96%"></div><div class="ln" style="width:70%"></div><div class="ln" style="width:100%"></div>
+    <div class="ln" style="width:88%"></div><div class="ln" style="width:94%"></div><div class="ln" style="width:60%"></div>
+    <div class="ln" style="width:100%"></div><div class="ln" style="width:90%"></div><div class="ln" style="width:76%"></div>
+    <span class="st" data-x="8" data-y="18" data-r="-7">Convicted</span>
+    <span class="st" data-x="5" data-y="44" data-r="4">Compensation ordered</span>
+    <span class="st" data-x="12" data-y="70" data-r="-3">Adverse finding</span>
+  </div>
+  <div class="txt">
+    <div class="kicker">Babuwatch</div>
+    <h2>2,430 court findings against public servants.</h2>
+    <p>Each one names the court that decided it and links to the judgment.</p>
+    <div class="split">1,910 police &middot; 520 civil servants</div>
+  </div>
+</div></section>
+
+<section class="scene" id="F"></section>
+
+<section class="scene" id="G"><div class="col">
+  <div class="line" id="gL">The Indian state, on the record.</div>
+  <div class="url" id="gU">datalibertarian.in<u></u></div>
+  <div class="tags" id="gT">Court records &middot; Registers &middot; Crime &middot; Spending &middot; Prices</div>
+</div></section>
+
+<script>
+// Paper grain, drawn once as a tile (an SVG noise filter redrawn every frame is very slow).
+(() => {
+  const c = document.createElement('canvas'); c.width = c.height = 256;
+  const g = c.getContext('2d'), img = g.createImageData(256, 256);
+  let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+  for (let i = 0; i < img.data.length; i += 4) {
+    img.data[i] = 102; img.data[i + 1] = 97; img.data[i + 2] = 84; img.data[i + 3] = rnd() * 22;
+  }
+  g.putImageData(img, 0, 0);
+  document.getElementById('grain').style.backgroundImage = `url(${c.toDataURL()})`;
+})();
+
+// ---- timeline helpers ----
+const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+const seg = (t, a, b) => clamp((t - a) / (b - a));                 // 0..1 between a and b
+const ease = x => x < .5 ? 4 * x * x * x : 1 - (-2 * x + 2) ** 3 / 2;   // easeInOutCubic
+const out = x => 1 - (1 - x) ** 3;                                 // easeOutCubic
+const back = x => { const c = 1.6; return 1 + (c + 1) * (x - 1) ** 3 + c * (x - 1) ** 2; };
+const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+const fmt = n => Math.round(n).toLocaleString('en-IN');
+function show(el, t, a, d = .6, dy = 2) {                           // fade and rise in at a
+  const p = out(seg(t, a, a + d));
+  el.style.opacity = p; el.style.transform = `translateY(calc(var(--u) * ${(1 - p) * dy}))`;
+}
+// a scene is visible from a to b, crossfading over f seconds
+function scene(id, t, a, b, f = .45) {
+  const el = $('#' + id), p = Math.min(seg(t, a, a + f), 1 - seg(t, b - f, b));
+  el.style.opacity = p; el.style.visibility = p > 0 ? 'visible' : 'hidden';
+  el.style.transform = `scale(${1.015 - .015 * out(seg(t, a, a + f))})`;
+  return p > 0;
+}
+
+// ---- montage ----
+const SHOTS = window.SHOTS || {};
+const MONTAGE = [
+  ['search',   'Search every register at once',              'datalibertarian.in/', 'search?q=Maharashtra+police'],
+  ['tracker',  'Court findings, by state, court and outcome', 'datalibertarian.in/', 'babuwatch/tracker'],
+  ['rape',     'Every figure links to the table it came from', 'datalibertarian.in/', 'crime/rape'],
+  ['state',    'Your state, in one place',                     'datalibertarian.in/', 'maharashtra'],
+  ['spending', 'Budgets, from the government’s own books', 'datalibertarian.in/', 'spending'],
+];
+$('#F').innerHTML = MONTAGE.map(([k, cap, host, path], i) => `
+  <div class="shot" id="s-${k}">
+    <div class="frame"><div class="bar"><i></i><i></i><i></i><div class="url">${host}<b>${path}</b></div></div>
+      <div class="view"><img src="${(window.SHOT_DIR || '../../shots/demo/') + k}.png"></div></div>
+    <div class="cap"><span class="n">0${i + 1} / 0${MONTAGE.length}</span><span class="t">${cap}</span></div>
+  </div>`).join('');
+
+// ---- the timeline, in seconds ----
+const T = { A: [0, 8.4], B: [8.4, 12.2], C: [12.2, 16.4], D: [16.4, 24.6], E: [24.6, 30.2], F: [30.2, 43.0], G: [43.0, 48.5] };
+window.DURATION = 48.5;
+const SHOT_LEN = (T.F[1] - T.F[0]) / MONTAGE.length;
+
+// Sound cues for sound.py: [time, kind]
+window.CUES = [];
+const cue = (t, k) => window.CUES.push([+t.toFixed(3), k]);
+cue(.5, 'count'); cue(3.1, 'strike'); cue(3.9, 'count'); cue(T.B[0], 'swish'); cue(T.C[0], 'swish');
+cue(T.C[0] + .5, 'rule'); cue(T.D[0], 'swish');
+[0, 1, 2, 3].forEach(i => cue(T.D[0] + .9 + i * .45, 'tick')); cue(T.D[0] + 3.4, 'count'); cue(T.D[0] + 4.6, 'rule');
+cue(T.E[0], 'swish'); [0, 1, 2].forEach(i => cue(T.E[0] + .9 + i * .75, 'stamp'));
+MONTAGE.forEach((_, i) => cue(T.F[0] + i * SHOT_LEN, 'swish'));
+cue(T.G[0], 'swish'); cue(T.G[0] + 1.5, 'end');
+
+window.render = function (t) {
+  // corner marks: on throughout, off on the title and end cards
+  const bugs = Math.min(seg(t, .2, .8), 1 - seg(t, T.C[0] - .3, T.C[0]) + seg(t, T.C[1] - .3, T.C[1]), 1 - seg(t, T.G[0] - .4, T.G[0]));
+  const dark = t >= T.B[0] && t < T.B[1];
+  for (const b of [$('#bugT'), $('#bugB')]) { b.style.opacity = bugs; b.style.color = dark ? '#F7F5EF' : ''; }
+
+  // A — hook
+  if (scene('A', t, -1, T.A[1])) {
+    show($('#aK'), t, .1);
+    const c1 = ease(seg(t, .35, 1.6));
+    $('#aOldN').textContent = fmt(29536 * c1);
+    $('#aOld').style.opacity = out(seg(t, .3, .7));
+    show($('#aLab1'), t, 1.2);
+    $('#aStrike').style.transform = `scaleX(${ease(seg(t, 3.0, 3.45))})`;
+    const shrink = ease(seg(t, 3.5, 4.1));
+    $('#aOld').style.transform = `scale(${1 - .55 * shrink})`;
+    $('#aOld').style.color = shrink > 0 ? `rgba(107,114,128,${.4 + .6 * (1 - shrink)})` : '';
+    // the first label folds away as the old number shrinks
+    const l1 = $('#aLab1');
+    if (!l1.dataset.h) l1.dataset.h = l1.offsetHeight;
+    if (shrink > 0) l1.style.opacity = 1 - out(seg(t, 3.5, 3.8));
+    l1.style.height = l1.dataset.h * (1 - shrink) + 'px'; l1.style.overflow = 'hidden';
+    l1.style.marginTop = `calc(var(--u) * ${2.4 * (1 - shrink)})`;
+    // the old number keeps its box; pull up the space its shrink leaves
+    const oh = $('#aOld').offsetHeight;
+    $('#aOld').parentElement.style.marginTop = `calc(var(--u) * 3 - ${oh * .55 * shrink}px)`;
+    // until the new number arrives, centre the old one by shifting the column down
+    const later = ['#aNew', '#aLab2', '#aWhy', '#aSrc'].reduce((h, q) => { const e = $(q).closest('div,p'); return h + e.offsetHeight + parseFloat(getComputedStyle(e).marginTop); }, 0);
+    $('#A .col').style.transform = `translateY(${(later / 2) * (1 - ease(seg(t, 3.5, 4.2)))}px)`;
+    const nn = seg(t, 3.85, 5.0);
+    $('#aNew').textContent = fmt(29536 + (72849 - 29536) * ease(nn));
+    $('#aNew').style.opacity = out(seg(t, 3.8, 4.1));
+    $('#aNew').style.color = nn >= 1 ? 'var(--stamp)' : '';
+    show($('#aLab2'), t, 4.9);
+    show($('#aWhy'), t, 5.6); show($('#aSrc'), t, 6.3);
+  }
+
+  // B — statement
+  if (scene('B', t, T.B[0], T.B[1])) { show($('#b1'), t, T.B[0] + .3, .7, 3); show($('#b2'), t, T.B[0] + 1.5, .7, 3); }
+
+  // C — title
+  if (scene('C', t, T.C[0], T.C[1])) {
+    const a = T.C[0];
+    show($('#cB'), t, a + .2);
+    $('#cR').style.transform = `scaleX(${ease(seg(t, a + .5, a + 1.3))})`;
+    $$('#cH .w').forEach((w, i) => show(w, t, a + .9 + i * .12, .55, 4));
+    show($('#cS'), t, a + 2.0);
+  }
+
+  // D — ledger
+  if (scene('D', t, T.D[0], T.D[1])) {
+    const a = T.D[0];
+    $$('#D .row').forEach((r, i) => {
+      show(r, t, a + .9 + i * .45, .5, 1.5);
+      const c = r.querySelector('.ct');
+      c.textContent = fmt(+c.dataset.n * ease(seg(t, a + 1.0 + i * .45, a + 2.4 + i * .45)));
+    });
+    show($('#D .total'), t, a + 3.3);
+    $('#dT').textContent = fmt(2676 * ease(seg(t, a + 3.4, a + 4.5)));
+    $('#D .total i').style.transform = `scaleX(${ease(seg(t, a + 4.6, a + 5.1))})`;
+    show($('#D .psu'), t, a + 5.4);
+  }
+
+  // E — stamps
+  if (scene('E', t, T.E[0], T.E[1])) {
+    const a = T.E[0];
+    $$('#E .st').forEach((s, i) => {
+      const p = seg(t, a + .9 + i * .75, a + 1.15 + i * .75);
+      s.style.opacity = p > 0 ? Math.min(1, p * 3) * .92 : 0;
+      s.style.left = s.dataset.x + '%'; s.style.top = s.dataset.y + '%';
+      s.style.transform = `rotate(${s.dataset.r}deg) scale(${1.9 - .9 * back(p)})`;
+    });
+    $$('#E .txt > *').forEach((el, i) => show(el, t, a + .4 + i * .35));
+    const shake = Math.max(...[0, 1, 2].map(i => 1 - seg(t, a + 1.15 + i * .75, a + 1.4 + i * .75))) ;
+    const k = [0, 1, 2].some(i => t >= a + 1.15 + i * .75 && t < a + 1.4 + i * .75) ? shake : 0;
+    $('#E .doc').style.transform = `translate(${Math.sin(t * 90) * k * 4}px, ${Math.cos(t * 70) * k * 3}px)`;
+  }
+
+  // F — the site itself
+  if (scene('F', t, T.F[0], T.F[1])) {
+    MONTAGE.forEach(([k], i) => {
+      const a = T.F[0] + i * SHOT_LEN, b = a + SHOT_LEN, el = $('#s-' + k);
+      const vis = i === 0 ? 1 - seg(t, b - .3, b + .2) : Math.min(seg(t, a - .2, a + .3), i === MONTAGE.length - 1 ? 1 : 1 - seg(t, b - .3, b + .2));
+      el.style.opacity = vis; el.style.visibility = vis > 0 ? 'visible' : 'hidden';
+      const enter = out(seg(t, a - .2, a + .6));
+      el.querySelector('.frame').style.transform = `translateY(calc(var(--u) * ${(1 - enter) * 4})) scale(${.97 + .03 * enter})`;
+      const img = el.querySelector('img'), m = SHOTS[k];
+      if (m && img.naturalWidth) {
+        const scale = img.clientWidth / 1440;                       // css px of the page -> frame px
+        const p = ease(seg(t, a + .3, b - .2));
+        const y = (m.from + (m.to - m.from) * p) * scale;
+        const z = 1 + .035 * seg(t, a, b);
+        img.style.transform = `translateY(${-y}px) scale(${z})`;
+      }
+      show(el.querySelector('.cap'), t, a + .25, .5, 1.5);
+      if (i > 0 && i < MONTAGE.length) el.querySelector('.cap').style.opacity = Math.min(+el.querySelector('.cap').style.opacity, vis);
+    });
+  }
+
+  // G — end card
+  if (scene('G', t, T.G[0], 99)) {
+    const a = T.G[0];
+    show($('#gL'), t, a + .2, .7, 3);
+    show($('#gU'), t, a + .9, .6, 2);
+    $('#gU u').style.transform = `scaleX(${ease(seg(t, a + 1.4, a + 2.0))})`;
+    show($('#gT'), t, a + 2.2);
+  }
+};
+window.render(0);
+</script>
+</body>
+</html>

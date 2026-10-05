@@ -79,7 +79,7 @@ export function UnionPage() {
       </section>
 
       <p className="mt-8 max-w-2xl text-sm text-ink/65">
-        <Link to="/sources">Method</Link>.
+        <Link to="/sources">Sources &amp; methodology</Link>.
       </p>
     </article>
   );
