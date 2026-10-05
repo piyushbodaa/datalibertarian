@@ -221096,5 +221096,375 @@
   "merged_case_id": null,
   "officers_named_public": 0,
   "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0101",
+  "status": "current",
+  "merged_id": "CWC-1391",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] (Corpus) And Another vs State Of U.P. And 4 Others",
+  "display_title_redacted": "[name withheld] (Corpus) And Another vs State Of U.P. And 4 Others",
+  "state": "Uttar Pradesh",
+  "district": "Prayagraj",
+  "district_at_time": null,
+  "city_town": "Prayagraj",
+  "police_station_or_unit": "P.S. George Town, District Prayagraj",
+  "court": "Allahabad High Court",
+  "court_as_verified": "High Court of Judicature at Allahabad",
+  "bench": null,
+  "case_title": "[name withheld] (Corpus) And Another vs State Of U.P. And 4 Others",
+  "case_number": "HABEAS CORPUS WRIT PETITION No. - 906 of 2026",
+  "citation": null,
+  "judges": [
+   "Atul Sreedharan",
+   "Divesh Chandra Samant"
+  ],
+  "judgment_date": "2026-09-09",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2026-06-23",
+  "incident_year": 2026,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "illegal_detention_false_imprisonment",
+  "subcategory": "illegal_detention_false_imprisonment",
+  "subcategory_display": "illegal detention false imprisonment",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Article 21 of the Constitution of India",
+   "Article 226 of the Constitution of India (habeas corpus)"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Station House Officer",
+    "unit": "P.S. George Town, Prayagraj",
+    "role": "held_liable",
+    "publish_grade": "unnamed",
+    "gate_reasons": [
+     "ledger:no_row",
+     "key2:no_row"
+    ],
+    "ledger_role": null,
+    "key2": null,
+    "key2_agy": null,
+    "key2_claude": null,
+    "key2_union": null,
+    "key2_gemapi": null,
+    "key2_openrouter": null,
+    "key2_gpt56": null,
+    "grok": null,
+    "jev_risk": null,
+    "jev_p_culpable": null,
+    "key2_gpt": null,
+    "later_outcome": null,
+    "name_public": null,
+    "display": "Station House Officer, P.S. George Town, Prayagraj"
+   },
+   {
+    "name": null,
+    "rank": "Investigating Officer",
+    "unit": "P.S. George Town, Prayagraj",
+    "role": "held_liable",
+    "publish_grade": "unnamed",
+    "gate_reasons": [
+     "ledger:no_row",
+     "key2:no_row"
+    ],
+    "ledger_role": null,
+    "key2": null,
+    "key2_agy": null,
+    "key2_claude": null,
+    "key2_union": null,
+    "key2_gemapi": null,
+    "key2_openrouter": null,
+    "key2_gpt56": null,
+    "grok": null,
+    "jev_risk": null,
+    "jev_p_culpable": null,
+    "key2_gpt": null,
+    "later_outcome": null,
+    "name_public": null,
+    "display": "Investigating Officer, P.S. George Town, Prayagraj"
+   }
+  ],
+  "officer_count": 2,
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": true,
+  "victim_count": 1,
+  "sentence_type": "compensation_only",
+  "sentence_max_years": null,
+  "compensation_inr": 40000,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/197536445/",
+  "secondary_sources": [
+   "https://www.livelaw.in/high-court/allahabad-high-court/allahabad-hc-police-cannot-detain-innocent-family-member-accused-surrender-552575"
+  ],
+  "summary": "The High Court recorded that police of P.S. George Town, Prayagraj picked up a man from his house in Jaunpur on 23.06.2026 to question him in an attempted-murder case against his brother, who was then absconding, and released him only at about 7:00 p.m. on 26.06.2026. The Investigating Officer told the court he went to the house on the SHO's direction. Call records and CCTV footage corroborated the detention; no CCTV footage for 26.06.2026 was produced. The court held the man was in unlawful custody for at least four days, that he was held to pressure his brother to surrender, and awarded Rs. 40,000 compensation to be recovered from the salaries of those responsible. It directed that its displeasure with the SHO and the Investigating Officer be recorded in their service records.",
+  "summary_verified": "The High Court recorded that police of P.S. George Town, Prayagraj picked up a man from his house in Jaunpur on 23.06.2026 to question him in an attempted-murder case against his brother, who was then absconding, and released him only at about 7:00 p.m. on 26.06.2026. The Investigating Officer told the court he went to the house on the SHO's direction. Call records and CCTV footage corroborated the detention; no CCTV footage for 26.06.2026 was produced. The court held the man was in unlawful custody for at least four days, that he was held to pressure his brother to surrender, and awarded Rs. 40,000 compensation to be recovered from the salaries of those responsible. It directed that its displeasure with the SHO and the Investigating Officer be recorded in their service records.",
+  "court_quote": "The police cannot resort to pressure tactics to compel the actual offender to surrender before it by unlawfully detaining an innocent member of his family who has no connection with the alleged offence.",
+  "court_quote_para": "10",
+  "confidence": "high",
+  "verdict": "accept",
+  "verdict_note": "Checked against the Allahabad High Court order dated 09.09.2026 in HABC No. 906 of 2026 (Indian Kanoon), first reported by LiveLaw on 01.10.2026. The detention period is at para 7, the compensation and recovery at para 9, and the finding and service-record direction at para 10. The officers named in the order are withheld here.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Court finding",
+    "position_explainer": "A court has made a finding on this allegation.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-09-09",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Judicature at Allahabad",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court held the petitioner was in unlawful police custody from 23.06.2026 to 26.06.2026, awarded Rs. 40,000 compensation recoverable from the salaries of the personnel responsible, and directed that its displeasure be recorded in the service records of the SHO and the Investigating Officer.",
+    "disposition": "Adverse finding (illegal detention) · Rs. 40,000 compensation · recovery from salaries · service-record entry",
+    "source": "HABC No. 906 of 2026",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-10-05",
+    "scope": "Past-week sweep (26 Sep-5 Oct): order dated 09.09.2026 first reported on 01.10.2026; record written from the order text on Indian Kanoon; quote checked verbatim; officers and the detained man are not named."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-10-05",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/197536445/",
+    "link_checked": "2026-10-05"
+   },
+   {
+    "url": "https://www.livelaw.in/high-court/allahabad-high-court/allahabad-hc-police-cannot-detain-innocent-family-member-accused-surrender-552575",
+    "link_checked": "2026-10-05"
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": true,
+  "verified_by": [
+   "claude-opus-5.5-week-1005"
+  ],
+  "merged_case_id": null,
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0102",
+  "status": "current",
+  "merged_id": "CWC-1392",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] And Another vs State Of U.P. And 4 Others",
+  "display_title_redacted": "[name withheld] And Another vs State Of U.P. And 4 Others",
+  "state": "Uttar Pradesh",
+  "district": "Chitrakoot",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "P.S. Sardhuwa, District Chitrakoot",
+  "court": "Allahabad High Court",
+  "court_as_verified": "High Court of Judicature at Allahabad",
+  "bench": null,
+  "case_title": "[name withheld] And Another vs State Of U.P. And 4 Others",
+  "case_number": "HABEAS CORPUS WRIT PETITION No. - 1169 of 2026",
+  "citation": null,
+  "judges": [
+   "Atul Sreedharan",
+   "Achal Sachdev"
+  ],
+  "judgment_date": "2026-09-23",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2026-07-13",
+  "incident_year": 2026,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "illegal_detention_false_imprisonment",
+  "subcategory": "illegal_detention_false_imprisonment",
+  "subcategory_display": "illegal detention false imprisonment",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Article 21 of the Constitution of India",
+   "Section 119(g) of the Bharatiya Sakshya Adhiniyam, 2023"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Station House Officer (since suspended)",
+    "unit": "P.S. Sardhuwa, Chitrakoot",
+    "role": "held_liable",
+    "publish_grade": "unnamed",
+    "gate_reasons": [
+     "ledger:no_row",
+     "key2:no_row"
+    ],
+    "ledger_role": null,
+    "key2": null,
+    "key2_agy": null,
+    "key2_claude": null,
+    "key2_union": null,
+    "key2_gemapi": null,
+    "key2_openrouter": null,
+    "key2_gpt56": null,
+    "grok": null,
+    "jev_risk": null,
+    "jev_p_culpable": null,
+    "key2_gpt": null,
+    "later_outcome": null,
+    "name_public": null,
+    "display": "Station House Officer (since suspended), P.S. Sardhuwa, Chitrakoot"
+   },
+   {
+    "name": null,
+    "rank": "Investigating Officer",
+    "unit": "P.S. Sardhuwa, Chitrakoot",
+    "role": "held_liable",
+    "publish_grade": "unnamed",
+    "gate_reasons": [
+     "ledger:no_row",
+     "key2:no_row"
+    ],
+    "ledger_role": null,
+    "key2": null,
+    "key2_agy": null,
+    "key2_claude": null,
+    "key2_union": null,
+    "key2_gemapi": null,
+    "key2_openrouter": null,
+    "key2_gpt56": null,
+    "grok": null,
+    "jev_risk": null,
+    "jev_p_culpable": null,
+    "key2_gpt": null,
+    "later_outcome": null,
+    "name_public": null,
+    "display": "Investigating Officer, P.S. Sardhuwa, Chitrakoot"
+   }
+  ],
+  "officer_count": 2,
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": true,
+  "victim_count": 1,
+  "sentence_type": "compensation_only",
+  "sentence_max_years": null,
+  "compensation_inr": 10000,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/173578843/",
+  "secondary_sources": [
+   "https://www.livelaw.in/high-court/allahabad-high-court/allahabad-hc-police-station-cctv-safeguards-arrested-interrogation-552464"
+  ],
+  "summary": "The High Court recorded that a sand-mining businessman, accused in a cheating and breach-of-trust FIR arising from what the informant himself called a civil dispute, was brought into P.S. Sardhuwa, Chitrakoot at 9:00 a.m. on 13.07.2026, taken out at 10:19 a.m. in the informant's vehicle accompanied by the Investigating Officer, and brought back at 8:24 p.m., while the arrest memo showed arrest at 3:30 p.m. and the general diary showed him in the lock-up from 6:41 p.m. Footage from the three cameras inside the police station was not produced. The court rejected the explanation for the missing footage as false and mischievous, held the feeds were deliberately deleted or not saved, found the grounds of arrest woefully inadequate, set aside the arrest, and awarded Rs. 10,000 for 24 hours' illegal detention, recoverable from the person found responsible after inquiry. It observed that the police appeared to have acted as recovery agents for the complainant, and laid down that police-station CCTV must run 24/7 with general-diary entries and release receipts whenever it fails.",
+  "summary_verified": "The High Court recorded that a sand-mining businessman, accused in a cheating and breach-of-trust FIR arising from what the informant himself called a civil dispute, was brought into P.S. Sardhuwa, Chitrakoot at 9:00 a.m. on 13.07.2026, taken out at 10:19 a.m. in the informant's vehicle accompanied by the Investigating Officer, and brought back at 8:24 p.m., while the arrest memo showed arrest at 3:30 p.m. and the general diary showed him in the lock-up from 6:41 p.m. Footage from the three cameras inside the police station was not produced. The court rejected the explanation for the missing footage as false and mischievous, held the feeds were deliberately deleted or not saved, found the grounds of arrest woefully inadequate, set aside the arrest, and awarded Rs. 10,000 for 24 hours' illegal detention, recoverable from the person found responsible after inquiry. It observed that the police appeared to have acted as recovery agents for the complainant, and laid down that police-station CCTV must run 24/7 with general-diary entries and release receipts whenever it fails.",
+  "court_quote": "the feeds within the police Thana were deliberately either deleted or deliberately not saved in the DVR as there is no argument put forth with regard to malfunction of any CCTV cameras",
+  "court_quote_para": "15",
+  "confidence": "high",
+  "verdict": "accept",
+  "verdict_note": "Checked against the Allahabad High Court order dated 23.09.2026 in HABC No. 1169 of 2026 (Indian Kanoon), reported by LiveLaw on 30.09.2026. CCTV timings at paras 11 and 15-17, the finding on deleted feeds at paras 13-15, grounds of arrest at para 19, CCTV directions at paras 20-21, and release and compensation at paras 24-25. The underlying cheating case is not assessed by the court. Officers and the petitioner are not named here.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Court finding",
+    "position_explainer": "A court has made a finding on this allegation.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-09-23",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Judicature at Allahabad",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court set aside the arrest for inadequate grounds, ordered release, awarded Rs. 10,000 for 24 hours' illegal detention recoverable after inquiry, and directed that police-station CCTV run 24/7 with general-diary safeguards when it fails.",
+    "disposition": "Adverse finding (illegal detention, deliberate loss of CCTV footage) · arrest set aside · Rs. 10,000 compensation · CCTV directions",
+    "source": "HABC No. 1169 of 2026",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-10-05",
+    "scope": "Past-week sweep (26 Sep-5 Oct): order dated 23.09.2026 reported on 30.09.2026; record written from the order text on Indian Kanoon; quote checked verbatim; officers and the petitioner are not named."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-10-05",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/173578843/",
+    "link_checked": "2026-10-05"
+   },
+   {
+    "url": "https://www.livelaw.in/high-court/allahabad-high-court/allahabad-hc-police-station-cctv-safeguards-arrested-interrogation-552464",
+    "link_checked": "2026-10-05"
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": true,
+  "verified_by": [
+   "claude-opus-5.5-week-1005"
+  ],
+  "merged_case_id": null,
+  "officers_named_public": 0,
+  "record_flag": null
  }
 ]
