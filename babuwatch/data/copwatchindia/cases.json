@@ -221771,5 +221771,172 @@
   "merged_case_id": null,
   "officers_named_public": 0,
   "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0105",
+  "status": "current",
+  "merged_id": "CWC-1395",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] And 3 Others vs State Of U.P. And 2 Others",
+  "display_title_redacted": "[name withheld] And 3 Others vs State Of U.P. And 2 Others",
+  "state": "Uttar Pradesh",
+  "district": "Deoria",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "P.S. Gauri Bazar, District Deoria",
+  "court": "Allahabad High Court",
+  "court_as_verified": "High Court of Judicature at Allahabad",
+  "bench": null,
+  "case_title": "[name withheld] And 3 Others vs State Of U.P. And 2 Others",
+  "case_number": "HABEAS CORPUS WRIT PETITION No. - 506 of 2026",
+  "citation": null,
+  "judges": [
+   "Atul Sreedharan",
+   "Divesh Chandra Samant"
+  ],
+  "judgment_date": "2026-09-09",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2026-04-13",
+  "incident_year": 2026,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "illegal_detention_false_imprisonment",
+  "subcategory": "illegal_detention_false_imprisonment",
+  "subcategory_display": "illegal detention false imprisonment",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Article 21 of the Constitution of India",
+   "Section 119(g) of the Bharatiya Sakshya Adhiniyam, 2023"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Station House Officer (since transferred)",
+    "unit": "P.S. Gauri Bazar, Deoria",
+    "role": "held_liable",
+    "publish_grade": "unnamed",
+    "gate_reasons": [
+     "ledger:no_row",
+     "key2:no_row"
+    ],
+    "ledger_role": null,
+    "key2": null,
+    "key2_agy": null,
+    "key2_claude": null,
+    "key2_union": null,
+    "key2_gemapi": null,
+    "key2_openrouter": null,
+    "key2_gpt56": null,
+    "grok": null,
+    "jev_risk": null,
+    "jev_p_culpable": null,
+    "key2_gpt": null,
+    "later_outcome": null,
+    "name_public": null,
+    "display": "Station House Officer (since transferred), P.S. Gauri Bazar, Deoria"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   },
+   {
+    "name": null,
+    "gender": "female"
+   },
+   {
+    "name": null,
+    "gender": "female"
+   },
+   {
+    "name": null,
+    "gender": "female"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": true,
+  "victim_count": 4,
+  "sentence_type": "compensation_only",
+  "sentence_max_years": null,
+  "compensation_inr": 65000,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/13242551/",
+  "secondary_sources": [
+   "https://www.livelaw.in/top-stories/allahabad-hc-bunch-liars-sho-sp-police-station-cctv-lapses-65k-compensation-illegal-detention-549334"
+  ],
+  "summary": "The High Court recorded that after a murder FIR at P.S. Gauri Bazar, Deoria, police took relatives of a named accused, who were not themselves accused, into custody: a man was held for two days, and two women and a two-and-a-half-year-old girl were held from 13.04.2026 to 23.04.2026 without arrest or production before a Magistrate, and were released a day before the habeas corpus petition was filed. The SHO said the station's CCTV stopped working on 12.04.2026; the Superintendent of Police's own inquiry found him guilty of dereliction for not keeping it functional, and the DVR held only fragments of footage for 12-16 April. The court applied the presumption against the party withholding evidence, held the SHO responsible for the detentions, observed that footage may have been deliberately deleted, and directed the State to pay Rs 20,000 each to the three held for ten days and Rs 5,000 to the man, to be recovered from the salary of those responsible after an enquiry, with its displeasure recorded in the SHO's service book.",
+  "summary_verified": "The High Court recorded that after a murder FIR at P.S. Gauri Bazar, Deoria, police took relatives of a named accused, who were not themselves accused, into custody: a man was held for two days, and two women and a two-and-a-half-year-old girl were held from 13.04.2026 to 23.04.2026 without arrest or production before a Magistrate, and were released a day before the habeas corpus petition was filed. The SHO said the station's CCTV stopped working on 12.04.2026; the Superintendent of Police's own inquiry found him guilty of dereliction for not keeping it functional, and the DVR held only fragments of footage for 12-16 April. The court applied the presumption against the party withholding evidence, held the SHO responsible for the detentions, observed that footage may have been deliberately deleted, and directed the State to pay Rs 20,000 each to the three held for ten days and Rs 5,000 to the man, to be recovered from the salary of those responsible after an enquiry, with its displeasure recorded in the SHO's service book.",
+  "court_quote": "Under the said circumstances, it would not be unreasonable to presume that the period during which the camera feed was not recorded, may also have been physically deleted in order to wipe out the evidence of the proceedings in the Thana during that relevant period of time.",
+  "court_quote_para": "19",
+  "confidence": "high",
+  "verdict": "accept",
+  "verdict_note": "Checked against the Allahabad High Court order dated 09.09.2026 in HABC No. 506 of 2026 (Indian Kanoon). Detention periods at paras 1-4, the SP's inquiry and DVR gaps at paras 9-11, the presumption at paras 15 and 19, and compensation and recovery at para 21. The SHO and the detained family members are not named here; one detainee was a two-and-a-half-year-old child.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Court finding",
+    "position_explainer": "A court has made a finding on this allegation.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-09-09",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Judicature at Allahabad",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court held the then SHO responsible for unlawful detentions of up to ten days, awarded Rs 65,000 in all, recoverable from the salary of those responsible after an enquiry, and directed an entry in his service book. The SP's own inquiry had earlier found the SHO guilty of dereliction over the CCTV system.",
+    "disposition": "Adverse finding (illegal detention; CCTV footage presumed deleted) · Rs 65,000 compensation · recovery from salary · service-book entry",
+    "source": "HABC No. 506 of 2026",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-10-05",
+    "scope": "Copwatch expansion sweep: order dated 09.09.2026 was missing from the site; record written from the order text on Indian Kanoon; quote checked verbatim; officer and family members not named."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-10-05",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/13242551/",
+    "link_checked": "2026-10-05"
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": true,
+  "verified_by": [
+   "claude-opus-5.5-week-1005"
+  ],
+  "merged_case_id": null,
+  "officers_named_public": 0,
+  "record_flag": null
  }
 ]
