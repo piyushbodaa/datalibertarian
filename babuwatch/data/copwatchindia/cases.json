@@ -215416,10 +215416,10 @@
   "display_title": "[name withheld] v. STATE OF GUJARAT",
   "display_title_redacted": "[name withheld] v. STATE OF GUJARAT",
   "state": "Gujarat",
-  "district": "...",
+  "district": null,
   "district_at_time": null,
   "city_town": null,
-  "police_station_or_unit": "... Police Station",
+  "police_station_or_unit": null,
   "court": "Supreme Court of India",
   "court_as_verified": "Supreme Court of India",
   "bench": null,
@@ -221092,6 +221092,681 @@
   "fidelity_checked": true,
   "verified_by": [
    "claude-opus-5.5-week-0927"
+  ],
+  "merged_case_id": null,
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0101",
+  "status": "current",
+  "merged_id": "CWC-1391",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] (Corpus) And Another vs State Of U.P. And 4 Others",
+  "display_title_redacted": "[name withheld] (Corpus) And Another vs State Of U.P. And 4 Others",
+  "state": "Uttar Pradesh",
+  "district": "Prayagraj",
+  "district_at_time": null,
+  "city_town": "Prayagraj",
+  "police_station_or_unit": "P.S. George Town, District Prayagraj",
+  "court": "Allahabad High Court",
+  "court_as_verified": "High Court of Judicature at Allahabad",
+  "bench": null,
+  "case_title": "[name withheld] (Corpus) And Another vs State Of U.P. And 4 Others",
+  "case_number": "HABEAS CORPUS WRIT PETITION No. - 906 of 2026",
+  "citation": null,
+  "judges": [
+   "Atul Sreedharan",
+   "Divesh Chandra Samant"
+  ],
+  "judgment_date": "2026-09-09",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2026-06-23",
+  "incident_year": 2026,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "illegal_detention_false_imprisonment",
+  "subcategory": "illegal_detention_false_imprisonment",
+  "subcategory_display": "illegal detention false imprisonment",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Article 21 of the Constitution of India",
+   "Article 226 of the Constitution of India (habeas corpus)"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Station House Officer",
+    "unit": "P.S. George Town, Prayagraj",
+    "role": "held_liable",
+    "publish_grade": "unnamed",
+    "gate_reasons": [
+     "ledger:no_row",
+     "key2:no_row"
+    ],
+    "ledger_role": null,
+    "key2": null,
+    "key2_agy": null,
+    "key2_claude": null,
+    "key2_union": null,
+    "key2_gemapi": null,
+    "key2_openrouter": null,
+    "key2_gpt56": null,
+    "grok": null,
+    "jev_risk": null,
+    "jev_p_culpable": null,
+    "key2_gpt": null,
+    "later_outcome": null,
+    "name_public": null,
+    "display": "Station House Officer, P.S. George Town, Prayagraj"
+   },
+   {
+    "name": null,
+    "rank": "Investigating Officer",
+    "unit": "P.S. George Town, Prayagraj",
+    "role": "held_liable",
+    "publish_grade": "unnamed",
+    "gate_reasons": [
+     "ledger:no_row",
+     "key2:no_row"
+    ],
+    "ledger_role": null,
+    "key2": null,
+    "key2_agy": null,
+    "key2_claude": null,
+    "key2_union": null,
+    "key2_gemapi": null,
+    "key2_openrouter": null,
+    "key2_gpt56": null,
+    "grok": null,
+    "jev_risk": null,
+    "jev_p_culpable": null,
+    "key2_gpt": null,
+    "later_outcome": null,
+    "name_public": null,
+    "display": "Investigating Officer, P.S. George Town, Prayagraj"
+   }
+  ],
+  "officer_count": 2,
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": true,
+  "victim_count": 1,
+  "sentence_type": "compensation_only",
+  "sentence_max_years": null,
+  "compensation_inr": 40000,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/197536445/",
+  "secondary_sources": [
+   "https://www.livelaw.in/high-court/allahabad-high-court/allahabad-hc-police-cannot-detain-innocent-family-member-accused-surrender-552575"
+  ],
+  "summary": "The High Court recorded that police of P.S. George Town, Prayagraj picked up a man from his house in Jaunpur on 23.06.2026 to question him in an attempted-murder case against his brother, who was then absconding, and released him only at about 7:00 p.m. on 26.06.2026. The Investigating Officer told the court he went to the house on the SHO's direction. Call records and CCTV footage corroborated the detention; no CCTV footage for 26.06.2026 was produced. The court held the man was in unlawful custody for at least four days, that he was held to pressure his brother to surrender, and awarded Rs. 40,000 compensation to be recovered from the salaries of those responsible. It directed that its displeasure with the SHO and the Investigating Officer be recorded in their service records.",
+  "summary_verified": "The High Court recorded that police of P.S. George Town, Prayagraj picked up a man from his house in Jaunpur on 23.06.2026 to question him in an attempted-murder case against his brother, who was then absconding, and released him only at about 7:00 p.m. on 26.06.2026. The Investigating Officer told the court he went to the house on the SHO's direction. Call records and CCTV footage corroborated the detention; no CCTV footage for 26.06.2026 was produced. The court held the man was in unlawful custody for at least four days, that he was held to pressure his brother to surrender, and awarded Rs. 40,000 compensation to be recovered from the salaries of those responsible. It directed that its displeasure with the SHO and the Investigating Officer be recorded in their service records.",
+  "court_quote": "The police cannot resort to pressure tactics to compel the actual offender to surrender before it by unlawfully detaining an innocent member of his family who has no connection with the alleged offence.",
+  "court_quote_para": "10",
+  "confidence": "high",
+  "verdict": "accept",
+  "verdict_note": "Checked against the Allahabad High Court order dated 09.09.2026 in HABC No. 906 of 2026 (Indian Kanoon), first reported by LiveLaw on 01.10.2026. The detention period is at para 7, the compensation and recovery at para 9, and the finding and service-record direction at para 10. The officers named in the order are withheld here.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Court finding",
+    "position_explainer": "A court has made a finding on this allegation.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-09-09",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Judicature at Allahabad",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court held the petitioner was in unlawful police custody from 23.06.2026 to 26.06.2026, awarded Rs. 40,000 compensation recoverable from the salaries of the personnel responsible, and directed that its displeasure be recorded in the service records of the SHO and the Investigating Officer.",
+    "disposition": "Adverse finding (illegal detention) · Rs. 40,000 compensation · recovery from salaries · service-record entry",
+    "source": "HABC No. 906 of 2026",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-10-05",
+    "scope": "Past-week sweep (26 Sep-5 Oct): order dated 09.09.2026 first reported on 01.10.2026; record written from the order text on Indian Kanoon; quote checked verbatim; officers and the detained man are not named."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-10-05",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/197536445/",
+    "link_checked": "2026-10-05"
+   },
+   {
+    "url": "https://www.livelaw.in/high-court/allahabad-high-court/allahabad-hc-police-cannot-detain-innocent-family-member-accused-surrender-552575",
+    "link_checked": "2026-10-05"
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": true,
+  "verified_by": [
+   "claude-opus-5.5-week-1005"
+  ],
+  "merged_case_id": null,
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0102",
+  "status": "current",
+  "merged_id": "CWC-1392",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] And Another vs State Of U.P. And 4 Others",
+  "display_title_redacted": "[name withheld] And Another vs State Of U.P. And 4 Others",
+  "state": "Uttar Pradesh",
+  "district": "Chitrakoot",
+  "district_at_time": null,
+  "city_town": null,
+  "police_station_or_unit": "P.S. Sardhuwa, District Chitrakoot",
+  "court": "Allahabad High Court",
+  "court_as_verified": "High Court of Judicature at Allahabad",
+  "bench": null,
+  "case_title": "[name withheld] And Another vs State Of U.P. And 4 Others",
+  "case_number": "HABEAS CORPUS WRIT PETITION No. - 1169 of 2026",
+  "citation": null,
+  "judges": [
+   "Atul Sreedharan",
+   "Achal Sachdev"
+  ],
+  "judgment_date": "2026-09-23",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2026-07-13",
+  "incident_year": 2026,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "illegal_detention_false_imprisonment",
+  "subcategory": "illegal_detention_false_imprisonment",
+  "subcategory_display": "illegal detention false imprisonment",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Article 21 of the Constitution of India",
+   "Section 119(g) of the Bharatiya Sakshya Adhiniyam, 2023"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Station House Officer (since suspended)",
+    "unit": "P.S. Sardhuwa, Chitrakoot",
+    "role": "held_liable",
+    "publish_grade": "unnamed",
+    "gate_reasons": [
+     "ledger:no_row",
+     "key2:no_row"
+    ],
+    "ledger_role": null,
+    "key2": null,
+    "key2_agy": null,
+    "key2_claude": null,
+    "key2_union": null,
+    "key2_gemapi": null,
+    "key2_openrouter": null,
+    "key2_gpt56": null,
+    "grok": null,
+    "jev_risk": null,
+    "jev_p_culpable": null,
+    "key2_gpt": null,
+    "later_outcome": null,
+    "name_public": null,
+    "display": "Station House Officer (since suspended), P.S. Sardhuwa, Chitrakoot"
+   },
+   {
+    "name": null,
+    "rank": "Investigating Officer",
+    "unit": "P.S. Sardhuwa, Chitrakoot",
+    "role": "held_liable",
+    "publish_grade": "unnamed",
+    "gate_reasons": [
+     "ledger:no_row",
+     "key2:no_row"
+    ],
+    "ledger_role": null,
+    "key2": null,
+    "key2_agy": null,
+    "key2_claude": null,
+    "key2_union": null,
+    "key2_gemapi": null,
+    "key2_openrouter": null,
+    "key2_gpt56": null,
+    "grok": null,
+    "jev_risk": null,
+    "jev_p_culpable": null,
+    "key2_gpt": null,
+    "later_outcome": null,
+    "name_public": null,
+    "display": "Investigating Officer, P.S. Sardhuwa, Chitrakoot"
+   }
+  ],
+  "officer_count": 2,
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": true,
+  "victim_count": 1,
+  "sentence_type": "compensation_only",
+  "sentence_max_years": null,
+  "compensation_inr": 10000,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/173578843/",
+  "secondary_sources": [
+   "https://www.livelaw.in/high-court/allahabad-high-court/allahabad-hc-police-station-cctv-safeguards-arrested-interrogation-552464"
+  ],
+  "summary": "The High Court recorded that a sand-mining businessman, accused in a cheating and breach-of-trust FIR arising from what the informant himself called a civil dispute, was brought into P.S. Sardhuwa, Chitrakoot at 9:00 a.m. on 13.07.2026, taken out at 10:19 a.m. in the informant's vehicle accompanied by the Investigating Officer, and brought back at 8:24 p.m., while the arrest memo showed arrest at 3:30 p.m. and the general diary showed him in the lock-up from 6:41 p.m. Footage from the three cameras inside the police station was not produced. The court rejected the explanation for the missing footage as false and mischievous, held the feeds were deliberately deleted or not saved, found the grounds of arrest woefully inadequate, set aside the arrest, and awarded Rs. 10,000 for 24 hours' illegal detention, recoverable from the person found responsible after inquiry. It observed that the police appeared to have acted as recovery agents for the complainant, and laid down that police-station CCTV must run 24/7 with general-diary entries and release receipts whenever it fails.",
+  "summary_verified": "The High Court recorded that a sand-mining businessman, accused in a cheating and breach-of-trust FIR arising from what the informant himself called a civil dispute, was brought into P.S. Sardhuwa, Chitrakoot at 9:00 a.m. on 13.07.2026, taken out at 10:19 a.m. in the informant's vehicle accompanied by the Investigating Officer, and brought back at 8:24 p.m., while the arrest memo showed arrest at 3:30 p.m. and the general diary showed him in the lock-up from 6:41 p.m. Footage from the three cameras inside the police station was not produced. The court rejected the explanation for the missing footage as false and mischievous, held the feeds were deliberately deleted or not saved, found the grounds of arrest woefully inadequate, set aside the arrest, and awarded Rs. 10,000 for 24 hours' illegal detention, recoverable from the person found responsible after inquiry. It observed that the police appeared to have acted as recovery agents for the complainant, and laid down that police-station CCTV must run 24/7 with general-diary entries and release receipts whenever it fails.",
+  "court_quote": "the feeds within the police Thana were deliberately either deleted or deliberately not saved in the DVR as there is no argument put forth with regard to malfunction of any CCTV cameras",
+  "court_quote_para": "15",
+  "confidence": "high",
+  "verdict": "accept",
+  "verdict_note": "Checked against the Allahabad High Court order dated 23.09.2026 in HABC No. 1169 of 2026 (Indian Kanoon), reported by LiveLaw on 30.09.2026. CCTV timings at paras 11 and 15-17, the finding on deleted feeds at paras 13-15, grounds of arrest at para 19, CCTV directions at paras 20-21, and release and compensation at paras 24-25. The underlying cheating case is not assessed by the court. Officers and the petitioner are not named here.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Court finding",
+    "position_explainer": "A court has made a finding on this allegation.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-09-23",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Judicature at Allahabad",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court set aside the arrest for inadequate grounds, ordered release, awarded Rs. 10,000 for 24 hours' illegal detention recoverable after inquiry, and directed that police-station CCTV run 24/7 with general-diary safeguards when it fails.",
+    "disposition": "Adverse finding (illegal detention, deliberate loss of CCTV footage) · arrest set aside · Rs. 10,000 compensation · CCTV directions",
+    "source": "HABC No. 1169 of 2026",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-10-05",
+    "scope": "Past-week sweep (26 Sep-5 Oct): order dated 23.09.2026 reported on 30.09.2026; record written from the order text on Indian Kanoon; quote checked verbatim; officers and the petitioner are not named."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-10-05",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/173578843/",
+    "link_checked": "2026-10-05"
+   },
+   {
+    "url": "https://www.livelaw.in/high-court/allahabad-high-court/allahabad-hc-police-station-cctv-safeguards-arrested-interrogation-552464",
+    "link_checked": "2026-10-05"
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": true,
+  "verified_by": [
+   "claude-opus-5.5-week-1005"
+  ],
+  "merged_case_id": null,
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0103",
+  "status": "current",
+  "merged_id": "CWC-1393",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs CBI",
+  "display_title_redacted": "[name withheld] vs CBI",
+  "state": "Delhi",
+  "district": "New Delhi",
+  "district_at_time": null,
+  "city_town": "New Delhi",
+  "police_station_or_unit": "Sports Cell, CISF Headquarters, New Delhi",
+  "court": "Delhi High Court",
+  "court_as_verified": "High Court of Delhi",
+  "bench": null,
+  "case_title": "[name withheld] vs CBI",
+  "case_number": "CRL.A. 578/2010",
+  "citation": null,
+  "judges": [
+   "Vimal Kumar Yadav"
+  ],
+  "judgment_date": "2026-09-22",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2004-10-28",
+  "incident_year": 2004,
+  "category": "Other",
+  "admin_category": "corruption",
+  "admin_subcategory": "bribery_pc_act",
+  "subcategory": "bribery_pc_act",
+  "subcategory_display": "bribery pc act",
+  "protest_override_heuristic": false,
+  "outcome_type": "conviction_upheld",
+  "sections": [
+   "Section 7 of the Prevention of Corruption Act, 1988",
+   "Section 13(2) read with Section 13(1)(d) of the Prevention of Corruption Act, 1988"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Assistant Sub-Inspector (Ministerial)",
+    "unit": "Sports Cell, CISF Headquarters, New Delhi",
+    "role": "convicted",
+    "publish_grade": "unnamed",
+    "gate_reasons": [
+     "ledger:no_row",
+     "key2:no_row"
+    ],
+    "ledger_role": null,
+    "key2": null,
+    "key2_agy": null,
+    "key2_claude": null,
+    "key2_union": null,
+    "key2_gemapi": null,
+    "key2_openrouter": null,
+    "key2_gpt56": null,
+    "grok": null,
+    "jev_risk": null,
+    "jev_p_culpable": null,
+    "key2_gpt": null,
+    "later_outcome": null,
+    "name_public": null,
+    "display": "Assistant Sub-Inspector (Ministerial), Sports Cell, CISF Headquarters, New Delhi"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": true,
+  "victim_count": 1,
+  "sentence_type": "imprisonment",
+  "sentence_max_years": 2,
+  "compensation_inr": null,
+  "force": "central_armed",
+  "primary_source_url": "https://indiankanoon.org/doc/55967950/",
+  "secondary_sources": [],
+  "summary": "The Delhi High Court recorded that an Assistant Sub-Inspector (Ministerial) in the Sports Cell of CISF Headquarters, New Delhi, handling the kit allowance of a CISF Inspector who had coached the Indian junior judo team at an Asian championship in Doha, demanded Rs. 5,000 to release the Rs. 10,000 cheque and was caught by the CBI on 28.10.2004 accepting Rs. 3,000. The Special Judge, CBI, Patiala House Courts convicted him on 20.04.2010 under Sections 7 and 13(2) read with 13(1)(d) of the Prevention of Corruption Act, 1988 and sentenced him to two years' rigorous imprisonment and a fine of Rs. 5,000 on each count, concurrently. On 22.09.2026, sixteen years after the appeal was filed, the High Court rejected his defence that the money was repayment of a loan, upheld the conviction and directed him to surrender to serve the sentence.",
+  "summary_verified": "The Delhi High Court recorded that an Assistant Sub-Inspector (Ministerial) in the Sports Cell of CISF Headquarters, New Delhi, handling the kit allowance of a CISF Inspector who had coached the Indian junior judo team at an Asian championship in Doha, demanded Rs. 5,000 to release the Rs. 10,000 cheque and was caught by the CBI on 28.10.2004 accepting Rs. 3,000. The Special Judge, CBI, Patiala House Courts convicted him on 20.04.2010 under Sections 7 and 13(2) read with 13(1)(d) of the Prevention of Corruption Act, 1988 and sentenced him to two years' rigorous imprisonment and a fine of Rs. 5,000 on each count, concurrently. On 22.09.2026, sixteen years after the appeal was filed, the High Court rejected his defence that the money was repayment of a loan, upheld the conviction and directed him to surrender to serve the sentence.",
+  "court_quote": "The conviction of the Appellant under Section 7 of the Prevention of Corruption Act, 1988, is accordingly upheld.",
+  "court_quote_para": "53",
+  "confidence": "high",
+  "verdict": "accept",
+  "verdict_note": "Checked against the Delhi High Court judgment dated 22.09.2026 in CRL.A. 578/2010 (Indian Kanoon). Trial-court conviction and sentence at para 1, the trap at para 2, findings at paras 50-52, and the order upholding the conviction and directing surrender at paras 53-54. The complainant, a CISF Inspector, is not named here.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Court finding",
+    "position_explainer": "A court has made a finding on this allegation.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-09-22",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Delhi",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court dismissed the appeal, upheld the 2010 conviction under Sections 7 and 13(2) read with 13(1)(d) of the PC Act, and directed the appellant to surrender to serve two years' rigorous imprisonment.",
+    "disposition": "conviction upheld · surrender directed",
+    "source": "CRL.A. 578/2010",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-10-05",
+    "scope": "Copwatch convictions sweep (5 Oct): record written from the judgment text on Indian Kanoon; quote checked verbatim; the officer and the complainant are not named."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-10-05",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/55967950/",
+    "link_checked": "2026-10-05"
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": true,
+  "verified_by": [
+   "claude-opus-5.5-week-1005"
+  ],
+  "merged_case_id": null,
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0104",
+  "status": "current",
+  "merged_id": "CWC-1394",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs State of Gujarat & Anr.",
+  "display_title_redacted": "[name withheld] vs State of Gujarat & Anr.",
+  "state": "Gujarat",
+  "district": "Rajkot",
+  "district_at_time": null,
+  "city_town": "Rajkot",
+  "police_station_or_unit": "Pradhyumannagar Police Station, Rajkot",
+  "court": "Gujarat High Court",
+  "court_as_verified": "High Court of Gujarat",
+  "bench": null,
+  "case_title": "[name withheld] vs State of Gujarat & Anr.",
+  "case_number": "R/Special Criminal Application (Direction) No. 9593 of 2024",
+  "citation": null,
+  "judges": [
+   "M. K. Thakker"
+  ],
+  "judgment_date": "2026-09-28",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2023-03-25",
+  "incident_year": 2023,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "custodial_death",
+  "subcategory": "custodial_death",
+  "subcategory_display": "custodial death",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Section 154 of the Code of Criminal Procedure, 1973",
+   "Section 176 of the Code of Criminal Procedure, 1973",
+   "Article 226 of the Constitution of India"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Officer-in-charge",
+    "unit": "Pradhyumannagar Police Station, Rajkot",
+    "role": "named_in_finding",
+    "publish_grade": "unnamed",
+    "gate_reasons": [
+     "ledger:no_row",
+     "key2:no_row"
+    ],
+    "ledger_role": null,
+    "key2": null,
+    "key2_agy": null,
+    "key2_claude": null,
+    "key2_union": null,
+    "key2_gemapi": null,
+    "key2_openrouter": null,
+    "key2_gpt56": null,
+    "grok": null,
+    "jev_risk": null,
+    "jev_p_culpable": null,
+    "key2_gpt": null,
+    "later_outcome": null,
+    "name_public": null,
+    "display": "Officer-in-charge, Pradhyumannagar Police Station, Rajkot"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": true,
+  "victim_count": 1,
+  "sentence_type": null,
+  "sentence_max_years": null,
+  "compensation_inr": null,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/174018341/",
+  "secondary_sources": [],
+  "summary": "The High Court recorded that a Joint Director General of Foreign Trade at Rajkot, arrested by the CBI in a bribery trap on 24.03.2023, was kept in his office overnight while the post-trap panchnama continued, and died on the morning of 25.03.2023 after, as a CBI constable reported, jumping from a window. Rajkot's Pradhyumannagar police registered only an accidental-death inquiry; an SIT found the CBI officers had not taken proper care but were not involved in the death, and a judicial inquiry under Section 176 CrPC found they had caused no harm. His family sought an FIR alleging murder. On 28.09.2026 the High Court held that, instead of registering an FIR or treating the family's complaint as a private complaint, the police had folded it into the Section 176 inquiry, contrary to the Supreme Court's ruling in Lalita Kumari. It directed registration of an FIR against an unknown person and further investigation under the supervision of the DIG, CID Crime, with a report within three months.",
+  "summary_verified": "The High Court recorded that a Joint Director General of Foreign Trade at Rajkot, arrested by the CBI in a bribery trap on 24.03.2023, was kept in his office overnight while the post-trap panchnama continued, and died on the morning of 25.03.2023 after, as a CBI constable reported, jumping from a window. Rajkot's Pradhyumannagar police registered only an accidental-death inquiry; an SIT found the CBI officers had not taken proper care but were not involved in the death, and a judicial inquiry under Section 176 CrPC found they had caused no harm. His family sought an FIR alleging murder. On 28.09.2026 the High Court held that, instead of registering an FIR or treating the family's complaint as a private complaint, the police had folded it into the Section 176 inquiry, contrary to the Supreme Court's ruling in Lalita Kumari. It directed registration of an FIR against an unknown person and further investigation under the supervision of the DIG, CID Crime, with a report within three months.",
+  "court_quote": "instead of taking appropriate action, either by registering an FIR or by treating the same as a private complaint, the said complaint was made a part of the inquiry conducted under Section 176 of the Code of Criminal Procedure",
+  "court_quote_para": "12",
+  "confidence": "high",
+  "verdict": "accept",
+  "verdict_note": "Checked against the Gujarat High Court judgment dated 28.09.2026 (Indian Kanoon). The custody timeline is at paras 2.1-2.3, the SIT and judicial-inquiry conclusions at paras 2.5-2.6, the finding on non-registration at para 12, and the direction for an FIR and DIG-supervised investigation at para 17. The court made no finding that any officer caused the death; the SIT and the judicial inquiry had found no CBI involvement. Names of the deceased, his family and the officers are withheld.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Externally reported",
+  "tier_badge": "Externally reported",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Court finding",
+    "position_explainer": "A court has made a finding on this allegation.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-09-28",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Gujarat",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court held the police had not registered an FIR on the family's complaint about a death in CBI custody and had folded it into the Section 176 inquiry; it directed an FIR against an unknown person and investigation under the supervision of the DIG, CID Crime, with a report in three months.",
+    "disposition": "Adverse finding (failure to register FIR in a custodial death) · FIR and supervised investigation directed · no compensation",
+    "source": "R/SCR.A/9593/2024",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-10-05",
+    "scope": "Copwatch convictions sweep (5 Oct): record written from the judgment text on Indian Kanoon; quote checked verbatim; no personal finding against any officer is claimed."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-10-05",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/174018341/",
+    "link_checked": "2026-10-05"
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": true,
+  "verified_by": [
+   "claude-opus-5.5-week-1005"
   ],
   "merged_case_id": null,
   "officers_named_public": 0,
