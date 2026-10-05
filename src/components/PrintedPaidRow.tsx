@@ -28,12 +28,12 @@ export function PrintedPaidRow({ item }: { item: InflationItem }) {
           </p>
         </div>
         <div className="border border-[var(--rule)] border-l-[3px] border-l-[var(--rust)] px-4 py-4">
-          <p className="kicker">You paid</p>
+          <p className="kicker">Government-observed price</p>
           {pair && yoy !== undefined ? (
             <>
               <p className="num mt-2 text-3xl font-medium whitespace-nowrap">{formatPct(yoy)}</p>
               <p className="mt-2 text-sm text-ink/80">
-                {formatFromTo(pair.then, pair.now)}
+                {formatFromTo(pair.then, pair.now)}. National average, not a household bill.
                 <CitationChip citationId={pair.now.citationId} compact />
               </p>
             </>

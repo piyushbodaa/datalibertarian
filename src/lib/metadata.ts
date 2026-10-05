@@ -4,6 +4,7 @@ export function metadataFor(pathname: string, search = "") {
   const title = titleFor(pathname, search);
   const descriptions: Record<string, string> = {
     "/": "Explore India's government budgets, compare state police spending, and follow inflation with sources for every figure.",
+    "/spending": "Explore India's government budgets, compare state police spending, and follow inflation with sources for every figure.",
     "/states": "Explore state police budgets from official government books, with clear coverage and links to the original sources.",
     "/compare": "Compare government budgets by fiscal year and series. See the source figures and the books behind each median.",
     "/sources": "Read the official sources, extraction dates, accounting definitions, and limitations behind Data Libertarian.",

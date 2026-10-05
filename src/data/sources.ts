@@ -824,6 +824,443 @@ for (const p of PRS_INDEX) {
   };
 }
 
+const NCRB_BOOKS: { id: string; title: string; url: string; table: string; year: string; short: string }[] = [
+  {
+    id: "ncrb-cii-2022-1-2",
+    title: "Crime in India 2022 — Table 1.2, IPC Crimes (Crime Head-wise), 2020–2022",
+    url: "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1701859959TABLE12.xlsx",
+    table: "Table 1.2",
+    year: "2022",
+    short: "Table 1.2",
+  },
+  {
+    id: "ncrb-cii-2022-1a4",
+    title: "Crime in India 2022 — Table 1A.4, IPC Crimes (Crime Head-wise and State/UT-wise)",
+    url: "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1701860903TABLE1A4.xlsx",
+    table: "Table 1A.4",
+    year: "2022",
+    short: "Table 1A.4",
+  },
+  {
+    id: "ncrb-cii-2022-1b4",
+    title: "Crime in India 2022 — Table 1B.4, IPC Crimes (Crime Head-wise and City-wise)",
+    url: "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1701926426TABLE1B4.xlsx",
+    table: "Table 1B.4",
+    year: "2022",
+    short: "Table 1B.4",
+  },
+  {
+    id: "ncrb-cii-2022-2a1",
+    title: "Crime in India 2022 — Table 2A.1, Murder Cases (State/UT-wise), 2020–2022",
+    url: "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1701932716TABLE2A1.xlsx",
+    table: "Table 2A.1",
+    year: "2022",
+    short: "Table 2A.1",
+  },
+  {
+    id: "ncrb-cii-2022-2a2",
+    title: "Crime in India 2022 — Table 2A.2, Motives of Murder",
+    url: "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1701932846TABLE2A2.xlsx",
+    table: "Table 2A.2",
+    year: "2022",
+    short: "Table 2A.2",
+  },
+  {
+    id: "ncrb-cii-2022-2a3",
+    title: "Crime in India 2022 — Table 2A.3, Victims of Murder (Gender and Age)",
+    url: "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1701932884TABLE2A3.xlsx",
+    table: "Table 2A.3",
+    year: "2022",
+    short: "Table 2A.3",
+  },
+  {
+    id: "ncrb-cii-2022-2b1",
+    title: "Crime in India 2022 — Table 2B.1, Murder Cases (City-wise), 2020–2022",
+    url: "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1701933379TABLE2B1.xlsx",
+    table: "Table 2B.1",
+    year: "2022",
+    short: "Table 2B.1",
+  },
+  {
+    id: "ncrb-cii-2022-3a2",
+    title: "Crime in India 2022 — Table 3A.2, Crimes against Women (Crime Head-wise and State/UT-wise)",
+    url: "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1701935197TABLE3A2.xlsx",
+    table: "Table 3A.2",
+    year: "2022",
+    short: "Table 3A.2",
+  },
+  {
+    id: "ncrb-cii-2022-3a3",
+    title: "Crime in India 2022 — Table 3A.3, Women and Girls Victims of Rape (Age Group-wise)",
+    url: "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1701935237TABLE3A3.xlsx",
+    table: "Table 3A.3",
+    year: "2022",
+    short: "Table 3A.3",
+  },
+  {
+    id: "ncrb-cii-2022-3a4",
+    title: "Crime in India 2022 — Table 3A.4, Offenders’ Relation to Victims of Rape",
+    url: "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1701935296TABLE3A4.xlsx",
+    table: "Table 3A.4",
+    year: "2022",
+    short: "Table 3A.4",
+  },
+  {
+    id: "ncrb-cii-2022-3b2",
+    title: "Crime in India 2022 — Table 3B.2, Crimes against Women (Crime Head-wise and City-wise)",
+    url: "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1701940114TABLE3B2.xlsx",
+    table: "Table 3B.2",
+    year: "2022",
+    short: "Table 3B.2",
+  },
+  {
+    id: "ncrb-cii-2022-17a1",
+    title: "Crime in India 2022 — Table 17A.1, Police Disposal of IPC Crime Cases (Crime Head-wise)",
+    url: "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1702042449TABLE17A1.xlsx",
+    table: "Table 17A.1",
+    year: "2022",
+    short: "Table 17A.1",
+  },
+  {
+    id: "ncrb-cii-2022-18a1",
+    title: "Crime in India 2022 — Table 18A.1, Court Disposal of IPC Crime Cases (Crime Head-wise)",
+    url: "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1702040446TABLE18A1.xlsx",
+    table: "Table 18A.1",
+    year: "2022",
+    short: "Table 18A.1",
+  },
+  {
+    id: "ncrb-cii-2022-20a1",
+    title: "Crime in India 2022 — Table 20A.1, Value of Property Stolen and Recovered",
+    url: "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1702035135TABLE20A1.xlsx",
+    table: "Table 20A.1",
+    year: "2022",
+    short: "Table 20A.1",
+  },
+  {
+    id: "ncrb-cii-2022-limits",
+    title: "Crime in India 2022 — Disclaimer and limitations",
+    url: "https://www.ncrb.gov.in/uploads/files/031.pdf",
+    table: "Limitations 1–3",
+    year: "2022",
+    short: "Limits",
+  },
+  {
+    id: "ncrb-cii-2023-snapshot",
+    title: "Crime in India 2023 — Snapshots (States/UTs)",
+    url: "https://www.ncrb.gov.in/uploads/files/9ACII2023Snapshots-StateandUTs4.pdf",
+    table: "National snapshot",
+    year: "2023",
+    short: "Snapshot",
+  },
+  ...(
+    [
+      ["1-2", "Table 1.2", "IPC Crimes (Crime Head-wise), 2021–2023"],
+      ["1a4", "Table 1A.4", "IPC Crimes (Crime Head-wise and State/UT-wise)"],
+      ["1b4", "Table 1B.4", "IPC Crimes (Crime Head-wise and City-wise)"],
+      ["2a1", "Table 2A.1", "Murder Cases (State/UT-wise), 2021–2023"],
+      ["2a2", "Table 2A.2", "Motives of Murder"],
+      ["2a3", "Table 2A.3", "Victims of Murder (Gender and Age Group-wise)"],
+      ["2b1", "Table 2B.1", "Murder Cases in Metropolitan Cities, 2021–2023"],
+      ["3a2", "Table 3A.2", "Crimes against Women (Crime Head-wise and State/UT-wise)"],
+      ["3a3", "Table 3A.3", "Women and Girls Victims of Rape (Age Group-wise)"],
+      ["3a4", "Table 3A.4", "Offenders’ Relation to Victims of Rape"],
+      ["3a5", "Table 3A.5", "Police Disposal of Crime against Women"],
+      ["3a7", "Table 3A.7", "Court Disposal of Crime against Women"],
+      ["3a11", "Table 3A.11", "Cases Registered under Rape (Section-wise)"],
+      ["3b2", "Table 3B.2", "Crimes against Women (Crime Head-wise and City-wise)"],
+      ["4a10", "Table 4A.10", "Offenders’ Relation to Child Victims of POCSO Act (Sections 4 and 6)"],
+      ["limits", "Limitations and methodology", "Principal Offence Rule and population base"],
+    ] as const
+  ).map(([key, table, name]) => ({
+    id: `ncrb-cii-2023-${key}`,
+    title: `Crime in India 2023, Volume I — ${table}, ${name}`,
+    url: "https://www.ncrb.gov.in/uploads/files/1CrimeinIndia2023PartI.pdf",
+    table,
+    year: "2023",
+    short: table.startsWith("Table") ? `2023 ${table}` : "2023 limits",
+  })),
+  ...(
+    [
+      ["1-2", "Table 1.2", "IPC/BNS Crimes (Crime Head-wise), 2022–2024"],
+      ["1a4", "Table 1A.4", "IPC/BNS Crimes (Crime Head-wise and State/UT-wise)"],
+      ["1b4", "Table 1B.4", "IPC/BNS Crimes (Crime Head-wise and City-wise)"],
+      ["2a1", "Table 2A.1", "Murder Cases (State/UT-wise), 2022–2024"],
+      ["2a2", "Table 2A.2", "Motives of Murder"],
+      ["2a3", "Table 2A.3", "Victims of Murder (Gender and Age Group-wise)"],
+      ["2b1", "Table 2B.1", "Murder Cases in Metropolitan Cities, 2022–2024"],
+      ["3a2", "Table 3A.2", "Crimes against Women (Crime Head-wise and State/UT-wise)"],
+      ["3a3", "Table 3A.3", "Women and Girls Victims of Rape (Age Group-wise)"],
+      ["3a4", "Table 3A.4", "Offenders’ Relation to Victims of Rape"],
+      ["3a5", "Table 3A.5", "Police Disposal of Crime against Women"],
+      ["3a7", "Table 3A.7", "Court Disposal of Crime against Women"],
+      ["3a11", "Table 3A.11", "Cases Registered under Rape (Section-wise)"],
+      ["3b2", "Table 3B.2", "Crimes against Women (Crime Head-wise and City-wise)"],
+      ["4a10", "Table 4A.10", "Offenders’ Relation to Child Victims of POCSO Act (Sections 4 and 6)"],
+      ["limits", "Limitations and methodology", "Principal Offence Rule and population base"],
+    ] as const
+  ).map(([key, table, name]) => ({
+    id: `ncrb-cii-2024-${key}`,
+    title: `Crime in India 2024, Volume I — ${table}, ${name}`,
+    url: "https://www.ncrb.gov.in/uploads/files/1CrimeinIndia2024-VolumeI.pdf",
+    table,
+    year: "2024",
+    short: table.startsWith("Table") ? `2024 ${table}` : "2024 limits",
+  })),
+];
+
+for (const book of NCRB_BOOKS) {
+  citations[book.id] = {
+    id: book.id,
+    title: book.title,
+    publisher: "National Crime Records Bureau, Ministry of Home Affairs",
+    fiscalYear: book.year,
+    url: book.url,
+    table: book.table,
+    accessedOn: "2026-09-27",
+    short: book.short,
+    notes: "Calendar year. Registered cases, principal-offence rule.",
+  };
+}
+
+const NCRB_VOLUMES: [string, string, string, string][] = [
+  ["ncrb-cii-2016-vol", "2016", "Crime in India 2016 — full publication", "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653886924_Crime%20in%20India%20-%202016%20Complete%20PDF%20291117.pdf"],
+  ["ncrb-cii-2017-v1", "2017", "Crime in India 2017 — Volume I", "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653885627_Crime%20in%20India%202017%20-%20Volume%201_0_0.pdf"],
+  ["ncrb-cii-2018-v1", "2018", "Crime in India 2018 — Volume I", "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653734481_Crime%20in%20India%202018%20-%20Volume%201_3_0_0.pdf"],
+  ["ncrb-cii-2019-v1", "2019", "Crime in India 2019 — Volume I", "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653730573_CII%202019%20Volume%201.pdf"],
+  ["ncrb-cii-2020-v1", "2020", "Crime in India 2020 — Volume I", "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/16959885631653645869CII2020Volume1.pdf"],
+  ["ncrb-cii-2021-v1", "2021", "Crime in India 2021 — Volume I", "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1679310394CII2021Volume1.pdf"],
+  ["ncrb-cii-2022-v1", "2022", "Crime in India 2022 — Volume I", "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1701607577CrimeinIndia2022Book1.pdf"],
+  ["ncrb-cii-2024-v1", "2024", "Crime in India 2024 — Volume I", "https://www.ncrb.gov.in/uploads/files/1CrimeinIndia2024-VolumeI.pdf"],
+];
+for (const [id, year, title, url] of NCRB_VOLUMES) {
+  citations[id] = {
+    id,
+    title: `${title}, Tables 1.2, 3A.2 and 3A.11`,
+    publisher: "National Crime Records Bureau, Ministry of Home Affairs",
+    fiscalYear: year,
+    url,
+    table: "Tables 1.2, 3A.2, 3A.11",
+    accessedOn: "2026-09-27",
+    short: `CII ${year}`,
+    notes: "Calendar year. Registered cases, principal-offence rule.",
+  };
+}
+
+citations["mha-rs-390-2025"] = {
+  id: "mha-rs-390-2025",
+  title: "Rajya Sabha Unstarred Question No. 390, Crimes against Women and Children (3 December 2025)",
+  publisher: "Ministry of Home Affairs",
+  fiscalYear: "2021-2023",
+  url: "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2025-pdfs/RS03122025/390.pdf",
+  table: "Annexure: crime head-wise cases, 2021–2023",
+  accessedOn: "2026-09-27",
+  short: "RS Q390",
+  notes: "Prints rape 31,677 / 31,516 / 29,670 and total crime against women as IPC plus SLL (POCSO) rows added.",
+};
+
+citations["mha-ls-2263-2022"] = {
+  id: "mha-ls-2263-2022",
+  title: "Lok Sabha Unstarred Question No. 2263, Crime against Women and Minor Girls (20 December 2022)",
+  publisher: "Ministry of Home Affairs",
+  fiscalYear: "2018-2021",
+  url: "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2022-pdfs/LS-20122022/2263.pdf",
+  table: "Annexures I and II: rape and gang rape (s.376D), 2018–2021",
+  accessedOn: "2026-09-27",
+  short: "LS Q2263",
+  notes: "Uses NCRB's revised 2019 figures (32,032 rapes, 1,962 gang rapes).",
+};
+
+citations["mha-rs-3734-2023"] = {
+  id: "mha-rs-3734-2023",
+  title: "Rajya Sabha Unstarred Question No. 3734, Murder Rate across the States (5 April 2023)",
+  publisher: "Ministry of Home Affairs",
+  fiscalYear: "2017-2021",
+  url: "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/RS05042023/3734.pdf",
+  table: "Annexure I: murder cases and rate, 2017–2021",
+  accessedOn: "2026-09-27",
+  short: "RS Q3734",
+  notes: "Prints 28,653 / 29,017 / 28,915 / 29,193 / 29,272, using NCRB's revised 2019 figure.",
+};
+
+citations["mha-ls-1954-2025"] = {
+  id: "mha-ls-1954-2025",
+  title: "Lok Sabha Unstarred Question No. 1954, Murder Cases (11 March 2025)",
+  publisher: "Ministry of Home Affairs",
+  fiscalYear: "2020-2022",
+  url: "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2025-pdfs/LS11032025/1954.pdf",
+  table: "Annexure I: murder cases, 2020–2022",
+  accessedOn: "2026-09-27",
+  short: "LS Q1954",
+};
+
+citations["delhi-police-mvt"] = {
+  id: "delhi-police-mvt",
+  title: "Delhi Police — Motor Vehicle Theft e-FIR portal",
+  publisher: "Delhi Police, Government of NCT of Delhi (Ministry of Home Affairs)",
+  fiscalYear: "2015-",
+  url: "https://mvt.delhipolice.gov.in/",
+  accessedOn: "2026-09-27",
+  short: "Delhi e-FIR",
+  notes: "Online registration of motor-vehicle theft FIRs; the portal carries a 2015 copyright line.",
+};
+
+citations["pib-ftsc-2025-08"] = {
+  id: "pib-ftsc-2025-08",
+  title: "Scheme of Fast Track Special Courts (press release 2154103, 8 August 2025)",
+  publisher: "Press Information Bureau, Ministry of Law and Justice",
+  fiscalYear: "2025",
+  url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2154103",
+  table: "Courts functional and cumulative disposal as on 30.06.2025",
+  accessedOn: "2026-09-27",
+  short: "PIB 8 Aug 2025",
+  notes: "Figures as received from High Courts. Jharkhand left the scheme on 07.07.2025.",
+};
+
+citations["pib-ftsc-2025-03"] = {
+  id: "pib-ftsc-2025-03",
+  title: "Swift Justice, Safer Society: The Impact of Fast Track Special Courts (press release 2113344, 20 March 2025)",
+  publisher: "Press Information Bureau, Ministry of Law and Justice",
+  fiscalYear: "2024",
+  url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2113344",
+  table: "Cases instituted and disposed, 2024",
+  accessedOn: "2026-09-27",
+  short: "PIB 20 Mar 2025",
+  notes: "The release prints both 745 and 754 as the number of functional courts.",
+};
+
+citations["doj-ftsc-dashboard"] = {
+  id: "doj-ftsc-dashboard",
+  title: "Fast Track Special Courts dashboard — Pendency by the FTSCs",
+  publisher: "Department of Justice, Ministry of Law and Justice",
+  fiscalYear: "2026",
+  url: "https://dashboard.doj.gov.in/fast-track-special-court/pendency_by_ftsc",
+  table: "State/UT-wise pendency",
+  accessedOn: "2026-09-27",
+  short: "DoJ FTSC dashboard",
+  notes: "Live dashboard read on 2026-09-27; it shows no as-on date.",
+};
+
+citations["ncw-complaint-stats"] = {
+  id: "ncw-complaint-stats",
+  title: "Statistical Overview of Complaints (nature-wise), 2019–2025",
+  publisher: "National Commission for Women",
+  fiscalYear: "2019-2025",
+  url: "https://ncwapps.nic.in/frmComp_stat_Overview.aspx",
+  table: "Nature-wise complaints by year",
+  accessedOn: "2026-09-27",
+  short: "NCW complaints",
+  notes: "Complaints received by the Commission, not FIRs. Categories changed in 2019.",
+};
+
+citations["mha-ls-2055-2023"] = {
+  id: "mha-ls-2055-2023",
+  title: "Lok Sabha Unstarred Question No. 2055, Custodial Deaths (1 August 2023)",
+  publisher: "Ministry of Home Affairs",
+  fiscalYear: "2018-2023",
+  url: "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2023-pdfs/LS-01082023/2055.pdf",
+  table: "Cases registered by NHRC on deaths in police custody, 2018-19 to 2022-23",
+  accessedOn: "2026-09-27",
+  short: "LS Q2055",
+  notes: "NHRC cases, by financial year.",
+};
+
+citations["mha-ls-1459-2022"] = {
+  id: "mha-ls-1459-2022",
+  title: "Lok Sabha Unstarred Question No. 1459, Custodial Deaths and Fake Encounters (26 July 2022)",
+  publisher: "Ministry of Home Affairs",
+  fiscalYear: "2020-2022",
+  url: "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2022-pdfs/LS26072022/1459.pdf",
+  table: "NHRC cases on custodial deaths and deaths in police encounters, 2020-21 and 2021-22",
+  accessedOn: "2026-09-27",
+  short: "LS Q1459",
+  notes: "NHRC cases, by financial year.",
+};
+
+citations["kerala-police-stats"] = {
+  id: "kerala-police-stats",
+  title: "Crime statistics — BNS/IPC cases and crime against women, state-wide",
+  publisher: "Kerala Police, Government of Kerala",
+  fiscalYear: "2020-2026",
+  url: "https://keralapolice.gov.in/crime-statistics/ipc-cases",
+  table: "State-wide crime heads by year",
+  accessedOn: "2026-09-27",
+  short: "Kerala Police",
+  notes: "Also https://keralapolice.gov.in/crime-statistics/crime-against-woman. Live pages read on 2026-09-27.",
+};
+
+citations["pib-mha-2015-marital"] = {
+  id: "pib-mha-2015-marital",
+  title: "Women Subjected to Marital Rape (29 April 2015)",
+  publisher: "Press Information Bureau, Ministry of Home Affairs",
+  fiscalYear: "2015",
+  url: "https://www.pib.gov.in/newsite/printrelease.aspx?relid=119938",
+  table: "Statement on the Law Commission's 172nd Report and CEDAW",
+  accessedOn: "2026-09-27",
+  short: "PIB 29 Apr 2015",
+};
+
+citations["sc-independent-thought-2017"] = {
+  id: "sc-independent-thought-2017",
+  title: "Independent Thought v. Union of India, W.P.(C) 382 of 2013, judgment of 11 October 2017",
+  publisher: "Supreme Court of India (copy hosted by Rajasthan Police Academy, Government of Rajasthan)",
+  fiscalYear: "2017",
+  url: "https://home.rajasthan.gov.in/content/dam/homeportal/RajasthanPoliceAcademy/PDF/IndependentThoughtVsUnionofIndia.PDF",
+  table: "Relief, paras 87–88",
+  accessedOn: "2026-09-27",
+  short: "SC 2017",
+  notes: "Exception 2 to s.375 read down for wives under 18, prospectively.",
+};
+
+citations["nhrc-custody-guidelines"] = {
+  id: "nhrc-custody-guidelines",
+  title: "Selected NHRC guidelines on custodial deaths and rapes",
+  publisher: "National Human Rights Commission, as posted by the Ministry of Home Affairs",
+  fiscalYear: "1993-2019",
+  url: "https://www.mha.gov.in/sites/default/files/2025-04/NHRCselectedlettersandguidelinesondeathsincustody_09042019_0%5B1%5D_4.pdf",
+  table: "Letter to all Chief Secretaries on reporting custodial deaths within 24 hours",
+  accessedOn: "2026-09-27",
+  short: "NHRC guidelines",
+};
+
+citations["ksp-cik-2024"] = {
+  id: "ksp-cik-2024",
+  title: "Crime in Karnataka – 2024 (21st edition)",
+  publisher: "Karnataka State Police, Police Computer Wing and State Crime Records Bureau, Government of Karnataka",
+  fiscalYear: "2022-2024",
+  url: "https://ksp.karnataka.gov.in/storage/pdf-files/Crime_In_Karnataka_2024.pdf",
+  table: "IPC/BNS crimes by head, 2022–2024; disposal of POCSO cases",
+  accessedOn: "2026-09-27",
+  short: "Crime in Karnataka 2024",
+  notes: "Year-wise reports 2015–2024 are listed at https://ksp.karnataka.gov.in/new-page/Crime%20in%20Karnataka/en.",
+};
+
+citations["nfhs5-india-ch15"] = {
+  id: "nfhs5-india-ch15",
+  title: "National Family Health Survey (NFHS-5), 2019–21, India Report — Chapter 15, Domestic Violence",
+  publisher: "International Institute for Population Sciences, Ministry of Health and Family Welfare",
+  fiscalYear: "2019-21",
+  url: "https://dhsprogram.com/pubs/pdf/FR375/FR375.pdf",
+  pages: "641–675",
+  table: "Tables 15.4, 15.6, 15.9, 15.17, 15.18",
+  accessedOn: "2026-09-27",
+  short: "NFHS-5 ch. 15",
+  notes:
+    "Government of India publication (Ministry of Health and Family Welfare; IIPS, Mumbai). No full copy is currently online on a government host: the IIPS and Ministry links returned 404 on 2026-09-27, so this links the identical report as deposited with the DHS Program.",
+};
+
+citations["bns-2023-s63"] = {
+  id: "bns-2023-s63",
+  title: "Bharatiya Nyaya Sanhita, 2023 (Act 45 of 2023) — Section 63, Exception 2",
+  publisher: "Ministry of Law and Justice, Gazette of India Extraordinary, as posted by the Ministry of Home Affairs",
+  fiscalYear: "2023",
+  url: "https://www.mha.gov.in/sites/default/files/250883_english_01042024.pdf",
+  table: "Section 63, Exception 2",
+  accessedOn: "2026-09-27",
+  short: "BNS s.63",
+  notes: "In force from 1 July 2024. Section 375 of the Indian Penal Code, under which the 2022 and 2023 cases were registered, carried the same exception.",
+};
+
 citations["prs-andhra-pradesh"] = {
   id: "prs-andhra-pradesh",
   title: "Andhra Pradesh Budget Analysis — Police functional (AFS)",

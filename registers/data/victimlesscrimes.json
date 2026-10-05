@@ -5,7 +5,7 @@
   "record_word": "records",
   "detail_label": "Attributed to the sources",
   "record_note": "This page records what the cited court records say happened. Findings belong to the court or authority that made them; this register adds none of its own. Names of private individuals are withheld unless a naming gate clears them.",
-  "landing_tail": "Convicted though no one was harmed &mdash; prostitution, gambling, alcohol, beef and food prohibitions, cigarettes, e-cigarettes and vapes.",
+  "landing_tail": "Prosecuted where no one complained &mdash; prostitution, gambling, alcohol, beef and food prohibitions, cigarettes, e-cigarettes and vapes.",
   "stats": [
     {
       "value": "records",
@@ -59,60 +59,6 @@
     }
   ],
   "records": [
-    {
-      "id": "vc-ap-0001",
-      "category": "sex-work",
-      "state": "Andhra Pradesh",
-      "district": "Visakhapatnam",
-      "date": "2026-08-04",
-      "date_label": "High Court order",
-      "incident_date": "2026-06-13",
-      "title": "Pre-arrest bail refused to alleged go-between after a police raid on a Visakhapatnam hotel room",
-      "outcome": "bail_refused",
-      "authority": "High Court of Andhra Pradesh",
-      "case_reference": "Crl.P. No. 5787 of 2026 (Crime No. 147 of 2026, Airport Police Station, Visakhapatnam)",
-      "laws": [
-        "Sections 143(3) and 144(2), Bharatiya Nyaya Sanhita, 2023",
-        "Sections 3(1), 4(1) and 5(1)(a), Immoral Traffic (Prevention) Act, 1956"
-      ],
-      "acts": [
-        "Bharatiya Nyaya Sanhita, 2023",
-        "Immoral Traffic (Prevention) Act, 1956"
-      ],
-      "person": "A Visakhapatnam man, accused no. 4",
-      "summary": "Police raided a Visakhapatnam hotel on a tip-off, found a man and a woman in a room, and charged the people said to have arranged the meeting for Rs 1,500 under human-trafficking and brothel laws. On 4 August 2026 the High Court refused pre-arrest bail to the man accused of linking customers to the organiser.",
-      "detail": [
-        "According to the prosecution case recorded by the High Court, on 13 June 2026 the Inspector of Police, Airport Police Station, Visakhapatnam, acting 'on receipt of credible information regarding prostitution activities', raided a hotel at Madhavadhara and found 'a man and a woman' in a room 'allegedly engaged in prostitution'. The customer had been arranged 'after collecting Rs.1,500/- towards sexual services'. Two mobile phones and Rs 500 were seized.",
-        "Police registered Crime No. 147 of 2026 under sections 143(3) and 144(2) of the Bharatiya Nyaya Sanhita, the new code's human-trafficking provisions, and sections 3, 4 and 5 of the Immoral Traffic (Prevention) Act, which punish keeping a brothel, living on the earnings of sex work and procuring.",
-        "The petitioner, accused no. 4, argued that the only evidence against him was a co-accused's confession and that the raid was not led by a special police officer as the Immoral Traffic Act requires. The State replied that the legality of the raid was a matter for trial.",
-        "Justice Y. Lakshmana Rao held that the case record showed the petitioner 'acted as a crucial person in running the brothel by luring customers and coordinating between the customers and the organiser', noted that 'there are no adverse antecedents reported against the petitioner', and dismissed the petition."
-      ],
-      "current_position": "Pre-arrest bail refused on 4 August 2026 while the investigation continued. We have not located any later order.",
-      "quote": {
-        "heading": "What the High Court said",
-        "text": "In view of the specific overt acts attributed against the petitioner, this Court is not inclined to grant pre-arrest bail to the petitioner, as it would amount to giving a shield, protection or licence to the petitioner in respect of the specific allegations levelled against him",
-        "where": "Crl.P. No. 5787 of 2026, order dated 4 August 2026, para 14",
-        "url": "https://indiankanoon.org/doc/162631009/"
-      },
-      "sections": [
-        {
-          "label": "Why it is listed",
-          "heading": "A paid encounter, charged as trafficking",
-          "text": "The order describes a paid sexual encounter arranged by phone, found by police acting on a tip-off. It records no complaint by anyone involved and no allegation of force, deception or a minor, yet police charged the people who arranged it under human-trafficking and brothel-keeping laws."
-        }
-      ],
-      "caveats": "The order does not give the ages of the man and woman found in the room. It refers to the statements of 'the other victims', the term trafficking law uses for anyone in sex work, without describing what they said.",
-      "sources": [
-        {
-          "url": "https://indiankanoon.org/doc/162631009/",
-          "kind": "court_order",
-          "publisher": "High Court of Andhra Pradesh (via Indian Kanoon)",
-          "date": "2026-08-04",
-          "supports": "the raid, charges, arguments, the court's reasons and the refusal of bail"
-        }
-      ],
-      "verification": "V2"
-    },
     {
       "id": "vc-ap-0002",
       "category": "gambling",
@@ -5484,6 +5430,486 @@
           "publisher": "LiveLaw",
           "date": "2026-09-21",
           "supports": "report of the order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-br-0008",
+      "category": "alcohol",
+      "state": "Bihar",
+      "district": "Khagaria",
+      "date": "2026-09-19",
+      "date_label": "High Court anticipatory-bail order",
+      "incident_date": null,
+      "title": "Khagaria man named in a 45-litre country-liquor raid on someone else's premises granted pre-arrest bail",
+      "outcome": "prosecution_pending",
+      "authority": "Chautham Police Station, Khagaria; Patna High Court",
+      "case_reference": "Criminal Miscellaneous No. 65830 of 2026; Chautham P.S. Case No. 229 of 2026",
+      "laws": [
+        "Sections 30(a), 30(c) and 36, Bihar Prohibition and Excise Act, 2016"
+      ],
+      "acts": [
+        "Bihar Prohibition and Excise Act, 2016"
+      ],
+      "person": "A resident of Sonvarsha Ghat, Khagaria district",
+      "summary": "Chautham police in Khagaria raided a co-accused's premises on a tip-off about stored liquor and recovered 45 litres of country-made liquor and liquor-making articles. A man from the village was also named under Bihar's prohibition law. On 19 September 2026 the Patna High Court granted him anticipatory bail, noting the recovery was from an open place accessible to all that belonged to the co-accused.",
+      "detail": [
+        "The High Court recorded that police, acting on a tip-off about storage of illicit liquor, raided the premises of a co-accused and recovered 45 litres of country-made liquor along with articles used for manufacturing liquor. The case was registered under sections 30(a), 30(c) and 36 of the Bihar Prohibition and Excise Act.",
+        "The petitioner's counsel argued that the recovery was from the co-accused's premises, from an open place easily accessible to all, that the petitioner's identification was doubtful, and that he had fair antecedents. The co-accused had already been granted anticipatory bail by another bench.",
+        "Justice Harish Kumar granted anticipatory bail on bonds of Rs 10,000 with two sureties, one of them a close family member, on arrest or surrender before the Exclusive Special Excise Judge, Khagaria, within four weeks."
+      ],
+      "current_position": "Anticipatory bail granted on 19 September 2026; the excise case is pending.",
+      "quote": {
+        "heading": "What the High Court noted",
+        "text": "taking note of the fact that the alleged recovery has been made from an open place easily accessible to all",
+        "where": "Cr. Misc. No. 65830 of 2026, order dated 19 September 2026, para 6",
+        "url": "https://indiankanoon.org/doc/24085058/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Liquor, and no one harmed",
+          "text": "The only law charged is Bihar's prohibition statute. The order records no complainant, no injury and no allegation that the liquor was spurious."
+        }
+      ],
+      "caveats": "The order does not say whether the petitioner was present at the raid or how he came to be named. His name is withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/24085058/",
+          "kind": "court_order",
+          "publisher": "Patna High Court (via Indian Kanoon)",
+          "date": "2026-09-19",
+          "supports": "the case number, sections, the 45-litre recovery from the co-accused's premises and the grant of anticipatory bail"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-br-0009",
+      "category": "alcohol",
+      "state": "Bihar",
+      "district": "East Champaran",
+      "date": "2026-09-25",
+      "date_label": "High Court anticipatory-bail order",
+      "incident_date": null,
+      "title": "Man implicated only by a co-accused's police-custody confession in a Motihari spirit seizure granted provisional pre-arrest bail",
+      "outcome": "prosecution_pending",
+      "authority": "Motihari Town Police Station, East Champaran; Patna High Court",
+      "case_reference": "Criminal Miscellaneous No. 68786 of 2026; Motihari Town P.S. Case No. 653 of 2023",
+      "laws": [
+        "Sections 30(a), 30(b), 30(c), 33, 34(b) and 41(1), Bihar Prohibition and Excise Act, 2016"
+      ],
+      "acts": [
+        "Bihar Prohibition and Excise Act, 2016"
+      ],
+      "person": "A resident of Govindganj, East Champaran district",
+      "summary": "Motihari Town police seized 1,000 litres of spirit from a pick-up vehicle in 2023 and later named a man who was not arrested at the spot and did not own the vehicle, on the strength of a co-accused's confession in police custody. On 25 September 2026 the Patna High Court granted him provisional anticipatory bail on a Rs 500 bond.",
+      "detail": [
+        "The High Court recorded that the case, registered in 2023 under several sections of the Bihar Prohibition and Excise Act, concerned the recovery of 1,000 litres of spirit from a Bolero pick-up vehicle.",
+        "The petitioner's counsel told the court that he was not arrested from the spot, nothing was recovered from his conscious possession, he did not own the vehicle, and he was implicated on the basis of a co-accused's confessional statement in police custody, which has no evidentiary value. Counsel also submitted that the 2018 amendment to the Act removed the concepts of deemed possession and presumed offender.",
+        "Justice Satyavrat Verma granted provisional anticipatory bail on bonds of Rs 500 with two sureties, on arrest or surrender within six weeks. The bail is to be confirmed only if the trial court finds the petitioner has no criminal antecedents."
+      ],
+      "current_position": "Provisional anticipatory bail granted on 25 September 2026, to be confirmed on verification of antecedents; the excise case is pending.",
+      "quote": {
+        "heading": "What the High Court recorded",
+        "text": "petitioner was not arrested from the spot as such nothing was recovered from his conscious possession and is not the owner of the seized vehicle",
+        "where": "Cr. Misc. No. 68786 of 2026, order dated 25 September 2026, para 4 (the petitioner's submission)",
+        "url": "https://indiankanoon.org/doc/5015618/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Prohibition, three years on",
+          "text": "The case is a prohibition-law seizure with no complaining victim. The petitioner was drawn in three years later through another accused's statement in police custody."
+        }
+      ],
+      "caveats": "The quantity (1,000 litres of spirit) suggests transport in bulk; the order does not say what the spirit was for or whether it was tested. The co-accused's confession is described only by the petitioner's counsel. Names are withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/5015618/",
+          "kind": "court_order",
+          "publisher": "Patna High Court (via Indian Kanoon)",
+          "date": "2026-09-25",
+          "supports": "the sections, the 1,000-litre seizure, the confession-based implication and the provisional anticipatory bail"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-br-0010",
+      "category": "alcohol",
+      "state": "Bihar",
+      "district": "Saran",
+      "date": "2026-09-19",
+      "date_label": "High Court anticipatory-bail order",
+      "incident_date": null,
+      "title": "Man named through two co-accused's custody confessions after a Saran liquor seizure granted provisional pre-arrest bail",
+      "outcome": "prosecution_pending",
+      "authority": "Dariyapur Police Station, Saran; Patna High Court",
+      "case_reference": "Criminal Miscellaneous No. 65651 of 2026; Dariyapur P.S. Case No. 547 of 2026",
+      "laws": [
+        "Sections 30(a) and 41(1), Bihar Prohibition and Excise Act, 2016"
+      ],
+      "acts": [
+        "Bihar Prohibition and Excise Act, 2016"
+      ],
+      "person": "A man from Samastipur district living in Patna",
+      "summary": "Dariyapur police in Saran seized 283.2 litres of liquor from a Scorpio vehicle and named a man who was not caught at the spot and did not own the vehicle, on the basis of two co-accused's confessions in police custody. On 19 September 2026 the Patna High Court granted him provisional anticipatory bail on a Rs 500 bond.",
+      "detail": [
+        "The High Court recorded that the case was registered under sections 30(a) and 41(1) of the Excise Act over the recovery of 283.2 litres of liquor from a Scorpio vehicle.",
+        "The petitioner's counsel submitted that he was not arrested from the spot, nothing was recovered from his conscious possession, he did not own the vehicle, and he was implicated on the confessional statements of two co-accused in police custody, which have no evidentiary value.",
+        "Justice Satyavrat Verma granted provisional anticipatory bail on bonds of Rs 500 with two sureties, on arrest or surrender within six weeks, to be confirmed only if the trial court finds no criminal antecedents."
+      ],
+      "current_position": "Provisional anticipatory bail granted on 19 September 2026, to be confirmed on verification of antecedents; the excise case is pending.",
+      "quote": {
+        "heading": "What the High Court recorded",
+        "text": "petitioner was not arrested from the spot, as such, nothing was recovered from his conscious possession and is not the owner of the seized vehicle",
+        "where": "Cr. Misc. No. 65651 of 2026, order dated 19 September 2026, para 4 (the petitioner's submission)",
+        "url": "https://indiankanoon.org/doc/61476370/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Liquor, and no one harmed",
+          "text": "The only law charged is Bihar's prohibition statute. The order records no complainant and no harm to any person."
+        }
+      ],
+      "caveats": "The order records the petitioner's submissions and the grant of bail; it makes no finding on the facts. Names are withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/61476370/",
+          "kind": "court_order",
+          "publisher": "Patna High Court (via Indian Kanoon)",
+          "date": "2026-09-19",
+          "supports": "the sections, the 283.2-litre seizure, the confession-based implication and the provisional anticipatory bail"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-br-0011",
+      "category": "alcohol",
+      "state": "Bihar",
+      "district": "Supaul",
+      "date": "2026-09-19",
+      "date_label": "High Court anticipatory-bail order",
+      "incident_date": null,
+      "title": "Supaul man accused over 41.4 litres of liquor found in a bush granted provisional pre-arrest bail",
+      "outcome": "prosecution_pending",
+      "authority": "Excise Police Station, Simrahi, Supaul; Patna High Court",
+      "case_reference": "Criminal Miscellaneous No. 65634 of 2026; Excise Simrahi P.S. Case No. 93 of 2025; S.T. Excise Case No. 1313 of 2025",
+      "laws": [
+        "Section 30(a), Bihar Prohibition and Excise Act, 2016"
+      ],
+      "acts": [
+        "Bihar Prohibition and Excise Act, 2016"
+      ],
+      "person": "A resident of Birpur, Supaul district",
+      "summary": "Excise police at Simrahi in Supaul booked a man under Bihar's prohibition law over 41.4 litres of liquor recovered from a bush, a place his counsel said was open to the public and not his. He was named at the instance of a local person. On 19 September 2026 the Patna High Court granted him provisional anticipatory bail.",
+      "detail": [
+        "The High Court recorded that the case was registered under section 30(a) of the Excise Act over the recovery of 41.4 litres of liquor from a bush, and that the petitioner has one earlier case under the Excise Act.",
+        "The petitioner's counsel submitted that he was not arrested from the spot, the recovery was from a place that did not belong to him and was accessible to the public at large, and he was implicated at the instance of a local person who had not informed the police before the FIR.",
+        "Justice Satyavrat Verma granted provisional anticipatory bail on bonds of Rs 5,000 with two sureties, on arrest or surrender within six weeks, to be confirmed if the trial court finds no more than the one disclosed antecedent."
+      ],
+      "current_position": "Provisional anticipatory bail granted on 19 September 2026; S.T. Excise Case No. 1313 of 2025 is pending.",
+      "quote": {
+        "heading": "What the High Court recorded",
+        "text": "even alleged recovery is from a place, which does not belong to the petitioner and is accessible to public at large",
+        "where": "Cr. Misc. No. 65634 of 2026, order dated 19 September 2026, para 4 (the petitioner's submission)",
+        "url": "https://indiankanoon.org/doc/139032291/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Liquor, and no one harmed",
+          "text": "The only law charged is Bihar's prohibition statute. The order records no complainant and no harm to any person."
+        }
+      ],
+      "caveats": "The petitioner has one earlier Excise Act case, as the order records. The order makes no finding on the facts. Names are withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/139032291/",
+          "kind": "court_order",
+          "publisher": "Patna High Court (via Indian Kanoon)",
+          "date": "2026-09-19",
+          "supports": "the sections, the 41.4-litre recovery from a bush, the earlier case and the provisional anticipatory bail"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-br-0012",
+      "category": "alcohol",
+      "state": "Bihar",
+      "district": "Bhojpur",
+      "date": "2026-09-30",
+      "date_label": "High Court anticipatory-bail order",
+      "incident_date": null,
+      "title": "Bhojpur man booked over 4.5 litres of liquor found in a relative's bathroom granted pre-arrest bail",
+      "outcome": "prosecution_pending",
+      "authority": "Ara Muffasil Police Station, Bhojpur; Patna High Court",
+      "case_reference": "Criminal Miscellaneous No. 69989 of 2026; Ara Muffasil P.S. Case No. 298 of 2026",
+      "laws": [
+        "Section 30(a), Bihar Prohibition and Excise Act, 2016"
+      ],
+      "acts": [
+        "Bihar Prohibition and Excise Act, 2016"
+      ],
+      "person": "A resident of Balua village, Bhojpur district",
+      "summary": "Acting on a tip-off, Ara Muffasil police raided a house and recovered 4.5 litres of Indian-made foreign liquor from a bathroom in the courtyard, then booked a man under Bihar's prohibition law. His counsel said the seizure memo placed the recovery in his brother's house. On 30 September 2026 the Patna High Court granted him anticipatory bail, noting discrepancies in the search and seizure.",
+      "detail": [
+        "The High Court recorded that police acted on a tip-off about the sale and storage of illicit liquor and allegedly recovered 4.5 litres of Indian-made foreign liquor from a bathroom in the courtyard of the house.",
+        "The petitioner's counsel submitted that the seizure memo shows the recovery from the house of the petitioner's brother, that the only seizure witnesses were police personnel, and that no video recording of the search was made as Section 105 of the BNSS requires. The State said the petitioner has three criminal antecedents.",
+        "Justice Harish Kumar granted anticipatory bail on bonds of Rs 10,000 with two sureties, on arrest or surrender within four weeks, citing the search-and-seizure discrepancies, non-compliance with Sections 103(4) and 105 of the BNSS, and the recovery from another person's house."
+      ],
+      "current_position": "Anticipatory bail granted on 30 September 2026; the case is before the Exclusive Special Excise Court No. 1, Bhojpur at Ara.",
+      "quote": {
+        "heading": "What the High Court noted",
+        "text": "taking note of the discrepancies in causing search and seizure",
+        "where": "Cr. Misc. No. 69989 of 2026, order dated 30 September 2026, para 6",
+        "url": "https://indiankanoon.org/doc/146052809/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Liquor, and no one harmed",
+          "text": "The only law charged is Bihar's prohibition statute, over a small quantity of liquor. The order records no complainant and no harm to any person."
+        }
+      ],
+      "caveats": "The State told the court the petitioner has three criminal antecedents, which the order does not describe. The order makes no finding on the facts. The petitioner is not named here; the order names his brother as the occupant of the house.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/146052809/",
+          "kind": "court_order",
+          "publisher": "Patna High Court (via Indian Kanoon)",
+          "date": "2026-09-30",
+          "supports": "the section, the 4.5-litre recovery, the arguments and the anticipatory bail"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-br-0013",
+      "category": "alcohol",
+      "state": "Bihar",
+      "district": "Saran",
+      "date": "2026-09-30",
+      "date_label": "High Court anticipatory-bail order",
+      "incident_date": null,
+      "title": "Saran motorcycle owner named in liquor case only because the bike was seized granted pre-arrest bail",
+      "outcome": "prosecution_pending",
+      "authority": "Daudpur Police Station, Saran; Patna High Court",
+      "case_reference": "Criminal Miscellaneous No. 69995 of 2026; Daudpur P.S. Case No. 91 of 2026",
+      "laws": [
+        "Section 30(a), Bihar Prohibition and Excise Act, 2016"
+      ],
+      "acts": [
+        "Bihar Prohibition and Excise Act, 2016"
+      ],
+      "person": "A resident of Gairatpur village, Saran district",
+      "summary": "Police in Saran tried to stop a motorcycle rider suspected of carrying liquor; he fled, leaving a bag and the motorcycle, and 33.14 litres of Indian-made foreign liquor were seized. The motorcycle's owner was then booked under Bihar's prohibition law. On 30 September 2026 the Patna High Court granted him anticipatory bail, noting that no material had been collected showing his complicity.",
+      "detail": [
+        "The High Court recorded that police suspected a motorcycle rider of carrying illicit liquor; the rider fled after throwing away the bag and the motorcycle, and 33.14 litres of Indian-made foreign liquor were seized along with the motorcycle.",
+        "The petitioner's counsel submitted that the petitioner was implicated only as the motorcycle's owner, that a co-villager was using it that day, and that the prosecution does not claim he was identified at the spot. The State argued that the use of his vehicle suggested complicity.",
+        "Justice Harish Kumar granted anticipatory bail on bonds of Rs 20,000 with two sureties, on arrest or surrender within four weeks."
+      ],
+      "current_position": "Anticipatory bail granted on 30 September 2026; the case is before the Additional Sessions Judge-cum-Exclusive Special Court Excise Act-1, Saran at Chapra.",
+      "quote": {
+        "heading": "What the High Court noted",
+        "text": "during the course of investigation, no materials have been collected suggesting complicity of the petitioner in the crime",
+        "where": "Cr. Misc. No. 69995 of 2026, order dated 30 September 2026, para 6",
+        "url": "https://indiankanoon.org/doc/62883758/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Liquor, and no one harmed",
+          "text": "The only law charged is Bihar's prohibition statute. The order records no complainant and no harm to any person."
+        }
+      ],
+      "caveats": "The order records that the petitioner has past criminal antecedents, none under the Excise Act according to his counsel. The order makes no finding on the facts. Names are withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/62883758/",
+          "kind": "court_order",
+          "publisher": "Patna High Court (via Indian Kanoon)",
+          "date": "2026-09-30",
+          "supports": "the section, the 33.14-litre seizure, the arguments and the anticipatory bail"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-up-0008",
+      "category": "gambling",
+      "state": "Uttar Pradesh",
+      "district": "Jhansi",
+      "date": "2026-09-28",
+      "date_label": "High Court anticipatory-bail order",
+      "incident_date": null,
+      "title": "Jhansi gambling-den raid: man named by those arrested, booked under the 'petty organised crime' section, gets anticipatory bail",
+      "outcome": "prosecution_pending",
+      "authority": "Sipri Bazar Police Station, Jhansi; Allahabad High Court",
+      "case_reference": "Criminal Misc. Anticipatory Bail Application No. 9274 of 2026; Case Crime No. 205 of 2026, P.S. Sipri Bazar; 2026:AHC:203495",
+      "laws": [
+        "Sections 3 and 4, Public Gambling Act, 1867",
+        "Section 112(2) of the Bharatiya Nyaya Sanhita, 2023 (petty organised crime), converted from Section 111(2)"
+      ],
+      "acts": [
+        "Public Gambling Act, 1867",
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "A man from Jhansi",
+      "summary": "Police in Jhansi raided a residential flat on information that a gambling den was running there, arrested two people and recovered gold, silver ornaments and cash. A man named by those arrested, and shown as having run from the spot, was booked under the Public Gambling Act and the organised-crime provisions of the new penal code. On 28 September 2026 the Allahabad High Court confirmed his anticipatory bail.",
+      "detail": [
+        "The High Court recorded the applicant's submission that police raided a residential flat on information that a gambling den was being run there, arrested two persons and recovered gold, silver ornaments and cash, and that the applicant was named by the arrested co-accused and shown as one of those who ran away.",
+        "The FIR was first lodged under Section 111(2) of the BNS (organised crime) and Sections 3 and 4 of the Public Gambling Act; it was later converted to Section 112(2) of the BNS (petty organised crime). The State opposed bail but did not dispute these facts.",
+        "A co-accused had already been granted anticipatory bail. Justice Rajiv Lochan Shukla confirmed the interim anticipatory bail first granted on 9 September 2026."
+      ],
+      "current_position": "Anticipatory bail confirmed on 28 September 2026; Case Crime No. 205 of 2026 is under investigation or trial.",
+      "quote": {
+        "heading": "What the High Court recorded",
+        "text": "initially the F.I.R. was lodged for offences under Section 111(2) BNS and Section 3 and 4 of the Public Gambling Act, 1867. Later on the case has been converted to one under Section 112(2) of the B.N.S.",
+        "where": "Criminal Misc. Anticipatory Bail Application No. 9274 of 2026, order dated 28 September 2026, para 7",
+        "url": "https://indiankanoon.org/doc/49904921/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "A bet, and an organised-crime charge",
+          "text": "The underlying activity is gambling among willing players. The order records no complainant who lost money and no harm to any person, yet the case was first registered under the organised-crime section of the new penal code."
+        }
+      ],
+      "caveats": "The order records that the applicant faces another case registered after this one, in which he has interim protection. The order makes no finding on the facts. Names are withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/49904921/",
+          "kind": "court_order",
+          "publisher": "Allahabad High Court (via Indian Kanoon)",
+          "date": "2026-09-28",
+          "supports": "the raid, the sections and their conversion, and the anticipatory bail"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-kl-0008",
+      "category": "sex-work",
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "date": "2026-09-23",
+      "date_label": "High Court order on a quashing petition",
+      "incident_date": "2024-12-24",
+      "title": "Kochi spa raid: women say no one exploited them, but the High Court keeps the brothel case alive and sends customers to trial",
+      "outcome": "prosecution_pending",
+      "authority": "Ernakulam Central Police Station, Kochi City; Kerala High Court",
+      "case_reference": "Crl.M.C. No. 5824 of 2026 (2026:KER:73015); Crime No. 1871/2024 of Ernakulam Central Police Station; C.P. No. 20/2025, Judicial First Class Magistrate Court-II, Ernakulam",
+      "laws": [
+        "Sections 4, 5, 6 and 7, Immoral Traffic (Prevention) Act, 1956",
+        "Section 143 read with Section 3(5) of the Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "acts": [
+        "Immoral Traffic (Prevention) Act, 1956",
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "Two people accused of running a spa centre and four men accused of being customers",
+      "summary": "Kochi police raided an Ayurvedic spa on 24 December 2024 and charged its alleged operators with trafficking and brothel offences, and four men found there as customers. The women named as exploited told a magistrate they had not engaged in sex work, and filed affidavits saying no one had exploited them. On 23 September 2026 the Kerala High Court dropped the trafficking charges against the customers but ordered them tried under the brothel law, and kept every charge against the operators.",
+      "detail": [
+        "The High Court recorded the prosecution case that accused 1 to 3 recruited and harboured women at an Ayurvedic spa centre in Kochi for sexual activities, and that accused 4 to 7 were found engaged in sexual intercourse with four women when police raided on 24.12.2024 on a tip-off.",
+        "Seven of the women gave statements to the magistrate under Section 164 CrPC that they had not engaged in sexual activity or knew of none at the premises, and filed affidavits in the High Court that they had not been sexually exploited and had no objection to quashing.",
+        "Justice Jobin Sebastian held that the women's recantation does not end the case, because the offences concern a special law enacted in the public interest and independent and official witnesses are available.",
+        "The court quashed the Section 143 BNS (trafficking) and Sections 4 and 6 ITP Act charges against accused 4 to 7 as customers, directed that they be tried under Sections 5 and 7 of the ITP Act following a Division Bench ruling that a brothel customer can be prosecuted under Section 5, and left all charges against accused 1 and 3 standing."
+      ],
+      "current_position": "Proceedings continue in C.P. No. 20/2025 before the Ernakulam magistrate: accused 1 and 3 on all charges, accused 4 to 7 under Sections 5 and 7 of the ITP Act.",
+      "quote": {
+        "heading": "What the High Court held",
+        "text": "the mere fact that the women who were allegedly subjected to sexual exploitation do not presently have any grievance against the accused cannot, by itself, constitute sufficient justification for quashing the proceedings",
+        "where": "Crl.M.C. No. 5824 of 2026, order dated 23 September 2026, para 13",
+        "url": "https://indiankanoon.org/doc/7646755/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "No complainant, and the women say no victim",
+          "text": "Every woman named as exploited has told a magistrate and the High Court that she was not. The customers' prosecution rests on paying for sex at the premises, not on harm to anyone."
+        }
+      ],
+      "caveats": "The prosecution alleges trafficking and exploitation by the operators, which the High Court left for trial; the women's recantations have not been tested in evidence. The order makes no finding on guilt. LiveLaw reported the order on 3 October 2026; the order itself is dated 23 September 2026. Names are withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/7646755/",
+          "kind": "court_order",
+          "publisher": "Kerala High Court (via Indian Kanoon)",
+          "date": "2026-09-23",
+          "supports": "the raid, the charges, the women's statements and affidavits, the reasoning and the directions"
+        },
+        {
+          "url": "https://www.livelaw.in/high-court/kerala-high-court/kerala-high-court-immoral-traffic-act-quash-552936",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2026-10-03",
+          "supports": "report of the order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-ct-0006",
+      "category": "beef",
+      "state": "Chhattisgarh",
+      "date": "2026-09-29",
+      "date_label": "Supreme Court judgment",
+      "incident_date": null,
+      "title": "Supreme Court overturns cattle-transport conviction: no documents is not proof the 32 bullocks were going to slaughter",
+      "outcome": "acquitted",
+      "authority": "Chhattisgarh Police (Head Constable who intercepted the truck); trial, appellate and revisional courts; Supreme Court of India",
+      "case_reference": "Criminal Appeal arising out of SLP (Crl.) No. 16871 of 2026; 2026 INSC 1076",
+      "laws": [
+        "Section 6, Chhattisgarh Agricultural Cattle Preservation Act, 2004 (transport for slaughter)",
+        "Section 10, Chhattisgarh Agricultural Cattle Preservation Act, 2004 (penalty)",
+        "Section 11, Chhattisgarh Agricultural Cattle Preservation Act, 2004 (reverse burden)"
+      ],
+      "acts": [
+        "Chhattisgarh Agricultural Cattle Preservation Act, 2004"
+      ],
+      "person": "A man travelling in a car said to be escorting a cattle truck",
+      "summary": "Police in Chhattisgarh stopped a truck carrying 32 bullocks towards Odisha and arrested its crew and four men in a car driving ahead of it. All six were convicted of transporting cattle for slaughter and sentenced to a year's rigorous imprisonment, though a veterinary doctor found every animal fit for ploughing. On 29 September 2026 the Supreme Court set aside the conviction of one of the car's passengers.",
+      "detail": [
+        "The Supreme Court recorded that the truck was carrying 32 bullocks from Keduwa towards Odisha when a Head Constable detained it on information; the driver and cleaner were arrested, and a Bolero car moving ahead of the truck was detained on the allegation that it was escorting it.",
+        "The trial court convicted all six accused under Section 6 and sentenced them to one year's rigorous imprisonment and a Rs 1,000 fine under Section 10; the first appellate court and the High Court in revision upheld the conviction, the High Court reducing the sentence to the period already served.",
+        "A veterinary doctor's report and the president of the gaushala that took the animals both said the cattle were fit and good for agricultural use; the seizure witnesses turned hostile and identified none of the accused.",
+        "A bench of Justices J.B. Pardiwala and K. Vinod Chandran held that nothing beyond the Head Constable's presumption showed the cattle were being taken for slaughter, that the reverse burden in Section 11 applies only once the basic ingredients are proved, and that nothing substantial proved the car was escorting the truck. It set aside the conviction and sentence."
+      ],
+      "current_position": "Conviction and sentence set aside for the appellant on 29 September 2026. The judgment concerns only the appellant; the other five accused are not shown to have appealed.",
+      "quote": {
+        "heading": "What the Supreme Court held",
+        "text": "The mere fact that the transport was not accompanied by any documents cannot lead to a presumption that the transport was for slaughter.",
+        "where": "2026 INSC 1076, judgment dated 29 September 2026, para 8",
+        "url": "https://indiankanoon.org/doc/125360965/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Moving cattle, and no one harmed",
+          "text": "The offence charged was moving cattle, presumed to be for slaughter. The animals were healthy, no slaughter was alleged, and the conviction stood on a constable's presumption."
+        }
+      ],
+      "caveats": "The judgment does not name the district or give the date of the interception. It does not say what became of the other five accused or the cattle. Names are withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/125360965/",
+          "kind": "judgment",
+          "publisher": "Supreme Court of India (via Indian Kanoon)",
+          "date": "2026-09-29",
+          "supports": "the seizure, the convictions and sentence, the evidence, the reasoning and the acquittal"
+        },
+        {
+          "url": "https://www.lawweb.in/2026/10/supreme-court-cattle-transport-cant-be.html",
+          "kind": "news",
+          "publisher": "Law Web",
+          "date": "2026-10",
+          "supports": "report of the judgment"
         }
       ],
       "verification": "V2"

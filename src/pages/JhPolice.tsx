@@ -106,7 +106,7 @@ export function JhPolicePage() {
           {" · "}
           <Link to="/compare?left=maharashtra&right=jharkhand">Compare with Maharashtra</Link>
           {" · "}
-          <Link to="/sources">Method</Link>
+          <Link to="/sources">Sources &amp; methodology</Link>
         </p>
       </section>
     </article>

@@ -102,7 +102,7 @@ export function TnPolicePage() {
         </ol>
         <p className="mt-6">
           Account codes in the book: 2055 (running), 4055 (buildings).{" "}
-          <Link to="/states">All states</Link> · <Link to="/sources">Method</Link>
+          <Link to="/states">All states</Link> · <Link to="/sources">Sources &amp; methodology</Link>
         </p>
       </section>
     </article>

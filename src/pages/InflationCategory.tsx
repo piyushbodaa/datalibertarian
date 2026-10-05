@@ -55,7 +55,7 @@ export function InflationCategoryPage() {
 
       {items.length > 0 ? (
         <section className="mt-10">
-          <h2 className="font-display text-xl font-semibold">They printed · You paid</h2>
+          <h2 className="font-display text-xl font-semibold">They printed · Their price monitors saw</h2>
           <ul className="mt-4 list-none p-0">
             {items.map((item) => (
               <PrintedPaidRow key={item.id} item={item} />
@@ -85,7 +85,7 @@ export function InflationCategoryPage() {
         <p className="mt-6">
           <Link to="/inflation">Inflation</Link>
           {" · "}
-          <Link to="/inflation/method">Method</Link>
+          <Link to="/inflation/method">Price sources &amp; methodology</Link>
         </p>
       </section>
     </article>

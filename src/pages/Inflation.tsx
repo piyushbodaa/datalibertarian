@@ -34,13 +34,16 @@ export function InflationPage() {
     <article>
       <p className="kicker">Consumer prices · India</p>
       <h1 className="mt-2 font-display text-[1.85rem] font-semibold leading-[1.15] tracking-tight sm:text-4xl">
-        They printed this. You paid that.
+        They printed this. Their own price monitors saw that.
       </h1>
       <p className="mt-3 max-w-2xl text-ink">
-        Left column: what MoSPI printed for July 2026 — an item CPI rate when they printed one, else
-        the parent division, labelled as a division, never a fake packet rupee. Right column: Price
-        Monitoring Division (and PPAC) rupees from {formatDay("2025-09-10")} to {formatDay(AS_OF)}.
-        Combined CPI is {formatPct(CPI_HEADLINE.yoyPct)}.
+        Left column: what MoSPI printed for the twelve months July 2025 → July 2026 — an item CPI
+        rate when they printed one, else the parent division, labelled as a division, never a fake
+        packet rupee. Right column: government-observed retail prices — national averages from the
+        Price Monitoring Division (and PPAC for fuel) — for {formatDay("2025-09-10")} →{" "}
+        {formatDay(AS_OF)}. The two periods do not match: the observed prices run two months after the
+        CPI months, so read the columns side by side, not as one checking the other. Neither column is
+        any one household’s bill. Combined CPI is {formatPct(CPI_HEADLINE.yoyPct)}.
         <CitationChip citationId={CPI_HEADLINE.citationId} />
       </p>
 
@@ -207,6 +210,8 @@ export function InflationPage() {
         </ol>
         <p className="mt-6">
           <Link to="/inflation/method">How this bulletin is built</Link>
+          {" · "}
+          <a href="/data/inflation-observed.csv">Download every observed price (CSV, with dates and sources)</a>
           {" · "}
           <Link to="/">Home</Link>
         </p>

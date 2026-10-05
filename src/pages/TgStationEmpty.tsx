@@ -36,7 +36,7 @@ export function TgStationEmptyPage() {
         {" · "}
         <Link to="/telangana/police">Telangana Police</Link>
         {" · "}
-        <Link to="/sources">Method</Link>
+        <Link to="/sources">Sources &amp; methodology</Link>
       </p>
     </article>
   );

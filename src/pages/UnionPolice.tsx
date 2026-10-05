@@ -115,7 +115,7 @@ export function UnionPolicePage() {
         </ol>
         <p className="mt-6">
           Account in the book: Demand 51 (Police).{" "}
-          <Link to="/sources">Method</Link>
+          <Link to="/sources">Sources &amp; methodology</Link>
           {" · "}
           <Link to="/states">States</Link>.
         </p>

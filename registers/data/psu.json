@@ -668,71 +668,6 @@
       "verification": "V2"
     },
     {
-      "id": "psu-uk-0009",
-      "category": "jv",
-      "state": "Uttarakhand",
-      "name": "THDC India Limited (THDCIL)",
-      "summary": "THDCIL is a government power company and subsidiary of NTPC Limited, jointly owned by NTPC and the Government of Uttar Pradesh, with its registered and corporate office in Rishikesh, Uttarakhand. On 17 September 2026 it filed its FY2025-26 annual report and the notice of its 38th annual general meeting; it declared commercial operation of the fourth 250 MW unit of the Tehri pumped-storage plant with effect from 12 April 2026, and an 11 MWac floating-solar plant entered commercial operation on 17 July 2026.",
-      "date": "2026-09-17",
-      "district": "Dehradun",
-      "headquarters": "Rishikesh, Uttarakhand",
-      "state_link": "A central-government-controlled enterprise headquartered at Rishikesh in Dehradun district, Uttarakhand.",
-      "owner": "Joint: NTPC Limited and State government (Uttar Pradesh)",
-      "shareholding": "NTPC Limited 74.496%; Governor of Uttar Pradesh 25.504%, as of 31 March 2025.",
-      "administrative": "Ministry of Power, Government of India, through holding company NTPC Limited",
-      "legal_form": "Government company under Companies Act 2013 s.2(45); unlisted public company with listed non-convertible debt securities",
-      "status_label": "Schedule A, Miniratna Category-I CPSE",
-      "established": "1988; incorporated in July 1988 under the Companies Act 1956 as a Government of India–Government of Uttar Pradesh joint venture.",
-      "status": "Operating",
-      "financials": "FY2024-25 standalone: revenue from operations Rs 2,682.80 crore; profit for the period from continuing operations Rs 732.91 crore. FY2025-26 audited results and annual report were filed in 2026, but their numerical tables could not be reliably extracted from the opened pages.",
-      "detail": [
-        "THDCIL's company profile says it was incorporated as a public limited company in July 1988. Following NTPC's strategic acquisition on 25 March 2020, its equity is held by NTPC Limited and the Government of Uttar Pradesh in the ratio 74.496:25.504.",
-        "The FY2024-25 annual report identifies THDCIL as a Companies Act government company. Its standalone accounts reported revenue from operations of Rs 2,682.80 crore and profit from continuing operations of Rs 732.91 crore for FY2024-25.",
-        "THDCIL's exchange-disclosure page records commercial operation of Tehri PSP Unit IV, rated 250 MW, from 12 April 2026. It also records commercial operation of an 11 MWac floating-solar plant at Khurja from 17 July 2026, taking total installed and commercial capacity to 3,918 MW.",
-        "On 17 September 2026 THDCIL submitted its FY2025-26 annual report and notice of its 38th annual general meeting under the SEBI listing regulations."
-      ],
-      "caveats": "The current employee count was not confirmed. Although the FY2025-26 annual report and audited-result filing were opened through THDCIL's official index, their numerical financial tables were not retrievable, so the latest fully verified figures shown are FY2024-25. Rishikesh is administered within Dehradun district at the stated corporate-office address.",
-      "on_the_block": false,
-      "sources": [
-        {
-          "url": "https://www.thdc.co.in/en/investors_corner/corporate-announcement",
-          "kind": "exchange_filing",
-          "publisher": "THDC India Limited",
-          "date": "2026-09-17",
-          "supports": "FY2025-26 annual-report filing, 2026 project commissioning disclosures and listed-debt status."
-        },
-        {
-          "url": "https://www.thdc.co.in/en/about-us/company-thdcil",
-          "kind": "company_site",
-          "publisher": "THDC India Limited",
-          "date": null,
-          "supports": "Incorporation, ownership, strategic acquisition, business and Miniratna/Schedule A status."
-        },
-        {
-          "url": "https://www.thdc.co.in/index.php/en/about-us/joint-ventures-subsidiaries",
-          "kind": "company_site",
-          "publisher": "THDC India Limited",
-          "date": "2026-06-12",
-          "supports": "NTPC holding-company relationship and 74.496:25.504 ownership."
-        },
-        {
-          "url": "https://www.thdc.co.in/sites/default/files/performance/THDCIL_Annual_Report_2024_25.pdf",
-          "kind": "annual_report",
-          "publisher": "THDC India Limited",
-          "date": "2025-09-27",
-          "supports": "Government-company classification, FY2024-25 shareholding and financial results."
-        },
-        {
-          "url": "https://thdc.co.in/en/performance/annual-reports",
-          "kind": "company_site",
-          "publisher": "THDC India Limited",
-          "date": "2026-09-17",
-          "supports": "Availability of FY2025-26 annual report and Rishikesh registered/corporate-office address."
-        }
-      ],
-      "verification": "V2"
-    },
-    {
       "id": "psu-ar-0005",
       "category": "dfi",
       "state": "Arunachal Pradesh",
@@ -5702,61 +5637,6 @@
           "publisher": "Wikipedia (tertiary cross-check)",
           "date": null,
           "supports": "rail jurisdiction over Sikkim sits at Maligaon, Guwahati, not Sikkim"
-        }
-      ],
-      "verification": "V2"
-    },
-    {
-      "id": "psu-tg-0001",
-      "category": "cpse",
-      "state": "Telangana",
-      "name": "Bharat Dynamics Limited (BDL)",
-      "summary": "Bharat Dynamics Limited (BDL) is a Government of India enterprise under the Ministry of Defence that manufactures ammunition and missile systems. It is headquartered at Nanakramguda, Hyderabad, Telangana. Its official annual-reports page lists Annual Report 2025-26 dated 02/09/2026 and Annual Report 2024-25 dated 03/09/2025.",
-      "date": "2026-09-02",
-      "district": "Hyderabad",
-      "headquarters": "Hyderabad, Telangana",
-      "state_link": "Headquartered in Telangana: corporate office at Plot No. 38-39, TSFC Building, Financial District, Nanakramguda, Hyderabad, Telangana - 500032.",
-      "owner": "Central government",
-      "administrative": "Ministry of Defence, Government of India",
-      "legal_form": "Listed Government company",
-      "status_label": "Miniratna Category-I",
-      "established": "1970 in Hyderabad",
-      "status": "Operating",
-      "detail": [
-        "BDL describes itself as 'A Government of India Enterprise, Ministry of Defence' and gives its address as 'Plot No. 38-39, TSFC Building Near ICICI Towers, Financial District, Nanakramguda, Hyderabad, Telangana - 500032, India' (Source: BDL official contact page).",
-        "BDL's official annual-reports page lists 'Annual Report 2025-26' dated '02/09/2026' and 'Annual Report 2024-25' dated '03/09/2025'; 2025-26 is the newest annual report listed on that page (Source: BDL official annual-reports page).",
-        "The DPE Public Enterprises Survey 2021-22 lists BDL as listed and Miniratna-I, under the Ministry of Defence, with 74.93% Central Government shareholding, Hyderabad corporate office, and 2,674 regular employees as of 31/03/2022. Wikipedia describes BDL as a manufacturer of ammunition and missile systems founded in Hyderabad in 1970 (Sources: DPE Public Enterprises Survey 2021-22; Wikipedia)."
-      ],
-      "caveats": "Shareholding and employee fields remain null because the official DPE Public Enterprises Survey 2021-22 provides historical figures: 74.93% Central Government shareholding and 2,674 regular employees as of 31/03/2022; current values were not verified. Financial and order-book figures for FY2024-25 or FY2025-26 were not extracted from the opened pages. The 2021-22 survey lists BDL as Miniratna-I; a later official classification schedule was not verified.",
-      "on_the_block": false,
-      "sources": [
-        {
-          "url": "https://bdl-india.in/contact-us",
-          "kind": "company_site",
-          "publisher": "Bharat Dynamics Limited",
-          "date": null,
-          "supports": "Government-enterprise status, Ministry of Defence, headquarters address Nanakramguda Hyderabad"
-        },
-        {
-          "url": "https://bdl-india.in/annual-reports",
-          "kind": "annual_report",
-          "publisher": "Bharat Dynamics Limited",
-          "date": "2026-09-02",
-          "supports": "Annual Report 2025-26 dated 02/09/2026 and Annual Report 2024-25 dated 03/09/2025"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Bharat_Dynamics",
-          "kind": "news",
-          "publisher": "Wikipedia (tertiary)",
-          "date": null,
-          "supports": "Founded in Hyderabad in 1970; ammunition and missile systems manufacturer"
-        },
-        {
-          "url": "https://www.dpe.gov.in/static/uploads/2025/07/485f7cde98ddb681ca37de4c22a3cd54.pdf",
-          "kind": "news",
-          "publisher": "Department of Public Enterprises, Government of India",
-          "date": null,
-          "supports": "For FY2021-22: listed status, Miniratna-I status, Ministry of Defence, 74.93% Central Government shareholding, Hyderabad corporate office, and 2,674 regular employees as of 31/03/2022"
         }
       ],
       "verification": "V2"

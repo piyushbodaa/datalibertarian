@@ -48,7 +48,7 @@ export function DelhiPolicePage() {
           ))}
         </ol>
         <p className="mt-6">
-          <Link to="/sources">Method</Link>
+          <Link to="/sources">Sources &amp; methodology</Link>
         </p>
       </section>
     </article>

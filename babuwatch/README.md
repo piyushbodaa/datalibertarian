@@ -26,6 +26,9 @@ babuwatch/
     copwatchindia.py
   engine/
     build.py           the generator (stdlib Python). Holds no watch-specific text.
+    sections.py        pages beyond court records: /places (state, district,
+                       police station), /commissions, /follow-up, /compliance,
+                       /charged. Copy lives in the profile's "sections" dict.
     check_links.py     internal link check over the combined output
     test_gates.py      naming-gate / scrubber tests
     test_index.py      tracker index + built-output consistency tests
@@ -36,7 +39,10 @@ babuwatch/
                        assets/brand/
   data/
     copwatchindia/     cases.json (HC/SC), tier2.json (trial court),
-                       tier2-overturned.json, cases.csv, context.json
+                       tier2-overturned.json, cases.csv, context.json,
+                       commissions.json (NHRC + Delhi PCA findings), cctv.json
+                       (court orders on police-station CCTV), charged.json
+                       (trapped, NOT convicted)
     civil/             tier2.json (civil-servant trial-court convictions)
   tools/               private-data -> public-data pipeline for civil records
 ```
@@ -79,6 +85,21 @@ Python 3 stdlib only; Vercel's build image already has `python3`.
   then gate) to regenerate `data/civil/tier2.json`.
 - Each record's `service` (`police` / `civil`) comes from its dataset entry
   in the profile; its `watch` (home) likewise.
+
+## Copwatch beyond the courts (sections.py)
+
+| Page | Data | Source |
+|---|---|---|
+| `/commissions` | `commissions.json` | NHRC annual-report relief tables 2012-13 to 2023-24 (police incident codes 8xx, 1616; CAPF 17xx); Delhi PCA annual reports (quorum complaints approved by the LG) |
+| `/follow-up` | cases.json + commissions.json | court compensation orders; NHRC "pending compliance" listings; RTI template |
+| `/compliance` | `cctv.json` + cases.json | High Court orders quoting missing / non-functional CCTV, each attributed to its speaker |
+| `/places`, `/station/...` | every police dataset | grouped by state, district, and the police station the source names |
+| `/charged` | `charged.json` | TN DVAC trap press releases; **allegations**: noindex, not in the sitemap, counted nowhere |
+
+Regenerate the three data files with `python3 babuwatch/tools/build_copwatch_extras.py --work <dir>`
+from the parsed official PDFs (the parsers and PDFs stay in the maintainer's work directory). NHRC
+recommendations are recommendations of a statutory body, not judgments: copy must say so, and a case's
+status is only ever what NHRC itself last published. Never add a name to any of these files.
 
 ## Adding a watch (e.g. IAS officers)
 

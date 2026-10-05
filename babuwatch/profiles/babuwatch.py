@@ -30,6 +30,8 @@ PROFILE = {
     "tagline": "A Data Libertarian Project",
     "base": "/babuwatch",
     "parent": None,
+    # The seal, name and tagline lead to the Data Libertarian home page.
+    "brand_home": "/",
     "switcher_blurb": "All public servants",
     # Owner decision 2026-09-23: Babuwatch keeps reusing Copwatch India's
     # address until it has one of its own.
@@ -57,7 +59,9 @@ PROFILE = {
         + [("other", "Other misconduct"),
            ("dereliction_evidence_tampering", "Other misconduct"),
            ("false_implication_fabrication", "Other misconduct")]),
-    "nav": [("/tracker", "Incident Tracker"), ("/patterns", "Patterns"),
+    "nav": [("/tracker", "Incident Tracker"), ("/places", "Places"),
+            ("/commissions", "Commissions"), ("/follow-up", "Was it paid?"),
+            ("/compliance", "CCTV & arrests"), ("/patterns", "Patterns"),
             ("/methodology", "Methodology")],
     "home_sections": ["hero", "ref:intent-prototype", "ref:does", "tracker",
                       "ref:ledger", "patterns", "ref:disclaimer"],
@@ -232,5 +236,150 @@ PROFILE = {
             "appeal status."),
         "service_label_civil": "Civil servants",
         "service_label_police": "Police",
+    },
+    # Copy for engine/sections.py: places, commissions, follow-up, compliance, charged.
+    "sections": {
+        "kind_court": "High Court / Supreme Court",
+        "kind_trial": "Trial-court conviction",
+        "kind_charged": "Charged, not convicted",
+        "read_order": "Read the order",
+        "group_court": "High Court and Supreme Court findings",
+        "group_trial": "Trial-court convictions",
+        "group_commission": "Findings of commissions and complaints authorities",
+        "group_cctv": "Court orders on police-station CCTV",
+        "group_charged": "Charged, not convicted",
+        "charged_inline_notice": (
+            "The entries above are allegations. An officer trapped by an anti-corruption agency is presumed "
+            "innocent unless a court convicts; none of them is counted as a finding anywhere on this site."),
+        "places_eyebrow": "Places",
+        "places_title": "Police records by state, district and police station",
+        "places_desc": ("Every court finding, conviction, commission finding and CCTV order against police, "
+                        "grouped by state, district and police station."),
+        "places_intro": (
+            "Every record on this site that names a place, grouped so you can look up your own district or "
+            "police station. Districts and stations appear only where the source names them."),
+        "places_cols": ["State", "HC / SC findings", "Trial convictions", "Commission findings",
+                        "CCTV orders and charged"],
+        "state_intro": "Records from this state, by district. Records whose source names no district are listed below the table.",
+        "district_cols": ["District", "HC / SC findings", "Trial convictions", "Commission findings",
+                          "CCTV orders and charged"],
+        "state_no_district": "Records with no district stated",
+        "district_intro": "Every record from this district, newest first, with the police stations they name.",
+        "district_title_tail": "police records",
+        "district_desc": "Court findings, convictions and commission findings against police in {{place}}.",
+        "stations_heading": "Police stations named in these records",
+        "station_word": "Police Station",
+        "station_intro": "Every record that names this police station. A station's name appears only when the court or authority named it.",
+        "comm_eyebrow": "Beyond the courts",
+        "comm_title": "Findings of human rights commissions and police complaints authorities",
+        "comm_desc": ("Relief recommended by the National Human Rights Commission against police, and Delhi "
+                      "Police Complaints Authority findings, with whether the state has shown payment."),
+        "comm_intro": (
+            "Statutory bodies decide far more police complaints than the courts do. This section lists every "
+            "police case in which the National Human Rights Commission recommended monetary relief, as printed "
+            "in the relief tables of its annual reports from 2012-13 to 2023-24, and the Delhi Police "
+            "Complaints Authority recommendations that the Lieutenant Governor approved."),
+        "comm_stat_n": "findings listed",
+        "comm_stat_amt": "relief recommended by NHRC",
+        "comm_stat_unpaid": "where the state had not shown payment",
+        "comm_notice": (
+            "A commission recommendation is not a court judgment. NHRC recommends relief after finding that a "
+            "public servant violated human rights; the government may comply, challenge the recommendation in "
+            "court, or refuse it. Each record shows the latest status NHRC itself published. The tables name no "
+            "officer and no victim, and neither does this site."),
+        "comm_by_state": "By state",
+        "comm_cols": ["State", "Findings", "Relief recommended", "Payment not shown"],
+        "comm_by_nature": "What the findings were about",
+        "comm_nature_cols": ["Nature of complaint (NHRC classification)", "Findings"],
+        "comm_state_intro": "Every finding listed for this state, newest first.",
+        "charged_link": "See also: police officers trapped by anti-corruption agencies (charged, not convicted)",
+        "comm_listings": "Where this is published",
+        "comm_record_notice": (
+            "This record reproduces what the cited report says, and nothing more. The case file is NHRC's; "
+            "anyone with a stake in the case can seek its status from the Commission (hrcnet.nic.in)."),
+        "f_body": "Authority", "f_case": "Case number", "f_state": "State", "f_station": "Police station",
+        "f_nature": "Nature of complaint", "f_relief": "Relief recommended", "f_date": "Date",
+        "f_status": "Latest published status", "not_stated": "Not stated in the source",
+        "table_pending": "listed as pending compliance (no proof of payment)",
+        "table_challenged": "listed as challenged in court",
+        "table_refused": "listed as not accepted / reconsideration sought",
+        "table_recommended": "listed as a recommendation",
+        "table_complied": "listed as complied with",
+        "table_approved": "listed as approved by the Lieutenant Governor",
+        "table_sent": "listed as sent to the Lieutenant Governor",
+        "open_report": "open the report (PDF)",
+        "at_line": "(text line {{n}} of the extracted report)",
+        "fu_eyebrow": "Follow-up",
+        "fu_title": "Was it paid? What happened after money was ordered",
+        "fu_desc": ("Compensation ordered by courts against police and relief recommended by NHRC, with what the "
+                    "public record shows about payment, and a ready RTI application to ask."),
+        "fu_intro": (
+            "A court or commission ordering compensation is not the end of a case. This page brings together "
+            "every compensation order on this site and what is publicly known about whether it was paid, and "
+            "gives you the RTI application to find out where nothing is known."),
+        "fu_stat_court": "court orders for compensation",
+        "fu_stat_court_amt": "ordered by courts",
+        "fu_stat_nhrc": "NHRC recommendations without proof of payment",
+        "fu_stat_nhrc_amt": "recommended, payment not shown",
+        "fu_nhrc_h": "NHRC: relief recommended, payment not shown",
+        "fu_nhrc_p": (
+            "Cases in which NHRC's latest annual report listing the case recorded no proof of payment, or a "
+            "challenge or refusal. A case may have been paid after that report; the date of each listing is on "
+            "its record."),
+        "fu_nhrc_cols": ["State", "Cases", "Relief recommended"],
+        "fu_court_h": "Courts: compensation ordered against police",
+        "fu_court_p": (
+            "Amounts ordered by High Courts and the Supreme Court in the records on this site. Unless a later "
+            "order on the record says the money was paid, payment is shown as not verified: it may have been "
+            "paid, but nothing public we have found says so."),
+        "fu_court_cols": ["Record", "State", "Order", "Ordered", "Payment"],
+        "fu_paid_record": "Payment recorded in a later order",
+        "fu_unverified": "Not verified",
+        "fu_rti_h": "Ask for yourself: an RTI application",
+        "fu_rti_p": (
+            "<p>Send this to the Public Information Officer of the state Home Department (for court orders) or "
+            "the department named in the NHRC case. The fee is Rs 10 in most states; replies are due in 30 days. "
+            "If you get an answer, write to us and we will add it to the record with your permission.</p>"),
+        "fu_rti_text": (
+            "To,\nThe Public Information Officer,\nHome (Police) Department, Government of [State]\n\n"
+            "Subject: Information under Section 6(1) of the Right to Information Act, 2005\n\n"
+            "In [court / NHRC Case No.] dated [date], the [High Court / Commission] directed the State to pay "
+            "Rs [amount] as compensation / monetary relief to [the victim / next of kin], and [where ordered] "
+            "to recover it from the officers responsible. Please provide:\n"
+            "1. Whether the amount has been paid, the date of payment and the payee (name may be withheld).\n"
+            "2. A copy of the sanction order and the proof of payment sent to the court / Commission.\n"
+            "3. Whether any amount has been recovered from the officers responsible, and copies of the "
+            "recovery orders.\n"
+            "4. Whether departmental proceedings were initiated against the officers concerned, and their "
+            "present status and outcome.\n\n"
+            "I am a citizen of India. The fee of Rs 10 is enclosed by [mode].\n\n[Name, address, date]"),
+        "cp_eyebrow": "Compliance",
+        "cp_title": "CCTV in police stations and arrest safeguards: what the courts are recording",
+        "cp_desc": ("Court orders recording missing, non-functional or deleted police-station CCTV, and the "
+                    "arrest safeguards courts enforce in the records on this site."),
+        "cp_intro": (
+            "In Paramvir Singh Saini (2020) the Supreme Court ordered working CCTV cameras, with recordings "
+            "kept, in every police station; it has been monitoring compliance itself since 2025 (In Re: Lack "
+            "of Functional CCTVs in Police Stations). This page lists court orders that record what is "
+            "actually there."),
+        "cp_cctv_h": "Court orders on police-station CCTV",
+        "cp_cctv_p": (
+            "Each entry quotes the order word for word and says who the statement belongs to: the court itself, "
+            "an official report the court recorded, or the police's own affidavit."),
+        "cp_sg_h": "Arrest safeguards in the court records on this site",
+        "cp_sg_p": (
+            "How many High Court and Supreme Court records on this site involve each safeguard, matched on the "
+            "record's own summary, quote and provisions. A record can involve more than one."),
+        "cp_sg_cols": ["Safeguard", "Records", "Latest records"],
+        "ch_eyebrow": "Charged, not convicted",
+        "ch_title": "Police officers trapped by anti-corruption agencies",
+        "ch_desc": "Police officers trapped and arrested for bribery by anti-corruption agencies: allegations, not convictions.",
+        "ch_intro": (
+            "Arrests of police officers in bribery traps, as announced by the anti-corruption agency. These are "
+            "allegations. They are kept apart from every finding on this site, counted in no total, and kept "
+            "out of search engines; when a court decides a case, the outcome is added here."),
+        "ch_notice": (
+            "An officer arrested in a trap is presumed innocent unless a court convicts. Officers are described "
+            "by rank and unit only; no name is published. Source: the agency's own press release."),
     },
 }

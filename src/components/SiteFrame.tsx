@@ -1,7 +1,7 @@
 import { applyMetadata } from "../lib/metadata";
-import type { FormEvent, ReactNode } from "react";
-import { useEffect, useState } from "react";
-import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
+import type { ReactNode } from "react";
+import { useEffect } from "react";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { EXTRACT_DATE } from "../data/sources";
 import { crumbsFor } from "../lib/nav";
 
@@ -12,15 +12,14 @@ function figuresDate(iso: string): string {
 }
 
 const NAV = [
-  { to: "/", label: "Home", end: true },
+  { to: "/spending", label: "Spending" },
   { to: "/compare", label: "Compare" },
   { to: "/states", label: "States" },
   { to: "/union", label: "Centre" },
   { to: "/municipal", label: "City" },
   { to: "/gram", label: "Village" },
   { to: "/inflation", label: "Inflation" },
-  { to: "/sources", label: "Method" },
-  { to: "/search", label: "Search" },
+  { to: "/sources", label: "Sources & methodology" },
 ] as const;
 
 export function SiteFrame({ children }: { children: ReactNode }) {
@@ -64,25 +63,19 @@ export function SiteFrame({ children }: { children: ReactNode }) {
       </a>
       <header className="site-header">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3 sm:px-6">
-          <NavLink to="/" className="min-w-0 no-underline text-ink hover:text-rust">
+          <a href="/" className="min-w-0 no-underline text-ink hover:text-rust">
             <span className="font-display text-[1.2rem] font-semibold tracking-tight sm:text-[1.45rem]">
               Data Libertarian
             </span>
             <span className="mt-0.5 hidden text-[0.72rem] text-ink/55 sm:block">
               Official books · cited rupees
             </span>
-          </NavLink>
-          <HeaderSearch />
+          </a>
         </div>
         <nav className="mx-auto max-w-6xl border-t border-ink/10 px-2 sm:px-4" aria-label="Site">
           <div className="nav-scroll">
             {NAV.map((item) => (
-              <NavLink
-                key={item.to}
-                to={item.to}
-                end={"end" in item ? item.end : false}
-                className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}
-              >
+              <NavLink key={item.to} to={item.to} className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
                 {item.label}
               </NavLink>
             ))}
@@ -114,9 +107,10 @@ export function SiteFrame({ children }: { children: ReactNode }) {
           that it is zero. Initial budget extraction: {figuresDate(EXTRACT_DATE)}. See each source for its extraction date.
         </p>
         <p className="mt-3 flex flex-wrap gap-x-4 gap-y-1">
-          <Link to="/sources">Method</Link>
+          <Link to="/sources">Sources &amp; methodology</Link>
           <Link to="/corrections">Report a correction</Link>
           <Link to="/inflation">Inflation</Link>
+          <a href="/crime">Crime</a>
           <Link to="/compare">Compare</Link>
           <Link to="/states">States</Link>
           <Link to="/union">Centre</Link>
@@ -126,36 +120,3 @@ export function SiteFrame({ children }: { children: ReactNode }) {
   );
 }
 
-function HeaderSearch() {
-  const navigate = useNavigate();
-  const location = useLocation();
-  const current = new URLSearchParams(location.search).get("q") ?? "";
-  const [q, setQ] = useState(current);
-
-  useEffect(() => {
-    if (location.pathname === "/search") setQ(current);
-  }, [location.pathname, current]);
-
-  function onSubmit(e: FormEvent) {
-    e.preventDefault();
-    const next = q.trim();
-    navigate(next ? `/search?q=${encodeURIComponent(next)}` : "/search");
-  }
-
-  return (
-    <form role="search" onSubmit={onSubmit} className="shrink-0">
-      <label htmlFor="site-search" className="sr-only">
-        Search typed lines
-      </label>
-      <input
-        id="site-search"
-        className="field w-[7.5rem] sm:w-48"
-        value={q}
-        onChange={(e) => setQ(e.target.value)}
-        placeholder="Search"
-        type="search"
-        enterKeyHint="search"
-      />
-    </form>
-  );
-}

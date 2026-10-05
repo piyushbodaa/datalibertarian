@@ -31,6 +31,8 @@ ROOT = os.path.dirname(ENGINE_DIR)          # babuwatch/ (profiles, data, templa
 HERE = ROOT
 sys.path.insert(0, ROOT)
 import profiles                                                   # noqa: E402
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import sections                                                   # noqa: E402
 
 
 def _load_json(path, default):
@@ -85,6 +87,9 @@ SITE_URL = SITE_ORIGIN + BASE
 SITE_NAME = P["site_name"]
 SHORT_NAME = P["short_name"]
 TAGLINE = P["tagline"]
+# Where the seal, name and tagline point. A watch nested in a larger site sets
+# "brand_home" to a site-root path; without it they point at this watch's home.
+BRAND_HOME = ("@ROOT@" + P["brand_home"]) if P.get("brand_home") else "/"
 CONTACT_EMAIL = P["contact_email"]
 # Served base for every absolute URL emitted by the AI-access layer
 # (llms.txt, llms-full.txt, Markdown twins, JSON endpoints, robots.txt).
@@ -129,6 +134,7 @@ ANONYMISE = {"CWC-0047", "CWC-0090", "CWC-0131", "CWC-0134", "CWC-0153",
              "CWC-0401", "CWC-0403", "CWC-0413", "CWC-0431"}
 OUTCOME_LABEL = {
     "adverse_finding_compensation": "Adverse finding + compensation",
+    "adverse_finding": "Adverse finding",
     "conviction_upheld": "Conviction upheld",
     "conviction_by_hc": "Conviction entered by High Court",
     "conviction_by_sc": "Conviction entered by Supreme Court",
@@ -322,7 +328,28 @@ def v_level(c):
     v = str(c.get("verification_status") or "V2").strip().upper()
     if v == "V3" and not v3_earned(c):
         return "V2"
-    return v if v in ("V2", "V3") else "V2"
+    return v if v in ("V1", "V2", "V3") else "V2"
+
+
+def has_compensation(c):
+    """A compensation award is shown only when the record carries an amount,
+    codes the relief as compensation, or says an award was ordered without a
+    fixed amount (`compensation_ordered`); an adverse finding alone is not."""
+    try:
+        amt = float(c.get("compensation_inr") or 0)
+    except (TypeError, ValueError):
+        amt = 0
+    return (amt > 0 or c.get("sentence_type") == "compensation_only"
+            or c.get("compensation_ordered") is True)
+
+
+def outcome_code(c, default=""):
+    """Outcome as displayed: adverse_finding_compensation without any award
+    renders as a plain adverse finding (audit 2026-09-25, finding 35)."""
+    o = c.get("outcome_type") or default
+    if o == "adverse_finding_compensation" and not has_compensation(c):
+        return "adverse_finding"
+    return o
 
 
 def tier(c):
@@ -1209,10 +1236,17 @@ def _strip_rank_names(text, keep_words, place_words):
     return _RANK_NAME.sub(rep, text)
 
 
+def title_party_is_officer(p):
+    """True when the private party in "X v. State" is the officer. A record
+    sets `title_party: "victim"` when victims or their families brought the
+    appeal (e.g. an appeal against acquittal)."""
+    return ((p.get("outcome_type") or "trial_court_conviction")
+            in _WH_OFFICER_PARTY and p.get("title_party") != "victim")
+
+
 def humanise_withheld(p, title_keys, prose_keys):
     police = (p.get("service") or "police") == "police"
-    officer_party = (p.get("outcome_type") or "trial_court_conviction") \
-        in _WH_OFFICER_PARTY
+    officer_party = title_party_is_officer(p)
     desc = officer_descriptor(p) if police else civil_descriptor(p)
     # a civil servant's own post words also stand in for the name
     post_words = set() if police else {
@@ -1423,8 +1457,7 @@ def anonymise_victims(p, raw, title_keys, oracle=None):
     cleared = [n.lower() for o in (raw.get("officers") or []) if isinstance(o, dict)
                and o.get("publish_grade") == "named_safe"
                for n in (o.get("name"), o.get("name_public")) if n]
-    officer_party = (p.get("outcome_type") or "trial_court_conviction") \
-        in _WH_OFFICER_PARTY
+    officer_party = title_party_is_officer(p)
     police = (p.get("service") or "police") == "police"
     who_off = officer_descriptor(p) if police else civil_descriptor(p)
     who_vic = (first or "%s resident" % record_place(p)).strip()
@@ -1647,6 +1680,22 @@ def t2_iso_date(s):
     return ""
 
 
+def t2_date_display(r, missing="Date not stated"):
+    """Human form of a trial conviction date at its stated precision: a full
+    ISO date, 'March 2005' for YYYY-MM, '2005' for YYYY. When the source
+    gives no date, the record's conviction_date_note (e.g. 'before 11
+    August 2003') is shown instead of an invented day (audit findings 01-02)."""
+    s = str(r.get("conviction_date") or "").strip()
+    if re.match(r"^\d{4}-\d{2}-\d{2}$", s):
+        return fmt_date(s)
+    if re.match(r"^\d{4}-\d{2}$", s):
+        return fmt_date(s + "-01", "month")
+    if s:
+        return s
+    note = (r.get("conviction_date_note") or "").strip()
+    return ("date not stated; %s" % note) if note else missing
+
+
 def t2_year(r):
     m = re.search(r"\b((?:19|20)\d{2})\b",
                   str(r.get("conviction_date") or ""))
@@ -1835,7 +1884,48 @@ def build_t2_public(r, pats, withheld_lows, t1_held=()):
     humanise_withheld(p, ("case_title_or_number", "case_title"),
                       ("summary", "sentence", "court_quote", "verdict_note"))
     anonymise_victims(p, r, ("case_title_or_number", "case_title"))
+    t2_describe_generic_title(p)
     return p, downgraded
+
+
+_GENERIC_T2_TITLE = re.compile(r"^\s*(?:unknown|none|n/?a|case number not stated"
+                               r"(?: in the source)?\.?)\s*$", re.I)
+_OFFENCE_PHRASE = {
+    "Bribery & extortion": "bribery",
+    "Disproportionate assets": "disproportionate assets",
+    "Fraud & misappropriation": "fraud or misappropriation",
+    "Violence & unlawful detention": "violence or unlawful detention",
+    "Other misconduct": "misconduct",
+}
+
+
+def t2_describe_generic_title(p):
+    """A trial-court record whose title field holds only "Case number not
+    stated" or "Unknown" gets a descriptive title: who, what, which court,
+    which year (audit follow-up 2026-09-25, finding 6). The missing docket
+    number stays in `case_number`."""
+    t = p.get("case_title_or_number") or ""
+    cbi = re.match(r"^\s*(CBI case registered [^()]+?)\s*\(number not stated "
+                   r"in the source\)\s*$", t)
+    if cbi and not p.get("case_number"):
+        p["case_number"] = cbi.group(1) + "; case number not stated in the source"
+    if t and not cbi and not _GENERIC_T2_TITLE.match(t):
+        return
+    police = (p.get("service") or "police") == "police"
+    who = officer_descriptor(p) if police else civil_descriptor(p)
+    if who.count("Police") > 1:
+        who = re.sub(r"\s+of Police\b", "", who, count=1)
+    what = _OFFENCE_PHRASE.get(site_category(p), "misconduct")
+    court = re.sub(r"\s*\([^()]*\)", "", p.get("trial_court_name") or "").strip()
+    year = str(p.get("conviction_year") or (p.get("conviction_date") or "")[:4] or "")
+    title = "%s convicted of %s" % (who[:1].upper() + who[1:], what)
+    if court:
+        title += ", " + court
+    if year and year not in title:
+        title += " (%s)" % year
+    p["case_title_or_number"] = title
+    if not p.get("case_number"):
+        p["case_number"] = "Not stated in the source"
 
 
 def first_unit(r):
@@ -1956,6 +2046,7 @@ def shell_tokens(tpl):
     profile. Done on the template before %-formatting, so '%' in copy is
     escaped and page content is never touched."""
     for k, v in (("SITE_NAME", esc(SITE_NAME)), ("TAGLINE", esc(TAGLINE)),
+                 ("BRAND_HOME", BRAND_HOME),
                  ("OG_ALT", T["og_alt"]),
                  ("FOOT_TAGLINE", T["footer_tagline"]),
                  ("FOOT_ABOUT", T["footer_about"]),
@@ -2000,6 +2091,21 @@ def watch_switcher():
     return ('<div class="watchbar"><div class="wrap"><span class="wb-lab">'
             '%s registers</span><nav aria-label="%s registers">%s</nav>'
             "</div></div>" % (esc(family), esc(family), "".join(items)))
+
+
+def record_page_title(head, court, year, ref):
+    """Browser/search title of a record page: its heading plus the deciding
+    court, the year and the case plate, so no two records share a title
+    (audit follow-up 2026-09-25, finding 6). The on-page heading is
+    unchanged."""
+    head = re.sub(r"\s+", " ", str(head or "")).strip()
+    court = re.sub(r"\s*\([^()]*\)", "", str(court or "")).strip()
+    year = str(year or "").strip()
+    extra = [x for x in (court if court and court.lower() not in head.lower()
+                         else "",
+                         year if year and year not in head else "") if x]
+    out = head + (" \u2014 " + ", ".join(extra) if extra else "")
+    return "%s \u00b7 %s" % (out, ref) if ref and ref not in out else out
 
 
 def page_shell(title, desc, path, main_html, route=None, og_type="website",
@@ -2076,13 +2182,13 @@ def page_shell(title, desc, path, main_html, route=None, og_type="website",
 @@SWITCHER@@
 <header class="masthead">
   <div class="wrap">
-    <a class="brand" href="/">
-      <span class="seal" aria-hidden="true"><img src="/assets/brand/logo-mark-saffron.svg" width="40" height="40" alt=""></span>
+    <div class="brand">
+      <a class="seal" href="@@BRAND_HOME@@" aria-label="@@TAGLINE@@ home"><img src="/assets/brand/logo-mark-saffron.svg" width="40" height="40" alt=""></a>
       <span class="brand-text">
-        <span class="name">@@SITE_NAME@@</span>
-        <span class="tagline">@@TAGLINE@@</span>
+        <a class="name" href="@@BRAND_HOME@@">@@SITE_NAME@@</a>
+        <a class="tagline" href="@@BRAND_HOME@@">@@TAGLINE@@</a>
       </span>
-    </a>
+    </div>
     <nav class="links" aria-label="Primary">%s</nav>    <button class="navtoggle" type="button" aria-label="Open menu" aria-controls="mobile-navigation" aria-expanded="false">&#9776;</button>
   </div>
   <nav class="mobilenav" id="mobile-navigation" aria-label="Primary mobile">%s</nav></header>
@@ -2220,7 +2326,7 @@ def build_index_record(c):
     if sub:
         rec["sc"] = sub
     if c.get("outcome_type"):
-        rec["ou"] = c["outcome_type"]
+        rec["ou"] = outcome_code(c)
     rec["jd"] = c.get("judgment_date") or ""
     jy = c.get("judgment_year")
     if jy is not None and str(jy) != rec["jd"][:4]:
@@ -2281,6 +2387,14 @@ NEWS_OUTCOME = {
     "adverse_finding": "Adverse finding", "disciplinary_upheld": "Penalty upheld"}
 
 
+V_TITLE = {
+    "V1": "Verification V1: official source, one detail not matched in it",
+    "V1+": "Verification V1+: official source, most details matched",
+    "V2": "Verification V2: checked against the official source",
+    "V3": "Verification V3: a material fact independently corroborated",
+}
+
+
 def news_card_html(c, kind="incident"):
     """Server-side twin of tracker.js cardHtml(): the news-style card with
     category + outcome chips, the RTO-style plate, headline, meta line,
@@ -2294,8 +2408,7 @@ def news_card_html(c, kind="incident"):
     para = pn.get("paragraph") or c.get("summary") or ""
     if len(para) > INDEX_SUMMARY_CHARS:
         para = para[:INDEX_SUMMARY_CHARS].rsplit(" ", 1)[0].rstrip(",;:") + "\u2026"
-    outc = NEWS_OUTCOME.get(c.get("outcome_type") or ("trial_court_conviction"
-                                                       if trial else ""),
+    outc = NEWS_OUTCOME.get(outcome_code(c, "trial_court_conviction" if trial else ""),
                             "Convicted" if trial else tier_label(c))
     jd = (c.get("conviction_date") if trial else c.get("judgment_date")) or ""
     meta = [x for x in (fmt_date(jd, c.get("date_precision")) if jd else "",
@@ -2303,15 +2416,18 @@ def news_card_html(c, kind="incident"):
     if pn.get("role"):
         meta.append(pn["role"] + " (name withheld)")
     plate = PLATES.get(rid) or PLATES.get(c.get("merged_id") or "")
+    vl = t2_v(c) if trial else v_level(c)
     return (
         '<article class="tracker-card news-card" data-id="%s">'
         '<div class="news-top"><div class="news-chips"><span class="chip">%s'
-        '</span><span class="chip chip-out">%s</span></div>%s</div>'
+        '</span><span class="chip chip-out">%s</span>'
+        '<span class="chip chip-v" title="%s">%s</span></div>%s</div>'
         '<h2 class="news-head"><a href="%s">%s</a></h2>'
         '<p class="news-meta">%s</p><p class="news-para">%s</p>'
         '<a class="tracker-card-open" href="%s" aria-label="Read the court record %s">'
         'Read the court record <span aria-hidden="true">&rarr;</span></a></article>'
         % (esc(rid), esc(site_category(c)), esc(outc),
+           esc(V_TITLE.get(vl, "Verification level")), esc(vl),
            '<span class="plate" title="Case number">%s</span>' % esc(plate)
            if plate else "", esc(url), esc(head),
            " &middot; ".join(esc(x) for x in meta), esc(para), esc(url),
@@ -2353,7 +2469,8 @@ def build_home(cases, ref_index, t2=None, n_overturned=0):
         elif sec == "watches":
             parts.append(watches_section(cases, t2))
         elif sec.startswith("ref:"):
-            parts.append(static_links(extract_section(ref_index, sec[4:])))
+            parts.append(fill(static_links(extract_section(ref_index, sec[4:])),
+                              total=fmt_thousands(total)))
         else:
             raise SystemExit("unknown home section %r" % sec)
     return "\n".join(parts)
@@ -2430,7 +2547,7 @@ def extra_filter_ui(cases, t2cases=None):
     states = sorted(set(c.get("state", "") for c in both if c.get("state")))
     cats = [v for v in SITE_CATEGORIES
             if any(site_category(c) == v for c in both)]
-    outs = sorted(set(c.get("outcome_type", "") for c in both
+    outs = sorted(set(outcome_code(c) for c in both
                       if c.get("outcome_type")))
     courts = sorted(
         set([c.get("court", "") for c in cases if c.get("court")]
@@ -2543,7 +2660,7 @@ def build_tracker(cases, pre_render=60, t2cases=None, n_overturned=0):
       <div class="tracker-records" id="tracker-records">
 %s
       </div>
-      <noscript><div class="tracker-empty"><h2>Filtering needs JavaScript</h2><p>Showing the %d most recent of %s records. Browse by <a href="/#states">state</a> or <a href="/data">download the dataset</a>.</p></div></noscript>
+      <noscript><div class="tracker-empty"><h2>Filtering needs JavaScript</h2><p>Showing the %d most recent of %s records. Browse by state from the <a href="/tracker">tracker&rsquo;s state filter</a> or <a href="/data">download the dataset</a>.</p></div></noscript>
     </div>
   </section>
 """ % (head, overturned_note(n_overturned), pills_main, simple_ui,
@@ -2652,6 +2769,28 @@ NEWSROOM_HOSTS = {
 }
 
 
+REFERENCE_HOSTS = ("wikipedia.org", "britannica.com")
+COURT_HOSTS = ("sci.gov.in", "ecourts.gov.in", "highcourt", "hc", "court")
+
+
+def link_kind(u):
+    """What a cited link is, from the link itself (audit follow-up
+    2026-09-25): the order or judgment ("Court record"), another official
+    record ("Official record"), an encyclopedia ("Reference"), or reporting
+    ("Newsroom")."""
+    from urllib.parse import urlparse
+    host = urlparse(u).netloc.lower().split(":")[0]
+    host = host[4:] if host.startswith("www.") else host
+    if any(host == h or host.endswith("." + h) for h in REFERENCE_HOSTS):
+        return "Reference"
+    if not source_is_document(u):
+        return "Newsroom"
+    if host.endswith((".gov.in", ".nic.in")) and not any(
+            w in host for w in COURT_HOSTS):
+        return "Official record"
+    return "Court record"
+
+
 def outlet_name(host):
     h = re.sub(r"^www\.", "", (host or "").lower())
     if h in NEWSROOM_HOSTS:
@@ -2691,17 +2830,19 @@ def source_list_html(c):
         lc = checked.get(u)
         lc_txt = ("Link checked %s" % fmt_date_short(lc)) if lc else \
             "Link checked \u2014 not yet recorded"
-        if bare in NEWSROOM_HOSTS and "doc/" not in u and "judg" not in u:
-            items.append('<li><div class="source-kind">Newsroom</div>'
-                         '<strong><a href="%s" rel="noopener">%s</a></strong>'
-                         "<span>%s</span></li>"
-                         % (esc(u), esc(outlet_name(host)), esc(lc_txt)))
-        else:
-            items.append('<li><div class="source-kind">Court Record</div>'
+        kind = link_kind(u)
+        if kind == "Court record":
+            items.append('<li><div class="source-kind">Court record</div>'
                          '<strong><a href="%s" rel="noopener">%s '
                          "(via %s)</a></strong>"
                          "<span>%s</span></li>"
                          % (esc(u), esc(court), esc(host), esc(lc_txt)))
+        else:
+            items.append('<li><div class="source-kind">%s</div>'
+                         '<strong><a href="%s" rel="noopener">%s</a></strong>'
+                         "<span>%s</span></li>"
+                         % (esc(kind), esc(u), esc(outlet_name(host)),
+                            esc(lc_txt)))
 
     add(c.get("primary_source_url"))
     for u in (c.get("secondary_sources") or []):
@@ -3069,9 +3210,16 @@ def report_card_data(c, kind):
         court = (c.get("trial_court_name") or "the trial court").strip()
         court = court if court.lower().startswith("the ") else "the " + court
         cdate = (c.get("conviction_date") or "").strip()
-        operative = "By judgment%s, %s convicted %s." % (
-            " dated %s" % fmt_date(cdate) if re.match(r"^\d{4}-\d\d-\d\d$", cdate)
-            else (" of %s" % cdate if cdate else ""), court, who)
+        if re.match(r"^\d{4}-\d\d-\d\d$", cdate):
+            when = " dated %s" % fmt_date(cdate)
+        elif re.match(r"^\d{4}(-\d\d)?$", cdate):
+            when = " in %s" % t2_date_display(c)
+        elif cdate:
+            when = " of %s" % cdate
+        else:
+            note = (c.get("conviction_date_note") or "").strip()
+            when = " (date not stated in the sources%s)" % ("; " + note if note else "")
+        operative = "By judgment%s, %s convicted %s." % (when, court, who)
         ref = c.get("case_number") or c.get("case_title_or_number")
         src_court = c.get("court")
         rows.append(("Case reference", "; ".join(x for x in [
@@ -3129,8 +3277,8 @@ def report_card_data(c, kind):
                 c["sentence_max_years"],
                 "" if str(c["sentence_max_years"]) == "1" else "s"))
         disposition = "%s.%s%s" % (
-            OUTCOME_LABEL.get(c.get("outcome_type"),
-                              pretty_label(c.get("outcome_type")) or
+            OUTCOME_LABEL.get(outcome_code(c),
+                              pretty_label(outcome_code(c)) or
                               "Outcome not stated"),
             " Sentence: %s." % "; ".join(sent) if sent else "",
             " Compensation: %s." % fmt_inr(comp) if comp else "")
@@ -3233,8 +3381,8 @@ def build_incident(c):
     sub = (c.get("subcategory_display")
            or pretty_label(c.get("subcategory")).lower()
            or "Not stated")
-    out = OUTCOME_LABEL.get(c.get("outcome_type"),
-                            pretty_label(c.get("outcome_type")) or "Not stated")
+    out = OUTCOME_LABEL.get(outcome_code(c),
+                            pretty_label(outcome_code(c)) or "Not stated")
     case_ref = " / ".join(x for x in [c.get("case_number"), c.get("citation")]
                           if x) or "Not stated"
     officers = officer_lines(c)
@@ -3790,7 +3938,7 @@ def trial_card(r):
     url = rec_path(r, "trial-court", cid)
     title = r.get("case_title_or_number") or cid
     loc = location_short(r)
-    cdate = (r.get("conviction_date") or "Date not stated").strip()
+    cdate = t2_date_display(r)
     nsrc = t2_source_count(r)
     return """
           <article class="tracker-card" data-id="%s">
@@ -3889,20 +4037,25 @@ def build_trialcourt_state(state, clist):
 def t2_source_list_html(r):
     # Tier-2 citations mirror the R61/R62 shape (kind — outlet, hyperlinked,
     # raw URL hidden); no link-checked dates exist yet for this tier.
-    kind = {"press_release": "Press release", "judgment": "Court Record",
-            "list": "Official list", "news": "Newsroom"}.get(
-                r.get("source_kind"), pretty_label(r.get("source_kind"))
-                or "Source")
+    rec_kind = {"press_release": "Press release", "judgment": "Court record",
+                "list": "Official list", "official_list": "Official list",
+                "news": "Newsroom"}.get(
+                    r.get("source_kind"), pretty_label(r.get("source_kind"))
+                    or "Source")
     rows = []
     urls = ([r.get("primary_source_url")] if r.get("primary_source_url")
             else []) + [u for u in (r.get("secondary_sources") or []) if u]
-    for u in urls:
+    for i, u in enumerate(urls):
         host = _host(u)
+        # The record's source kind describes its primary source only; every
+        # other link is labelled by what it is.
+        kind = link_kind(u)
+        if i == 0 and kind in ("Court record", "Official record"):
+            kind = rec_kind if rec_kind != "Newsroom" else kind
         rows.append('<div class="incident-source"><p>%s &mdash; '
                     '<a href="%s" rel="nofollow noopener">%s</a> '
                     '&mdash; Link checked: not yet recorded.</p></div>'
                     % (esc(kind), esc(u), esc(outlet_name(host))))
-        kind = "Source"
     if not rows:
         rows.append('<div class="incident-source"><p>No public source '
                     "recorded.</p></div>")
@@ -3911,8 +4064,7 @@ def t2_source_list_html(r):
 
 def t2_current_position(r):
     court = esc(r.get("trial_court_name") or "The trial court")
-    date = esc((r.get("conviction_date") or "a date not stated in the cited "
-                "sources").strip())
+    date = esc(t2_date_display(r, "a date not stated in the cited sources"))
     ap = r.get("appeal_status") or "unknown"
     base = "%s convicted %s on %s." % (court, sw(r, "accused"), date)
     if ap == "upheld":
@@ -3952,7 +4104,7 @@ def build_trialcourt_record(p):
     path = "/trial-court/%s" % cid
     title = p.get("case_title_or_number") or cid
     loc = location_short(p)
-    cdate = (p.get("conviction_date") or "Date not stated").strip()
+    cdate = t2_date_display(p)
     idate = (p.get("incident_date") or "Date not stated").strip()
     officers = [officer_display(o, p) for o in (p.get("officers") or [])]
     off_txt = "; ".join(officers) if officers else "None stated"
@@ -4141,6 +4293,7 @@ TRACKER_JS = r"""// CopwatchIndia tracker — client-side filter/search over /da
 
   var OUTCOME_LABEL = {
     adverse_finding_compensation: "Adverse finding + compensation",
+    adverse_finding: "Adverse finding",
     conviction_upheld: "Conviction upheld",
     conviction_by_hc: "Conviction entered by High Court",
     conviction_by_sc: "Conviction entered by Supreme Court",
@@ -4210,12 +4363,18 @@ TRACKER_JS = r"""// CopwatchIndia tracker — client-side filter/search over /da
     if (named && c.legal_review == null) return false;
     return true;
   }
+  var V_TITLE = {
+    "V1": "Verification V1: official source, one detail not matched in it",
+    "V1+": "Verification V1+: official source, most details matched",
+    "V2": "Verification V2: checked against the official source",
+    "V3": "Verification V3: a material fact independently corroborated"
+  };
   function vLevel(c) {
     if (c.v) return c.v;
     if (isSlim(c)) return "V2";
     var v = String(c.verification_status || "V2").toUpperCase();
     if (v === "V3" && !v3earned(c)) return "V2";
-    return (v === "V2" || v === "V3") ? v : "V2";
+    return (v === "V1" || v === "V2" || v === "V3") ? v : "V2";
   }
   function tier(c) {
     if (levelOf(c) === "trial") return "T";
@@ -4440,7 +4599,7 @@ TRACKER_JS = r"""// CopwatchIndia tracker — client-side filter/search over /da
 
   var NEWS_OUTCOME = {
     trial_court_conviction: "Convicted", conviction_by_hc: "Convicted", conviction_by_sc: "Convicted",
-    conviction_upheld: "Conviction upheld", adverse_finding_compensation: "Compensation ordered",
+    conviction_upheld: "Conviction upheld", adverse_finding_compensation: "Compensation ordered", adverse_finding: "Adverse finding",
     adverse_finding: "Adverse finding", disciplinary_upheld: "Penalty upheld"
   };
   function cardHtml(c) {
@@ -4455,9 +4614,12 @@ TRACKER_JS = r"""// CopwatchIndia tracker — client-side filter/search over /da
     var outc = NEWS_OUTCOME[outcomeOf(c)] || (trial ? "Convicted" : tierLabel(c));
     var meta = [fmtDate(jdateOf(c)), locationOf(c)];
     if (c.ro) meta.push(c.ro + " (name withheld)");
+    var vl = trial ? (c.v || "V1") : vLevel(c);
     return '<article class="tracker-card news-card" data-id="' + escHtml(rid) + '">' +
       '<div class="news-top"><div class="news-chips"><span class="chip">' + escHtml(siteCat(c)) +
-      '</span><span class="chip chip-out">' + escHtml(outc) + "</span></div>" +
+      '</span><span class="chip chip-out">' + escHtml(outc) + "</span>" +
+      '<span class="chip chip-v" title="' + escHtml(V_TITLE[vl] || "Verification level") + '">' +
+      escHtml(vl) + "</span></div>" +
       (c.pl ? '<span class="plate" title="Case number">' + escHtml(c.pl) + "</span>" : "") + "</div>" +
       '<h2 class="news-head"><a href="' + escHtml(url) + '">' + escHtml(head) + "</a></h2>" +
       '<p class="news-meta">' + meta.filter(Boolean).map(escHtml).join(" &middot; ") + "</p>" +
@@ -4722,6 +4884,7 @@ CSS_ADDITIONS = """/* Record pages never scroll sideways on phones: grid/flex ch
 .news-chips{display:flex;gap:8px;flex-wrap:wrap}
 .chip{display:inline-block;padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:#f1efe8;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#3a3f48}
 .chip-out{background:#f0f7f2;border-color:#9ab6a7;color:#2f6b4a}
+.chip-v{background:#fffdf8;border-color:#c9b38a;color:#7a5a1e;font-variant-numeric:tabular-nums}
 .plate{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-weight:700;font-size:13px;letter-spacing:.1em;padding:4px 10px;border:2px solid #1d2230;border-radius:5px;background:#fff;color:#1d2230;white-space:nowrap}
 .news-head{margin-top:14px;font-family:var(--serif);font-size:clamp(20px,2.4vw,25px);font-weight:600;line-height:1.25}
 .news-head a{color:inherit;text-decoration:none}
@@ -4824,8 +4987,8 @@ def case_md_body(c):
     rid = c.get("record_id") or mid
     title = c.get("display_title") or c.get("case_title") or rid
     cat = site_category(c)
-    out = OUTCOME_LABEL.get(c.get("outcome_type"),
-                            pretty_label(c.get("outcome_type")) or "Not stated")
+    out = OUTCOME_LABEL.get(outcome_code(c),
+                            pretty_label(outcome_code(c)) or "Not stated")
     lines = []
     rendered = set()
 
@@ -5069,8 +5232,8 @@ def t2_md_section(p):
         srcs.append(u)
     srclinks = "; ".join(md_link(_host(u) or u, u) if u.startswith("http")
                          else md_esc(u) for u in srcs)
-    cdate = (p.get("conviction_date") or "Date not stated").strip()
-    if p.get("conviction_year"):
+    cdate = t2_date_display(p)
+    if p.get("conviction_year") and str(p["conviction_year"]) not in cdate:
         cdate += " (%s)" % p["conviction_year"]
     idate = (p.get("incident_date") or "Not stated").strip()
     if p.get("incident_year"):
@@ -5123,9 +5286,8 @@ def llms_full_txt(cases, t2=None, n_overturned=0):
                        + [r.get("state") for r in t2 if r.get("state")]))
     years = sorted(c.get("judgment_year") for c in cases
                    if c.get("judgment_year"))
-    cyears = sorted((r.get("conviction_year") or t2_year(r))
-                    for r in t2)
-    cyears = [y for y in cyears if y]
+    cyears = sorted(y for y in ((r.get("conviction_year") or t2_year(r))
+                                for r in t2) if y)
     span = ("%d\u2013%d" % (years[0], years[-1]) if years
             else "unknown span")
     cspan = ("%d\u2013%d" % (cyears[0], cyears[-1]) if cyears
@@ -5581,7 +5743,7 @@ def md_trialcourt_state(state, clist):
                  % (title.replace("[", "\\[").replace("]", "\\]"),
                     PUBLIC_BASE, rec_path(r, "trial-court", cid),
                     r.get("trial_court_name") or "court not stated",
-                    (r.get("conviction_date") or "date not stated").strip(),
+                    t2_date_display(r, "date not stated"),
                     t2_appeal(r)))
     L.append("")
     return "\n".join(L)
@@ -5600,7 +5762,7 @@ def md_trialcourt_record(p):
          "Trial-court conviction (%s; %s). Convicted %s. Appeal status: %s."
          % (md_esc(p.get("trial_court_name") or "court not stated"),
             md_esc(t2_court_level(p)),
-            md_esc((p.get("conviction_date") or "date not stated").strip()),
+            md_esc(t2_date_display(p, "date not stated")),
             md_esc(t2_appeal(p))), "",
          "## Summary", "", md_esc(p.get("summary") or "Not recorded."), ""]
     L += report_card_md(p, "trial")
@@ -5984,11 +6146,9 @@ def build_dataset_meta(cases, t2cases=None, n_overturned=0):
     states = sorted(set([c.get("state") for c in cases if c.get("state")]
                         + [r.get("state") for r in t2cases
                            if r.get("state")]))
-    years = sorted([c.get("judgment_year") for c in cases
-                    if c.get("judgment_year")]
-                   + [(r.get("conviction_year") or t2_year(r))
-                      for r in t2cases])
-    years = [y for y in years if y]
+    years = sorted(y for y in ([c.get("judgment_year") for c in cases]
+                               + [(r.get("conviction_year") or t2_year(r))
+                                  for r in t2cases]) if y)
     dist = [
         {"@type": "DataDownload", "name": "cases.json",
          "contentUrl": PUBLIC_BASE + "/data/cases.json",
@@ -6124,6 +6284,108 @@ def gate_records(raw_cases):
               "(rendered as pending; human review queue)"
               % n_pending_priv)
     return kept
+
+
+# ---- Publish holds (owner decision 2026-09-25) ----
+# A record publishes only when one of its links is the court order itself
+# or an official agency page; a record that rests on news reports alone is
+# held until an official copy is added. High Court / Supreme Court records
+# publish at V2 and above (V1 is internal only, as the methodology says).
+# Employees of public-sector enterprises (banks, CPSEs) are held until the
+# core civil services are covered. Held records still feed the name-scrub
+# patterns and leak assertions; they are only kept off the site.
+DOC_HOSTS = ("indiankanoon.org", "courtkutchehry.com", "casemine.com",
+             "advocatekhoj.com", "the-laws.com", "courtbook.in",
+             "refread.com", "caseon.in", "legalindia.com")
+PSU_EMPLOYER = re.compile(r"public sector|\bPSU\b|\bbank\b|Corporation of "
+                          r"India|\bLimited\b|\bLtd\b", re.I)
+HOLD_REASON_TEXT = {
+    "news_only": "It is held back because it rests on news reports alone. "
+                 "It will return once an official copy of the court order or "
+                 "agency record is added.",
+    "v1_hcsc": "It is held back because its source has not yet been checked "
+               "to the standard a High Court or Supreme Court record needs "
+               "(V2).",
+    "psu": "It is held back because it concerns an employee of a "
+           "public-sector enterprise. Babuwatch covers the core civil "
+           "services first and will add public-sector enterprises, starting "
+           "with government banks, after that.",
+    "withdrawn_nosource": "It was withdrawn on 25 September 2026 because no "
+                          "source for it could be found.",
+    "withdrawn_acquittal": "It was withdrawn on 25 September 2026 because its "
+                           "source records an acquittal, not a finding "
+                           "against the officer.",
+}
+# Records removed from the data keep their URL as a notice page.
+WITHDRAWN = {
+    ("trial-court", "T2LC-06-002"): "withdrawn_nosource",
+    ("trial-court", "t2s-ch-002"): "withdrawn_acquittal",
+}
+
+
+def source_is_document(u):
+    """True when a URL is the court order or an official record itself:
+    a government host, a judgment repository, a hosted PDF, or an archived
+    copy of one of those."""
+    from urllib.parse import urlparse
+    p = urlparse(u)
+    host = p.netloc.lower().split(":")[0]
+    host = host[4:] if host.startswith("www.") else host
+    if host in ("web.archive.org", "archive.org"):
+        rest = p.path[1:] + ("?" + p.query if p.query else "")
+        m = re.search(r"https?://\S+", rest)
+        if m:
+            return source_is_document(m.group(0))
+        # archive.org items of Indian government orders and gazettes
+        return bool(re.search(r"/(?:download|details)/in\.(?:gov|gazette)\.",
+                              p.path))
+    if host.endswith((".gov.in", ".nic.in")) or host == "gov.in":
+        return True
+    if any(host == d or host.endswith("." + d) for d in DOC_HOSTS):
+        return True
+    path = p.path.lower()
+    # full-text copies of orders on legal databases (by path, not by host:
+    # the same hosts also carry news-style summaries)
+    if (host == "order.law" and path.startswith("/library/courts/")) or \
+            (host == "supremetoday.ai" and path.startswith("/doc/judgement/")) or \
+            (host == "research.lawsathi.in" and path.startswith("/pdf/")):
+        return True
+    return path.endswith(".pdf") or "/pdf_upload/" in path
+
+
+def record_source_urls(r):
+    out = [r.get("primary_source_url")]
+    for s in r.get("secondary_sources") or []:
+        out.append(s.get("url") if isinstance(s, dict) else s)
+    return [u.strip().split()[0] for u in out
+            if isinstance(u, str) and u.strip().startswith("http")]
+
+
+def publish_hold(r, tier):
+    """The reason a record is held off the site, or None. `tier` is
+    "hcsc" (cases.json) or "trial" (tier2 / overturned rows)."""
+    if tier == "hcsc" and str(r.get("verification_status")
+                              or "V2").strip().upper() == "V1":
+        return "v1_hcsc"
+    if not any(source_is_document(u) for u in record_source_urls(r)):
+        return "news_only"
+    if r.get("service") == "civil" and PSU_EMPLOYER.search(
+            r.get("department") or ""):
+        return "psu"
+    return None
+
+
+def held_page(rid, reason, path):
+    main = ('<section class="section"><div class="wrap"><div class="sec-head">'
+            '<div class="kicker">Record %s</div><h2>This record is not '
+            'published</h2><p>%s</p>'
+            '<p><a href="/tracker">Search the published records</a> &middot; '
+            '<a href="/methodology">How records are chosen</a></p>'
+            '</div></div></section>' % (esc(rid), esc(HOLD_REASON_TEXT[reason])))
+    return page_shell("Record not published \u2014 " + SITE_NAME,
+                      "This record is held back pending an official source.",
+                      path, main, route="/tracker",
+                      extra_head='<meta name="robots" content="noindex">')
 
 
 def _name_literals(name):
@@ -7438,7 +7700,7 @@ def write_public_csv(upstream_csv, dest, public_cases, raw_by_id=None,
         row["record_id"] = c.get("record_id") or ""
         for k in ("display_title", "display_title_redacted", "case_title",
                   "citation", "summary", "verification_note",
-                  "court_quote"):
+                  "court_quote", "outcome_type"):
             if k in row:
                 row[k] = c.get(k) or ""
         for k in ("fidelity_changes", "editor_notes"):
@@ -7644,6 +7906,34 @@ def main():
         sys.exit("BUILD REFUSED: %d scrub-residual leak(s) in public "
                  "dicts (genuine scrub bug; showing %d)"
                  % (len(_pre_bad), min(200, len(_pre_bad))))
+    # Publish holds: drop held records from every rendered set (after the
+    # scrub, which keeps their names in the patterns).
+    held = {}
+    for c in publishable:
+        why = publish_hold(c, "hcsc")
+        if why:
+            held[("incident", c.get("record_id") or c.get("merged_id"))] = why
+    for r in raw_t2:
+        why = publish_hold(r, "trial")
+        if why:
+            held[("trial-court", t2_id(r))] = why
+    held_over = {t2_id(r) for r in over_rows
+                 if isinstance(r, dict) and publish_hold(r, "trial")}
+    cases = [c for c in cases if ("incident", rec_id(c)) not in held]
+    # One outcome everywhere: page, tracker index, JSON and CSV downloads all
+    # carry the displayed code (audit follow-up 2026-09-25, finding 1).
+    for c in cases:
+        c["outcome_type"] = outcome_code(c)
+    t2public = [p for p in t2public if ("trial-court", t2_id(p)) not in held]
+    over_public = [p for p in over_public if t2_id(p) not in held_over]
+    n_overturned = len(over_public)
+    print("hold: %d HC/SC and %d trial-court records held off the site "
+          "(%s); %d set-aside rows held"
+          % (sum(1 for k in held if k[0] == "incident"),
+             sum(1 for k in held if k[0] == "trial-court"),
+             ", ".join("%s=%d" % kv for kv in
+                       sorted(Counter(held.values()).items())),
+             len(held_over)))
     SERVICE_COUNTS.update({s: 0 for s in SERVICE_WORDS})
     SERVICE_COUNTS.update(Counter((r.get("service") or "")
                                   for r in list(cases) + list(t2public)))
@@ -7670,7 +7960,8 @@ def main():
 
     # Verbatim assets + minimal additions.
     write(os.path.join(DIST, "styles.css"), orig_css + CSS_ADDITIONS
-          + (SWITCHER_CSS if SWITCHER_ON else ""))
+          + (SWITCHER_CSS if SWITCHER_ON else "")
+          + (sections.CSS if P.get("sections") else ""))
     write(os.path.join(DIST, "public-nav.js"), nav_js)
     _n1, _n2 = len(cases), len(t2public)
     write(os.path.join(DIST, "tracker.js"),
@@ -7895,7 +8186,11 @@ def main():
             continue            # rendered by its home watch; linked there
         rid = c.get("record_id") or c["merged_id"]
         main_html, desc, ld_graph = build_incident(c)
-        title = c.get("display_title") or c.get("case_title") or rid
+        title = record_page_title(c.get("display_title") or c.get("case_title")
+                                  or rid, c.get("court"),
+                                  (c.get("judgment_date") or "")[:4]
+                                  or c.get("judgment_year"),
+                                  PLATES.get(rid) or rid)
         html_out = page_shell(title + " | " + SITE_NAME, desc,
                               "/incident/%s" % rid, main_html,
                               route="/tracker", og_type="article",
@@ -7919,6 +8214,14 @@ def main():
                     % (esc(rid), esc(SITE_NAME), esc(new_url),
                        esc(new_url), esc(new_url), esc(rid)))
             write(os.path.join(DIST, "incident", mid, "index.html"), stub)
+    # Held records keep their old URLs as a noindex notice page.
+    for (kind, hid), why in sorted(list(held.items()) + list(WITHDRAWN.items())):
+        path = "/%s/%s" % (kind, hid)
+        write(os.path.join(DIST, kind, hid, "index.html"),
+              held_page(hid, why, path))
+        write(os.path.join(DIST, kind, hid, "index.md"),
+              "# This record is not published\n\nRecord %s. %s\n"
+              % (hid, HOLD_REASON_TEXT[why]))
     # Trial-court records (+ Markdown twins). The section's index and its
     # per-state listings build only when the watch wants them: owner
     # decision 2026-09-23 — Babuwatch has no Trial Courts section; the
@@ -7953,7 +8256,11 @@ def main():
             continue            # rendered by its home watch; linked there
         cid = t2_id(p)
         main_html, desc, ld_graph = build_trialcourt_record(p)
-        title = p.get("case_title_or_number") or cid
+        title = record_page_title(p.get("case_title_or_number") or cid,
+                                  p.get("trial_court_name"),
+                                  p.get("conviction_year")
+                                  or (p.get("conviction_date") or "")[:4],
+                                  PLATES.get(cid) or cid)
         html_out = page_shell(title + " | " + SITE_NAME, desc,
                               "/trial-court/%s" % cid, main_html,
                               route="/trial-court", og_type="article",
@@ -8007,6 +8314,11 @@ def main():
     write(os.path.join(DIST, "llms-full.txt"),
           llms_full_txt(cases, t2public, n_overturned))
 
+    # Sections beyond court records (engine/sections.py; copy in the
+    # profile's "sections" dict). Written before the final scrub below,
+    # so every page they produce is name-checked like the rest.
+    section_urls = sections.build(sys.modules[__name__], cases, t2public)
+
     # Sitemap + robots. All locs are served absolute URLs under BASE;
     # record URLs are noslash (/incident/CW-YYYY-NNNN): the proxy
     # strips trailing slashes with 308, so every canonical must be the
@@ -8025,6 +8337,7 @@ def main():
     if P.get("trial_section_index", True):
         urls += ["/trial-court/%s" % slugify(s) for s in sorted(t2_by_state)]
     urls += ["/trial-court/%s" % t2_id(p) for p in local_t2]
+    urls += section_urls
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for u in urls:

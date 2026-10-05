@@ -5,7 +5,7 @@
   "record_word": "records",
   "detail_label": "Attributed to the sources",
   "record_note": "This page records what the cited court, tribunal and government records say happened. Findings belong to the court or authority that made them; this register adds none of its own. Names of private individuals are withheld unless a naming gate clears them.",
-  "landing_tail": "Jailed for trading freely &mdash; crypto, foreign currency, gold, and the other things that are legal in free economies and criminal here.",
+  "landing_tail": "Penalised for trading freely &mdash; crypto, foreign currency, gold, cross-border trade and licences, activities the freest economies largely allow.",
   "stats": [
     {
       "value": "records",
@@ -6426,6 +6426,123 @@
           "publisher": "LiveLaw",
           "date": "2026-09-24",
           "supports": "business history, land claim, livelihood argument"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-mh-0010",
+      "category": "hoarding",
+      "state": "Maharashtra",
+      "district": "Mumbai City",
+      "date": "2026-09-22",
+      "date_label": "High Court judgment",
+      "incident_date": "2010-10-13",
+      "title": "Rs 11.4 crore 'overcharging' demand on a drug maker quashed: price regulator's blanket ceiling notification struck down",
+      "outcome": "penalty_set_aside",
+      "authority": "National Pharmaceutical Pricing Authority; Collector, Mumbai City (recovery as land revenue); Bombay High Court",
+      "case_reference": "Writ Petition No. 595 of 2017 (Bombay High Court); 2026:BHC-OS:20781-DB",
+      "laws": [
+        "Paragraph 9, Drugs (Price Control) Order, 1995",
+        "Section 3, Essential Commodities Act, 1955",
+        "Maharashtra Land Revenue Code, 1966 (recovery proceedings)"
+      ],
+      "acts": [
+        "Drugs (Price Control) Order, 1995",
+        "Essential Commodities Act, 1955",
+        "Maharashtra Land Revenue Code, 1966"
+      ],
+      "person": "A pharmaceutical company and its director",
+      "summary": "India's drug-price regulator, the NPPA, demanded about Rs 11.4 crore, including interest, from a company for selling an osteoarthritis tablet above a 'ceiling price' that the government had never fixed for that tablet. The claim rested on a 2009 NPPA notification applying ceilings to any formulation containing a scheduled drug. On 22 September 2026 the Bombay High Court quashed that notification entirely and barred action on the demands.",
+      "detail": [
+        "The High Court recorded that the company made 'Cartigen Forte' tablets for osteoarthritis and that the Central Government never fixed a ceiling price for that formulation. The NPPA relied on a 27 September 2007 notification fixing ceilings for multivitamin and mineral tablets, and on a 30 January 2009 notification that brought any formulation containing a scheduled drug under an existing ceiling unless the maker got a specific price fixed.",
+        "On 13 October 2010 the NPPA issued a show-cause notice proposing to recover Rs 10,97,86,227 as overcharged amount. In 2014 it recalculated the overcharge at Rs 6,33,62,316, added Rs 4,90,71,525 in interest, and issued a demand for Rs 11,42,82,631. Recovery was then pursued through the Collector as arrears of land revenue.",
+        "The Bench of Justices Manish Pitale and Shreeram V. Shirsat described the 2009 notification as 'extremely widely worded', covering formulations for which no ceiling price had been fixed, and held that the power to fix ceilings under the 1995 order lay with the Central Government through its own mechanism. It also found that interest could not run from the original demand dates, given the NPPA's own delays and an earlier demand set aside for breach of natural justice.",
+        "The court quashed the 2007 notification as applied to the company's tablet, quashed the 2009 notification in its entirety, and directed that the demand notices not be acted upon."
+      ],
+      "current_position": "Demands quashed on 22 September 2026; the 30 January 2009 NPPA notification set aside in full. Any appeal is not known.",
+      "quote": {
+        "heading": "What the High Court held",
+        "text": "since the impugned notifications dated 27.09.2007 and 30.01.2009 themselves are found liable to be set aside, the very basis for claiming that the petitioners had overcharged regarding the subject formulation is taken away",
+        "where": "Writ Petition No. 595 of 2017, judgment dated 22 September 2026, para 39",
+        "url": "https://www.livelaw.in/pdf_upload/2026/09/25/pharmed-limited-v-union-of-india-702635.pdf"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Charged for a price no one had set",
+          "text": "The company was penalised for what it charged for its own product, under a ceiling the government had never fixed for it. The demand stood over it for sixteen years."
+        }
+      ],
+      "caveats": "The company and its director are named in the judgment; this register describes them generically. The judgment does not state the company's sales volume or whether any patient complaint was involved.",
+      "sources": [
+        {
+          "url": "https://www.livelaw.in/pdf_upload/2026/09/25/pharmed-limited-v-union-of-india-702635.pdf",
+          "kind": "judgment",
+          "publisher": "Bombay High Court (copy hosted by LiveLaw)",
+          "date": "2026-09-22",
+          "supports": "the notifications, the show-cause and demand amounts, the court's reasoning and the quashing"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-mh-0011",
+      "category": "property",
+      "state": "Maharashtra",
+      "district": "Mumbai City",
+      "date": "2026-09-28",
+      "date_label": "High Court judgment",
+      "incident_date": null,
+      "title": "State insurer's eviction of a family firm quashed: turning a proprietorship into the family's own company is not subletting",
+      "outcome": "quashed",
+      "authority": "Estate Officer, The Oriental Insurance Company Ltd; Bombay City Civil Court; Bombay High Court",
+      "case_reference": "Writ Petition No. 1158 of 2002 (Bombay High Court), 2026:BHC-AS:39394; Estate Officer Notice Nos. 17 and 17(a) of 1994; Miscellaneous Appeal No. 120 of 1998",
+      "laws": [
+        "Public Premises (Eviction of Unauthorised Occupants) Act, 1971",
+        "Section 5 of the Public Premises Act (as amended in 2015)"
+      ],
+      "acts": [
+        "Public Premises (Eviction of Unauthorised Occupants) Act, 1971"
+      ],
+      "person": "A family-run refrigeration and engineering business and its proprietor's heirs",
+      "penalty": "Eviction decree of the Estate Officer dated 30 September 1998, confirmed on 31 January 2002; quashed on 28 September 2026",
+      "summary": "A family business had rented two rooms in a Fort, Mumbai building since before 1947. The building later passed to a state-owned general insurer, whose Estate Officer ordered the family evicted in 1998 as 'unauthorised occupants'. The only ground was that the original proprietorship had been turned into a partnership and then a private company. On 28 September 2026, 24 years after the writ petition was filed, the Bombay High Court quashed the eviction.",
+      "detail": [
+        "The High Court recorded that the premises were let before 1947 to a proprietorship concern, which became a partnership with the proprietor's sons and, by a deed of assignment in 1971, a private limited company of the same family. The insurer argued this was subletting, since the assignment came after the General Insurance (Emergency Provisions) Act, 1971 took effect.",
+        "The Estate Officer passed an eviction order on 30 September 1998, which the Principal Judge of the Bombay City Civil Court confirmed on 31 January 2002. The family filed the writ petition in 2002.",
+        "Justice Rajesh S. Patil held that no third person had ever been brought into the firm or the company, that the tenant had not parted with possession for profit, and that the 2015 amendment changing 'may' to 'shall' in Section 5 of the Public Premises Act applies only prospectively.",
+        "The court quashed both the Estate Officer's decree and the City Civil Court's judgment, ordered the return of the family's bank guarantees, and refused the insurer's request to stay the judgment."
+      ],
+      "current_position": "Eviction quashed on 28 September 2026; a stay pending appeal was refused. Any appeal to the Supreme Court is not known.",
+      "quote": {
+        "heading": "What the High Court held",
+        "text": "as there was no sub-letting, the petitioners can't be called as “Unauthorised Occupants” under the provision of P. P. Act",
+        "where": "Writ Petition No. 1158 of 2002, judgment pronounced 28 September 2026, para 28",
+        "url": "https://www.livelaw.in/pdf_upload/2026/10/02/ms-economy-engineering-co-v-ms-the-oriental-insurance-co-ltd-703960.pdf"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Evicted for reorganising your own business",
+          "text": "A public-sector landlord used its own Estate Officer to evict a tenant for changing the legal form of a family business. The family spent 28 years under the eviction order before it was quashed."
+        }
+      ],
+      "caveats": "The firm and the family are named in the judgment; this register describes them generically. The insurer is a public-sector company and its Estate Officer acts under statute. LiveLaw reported the date as 3 October 2026; the judgment was pronounced on 28 September 2026.",
+      "sources": [
+        {
+          "url": "https://www.livelaw.in/pdf_upload/2026/10/02/ms-economy-engineering-co-v-ms-the-oriental-insurance-co-ltd-703960.pdf",
+          "kind": "judgment",
+          "publisher": "Bombay High Court (copy hosted by LiveLaw)",
+          "date": "2026-09-28",
+          "supports": "the tenancy history, the eviction orders, the reasoning and the quashing"
+        },
+        {
+          "url": "https://www.livelaw.in/high-court/bombay-high-court/conversion-proprietorship-family-owned-private-limited-company-not-subletting-552922",
+          "kind": "news",
+          "publisher": "LiveLaw",
+          "date": "2026-10-03",
+          "supports": "report of the judgment"
         }
       ],
       "verification": "V2"

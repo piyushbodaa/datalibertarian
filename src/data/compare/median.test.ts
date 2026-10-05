@@ -89,6 +89,14 @@ describe("desk-median of GOLD compare peers", () => {
     assert.deepEqual(peer.money, before);
   });
 
+  it("keeps salary-only and running-cost-only figures out of the police total (audit 23-24)", () => {
+    const police = peersForField("layer", "state", "police-functional", "2026-27", "be").map((p) => p.slug);
+    assert.ok(!police.includes("telangana"), "Telangana object-010 pay lines are not a police total");
+    assert.ok(!police.includes("odisha"), "Odisha 2055-only is not a 2055 + 4055 total");
+    const salaries = peersForField("layer", "state", "obj-01", "2026-27", "be").map((p) => p.slug);
+    assert.ok(salaries.includes("telangana"), "Telangana pay lines compare as salaries");
+  });
+
   it("uses only tier === gold and never INDEX slugs", () => {
     const peers = peersForField("layer", "state", "police-functional", "2026-27", "be");
     assert.ok(peers.length >= 2);

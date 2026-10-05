@@ -6,6 +6,14 @@
 <title>Data Libertarian &mdash; public registers of the Indian state</title>
 <meta name="description" content="Public registers of what the Indian state spends and whom it punishes: court-adjudicated records against public servants, victimless crimes, civil liberties, economic freedom and public enterprises, each entry attributed to its source.">
 <meta name="theme-color" content="#F7F5EF">
+<link rel="canonical" href="https://datalibertarian.in/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Data Libertarian">
+<meta property="og:title" content="Data Libertarian &mdash; public registers of the Indian state">
+<meta property="og:description" content="Court records against public servants, prosecutions for victimless acts and speech, economic-freedom cases, public enterprises and government spending &mdash; each entry attributed to its source.">
+<meta property="og:url" content="https://datalibertarian.in/">
+<meta property="og:image" content="https://datalibertarian.in/social-preview.png">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -33,12 +41,29 @@ a{color:inherit}
 .mast nav{display:flex;gap:18px;flex-wrap:wrap}
 .mast nav a{font:500 13px/1 var(--sans);color:var(--ink-2);text-decoration:none}
 .mast nav a:hover{color:var(--stamp)}
+.mnav{display:none;position:relative}
+.mnav summary{list-style:none;cursor:pointer;font:600 13px/1 var(--sans);border:1.5px solid var(--ink);padding:8px 12px}
+.mnav summary::-webkit-details-marker{display:none}
+.mnav[open] summary{background:var(--ink);color:var(--paper)}
+.mnav nav{position:absolute;right:0;top:40px;z-index:5;background:var(--card);border:1px solid var(--line);padding:12px 16px;display:flex;flex-direction:column;gap:12px;min-width:210px;box-shadow:0 8px 24px rgba(18,21,28,.12)}
+.find-search{margin:18px 0 6px;max-width:720px}
+.find-search label{display:block;font-size:13.5px;font-weight:600;margin-bottom:6px}
+.find-search div{display:flex;gap:0}
+.find-search input{flex:1;min-width:0;height:48px;padding:0 14px;border:1.5px solid var(--ink);border-right:0;background:#fff;font:400 16px var(--sans);color:var(--ink)}
+.find-search button{height:48px;padding:0 20px;border:1.5px solid var(--ink);background:var(--ink);color:var(--paper);font:600 15px var(--sans);cursor:pointer}
+.find-search button:hover{background:var(--stamp);border-color:var(--stamp)}
+.find-search input:focus-visible{outline:2px solid var(--stamp);outline-offset:0}
+.tools{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;padding:18px 0 4px}
+.tool{display:block;border:1px solid var(--line);background:var(--card);padding:14px 15px;text-decoration:none}
+.tool:hover{border-color:var(--ink)}
+.tool b{display:block;font:600 16.5px/1.25 var(--serif)}
+.tool span{display:block;font-size:13px;color:var(--ink-2);margin-top:4px}
 
 /* hero */
 .hero{padding:44px 0 40px}
 .hero .wrap{display:grid;grid-template-columns:repeat(8,1fr);gap:24px;align-items:start}
 .hero-text{grid-column:1 / span 5}
-.hero h1{font:600 clamp(34px,5.2vw,58px)/1.06 var(--serif);letter-spacing:-.015em;margin:14px 0 18px}
+.hero h1{font:600 clamp(34px,5.2vw,58px)/1.06 var(--serif);letter-spacing:-.015em;margin:14px 0 18px;text-wrap:balance}
 .hero p{font-size:17px;color:var(--ink-2);max-width:36em;margin:0}
 .hero .cta{margin-top:24px;display:flex;gap:12px;flex-wrap:wrap}
 .btn{display:inline-block;font:600 14px/1 var(--sans);padding:12px 16px;border:1.5px solid var(--ink);text-decoration:none}
@@ -54,6 +79,15 @@ a{color:inherit}
 .tally tr.total td.n{font-size:18px;font-weight:600;text-decoration:underline double;text-underline-offset:5px}
 .tally tr.sub td{color:var(--dim);border-bottom:0;font-size:13px;padding-top:12px}
 .tally .note{font-size:12px;color:var(--dim);margin-top:10px}
+
+/* demo video */
+.demo{padding:8px 0 8px}
+.demo-box{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,3fr);gap:24px;align-items:center}
+.demo video{display:block;width:100%;aspect-ratio:16/9;background:var(--ink);border:1px solid var(--line)}
+.demo h2{font:600 26px/1.15 var(--serif);margin:6px 0 10px}
+.demo p{margin:0;color:var(--ink-2);font-size:14.5px}
+.demo ol{margin:12px 0 0;padding-left:20px;color:var(--ink-2);font-size:14px}
+.demo li{margin:3px 0}
 
 /* section heads */
 .sec{padding:40px 0 8px}
@@ -103,6 +137,8 @@ footer a{color:var(--ink-2)}
 a:focus-visible{outline:2px solid var(--stamp);outline-offset:3px}
 @media (max-width:1180px){.lat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:1020px){
+  .demo-box{grid-template-columns:1fr}
+  .tools{grid-template-columns:1fr 1fr}
   .hero-text{grid-column:1 / -1}.tally{grid-column:1 / -1}
   .row{grid-template-columns:44px 1fr auto;row-gap:4px}
   .row-desc{grid-column:2 / -1}.row-count{grid-column:2 / -1;text-align:left}.row-count b{display:inline;margin-right:6px}
@@ -111,7 +147,7 @@ a:focus-visible{outline:2px solid var(--stamp);outline-offset:3px}
 @media (max-width:620px){
   .wrap{padding:0 16px}.hero{padding:30px 0 30px}.hero p{font-size:16px}
   .lat-grid{grid-template-columns:1fr}
-  .mast nav{display:none}
+  .mast nav{display:none}.mnav{display:block}.mnav nav{display:flex}.tools{grid-template-columns:1fr}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}.case:hover{transform:none}}
 </style>
@@ -120,9 +156,10 @@ a:focus-visible{outline:2px solid var(--stamp);outline-offset:3px}
 <header class="mast">
   <div class="wrap">
     <a class="brand" href="/">Data <span>Libertarian</span></a>
-    <nav aria-label="Registers">
-      <a href="/babuwatch">Babuwatch</a><a href="/civilliberties">Civil Liberties</a><a href="/victimlesscrimes">Victimless Crimes</a><a href="/economicfreedom">Economic Freedom</a><a href="/psu">PSUs</a><a href="/education">Education</a>
+    <nav aria-label="Site">
+      <a href="/babuwatch">Babuwatch</a><a href="/civilliberties">Civil Liberties</a><a href="/victimlesscrimes">Victimless Crimes</a><a href="/economicfreedom">Economic Freedom</a><a href="/psu">PSUs</a><a href="/education">Education</a><a href="/crime">Crime</a><a href="/spending">Spending</a><a href="/inflation">Inflation</a><a href="/by-state">States</a>
     </nav>
+    <details class="mnav"><summary>Menu</summary><nav aria-label="Site (mobile)"><a href="/babuwatch">Babuwatch</a><a href="/civilliberties">Civil Liberties</a><a href="/victimlesscrimes">Victimless Crimes</a><a href="/economicfreedom">Economic Freedom</a><a href="/psu">PSUs</a><a href="/education">Education</a><a href="/crime">Crime</a><a href="/spending">Spending</a><a href="/inflation">Inflation</a><a href="/by-state">States</a><a href="/changes">What changed</a></nav></details>
   </div>
 </header>
 <div class="wrap"><hr class="dbl"></div>
@@ -131,11 +168,12 @@ a:focus-visible{outline:2px solid var(--stamp);outline-offset:3px}
 <section class="hero">
   <div class="wrap">
     <div class="hero-text">
-      <div class="kicker">A public register of the Indian state</div>
-      <h1>Every rupee, every post, every station.</h1>
-      <p>Who the state punished, for what, and on whose word &mdash; built from court records and official books.
-        Every entry is attributed to the court or agency that decided it, and every figure links to its source.</p>
-      <div class="cta"><a class="btn solid" href="#latest">See the latest cases</a><a class="btn" href="/babuwatch/tracker">Search Babuwatch</a></div>
+      <div class="kicker">From court records and official books</div>
+      <h1>The Indian state, on the record.</h1>
+      <p>Officials the courts have found against. People arrested, charged or penalised for speaking, worshipping,
+        trading, or private choices that harm no one. The businesses the state owns and the money it spends.
+        Every entry names the court or agency that decided it and links to its source.</p>
+      <div class="cta"><a class="btn solid" href="#find-h">Find something</a><a class="btn" href="#latest">See the latest cases</a><a class="btn" href="/by-state">Browse by state</a></div>
     </div>
     <aside class="tally" aria-label="Records on the registers">
       <h2>On the registers today</h2>
@@ -145,9 +183,52 @@ a:focus-visible{outline:2px solid var(--stamp);outline-offset:3px}
   </div>
 </section>
 
+<section class="sec demo" aria-labelledby="demo-h">
+  <div class="wrap">
+    <div class="demo-box">
+      <video controls preload="metadata" playsinline poster="/demo/tour.jpg" aria-describedby="demo-d">
+        <source src="/demo/tour.mp4" type="video/mp4">
+        Your browser cannot play this video. <a href="/demo/tour.mp4">Download the film (MP4, 5 MB)</a>.
+      </video>
+      <div>
+        <div class="kicker">The short film</div>
+        <h2 id="demo-h">What this site does, in under a minute</h2>
+        <p id="demo-d">48 seconds, with captions on screen, so it works with the sound off. It covers:</p>
+        <ol>
+          <li>Why the rape figure most reports quote is less than half the count</li>
+          <li>The four case registers and what is on them today</li>
+          <li>Babuwatch: court findings against public servants</li>
+          <li>Search, court records, crime figures, your state and budgets</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec find" aria-labelledby="find-h">
+  <div class="wrap">
+    <div class="sec-head"><div><div class="kicker">Start here</div><h2 id="find-h">What do you want to find?</h2></div>
+      <p>Search everything, or pick a way in.</p></div>
+    <form class="find-search" role="search" action="/search" method="get">
+      <label for="find-q">Search court records, registers, crime, budgets and prices</label>
+      <div><input id="find-q" name="q" type="search" placeholder="A state, a law, an official post, a budget line&hellip;" enterkeyhint="search"><button type="submit">Search</button></div>
+    </form>
+    <div class="tools">
+      <a class="tool" href="/by-state"><b>Explore my state</b><span>Spending, crime, court records and registers for one state or union territory.</span></a>
+      <a class="tool" href="/babuwatch/tracker"><b>Find a court record</b><span>Findings against police officers and civil servants, by state, court and outcome.</span></a>
+      <a class="tool" href="/spending"><b>See government spending</b><span>Union, state, city and village budgets, from their own books.</span></a>
+      <a class="tool" href="/crime"><b>Compare crime figures</b><span>What the police registered, state by state, and how to read it.</span></a>
+      <a class="tool" href="/inflation"><b>Explore prices</b><span>Official price indices and retail prices, with dates.</span></a>
+      <a class="tool" href="/civilliberties"><b>See who was punished for speaking</b><span>Arrests and prosecutions for speech, religion and other freedoms.</span></a>
+      <a class="tool" href="/psu"><b>See what the government owns</b><span>Businesses run by the Union and the states.</span></a>
+      <a class="tool" href="/changes"><b>What changed</b><span>New records, updated outcomes and newly read books, newest first.</span></a>
+    </div>
+  </div>
+</section>
+
 <section class="sec" aria-labelledby="reg-h">
   <div class="wrap">
-    <div class="sec-head"><div><div class="kicker">The registers</div><h2 id="reg-h">Six ledgers, one standard of proof</h2></div>
+    <div class="sec-head"><div><div class="kicker">The registers</div><h2 id="reg-h">Five ledgers, one standard of proof</h2></div>
       <p>Pick a register to see its dashboard, every record and the method behind it.</p></div>
     <ol class="ledger">
       <li><a class="row" href="/babuwatch"><span class="row-no">01</span><span class="row-name">Babuwatch</span>
@@ -165,17 +246,40 @@ a:focus-visible{outline:2px solid var(--stamp);outline-offset:3px}
       <li><a class="row" href="/psu"><span class="row-no">05</span><span class="row-name">PSUs</span>
         <span class="row-desc">Government, Inc.: every business the state runs &mdash; central, state, banks, insurers and the rest.</span>
         <span class="row-count"><!--@count:psu-->enterprises<!--@/count:psu--></span><span class="row-go" aria-hidden="true">&rarr;</span></a></li>
-      <li><a class="row" href="/education"><span class="row-no">06</span><span class="row-name">Education</span>
-        <span class="row-desc">Who runs India&rsquo;s schools and who fills them: government, aided and private schools, students and teachers, state by state.</span>
-        <span class="row-count"><!--@count:education-->schools<!--@/count:education--></span><span class="row-go" aria-hidden="true">&rarr;</span></a></li>
     </ol>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="crime-h">
+  <div class="wrap">
+    <div class="sec-head"><div><div class="kicker">Crime in India</div><h2 id="crime-h">What the police registered, read properly</h2></div>
+      <p>Counts, rates, states, cities and courts from the National Crime Records Bureau&rsquo;s 2024 tables. Every figure links to the table it came from.</p></div>
+    <div class="tools">
+      <a class="tool" href="/crime/rape"><b>Rape</b><span>72,849 FIRs in 2024. Most reports quote 29,536, which leaves out child rape filed under POCSO.</span></a>
+      <a class="tool" href="/crime/murder"><b>Murder</b><span>27,049 cases in 2024. One in three began as a dispute.</span></a>
+      <a class="tool" href="/crime/stealing"><b>Theft and robbery</b><span>6.2 lakh thefts in 2024. Delhi registered nearly a third of them.</span></a>
+      <a class="tool" href="/crime"><b>All crime</b><span>Every head, 2022 to 2024, and how to read a crime figure.</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="spend-h">
+  <div class="wrap">
+    <div class="sec-head"><div><div class="kicker">Spending and prices</div><h2 id="spend-h">What the state spends, from its own books</h2></div>
+      <p>Budget figures taken line by line from official budget documents, each with its citation. An empty cell means not yet read, never zero.</p></div>
+    <div class="tools">
+      <a class="tool" href="/spending"><b>Spending overview</b><span>Union, state, city and village books in one place.</span></a>
+      <a class="tool" href="/compare"><b>Compare two governments</b><span>Side by side, only where the accounting scope matches.</span></a>
+      <a class="tool" href="/states"><b>State police budgets</b><span>What each state's own books print for its police.</span></a>
+      <a class="tool" href="/inflation"><b>Inflation</b><span>Official price indices and government-observed retail prices, with dates.</span></a>
+    </div>
   </div>
 </section>
 
 <section class="sec" id="latest" aria-labelledby="latest-h">
   <div class="wrap">
     <div class="sec-head"><div><div class="kicker">Most recent cases</div><h2 id="latest-h">Latest from the registers</h2></div>
-      <p>The newest records in each register. Findings belong to the court or agency that made them; open a card for the full record and its sources.</p></div>
+      <p>The newest records in each register, by the date of the court order or event, not the day we added them. Findings belong to the court or agency that made them. <a href="/changes">See what changed &rarr;</a></p></div>
     <div class="lat-grid"><!--@latest--><div class="lat-col"><div class="lat-head"><span class="lat-blurb">Latest cases are added when the site is built.</span></div></div><!--@/latest--></div>
   </div>
 </section>
