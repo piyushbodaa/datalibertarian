@@ -31,6 +31,8 @@ ROOT = os.path.dirname(ENGINE_DIR)          # babuwatch/ (profiles, data, templa
 HERE = ROOT
 sys.path.insert(0, ROOT)
 import profiles                                                   # noqa: E402
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import sections                                                   # noqa: E402
 
 
 def _load_json(path, default):
@@ -7958,7 +7960,8 @@ def main():
 
     # Verbatim assets + minimal additions.
     write(os.path.join(DIST, "styles.css"), orig_css + CSS_ADDITIONS
-          + (SWITCHER_CSS if SWITCHER_ON else ""))
+          + (SWITCHER_CSS if SWITCHER_ON else "")
+          + (sections.CSS if P.get("sections") else ""))
     write(os.path.join(DIST, "public-nav.js"), nav_js)
     _n1, _n2 = len(cases), len(t2public)
     write(os.path.join(DIST, "tracker.js"),
@@ -8311,6 +8314,11 @@ def main():
     write(os.path.join(DIST, "llms-full.txt"),
           llms_full_txt(cases, t2public, n_overturned))
 
+    # Sections beyond court records (engine/sections.py; copy in the
+    # profile's "sections" dict). Written before the final scrub below,
+    # so every page they produce is name-checked like the rest.
+    section_urls = sections.build(sys.modules[__name__], cases, t2public)
+
     # Sitemap + robots. All locs are served absolute URLs under BASE;
     # record URLs are noslash (/incident/CW-YYYY-NNNN): the proxy
     # strips trailing slashes with 308, so every canonical must be the
@@ -8329,6 +8337,7 @@ def main():
     if P.get("trial_section_index", True):
         urls += ["/trial-court/%s" % slugify(s) for s in sorted(t2_by_state)]
     urls += ["/trial-court/%s" % t2_id(p) for p in local_t2]
+    urls += section_urls
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for u in urls:
