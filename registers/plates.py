@@ -8,7 +8,10 @@
 
 District codes come from rto-codes.json (parsed from Wikipedia's "List of Regional Transport Office
 districts in India", CC BY-SA). Numbers are assigned once and stored in plates.json, so a record keeps
-its number for ever; new records get the next free serial. Andhra Pradesh has issued one statewide code
+its number for ever; new records get the next free serial. If a number is found to be wrong (the
+record's district was corrected, or the district was mis-matched), the record is renumbered and the old
+number is kept as "retired:<record id>" so it is never issued to another case; registers/test_plates.py
+fails whenever a number disagrees with its record. Andhra Pradesh has issued one statewide code
 (AP-39) since 2019, so its records carry AP 39.
 """
 import json
@@ -39,11 +42,30 @@ ALIASES = {
     "khordha": "khurda", "ahilyanagar": "ahmednagar", "kachchh": "kutch", "sahibzada ajit singh nagar": "mohali",
     "sas nagar": "mohali", "sepahijala": "bishramganj", "gautam buddh nagar": "noida", "gautam buddha nagar": "noida",
     "ysr kadapa": "kadapa", "spsr nellore": "nellore", "ntr": "vijayawada", "prayagraj": "prayagraj",
-    "ferozepur": "firozpur", "viluppuram": "villupuram", "thiruvarur": "tiruvarur", "narmadapuram": "hoshangabad",
-    "pudukkottai": "pudukottai", "kendujhar": "keonjhar", "thiruvallur": "tiruvallur", "gulbarga": "kalaburagi",
-    "shaheed bhagat singh nagar": "nawanshahr", "sakti": "sakti",
+    "ferozepur": "ferozpur", "firozpur": "ferozpur", "viluppuram": "villupuram", "thiruvarur": "tiruvarur",
+    "narmadapuram": "hoshangabad", "pudukkottai": "pudukottai", "kendujhar": "keonjhar", "thiruvallur": "tiruvallur",
+    "gulbarga": "kalaburagi", "shaheed bhagat singh nagar": "nawanshahar", "nawanshahr": "nawanshahar",
+    "sakti": "sakti", "roopnagar": "rupnagar", "ropar": "rupnagar", "hubli": "dharwad", "hubballi": "dharwad",
+    "chickmagalur": "chikkamagaluru", "chikmagalur": "chikkamagaluru", "mangalore": "mangaluru",
+    "thiruppur": "tirupur", "chengalpet": "chengalpattu", "tirupathur": "tirupattur",
+    "balodabazar bhatapara": "baloda bazar", "devbhumi dwarka": "devbhoomi dwarka", "mahesana": "mehsana",
+    "purbi singhbhum": "east singhbhum", "palamau": "palamu", "sribhumi": "karimganj", "budaun": "badaun",
+    "deedwana": "didwana", "siricilla": "sircilla", "mahabubnagar": "mahbubnagar", "rangareddy": "ranga reddy",
+    "hazaribag": "hazaribagh", "chhota udepur": "chhota udaipur", "bagalkot": "bagalkote",
+    "chikkaballapur": "chikkaballapura",
+    # South East district (2012) was carved out of South district; the table has no separate office for it.
+    "south east delhi": "south delhi", "south east": "south delhi",
+    "north parganas": "north 24 parganas", "south parganas": "south 24 parganas",
 }
-MANUAL = {"AN": {"port blair": "AN-01"}}
+MANUAL = {
+    "AN": {"port blair": "AN-01"},
+    # Rows the parsed table mangles: Imphal East/West and the Khasi-Jaintia hills districts.
+    "MN": {"imphal west": "MN-01", "imphal east": "MN-06"},
+    "ML": {"east khasi hills": "ML-05", "west jaintia hills": "ML-04", "east jaintia hills": "ML-04"},
+}
+# A bare compass word must not pick a district: "east" is not "east garo hills".
+GENERIC = {"north", "south", "east", "west", "central", "upper", "lower", "new", "old", "hills", "the",
+           "nagar", "garo", "khasi", "jaintia", "sahib", "delhi"}
 
 
 def _norm(s):
@@ -72,8 +94,9 @@ def district_code(state, district):
     for c in cands:
         if c and c in offices:
             return offices[c]
+    whole = " ".join(words)
     for c in cands:
-        if len(c) >= 4:
+        if len(c) >= 4 and (c == whole or c not in GENERIC):
             hits = sorted(v for k, v in offices.items() if k.startswith(c) or k.split()[0] == c)
             if hits:
                 return hits[0]
