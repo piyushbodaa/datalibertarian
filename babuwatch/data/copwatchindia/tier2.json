@@ -16941,7 +16941,7 @@
   "trial_court_name": "Court of Munish Markan, Special Judge (PC Act) CBI-21, Rouse Avenue Court Complex, New Delhi",
   "case_title": "CBI v. [name withheld]",
   "case_number": "CBI No. 66/2024 (FIR No. RC 0003/2024/A/0004, CBI/ACB/New Delhi)",
-  "conviction_date": null,
+  "conviction_date": "2026-09-16",
   "conviction_year": 2026,
   "date_precision": "day",
   "incident_date": "2024-02-07",
@@ -16990,7 +16990,7 @@
   "verification_badge": "V2 · Externally reported",
   "tier_badge": "Externally reported",
   "subcategory_display": "bribery pc act",
-  "last_checked": "2026-09-19",
+  "last_checked": "2026-10-06",
   "followup_status": "checked",
   "followup_history": [
    {
@@ -16999,6 +16999,16 @@
     "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
     "result": "t2w3-33-010=holds",
     "corrections_applied": []
+   },
+   {
+    "date": "2026-10-06",
+    "scope": "Restore the trial judgment date expressly stated on the judgment cover and concluding page; the null date hid this recent conviction.",
+    "source": "https://indiankanoon.org/doc/30045334/",
+    "corrections_applied": [
+     "conviction_date",
+     "conviction_year",
+     "date_precision"
+    ]
    }
   ],
   "case_title_or_number": "CBI v. [name withheld] [name withheld]; CBI No.66/2024; RC 0003/2024/A/0004/CBI/ACB/New Delhi (Jamia Nagar FIR-46/2024 favour bribery; trap 07.02.2024)"
@@ -21760,8 +21770,8 @@
   "trial_court_name": "Special Judge, Mandi (NDPS Court)",
   "case_title": "State vs [name withheld] of Himachal Pradesh (CWP No. 6783 of 2026 with CWP No. 2077 of 2026)",
   "case_number": "CWP No. 6783 of 2026 with CWP No. 2077 of 2026",
-  "conviction_date": "2026-07-29",
-  "conviction_year": 2026,
+  "conviction_date": "2024-11-08",
+  "conviction_year": 2024,
   "date_precision": "day",
   "incident_date": "2016-02-25",
   "incident_year": 2016,
@@ -21791,10 +21801,8 @@
   "appeal_url": null,
   "source_kind": "judgment",
   "source_agency": "Himachal Pradesh High Court (writ judgment recording trial-court conviction facts; CrA 659/2024 pending, sentence suspended 02.12.2024, conviction not stayed)",
-  "primary_source_url": "https://www.livelaw.in/pdf_upload/2026/08/22/gaurav-verma-695668.pdf",
-  "secondary_sources": [
-   "https://www.livelaw.in/high-court/himachal-pradesh-high-court/hp-high-court-upholds-dismissal-police-constables-convicted-ndps-act-547050"
-  ],
+  "primary_source_url": "https://indiankanoon.org/doc/27966799/",
+  "secondary_sources": [],
   "summary": "Per the HP High Court writ judgment (CWP 6783/2026 with CWP 2077/2026, 2026:HHC:31438, decided 29.07.2026), Constable [name withheld] was convicted by the Special Judge, Mandi on 08.11.2024 under Section 20 NDPS Act in FIR 59/2016 (PS Balh; 1003 grams charas recovered) and sentenced to three years' imprisonment with Rs.25,000 fine. His criminal appeal (CrA 659/2024) is pending with only the sentence suspended; he was dismissed from service and his writ challenge failed.",
   "court_quote": "no stay has been granted on the conviction recorded by the Ld. Trial Court, which continues to subsist.",
   "confidence": "high",
@@ -21811,7 +21819,7 @@
   "verification_badge": "V2 · Externally reported",
   "tier_badge": "Externally reported",
   "subcategory_display": "other",
-  "last_checked": "2026-09-19",
+  "last_checked": "2026-10-06",
   "followup_status": "checked",
   "followup_history": [
    {
@@ -21820,6 +21828,18 @@
     "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
     "result": "t2w3-37-001=holds",
     "corrections_applied": []
+   },
+   {
+    "date": "2026-10-06",
+    "scope": "Use the 8 November 2024 trial conviction date quoted in paragraph 20 of the High Court judgment, not the July 2026 writ date. Replace a name-bearing source filename with the same court judgment at a numeric URL.",
+    "source": "https://indiankanoon.org/doc/27966799/",
+    "corrections_applied": [
+     "conviction_date",
+     "conviction_year",
+     "date_precision",
+     "primary_source_url",
+     "secondary_sources"
+    ]
    }
   ],
   "case_title_or_number": "State v. [name withheld] (FIR No. 59/2016, Police Station Balh, District Mandi)"
@@ -29678,8 +29698,8 @@
   "trial_court_name": "Enquiry Commissioner and Special Judge, Kozhikode",
   "case_title": "K. Ibrahim vs Dy.S.P., Vigilance & Anti-Corruption Bureau",
   "case_number": "Crl.A.No.1670 of 2013; trial C.C.No.19/2005 (Enquiry Commissioner & Special Judge, Kozhikode)",
-  "conviction_date": "2026-01-21",
-  "conviction_year": 2026,
+  "conviction_date": "2013-11-19",
+  "conviction_year": 2013,
   "date_precision": "day",
   "incident_date": "2003-05-12",
   "incident_year": 2003,
@@ -29732,7 +29752,7 @@
   "verification_badge": "V2 · Externally reported",
   "tier_badge": "Externally reported",
   "subcategory_display": "bribery pc act",
-  "last_checked": "2026-09-19",
+  "last_checked": "2026-10-06",
   "followup_status": "checked",
   "followup_history": [
    {
@@ -29741,6 +29761,16 @@
     "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
     "result": "t2w2-07-005=holds",
     "corrections_applied": []
+   },
+   {
+    "date": "2026-10-06",
+    "scope": "Use the trial conviction date from the High Court judgment, not the 21 January 2026 appeal decision.",
+    "source": "https://indiankanoon.org/doc/130490866/",
+    "corrections_applied": [
+     "conviction_date",
+     "conviction_year",
+     "date_precision"
+    ]
    }
   ],
   "case_title_or_number": "State (VACB) vs K. Ibrahim — CC No.19/2005 (Rs 3,000 bribe extorted from autorickshaw driver)"
@@ -29760,7 +29790,7 @@
   },
   "verified_by": "t2mverify-chunk-038",
   "verified_at": "2026-09-18T11:00:00Z",
-  "verdict_note": "PTI report confirms Kozhikode Vigilance Court (Judge Shibu Thomas) convicted CPO [name withheld] on 30 Jan 2026 (3y+Rs 25k s.7; 4y+Rs 25k s.13(2)) for Rs 5,000 bribe in 2017 Thenhipalam forgery case; caught taking balance Rs 3,000.",
+  "verdict_note": "PTI report confirms Kozhikode Vigilance Court (Judge Shibu Thomas) convicted CPO [name withheld] on 30 Jan 2026 (3y+Rs 25k s.7; 4y+Rs 25k s.13(2)) for Rs 5,000 bribe in 2017 Thenhipalam forgery case; caught taking balance Rs 3,000. Official VACB release checked 6 October 2026: seven years is the aggregate across concurrent counts, not the maximum term.",
   "state": "Kerala",
   "district": "Malappuram",
   "court": "Vigilance Court, Kozhikode",
@@ -29798,10 +29828,12 @@
   "sentence_max_years": 4,
   "appeal_status": "none_known",
   "appeal_url": null,
-  "source_kind": "news",
-  "source_agency": null,
-  "primary_source_url": "https://www.devdiscourse.com/article/law-order/3788153-civil-police-officer-sentenced-to-four-years-rigorous-imprisonment-in-bribery-case",
-  "secondary_sources": [],
+  "source_kind": "press_release",
+  "source_agency": "Kerala Vigilance and Anti-Corruption Bureau",
+  "primary_source_url": "https://vigilance.kerala.gov.in/storage/pressreleases/tD7wqjTDthlPbWhsi4ixaZ6lCd1Dd6tlBj161mYU.pdf",
+  "secondary_sources": [
+   "https://www.devdiscourse.com/article/law-order/3788153-civil-police-officer-sentenced-to-four-years-rigorous-imprisonment-in-bribery-case"
+  ],
   "summary": "Kozhikode Vigilance Court Judge Shibu Thomas convicted civil police officer [name withheld] of demanding and accepting a bribe in a 2017 Thenhipalam forgery case he was handling. [name withheld] threatened to implicate the complainant's wife as an accused, forcibly collected Rs 2,000 initially, and was caught red-handed by the VACB Northern Range team while accepting the remaining Rs 3,000 of the Rs 5,000 demand. The court found him guilty under two sections of the Prevention of Corruption Act and imposed four years' rigorous imprisonment with Rs 50,000 total fine.",
   "court_quote": "Shibu Thomas on Friday found [name withheld] guilty under two sections of the Prevention of Corruption Act.",
   "confidence": "high",
@@ -29818,7 +29850,7 @@
   "verification_badge": "V1 · Provenance checked — internal only",
   "tier_badge": null,
   "subcategory_display": "bribery pc act",
-  "last_checked": "2026-09-19",
+  "last_checked": "2026-10-06",
   "followup_status": "checked",
   "followup_history": [
    {
@@ -29827,6 +29859,18 @@
     "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
     "result": "t2-11-002=holds",
     "corrections_applied": []
+   },
+   {
+    "date": "2026-10-06",
+    "scope": "Add the official Kerala VACB release as primary evidence. The release totals seven years across counts and explicitly says sentences run concurrently; it does not establish a seven-year maximum term. Existing maximum term retained from the separately cited news account.",
+    "source": "https://vigilance.kerala.gov.in/storage/pressreleases/tD7wqjTDthlPbWhsi4ixaZ6lCd1Dd6tlBj161mYU.pdf",
+    "corrections_applied": [
+     "primary_source_url",
+     "secondary_sources",
+     "source_kind",
+     "source_agency",
+     "verdict_note"
+    ]
    }
   ],
   "case_title_or_number": "State (VACB) vs [name withheld] — Rs 5,000 bribe to drop action in Thenhipalam forgery case (CC number not stated)"
@@ -29847,7 +29891,7 @@
   },
   "verified_by": "t2verify-chunk-03",
   "verified_at": "2026-09-17T22:08:36Z",
-  "verdict_note": "Two independent reports confirm Kollam vigilance conviction; 4 years concurrent plus Rs 20,000 fine.",
+  "verdict_note": "Two independent reports confirm Kollam vigilance conviction; 4 years concurrent plus Rs 20,000 fine. Official VACB release checked 6 October 2026: seven years is the aggregate across concurrent counts, not the maximum term.",
   "state": "Kerala",
   "district": "Kollam",
   "court": "Special Court (Vigilance), Kollam",
@@ -29885,10 +29929,11 @@
   "sentence_max_years": 4,
   "appeal_status": "none_known",
   "appeal_url": null,
-  "source_kind": "news",
-  "source_agency": null,
-  "primary_source_url": "https://www.devdiscourse.com/article/law-order/3788495-kerala-court-sentences-ex-policeman-to-4-years-of-imprisonment-for-taking-bribe",
+  "source_kind": "press_release",
+  "source_agency": "Kerala Vigilance and Anti-Corruption Bureau",
+  "primary_source_url": "https://vigilance.kerala.gov.in/storage/pressreleases/YiC1FwylpCwkinZ1Bgx68D9gIKMkmmWNGGbbncBe.pdf",
   "secondary_sources": [
+   "https://www.devdiscourse.com/article/law-order/3788495-kerala-court-sentences-ex-policeman-to-4-years-of-imprisonment-for-taking-bribe",
    "https://techwordnews.com/ex-si-gets-4-years-in-jail-for-taking-bribe/"
   ],
   "summary": "Kollam Special Judge (Vigilance) Mohit C S convicted and sentenced former grade Sub-Inspector [name withheld] (63) for taking a bribe to release a two-wheeler involved in a road accident and issue the FIR copy. The prosecution, led by public prosecutor Siju Rajan, proved [name withheld] took Rs 1,500 for the FIR copy and Rs 2,000 for releasing the vehicle, and was caught in a vigilance trap; he had also demanded bribes for registering the crime and issuing the mahazar copy. The court noted he accepted the gratification inside the police station during duty hours and in uniform, rejecting his claim of an unblemished 30-year service record.",
@@ -29909,7 +29954,7 @@
   "verification_badge": "V1 · Provenance checked — internal only",
   "tier_badge": null,
   "subcategory_display": "bribery pc act",
-  "last_checked": "2026-09-19",
+  "last_checked": "2026-10-06",
   "followup_status": "checked",
   "followup_history": [
    {
@@ -29919,6 +29964,18 @@
     "result": "t2-11-001=holds",
     "corrections_applied": [
      "sentence"
+    ]
+   },
+   {
+    "date": "2026-10-06",
+    "scope": "Add the official Kerala VACB release as primary evidence. The release totals seven years across counts and explicitly says sentences run concurrently; it does not establish a seven-year maximum term. Existing maximum term retained from the separately cited news account.",
+    "source": "https://vigilance.kerala.gov.in/storage/pressreleases/YiC1FwylpCwkinZ1Bgx68D9gIKMkmmWNGGbbncBe.pdf",
+    "corrections_applied": [
+     "primary_source_url",
+     "secondary_sources",
+     "source_kind",
+     "source_agency",
+     "verdict_note"
     ]
    }
   ],
@@ -38571,8 +38628,8 @@
   "trial_court_name": "Special Court, Gwalior",
   "case_title": "State vs The [name withheld] of Madhya Pradesh",
   "case_number": "Writ Petition No. 6633 of 2017",
-  "conviction_date": "2026-01-14",
-  "conviction_year": 2026,
+  "conviction_date": "2016-12-30",
+  "conviction_year": 2016,
   "date_precision": "day",
   "incident_date": null,
   "incident_year": null,
@@ -38621,7 +38678,7 @@
   "verification_badge": "V2 · Externally reported",
   "tier_badge": "Externally reported",
   "subcategory_display": "bribery pc act",
-  "last_checked": "2026-09-19",
+  "last_checked": "2026-10-06",
   "followup_status": "checked",
   "followup_history": [
    {
@@ -38630,6 +38687,16 @@
     "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
     "result": "t2w3-34-014=holds",
     "corrections_applied": []
+   },
+   {
+    "date": "2026-10-06",
+    "scope": "Use the trial conviction date from paragraph 2, not the 14 January 2026 pension writ decision.",
+    "source": "https://indiankanoon.org/doc/37319908/",
+    "corrections_applied": [
+     "conviction_date",
+     "conviction_year",
+     "date_precision"
+    ]
    }
   ],
   "case_title_or_number": "State (Special Police Establishment, Lokayukta) v. [name withheld] (Special Sessions Trial No.4/2015)"
@@ -53178,7 +53245,7 @@
   "trial_court_name": "Special Court (PC Act), Nashik",
   "case_title": "ACB trap case (ref. as in list)",
   "case_number": "Nashik Taluka PS GR No. 3008/2014",
-  "conviction_date": null,
+  "conviction_date": "2026-09-11",
   "conviction_year": 2026,
   "date_precision": "day",
   "incident_date": null,
@@ -53211,7 +53278,7 @@
   "appeal_url": null,
   "source_kind": "official_list",
   "source_agency": null,
-  "primary_source_url": "https://acb.maharashtra.gov.in/storage/statistic/v0eJPUO4kUQmjS9BH4BwZ6L1YGNGSNFrLxJl9XWa.pdf",
+  "primary_source_url": "https://acb.maharashtra.gov.in/storage/statistic/3zsf4GFM62QhyNtoafdBddBAKa9ZtksdsVckAChH.pdf",
   "secondary_sources": [
    "https://acb.maharashtra.gov.in/statistics"
   ],
@@ -53235,7 +53302,7 @@
   "verification_badge": "V1 · Provenance checked — internal only",
   "tier_badge": null,
   "subcategory_display": "bribery pc act",
-  "last_checked": "2026-09-19",
+  "last_checked": "2026-10-06",
   "followup_status": "checked",
   "followup_history": [
    {
@@ -53245,6 +53312,16 @@
     "result": "t2-03-119=holds",
     "corrections_applied": [
      "sentence"
+    ]
+   },
+   {
+    "date": "2026-10-06",
+    "scope": "Restore 11 September 2026 conviction date from Maharashtra ACB 2026 list, row 19, page 4. Reconciled against latest list through 23 September; existing monetary fields and sentence wording preserved.",
+    "source": "https://acb.maharashtra.gov.in/storage/statistic/3zsf4GFM62QhyNtoafdBddBAKa9ZtksdsVckAChH.pdf",
+    "corrections_applied": [
+     "conviction_date",
+     "date_precision",
+     "primary_source_url"
     ]
    }
   ],
@@ -74777,10 +74854,10 @@
   "appeal_status": "none_known",
   "appeal_url": null,
   "source_kind": "press_release",
-  "source_agency": null,
-  "primary_source_url": "https://www.bhaskarenglish.in/national/news/madurai-court-custodial-death-case-rarest-rare-father-son-died-9-policemen-sentenced-death-tamil-nad-137629763.html",
+  "source_agency": "Central Bureau of Investigation",
+  "primary_source_url": "https://cbi.gov.in/press-detail/NzY3NQ==",
   "secondary_sources": [
-   "https://cbi.gov.in/press-detail/NzY3NQ==",
+   "https://www.bhaskarenglish.in/national/news/madurai-court-custodial-death-case-rarest-rare-father-son-died-9-policemen-sentenced-death-tamil-nad-137629763.html",
    "https://lawstreet.co/judiciary/rarest-of-rare-madurai-court-awards-death-sentence-to-9-cops-in-sathankulam-custodial-death-case",
    "https://timesofindia.indiatimes.com/city/madurai/sathankulam-custodial-deaths-nine-cops-sentenced-to-death/articleshow/130061312.cms",
    "https://www.barandbench.com/news/litigation/sathankulam-custodial-deaths-madurai-court-convicts-9-police-personnel-for-murder-of-father-son-duo",
@@ -74792,7 +74869,7 @@
    "https://www.thehindubusinessline.com/news/sathankulam-custodial-deaths-court-awards-death-penalty-to-9-police-personnel/article70831092.ece"
   ],
   "summary": "The I Additional District Judge, Madurai awarded the death penalty to nine Sathankulam police personnel, holding the custodial torture and deaths of father and son [name withheld] and [name withheld] a rarest-of-the-rare case of abuse of authority. The court found the duo were wrongfully confined on 19.06.2020 and brutally tortured on the night of 19-20 June 2020, dying on 22-23 June 2020. The CBI, which took over the case from Tamil Nadu Police, chargesheeted all nine within 90 days and examined 52 witnesses at trial. Conviction date precedes the 06.04.2026 sentencing date per the PR; death sentence is subject to mandatory High Court confirmation (status unverified).",
-  "court_quote": "The court termed it rarest of rare, a case of extreme brutality and abuse of power.",
+  "court_quote": null,
   "confidence": "high",
   "tier": "Tier A — Externally reported or officially recorded",
   "source_job": "t2-13+t2-14+t2-16+t2-17+t2-18",
@@ -74813,7 +74890,7 @@
   "verification_badge": "V2 · Externally reported",
   "tier_badge": "Externally reported",
   "subcategory_display": "custodial death",
-  "last_checked": "2026-09-19",
+  "last_checked": "2026-10-06",
   "followup_status": "checked",
   "followup_history": [
    {
@@ -74823,6 +74900,17 @@
     "result": "t2-13-003=holds, t2-14-009=holds, t2-16-001=holds, t2-17-001=wrong_facts, t2-18-010=holds",
     "corrections_applied": [
      "sections"
+    ]
+   },
+   {
+    "date": "2026-10-06",
+    "scope": "Use CBI official 6 April 2026 sentencing release as primary evidence; remove paraphrase incorrectly presented as court quote. Conviction and sentencing dates remain distinct.",
+    "source": "https://cbi.gov.in/press-detail/NzY3NQ==",
+    "corrections_applied": [
+     "primary_source_url",
+     "secondary_sources",
+     "source_agency",
+     "court_quote"
     ]
    }
   ],
@@ -84543,9 +84631,9 @@
   "trial_court_name": "Special Court (PC Act), Rajasthan",
   "case_title": "State v. [name withheld] (ASI, Bandikui police station) — bribe to release an accident-damaged motorcycle",
   "case_number": null,
-  "conviction_date": "2026-09-02",
+  "conviction_date": null,
   "conviction_year": 2026,
-  "date_precision": "day",
+  "date_precision": "unknown",
   "incident_date": null,
   "incident_year": 2021,
   "category": "corruption",
@@ -84577,7 +84665,7 @@
   "primary_source_url": "https://www.amarujala.com/rajasthan/jaipur/court-sentences-female-asi-to-3-years-in-jail-for-demanding-bribe-to-release-a-motorcycle-news-in-hindi-2026-09-02",
   "secondary_sources": [],
   "summary": "A special court for Prevention of Corruption Act cases convicted a woman Assistant Sub-Inspector, then posted at Bandikui police station, in a five-year-old bribery case and sentenced her to three years' imprisonment and a fine of Rs 10,000, Amar Ujala reported on 2 September 2026. On the complaint of an Alwar district resident to the Anti-Corruption Bureau, she was accused of demanding a bribe to release his accident-damaged motorcycle; the court found evidence that she took Rs 500 from him. This is a news account of the court's decision; the officer's name is withheld, and any later appeal is not reflected unless noted.",
-  "court_quote": "रिश्वत मांगने और शिकायतकर्ता से 500 रुपये लेने के पर्याप्त साक्ष्य मौजूद हैं",
+  "court_quote": null,
   "confidence": "medium",
   "tier": "Tier A — Externally reported or officially recorded",
   "source_job": "t2w5-41",
@@ -84585,15 +84673,29 @@
   "verification_badge": "V1 · Externally reported",
   "tier_badge": "Externally reported",
   "subcategory_display": "bribery pc act",
-  "last_checked": "2026-10-05",
+  "last_checked": "2026-10-06",
   "followup_status": "checked",
   "followup_history": [
    {
     "date": "2026-10-05",
     "scope": "Copwatch convictions sweep (5 Oct): conviction reported 02.09.2026 and missing from the site; written from the news report; officer not named."
+   },
+   {
+    "date": "2026-10-06",
+    "scope": "Remove a news reporter sentence incorrectly stored as a direct court quotation. Do not use publication date as the exact conviction date.",
+    "source": "https://www.amarujala.com/rajasthan/jaipur/court-sentences-female-asi-to-3-years-in-jail-for-demanding-bribe-to-release-a-motorcycle-news-in-hindi-2026-09-02",
+    "corrections_applied": [
+     "court_quote",
+     "conviction_date",
+     "date_precision",
+     "report_date",
+     "conviction_date_note"
+    ]
    }
   ],
-  "case_title_or_number": "State v. [name withheld] (ASI, Bandikui police station) — bribe to release an accident-damaged motorcycle"
+  "case_title_or_number": "State v. [name withheld] (ASI, Bandikui police station) — bribe to release an accident-damaged motorcycle",
+  "report_date": "2026-09-02",
+  "conviction_date_note": "reported on 2 September 2026; exact judgment date not stated"
  },
  {
   "case_id": "t2w5-41-002",
@@ -84645,7 +84747,7 @@
   "primary_source_url": "https://univarta.com/%E0%A4%AA%E0%A4%9F%E0%A4%A8%E0%A4%BE/%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF-%E0%A4%8F%E0%A4%8F%E0%A4%B8%E0%A4%86%E0%A4%88-%E0%A4%B0%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%A4-%E0%A4%B8%E0%A4%9C%E0%A4%BE/176907",
   "secondary_sources": [],
   "summary": "The Special Judge (Vigilance), Patna convicted the then Assistant Sub-Inspector of Bihta police station in Patna district under various sections of the Prevention of Corruption Act and sentenced him to three years' rigorous imprisonment and a fine of Rs 26,000, with three months more in default, the news agency UNI reported on 11 September 2026. This is a news account of the court's decision; the officer's name is withheld, and any later appeal is not reflected unless noted.",
-  "court_quote": "रिश्वत लेने के जुर्म में शुक्रवार को बिहार पुलिस के एक सहायक अवर निरीक्षक (एएसआई) को तीन वर्षों के सश्रम कारावास की सजा",
+  "court_quote": null,
   "confidence": "medium",
   "tier": "Tier A — Externally reported or officially recorded",
   "source_job": "t2w5-41",
@@ -84653,12 +84755,20 @@
   "verification_badge": "V1 · Externally reported",
   "tier_badge": "Externally reported",
   "subcategory_display": "bribery pc act",
-  "last_checked": "2026-10-05",
+  "last_checked": "2026-10-06",
   "followup_status": "checked",
   "followup_history": [
    {
     "date": "2026-10-05",
     "scope": "Copwatch convictions sweep (5 Oct): conviction reported 11.09.2026 and missing from the site; written from the news report; officer not named."
+   },
+   {
+    "date": "2026-10-06",
+    "scope": "Remove a news reporter sentence incorrectly stored as a direct court quotation.",
+    "source": "https://univarta.com/%E0%A4%AA%E0%A4%9F%E0%A4%A8%E0%A4%BE/%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF-%E0%A4%8F%E0%A4%8F%E0%A4%B8%E0%A4%86%E0%A4%88-%E0%A4%B0%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%A4-%E0%A4%B8%E0%A4%9C%E0%A4%BE/176907",
+    "corrections_applied": [
+     "court_quote"
+    ]
    }
   ],
   "case_title_or_number": "State v. [name withheld] (ASI, Bihta police station) — bribery"
@@ -84713,7 +84823,7 @@
   "primary_source_url": "https://www.patrika.com/bharatpur-news/rudawal-police-asi-bribe-case-three-year-jail-20928571",
   "secondary_sources": [],
   "summary": "A special Prevention of Corruption Act court in Bharatpur convicted the then Assistant Sub-Inspector of Rudawal police station in a 12-year-old case of illegal collection from tractor operators and sentenced him to three years' simple imprisonment and a fine of Rs 15,000, Rajasthan Patrika reported on 22 September 2026. A tractor operator whose vehicles carried stone through the Rudawal area complained on 31 October 2012 that police demanded Rs 3,000 a month, Rs 2,000 for the station head and Rs 1,000 for the ASI, as the price of not stopping the tractors. This is a news account of the court's decision; the officer's name is withheld, and any later appeal is not reflected unless noted.",
-  "court_quote": "अदालत ने आरोपी को तीन साल के साधारण कारावास के साथ 15 हजार रुपए के अर्थदंड की सजा सुनाई।",
+  "court_quote": null,
   "confidence": "medium",
   "tier": "Tier A — Externally reported or officially recorded",
   "source_job": "t2w5-41",
@@ -84721,14 +84831,168 @@
   "verification_badge": "V1 · Externally reported",
   "tier_badge": "Externally reported",
   "subcategory_display": "bribery pc act",
-  "last_checked": "2026-10-05",
+  "last_checked": "2026-10-06",
   "followup_status": "checked",
   "followup_history": [
    {
     "date": "2026-10-05",
     "scope": "Copwatch convictions sweep (5 Oct): conviction reported 22.09.2026 and missing from the site; written from the news report; officer not named."
+   },
+   {
+    "date": "2026-10-06",
+    "scope": "Remove a news reporter sentence incorrectly stored as a direct court quotation.",
+    "source": "https://www.patrika.com/bharatpur-news/rudawal-police-asi-bribe-case-three-year-jail-20928571",
+    "corrections_applied": [
+     "court_quote"
+    ]
    }
   ],
   "case_title_or_number": "State v. [name withheld] (ASI, Rudawal police station) — monthly bribes from tractor operators"
+ },
+ {
+  "case_id": "t2-20261006-001",
+  "alias_case_ids": [],
+  "verification_status": "V1",
+  "gate_status": "V1",
+  "verify_passes": {},
+  "verified_by": "source-document-review-2026-10-06",
+  "verified_at": "2026-10-06T00:00:00Z",
+  "verdict_note": "Official VACB PDF read, including visual review of both pages. Conviction established by the agency release; trial judgment, exact conviction date, case number, statutory sections, count-wise sentence and subsequent appeal outcome not verified. No independent naming keys or legal review; name withheld.",
+  "state": "Kerala",
+  "district": "Wayanad",
+  "court": "Enquiry Commissioner and Special Judge (Vigilance), Thalassery",
+  "court_level": "special_acb",
+  "trial_court_name": "Enquiry Commissioner and Special Judge (Vigilance), Thalassery",
+  "case_title": "State v. [name withheld] (Assistant Sub-Inspector, Circle Inspector office, Pulppalli, Kerala Police)",
+  "case_number": null,
+  "conviction_date": null,
+  "conviction_year": 2026,
+  "date_precision": "unknown",
+  "conviction_date_note": "official PDF dated 19 August 2026; release index dated 20 August 2026; exact judgment date not stated",
+  "report_date": "2026-08-20",
+  "incident_date": null,
+  "incident_year": null,
+  "category": "corruption",
+  "subcategory": "bribery_pc_act",
+  "raw_subcategory": "bribery_pc_act",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Assistant Sub-Inspector",
+    "unit": "Circle Inspector office, Pulppalli, Kerala Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "name": null,
+    "display": "Assistant Sub-Inspector, Circle Inspector office, Pulppalli, Kerala Police",
+    "key2_union": null,
+    "gate_reasons": [
+     "naming_keys_not_run",
+     "subsequent_history_not_verified",
+     "legal_review_not_run"
+    ]
+   }
+  ],
+  "victims": [],
+  "sections": [],
+  "sentence": "Seven years of imprisonment across counts and Rs 50,000 fine, as reported by VACB; count-wise terms and effective maximum term not stated.",
+  "sentence_type": "mixed",
+  "sentence_max_years": null,
+  "appeal_status": "unknown",
+  "appeal_url": null,
+  "source_kind": "press_release",
+  "source_agency": "Kerala Vigilance and Anti-Corruption Bureau",
+  "primary_source_url": "https://vigilance.kerala.gov.in/storage/pressreleases/hfnW1UpbGTanxOgQf9wbOpcS6VoOfIH3lSVKKc08.pdf",
+  "secondary_sources": [],
+  "summary": "Kerala VACB records that the Thalassery Vigilance Court convicted a former Assistant Sub-Inspector in the Pulppalli Circle Inspector's office for accepting a Rs 10,000 bribe after threatening to add a Gudalur complainant to a kidnapping case registered against a relative in 2016. The release describes a Rs 30,000 demand and acceptance of the first instalment in a vigilance trap. It reports seven years of imprisonment across statutory counts and a Rs 50,000 fine, but gives no count-wise terms or concurrency direction. The PDF is dated 19 August 2026 while the official release index lists 20 August; neither date is coded as the exact conviction date. Later appeal outcome is unverified.",
+  "court_quote": null,
+  "confidence": "medium",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "police-convictions-review-2026-10-06",
+  "verification_badge": "V1 · Official release; judgment not checked",
+  "tier_badge": "Officially recorded",
+  "subcategory_display": "bribery pc act",
+  "last_checked": "2026-10-06",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-10-06",
+    "scope": "Missing conviction added from official Kerala VACB release; exact trial date and appeal outcome remain unverified. Officer name withheld.",
+    "source": "https://vigilance.kerala.gov.in/storage/pressreleases/hfnW1UpbGTanxOgQf9wbOpcS6VoOfIH3lSVKKc08.pdf"
+   }
+  ],
+  "case_title_or_number": "State v. [name withheld] (Assistant Sub-Inspector, Circle Inspector office, Pulppalli, Kerala Police)"
+ },
+ {
+  "case_id": "t2-20261006-002",
+  "alias_case_ids": [],
+  "verification_status": "V1",
+  "gate_status": "V1",
+  "verify_passes": {},
+  "verified_by": "source-document-review-2026-10-06",
+  "verified_at": "2026-10-06T00:00:00Z",
+  "verdict_note": "Official VACB PDF read, including visual review of both pages. Conviction established by the agency release; trial judgment, exact conviction date, case number, statutory sections, count-wise sentence and subsequent appeal outcome not verified. No independent naming keys or legal review; name withheld.",
+  "state": "Kerala",
+  "district": "Pathanamthitta",
+  "court": "Enquiry Commissioner and Special Judge (Vigilance), Kollam",
+  "court_level": "special_acb",
+  "trial_court_name": "Enquiry Commissioner and Special Judge (Vigilance), Kollam",
+  "case_title": "State v. [name withheld] (Senior Civil Police Officer, Pathanamthitta Police Station (later Malakkappara Police Station), Kerala Police)",
+  "case_number": null,
+  "conviction_date": null,
+  "conviction_year": 2026,
+  "date_precision": "unknown",
+  "conviction_date_note": "official release dated 1 April 2026; exact judgment date not stated",
+  "report_date": "2026-04-01",
+  "incident_date": null,
+  "incident_year": null,
+  "category": "corruption",
+  "subcategory": "bribery_pc_act",
+  "raw_subcategory": "bribery_pc_act",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Senior Civil Police Officer",
+    "unit": "Pathanamthitta Police Station (later Malakkappara Police Station), Kerala Police",
+    "publish_grade": "unnamed",
+    "name_public": null,
+    "name": null,
+    "display": "Senior Civil Police Officer, Pathanamthitta Police Station (later Malakkappara Police Station), Kerala Police",
+    "key2_union": null,
+    "gate_reasons": [
+     "naming_keys_not_run",
+     "subsequent_history_not_verified",
+     "legal_review_not_run"
+    ]
+   }
+  ],
+  "victims": [],
+  "sections": [],
+  "sentence": "Seven years of rigorous imprisonment across counts and Rs 20,000 fine, as reported by VACB; count-wise terms and effective maximum term not stated.",
+  "sentence_type": "mixed",
+  "sentence_max_years": null,
+  "appeal_status": "unknown",
+  "appeal_url": null,
+  "source_kind": "press_release",
+  "source_agency": "Kerala Vigilance and Anti-Corruption Bureau",
+  "primary_source_url": "https://vigilance.kerala.gov.in/storage/pressreleases/cp9FWOm3GQbvAiPbONoC0zj9i0Sz3ofiWNoNvp0A.pdf",
+  "secondary_sources": [],
+  "summary": "Kerala VACB records that the Kollam Vigilance Court convicted a Senior Civil Police Officer, formerly at Pathanamthitta police station and later at Malakkappara, for accepting Rs 10,000 to submit a final report favourable to a complainant accused in a 2014 case. The release describes a Rs 20,000 demand and acceptance of the first instalment in a vigilance trap. It reports seven years of rigorous imprisonment across counts and a Rs 20,000 fine. The count-wise terms, concurrency and effective maximum are not stated. The official release is dated 1 April 2026; the exact conviction date and later appeal outcome remain unverified.",
+  "court_quote": null,
+  "confidence": "medium",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "police-convictions-review-2026-10-06",
+  "verification_badge": "V1 · Official release; judgment not checked",
+  "tier_badge": "Officially recorded",
+  "subcategory_display": "bribery pc act",
+  "last_checked": "2026-10-06",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-10-06",
+    "scope": "Missing conviction added from official Kerala VACB release; exact trial date and appeal outcome remain unverified. Officer name withheld.",
+    "source": "https://vigilance.kerala.gov.in/storage/pressreleases/cp9FWOm3GQbvAiPbONoC0zj9i0Sz3ofiWNoNvp0A.pdf"
+   }
+  ],
+  "case_title_or_number": "State v. [name withheld] (Senior Civil Police Officer, Pathanamthitta Police Station (later Malakkappara Police Station), Kerala Police)"
  }
 ]
