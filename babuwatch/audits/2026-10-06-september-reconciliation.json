@@ -1,0 +1,186 @@
+{
+  "as_of": "2026-10-06",
+  "period": "September 2026, including sentencing in September reported in early October",
+  "scope": "National regional-news discovery reconciled against all police HC/SC, trial and overturned data; official court and agency records required for publication. Search results are leads, not an exhaustive national census.",
+  "correction_to_previous_pass": "The two previous additions were April/August cases. They were not a count of September convictions or a completed September reconciliation.",
+  "matched_leads": [
+    {
+      "case_id": "t2w3-33-010",
+      "label": "Jamia Nagar sub-inspector bribery",
+      "conviction_date": "2026-09-16",
+      "sentence_date": null,
+      "report_date": null,
+      "status": "published",
+      "source": "https://indiankanoon.org/doc/30045334/"
+    },
+    {
+      "case_id": "t2-11-003",
+      "label": "Former Kerala DGP disproportionate-assets conviction",
+      "conviction_date": "2026-09-17",
+      "sentence_date": null,
+      "report_date": null,
+      "status": "published",
+      "source": "https://www.livelaw.in/pdf_upload/2026/09/17/9562323f-28a8-41fd-bf83-db8f780bfaee-700808.pdf"
+    },
+    {
+      "case_id": "t2-03-119",
+      "label": "Nashik Taluka head-constable bribery",
+      "conviction_date": "2026-09-11",
+      "sentence_date": null,
+      "report_date": null,
+      "status": "published",
+      "source": "https://acb.maharashtra.gov.in/storage/statistic/3zsf4GFM62QhyNtoafdBddBAKa9ZtksdsVckAChH.pdf"
+    },
+    {
+      "case_id": "t2-18-008",
+      "label": "Gomti Nagar patrol shooting",
+      "conviction_date": "2026-09-17",
+      "sentence_date": "2026-09-21",
+      "report_date": null,
+      "status": "published",
+      "source": "https://lucknow.dcourts.gov.in/wp-admin/admin-ajax.php?es_ajax_request=1&action=get_order_pdf&input_strings=eyJjaW5vIjoiVVBMSzAxMDAxODQ3MjAxOSIsIm9yZGVyX25vIjoxLCJvcmRlcl9kYXRlIjoiMjAyNi0wOS0xNyJ9"
+    },
+    {
+      "case_id": "t2w5-41-002",
+      "label": "Bihta ASI bribery",
+      "conviction_date": "2026-09-11",
+      "sentence_date": null,
+      "report_date": null,
+      "status": "news_only",
+      "source": "https://univarta.com/%E0%A4%AA%E0%A4%9F%E0%A4%A8%E0%A4%BE/%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF-%E0%A4%8F%E0%A4%8F%E0%A4%B8%E0%A4%86%E0%A4%88-%E0%A4%B0%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%A4-%E0%A4%B8%E0%A4%9C%E0%A4%BE/176907"
+    },
+    {
+      "case_id": "t2w2-11-019",
+      "label": "Dibrugarh Sadar constable murder",
+      "conviction_date": null,
+      "sentence_date": null,
+      "report_date": "2026-09-02",
+      "status": "news_only",
+      "source": "https://www.headline8.news/assam/dibrugarh-court-awards-life-sentences-to-five-convicts-in-separate-murder-cases-41982/"
+    },
+    {
+      "case_id": "t2w5-41-003",
+      "label": "Rudawal ASI bribery",
+      "conviction_date": null,
+      "sentence_date": null,
+      "report_date": "2026-09-22",
+      "status": "news_only",
+      "source": "https://www.patrika.com/bharatpur-news/rudawal-police-asi-bribe-case-three-year-jail-20928571"
+    },
+    {
+      "case_id": "t2w5-41-001",
+      "label": "Bandikui ASI bribery",
+      "conviction_date": null,
+      "sentence_date": null,
+      "report_date": "2026-09-02",
+      "status": "news_only",
+      "source": "https://www.amarujala.com/rajasthan/jaipur/court-sentences-female-asi-to-3-years-in-jail-for-demanding-bribe-to-release-a-motorcycle-news-in-hindi-2026-09-02"
+    },
+    {
+      "case_id": "t2-20261006-003",
+      "label": "Daporijo police personnel abetment of rape",
+      "conviction_date": "2026-08-26",
+      "sentence_date": "2026-09-14",
+      "report_date": "2026-10-03",
+      "status": "published",
+      "source": "https://yupia.dcourts.gov.in/wp-admin/admin-ajax.php?es_ajax_request=1&action=get_order_pdf&input_strings=eyJjaW5vIjoiQVJQUDAxMDAwMDYwMjAxMyIsIm9yZGVyX25vIjoxOCwib3JkZXJfZGF0ZSI6IjIwMjYtMDgtMjYifQ="
+    }
+  ],
+  "court_decisions_separate_from_new_trial_convictions": [
+    {
+      "record_id": "CW-2026-0096",
+      "decision_date": "2026-09-18",
+      "kind": "High Court contempt conviction; not a trial-court entry"
+    },
+    {
+      "record_id": "CW-2026-0103",
+      "decision_date": "2026-09-22",
+      "kind": "Appellate affirmance of a 2010 trial conviction; not a new September trial conviction"
+    }
+  ],
+  "changes": [
+    {
+      "case_id": "t2-18-008",
+      "reason": "Official Sessions Court, Lucknow judgment of 17 September and sentencing order of 21 September obtained from court portal. Replace news-only evidence, allowing this existing record to publish without changing any officer naming grade.",
+      "fields": [
+        "primary_source_url",
+        "secondary_sources",
+        "source_kind",
+        "source_agency",
+        "court",
+        "trial_court_name",
+        "case_number",
+        "case_title_or_number",
+        "incident_date",
+        "sections",
+        "sentence_date",
+        "sentence",
+        "summary",
+        "appeal_status",
+        "court_quote",
+        "verdict_note"
+      ]
+    },
+    {
+      "case_id": "t2w2-11-019",
+      "reason": "The cited news account states a publication date but no exact pronouncement date. Do not count publication day as the conviction day; official judgment still needed.",
+      "fields": [
+        "conviction_date",
+        "report_date",
+        "date_precision",
+        "conviction_date_note",
+        "court_quote"
+      ]
+    },
+    {
+      "case_id": "t2w5-41-003",
+      "reason": "The cited news account states a publication date but no exact pronouncement date. Do not count publication day as the conviction day; official judgment still needed.",
+      "fields": [
+        "conviction_date",
+        "report_date",
+        "date_precision",
+        "conviction_date_note",
+        "court_quote"
+      ]
+    }
+  ],
+  "added": [
+    "t2-20261006-003"
+  ],
+  "source_evidence": {
+    "yupia-judgment.pdf": {
+      "sha256": "115baafabff45affc174f959df96eb255341223372c94573fc73223ceffad72c"
+    },
+    "yupia-sentence.pdf": {
+      "sha256": "f8cea2b6f34015e430595f2a50a787a2ea6d5c072eb13aa951603c9c4ed214e5"
+    },
+    "lucknow-judgment.pdf": {
+      "sha256": "4ba9d25e19a2f61fb6fc7b305e4d5f678e772a15e3dfc9fa040b6eab43936e7a"
+    },
+    "lucknow-sentence.pdf": {
+      "sha256": "7ea2991cadd5f8f5a4faaceba844a68e57a48ca4774ffeb45bca13f2263ff4da"
+    }
+  },
+  "remaining_gaps": [
+    "Dibrugarh, Bihta, Rudawal and Bandikui still need usable official documents; naming and source gates are preserved.",
+    "Bihta lookup identifier reported by news: Special Case 44/2011 / Vigilance FIR 60/2011. Court case-number search returned no orders; not promoted from news to official evidence.",
+    "News-only leads are retained as held records. New sources or names are not invented to force publication.",
+    "Conviction, sentencing, publication, and appellate dates must be compared separately.",
+    "A headline about five Dibrugarh murder convicts identifies only one as police; the other defendants are not counted as police on that evidence."
+  ],
+  "other_reports_not_counted_as_september_convictions": [
+    {
+      "label": "Varanasi report about 22 government employees",
+      "source": "https://www.amarujala.com/uttar-pradesh/varanasi/varanasi-court-sentenced-22-government-employees-to-terms-ranging-from-three-to-five-years-for-accepting-bribe-2026-09-12",
+      "reason": "Retrospective feature spanning cases over several years and mixing civil officials with police; it does not establish 22 police convictions in September. Its SI bribery facts appear to match the already-held 29 September 2025 record t2w2-01-015; this is an inferred match, not a new conviction dated from the article."
+    }
+  ],
+  "validation": {
+    "babuwatch_tests": 54,
+    "result": "passed",
+    "internal_link_pages_checked": 6471,
+    "broken_internal_links": 0,
+    "naming": "All existing officer objects unchanged; new officer withheld; no victim or co-accused identifiers in new row.",
+    "maharashtra": "Every existing Maharashtra record unchanged."
+  }
+}

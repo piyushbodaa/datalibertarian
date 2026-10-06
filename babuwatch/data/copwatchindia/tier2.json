@@ -2672,9 +2672,9 @@
   "trial_court_name": "Additional District and Sessions Judge, Dibrugarh",
   "case_title": "State vs [name withheld]",
   "case_number": null,
-  "conviction_date": "2026-09-02",
+  "conviction_date": null,
   "conviction_year": 2026,
-  "date_precision": "day",
+  "date_precision": "unknown",
   "incident_date": null,
   "incident_year": null,
   "category": "brutality",
@@ -2711,7 +2711,7 @@
   "primary_source_url": "https://www.headline8.news/assam/dibrugarh-court-awards-life-sentences-to-five-convicts-in-separate-murder-cases-41982/",
   "secondary_sources": [],
   "summary": "The Additional District and Sessions Judge, Dibrugarh convicted Assam Police constable [name withheld] of murdering his [name withheld] by shooting her with his official service carbine inside Dibrugarh Sadar police station premises, sentencing him to life imprisonment. The verdict was among five life sentences delivered together by the court, reported on 2 September 2026 (report date used as conviction date).",
-  "court_quote": "Among the convicts is police constable [name withheld], who was found guilty of killing his [name withheld]. After examining the evidence and proceedings, the court convicted [name withheld] of murder and sentenced him to life imprisonment.",
+  "court_quote": null,
   "confidence": "medium",
   "tier": "Tier A — Externally reported or officially recorded",
   "source_job": "t2w2-11",
@@ -2726,7 +2726,7 @@
   "verification_badge": "V1 · Provenance checked — internal only",
   "tier_badge": null,
   "subcategory_display": "other",
-  "last_checked": "2026-09-19",
+  "last_checked": "2026-10-06",
   "followup_status": "checked",
   "followup_history": [
    {
@@ -2735,9 +2735,23 @@
     "method": "skills-guided adversarial re-verification of the published row against the official source (reverify/t2-*/adversarial-8.jsonl)",
     "result": "t2w2-11-019=holds",
     "corrections_applied": []
+   },
+   {
+    "date": "2026-10-06",
+    "scope": "The cited news account states a publication date but no exact pronouncement date. Do not count publication day as the conviction day; official judgment still needed.",
+    "source": "https://www.headline8.news/assam/dibrugarh-court-awards-life-sentences-to-five-convicts-in-separate-murder-cases-41982/",
+    "corrections_applied": [
+     "conviction_date",
+     "report_date",
+     "date_precision",
+     "conviction_date_note",
+     "court_quote"
+    ]
    }
   ],
-  "case_title_or_number": "State vs [name withheld] (murder of [name withheld] at Dibrugarh Sadar PS)"
+  "case_title_or_number": "State vs [name withheld] (murder of [name withheld] at Dibrugarh Sadar PS)",
+  "report_date": "2026-09-02",
+  "conviction_date_note": "reported on 2026-09-02; exact judgment date not stated in the cited report"
  },
  {
   "case_id": "t2w2-02-006",
@@ -82767,18 +82781,18 @@
   },
   "verified_by": "t2mverify-chunk-046",
   "verified_at": "2026-09-18T13:00:00Z",
-  "verdict_note": "District Judge Court Lucknow convicted a dismissed constable of culpable homicide (17 Sep 2026) and sentenced him to 10 years (21 Sep 2026).",
+  "verdict_note": "Official court copies read: judgment cover and final order establish 17 September 2026 conviction under IPC 304 Part II and acquittal of co-accused; sentencing order page 3 establishes 10 years RI, Rs 20,000 fine, and two months in default on 21 September. No officer name promoted.",
   "state": "Uttar Pradesh",
   "district": "Lucknow",
-  "court": "District Judge Court, Lucknow",
+  "court": "Court of Sessions Judge, Lucknow",
   "court_level": "sessions",
-  "trial_court_name": "District Judge Court, Lucknow",
+  "trial_court_name": "Court of Sessions Judge, Lucknow",
   "case_title": "State v. [name withheld] & Anr",
-  "case_number": null,
+  "case_number": "Sessions Trial No. 49 of 2019; CNR UPLK010018472019; Crime No. 1132/2018, PS Gomti Nagar",
   "conviction_date": "2026-09-17",
   "conviction_year": 2026,
   "date_precision": "day",
-  "incident_date": "2018-09-28",
+  "incident_date": "2018-09-29",
   "incident_year": 2018,
   "category": "brutality",
   "subcategory": "disproportionate_force",
@@ -82802,22 +82816,24 @@
    }
   ],
   "sections": [
-   "IPC 304"
+   "IPC 304 Part II"
   ],
-  "sentence": "10 years' imprisonment and a fine of Rs 20,000 under Part II of Section 304 IPC, pronounced on 21 September 2026; time already spent in jail since 2018 is set off. A co-accused constable was acquitted on 17 September 2026.",
+  "sentence": "10 years' rigorous imprisonment and a fine of Rs 20,000 under Section 304 Part II IPC; two months' further imprisonment in default of payment. Sentencing order dated 21 September 2026; detention already undergone is set off.",
   "sentence_type": "imprisonment",
   "sentence_max_years": 10,
-  "appeal_status": "none_known",
+  "appeal_status": "unknown",
   "appeal_url": null,
-  "source_kind": "news",
-  "source_agency": null,
-  "primary_source_url": "https://www.amarujala.com/lucknow/apple-manager-murder-case-constable-convicted-of-culpable-homicide-second-accused-acquitted-wife-kalpana-up-2026-09-17",
+  "source_kind": "judgment",
+  "source_agency": "Court of Sessions Judge, Lucknow (Malkhan Singh)",
+  "primary_source_url": "https://lucknow.dcourts.gov.in/wp-admin/admin-ajax.php?es_ajax_request=1&action=get_order_pdf&input_strings=eyJjaW5vIjoiVVBMSzAxMDAxODQ3MjAxOSIsIm9yZGVyX25vIjoxLCJvcmRlcl9kYXRlIjoiMjAyNi0wOS0xNyJ9",
   "secondary_sources": [
+   "https://lucknow.dcourts.gov.in/wp-admin/admin-ajax.php?es_ajax_request=1&action=get_order_pdf&input_strings=eyJjaW5vIjoiVVBMSzAxMDAxODQ3MjAxOSIsIm9yZGVyX25vIjoyLCJvcmRlcl9kYXRlIjoiMjAyNi0wOS0yMSJ9",
+   "https://www.amarujala.com/lucknow/apple-manager-murder-case-constable-convicted-of-culpable-homicide-second-accused-acquitted-wife-kalpana-up-2026-09-17",
    "https://www.hindustantimes.com/cities/lucknow-news/exconstable-sentenced-to-10-years-imprisonment-in-apple-executive-s-killing-101790011186854.html",
    "https://indianexpress.com/article/cities/lucknow/apple-executive-vivek-tiwari-murder-lucknow-2018-eight-years-later-justice-10887774/"
   ],
-  "summary": "The Lucknow District Judge's court on 17 September 2026 convicted a dismissed constable of culpable homicide not amounting to murder for shooting a 38-year-old Lucknow man, an Apple area sales manager, at a late-night patrol stop in Gomti Nagar Extension on the night of 28-29 September 2018, and acquitted a second constable for want of evidence. On 21 September 2026 the court sentenced him to 10 years' imprisonment and a Rs 20,000 fine, setting off the time he has been in jail since 2018; news reports say the court held he fired knowing the act was likely to cause death but without intent to murder. Both constables had been dismissed from service, and the victim's family said they would challenge the verdict.",
-  "court_quote": "The court held dismissed constable [name withheld] guilty of culpable homicide not amounting to murder.",
+  "summary": "The Court of Sessions Judge, Lucknow convicted a police constable on 17 September 2026 under Section 304 Part II IPC for the fatal shooting of a Lucknow man during a patrol stop in Gomti Nagar Vistar on the intervening night of 28-29 September 2018. The court found that firing the lethal shot exceeded lawful private defence and official authority; a second constable was acquitted. The separate order of 21 September imposed 10 years' rigorous imprisonment and a Rs 20,000 fine, with two months' further imprisonment in default, and set off detention already undergone. The conviction and sentence are now verified against the court's own documents; a later appeal outcome has not been verified.",
+  "court_quote": null,
   "confidence": "high",
   "tier": "Tier A — Externally reported or officially recorded",
   "source_job": "t2-18",
@@ -82832,7 +82848,7 @@
   "verification_badge": "V2 · Externally reported",
   "tier_badge": "Externally reported",
   "subcategory_display": "disproportionate force",
-  "last_checked": "2026-09-25",
+  "last_checked": "2026-10-06",
   "followup_status": "checked",
   "followup_history": [
    {
@@ -82845,9 +82861,33 @@
    {
     "date": "2026-09-25",
     "scope": "Sentence of 21 Sep 2026 added from news reports (Hindustan Times, Indian Express); acquitted co-accused's name removed from the text."
+   },
+   {
+    "date": "2026-10-06",
+    "scope": "Official Sessions Court, Lucknow judgment of 17 September and sentencing order of 21 September obtained from court portal. Replace news-only evidence, allowing this existing record to publish without changing any officer naming grade.",
+    "source": "https://lucknow.dcourts.gov.in/wp-admin/admin-ajax.php?es_ajax_request=1&action=get_order_pdf&input_strings=eyJjaW5vIjoiVVBMSzAxMDAxODQ3MjAxOSIsIm9yZGVyX25vIjoxLCJvcmRlcl9kYXRlIjoiMjAyNi0wOS0xNyJ9",
+    "corrections_applied": [
+     "primary_source_url",
+     "secondary_sources",
+     "source_kind",
+     "source_agency",
+     "court",
+     "trial_court_name",
+     "case_number",
+     "case_title_or_number",
+     "incident_date",
+     "sections",
+     "sentence_date",
+     "sentence",
+     "summary",
+     "appeal_status",
+     "court_quote",
+     "verdict_note"
+    ]
    }
   ],
-  "case_title_or_number": "State v. [name withheld] & Anr — Gomti Nagar patrol shooting of a Lucknow man (2018)"
+  "case_title_or_number": "State v. [name withheld] & Anr; Sessions Trial No. 49/2019; Crime No. 1132/2018, PS Gomti Nagar",
+  "sentence_date": "2026-09-21"
  },
  {
   "case_id": "t2w4-19-002",
@@ -84789,9 +84829,9 @@
   "trial_court_name": "Special Court (PC Act), Bharatpur",
   "case_title": "State v. [name withheld] (ASI, Rudawal police station) — monthly bribes from tractor operators",
   "case_number": null,
-  "conviction_date": "2026-09-22",
+  "conviction_date": null,
   "conviction_year": 2026,
-  "date_precision": "day",
+  "date_precision": "unknown",
   "incident_date": "2012-10-31",
   "incident_year": 2012,
   "category": "corruption",
@@ -84845,9 +84885,23 @@
     "corrections_applied": [
      "court_quote"
     ]
+   },
+   {
+    "date": "2026-10-06",
+    "scope": "The cited news account states a publication date but no exact pronouncement date. Do not count publication day as the conviction day; official judgment still needed.",
+    "source": "https://www.patrika.com/bharatpur-news/rudawal-police-asi-bribe-case-three-year-jail-20928571",
+    "corrections_applied": [
+     "conviction_date",
+     "report_date",
+     "date_precision",
+     "conviction_date_note",
+     "court_quote"
+    ]
    }
   ],
-  "case_title_or_number": "State v. [name withheld] (ASI, Rudawal police station) — monthly bribes from tractor operators"
+  "case_title_or_number": "State v. [name withheld] (ASI, Rudawal police station) — monthly bribes from tractor operators",
+  "report_date": "2026-09-22",
+  "conviction_date_note": "reported on 2026-09-22; exact judgment date not stated in the cited report"
  },
  {
   "case_id": "t2-20261006-001",
@@ -84994,5 +85048,91 @@
    }
   ],
   "case_title_or_number": "State v. [name withheld] (Senior Civil Police Officer, Pathanamthitta Police Station (later Malakkappara Police Station), Kerala Police)"
+ },
+ {
+  "case_id": "t2-20261006-003",
+  "alias_case_ids": [],
+  "verification_status": "V2",
+  "gate_status": "V2",
+  "verify_passes": {},
+  "verified_by": "official-court-document-review-2026-10-06",
+  "verified_at": "2026-10-06T00:00:00Z",
+  "verdict_note": "Court judgment cover and final paragraphs 141-148 establish conviction on 26 August 2026 under IPC 376 read with 109; sentencing order of 14 September, paragraph 8, establishes life imprisonment and Rs 25,000 fine. Only one accused convicted, two acquitted. Judgment gives conflicting exact incident dates (12 June and 12 September 2009), so only the year is coded. Header/order-sheet shorthand lists additional sections; the final reasoned disposition and sentencing paragraph 8 state IPC 376/109. Rank is not expressly identified, so no rank is inferred from news. Appeal and naming history unverified; officer name withheld.",
+  "state": "Arunachal Pradesh",
+  "district": "Upper Subansiri",
+  "court": "Court of District and Sessions Judge, Yupia, Papum Pare",
+  "court_level": "sessions",
+  "trial_court_name": "Court of District and Sessions Judge, Yupia, Papum Pare",
+  "case_title": "State of Arunachal Pradesh v. [name withheld] & Ors",
+  "case_number": "Sessions Case No. 211/2013; CNR ARPP010000602013; Daporijo PS Case No. 20/2011",
+  "case_title_or_number": "State of Arunachal Pradesh v. [name withheld] & Ors; Sessions Case No. 211/2013; Daporijo PS Case No. 20/2011",
+  "conviction_date": "2026-08-26",
+  "conviction_year": 2026,
+  "date_precision": "day",
+  "sentence_date": "2026-09-14",
+  "report_date": "2026-10-03",
+  "incident_date": null,
+  "incident_year": 2009,
+  "category": "brutality",
+  "subcategory": "custodial_rape_sexual_assault",
+  "raw_subcategory": "custodial_rape_sexual_assault",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Police personnel (rank not stated)",
+    "unit": "Daporijo Police Station, Arunachal Pradesh Police",
+    "publish_grade": "unnamed",
+    "name": null,
+    "name_public": null,
+    "display": "Police personnel, Daporijo Police Station, Arunachal Pradesh Police",
+    "key2_union": null,
+    "gate_reasons": [
+     "naming_keys_not_run",
+     "subsequent_history_not_verified",
+     "legal_review_not_run"
+    ]
+   }
+  ],
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   },
+   {
+    "name": null,
+    "gender": "female"
+   }
+  ],
+  "sections": [
+   "IPC 376 read with IPC 109"
+  ],
+  "sentence": "Life imprisonment and Rs 25,000 fine for abetment of rape under IPC 376 read with 109; three months' further simple imprisonment in default of payment. Sentence imposed on 14 September 2026; detention already undergone is set off under CrPC 428.",
+  "sentence_type": "mixed",
+  "sentence_max_years": null,
+  "appeal_status": "unknown",
+  "appeal_url": null,
+  "source_kind": "judgment",
+  "source_agency": "Court of District and Sessions Judge, Yupia (Dr. Hirendra Kashyap)",
+  "primary_source_url": "https://yupia.dcourts.gov.in/wp-admin/admin-ajax.php?es_ajax_request=1&action=get_order_pdf&input_strings=eyJjaW5vIjoiQVJQUDAxMDAwMDYwMjAxMyIsIm9yZGVyX25vIjoxOCwib3JkZXJfZGF0ZSI6IjIwMjYtMDgtMjYifQ=",
+  "secondary_sources": [
+   "https://yupia.dcourts.gov.in/wp-admin/admin-ajax.php?es_ajax_request=1&action=get_order_pdf&input_strings=eyJjaW5vIjoiQVJQUDAxMDAwMDYwMjAxMyIsIm9yZGVyX25vIjoyMCwib3JkZXJfZGF0ZSI6IjIwMjYtMDktMTQifQ="
+  ],
+  "summary": "The District and Sessions Judge, Yupia convicted one police personnel from Daporijo police station on 26 August 2026 for abetment of rape under IPC 376 read with 109. The court found that two minors were taken to the police station, assaulted and forced to perform a sexual act that was recorded and circulated; two co-accused were acquitted. On 14 September 2026 the court imposed life imprisonment and a Rs 25,000 fine, with three months of further simple imprisonment in default, and set off detention already undergone. The FIR was registered in 2011, but the judgment places the incident in 2009 and gives inconsistent exact dates. The August conviction and September sentence are kept separate; later appeal outcome is unverified. All officer and minor identities are withheld.",
+  "court_quote": null,
+  "confidence": "high",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "september-reconciliation-2026-10-06",
+  "verification_badge": "V2 · Official court judgment checked",
+  "tier_badge": "Officially recorded",
+  "subcategory_display": "custodial sexual assault",
+  "last_checked": "2026-10-06",
+  "followup_status": "checked",
+  "followup_history": [
+   {
+    "date": "2026-10-06",
+    "scope": "Missing case found while reconciling September sentencing reports, then verified from the official 26 August judgment and 14 September sentence. Names withheld; sentencing month is not substituted for conviction month.",
+    "source": "https://yupia.dcourts.gov.in/wp-admin/admin-ajax.php?es_ajax_request=1&action=get_order_pdf&input_strings=eyJjaW5vIjoiQVJQUDAxMDAwMDYwMjAxMyIsIm9yZGVyX25vIjoxOCwib3JkZXJfZGF0ZSI6IjIwMjYtMDgtMjYifQ="
+   }
+  ]
  }
 ]
