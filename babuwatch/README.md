@@ -66,6 +66,9 @@ Python 3 stdlib only; Vercel's build image already has `python3`.
    `name: null`, and a `display` of rank/post and unit; prose already reads
    "[name withheld]". Raw pipeline files (real names, ledgers, blind keys)
    stay private and are never committed. See `tools/README-civil.md`.
+   The legacy public `cases.csv` keeps `fidelity_changes` empty: internal
+   verifier prose can retain ungated names even when officer columns are safe.
+   Preserve its other fields, including amounts, when refreshing the export.
 2. **A name is shown only when `publish_grade == "named_safe"`**, which the
    upstream two-key + subsequent-history gate (and legal review) grants.
    The engine never promotes a name; the final dist scrub refuses the build

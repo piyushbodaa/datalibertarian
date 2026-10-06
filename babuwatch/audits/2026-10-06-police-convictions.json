@@ -1,0 +1,175 @@
+{
+  "as_of": "2026-10-06",
+  "scope": "2026 police-conviction catch-up and recent appellate-history leads; existing register reconciled by immutable ID, unit and case number. This is a bounded source review, not an assertion of nationwide completeness.",
+  "added": [
+    "t2-20261006-001",
+    "t2-20261006-002"
+  ],
+  "updated": [
+    {
+      "case_id": "t2w3-33-010",
+      "reason": "Restore the trial judgment date expressly stated on the judgment cover and concluding page; the null date hid this recent conviction.",
+      "fields": [
+        "conviction_date",
+        "conviction_year",
+        "date_precision"
+      ],
+      "source": "https://indiankanoon.org/doc/30045334/"
+    },
+    {
+      "case_id": "t2w2-07-005",
+      "reason": "Use the trial conviction date from the High Court judgment, not the 21 January 2026 appeal decision.",
+      "fields": [
+        "conviction_date",
+        "conviction_year",
+        "date_precision"
+      ],
+      "source": "https://indiankanoon.org/doc/130490866/"
+    },
+    {
+      "case_id": "t2w3-34-014",
+      "reason": "Use the trial conviction date from paragraph 2, not the 14 January 2026 pension writ decision.",
+      "fields": [
+        "conviction_date",
+        "conviction_year",
+        "date_precision"
+      ],
+      "source": "https://indiankanoon.org/doc/37319908/"
+    },
+    {
+      "case_id": "t2w3-37-001",
+      "reason": "Use the 8 November 2024 trial conviction date quoted in paragraph 20 of the High Court judgment, not the July 2026 writ date. Replace a name-bearing source filename with the same court judgment at a numeric URL.",
+      "fields": [
+        "conviction_date",
+        "conviction_year",
+        "date_precision",
+        "primary_source_url",
+        "secondary_sources"
+      ],
+      "source": "https://indiankanoon.org/doc/27966799/"
+    },
+    {
+      "case_id": "t2-03-119",
+      "reason": "Restore 11 September 2026 conviction date from Maharashtra ACB 2026 list, row 19, page 4. Reconciled against latest list through 23 September; existing monetary fields and sentence wording preserved.",
+      "fields": [
+        "conviction_date",
+        "date_precision",
+        "primary_source_url"
+      ],
+      "source": "https://acb.maharashtra.gov.in/storage/statistic/3zsf4GFM62QhyNtoafdBddBAKa9ZtksdsVckAChH.pdf"
+    },
+    {
+      "case_id": "t2w5-41-001",
+      "reason": "Remove a news reporter sentence incorrectly stored as a direct court quotation. Do not use publication date as the exact conviction date.",
+      "fields": [
+        "court_quote",
+        "conviction_date",
+        "date_precision",
+        "report_date",
+        "conviction_date_note"
+      ],
+      "source": "https://www.amarujala.com/rajasthan/jaipur/court-sentences-female-asi-to-3-years-in-jail-for-demanding-bribe-to-release-a-motorcycle-news-in-hindi-2026-09-02"
+    },
+    {
+      "case_id": "t2w5-41-002",
+      "reason": "Remove a news reporter sentence incorrectly stored as a direct court quotation.",
+      "fields": [
+        "court_quote"
+      ],
+      "source": "https://univarta.com/%E0%A4%AA%E0%A4%9F%E0%A4%A8%E0%A4%BE/%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF-%E0%A4%8F%E0%A4%8F%E0%A4%B8%E0%A4%86%E0%A4%88-%E0%A4%B0%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%A4-%E0%A4%B8%E0%A4%9C%E0%A4%BE/176907"
+    },
+    {
+      "case_id": "t2w5-41-003",
+      "reason": "Remove a news reporter sentence incorrectly stored as a direct court quotation.",
+      "fields": [
+        "court_quote"
+      ],
+      "source": "https://www.patrika.com/bharatpur-news/rudawal-police-asi-bribe-case-three-year-jail-20928571"
+    },
+    {
+      "case_id": "t2-11-001",
+      "reason": "Add the official Kerala VACB release as primary evidence. The release totals seven years across counts and explicitly says sentences run concurrently; it does not establish a seven-year maximum term. Existing maximum term retained from the separately cited news account.",
+      "fields": [
+        "primary_source_url",
+        "secondary_sources",
+        "source_kind",
+        "source_agency",
+        "verdict_note"
+      ],
+      "source": "https://vigilance.kerala.gov.in/storage/pressreleases/YiC1FwylpCwkinZ1Bgx68D9gIKMkmmWNGGbbncBe.pdf"
+    },
+    {
+      "case_id": "t2-11-002",
+      "reason": "Add the official Kerala VACB release as primary evidence. The release totals seven years across counts and explicitly says sentences run concurrently; it does not establish a seven-year maximum term. Existing maximum term retained from the separately cited news account.",
+      "fields": [
+        "primary_source_url",
+        "secondary_sources",
+        "source_kind",
+        "source_agency",
+        "verdict_note"
+      ],
+      "source": "https://vigilance.kerala.gov.in/storage/pressreleases/tD7wqjTDthlPbWhsi4ixaZ6lCd1Dd6tlBj161mYU.pdf"
+    },
+    {
+      "case_id": "t2-13-003",
+      "reason": "Use CBI official 6 April 2026 sentencing release as primary evidence; remove paraphrase incorrectly presented as court quote. Conviction and sentencing dates remain distinct.",
+      "fields": [
+        "primary_source_url",
+        "secondary_sources",
+        "source_agency",
+        "court_quote"
+      ],
+      "source": "https://cbi.gov.in/press-detail/NzY3NQ=="
+    },
+    {
+      "dataset": "cases.csv",
+      "reason": "Legacy fidelity_changes cells contained ungated officer names absent from the canonical gated cases.json. Clear internal verifier prose from the public export; retain every other cell, including all amounts, structured officer displays and source URLs.",
+      "fields": [
+        "fidelity_changes"
+      ],
+      "cells_cleared": 817,
+      "source": "babuwatch/data/copwatchindia/cases.json"
+    }
+  ],
+  "coverage": [
+    {
+      "source": "https://vigilance.kerala.gov.in/press-release",
+      "method": "Official public release index: 2026 entries through 3 October, four police-conviction releases; two missing, two already present. Read all four linked PDFs.",
+      "result": "Two additions; official primary sources added for two January entries."
+    },
+    {
+      "source": "https://www.dvac.tn.gov.in/Press_Release.html",
+      "method": "2026 judgment-release titles through 1 October reconciled against police dataset. Trap/arrest releases excluded.",
+      "result": "Four police judgment releases already represented; no duplicate added."
+    },
+    {
+      "source": "https://acb.maharashtra.gov.in/storage/statistic/3zsf4GFM62QhyNtoafdBddBAKa9ZtksdsVckAChH.pdf",
+      "method": "Official list through 23 September 2026: three police rows (6, 10, 19), all already represented. Visually checked row 19.",
+      "result": "Restore missing date for row 19; no existing Maharashtra monetary prose changed."
+    },
+    {
+      "source": "https://cbi.gov.in/press-releases",
+      "method": "Police conviction/sentencing titles in accessible official release index matched to source URLs and existing records; excluded police victims, recruitment candidates and non-police inspectors.",
+      "result": "Recent police conviction leads already present. Sathankulam primary source corrected."
+    },
+    {
+      "source": "https://vigilance.odisha.gov.in/news_events/",
+      "method": "Official page and event archive attempted; current page and archive expose no usable event rows.",
+      "result": "Coverage unresolved; media-only leads not added."
+    }
+  ],
+  "limitations": [
+    "No central exhaustive register was available; missing cases outside these sources may remain.",
+    "Three 5 October media-only entries retained as legacy records, with source limitations intact; no new media-only convictions added. Their reporter prose is not a court quotation.",
+    "Exact judgment dates for the two new Kerala releases remain unknown; publication dates are not substituted.",
+    "The August Kerala release headline uses Grade Sub-Inspector while the body uses Assistant Sub-Inspector; body designation used.",
+    "Aggregate years across sentence counts are not coded as maximum years without count-wise or concurrency evidence.",
+    "Latest appeal outcomes for the two new records not established; appeal_status is unknown.",
+    "Historical/private naming ledgers were unavailable; every new officer remains unnamed."
+  ],
+  "validation_notes": [
+    "Advisory name-scan warnings for legal-precedent references in unchanged summaries were inspected; internal CSV verifier prose contained actual ungated officer names and was removed from the public export.",
+    "Required 54 tests passed; required final build and internal-link check passed after removing legacy CSV verifier prose. Desktop/mobile browser checks passed with no page errors and no horizontal overflow.",
+    "Targeted invariants confirm immutable IDs, unchanged existing officer grades and names, preserved Maharashtra monetary text, and official sources for new records."
+  ]
+}
