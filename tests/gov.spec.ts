@@ -17,10 +17,10 @@ test("gov.in directory renders macro view, filters, subpages, CSV and subdomain 
   await expect(page).toHaveURL(/state=Maharashtra/);
   await expect(page.locator("#dir-count")).toContainText("Showing 1");
 
-  // Group by root domain toggle
+  // Group by 3rd-level parent toggle
   await page.locator("#f-group").check();
   await expect(page).toHaveURL(/grouped=1/);
-  await expect(page.locator("#dir-count")).toContainText("root .gov.in zones");
+  await expect(page.locator("#dir-count")).toContainText("3rd-level .gov.in parents");
 
   // Subpages, CSV, and Host-header rewrite
   for (const path of ["/gov/ministries", "/gov/regulators", "/gov/local-and-courts", "/gov/uncharted", "/gov/gov-in-websites.csv"]) {
@@ -30,7 +30,7 @@ test("gov.in directory renders macro view, filters, subpages, CSV and subdomain 
 
   const subRes = await request.get("/", { headers: { host: "gov.datalibertarian.in" } });
   expect(subRes.status()).toBe(200);
-  expect(await subRes.text()).toContain("Every .gov.in website of the Indian state, mapped.");
+  expect(await subRes.text()).toContain("Compiled directory of Indian .gov.in hostnames.");
 
   const homeRes = await request.get("/", { headers: { host: "datalibertarian.in" } });
   expect(homeRes.status()).toBe(200);
