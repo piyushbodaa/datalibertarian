@@ -3057,6 +3057,210 @@
         }
       ],
       "verification": "V2"
+    },
+    {
+      "id": "cl-sk-0001",
+      "category": "speech",
+      "state": "Sikkim",
+      "district": "Gangtok",
+      "date": "2026-11-06",
+      "date_label": "High Court judgment",
+      "incident_date": null,
+      "title": "FIR and charge-sheet under BNS Section 152 over invitation to a Darjeeling-Sikkim unification discussion quashed",
+      "outcome": "quashed",
+      "authority": "Sadar Police Station, Gangtok, Sikkim Police; High Court of Sikkim, Justice Bhaskar Raj Pradhan",
+      "case_reference": "Crl. M.C. No. 01 of 2026 (CNR SKHC01-000025-2026) with Crl. M.C. No. 07 of 2026 (High Court of Sikkim); Sadar P.S. FIR No. 80 of 2025; Charge-Sheet No. 183/SHO/SPS",
+      "laws": [
+        "Sections 152, 196(1), 336(4) and 61(2), Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "Three office-bearers of a Darjeeling-based organisation",
+      "summary": "Sikkim Police booked three activists under Sections 152, 196(1), 336(4) and 61(2) BNS over a written invitation by a Darjeeling organisation to discuss the constitutional legality of 'Darjeeling-Sikkim Unification' alongside Sikkim's 50th Statehood Day, carrying the Government of Sikkim emblem. On 6 November 2026 the High Court of Sikkim quashed the FIR, the charge-sheet and the trial before the Sessions Judge, Gangtok, holding that peaceful constitutional debate cannot be prosecuted as endangering sovereignty or promoting enmity.",
+      "detail": [
+        "Sadar Police Station, Gangtok registered FIR No. 80 of 2025 and filed Charge-Sheet No. 183/SHO/SPS against three organisers over an invitation circulated by 'Gorkha Seva Sena' for an event described as '50th Sikkim State Day Celebration and Constitutional Consultation'.",
+        "On petitions under Section 528 BNSS, Justice Bhaskar Raj Pradhan examined the written invitation and held that inviting views on the constitutional legality of a political proposal could neither excite secession under Section 152 BNS nor provoke enmity under Section 196 BNS.",
+        "The High Court quashed the FIR, charge-sheet and pending proceedings before the District and Sessions Judge, Special Division-I, Gangtok, while leaving the State free to proceed separately in accordance with law over the unauthorised use of the State emblem."
+      ],
+      "current_position": "FIR, charge-sheet and criminal proceedings quashed on 6 November 2026; State given liberty only regarding unauthorised use of the State emblem.",
+      "quote": {
+        "heading": "What the High Court held",
+        "text": "Therefore, an invitation, by itself, for a public consultation for constitutional legality of Darjeeling and Sikkim Unification would not attract the provision of section 196 of BNS.",
+        "where": "Crl. M.C. No. 01 of 2026 with Crl. M.C. No. 07 of 2026, judgment dated 6 November 2026, para 20",
+        "url": "https://indiankanoon.org/doc/101906389/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Political speech charged as threat to sovereignty",
+          "text": "Prosecuting an invitation to a public discussion on constitutional integration under Sections 152 and 196 BNS treats peaceful political speech as a crime against the State."
+        }
+      ],
+      "caveats": "The judgment leaves the State free to take separate action as advised regarding the use of the Government of Sikkim emblem. Petitioner names are withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/101906389/",
+          "kind": "judgment",
+          "publisher": "High Court of Sikkim (via Indian Kanoon)",
+          "date": "2026-11-06",
+          "supports": "the FIR, BNS sections, reasoning and quashing order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "cl-mh-0005",
+      "category": "religion",
+      "state": "Maharashtra",
+      "district": "Chhatrapati Sambhajinagar",
+      "date": "2026-11-03",
+      "date_label": "High Court order",
+      "incident_date": "2026-02-21",
+      "title": "Abusive Facebook post targeting individuals is not a Section 299 BNS offence: Bombay High Court quashes Aurangabad FIR",
+      "outcome": "quashed",
+      "authority": "Pundaliknagar Police Station, Chhatrapati Sambhajinagar, Maharashtra Police; Bombay High Court (Aurangabad Bench), Justice Sushil M. Ghodeswar",
+      "case_reference": "Criminal Application No. 1100 of 2026 (2026:BHC-AUG:54661); Pundaliknagar Police Station FIR No. 0064/2026 dated 21.02.2026",
+      "laws": [
+        "Section 299, Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "A social-media user booked over a Facebook post",
+      "summary": "Pundaliknagar police registered an FIR under Section 299 BNS on 21 February 2026 over a Facebook post containing mocking Hindi remarks about historical rulers and their followers. On 3 November 2026 the Aurangabad Bench of the Bombay High Court quashed the FIR, holding that insulting or abusive remarks directed at certain persons do not constitute an aggravated insult to any religion or religious belief.",
+      "detail": [
+        "An informant complained on 21 February 2026 after viewing a Facebook post dated between 19 and 21 February 2026, prompting Pundaliknagar Police Station to register FIR No. 0064/2026 under Section 299 BNS.",
+        "Opposing quashing, the State and the informant submitted that witness statements showed the post appeared on the applicant's Facebook account and that a charge-sheet was under preparation.",
+        "Justice Sushil M. Ghodeswar held that Section 299 contemplates an aggravated insult to religion or religious beliefs with deliberate and malicious intent, and that the post, even taken at face value, disclosed no insult to any class's religion or religious beliefs."
+      ],
+      "current_position": "FIR No. 0064/2026 and consequential proceedings quashed on 3 November 2026.",
+      "quote": {
+        "heading": "What the High Court held",
+        "text": "Mere use of insulting or abusive expressions against certain persons, without satisfying the aforesaid essential ingredients, would not constitute an offence under Section 299 of the Bharatiya Nyaya Sanhita.",
+        "where": "Criminal Application No. 1100 of 2026, order dated 3 November 2026, para 8",
+        "url": "https://indiankanoon.org/doc/99396022/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Criminalised for an online political taunt",
+          "text": "Police invoked the religious-outrage provision (Section 299 BNS) over a polemical Facebook post that named no religion or religious tenet."
+        }
+      ],
+      "caveats": "The FIR dates the post between 19 and 21 February 2026. Applicant and informant names are withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/99396022/",
+          "kind": "court_order",
+          "publisher": "Bombay High Court, Aurangabad Bench (via Indian Kanoon)",
+          "date": "2026-11-03",
+          "supports": "the FIR text, reasoning under Section 299 BNS and quashing order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "cl-mh-0006",
+      "category": "speech",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "date": "2026-10-27",
+      "date_label": "High Court order",
+      "incident_date": "2025-05-07",
+      "title": "FIR against Pune IT student arrested over a deleted two-hour Instagram repost during India-Pakistan conflict quashed",
+      "outcome": "quashed",
+      "authority": "Kondhwa Police Station, Pune Police; Bombay High Court, Justice Milind N. Jadhav",
+      "case_reference": "Criminal Application No. 598 of 2025; Kondhwa Police Station FIR / C.R. No. 380 of 2025 dated 09.05.2025",
+      "laws": [
+        "Sections 152, 196, 197, 299, 352 and 353, Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "A Pune Information Technology engineering student",
+      "summary": "A Pune engineering student reposted someone else's contentious Instagram post concerning India and Pakistan on 7 May 2025, deleted it within two hours and publicly apologised. Two days later Kondhwa police arrested her under six BNS speech and sovereignty provisions, including Section 152. On 27 October 2026 the Bombay High Court quashed the FIR, holding that a short-lived repost followed by voluntary deletion and no consequential incident disclosed no criminal intent.",
+      "detail": [
+        "On 7 May 2025 a police havaldar on social-media patrol saw a repost on the student's Instagram account regarding hostilities between India and Pakistan. Although she removed it after about two hours and expressed remorse, Kondhwa police registered FIR No. 380 of 2025 on 9 May 2025 under Sections 152, 196, 197, 299, 352 and 353 BNS and arrested her the same day.",
+        "The High Court noted that the student was pursuing a Bachelor of Engineering in Information Technology, had no criminal antecedents, had already suffered custody, and that no incident of communal disturbance resulted from the repost.",
+        "Justice Milind N. Jadhav quashed the FIR under Section 482 CrPC, finding that mere apprehension cannot replace proof of specific criminal intent and that continuing prosecution would serve no legitimate purpose."
+      ],
+      "current_position": "FIR No. 380 of 2025 quashed by the Bombay High Court on 27 October 2026.",
+      "quote": {
+        "heading": "What the High Court held",
+        "text": "The apprehension of a possible disturbance cannot substitute for the specific acts, intention or knowledge required by law.",
+        "where": "Criminal Application No. 598 of 2025, order dated 27 October 2026, para 11",
+        "url": "https://indiankanoon.org/doc/101548701/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Six speech charges and arrest for a two-hour repost",
+          "text": "A student was arrested under sedition-equivalent and public-peace sections (BNS 152, 196, 197, 299, 352, 353) despite deleting a shared post within two hours and no disorder occurring."
+        }
+      ],
+      "caveats": "Paragraph 2 of the uploaded order prints '29' as a typographical slip for Section 299 BNS, which is set out in full in prayer clause (a) at paragraph 17. Student and complainant names are withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/101548701/",
+          "kind": "court_order",
+          "publisher": "Bombay High Court (via Indian Kanoon)",
+          "date": "2026-10-27",
+          "supports": "the two-hour deletion, arrest, BNS sections and quashing order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "cl-ka-0006",
+      "category": "speech",
+      "state": "Karnataka",
+      "district": "Bengaluru Urban",
+      "date": "2026-10-16",
+      "date_label": "High Court order",
+      "incident_date": "2025-05-15",
+      "title": "Karnataka High Court quashes Bengaluru police FIR against political IT head and news editor over Turkey Congress Centre claim",
+      "outcome": "quashed",
+      "authority": "High Grounds Police Station, Bengaluru City Police; High Court of Karnataka, Justice M. Nagaprasanna",
+      "case_reference": "Criminal Petition No. 7425 of 2025 with Criminal Petition No. 7426 of 2025; Crime No. 132 of 2025 (High Grounds P.S., Bengaluru)",
+      "laws": [
+        "Sections 192 and 352, Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "acts": [
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "Head of a national political party's IT department and a television news network editor-in-chief",
+      "summary": "Following a May 2025 broadcast and social-media claim questioning whether the Istanbul Congress Centre in Turkey was an office of the Indian National Congress, an office-bearer of the Karnataka Pradesh Congress Committee lodged an FIR at High Grounds Police Station under Sections 192 and 352 BNS. On 16 October 2026 the High Court of Karnataka quashed the FIR against both accused, holding that the complaint failed to establish the statutory ingredients of either offence.",
+      "detail": [
+        "On 20 May 2025, High Grounds Police Station registered Crime No. 132 of 2025 for wanton provocation with intent to cause riot (Section 192 BNS) and intentional insult with intent to provoke breach of peace (Section 352 BNS) over a claim and a 15 May 2025 television lead story concerning the Istanbul Congress Centre.",
+        "Both petitioners approached the High Court under Section 528 BNSS on 22 May 2025, obtaining a stay of investigation; they argued the allegations disclosed no element of riot provocation or breach of peace.",
+        "Applying the Supreme Court's Bhajan Lal standards on 16 October 2026, Justice M. Nagaprasanna held that the complaint did not make out basic ingredients of the alleged offences and quashed Crime No. 132 of 2025 qua both petitioners."
+      ],
+      "current_position": "FIR in Crime No. 132 of 2025 quashed as against both petitioners on 16 October 2026.",
+      "quote": {
+        "heading": "What the High Court held",
+        "text": "Therefore, permitting further investigation even, against the petitioners, would become an abuse of the process of law and result in miscarriage of justice.",
+        "where": "Crl.P No. 7425 c/w 7426 of 2025, order dated 16 October 2026, para 9",
+        "url": "https://indiankanoon.org/doc/121700890/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Political claim and broadcast met with riot-provocation FIR",
+          "text": "Police registered a criminal FIR invoking riot and breach-of-peace sections over a partisan post and television segment."
+        }
+      ],
+      "caveats": "Complainant and accused names are withheld in the case card though the petitioners hold prominent political and media positions in the judgment text.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/121700890/",
+          "kind": "court_order",
+          "publisher": "High Court of Karnataka (via Indian Kanoon)",
+          "date": "2026-10-16",
+          "supports": "the FIR sections, broadcast and post allegations, stay and quashing"
+        }
+      ],
+      "verification": "V2"
     }
   ]
 }

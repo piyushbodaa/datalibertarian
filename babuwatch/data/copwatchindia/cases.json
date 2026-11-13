@@ -221938,5 +221938,660 @@
   "merged_case_id": null,
   "officers_named_public": 0,
   "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0106",
+  "status": "current",
+  "merged_id": "CWC-1396",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs The State of Assam And 9 Ors",
+  "display_title_redacted": "[name withheld] vs The State of Assam And 9 Ors",
+  "state": "Assam",
+  "district": "Kokrajhar",
+  "district_at_time": "Kokrajhar",
+  "city_town": "Kokrajhar",
+  "police_station_or_unit": "Kokrajhar Police Station, Kokrajhar",
+  "court": "Gauhati High Court",
+  "court_as_verified": "The Gauhati High Court (High Court of Assam, Nagaland, Mizoram and Arunachal Pradesh)",
+  "bench": null,
+  "case_title": "[name withheld] vs The State of Assam And 9 Ors",
+  "case_number": "WP(C)/2162/2021; CNR GAHC010054742021",
+  "citation": null,
+  "judges": [
+   "Arun Dev Choudhury"
+  ],
+  "judgment_date": "2026-11-03",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2021-02-11",
+  "incident_year": 2021,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "other",
+  "subcategory": "other",
+  "subcategory_display": "other misconduct",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Article 14 of the Constitution of India",
+   "Article 21 of the Constitution of India",
+   "Article 300A of the Constitution of India"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Inspector of Police-cum-Officer-in-Charge (then OC; later Deputy Superintendent of Police, Border)",
+    "unit": "Kokrajhar Police Station, Kokrajhar",
+    "role": "held_liable",
+    "publish_grade": "unnamed",
+    "gate_reasons": [
+     "ledger:no_row",
+     "key2:no_row"
+    ],
+    "ledger_role": null,
+    "key2": null,
+    "key2_agy": null,
+    "key2_claude": null,
+    "key2_union": null,
+    "key2_gemapi": null,
+    "key2_openrouter": null,
+    "key2_gpt56": null,
+    "grok": null,
+    "jev_risk": null,
+    "jev_p_culpable": null,
+    "key2_gpt": null,
+    "later_outcome": null,
+    "name_public": null,
+    "display": "Inspector of Police-cum-Officer-in-Charge (then OC), Kokrajhar Police Station, Kokrajhar"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": null,
+    "gender": "female"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": true,
+  "victim_count": 1,
+  "sentence_type": "compensation_only",
+  "sentence_max_years": null,
+  "compensation_inr": 25000,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/191270701/",
+  "secondary_sources": [],
+  "summary": "The Gauhati High Court held that police and district executive officials acted without lawful authority when they intervened in a landlord-tenant dispute during a pending civil eviction suit (Title Suit No. 2/2020) and assisted in breaking open the shutter lock of a tenant's rented room on 11 February 2021. On 29 January 2021, the then Officer-in-Charge of Kokrajhar Police Station wrote to the District Magistrate seeking an Executive Magistrate to help vacate the room; the Additional Deputy Commissioner deputed a Circle Officer on 9 February 2021, and Kokrajhar police personnel accompanied the landlord's family to break open the lock on 11 February 2021 in the tenant's absence. Although the private parties later settled and the tenant was compensated privately, the court imposed personal costs of Rs 25,000 on the then Officer-in-Charge and Rs 75,000 on the then Additional Deputy Commissioner, payable to the High Court Legal Services Authority within six weeks.",
+  "summary_verified": "The Gauhati High Court held that police and district executive officials acted without lawful authority when they intervened in a landlord-tenant dispute during a pending civil eviction suit (Title Suit No. 2/2020) and assisted in breaking open the shutter lock of a tenant's rented room on 11 February 2021. On 29 January 2021, the then Officer-in-Charge of Kokrajhar Police Station wrote to the District Magistrate seeking an Executive Magistrate to help vacate the room; the Additional Deputy Commissioner deputed a Circle Officer on 9 February 2021, and Kokrajhar police personnel accompanied the landlord's family to break open the lock on 11 February 2021 in the tenant's absence. Although the private parties later settled and the tenant was compensated privately, the court imposed personal costs of Rs 25,000 on the then Officer-in-Charge and Rs 75,000 on the then Additional Deputy Commissioner, payable to the High Court Legal Services Authority within six weeks.",
+  "court_quote": "The exercise of coercive state power remains subject to judicial scrutiny, and appropriate consequences follow where public officials facilitate the circumvention of lawful process.",
+  "court_quote_para": "32",
+  "confidence": "high",
+  "verdict": "accept",
+  "verdict_note": "Verified against Gauhati High Court judgment dated 03.11.2026 in WP(C)/2162/2021 (Indian Kanoon). Request letter and deputation at paras 7-9; settlement and continued public-law scrutiny at paras 12 and 32-33; personal costs of Rs 75,000 on Respondent No. 9 (then ADC) and Rs 25,000 on Respondent No. 10 (then OC, Kokrajhar PS) at paras 39-40. Here compensation_inr codes the Rs 25,000 personal cost imposed on the police officer; all private and official names are withheld.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Official court judgment checked",
+  "tier_badge": "Officially recorded",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Court finding",
+    "position_explainer": "A court has made a finding on this allegation.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-11-03",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "Gauhati High Court",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court accepted the police officer's unconditional apology subject to adverse findings under Articles 14 and 300A, imposed Rs 25,000 personal cost on the then Officer-in-Charge (and Rs 75,000 on the then ADC) payable to the High Court Legal Services Authority within six weeks, and directed communication to the Chief Secretary and DGP Assam to ensure compliance.",
+    "disposition": "Adverse finding (unlawful dispossession during pending civil suit) · Rs 25,000 personal cost on OC (Rs 75,000 on ADC) to HC Legal Services Authority",
+    "source": "WP(C)/2162/2021",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-11-13",
+    "scope": "November 2026 sweep: judgment dated 03.11.2026 verified from Indian Kanoon text; quote checked verbatim; personal names withheld."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-11-13",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/191270701/",
+    "link_checked": "2026-11-13"
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": true,
+  "verified_by": [
+   "official-court-document-review-2026-11-13"
+  ],
+  "merged_case_id": null,
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0107",
+  "status": "current",
+  "merged_id": "CWC-1397",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs State of Maharashtra Through Home Secretary & Ors",
+  "display_title_redacted": "[name withheld] vs State of Maharashtra Through Home Secretary & Ors",
+  "state": "Maharashtra",
+  "district": "Gadchiroli",
+  "district_at_time": "Gadchiroli",
+  "city_town": "Nagpur",
+  "police_station_or_unit": "Local Crime Branch, Gadchiroli / Purada Police Station, Gadchiroli",
+  "court": "Bombay High Court",
+  "court_as_verified": "High Court of Judicature at Bombay, Nagpur Bench",
+  "bench": "Nagpur",
+  "case_title": "[name withheld] vs State of Maharashtra Through Home Secretary & Ors",
+  "case_number": "Criminal Writ Petition No. 467 of 2012; CNR HCBM040203522012",
+  "citation": "2026:BHC-NAG:14604-DB",
+  "judges": [
+   "Urmila Joshi Phalke",
+   "Raj D. Wakode"
+  ],
+  "judgment_date": "2026-10-27",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2011-09-27",
+  "incident_year": 2011,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "illegal_detention_false_imprisonment",
+  "subcategory": "illegal_detention_false_imprisonment",
+  "subcategory_display": "illegal detention false imprisonment",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Article 21 of the Constitution of India",
+   "Article 22(1) of the Constitution of India",
+   "Article 22(2) of the Constitution of India"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Superintendent of Police",
+    "unit": "Gadchiroli District Police",
+    "role": "held_liable",
+    "publish_grade": "unnamed",
+    "gate_reasons": [
+     "ledger:no_row",
+     "key2:no_row"
+    ],
+    "ledger_role": null,
+    "key2": null,
+    "key2_agy": null,
+    "key2_claude": null,
+    "key2_union": null,
+    "key2_gemapi": null,
+    "key2_openrouter": null,
+    "key2_gpt56": null,
+    "grok": null,
+    "jev_risk": null,
+    "jev_p_culpable": null,
+    "key2_gpt": null,
+    "later_outcome": null,
+    "name_public": null,
+    "display": "Superintendent of Police, Gadchiroli District Police"
+   },
+   {
+    "name": null,
+    "rank": "Police Sub-Inspector",
+    "unit": "Local Crime Branch, Gadchiroli",
+    "role": "held_liable",
+    "publish_grade": "unnamed",
+    "gate_reasons": [
+     "ledger:no_row",
+     "key2:no_row"
+    ],
+    "ledger_role": null,
+    "key2": null,
+    "key2_agy": null,
+    "key2_claude": null,
+    "key2_union": null,
+    "key2_gemapi": null,
+    "key2_openrouter": null,
+    "key2_gpt56": null,
+    "grok": null,
+    "jev_risk": null,
+    "jev_p_culpable": null,
+    "key2_gpt": null,
+    "later_outcome": null,
+    "name_public": null,
+    "display": "Police Sub-Inspector, Local Crime Branch, Gadchiroli"
+   }
+  ],
+  "officer_count": 2,
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": true,
+  "victim_count": 1,
+  "sentence_type": "compensation_only",
+  "sentence_max_years": null,
+  "compensation_inr": 200000,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/121383045/",
+  "secondary_sources": [],
+  "summary": "The Bombay High Court (Nagpur Bench) held the Superintendent of Police, Gadchiroli and a Police Sub-Inspector of the Local Crime Branch, Gadchiroli guilty of violating the petitioner's fundamental rights under Article 21 when he was rearrested without due process immediately on walking out of Nagpur Central Jail on 27 September 2011 after being acquitted across eight earlier cases. The court recorded that LCB personnel lifted him outside the jail gate around 2:30 p.m., took him to Desaiganj Police Station, informed him of Crime No. 14/2007 of Purada Police Station hours later without giving details or grounds of arrest, showed a formal arrest time of 7:30 p.m., and produced him before the Judicial Magistrate First Class, Kurkheda at 4:30 p.m. on 28 September 2011 beyond 24 hours. Following Supreme Court precedent, the court directed the State of Maharashtra to deposit Rs 2,00,000 as compensation within eight weeks.",
+  "summary_verified": "The Bombay High Court (Nagpur Bench) held the Superintendent of Police, Gadchiroli and a Police Sub-Inspector of the Local Crime Branch, Gadchiroli guilty of violating the petitioner's fundamental rights under Article 21 when he was rearrested without due process immediately on walking out of Nagpur Central Jail on 27 September 2011 after being acquitted across eight earlier cases. The court recorded that LCB personnel lifted him outside the jail gate around 2:30 p.m., took him to Desaiganj Police Station, informed him of Crime No. 14/2007 of Purada Police Station hours later without giving details or grounds of arrest, showed a formal arrest time of 7:30 p.m., and produced him before the Judicial Magistrate First Class, Kurkheda at 4:30 p.m. on 28 September 2011 beyond 24 hours. Following Supreme Court precedent, the court directed the State of Maharashtra to deposit Rs 2,00,000 as compensation within eight weeks.",
+  "court_quote": "The petitioner was arrested without following due process of law.",
+  "court_quote_para": "62",
+  "confidence": "high",
+  "verdict": "accept",
+  "verdict_note": "Verified against Bombay High Court (Nagpur Bench) judgment dated 27.10.2026 in Criminal Writ Petition No. 467 of 2012 (2026:BHC-NAG:14604-DB, Indian Kanoon). Jail-gate pickup on 27.09.2011 and magistrate production at paras 4-5; liability of Respondent Nos. 2 (SP Gadchiroli) and 12 (PSI LCB Gadchiroli) and Rs 2,00,000 compensation order at paras 62-63; prayer for enquiry on Dhantoli complaint rejected at para 63(v). All petitioner, officer, and advocate names withheld.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Official court judgment checked",
+  "tier_badge": "Officially recorded",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Court finding",
+    "position_explainer": "A court has made a finding on this allegation.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-10-27",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "Bombay High Court, Nagpur Bench",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The Division Bench partly allowed the writ petition, held the SP Gadchiroli and LCB PSI guilty of violating the petitioner's fundamental rights by arresting him without due process on 27.09.2011, and directed the State of Maharashtra to deposit Rs 2,00,000 as compensation within eight weeks.",
+    "disposition": "Adverse finding (unlawful rearrest without due process) · Rs 2,00,000 State compensation",
+    "source": "Criminal Writ Petition No. 467 of 2012 (2026:BHC-NAG:14604-DB)",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-11-13",
+    "scope": "November 2026 sweep: judgment dated 27.10.2026 verified from Indian Kanoon text; quote checked verbatim; petitioner and police officer names withheld."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-11-13",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/121383045/",
+    "link_checked": "2026-11-13"
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": true,
+  "verified_by": [
+   "official-court-document-review-2026-11-13"
+  ],
+  "merged_case_id": null,
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0108",
+  "status": "current",
+  "merged_id": "CWC-1398",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs The State of Maharashtra & Anr",
+  "display_title_redacted": "[name withheld] vs The State of Maharashtra & Anr",
+  "state": "Maharashtra",
+  "district": "Mumbai",
+  "district_at_time": "Mumbai",
+  "city_town": "Mumbai",
+  "police_station_or_unit": "Azad Maidan Police Station, Mumbai",
+  "court": "Bombay High Court",
+  "court_as_verified": "High Court of Judicature at Bombay",
+  "bench": null,
+  "case_title": "[name withheld] vs The State of Maharashtra & Anr",
+  "case_number": "Writ Petition No. 4458 of 2017; CNR HCBM010032682018",
+  "citation": "2026:BHC-AS:43037-DB",
+  "judges": [
+   "A. S. Gadkari",
+   "Kamal Khata"
+  ],
+  "judgment_date": "2026-10-22",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2017-08-04",
+  "incident_year": 2017,
+  "category": "Other",
+  "admin_category": "misconduct",
+  "admin_subcategory": "false_implication_fabrication",
+  "subcategory": "false_implication_fabrication",
+  "subcategory_display": "false implication fabrication",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Article 21 of the Constitution of India",
+   "Article 226 of the Constitution of India",
+   "Section 41A of the Code of Criminal Procedure, 1973",
+   "Section 384 of the Indian Penal Code, 1860"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Sub-Inspector of Police",
+    "unit": "Azad Maidan Police Station, Mumbai",
+    "role": "held_liable",
+    "publish_grade": "unnamed",
+    "gate_reasons": [
+     "ledger:no_row",
+     "key2:no_row"
+    ],
+    "ledger_role": null,
+    "key2": null,
+    "key2_agy": null,
+    "key2_claude": null,
+    "key2_union": null,
+    "key2_gemapi": null,
+    "key2_openrouter": null,
+    "key2_gpt56": null,
+    "grok": null,
+    "jev_risk": null,
+    "jev_p_culpable": null,
+    "key2_gpt": null,
+    "later_outcome": null,
+    "name_public": null,
+    "display": "Sub-Inspector of Police, Azad Maidan Police Station, Mumbai"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": true,
+  "victim_count": 1,
+  "sentence_type": "compensation_only",
+  "sentence_max_years": null,
+  "compensation_inr": 500000,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/155942067/",
+  "secondary_sources": [],
+  "summary": "The Bombay High Court declared illegal the 4 August 2017 arrest of a Mumbai businessman who held a power of attorney for his 70-year-old widowed mother-in-law in a society redevelopment negotiation. No sooner had developers handed him Rs 2,00,000 at their Marine Lines office than Azad Maidan police handcuffed and arrested him in FIR No. 243/2017 under Section 384 IPC, serving a Section 41A CrPC notice only afterwards, and kept him in six days' police custody and twenty days' judicial custody. The Division Bench found the Sub-Inspector acted in connivance with the developer to fabricate an extortion case, suppressed a forensic report, and violated Arnesh Kumar guidelines. It ordered Rs 5,00,000 compensation within two weeks, directed immediate suspension and disciplinary action against the Sub-Inspector and concerned officers with proportionate salary recovery, and placed the judgment before the High Court Administrative Committee against the 64th Court Magistrate(s) who remanded him without reasons.",
+  "summary_verified": "The Bombay High Court declared illegal the 4 August 2017 arrest of a Mumbai businessman who held a power of attorney for his 70-year-old widowed mother-in-law in a society redevelopment negotiation. No sooner had developers handed him Rs 2,00,000 at their Marine Lines office than Azad Maidan police handcuffed and arrested him in FIR No. 243/2017 under Section 384 IPC, serving a Section 41A CrPC notice only afterwards, and kept him in six days' police custody and twenty days' judicial custody. The Division Bench found the Sub-Inspector acted in connivance with the developer to fabricate an extortion case, suppressed a forensic report, and violated Arnesh Kumar guidelines. It ordered Rs 5,00,000 compensation within two weeks, directed immediate suspension and disciplinary action against the Sub-Inspector and concerned officers with proportionate salary recovery, and placed the judgment before the High Court Administrative Committee against the 64th Court Magistrate(s) who remanded him without reasons.",
+  "court_quote": "We therefore conclude that the arrest and remand were high handed, arbitrary and made without application of mind and without following the basic statutory provisions of law.",
+  "court_quote_para": "21",
+  "confidence": "high",
+  "verdict": "accept",
+  "verdict_note": "Verified against Bombay High Court judgment dated 22.10.2026 in Writ Petition No. 4458 of 2017 (2026:BHC-AS:43037-DB, Indian Kanoon). Handcuffing and arrest on 04.08.2017 at paras 4-5; findings on connivance, forensic report suppression, and Arnesh Kumar breach at paras 19-25; declaration, Rs 5,00,000 compensation, suspension/salary recovery direction, and Magistrate referral at para 27(a)-(d). Private, police, and intervener names withheld.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Official court judgment checked",
+  "tier_badge": "Officially recorded",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Other",
+    "primary": true,
+    "position": "Court finding",
+    "position_explainer": "A court has made a finding on this allegation.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-10-22",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "Bombay High Court",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The High Court declared the 04.08.2017 arrest unlawful, ordered Rs 5,00,000 State compensation within two weeks, directed immediate suspension and strict disciplinary action against the Sub-Inspector and concerned officers with proportionate salary recovery, and referred the 64th Court Magistrate(s) to the High Court Administrative Committee.",
+    "disposition": "Adverse finding (connivance, mala fide arrest) · Rs 5,00,000 compensation · immediate suspension & salary recovery · Magistrate referred",
+    "source": "Writ Petition No. 4458 of 2017 (2026:BHC-AS:43037-DB)",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-11-13",
+    "scope": "November 2026 sweep: judgment dated 22.10.2026 verified from Indian Kanoon text; quote checked verbatim; personal names withheld."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-11-13",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/155942067/",
+    "link_checked": "2026-11-13"
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": true,
+  "verified_by": [
+   "official-court-document-review-2026-11-13"
+  ],
+  "merged_case_id": null,
+  "officers_named_public": 0,
+  "record_flag": null
+ },
+ {
+  "record_id": "CW-2026-0109",
+  "status": "current",
+  "merged_id": "CWC-1399",
+  "alias_merged_ids": [],
+  "display_title": "[name withheld] vs The State of Andhra Pradesh And 4 Others",
+  "display_title_redacted": "[name withheld] vs The State of Andhra Pradesh And 4 Others",
+  "state": "Andhra Pradesh",
+  "district": "NTR",
+  "district_at_time": "NTR",
+  "city_town": "Vijayawada",
+  "police_station_or_unit": "Krishnalanka Police Station, Vijayawada, NTR District",
+  "court": "Andhra Pradesh High Court",
+  "court_as_verified": "High Court of Andhra Pradesh at Amaravati",
+  "bench": null,
+  "case_title": "[name withheld] vs The State of Andhra Pradesh And 4 Others",
+  "case_number": "Writ Petition No. 15132 of 2026",
+  "citation": null,
+  "judges": [
+   "Ravi Nath Tilhari",
+   "Alapati Giridhar"
+  ],
+  "judgment_date": "2026-10-16",
+  "date_precision": "day",
+  "judgment_year": 2026,
+  "incident_date": "2026-05-06",
+  "incident_year": 2026,
+  "category": "Custodial death",
+  "admin_category": "brutality",
+  "admin_subcategory": "custodial_death",
+  "subcategory": "custodial_death",
+  "subcategory_display": "custodial death",
+  "protest_override_heuristic": false,
+  "outcome_type": "adverse_finding_compensation",
+  "sections": [
+   "Article 21 of the Constitution of India",
+   "Article 22(1) of the Constitution of India",
+   "Article 226 of the Constitution of India",
+   "Sections 127(4), 127(6), 103(1) and 238 of the Bharatiya Nyaya Sanhita, 2023"
+  ],
+  "officers": [
+   {
+    "name": null,
+    "rank": "Inspector of Police / Station House Officer (suspended 17.06.2026)",
+    "unit": "Krishnalanka Police Station, Vijayawada",
+    "role": "named_in_finding",
+    "publish_grade": "unnamed",
+    "gate_reasons": [
+     "ledger:no_row",
+     "key2:no_row"
+    ],
+    "ledger_role": null,
+    "key2": null,
+    "key2_agy": null,
+    "key2_claude": null,
+    "key2_union": null,
+    "key2_gemapi": null,
+    "key2_openrouter": null,
+    "key2_gpt56": null,
+    "grok": null,
+    "jev_risk": null,
+    "jev_p_culpable": null,
+    "key2_gpt": null,
+    "later_outcome": null,
+    "name_public": null,
+    "display": "Inspector of Police / Station House Officer, Krishnalanka Police Station, Vijayawada"
+   }
+  ],
+  "officer_count": 1,
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   }
+  ],
+  "victims_redacted": null,
+  "anonymised": true,
+  "victim_count": 1,
+  "sentence_type": "compensation_only",
+  "sentence_max_years": null,
+  "compensation_inr": 2500000,
+  "force": "state_police",
+  "primary_source_url": "https://indiankanoon.org/doc/132959356/",
+  "secondary_sources": [],
+  "summary": "The Andhra Pradesh High Court transferred to the Central Bureau of Investigation (CBI) the investigation into the custodial death of a 25-year-old man picked up by a Vijayawada Task Force and Krishnalanka Police Station team at Markapuram on 6 May 2026 and handed over to the station sentry and then Inspector/SHO. Subsequent inquiry and Crime No. 107/2026 indicated he died on 12 May 2026 following custodial assault, with allegations that his body was secretly cremated, his mobile phone was carried to Goa to create an alibi that he was alive, and four 8-TB CCTV NVR hard disks at the station were swapped out on 14 June 2026. The then SHO was suspended on 17 June 2026. Holding that fundamental rights under Articles 21 and 22 were violated, the court awarded Rs 25,00,000 compensation to the mother within four weeks and ordered disciplinary proceedings against erring police personnel.",
+  "summary_verified": "The Andhra Pradesh High Court transferred to the Central Bureau of Investigation (CBI) the investigation into the custodial death of a 25-year-old man picked up by a Vijayawada Task Force and Krishnalanka Police Station team at Markapuram on 6 May 2026 and handed over to the station sentry and then Inspector/SHO. Subsequent inquiry and Crime No. 107/2026 indicated he died on 12 May 2026 following custodial assault, with allegations that his body was secretly cremated, his mobile phone was carried to Goa to create an alibi that he was alive, and four 8-TB CCTV NVR hard disks at the station were swapped out on 14 June 2026. The then SHO was suspended on 17 June 2026. Holding that fundamental rights under Articles 21 and 22 were violated, the court awarded Rs 25,00,000 compensation to the mother within four weeks and ordered disciplinary proceedings against erring police personnel.",
+  "court_quote": "custodial death is itself a crime and its duty of State like in any other crime to prevent and ensure that the predators do not escape unpunished.",
+  "court_quote_para": "81",
+  "confidence": "high",
+  "verdict": "accept",
+  "verdict_note": "Verified against Andhra Pradesh High Court judgment dated 16.10.2026 in Writ Petition No. 15132 of 2026 (Indian Kanoon). Markapuram apprehension on 06.05.2026, Crime No. 107/2026, and 17.06.2026 SHO suspension at paras 9-11; CBI transfer, Rs 25,00,000 compensation, and disciplinary proceedings direction at para 82. Mother, deceased detenu, and officer names withheld.",
+  "verification_status": "V2",
+  "verification_badge": "V2 · Official court judgment checked",
+  "tier_badge": "Officially recorded",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "tier_history": [
+   "Tier A — Externally reported or officially recorded"
+  ],
+  "allegations": [
+   {
+    "category": "Custodial death",
+    "primary": true,
+    "position": "Court finding",
+    "position_explainer": "A court has made a finding on this allegation.",
+    "official_finding_relation": "supports allegation"
+   }
+  ],
+  "institutional_response": [
+   {
+    "date": "2026-06-17",
+    "action_type": "Suspension",
+    "status": "Initiated",
+    "authority": "Vijayawada City Police",
+    "independence": "Internal",
+    "legal_effect": "Administrative",
+    "description": "The then Inspector/SHO of Krishnalanka Police Station was placed under suspension on 17 June 2026 and attached to Vacancy Reserve; Crime No. 107/2026 was registered on 19 June 2026 and a State SIT was constituted on 21 June 2026.",
+    "disposition": "SHO suspended · FIR registered (Cr. No. 107/2026)",
+    "source": "WP No. 15132 of 2026, paras 10-11",
+    "recheck": "Superseded by High Court CBI transfer order dated 16.10.2026."
+   },
+   {
+    "date": "2026-10-16",
+    "action_type": "Order issued",
+    "status": "Concluded",
+    "authority": "High Court of Andhra Pradesh",
+    "independence": "External",
+    "legal_effect": "Binding",
+    "description": "The Division Bench transferred the investigation to the CBI, directed prosecution of all responsible officials, awarded Rs 25,00,000 compensation to the petitioner within four weeks, and ordered disciplinary proceedings against erring police personnel under service rules.",
+    "disposition": "Adverse finding (custodial death, Articles 21 & 22) · CBI investigation ordered · Rs 25,00,000 compensation · disciplinary action",
+    "source": "Writ Petition No. 15132 of 2026, para 82",
+    "recheck": "Not yet re-checked."
+   }
+  ],
+  "later_proceedings": [],
+  "final_outcome_url": null,
+  "followup_history": [
+   {
+    "date": "2026-11-13",
+    "scope": "November 2026 sweep: judgment dated 16.10.2026 verified from Indian Kanoon text; quote checked verbatim; personal names withheld."
+   }
+  ],
+  "followup_status": "checked",
+  "last_checked": "2026-11-13",
+  "link_checked_per_url": [
+   {
+    "url": "https://indiankanoon.org/doc/132959356/",
+    "link_checked": "2026-11-13"
+   }
+  ],
+  "source_assessment": {
+   "established": null,
+   "basis": null
+  },
+  "v3_basis": null,
+  "publication_basis": null,
+  "reviews": [],
+  "retracted": {
+   "is_retracted": false
+  },
+  "fidelity_checked": true,
+  "verified_by": [
+   "official-court-document-review-2026-11-13"
+  ],
+  "merged_case_id": null,
+  "officers_named_public": 0,
+  "record_flag": null
  }
 ]

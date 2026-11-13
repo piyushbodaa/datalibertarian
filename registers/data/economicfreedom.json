@@ -6546,6 +6546,323 @@
         }
       ],
       "verification": "V2"
+    },
+    {
+      "id": "ef-mp-0010",
+      "category": "hoarding",
+      "state": "Madhya Pradesh",
+      "district": "Narsinghpur",
+      "date": "2026-11-05",
+      "date_label": "High Court appeal judgment",
+      "incident_date": "2009-03-14",
+      "title": "Three-year Essential Commodities Act sentence over wheat in a leased warehouse set aside after eleven years",
+      "outcome": "acquitted",
+      "authority": "Tahsildar / District Supply Officer, Narsinghpur; Second Additional Sessions Judge, Gadarwara; Madhya Pradesh High Court (Jabalpur), Justice Devnarayan Mishra",
+      "case_reference": "Criminal Appeal No. 2023 of 2015 with CRA No. 2187 of 2015 (2026:MPHC-JBP:90305); ST No. 239/2009 (ASJ Gadarwara); Crime No. 214/2009",
+      "laws": [
+        "Sections 3 and 7, Essential Commodities Act, 1955",
+        "Public Distribution System (Control) Order, 2001"
+      ],
+      "acts": [
+        "Essential Commodities Act, 1955"
+      ],
+      "person": "A warehouse tenant and co-appellants convicted over seized wheat bags",
+      "penalty": "Three years' rigorous imprisonment and Rs 1,000 fine imposed on 31 July 2015; conviction and sentence set aside on 5 November 2026",
+      "summary": "Revenue officials raided a rented Gadarwara warehouse and a truck on 14 March 2009 and seized 320 bags of wheat on suspicion they belonged to a government Fair Price Shop, leading to three-year rigorous imprisonment sentences under Sections 3/7 of the Essential Commodities Act in 2015. On 5 November 2026 the Madhya Pradesh High Court set aside the convictions, holding that the inspecting Tahsildar lacked written authorisation under the PDS Control Order 2001 and the State never proved the wheat came from the Public Distribution System.",
+      "detail": [
+        "A Tahsildar acting on oral instructions of the SDM Gadarwara inspected a warehouse leased by one appellant, seized 175 bags loaded in a truck plus bags inside, and handed 320 bags to the State Warehousing Corporation; the Second ASJ Gadarwara convicted the appellants on 31 July 2015.",
+        "On appeal, Justice Devnarayan Mishra noted the Tahsildar admitted in cross-examination that he had no written authorisation under the PDS Control Order 2001 and could not identify wheat as PDS stock merely by appearance.",
+        "Finding no dispatch bill, gate pass or bilty linking the wheat to the Public Distribution System, the High Court set aside the Essential Commodities Act convictions and sentences, leaving the trial court's property-disposal direction undisturbed."
+      ],
+      "current_position": "Convictions under Sections 3/7 Essential Commodities Act set aside on 5 November 2026.",
+      "quote": {
+        "heading": "What the High Court held",
+        "text": "Thus, the essential link connecting the seized wheat with the Public Distribution System is missing.",
+        "where": "CRA No. 2023 & 2187 of 2015, judgment dated 5 November 2026, para 27",
+        "url": "https://indiankanoon.org/doc/193995576/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Grain seizure and prison sentence without PDS proof",
+          "text": "Traders were convicted and sentenced to three years in prison under the Essential Commodities Act without proof that the wheat was public ration stock or that the raider was empowered to seize it."
+        }
+      ],
+      "caveats": "Paragraph 29 affirms the trial court's order on disposal of the seized wheat and truck while quashing the ECA convictions and sentences. Appellants' names are withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/193995576/",
+          "kind": "judgment",
+          "publisher": "Madhya Pradesh High Court (via Indian Kanoon)",
+          "date": "2026-11-05",
+          "supports": "the 2009 raid, 2015 sentence, lack of authorisation and acquittal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-ka-0009",
+      "category": "hoarding",
+      "state": "Karnataka",
+      "district": "Vijayanagar",
+      "date": "2026-11-05",
+      "date_label": "High Court order",
+      "incident_date": "2026-08-08",
+      "title": "Karnataka High Court quashes Essential Commodities Act FIR over 216 LPG cylinders because Food Inspector lacked search power",
+      "outcome": "quashed",
+      "authority": "Food Inspector, Office of the Tahsildar, Kudligi; Hosahalli Police Station, Vijayanagar; High Court of Karnataka (Dharwad Bench), Justice Venkatesh Naik T",
+      "case_reference": "Criminal Petition No. 102865 of 2026 (2026:KHC-D:18161); Crime No. 151/2026 (Hosahalli P.S., Kudligi JMFC)",
+      "laws": [
+        "Sections 3 and 7, Essential Commodities Act, 1955",
+        "Clause 13, Liquefied Petroleum Gas (Regulation of Supply and Distribution) Order, 2000",
+        "Section 287, Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "acts": [
+        "Essential Commodities Act, 1955",
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "A resident of Hosahalli village whose front yard was raided for LPG cylinders",
+      "penalty": "216 LPG cylinders (186 empty, 30 filled) seized on 8 August 2026 and criminal prosecution initiated; FIR quashed on 5 November 2026",
+      "summary": "A Food Inspector attached to the Kudligi Tahsildar's office raided a villager's front yard on 8 August 2026 without a warrant, seized 216 LPG cylinders (186 empty and 30 filled), and filed an FIR the next day under Sections 3/7 of the Essential Commodities Act and Section 287 BNS. On 5 November 2026 the Karnataka High Court quashed the FIR, holding that Clause 13 of the LPG Order 2000 does not authorise a Food Inspector to search or seize cylinders and that Sections 154/155 CrPC were violated.",
+      "detail": [
+        "After conducting a mahazar between 6:30 p.m. and 8:30 p.m. on 8 August 2026 in Hosahalli village without informing the police station one kilometre away or obtaining a warrant, the Food Inspector lodged Crime No. 151/2026 the next afternoon alleging illegal storage and refilling.",
+        "Justice Venkatesh Naik T noted that Clause 13(1) of the LPG Order 2000 empowers only specifically notified Central or State officers not below Inspector rank or authorised oil-company Sales Officers, excluding the Food Inspector.",
+        "Finding further non-compliance with Sections 154 and 155 CrPC, the High Court quashed all proceedings in Crime No. 151/2026 pending before the Civil Judge and JMFC, Kudligi."
+      ],
+      "current_position": "Crime No. 151/2026 quashed on 5 November 2026.",
+      "quote": {
+        "heading": "What the High Court held",
+        "text": "As per the aforesaid provision, the de facto complainant was not authorised to conduct the raid. It is only the officers authorised under the aforesaid provision, who are empowered to conduct the raid and seize LPG cylinders.",
+        "where": "Crl.P No. 102865 of 2026, order dated 5 November 2026, para 11",
+        "url": "https://indiankanoon.org/doc/127467437/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Unauthorised Essential Commodities seizure",
+          "text": "A local Food Inspector conducted an unauthorised warrantless raid and invoked criminal Essential Commodities charges without statutory competence under Clause 13 of the LPG Order."
+        }
+      ],
+      "caveats": "Accused name is withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/127467437/",
+          "kind": "court_order",
+          "publisher": "High Court of Karnataka, Dharwad Bench (via Indian Kanoon)",
+          "date": "2026-11-05",
+          "supports": "the 216-cylinder seizure, Clause 13 analysis and quashing order"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-pb-0007",
+      "category": "gold",
+      "state": "Punjab",
+      "district": "Ludhiana",
+      "date": "2026-11-03",
+      "date_label": "CESTAT final order",
+      "incident_date": "2024-06-13",
+      "title": "Tribunal sets aside DRI's Rs 3.74 crore gold and cash confiscation and Rs 50 lakh penalty from an Amritsar jeweller on a train",
+      "outcome": "penalty_set_aside",
+      "authority": "Directorate of Revenue Intelligence, Ludhiana; Joint Commissioner / Commissioner (Appeals) of Customs, Ludhiana; CESTAT Chandigarh",
+      "case_reference": "Customs Appeal No. 60160 of 2026 (CESTAT Chandigarh); Order-in-Appeal No. LUD-EXCUS-001-APP-44-2026 dated 24.04.2026; OIO dated 30.09.2025",
+      "laws": [
+        "Sections 111(d), 111(l), 111(m), 112(a), 112(b), 120, 121 and 123, Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "A GST-registered Amritsar gold jeweller intercepted on a train at Ludhiana",
+      "penalty": "Confiscation of 1,558g bullion (Rs 1,11,39,700 in OIO; Rs 1,19,39,700 at seizure), 4,814g net gold jewellery (Rs 2,54,82,600), Rs 7,70,000 cash and Rs 50,00,000 penalty; set aside on 3 November 2026",
+      "summary": "DRI Ludhiana officers intercepted an Amritsar jewellery businessman travelling on a train at Ludhiana Railway Station on 13 June 2024 and seized 1,558 grams of gold bullion cut pieces, 5,610 grams gross of nose pins and earrings, and Rs 7,70,000 in cash. Customs authorities ordered confiscation and a Rs 50,00,000 penalty despite statutory GST purchase invoices from domestic suppliers. On 3 November 2026 CESTAT Chandigarh set aside the case as a 'half baked' investigation that failed to rebut proof of domestic origin.",
+      "detail": [
+        "Upon interception on Train No. 13005 on 13 June 2024, the jeweller declared he was carrying gold; DRI seized the goods on 14 June 2024, and on 30 September 2025 the Joint Commissioner of Customs, Ludhiana ordered confiscation of bullion valued at Rs 1,11,39,700, jewellery valued at Rs 2,54,82,600 and Rs 7,70,000 cash plus a Rs 50,00,000 penalty (upheld in appeal on 24 April 2026).",
+        "The appellant placed GST invoices, books of accounts and Section 108 statements before the tribunal showing domestic bullion purchases from GST-registered suppliers in Amritsar and Lucknow.",
+        "CESTAT Chandigarh (Somesh Arora, Member Judicial; P. Anjani Kumar, Member Technical) held that once documentary evidence shifted the burden back onto the Revenue under Section 123, the department failed to trace import records or prove the inland seizure was smuggled foreign gold, and allowed the appeal with consequential relief."
+      ],
+      "current_position": "Customs appeal allowed with consequential relief on 3 November 2026; any further Revenue appeal is not known.",
+      "quote": {
+        "heading": "What the Tribunal held",
+        "text": "We therefore, hold that the department has not been even able to establish that the Inland seizure was of smuggled gold of foreign origin.",
+        "where": "Customs Appeal No. 60160 of 2026, order dated 3 November 2026, para 5",
+        "url": "https://indiankanoon.org/doc/170067122/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Inland Customs seizure of domestic trade stock",
+          "text": "Customs authorities confiscated over Rs 3.7 crore of a domestic jeweller's stock and working cash in transit despite GST invoices and VAT/GST registration since 2003."
+        }
+      ],
+      "caveats": "Paragraph 1.3 states bullion seizure value as Rs 1,19,39,700 while the OIO summary in para 1.5 prints Rs 1,11,39,700. Appellant and supplier names are withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/170067122/",
+          "kind": "judgment",
+          "publisher": "CESTAT Chandigarh (via Indian Kanoon)",
+          "date": "2026-11-03",
+          "supports": "the train interception, weights and values, GST invoices, Rs 50 lakh penalty and tribunal reversal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-kl-0009",
+      "category": "crypto",
+      "state": "Kerala",
+      "district": "Kannur",
+      "date": "2026-11-05",
+      "date_label": "High Court judgment",
+      "incident_date": "2025-09-03",
+      "title": "Mother's Federal Bank account frozen over son's USDT crypto transfers: Kerala High Court limits hold to Rs 1,12,061.63 disputed lien",
+      "outcome": "penalty_set_aside",
+      "authority": "Federal Bank; Cyber Crime Police authorities; High Court of Kerala, Justice M.A. Abdul Hakhim",
+      "case_reference": "W.P.(C) Nos. 36783 & 41469 of 2025 (2026:KER:83202, CNR KLHC010829262025)",
+      "laws": [
+        "SOP for NCRP - CFCFRMS, Custody, Restoration of Money and Grievance Redressal 2026"
+      ],
+      "acts": [
+        "Code of Criminal Procedure, 1973 / Bharatiya Nagarik Suraksha Sanhita, 2023"
+      ],
+      "person": "A Kannur mother whose bank account was frozen after a Rs 5,00,000 transfer from her son's USDT trading account",
+      "penalty": "Total freeze on mother's bank account based on Rs 1,12,061.63 cyber-police lien; blanket freeze lifted on 5 November 2026",
+      "summary": "A Kannur trader claiming proceeds from selling USDT cryptocurrency on the DooPrime platform received 23 credits in September 2025 and transferred Rs 5,00,000 to his mother's Federal Bank account. Cyber police requisitions across five police authorities later froze both accounts, with Rs 1,12,061.63 flagged in three requisitions tied to the mother's Rs 5,00,000 credit. On 5 November 2026 the Kerala High Court dismissed the son's petition for lack of sale documents, while ordering the bank to unfreeze the mother's account subject to limiting the lien to Rs 1,12,061.63 and returning Rs 3,87,938.37 to her son's account.",
+      "detail": [
+        "The son's account received credits totalling Rs 11,06,831 between 3 and 5 September 2025 and transferred Rs 5,00,000 to his mother's account on 3 September; five police authorities subsequently issued 25 requisitions totalling Rs 11,14,417.",
+        "In the mother's petition (W.P.(C) No. 36783/2025), the bank confirmed three police requisitions totalling Rs 1,12,061.63 (Rs 50,000, Rs 49,991 and Rs 12,070.63) linked to the Rs 5,00,000 transfer.",
+        "Justice M.A. Abdul Hakhim (dictated 29 October, signed 5 November 2026) dismissed the son's petition as unexplained money-mule credits, but directed Federal Bank to allow the mother to operate her account by restricting the lien to Rs 1,12,061.63 on transferring the remaining Rs 3,87,938.37 back to the son's account."
+      ],
+      "current_position": "Mother permitted to operate account subject to a Rs 1,12,061.63 lien and return of Rs 3,87,938.37 on 5 November 2026; son's writ petition dismissed.",
+      "quote": {
+        "heading": "What the High Court ordered",
+        "text": "The Respondent/Bank is directed to permit the Petitioner to operate the account mentioned in the Writ Petition maintained by the Petitioner with it, limiting the freeze/lien/hold to the aforesaid total disputed amount of Rs.1,12,061.63",
+        "where": "W.P.(C) Nos. 36783 & 41469 of 2025, judgment dated 5 November 2026, para 8(i)",
+        "url": "https://indiankanoon.org/doc/191191738/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Collateral bank freeze over P2P crypto transfers",
+          "text": "Multi-state cyber-police requisitions froze an entire family member's account despite the total disputed trail reaching only Rs 1,12,061.63."
+        }
+      ],
+      "caveats": "The son's separate petition (W.P.(C) No. 41469/2025) was dismissed because no USDT trade documents were produced and the court found prima facie signs of a money-mule account. Dictated on 29 October 2026 and signed/pronounced on 5 November 2026. Names are withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/191191738/",
+          "kind": "judgment",
+          "publisher": "High Court of Kerala (via Indian Kanoon)",
+          "date": "2026-11-05",
+          "supports": "the USDT trading claim, requisition amounts, dismissal of the son's plea and unfreezing of the mother's account"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-wb-0010",
+      "category": "gold",
+      "state": "West Bengal",
+      "district": "North 24 Parganas",
+      "date": "2026-10-28",
+      "date_label": "CESTAT final order",
+      "incident_date": "2022-07-25",
+      "title": "Customs confiscation of 255g unmarked gold strip and Rs 4 lakh penalty on a domestic Kolkata-Agartala flyer set aside",
+      "outcome": "penalty_set_aside",
+      "authority": "Air Intelligence Unit, Customs, NSCBI Airport, Kolkata; Commissioner of Customs (Appeals), Kolkata; CESTAT Kolkata",
+      "case_reference": "Customs Appeal No. 75619 of 2025, Final Order No. 76537/2026 (CESTAT Kolkata); OIO dated 28.06.2024",
+      "laws": [
+        "Sections 77, 111(d), 111(l), 111(m), 112(b) and 123, Customs Act, 1962"
+      ],
+      "acts": [
+        "Customs Act, 1962"
+      ],
+      "person": "A Sepahijala, Tripura resident flying domestically from Kolkata to Agartala",
+      "penalty": "Absolute confiscation of 255.210g gold strip (Rs 13,14,331) and Rs 4,00,000 penalty imposed on 28 June 2024; set aside on 28 October 2026",
+      "summary": "CISF and Customs AIU at Kolkata Airport seized a 255.210-gram unmarked gold strip worth Rs 13,14,331 from a Sepahijala resident boarding a domestic IndiGo flight to Agartala on 25 July 2022, later ordering absolute confiscation and a Rs 4,00,000 penalty. On 28 October 2026 CESTAT Kolkata set aside both confiscation and penalty, holding that Revenue failed to prove foreign origin under Section 123 and cannot equate a domestic flyer with an international passenger under Section 77.",
+      "detail": [
+        "The appellant was flying Kolkata-Agartala when pre-embarkation screening detected an unconcealed, unmarked gold strip of 99.7% purity in hand luggage; after not receiving the 28 June 2024 adjudication order until a 4 October 2024 recovery notice, he obtained it under RTI and appealed.",
+        "Rejecting the Commissioner (Appeals)'s dismissal for delay, Member (Judicial) R. Muralidhar noted the gold bore no foreign markings, was not of standard 24K size or weight, and rested on a retracted statement.",
+        "CESTAT held that travelling towards a border state like Agartala does not prove smuggling and set aside the confiscation and Rs 4,00,000 penalty with consequential relief."
+      ],
+      "current_position": "Confiscation and Rs 4,00,000 penalty set aside on 28 October 2026 with consequential relief; any further appeal is not known.",
+      "quote": {
+        "heading": "What the Tribunal held",
+        "text": "This is a case wherein a domestic passenger is carrying the gold strip from Kolkata to Agartala can note be equated with an international passenger making a baggage declaration under Section 77.",
+        "where": "Customs Appeal No. 75619 of 2025, Final Order No. 76537/2026 dated 28 October 2026, para 25",
+        "url": "https://indiankanoon.org/doc/92406270/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Domestic air passenger treated as an international smuggler",
+          "text": "Customs seized domestic hand-baggage gold solely from purity and destination suspicion, without proving foreign origin, and imposed a Rs 4,00,000 penalty."
+        }
+      ],
+      "caveats": "The verbatim quote preserves the typographical spelling 'can note be equated' from paragraph 25 of the order. Appellant's name is withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/92406270/",
+          "kind": "judgment",
+          "publisher": "CESTAT Kolkata (via Indian Kanoon)",
+          "date": "2026-10-28",
+          "supports": "the domestic flight seizure, RTI recovery of the OIO, Section 123 analysis and setting aside of confiscation and penalty"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "ef-mh-0012",
+      "category": "hoarding",
+      "state": "Maharashtra",
+      "district": "Thane",
+      "date": "2026-10-22",
+      "date_label": "High Court order",
+      "incident_date": "2025-12-12",
+      "title": "Bombay High Court quashes Essential Commodities FIR against 70-year-old licensed BPCL distributor over parked delivery vehicles",
+      "outcome": "quashed",
+      "authority": "Controller of Rationing, Thane; Manpada Police Station, Dombivli; Bombay High Court, Justice Milind N. Jadhav",
+      "case_reference": "Criminal Application No. 642 of 2026 (2026:BHC-AS:42950, CNR HCBM010154452026); Manpada P.S. FIR No. 1522 of 2025 dated 12.12.2025",
+      "laws": [
+        "Sections 3, 7 and 8, Essential Commodities Act, 1955",
+        "Clauses 3, 4, 5, 6 and 9, Liquefied Petroleum Gas (Regulation of Supply and Distribution) Order, 2000"
+      ],
+      "acts": [
+        "Essential Commodities Act, 1955"
+      ],
+      "person": "A 70-year-old partner of a 45-year-old authorised BPCL gas distributor in Dombivli",
+      "penalty": "Criminal FIR No. 1522 of 2025 registered on 12 December 2025 over LPG cylinders stacked in delivery vehicles; quashed on 22 October 2026",
+      "summary": "A rationing officer inspecting Dombivli saw LPG cylinders stacked in trucks, tempos and luggage cycles parked outside an authorised Bharat Petroleum gas agency of 45 years' standing and lodged an Essential Commodities Act FIR on 12 December 2025 against its 70-year-old partner. On 22 October 2026 the Bombay High Court quashed the FIR, noting there was no allegation of black-marketing, smuggling or seal tampering and that a 2008 government order permits temporary parking of delivery vehicles during distribution.",
+      "detail": [
+        "Manpada Police Station registered FIR No. 1522 of 2025 under Sections 3, 7 and 8 of the Essential Commodities Act and Clauses 3, 4, 5, 6 and 9 of the LPG Order 2000 solely because cylinders received from BPCL were loaded on parked delivery vehicles outside the agency office.",
+        "Justice Milind N. Jadhav found the FIR proceeded entirely on suspicion without any allegation of illegal sale, siphoning, smuggling or concealment, and noted the distributor held a valid godown licence.",
+        "Citing a Government Order dated 27 February 2008 permitting temporary halting of distribution vehicles, the High Court quashed the FIR as founded on broad assumptions lacking statutory ingredients or mens rea."
+      ],
+      "current_position": "FIR No. 1522 of 2025 quashed qua the applicant on 22 October 2026.",
+      "quote": {
+        "heading": "What the High Court held",
+        "text": "I have perused the papers and prima facie find that apart from the aforesaid restricted charge of parking the vehicles, the FIR is bereft of specific allegations and is altogether founded on broad assumptions which cannot be sustained.",
+        "where": "Criminal Application No. 642 of 2026, order dated 22 October 2026, para 5",
+        "url": "https://indiankanoon.org/doc/46199854/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Licensed LPG dealer prosecuted for parking delivery vans",
+          "text": "Rationing and police authorities invoked criminal hoarding laws against a 45-year licensed distributor merely for temporarily loading delivery vehicles outside its office."
+        }
+      ],
+      "caveats": "Partner and agency names are withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/46199854/",
+          "kind": "court_order",
+          "publisher": "Bombay High Court (via Indian Kanoon)",
+          "date": "2026-10-22",
+          "supports": "the FIR, licensed status, 2008 Government Order and quashing"
+        }
+      ],
+      "verification": "V2"
     }
   ]
 }

@@ -85134,5 +85134,83 @@
     "source": "https://yupia.dcourts.gov.in/wp-admin/admin-ajax.php?es_ajax_request=1&action=get_order_pdf&input_strings=eyJjaW5vIjoiQVJQUDAxMDAwMDYwMjAxMyIsIm9yZGVyX25vIjoxOCwib3JkZXJfZGF0ZSI6IjIwMjYtMDgtMjYifQ="
    }
   ]
+ },
+ {
+  "case_id": "t2-20261113-001",
+  "alias_case_ids": [],
+  "verification_status": "V2",
+  "gate_status": "V2",
+  "verify_passes": {},
+  "verified_by": "official-cbi-release-and-sentence-reports-2026-11-13",
+  "verified_at": "2026-11-13T00:00:00Z",
+  "verdict_note": "CBI press release dated 11.11.2026 confirms conviction of a former DSP (then Tarn Taran), Punjab Police under Sections 365 and 120-B IPC by the CBI Court, Mohali in the 25.11.1992 abduction from Ludhiana originating from SC order dated 15.11.1995 in CWP No. 497/1995; acquittal of one constable; abatement against three deceased police co-accused. Sentencing on 12.11.2026 (5 years' imprisonment + Rs 50,000 fine under s. 365 and 2 years + Rs 25,000 fine under s. 120B, concurrent; later retired as SSP) verified from The Tribune and The New Indian Express reports dated 12.11.2026. All officer and victim names withheld.",
+  "state": "Punjab",
+  "district": "Ludhiana",
+  "court": "Special Judge, CBI Court, SAS Nagar (Mohali)",
+  "court_level": "cbi_court",
+  "trial_court_name": "Special Judge, CBI Court, SAS Nagar (Mohali)",
+  "case_title": "CBI v. [name withheld] & Ors",
+  "case_number": "RC registered 23.02.2000 (Supreme Court order dated 15.11.1995 in CWP No. 497/1995)",
+  "case_title_or_number": "CBI v. [name withheld] & Ors; RC registered 23.02.2000 (CWP No. 497/1995)",
+  "conviction_date": "2026-11-11",
+  "conviction_year": 2026,
+  "date_precision": "day",
+  "sentence_date": "2026-11-12",
+  "report_date": "2026-11-12",
+  "incident_date": "1992-11-25",
+  "incident_year": 1992,
+  "category": "brutality",
+  "subcategory": "enforced_disappearance",
+  "raw_subcategory": "enforced_disappearance",
+  "outcome_type": "trial_court_conviction",
+  "officers": [
+   {
+    "rank": "Deputy Superintendent of Police (then DSP, Detective; later retired as SSP)",
+    "unit": "Tarn Taran, Punjab Police",
+    "publish_grade": "unnamed",
+    "name": null,
+    "name_public": null,
+    "display": "Deputy Superintendent of Police (then DSP, Detective), Tarn Taran, Punjab Police",
+    "key2_union": null,
+    "gate_reasons": [
+     "naming_keys_not_run",
+     "subsequent_history_not_verified",
+     "legal_review_not_run"
+    ]
+   }
+  ],
+  "victims": [
+   {
+    "name": null,
+    "gender": "male"
+   }
+  ],
+  "sections": [
+   "IPC 365",
+   "IPC 120B"
+  ],
+  "sentence": "5 years' imprisonment and Rs 50,000 fine under IPC 365; 2 years' imprisonment and Rs 25,000 fine under IPC 120B, to run concurrently (pronounced 12 November 2026).",
+  "sentence_type": "imprisonment",
+  "sentence_max_years": 5,
+  "appeal_status": "none_known",
+  "appeal_url": null,
+  "source_kind": "press_release",
+  "source_agency": "CBI",
+  "primary_source_url": "https://cbi.gov.in/press-detail/ODExOA==",
+  "secondary_sources": [
+   "https://www.tribuneindia.com/news/punjab/34-years-later-former-punjab-ssp-gets-5-year-jail-term-in-transporter-disappearance-case/",
+   "https://www.newindianexpress.com/india/2026/Nov/12/former-punjab-ssp-gets-5-year-sentence-in-transporters-disappearance-case-after-34-years"
+  ],
+  "summary": "A Central Bureau of Investigation (CBI) press release of 11 November 2026 records that the CBI Court, Mohali convicted a former Deputy Superintendent of Police (then posted in Tarn Taran; later retired as SSP) under Sections 365 and 120B IPC for the 25 November 1992 abduction of a Ludhiana transporter from a hotel in Ludhiana, who never returned. The probe originated from a Supreme Court order of 15 November 1995 in CWP No. 497/1995; CBI chargesheeted five police officers on 27 November 2001. Co-accused Constable [name withheld] was acquitted, and proceedings against three other co-accused police officers abated after their deaths. On 12 November 2026 the CBI court sentenced the former DSP to five years' imprisonment and a Rs 50,000 fine under Section 365 IPC and two years and Rs 25,000 fine under Section 120B IPC (concurrent), and referred the victim's family to DLSA for compensation. All officer and victim names are withheld; any later appeal is unverified.",
+  "court_quote": null,
+  "confidence": "high",
+  "tier": "Tier A — Externally reported or officially recorded",
+  "source_job": "november-2026-sweep",
+  "verification_badge": "V2 · Official agency release checked",
+  "tier_badge": "Officially recorded",
+  "subcategory_display": "enforced disappearance",
+  "last_checked": "2026-11-13",
+  "officers_named_public": 0,
+  "officer_count": 1
  }
 ]
