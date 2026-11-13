@@ -209,10 +209,11 @@ tr.india td{font-weight:600;background:#F2EFE6}
 .b-live{background:var(--ledger-soft);color:var(--ledger)}
 .b-dead{background:var(--stamp-soft);color:var(--stamp)}
 .b-igod{background:#E8EEF5;color:#214A75}
+.b-dl{background:#E8F0E8;color:#1F5A36}
 .b-web{background:#F6EBD3;color:#7A5212}
 .b-nic{background:#ECEBE6;color:#4B515C}
 .filters{background:var(--card);border:1px solid var(--line);padding:16px 18px;margin-top:18px;display:flex;flex-direction:column;gap:12px}
-.f-row{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}
+.f-row{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:10px}
 .f-search{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
 .f-search input[type="search"]{flex:1 1 280px;min-width:0;height:40px;padding:0 12px;border:1.5px solid var(--ink);background:#fff;font:400 14.5px var(--sans);color:var(--ink)}
 .f-field{display:flex;flex-direction:column;gap:4px;min-width:0}
@@ -392,20 +393,44 @@ def build_stacked_bar(label: str, aria: str, segments: list[tuple[str, int, str]
     return f'<span class="rl">{esc(label)}</span><div class="bar" role="img" aria-label="{esc(aria)}">{"".join(segs)}</div>'
 
 
+def badge_dns(r: dict) -> str:
+    st = r.get("dns_status") or ("resolved" if r.get("dns_live") else "no_record")
+    if st == "resolved":
+        return '<span class="badge b-live">DNS Resolved</span>'
+    if st == "resolved_www":
+        return '<span class="badge b-live">DNS Resolved (www)</span>'
+    if st == "lookup_error":
+        return '<span class="badge b-nic">DNS Timeout/Err</span>'
+    return '<span class="badge b-dead">No DNS Record</span>'
+
+
+def badge_prov(r: dict) -> str:
+    prov = r.get("provenance") or ("igod" if r.get("in_igod") else "passive_only")
+    role_b = ' <span class="badge b-nic">Infra</span>' if r.get("role") == "infrastructure" else ""
+    if prov == "igod":
+        return '<span class="badge b-igod">In IGOD</span>' + role_b
+    if prov == "official_verified":
+        return '<span class="badge b-dl">Official / DL Link</span>' + role_b
+    return '<span class="badge b-web">Passive / Archive</span>' + role_b
+
+
 def render_static_dir_rows(records: list[dict], limit: int = 50) -> str:
     rows = []
     for r in records[:limit]:
-        dns_b = '<span class="badge b-live">DNS Live</span>' if r["dns_live"] else '<span class="badge b-dead">NXDOMAIN</span>'
-        cat_b = '<span class="badge b-igod">In GoI Dir</span>' if r["catalogued"] else '<span class="badge b-web">Web-only</span>'
+        dns_b = badge_dns(r)
+        cat_b = badge_prov(r)
         loc = r.get("state") or ("Union" if r["tier"] == "union" else TIER_LABELS.get(r["tier"], r["tier"]))
         min_txt = f'<div class="sub-note">{esc(r["ministry"])}</div>' if r.get("ministry") else ""
         note_txt = f'<div class="sub-note">{esc(r["note"])}</div>' if r.get("note") else ""
+        redir_txt = f'<div class="sub-note">Redirects to <code>{esc(r["redirect_to"])}</code></div>' if r.get("redirect_to") else ""
+        merged_n = r.get("preserved_urls_count", 1)
+        merged_txt = f'<div class="sub-note">{inr(merged_n)} URLs preserved under host</div>' if merged_n > 1 else ""
         rank_txt = f'#{inr(r["tranco_rank"])}' if r.get("tranco_rank") else "&mdash;"
         rows.append(
             f'<tr>'
             f'<td class="l"><a class="dom-link" href="{esc(r["url"])}" target="_blank" rel="noopener noreferrer">{esc(r["domain"])}</a>'
-            f'<div class="sub-note">root: {esc(r["root_domain"])}</div></td>'
-            f'<td class="l"><strong>{esc(r["name"])}</strong>{min_txt}{note_txt}</td>'
+            f'<div class="sub-note">parent: {esc(r["root_domain"])}</div>{redir_txt}</td>'
+            f'<td class="l"><strong>{esc(r["name"])}</strong>{min_txt}{note_txt}{merged_txt}</td>'
             f'<td class="l">{esc(KIND_LABELS.get(r["kind"], r["kind"]))}</td>'
             f'<td class="l">{esc(loc)}</td>'
             f'<td class="l">{cat_b} {dns_b}</td>'
@@ -420,10 +445,14 @@ def build_main_hub(snap: dict) -> str:
     rec_info = snap["reconciliation"]
     records = snap["records"]
     total = meta["total_domains"]
+    web_n = meta.get("web_hosts", total)
+    infra_n = meta.get("infra_hosts", 0)
     live = meta["dns_live_domains"]
-    dead = total - live
-    cat_n = meta["catalogued_domains"]
-    uncharted_n = meta["uncharted_domains"]
+    no_rec = meta.get("dns_no_record_domains", total - live)
+    err_n = meta.get("dns_lookup_error_domains", 0)
+    igod_n = meta.get("igod_domains", meta["catalogued_domains"])
+    off_n = meta.get("official_verified_domains", 0)
+    third_n = meta.get("third_level_domains", total)
 
     tier_counts = {}
     kind_counts = {}
@@ -439,11 +468,11 @@ def build_main_hub(snap: dict) -> str:
     local_court_n = tier_counts.get("local", 0) + tier_counts.get("judiciary", 0) + tier_counts.get("legislature", 0)
 
     tiles = [
-        (inr(total), "unique .gov.in domains", f"{inr(meta['root_zones'])} root zones · {inr(meta['listed_portals'])} portals"),
-        (inr(live), f"live in DNS ({pct(live, total):.1f}%)", f"{inr(dead)} dead / NXDOMAIN"),
-        (inr(union_n), "Union Govt .gov.in hosts", f"{rec_info['ministries_total']} ministries/indep. depts tracked"),
-        (inr(state_n), "States & UTs .gov.in hosts", "across all 36 states & union territories"),
-        (inr(local_court_n), "Districts, Local & Courts", "collectorates, ULBs, panchayats & courts"),
+        (inr(total), "compiled .gov.in hostnames", f"{inr(web_n)} web hosts · {inr(infra_n)} infra (mail/DNS/VPN)"),
+        (inr(live), f"resolved in DNS ({pct(live, total):.1f}%)", f"{inr(no_rec)} no DNS record · {inr(err_n)} timeout/err"),
+        (inr(igod_n), "listed in IGOD (GoI)", f"+ {inr(off_n)} via official links & DL registers"),
+        (inr(union_n), "Union & Apex .gov.in hosts", f"{rec_info['ministries_total']} ministries/indep. depts tracked"),
+        (inr(local_court_n), "Districts, Local & Courts", f"{inr(third_n)} 3rd-level *.gov.in names"),
     ]
     tiles_html = "".join(
         f'<div class="tile"><div class="v">{esc(v)}</div><div class="l">{esc(l)}</div><div class="d">{esc(d)}</div></div>'
@@ -452,11 +481,11 @@ def build_main_hub(snap: dict) -> str:
 
     hero = f"""<section class="hero">
   <div class="wrap">
-    <div class="kicker">Public directory &middot; gov.datalibertarian.in &middot; Updated {esc(meta['generated_on'])}</div>
-    <h1>Every .gov.in website of the Indian state, mapped.</h1>
-    <p>India has no single readable register showing how many Union ministries, regulators, PSUs, state departments, districts, courts and local bodies operate on <code>.gov.in</code> &mdash; or how many live <code>.gov.in</code> domains sit outside the government&rsquo;s own official directory. This register merges <strong>igod.gov.in</strong>, real-world DNS/traffic logs, and live DNS checks into one searchable ledger.</p>
+    <div class="kicker">Compiled directory &middot; gov.datalibertarian.in &middot; Checked {esc(meta['generated_on'])}</div>
+    <h1>Compiled directory of Indian .gov.in hostnames.</h1>
+    <p>India publishes no single authoritative zone file of all <code>.gov.in</code> delegations, so total recall is unknown. This register compiles and cross-checks observed <code>.gov.in</code> hostnames across <strong>igod.gov.in</strong>, one-hop links from official government portals, Data Libertarian&rsquo;s verified registers, passive DNS/traffic rankings, and timestamped DNS probes.</p>
     <div class="cta">
-      <a class="btn solid" href="#directory">Explore all {inr(total)} domains</a>
+      <a class="btn solid" href="#directory">Explore all {inr(total)} hostnames</a>
       <a class="btn" href="#ministries">55 Union Ministries &amp; Depts</a>
       <a class="btn" href="#states">36 States &amp; UTs</a>
       <a class="btn" href="/gov/gov-in-websites.csv" download>Download CSV</a>
@@ -472,15 +501,15 @@ def build_main_hub(snap: dict) -> str:
         for k, lbl, col in TIER_META
         if tier_counts.get(k, 0) > 0
     )
-    cat_live = sum(1 for r in records if r["catalogued"] and r["dns_live"])
-    cat_dead = sum(1 for r in records if r["catalogued"] and not r["dns_live"])
-    web_live = sum(1 for r in records if not r["catalogued"] and r["dns_live"])
-    web_dead = sum(1 for r in records if not r["catalogued"] and not r["dns_live"])
+    igod_live = sum(1 for r in records if r["in_igod"] and r["dns_live"])
+    off_live = sum(1 for r in records if r.get("provenance") == "official_verified" and r["dns_live"])
+    pas_live = sum(1 for r in records if r.get("provenance") == "passive_only" and r["dns_live"])
+    all_dead_or_err = sum(1 for r in records if not r["dns_live"])
     cov_segs = [
-        ("In GoI Directory & DNS Live", cat_live, "#2f6f4e"),
-        ("Web-Only & DNS Live (missing from GoI Dir)", web_live, "#2a78d6"),
-        ("In GoI Directory but Dead DNS", cat_dead, "#b3261e"),
-        ("Archive/Scan Dead DNS", web_dead, "#9ca3af"),
+        ("In IGOD & DNS Resolved", igod_live, "#2f6f4e"),
+        ("Official Link / DL Verified & DNS Resolved", off_live, "#1baf7a"),
+        ("Passive DNS / Archive Only & Resolved", pas_live, "#2a78d6"),
+        ("No DNS Record / Lookup Error", all_dead_or_err, "#b3261e"),
     ]
     cov_legend = "".join(
         f'<span><i style="background:{col}"></i>{esc(lbl)} ({inr(val)})</span>'
@@ -490,20 +519,20 @@ def build_main_hub(snap: dict) -> str:
     macro_sec = f"""<section class="sec" id="macro" aria-labelledby="h-macro">
   <div class="wrap">
     <div class="sec-head">
-      <div><div class="kicker">Macro view</div><h2 id="h-macro">The shape of the Indian state on .gov.in</h2></div>
-      <p>Hover or focus any segment for exact domain counts. Uncharted hosts come from real-world DNS/traffic rankings and archives outside igod.gov.in.</p>
+      <div><div class="kicker">Macro view</div><h2 id="h-macro">The shape of observed Indian .gov.in hostnames</h2></div>
+      <p>Hover or focus any segment for exact hostname counts. Provenance separates IGOD listings from one-hop official links and passive DNS/archive sightings.</p>
     </div>
     <div class="fig">
-      <h3>1. Unique .gov.in domains by tier of government</h3>
-      <p class="cap">How the {inr(total)} compiled .gov.in domains split across Union, States, Local bodies, Courts, Legislatures, and uncharted web hosts.</p>
+      <h3>1. Compiled .gov.in hostnames by tier of government</h3>
+      <p class="cap">How the {inr(total)} compiled .gov.in hostnames split across Union, States, Local bodies, Courts, Legislatures, and uncatalogued passive web hosts.</p>
       <div class="legend">{tier_legend}</div>
-      <div class="share">{build_stacked_bar("By tier", "Share of .gov.in domains by tier", tier_segs, total)}</div>
+      <div class="share">{build_stacked_bar("By tier", "Share of .gov.in hostnames by tier", tier_segs, total)}</div>
     </div>
     <div class="fig">
-      <h3>2. Official GoI directory coverage vs live DNS resolution</h3>
-      <p class="cap">{inr(web_live)} live .gov.in domains resolve in DNS today yet are missing from igod.gov.in; {inr(cat_dead)} officially listed .gov.in domains fail DNS resolution.</p>
+      <h3>2. Directory provenance vs DNS resolution ({esc(meta.get('dns_checked_at', meta['generated_on']))})</h3>
+      <p class="cap">{inr(off_live + pas_live)} resolving .gov.in hostnames do not appear in IGOD listings ({inr(off_live)} found via official links/DL registers + {inr(pas_live)} in passive DNS/archives); {inr(all_dead_or_err)} compiled hosts returned no DNS record or a resolver timeout/error.</p>
       <div class="legend">{cov_legend}</div>
-      <div class="share">{build_stacked_bar("Coverage & DNS", "Official directory coverage vs live DNS", cov_segs, total)}</div>
+      <div class="share">{build_stacked_bar("Provenance & DNS", "Provenance vs DNS resolution", cov_segs, total)}</div>
     </div>
   </div>
 </section>"""
@@ -570,17 +599,17 @@ def build_main_hub(snap: dict) -> str:
 </section>"""
 
     # Section 4: 36 States & UTs sortable table
-    st_stats = {s: {"total": 0, "cat": 0, "local": 0, "uncharted": 0, "live": 0, "portal": None} for s in ALL_STATES}
+    st_stats = {s: {"total": 0, "igod": 0, "local": 0, "other_prov": 0, "live": 0, "portal": None} for s in ALL_STATES}
     for r in records:
         st = r.get("state")
         if st not in st_stats:
             continue
         d = st_stats[st]
         d["total"] += 1
-        if r["catalogued"]:
-            d["cat"] += 1
+        if r.get("in_igod"):
+            d["igod"] += 1
         else:
-            d["uncharted"] += 1
+            d["other_prov"] += 1
         if r["kind"] in ("district", "local"):
             d["local"] += 1
         if r["dns_live"]:
@@ -589,7 +618,7 @@ def build_main_hub(snap: dict) -> str:
             "maharashtra.gov.in", "up.gov.in", "karnataka.gov.in", "kerala.gov.in", "tn.gov.in",
             "telangana.gov.in", "ap.gov.in", "gujarat.gov.in", "rajasthan.gov.in", "mp.gov.in",
             "wb.gov.in", "bihar.gov.in", "odisha.gov.in", "assam.gov.in", "punjab.gov.in",
-            "haryana.gov.in", "cgstate.gov.in", "uk.gov.in", "jharkhand.gov.in", "himachal.nic.in",
+            "haryana.gov.in", "cgstate.gov.in", "uk.gov.in", "jharkhand.gov.in", "hp.gov.in",
             "jk.gov.in", "goa.gov.in", "sikkim.gov.in", "tripura.gov.in", "meghalaya.gov.in",
             "manipur.gov.in", "mizoram.gov.in", "nagaland.gov.in", "arunachalpradesh.gov.in",
             "delhi.gov.in", "py.gov.in", "chandigarh.gov.in", "andaman.gov.in", "lakshadweep.gov.in",
@@ -599,12 +628,12 @@ def build_main_hub(snap: dict) -> str:
 
     st_rows = [
         f'<tr class="india">'
-        f'<td data-v="000">All compiled .gov.in (Union + 36 States/UTs + Uncharted)</td>'
+        f'<td data-v="000">All compiled .gov.in (Union + 36 States/UTs + Passive/Uncharted)</td>'
         f'<td data-v="india.gov.in"><a class="dom-link" href="https://www.india.gov.in" target="_blank" rel="noopener">india.gov.in</a></td>'
         f'<td data-v="{total}">{inr(total)}</td>'
-        f'<td data-v="{cat_n}">{inr(cat_n)}</td>'
+        f'<td data-v="{igod_n}">{inr(igod_n)}</td>'
         f'<td data-v="{tier_counts.get("local", 0)}">{inr(tier_counts.get("local", 0))}</td>'
-        f'<td data-v="{uncharted_n}">{inr(uncharted_n)}</td>'
+        f'<td data-v="{total - igod_n}">{inr(total - igod_n)}</td>'
         f'<td data-v="{pct(live, total):.1f}">{pct(live, total):.1f}%</td>'
         f'<td>&mdash;</td>'
         f'</tr>'
@@ -622,9 +651,9 @@ def build_main_hub(snap: dict) -> str:
             f'<td data-v="{esc(st)}"><a href="/{esc(slug)}"><strong>{esc(st)}</strong></a></td>'
             f'<td data-v="{esc(d["portal"] or "")}">{portal_cell}</td>'
             f'<td data-v="{d["total"]}">{inr(d["total"])}</td>'
-            f'<td data-v="{d["cat"]}">{inr(d["cat"])}</td>'
+            f'<td data-v="{d["igod"]}">{inr(d["igod"])}</td>'
             f'<td data-v="{d["local"]}">{inr(d["local"])}</td>'
-            f'<td data-v="{d["uncharted"]}">{inr(d["uncharted"])}</td>'
+            f'<td data-v="{d["other_prov"]}">{inr(d["other_prov"])}</td>'
             f'<td data-v="{lp:.1f}">{lp:.1f}%</td>'
             f'<td class="l"><button type="button" class="btn-sm" data-filter-state="{esc(st)}">Filter &rarr;</button></td>'
             f'</tr>'
@@ -633,19 +662,19 @@ def build_main_hub(snap: dict) -> str:
     states_sec = f"""<section class="sec" id="states" aria-labelledby="h-states">
   <div class="wrap">
     <div class="sec-head">
-      <div><div class="kicker">Federal breakdown</div><h2 id="h-states">Every state and union territory</h2></div>
-      <p>Click any column heading to sort. State totals include IGOD-catalogued bodies plus live state subdomains (e.g. <code>*.maharashtra.gov.in</code>).</p>
+      <div><div class="kicker">Federal breakdown</div><h2 id="h-states">36 States and Union Territories</h2></div>
+      <p>Click any column heading to sort. State totals include IGOD listings, one-hop official links, verified district portals, and passive state subdomains (e.g. <code>*.maharashtra.gov.in</code>).</p>
     </div>
     <div class="tbl-wrap">
       <table class="sortable">
         <thead><tr>
           <th scope="col">State / UT</th>
-          <th scope="col">Root .gov.in Portal</th>
-          <th scope="col">Total .gov.in</th>
-          <th scope="col">In GoI Dir</th>
+          <th scope="col">State Portal (.gov.in)</th>
+          <th scope="col">Total Compiled</th>
+          <th scope="col">In IGOD</th>
           <th scope="col">District &amp; Local</th>
-          <th scope="col">Web-Only Subdomains</th>
-          <th scope="col">DNS Live</th>
+          <th scope="col">Non-IGOD / Web Hosts</th>
+          <th scope="col">DNS Resolved</th>
           <th scope="col">Directory</th>
         </tr></thead>
         <tbody>{"".join(st_rows)}</tbody>
@@ -664,24 +693,25 @@ def build_main_hub(snap: dict) -> str:
     dir_sec = f"""<section class="sec" id="directory" aria-labelledby="h-dir">
   <div class="wrap">
     <div class="sec-head">
-      <div><div class="kicker">Full register</div><h2 id="h-dir">Search all {inr(total)} .gov.in websites</h2></div>
-      <p>Filter by tier, kind of body, state, Union ministry, GoI directory status, or live DNS. Every filter updates the URL so you can share it.</p>
+      <div><div class="kicker">Full register</div><h2 id="h-dir">Search all {inr(total)} compiled .gov.in hostnames</h2></div>
+      <p>Filter by tier, kind of body, state, Union ministry, provenance, DNS response, or host role. Shared portals preserve all merged sub-URL counts cleanly.</p>
     </div>
     <div class="filters">
       <div class="f-search">
         <label for="f-q" class="mono" style="font-size:12px;text-transform:uppercase;letter-spacing:.08em">Search</label>
-        <input id="f-q" type="search" placeholder="Domain, ministry, regulator, state (e.g. sebi, rbi, maharashtra, mca, delhi)..." enterkeyhint="search">
+        <input id="f-q" type="search" placeholder="Hostname, ministry, regulator, state (e.g. sebi, cag, maharashtra, mca, rohtak)..." enterkeyhint="search">
       </div>
       <div class="f-row">
         <div class="f-field"><label for="f-tier">Tier</label><select id="f-tier"><option value="">All tiers</option>{tier_opts}</select></div>
         <div class="f-field"><label for="f-kind">Kind of body</label><select id="f-kind"><option value="">All 12 kinds</option>{kind_opts}</select></div>
         <div class="f-field"><label for="f-state">State / UT</label><select id="f-state"><option value="">All India / Any</option>{state_opts}</select></div>
         <div class="f-field"><label for="f-min">Union Ministry</label><select id="f-min"><option value="">Any ministry</option>{min_opts}</select></div>
-        <div class="f-field"><label for="f-cat">GoI Directory</label><select id="f-cat"><option value="">All</option><option value="1">In GoI Directory</option><option value="0">Missing from GoI Dir</option></select></div>
-        <div class="f-field"><label for="f-dns">DNS Status</label><select id="f-dns"><option value="">All</option><option value="1">Live in DNS</option><option value="0">Dead / NXDOMAIN</option></select></div>
+        <div class="f-field"><label for="f-prov">Provenance</label><select id="f-prov"><option value="">All sources</option><option value="igod">Listed in IGOD</option><option value="official_verified">Official link / DL verified</option><option value="passive_only">Passive DNS / archive only</option></select></div>
+        <div class="f-field"><label for="f-dns">DNS Status</label><select id="f-dns"><option value="">All DNS states</option><option value="resolved">DNS Resolved</option><option value="no_record">No DNS Record</option><option value="lookup_error">DNS Timeout / Error</option></select></div>
+        <div class="f-field"><label for="f-role">Host Role</label><select id="f-role"><option value="">All hosts</option><option value="web">Websites &amp; portals</option><option value="infra">Infra (mail/DNS/VPN)</option></select></div>
       </div>
       <div class="f-bar">
-        <label class="f-check"><input type="checkbox" id="f-group"> Group subdomains under root <code>.gov.in</code> domain</label>
+        <label class="f-check"><input type="checkbox" id="f-group"> Group subdomains under 3rd-level parent (<code>*.gov.in</code>)</label>
         <div class="f-actions">
           <button type="button" class="btn-sm" id="f-reset">Reset filters</button>
           <button type="button" class="btn-sm" id="f-dl-filtered">Download filtered CSV</button>
@@ -689,15 +719,15 @@ def build_main_hub(snap: dict) -> str:
         </div>
       </div>
     </div>
-    <div class="dir-meta"><span id="dir-count">Showing 1&ndash;50 of {inr(total)} .gov.in websites (top by Tranco rank; loading full index...)</span><span id="dir-status"></span></div>
+    <div class="dir-meta"><span id="dir-count">Showing 1&ndash;50 of {inr(total)} compiled .gov.in hostnames (top by Tranco rank; loading full index...)</span><span id="dir-status"></span></div>
     <div class="tbl-wrap">
       <table>
         <thead><tr>
-          <th scope="col">Domain</th>
+          <th scope="col">Hostname</th>
           <th scope="col">Institution / Portal</th>
           <th scope="col">Kind</th>
           <th scope="col">State / Tier</th>
-          <th scope="col">Directory &amp; DNS</th>
+          <th scope="col">Provenance &amp; DNS</th>
           <th scope="col">Tranco</th>
         </tr></thead>
         <tbody id="dir-body">{render_static_dir_rows(records, 50)}</tbody>
@@ -719,11 +749,13 @@ def build_main_hub(snap: dict) -> str:
     method_sec = f"""<section class="sec" id="methodology" aria-labelledby="h-method">
   <div class="wrap">
     <div class="sec-head">
-      <div><div class="kicker">Sources &amp; reconciliation</div><h2 id="h-method">How this register was compiled</h2></div>
-      <p>Snapshot generated on {esc(meta["generated_on"])}. Nothing is estimated; every domain is linked to the source that reported it.</p>
+      <div><div class="kicker">Sources, methodology &amp; limits</div><h2 id="h-method">How this register was compiled</h2></div>
+      <p>Generated {esc(meta["generated_on"])} (DNS probe {esc(meta.get("dns_checked_at", meta["generated_on"]))}). Bounded compiled register &mdash; not an exhaustive registry census.</p>
     </div>
     <ul class="notes">{src_items}
-      <li><strong>What is NOT <code>.gov.in</code>:</strong> During this crawl, <code>igod.gov.in</code> also listed <strong>{inr(rec_info["non_gov_in_total"])}</strong> unique non-<code>.gov.in</code> hosts (mainly legacy <code>.nic.in</code>, plus PSU/statutory <code>.co.in</code>, <code>.org.in</code>, <code>.in</code>, <code>.res.in</code>, and <code>.ac.in</code> domains). They are excluded from the <code>.gov.in</code> domain ledger and reconciled below.</li>
+      <li><strong>What this register measures (and what it does not):</strong> India publishes no complete <code>.gov.in</code> zone file, so nationwide recall is unknown. This ledger indexes <strong>{inr(total)}</strong> unique <code>.gov.in</code> hostnames ({inr(web_n)} web hosts and {inr(infra_n)} infrastructural hosts such as mail, VPN, and nameservers) across {inr(meta["root_zones"])} syntactic third-level parent names ({inr(meta.get("third_level_domains", 0))} with their own row). Where one shared portal hosts multiple government bodies (such as state portals or Ministry umbrellas), the host row takes a single atomic institutional identity and preserves merged sub-URL counts cleanly instead of mixing entity names and URLs.</li>
+      <li><strong>Provenance &amp; DNS distinctions:</strong> <strong>{inr(igod_n)}</strong> hosts come directly from <code>igod.gov.in</code> listings, <strong>{inr(off_n)}</strong> additional hosts were verified from official one-hop links, Data Libertarian registers, or HTTP-200 district checks, and <strong>{inr(meta.get("passive_only_domains", 0))}</strong> come from passive DNS/archives (Tranco, GoI Archive, URLScan). DNS resolution separates <code>resolved</code> / <code>resolved_www</code> ({inr(live)}), <code>EAI_NONAME</code> <code>no_record</code> ({inr(no_rec)}), and transient <code>lookup_error</code> ({inr(err_n)}).</li>
+      <li><strong>Non-<code>.gov.in</code> hosts inside IGOD:</strong> During this crawl, <code>igod.gov.in</code> also listed <strong>{inr(rec_info["non_gov_in_total"])}</strong> unique non-<code>.gov.in</code> hosts (<code>.ac.in</code>, legacy <code>.nic.in</code>, <code>.in</code>, <code>.co.in</code>, <code>.org.in</code>, <code>.res.in</code>, etc.). They are kept out of the <code>.gov.in</code> ledger and summarized below.</li>
     </ul>
     <div class="tbl-wrap" style="max-width:520px">
       <table style="min-width:0">
@@ -742,11 +774,12 @@ def build_main_hub(snap: dict) -> str:
     br:["bihar"],jh:["jharkhand"],od:["odisha"],cg:["chhattisgarh"],uk:["uttarakhand"],ga:["goa"],
     jk:["jammu and kashmir"],dl:["delhi"],py:["puducherry"],ch:["chandigarh"],la:["ladakh"],ld:["lakshadweep"],
     an:["andaman"],as:["assam"],sk:["sikkim"],tr:["tripura"],ml:["meghalaya"],mn:["manipur"],mz:["mizoram"],
-    nl:["nagaland"],ar:["arunachal pradesh"],psu:["psus","undertaking"],rbi:["reserve bank"],sebi:["securities and exchange"]};
+    nl:["nagaland"],ar:["arunachal pradesh"],psu:["psus","undertaking"],rbi:["reserve bank"],sebi:["securities and exchange"],
+    cag:["comptroller and auditor general"]};
   var DATA=null, FILT=[], PAGE=1, PER=50;
   var elQ=document.getElementById("f-q"), elTier=document.getElementById("f-tier"), elKind=document.getElementById("f-kind"),
-      elState=document.getElementById("f-state"), elMin=document.getElementById("f-min"), elCat=document.getElementById("f-cat"),
-      elDns=document.getElementById("f-dns"), elGroup=document.getElementById("f-group"),
+      elState=document.getElementById("f-state"), elMin=document.getElementById("f-min"), elProv=document.getElementById("f-prov"),
+      elDns=document.getElementById("f-dns"), elRole=document.getElementById("f-role"), elGroup=document.getElementById("f-group"),
       elBody=document.getElementById("dir-body"), elCount=document.getElementById("dir-count"),
       elStatus=document.getElementById("dir-status"), elPager=document.getElementById("dir-pager");
 
@@ -759,8 +792,9 @@ def build_main_hub(snap: dict) -> str:
     if(p.has("kind"))elKind.value=p.get("kind");
     if(p.has("state"))elState.value=p.get("state");
     if(p.has("ministry"))elMin.value=p.get("ministry");
-    if(p.has("catalogued"))elCat.value=p.get("catalogued");
+    if(p.has("provenance"))elProv.value=p.get("provenance");
     if(p.has("dns"))elDns.value=p.get("dns");
+    if(p.has("role"))elRole.value=p.get("role");
     if(p.get("grouped")==="1")elGroup.checked=true;
   }
   function syncUrl(){
@@ -770,8 +804,9 @@ def build_main_hub(snap: dict) -> str:
     if(elKind.value)p.set("kind",elKind.value);
     if(elState.value)p.set("state",elState.value);
     if(elMin.value)p.set("ministry",elMin.value);
-    if(elCat.value)p.set("catalogued",elCat.value);
+    if(elProv.value)p.set("provenance",elProv.value);
     if(elDns.value)p.set("dns",elDns.value);
+    if(elRole.value)p.set("role",elRole.value);
     if(elGroup.checked)p.set("grouped","1");
     var qs=p.toString();
     history.replaceState(null,"",location.pathname+(qs?"?"+qs:"")+location.hash);
@@ -787,7 +822,7 @@ def build_main_hub(snap: dict) -> str:
     var kIdx=elKind.value?DATA.kindKeys.indexOf(elKind.value):-1;
     var sIdx=elState.value?DATA.states.indexOf(elState.value):-1;
     var mIdx=elMin.value?DATA.ministries.indexOf(elMin.value):-1;
-    var catV=elCat.value, dnsV=elDns.value;
+    var provV=elProv.value, dnsV=elDns.value, roleV=elRole.value;
     var matched=[];
     for(var i=0;i<DATA.rows.length;i++){
       var r=DATA.rows[i];
@@ -795,10 +830,14 @@ def build_main_hub(snap: dict) -> str:
       if(kIdx!==-1&&r[4]!==kIdx)continue;
       if(sIdx!==-1&&r[6]!==sIdx)continue;
       if(mIdx!==-1&&r[7]!==mIdx)continue;
-      if(catV!==""&&String(r[8])!==catV)continue;
-      if(dnsV!==""&&String(r[9])!==dnsV)continue;
+      if(provV!==""&&r[8]!==provV)continue;
+      if(dnsV==="resolved"&&r[9]!=="resolved"&&r[9]!=="resolved_www")continue;
+      if(dnsV==="no_record"&&r[9]!=="no_record")continue;
+      if(dnsV==="lookup_error"&&r[9]!=="lookup_error")continue;
+      if(roleV==="web"&&r[14]===1)continue;
+      if(roleV==="infra"&&r[14]===0)continue;
       if(terms.length){
-        var hay=(r[0]+" "+r[3]+" "+(r[6]>=0?DATA.states[r[6]]:"")+" "+(r[7]>=0?DATA.ministries[r[7]]:"")+" "+r[13]).toLowerCase();
+        var hay=(r[0]+" "+r[3]+" "+(r[6]>=0?DATA.states[r[6]]:"")+" "+(r[7]>=0?DATA.ministries[r[7]]:"")+" "+r[13]+" "+r[15]).toLowerCase();
         var ok=true;
         for(var j=0;j<terms.length;j++){
           var alts=terms[j], found=false;
@@ -817,7 +856,7 @@ def build_main_hub(snap: dict) -> str:
         if(!g){grp.set(root,{rep:r,subs:[r]});}
         else{
           g.subs.push(r);
-          if(r[0]===root||(g.rep[0]!==root&&r[8]>g.rep[8]))g.rep=r;
+          if(r[0]===root||(g.rep[0]!==root&&r[16]>g.rep[16]))g.rep=r;
         }
       }
       FILT=[];
@@ -828,33 +867,43 @@ def build_main_hub(snap: dict) -> str:
     PAGE=1;
     render();
   }
+  function dnsBadge(s){
+    if(s==="resolved")return '<span class="badge b-live">DNS Resolved</span>';
+    if(s==="resolved_www")return '<span class="badge b-live">DNS Resolved (www)</span>';
+    if(s==="lookup_error")return '<span class="badge b-nic">DNS Timeout/Err</span>';
+    return '<span class="badge b-dead">No DNS Record</span>';
+  }
+  function provBadge(p, isInfra){
+    var b=p==="igod"?'<span class="badge b-igod">In IGOD</span>':(p==="official_verified"?'<span class="badge b-dl">Official / DL Link</span>':'<span class="badge b-web">Passive / Archive</span>');
+    return isInfra?b+' <span class="badge b-nic">Infra</span>':b;
+  }
   function render(){
     var total=FILT.length, pages=Math.max(1,Math.ceil(total/PER));
     if(PAGE>pages)PAGE=pages;
     var start=(PAGE-1)*PER, end=Math.min(total,start+PER);
     if(total===0){
-      elCount.textContent="0 matching .gov.in websites";
-      elBody.innerHTML='<tr><td colspan="6" class="l" style="padding:20px">No .gov.in websites match these filters. Try clearing one filter or searching a broader term.</td></tr>';
+      elCount.textContent="0 matching .gov.in hostnames";
+      elBody.innerHTML='<tr><td colspan="6" class="l" style="padding:20px">No .gov.in hostnames match these filters. Try clearing one filter or searching a broader term.</td></tr>';
       elPager.innerHTML="";
       return;
     }
-    elCount.textContent="Showing "+inr(start+1)+"–"+inr(end)+" of "+inr(total)+(elGroup.checked?" root .gov.in zones":" .gov.in websites");
+    elCount.textContent="Showing "+inr(start+1)+"–"+inr(end)+" of "+inr(total)+(elGroup.checked?" 3rd-level .gov.in parents":" compiled .gov.in hostnames");
     var html=[];
     for(var i=start;i<end;i++){
       var item=FILT[i], r=item.row;
-      var dnsB=r[9]?'<span class="badge b-live">DNS Live</span>':'<span class="badge b-dead">NXDOMAIN</span>';
-      var catB=r[8]?'<span class="badge b-igod">In GoI Dir</span>':'<span class="badge b-web">Web-only</span>';
       var loc=r[6]>=0?DATA.states[r[6]]:DATA.tierLabels[r[5]];
       var minTxt=r[7]>=0?'<div class="sub-note">'+esc(DATA.ministries[r[7]])+'</div>':"";
       var noteTxt=r[13]?'<div class="sub-note">'+esc(r[13])+'</div>':"";
+      var redirTxt=r[15]?'<div class="sub-note">Redirects to <code>'+esc(r[15])+'</code></div>':"";
+      var mergedTxt=r[11]>1?'<div class="sub-note">'+inr(r[11])+' URLs preserved under host</div>':"";
       var grpTxt=item.count>1?'<div class="sub-note"><strong>'+inr(item.count)+' subdomains</strong>: '+item.subs.slice(0,4).map(function(s){return esc(s[0]);}).join(", ")+(item.subs.length>4?"…":"")+'</div>':"";
       var rk=r[10]!=null?"#"+inr(r[10]):"—";
       html.push('<tr>'+
-        '<td class="l"><a class="dom-link" href="'+esc(r[2])+'" target="_blank" rel="noopener noreferrer">'+esc(r[0])+'</a><div class="sub-note">root: '+esc(r[1])+'</div>'+grpTxt+'</td>'+
-        '<td class="l"><strong>'+esc(r[3])+'</strong>'+minTxt+noteTxt+'</td>'+
+        '<td class="l"><a class="dom-link" href="'+esc(r[2])+'" target="_blank" rel="noopener noreferrer">'+esc(r[0])+'</a><div class="sub-note">parent: '+esc(r[1])+'</div>'+redirTxt+grpTxt+'</td>'+
+        '<td class="l"><strong>'+esc(r[3])+'</strong>'+minTxt+noteTxt+mergedTxt+'</td>'+
         '<td class="l">'+esc(DATA.kindLabels[r[4]])+'</td>'+
         '<td class="l">'+esc(loc)+'</td>'+
-        '<td class="l">'+catB+' '+dnsB+'</td>'+
+        '<td class="l">'+provBadge(r[8],r[14]===1)+' '+dnsBadge(r[9])+'</td>'+
         '<td class="mono">'+rk+'</td>'+
       '</tr>');
     }
@@ -877,18 +926,19 @@ def build_main_hub(snap: dict) -> str:
   }
   document.getElementById("f-dl-filtered").addEventListener("click",function(){
     if(!DATA||!FILT.length)return;
-    var lines=["domain,root_domain,url,name,tier,kind,state,ministry,catalogued,dns_live,tranco_rank,sources"];
+    var checkedAt=(DATA.meta&&DATA.meta.dns_checked_at)||"";
+    var lines=["domain,root_domain,url,name,role,tier,kind,state,ministry,provenance,in_igod,dns_status,dns_checked_at,redirect_to,tranco_rank,preserved_urls_count,sources"];
     for(var i=0;i<FILT.length;i++){
       var r=FILT[i].row;
-      lines.push([r[0],r[1],r[2],r[3],DATA.tierKeys[r[5]],DATA.kindKeys[r[4]],r[6]>=0?DATA.states[r[6]]:"",r[7]>=0?DATA.ministries[r[7]]:"",r[8]?"true":"false",r[9]?"true":"false",r[10]!=null?r[10]:"",r[12]].map(csvCell).join(","));
+      lines.push([r[0],r[1],r[2],r[3],r[14]===1?"infrastructure":"web",DATA.tierKeys[r[5]],DATA.kindKeys[r[4]],r[6]>=0?DATA.states[r[6]]:"",r[7]>=0?DATA.ministries[r[7]]:"",r[8],r[16]===1?"true":"false",r[9],checkedAt,r[15],r[10]!=null?r[10]:"",r[11],r[12]].map(csvCell).join(","));
     }
     var blob=new Blob([lines.join("\n")],{type:"text/csv;charset=utf-8"});
     var a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="gov-in-filtered.csv";a.click();
   });
   document.getElementById("f-reset").addEventListener("click",function(){
-    elQ.value="";elTier.value="";elKind.value="";elState.value="";elMin.value="";elCat.value="";elDns.value="";elGroup.checked=false;apply();
+    elQ.value="";elTier.value="";elKind.value="";elState.value="";elMin.value="";elProv.value="";elDns.value="";elRole.value="";elGroup.checked=false;apply();
   });
-  [elTier,elKind,elState,elMin,elCat,elDns,elGroup].forEach(function(el){el.addEventListener("change",apply);});
+  [elTier,elKind,elState,elMin,elProv,elDns,elRole,elGroup].forEach(function(el){el.addEventListener("change",apply);});
   var timer=null;
   elQ.addEventListener("input",function(){clearTimeout(timer);timer=setTimeout(apply,120);});
   document.querySelectorAll("[data-filter-kind]").forEach(function(btn){
@@ -908,7 +958,7 @@ def build_main_hub(snap: dict) -> str:
     DATA.kindLabels=d.kinds.map(function(x){return x[1];});
     DATA.tierKeys=d.tiers.map(function(x){return x[0];});
     DATA.tierLabels=d.tiers.map(function(x){return x[1];});
-    elStatus.textContent="Index ready ("+inr(d.rows.length)+" domains)";
+    elStatus.textContent="Index ready ("+inr(d.rows.length)+" hostnames)";
     apply();
   }).catch(function(){elStatus.textContent="Failed to load index";});
 })();
@@ -916,8 +966,8 @@ def build_main_hub(snap: dict) -> str:
 
     body = hero + macro_sec + kinds_sec + min_sec + states_sec + dir_sec + method_sec
     return page_shell(
-        title="Gov.in Directory — Every Indian Government Website Mapped — Data Libertarian",
-        desc=f"Complete macro map and searchable register of all {inr(total)} compiled .gov.in government websites in India: Union ministries, regulators, PSUs, 36 states & UTs, districts, courts and local bodies.",
+        title="Gov.in Directory — Compiled Register of Indian .gov.in Hostnames — Data Libertarian",
+        desc=f"Compiled macro register and searchable CSV/JSON index of {inr(total)} Indian .gov.in hostnames across Union ministries, regulators, PSUs, 36 states & UTs, districts, courts and local bodies.",
         canonical="https://gov.datalibertarian.in/",
         active="home",
         body=body,
@@ -940,7 +990,9 @@ def build_subpage_ministries(snap: dict) -> str:
         link_u = f'<a class="dom-link" href="{esc(m["url"])}" target="_blank" rel="noopener">{esc(m["domain"] or m["host"] or m["url"])}</a>' if m["url"] else "&mdash;"
         li_html = "".join(
             f'<li><a class="dom-link" href="{esc(r["url"])}" target="_blank" rel="noopener">{esc(r["domain"])}</a>'
-            f'<span>{esc(r["name"])} &middot; {esc(KIND_LABELS.get(r["kind"], r["kind"]))} {"" if r["dns_live"] else "(NXDOMAIN)"}</span></li>'
+            f'<span>{esc(r["name"])} &middot; {esc(KIND_LABELS.get(r["kind"], r["kind"]))}'
+            + ("" if r["dns_live"] else f' ({esc(r.get("dns_status", "no_record"))})')
+            + '</span></li>'
             for r in items
         )
         groups.append(
@@ -956,8 +1008,8 @@ def build_subpage_ministries(snap: dict) -> str:
   <div class="wrap">
     <div class="crumbs"><a href="/gov">Gov.in Directory</a> / Union Ministries</div>
     <div class="kicker">Union executive &middot; {rec_info["ministries_total"]} ministries &amp; independent departments</div>
-    <h1>Every Union Ministry and its .gov.in websites.</h1>
-    <p>Grouped directly from the Government of India&rsquo;s <code>igod.gov.in</code> parent-child hierarchy, plus subdomains under each ministry&rsquo;s zone. <a href="/gov#directory">Search the full register &rarr;</a></p>
+    <h1>55 Union Ministries &amp; Independent Departments on .gov.in</h1>
+    <p>Grouped from the Government of India&rsquo;s <code>igod.gov.in</code> parent-child hierarchy, official portal links, and subdomains under each ministry zone. <a href="/gov#directory">Search the full register &rarr;</a></p>
   </div>
 </section>
 <section class="sec"><div class="wrap">{"".join(groups)}</div></section>"""
@@ -983,12 +1035,13 @@ def render_static_table_page(
 ) -> str:
     trs = []
     for r in rows:
-        dns_b = '<span class="badge b-live">DNS Live</span>' if r["dns_live"] else '<span class="badge b-dead">NXDOMAIN</span>'
-        cat_b = '<span class="badge b-igod">In GoI Dir</span>' if r["catalogued"] else '<span class="badge b-web">Web-only</span>'
+        dns_b = badge_dns(r)
+        cat_b = badge_prov(r)
         loc = r.get("state") or TIER_LABELS.get(r["tier"], r["tier"])
+        redir_txt = f'<div class="sub-note">Redirects to <code>{esc(r["redirect_to"])}</code></div>' if r.get("redirect_to") else ""
         trs.append(
             f'<tr>'
-            f'<td class="l" data-v="{esc(r["domain"])}"><a class="dom-link" href="{esc(r["url"])}" target="_blank" rel="noopener">{esc(r["domain"])}</a></td>'
+            f'<td class="l" data-v="{esc(r["domain"])}"><a class="dom-link" href="{esc(r["url"])}" target="_blank" rel="noopener">{esc(r["domain"])}</a>{redir_txt}</td>'
             f'<td class="l" data-v="{esc(r["name"])}"><strong>{esc(r["name"])}</strong></td>'
             f'<td class="l" data-v="{esc(KIND_LABELS.get(r["kind"], r["kind"]))}">{esc(KIND_LABELS.get(r["kind"], r["kind"]))}</td>'
             f'<td class="l" data-v="{esc(loc)}">{esc(loc)}</td>'
@@ -1006,7 +1059,7 @@ def render_static_table_page(
 </section>
 <section class="sec"><div class="wrap">
   <div class="tbl-wrap"><table class="sortable">
-    <thead><tr><th>Domain</th><th>Institution / Portal</th><th>Kind</th><th>State / Tier</th><th>Status</th><th>Tranco</th></tr></thead>
+    <thead><tr><th>Hostname</th><th>Institution / Portal</th><th>Kind</th><th>State / Tier</th><th>Provenance &amp; DNS</th><th>Tranco</th></tr></thead>
     <tbody>{"".join(trs)}</tbody>
   </table></div>
 </div></section>"""
@@ -1015,7 +1068,6 @@ def render_static_table_page(
 
 def build_exports(snap: dict, out: str):
     records = snap["records"]
-    # 1. Compact browser JSON
     kind_keys = [k for k, _, _ in KIND_META]
     tier_keys = [k for k, _, _ in TIER_META]
     kind_idx = {k: i for i, k in enumerate(kind_keys)}
@@ -1036,16 +1088,23 @@ def build_exports(snap: dict, out: str):
             tier_idx[r["tier"]],
             state_idx[r["state"]] if r.get("state") else -1,
             min_idx[r["ministry"]] if r.get("ministry") else -1,
-            1 if r["catalogued"] else 0,
-            1 if r["dns_live"] else 0,
+            r["provenance"],
+            r["dns_status"],
             r["tranco_rank"],
-            r["sub_portals"],
+            r["preserved_urls_count"],
             ",".join(r["sources"]),
             r.get("note") or "",
+            1 if r["role"] == "infrastructure" else 0,
+            r.get("redirect_to") or "",
+            1 if r["in_igod"] else 0,
         ])
 
     payload = {
-        "meta": {"generated_on": snap["meta"]["generated_on"], "total_domains": snap["meta"]["total_domains"]},
+        "meta": {
+            "generated_on": snap["meta"]["generated_on"],
+            "dns_checked_at": snap["meta"].get("dns_checked_at", snap["meta"]["generated_on"]),
+            "total_domains": snap["meta"]["total_domains"],
+        },
         "kinds": [[k, lbl] for k, lbl, _ in KIND_META],
         "tiers": [[k, lbl] for k, lbl, _ in TIER_META],
         "states": states,
@@ -1057,24 +1116,32 @@ def build_exports(snap: dict, out: str):
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, separators=(",", ":"))
 
-    # 2. Full CSV export
     csv_path = os.path.join(out, "gov", "gov-in-websites.csv")
     with open(csv_path, "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["domain", "root_domain", "url", "name", "tier", "kind", "state", "ministry", "catalogued", "dns_live", "tranco_rank", "sources"])
+        w.writerow([
+            "domain", "root_domain", "url", "name", "role", "tier", "kind", "state", "ministry",
+            "provenance", "in_igod", "dns_status", "dns_checked_at", "redirect_to", "tranco_rank",
+            "preserved_urls_count", "sources",
+        ])
         for r in records:
             w.writerow([
                 csv_safe(r["domain"]),
                 csv_safe(r["root_domain"]),
                 csv_safe(r["url"]),
                 csv_safe(r["name"]),
+                csv_safe(r["role"]),
                 csv_safe(r["tier"]),
                 csv_safe(r["kind"]),
                 csv_safe(r.get("state") or ""),
                 csv_safe(r.get("ministry") or ""),
-                "true" if r["catalogued"] else "false",
-                "true" if r["dns_live"] else "false",
+                csv_safe(r["provenance"]),
+                "true" if r["in_igod"] else "false",
+                csv_safe(r["dns_status"]),
+                csv_safe(r.get("dns_checked_at") or ""),
+                csv_safe(r.get("redirect_to") or ""),
                 "" if r.get("tranco_rank") is None else str(r["tranco_rank"]),
+                str(r.get("preserved_urls_count", 1)),
                 csv_safe(",".join(r["sources"])),
             ])
 
@@ -1095,13 +1162,13 @@ def build(out: str):
         "regulators",
         render_static_table_page(
             title="Regulators, Statutory & Apex Bodies (.gov.in) — Gov.DataLibertarian",
-            desc="Every Indian regulator, statutory body, constitutional/apex body, and commission with a .gov.in website.",
+            desc="Compiled regulators, statutory bodies, constitutional/apex bodies, and commissions with .gov.in hostnames.",
             canonical="https://gov.datalibertarian.in/regulators",
             active="regulators",
             crumb="Regulators & Apex Bodies",
-            kicker=f"Regulators, statutory bodies & commissions · {inr(len(reg_rows))} domains",
+            kicker=f"Regulators, statutory bodies & commissions · {inr(len(reg_rows))} hostnames",
             h1="Regulators, Commissions & Apex Bodies on .gov.in",
-            lede=f"Every statutory body, regulatory commission, and apex/constitutional authority listed with a <code>.gov.in</code> domain. <a href='/gov#directory'>Back to full directory &rarr;</a>",
+            lede=f"Compiled statutory bodies, regulatory commissions, and apex/constitutional authorities listed with a <code>.gov.in</code> hostname. <a href='/gov#directory'>Back to full directory &rarr;</a>",
             rows=reg_rows,
         ),
     )
@@ -1112,39 +1179,39 @@ def build(out: str):
         "local-and-courts",
         render_static_table_page(
             title="Districts, Local Bodies, Courts & Legislatures (.gov.in) — Gov.DataLibertarian",
-            desc="District collectorates, municipal corporations, panchayats, courts, tribunals and legislatures on .gov.in.",
+            desc="Compiled district collectorates, municipal corporations, panchayats, courts, tribunals and legislatures on .gov.in.",
             canonical="https://gov.datalibertarian.in/local-and-courts",
             active="local-and-courts",
             crumb="Local & Courts",
-            kicker=f"Districts, local bodies, courts & legislatures · {inr(len(lc_rows))} domains",
+            kicker=f"Districts, local bodies, courts & legislatures · {inr(len(lc_rows))} hostnames",
             h1="Districts, Municipal & Panchayat Bodies, Courts & Legislatures",
-            lede=f"All district portals, urban local bodies, Panchayati Raj websites, courts, tribunals, Parliament and state legislatures on <code>.gov.in</code>. <a href='/gov#directory'>Back to full directory &rarr;</a>",
+            lede=f"Compiled district portals, urban local bodies, Panchayati Raj websites, courts, tribunals, Parliament and state legislatures on <code>.gov.in</code>. <a href='/gov#directory'>Back to full directory &rarr;</a>",
             rows=lc_rows,
         ),
     )
 
-    uncharted_rows = [r for r in records if (not r["catalogued"] and r["dns_live"]) or (r["catalogued"] and not r["dns_live"])]
-    uncharted_live = sum(1 for r in records if not r["catalogued"] and r["dns_live"])
-    cat_dead = sum(1 for r in records if r["catalogued"] and not r["dns_live"])
+    uncharted_rows = [r for r in records if (not r["in_igod"] and r["dns_live"]) or (r["in_igod"] and not r["dns_live"])]
+    uncharted_live = sum(1 for r in records if not r["in_igod"] and r["dns_live"])
+    igod_unres = sum(1 for r in records if r["in_igod"] and not r["dns_live"])
     write_both(
         out,
         "uncharted",
         render_static_table_page(
-            title="Uncharted Live & Dead GoI Directory Domains (.gov.in) — Gov.DataLibertarian",
-            desc="Live .gov.in websites missing from igod.gov.in, plus officially listed .gov.in websites failing DNS resolution.",
+            title="Non-IGOD Resolving & Unresolved IGOD Domains (.gov.in) — Gov.DataLibertarian",
+            desc="Resolving .gov.in hostnames absent from igod.gov.in, plus IGOD-listed .gov.in hostnames with no DNS record or lookup timeout.",
             canonical="https://gov.datalibertarian.in/uncharted",
             active="uncharted",
-            crumb="Uncharted & Dead",
-            kicker=f"{inr(uncharted_live)} live uncharted · {inr(cat_dead)} officially listed but dead DNS",
-            h1="Live .gov.in sites outside the official directory &amp; dead links",
-            lede=f"<strong>{inr(uncharted_live)}</strong> live <code>.gov.in</code> domains resolve in DNS today yet are absent from <code>igod.gov.in</code>; conversely, <strong>{inr(cat_dead)}</strong> domains listed in official directories fail DNS (<code>NXDOMAIN</code>).",
+            crumb="Uncharted & Unresolved",
+            kicker=f"{inr(uncharted_live)} resolving outside IGOD · {inr(igod_unres)} IGOD entries unresolved in DNS",
+            h1="Resolving .gov.in hosts outside IGOD &amp; unresolved IGOD links",
+            lede=f"<strong>{inr(uncharted_live)}</strong> resolving <code>.gov.in</code> hostnames are absent from <code>igod.gov.in</code> listings (found via official links, DL registers, or passive DNS/archives); conversely, <strong>{inr(igod_unres)}</strong> IGOD-listed hosts returned no DNS record or a timeout on probe.",
             rows=uncharted_rows[:1500],
         ),
     )
 
     build_exports(snap, out)
 
-    line = "<b>%s</b> .gov.in websites &middot; %s live in DNS" % (
+    line = "<b>%s</b> .gov.in hostnames &middot; %s DNS resolved" % (
         inr(snap["meta"]["total_domains"]),
         inr(snap["meta"]["dns_live_domains"]),
     )

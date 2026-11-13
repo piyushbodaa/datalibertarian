@@ -47,15 +47,15 @@ for (const { reg } of REGISTERS) {
   regCounts[reg] = m;
 }
 
-type GovRec = { state: string | null; catalogued: boolean; dns_live: boolean };
-const govCounts = new Map<string, { total: number; catalogued: number; live: number }>();
+type GovRec = { state: string | null; in_igod?: boolean; catalogued: boolean; dns_live: boolean };
+const govCounts = new Map<string, { total: number; igod: number; live: number }>();
 if (existsSync("gov/data/snapshot.json")) {
   const govData = JSON.parse(await readFile("gov/data/snapshot.json", "utf8")) as { records: GovRec[] };
   for (const r of govData.records) {
     if (!r.state) continue;
-    const cur = govCounts.get(r.state) ?? { total: 0, catalogued: 0, live: 0 };
+    const cur = govCounts.get(r.state) ?? { total: 0, igod: 0, live: 0 };
     cur.total++;
-    if (r.catalogued) cur.catalogued++;
+    if (r.in_igod ?? r.catalogued) cur.igod++;
     if (r.dns_live) cur.live++;
     govCounts.set(r.state, cur);
   }
@@ -151,11 +151,11 @@ function statePage(j: Jurisdiction) {
   const gStat = govCounts.get(j.name);
   const govCard = gStat
     ? card(
-        "Government websites (.gov.in)",
+        "Government hostnames (.gov.in)",
         "State portals, departments, boards, districts, local bodies and state subdomains",
-        badge("published", `${num(gStat.total)} domains`),
-        `<dl><dt>Total .gov.in domains</dt><dd>${num(gStat.total)}</dd><dt>In official GoI directory</dt><dd>${num(gStat.catalogued)}</dd><dt>Resolving in DNS</dt><dd>${num(gStat.live)}</dd></dl>`,
-        [[`/gov?state=${encodeURIComponent(j.name)}#directory`, `Browse ${j.name}'s .gov.in websites`]],
+        badge("published", `${num(gStat.total)} hostnames`),
+        `<dl><dt>Total .gov.in hostnames</dt><dd>${num(gStat.total)}</dd><dt>In IGOD directory</dt><dd>${num(gStat.igod)}</dd><dt>Resolving in DNS</dt><dd>${num(gStat.live)}</dd></dl>`,
+        [[`/gov?state=${encodeURIComponent(j.name)}#directory`, `Browse ${j.name}'s .gov.in hostnames`]],
       )
     : "";
   const body = `

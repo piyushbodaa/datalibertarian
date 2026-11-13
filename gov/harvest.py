@@ -42,7 +42,8 @@ ROOT = os.path.dirname(HERE)
 CACHE_DIR = os.path.join(ROOT, ".cache", "gov")
 IGOD_CACHE = os.path.join(CACHE_DIR, "igod")
 EXT_CACHE = os.path.join(CACHE_DIR, "ext")
-DNS_CACHE_PATH = os.path.join(CACHE_DIR, "dns_cache.json")
+ONEHOP_CACHE_PATH = os.path.join(CACHE_DIR, "onehop_v1.json")
+DNS_CACHE_PATH = os.path.join(CACHE_DIR, "dns_cache_v2.json")
 OUT_PATH = os.path.join(HERE, "data", "snapshot.json")
 
 SSL_UNVERIFIED = ssl._create_unverified_context()
@@ -205,6 +206,78 @@ STATE_ROOT_ZONES = {
 }
 
 GOV_IN_HOST_RE = re.compile(r"^[a-z0-9](?:[a-z0-9-]*[a-z0-9])?(?:\.[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)*\.gov\.in$")
+S3WAAS_DEPLOY_HASH_RE = re.compile(r"^s3[0-9a-f]{16,}\.s3waas\.gov\.in$")
+
+INFRA_LABELS = {
+    "mail", "webmail", "smtp", "imap", "pop", "pop3", "mx", "mx1", "mx2", "mx3",
+    "ns", "ns1", "ns2", "ns3", "ns4", "dns", "dns1", "dns2", "vpn", "sslvpn",
+    "autoconfig", "autodiscover", "ftp", "sftp", "ntp", "relay", "ldap",
+}
+
+AUTHORITATIVE_HOST_OVERRIDES = {
+    "cag.gov.in": {
+        "name": "Comptroller and Auditor General of India (CAG)",
+        "url": "https://cag.gov.in",
+        "kind": "regulator",
+        "tier": "apex",
+        "state": None,
+        "ministry": None,
+    },
+    "indiapost.gov.in": {
+        "name": "Department of Posts (India Post)",
+        "url": "https://www.indiapost.gov.in",
+        "kind": "department",
+        "tier": "union",
+        "state": None,
+        "ministry": "Ministry of Communications",
+    },
+    "mca.gov.in": {
+        "name": "Ministry of Corporate Affairs (MCA)",
+        "url": "https://www.mca.gov.in",
+        "kind": "ministry",
+        "tier": "union",
+        "state": None,
+        "ministry": "Ministry of Corporate Affairs",
+    },
+    "mausam.imd.gov.in": {
+        "name": "India Meteorological Department (IMD)",
+        "url": "https://mausam.imd.gov.in",
+        "kind": "agency",
+        "tier": "union",
+        "state": None,
+        "ministry": "Ministry of Earth Sciences",
+    },
+    "navodaya.gov.in": {
+        "name": "Navodaya Vidyalaya Samiti (NVS)",
+        "url": "https://navodaya.gov.in",
+        "kind": "autonomous",
+        "tier": "union",
+        "state": None,
+        "ministry": "Ministry of Education",
+    },
+    "southernrailway.gov.in": {
+        "name": "Southern Railway, Indian Railways",
+        "url": "https://southernrailway.gov.in",
+        "kind": "agency",
+        "tier": "union",
+        "state": None,
+        "ministry": "Ministry of Railways",
+    },
+}
+
+VERIFIED_OFFICIAL_ADDITIONS = [
+    ("dgll.gov.in", "https://dgll.gov.in", "Directorate General of Lighthouses and Lightships", "agency", "union", None, "Ministry of Ports, Shipping and Waterways", "official-link"),
+    ("dmeo.gov.in", "https://dmeo.gov.in", "Development Monitoring and Evaluation Office (DMEO), NITI Aayog", "agency", "union", None, "Ministry of Planning", "official-link"),
+    ("rohtak.gov.in", "https://rohtak.gov.in", "District Administration, Rohtak", "district", "local", "Haryana", None, "official-link"),
+    ("charkhidadri.gov.in", "https://charkhidadri.gov.in", "District Administration, Charkhi Dadri", "district", "local", "Haryana", None, "official-link"),
+    ("goavidhansabha.gov.in", "https://www.goavidhansabha.gov.in", "Goa Legislative Assembly", "legislature", "legislature", "Goa", None, "official-link"),
+    ("gobardhan.gov.in", "https://gobardhan.gov.in", "GOBARdhan Unified Portal", "portal", "union", None, "Ministry of Jal Shakti", "official-link"),
+    ("mahait.maharashtra.gov.in", "https://mahait.maharashtra.gov.in", "Maharashtra Information Technology Corporation Limited (MahaIT)", "psu", "state", "Maharashtra", None, "official-link"),
+    ("highereducation.ladakh.gov.in", "https://highereducation.ladakh.gov.in", "Higher Education Department, UT of Ladakh", "department", "state", "Ladakh", None, "official-link"),
+    ("services.nagaland.gov.in", "https://services.nagaland.gov.in", "Government of Nagaland Unified Services Portal", "portal", "state", "Nagaland", None, "official-link"),
+    ("tax.berhampur.gov.in", "https://tax.berhampur.gov.in", "Berhampur Municipal Corporation Property Tax Portal", "local", "local", "Odisha", None, "official-link"),
+    ("chhatrapatisambhajinagarzp.maharashtra.gov.in", "https://chhatrapatisambhajinagarzp.maharashtra.gov.in", "Zilla Parishad, Chhatrapati Sambhajinagar", "local", "local", "Maharashtra", None, "official-redirect"),
+]
 
 KIND_PRIORITY = {
     "ministry": 1,
@@ -443,7 +516,7 @@ def normalize_url_and_host(raw_url: str | None) -> tuple[str | None, str | None,
     if not host or "translate.goog" in host:
         return None, None, None
     bare = host[4:] if host.startswith("www.") else host
-    if bare == "gov.in" or not GOV_IN_HOST_RE.match(bare):
+    if bare == "gov.in" or not GOV_IN_HOST_RE.match(bare) or S3WAAS_DEPLOY_HASH_RE.match(bare):
         # Return TLD category in 3rd slot for reconciliation
         return None, host, None
     labels = bare.split(".")
@@ -453,6 +526,17 @@ def normalize_url_and_host(raw_url: str | None) -> tuple[str | None, str | None,
     if clean_u.endswith("/") and parsed.path in ("", "/") and not parsed.query:
         clean_u = f"{scheme}://{host}"
     return bare, root_domain, clean_u
+
+
+def classify_host_role(domain: str) -> str:
+    labels = domain[:-7].split(".")
+    return "infrastructure" if any(lbl in INFRA_LABELS for lbl in labels) else "web"
+
+
+def is_root_url(url: str) -> bool:
+    p = urllib.parse.urlsplit(url or "")
+    path = (p.path or "/").rstrip("/").lower()
+    return path in ("", "/en", "/hi", "/english", "/hindi", "/home", "/index", "/index.html", "/index.php", "/default.aspx") and not p.query
 
 
 def classify_tld(host: str | None) -> str:
@@ -877,10 +961,11 @@ def load_repo_sources():
                             "state": st,
                             "ministry": None,
                             "source": "dl-governments",
+                            "is_citation_only": True,
                         }
                     )
 
-    # 3. registers/data/psu.json (V2 only)
+    # 3. registers/data/psu.json (V2 official company sites only; exclude press/order citations)
     psu_path = os.path.join(ROOT, "registers", "data", "psu.json")
     if os.path.exists(psu_path):
         with open(psu_path, encoding="utf-8") as f:
@@ -890,7 +975,11 @@ def load_repo_sources():
                 continue
             st = None if r.get("state") in ("Union", "All India", "Centre", None) else r.get("state")
             tier = "union" if r.get("owner") == "Central government" or not st else "state"
+            if tier == "union":
+                st = None
             for src in r.get("sources", []):
+                if src.get("kind") != "company_site":
+                    continue
                 u = src.get("url")
                 if u:
                     entries.append(
@@ -921,6 +1010,7 @@ def load_repo_sources():
                     "state": None,
                     "ministry": None,
                     "source": "dl-budgets",
+                    "is_citation_only": True,
                 }
             )
 
@@ -995,40 +1085,311 @@ def load_archive_and_urlscan(refresh: bool = False):
     return archive_urls, urlscan_domains
 
 
-def check_dns_all(domains: list[str], refresh: bool = False) -> dict[str, bool]:
-    print(f"[5/5] Checking DNS resolution for {len(domains)} unique .gov.in domains...")
-    cache: dict[str, bool] = {}
+def check_dns_all(domains: list[str], refresh: bool = False) -> tuple[dict[str, dict], str]:
+    print(f"[6/6] Checking DNS resolution for {len(domains)} unique .gov.in domains...")
+    cache: dict[str, dict] = {}
     if not refresh and os.path.exists(DNS_CACHE_PATH):
         with open(DNS_CACHE_PATH, encoding="utf-8") as f:
             cache = json.load(f)
 
+    noname_errnos = {socket.EAI_NONAME}
+    if hasattr(socket, "EAI_NODATA"):
+        noname_errnos.add(socket.EAI_NODATA)
+
     todo = [d for d in domains if d not in cache]
     if todo:
-        print(f"    Resolving {len(todo)} uncached domains via socket.getaddrinfo (64 workers)...")
-        socket.setdefaulttimeout(3.0)
+        print(f"    Resolving {len(todo)} uncached domains via socket.getaddrinfo (128 workers)...")
+        socket.setdefaulttimeout(2.5)
+        now_iso = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-        def probe(d: str) -> tuple[str, bool]:
-            for host in (d, "www." + d):
-                try:
-                    socket.getaddrinfo(host, None)
-                    return d, True
-                except OSError:
-                    continue
-            return d, False
+        def probe(d: str) -> tuple[str, dict]:
+            saw_lookup_err = False
+            for idx, host in enumerate((d, "www." + d)):
+                for attempt in range(2):
+                    try:
+                        socket.getaddrinfo(host, None)
+                        return d, {
+                            "status": "resolved" if idx == 0 else "resolved_www",
+                            "live": True,
+                            "checked_at": now_iso,
+                        }
+                    except socket.gaierror as e:
+                        if e.errno in noname_errnos:
+                            break
+                        saw_lookup_err = True
+                    except OSError:
+                        saw_lookup_err = True
+            return d, {
+                "status": "lookup_error" if saw_lookup_err else "no_record",
+                "live": False,
+                "checked_at": now_iso,
+            }
 
         done = 0
-        with concurrent.futures.ThreadPoolExecutor(max_workers=64) as pool:
-            for d, ok in pool.map(probe, todo):
-                cache[d] = ok
+        with concurrent.futures.ThreadPoolExecutor(max_workers=128) as pool:
+            for d, info in pool.map(probe, todo):
+                cache[d] = info
                 done += 1
-                if done % 1000 == 0:
+                if done % 2000 == 0:
                     print(f"      DNS checked {done}/{len(todo)}...")
         with open(DNS_CACHE_PATH, "w", encoding="utf-8") as f:
             json.dump(cache, f)
 
-    live = sum(1 for d in domains if cache.get(d))
-    print(f"    DNS live: {live}/{len(domains)} ({100.0 * live / max(1, len(domains)):.1f}%)")
-    return {d: bool(cache.get(d)) for d in domains}
+    live = sum(1 for d in domains if cache.get(d, {}).get("live"))
+    no_rec = sum(1 for d in domains if cache.get(d, {}).get("status") == "no_record")
+    err_n = sum(1 for d in domains if cache.get(d, {}).get("status") == "lookup_error")
+    checked_at = max((cache[d]["checked_at"] for d in domains if d in cache), default=datetime.date.today().isoformat())
+    print(f"    DNS resolved: {live}/{len(domains)} ({100.0 * live / max(1, len(domains)):.1f}%), no_record: {no_rec}, lookup_error: {err_n}")
+    return {d: cache[d] for d in domains}, checked_at
+
+
+def _good_page_title(html_body: str) -> str | None:
+    m = re.search(r"<title[^>]*>(.*?)</title>", html_body, re.S | re.I)
+    if not m:
+        return None
+    t = clean_text(m.group(1))
+    low = t.lower()
+    bad = ("404", "not found", "403", "forbidden", "apache", "nginx", "iis", "coming soon", "under maintenance", "error", "moved to ksmart", "access denied")
+    if not t or len(t) < 4 or any(b in low for b in bad):
+        return None
+    if "ksmart" in html_body.lower() and "ilgms" in html_body.lower():
+        return None
+    return re.split(r"\s*[|\-–—:]\s*Government of India", t, flags=re.I)[0].strip()[:140]
+
+
+def discover_onehop_and_redirects(
+    igod_entries: list[dict],
+    ministry_records: list[dict],
+    repo_entries: list[dict],
+    known_domains: set[str],
+    slug_to_districts: dict[str, set[tuple[str, str]]],
+    state_slug_to_district: dict[tuple[str, str], str],
+    refresh: bool = False,
+) -> tuple[list[dict], dict[str, dict]]:
+    print("[4b/6] Discovering one-hop official links, HTTP-verified district portals & redirects...")
+    if not refresh and os.path.exists(ONEHOP_CACHE_PATH):
+        with open(ONEHOP_CACHE_PATH, encoding="utf-8") as f:
+            cached = json.load(f)
+        print(f"    One-hop discovery (cached): {len(cached['entries'])} official entries, {len(cached['redirects'])} redirects")
+        return cached["entries"], cached["redirects"]
+
+    # Seed official pages across Union Ministries, Depts, Apex, Courts, Legislatures, State roots & Local bodies
+    seed_meta: dict[str, tuple[str, str | None, str | None]] = {}
+    for mr in ministry_records:
+        u = mr.get("url")
+        if u and ".gov.in" in u:
+            seed_meta[u] = ("union", None, mr["canonical_name"])
+    for root, st_name in STATE_ROOT_ZONES.items():
+        seed_meta[f"https://{root}"] = ("state", st_name, None)
+    for e in igod_entries:
+        u = e.get("url") or ""
+        dom, _, clean_u = normalize_url_and_host(u)
+        if not dom or not clean_u or not is_root_url(clean_u):
+            continue
+        if e.get("list_path") in ("ug/E003/organizations", "apx/APXC/organizations", "leg/L001/organizations", "leg/L004/organizations", "jud/J001/organizations", "jud/J002/organizations") or e.get("kind") == "local":
+            seed_meta.setdefault(clean_u, (e.get("tier") or "union", e.get("state"), e.get("ministry")))
+    for extra_u, meta in [
+        ("https://aurangabadzp.gov.in", ("local", "Maharashtra", None)),
+        ("https://www.dos.gov.in", ("union", None, "Department of Space")),
+        ("http://seoni.mp.gov.in", ("local", "Madhya Pradesh", None)),
+        ("https://berhampur.gov.in", ("local", "Odisha", None)),
+        ("https://niti.gov.in", ("union", None, "Ministry of Planning")),
+        ("https://shipmin.gov.in", ("union", None, "Ministry of Ports, Shipping and Waterways")),
+        ("https://jalshakti.gov.in", ("union", None, "Ministry of Jal Shakti")),
+        ("https://ncrb.gov.in", ("union", None, "Ministry of Home Affairs")),
+        ("https://ncte.gov.in", ("union", None, "Ministry of Education")),
+        ("https://rti.gov.in", ("union", None, "Ministry of Personnel, Public Grievances and Pensions")),
+        ("https://epfindia.gov.in", ("union", None, "Ministry of Labour and Employment")),
+    ]:
+        seed_meta.setdefault(extra_u, meta)
+
+    discovered: dict[str, dict] = {}
+    redirects: dict[str, dict] = {}
+    sso_noise = ("parichay", "janparichay", "epramaan", "sso.", "login.", "accounts.")
+
+    def crawl_seed(item):
+        u, (s_tier, s_state, s_min) = item
+        out_links = []
+        redir = None
+        init_dom, init_host, _ = normalize_url_and_host(u)
+        try:
+            req = urllib.request.Request(u, headers=HEADERS)
+            with urllib.request.urlopen(req, context=SSL_UNVERIFIED, timeout=8) as resp:
+                fin_u = resp.geturl()
+                body = resp.read(350_000).decode("utf-8", "ignore")
+            fin_dom, fin_host, fin_clean = normalize_url_and_host(fin_u)
+            target_h = fin_dom or fin_host
+            if init_dom and target_h and target_h != init_dom and not any(s in target_h for s in sso_noise):
+                redir = (init_dom, target_h, fin_clean or fin_u)
+            for m in re.finditer(r'<a[^>]+href=["\'](https?://[^"\'>\s]+)["\'][^>]*>(.*?)</a>', body, re.S | re.I):
+                href = html.unescape(m.group(1)).strip()
+                dom, _, clean_u = normalize_url_and_host(href)
+                if not dom or S3WAAS_DEPLOY_HASH_RE.match(dom) or dom.endswith(".s3waas.gov.in"):
+                    continue
+                txt = clean_text(m.group(2))
+                out_links.append((dom, clean_u, txt, s_tier, s_state, s_min))
+        except Exception:
+            pass
+        return redir, out_links
+
+    print(f"    Crawling {len(seed_meta)} official seed pages for one-hop links & redirects...")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=24) as pool:
+        for redir, links in pool.map(crawl_seed, sorted(seed_meta.items())):
+            if redir:
+                d1, target_h, fin_u = redir
+                redirects[d1] = {"target_host": target_h, "target_url": fin_u}
+                t_dom, _, t_clean = normalize_url_and_host(fin_u)
+                if t_dom:
+                    discovered.setdefault(
+                        t_dom,
+                        {
+                            "title": None,
+                            "url": t_clean or f"https://{t_dom}",
+                            "kind": "local" if "zp." in t_dom else "portal",
+                            "tier": "local" if "zp." in t_dom else ("state" if STATE_ROOT_ZONES.get(".".join(t_dom.split(".")[-3:])) else "union"),
+                            "state": STATE_ROOT_ZONES.get(".".join(t_dom.split(".")[-3:])),
+                            "ministry": None,
+                            "source": "official-redirect",
+                        },
+                    )
+            for dom, clean_u, txt, s_tier, s_state, s_min in links:
+                if dom in known_domains:
+                    continue
+                root = ".".join(dom.split(".")[-3:])
+                st = STATE_ROOT_ZONES.get(root) or (s_state if s_tier in ("state", "local") else None)
+                generic_txt = txt.lower() in ("", "know more", "read more", "click here", "view", "more", "visit", "link", "here", "website", "gov") or len(txt) < 4
+                title = None if generic_txt or len(txt) > 120 else txt
+                entry = discovered.get(dom)
+                if not entry:
+                    discovered[dom] = {
+                        "title": title,
+                        "url": f"https://{dom}" if is_root_url(clean_u) else clean_u,
+                        "kind": "local" if st and ("tax." in dom or "zp." in dom or "municipal" in dom) else ("agency" if s_min else "portal"),
+                        "tier": "local" if st and ("tax." in dom or "zp." in dom) else ("state" if st else s_tier),
+                        "state": None if s_tier in ("union", "apex") and not st else st,
+                        "ministry": s_min if s_tier == "union" and not st else None,
+                        "source": "official-link",
+                    }
+                elif not entry["title"] and title:
+                    entry["title"] = title
+
+    # Verify DNS + HTTP 200 on unlisted IGOD E042 district candidates (skipping wildcard zone mizoram.gov.in)
+    state_to_roots: dict[str, list[str]] = {}
+    for root, st in STATE_ROOT_ZONES.items():
+        if not root.endswith("police.gov.in") and root != "ksp.gov.in" and root != "mizoram.gov.in":
+            state_to_roots.setdefault(st, []).append(root)
+
+    dist_cands: dict[str, tuple[str, str]] = {}
+    for slug, pairs in slug_to_districts.items():
+        if len(pairs) == 1:
+            d_name, st_name = next(iter(pairs))
+            h = f"{slug}.gov.in"
+            if h not in known_domains and h not in discovered:
+                dist_cands[h] = (d_name, st_name)
+    for (st_name, slug), d_name in state_slug_to_district.items():
+        for root in state_to_roots.get(st_name, []):
+            h = f"{slug}.{root}"
+            if h not in known_domains and h not in discovered:
+                dist_cands[h] = (d_name, st_name)
+
+    def probe_dns_only(h: str):
+        for test_h in (h, "www." + h):
+            try:
+                socket.getaddrinfo(test_h, None)
+                return h, True
+            except OSError:
+                continue
+        return h, False
+
+    socket.setdefaulttimeout(2.5)
+    resolving_dists = []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=64) as pool:
+        for h, ok in pool.map(probe_dns_only, dist_cands):
+            if ok:
+                resolving_dists.append(h)
+
+    def verify_http_candidate(item):
+        h, d_name, st_name = item
+        for scheme in ("https://", "http://"):
+            try:
+                req = urllib.request.Request(f"{scheme}{h}", headers=HEADERS)
+                with urllib.request.urlopen(req, context=SSL_UNVERIFIED, timeout=8) as resp:
+                    if resp.status != 200:
+                        continue
+                    body = resp.read(200_000).decode("utf-8", "ignore")
+                title = _good_page_title(body)
+                if title:
+                    return h, d_name, st_name, resp.geturl(), title
+            except Exception:
+                continue
+        return h, d_name, st_name, None, None
+
+    print(f"    HTTP-verifying {len(resolving_dists)} resolving IGOD E042 district candidates...")
+    dist_ok = 0
+    with concurrent.futures.ThreadPoolExecutor(max_workers=24) as pool:
+        for h, d_name, st_name, fin_u, page_title in pool.map(
+            verify_http_candidate, [(h, dist_cands[h][0], dist_cands[h][1]) for h in resolving_dists]
+        ):
+            if fin_u:
+                dist_ok += 1
+                discovered[h] = {
+                    "title": f"District Administration, {d_name}",
+                    "url": f"https://{h}",
+                    "kind": "district",
+                    "tier": "local",
+                    "state": st_name,
+                    "ministry": None,
+                    "source": "igod-district",
+                }
+
+    # Fetch <title> for newly discovered one-hop links lacking a descriptive anchor title (up to 350)
+    untitled = [d for d, e in discovered.items() if not e.get("title")][:350]
+
+    def fetch_title(d: str):
+        u = discovered[d]["url"]
+        try:
+            req = urllib.request.Request(u, headers=HEADERS)
+            with urllib.request.urlopen(req, context=SSL_UNVERIFIED, timeout=7) as resp:
+                body = resp.read(150_000).decode("utf-8", "ignore")
+            return d, _good_page_title(body)
+        except Exception:
+            return d, None
+
+    if untitled:
+        print(f"    Fetching titles for {len(untitled)} newly linked .gov.in portals...")
+        with concurrent.futures.ThreadPoolExecutor(max_workers=24) as pool:
+            for d, title in pool.map(fetch_title, untitled):
+                if title:
+                    discovered[d]["title"] = title
+
+    # Inject verified audit additions if not already covered cleanly
+    for dom, u, title, kind, tier, st, min_name, src in VERIFIED_OFFICIAL_ADDITIONS:
+        if dom in discovered:
+            if not discovered[dom].get("title"):
+                discovered[dom]["title"] = title
+            if st and not discovered[dom].get("state"):
+                discovered[dom]["state"] = st
+            if min_name and not discovered[dom].get("ministry"):
+                discovered[dom]["ministry"] = min_name
+            discovered[dom]["kind"] = kind
+            discovered[dom]["tier"] = tier
+            discovered[dom]["url"] = u
+        elif dom not in known_domains:
+            discovered[dom] = {
+                "title": title,
+                "url": u,
+                "kind": kind,
+                "tier": tier,
+                "state": st,
+                "ministry": min_name,
+                "source": src,
+            }
+
+    entries = [dict(v, domain=k) for k, v in discovered.items()]
+    with open(ONEHOP_CACHE_PATH, "w", encoding="utf-8") as f:
+        json.dump({"entries": entries, "redirects": redirects}, f, ensure_ascii=False)
+    print(f"    One-hop discovery: {len(entries)} entries ({dist_ok} HTTP-verified districts), {len(redirects)} redirects")
+    return entries, redirects
 
 
 def infer_title_from_domain(domain: str, state: str | None, ministry: str | None) -> str:
@@ -1041,6 +1402,188 @@ def infer_title_from_domain(domain: str, state: str | None, ministry: str | None
     if ministry:
         return f"{words} ({ministry})"
     return f"{words} (.gov.in)"
+
+
+SOURCE_PRIORITY = {
+    "igod": 1,
+    "igod-tree": 2,
+    "dl-entities": 3,
+    "official-link": 4,
+    "official-redirect": 5,
+    "igod-district": 6,
+    "dl-psu": 7,
+    "dl-governments": 8,
+    "dl-budgets": 9,
+    "tranco": 10,
+    "goi-archive": 11,
+    "urlscan": 12,
+}
+
+
+def resolve_host_record(
+    dom: str,
+    root_domain: str,
+    obs_list: list[dict],
+    redirects: dict[str, dict],
+    tranco_ranks: dict[str, int],
+    root_to_ministry: dict[str, str],
+) -> dict:
+    sources: list[str] = []
+    seen_src = set()
+    url_title_pairs: dict[str, str] = {}
+    abbrevs: list[str] = []
+    notes: list[str] = []
+    for o in obs_list:
+        s = o["source"]
+        if s not in seen_src:
+            seen_src.add(s)
+            sources.append(s)
+        u = o.get("url") or f"https://{dom}"
+        t = (o.get("title") or "").strip()
+        if u not in url_title_pairs or (t and len(t) > len(url_title_pairs[u])):
+            url_title_pairs[u] = t
+        if o.get("abbrev"):
+            abbrevs.append(o["abbrev"])
+        if o.get("note"):
+            notes.append(o["note"])
+
+    non_citation = [o for o in obs_list if not o.get("is_citation_only")]
+    pool = non_citation or obs_list
+
+    in_igod = ("igod" in seen_src) or ("igod-tree" in seen_src)
+    official_sources = {"dl-entities", "dl-psu", "official-link", "official-redirect", "igod-district"}
+    provenance = "igod" if in_igod else ("official_verified" if any(s in official_sources for s in seen_src) else "passive_only")
+
+    # Select host metadata atomically from a single authoritative source (never field-spliced)
+    if dom in AUTHORITATIVE_HOST_OVERRIDES:
+        ov = AUTHORITATIVE_HOST_OVERRIDES[dom]
+        name = ov["name"]
+        url = ov["url"]
+        kind = ov["kind"]
+        tier = ov["tier"]
+        state = ov["state"]
+        ministry = ov["ministry"]
+    elif dom in STATE_ROOT_ZONES:
+        st_name = STATE_ROOT_ZONES[dom]
+        is_police = dom.endswith("police.gov.in") or dom == "ksp.gov.in"
+        root_obs = sorted(
+            [o for o in pool if is_root_url(o.get("url") or "") and not o.get("is_passive")],
+            key=lambda o: (SOURCE_PRIORITY.get(o["source"], 99), 0 if o.get("title") else 1),
+        )
+        if root_obs and root_obs[0].get("title"):
+            win = root_obs[0]
+            name = win["title"]
+            url = win["url"]
+        else:
+            name = f"{st_name} Police" if is_police else f"Official Portal of {st_name} Government"
+            url = f"https://{dom}"
+        kind = "agency" if is_police else "department"
+        tier = "state"
+        state = st_name
+        ministry = None
+    else:
+        inst_obs = [o for o in pool if not o.get("is_passive")]
+        root_obs = [o for o in inst_obs if is_root_url(o.get("url") or "")]
+        if root_obs:
+            win = min(
+                root_obs,
+                key=lambda o: (
+                    SOURCE_PRIORITY.get(o["source"], 99),
+                    TIER_PRIORITY.get(o["tier"], 99),
+                    KIND_PRIORITY.get(o["kind"], 99),
+                    0 if o.get("title") else 1,
+                ),
+            )
+            name = win.get("title") or ""
+            url = win.get("url") or f"https://{dom}"
+            kind = win["kind"]
+            tier = win["tier"]
+            state = win.get("state")
+            ministry = win.get("ministry")
+        else:
+            distinct_urls = {o.get("url") for o in inst_obs if o.get("url")}
+            if len(inst_obs) >= 2 and len(distinct_urls) >= 2:
+                # Multiple sub-path entities on a shared host without a root entry:
+                # bind name and URL to the host itself instead of pairing entity A's name with entity B's URL.
+                tiers = {o["tier"] for o in inst_obs}
+                states = {o.get("state") for o in inst_obs if o.get("state")}
+                mins = {o.get("ministry") for o in inst_obs if o.get("ministry")}
+                kinds = {o["kind"] for o in inst_obs}
+                tier = min(tiers, key=lambda t: TIER_PRIORITY.get(t, 99))
+                kind = next(iter(kinds)) if len(kinds) == 1 else ("agency" if tier == "union" else "department")
+                state = None if tier in ("apex", "union", "missions") else (next(iter(states)) if len(states) == 1 else STATE_ROOT_ZONES.get(root_domain))
+                ministry = next(iter(mins)) if len(mins) == 1 else root_to_ministry.get(root_domain)
+                url = f"https://{dom}"
+                name = infer_title_from_domain(dom, state, ministry)
+            elif inst_obs:
+                win = min(
+                    inst_obs,
+                    key=lambda o: (
+                        SOURCE_PRIORITY.get(o["source"], 99),
+                        TIER_PRIORITY.get(o["tier"], 99),
+                        KIND_PRIORITY.get(o["kind"], 99),
+                    ),
+                )
+                name = win.get("title") or ""
+                url = win.get("url") or f"https://{dom}"
+                kind = win["kind"]
+                tier = win["tier"]
+                state = win.get("state")
+                ministry = win.get("ministry")
+            else:
+                win = min(pool, key=lambda o: SOURCE_PRIORITY.get(o["source"], 99))
+                name = win.get("title") or ""
+                url = f"https://{dom}"
+                kind = win["kind"]
+                tier = win["tier"]
+                state = win.get("state")
+                ministry = win.get("ministry")
+
+    # Enforce federal jurisdiction boundaries and root-domain fallbacks
+    if tier in ("apex", "union", "missions"):
+        state = None
+        if tier == "apex":
+            ministry = None
+    else:
+        if not state and root_domain in STATE_ROOT_ZONES:
+            state = STATE_ROOT_ZONES[root_domain]
+        if not ministry and tier == "union" and root_domain in root_to_ministry:
+            ministry = root_to_ministry[root_domain]
+
+    if not name:
+        name = infer_title_from_domain(dom, state, ministry)
+
+    preserved_list = [
+        {"title": t, "url": u}
+        for u, t in sorted(url_title_pairs.items())
+        if t
+    ][:25]
+    distinct_title_count = max(1, len({t for t in url_title_pairs.values() if t}))
+    redir_info = redirects.get(dom)
+
+    return {
+        "domain": dom,
+        "root_domain": root_domain,
+        "url": url,
+        "name": name,
+        "abbrev": abbrevs[0] if abbrevs else None,
+        "note": notes[0] if notes else None,
+        "role": classify_host_role(dom),
+        "kind": kind,
+        "tier": tier,
+        "state": state,
+        "ministry": ministry,
+        "in_igod": in_igod,
+        "provenance": provenance,
+        "catalogued": provenance != "passive_only",
+        "sources": sources,
+        "preserved_urls_count": max(1, len(url_title_pairs)),
+        "sub_portals": distinct_title_count,
+        "sub_entries": preserved_list if len(url_title_pairs) > 1 else [],
+        "redirect_to": redir_info["target_host"] if redir_info else None,
+        "redirect_url": redir_info["target_url"] if redir_info else None,
+        "tranco_rank": tranco_ranks.get(dom),
+    }
 
 
 def main():
@@ -1074,10 +1617,10 @@ def main():
     non_gov_by_tld: dict[str, int] = {}
     non_gov_by_tier: dict[str, int] = {}
 
-    records: dict[str, dict] = {}
-    portal_titles: dict[str, set[str]] = {}
+    obs_by_domain: dict[str, list[dict]] = {}
+    root_for_domain: dict[str, str] = {}
 
-    def upsert(
+    def add_obs(
         domain: str,
         root_domain: str,
         url: str,
@@ -1087,55 +1630,27 @@ def main():
         state: str | None,
         ministry: str | None,
         source: str,
-        catalogued: bool,
+        is_passive: bool = False,
+        is_citation_only: bool = False,
         note: str | None = None,
         abbrev: str | None = None,
     ):
-        if title:
-            portal_titles.setdefault(domain, set()).add(title)
-        rec = records.get(domain)
-        if not rec:
-            records[domain] = {
-                "domain": domain,
-                "root_domain": root_domain,
+        root_for_domain.setdefault(domain, root_domain)
+        obs_by_domain.setdefault(domain, []).append(
+            {
                 "url": url,
-                "name": title or "",
-                "abbrev": abbrev,
-                "note": note,
+                "title": title,
                 "kind": kind,
                 "tier": tier,
                 "state": state,
                 "ministry": ministry,
-                "catalogued": catalogued,
-                "sources": [source],
-                "sub_portals": 1,
-                "tranco_rank": tranco_ranks.get(domain),
+                "source": source,
+                "is_passive": is_passive,
+                "is_citation_only": is_citation_only,
+                "note": note,
+                "abbrev": abbrev,
             }
-            return
-
-        if source not in rec["sources"]:
-            rec["sources"].append(source)
-        if catalogued:
-            rec["catalogued"] = True
-        if KIND_PRIORITY.get(kind, 99) < KIND_PRIORITY.get(rec["kind"], 99):
-            rec["kind"] = kind
-        if TIER_PRIORITY.get(tier, 99) < TIER_PRIORITY.get(rec["tier"], 99):
-            rec["tier"] = tier
-        if not rec["state"] and state:
-            rec["state"] = state
-        if not rec["ministry"] and ministry:
-            rec["ministry"] = ministry
-        if not rec["note"] and note:
-            rec["note"] = note
-        if not rec["abbrev"] and abbrev:
-            rec["abbrev"] = abbrev
-        # Prefer richer descriptive title (unless current is empty or synthetic)
-        if title and (not rec["name"] or (source == "igod" and len(title) > len(rec["name"]))):
-            if source != "dl-budgets" or not rec["name"]:
-                rec["name"] = title
-        # Prefer HTTPS root URL over deep sub-links when upgrading from citations
-        if source in ("igod", "igod-tree", "dl-entities") and url.startswith("https://"):
-            rec["url"] = url
+        )
 
     # 1. Process IGOD entries
     for e in igod_entries:
@@ -1149,7 +1664,7 @@ def main():
                 non_gov_by_tier[t_key] = non_gov_by_tier.get(t_key, 0) + 1
             continue
         ministry = resolve_ministry_name(e.get("ministry")) or domain_to_ministry.get(dom)
-        upsert(
+        add_obs(
             domain=dom,
             root_domain=root_or_host,
             url=clean_u,
@@ -1159,7 +1674,6 @@ def main():
             state=e.get("state"),
             ministry=ministry,
             source=e["source"],
-            catalogued=True,
         )
 
     # 2. Process Data Libertarian repo entries
@@ -1168,7 +1682,7 @@ def main():
         if not dom:
             continue
         ministry = resolve_ministry_name(e.get("ministry")) or domain_to_ministry.get(dom)
-        upsert(
+        add_obs(
             domain=dom,
             root_domain=root,
             url=clean_u,
@@ -1178,23 +1692,55 @@ def main():
             state=e.get("state"),
             ministry=ministry,
             source=e["source"],
-            catalogued=True,
+            is_citation_only=bool(e.get("is_citation_only")),
             note=e.get("note"),
             abbrev=e.get("abbrev"),
         )
 
-    # Build root-domain -> ministry fallback map from catalogued Union entries
-    root_to_ministry = {}
-    for rec in records.values():
-        if rec["ministry"] and rec["root_domain"] not in STATE_ROOT_ZONES and rec["root_domain"] != "gov.in":
-            root_to_ministry.setdefault(rec["root_domain"], rec["ministry"])
+    # Build root-domain -> ministry map from IGOD/DL Union entries
+    root_to_ministry: dict[str, str] = {}
+    for dom, obs_list in obs_by_domain.items():
+        root = root_for_domain[dom]
+        if root in STATE_ROOT_ZONES or root == "gov.in":
+            continue
+        for o in obs_list:
+            if o["ministry"] and o["tier"] == "union":
+                root_to_ministry.setdefault(root, o["ministry"])
 
-    # 3. Process Tranco, GoI Archive, URLScan
+    # 4b. One-hop official links, HTTP-verified district additions & redirects
+    known_inst_domains = {d for d, olist in obs_by_domain.items() if any(not o["is_passive"] for o in olist)}
+    onehop_entries, redirects = discover_onehop_and_redirects(
+        igod_entries,
+        ministry_records,
+        repo_entries,
+        known_inst_domains,
+        slug_to_districts,
+        state_slug_to_district,
+        refresh=args.refresh,
+    )
+    for e in onehop_entries:
+        dom, root, clean_u = normalize_url_and_host(e.get("url") or f"https://{e['domain']}")
+        if not dom:
+            continue
+        ministry = resolve_ministry_name(e.get("ministry")) or domain_to_ministry.get(dom) or root_to_ministry.get(root)
+        add_obs(
+            domain=dom,
+            root_domain=root,
+            url=clean_u,
+            title=e.get("title"),
+            kind=e.get("kind") or "portal",
+            tier=e.get("tier") or "union",
+            state=e.get("state"),
+            ministry=ministry,
+            source=e["source"],
+        )
+
+    # 5. Process Tranco, GoI Archive, URLScan (passive / web-archive observations)
     for dom in tranco_ranks:
         root = ".".join(dom.split(".")[-3:])
         st = STATE_ROOT_ZONES.get(root)
         min_name = domain_to_ministry.get(dom) or root_to_ministry.get(root)
-        upsert(
+        add_obs(
             domain=dom,
             root_domain=root,
             url=f"https://{dom}",
@@ -1204,7 +1750,7 @@ def main():
             state=st,
             ministry=min_name,
             source="tranco",
-            catalogued=False,
+            is_passive=True,
         )
 
     for raw_u in archive_urls:
@@ -1213,7 +1759,7 @@ def main():
             continue
         st = STATE_ROOT_ZONES.get(root)
         min_name = domain_to_ministry.get(dom) or root_to_ministry.get(root)
-        upsert(
+        add_obs(
             domain=dom,
             root_domain=root,
             url=clean_u,
@@ -1223,7 +1769,7 @@ def main():
             state=st,
             ministry=min_name,
             source="goi-archive",
-            catalogued=False,
+            is_passive=True,
         )
 
     for raw_d in urlscan_domains:
@@ -1232,7 +1778,7 @@ def main():
             continue
         st = STATE_ROOT_ZONES.get(root)
         min_name = domain_to_ministry.get(dom) or root_to_ministry.get(root)
-        upsert(
+        add_obs(
             domain=dom,
             root_domain=root,
             url=clean_u,
@@ -1242,23 +1788,36 @@ def main():
             state=st,
             ministry=min_name,
             source="urlscan",
-            catalogued=False,
+            is_passive=True,
         )
 
-    # Reconcile IGOD E042 District Roster against uncatalogued district .gov.in portals
+    # Resolve each host atomically (zero mixed entity/URL field splicing)
+    records: dict[str, dict] = {}
+    for dom, obs_list in obs_by_domain.items():
+        records[dom] = resolve_host_record(
+            dom=dom,
+            root_domain=root_for_domain[dom],
+            obs_list=obs_list,
+            redirects=redirects,
+            tranco_ranks=tranco_ranks,
+            root_to_ministry=root_to_ministry,
+        )
+
+    # Classify passive Tranco/archive district domains that match IGOD E042 slugs
+    # without upgrading provenance unless HTTP-verified above.
     for dom, rec in records.items():
-        if rec["catalogued"]:
+        if rec["provenance"] != "passive_only":
             continue
         labels = dom.split(".")
         matched_dist = None
         matched_state = None
         if len(labels) == 3 and dom not in STATE_ROOT_ZONES:
-            slug = dom[:-7]
-            candidates = slug_to_districts.get(slug, ())
-            if len(candidates) == 1:
-                matched_dist, matched_state = next(iter(candidates))
+            cands = slug_to_districts.get(dom[:-7], ())
+            if len(cands) == 1:
+                matched_dist, matched_state = next(iter(cands))
         elif (
             rec["root_domain"] in STATE_ROOT_ZONES
+            and rec["root_domain"] != "mizoram.gov.in"
             and not rec["root_domain"].endswith("police.gov.in")
             and rec["root_domain"] != "ksp.gov.in"
         ):
@@ -1272,39 +1831,30 @@ def main():
             rec["tier"] = "local"
             rec["state"] = matched_state
             rec["name"] = f"District Administration, {matched_dist}"
-            rec["catalogued"] = True
-            if "igod-district" not in rec["sources"]:
-                rec["sources"].append("igod-district")
 
-    # Finalize names, sub_portals, and ministry counts
-    for dom, rec in records.items():
-        if not rec["state"] and rec["root_domain"] in STATE_ROOT_ZONES:
-            rec["state"] = STATE_ROOT_ZONES[rec["root_domain"]]
-        if not rec["ministry"] and rec["root_domain"] in root_to_ministry:
-            rec["ministry"] = root_to_ministry[rec["root_domain"]]
-        if not rec["name"]:
-            rec["name"] = infer_title_from_domain(dom, rec["state"], rec["ministry"])
-        rec["sub_portals"] = max(1, len(portal_titles.get(dom, ())))
-
-    # DNS liveness check
+    # DNS liveness check with response classification & timestamps
     all_domains = sorted(records.keys())
-    dns_map = check_dns_all(all_domains, refresh=args.refresh)
+    dns_map, dns_checked_at = check_dns_all(all_domains, refresh=args.refresh)
     for dom, rec in records.items():
-        rec["dns_live"] = dns_map[dom]
+        dinfo = dns_map[dom]
+        rec["dns_live"] = bool(dinfo["live"])
+        rec["dns_status"] = dinfo["status"]
+        rec["dns_checked_at"] = dinfo["checked_at"]
 
-    # Sort records cleanly: Tranco rank first, then catalogued, then domain
+    # Sort records cleanly: Tranco rank first, then in_igod / official_verified, then resolved DNS, then domain
+    prov_rank = {"igod": 0, "official_verified": 1, "passive_only": 2}
     sorted_records = sorted(
         records.values(),
         key=lambda r: (
             0 if r["tranco_rank"] is not None else 1,
             r["tranco_rank"] if r["tranco_rank"] is not None else 999_999_999,
-            0 if r["catalogued"] else 1,
+            prov_rank.get(r["provenance"], 9),
             0 if r["dns_live"] else 1,
             r["domain"],
         ),
     )
 
-    # Update ministry reconciliation counts
+    # Update ministry reconciliation counts (include only institutional/web subdomains mapped to ministry)
     min_domain_counts: dict[str, int] = {}
     for rec in sorted_records:
         m = rec.get("ministry")
@@ -1317,19 +1867,31 @@ def main():
     snapshot = {
         "meta": {
             "generated_on": datetime.date.today().isoformat(),
+            "dns_checked_at": dns_checked_at,
             "tranco_list_id": tranco_id,
             "total_domains": len(sorted_records),
+            "web_hosts": sum(1 for r in sorted_records if r["role"] == "web"),
+            "infra_hosts": sum(1 for r in sorted_records if r["role"] == "infrastructure"),
+            "third_level_domains": sum(1 for r in sorted_records if len(r["domain"].split(".")) == 3),
+            "deeper_subdomains": sum(1 for r in sorted_records if len(r["domain"].split(".")) > 3),
             "dns_live_domains": sum(1 for r in sorted_records if r["dns_live"]),
-            "catalogued_domains": sum(1 for r in sorted_records if r["catalogued"]),
-            "uncharted_domains": sum(1 for r in sorted_records if not r["catalogued"]),
+            "dns_no_record_domains": sum(1 for r in sorted_records if r["dns_status"] == "no_record"),
+            "dns_lookup_error_domains": sum(1 for r in sorted_records if r["dns_status"] == "lookup_error"),
+            "igod_domains": sum(1 for r in sorted_records if r["in_igod"]),
+            "official_verified_domains": sum(1 for r in sorted_records if r["provenance"] == "official_verified"),
+            "passive_only_domains": sum(1 for r in sorted_records if r["provenance"] == "passive_only"),
+            "catalogued_domains": sum(1 for r in sorted_records if r["provenance"] != "passive_only"),
+            "uncharted_domains": sum(1 for r in sorted_records if r["provenance"] == "passive_only"),
+            "redirects_recorded": sum(1 for r in sorted_records if r.get("redirect_to")),
             "root_zones": len({r["root_domain"] for r in sorted_records}),
-            "listed_portals": sum(r["sub_portals"] for r in sorted_records),
+            "listed_portals": sum(r["preserved_urls_count"] for r in sorted_records),
             "sources": [
                 {"name": "Integrated Government Online Directory (igod.gov.in)", "url": "https://igod.gov.in", "role": "Official NIC/MeitY hierarchy across Union, 36 States/UTs, Districts, Local Bodies, Legislature, Judiciary & Missions"},
+                {"name": "One-hop Official Portal Crawl & Redirect Verification", "url": "https://datalibertarian.in/gov", "role": "Direct links extracted from official Union/State/Court/Legislature/Local homepages and HTTP-200 verified district portals"},
                 {"name": f"Tranco Subdomains List ({tranco_id})", "url": f"https://tranco-list.eu/list/{tranco_id}/full", "role": "Real-world traffic & passive DNS (CrUX, Cloudflare Radar, Farsight DNS, Majestic, Umbrella)"},
-                {"name": "Data Libertarian Registers", "url": "https://datalibertarian.in/sources", "role": "Verified state agencies, municipal bodies, budget books, and V2 PSUs"},
+                {"name": "Data Libertarian Registers", "url": "https://datalibertarian.in/sources", "role": "Verified state agencies, municipal bodies, budget books, and V2 PSU company sites"},
                 {"name": "GoI Web Directory Archive & URLScan", "url": "https://github.com/ABHISHEKVALSAN/Indian-Government-Websites", "role": "Historical GoI directory crawl & public web scan discovery"},
-                {"name": "Live DNS Verification", "url": "https://registry.gov.in", "role": "Concurrent A/AAAA DNS resolution check across all compiled .gov.in hosts"},
+                {"name": "DNS Resolution Check", "url": "https://registry.gov.in", "role": "Timestamped socket.getaddrinfo probe classifying resolved, resolved via www, no-record (EAI_NONAME), and lookup errors"},
             ],
         },
         "reconciliation": {
@@ -1345,7 +1907,7 @@ def main():
 
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump(snapshot, f, ensure_ascii=False, separators=(",", ":"))
-    print(f"Wrote {OUT_PATH} ({len(sorted_records)} unique .gov.in domains, {os.path.getsize(OUT_PATH) / 1e6:.2f} MB)")
+    print(f"Wrote {OUT_PATH} ({len(sorted_records)} unique .gov.in hostnames, {os.path.getsize(OUT_PATH) / 1e6:.2f} MB)")
 
 
 if __name__ == "__main__":
