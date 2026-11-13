@@ -19,6 +19,24 @@
       ]
     },
     {
+      "source": "/snapshot",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/gov",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
       "source": "/index.html",
       "headers": [
         {
@@ -33,6 +51,26 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "rewrites": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "gov.datalibertarian.in"
+        }
+      ],
+      "destination": "/gov"
+    },
+    {
+      "source": "/:sub(ministries|regulators|local-and-courts|uncharted)",
+      "has": [
+        {
+          "type": "host",
+          "value": "gov.datalibertarian.in"
+        }
+      ],
+      "destination": "/gov/:sub"
+    },
     {
       "source": "/",
       "destination": "/snapshot"

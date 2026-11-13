@@ -47,6 +47,20 @@ for (const { reg } of REGISTERS) {
   regCounts[reg] = m;
 }
 
+type GovRec = { state: string | null; catalogued: boolean; dns_live: boolean };
+const govCounts = new Map<string, { total: number; catalogued: number; live: number }>();
+if (existsSync("gov/data/snapshot.json")) {
+  const govData = JSON.parse(await readFile("gov/data/snapshot.json", "utf8")) as { records: GovRec[] };
+  for (const r of govData.records) {
+    if (!r.state) continue;
+    const cur = govCounts.get(r.state) ?? { total: 0, catalogued: 0, live: 0 };
+    cur.total++;
+    if (r.catalogued) cur.catalogued++;
+    if (r.dns_live) cur.live++;
+    govCounts.set(r.state, cur);
+  }
+}
+
 // ---- rendering helpers
 /** Numbered source markers: each figure links to its table; the list under the card names them. */
 function citer() {
@@ -134,15 +148,25 @@ function statePage(j: Jurisdiction) {
   });
 
   const totalRecords = nCourt + REGISTERS.reduce((s, { reg }) => s + (regCounts[reg]!.get(j.name) ?? 0), 0);
+  const gStat = govCounts.get(j.name);
+  const govCard = gStat
+    ? card(
+        "Government websites (.gov.in)",
+        "State portals, departments, boards, districts, local bodies and state subdomains",
+        badge("published", `${num(gStat.total)} domains`),
+        `<dl><dt>Total .gov.in domains</dt><dd>${num(gStat.total)}</dd><dt>In official GoI directory</dt><dd>${num(gStat.catalogued)}</dd><dt>Resolving in DNS</dt><dd>${num(gStat.live)}</dd></dl>`,
+        [[`/gov?state=${encodeURIComponent(j.name)}#directory`, `Browse ${j.name}'s .gov.in websites`]],
+      )
+    : "";
   const body = `
 <section class="block"><div class="wrap">
   <div class="sec-head"><div class="kicker">Public money and crime</div><h2>From the government's own books</h2></div>
   <div class="doors">${money}${crime}</div>
 </div></section>
 <section class="block"><div class="wrap">
-  <div class="sec-head"><div class="kicker">Records</div><h2>Court findings and registers</h2>
+  <div class="sec-head"><div class="kicker">Records</div><h2>Court findings, registers and directory</h2>
   <p>Each record is a single documented case with its source. Records in one state are not connected to each other because they share a place.</p></div>
-  <div class="doors">${courtCard}${regCards.join("")}</div>
+  <div class="doors">${courtCard}${regCards.join("")}${govCard}</div>
 </div></section>
 <section class="block"><div class="wrap"><p><a href="/search?q=${encodeURIComponent(j.name)}">Search everything that mentions ${esc(j.name)} &rarr;</a> &nbsp; <a href="/by-state">All states and union territories &rarr;</a></p></div></section>`;
 

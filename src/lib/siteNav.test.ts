@@ -7,6 +7,8 @@ test("marks the most specific section for a path", () => {
   assert.equal(currentItem("/crime/rape/delhi")?.name, "Rape");
   assert.equal(currentItem("/crime")?.name, "Crime in India");
   assert.equal(currentItem("/babuwatch/incident/x")?.name, "Babuwatch");
+  assert.equal(currentItem("/gov")?.name, "Gov.in Directory");
+  assert.equal(currentItem("/gov/ministries")?.name, "Gov.in Directory");
   assert.equal(currentItem("/crimes"), undefined);
   assert.equal(currentItem("/"), undefined);
 });

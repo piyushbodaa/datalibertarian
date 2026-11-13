@@ -151,6 +151,12 @@ def tally(rows):
     body += '<tr class="total"><td>Case records</td><td class="n">%s</td></tr>' % format(sum(c for _, c in counts), ",")
     body += '<tr class="sub"><td>Public enterprises inventoried</td><td class="n">%s</td></tr>' % format(
         len(reg.load("psu")["records"]), ",")
+    gov_snap = os.path.join(HERE, "..", "gov", "data", "snapshot.json")
+    if os.path.exists(gov_snap):
+        with open(gov_snap, encoding="utf-8") as _gf:
+            gov_total = json.load(_gf).get("meta", {}).get("total_domains")
+        if gov_total:
+            body += '<tr class="sub"><td>Government websites (.gov.in)</td><td class="n">%s</td></tr>' % format(gov_total, ",")
     return "<table>%s</table>" % body
 
 
@@ -168,9 +174,12 @@ def write_sitemaps(out):
                 f.write(spa)
             parts.append("/sitemap-spending.xml")
     urls = ["/"]
-    for key in ("babuwatch", "civilliberties", "victimlesscrimes", "economicfreedom", "psu", "education"):
+    for key in ("babuwatch", "civilliberties", "victimlesscrimes", "economicfreedom", "psu", "education", "gov"):
         if os.path.exists(os.path.join(out, key + ".html")) or os.path.isdir(os.path.join(out, key)):
             urls.append("/" + key)
+    for sub in ("/gov/ministries", "/gov/regulators", "/gov/local-and-courts", "/gov/uncharted"):
+        if os.path.exists(os.path.join(out, sub.lstrip("/") + ".html")) or os.path.isdir(os.path.join(out, sub.lstrip("/"))):
+            urls.append(sub)
     for key in ("civilliberties", "victimlesscrimes", "economicfreedom", "psu"):
         urls += ["/%s/%s" % (key, r["id"]) for r in reg.load(key)["records"]]
     with open(os.path.join(out, "sitemap-registers.xml"), "w", encoding="utf-8") as f:
