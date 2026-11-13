@@ -5913,6 +5913,266 @@
         }
       ],
       "verification": "V2"
+    },
+    {
+      "id": "vc-dl-0012",
+      "category": "gambling",
+      "state": "Delhi",
+      "district": "West",
+      "date": "2026-11-05",
+      "date_label": "Magistrate acquittal judgment",
+      "incident_date": "2026-05-20",
+      "title": "Two men accused of playing cards with Rs 350 near a Vikaspuri drain acquitted for lack of public witnesses and gambling proof",
+      "outcome": "acquitted",
+      "authority": "Vikas Puri Police Station, Delhi Police; Judicial Magistrate First Class-05 (South-West), Dwarka Courts",
+      "case_reference": "FIR No. 174/2026 (P.S. Vikas Puri); Judgment dated 05.11.2026, JMFC-05 (South-West), Dwarka",
+      "laws": [
+        "Sections 12, 9 and 55, Delhi Public Gambling Act, 1955"
+      ],
+      "acts": [
+        "Delhi Public Gambling Act, 1955"
+      ],
+      "person": "Two residents accused of public card-playing",
+      "summary": "Vikas Puri police arrested two men on the night of 20 May 2026 for allegedly playing cards with Rs 350 near Ganda Nala in Vikaspuri under the Delhi Public Gambling Act, 1955. On 5 November 2026 a Dwarka Magistrate acquitted both men, finding no public witnesses, no e-Sakshya video showing them playing cards, and no proof of betting.",
+      "detail": [
+        "The prosecution examined a single police witness who claimed to have spotted both men sitting near a drain wall around 9:00 p.m. on 20 May 2026 with 52 playing cards and Rs 350 in cash.",
+        "Under cross-examination, the policeman admitted that no public witnesses joined the search, no fingerprints were lifted from the cards, and the accused were not seen playing cards with cash in the e-Sakshya video.",
+        "JMFC-05 (South-West) held that the prosecution failed to link the seized cash and cards to any betting stakes and acquitted both accused."
+      ],
+      "current_position": "Both accused acquitted on 5 November 2026.",
+      "quote": {
+        "heading": "What the Magistrate held",
+        "text": "There are material links missing in the prosecution story and the chances of tampering with case property or false implication of accused cannot be ruled out.",
+        "where": "FIR No. 174/2026, P.S. Vikas Puri, judgment dated 5 November 2026, para 20",
+        "url": "https://indiankanoon.org/doc/111277752/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Card-playing with Rs 350 treated as a crime",
+          "text": "Police prosecuted two adults for allegedly playing cards in public over Rs 350 with no complainant and no harm to any third party."
+        }
+      ],
+      "caveats": "Any State appeal against acquittal is not known. Names of the two acquitted men are withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/111277752/",
+          "kind": "judgment",
+          "publisher": "District Courts, Dwarka (via Indian Kanoon)",
+          "date": "2026-11-05",
+          "supports": "the charge, Rs 350 seizure, evidentiary gaps and acquittal"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-br-0014",
+      "category": "alcohol",
+      "state": "Bihar",
+      "district": "Rohtas",
+      "date": "2026-11-05",
+      "date_label": "High Court anticipatory-bail order",
+      "incident_date": "2026-02-18",
+      "title": "Rohtas resident implicated on a co-accused's word in a 200-litre mahua field seizure gets anticipatory bail with Rs 15,000 DLSA condition",
+      "outcome": "prosecution_pending",
+      "authority": "Bikramganj Police Station, Rohtas; Patna High Court, Justice Rajiv Roy",
+      "case_reference": "Criminal Miscellaneous No. 77088 of 2026 (Patna High Court); Bikramganj P.S. Case No. 123 of 2026",
+      "laws": [
+        "Sections 30(a), 33, 34 and 36, Bihar Prohibition and Excise Act, 2016",
+        "Sections 274, 275, 286, 109, 61(2) and 3(5), Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "acts": [
+        "Bihar Prohibition and Excise Act, 2016",
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "person": "A resident of Rohtas district named in a police confession",
+      "summary": "Police raiding houses in Rohtas found nothing indoors but recovered 200 litres of semi-prepared mahua, stickers and 15 litres of spirit-like liquid from a nearby open field, and later implicated the petitioner solely on an arrested man's confession. On 5 November 2026 the Patna High Court maintained his anticipatory-bail plea despite the statutory bar in Section 76(2) and granted bail subject to his Rs 15,000 voluntary contribution to DLSA Rohtas for flower pots in Sasaram Civil Court.",
+      "detail": [
+        "Bikramganj P.S. Case No. 123 of 2026 was registered on 18 February 2026 after police found no liquor in two searched houses and instead seized 200 litres of semi-prepared mahua, stickers and 15 litres of spirit-like liquid from a nearby field.",
+        "After one suspect was arrested and named the petitioner before the police as an associate, the petitioner sought anticipatory bail, citing the Full Bench ruling in Ram Vinay Yadav that bail remains maintainable notwithstanding Section 76(2) where no offence is made out against the applicant.",
+        "Justice Rajiv Roy granted anticipatory bail on a Rs 10,000 bond with two sureties, fortifying the condition with six-month fortnightly police-station attendance and noting the petitioner's offer to contribute Rs 15,000 to DLSA Rohtas at Sasaram for court flower pots."
+      ],
+      "current_position": "Anticipatory bail granted on 5 November 2026; prosecution pending before the Exclusive Special Judge, Excise Court No. 1, Rohtas at Sasaram.",
+      "quote": {
+        "heading": "What the High Court noted",
+        "text": "an application for anticipatory bail in a case arising out of Bihar Excise and Prohibition Act can be maintained, despite the bar under Section 76(2) of the Act, if on the basis of allegation made in the FIR, no offence under the said provision is made out.",
+        "where": "Cr. Misc. No. 77088 of 2026, order dated 5 November 2026, para 6",
+        "url": "https://indiankanoon.org/doc/123861962/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Prohibition enforcement via third-party implication",
+          "text": "Bihar's total alcohol ban routinely drags people into non-bailable prosecution on the basis of a co-accused's police statement even when contraband is found in an open field."
+        }
+      ],
+      "caveats": "The FIR also invokes BNS Sections 274, 275, 286, 109, 61(2) and 3(5), and the State noted prior criminal antecedents. The bail order makes no finding on guilt. Names are withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/123861962/",
+          "kind": "court_order",
+          "publisher": "Patna High Court (via Indian Kanoon)",
+          "date": "2026-11-05",
+          "supports": "the field recovery, statutory bar exception, bail conditions and DLSA deposit"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-tn-0007",
+      "category": "sex-work",
+      "state": "Tamil Nadu",
+      "district": "Coimbatore",
+      "date": "2026-11-04",
+      "date_label": "High Court order",
+      "incident_date": null,
+      "title": "Coimbatore spa prostitution prosecution under ITPA quashed because raid officer lacked Section 15 authorisation",
+      "outcome": "quashed",
+      "authority": "Ramanathapuram Police Station, Coimbatore City Police; Madras High Court, Justice G.K. Ilanthiraiyan",
+      "case_reference": "Crl.O.P. No. 31937 of 2026 (Madras High Court); C.C. No. 5332 of 2025 (Additional Mahila Court, Coimbatore); Crime No. 4 of 2025",
+      "laws": [
+        "Sections 3(2)(a), 4(2)(c), 6(1)(b) and 15, Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "acts": [
+        "Immoral Traffic (Prevention) Act, 1956"
+      ],
+      "person": "Staff and management booked at a Coimbatore spa",
+      "summary": "Following a complaint after a visit to a Coimbatore spa, Ramanathapuram police raided the premises and filed a charge-sheet under Sections 3(2)(a), 4(2)(c) and 6(1)(b) of the Immoral Traffic (Prevention) Act, 1956. On 4 November 2026 the Madras High Court quashed the prosecution against the petitioners because the inspection was not carried out by an officer empowered under Section 15 of the Act.",
+      "detail": [
+        "Ramanathapuram police registered Crime No. 4 of 2025 and filed C.C. No. 5332 of 2025 before the Additional Mahila Court, Coimbatore after a complainant alleged women at the spa invited him for prostitution.",
+        "Proceedings against two co-accused (A3 and A4) had already been quashed by the High Court on 23 June 2026 in Crl.O.P. No. 10042 of 2026.",
+        "Justice G.K. Ilanthiraiyan held that the inspection was neither done by a Special Police Officer nor a Trafficking Police Officer authorised under Section 15 ITPA, rendering the entire prosecution unsustainable in law."
+      ],
+      "current_position": "Proceedings in C.C. No. 5332 of 2025 quashed by the Madras High Court on 4 November 2026.",
+      "quote": {
+        "heading": "What the High Court held",
+        "text": "Therefore, if the search and inspection is not carried out by following the procedure prescribed under Section 15 of the Act, the entire proceeding becomes illegal and cannot be sustained in law.",
+        "where": "Crl.O.P. No. 31937 of 2026, order dated 4 November 2026, para 6",
+        "url": "https://indiankanoon.org/doc/86836150/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Unauthorised spa raid under ITPA",
+          "text": "Coimbatore police searched a spa and charge-sheeted workers without following the mandatory safeguard of a Special Police Officer under Section 15 ITPA."
+        }
+      ],
+      "caveats": "Accused names are withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/86836150/",
+          "kind": "court_order",
+          "publisher": "Madras High Court (via Indian Kanoon)",
+          "date": "2026-11-04",
+          "supports": "the FIR sections, prior quashing and Section 15 ITPA ruling"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-up-0009",
+      "category": "beef",
+      "state": "Uttar Pradesh",
+      "district": "Mirzapur",
+      "date": "2026-11-03",
+      "date_label": "High Court judgment",
+      "incident_date": "2023-09-18",
+      "title": "Mirzapur truck confiscation over two bullocks quashed; Allahabad High Court awards Rs 40,000/month livelihood compensation plus Rs 25,000",
+      "outcome": "quashed",
+      "authority": "District Magistrate, Mirzapur; Commissioner, Vindhyachal Division; Vindhyachal Police Station; Allahabad High Court, Justice Sandeep Jain",
+      "case_reference": "Criminal Misc. Writ Petition No. 22141 of 2026 (2026:AHC:228068); Appeal No. 2345 of 2025; Case No. 1425 of 2023; Case Crime No. 165 of 2023",
+      "laws": [
+        "Sections 3, 5A, 5A(7), 5A(8), 5-B and 8, Uttar Pradesh Prevention of Cow Slaughter Act, 1955",
+        "Rule 16, Uttar Pradesh Prevention of Cow Slaughter Rules",
+        "Section 11, Prevention of Cruelty to Animals Act, 1960"
+      ],
+      "acts": [
+        "Uttar Pradesh Prevention of Cow Slaughter Act, 1955",
+        "Prevention of Cruelty to Animals Act, 1960"
+      ],
+      "person": "A commercial truck owner whose vehicle financed by Rs 27,709 monthly EMIs was confiscated",
+      "summary": "Vindhyachal police seized a financed commercial truck on 18 September 2023 carrying two bullocks within Uttar Pradesh, and the District Magistrate Mirzapur and Commissioner Vindhyachal confiscated it on the conjecture that Mirzapur borders Bihar and the animals were headed to West Bengal for slaughter. On 3 November 2026 the Allahabad High Court quashed both confiscation orders, ordered immediate release of the truck, and awarded Rs 40,000 per month compensation from 18 September 2023 until release plus Rs 25,000 for mental agony.",
+      "detail": [
+        "Police registered Case Crime No. 165 of 2023 on 18 September 2023 under the UP Cow Slaughter Act, Prevention of Cruelty to Animals Act and Sections 419/420 IPC; the DM ordered confiscation on 22 November 2024 and the Commissioner dismissed the owner's appeal on 21 May 2026.",
+        "Justice Sandeep Jain held there was zero evidence the vehicle was bound outside Uttar Pradesh or for slaughter, no veterinary report of injury or cruelty, and no beef recovered, while Rule 16 requires no permit for transporting cattle within UP.",
+        "Finding the illegal seizure violated the owner's right to livelihood under Article 21 (leaving him exposed to penal loan interest on his Rs 27,709 monthly EMIs), the court ordered compensation of Rs 40,000 per month from 18.09.2023 till actual vehicle release plus Rs 25,000, payable within one month with liberty to recover from responsible officers."
+      ],
+      "current_position": "Confiscation orders quashed and truck release ordered on 3 November 2026 with monthly and consolidated compensation; criminal Case Crime No. 165/2023 status not stated in the order.",
+      "quote": {
+        "heading": "What the High Court held",
+        "text": "The existence of an international or inter-State boundary by itself cannot constitute proof of illegal transportation.",
+        "where": "Criminal Misc. Writ Petition No. 22141 of 2026, judgment dated 3 November 2026, para 18",
+        "url": "https://indiankanoon.org/doc/129458322/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Livelihood seized over intrastate cattle transport",
+          "text": "Administrative authorities confiscated a commercial truck for over three years merely because two bullocks were transported in a border district, without proof of slaughter or inter-State movement."
+        }
+      ],
+      "caveats": "The underlying FIR also cited IPC Sections 419/420 and Prevention of Cruelty to Animals Act Section 11, though the court noted no veterinary injury report was produced. Truck owner's name is withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/129458322/",
+          "kind": "judgment",
+          "publisher": "Allahabad High Court (via Indian Kanoon)",
+          "date": "2026-11-03",
+          "supports": "the seizure date, lack of evidence, quashing of confiscation and Rs 40,000/month compensation"
+        }
+      ],
+      "verification": "V2"
+    },
+    {
+      "id": "vc-up-0010",
+      "category": "gambling",
+      "state": "Uttar Pradesh",
+      "district": "Agra",
+      "date": "2026-10-29",
+      "date_label": "High Court order",
+      "incident_date": "2022-04-17",
+      "title": "Public Gambling Act charge-sheet over alleged betting in a car quashed for investigating without a Magistrate's order",
+      "outcome": "quashed",
+      "authority": "New Agra Police Station, Agra Police; Allahabad High Court, Justice Dr. Gautam Chowdhary",
+      "case_reference": "Application u/s 528 BNSS No. 47661 of 2026 (2026:AHC:225317); Case No. 1948 of 2023; Case Crime No. 123 of 2022 (New Agra P.S.)",
+      "laws": [
+        "Sections 3 and 4, Public Gambling Act, 1867 (U.P. Amendments)"
+      ],
+      "acts": [
+        "Public Gambling Act, 1867"
+      ],
+      "person": "An applicant prosecuted for alleged betting inside a car",
+      "summary": "New Agra police registered an FIR on 17 April 2022 under Sections 3 and 4 of the Public Gambling Act alleging betting inside a car, investigated and filed a charge-sheet without a Magistrate's permission under Section 155(2) CrPC, and the CJM took cognizance and framed charges. On 29 October 2026 the Allahabad High Court quashed the charge-sheet, summoning order and charges, ruling the entire exercise void for bypassing the non-cognizable investigation bar.",
+      "detail": [
+        "New Agra Police Station registered Case Crime No. 123 of 2022 on 17 April 2022 under Sections 3/4 Public Gambling Act and filed a charge-sheet on 22 April 2022; the Chief Judicial Magistrate, Agra took cognizance on 19 January 2023 and framed charges on 3 February 2025.",
+        "Following a May 2025 coordinate-bench precedent, Justice Dr. Gautam Chowdhary held that Sections 3/4 Public Gambling Act are non-cognizable offences where police cannot investigate without a Magistrate's order under Section 155(2) CrPC (Section 174(2) BNSS), and the Magistrate also failed to follow summons/complaint procedure.",
+        "The High Court quashed the charge-sheet, cognizance order and charge dated 3 February 2025, granting police liberty only to seek prior Magistrate permission if they proceed afresh."
+      ],
+      "current_position": "Charge-sheet, summoning order and charges quashed on 29 October 2026, with liberty to police to proceed only after Magistrate permission under s. 155(2) CrPC / s. 174(2) BNSS.",
+      "quote": {
+        "heading": "What the High Court held",
+        "text": "no compliance of Section 155(2) Cr.P.C. has been made by the authorities concerned and as such the entire exercise undertaken by the police stands vitiated in law.",
+        "where": "Application u/s 528 BNSS No. 47661 of 2026, order dated 29 October 2026, para 6",
+        "url": "https://indiankanoon.org/doc/74469368/"
+      },
+      "sections": [
+        {
+          "label": "Why it is listed",
+          "heading": "Unlawful police probe over consensual betting",
+          "text": "Police bypassed mandatory Magistrate scrutiny under Section 155(2) CrPC to prosecute alleged card or car betting involving no injured victim."
+        }
+      ],
+      "caveats": "The High Court granted liberty to police to seek fresh Magistrate permission in accordance with law. Names are withheld.",
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/74469368/",
+          "kind": "court_order",
+          "publisher": "Allahabad High Court (via Indian Kanoon)",
+          "date": "2026-10-29",
+          "supports": "the FIR and charge dates, non-cognizable reasoning and quashing order"
+        }
+      ],
+      "verification": "V2"
     }
   ]
 }
