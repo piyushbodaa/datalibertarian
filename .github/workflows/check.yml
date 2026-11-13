@@ -16,6 +16,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm test
+      - run: npm run test:gov
       - run: npm run test:babuwatch
       - run: npm run build
       - run: npx playwright install --with-deps chromium

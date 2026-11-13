@@ -37,6 +37,7 @@ export const SITE_NAV: NavGroup[] = [
       { href: "/compare", name: "Compare two governments", what: "Side by side, where the accounting scope matches" },
       { href: "/psu", name: "PSUs", what: "Businesses the government owns" },
       { href: "/education", name: "Education", what: "Schools, students and teachers, from UDISE+" },
+      { href: "/gov", name: "Gov.in Directory", what: "Every .gov.in website: ministries, states, PSUs, regulators, courts and local bodies" },
     ],
   },
   {
