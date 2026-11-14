@@ -20,19 +20,17 @@
 <link rel="icon" type="image/svg+xml" href="/babuwatch/assets/brand/logo-glyph-saffron.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/babuwatch/styles.css">
 <style>
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-top:28px}
-.stat{border:1px solid var(--line);border-radius:6px;padding:18px;background:#fff}
-.stat .num{font-family:var(--serif);font-size:34px;font-weight:600;line-height:1.1}
-.stat .lab{font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--grey);margin-top:6px;font-weight:600}
-.stat .sub{font-size:13.5px;color:var(--grey);margin-top:4px}
-.emptybox{border:1px dashed var(--line);border-radius:6px;padding:28px;margin-top:24px;background:#fff}
-.emptybox p{color:#3A3F48;max-width:62ch}
-.form{font-size:13px;color:var(--slate-soft);font-weight:600;margin-top:10px}
-.sitelinks{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px;font-size:14px}
-.sitelinks a{color:var(--slate);font-weight:500}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-top:24px}
+.stat{border:1px solid var(--line);border-radius:8px;padding:18px;background:#fff}
+.stat .num{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:32px;font-weight:600;line-height:1.1;color:var(--ink)}
+.stat .lab{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--grey);margin-top:6px;font-weight:700}
+.stat .sub{font-size:13px;color:var(--grey);margin-top:4px}
+.emptybox{border:1px dashed var(--line);border-radius:8px;padding:28px;margin-top:24px;background:#fff}
+.emptybox p{color:#334155;max-width:62ch}
+.form{font-size:12.5px;color:var(--slate-soft);font-weight:600;margin-top:10px}
 </style>
 </head>
 <body>
@@ -57,22 +55,20 @@
   <div class="wrap">
     <div class="eyebrow">Public sector undertakings</div>
     <h1>Government has no business <span class="against">staying in business.</span></h1>
-    <p class="sub">The Indian state runs airlines&rsquo; leftovers, banks, insurers, hotels, mines, phone companies, condom factories and liquor shops &mdash; hundreds of enterprises from Delhi boardrooms to municipal water boards. This inventory will list them all, type by type, so the case for selling, shutting or devolving each one can be made enterprise by enterprise.</p>
+    <p class="sub">Central, state, municipal, and statutory public sector enterprises catalogued by legal form, ownership, financials, and disinvestment status &mdash; sourced from official CAG reports, annual accounts, and filings.</p>
     <div class="prototype-actions">
-      <a href="#categories" class="btn btn-primary">Browse the types</a>
-      <a href="#enterprises" class="btn btn-ghost">See the enterprises</a>
+      <a href="#categories" class="btn btn-primary">Browse PSU types</a>
+      <a href="#enterprises" class="btn btn-ghost">Jump to inventory</a>
     </div>
-    <p class="prototype-caveat">The inventory is being built state by state, starting with Andhra Pradesh. Every entry cites its official sources.</p>
-    <div class="sitelinks">Also on this site: <a href="/babuwatch">Babuwatch &rarr;</a> <a href="/victimlesscrimes">Victimless Crimes &rarr;</a> <a href="/civilliberties">Civil Liberties &rarr;</a> <a href="/economicfreedom">Economic Freedom &rarr;</a> <a href="/crime">Crime &rarr;</a> <a href="/">All registers &rarr;</a></div>
   </div>
 </section>
 
 <section id="analytics">
   <div class="wrap">
     <div class="sec-head">
-      <div class="kicker">Analytics</div>
-      <h2>What the inventory shows so far</h2>
-      <p>Live counts drawn from listed enterprises. The dashboard describes only the enterprises documented here; it does not estimate the size of the state&rsquo;s business empire.</p>
+      <div class="kicker">Summary</div>
+      <h2>Published PSU inventory</h2>
+      <p>Counts across verified V2 enterprise entries listed below; inventory grows state by state across central and state public sector bodies.</p>
     </div>
     <!--@stats--><div class="stats" role="list">
       <div class="stat" role="listitem"><div class="num">0</div><div class="lab">Enterprises listed</div><div class="sub">PSUs inventoried</div></div>
@@ -80,7 +76,6 @@
       <div class="stat" role="listitem"><div class="num">0</div><div class="lab">States covered</div><div class="sub">of 36 states &amp; UTs</div></div>
       <div class="stat" role="listitem"><div class="num">0</div><div class="lab">On the block</div><div class="sub">disinvestment pipeline</div></div>
     </div><!--@/stats-->
-    <div class="callout"><div class="lab">Live dataset</div><p>Every number above is computed from the listed enterprises below. Nothing here is estimated.</p></div>
   </div>
 </section>
 

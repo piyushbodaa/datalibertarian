@@ -1,3 +1,4 @@
+import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { HeadSplit } from "../components/HeadSplit";
 import { Money } from "../components/Money";
@@ -50,10 +51,13 @@ const TIER_CLASS: Record<PoliceTier, string> = {
   gold: "text-rust",
   index: "text-zinc",
   blocked: "text-ochre",
-  empty: "text-ink/45",
+  empty: "text-ink/50",
 };
 
 export function StatesPage() {
+  const [query, setQuery] = useState("");
+  const [sortBy, setSortBy] = useState<"budget" | "alpha">("budget");
+
   const states = jurisdictions.filter((j) => j.kind === "state");
   const uts = jurisdictions.filter((j) => j.kind === "ut");
   const cov = coverageCounts();
@@ -124,63 +128,178 @@ export function StatesPage() {
     throw new Error("Missing state headline figures");
   }
 
+  const goldRows = useMemo(
+    () => [
+      { to: "/maharashtra/police", name: "Maharashtra", money: mh },
+      { to: "/uttar-pradesh/police", name: "Uttar Pradesh", money: up },
+      { to: "/west-bengal/police", name: "West Bengal", money: wb },
+      { to: "/telangana/police", name: "Telangana", money: tg },
+      { to: "/gujarat/police", name: "Gujarat", money: gj },
+      { to: "/tamil-nadu/police", name: "Tamil Nadu", money: tn },
+      { to: "/karnataka/police", name: "Karnataka", money: ka },
+      { to: "/kerala/police", name: "Kerala", money: kl },
+      { to: "/odisha/police", name: "Odisha", money: od },
+      { to: "/andhra-pradesh/police", name: "Andhra Pradesh", money: ap },
+      { to: "/uttarakhand/police", name: "Uttarakhand", money: uk },
+      { to: "/assam/police", name: "Assam", money: as },
+      { to: "/chhattisgarh/police", name: "Chhattisgarh", money: cg },
+      { to: "/jharkhand/police", name: "Jharkhand", money: jh },
+      { to: "/goa/police", name: "Goa", money: ga },
+      { to: "/punjab/police", name: "Punjab", money: pb },
+      { to: "/haryana/police", name: "Haryana", money: hr },
+      { to: "/tripura/police", name: "Tripura", money: tr },
+      { to: "/meghalaya/police", name: "Meghalaya", money: ml },
+      { to: "/manipur/police", name: "Manipur", money: mn },
+      { to: "/nagaland/police", name: "Nagaland", money: nl },
+      { to: "/mizoram/police", name: "Mizoram", money: mz },
+      { to: "/arunachal-pradesh/police", name: "Arunachal Pradesh", money: ar },
+      { to: "/sikkim/police", name: "Sikkim", money: sk },
+      { to: "/rajasthan/police", name: "Rajasthan", money: rj },
+      { to: "/himachal-pradesh/police", name: "Himachal Pradesh", money: hp },
+      { to: "/bihar/police", name: "Bihar", money: br },
+    ],
+    [mh, up, wb, tg, gj, tn, ka, kl, od, ap, uk, as, cg, jh, ga, pb, hr, tr, ml, mn, nl, mz, ar, sk, rj, hp, br],
+  );
+
+  const maxGold = useMemo(() => Math.max(...goldRows.map((r) => r.money.crore), 1), [goldRows]);
+
+  const visibleGold = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    const list = q ? goldRows.filter((r) => r.name.toLowerCase().includes(q)) : goldRows;
+    return [...list].sort((a, b) =>
+      sortBy === "budget" ? b.money.crore - a.money.crore : a.name.localeCompare(b.name),
+    );
+  }, [goldRows, query, sortBy]);
+
   return (
     <article>
-      <h1 className="mt-1 font-display text-3xl font-semibold tracking-tight sm:text-4xl">States</h1>
-      <p className="mt-3 max-w-2xl text-ink">
-        Official police figures where we have read the book. {goldN} states from official books.
-        The rest are not ready.
-      </p>
-      <p className="mt-2 max-w-2xl text-sm text-ink/75">
-        For everything we hold on one place, including crime figures and court records,{" "}
-        <a href="/by-state">browse by state</a>.
+      <p className="kicker">State &amp; UT Police Budgets</p>
+      <h1 className="mt-1 font-display text-3xl font-bold tracking-tight sm:text-4xl">States</h1>
+      <p className="mt-3 max-w-2xl text-ink/80">
+        Primary police budget totals extracted from official state Annual Financial Statements and
+        Demand books. {goldN} states verified for FY 2026–27 BE. For crime, schools, and court records
+        per jurisdiction, open <a href="/by-state">browse by state</a>.
       </p>
 
-      <section className="mt-8 border-y border-ink/20 py-8">
-        <h2 className="font-display text-2xl font-semibold tracking-tight">From official books</h2>
-        <ul className="mt-5 divide-y divide-ink/15 border-y border-ink/20">
-          <GoldRow to="/maharashtra/police" name="Maharashtra" money={mh} />
-          <GoldRow to="/uttar-pradesh/police" name="Uttar Pradesh" money={up} />
-          <GoldRow to="/west-bengal/police" name="West Bengal" money={wb} />
-          <GoldRow to="/telangana/police" name="Telangana" money={tg} />
-          <GoldRow to="/gujarat/police" name="Gujarat" money={gj} />
-          <GoldRow to="/tamil-nadu/police" name="Tamil Nadu" money={tn} />
-          <GoldRow to="/karnataka/police" name="Karnataka" money={ka} />
-          <GoldRow to="/kerala/police" name="Kerala" money={kl} />
-          <GoldRow to="/odisha/police" name="Odisha" money={od} />
-          <GoldRow to="/andhra-pradesh/police" name="Andhra Pradesh" money={ap} />
-          <GoldRow to="/uttarakhand/police" name="Uttarakhand" money={uk} />
-          <GoldRow to="/assam/police" name="Assam" money={as} />
-          <GoldRow to="/chhattisgarh/police" name="Chhattisgarh" money={cg} />
-          <GoldRow to="/jharkhand/police" name="Jharkhand" money={jh} />
-          <GoldRow to="/goa/police" name="Goa" money={ga} />
-          <GoldRow to="/punjab/police" name="Punjab" money={pb} />
-          <GoldRow to="/haryana/police" name="Haryana" money={hr} />
-          <GoldRow to="/tripura/police" name="Tripura" money={tr} />
-          <GoldRow to="/meghalaya/police" name="Meghalaya" money={ml} />
-          <GoldRow to="/manipur/police" name="Manipur" money={mn} />
-          <GoldRow to="/nagaland/police" name="Nagaland" money={nl} />
-          <GoldRow to="/mizoram/police" name="Mizoram" money={mz} />
-          <GoldRow to="/arunachal-pradesh/police" name="Arunachal Pradesh" money={ar} />
-          <GoldRow to="/sikkim/police" name="Sikkim" money={sk} />
-          <GoldRow to="/rajasthan/police" name="Rajasthan" money={rj} />
-          <GoldRow to="/himachal-pradesh/police" name="Himachal Pradesh" money={hp} />
-          <GoldRow to="/bihar/police" name="Bihar" money={br} />
+      <div className="mt-6 grid gap-3 sm:grid-cols-3">
+        <div className="carbon-sheet p-4">
+          <p className="kicker">Verified 2026–27 Books</p>
+          <p className="num mt-1.5 text-2xl font-semibold text-ink">{goldN} States</p>
+          <p className="mt-1 text-xs text-ink/65">Parsed straight from state AFS &amp; Demand PDFs</p>
+        </div>
+        <div className="carbon-sheet p-4">
+          <p className="kicker">Highest State Police Allocation</p>
+          <p className="num mt-1.5 text-2xl font-semibold text-ink">
+            ₹{formatCrore(maxGold)} cr
+          </p>
+          <p className="mt-1 text-xs text-ink/65">Rank #1 among verified 2026–27 official books</p>
+        </div>
+        <Link to="/compare?left=maharashtra&right=uttar-pradesh" className="docket-door layer-union flex flex-col justify-center">
+          <p className="kicker">Interactive Benchmark</p>
+          <p className="mt-1 text-base font-semibold text-rust">Compare any two states →</p>
+          <p className="mt-0.5 text-xs text-ink/65">Side-by-side revenue, capital &amp; peer medians</p>
+        </Link>
+      </div>
+
+      <section className="carbon-sheet mt-8 p-5 sm:p-6">
+        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[var(--rule)] pb-4">
+          <div>
+            <h2 className="font-display text-xl font-semibold tracking-tight">
+              2026–27 Official Police Budgets
+            </h2>
+            <p className="mt-0.5 text-xs text-ink/65">
+              Ranked by crore rupees · Major Heads 2055 + 4055 (click any state for full breakdown)
+            </p>
+          </div>
+          <div className="flex flex-wrap items-center gap-2">
+            <label htmlFor="states-filter" className="sr-only">
+              Filter states
+            </label>
+            <input
+              id="states-filter"
+              type="search"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Filter state…"
+              className="field w-44 py-1.5 text-sm"
+            />
+            <div className="inline-flex rounded-md border border-[var(--rule-strong)] bg-paper p-0.5 text-xs font-medium">
+              <button
+                type="button"
+                onClick={() => setSortBy("budget")}
+                className={`rounded px-2.5 py-1.5 transition ${
+                  sortBy === "budget" ? "bg-white font-semibold text-rust shadow-sm" : "text-ink/70"
+                }`}
+              >
+                Highest budget
+              </button>
+              <button
+                type="button"
+                onClick={() => setSortBy("alpha")}
+                className={`rounded px-2.5 py-1.5 transition ${
+                  sortBy === "alpha" ? "bg-white font-semibold text-rust shadow-sm" : "text-ink/70"
+                }`}
+              >
+                A–Z
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <ul className="mt-3 divide-y divide-[var(--rule)]">
+          {visibleGold.map((row, idx) => {
+            const pct = Math.max((row.money.crore / maxGold) * 100, 1.5);
+            return (
+              <li
+                key={row.to}
+                className="grid items-center gap-2 py-3 sm:grid-cols-[2rem_13rem_1fr_auto]"
+              >
+                <span className="num text-xs text-ink/45">
+                  {sortBy === "budget" ? `#${idx + 1}` : ""}
+                </span>
+                <Link
+                  to={row.to}
+                  className="font-semibold text-ink no-underline hover:text-rust"
+                >
+                  {row.name}
+                </Link>
+                <div className="hidden h-2.5 w-full overflow-hidden rounded-full bg-slate-100 sm:block" aria-hidden="true">
+                  <div
+                    className="h-full rounded-full bg-rust/80"
+                    style={{ width: `${pct}%` }}
+                  />
+                </div>
+                <div className="sm:text-right">
+                  <Money money={row.money} size="row" />
+                </div>
+              </li>
+            );
+          })}
+          {visibleGold.length === 0 ? (
+            <li className="py-6 text-sm text-ink/60">No state matched “{query}”.</li>
+          ) : null}
         </ul>
-        <div className="mt-6">
-          <HeadSplit run={run} cap={cap} title="Maharashtra police, this plan" note="Running the force vs buildings and gear." />
+
+        <div className="mt-6 border-t border-[var(--rule)] pt-4">
+          <HeadSplit
+            run={run}
+            cap={cap}
+            title="Reference split · Maharashtra 2026–27"
+            note="Running costs (Revenue 2055) vs buildings and gear (Capital 4055)."
+          />
         </div>
       </section>
 
       <section className="index-slip mt-10">
-        <h2 className="mt-2 font-display text-xl font-semibold tracking-tight sm:text-2xl">
-          Not read from the book yet
+        <h2 className="mt-1 font-display text-xl font-semibold tracking-tight sm:text-2xl">
+          Secondary index · Research summaries (2025–26)
         </h2>
-        <p className="mt-3 max-w-2xl text-sm text-ink/75">
-          A research summary lists police figures for {indexN} states for 2025-26. Those are not
-          from the official books, so they are not the numbers we compare. Maharashtra’s official
-          police figure is ₹{formatCrore(mh.crore)} crore, not the summary’s ₹
-          {mhIndex.be2526.toLocaleString("en-IN")} crore.
+        <p className="mt-2 max-w-2xl text-sm text-ink/75">
+          PRS research summaries cover {indexN} states for FY 2025–26 BE. They use broader sector
+          groupings than primary Major Head books — for example, Maharashtra’s verified AFS police
+          book is ₹{formatCrore(mh.crore)} crore (2026–27), compared to the summary figure of ₹
+          {mhIndex.be2526.toLocaleString("en-IN")} crore (2025–26). Kept strictly separate from
+          primary state rankings.
         </p>
         <RankedHatch
           tone="index"
@@ -188,16 +307,19 @@ export function StatesPage() {
           items={indexPoliceLines}
           fiscalYear={INDEX_YEAR}
           series={INDEX_SERIES}
-          title="Research summaries, 2025-26"
-          note="Not official books. We do not use these as the main number."
+          title="PRS research summary estimates, 2025–26"
+          note="Secondary digest figures — not primary budget book totals."
         />
       </section>
 
-      <Section title="States" rows={states} />
-      <Section title="Union Territories" rows={uts} />
+      <div className="mt-10 grid gap-8 md:grid-cols-2">
+        <Section title="All States — book status" rows={states} />
+        <Section title="Union Territories — book status" rows={uts} />
+      </div>
 
-      <p className="mt-10 max-w-2xl text-sm text-ink/65">
-        Delhi Police sits in the Centre’s books. <Link to="/union/delhi-police">Open Delhi Police</Link>
+      <p className="mt-10 max-w-2xl text-sm text-ink/70">
+        Delhi Police is budgeted directly by the Union Ministry of Home Affairs under Demand 51.{" "}
+        <Link to="/union/delhi-police">Open Delhi Police</Link>
         {" · "}
         <Link to="/sources">Sources &amp; methodology</Link>
       </p>
@@ -205,40 +327,23 @@ export function StatesPage() {
   );
 }
 
-function GoldRow({
-  to,
-  name,
-  money,
-}: {
-  to: string;
-  name: string;
-  money: { crore: number; rupees: number; series: "actual" | "be" | "re"; fiscalYear: string; citationId: string };
-}) {
-  return (
-    <li className="flex flex-col gap-1 py-3 sm:flex-row sm:items-baseline sm:justify-between">
-      <Link to={to} className="font-medium text-ink no-underline hover:text-rust">
-        {name}
-      </Link>
-      <Money money={money} size="row" />
-    </li>
-  );
-}
-
 function Section({ title, rows }: { title: string; rows: typeof jurisdictions }) {
   return (
-    <section className="mt-10">
-      <h2 className="font-display text-xl font-semibold tracking-tight">{title}</h2>
-      <ul className="mt-4 divide-y divide-ink/15 border-y border-ink/20">
+    <section className="carbon-sheet p-5">
+      <h2 className="font-display text-lg font-semibold tracking-tight">{title}</h2>
+      <ul className="mt-3 divide-y divide-[var(--rule)]">
         {rows.map((j) => (
-          <li key={j.slug} className="flex flex-wrap items-baseline justify-between gap-2 py-3">
+          <li key={j.slug} className="flex flex-wrap items-baseline justify-between gap-2 py-2.5 text-sm">
             <Link to={doorPath(j)} className="font-medium text-ink no-underline hover:text-rust">
               {j.name}
             </Link>
             {j.tier === "gold" ? (
-              <span className="text-sm text-ink/55">Official</span>
+              <span className="rounded-full bg-[#EEF2F7] px-2 py-0.5 text-xs font-semibold text-rust">
+                Official book
+              </span>
             ) : (
-              <span className={`text-sm ${TIER_CLASS[j.tier]}`}>
-                {j.tier === "blocked" ? "Can't read a clean number" : "Not ready"}
+              <span className={`text-xs font-medium ${TIER_CLASS[j.tier]}`}>
+                {j.tier === "blocked" ? "Pending format" : "Pending"}
               </span>
             )}
           </li>

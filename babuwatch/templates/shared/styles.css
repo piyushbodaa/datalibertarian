@@ -1,21 +1,22 @@
 
   :root{
-    --ink:#12151C;
-    --paper:#F7F5EF;
-    --paper-edge:#EEEBE1;
-    --slate:#1A3A4A;
-    --saffron:#B8651B;
-    --green:#2F6F4E;
-    --slate-soft:#2C5060;
-    --brass:#8A6D3B;
-    --grey:#6B7280;
-    --grey-light:#9AA1AB;
-    --line:#D9D5C8;
-    --serif:'Lora',Georgia,serif;
-    --sans:'Inter',system-ui,sans-serif;
+    --ink:#0F172A;
+    --paper:#F8FAFC;
+    --paper-edge:#F1F5F9;
+    --slate:#1E3A5F;
+    --saffron:#B91C1C;
+    --green:#0F766E;
+    --slate-soft:#334155;
+    --brass:#B45309;
+    --grey:#64748B;
+    --grey-light:#94A3B8;
+    --line:#E2E8F0;
+    --serif:'Inter',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+    --sans:'Inter',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+    --mono:'IBM Plex Mono',ui-monospace,'SFMono-Regular',Menlo,monospace;
   }
   *{margin:0;padding:0;box-sizing:border-box}
-  html{scroll-behavior:smooth;scrollbar-gutter:stable}
+  html{scroll-behavior:smooth}
   body{
     background:var(--paper);
     color:var(--ink);
@@ -624,3 +625,19 @@ nav.links a.on{color:var(--ink);font-weight:600}
   .incident-section{padding:28px 0}
   .action-card-head{align-items:flex-start}
 }
+
+/* --- Unified Daylight Institutional Refinements --- */
+.hero,.prototype-hero{background:#FFFFFF;padding:44px 0 38px;border-bottom:1px solid var(--line)}
+.hero h1,.tracker-card h2,.incident-hero h1,.intent-intro h2,.intent-card h3{font-family:var(--sans);font-weight:700;letter-spacing:-0.025em}
+.btn{border-radius:6px;font-weight:600}
+.btn-primary{background:var(--slate);color:#FFFFFF;border-color:var(--slate)}
+.btn-primary:hover{background:#162C49;border-color:#162C49}
+.btn-ghost{background:#FFFFFF;color:var(--ink);border-color:#CBD5E1}
+.btn-ghost:hover{border-color:var(--slate);color:var(--slate)}
+.intent-card,.tracker-card,.intent-report-band,.ledger-track{background:#FFFFFF;border-radius:8px}
+.tracker-card{background:#FFFFFF;border-color:var(--line)}
+.tracker-card:not(.tracker-card-retracted):hover{border-color:var(--slate);box-shadow:0 8px 22px -12px rgba(15,23,42,.15)}
+.tracker-filter{background:#FFFFFF}
+.tracker-filter.on{background:var(--slate);border-color:var(--slate);color:#FFFFFF}
+.filters input[type="search"],.filters input[type="text"],.filters select{min-height:38px;padding:6px 11px;border:1px solid #CBD5E1;border-radius:6px;background:#FFFFFF;color:var(--ink);font-family:var(--sans);font-size:13.5px}
+.filters input:focus,.filters select:focus{outline:none;border-color:var(--slate);box-shadow:0 0 0 3px rgba(30,58,95,.12)}

@@ -137,144 +137,159 @@ export function ComparePage() {
 
   return (
     <article>
-      <h1 className="mt-1 font-display text-3xl font-semibold tracking-tight sm:text-4xl">Compare two states</h1>
-      <p className="mt-3 max-w-2xl text-ink">
-        Pick two. The middle number is the middle of the official state books we have already read.
+      <p className="kicker">Budget Comparison Tool</p>
+      <h1 className="mt-1 font-display text-3xl font-bold tracking-tight sm:text-4xl">Compare two budgets</h1>
+      <p className="mt-2 max-w-2xl text-ink/80">
+        Compare any two verified official books side by side, benchmarked against the median of peer
+        jurisdictions read so far.
       </p>
 
-      <details className="mt-4 text-sm"><summary className="cursor-pointer min-h-11 flex items-center">Advanced comparison options</summary>
-      <div className="flex flex-wrap gap-4 text-sm">
-        <label className="inline-flex min-h-11 items-center gap-2">
-          <input
-            type="checkbox"
-            checked={exclude}
-            onChange={(e) => set({ exclude: e.target.checked ? "1" : undefined })}
-          />
-          Don’t count these two
-        </label>
-        <details className="text-sm text-ink/70">
-          <summary className="cursor-pointer">More</summary>
-          <label className="mt-2 block">
-            What to compare{" "}
-            <select
-              className="field mt-1 max-w-xs"
-              value={grain}
-              onChange={(e) =>
-                set({
-                  grain: e.target.value,
-                  left: e.target.value === "city" ? "hyderabad-city" : e.target.value === "station" ? "bachupally" : "maharashtra",
-                  right: "",
-                })
-              }
-            >
-              <option value="layer">States / Centre</option>
-              <option value="city">City police</option>
-              <option value="station">Named police station</option>
-            </select>
-          </label>
-        </details>
-      </div>
-
-      </details>
-      <div className="mt-3 grid grid-cols-2 gap-3">
-        <Picker
-          label="Left"
-          slug={leftSlug}
-          grain={grain}
-          onLayer={(layer) => {
-            const first = entitiesFor(layer, grain)[0];
-            set({ left: first?.slug, year: undefined });
-          }}
-          onEntity={(slug) => set({ left: slug })}
-        />
-        <Picker
-          label="Right"
-          slug={rightSlug}
-          grain={grain}
-          allowEmpty
-          onLayer={(layer) => {
-            const first = entitiesFor(layer, grain)[0];
-            set({ right: first?.slug, year: undefined });
-          }}
-          onEntity={(slug) => set({ right: slug })}
-        />
-      </div>
-
-      <details className="mt-3 text-sm"><summary className="cursor-pointer">Suggested comparisons</summary>
-      <p className="mt-2 flex flex-wrap gap-2 text-sm">
+      <div className="mt-4 flex flex-wrap items-center gap-2 text-xs">
+        <span className="font-semibold uppercase tracking-wider text-ink/55">Quick presets:</span>
         {grain === "city" ? (
           <button
             type="button"
-            className="live-tag text-ink"
+            className="live-tag"
             onClick={() => set({ grain: "city", left: "hyderabad-city", right: "cyberabad", series: "be", year: "2026-27" })}
           >
-            Hyderabad CP / Cyberabad
+            Hyderabad CP vs Cyberabad
           </button>
         ) : grain === "station" ? (
           <button
             type="button"
-            className="live-tag text-ink"
+            className="live-tag"
             onClick={() => set({ grain: "station", left: "bachupally", right: "" })}
           >
-            Named station (no figure yet)
+            Named station
           </button>
         ) : (
-          suggestedPairs().map(([a, b]) => (
+          <>
+            {suggestedPairs().slice(0, 3).map(([a, b]) => (
+              <button
+                key={`${a}-${b}`}
+                type="button"
+                className="live-tag"
+                onClick={() => set({ grain: "layer", left: a, right: b, series: "be", year: "2026-27" })}
+              >
+                {getCompareEntity(a)?.name} vs {getCompareEntity(b)?.name}
+              </button>
+            ))}
             <button
-              key={`${a}-${b}`}
               type="button"
-              className="live-tag text-ink"
-              onClick={() => set({ grain: "layer", left: a, right: b, series: "be", year: "2026-27" })}
+              className="live-tag"
+              onClick={() => set({ grain: "layer", left: "telangana", right: "maharashtra", series: "be", year: "2026-27" })}
             >
-              {getCompareEntity(a)?.name} / {getCompareEntity(b)?.name}
+              Telangana vs Maharashtra
             </button>
-          ))
+            <button
+              type="button"
+              className="live-tag"
+              onClick={() => set({ grain: "layer", left: "ghmc", right: "", series: "be", year: "2025-26" })}
+            >
+              GHMC (City)
+            </button>
+          </>
         )}
-      </p>
+      </div>
 
-      </details>
+      <section className="carbon-sheet mt-5 p-4 sm:p-5">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+          <Picker
+            label="Left"
+            slug={leftSlug}
+            grain={grain}
+            onLayer={(layer) => {
+              const first = entitiesFor(layer, grain)[0];
+              set({ left: first?.slug, year: undefined });
+            }}
+            onEntity={(slug) => set({ left: slug })}
+          />
+          <Picker
+            label="Right"
+            slug={rightSlug}
+            grain={grain}
+            allowEmpty
+            onLayer={(layer) => {
+              const first = entitiesFor(layer, grain)[0];
+              set({ right: first?.slug, year: undefined });
+            }}
+            onEntity={(slug) => set({ right: slug })}
+          />
+        </div>
+
+        <details className="mt-4 border-t border-[var(--rule)] pt-3 text-sm text-ink/75">
+          <summary className="cursor-pointer font-medium text-ink">Comparison scope &amp; options</summary>
+          <div className="mt-3 flex flex-wrap items-center gap-5">
+            <label className="inline-flex min-h-9 items-center gap-2">
+              <input
+                type="checkbox"
+                checked={exclude}
+                onChange={(e) => set({ exclude: e.target.checked ? "1" : undefined })}
+              />
+              Exclude picked books from peer median
+            </label>
+            <label className="flex items-center gap-2">
+              <span>Scope</span>
+              <select
+                className="field w-auto py-1 text-sm"
+                value={grain}
+                onChange={(e) =>
+                  set({
+                    grain: e.target.value,
+                    left: e.target.value === "city" ? "hyderabad-city" : e.target.value === "station" ? "bachupally" : "maharashtra",
+                    right: "",
+                  })
+                }
+              >
+                <option value="layer">States / Centre / Cities</option>
+                <option value="city">City police commissionerates</option>
+                <option value="station">Named police station</option>
+              </select>
+            </label>
+          </div>
+        </details>
+      </section>
+
       {cross ? (
-        <section className="carbon-sheet mt-8 px-4 py-5 sm:px-6">
-          <p className="kicker text-ochre">Different books — not a like-for-like</p>
-          <p className="mt-2 max-w-2xl text-sm text-ink/75">
-            These two are not the same kind of book. The middle number follows the left side.
+        <section className="carbon-sheet mt-6 border-l-4 border-l-ochre px-4 py-4 sm:px-5">
+          <p className="kicker text-ochre">Cross-tier comparison</p>
+          <p className="mt-1 max-w-2xl text-sm text-ink/80">
+            These two books belong to different tiers of government. The peer median column follows the left selection.
           </p>
         </section>
       ) : null}
 
       {stationEmpty ? (
-        <section className="carbon-sheet mt-8 px-4 py-6 sm:px-6">
+        <section className="carbon-sheet mt-6 px-4 py-6 sm:px-6">
           <p className="kicker text-ochre">Named police station</p>
           <div className="mt-4 grid gap-4 lg:grid-cols-3">
             <EmptyWell label="Left station" />
-            <EmptyWell label="Median station" />
+            <EmptyWell label="Peer median" />
             <EmptyWell label="Right station" />
           </div>
           <p className="mt-4 max-w-2xl text-sm text-ink/75">
-            No named police-station figure is in the books we have read. We do not divide a city or
-            state total by the number of stations.
+            Station-level rupee allocations are not published in primary budget volumes, and we never divide state or city totals by station count.
           </p>
         </section>
       ) : !left || left.tier !== "gold" ? (
-        <section className="carbon-sheet mt-8 px-4 py-6 sm:px-6">
-          <p className="kicker text-ochre">Left side not ready</p>
-          <p className="mt-2 text-sm text-ink/75">
+        <section className="carbon-sheet mt-6 px-4 py-6 sm:px-6">
+          <p className="kicker text-ochre">Book pending</p>
+          <p className="mt-2 text-sm text-ink/80">
             {left
-              ? `${left.entity.name}: ${tierLabel(left.tier)}. ${left.note ?? "We have not read this book yet."}`
-              : "Pick a state we have already read."}
+              ? `${left.entity.name}: ${tierLabel(left.tier)}. ${left.note ?? "This primary volume has not been parsed yet."}`
+              : "Select a state or jurisdiction whose official book has been parsed."}
           </p>
         </section>
       ) : useYear && useSeries ? (
         <>
           {right && right.tier !== "gold" ? (
-            <p className="mt-6 max-w-2xl text-sm text-ink/70">
-              {right.entity.name}’s official police book is not on this site yet. The middle number
-              still uses the official books we have.
+            <p className="mt-5 max-w-2xl text-sm text-ink/75">
+              {right.entity.name}’s primary budget volume is not yet parsed here. The peer median still reflects available verified books.
             </p>
           ) : null}
 
-          <div className="mt-4 grid grid-cols-2 gap-3 text-sm lg:grid-cols-4">
-            <label className="block">
+          <div className="mt-5 grid grid-cols-1 gap-3 text-sm sm:grid-cols-2 lg:grid-cols-4">
+            <label className="block font-medium text-ink/80">
               Series
               <select
                 className="field mt-1"
@@ -288,8 +303,8 @@ export function ComparePage() {
                 ))}
               </select>
             </label>
-            <label className="block">
-              Year
+            <label className="block font-medium text-ink/80">
+              Fiscal year
               <select
                 className="field mt-1"
                 value={useYear}
@@ -304,20 +319,26 @@ export function ComparePage() {
                 )}
               </select>
             </label>
-            <div className="flex flex-wrap items-end gap-3 sm:col-span-2">
-              <button type="button" className="file-cta" onClick={copyLink}>
-                <span className="file-cta-notch" aria-hidden="true" />
+            <div className="flex flex-wrap items-end gap-2 sm:col-span-2">
+              <button
+                type="button"
+                className="inline-flex min-h-[42px] items-center gap-1.5 rounded-md border border-[var(--rule-strong)] bg-white px-4 py-2 text-xs font-semibold text-ink transition hover:border-rust hover:text-rust"
+                onClick={copyLink}
+              >
                 Copy link
               </button>
-              <button type="button" className="file-cta" onClick={downloadCsv}>
-                <span className="file-cta-notch" aria-hidden="true" />
+              <button
+                type="button"
+                className="inline-flex min-h-[42px] items-center gap-1.5 rounded-md bg-rust px-4 py-2 text-xs font-semibold text-white transition hover:bg-[#162C49]"
+                onClick={downloadCsv}
+              >
                 CSV
               </button>
-              <p role="status" className="col-span-2 text-sm">{copyStatus}</p>
+              <p role="status" className="text-xs text-ink/70">{copyStatus}</p>
             </div>
           </div>
 
-          <div className="mt-8 grid gap-5 lg:grid-cols-3">
+          <div className="mt-6 grid gap-4 lg:grid-cols-3">
             <Hero kicker="Left" side={left} money={heroField?.left} rule="rust" />
             <MedianHero
               cell={heroField?.mid}
@@ -331,20 +352,47 @@ export function ComparePage() {
               <section className="docket-door bone layer-state">
                 <p className="kicker">Right</p>
                 <h2 className="mt-2 font-display text-xl font-semibold tracking-tight">
-                  {right ? right.entity.name : "Pick a second state"}
+                  {right ? right.entity.name : "Pick a second book"}
                 </h2>
-                <p className="mt-6 text-sm text-ink/60">
-                  {right ? `${right.entity.name}’s official police book is not on this site yet.` : "No figure yet."}
+                <p className="mt-6 text-sm text-ink/65">
+                  {right ? `${right.entity.name}’s primary budget volume has not been parsed here yet.` : "Select a book in Right book above to compare directly."}
                 </p>
               </section>
             )}
           </div>
 
-          <p className="mt-6 max-w-xl text-sm text-zinc">
-            Three numbers. Not a ranking.
-          </p>
+          {heroField?.left && heroField?.right ? (
+            <section className="index-slip mt-6">
+              <p className="kicker">Comparison Summary</p>
+              <p className="mt-1 text-sm text-ink/85">
+                For <strong>{heroField.field.label.toLowerCase()}</strong> ({useYear} {SERIES_LABEL[useSeries]}),{" "}
+                <strong>{left.entity.name}</strong> budgets{" "}
+                <span className="num font-semibold">₹{formatCrore(heroField.left.crore)} crore</span> vs{" "}
+                <strong>{right?.entity.name}</strong>’s{" "}
+                <span className="num font-semibold">₹{formatCrore(heroField.right.crore)} crore</span> — a difference of{" "}
+                <span className="num font-semibold">
+                  ₹{formatCrore(Math.abs(heroField.left.crore - heroField.right.crore))} crore
+                </span>{" "}
+                ({heroField.left.crore >= heroField.right.crore ? "+" : "−"}
+                {heroField.right.crore > 0
+                  ? Math.abs(((heroField.left.crore - heroField.right.crore) / heroField.right.crore) * 100).toFixed(1)
+                  : "0.0"}
+                %).
+              </p>
+            </section>
+          ) : heroField?.left && heroField?.mid ? (
+            <section className="index-slip mt-6">
+              <p className="kicker">Comparison Summary</p>
+              <p className="mt-1 text-sm text-ink/85">
+                <strong>{left.entity.name}</strong> budgets{" "}
+                <span className="num font-semibold">₹{formatCrore(heroField.left.crore)} crore</span> for{" "}
+                <strong>{heroField.field.label.toLowerCase()}</strong> ({useYear} {SERIES_LABEL[useSeries]}), compared to a peer median of{" "}
+                <span className="num font-semibold">₹{formatCrore(heroField.mid.money.crore)} crore</span> across {heroField.mid.n} books.
+              </p>
+            </section>
+          ) : null}
 
-          <ol className="mt-4 p-0">
+          <ol className="mt-6 p-0">
             {rows.map((r) => (
               <CompareRow key={r.field.id} field={r.field} left={r.left} mid={r.mid} right={r.right} />
             ))}
@@ -361,7 +409,7 @@ export function ComparePage() {
             />
           ) : tableField && !tableField.mid ? (
             <section className="carbon-sheet mt-10 px-4 py-6 sm:px-6">
-              <p className="kicker text-ochre">Middle of the books</p>
+              <p className="kicker text-ochre">Peer median</p>
               <p className="mt-2 text-sm text-ink/75">No official book printed this line.</p>
             </section>
           ) : null}
@@ -369,11 +417,9 @@ export function ComparePage() {
       ) : null}
 
       <section className="index-slip mt-10">
-        <p className="kicker">How it works</p>
-        <p className="mt-3 max-w-2xl text-sm text-ink/75">
-          The middle number is not a third government’s budget. It is the middle of the official
-          books we have already read. A blank means that book did not print the line — not that it
-          spent zero.
+        <p className="kicker">Methodology note</p>
+        <p className="mt-2 max-w-2xl text-sm text-ink/75">
+          The peer median is computed directly across the verified official books currently published for this tier — never a national average or estimated placeholder. Blank cells indicate lines not separated in that volume.
         </p>
       </section>
 
@@ -423,10 +469,10 @@ function MedianHero({
   return (
     <section className="docket-door" style={{ borderLeftColor: "var(--ochre)" }}>
       <p className="kicker text-ochre">
-        {cell ? (cell.thin ? `Not enough books yet · ${cell.n}` : `Middle of ${cell.n} states`) : "Middle"}
+        {cell ? (cell.thin ? `Limited books · ${cell.n}` : `Peer median · ${cell.n} books`) : "Peer median"}
       </p>
       <h2 className="mt-2 font-display text-xl font-semibold tracking-tight">
-        {cell ? `Middle of ${cell.n} ${grainLabel(grain, layer)}` : "Middle of the books"}
+        {cell ? `Median across ${cell.n} ${grainLabel(grain, layer)}` : "Peer median"}
       </h2>
       {cell ? (
         <>
@@ -434,14 +480,14 @@ function MedianHero({
             <Money money={cell.money} size="hero" showSeries />
           </div>
           <p className="mt-3 text-sm text-ink/70">
-            Middle value of {cell.n} official books
+            Median of {cell.n} official books
             {fieldLabel ? ` for ${fieldLabel.toLowerCase()}` : ""}.
             {cell.method === "mid-pair"
-              ? ` When there are two in the middle, we average those two (${midNames}).`
+              ? ` Mid-pair average of ${midNames}.`
               : null}
           </p>
-          <p className="mt-2 text-sm text-ink/45">
-            Simple average of those {cell.n}: ₹{formatCrore(cell.meanCrore)} crore
+          <p className="mt-2 text-xs text-ink/55">
+            Mean across {cell.n} books: <span className="num">₹{formatCrore(cell.meanCrore)} crore</span>
           </p>
         </>
       ) : (
@@ -471,51 +517,53 @@ function MedianTable({
   return (
     <section className="mt-10">
       <h2 className="mt-2 font-display text-xl font-semibold tracking-tight">
-        The official books behind the middle number
+        Official books in the peer distribution
       </h2>
       <p className="mt-2 max-w-2xl text-sm text-ink/70">
-        Sorted smallest to largest so the middle sits in the middle.
+        Ranked smallest to largest for this accounting line so the peer median sits at center.
       </p>
       <p className="mt-3 flex flex-wrap gap-2 text-sm">
         {switcher.map((f) => (
           <button
             key={f.id}
             type="button"
-            className={`live-tag ${f.id === fieldId ? "text-rust" : "text-ink"}`}
+            className={`live-tag ${f.id === fieldId ? "border-rust bg-[#EEF2F7] text-rust" : "text-ink"}`}
             onClick={() => onField(f.id)}
           >
             {f.label}
           </button>
         ))}
       </p>
-      <div className="mt-4 overflow-x-auto">
-        <table className="w-full max-w-3xl border-y border-ink/20 text-left text-sm">
+      <div className="ledger-scroll mt-4">
+        <table className="w-full text-left text-sm">
           <caption className="sr-only">
             {field?.label} · median of {cell.n}
           </caption>
           <thead>
-            <tr className="text-[0.7rem] uppercase tracking-[0.12em] text-ink/45">
-              <th className="py-2 font-medium">Book</th>
-              <th className="py-2 font-medium">Value</th>
-              <th className="py-2 font-medium">Citation</th>
+            <tr className="border-b border-[var(--rule)] bg-slate-50 text-[0.7rem] uppercase tracking-[0.1em] text-ink/55">
+              <th className="px-4 py-2.5 font-semibold">Book</th>
+              <th className="px-4 py-2.5 font-semibold">Value</th>
+              <th className="px-4 py-2.5 font-semibold">Citation</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody className="divide-y divide-[var(--rule)]">
             {cell.peers.map((p) => {
               const mark =
                 cell.midSlugs.includes(p.slug) || p.slug === leftSlug || p.slug === rightSlug;
               return (
-                <tr key={p.slug} className={mark ? "bg-ink/[0.04]" : undefined}>
-                  <td className="py-2">
+                <tr key={p.slug} className={mark ? "bg-[#EEF2F7]/65 font-medium" : undefined}>
+                  <td className="px-4 py-2.5">
                     <Link to={p.href}>{p.label}</Link>
                     {cell.midSlugs.includes(p.slug) ? (
-                      <span className="ml-2 text-sm text-ochre">middle</span>
+                      <span className="ml-2 rounded-full bg-amber-50 px-2 py-0.5 text-[11px] font-semibold text-ochre">
+                        median
+                      </span>
                     ) : null}
                   </td>
-                  <td className="py-2">
+                  <td className="px-4 py-2.5">
                     <span className="num">₹{formatCrore(p.money.crore)} crore</span>
                   </td>
-                  <td className="py-2">
+                  <td className="px-4 py-2.5">
                     <CitationChip citationId={p.money.citationId} />
                   </td>
                 </tr>

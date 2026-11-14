@@ -16,15 +16,15 @@ export function fromCrore(
 }
 
 export const SERIES_LABEL: Record<Series, string> = {
-  actual: "Spent",
-  be: "Plan",
-  re: "Updated",
+  actual: "Actual",
+  be: "Budget Est.",
+  re: "Revised Est.",
 };
 
 export const SERIES_PLAIN: Record<Series, string> = {
-  actual: "what was spent",
-  be: "the plan for the year",
-  re: "the updated plan mid-year",
+  actual: "audited or provisional actual expenditure",
+  be: "the voted Budget Estimate (BE)",
+  re: "the mid-year Revised Estimate (RE)",
 };
 
 export function formatCrore(crore: number): string {

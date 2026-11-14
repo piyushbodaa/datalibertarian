@@ -11,9 +11,18 @@ const GROUPS = [
   { id: "register", label: "Register records", note: "Civil Liberties, Victimless Crimes, Economic Freedom" },
   { id: "enterprise", label: "Government-owned businesses", note: "PSUs" },
   { id: "pages", label: "Pages", note: "Sections, states, crime and budget pages" },
-  { id: "budget", label: "Budget lines", note: "Lines typed from official budget books" },
+  { id: "budget", label: "Budget lines", note: "Line items from official budget books" },
   { id: "prices", label: "Prices", note: "Inflation items" },
 ] as const;
+const STARTER_QUERIES = [
+  "Maharashtra Police",
+  "Telangana Health",
+  "Petrol",
+  "Onion",
+  "Custodial",
+  "GHMC",
+  ".gov.in",
+];
 type GroupId = (typeof GROUPS)[number]["id"];
 const PER_PAGE = 20;
 const PREVIEW = 5;
@@ -103,24 +112,48 @@ export function SearchPage() {
         }}
       >
         <label className="block text-sm font-medium" htmlFor="ledger-search">
-          Search the site
+          Search across all public records
         </label>
-        <input
-          id="ledger-search"
-          className="field mt-1"
-          value={draft}
-          onChange={(e) => setDraft(e.target.value)}
-          placeholder="Maharashtra salaries, UP bribery, POCSO, crypto…"
-          type="search"
-          autoCapitalize="off"
-          autoCorrect="off"
-          enterKeyHint="search"
-        />
-        <button type="submit" className="file-cta mt-2">
-          <span className="file-cta-notch" aria-hidden="true" />
-          Search
-        </button>
+        <div className="mt-1.5 flex gap-2">
+          <input
+            id="ledger-search"
+            className="field flex-1"
+            value={draft}
+            onChange={(e) => setDraft(e.target.value)}
+            placeholder="Maharashtra Police, UP bribery, POCSO, petrol…"
+            type="search"
+            autoCapitalize="off"
+            autoCorrect="off"
+            enterKeyHint="search"
+          />
+          <button
+            type="submit"
+            className="shrink-0 rounded-md bg-rust px-4 py-2 text-sm font-semibold text-white transition hover:bg-[#162C49]"
+          >
+            Search
+          </button>
+        </div>
       </form>
+
+      {!q ? (
+        <section className="carbon-sheet mt-6 p-5">
+          <p className="kicker">Try a search</p>
+          <p className="mt-1 text-sm text-ink/75">
+            Filter across budget books, Babuwatch court records, civil liberties registers, CPI prices, and .gov.in entities.
+          </p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {STARTER_QUERIES.map((term) => (
+              <Link
+                key={term}
+                to={`/search?q=${encodeURIComponent(term)}`}
+                className="live-tag no-underline"
+              >
+                {term}
+              </Link>
+            ))}
+          </div>
+        </section>
+      ) : null}
 
       {q ? (
         <div className="mt-6 flex flex-wrap items-end gap-x-5 gap-y-3 text-sm">

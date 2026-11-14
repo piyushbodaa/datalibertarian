@@ -23,8 +23,8 @@ const SERIES_HATCH: Record<string, string> = {
 export function PrintedColumns({
   run,
   cap,
-  caption = "Spent, plan, updated plan, and next plan. Empty years stay empty.",
-  title = "Last four official figures",
+  caption = "Actual expenditure, Budget Estimate (BE), Revised Estimate (RE), and current Budget Estimate.",
+  title = "Four-column official budget record",
   compact = false,
 }: Props) {
   const columns = BOOK_COLUMNS.map((col) => {
@@ -55,11 +55,11 @@ export function PrintedColumns({
           const missing = !col.run || !col.cap;
           const height = missing ? 0 : Math.max((col.total / max) * 100, 2);
           return (
-            <li key={`${col.fiscalYear}-${col.series}`}>
-              <p className="text-sm font-semibold">{SERIES_LABEL[col.series]}</p>
-              <p className="text-xs text-ink/55">{col.fiscalYear}</p>
+            <li key={`${col.fiscalYear}-${col.series}`} className="carbon-sheet p-3">
+              <p className="text-xs font-semibold uppercase tracking-wide text-ink/70">{SERIES_LABEL[col.series]}</p>
+              <p className="text-xs text-ink/50">{col.fiscalYear}</p>
               <div
-                className="mt-3 flex h-32 items-end bg-ink/[0.05] sm:h-40"
+                className="mt-3 flex h-28 items-end overflow-hidden rounded-md bg-slate-100 sm:h-36"
                 role="img"
                 aria-label={
                   missing
@@ -68,10 +68,10 @@ export function PrintedColumns({
                 }
               >
                 {missing ? null : (
-                  <div className={`w-full ${SERIES_HATCH[col.series]}`} style={{ height: `${height}%` }} />
+                  <div className={`w-full rounded-t-sm ${SERIES_HATCH[col.series]}`} style={{ height: `${height}%` }} />
                 )}
               </div>
-              <p className="num mt-2 text-sm">
+              <p className="num mt-2.5 text-sm font-medium">
                 {missing ? "—" : `₹${formatCrore(col.total)} crore`}
               </p>
             </li>
@@ -79,9 +79,8 @@ export function PrintedColumns({
         })}
       </ol>
       {compact ? null : (
-        <p className="mt-3 max-w-3xl text-[0.75rem] text-ink/55">
-          Amounts in crore of rupees. Spent, plan, and updated plan are different kinds of figure —
-          not one trend.
+        <p className="mt-3 max-w-3xl text-[0.75rem] text-ink/60">
+          Amounts in ₹ crore. Actuals, Budget Estimates, and Revised Estimates are distinct accounting stages — not a uniform time series.
         </p>
       )}
     </figure>

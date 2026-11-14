@@ -93,10 +93,10 @@ const style = `<style>
 .chg-sec{margin-top:22px;padding-top:14px;border-top:1px solid var(--line)}
 .chg-sec h3{margin:0 0 6px;font-family:var(--serif);font-size:19px}.chg-sec h3 a{color:inherit}
 .chg-sec h4{margin:12px 0 6px;font-size:12.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--grey)}
-.chg{list-style:none;margin:0;padding:0}.chg li{padding:7px 0;border-bottom:1px solid #EDEAE1}
+.chg{list-style:none;margin:0;padding:0}.chg li{padding:8px 0;border-bottom:1px solid var(--line)}
 .chg li a{font-weight:600}.chg li span{display:block;font-size:13px;color:var(--grey);margin-top:2px}
 .chg-books{display:flex;flex-wrap:wrap;gap:4px 18px}.chg-books li{border:0;padding:3px 0}
-.more,.wd{font-size:14px;margin:8px 0 0}.wd{color:#3A3F48}
+.more,.wd{font-size:14px;margin:8px 0 0}.wd{color:#334155}
 </style>`;
 
 const body = changes.days.map(daySection).join("");

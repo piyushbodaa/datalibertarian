@@ -23,28 +23,28 @@ export function InflationCategoryPage() {
 
   return (
     <article>
-      <p className="kicker">Basket room</p>
-      <h1 className="mt-2 font-display text-3xl font-semibold tracking-tight sm:text-4xl">
+      <p className="kicker">CPI Basket Category</p>
+      <h1 className="mt-2 font-display text-3xl font-bold tracking-tight sm:text-4xl">
         {room.label}
       </h1>
-      <p className="mt-3 max-w-2xl text-ink">{room.blurb}</p>
+      <p className="mt-3 max-w-2xl text-ink/80">{room.blurb}</p>
 
       {div ? (
-        <section className="index-slip mt-8 px-4 py-6">
-          <p className="text-sm text-ink/60">What they printed · July 2026 Combined</p>
-          <p className="num mt-2 text-4xl font-medium whitespace-nowrap">{formatPct(div.yoyPct)}</p>
-          <p className="mt-3 text-sm text-ink/70">
-            Weight in the 2024 basket: {div.weight.toFixed(2)}%. Index {div.index}.
+        <section className="carbon-sheet mt-6 border-l-4 border-l-[var(--rust)] px-5 py-5">
+          <p className="kicker text-rust">Official MoSPI CPI · July 2026 Combined</p>
+          <p className="num mt-2 text-4xl font-semibold whitespace-nowrap">{formatPct(div.yoyPct)}</p>
+          <p className="mt-2 text-sm text-ink/75">
+            2024 CPI basket weight: {div.weight.toFixed(2)}% · Index {div.index}.
             <CitationChip citationId={div.citationId} />
           </p>
         </section>
       ) : null}
 
       {extra.length > 0 ? (
-        <ul className="mt-8 divide-y divide-ink/15 border-y border-ink/20">
+        <ul className="carbon-sheet mt-6 divide-y divide-[var(--rule)] p-0">
           {extra.map((d) => (
-            <li key={d.id} className="flex justify-between gap-3 py-3 text-sm">
-              <span>{d.label}</span>
+            <li key={d.id} className="flex justify-between gap-3 px-4 py-3 text-sm list-none">
+              <span className="font-medium">{d.label}</span>
               <span className="num">
                 {d.weight.toFixed(2)}% · {formatPct(d.yoyPct)}
               </span>
@@ -55,7 +55,7 @@ export function InflationCategoryPage() {
 
       {items.length > 0 ? (
         <section className="mt-10">
-          <h2 className="font-display text-xl font-semibold">They printed · Their price monitors saw</h2>
+          <h2 className="font-display text-xl font-semibold">Official CPI vs observed retail prices</h2>
           <ul className="mt-4 list-none p-0">
             {items.map((item) => (
               <PrintedPaidRow key={item.id} item={item} />
@@ -63,10 +63,10 @@ export function InflationCategoryPage() {
           </ul>
         </section>
       ) : (
-        <section className="carbon-sheet mt-10 px-4 py-6 sm:px-6">
-          <h2 className="mt-2 font-display text-xl font-semibold">No observed rupee in this room</h2>
-          <p className="mt-3 max-w-2xl text-sm text-ink/75">
-            We do not fill health, housing, education or clothing with the CPI. Empty is not ₹0.
+        <section className="carbon-sheet mt-10 px-5 py-6">
+          <h2 className="font-display text-xl font-semibold">No retail price table published for this category</h2>
+          <p className="mt-2 max-w-2xl text-sm text-ink/75">
+            Retail market averages are not published for health, housing, education, or clothing — we do not substitute CPI index numbers for missing retail prices.
           </p>
         </section>
       )}

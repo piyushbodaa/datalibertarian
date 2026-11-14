@@ -51,7 +51,7 @@ export function GjPolicePage() {
       <PrintedColumns
         run={gj2055}
         cap={gj4055}
-        caption="Spent, plan, updated plan, and next plan. Amounts in crore."
+        caption="Actual, Budget Est., Revised Est., and current Budget Est. Amounts in crore."
       />
       <HeadSplit run={run} cap={cap} />
       <RankedHatch
@@ -67,7 +67,7 @@ export function GjPolicePage() {
       <section className="carbon-sheet mt-10 px-4 py-6 sm:px-6">
         <h2 className="mt-2 font-display text-xl font-semibold">Salaries not split by station</h2>
         <p className="mt-3 max-w-2xl text-sm text-ink/75">
-          The book prints pay under each office. A statewide salaries total is not typed here. We
+          The book prints pay under each office. Statewide salary object-head total not separately printed in this volume. We
           do not divide district police by the number of stations.
         </p>
       </section>
@@ -81,7 +81,7 @@ export function GjPolicePage() {
           {
             id: "object",
             label: "Salaries",
-            empty: "A statewide salaries total is not typed here.",
+            empty: "Statewide salary object-head total not separately printed in this volume.",
           },
           {
             id: "station",

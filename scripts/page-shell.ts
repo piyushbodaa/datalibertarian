@@ -42,28 +42,30 @@ export function shell(opts: ShellOpts) {
 <link rel="icon" type="image/svg+xml" href="/babuwatch/assets/brand/logo-glyph-saffron.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/babuwatch/styles.css">
 <style>
 .doors{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;margin-top:22px;align-items:start}
-.door{border:1px solid var(--line);border-radius:6px;padding:18px 20px;background:#fff;display:flex;flex-direction:column}
+.door{border:1px solid var(--line);border-radius:8px;padding:20px 22px;background:#FFFFFF;display:flex;flex-direction:column;box-shadow:0 1px 2px rgba(15,23,42,.03)}
 .door-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
-.door h3{margin:0;font-family:var(--serif);font-size:20px;font-weight:600}
+.door h3{margin:0;font-family:var(--serif);font-size:20px;font-weight:600;letter-spacing:-.01em}
 .door .what{margin:6px 0 0;color:var(--grey);font-size:14px}
-.door .big{margin:14px 0 0;font-family:var(--serif);font-size:30px;font-weight:600;line-height:1.1}
-.door .big small{display:block;font-family:inherit;font-size:13px;font-weight:500;color:var(--grey);margin-top:4px;font-family:Inter,system-ui,sans-serif}
-.door .note{margin:10px 0 0;font-size:13.5px;color:#3A3F48}
+.door .big{margin:14px 0 0;font-family:'IBM Plex Mono',ui-monospace,monospace;font-variant-numeric:tabular-nums;font-size:28px;font-weight:600;line-height:1.15;color:var(--ink)}
+.door .big small{display:block;font-size:13px;font-weight:500;color:var(--grey);margin-top:4px;font-family:Inter,system-ui,sans-serif}
+.door .note{margin:10px 0 0;font-size:13.5px;color:#334155}
 .door .go{margin:0;padding-top:14px;display:flex;flex-direction:column;gap:6px;font-size:14px;font-weight:600}
 .door dl{margin:12px 0 0;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 14px;font-size:14px}
-.door dt{color:#3A3F48}.door dd{margin:0;text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums;font-weight:600}
-.door dd small{font-weight:400;color:var(--grey)}
-.st{flex-shrink:0;font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:3px 7px;border-radius:3px;white-space:nowrap}
-.st-published{background:#E3EFE7;color:#1F5A3B}.st-partial{background:#F6EBD3;color:#7A5212}.st-none{background:#ECEBE6;color:#5B606A}
+.door dt{color:#334155}.door dd{margin:0;text-align:right;white-space:nowrap;font-family:'IBM Plex Mono',ui-monospace,monospace;font-variant-numeric:tabular-nums;font-weight:600}
+.door dd small{font-weight:400;color:var(--grey);font-family:Inter,system-ui,sans-serif}
+.st{flex-shrink:0;font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:3px 8px;border-radius:6px;white-space:nowrap}
+.st-published{background:#F0FDFA;color:#0F766E;border:1px solid #CCFBF1}.st-partial{background:#FFFBEB;color:#B45309;border:1px solid #FEF3C7}.st-none{background:#F1F5F9;color:#64748B;border:1px solid #E2E8F0}
 .cite{font-size:10.5px;font-weight:600;vertical-align:super;margin-left:3px;color:var(--slate);text-decoration:none}
 .srcs{margin:12px 0 0;padding-left:18px;font-size:12px;color:var(--grey)}.srcs a{color:inherit}
-.legend{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:18px;font-size:13.5px;color:#3A3F48;align-items:center}
-.states-grid{list-style:none;padding:0;margin:22px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:0 28px}
-.states-grid li{border-bottom:1px solid var(--line);padding:11px 0}
+.legend{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:18px;font-size:13.5px;color:#334155;align-items:center}
+.state-filter-bar{margin:18px 0 8px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.state-filter-bar input{padding:10px 14px;border:1px solid var(--line);border-radius:8px;background:#FFFFFF;font:inherit;font-size:14.5px;width:min(360px,100%);color:var(--ink)}
+.states-grid{list-style:none;padding:0;margin:18px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:4px 24px}
+.states-grid li{border-bottom:1px solid var(--line);padding:12px 0}
 .states-grid a{font-weight:600;font-size:16px}
 .states-grid span{display:block;font-size:13px;color:var(--grey);margin-top:2px}
 .crumbs{font-size:13px;color:var(--grey);margin-bottom:14px}.crumbs a{color:inherit}

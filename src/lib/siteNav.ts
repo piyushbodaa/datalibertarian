@@ -76,15 +76,41 @@ export function renderSiteNav(path: string): string {
     return `<div class="dl-nav-group"><h2>${esc(g.title)}</h2><ul>${links}</ul></div>`;
   }).join("");
   const section = here ? `<span class="dl-nav-here" aria-hidden="true">${esc(here.name)}</span>` : "";
+  const isSpending =
+    path === "/spending" ||
+    path === "/union" ||
+    path.startsWith("/union/") ||
+    path === "/states" ||
+    path === "/compare" ||
+    path === "/municipal" ||
+    path.startsWith("/municipal/") ||
+    path === "/gram" ||
+    path.startsWith("/trace/") ||
+    path === "/sources" ||
+    /^\/[^/]+\/(police|health)$/.test(path);
+  const isCrime = path === "/crime" || path.startsWith("/crime/");
+  const isRights = ["/babuwatch", "/civilliberties", "/victimlesscrimes", "/economicfreedom", "/psu"].some(
+    (p) => path === p || path.startsWith(p + "/"),
+  );
+  const isPrices = path === "/inflation" || path.startsWith("/inflation/");
+  const isStates = path === "/by-state" || STATE_SLUGS.has(path.slice(1));
+  const navLink = (href: string, label: string, active: boolean) =>
+    `<a class="dl-nav-link" href="${href}"${active ? ' aria-current="page"' : ""}>${label}</a>`;
   return (
     SITE_NAV_MARK +
     `<div class="dl-nav" role="navigation" aria-label="Data Libertarian"><div class="dl-nav-in">` +
-    `<a class="dl-nav-brand" href="/">Data Libertarian</a>${section}` +
-    `<details class="dl-nav-explore"><summary>Explore</summary><div class="dl-nav-panel">${groups}` +
-    `<p class="dl-nav-foot"><a href="/by-state">Browse by state</a><a href="/">All projects on the home page</a><a href="/corrections">Report a correction</a></p></div></details>` +
-    `<a class="dl-nav-link" href="/by-state"${path === "/by-state" || STATE_SLUGS.has(path.slice(1)) ? ' aria-current="page"' : ""}>States</a>` +
+    `<a class="dl-nav-brand" href="/"><span class="dl-nav-mark" aria-hidden="true"></span><span>Data Libertarian</span></a>${section}` +
+    `<div class="dl-nav-links">` +
+    navLink("/spending", "Spending", isSpending) +
+    navLink("/crime", "Crime", isCrime) +
+    navLink("/civilliberties", "Rights", isRights) +
+    navLink("/inflation", "Prices", isPrices) +
+    navLink("/by-state", "States", isStates) +
+    `</div>` +
+    `<details class="dl-nav-explore"><summary>All Datasets</summary><div class="dl-nav-panel">${groups}` +
+    `<p class="dl-nav-foot"><a href="/by-state">Browse by state</a><a href="/compare">Compare budgets</a><a href="/changes">Data updates</a><a href="/corrections">Report a correction</a></p></div></details>` +
     `<form class="dl-nav-search" role="search" action="/search" method="get"><label for="dl-nav-q" class="dl-nav-sr">Search the site</label>` +
-    `<input id="dl-nav-q" name="q" type="search" placeholder="Search" enterkeyhint="search"></form>` +
+    `<input id="dl-nav-q" name="q" type="search" placeholder="Search… (/)" enterkeyhint="search"></form>` +
     `</div></div>`
   );
 }

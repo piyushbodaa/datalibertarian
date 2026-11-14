@@ -44,7 +44,7 @@ export function KlPolicePage() {
       <PrintedColumns
         run={kl2055}
         cap={kl4055}
-        caption="Spent, plan, updated plan, and next plan. Accounts printed in rupees; later columns in thousands; shown in crore."
+        caption="Actual, Budget Est., Revised Est., and current Budget Est. Accounts printed in rupees; later columns in thousands; shown in crore."
       />
       <HeadSplit run={run} cap={cap} />
 
@@ -74,7 +74,7 @@ export function KlPolicePage() {
           {
             id: "object",
             label: "Salaries",
-            empty: "A statewide salaries total is not typed here.",
+            empty: "Statewide salary object-head total not separately printed in this volume.",
           },
           {
             id: "station",

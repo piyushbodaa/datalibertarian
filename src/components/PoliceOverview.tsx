@@ -11,11 +11,11 @@ export function PoliceOverview({ name, description, hero, run, cap, runningLine,
   runningLine: LineItem; capitalLine: LineItem; caption: string;
 }) {
   return <>
-    <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight">{name} Police</h1>
-    <p className="mt-4 max-w-2xl text-ink">{description}</p>
-    <div className="mt-8 border-y border-ink/20 py-8">
-      <div className="mt-3"><Money money={hero} size="hero" showSeries /></div>
-      <p className="mt-4 max-w-xl text-sm text-ink/70">Running costs ₹{formatCrore(run.crore)} crore · Buildings and gear ₹{formatCrore(cap.crore)} crore.</p>
+    <h1 className="mt-2 font-display text-3xl font-bold tracking-tight sm:text-4xl">{name} Police</h1>
+    <p className="mt-3 max-w-2xl text-ink/80">{description}</p>
+    <div className="carbon-sheet mt-6 p-6">
+      <Money money={hero} size="hero" showSeries />
+      <p className="mt-4 max-w-xl text-sm text-ink/70">Running costs (2055) ₹{formatCrore(run.crore)} crore · Capital outlay (4055) ₹{formatCrore(cap.crore)} crore.</p>
     </div>
     <PrintedColumns run={runningLine} cap={capitalLine} caption={caption} />
     <HeadSplit run={run} cap={cap} />

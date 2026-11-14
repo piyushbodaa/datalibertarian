@@ -42,7 +42,7 @@ export function UnionPage() {
           run={demand51Revenue}
           cap={demand51Capital}
           title="Last four official figures"
-          caption="Spent, plan, updated plan, next plan."
+          caption="Actual, Budget Est., Revised Est., and current Budget Est."
         />
         <p className="mt-8">
           <Link to="/union/police" className="file-cta">
@@ -72,7 +72,7 @@ export function UnionPage() {
       <section className="carbon-sheet mt-8 px-4 py-6 sm:px-6">
         <h2 className="mt-2 font-display text-xl font-semibold">Other Centre books</h2>
         <p className="mt-3 max-w-2xl text-sm text-ink/75">
-          Some Union Territory and Home-adjacent books are not typed yet. They are not this
+          Some Union Territory and Home-adjacent books have not been parsed yet. They are not this
           Centre police number, and they are not zero.
         </p>
         <p className="mt-4 text-sm text-ink/60">No figure yet.</p>

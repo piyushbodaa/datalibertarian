@@ -1,298 +1,808 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Data Libertarian &mdash; public registers of the Indian state</title>
-<meta name="description" content="Public registers of what the Indian state spends and whom it punishes: court-adjudicated records against public servants, victimless crimes, civil liberties, economic freedom and public enterprises, each entry attributed to its source.">
-<meta name="theme-color" content="#F7F5EF">
-<link rel="canonical" href="https://datalibertarian.in/">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Data Libertarian">
-<meta property="og:title" content="Data Libertarian &mdash; public registers of the Indian state">
-<meta property="og:description" content="Court records against public servants, prosecutions for victimless acts and speech, economic-freedom cases, public enterprises and government spending &mdash; each entry attributed to its source.">
-<meta property="og:url" content="https://datalibertarian.in/">
-<meta property="og:image" content="https://datalibertarian.in/social-preview.png">
-<meta name="twitter:card" content="summary_large_image">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-:root{
-  --ink:#12151C; --ink-2:#3A3F48; --dim:#6B7280; --paper:#F7F5EF; --paper-2:#EFECE3; --card:#FBFAF6;
-  --line:#D9D5C8; --rule:#12151C; --stamp:#B3261E; --stamp-soft:#F3DEDA; --ledger:#2F6F4E;
-  --serif:'Lora',Georgia,serif; --sans:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
-  --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace; --w:1200px;
-}
-*{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.55 var(--sans)}
-a{color:inherit}
-.wrap{max-width:var(--w);margin:0 auto;padding:0 24px}
-.mono{font-family:var(--mono)}
-.kicker{font:500 11.5px/1.2 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--stamp)}
-.dbl{border:0;border-top:3px double var(--rule);margin:0}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data Libertarian — The Indian state, on the record</title>
+  <meta name="description" content="Primary public records on India: Union and state budgets, CPI item prices, NCRB crime &amp; court pendency, school censuses, civil liberties cases, and .gov.in hostnames.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    :root {
+      --bg: #F8FAFC;
+      --surface: #FFFFFF;
+      --tint: #F1F5F9;
+      --ink: #0F172A;
+      --ink-2: #334155;
+      --muted: #64748B;
+      --border: #E2E8F0;
+      --border-strong: #CBD5E1;
+      --navy: #1E3A5F;
+      --navy-soft: #EEF2F7;
+      --crimson: #B91C1C;
+      --crimson-soft: #FEF2F2;
+      --teal: #0F766E;
+      --teal-soft: #F0FDFA;
+      --amber: #B45309;
+      --amber-soft: #FFFBEB;
+      --sans: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+    }
+    html { font-size: 16px; scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--sans);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--navy); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .skip {
+      position: absolute;
+      left: -9999px;
+      top: 0;
+      background: var(--navy);
+      color: #FFFFFF;
+      padding: 8px 14px;
+      font-size: 13px;
+      font-weight: 600;
+      z-index: 1000;
+    }
+    .skip:focus { left: 12px; top: 12px; border-radius: 6px; }
 
-/* masthead */
-.mast{padding:18px 0 12px}
-.mast .wrap{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap}
-.brand{font:600 14px/1 var(--mono);letter-spacing:.22em;text-transform:uppercase;text-decoration:none}
-.brand span{color:var(--stamp)}
-.mast nav{display:flex;gap:18px;flex-wrap:wrap}
-.mast nav a{font:500 13px/1 var(--sans);color:var(--ink-2);text-decoration:none}
-.mast nav a:hover{color:var(--stamp)}
-.mnav{display:none;position:relative}
-.mnav summary{list-style:none;cursor:pointer;font:600 13px/1 var(--sans);border:1.5px solid var(--ink);padding:8px 12px}
-.mnav summary::-webkit-details-marker{display:none}
-.mnav[open] summary{background:var(--ink);color:var(--paper)}
-.mnav nav{position:absolute;right:0;top:40px;z-index:5;background:var(--card);border:1px solid var(--line);padding:12px 16px;display:flex;flex-direction:column;gap:12px;min-width:210px;box-shadow:0 8px 24px rgba(18,21,28,.12)}
-.find-search{margin:18px 0 6px;max-width:720px}
-.find-search label{display:block;font-size:13.5px;font-weight:600;margin-bottom:6px}
-.find-search div{display:flex;gap:0}
-.find-search input{flex:1;min-width:0;height:48px;padding:0 14px;border:1.5px solid var(--ink);border-right:0;background:#fff;font:400 16px var(--sans);color:var(--ink)}
-.find-search button{height:48px;padding:0 20px;border:1.5px solid var(--ink);background:var(--ink);color:var(--paper);font:600 15px var(--sans);cursor:pointer}
-.find-search button:hover{background:var(--stamp);border-color:var(--stamp)}
-.find-search input:focus-visible{outline:2px solid var(--stamp);outline-offset:0}
-.tools{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;padding:18px 0 4px}
-.tool{display:block;border:1px solid var(--line);background:var(--card);padding:14px 15px;text-decoration:none}
-.tool:hover{border-color:var(--ink)}
-.tool b{display:block;font:600 16.5px/1.25 var(--serif)}
-.tool span{display:block;font-size:13px;color:var(--ink-2);margin-top:4px}
+    .container {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
 
-/* hero */
-.hero{padding:44px 0 40px}
-.hero .wrap{display:grid;grid-template-columns:repeat(8,1fr);gap:24px;align-items:start}
-.hero-text{grid-column:1 / span 5}
-.hero h1{font:600 clamp(34px,5.2vw,58px)/1.06 var(--serif);letter-spacing:-.015em;margin:14px 0 18px;text-wrap:balance}
-.hero p{font-size:17px;color:var(--ink-2);max-width:36em;margin:0}
-.hero .cta{margin-top:24px;display:flex;gap:12px;flex-wrap:wrap}
-.btn{display:inline-block;font:600 14px/1 var(--sans);padding:12px 16px;border:1.5px solid var(--ink);text-decoration:none}
-.btn.solid{background:var(--ink);color:var(--paper)}
-.btn:hover{border-color:var(--stamp);color:var(--stamp)}
-.btn.solid:hover{background:var(--stamp);color:#fff}
-.tally{grid-column:6 / span 3;background:var(--card);border:1px solid var(--line);padding:18px 20px 16px}
-.tally h2{font:500 11.5px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin:0 0 10px}
-.tally table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
-.tally td{padding:7px 0;border-bottom:1px dotted var(--line);font-size:14px}
-.tally td.n{text-align:right;font:500 14px var(--mono)}
-.tally tr.total td{border-bottom:0;border-top:1.5px solid var(--ink);padding-top:10px;font-weight:600}
-.tally tr.total td.n{font-size:18px;font-weight:600;text-decoration:underline double;text-underline-offset:5px}
-.tally tr.sub td{color:var(--dim);border-bottom:0;font-size:13px;padding-top:12px}
-.tally .note{font-size:12px;color:var(--dim);margin-top:10px}
+    /* Hero */
+    .hero {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 40px 0 44px;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.45fr) minmax(260px, 0.95fr);
+      gap: 32px;
+      align-items: start;
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0 0 12px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--navy);
+    }
+    .eyebrow-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--crimson);
+    }
+    .hero h1 {
+      margin: 0;
+      font-size: clamp(1.9rem, 3.6vw, 2.75rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.12;
+      color: var(--ink);
+    }
+    .hero-sub {
+      margin: 14px 0 0;
+      max-width: 58ch;
+      font-size: 1.05rem;
+      color: var(--ink-2);
+      line-height: 1.6;
+    }
 
-/* demo video */
-.demo{padding:8px 0 8px}
-.demo-box{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,3fr);gap:24px;align-items:center}
-.demo video{display:block;width:100%;aspect-ratio:16/9;background:var(--ink);border:1px solid var(--line)}
-.demo h2{font:600 26px/1.15 var(--serif);margin:6px 0 10px}
-.demo p{margin:0;color:var(--ink-2);font-size:14.5px}
-.demo ol{margin:12px 0 0;padding-left:20px;color:var(--ink-2);font-size:14px}
-.demo li{margin:3px 0}
+    /* Search */
+    .hero-search {
+      margin-top: 24px;
+      display: flex;
+      gap: 8px;
+      max-width: 600px;
+    }
+    .hero-search input {
+      flex: 1 1 auto;
+      min-width: 0;
+      padding: 11px 14px;
+      font-family: var(--sans);
+      font-size: 15px;
+      color: var(--ink);
+      background: var(--bg);
+      border: 1px solid var(--border-strong);
+      border-radius: 8px;
+      outline: none;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+    }
+    .hero-search input:focus {
+      background: var(--surface);
+      border-color: var(--navy);
+      box-shadow: 0 0 0 3px rgba(30, 58, 95, 0.12);
+    }
+    .hero-search button {
+      flex-shrink: 0;
+      padding: 11px 18px;
+      font-family: var(--sans);
+      font-size: 14px;
+      font-weight: 600;
+      color: #FFFFFF;
+      background: var(--navy);
+      border: 1px solid var(--navy);
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.15s ease;
+    }
+    .hero-search button:hover { background: #162C49; }
 
-/* section heads */
-.sec{padding:40px 0 8px}
-.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-bottom:10px;border-bottom:3px double var(--rule)}
-.sec-head h2{font:600 26px/1.15 var(--serif);margin:6px 0 0}
-.sec-head p{margin:0;color:var(--dim);font-size:13.5px;max-width:34em}
+    .quick-chips {
+      margin-top: 12px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+      font-size: 12.5px;
+      color: var(--muted);
+    }
+    .quick-chips span.chip-label {
+      margin-right: 4px;
+      font-weight: 500;
+    }
+    .quick-chips a {
+      display: inline-block;
+      padding: 3px 10px;
+      background: var(--tint);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      color: var(--ink-2);
+      font-weight: 500;
+      text-decoration: none;
+      transition: border-color 0.14s ease, color 0.14s ease, background-color 0.14s ease;
+    }
+    .quick-chips a:hover {
+      background: var(--navy-soft);
+      border-color: var(--navy);
+      color: var(--navy);
+      text-decoration: none;
+    }
 
-/* register ledger */
-.ledger{list-style:none;margin:0;padding:0}
-.ledger li{border-bottom:1px solid var(--line)}
-.row{display:grid;grid-template-columns:56px minmax(170px,2fr) minmax(0,3.4fr) minmax(250px,2fr) 28px;gap:20px;align-items:baseline;padding:18px 8px 18px 0;text-decoration:none;position:relative}
-.row::before{content:"";position:absolute;left:-12px;top:14px;bottom:14px;width:3px;background:transparent;transition:background .15s}
-.row:hover::before,.row:focus-visible::before{background:var(--stamp)}
-.row:hover .row-name{color:var(--stamp)}
-.row-no{font:500 13px var(--mono);color:var(--dim)}
-.row-name{font:600 22px/1.2 var(--serif)}
-.row-desc{font-size:14px;color:var(--ink-2)}
-.row-count{font:400 12.5px/1.45 var(--mono);color:var(--ink-2);text-align:right}
-.row-count b{display:block;font:600 20px/1.2 var(--mono);color:var(--ink)}
-.row-go{font:500 18px var(--mono);color:var(--dim);text-align:right}
+    /* Live Tally Box */
+    .tally-card {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 18px 20px;
+    }
+    .tally-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tally-title {
+      font-size: 11.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+    }
+    .tally-link {
+      font-size: 12.5px;
+      font-weight: 600;
+      color: var(--navy);
+    }
+    .tally-card table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    .tally-card td {
+      padding: 6px 0;
+      border-bottom: 1px solid var(--border);
+      color: var(--ink-2);
+    }
+    .tally-card td.n {
+      text-align: right;
+      font-family: var(--mono);
+      font-variant-numeric: tabular-nums;
+      font-weight: 600;
+      color: var(--ink);
+      white-space: nowrap;
+      padding-left: 12px;
+    }
+    .tally-card tr.total td {
+      font-weight: 700;
+      color: var(--ink);
+      border-top: 1.5px solid var(--ink);
+      border-bottom: 1px solid var(--border-strong);
+      padding-top: 8px;
+    }
+    .tally-card tr.sub td {
+      color: var(--muted);
+      font-size: 12.5px;
+    }
+    .tally-card tr:last-child td {
+      border-bottom: 0;
+    }
 
-/* latest cases */
-.lat-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;padding:22px 0 12px}
-.lat-col{display:flex;flex-direction:column;gap:14px;min-width:0}
-.lat-head{display:flex;flex-direction:column;gap:2px;padding-bottom:8px;border-bottom:1px solid var(--ink)}
-.lat-no{font:500 11.5px var(--mono);letter-spacing:.14em;color:var(--stamp)}
-.lat-head a{font:600 19px/1.2 var(--serif);text-decoration:none}
-.lat-head a:hover{color:var(--stamp)}
-.lat-blurb{font-size:12.5px;color:var(--dim)}
-.case{display:flex;flex-direction:column;gap:7px;background:var(--card);border:1px solid var(--line);padding:14px 15px 13px;text-decoration:none;transition:border-color .15s,transform .15s}
-.case:hover{border-color:var(--ink);transform:translateY(-2px)}
-.case-top{display:flex;justify-content:space-between;align-items:center;gap:8px}
-.plate{font:500 10.5px/1 var(--mono);letter-spacing:.06em;border:1px solid var(--ink-2);padding:4px 6px;white-space:nowrap}
-.stamp{font:600 10px/1.1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--stamp);border:1.5px solid var(--stamp);padding:3px 6px;transform:rotate(-2deg);text-align:center;max-width:62%}
-.case-cat{font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ledger)}
-.case-t{font:600 16.5px/1.3 var(--serif)}
-.case-s{font-size:13px;color:var(--ink-2);display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
-.case-meta{font:400 11.5px var(--mono);color:var(--dim);padding-top:7px;border-top:1px dotted var(--line)}
-.lat-more{font:600 13px var(--sans);text-decoration:none;color:var(--ink)}
-.lat-more:hover{color:var(--stamp)}
+    /* Sections */
+    .sec { padding: 40px 0 8px; }
+    .sec-head {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 8px 20px;
+      margin-bottom: 18px;
+    }
+    .sec-head h2 {
+      margin: 0;
+      font-size: 1.35rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+    }
+    .sec-head p {
+      margin: 0;
+      font-size: 13.5px;
+      color: var(--muted);
+    }
 
-/* footer */
-footer{margin-top:48px;border-top:3px double var(--rule);padding:18px 0 34px;font-size:12.5px;color:var(--dim)}
-footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
-footer a{color:var(--ink-2)}
+    /* Key Findings Cards */
+    .insights-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .insight-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 18px 20px;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+    }
+    .insight-card:hover {
+      border-color: var(--navy);
+      box-shadow: 0 8px 24px -10px rgba(15, 23, 42, 0.12);
+      transform: translateY(-1px);
+      text-decoration: none;
+    }
+    .insight-kicker {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+    .insight-pill {
+      padding: 2px 7px;
+      border-radius: 999px;
+      font-size: 10.5px;
+      font-weight: 600;
+      text-transform: none;
+      letter-spacing: 0.01em;
+    }
+    .pill-navy { background: var(--navy-soft); color: var(--navy); }
+    .pill-crimson { background: var(--crimson-soft); color: var(--crimson); }
+    .pill-teal { background: var(--teal-soft); color: var(--teal); }
+    .pill-amber { background: var(--amber-soft); color: var(--amber); }
 
-a:focus-visible{outline:2px solid var(--stamp);outline-offset:3px}
-@media (max-width:1180px){.lat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:1020px){
-  .demo-box{grid-template-columns:1fr}
-  .tools{grid-template-columns:1fr 1fr}
-  .hero-text{grid-column:1 / -1}.tally{grid-column:1 / -1}
-  .row{grid-template-columns:44px 1fr auto;row-gap:4px}
-  .row-desc{grid-column:2 / -1}.row-count{grid-column:2 / -1;text-align:left}.row-count b{display:inline;margin-right:6px}
-  .row-go{display:none}
-}
-@media (max-width:620px){
-  .wrap{padding:0 16px}.hero{padding:30px 0 30px}.hero p{font-size:16px}
-  .lat-grid{grid-template-columns:1fr}
-  .mast nav{display:none}.mnav{display:block}.mnav nav{display:flex}.tools{grid-template-columns:1fr}
-}
-@media (prefers-reduced-motion:reduce){*{transition:none!important}.case:hover{transform:none}}
-</style>
+    .insight-stat {
+      font-family: var(--mono);
+      font-variant-numeric: tabular-nums;
+      font-size: 1.45rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+      line-height: 1.2;
+    }
+    .insight-desc {
+      margin: 8px 0 0;
+      font-size: 13.5px;
+      color: var(--ink-2);
+      line-height: 1.5;
+    }
+    .insight-cta {
+      margin-top: 14px;
+      font-size: 12.5px;
+      font-weight: 600;
+      color: var(--navy);
+    }
+
+    /* Two-group Dataset Directory */
+    .dir-group { margin-top: 26px; }
+    .dir-group:first-of-type { margin-top: 0; }
+    .dir-label {
+      margin: 0 0 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+    }
+    .dir-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .dir-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px 18px;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+    .dir-card:hover {
+      border-color: var(--navy);
+      box-shadow: 0 6px 18px -10px rgba(15, 23, 42, 0.14);
+      text-decoration: none;
+    }
+    .dir-card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    .dir-card h3 {
+      margin: 0;
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--ink);
+      line-height: 1.3;
+    }
+    .dir-arrow {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1;
+      transition: transform 0.15s ease, color 0.15s ease;
+    }
+    .dir-card:hover .dir-arrow {
+      color: var(--navy);
+      transform: translateX(2px);
+    }
+    .dir-desc {
+      margin: 6px 0 0;
+      font-size: 13px;
+      color: var(--ink-2);
+      line-height: 1.45;
+    }
+    .dir-count {
+      margin-top: 12px;
+      padding-top: 10px;
+      border-top: 1px solid var(--tint);
+      font-family: var(--mono);
+      font-variant-numeric: tabular-nums;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .dir-count b {
+      margin-right: 4px;
+      color: var(--ink);
+      font-weight: 600;
+    }
+
+    /* Recent additions (4 columns populated by registers/latest.py) */
+    .latest-wrap {
+      padding-bottom: 16px;
+    }
+    #latest {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 16px;
+      align-items: start;
+    }
+    #latest .lat-col {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    #latest .lat-head {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+    #latest .lat-no {
+      font-family: var(--mono);
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    #latest .lat-head a {
+      font-size: 14.5px;
+      font-weight: 700;
+      color: var(--ink);
+      text-decoration: none;
+    }
+    #latest .lat-head a:hover { color: var(--navy); text-decoration: underline; }
+    #latest .lat-blurb {
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.35;
+    }
+    #latest .case {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+    #latest .case:hover {
+      border-color: var(--navy);
+      box-shadow: 0 6px 18px -10px rgba(15, 23, 42, 0.14);
+      text-decoration: none;
+    }
+    #latest .case-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    #latest .plate {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--muted);
+    }
+    #latest .stamp {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 999px;
+      font-family: var(--sans);
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      background: var(--navy-soft);
+      color: var(--navy);
+      border: 1px solid rgba(30, 58, 95, 0.14);
+      transform: none;
+    }
+    #latest .case-cat {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    #latest .case-t {
+      font-size: 13.5px;
+      font-weight: 600;
+      color: var(--ink);
+      line-height: 1.35;
+    }
+    #latest .case:hover .case-t { color: var(--navy); }
+    #latest .case-s {
+      font-size: 12.5px;
+      color: var(--ink-2);
+      line-height: 1.45;
+    }
+    #latest .case-meta {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: auto;
+    }
+    #latest .lat-more {
+      display: inline-block;
+      margin-top: 2px;
+      font-size: 12.5px;
+      font-weight: 600;
+      color: var(--navy);
+    }
+
+    @media (max-width: 1024px) {
+      .hero-grid { grid-template-columns: 1fr; gap: 24px; }
+      .insights-grid, .dir-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      #latest { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 640px) {
+      .hero { padding: 28px 0 32px; }
+      .hero-search { flex-direction: column; }
+      .insights-grid, .dir-grid, #latest { grid-template-columns: 1fr; }
+    }
+  </style>
 </head>
 <body>
-<header class="mast">
-  <div class="wrap">
-    <a class="brand" href="/">Data <span>Libertarian</span></a>
-    <nav aria-label="Site">
-      <a href="/babuwatch">Babuwatch</a><a href="/civilliberties">Civil Liberties</a><a href="/victimlesscrimes">Victimless Crimes</a><a href="/economicfreedom">Economic Freedom</a><a href="/psu">PSUs</a><a href="/education">Education</a><a href="/gov">Gov.in</a><a href="/crime">Crime</a><a href="/spending">Spending</a><a href="/inflation">Inflation</a><a href="/by-state">States</a>
-    </nav>
-    <details class="mnav"><summary>Menu</summary><nav aria-label="Site (mobile)"><a href="/babuwatch">Babuwatch</a><a href="/civilliberties">Civil Liberties</a><a href="/victimlesscrimes">Victimless Crimes</a><a href="/economicfreedom">Economic Freedom</a><a href="/psu">PSUs</a><a href="/education">Education</a><a href="/gov">Gov.in</a><a href="/crime">Crime</a><a href="/spending">Spending</a><a href="/inflation">Inflation</a><a href="/by-state">States</a><a href="/changes">What changed</a></nav></details>
-  </div>
-</header>
-<div class="wrap"><hr class="dbl"></div>
+  <a class="skip" href="#main">Skip to main content</a>
 
-<main>
-<section class="hero">
-  <div class="wrap">
-    <div class="hero-text">
-      <div class="kicker">From court records and official books</div>
-      <h1>The Indian state, on the record.</h1>
-      <p>Officials the courts have found against. People arrested, charged or penalised for speaking, worshipping,
-        trading, or private choices that harm no one. The businesses the state owns and the money it spends.
-        Every entry names the court or agency that decided it and links to its source.</p>
-      <div class="cta"><a class="btn solid" href="#find-h">Find something</a><a class="btn" href="#latest">See the latest cases</a><a class="btn" href="/by-state">Browse by state</a></div>
-    </div>
-    <aside class="tally" aria-label="Records on the registers">
-      <h2>On the registers today</h2>
-      <!--@tally--><table><tr class="total"><td>Records</td><td class="n">&mdash;</td></tr></table><!--@/tally-->
-      <div class="note">Counted from the published data at every build. Nothing here is estimated.</div>
-    </aside>
-  </div>
-</section>
-
-<section class="sec demo" aria-labelledby="demo-h">
-  <div class="wrap">
-    <div class="demo-box">
-      <video controls preload="metadata" playsinline poster="/demo/tour.jpg" aria-describedby="demo-d">
-        <source src="/demo/tour.mp4" type="video/mp4">
-        Your browser cannot play this video. <a href="/demo/tour.mp4">Download the film (MP4, 5 MB)</a>.
-      </video>
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="container hero-grid">
       <div>
-        <div class="kicker">The short film</div>
-        <h2 id="demo-h">What this site does, in under a minute</h2>
-        <p id="demo-d">48 seconds, with captions on screen, so it works with the sound off. It covers:</p>
-        <ol>
-          <li>Why the rape figure most reports quote is less than half the count</li>
-          <li>The four case registers and what is on them today</li>
-          <li>Babuwatch: court findings against public servants</li>
-          <li>Search, court records, crime figures, your state and budgets</li>
-        </ol>
+        <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span>Primary Public Records · India</p>
+        <h1 id="hero-title">The Indian state, on the record.</h1>
+        <p class="hero-sub">Official Union and state budgets, CPI item price tables, NCRB crime &amp; court pendency volumes, school censuses, civil liberties cases, and government web hostnames — parsed from source documents with inline citations.</p>
+        <form class="hero-search" role="search" action="/search" method="get">
+          <label class="dl-nav-sr" for="hero-q">Search budgets, states, crime, prices, or records</label>
+          <input id="hero-q" name="q" type="search" placeholder="Search any state, budget head, price item, official case, or .gov.in domain…">
+          <button type="submit">Search records</button>
+        </form>
+        <div class="quick-chips">
+          <span class="chip-label">Popular:</span>
+          <a href="/compare?left=maharashtra&amp;right=karnataka">Compare State Police</a>
+          <a href="/union">Union Budget</a>
+          <a href="/crime/rape">NCRB Rape &amp; POCSO</a>
+          <a href="/inflation">CPI Prices</a>
+          <a href="/maharashtra">Maharashtra Hub</a>
+          <a href="/gov">.gov.in Directory</a>
+        </div>
       </div>
+
+      <aside class="tally-card" aria-label="Archive coverage">
+        <div class="tally-head">
+          <span class="tally-title">Live Record Coverage</span>
+          <a class="tally-link" href="/changes">Changelog →</a>
+        </div>
+        <!--@tally-->
+        <div class="tally">
+          <div><b>28 States + UTs</b><br>Budgets, crime &amp; schools</div>
+          <div><b>55 Ministries</b><br>Mapped across .gov.in</div>
+        </div>
+        <!--@/tally-->
+      </aside>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="sec find" aria-labelledby="find-h">
-  <div class="wrap">
-    <div class="sec-head"><div><div class="kicker">Start here</div><h2 id="find-h">What do you want to find?</h2></div>
-      <p>Search everything, or pick a way in.</p></div>
-    <form class="find-search" role="search" action="/search" method="get">
-      <label for="find-q">Search court records, registers, crime, budgets and prices</label>
-      <div><input id="find-q" name="q" type="search" placeholder="A state, a law, an official post, a budget line&hellip;" enterkeyhint="search"><button type="submit">Search</button></div>
-    </form>
-    <div class="tools">
-      <a class="tool" href="/by-state"><b>Explore my state</b><span>Spending, crime, court records and registers for one state or union territory.</span></a>
-      <a class="tool" href="/babuwatch/tracker"><b>Find a court record</b><span>Findings against police officers and civil servants, by state, court and outcome.</span></a>
-      <a class="tool" href="/spending"><b>See government spending</b><span>Union, state, city and village budgets, from their own books.</span></a>
-      <a class="tool" href="/crime"><b>Compare crime figures</b><span>What the police registered, state by state, and how to read it.</span></a>
-      <a class="tool" href="/inflation"><b>Explore prices</b><span>Official price indices and retail prices, with dates.</span></a>
-      <a class="tool" href="/civilliberties"><b>See who was punished for speaking</b><span>Arrests and prosecutions for speech, religion and other freedoms.</span></a>
-      <a class="tool" href="/psu"><b>See what the government owns</b><span>Businesses run by the Union and the states.</span></a>
-      <a class="tool" href="/changes"><b>What changed</b><span>New records, updated outcomes and newly read books, newest first.</span></a>
-    </div>
-  </div>
-</section>
+  <main id="main" class="container">
+    <section class="sec" aria-labelledby="insights-heading">
+      <div class="sec-head">
+        <h2 id="insights-heading">Key Findings from Primary Records</h2>
+        <p>Verified headline indicators drawn directly from official filings — click any card to inspect the source breakdown.</p>
+      </div>
+      <div class="insights-grid">
+        <a class="insight-card" href="/union">
+          <div>
+            <div class="insight-kicker"><span>Union Budget · 2026–27 BE</span><span class="insight-pill pill-navy">Spending</span></div>
+            <div class="insight-stat">₹53,47,315 cr</div>
+            <p class="insight-desc">Total Union expenditure budgeted for 2026–27, alongside ₹1,73,802.53 crore net in Demand 51 (Centre Police &amp; CAPFs).</p>
+          </div>
+          <span class="insight-cta">Inspect Union Demands →</span>
+        </a>
 
-<section class="sec" aria-labelledby="reg-h">
-  <div class="wrap">
-    <div class="sec-head"><div><div class="kicker">The registers</div><h2 id="reg-h">Six ledgers, one standard of proof</h2></div>
-      <p>Pick a register to see its dashboard, every record and the method behind it.</p></div>
-    <ol class="ledger">
-      <li><a class="row" href="/babuwatch"><span class="row-no">01</span><span class="row-name">Babuwatch</span>
-        <span class="row-desc">Police officers and civil servants found against by courts: convictions, compensation orders and adverse findings.</span>
-        <span class="row-count"><!--@count:babuwatch-->court records<!--@/count:babuwatch--></span><span class="row-go" aria-hidden="true">&rarr;</span></a></li>
-      <li><a class="row" href="/civilliberties"><span class="row-no">02</span><span class="row-name">Civil Liberties</span>
-        <span class="row-desc">People arrested, charged or detained for speaking, reporting, protesting, worshipping or converting.</span>
-        <span class="row-count"><!--@count:civilliberties-->records<!--@/count:civilliberties--></span><span class="row-go" aria-hidden="true">&rarr;</span></a></li>
-      <li><a class="row" href="/victimlesscrimes"><span class="row-no">03</span><span class="row-name">Victimless Crimes</span>
-        <span class="row-desc">Prosecutions where no one was harmed: alcohol, gambling, sex work, beef, tobacco and vapes.</span>
-        <span class="row-count"><!--@count:victimlesscrimes-->records<!--@/count:victimlesscrimes--></span><span class="row-go" aria-hidden="true">&rarr;</span></a></li>
-      <li><a class="row" href="/economicfreedom"><span class="row-no">04</span><span class="row-name">Economic Freedom</span>
-        <span class="row-desc">Penalties for trading, investing, hiring and building freely: gold, forex, crypto, licences, land.</span>
-        <span class="row-count"><!--@count:economicfreedom-->records<!--@/count:economicfreedom--></span><span class="row-go" aria-hidden="true">&rarr;</span></a></li>
-      <li><a class="row" href="/psu"><span class="row-no">05</span><span class="row-name">PSUs</span>
-        <span class="row-desc">Government, Inc.: every business the state runs &mdash; central, state, banks, insurers and the rest.</span>
-        <span class="row-count"><!--@count:psu-->enterprises<!--@/count:psu--></span><span class="row-go" aria-hidden="true">&rarr;</span></a></li>
-      <li><a class="row" href="/gov"><span class="row-no">06</span><span class="row-name">Gov.in Directory</span>
-        <span class="row-desc">Compiled register of Indian .gov.in hostnames: union ministries, regulators, PSUs, states, courts and local bodies.</span>
-        <span class="row-count"><!--@count:gov-->.gov.in hostnames<!--@/count:gov--></span><span class="row-go" aria-hidden="true">&rarr;</span></a></li>
-    </ol>
-  </div>
-</section>
+        <a class="insight-card" href="/compare?left=maharashtra&amp;right=karnataka">
+          <div>
+            <div class="insight-kicker"><span>State Budgets · 2026–27 AFS</span><span class="insight-pill pill-navy">Compare</span></div>
+            <div class="insight-stat">28 States + UTs</div>
+            <p class="insight-desc">Every state police &amp; health demand parsed against printed Annual Financial Statements, never conflating Demand totals with Major Heads.</p>
+          </div>
+          <span class="insight-cta">Compare any two budgets →</span>
+        </a>
 
-<section class="sec" aria-labelledby="crime-h">
-  <div class="wrap">
-    <div class="sec-head"><div><div class="kicker">Crime in India</div><h2 id="crime-h">What the police registered, read properly</h2></div>
-      <p>Counts, rates, states, cities and courts from the National Crime Records Bureau&rsquo;s 2024 tables. Every figure links to the table it came from.</p></div>
-    <div class="tools">
-      <a class="tool" href="/crime/rape"><b>Rape</b><span>72,849 FIRs in 2024. Most reports quote 29,536, which leaves out child rape filed under POCSO.</span></a>
-      <a class="tool" href="/crime/murder"><b>Murder</b><span>27,049 cases in 2024. One in three began as a dispute.</span></a>
-      <a class="tool" href="/crime/stealing"><b>Theft and robbery</b><span>6.2 lakh thefts in 2024. Delhi registered nearly a third of them.</span></a>
-      <a class="tool" href="/crime"><b>All crime</b><span>Every head, 2022 to 2024, and how to read a crime figure.</span></a>
-    </div>
-  </div>
-</section>
+        <a class="insight-card" href="/crime/rape">
+          <div>
+            <div class="insight-kicker"><span>NCRB Crime in India · 2022 to 2024</span><span class="insight-pill pill-crimson">Justice</span></div>
+            <div class="insight-stat">72,849 cases</div>
+            <p class="insight-desc">29,536 adult rape cases and 43,313 child POCSO cases in 2024, alongside 27,049 murders and 6.2 lakh thefts in 2024 tables.</p>
+          </div>
+          <span class="insight-cta">View NCRB breakdown →</span>
+        </a>
 
-<section class="sec" aria-labelledby="spend-h">
-  <div class="wrap">
-    <div class="sec-head"><div><div class="kicker">Spending and prices</div><h2 id="spend-h">What the state spends, from its own books</h2></div>
-      <p>Budget figures taken line by line from official budget documents, each with its citation. An empty cell means not yet read, never zero.</p></div>
-    <div class="tools">
-      <a class="tool" href="/spending"><b>Spending overview</b><span>Union, state, city and village books in one place.</span></a>
-      <a class="tool" href="/compare"><b>Compare two governments</b><span>Side by side, only where the accounting scope matches.</span></a>
-      <a class="tool" href="/states"><b>State police budgets</b><span>What each state's own books print for its police.</span></a>
-      <a class="tool" href="/inflation"><b>Inflation</b><span>Official price indices and government-observed retail prices, with dates.</span></a>
-    </div>
-  </div>
-</section>
+        <a class="insight-card" href="/inflation">
+          <div>
+            <div class="insight-kicker"><span>Consumer Prices · MoSPI CPI</span><span class="insight-pill pill-amber">Prices</span></div>
+            <div class="insight-stat">Item vs Headline</div>
+            <p class="insight-desc">Place observed food, fuel, egg, and household item price movements directly alongside the official published CPI headline series.</p>
+          </div>
+          <span class="insight-cta">Open Price Watch →</span>
+        </a>
 
-<section class="sec" id="latest" aria-labelledby="latest-h">
-  <div class="wrap">
-    <div class="sec-head"><div><div class="kicker">Most recent cases</div><h2 id="latest-h">Latest from the registers</h2></div>
-      <p>The newest records in each register, by the date of the court order or event, not the day we added them. Findings belong to the court or agency that made them. <a href="/changes">See what changed &rarr;</a></p></div>
-    <div class="lat-grid"><!--@latest--><div class="lat-col"><div class="lat-head"><span class="lat-blurb">Latest cases are added when the site is built.</span></div></div><!--@/latest--></div>
-  </div>
-</section>
-</main>
+        <a class="insight-card" href="/education">
+          <div>
+            <div class="insight-kicker"><span>School Census · UDISE+ 2025–26</span><span class="insight-pill pill-teal">Schools</span></div>
+            <div class="insight-stat">48.1% in govt schools</div>
+            <p class="insight-desc">Of 14,66,682 schools across India, 68.5% are government-run yet enrol 48.1% of students — while private unaided schools teach 40.0%.</p>
+          </div>
+          <span class="insight-cta">Explore state school data →</span>
+        </a>
 
-<footer>
-  <div class="wrap">
-    <span>Data Libertarian &mdash; sources and method published per record. Names of private individuals are withheld.</span>
-    <span><a href="/babuwatch/methodology">Methodology</a> &middot; <a href="/babuwatch/about">About</a></span>
-  </div>
-</footer>
+        <a class="insight-card" href="/gov">
+          <div>
+            <div class="insight-kicker"><span>State Web Footprint · Live DNS</span><span class="insight-pill pill-teal">Directory</span></div>
+            <div class="insight-stat">12,563 hostnames</div>
+            <p class="insight-desc">11,015 DNS-live .gov.in hostnames audited and reconciled against 55 Union ministries and 37 state and UT governments.</p>
+          </div>
+          <span class="insight-cta">Browse .gov.in Directory →</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="sec" aria-labelledby="datasets-heading">
+      <div class="sec-head">
+        <h2 id="datasets-heading">Explore Datasets</h2>
+        <p>All 11 public-record archives organized by domain.</p>
+      </div>
+
+      <div class="dir-group">
+        <h3 class="dir-label">Public Money, Prices &amp; Institutions</h3>
+        <div class="dir-grid">
+          <a class="dir-card" href="/spending">
+            <div>
+              <div class="dir-card-top">
+                <h3>Public Spending &amp; Budgets</h3>
+                <span class="dir-arrow" aria-hidden="true">→</span>
+              </div>
+              <p class="dir-desc">Union, 28 states, municipalities (GHMC), gram local bodies, and side-by-side department comparisons.</p>
+            </div>
+            <div class="dir-count">Union · States · Cities · Villages · Compare</div>
+          </a>
+
+          <a class="dir-card" href="/inflation">
+            <div>
+              <div class="dir-card-top">
+                <h3>Inflation &amp; Price Watch</h3>
+                <span class="dir-arrow" aria-hidden="true">→</span>
+              </div>
+              <p class="dir-desc">Official CPI basket weights paired directly with market-rate item cards and methodology notes.</p>
+            </div>
+            <div class="dir-count">MoSPI CPI items &amp; division indices</div>
+          </a>
+
+          <a class="dir-card" href="/education">
+            <div>
+              <div class="dir-card-top">
+                <h3>School Census (UDISE+)</h3>
+                <span class="dir-arrow" aria-hidden="true">→</span>
+              </div>
+              <p class="dir-desc">Schools, enrolment, teachers, and government vs private share across 36 states from 2018–19 to 2025–26.</p>
+            </div>
+            <div class="dir-count"><!--@count:education-->36 states &amp; UTs · 8 academic years<!--@/count:education--></div>
+          </a>
+
+          <a class="dir-card" href="/psu">
+            <div>
+              <div class="dir-card-top">
+                <h3>PSU Debt &amp; Losses</h3>
+                <span class="dir-arrow" aria-hidden="true">→</span>
+              </div>
+              <p class="dir-desc">Public sector enterprise balance sheets, accumulated losses, bailouts, and statutory audit findings.</p>
+            </div>
+            <div class="dir-count"><!--@count:psu-->Published PSU records<!--@/count:psu--></div>
+          </a>
+
+          <a class="dir-card" href="/gov">
+            <div>
+              <div class="dir-card-top">
+                <h3>Gov.in Domain Directory</h3>
+                <span class="dir-arrow" aria-hidden="true">→</span>
+              </div>
+              <p class="dir-desc">Compiled directory of Indian .gov.in hostnames across Union ministries, states, courts, and bodies.</p>
+            </div>
+            <div class="dir-count"><!--@count:gov-->Compiled directory of Indian .gov.in hostnames<!--@/count:gov--></div>
+          </a>
+
+          <a class="dir-card" href="/by-state">
+            <div>
+              <div class="dir-card-top">
+                <h3>Browse Any State or UT</h3>
+                <span class="dir-arrow" aria-hidden="true">→</span>
+              </div>
+              <p class="dir-desc">Every state and Union Territory hub combining budget figures, NCRB crime, school census, and filed cases.</p>
+            </div>
+            <div class="dir-count">All 36 States &amp; Union Territories</div>
+          </a>
+        </div>
+      </div>
+
+      <div class="dir-group">
+        <h3 class="dir-label">Crime, Courts, Civil Rights &amp; Accountability</h3>
+        <div class="dir-grid">
+          <a class="dir-card" href="/crime">
+            <div>
+              <div class="dir-card-top">
+                <h3>Crime in India (NCRB 2024)</h3>
+                <span class="dir-arrow" aria-hidden="true">→</span>
+              </div>
+              <p class="dir-desc">Rape &amp; POCSO, 27,049 murders, 6.2 lakh thefts, conviction rates, court pendency, and trends from 2022 to 2024.</p>
+            </div>
+            <div class="dir-count">NCRB 2024 tables · State &amp; District maps</div>
+          </a>
+
+          <a class="dir-card" href="/babuwatch">
+            <div>
+              <div class="dir-card-top">
+                <h3>Babuwatch · Official Accountability</h3>
+                <span class="dir-arrow" aria-hidden="true">→</span>
+              </div>
+              <p class="dir-desc">Documented custodial abuse, illegal demolitions, administrative orders, and court-cited findings against officials.</p>
+            </div>
+            <div class="dir-count"><!--@count:babuwatch-->Documented officer &amp; agency cases<!--@/count:babuwatch--></div>
+          </a>
+
+          <a class="dir-card" href="/civilliberties">
+            <div>
+              <div class="dir-card-top">
+                <h3>Civil Liberties Register</h3>
+                <span class="dir-arrow" aria-hidden="true">→</span>
+              </div>
+              <p class="dir-desc">Preventive detention, speech prosecutions, assembly bans, and constitutional court rulings.</p>
+            </div>
+            <div class="dir-count"><!--@count:civilliberties-->Documented civil liberties cases<!--@/count:civilliberties--></div>
+          </a>
+
+          <a class="dir-card" href="/victimlesscrimes">
+            <div>
+              <div class="dir-card-top">
+                <h3>Victimless Crimes Register</h3>
+                <span class="dir-arrow" aria-hidden="true">→</span>
+              </div>
+              <p class="dir-desc">Arrests and enforcement actions under prohibition, gaming, morality, and consensual statutory offences.</p>
+            </div>
+            <div class="dir-count"><!--@count:victimlesscrimes-->Documented victimless-offence cases<!--@/count:victimlesscrimes--></div>
+          </a>
+
+          <a class="dir-card" href="/economicfreedom">
+            <div>
+              <div class="dir-card-top">
+                <h3>Economic Freedom Register</h3>
+                <span class="dir-arrow" aria-hidden="true">→</span>
+              </div>
+              <p class="dir-desc">Licensing barriers, price controls, occupational restrictions, and trade bans affecting livelihoods.</p>
+            </div>
+            <div class="dir-count"><!--@count:economicfreedom-->Documented economic restriction cases<!--@/count:economicfreedom--></div>
+          </a>
+
+          <a class="dir-card" href="/sources">
+            <div>
+              <div class="dir-card-top">
+                <h3>Primary Sources &amp; Methodology</h3>
+                <span class="dir-arrow" aria-hidden="true">→</span>
+              </div>
+              <p class="dir-desc">Exact PDF grants, demand books, statistical tables, verification dates, and open correction log.</p>
+            </div>
+            <div class="dir-count">Citations · Corrections · Audit Trail</div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec latest-wrap" aria-labelledby="latest-heading">
+      <div class="sec-head">
+        <h2 id="latest-heading">Recent Additions to the Record</h2>
+        <p><a href="/changes">View full changelog &amp; update log →</a></p>
+      </div>
+      <div id="latest">
+        <!--@latest-->
+        <div class="case"><span class="stamp">Update</span><a href="/changes">View all recent additions and data updates</a><p>Updated at build time from the published registers and state budget volumes.</p></div>
+        <!--@/latest-->
+      </div>
+    </section>
+  </main>
 </body>
 </html>

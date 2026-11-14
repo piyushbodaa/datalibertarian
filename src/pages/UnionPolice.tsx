@@ -53,7 +53,7 @@ export function UnionPolicePage() {
       <PrintedColumns
         run={demand51Revenue}
         cap={demand51Capital}
-        caption="Spent, plan, updated plan, and next plan. Each bar is this Centre police book as printed."
+        caption="Actual, Budget Est., Revised Est., and current Budget Est. Each bar is this Centre police book as printed."
       />
 
       <HeadSplit

@@ -22,7 +22,7 @@ export function TrPolicePage() {
 
   return (
     <article>
-      <PoliceOverview name="Tripura" description="What the state budget set aside to run the police and to build or buy for them. Not jails, not courts." hero={hero} run={run} cap={cap} runningLine={tr2055} capitalLine={tr4055} caption="Spent, plan, updated plan, and next plan. Printed in lakhs; shown in crore." />
+      <PoliceOverview name="Tripura" description="What the state budget set aside to run the police and to build or buy for them. Not jails, not courts." hero={hero} run={run} cap={cap} runningLine={tr2055} capitalLine={tr4055} caption="Actual, Budget Est., Revised Est., and current Budget Est. Printed in lakhs; shown in crore." />
 
       <section className="carbon-sheet mt-10 px-4 py-6 sm:px-6">
         <h2 className="mt-2 font-display text-xl font-semibold">Salaries not split by station</h2>
@@ -41,7 +41,7 @@ export function TrPolicePage() {
           {
             id: "object",
             label: "Salaries",
-            empty: "A statewide salaries total is not typed here.",
+            empty: "Statewide salary object-head total not separately printed in this volume.",
           },
           {
             id: "station",
