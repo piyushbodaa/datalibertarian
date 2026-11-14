@@ -53,8 +53,8 @@ export function TracePage() {
             stop("functional", "Police", functional, "Not printed as a police total in this book."),
             stop("2055", "Running costs", run, "Not isolated in this book."),
             stop("4055", "Buildings and gear", cap, "Not isolated in this book."),
-            stop("109", "District police", district, "Not typed in this book."),
-            stop("obj", "Salaries", obj, "A statewide salaries total is not typed here."),
+            stop("109", "District police", district, "Not separately printed in this volume."),
+            stop("obj", "Salaries", obj, "Statewide salary object-head total not separately printed in this volume."),
             {
               id: "station",
               label: "Named police station",

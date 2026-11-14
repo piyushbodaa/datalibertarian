@@ -50,7 +50,7 @@ export function KaPolicePage() {
       <PrintedColumns
         run={ka2055}
         cap={ka4055}
-        caption="Spent, plan, updated plan, and next plan. Printed in lakhs; shown in crore."
+        caption="Actual, Budget Est., Revised Est., and current Budget Est. Printed in lakhs; shown in crore."
       />
       <HeadSplit run={run} cap={cap} />
 
@@ -93,7 +93,7 @@ export function KaPolicePage() {
           {
             id: "object",
             label: "Salaries",
-            empty: "A statewide salaries total is not typed here.",
+            empty: "Statewide salary object-head total not separately printed in this volume.",
           },
           {
             id: "station",

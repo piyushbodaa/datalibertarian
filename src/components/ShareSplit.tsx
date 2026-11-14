@@ -22,7 +22,7 @@ export function ShareSplit({ police, state, compact = false }: Props) {
         <CitationChip citationId={police.citationId} compact />
       </ChartCaption>
       <div
-        className="flex h-8 w-full max-w-3xl overflow-hidden bg-ink/[0.05]"
+        className="flex h-8 w-full max-w-3xl overflow-hidden rounded-md bg-slate-100"
         role="img"
         aria-label={`Police ${share.toFixed(1)} percent of state budgeted spending. Rest of the books ${rest.toFixed(1)} percent.`}
       >

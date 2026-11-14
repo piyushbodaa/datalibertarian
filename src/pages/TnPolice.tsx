@@ -46,7 +46,7 @@ export function TnPolicePage() {
       <PrintedColumns
         run={tn2055}
         cap={tn4055}
-        caption="Spent, plan, updated plan, and next plan. Printed in thousands; shown in crore."
+        caption="Actual, Budget Est., Revised Est., and current Budget Est. Printed in thousands; shown in crore."
       />
       <HeadSplit run={run} cap={cap} />
 
@@ -64,7 +64,7 @@ export function TnPolicePage() {
       <section className="carbon-sheet mt-8 px-4 py-6 sm:px-6">
         <h2 className="mt-2 font-display text-xl font-semibold">Salaries not split by station</h2>
         <p className="mt-3 max-w-2xl text-sm text-ink/75">
-          A statewide salaries total is not typed here. Named police stations are not printed as
+          Statewide salary object-head total not separately printed in this volume. Named police stations are not printed as
           allotments.
         </p>
       </section>
@@ -78,7 +78,7 @@ export function TnPolicePage() {
           {
             id: "object",
             label: "Salaries",
-            empty: "A statewide salaries total is not typed here.",
+            empty: "Statewide salary object-head total not separately printed in this volume.",
           },
           {
             id: "station",

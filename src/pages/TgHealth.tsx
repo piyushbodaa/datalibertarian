@@ -53,7 +53,7 @@ export function TgHealthPage() {
       <PrintedColumns
         run={tgHealthRun}
         cap={tgHealthCap}
-        caption="Spent, plan, updated plan, and next plan. Printed in lakhs; shown in crore."
+        caption="Actual, Budget Est., Revised Est., and current Budget Est. Printed in lakhs; shown in crore."
       />
       <HeadSplit
         run={run}

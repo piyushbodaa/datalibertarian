@@ -172,3 +172,24 @@
   link.textContent = "← Back to " + back.label;
   link.addEventListener("click", function () { store.set("dl-restore", { url: back.url, y: back.y }); });
 })();
+
+(function () {
+  var q = document.getElementById("dl-nav-q");
+  if (!q) return;
+  document.addEventListener("keydown", function (e) {
+    if (e.key !== "/" || e.ctrlKey || e.metaKey || e.altKey) return;
+    var t = e.target;
+    if (
+      t &&
+      (t.tagName === "INPUT" ||
+        t.tagName === "TEXTAREA" ||
+        t.tagName === "SELECT" ||
+        t.isContentEditable)
+    ) {
+      return;
+    }
+    e.preventDefault();
+    q.focus();
+    if (q.select) q.select();
+  });
+})();

@@ -20,7 +20,7 @@ export function CitationChip({ citationId, compact }: Props) {
             : citationId === "union-sumsbe-2026-27"
               ? "Union summary"
               : citationId.startsWith("desk-median")
-                ? "Middle of the books"
+                ? "Peer median"
                 : "Official book");
 
   const isIndex = citationId.startsWith("prs-") || citationId.startsWith("mospi-");
@@ -39,12 +39,12 @@ export function CitationChip({ citationId, compact }: Props) {
         target.focus({ preventScroll: true });
       }}
       data-citation-id={c.id}
-      className={`citation-chip ml-1 inline-flex items-baseline gap-0.5 align-super text-[0.65rem] font-semibold uppercase tracking-[0.08em] no-underline ${
+      className={`citation-chip ml-1 inline-flex items-baseline gap-0.5 rounded bg-slate-100 px-1 py-0.5 align-super text-[0.65rem] font-semibold uppercase tracking-[0.06em] no-underline transition hover:bg-[#EEF2F7] ${
         isMedian
           ? "citation-chip-median text-ochre hover:text-ink"
           : isIndex
-            ? "citation-chip-index text-zinc hover:text-carbon"
-            : "text-rust hover:text-ochre"
+            ? "citation-chip-index text-zinc hover:text-ink"
+            : "text-rust hover:text-ink"
       }`}
       title={`${c.title}${c.pages ? ` — p. ${c.pages}` : ""}`}
     >
@@ -80,10 +80,10 @@ export function CitationFootnote({ citationId }: { citationId: string }) {
       <p>
         <a href={c.url} rel="noreferrer" target="_blank">
           {isMedian
-            ? "How the middle number is built (not a government PDF)"
+            ? "How the peer median is calculated"
             : isIndex
-              ? "Open the research summary (not the official book)"
-              : "Open the official document"}
+              ? "Open the research summary (secondary index)"
+              : "Open the primary official document"}
         </a>
       </p>
       {c.notes ? <p className="text-ink/60">{c.notes}</p> : null}

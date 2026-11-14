@@ -43,36 +43,65 @@ export function HomePage() {
 
   return (
     <article>
-      <p className="kicker">Public ledger</p>
-      <h1 className="mt-2 font-display text-[1.85rem] font-semibold leading-[1.15] tracking-tight sm:text-4xl">
-        Government spending, as printed
+      <p className="kicker">Public Spending · Primary Budget Archive</p>
+      <h1 className="mt-2 font-display text-3xl font-bold leading-[1.15] tracking-tight sm:text-4xl">
+        Indian public finance, straight from official budget books
       </h1>
-      <p className="mt-3 max-w-2xl text-ink">
-        Official budget books only. Every rupee is cited. Empty means we have not read that book
-        yet — not that it is zero. This is not an NGO or grant tracker.
+      <p className="mt-3 max-w-2xl text-ink/80">
+        Every rupee figure on this platform is extracted directly from Annual Financial Statements and
+        Demand books with inline citations. Missing fields indicate unread volumes, never zero
+        spending — and Union, State, City, and Village totals are never summed into one headline.
       </p>
 
       <nav aria-label="Explore the ledger" className="mt-6 grid gap-3 sm:grid-cols-3">
-        <Link to="/states" className="docket-door layer-state"><h2 className="font-display text-xl">Explore a state →</h2><p className="mt-2 text-sm">Police budgets from {READ_STATES.length} official state books.</p></Link>
-        <Link to="/compare?left=maharashtra&right=karnataka" className="docket-door layer-union"><h2 className="font-display text-xl">Compare states →</h2><p className="mt-2 text-sm">Read plans and actual spending side by side.</p></Link>
-        <Link to="/inflation" className="docket-door"><h2 className="font-display text-xl">Explore inflation →</h2><p className="mt-2 text-sm">Follow observed prices and their sources.</p></Link>
-      </nav>
-      <section className="mt-8 border-y border-ink/20 py-6">
-        <h2 className="font-display text-xl">Union outstanding liabilities</h2>
-        <p className="mt-2 text-sm text-ink/70">Budget estimate for the end of {UNION_DEBT_YEAR}. Government of India only.</p>
-        <p className="num mt-3 text-2xl sm:text-4xl">₹{formatCrore(debt.crore)} crore <CitationChip citationId={debt.citationId} /></p>
-      </section>
-      <div className="mt-10 grid gap-5 sm:grid-cols-2">
-        <section className="docket-door layer-union">
-          <h2 className="font-display text-xl font-semibold tracking-tight">Union spend</h2>
-          <p className="layer-caption mt-1">What the Union budget planned to spend, 2026-27</p>
-          <div className="mt-4">
-            <Money money={unionTotal} size="hero" showSeries />
-          </div>
-          <p className="mt-3 text-sm text-ink/70">
-            Centre police only: <Money money={policeDemand} size="row" />
+        <Link to="/states" className="docket-door layer-state">
+          <p className="kicker">State Budgets</p>
+          <h2 className="mt-1 font-display text-lg font-semibold">Explore 28 state books →</h2>
+          <p className="mt-1.5 text-sm text-ink/70">
+            Police allocations across {READ_STATES.length} verified 2026–27 state budgets.
           </p>
-          <p className="mt-4">
+        </Link>
+        <Link to="/compare?left=maharashtra&right=karnataka" className="docket-door layer-union">
+          <p className="kicker">Benchmarking</p>
+          <h2 className="mt-1 font-display text-lg font-semibold">Compare two budgets →</h2>
+          <p className="mt-1.5 text-sm text-ink/70">
+            Examine Revenue vs Capital, salary shares, and peer medians side by side.
+          </p>
+        </Link>
+        <Link to="/inflation" className="docket-door layer-municipal">
+          <p className="kicker">Consumer Prices</p>
+          <h2 className="mt-1 font-display text-lg font-semibold">Inflation &amp; CPI Watch →</h2>
+          <p className="mt-1.5 text-sm text-ink/70">
+            MoSPI item CPI indices compared with observed retail price averages.
+          </p>
+        </Link>
+      </nav>
+
+      <section className="carbon-sheet mt-8 p-6">
+        <p className="kicker">Sovereign Debt · Union Government</p>
+        <h2 className="mt-1 font-display text-lg font-semibold">Union outstanding liabilities ({UNION_DEBT_YEAR} BE)</h2>
+        <p className="num mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
+          ₹{formatCrore(debt.crore)} crore <CitationChip citationId={debt.citationId} />
+        </p>
+        <p className="mt-2 text-sm text-ink/65">
+          Budgeted year-end public debt and other liabilities for Government of India only.
+        </p>
+      </section>
+
+      <div className="mt-6 grid gap-5 sm:grid-cols-2">
+        <section className="carbon-sheet flex flex-col justify-between p-6">
+          <div>
+            <p className="kicker text-rust">Union Tier</p>
+            <h2 className="mt-1 font-display text-xl font-semibold tracking-tight">Union total expenditure</h2>
+            <p className="layer-caption mt-1">Total Union Budget allocation for FY 2026–27 (BE)</p>
+            <div className="mt-4">
+              <Money money={unionTotal} size="hero" showSeries />
+            </div>
+            <p className="mt-4 text-sm text-ink/75">
+              Demand No. 51 (Centre Police &amp; CAPFs): <Money money={policeDemand} size="row" />
+            </p>
+          </div>
+          <p className="mt-5 mb-0">
             <Link to="/union" className="file-cta">
               <span className="file-cta-notch" aria-hidden="true" />
               Open the Union book
@@ -80,56 +109,83 @@ export function HomePage() {
           </p>
         </section>
 
-        <section className="docket-door layer-state">
-          <h2 className="font-display text-xl font-semibold tracking-tight">One state book</h2>
-          <p className="layer-caption mt-1">Maharashtra’s whole budget, 2026-27</p>
-          <div className="mt-4">
-            <Money money={mhState} size="hero" showSeries />
+        <section className="carbon-sheet flex flex-col justify-between p-6">
+          <div>
+            <p className="kicker text-zinc">State Benchmark</p>
+            <h2 className="mt-1 font-display text-xl font-semibold tracking-tight">One state book · Maharashtra</h2>
+            <p className="layer-caption mt-1">Total budgeted expenditure, FY 2026–27 (BE)</p>
+            <div className="mt-4">
+              <Money money={mhState} size="hero" showSeries />
+            </div>
+            <p className="mt-2 text-sm text-ink/70">
+              {READ_STATES.length} states now have verified official police figures published.
+            </p>
+            <ShareSplit compact police={mhPolice} state={mhState} />
           </div>
-          <p className="mt-2 text-sm text-ink/65">
-            {READ_STATES.length} states have official police figures on this site.
-          </p>
-          <ShareSplit compact police={mhPolice} state={mhState} />
-          <p className="mt-4">
+          <p className="mt-5 mb-0">
             <Link to="/states" className="file-cta">
               <span className="file-cta-notch" aria-hidden="true" />
-              All states
+              Browse all {READ_STATES.length} state budgets
             </Link>
           </p>
         </section>
       </div>
 
-      <p className="mt-8 flex flex-wrap gap-x-6 gap-y-1">
-        <Link to="/compare?left=maharashtra&right=karnataka" className="file-cta">
-          <span className="file-cta-notch" aria-hidden="true" />
-          Compare two states
-        </Link>
-        <Link to="/search" className="file-cta">
-          <span className="file-cta-notch" aria-hidden="true" />
-          Search
-        </Link>
-      </p>
+      <section className="mt-12">
+        <div className="flex flex-wrap items-baseline justify-between gap-2">
+          <h2 className="font-display text-xl font-semibold tracking-tight">
+            States with verified police budget books ({READ_STATES.length})
+          </h2>
+          <Link to="/compare?left=maharashtra&right=karnataka" className="text-sm font-semibold">
+            Compare any two states →
+          </Link>
+        </div>
+        <ul
+          className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4"
+          aria-label="States we have read"
+        >
+          {READ_STATES.map(({ slug, name }) => (
+            <li key={slug}>
+              <Link
+                to={`/${slug}/police`}
+                className="flex min-h-10 items-center justify-between rounded-md border border-[var(--rule)] bg-white px-3 py-2 text-sm font-medium text-ink no-underline transition hover:border-rust hover:text-rust"
+              >
+                <span>{name}</span>
+                <span className="text-xs text-ink/40" aria-hidden="true">→</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
 
-      <h2 className="mt-12 font-display text-xl font-semibold tracking-tight">States we have read</h2>
-      <ul className="mt-4 grid grid-cols-1 gap-x-6 gap-y-2 sm:grid-cols-2 md:grid-cols-3" aria-label="States we have read">
-        {READ_STATES.map(({ slug, name }) => (
-          <li key={slug}>
-            <Link to={`/${slug}/police`} className="inline-flex min-h-11 items-center text-ink no-underline hover:text-rust">
-              {name}
-            </Link>
-          </li>
-        ))}
-      </ul>
-      <h2 className="mt-12 font-display text-xl font-semibold tracking-tight">Other doors</h2>
-      <ul className="mt-4 grid grid-cols-1 gap-x-6 gap-y-2 sm:grid-cols-3" aria-label="Other doors">
-        <li><Link to="/telangana/health" className="inline-flex min-h-11 items-center text-ink no-underline hover:text-rust">Health — {healthBooks.length + 1} state books</Link></li>
-        <li><Link to="/municipal/ghmc" className="inline-flex min-h-11 items-center text-ink no-underline hover:text-rust">GHMC (Hyderabad)</Link></li>
-        <li><Link to="/gram" className="inline-flex min-h-11 items-center text-ink no-underline hover:text-rust">Telangana villages</Link></li>
-      </ul>
-      <p className="mt-8 text-sm text-ink/70">Coverage: <Link to="/union/police">Centre police</Link> and state police books; health books for {healthBooks.length + 1} states; one <Link to="/municipal">city</Link> book; one state <Link to="/gram">village</Link> head. Missing is not zero. Union, state, city and village totals must not be added into an India total.</p>
-      <section className="mt-10 text-sm" aria-label="Sources for this overview">
-        <h2 className="font-display text-xl">Sources for this overview</h2>
-        <ol className="mt-4 list-decimal space-y-4 pl-5">{citeIds.map((id) => <CitationFootnote key={id} citationId={id} />)}</ol>
+      <section className="mt-10">
+        <h2 className="font-display text-xl font-semibold tracking-tight">Health, City &amp; Village Budgets</h2>
+        <div className="mt-4 grid gap-3 sm:grid-cols-3">
+          <Link to="/telangana/health" className="docket-door layer-state">
+            <p className="kicker">State Health</p>
+            <p className="mt-1 font-semibold">Health — {healthBooks.length + 1} state books</p>
+            <p className="mt-1 text-xs text-ink/65">Medical &amp; public health major heads (2210/2211/4210)</p>
+          </Link>
+          <Link to="/municipal/ghmc" className="docket-door layer-municipal">
+            <p className="kicker">City Corporation</p>
+            <p className="mt-1 font-semibold">GHMC (Hyderabad)</p>
+            <p className="mt-1 text-xs text-ink/65">Greater Hyderabad Municipal Corporation 2025–26 BE</p>
+          </Link>
+          <Link to="/gram" className="docket-door layer-gram">
+            <p className="kicker">Rural Local Bodies</p>
+            <p className="mt-1 font-semibold">Telangana Villages (PR&amp;RD)</p>
+            <p className="mt-1 text-xs text-ink/65">State rural development major heads 2515 + 4515</p>
+          </Link>
+        </div>
+      </section>
+
+      <section className="mt-12 text-sm" aria-label="Sources for this overview">
+        <h2 className="font-display text-xl font-semibold">Sources for this overview</h2>
+        <ol className="mt-4 list-decimal space-y-4 pl-5">
+          {citeIds.map((id) => (
+            <CitationFootnote key={id} citationId={id} />
+          ))}
+        </ol>
       </section>
     </article>
   );

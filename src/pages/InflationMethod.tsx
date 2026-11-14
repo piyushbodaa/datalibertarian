@@ -4,41 +4,32 @@ import { CitationFootnote } from "../components/CitationChip";
 export function InflationMethodPage() {
   return (
     <article className="max-w-2xl">
-      <h1 className="mt-2 font-display text-3xl font-semibold tracking-tight sm:text-4xl">
-        How this bulletin is built
+      <p className="kicker">Methodology · Prices &amp; CPI</p>
+      <h1 className="mt-2 font-display text-3xl font-bold tracking-tight sm:text-4xl">
+        How price &amp; inflation data is compiled
       </h1>
-      <p className="mt-4 text-ink/80">
-        The page exists to put two cited series side by side: what MoSPI printed, and the rupee the
-        Price Monitoring Division (or PPAC) printed for the same item. The official bulletin — pie,
-        division bars, rural/urban — sits under that comparison.
+      <p className="mt-3 text-ink/80">
+        This section pairs two independent official sources side by side: MoSPI’s published CPI index rates alongside national retail price averages released by the Price Monitoring Division (food &amp; essentials) and PPAC (motor fuels).
       </p>
 
-      <section className="mt-10">
-        <h2 className="font-display text-xl font-semibold">The pie</h2>
-        <p className="mt-3 text-ink/80">
-          Slices are Combined CPI 2024 weights from MoSPI’s Annex V (Household Consumption
-          Expenditure Survey 2023-24). Food is 36.75% of that basket, down from 42.62% in the 2012
-          series. The pie is the basket they use. It is not a mix of PMD items.
+      <section className="mt-8">
+        <h2 className="font-display text-xl font-semibold">2024 CPI basket weights</h2>
+        <p className="mt-2.5 text-ink/80">
+          Category shares reflect Combined CPI 2024 weights from MoSPI Annex V (Household Consumption Expenditure Survey 2023–24). Food accounts for 36.75% of the updated basket, compared with 42.62% in the 2012 base series.
         </p>
       </section>
 
-      <section className="mt-10">
-        <h2 className="font-display text-xl font-semibold">From → to</h2>
-        <p className="mt-3 text-ink/80">
-          A twelve-month change always names both printed rupees and both dates. Example: ₹43.03/kg
-          on 10 Sep 2025 → ₹46.34/kg on 10 Sep 2026. A bare “+7%” is not shown. A printed 0 is not a
-          price.
+      <section className="mt-8">
+        <h2 className="font-display text-xl font-semibold">Twelve-month retail change</h2>
+        <p className="mt-2.5 text-ink/80">
+          Every year-on-year comparison states both observed retail averages and exact publication dates (e.g., ₹43.03/kg on 10 Sep 2025 → ₹46.34/kg on 10 Sep 2026). Unreported prices stay empty rather than imputed or shown as ₹0.
         </p>
       </section>
 
-      <section className="mt-10">
-        <h2 className="font-display text-xl font-semibold">What they printed</h2>
-        <p className="mt-3 text-ink/80">
-          MoSPI CPI is a weighted index (2024=100). Where they printed an item inflation rate
-          (onion, potato, tomato in July 2026), that rate sits in the left column. Where they did
-          not (rice, eggs, petrol), the parent division rate sits there instead — labelled as a
-          division, never a made-up packet rupee. Health, housing and education rooms show the
-          official division rate and leave observed rupees empty.
+      <section className="mt-8">
+        <h2 className="font-display text-xl font-semibold">Official item vs division rates</h2>
+        <p className="mt-2.5 text-ink/80">
+          MoSPI CPI uses base 2024=100. Where item-level CPI rates are released (such as onion, potato, and tomato), they appear directly; for items without item-level disclosures, the parent CPI division rate is cited and clearly labelled as a division index.
         </p>
       </section>
 

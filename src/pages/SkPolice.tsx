@@ -22,7 +22,7 @@ export function SkPolicePage() {
 
   return (
     <article>
-      <PoliceOverview name="Sikkim" description="What the state budget set aside to run the police and to build or buy for them. Not jails, not a research-summary sector slice." hero={hero} run={run} cap={cap} runningLine={sk2055} capitalLine={sk4055} caption="Spent, plan, updated plan, and next plan. Printed in thousands; shown in crore." />
+      <PoliceOverview name="Sikkim" description="What the state budget set aside to run the police and to build or buy for them. Not jails, not a research-summary sector slice." hero={hero} run={run} cap={cap} runningLine={sk2055} capitalLine={sk4055} caption="Actual, Budget Est., Revised Est., and current Budget Est. Printed in thousands; shown in crore." />
 
       <section className="carbon-sheet mt-10 px-4 py-6 sm:px-6">
         <h2 className="mt-2 font-display text-xl font-semibold">Salaries not split by station</h2>
@@ -45,7 +45,7 @@ export function SkPolicePage() {
           {
             id: "object",
             label: "Salaries",
-            empty: "A statewide salaries total is not typed here.",
+            empty: "Statewide salary object-head total not separately printed in this volume.",
           },
           {
             id: "station",

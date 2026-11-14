@@ -44,7 +44,7 @@ export function AsPolicePage() {
       <PrintedColumns
         run={as2055}
         cap={as4055}
-        caption="Spent, plan, updated plan, and next plan. Printed in lakhs; shown in crore. Running costs add the Police grant and one smaller police line on another grant."
+        caption="Actual, Budget Est., Revised Est., and current Budget Est. Printed in lakhs; shown in crore. Running costs add the Police grant and one smaller police line on another grant."
       />
       <HeadSplit run={run} cap={cap} />
 
@@ -73,7 +73,7 @@ export function AsPolicePage() {
           {
             id: "object",
             label: "Salaries",
-            empty: "A statewide salaries total is not typed here.",
+            empty: "Statewide salary object-head total not separately printed in this volume.",
           },
           {
             id: "station",

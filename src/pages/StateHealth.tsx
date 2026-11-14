@@ -100,7 +100,7 @@ export function StateHealthPage() {
       <PrintedColumns
         run={book.run}
         cap={book.cap}
-        caption={`Spent, plan, updated plan, and next plan. Printed in ${book.unit}; shown in crore.`}
+        caption={`Actual, Budget Est., Revised Est., and current Budget Est. Printed in ${book.unit}; shown in crore.`}
       />
       <HeadSplit
         run={run}

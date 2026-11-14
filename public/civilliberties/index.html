@@ -20,19 +20,16 @@
 <link rel="icon" type="image/svg+xml" href="/babuwatch/assets/brand/logo-glyph-saffron.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/babuwatch/styles.css">
 <style>
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-top:28px}
-.stat{border:1px solid var(--line);border-radius:6px;padding:18px;background:#fff}
-.stat .num{font-family:var(--serif);font-size:34px;font-weight:600;line-height:1.1}
-.stat .lab{font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--grey);margin-top:6px;font-weight:600}
-.stat .sub{font-size:13.5px;color:var(--grey);margin-top:4px}
-.emptybox{border:1px dashed var(--line);border-radius:6px;padding:28px;margin-top:24px;background:#fff}
-.emptybox p{color:#3A3F48;max-width:62ch}
-.soon{opacity:.75}
-.sitelinks{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px;font-size:14px}
-.sitelinks a{color:var(--slate);font-weight:500}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-top:24px}
+.stat{border:1px solid var(--line);border-radius:8px;padding:18px;background:#fff}
+.stat .num{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:32px;font-weight:600;line-height:1.1;color:var(--ink)}
+.stat .lab{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--grey);margin-top:6px;font-weight:700}
+.stat .sub{font-size:13px;color:var(--grey);margin-top:4px}
+.emptybox{border:1px dashed var(--line);border-radius:8px;padding:28px;margin-top:24px;background:#fff}
+.emptybox p{color:#334155;max-width:62ch}
 </style>
 </head>
 <body>
@@ -55,24 +52,22 @@
 
 <section class="hero prototype-hero">
   <div class="wrap">
-    <div class="eyebrow">Civil liberties</div>
+    <div class="eyebrow">Civil liberties register</div>
     <h1>Freedom is <span class="against">the point.</span></h1>
-    <p class="sub">Indians are punished &mdash; arrested, charged, convicted &mdash; for exercising the freedoms the Constitution promises: speaking, believing, worshipping, assembling. This register documents those cases of state overreach, starting with freedom of speech and freedom of religion, with more sections to be added.</p>
+    <p class="sub">Official court and agency cases where citizens were arrested, charged, detained, or convicted for speech, assembly, writing, or belief &mdash; cited to source orders with private individuals&rsquo; names withheld under our naming gate.</p>
     <div class="prototype-actions">
-      <a href="#sections" class="btn btn-primary">Browse the sections</a>
-      <a href="#incidents" class="btn btn-ghost">See the incidents</a>
+      <a href="#sections" class="btn btn-primary">Browse categories</a>
+      <a href="#incidents" class="btn btn-ghost">Jump to records</a>
     </div>
-    <p class="prototype-caveat">Coverage is being built state by state, starting with Andhra Pradesh and the most recent cases. Every record cites its source; names of private individuals are withheld.</p>
-    <div class="sitelinks">Also on this site: <a href="/babuwatch">Babuwatch &rarr;</a> <a href="/victimlesscrimes">Victimless Crimes &rarr;</a> <a href="/economicfreedom">Economic Freedom &rarr;</a> <a href="/psu">PSUs &rarr;</a> <a href="/crime">Crime &rarr;</a> <a href="/">All registers &rarr;</a></div>
   </div>
 </section>
 
 <section id="analytics">
   <div class="wrap">
     <div class="sec-head">
-      <div class="kicker">Analytics</div>
-      <h2>What the record shows so far</h2>
-      <p>Live counts drawn from published records. The dashboard describes only the cases documented here; it does not estimate how common these punishments are across India.</p>
+      <div class="kicker">Summary</div>
+      <h2>Published record coverage</h2>
+      <p>Counts across verified V2 court and agency orders in this register; coverage expands state by state and is not a national incidence rate.</p>
     </div>
     <!--@stats--><div class="stats" role="list">
       <div class="stat" role="listitem"><div class="num">0</div><div class="lab">Victims listed</div><div class="sub">people punished for freedoms</div></div>
@@ -80,17 +75,15 @@
       <div class="stat" role="listitem"><div class="num">0</div><div class="lab">States covered</div><div class="sub">of 36 states &amp; UTs</div></div>
       <div class="stat" role="listitem"><div class="num">0</div><div class="lab">Laws cited</div><div class="sub">distinct statutes used</div></div>
     </div><!--@/stats-->
-    <div class="callout"><div class="lab">Live dataset</div><p>Every number above is computed from the published records below. Nothing here is estimated.</p></div>
   </div>
 </section>
 
 <section class="intent-prototype" id="sections">
   <div class="wrap">
-    <div class="intent-intro"><h2>Which freedom was punished?</h2></div>
+    <div class="intent-intro"><h2>Browse by freedom</h2></div>
     <div class="intent-grid">
       <a class="intent-card priority" data-cat="speech" href="#incidents"><span class="kind">Freedom of speech</span><h3>Punished for speaking, writing, posting</h3><p>Journalists, cartoonists, students and citizens booked or convicted for speech &mdash; sedition, hate-speech and defamation provisions, internet-shutdown era cases and contempt.</p><span class="go">See these records <span class="arrow">&rarr;</span></span></a>
       <a class="intent-card priority" data-cat="religion" href="#incidents"><span class="kind">Freedom of religion</span><h3>Punished for believing and worshipping</h3><p>Anti-conversion law cases, worship and procession restrictions, and convictions for practising or professing faith.</p><span class="go">See these records <span class="arrow">&rarr;</span></span></a>
-      <div class="intent-card soon"><span class="kind">More sections</span><h3>To be announced</h3><p>Further freedoms &mdash; assembly, movement, press and others &mdash; will get their own sections here. The owner is still deciding the list.</p><span class="go">Coming soon</span></div>
     </div>
   </div>
 </section>

@@ -167,7 +167,9 @@ def table(d):
     for n in names:
         body.append(row(n, cur["states"][n], old["states"].get(n, cur["states"][n])))
     head = "".join('<th scope="col">%s</th>' % esc(c) for c in cols)
-    return ('<div class="tbl-wrap"><table class="sortable"><caption class="cap" style="caption-side:bottom;text-align:left;padding:10px 12px">'
+    return ('<div class="edu-filter-bar"><input id="edu-filter" type="search" placeholder="Filter state or UT&hellip;" aria-label="Filter state or union territory">'
+            '<span id="edu-filter-count" style="font:400 12.5px var(--mono);color:var(--dim)">All states &amp; UTs</span></div>'
+            '<div class="tbl-wrap"><table class="sortable"><caption class="cap" style="caption-side:bottom;text-align:left;padding:10px 12px">'
             'UDISE+ %s; change against %s. Pupils per teacher is students divided by teachers in that kind of school.</caption>'
             '<thead><tr>%s</tr></thead><tbody>%s</tbody></table></div>' % (esc(last), esc(first), head, "".join(body)))
 

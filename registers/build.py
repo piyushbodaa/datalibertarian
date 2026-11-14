@@ -249,14 +249,14 @@ def card_html(reg, data, r):
         meta = [fmt_date(r["date"]), r.get("headquarters") or place, r.get("owner")]
     plate = r.get("_plate")
     return """
-      <article class="tracker-card news-card" id="%s" data-id="%s" data-cat="%s" data-state="%s" data-district="%s">
+      <article class="tracker-card news-card" id="%s" data-id="%s" data-cat="%s" data-state="%s" data-district="%s" data-outcome="%s">
         <div class="news-top"><div class="news-chips"><span class="chip">%s</span><span class="chip chip-out">%s</span></div>%s</div>
         <h2 class="news-head"><a href="%s">%s</a></h2>
         <p class="news-meta">%s</p>
         <p class="news-para">%s</p>
         <a class="tracker-card-open" href="%s">Read the full record <span aria-hidden="true">&rarr;</span></a>
       </article>""" % (
-        esc(r["id"]), esc(r["id"]), esc(r["category"]), esc(r["state"]), esc(r.get("district") or ""),
+        esc(r["id"]), esc(r["id"]), esc(r["category"]), esc(r["state"]), esc(r.get("district") or ""), esc(chips[1]),
         esc(chips[0]), esc(chips[1]),
         ('<span class="plate" title="Case number">%s</span>' % esc(plate)) if plate else "",
         esc(url), esc(head), " &middot; ".join(esc(m) for m in meta if m), esc(r["summary"]), esc(url))
@@ -264,15 +264,15 @@ def card_html(reg, data, r):
 
 NEWS_CSS = (".news-top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}"
             ".news-chips{display:flex;gap:8px;flex-wrap:wrap}"
-            ".chip{display:inline-block;padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:#f1efe8;"
-            "font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#3a3f48}"
-            ".chip-out{background:#f0f7f2;border-color:#9ab6a7;color:#2f6b4a}"
-            ".plate{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-weight:700;font-size:13px;"
-            "letter-spacing:.1em;padding:4px 10px;border:2px solid #1d2230;border-radius:5px;background:#fff;color:#1d2230;white-space:nowrap}"
+            ".chip{display:inline-block;padding:5px 12px;border-radius:6px;border:1px solid #E2E8F0;background:#F1F5F9;"
+            "font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#334155}"
+            ".chip-out{background:#F0FDFA;border-color:#99F6E4;color:#0F766E}"
+            ".plate{font-family:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-weight:600;font-size:12.5px;"
+            "letter-spacing:.08em;padding:4px 10px;border:1px solid #CBD5E1;border-radius:6px;background:#F8FAFC;color:#1E3A5F;white-space:nowrap}"
             ".news-head{margin-top:14px;font-family:var(--serif);font-size:clamp(20px,2.4vw,25px);font-weight:600;line-height:1.25}"
             ".news-head a{color:inherit;text-decoration:none}.news-head a:hover{text-decoration:underline}"
             ".news-meta{margin-top:8px;color:var(--grey);font-size:13.5px;line-height:1.5}"
-            ".news-para{margin-top:12px;color:#363c44;font-size:15px;line-height:1.65}"
+            ".news-para{margin-top:12px;color:#334155;font-size:15px;line-height:1.65}"
             ".news-card .tracker-card-open{position:static;display:inline-block;margin-top:14px}")
 
 
@@ -283,36 +283,44 @@ def records_html(reg, data):
     word = data["record_word"]
     states = sorted({r["state"] for r in recs})
     cats = [c for c in data["categories"] if any(r["category"] == c["key"] for r in recs)]
+    outs = sorted({(OUTCOME[r["outcome"]] if data["kind"] == "case" else r["status"]) for r in recs})
+    out_label = "All outcomes" if data["kind"] == "case" else "All statuses"
     opts = lambda items: "".join('<option value="%s">%s</option>' % (esc(v), esc(l)) for v, l in items)
     geo = {}
     for r in recs:
         if r.get("district"):
             geo.setdefault(r["state"], set()).add(r["district"])
     geo = {k: sorted(v) for k, v in geo.items()}
-    filters = ('<style>.filters select{padding:9px 11px;border:1px solid var(--line);background:#fff;font:inherit;'
-               'font-size:14px;border-radius:2px;max-width:100%%}' + NEWS_CSS + '</style>'
+    filters = ('<style>.filters select,.filters input[type="search"]{padding:9px 12px;border:1px solid var(--line);background:#fff;font:inherit;'
+               'font-size:14px;border-radius:6px;max-width:100%%}.filters input[type="search"]{min-width:200px;flex:1 1 200px}' + NEWS_CSS + '</style>'
                '<div class="filters" role="search"><span class="flabel">Filter</span>'
+               '<input id="f-q" type="search" placeholder="Search records&hellip;" aria-label="Search records">'
                '<select id="f-state" aria-label="State"><option value="">All states (%d)</option>%s</select>'
                '<select id="f-district" aria-label="District" disabled><option value="">Choose a state first</option></select>'
-               '<select id="f-cat" aria-label="Category"><option value="">All categories</option>%s</select></div>'
+               '<select id="f-cat" aria-label="Category"><option value="">All categories</option>%s</select>'
+               '<select id="f-out" aria-label="Outcome or status"><option value="">%s</option>%s</select></div>'
                '<script type="application/json" id="f-geo">%s</script>'
                % (len(states), opts((st, st) for st in states), opts((c["key"], c["label"]) for c in cats),
+                  esc(out_label), opts((o, o) for o in outs),
                   json.dumps(geo, ensure_ascii=False).replace("</", "<\\/")))
     head = ('<div class="tracker-results-head" aria-live="polite"><strong id="f-count">%d %s</strong>'
             '<span>newest first</span></div>' % (len(recs), word if len(recs) != 1 else word.rstrip("s")))
-    script = ("<script>(function(){var s=document.getElementById('f-state'),d=document.getElementById('f-district'),"
-              "c=document.getElementById('f-cat'),n=document.getElementById('f-count'),"
+    script = ("<script>(function(){var qIn=document.getElementById('f-q'),s=document.getElementById('f-state'),d=document.getElementById('f-district'),"
+              "c=document.getElementById('f-cat'),oSel=document.getElementById('f-out'),n=document.getElementById('f-count'),"
               "G=JSON.parse(document.getElementById('f-geo').textContent||'{}'),"
               "cards=[].slice.call(document.querySelectorAll('.tracker-records .tracker-card'));"
               "function fill(keep){var ds=G[s.value]||[];d.innerHTML='<option value=\"\">'+(s.value?'All districts':'Choose a state first')+'</option>'"
               "+ds.map(function(x){return '<option>'+x.replace(/&/g,'&amp;').replace(/</g,'&lt;')+'</option>'}).join('');"
               "d.disabled=!ds.length;d.value=keep&&ds.indexOf(keep)>-1?keep:'';}"
-              "function go(){var k=0;cards.forEach(function(e){var ok=(!s.value||e.dataset.state===s.value)&&"
-              "(!d.value||e.dataset.district===d.value)&&(!c.value||e.dataset.cat===c.value);e.hidden=!ok;if(ok)k++});"
-              "n.textContent=k+' %s';var q=new URLSearchParams();if(s.value)q.set('state',s.value);if(d.value)q.set('district',d.value);"
-              "if(c.value)q.set('cat',c.value);history.replaceState(null,'',location.pathname+(q.toString()?'?'+q:'')+location.hash);}"
+              "function go(){var k=0,qv=(qIn.value||'').trim().toLowerCase();cards.forEach(function(e){var ok=(!s.value||e.dataset.state===s.value)&&"
+              "(!d.value||e.dataset.district===d.value)&&(!c.value||e.dataset.cat===c.value)&&(!oSel.value||e.dataset.outcome===oSel.value)&&"
+              "(!qv||e.textContent.toLowerCase().indexOf(qv)>-1);e.hidden=!ok;if(ok)k++});"
+              "n.textContent=k+' __WORD__';var q=new URLSearchParams();if(s.value)q.set('state',s.value);if(d.value)q.set('district',d.value);"
+              "if(c.value)q.set('cat',c.value);if(oSel.value)q.set('out',oSel.value);if(qv)q.set('q',qIn.value.trim());"
+              "history.replaceState(null,'',location.pathname+(q.toString()?'?'+q:'')+location.hash);}"
               "var q=new URLSearchParams(location.search);if(q.get('state'))s.value=q.get('state');fill(q.get('district'));"
-              "if(q.get('cat'))c.value=q.get('cat');s.onchange=function(){fill('');go()};d.onchange=c.onchange=go;go();})();</script>" % esc(word))
+              "if(q.get('cat'))c.value=q.get('cat');if(q.get('out'))oSel.value=q.get('out');if(q.get('q'))qIn.value=q.get('q');"
+              "s.onchange=function(){fill('');go()};d.onchange=c.onchange=oSel.onchange=go;qIn.oninput=go;go();})();</script>".replace("__WORD__", esc(word)))
     return filters + head + '\n    <div class="tracker-records">%s\n    </div>' % "".join(
         card_html(reg, data, r) for r in recs) + script
 
@@ -442,12 +450,12 @@ def record_page(reg, data, r, page):
 <link rel="icon" type="image/svg+xml" href="/babuwatch/assets/brand/logo-glyph-saffron.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/babuwatch/styles.css">
 <style>
-.record-quote{margin-top:16px;padding:18px 22px;border-left:3px solid var(--brass);background:#fffdf8;font-family:var(--serif);font-size:17px;line-height:1.6;color:#30363e}
+.record-quote{margin-top:16px;padding:18px 22px;border-left:3px solid var(--slate);background:#F8FAFC;font-family:var(--sans);font-size:16.5px;line-height:1.6;color:#334155;border-radius:0 6px 6px 0}
 .record-quote-cite{margin-top:10px;color:var(--grey);font-size:13px}
-.incident-sources p{margin-top:4px;color:#50565e;font-size:12px;line-height:1.5}
+.incident-sources p{margin-top:4px;color:#475569;font-size:12px;line-height:1.5}
 .incident-sources a{color:var(--slate)}
 @media (max-width:860px){.incident-layout{grid-template-columns:1fr;gap:28px}.incident-sidebar{position:static}.incident-hero{grid-template-columns:1fr;gap:16px}.incident-hero-badges{justify-content:flex-start}}
 </style>

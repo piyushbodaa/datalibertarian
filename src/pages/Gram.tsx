@@ -47,7 +47,7 @@ export function GramPage() {
       <PrintedColumns
         run={tg2515}
         cap={tg4515}
-        caption="Spent, plan, updated plan, and next plan. Printed in lakhs; shown in crore."
+        caption="Actual, Budget Est., Revised Est., and current Budget Est. Printed in lakhs; shown in crore."
       />
       <HeadSplit
         run={run}
@@ -83,7 +83,7 @@ export function GramPage() {
           {
             id: "fc",
             label: "Finance Commission grant to villages",
-            empty: "The Union transfer to rural local bodies is not typed here.",
+            empty: "The Union transfer to rural local bodies is not parsed in this volume.",
           },
           {
             id: "gp",

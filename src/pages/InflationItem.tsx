@@ -27,38 +27,37 @@ export function InflationItemPage() {
       </h1>
 
       <div className="mt-8 grid gap-6 lg:grid-cols-2">
-        <section className="index-slip px-4 py-6">
-          <p className="kicker">They printed</p>
-          <p className="num mt-3 text-4xl font-medium whitespace-nowrap">{formatPct(gov.yoyPct)}</p>
-          <p className="mt-3 text-sm text-ink/70">
-            {gov.label}. July 2025 → July 2026.
+        <section className="carbon-sheet border-l-4 border-l-[var(--rust)] px-5 py-6">
+          <p className="kicker text-rust">Official MoSPI CPI</p>
+          <p className="num mt-3 text-4xl font-semibold whitespace-nowrap">{formatPct(gov.yoyPct)}</p>
+          <p className="mt-3 text-sm text-ink/75">
+            {gov.label} (July 2025 → July 2026).
             {gov.kind === "item"
-              ? ` An index change, not a rupee for this packet of ${item.plainLabel.toLowerCase()}.`
+              ? ` Index movement only, distinct from single-unit retail prices of ${item.plainLabel.toLowerCase()}.`
               : ""}
             <CitationChip citationId={gov.citationId} />
           </p>
         </section>
-        <section className="border border-[var(--rule)] border-l-[3px] border-l-[var(--rust)] px-4 py-6">
-          <p className="kicker">Government-observed price</p>
+        <section className="carbon-sheet border-l-4 border-l-[var(--zinc)] px-5 py-6">
+          <p className="kicker text-zinc">Observed Retail Average</p>
           {pair ? (
             <>
-              <p className="mt-4 text-sm text-ink/70">From</p>
-              <p className="num text-2xl">{formatPrice(pair.then)}</p>
+              <p className="mt-4 text-xs font-semibold uppercase tracking-wide text-ink/55">From</p>
+              <p className="num text-2xl font-semibold">{formatPrice(pair.then)}</p>
               <p className="text-sm text-ink/60">{formatDay(pair.then.asOf)}</p>
-              <p className="mt-4 text-sm text-ink/70">To</p>
-              <p className="num text-2xl">{formatPrice(pair.now)}</p>
+              <p className="mt-4 text-xs font-semibold uppercase tracking-wide text-ink/55">To</p>
+              <p className="num text-2xl font-semibold">{formatPrice(pair.now)}</p>
               <p className="text-sm text-ink/60">{formatDay(pair.now.asOf)}</p>
-              <p className="mt-4 text-base text-ink">{formatFromTo(pair.then, pair.now)}</p>
+              <p className="mt-4 text-base font-medium text-ink">{formatFromTo(pair.then, pair.now)}</p>
               <CitationChip citationId={pair.now.citationId} />
             </>
           ) : now ? (
             <p className="mt-3 text-sm text-ink/80">
-              {formatPrice(now)} on {formatDay(now.asOf)}. A year-ago rupee is not typed, so there is
-              no twelve-month change.
+              {formatPrice(now)} on {formatDay(now.asOf)}. Prior-year retail average is not in the bulletin, so twelve-month change is omitted.
               <CitationChip citationId={now.citationId} />
             </p>
           ) : (
-            <p className="mt-3 text-sm text-ink/70">No observed rupee typed.</p>
+            <p className="mt-3 text-sm text-ink/70">No observed retail average published.</p>
           )}
         </section>
       </div>

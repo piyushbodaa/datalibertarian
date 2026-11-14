@@ -10,6 +10,9 @@ import { join } from "node:path";
 import { jurisdictions, tierLabel, type Jurisdiction, type PoliceTier } from "../src/data/states";
 import { ncrb2024More, ncrb2024Rape } from "../src/data/crime/ncrb2024";
 import { getCitation } from "../src/data/sources";
+import { resolveSide } from "../src/data/compare/resolve";
+import { pickAmount, type LineItem } from "../src/data/maharashtra-police";
+import { formatMoneyShort, SERIES_LABEL } from "../src/lib/money";
 import { badge, esc, shell, type Status } from "./page-shell";
 
 const root = process.argv[2] ?? "dist";
@@ -24,6 +27,17 @@ const NCRB_NAME: Record<string, string> = {
   "Dadra and Nagar Haveli and Daman and Diu": "D&N Haveli and Daman & Diu",
   "Jammu and Kashmir": "Jammu & Kashmir",
 };
+
+const UDISE_NAME: Record<string, string> = {
+  "Andaman and Nicobar Islands": "Andaman & Nicobar Islands",
+  "Dadra and Nagar Haveli and Daman and Diu": "Dadra & Nagar Haveli and Daman & Diu",
+  "Jammu and Kashmir": "Jammu & Kashmir",
+};
+type UdiseState = { totSchools: number; totSchoolGovt: number; totStudents: number; totStudentPvt: number };
+const udiseData = JSON.parse(await readFile("education/data/udise.json", "utf8")) as {
+  years: Record<string, { states: Record<string, UdiseState> }>;
+};
+const udiseStates = udiseData.years["2025-26"]?.states ?? {};
 
 // ---- published records, counted per state
 type Count = Map<string, number>;
@@ -73,7 +87,8 @@ function citer() {
   };
   const list = () =>
     `<ol class="srcs">${ids.map((id) => { const c = getCitation(id); return `<li><a href="${esc(c.url)}" rel="nofollow noopener">${esc(c.title)}</a></li>`; }).join("")}</ol>`;
-  return { mark, list };
+  const hasAny = () => ids.length > 0;
+  return { mark, list, hasAny };
 }
 
 /** Both books read: published. Either one read or partly read: incomplete. Neither: not read. */
@@ -100,12 +115,51 @@ function statePage(j: Jurisdiction) {
   const policeTier = delhi ? "gold" : j.tier;
   const policeLabel = delhi ? "From the Centre's book" : tierLabel(policeTier);
   const healthTier = j.heads?.health;
+  const side = resolveSide(delhi ? "union-delhi" : j.slug);
+  const pickBest = (item: LineItem | undefined) =>
+    item
+      ? pickAmount(item, "2026-27", "be") ??
+        pickAmount(item, "2025-26", "be") ??
+        pickAmount(item, "2025-26", "re") ??
+        pickAmount(item, "2024-25", "actual")
+      : undefined;
+  const moneySrc = citer();
+  const policePick = (() => {
+    const fn = pickBest(side?.bag["police-functional"]);
+    if (fn && !fn.citationId.startsWith("prs-")) return { money: fn, scope: "" };
+    const r2055 = pickBest(side?.bag["2055"]);
+    if (r2055 && !r2055.citationId.startsWith("prs-")) return { money: r2055, scope: "2055 rev. \u00b7 " };
+    const sal = pickBest(side?.bag["obj-01"]);
+    if (sal && !sal.citationId.startsWith("prs-")) return { money: sal, scope: "salaries \u00b7 " };
+    return undefined;
+  })();
+  const policeDd = policePick
+    ? `${esc(formatMoneyShort(policePick.money))} <small>${esc(policePick.scope + policePick.money.fiscalYear + " " + SERIES_LABEL[policePick.money.series])}</small>${moneySrc.mark(policePick.money.citationId)}`
+    : esc(policeLabel);
+  const healthMoney = pickBest(side?.bag["health-functional"]);
+  const healthDd =
+    healthMoney && !healthMoney.citationId.startsWith("prs-")
+      ? `${esc(formatMoneyShort(healthMoney))} <small>${esc(healthMoney.fiscalYear + " " + SERIES_LABEL[healthMoney.series])}</small>${moneySrc.mark(healthMoney.citationId)}`
+      : esc(tierLabel(healthTier ?? "empty"));
   const money = card(
     "Spending", "What the government's own budget books print",
     badge(moneyStatus(tierStatus(policeTier), tierStatus(healthTier))),
-    `<dl><dt>Police</dt><dd>${esc(policeLabel)}</dd><dt>Health</dt><dd>${esc(tierLabel(healthTier ?? "empty"))}</dd></dl>`,
+    `<dl><dt>Police</dt><dd>${policeDd}</dd><dt>Health</dt><dd>${healthDd}</dd></dl>${moneySrc.hasAny() ? moneySrc.list() : ""}`,
     [[policeHref, `${j.name} police budget`], [`/${j.slug}/health`, `${j.name} health budget`], ["/compare", "Compare with another government"]],
   );
+
+  // Education (UDISE+ 2025-26)
+  const uName = UDISE_NAME[j.name] ?? j.name;
+  const uStat = udiseStates[uName];
+  const eduCard = uStat
+    ? card(
+        "Schools (UDISE+)",
+        "Schools and enrolled children in 2025\u201326, by management",
+        badge("published", "2025\u201326 data"),
+        `<dl><dt>Total schools</dt><dd>${num(uStat.totSchools)}</dd><dt>Government schools</dt><dd>${num(uStat.totSchoolGovt)}</dd><dt>Total students</dt><dd>${num(uStat.totStudents)}</dd><dt>Private student share</dt><dd>${one((100 * uStat.totStudentPvt) / uStat.totStudents)}%</dd></dl><p class="note">Source: Ministry of Education UDISE+ 2025\u201326.</p>`,
+        [["/education#h-states", "All states in Education (UDISE+)"]],
+      )
+    : "";
 
   // Crime
   let crime: string;
@@ -160,8 +214,8 @@ function statePage(j: Jurisdiction) {
     : "";
   const body = `
 <section class="block"><div class="wrap">
-  <div class="sec-head"><div class="kicker">Public money and crime</div><h2>From the government's own books</h2></div>
-  <div class="doors">${money}${crime}</div>
+  <div class="sec-head"><div class="kicker">Public money, schools and crime</div><h2>From the government's own books</h2></div>
+  <div class="doors">${money}${crime}${eduCard}</div>
 </div></section>
 <section class="block"><div class="wrap">
   <div class="sec-head"><div class="kicker">Records</div><h2>Court findings, registers and directory</h2>
@@ -196,8 +250,12 @@ function indexPage() {
   const states = jurisdictions.filter((j) => j.kind === "state");
   const uts = jurisdictions.filter((j) => j.kind === "ut");
   const body = `
+<section class="block"><div class="wrap">
+  <div class="state-filter-bar"><input id="state-filter" type="search" placeholder="Filter 36 states &amp; union territories&hellip;" aria-label="Filter states and union territories"><span id="state-filter-count" style="font-size:13px;color:var(--grey)">${jurisdictions.length} jurisdictions</span></div>
+</div></section>
 <section class="block"><div class="wrap"><div class="sec-head"><div class="kicker">${states.length} states</div><h2>States</h2></div><ul class="states-grid">${states.map(row).join("")}</ul></div></section>
-<section class="block"><div class="wrap"><div class="sec-head"><div class="kicker">${uts.length} union territories</div><h2>Union territories</h2></div><ul class="states-grid">${uts.map(row).join("")}</ul></div></section>`;
+<section class="block"><div class="wrap"><div class="sec-head"><div class="kicker">${uts.length} union territories</div><h2>Union territories</h2></div><ul class="states-grid">${uts.map(row).join("")}</ul></div></section>
+<script>(function(){var i=document.getElementById('state-filter'),c=document.getElementById('state-filter-count');if(!i)return;var items=[].slice.call(document.querySelectorAll('.states-grid li'));i.oninput=function(){var q=(i.value||'').trim().toLowerCase(),k=0;items.forEach(function(el){var ok=!q||el.textContent.toLowerCase().indexOf(q)>-1;el.hidden=!ok;if(ok)k++});if(c)c.textContent=k+' jurisdiction'+(k===1?'':'s');};})();</script>`;
   return shell({
     path: "/by-state",
     title: "Browse by state — Data Libertarian",

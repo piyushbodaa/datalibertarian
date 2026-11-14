@@ -353,8 +353,8 @@ export function SourcesPage() {
           </li>
           <li className="docket-slip text-ink/80">
             <strong>GHMC (Hyderabad)</strong> — GHMC Budget Estimates 2025-26, Budget Highlights
-            table A (Rs Cr). Hero is Budget Size (RE + CE) BE 2025-26. No 2026-27 book is on
-            ghmc.gov.in yet; the press figure is not typed.{" "}
+            table A (Rs Cr). Hero is Budget Size (RE + CE) BE 2025-26. No 2026-27 book is published on
+            ghmc.gov.in yet; secondary press figures are not used.{" "}
             <Link to="/municipal/ghmc">Open GHMC</Link>
           </li>
           <li className="docket-slip text-ink/80">
@@ -390,7 +390,7 @@ export function SourcesPage() {
             the finance hub. The Finance Secretary memorandum has no isolated 2055 line.
           </li>
           <li className="docket-slip text-ink/80">
-            Karnataka and Gujarat pay-line depth — not typed. Summary only.
+            Karnataka and Gujarat granular object-head salary depth — summary totals only parsed so far.
           </li>
           <li className="docket-slip text-ink/80">
             J&amp;K and Puducherry — their demands (58, 59) are lump transfers, not police lines.
@@ -412,8 +412,8 @@ export function SourcesPage() {
         <h2 className="font-display text-xl font-semibold tracking-tight">Limitations</h2>
         <ul className="mt-4 list-none space-y-3 p-0">
           <li className="docket-slip text-ink/80">
-            <strong>Plan</strong> is what was voted. <strong>Updated plan</strong> is the mid-year
-            figure. <strong>Spent</strong> is what was booked.
+            <strong>Budget Est. (BE)</strong> is what was voted. <strong>Revised Est. (RE)</strong> is the mid-year
+            revision. <strong>Actual</strong> is audited or provisional actual expenditure.
           </li>
           <li className="docket-slip text-ink/80">
             “Added from printed lines” means we added object lines ourselves. It is not a printed

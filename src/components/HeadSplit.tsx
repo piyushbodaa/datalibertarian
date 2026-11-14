@@ -15,8 +15,8 @@ type Props = {
 export function HeadSplit({
   run,
   cap,
-  title = "Running the force vs buildings and gear",
-  note = "Same year’s plan. Buildings and gear are the thin slice — that is the book.",
+  title = "Revenue (running costs) vs Capital (infrastructure & gear)",
+  note = "Share of this year’s budget allocation between recurring operations and capital outlay.",
   runLabel = "Running costs",
   capLabel = "Buildings and gear",
 }: Props) {
@@ -31,7 +31,7 @@ export function HeadSplit({
         <CitationChip citationId={run.citationId} />
       </ChartCaption>
       <div
-        className="flex h-8 w-full max-w-3xl overflow-hidden bg-ink/[0.05]"
+        className="flex h-8 w-full max-w-3xl overflow-hidden rounded-md bg-slate-100"
         role="img"
         aria-label={`${runLabel} ${runPct.toFixed(1)} percent. ${capLabel} ${capPct.toFixed(1)} percent.`}
       >

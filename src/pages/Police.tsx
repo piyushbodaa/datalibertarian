@@ -87,7 +87,7 @@ export function PolicePage() {
       <section className="mt-12">
         <h2 className="font-display text-2xl font-semibold tracking-tight">The police ledger</h2>
         <p className="mt-2 max-w-2xl text-sm text-ink/70">
-          Spent, plan, updated plan, and next plan. Amounts in crore.
+          Actual, Budget Est., Revised Est., and current Budget Est. Amounts in crore.
         </p>
         <div className="mt-6">
           <LedgerTable
@@ -115,7 +115,7 @@ export function PolicePage() {
           {
             id: "object",
             label: "Salaries",
-            empty: "A statewide salaries total is not typed here.",
+            empty: "Statewide salary object-head total not separately printed in this volume.",
           },
           {
             id: "station",

@@ -33,7 +33,7 @@ export function UtPolicePage({ slug }: { slug: string }) {
         cap={cap}
         runningLine={book.run2055}
         capitalLine={book.cap4055}
-        caption="Spent, plan, updated plan, and next plan. Printed in thousands; shown in crore."
+        caption="Actual, Budget Est., Revised Est., and current Budget Est. Printed in thousands; shown in crore."
       />
 
       <section className="carbon-sheet mt-10 px-4 py-6 sm:px-6">

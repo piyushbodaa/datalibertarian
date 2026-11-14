@@ -1,26 +1,38 @@
 import { applyMetadata } from "../lib/metadata";
 import type { ReactNode } from "react";
 import { useEffect } from "react";
-import { Link, NavLink, useLocation } from "react-router-dom";
-import { EXTRACT_DATE } from "../data/sources";
+import { Link, useLocation } from "react-router-dom";
 import { crumbsFor } from "../lib/nav";
 
-function figuresDate(iso: string): string {
-  const [y, m, d] = iso.split("-").map(Number);
-  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-  return `${d} ${months[(m ?? 1) - 1]} ${y}`;
-}
-
-const NAV = [
-  { to: "/spending", label: "Spending" },
-  { to: "/compare", label: "Compare" },
-  { to: "/states", label: "States" },
-  { to: "/union", label: "Centre" },
-  { to: "/municipal", label: "City" },
-  { to: "/gram", label: "Village" },
-  { to: "/inflation", label: "Inflation" },
-  { to: "/sources", label: "Sources & methodology" },
-] as const;
+const NAV: { to: string; label: string; match: (p: string) => boolean }[] = [
+  { to: "/spending", label: "Overview", match: (p) => p === "/spending" },
+  {
+    to: "/states",
+    label: "States",
+    match: (p) =>
+      p === "/states" ||
+      (/^\/[^/]+\/(police|health)$/.test(p) && !p.startsWith("/delhi/")),
+  },
+  { to: "/compare", label: "Compare", match: (p) => p === "/compare" },
+  {
+    to: "/union",
+    label: "Union",
+    match: (p) => p === "/union" || p.startsWith("/union/") || p === "/delhi/police",
+  },
+  {
+    to: "/municipal",
+    label: "Municipal",
+    match: (p) => p === "/municipal" || p.startsWith("/municipal/"),
+  },
+  { to: "/gram", label: "Gram", match: (p) => p === "/gram" },
+  {
+    to: "/inflation",
+    label: "Prices & CPI",
+    match: (p) => p === "/inflation" || p.startsWith("/inflation/"),
+  },
+  { to: "/sources", label: "Sources", match: (p) => p === "/sources" },
+  { to: "/corrections", label: "Corrections", match: (p) => p === "/corrections" },
+];
 
 export function SiteFrame({ children }: { children: ReactNode }) {
   const location = useLocation();
@@ -32,57 +44,86 @@ export function SiteFrame({ children }: { children: ReactNode }) {
       const missing = !!document.querySelector("[data-not-found]");
       let robots = document.querySelector<HTMLMetaElement>('meta[name="robots"]');
       if (missing || location.pathname === "/search") {
-        if (!robots) { robots = document.createElement("meta"); robots.name = "robots"; document.head.append(robots); }
+        if (!robots) {
+          robots = document.createElement("meta");
+          robots.name = "robots";
+          document.head.append(robots);
+        }
         robots.content = "noindex";
         if (missing) document.title = "Page not found — Data Libertarian";
-      } else robots?.remove();
+      } else {
+        robots?.remove();
+      }
     };
     update();
+    const main = document.getElementById("main");
+    if (!main) return;
     const observer = new MutationObserver(update);
-    observer.observe(document.getElementById("main")!, { childList: true, subtree: true });
+    observer.observe(main, { childList: true, subtree: true });
     return () => observer.disconnect();
   }, [location.pathname, location.search]);
 
   useEffect(() => {
-    if (!location.hash) { window.scrollTo(0, 0); return; }
+    if (!location.hash) {
+      window.scrollTo(0, 0);
+      return;
+    }
     const scroll = () => {
       const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
-      if (target) { target.scrollIntoView(); return true; }
+      if (target) {
+        target.scrollIntoView();
+        return true;
+      }
       return false;
     };
     if (scroll()) return;
-    const observer = new MutationObserver(() => { if (scroll()) observer.disconnect(); });
-    observer.observe(document.getElementById("main")!, { childList: true, subtree: true });
+    const main = document.getElementById("main");
+    if (!main) return;
+    const observer = new MutationObserver(() => {
+      if (scroll()) observer.disconnect();
+    });
+    observer.observe(main, { childList: true, subtree: true });
     return () => observer.disconnect();
   }, [location.pathname, location.hash]);
 
   return (
-    <div className="min-h-[100dvh]">
-      <a href="#main" className="skip-link">
-        Skip to figures
+    <div className="min-h-screen bg-paper text-ink">
+      <a
+        href="#main"
+        className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-rust focus:px-3 focus:py-2 focus:text-sm focus:font-semibold focus:text-white"
+      >
+        Skip to content
       </a>
+
       <header className="site-header">
-        <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3 sm:px-6">
-          <a href="/" className="min-w-0 no-underline text-ink hover:text-rust">
-            <span className="font-display text-[1.2rem] font-semibold tracking-tight sm:text-[1.45rem]">
-              Data Libertarian
-            </span>
-            <span className="mt-0.5 hidden text-[0.72rem] text-ink/55 sm:block">
-              Official books · cited rupees
-            </span>
-          </a>
-        </div>
-        <nav className="mx-auto max-w-6xl border-t border-ink/10 px-2 sm:px-4" aria-label="Site">
-          <div className="nav-scroll">
-            {NAV.map((item) => (
-              <NavLink key={item.to} to={item.to} className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
-                {item.label}
-              </NavLink>
-            ))}
+        <div className="mx-auto flex max-w-[1140px] flex-wrap items-center justify-between gap-2 px-4 py-2 sm:px-6">
+          <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-ink/55">
+            <span className="inline-block h-2 w-2 rounded-full bg-rust" aria-hidden="true" />
+            <span>Public Money &amp; Prices</span>
           </div>
-        </nav>
+          <nav aria-label="Public Money sections" className="flex flex-wrap items-center gap-1">
+            {NAV.map((item) => {
+              const active = item.match(location.pathname);
+              return (
+                <Link
+                  key={item.to}
+                  to={item.to}
+                  aria-current={active ? "page" : undefined}
+                  className={
+                    active
+                      ? "rounded-md bg-[#EEF2F7] px-2.5 py-1 text-xs font-semibold text-rust no-underline"
+                      : "rounded-md px-2.5 py-1 text-xs font-medium text-ink/70 no-underline transition hover:bg-slate-100 hover:text-ink"
+                  }
+                >
+                  {item.label}
+                </Link>
+              );
+            })}
+          </nav>
+        </div>
       </header>
-      <main id="main" className="mx-auto max-w-6xl px-4 py-7 sm:px-6 sm:py-10">
+
+      <main id="main" className="mx-auto max-w-[1140px] px-4 py-8 sm:px-6 sm:py-10">
         {crumbs.length > 1 ? (
           <nav aria-label="Breadcrumb">
             <ol className="crumb-nav">
@@ -90,7 +131,7 @@ export function SiteFrame({ children }: { children: ReactNode }) {
                 <li key={c.to} className="flex items-center gap-2">
                   {i > 0 ? <span aria-hidden="true">/</span> : null}
                   {i === crumbs.length - 1 ? (
-                    <span className="text-ink">{c.label}</span>
+                    <span className="font-medium text-ink">{c.label}</span>
                   ) : (
                     <Link to={c.to}>{c.label}</Link>
                   )}
@@ -101,22 +142,25 @@ export function SiteFrame({ children }: { children: ReactNode }) {
         ) : null}
         {children}
       </main>
-      <footer className="mx-auto max-w-6xl border-t border-ink/15 px-4 py-7 text-sm text-ink/60 sm:px-6">
-        <p>
-          Figures taken from official budget books. Empty means we have not read that book yet — not
-          that it is zero. Initial budget extraction: {figuresDate(EXTRACT_DATE)}. See each source for its extraction date.
-        </p>
-        <p className="mt-3 flex flex-wrap gap-x-4 gap-y-1">
-          <Link to="/sources">Sources &amp; methodology</Link>
-          <Link to="/corrections">Report a correction</Link>
-          <Link to="/inflation">Inflation</Link>
-          <a href="/crime">Crime</a>
-          <Link to="/compare">Compare</Link>
-          <Link to="/states">States</Link>
-          <Link to="/union">Centre</Link>
-        </p>
+
+      <footer className="mx-auto max-w-[1140px] border-t border-[var(--rule)] px-4 py-6 text-xs text-ink/60 sm:px-6">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <p className="m-0">
+            Figures quoted directly from official Union &amp; State Annual Financial Statements, Demand books, and MoSPI CPI bulletins.
+          </p>
+          <div className="flex flex-wrap items-center gap-4 font-medium">
+            <Link to="/sources" className="text-ink/75 no-underline hover:text-rust hover:underline">
+              Sources &amp; citations
+            </Link>
+            <Link to="/corrections" className="text-ink/75 no-underline hover:text-rust hover:underline">
+              Correction log
+            </Link>
+            <a href="/search" className="text-ink/75 no-underline hover:text-rust hover:underline">
+              Search archive
+            </a>
+          </div>
+        </div>
       </footer>
     </div>
   );
 }
-
