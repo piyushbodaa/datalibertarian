@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { currentItem, injectSiteNav, SITE_NAV_MARK } from "./siteNav";
+import { currentItem, injectSiteNav, renderSiteFooter, renderSiteNav, SITE_NAV, SITE_NAV_MARK } from "./siteNav";
 
 test("marks the most specific section for a path", () => {
   assert.equal(currentItem("/crime/rape")?.name, "Rape");
@@ -31,4 +31,23 @@ test("adds the directory footer once, before the last </body>", () => {
   const out = injectSiteNav(page, "/");
   assert.equal(out.split('class="dl-foot"').length, 2);
   assert.ok(out.indexOf('class="dl-foot"') > out.indexOf("<script>"));
+});
+
+test("one menu serves desktop and phones, and works without JavaScript", () => {
+  const bar = renderSiteNav("/crime/rape");
+  assert.equal(bar.split("<details").length, 2);
+  assert.ok(bar.includes('class="dl-nav-sum-narrow">Menu<'));
+  assert.ok(bar.includes('id="dl-nav-q"') && bar.includes('id="dl-nav-q2"'));
+  assert.ok(bar.includes('<a class="dl-nav-link" href="/crime" aria-current="page">Crime</a>'));
+  assert.ok(bar.includes('href="/search"'));
+});
+
+test("every dataset is reachable from the menu and the footer", () => {
+  const bar = renderSiteNav("/");
+  const foot = renderSiteFooter();
+  for (const item of SITE_NAV.flatMap((g) => g.items)) {
+    assert.ok(bar.includes(`href="${item.href}"`), item.href);
+    assert.ok(foot.includes(`href="${item.href}"`), item.href);
+  }
+  assert.ok(foot.includes("not zero"));
 });
