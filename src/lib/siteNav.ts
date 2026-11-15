@@ -18,6 +18,7 @@ export const SITE_NAV: NavGroup[] = [
       { href: "/civilliberties", name: "Civil Liberties", what: "People punished for speech or religion" },
       { href: "/victimlesscrimes", name: "Victimless Crimes", what: "Prosecutions with no complaining victim" },
       { href: "/economicfreedom", name: "Economic Freedom", what: "Raids and penalties on peaceful economic activity" },
+      { href: "/redtape", name: "Red Tape", what: "Environmental & forest clearance timelines (PARIVESH)" },
     ],
   },
   {
@@ -102,7 +103,7 @@ export function renderSiteNav(path: string): string {
     path === "/sources" ||
     /^\/[^/]+\/(police|health)$/.test(path);
   const isCrime = path === "/crime" || path.startsWith("/crime/");
-  const isRights = ["/babuwatch", "/civilliberties", "/victimlesscrimes", "/economicfreedom", "/psu"].some(
+  const isRights = ["/babuwatch", "/civilliberties", "/victimlesscrimes", "/economicfreedom", "/redtape", "/psu"].some(
     (p) => path === p || path.startsWith(p + "/"),
   );
   const isPrices = path === "/inflation" || path.startsWith("/inflation/");

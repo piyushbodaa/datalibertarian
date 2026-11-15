@@ -1,0 +1,3432 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "is_seed": false,
+    "snapshot_utc": "2026-11-15T13:00:00+00:00",
+    "p2_completed_filing_window": "filings 2022\u2013mid-2024",
+    "min_reportable_cell_n": 30,
+    "states_and_uts_count": 36
+  },
+  "desk_waterfalls": {
+    "central_ec_moefcc": {
+      "track_label": "Central MoEFCC \u2014 EC & Appraised ToR Internal Desk Waterfall",
+      "proposals_n": 1139,
+      "median_total_gov_days": 91.59,
+      "mean_total_gov_days": 100.97,
+      "desks": [
+        {
+          "desk_order": 1,
+          "desk_id": "ec_central_scrutiny",
+          "desk_label": "1. MS Initial & Post-EDS Scrutiny",
+          "owner": "government",
+          "proposals_touching_n": 1132,
+          "is_suppressed": false,
+          "touch_rate_pct": 99.4,
+          "step_occurrences_n": 2266,
+          "dwell_days_when_touched": {
+            "n": 1132,
+            "n_weighted": 1132.0,
+            "mean": 23.67,
+            "p25": 10.38,
+            "median": 18.99,
+            "p75": 31.77,
+            "iqr": 21.39,
+            "p90": 47.27,
+            "p95": 59.46,
+            "min": 0.06,
+            "max": 152.88
+          },
+          "mean_days_across_all_proposals": 23.52,
+          "share_of_track_gov_time_pct": 23.3
+        },
+        {
+          "desk_order": 2,
+          "desk_id": "ec_central_eac",
+          "desk_label": "2. Expert Appraisal Committee (EAC)",
+          "owner": "government",
+          "proposals_touching_n": 1132,
+          "is_suppressed": false,
+          "touch_rate_pct": 99.4,
+          "step_occurrences_n": 2361,
+          "dwell_days_when_touched": {
+            "n": 1132,
+            "n_weighted": 1132.0,
+            "mean": 34.46,
+            "p25": 18.96,
+            "median": 28.12,
+            "p75": 43.95,
+            "iqr": 24.99,
+            "p90": 70.0,
+            "p95": 87.81,
+            "min": 0.0,
+            "max": 199.37
+          },
+          "mean_days_across_all_proposals": 34.25,
+          "share_of_track_gov_time_pct": 33.9
+        },
+        {
+          "desk_order": 3,
+          "desk_id": "ec_central_dd",
+          "desk_label": "3. Deputy / Joint Director (IA Division)",
+          "owner": "government",
+          "proposals_touching_n": 1132,
+          "is_suppressed": false,
+          "touch_rate_pct": 99.4,
+          "step_occurrences_n": 2293,
+          "dwell_days_when_touched": {
+            "n": 1132,
+            "n_weighted": 1132.0,
+            "mean": 17.27,
+            "p25": 6.74,
+            "median": 11.8,
+            "p75": 20.32,
+            "iqr": 13.58,
+            "p90": 38.38,
+            "p95": 51.83,
+            "min": 0.08,
+            "max": 165.87
+          },
+          "mean_days_across_all_proposals": 17.16,
+          "share_of_track_gov_time_pct": 17.0
+        },
+        {
+          "desk_order": 4,
+          "desk_id": "ec_central_ms_post",
+          "desk_label": "4. Member Secretary (Post-EAC Review & Signing)",
+          "owner": "government",
+          "proposals_touching_n": 1132,
+          "is_suppressed": false,
+          "touch_rate_pct": 99.4,
+          "step_occurrences_n": 4395,
+          "dwell_days_when_touched": {
+            "n": 1132,
+            "n_weighted": 1132.0,
+            "mean": 13.79,
+            "p25": 3.21,
+            "median": 7.4,
+            "p75": 16.41,
+            "iqr": 13.2,
+            "p90": 31.12,
+            "p95": 47.46,
+            "min": 0.04,
+            "max": 205.08
+          },
+          "mean_days_across_all_proposals": 13.71,
+          "share_of_track_gov_time_pct": 13.6
+        },
+        {
+          "desk_order": 5,
+          "desk_id": "ec_central_js",
+          "desk_label": "5. Joint Secretary (MoEFCC)",
+          "owner": "government",
+          "proposals_touching_n": 757,
+          "is_suppressed": false,
+          "touch_rate_pct": 66.5,
+          "step_occurrences_n": 1701,
+          "dwell_days_when_touched": {
+            "n": 757,
+            "n_weighted": 757.0,
+            "mean": 4.01,
+            "p25": 1.65,
+            "median": 3.23,
+            "p75": 5.06,
+            "iqr": 3.41,
+            "p90": 8.01,
+            "p95": 9.88,
+            "min": 0.02,
+            "max": 96.65
+          },
+          "mean_days_across_all_proposals": 2.67,
+          "share_of_track_gov_time_pct": 2.6
+        },
+        {
+          "desk_order": 6,
+          "desk_id": "ec_central_as_ss",
+          "desk_label": "6. Additional / Special Secretary",
+          "owner": "government",
+          "proposals_touching_n": 954,
+          "is_suppressed": false,
+          "touch_rate_pct": 83.8,
+          "step_occurrences_n": 2210,
+          "dwell_days_when_touched": {
+            "n": 954,
+            "n_weighted": 954.0,
+            "mean": 3.53,
+            "p25": 1.47,
+            "median": 2.78,
+            "p75": 4.63,
+            "iqr": 3.16,
+            "p90": 7.32,
+            "p95": 9.68,
+            "min": 0.01,
+            "max": 21.47
+          },
+          "mean_days_across_all_proposals": 2.96,
+          "share_of_track_gov_time_pct": 2.9
+        },
+        {
+          "desk_order": 7,
+          "desk_id": "ec_central_secretary",
+          "desk_label": "7. Secretary (MoEFCC)",
+          "owner": "government",
+          "proposals_touching_n": 746,
+          "is_suppressed": false,
+          "touch_rate_pct": 65.5,
+          "step_occurrences_n": 1633,
+          "dwell_days_when_touched": {
+            "n": 746,
+            "n_weighted": 746.0,
+            "mean": 4.42,
+            "p25": 1.77,
+            "median": 3.29,
+            "p75": 6.11,
+            "iqr": 4.34,
+            "p90": 9.71,
+            "p95": 11.18,
+            "min": 0.0,
+            "max": 40.82
+          },
+          "mean_days_across_all_proposals": 2.9,
+          "share_of_track_gov_time_pct": 2.9
+        },
+        {
+          "desk_order": 8,
+          "desk_id": "ec_central_minister",
+          "desk_label": "8. Union Minister (MoEFCC)",
+          "owner": "government",
+          "proposals_touching_n": 742,
+          "is_suppressed": false,
+          "touch_rate_pct": 65.1,
+          "step_occurrences_n": 794,
+          "dwell_days_when_touched": {
+            "n": 742,
+            "n_weighted": 742.0,
+            "mean": 5.86,
+            "p25": 2.99,
+            "median": 5.13,
+            "p75": 6.88,
+            "iqr": 3.9,
+            "p90": 10.95,
+            "p95": 13.04,
+            "min": 0.04,
+            "max": 29.62
+          },
+          "mean_days_across_all_proposals": 3.82,
+          "share_of_track_gov_time_pct": 3.8
+        }
+      ]
+    },
+    "state_ec_seiaa": {
+      "track_label": "State SEIAA / SEAC \u2014 EC & ToR Desk Waterfall (non-Form-2)",
+      "proposals_n": 455,
+      "median_total_gov_days": 110.2,
+      "mean_total_gov_days": 143.45,
+      "desks": [
+        {
+          "desk_order": 1,
+          "desk_id": "ec_state_scrutiny",
+          "desk_label": "1. SEIAA / SEAC Initial & Post-EDS Scrutiny",
+          "owner": "government",
+          "proposals_touching_n": 169,
+          "is_suppressed": false,
+          "touch_rate_pct": 37.1,
+          "step_occurrences_n": 287,
+          "dwell_days_when_touched": {
+            "n": 169,
+            "n_weighted": 169.0,
+            "mean": 45.05,
+            "p25": 8.87,
+            "median": 31.79,
+            "p75": 49.11,
+            "iqr": 40.25,
+            "p90": 75.02,
+            "p95": 164.17,
+            "min": 0.16,
+            "max": 525.97
+          },
+          "mean_days_across_all_proposals": 16.73,
+          "share_of_track_gov_time_pct": 11.7
+        },
+        {
+          "desk_order": 2,
+          "desk_id": "ec_state_spcb",
+          "desk_label": "2. SPCB / PCC Public Consultation & Comments",
+          "owner": "government",
+          "proposals_touching_n": 0,
+          "is_suppressed": false,
+          "touch_rate_pct": 0.0,
+          "step_occurrences_n": 0,
+          "dwell_days_when_touched": {
+            "n": 0,
+            "n_weighted": 0.0,
+            "mean": null,
+            "p25": null,
+            "median": null,
+            "p75": null,
+            "iqr": null,
+            "p90": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "mean_days_across_all_proposals": 0.0,
+          "share_of_track_gov_time_pct": 0.0
+        },
+        {
+          "desk_order": 3,
+          "desk_id": "ec_state_seac",
+          "desk_label": "3. State Expert Appraisal Committee (SEAC)",
+          "owner": "government",
+          "proposals_touching_n": 453,
+          "is_suppressed": false,
+          "touch_rate_pct": 99.6,
+          "step_occurrences_n": 1379,
+          "dwell_days_when_touched": {
+            "n": 453,
+            "n_weighted": 453.0,
+            "mean": 81.59,
+            "p25": 20.14,
+            "median": 57.97,
+            "p75": 113.98,
+            "iqr": 93.84,
+            "p90": 189.79,
+            "p95": 240.11,
+            "min": 0.0,
+            "max": 514.12
+          },
+          "mean_days_across_all_proposals": 81.23,
+          "share_of_track_gov_time_pct": 56.6
+        },
+        {
+          "desk_order": 4,
+          "desk_id": "ec_state_seiaa_decision",
+          "desk_label": "4. SEIAA Authority Routing & Final Decision",
+          "owner": "government",
+          "proposals_touching_n": 386,
+          "is_suppressed": false,
+          "touch_rate_pct": 84.8,
+          "step_occurrences_n": 1168,
+          "dwell_days_when_touched": {
+            "n": 386,
+            "n_weighted": 386.0,
+            "mean": 53.62,
+            "p25": 21.03,
+            "median": 38.13,
+            "p75": 59.57,
+            "iqr": 38.54,
+            "p90": 122.48,
+            "p95": 156.04,
+            "min": 0.67,
+            "max": 324.68
+          },
+          "mean_days_across_all_proposals": 45.49,
+          "share_of_track_gov_time_pct": 31.7
+        }
+      ]
+    },
+    "forest_clearance": {
+      "track_label": "Forest Clearance (FC) \u2014 Multi-Tier State-to-Centre Desk Waterfall",
+      "proposals_n": 552,
+      "median_total_gov_days": 371.64,
+      "mean_total_gov_days": 407.04,
+      "desks": [
+        {
+          "desk_order": 1,
+          "desk_id": "fc_nodal",
+          "desk_label": "1. State Nodal Officer (Forest Conservation)",
+          "owner": "government",
+          "proposals_touching_n": 552,
+          "is_suppressed": false,
+          "touch_rate_pct": 100.0,
+          "step_occurrences_n": 3842,
+          "dwell_days_when_touched": {
+            "n": 552,
+            "n_weighted": 552.0,
+            "mean": 59.13,
+            "p25": 18.57,
+            "median": 41.72,
+            "p75": 70.67,
+            "iqr": 52.1,
+            "p90": 115.43,
+            "p95": 174.4,
+            "min": 0.13,
+            "max": 764.58
+          },
+          "mean_days_across_all_proposals": 59.13,
+          "share_of_track_gov_time_pct": 14.5
+        },
+        {
+          "desk_order": 2,
+          "desk_id": "fc_dfo",
+          "desk_label": "2. Divisional Forest Officer (DFO Field Scrutiny & Levies)",
+          "owner": "government",
+          "proposals_touching_n": 552,
+          "is_suppressed": false,
+          "touch_rate_pct": 100.0,
+          "step_occurrences_n": 2684,
+          "dwell_days_when_touched": {
+            "n": 552,
+            "n_weighted": 552.0,
+            "mean": 95.52,
+            "p25": 34.26,
+            "median": 65.35,
+            "p75": 129.5,
+            "iqr": 95.24,
+            "p90": 200.34,
+            "p95": 248.7,
+            "min": 0.32,
+            "max": 736.05
+          },
+          "mean_days_across_all_proposals": 95.52,
+          "share_of_track_gov_time_pct": 23.5
+        },
+        {
+          "desk_order": 3,
+          "desk_id": "fc_cf",
+          "desk_label": "3. Conservator of Forests (CF / CCF)",
+          "owner": "government",
+          "proposals_touching_n": 437,
+          "is_suppressed": false,
+          "touch_rate_pct": 79.2,
+          "step_occurrences_n": 521,
+          "dwell_days_when_touched": {
+            "n": 437,
+            "n_weighted": 437.0,
+            "mean": 11.94,
+            "p25": 0.91,
+            "median": 3.97,
+            "p75": 8.84,
+            "iqr": 7.93,
+            "p90": 25.14,
+            "p95": 42.23,
+            "min": 0.0,
+            "max": 310.91
+          },
+          "mean_days_across_all_proposals": 9.45,
+          "share_of_track_gov_time_pct": 2.3
+        },
+        {
+          "desk_order": 4,
+          "desk_id": "fc_state_govt",
+          "desk_label": "4. State Government / Forest Secretary & Diversion Order",
+          "owner": "government",
+          "proposals_touching_n": 552,
+          "is_suppressed": false,
+          "touch_rate_pct": 100.0,
+          "step_occurrences_n": 1288,
+          "dwell_days_when_touched": {
+            "n": 552,
+            "n_weighted": 552.0,
+            "mean": 57.04,
+            "p25": 14.85,
+            "median": 30.97,
+            "p75": 63.25,
+            "iqr": 48.39,
+            "p90": 116.07,
+            "p95": 214.64,
+            "min": 0.0,
+            "max": 687.13
+          },
+          "mean_days_across_all_proposals": 57.04,
+          "share_of_track_gov_time_pct": 14.0
+        },
+        {
+          "desk_order": 5,
+          "desk_id": "fc_intragov_query",
+          "desk_label": "5. Intra-Gov Query Loops (DFO <-> CF <-> Nodal <-> State <-> IRO)",
+          "owner": "government",
+          "proposals_touching_n": 493,
+          "is_suppressed": false,
+          "touch_rate_pct": 89.3,
+          "step_occurrences_n": 5440,
+          "dwell_days_when_touched": {
+            "n": 493,
+            "n_weighted": 493.0,
+            "mean": 84.85,
+            "p25": 22.0,
+            "median": 55.66,
+            "p75": 114.12,
+            "iqr": 92.12,
+            "p90": 198.21,
+            "p95": 280.28,
+            "min": 0.0,
+            "max": 505.23
+          },
+          "mean_days_across_all_proposals": 75.78,
+          "share_of_track_gov_time_pct": 18.6
+        },
+        {
+          "desk_order": 6,
+          "desk_id": "fc_iro_rec",
+          "desk_label": "6. MoEFCC Regional Office (IRO / REC)",
+          "owner": "government",
+          "proposals_touching_n": 484,
+          "is_suppressed": false,
+          "touch_rate_pct": 87.7,
+          "step_occurrences_n": 8612,
+          "dwell_days_when_touched": {
+            "n": 484,
+            "n_weighted": 484.0,
+            "mean": 111.87,
+            "p25": 38.84,
+            "median": 67.42,
+            "p75": 157.62,
+            "iqr": 118.78,
+            "p90": 249.62,
+            "p95": 322.4,
+            "min": 0.0,
+            "max": 883.77
+          },
+          "mean_days_across_all_proposals": 98.09,
+          "share_of_track_gov_time_pct": 24.1
+        },
+        {
+          "desk_order": 7,
+          "desk_id": "fc_moefcc_hq_fac",
+          "desk_label": "7. Central MoEFCC HQ / FAC / Forest Wing",
+          "owner": "government",
+          "proposals_touching_n": 44,
+          "is_suppressed": false,
+          "touch_rate_pct": 8.0,
+          "step_occurrences_n": 1383,
+          "dwell_days_when_touched": {
+            "n": 44,
+            "n_weighted": 44.0,
+            "mean": 146.15,
+            "p25": 103.08,
+            "median": 160.53,
+            "p75": 194.37,
+            "iqr": 91.29,
+            "p90": 213.46,
+            "p95": 223.74,
+            "min": 0.12,
+            "max": 236.02
+          },
+          "mean_days_across_all_proposals": 11.65,
+          "share_of_track_gov_time_pct": 2.9
+        },
+        {
+          "desk_order": 8,
+          "desk_id": "fc_minister",
+          "desk_label": "8. Union Minister (MoEFCC HQ)",
+          "owner": "government",
+          "proposals_touching_n": 39,
+          "is_suppressed": false,
+          "touch_rate_pct": 7.1,
+          "step_occurrences_n": 43,
+          "dwell_days_when_touched": {
+            "n": 39,
+            "n_weighted": 39.0,
+            "mean": 5.31,
+            "p25": 3.68,
+            "median": 4.15,
+            "p75": 5.87,
+            "iqr": 2.19,
+            "p90": 10.8,
+            "p95": 11.28,
+            "min": 1.24,
+            "max": 13.9
+          },
+          "mean_days_across_all_proposals": 0.37,
+          "share_of_track_gov_time_pct": 0.1
+        }
+      ]
+    },
+    "wildlife_clearance": {
+      "track_label": "Wildlife Clearance (WLC) \u2014 Warden to SC-NBWL Desk Waterfall",
+      "proposals_n": 448,
+      "median_total_gov_days": 533.5,
+      "mean_total_gov_days": 530.36,
+      "desks": [
+        {
+          "desk_order": 1,
+          "desk_id": "wlc_warden",
+          "desk_label": "1. Wildlife Warden (Site Inspection & Part-2/3)",
+          "owner": "government",
+          "proposals_touching_n": 0,
+          "is_suppressed": false,
+          "touch_rate_pct": 0.0,
+          "step_occurrences_n": 0,
+          "dwell_days_when_touched": {
+            "n": 0,
+            "n_weighted": 0.0,
+            "mean": null,
+            "p25": null,
+            "median": null,
+            "p75": null,
+            "iqr": null,
+            "p90": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "mean_days_across_all_proposals": 0.0,
+          "share_of_track_gov_time_pct": 0.0
+        },
+        {
+          "desk_order": 2,
+          "desk_id": "wlc_cwlw",
+          "desk_label": "2. Chief Wildlife Warden (CWLW / Part-4)",
+          "owner": "government",
+          "proposals_touching_n": 0,
+          "is_suppressed": false,
+          "touch_rate_pct": 0.0,
+          "step_occurrences_n": 0,
+          "dwell_days_when_touched": {
+            "n": 0,
+            "n_weighted": 0.0,
+            "mean": null,
+            "p25": null,
+            "median": null,
+            "p75": null,
+            "iqr": null,
+            "p90": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "mean_days_across_all_proposals": 0.0,
+          "share_of_track_gov_time_pct": 0.0
+        },
+        {
+          "desk_order": 3,
+          "desk_id": "wlc_sbwl",
+          "desk_label": "3. State Board for Wildlife (SBWL)",
+          "owner": "government",
+          "proposals_touching_n": 0,
+          "is_suppressed": false,
+          "touch_rate_pct": 0.0,
+          "step_occurrences_n": 0,
+          "dwell_days_when_touched": {
+            "n": 0,
+            "n_weighted": 0.0,
+            "mean": null,
+            "p25": null,
+            "median": null,
+            "p75": null,
+            "iqr": null,
+            "p90": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "mean_days_across_all_proposals": 0.0,
+          "share_of_track_gov_time_pct": 0.0
+        },
+        {
+          "desk_order": 4,
+          "desk_id": "wlc_state_govt",
+          "desk_label": "4. State Government (Part-5 Forwarding)",
+          "owner": "government",
+          "proposals_touching_n": 1,
+          "is_suppressed": true,
+          "touch_rate_pct": 0.2,
+          "step_occurrences_n": 1,
+          "dwell_days_when_touched": {
+            "n": 0,
+            "n_weighted": 0.0,
+            "mean": null,
+            "p25": null,
+            "median": null,
+            "p75": null,
+            "iqr": null,
+            "p90": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "mean_days_across_all_proposals": 1.99,
+          "share_of_track_gov_time_pct": 0.4
+        },
+        {
+          "desk_order": 5,
+          "desk_id": "wlc_nbwl_ministry",
+          "desk_label": "5. Central MoEFCC / Standing Committee of NBWL",
+          "owner": "government",
+          "proposals_touching_n": 447,
+          "is_suppressed": false,
+          "touch_rate_pct": 99.8,
+          "step_occurrences_n": 535,
+          "dwell_days_when_touched": {
+            "n": 447,
+            "n_weighted": 447.0,
+            "mean": 529.55,
+            "p25": 339.0,
+            "median": 533.0,
+            "p75": 680.5,
+            "iqr": 341.5,
+            "p90": 802.0,
+            "p95": 965.4,
+            "min": 0.0,
+            "max": 3207.0
+          },
+          "mean_days_across_all_proposals": 528.37,
+          "share_of_track_gov_time_pct": 99.6
+        }
+      ]
+    },
+    "crz_clearance": {
+      "track_label": "Coastal Regulation Zone (CRZ) \u2014 SCZMA to MoEFCC Waterfall",
+      "proposals_n": 273,
+      "median_total_gov_days": 125.69,
+      "mean_total_gov_days": 186.02,
+      "desks": [
+        {
+          "desk_order": 1,
+          "desk_id": "crz_sczma",
+          "desk_label": "1. State Coastal Zone Management Authority (SCZMA)",
+          "owner": "government",
+          "proposals_touching_n": 273,
+          "is_suppressed": false,
+          "touch_rate_pct": 100.0,
+          "step_occurrences_n": 1258,
+          "dwell_days_when_touched": {
+            "n": 273,
+            "n_weighted": 273.0,
+            "mean": 162.43,
+            "p25": 68.86,
+            "median": 106.38,
+            "p75": 165.37,
+            "iqr": 96.51,
+            "p90": 384.54,
+            "p95": 500.06,
+            "min": 0.0,
+            "max": 991.75
+          },
+          "mean_days_across_all_proposals": 162.43,
+          "share_of_track_gov_time_pct": 87.3
+        },
+        {
+          "desk_order": 2,
+          "desk_id": "crz_intragov_query",
+          "desk_label": "2. MoEFCC <-> SCZMA Inter-Departmental Query",
+          "owner": "government",
+          "proposals_touching_n": 3,
+          "is_suppressed": true,
+          "touch_rate_pct": 1.1,
+          "step_occurrences_n": 4,
+          "dwell_days_when_touched": {
+            "n": 0,
+            "n_weighted": 0.0,
+            "mean": null,
+            "p25": null,
+            "median": null,
+            "p75": null,
+            "iqr": null,
+            "p90": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          },
+          "mean_days_across_all_proposals": 0.07,
+          "share_of_track_gov_time_pct": 0.0
+        },
+        {
+          "desk_order": 3,
+          "desk_id": "crz_nczma_eac",
+          "desk_label": "3. NCZMA / EAC (CRZ) Technical Appraisal",
+          "owner": "government",
+          "proposals_touching_n": 92,
+          "is_suppressed": false,
+          "touch_rate_pct": 33.7,
+          "step_occurrences_n": 252,
+          "dwell_days_when_touched": {
+            "n": 92,
+            "n_weighted": 92.0,
+            "mean": 39.12,
+            "p25": 22.31,
+            "median": 31.26,
+            "p75": 47.49,
+            "iqr": 25.18,
+            "p90": 66.22,
+            "p95": 83.2,
+            "min": 14.31,
+            "max": 137.3
+          },
+          "mean_days_across_all_proposals": 13.18,
+          "share_of_track_gov_time_pct": 7.1
+        },
+        {
+          "desk_order": 4,
+          "desk_id": "crz_moefcc_routing",
+          "desk_label": "4. MoEFCC IA-III Officers (DD -> MS -> JS -> AS -> Secy)",
+          "owner": "government",
+          "proposals_touching_n": 96,
+          "is_suppressed": false,
+          "touch_rate_pct": 35.2,
+          "step_occurrences_n": 914,
+          "dwell_days_when_touched": {
+            "n": 96,
+            "n_weighted": 96.0,
+            "mean": 23.36,
+            "p25": 13.81,
+            "median": 21.26,
+            "p75": 27.62,
+            "iqr": 13.8,
+            "p90": 38.28,
+            "p95": 52.26,
+            "min": 4.2,
+            "max": 80.34
+          },
+          "mean_days_across_all_proposals": 8.22,
+          "share_of_track_gov_time_pct": 4.4
+        },
+        {
+          "desk_order": 5,
+          "desk_id": "crz_minister",
+          "desk_label": "5. Union Minister (MoEFCC)",
+          "owner": "government",
+          "proposals_touching_n": 91,
+          "is_suppressed": false,
+          "touch_rate_pct": 33.3,
+          "step_occurrences_n": 95,
+          "dwell_days_when_touched": {
+            "n": 91,
+            "n_weighted": 91.0,
+            "mean": 6.33,
+            "p25": 2.29,
+            "median": 4.73,
+            "p75": 7.55,
+            "iqr": 5.26,
+            "p90": 14.18,
+            "p95": 16.82,
+            "min": 1.23,
+            "max": 21.81
+          },
+          "mean_days_across_all_proposals": 2.11,
+          "share_of_track_gov_time_pct": 1.1
+        }
+      ]
+    }
+  },
+  "state_leaderboard": [
+    {
+      "state_code": "RJ",
+      "state_name": "Rajasthan",
+      "is_ut": false,
+      "p2_clean_volume_total": 37511,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 35792,
+        "FC": 1159,
+        "WLC": 558,
+        "CRZ": 2
+      },
+      "timelines_crunched_n": 1326,
+      "granted_ec_substantive": {
+        "n": 221,
+        "n_full_stage": 215,
+        "is_suppressed": false,
+        "partition_suppressed": false,
+        "median_wall_days": 169.0,
+        "median_gov_days": 123.0,
+        "median_applicant_days": 15.0,
+        "mean_gov_days": 177.33,
+        "p90_gov_days": 367.0,
+        "breach_105d_wall_pct": 68.8,
+        "breach_105d_gov_pct": 57.7
+      },
+      "granted_factories_ec": {
+        "n": 132,
+        "n_full_stage": 131,
+        "is_suppressed": false,
+        "median_wall_days": 135.0,
+        "median_gov_days": 101.08,
+        "median_applicant_days": 13.0
+      },
+      "granted_mines_major_ec": {
+        "n": 88,
+        "n_full_stage": 83,
+        "is_suppressed": false,
+        "median_wall_days": 267.66,
+        "median_gov_days": 185.0,
+        "median_applicant_days": 18.0
+      },
+      "granted_mines_form2_ec": {
+        "n": 1,
+        "n_full_stage": 0,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 1,
+        "n_full_stage": 1,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 61,
+        "n_full_stage": 61,
+        "is_suppressed": false,
+        "median_wall_days": 661.82,
+        "median_gov_days": 361.2,
+        "median_applicant_days": 244.0
+      },
+      "pending_active": {
+        "n": 446,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 885.0,
+        "with_gov_pct": 28.9
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "MH",
+      "state_name": "Maharashtra",
+      "is_ut": false,
+      "p2_clean_volume_total": 17951,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 14350,
+        "FC": 1887,
+        "WLC": 662,
+        "CRZ": 1052
+      },
+      "timelines_crunched_n": 2334,
+      "granted_ec_substantive": {
+        "n": 405,
+        "n_full_stage": 402,
+        "is_suppressed": false,
+        "partition_suppressed": false,
+        "median_wall_days": 150.3,
+        "median_gov_days": 113.0,
+        "median_applicant_days": 14.37,
+        "mean_gov_days": 147.83,
+        "p90_gov_days": 267.0,
+        "breach_105d_wall_pct": 71.1,
+        "breach_105d_gov_pct": 55.0
+      },
+      "granted_factories_ec": {
+        "n": 355,
+        "n_full_stage": 352,
+        "is_suppressed": false,
+        "median_wall_days": 149.5,
+        "median_gov_days": 110.64,
+        "median_applicant_days": 16.0
+      },
+      "granted_mines_major_ec": {
+        "n": 42,
+        "n_full_stage": 42,
+        "is_suppressed": false,
+        "median_wall_days": 146.5,
+        "median_gov_days": 127.0,
+        "median_applicant_days": 6.0
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 8,
+        "n_full_stage": 8,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 29,
+        "n_full_stage": 29,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "pending_active": {
+        "n": 786,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 980.74,
+        "with_gov_pct": 32.9
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "GJ",
+      "state_name": "Gujarat",
+      "is_ut": false,
+      "p2_clean_volume_total": 14571,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 11579,
+        "FC": 2535,
+        "WLC": 270,
+        "CRZ": 187
+      },
+      "timelines_crunched_n": 2920,
+      "granted_ec_substantive": {
+        "n": 836,
+        "n_full_stage": 777,
+        "is_suppressed": false,
+        "partition_suppressed": false,
+        "median_wall_days": 161.0,
+        "median_gov_days": 135.0,
+        "median_applicant_days": 8.98,
+        "mean_gov_days": 162.19,
+        "p90_gov_days": 290.32,
+        "breach_105d_wall_pct": 73.1,
+        "breach_105d_gov_pct": 64.2
+      },
+      "granted_factories_ec": {
+        "n": 802,
+        "n_full_stage": 748,
+        "is_suppressed": false,
+        "median_wall_days": 159.94,
+        "median_gov_days": 132.82,
+        "median_applicant_days": 8.0
+      },
+      "granted_mines_major_ec": {
+        "n": 24,
+        "n_full_stage": 21,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 10,
+        "n_full_stage": 8,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 143,
+        "n_full_stage": 143,
+        "is_suppressed": false,
+        "median_wall_days": 560.15,
+        "median_gov_days": 351.46,
+        "median_applicant_days": 146.0
+      },
+      "pending_active": {
+        "n": 383,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 1018.05,
+        "with_gov_pct": 42.9
+      },
+      "seiaa_net_gov_rating_band": ">120d (0 pts)"
+    },
+    {
+      "state_code": "MP",
+      "state_name": "Madhya Pradesh",
+      "is_ut": false,
+      "p2_clean_volume_total": 12220,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 9182,
+        "FC": 2689,
+        "WLC": 349,
+        "CRZ": 0
+      },
+      "timelines_crunched_n": 2205,
+      "granted_ec_substantive": {
+        "n": 329,
+        "n_full_stage": 156,
+        "is_suppressed": false,
+        "partition_suppressed": false,
+        "median_wall_days": 117.01,
+        "median_gov_days": 95.98,
+        "median_applicant_days": 12.5,
+        "mean_gov_days": 130.86,
+        "p90_gov_days": 231.16,
+        "breach_105d_wall_pct": 52.6,
+        "breach_105d_gov_pct": 42.3
+      },
+      "granted_factories_ec": {
+        "n": 93,
+        "n_full_stage": 81,
+        "is_suppressed": false,
+        "median_wall_days": 85.0,
+        "median_gov_days": 73.0,
+        "median_applicant_days": 2.0
+      },
+      "granted_mines_major_ec": {
+        "n": 221,
+        "n_full_stage": 61,
+        "is_suppressed": false,
+        "median_wall_days": 173.09,
+        "median_gov_days": 117.0,
+        "median_applicant_days": 38.0
+      },
+      "granted_mines_form2_ec": {
+        "n": 787,
+        "n_full_stage": 0,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 15,
+        "n_full_stage": 14,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 127,
+        "n_full_stage": 127,
+        "is_suppressed": false,
+        "median_wall_days": 695.0,
+        "median_gov_days": 432.0,
+        "median_applicant_days": 248.53
+      },
+      "pending_active": {
+        "n": 415,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 850.0,
+        "with_gov_pct": 39.3
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "KA",
+      "state_name": "Karnataka",
+      "is_ut": false,
+      "p2_clean_volume_total": 8788,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 5952,
+        "FC": 1870,
+        "WLC": 427,
+        "CRZ": 539
+      },
+      "timelines_crunched_n": 1631,
+      "granted_ec_substantive": {
+        "n": 254,
+        "n_full_stage": 245,
+        "is_suppressed": false,
+        "partition_suppressed": false,
+        "median_wall_days": 117.15,
+        "median_gov_days": 95.41,
+        "median_applicant_days": 13.0,
+        "mean_gov_days": 122.84,
+        "p90_gov_days": 217.8,
+        "breach_105d_wall_pct": 55.1,
+        "breach_105d_gov_pct": 42.9
+      },
+      "granted_factories_ec": {
+        "n": 236,
+        "n_full_stage": 229,
+        "is_suppressed": false,
+        "median_wall_days": 108.0,
+        "median_gov_days": 90.4,
+        "median_applicant_days": 10.68
+      },
+      "granted_mines_major_ec": {
+        "n": 10,
+        "n_full_stage": 8,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 21,
+        "n_full_stage": 0,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 8,
+        "n_full_stage": 8,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 86,
+        "n_full_stage": 86,
+        "is_suppressed": false,
+        "median_wall_days": 916.89,
+        "median_gov_days": 424.07,
+        "median_applicant_days": 511.52
+      },
+      "pending_active": {
+        "n": 447,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 1052.87,
+        "with_gov_pct": 44.5
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "UP",
+      "state_name": "Uttar Pradesh",
+      "is_ut": false,
+      "p2_clean_volume_total": 7494,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 5091,
+        "FC": 2236,
+        "WLC": 167,
+        "CRZ": 0
+      },
+      "timelines_crunched_n": 667,
+      "granted_ec_substantive": {
+        "n": 154,
+        "n_full_stage": 153,
+        "is_suppressed": false,
+        "partition_suppressed": false,
+        "median_wall_days": 120.1,
+        "median_gov_days": 103.0,
+        "median_applicant_days": 5.68,
+        "mean_gov_days": 135.22,
+        "p90_gov_days": 236.8,
+        "breach_105d_wall_pct": 54.2,
+        "breach_105d_gov_pct": 48.4
+      },
+      "granted_factories_ec": {
+        "n": 131,
+        "n_full_stage": 130,
+        "is_suppressed": false,
+        "median_wall_days": 103.49,
+        "median_gov_days": 98.0,
+        "median_applicant_days": 3.9
+      },
+      "granted_mines_major_ec": {
+        "n": 14,
+        "n_full_stage": 14,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 9,
+        "n_full_stage": 9,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 26,
+        "n_full_stage": 26,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "pending_active": {
+        "n": 220,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 921.0,
+        "with_gov_pct": 46.1
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "TN",
+      "state_name": "Tamil Nadu",
+      "is_ut": false,
+      "p2_clean_volume_total": 7067,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 5572,
+        "FC": 1002,
+        "WLC": 284,
+        "CRZ": 209
+      },
+      "timelines_crunched_n": 750,
+      "granted_ec_substantive": {
+        "n": 117,
+        "n_full_stage": 113,
+        "is_suppressed": false,
+        "partition_suppressed": false,
+        "median_wall_days": 174.0,
+        "median_gov_days": 136.0,
+        "median_applicant_days": 9.0,
+        "mean_gov_days": 164.19,
+        "p90_gov_days": 259.2,
+        "breach_105d_wall_pct": 75.2,
+        "breach_105d_gov_pct": 69.9
+      },
+      "granted_factories_ec": {
+        "n": 86,
+        "n_full_stage": 82,
+        "is_suppressed": false,
+        "median_wall_days": 154.5,
+        "median_gov_days": 121.25,
+        "median_applicant_days": 3.0
+      },
+      "granted_mines_major_ec": {
+        "n": 17,
+        "n_full_stage": 17,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 14,
+        "n_full_stage": 14,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 23,
+        "n_full_stage": 23,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "pending_active": {
+        "n": 295,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 681.0,
+        "with_gov_pct": 35.8
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "AP",
+      "state_name": "Andhra Pradesh",
+      "is_ut": false,
+      "p2_clean_volume_total": 5222,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 4580,
+        "FC": 450,
+        "WLC": 87,
+        "CRZ": 105
+      },
+      "timelines_crunched_n": 823,
+      "granted_ec_substantive": {
+        "n": 182,
+        "n_full_stage": 179,
+        "is_suppressed": false,
+        "partition_suppressed": false,
+        "median_wall_days": 151.51,
+        "median_gov_days": 117.55,
+        "median_applicant_days": 3.79,
+        "mean_gov_days": 154.32,
+        "p90_gov_days": 293.0,
+        "breach_105d_wall_pct": 65.9,
+        "breach_105d_gov_pct": 57.0
+      },
+      "granted_factories_ec": {
+        "n": 141,
+        "n_full_stage": 140,
+        "is_suppressed": false,
+        "median_wall_days": 147.09,
+        "median_gov_days": 115.5,
+        "median_applicant_days": 2.86
+      },
+      "granted_mines_major_ec": {
+        "n": 33,
+        "n_full_stage": 31,
+        "is_suppressed": false,
+        "median_wall_days": 144.0,
+        "median_gov_days": 131.0,
+        "median_applicant_days": 12.58
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 8,
+        "n_full_stage": 8,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 28,
+        "n_full_stage": 28,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "pending_active": {
+        "n": 146,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 1121.0,
+        "with_gov_pct": 62.1
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "HR",
+      "state_name": "Haryana",
+      "is_ut": false,
+      "p2_clean_volume_total": 4968,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 1284,
+        "FC": 3637,
+        "WLC": 47,
+        "CRZ": 0
+      },
+      "timelines_crunched_n": 546,
+      "granted_ec_substantive": {
+        "n": 91,
+        "n_full_stage": 88,
+        "is_suppressed": false,
+        "partition_suppressed": false,
+        "median_wall_days": 147.11,
+        "median_gov_days": 133.03,
+        "median_applicant_days": 1.0,
+        "mean_gov_days": 156.34,
+        "p90_gov_days": 285.2,
+        "breach_105d_wall_pct": 75.0,
+        "breach_105d_gov_pct": 71.6
+      },
+      "granted_factories_ec": {
+        "n": 50,
+        "n_full_stage": 48,
+        "is_suppressed": false,
+        "median_wall_days": 122.0,
+        "median_gov_days": 107.48,
+        "median_applicant_days": 6.0
+      },
+      "granted_mines_major_ec": {
+        "n": 40,
+        "n_full_stage": 39,
+        "is_suppressed": false,
+        "median_wall_days": 193.0,
+        "median_gov_days": 173.0,
+        "median_applicant_days": 1.0
+      },
+      "granted_mines_form2_ec": {
+        "n": 1,
+        "n_full_stage": 0,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 1,
+        "n_full_stage": 1,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 94,
+        "n_full_stage": 94,
+        "is_suppressed": false,
+        "median_wall_days": 641.0,
+        "median_gov_days": 327.54,
+        "median_applicant_days": 245.11
+      },
+      "pending_active": {
+        "n": 85,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 1220.0,
+        "with_gov_pct": 52.9
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "OR",
+      "state_name": "Odisha",
+      "is_ut": false,
+      "p2_clean_volume_total": 4865,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 3982,
+        "FC": 589,
+        "WLC": 167,
+        "CRZ": 127
+      },
+      "timelines_crunched_n": 1085,
+      "granted_ec_substantive": {
+        "n": 200,
+        "n_full_stage": 200,
+        "is_suppressed": false,
+        "partition_suppressed": false,
+        "median_wall_days": 139.0,
+        "median_gov_days": 106.5,
+        "median_applicant_days": 10.0,
+        "mean_gov_days": 136.2,
+        "p90_gov_days": 254.6,
+        "breach_105d_wall_pct": 61.0,
+        "breach_105d_gov_pct": 51.5
+      },
+      "granted_factories_ec": {
+        "n": 112,
+        "n_full_stage": 112,
+        "is_suppressed": false,
+        "median_wall_days": 112.0,
+        "median_gov_days": 95.0,
+        "median_applicant_days": 5.58
+      },
+      "granted_mines_major_ec": {
+        "n": 78,
+        "n_full_stage": 78,
+        "is_suppressed": false,
+        "median_wall_days": 195.0,
+        "median_gov_days": 113.0,
+        "median_applicant_days": 26.46
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 10,
+        "n_full_stage": 10,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 94,
+        "n_full_stage": 94,
+        "is_suppressed": false,
+        "median_wall_days": 1242.29,
+        "median_gov_days": 482.5,
+        "median_applicant_days": 692.0
+      },
+      "pending_active": {
+        "n": 273,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 1167.0,
+        "with_gov_pct": 31.2
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "TG",
+      "state_name": "Telangana",
+      "is_ut": false,
+      "p2_clean_volume_total": 4567,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 3768,
+        "FC": 557,
+        "WLC": 242,
+        "CRZ": 0
+      },
+      "timelines_crunched_n": 788,
+      "granted_ec_substantive": {
+        "n": 125,
+        "n_full_stage": 122,
+        "is_suppressed": false,
+        "partition_suppressed": false,
+        "median_wall_days": 186.0,
+        "median_gov_days": 153.0,
+        "median_applicant_days": 6.62,
+        "mean_gov_days": 171.7,
+        "p90_gov_days": 293.9,
+        "breach_105d_wall_pct": 73.0,
+        "breach_105d_gov_pct": 64.8
+      },
+      "granted_factories_ec": {
+        "n": 84,
+        "n_full_stage": 82,
+        "is_suppressed": false,
+        "median_wall_days": 180.5,
+        "median_gov_days": 146.0,
+        "median_applicant_days": 3.5
+      },
+      "granted_mines_major_ec": {
+        "n": 27,
+        "n_full_stage": 26,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 14,
+        "n_full_stage": 14,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 34,
+        "n_full_stage": 34,
+        "is_suppressed": false,
+        "median_wall_days": 766.57,
+        "median_gov_days": 612.98,
+        "median_applicant_days": 125.19
+      },
+      "pending_active": {
+        "n": 261,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 1133.0,
+        "with_gov_pct": 45.9
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "CG",
+      "state_name": "Chhattisgarh",
+      "is_ut": false,
+      "p2_clean_volume_total": 4317,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 3718,
+        "FC": 466,
+        "WLC": 133,
+        "CRZ": 0
+      },
+      "timelines_crunched_n": 918,
+      "granted_ec_substantive": {
+        "n": 210,
+        "n_full_stage": 210,
+        "is_suppressed": false,
+        "partition_suppressed": false,
+        "median_wall_days": 139.63,
+        "median_gov_days": 105.91,
+        "median_applicant_days": 15.0,
+        "mean_gov_days": 137.5,
+        "p90_gov_days": 237.4,
+        "breach_105d_wall_pct": 66.2,
+        "breach_105d_gov_pct": 50.5
+      },
+      "granted_factories_ec": {
+        "n": 128,
+        "n_full_stage": 128,
+        "is_suppressed": false,
+        "median_wall_days": 121.9,
+        "median_gov_days": 99.78,
+        "median_applicant_days": 11.61
+      },
+      "granted_mines_major_ec": {
+        "n": 76,
+        "n_full_stage": 76,
+        "is_suppressed": false,
+        "median_wall_days": 173.5,
+        "median_gov_days": 124.5,
+        "median_applicant_days": 34.73
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 6,
+        "n_full_stage": 6,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 33,
+        "n_full_stage": 33,
+        "is_suppressed": false,
+        "median_wall_days": 894.0,
+        "median_gov_days": 556.0,
+        "median_applicant_days": 306.87
+      },
+      "pending_active": {
+        "n": 160,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 823.0,
+        "with_gov_pct": 47.8
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "BR",
+      "state_name": "Bihar",
+      "is_ut": false,
+      "p2_clean_volume_total": 4109,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 3052,
+        "FC": 921,
+        "WLC": 136,
+        "CRZ": 0
+      },
+      "timelines_crunched_n": 319,
+      "granted_ec_substantive": {
+        "n": 51,
+        "n_full_stage": 48,
+        "is_suppressed": false,
+        "partition_suppressed": false,
+        "median_wall_days": 94.08,
+        "median_gov_days": 63.5,
+        "median_applicant_days": 1.5,
+        "mean_gov_days": 109.23,
+        "p90_gov_days": 216.6,
+        "breach_105d_wall_pct": 45.8,
+        "breach_105d_gov_pct": 37.5
+      },
+      "granted_factories_ec": {
+        "n": 46,
+        "n_full_stage": 43,
+        "is_suppressed": false,
+        "median_wall_days": 70.0,
+        "median_gov_days": 59.0,
+        "median_applicant_days": 4.0
+      },
+      "granted_mines_major_ec": {
+        "n": 2,
+        "n_full_stage": 2,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 3,
+        "n_full_stage": 3,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 5,
+        "n_full_stage": 5,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "pending_active": {
+        "n": 118,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 356.0,
+        "with_gov_pct": 65.8
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "PB",
+      "state_name": "Punjab",
+      "is_ut": false,
+      "p2_clean_volume_total": 3738,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 1378,
+        "FC": 2249,
+        "WLC": 111,
+        "CRZ": 0
+      },
+      "timelines_crunched_n": 494,
+      "granted_ec_substantive": {
+        "n": 96,
+        "n_full_stage": 95,
+        "is_suppressed": false,
+        "partition_suppressed": false,
+        "median_wall_days": 116.02,
+        "median_gov_days": 84.0,
+        "median_applicant_days": 7.08,
+        "mean_gov_days": 113.69,
+        "p90_gov_days": 229.0,
+        "breach_105d_wall_pct": 55.8,
+        "breach_105d_gov_pct": 36.8
+      },
+      "granted_factories_ec": {
+        "n": 96,
+        "n_full_stage": 95,
+        "is_suppressed": false,
+        "median_wall_days": 116.02,
+        "median_gov_days": 84.0,
+        "median_applicant_days": 7.08
+      },
+      "granted_mines_major_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 94,
+        "n_full_stage": 94,
+        "is_suppressed": false,
+        "median_wall_days": 554.5,
+        "median_gov_days": 297.5,
+        "median_applicant_days": 169.0
+      },
+      "pending_active": {
+        "n": 140,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 452.5,
+        "with_gov_pct": 16.4
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "JK",
+      "state_name": "Jammu and Kashmir",
+      "is_ut": true,
+      "p2_clean_volume_total": 3408,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 411,
+        "FC": 2857,
+        "WLC": 140,
+        "CRZ": 0
+      },
+      "timelines_crunched_n": 287,
+      "granted_ec_substantive": {
+        "n": 12,
+        "n_full_stage": 12,
+        "is_suppressed": true,
+        "partition_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null,
+        "mean_gov_days": null,
+        "p90_gov_days": null,
+        "breach_105d_wall_pct": null,
+        "breach_105d_gov_pct": null
+      },
+      "granted_factories_ec": {
+        "n": 6,
+        "n_full_stage": 6,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_major_ec": {
+        "n": 2,
+        "n_full_stage": 2,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 4,
+        "n_full_stage": 4,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 27,
+        "n_full_stage": 27,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "pending_active": {
+        "n": 102,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 1119.5,
+        "with_gov_pct": 38.2
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "JH",
+      "state_name": "Jharkhand",
+      "is_ut": false,
+      "p2_clean_volume_total": 2709,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 2229,
+        "FC": 421,
+        "WLC": 59,
+        "CRZ": 0
+      },
+      "timelines_crunched_n": 618,
+      "granted_ec_substantive": {
+        "n": 124,
+        "n_full_stage": 123,
+        "is_suppressed": false,
+        "partition_suppressed": false,
+        "median_wall_days": 139.0,
+        "median_gov_days": 106.0,
+        "median_applicant_days": 10.45,
+        "mean_gov_days": 148.73,
+        "p90_gov_days": 288.0,
+        "breach_105d_wall_pct": 60.2,
+        "breach_105d_gov_pct": 50.4
+      },
+      "granted_factories_ec": {
+        "n": 52,
+        "n_full_stage": 52,
+        "is_suppressed": false,
+        "median_wall_days": 115.0,
+        "median_gov_days": 97.0,
+        "median_applicant_days": 6.45
+      },
+      "granted_mines_major_ec": {
+        "n": 67,
+        "n_full_stage": 67,
+        "is_suppressed": false,
+        "median_wall_days": 181.0,
+        "median_gov_days": 115.9,
+        "median_applicant_days": 17.52
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 5,
+        "n_full_stage": 4,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 39,
+        "n_full_stage": 39,
+        "is_suppressed": false,
+        "median_wall_days": 927.0,
+        "median_gov_days": 505.0,
+        "median_applicant_days": 455.0
+      },
+      "pending_active": {
+        "n": 161,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 1405.48,
+        "with_gov_pct": 50.3
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "KL",
+      "state_name": "Kerala",
+      "is_ut": false,
+      "p2_clean_volume_total": 2600,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 1726,
+        "FC": 563,
+        "WLC": 281,
+        "CRZ": 30
+      },
+      "timelines_crunched_n": 447,
+      "granted_ec_substantive": {
+        "n": 15,
+        "n_full_stage": 15,
+        "is_suppressed": true,
+        "partition_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null,
+        "mean_gov_days": null,
+        "p90_gov_days": null,
+        "breach_105d_wall_pct": null,
+        "breach_105d_gov_pct": null
+      },
+      "granted_factories_ec": {
+        "n": 8,
+        "n_full_stage": 8,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_major_ec": {
+        "n": 7,
+        "n_full_stage": 7,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 1,
+        "n_full_stage": 0,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 17,
+        "n_full_stage": 17,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "pending_active": {
+        "n": 309,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 837.0,
+        "with_gov_pct": 43.7
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "HP",
+      "state_name": "Himachal Pradesh",
+      "is_ut": false,
+      "p2_clean_volume_total": 2591,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 755,
+        "FC": 1798,
+        "WLC": 37,
+        "CRZ": 1
+      },
+      "timelines_crunched_n": 576,
+      "granted_ec_substantive": {
+        "n": 40,
+        "n_full_stage": 40,
+        "is_suppressed": false,
+        "partition_suppressed": false,
+        "median_wall_days": 192.5,
+        "median_gov_days": 153.0,
+        "median_applicant_days": 9.0,
+        "mean_gov_days": 225.8,
+        "p90_gov_days": 345.3,
+        "breach_105d_wall_pct": 80.0,
+        "breach_105d_gov_pct": 72.5
+      },
+      "granted_factories_ec": {
+        "n": 15,
+        "n_full_stage": 15,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_major_ec": {
+        "n": 20,
+        "n_full_stage": 20,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 5,
+        "n_full_stage": 5,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 70,
+        "n_full_stage": 70,
+        "is_suppressed": false,
+        "median_wall_days": 965.0,
+        "median_gov_days": 536.5,
+        "median_applicant_days": 407.0
+      },
+      "pending_active": {
+        "n": 177,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 2549.0,
+        "with_gov_pct": 49.2
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "WB",
+      "state_name": "West Bengal",
+      "is_ut": false,
+      "p2_clean_volume_total": 2514,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 1904,
+        "FC": 427,
+        "WLC": 170,
+        "CRZ": 13
+      },
+      "timelines_crunched_n": 693,
+      "granted_ec_substantive": {
+        "n": 154,
+        "n_full_stage": 145,
+        "is_suppressed": false,
+        "partition_suppressed": false,
+        "median_wall_days": 151.0,
+        "median_gov_days": 115.0,
+        "median_applicant_days": 13.61,
+        "mean_gov_days": 138.85,
+        "p90_gov_days": 266.0,
+        "breach_105d_wall_pct": 68.3,
+        "breach_105d_gov_pct": 54.5
+      },
+      "granted_factories_ec": {
+        "n": 134,
+        "n_full_stage": 125,
+        "is_suppressed": false,
+        "median_wall_days": 145.98,
+        "median_gov_days": 110.56,
+        "median_applicant_days": 14.0
+      },
+      "granted_mines_major_ec": {
+        "n": 15,
+        "n_full_stage": 15,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 5,
+        "n_full_stage": 5,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 37,
+        "n_full_stage": 37,
+        "is_suppressed": false,
+        "median_wall_days": 678.65,
+        "median_gov_days": 347.67,
+        "median_applicant_days": 323.47
+      },
+      "pending_active": {
+        "n": 125,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 1074.2,
+        "with_gov_pct": 39.2
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "UK",
+      "state_name": "Uttarakhand",
+      "is_ut": false,
+      "p2_clean_volume_total": 2300,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 916,
+        "FC": 1171,
+        "WLC": 213,
+        "CRZ": 0
+      },
+      "timelines_crunched_n": 420,
+      "granted_ec_substantive": {
+        "n": 61,
+        "n_full_stage": 61,
+        "is_suppressed": false,
+        "partition_suppressed": false,
+        "median_wall_days": 158.0,
+        "median_gov_days": 157.0,
+        "median_applicant_days": 0.0,
+        "mean_gov_days": 155.38,
+        "p90_gov_days": 247.0,
+        "breach_105d_wall_pct": 78.7,
+        "breach_105d_gov_pct": 73.8
+      },
+      "granted_factories_ec": {
+        "n": 26,
+        "n_full_stage": 26,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_major_ec": {
+        "n": 31,
+        "n_full_stage": 31,
+        "is_suppressed": false,
+        "median_wall_days": 158.0,
+        "median_gov_days": 158.0,
+        "median_applicant_days": 0.0
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 4,
+        "n_full_stage": 4,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 20,
+        "n_full_stage": 20,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "pending_active": {
+        "n": 223,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 705.0,
+        "with_gov_pct": 59.2
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "AS",
+      "state_name": "Assam",
+      "is_ut": false,
+      "p2_clean_volume_total": 2161,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 1786,
+        "FC": 278,
+        "WLC": 97,
+        "CRZ": 0
+      },
+      "timelines_crunched_n": 416,
+      "granted_ec_substantive": {
+        "n": 61,
+        "n_full_stage": 61,
+        "is_suppressed": false,
+        "partition_suppressed": false,
+        "median_wall_days": 143.0,
+        "median_gov_days": 120.0,
+        "median_applicant_days": 9.0,
+        "mean_gov_days": 168.78,
+        "p90_gov_days": 267.0,
+        "breach_105d_wall_pct": 63.9,
+        "breach_105d_gov_pct": 55.7
+      },
+      "granted_factories_ec": {
+        "n": 57,
+        "n_full_stage": 57,
+        "is_suppressed": false,
+        "median_wall_days": 159.0,
+        "median_gov_days": 123.76,
+        "median_applicant_days": 12.91
+      },
+      "granted_mines_major_ec": {
+        "n": 2,
+        "n_full_stage": 2,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 2,
+        "n_full_stage": 2,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 34,
+        "n_full_stage": 34,
+        "is_suppressed": false,
+        "median_wall_days": 1578.0,
+        "median_gov_days": 683.5,
+        "median_applicant_days": 679.0
+      },
+      "pending_active": {
+        "n": 140,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 1197.97,
+        "with_gov_pct": 73.6
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "GA",
+      "state_name": "Goa",
+      "is_ut": false,
+      "p2_clean_volume_total": 415,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 244,
+        "FC": 80,
+        "WLC": 42,
+        "CRZ": 49
+      },
+      "timelines_crunched_n": 136,
+      "granted_ec_substantive": {
+        "n": 7,
+        "n_full_stage": 7,
+        "is_suppressed": true,
+        "partition_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null,
+        "mean_gov_days": null,
+        "p90_gov_days": null,
+        "breach_105d_wall_pct": null,
+        "breach_105d_gov_pct": null
+      },
+      "granted_factories_ec": {
+        "n": 6,
+        "n_full_stage": 6,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_major_ec": {
+        "n": 1,
+        "n_full_stage": 1,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 12,
+        "n_full_stage": 12,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "pending_active": {
+        "n": 51,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 832.0,
+        "with_gov_pct": 43.1
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "ML",
+      "state_name": "Meghalaya",
+      "is_ut": false,
+      "p2_clean_volume_total": 405,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 307,
+        "FC": 93,
+        "WLC": 5,
+        "CRZ": 0
+      },
+      "timelines_crunched_n": 68,
+      "granted_ec_substantive": {
+        "n": 10,
+        "n_full_stage": 10,
+        "is_suppressed": true,
+        "partition_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null,
+        "mean_gov_days": null,
+        "p90_gov_days": null,
+        "breach_105d_wall_pct": null,
+        "breach_105d_gov_pct": null
+      },
+      "granted_factories_ec": {
+        "n": 3,
+        "n_full_stage": 3,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_major_ec": {
+        "n": 7,
+        "n_full_stage": 7,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 7,
+        "n_full_stage": 7,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "pending_active": {
+        "n": 15,
+        "is_suppressed": true,
+        "median_elapsed_wall_days": null,
+        "with_gov_pct": null
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "LA",
+      "state_name": "Ladakh",
+      "is_ut": true,
+      "p2_clean_volume_total": 372,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 15,
+        "FC": 13,
+        "WLC": 343,
+        "CRZ": 1
+      },
+      "timelines_crunched_n": 345,
+      "granted_ec_substantive": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": true,
+        "partition_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null,
+        "mean_gov_days": null,
+        "p90_gov_days": null,
+        "breach_105d_wall_pct": null,
+        "breach_105d_gov_pct": null
+      },
+      "granted_factories_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_major_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "pending_active": {
+        "n": 331,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 678.0,
+        "with_gov_pct": 15.1
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "TR",
+      "state_name": "Tripura",
+      "is_ut": false,
+      "p2_clean_volume_total": 336,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 164,
+        "FC": 164,
+        "WLC": 8,
+        "CRZ": 0
+      },
+      "timelines_crunched_n": 106,
+      "granted_ec_substantive": {
+        "n": 9,
+        "n_full_stage": 9,
+        "is_suppressed": true,
+        "partition_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null,
+        "mean_gov_days": null,
+        "p90_gov_days": null,
+        "breach_105d_wall_pct": null,
+        "breach_105d_gov_pct": null
+      },
+      "granted_factories_ec": {
+        "n": 7,
+        "n_full_stage": 7,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_major_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 2,
+        "n_full_stage": 2,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 47,
+        "n_full_stage": 47,
+        "is_suppressed": false,
+        "median_wall_days": 859.0,
+        "median_gov_days": 441.0,
+        "median_applicant_days": 423.0
+      },
+      "pending_active": {
+        "n": 27,
+        "is_suppressed": true,
+        "median_elapsed_wall_days": null,
+        "with_gov_pct": null
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "AR",
+      "state_name": "Arunachal Pradesh",
+      "is_ut": false,
+      "p2_clean_volume_total": 324,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 50,
+        "FC": 209,
+        "WLC": 65,
+        "CRZ": 0
+      },
+      "timelines_crunched_n": 189,
+      "granted_ec_substantive": {
+        "n": 5,
+        "n_full_stage": 5,
+        "is_suppressed": true,
+        "partition_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null,
+        "mean_gov_days": null,
+        "p90_gov_days": null,
+        "breach_105d_wall_pct": null,
+        "breach_105d_gov_pct": null
+      },
+      "granted_factories_ec": {
+        "n": 2,
+        "n_full_stage": 2,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_major_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 3,
+        "n_full_stage": 3,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 35,
+        "n_full_stage": 35,
+        "is_suppressed": false,
+        "median_wall_days": 977.84,
+        "median_gov_days": 700.0,
+        "median_applicant_days": 242.0
+      },
+      "pending_active": {
+        "n": 96,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 1107.02,
+        "with_gov_pct": 75.0
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "DL",
+      "state_name": "Delhi",
+      "is_ut": true,
+      "p2_clean_volume_total": 293,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 193,
+        "FC": 98,
+        "WLC": 2,
+        "CRZ": 0
+      },
+      "timelines_crunched_n": 27,
+      "granted_ec_substantive": {
+        "n": 3,
+        "n_full_stage": 3,
+        "is_suppressed": true,
+        "partition_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null,
+        "mean_gov_days": null,
+        "p90_gov_days": null,
+        "breach_105d_wall_pct": null,
+        "breach_105d_gov_pct": null
+      },
+      "granted_factories_ec": {
+        "n": 1,
+        "n_full_stage": 1,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_major_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 2,
+        "n_full_stage": 2,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 6,
+        "n_full_stage": 6,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "pending_active": {
+        "n": 7,
+        "is_suppressed": true,
+        "median_elapsed_wall_days": null,
+        "with_gov_pct": null
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "SK",
+      "state_name": "Sikkim",
+      "is_ut": false,
+      "p2_clean_volume_total": 283,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 21,
+        "FC": 213,
+        "WLC": 49,
+        "CRZ": 0
+      },
+      "timelines_crunched_n": 83,
+      "granted_ec_substantive": {
+        "n": 1,
+        "n_full_stage": 1,
+        "is_suppressed": true,
+        "partition_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null,
+        "mean_gov_days": null,
+        "p90_gov_days": null,
+        "breach_105d_wall_pct": null,
+        "breach_105d_gov_pct": null
+      },
+      "granted_factories_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_major_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 1,
+        "n_full_stage": 1,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 10,
+        "n_full_stage": 10,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "pending_active": {
+        "n": 31,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 796.0,
+        "with_gov_pct": 71.0
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "DN",
+      "state_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "is_ut": true,
+      "p2_clean_volume_total": 185,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 82,
+        "FC": 87,
+        "WLC": 7,
+        "CRZ": 9
+      },
+      "timelines_crunched_n": 68,
+      "granted_ec_substantive": {
+        "n": 14,
+        "n_full_stage": 14,
+        "is_suppressed": true,
+        "partition_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null,
+        "mean_gov_days": null,
+        "p90_gov_days": null,
+        "breach_105d_wall_pct": null,
+        "breach_105d_gov_pct": null
+      },
+      "granted_factories_ec": {
+        "n": 14,
+        "n_full_stage": 14,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_major_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 8,
+        "n_full_stage": 8,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "pending_active": {
+        "n": 12,
+        "is_suppressed": true,
+        "median_elapsed_wall_days": null,
+        "with_gov_pct": null
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "MN",
+      "state_name": "Manipur",
+      "is_ut": false,
+      "p2_clean_volume_total": 163,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 6,
+        "FC": 119,
+        "WLC": 38,
+        "CRZ": 0
+      },
+      "timelines_crunched_n": 92,
+      "granted_ec_substantive": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": true,
+        "partition_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null,
+        "mean_gov_days": null,
+        "p90_gov_days": null,
+        "breach_105d_wall_pct": null,
+        "breach_105d_gov_pct": null
+      },
+      "granted_factories_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_major_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 17,
+        "n_full_stage": 17,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "pending_active": {
+        "n": 51,
+        "is_suppressed": false,
+        "median_elapsed_wall_days": 1103.0,
+        "with_gov_pct": 41.2
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "AN",
+      "state_name": "Andaman and Nicobar Islands",
+      "is_ut": true,
+      "p2_clean_volume_total": 145,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 24,
+        "FC": 81,
+        "WLC": 5,
+        "CRZ": 35
+      },
+      "timelines_crunched_n": 34,
+      "granted_ec_substantive": {
+        "n": 1,
+        "n_full_stage": 1,
+        "is_suppressed": true,
+        "partition_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null,
+        "mean_gov_days": null,
+        "p90_gov_days": null,
+        "breach_105d_wall_pct": null,
+        "breach_105d_gov_pct": null
+      },
+      "granted_factories_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_major_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 1,
+        "n_full_stage": 1,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 10,
+        "n_full_stage": 10,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "pending_active": {
+        "n": 10,
+        "is_suppressed": true,
+        "median_elapsed_wall_days": null,
+        "with_gov_pct": null
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "PY",
+      "state_name": "Puducherry",
+      "is_ut": true,
+      "p2_clean_volume_total": 141,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 38,
+        "FC": 1,
+        "WLC": 6,
+        "CRZ": 96
+      },
+      "timelines_crunched_n": 42,
+      "granted_ec_substantive": {
+        "n": 5,
+        "n_full_stage": 5,
+        "is_suppressed": true,
+        "partition_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null,
+        "mean_gov_days": null,
+        "p90_gov_days": null,
+        "breach_105d_wall_pct": null,
+        "breach_105d_gov_pct": null
+      },
+      "granted_factories_ec": {
+        "n": 5,
+        "n_full_stage": 5,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_major_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "pending_active": {
+        "n": 7,
+        "is_suppressed": true,
+        "median_elapsed_wall_days": null,
+        "with_gov_pct": null
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "MZ",
+      "state_name": "Mizoram",
+      "is_ut": false,
+      "p2_clean_volume_total": 119,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 18,
+        "FC": 85,
+        "WLC": 16,
+        "CRZ": 0
+      },
+      "timelines_crunched_n": 21,
+      "granted_ec_substantive": {
+        "n": 1,
+        "n_full_stage": 1,
+        "is_suppressed": true,
+        "partition_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null,
+        "mean_gov_days": null,
+        "p90_gov_days": null,
+        "breach_105d_wall_pct": null,
+        "breach_105d_gov_pct": null
+      },
+      "granted_factories_ec": {
+        "n": 1,
+        "n_full_stage": 1,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_major_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 1,
+        "n_full_stage": 1,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "pending_active": {
+        "n": 14,
+        "is_suppressed": true,
+        "median_elapsed_wall_days": null,
+        "with_gov_pct": null
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "LD",
+      "state_name": "Lakshadweep",
+      "is_ut": true,
+      "p2_clean_volume_total": 45,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 12,
+        "FC": 1,
+        "WLC": 16,
+        "CRZ": 16
+      },
+      "timelines_crunched_n": 18,
+      "granted_ec_substantive": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": true,
+        "partition_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null,
+        "mean_gov_days": null,
+        "p90_gov_days": null,
+        "breach_105d_wall_pct": null,
+        "breach_105d_gov_pct": null
+      },
+      "granted_factories_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_major_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "pending_active": {
+        "n": 15,
+        "is_suppressed": true,
+        "median_elapsed_wall_days": null,
+        "with_gov_pct": null
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "CH",
+      "state_name": "Chandigarh",
+      "is_ut": true,
+      "p2_clean_volume_total": 43,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 25,
+        "FC": 16,
+        "WLC": 2,
+        "CRZ": 0
+      },
+      "timelines_crunched_n": 3,
+      "granted_ec_substantive": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": true,
+        "partition_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null,
+        "mean_gov_days": null,
+        "p90_gov_days": null,
+        "breach_105d_wall_pct": null,
+        "breach_105d_gov_pct": null
+      },
+      "granted_factories_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_major_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 1,
+        "n_full_stage": 1,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "pending_active": {
+        "n": 2,
+        "is_suppressed": true,
+        "median_elapsed_wall_days": null,
+        "with_gov_pct": null
+      },
+      "seiaa_net_gov_rating_band": null
+    },
+    {
+      "state_code": "NL",
+      "state_name": "Nagaland",
+      "is_ut": false,
+      "p2_clean_volume_total": 4,
+      "p2_volume_by_clearance": {
+        "EC_TOR": 1,
+        "FC": 3,
+        "WLC": 0,
+        "CRZ": 0
+      },
+      "timelines_crunched_n": 5,
+      "granted_ec_substantive": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": true,
+        "partition_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null,
+        "mean_gov_days": null,
+        "p90_gov_days": null,
+        "breach_105d_wall_pct": null,
+        "breach_105d_gov_pct": null
+      },
+      "granted_factories_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_major_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_mines_form2_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_power_ec": {
+        "n": 0,
+        "n_full_stage": 0,
+        "is_suppressed": false,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "granted_fc": {
+        "n": 1,
+        "n_full_stage": 1,
+        "is_suppressed": true,
+        "median_wall_days": null,
+        "median_gov_days": null,
+        "median_applicant_days": null
+      },
+      "pending_active": {
+        "n": 0,
+        "is_suppressed": true,
+        "median_elapsed_wall_days": null,
+        "with_gov_pct": null
+      },
+      "seiaa_net_gov_rating_band": null
+    }
+  ]
+}
