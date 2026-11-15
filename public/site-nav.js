@@ -1,16 +1,25 @@
 // Site bar behaviour, on every page. Everything here is an enhancement: the
 // menu is a <details> element and every link works without this script.
 (function () {
-  // Explore menu: close on Escape or a click outside it.
+  // The datasets menu (desktop) / Menu (phones): one <details>. Keep
+  // aria-expanded in step, close on Escape, on a click outside, and when a
+  // link inside it is followed.
   var menu = document.querySelector(".dl-nav-explore");
   if (menu) {
+    var sum = menu.querySelector("summary");
+    var sync = function () { sum.setAttribute("aria-expanded", menu.open ? "true" : "false"); };
+    sync();
+    menu.addEventListener("toggle", sync);
     document.addEventListener("click", function (e) {
       if (menu.open && !menu.contains(e.target)) menu.open = false;
+    });
+    menu.addEventListener("click", function (e) {
+      if (e.target.closest && e.target.closest(".dl-nav-panel a")) menu.open = false;
     });
     document.addEventListener("keydown", function (e) {
       if (e.key === "Escape" && menu.open) {
         menu.open = false;
-        menu.querySelector("summary").focus();
+        sum.focus();
       }
     });
   }
@@ -174,6 +183,7 @@
 })();
 
 (function () {
+  // "/" jumps to search: the bar's box on wide screens, the Menu's box on phones.
   var q = document.getElementById("dl-nav-q");
   if (!q) return;
   document.addEventListener("keydown", function (e) {
@@ -189,7 +199,13 @@
       return;
     }
     e.preventDefault();
-    q.focus();
-    if (q.select) q.select();
+    var box = q;
+    if (!q.offsetParent) {
+      var menu = document.querySelector(".dl-nav-explore");
+      var alt = document.getElementById("dl-nav-q2");
+      if (menu && alt) { menu.open = true; box = alt; }
+    }
+    box.focus();
+    if (box.select) box.select();
   });
 })();

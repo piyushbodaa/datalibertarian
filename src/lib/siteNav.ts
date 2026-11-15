@@ -14,35 +14,35 @@ export const SITE_NAV: NavGroup[] = [
   {
     title: "Courts and freedoms",
     items: [
-      { href: "/babuwatch", name: "Babuwatch", what: "Court findings against public servants" },
-      { href: "/civilliberties", name: "Civil Liberties", what: "People punished for speech, religion and other basic freedoms" },
-      { href: "/victimlesscrimes", name: "Victimless Crimes", what: "Prosecutions for acts with no complaining victim" },
-      { href: "/economicfreedom", name: "Economic Freedom", what: "Raids and penalties for peaceful economic acts" },
+      { href: "/babuwatch", name: "Babuwatch", what: "Court findings against officials" },
+      { href: "/civilliberties", name: "Civil Liberties", what: "People punished for speech or religion" },
+      { href: "/victimlesscrimes", name: "Victimless Crimes", what: "Prosecutions with no complaining victim" },
+      { href: "/economicfreedom", name: "Economic Freedom", what: "Raids and penalties on peaceful economic activity" },
     ],
   },
   {
     title: "Crime",
     items: [
-      { href: "/crime", name: "Crime in India", what: "Every head, 2022 to 2024, from NCRB tables" },
-      { href: "/crime/rape", name: "Rape", what: "FIRs, including child rape under POCSO" },
-      { href: "/crime/murder", name: "Murder", what: "Cases and their motives" },
-      { href: "/crime/stealing", name: "Theft and robbery", what: "Thefts, robberies and where they were registered" },
+      { href: "/crime", name: "Crime in India", what: "NCRB figures, 2022 to 2024" },
+      { href: "/crime/rape", name: "Rape", what: "FIRs, including child rape (POCSO)" },
+      { href: "/crime/murder", name: "Murder", what: "Cases and motives" },
+      { href: "/crime/stealing", name: "Theft and robbery", what: "Cases and where they were registered" },
     ],
   },
   {
     title: "Public money",
     items: [
       { href: "/spending", name: "Spending", what: "Union, state, city and village budgets" },
-      { href: "/states", name: "State police budgets", what: "What each state's own books print for its police" },
-      { href: "/compare", name: "Compare two governments", what: "Side by side, where the accounting scope matches" },
+      { href: "/states", name: "State police budgets", what: "Each state's police budget" },
+      { href: "/compare", name: "Compare two governments", what: "Side by side, like for like" },
       { href: "/psu", name: "PSUs", what: "Businesses the government owns" },
-      { href: "/education", name: "Education", what: "Schools, students and teachers, from UDISE+" },
-      { href: "/gov", name: "Gov.in Directory", what: "Compiled .gov.in hostnames: ministries, states, PSUs, regulators, courts and local bodies" },
+      { href: "/education", name: "Education", what: "Schools and students, from UDISE+" },
+      { href: "/gov", name: "Gov.in Directory", what: "Official .gov.in websites" },
     ],
   },
   {
     title: "Prices",
-    items: [{ href: "/inflation", name: "Inflation", what: "Official price indices and retail prices" }],
+    items: [{ href: "/inflation", name: "Inflation", what: "Price indices and retail prices" }],
   },
 ];
 
@@ -63,7 +63,21 @@ export function currentItem(path: string): NavItem | undefined {
 
 export const SITE_NAV_MARK = "<!--dl-sitenav-->";
 
-/** The bar as static HTML for the page at `path`. */
+const SEARCH_ICON =
+  '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>';
+
+const searchForm = (id: string, cls: string) =>
+  `<form class="${cls}" role="search" action="/search" method="get"><label for="${id}" class="dl-nav-sr">Search the site</label>` +
+  `<input id="${id}" name="q" type="search" placeholder="Search" enterkeyhint="search" autocomplete="off"></form>`;
+
+/**
+ * The bar as static HTML for the page at `path`.
+ *
+ * Desktop: brand, five primary links, an "All datasets" menu and a search box.
+ * Phones: brand, a search link and one "Menu" button. Both menus are the same
+ * <details> element, so the bar works without JavaScript; site-nav.js only adds
+ * Escape / click-outside closing and keeps aria-expanded in step.
+ */
 export function renderSiteNav(path: string): string {
   const here = currentItem(path);
   const groups = SITE_NAV.map((g) => {
@@ -73,9 +87,8 @@ export function renderSiteNav(path: string): string {
         return `<li><a href="${i.href}"${on ? ' aria-current="page"' : ""}><b>${esc(i.name)}</b><span>${esc(i.what)}</span></a></li>`;
       })
       .join("");
-    return `<div class="dl-nav-group"><h2>${esc(g.title)}</h2><ul>${links}</ul></div>`;
+    return `<div class="dl-nav-group"><p class="dl-nav-gt">${esc(g.title)}</p><ul>${links}</ul></div>`;
   }).join("");
-  const section = here ? `<span class="dl-nav-here" aria-hidden="true">${esc(here.name)}</span>` : "";
   const isSpending =
     path === "/spending" ||
     path === "/union" ||
@@ -94,40 +107,46 @@ export function renderSiteNav(path: string): string {
   );
   const isPrices = path === "/inflation" || path.startsWith("/inflation/");
   const isStates = path === "/by-state" || STATE_SLUGS.has(path.slice(1));
-  const navLink = (href: string, label: string, active: boolean) =>
+  const primary: [string, string, boolean][] = [
+    ["/spending", "Spending", isSpending],
+    ["/crime", "Crime", isCrime],
+    ["/civilliberties", "Rights", isRights],
+    ["/inflation", "Prices", isPrices],
+    ["/by-state", "States", isStates],
+  ];
+  const navLink = ([href, label, active]: [string, string, boolean]) =>
     `<a class="dl-nav-link" href="${href}"${active ? ' aria-current="page"' : ""}>${label}</a>`;
   return (
     SITE_NAV_MARK +
-    `<div class="dl-nav" role="navigation" aria-label="Data Libertarian"><div class="dl-nav-in">` +
-    `<a class="dl-nav-brand" href="/"><span class="dl-nav-mark" aria-hidden="true"></span><span>Data Libertarian</span></a>${section}` +
-    `<div class="dl-nav-links">` +
-    navLink("/spending", "Spending", isSpending) +
-    navLink("/crime", "Crime", isCrime) +
-    navLink("/civilliberties", "Rights", isRights) +
-    navLink("/inflation", "Prices", isPrices) +
-    navLink("/by-state", "States", isStates) +
-    `</div>` +
-    `<details class="dl-nav-explore"><summary>All Datasets</summary><div class="dl-nav-panel">${groups}` +
-    `<p class="dl-nav-foot"><a href="/by-state">Browse by state</a><a href="/compare">Compare budgets</a><a href="/changes">Data updates</a><a href="/corrections">Report a correction</a></p></div></details>` +
-    `<form class="dl-nav-search" role="search" action="/search" method="get"><label for="dl-nav-q" class="dl-nav-sr">Search the site</label>` +
-    `<input id="dl-nav-q" name="q" type="search" placeholder="Search… (/)" enterkeyhint="search"></form>` +
+    `<div class="dl-nav" role="navigation" aria-label="Site"><div class="dl-nav-in">` +
+    `<a class="dl-nav-brand" href="/"><span class="dl-nav-mark" aria-hidden="true"></span><span>Data Libertarian</span></a>` +
+    `<div class="dl-nav-links">${primary.map(navLink).join("")}</div>` +
+    `<a class="dl-nav-searchlink" href="/search" aria-label="Search">${SEARCH_ICON}</a>` +
+    `<details class="dl-nav-explore"><summary><span class="dl-nav-sum-wide">All datasets</span><span class="dl-nav-sum-narrow">Menu</span></summary>` +
+    `<div class="dl-nav-panel">` +
+    `<div class="dl-nav-narrow">${searchForm("dl-nav-q2", "dl-nav-search dl-nav-search-panel")}` +
+    `<div class="dl-nav-primary">${primary.map(navLink).join("")}</div></div>` +
+    `<div class="dl-nav-groups">${groups}</div>` +
+    `<p class="dl-nav-foot"><a href="/by-state">Browse by state</a><a href="/changes">What changed</a><a href="/corrections">Report a correction</a></p>` +
+    `</div></details>` +
+    searchForm("dl-nav-q", "dl-nav-search dl-nav-search-bar") +
     `</div></div>`
   );
 }
 
-/** The site-wide footer: a directory of every section, the same on every page. */
+/** The site-wide footer: a short directory of every section, the same on every page. */
 export function renderSiteFooter(): string {
   const cols = SITE_NAV.map((g) =>
     `<div><h2>${esc(g.title)}</h2><ul>${g.items.map((i) => `<li><a href="${i.href}">${esc(i.name)}</a></li>`).join("")}</ul></div>`).join("");
   const ways: [string, string][] = [
     ["/by-state", "Browse by state"], ["/search", "Search"], ["/changes", "What changed"],
-    ["/sources", "Budget sources & methodology"], ["/crime/method", "Crime methodology"],
-    ["/babuwatch/methodology", "Babuwatch methodology"], ["/corrections", "Report a correction"],
+    ["/sources", "Budget sources"], ["/crime/method", "Crime method"],
+    ["/babuwatch/methodology", "Babuwatch method"], ["/corrections", "Report a correction"],
   ];
   return (
-    `<footer class="dl-foot" aria-label="Data Libertarian site directory"><div class="dl-foot-in">` +
-    `<p class="dl-foot-brand"><a href="/">Data Libertarian</a><span>The Indian state, on the record. Every figure links to its source; empty means unread, not zero.</span></p>` +
-    `<div class="dl-foot-cols">${cols}<div><h2>Find your way</h2><ul>${ways.map(([h, l]) => `<li><a href="${h}">${esc(l)}</a></li>`).join("")}</ul></div></div>` +
+    `<footer class="dl-foot" aria-label="Site directory"><div class="dl-foot-in">` +
+    `<div class="dl-foot-brand"><a href="/">Data Libertarian</a><p>Public records on the Indian state. Every figure links to its source. A blank means we have not read it yet, not zero.</p></div>` +
+    `<div class="dl-foot-cols">${cols}<div><h2>About the data</h2><ul>${ways.map(([h, l]) => `<li><a href="${h}">${esc(l)}</a></li>`).join("")}</ul></div></div>` +
     `</div></footer>`
   );
 }
