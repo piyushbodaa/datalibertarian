@@ -174,7 +174,7 @@ def write_sitemaps(out):
                 f.write(spa)
             parts.append("/sitemap-spending.xml")
     urls = ["/"]
-    for key in ("babuwatch", "civilliberties", "victimlesscrimes", "economicfreedom", "psu", "education", "gov"):
+    for key in ("babuwatch", "civilliberties", "victimlesscrimes", "economicfreedom", "psu", "education", "gov", "redtape"):
         if os.path.exists(os.path.join(out, key + ".html")) or os.path.isdir(os.path.join(out, key)):
             urls.append("/" + key)
     for sub in ("/gov/ministries", "/gov/regulators", "/gov/local-and-courts", "/gov/uncharted"):
@@ -188,6 +188,8 @@ def write_sitemaps(out):
     parts.append("/sitemap-registers.xml")
     if os.path.exists(os.path.join(out, "babuwatch", "sitemap.xml")):
         parts.append("/babuwatch/sitemap.xml")
+    if os.path.exists(os.path.join(out, "redtape", "sitemap.xml")):
+        parts.append("/redtape/sitemap.xml")
     with open(root, "w", encoding="utf-8") as f:
         f.write('<?xml version="1.0" encoding="UTF-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">%s</sitemapindex>'
                 % "".join("<sitemap><loc>%s%s</loc></sitemap>" % (base, p) for p in parts))

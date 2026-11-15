@@ -1,0 +1,2292 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "is_seed": false,
+    "snapshot_utc": "2026-11-15T13:00:00+00:00",
+    "partition_scope": "full_stage_only (milestone_only P1 rows excluded from round & desk-split distributions)",
+    "p2_completed_filing_window": "filings 2022\u2013mid-2024"
+  },
+  "eds_rounds_by_stratum": [
+    {
+      "sector_group": "All_Target_Sectors",
+      "sub_sector": "ALL",
+      "clearance_track": "ALL",
+      "authority": "All Authorities",
+      "cohort_status": "GRANTED",
+      "total_n": 6456,
+      "is_suppressed": false,
+      "buckets": [
+        {
+          "rounds_label": "0",
+          "count": 2756,
+          "pct": 42.7,
+          "is_suppressed": false,
+          "median_wall_days": 146.0,
+          "median_gov_days": 126.0,
+          "median_applicant_days": 0.0,
+          "mean_gov_days": 209.36,
+          "mean_applicant_days": 43.28
+        },
+        {
+          "rounds_label": "1",
+          "count": 1718,
+          "pct": 26.6,
+          "is_suppressed": false,
+          "median_wall_days": 133.49,
+          "median_gov_days": 103.0,
+          "median_applicant_days": 18.0,
+          "mean_gov_days": 158.26,
+          "mean_applicant_days": 82.35
+        },
+        {
+          "rounds_label": "2",
+          "count": 798,
+          "pct": 12.4,
+          "is_suppressed": false,
+          "median_wall_days": 206.69,
+          "median_gov_days": 129.2,
+          "median_applicant_days": 50.0,
+          "mean_gov_days": 202.35,
+          "mean_applicant_days": 151.39
+        },
+        {
+          "rounds_label": "3+",
+          "count": 1184,
+          "pct": 18.3,
+          "is_suppressed": false,
+          "median_wall_days": 690.43,
+          "median_gov_days": 337.74,
+          "median_applicant_days": 271.92,
+          "mean_gov_days": 434.5,
+          "mean_applicant_days": 417.09
+        }
+      ]
+    },
+    {
+      "sector_group": "All_Target_Sectors",
+      "sub_sector": "ALL",
+      "clearance_track": "EC",
+      "authority": "All Authorities",
+      "cohort_status": "GRANTED",
+      "total_n": 3516,
+      "is_suppressed": false,
+      "buckets": [
+        {
+          "rounds_label": "0",
+          "count": 1632,
+          "pct": 46.4,
+          "is_suppressed": false,
+          "median_wall_days": 139.0,
+          "median_gov_days": 123.0,
+          "median_applicant_days": 0.0,
+          "mean_gov_days": 162.93,
+          "mean_applicant_days": 51.1
+        },
+        {
+          "rounds_label": "1",
+          "count": 1156,
+          "pct": 32.9,
+          "is_suppressed": false,
+          "median_wall_days": 130.0,
+          "median_gov_days": 102.0,
+          "median_applicant_days": 15.97,
+          "mean_gov_days": 134.06,
+          "mean_applicant_days": 66.28
+        },
+        {
+          "rounds_label": "2",
+          "count": 454,
+          "pct": 12.9,
+          "is_suppressed": false,
+          "median_wall_days": 162.44,
+          "median_gov_days": 112.0,
+          "median_applicant_days": 30.5,
+          "mean_gov_days": 136.04,
+          "mean_applicant_days": 93.11
+        },
+        {
+          "rounds_label": "3+",
+          "count": 274,
+          "pct": 7.8,
+          "is_suppressed": false,
+          "median_wall_days": 234.9,
+          "median_gov_days": 138.97,
+          "median_applicant_days": 75.5,
+          "mean_gov_days": 163.51,
+          "mean_applicant_days": 144.63
+        }
+      ]
+    },
+    {
+      "sector_group": "All_Target_Sectors",
+      "sub_sector": "ALL",
+      "clearance_track": "EC",
+      "authority": "Central (MoEFCC)",
+      "cohort_status": "GRANTED",
+      "total_n": 3269,
+      "is_suppressed": false,
+      "buckets": [
+        {
+          "rounds_label": "0",
+          "count": 1494,
+          "pct": 45.7,
+          "is_suppressed": false,
+          "median_wall_days": 139.0,
+          "median_gov_days": 122.5,
+          "median_applicant_days": 0.0,
+          "mean_gov_days": 161.14,
+          "mean_applicant_days": 53.99
+        },
+        {
+          "rounds_label": "1",
+          "count": 1074,
+          "pct": 32.9,
+          "is_suppressed": false,
+          "median_wall_days": 128.0,
+          "median_gov_days": 99.65,
+          "median_applicant_days": 16.0,
+          "mean_gov_days": 131.88,
+          "mean_applicant_days": 67.55
+        },
+        {
+          "rounds_label": "2",
+          "count": 442,
+          "pct": 13.5,
+          "is_suppressed": false,
+          "median_wall_days": 161.82,
+          "median_gov_days": 111.97,
+          "median_applicant_days": 31.0,
+          "mean_gov_days": 135.92,
+          "mean_applicant_days": 94.02
+        },
+        {
+          "rounds_label": "3+",
+          "count": 259,
+          "pct": 7.9,
+          "is_suppressed": false,
+          "median_wall_days": 233.81,
+          "median_gov_days": 137.93,
+          "median_applicant_days": 72.0,
+          "mean_gov_days": 161.7,
+          "mean_applicant_days": 141.09
+        }
+      ]
+    },
+    {
+      "sector_group": "All_Target_Sectors",
+      "sub_sector": "ALL",
+      "clearance_track": "EC",
+      "authority": "State (SEIAA)",
+      "cohort_status": "GRANTED",
+      "total_n": 247,
+      "is_suppressed": false,
+      "buckets": [
+        {
+          "rounds_label": "0",
+          "count": 138,
+          "pct": 55.9,
+          "is_suppressed": false,
+          "median_wall_days": 150.09,
+          "median_gov_days": 133.7,
+          "median_applicant_days": 0.0,
+          "mean_gov_days": 182.4,
+          "mean_applicant_days": 19.85
+        },
+        {
+          "rounds_label": "1",
+          "count": 82,
+          "pct": 33.2,
+          "is_suppressed": false,
+          "median_wall_days": 156.69,
+          "median_gov_days": 150.04,
+          "median_applicant_days": 13.5,
+          "mean_gov_days": 162.69,
+          "mean_applicant_days": 49.61
+        },
+        {
+          "rounds_label": "2",
+          "count": 12,
+          "pct": 4.9,
+          "is_suppressed": true,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        },
+        {
+          "rounds_label": "3+",
+          "count": 15,
+          "pct": 6.1,
+          "is_suppressed": true,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        }
+      ]
+    },
+    {
+      "sector_group": "Factories",
+      "sub_sector": "FACTORIES_ALL",
+      "clearance_track": "EC",
+      "authority": "All Authorities",
+      "cohort_status": "GRANTED",
+      "total_n": 2729,
+      "is_suppressed": false,
+      "buckets": [
+        {
+          "rounds_label": "0",
+          "count": 1132,
+          "pct": 41.5,
+          "is_suppressed": false,
+          "median_wall_days": 126.01,
+          "median_gov_days": 116.47,
+          "median_applicant_days": 0.0,
+          "mean_gov_days": 150.55,
+          "mean_applicant_days": 25.4
+        },
+        {
+          "rounds_label": "1",
+          "count": 950,
+          "pct": 34.8,
+          "is_suppressed": false,
+          "median_wall_days": 120.76,
+          "median_gov_days": 96.72,
+          "median_applicant_days": 14.0,
+          "mean_gov_days": 121.14,
+          "mean_applicant_days": 49.6
+        },
+        {
+          "rounds_label": "2",
+          "count": 399,
+          "pct": 14.6,
+          "is_suppressed": false,
+          "median_wall_days": 154.0,
+          "median_gov_days": 109.0,
+          "median_applicant_days": 28.0,
+          "mean_gov_days": 130.89,
+          "mean_applicant_days": 76.28
+        },
+        {
+          "rounds_label": "3+",
+          "count": 248,
+          "pct": 9.1,
+          "is_suppressed": false,
+          "median_wall_days": 227.0,
+          "median_gov_days": 139.47,
+          "median_applicant_days": 66.0,
+          "mean_gov_days": 160.53,
+          "mean_applicant_days": 127.69
+        }
+      ]
+    },
+    {
+      "sector_group": "Factories",
+      "sub_sector": "FACTORIES_ALL",
+      "clearance_track": "TOR_BESPOKE",
+      "authority": "All Authorities",
+      "cohort_status": "GRANTED",
+      "total_n": 381,
+      "is_suppressed": false,
+      "buckets": [
+        {
+          "rounds_label": "0",
+          "count": 158,
+          "pct": 41.5,
+          "is_suppressed": false,
+          "median_wall_days": 87.83,
+          "median_gov_days": 82.39,
+          "median_applicant_days": 0.0,
+          "mean_gov_days": 99.3,
+          "mean_applicant_days": 15.16
+        },
+        {
+          "rounds_label": "1",
+          "count": 139,
+          "pct": 36.5,
+          "is_suppressed": false,
+          "median_wall_days": 110.94,
+          "median_gov_days": 85.24,
+          "median_applicant_days": 15.29,
+          "mean_gov_days": 101.16,
+          "mean_applicant_days": 34.42
+        },
+        {
+          "rounds_label": "2",
+          "count": 57,
+          "pct": 15.0,
+          "is_suppressed": false,
+          "median_wall_days": 132.89,
+          "median_gov_days": 80.19,
+          "median_applicant_days": 33.82,
+          "mean_gov_days": 91.74,
+          "mean_applicant_days": 76.2
+        },
+        {
+          "rounds_label": "3+",
+          "count": 27,
+          "pct": 7.1,
+          "is_suppressed": true,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        }
+      ]
+    },
+    {
+      "sector_group": "Mines",
+      "sub_sector": "MINES_MAJOR_ALL",
+      "clearance_track": "EC",
+      "authority": "All Authorities",
+      "cohort_status": "GRANTED",
+      "total_n": 650,
+      "is_suppressed": false,
+      "buckets": [
+        {
+          "rounds_label": "0",
+          "count": 419,
+          "pct": 64.5,
+          "is_suppressed": false,
+          "median_wall_days": 178.0,
+          "median_gov_days": 141.0,
+          "median_applicant_days": 3.0,
+          "mean_gov_days": 183.37,
+          "mean_applicant_days": 100.44
+        },
+        {
+          "rounds_label": "1",
+          "count": 169,
+          "pct": 26.0,
+          "is_suppressed": false,
+          "median_wall_days": 215.0,
+          "median_gov_days": 146.0,
+          "median_applicant_days": 43.0,
+          "mean_gov_days": 183.28,
+          "mean_applicant_days": 157.47
+        },
+        {
+          "rounds_label": "2",
+          "count": 46,
+          "pct": 7.1,
+          "is_suppressed": false,
+          "median_wall_days": 241.5,
+          "median_gov_days": 163.0,
+          "median_applicant_days": 49.5,
+          "mean_gov_days": 159.67,
+          "mean_applicant_days": 227.86
+        },
+        {
+          "rounds_label": "3+",
+          "count": 16,
+          "pct": 2.5,
+          "is_suppressed": true,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        }
+      ]
+    },
+    {
+      "sector_group": "Mines",
+      "sub_sector": "MIN_FORM2_MINOR",
+      "clearance_track": "EC",
+      "authority": "State (SEIAA)",
+      "cohort_status": "GRANTED",
+      "total_n": 0,
+      "is_suppressed": true,
+      "buckets": [
+        {
+          "rounds_label": "0",
+          "count": 0,
+          "pct": null,
+          "is_suppressed": false,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        },
+        {
+          "rounds_label": "1",
+          "count": 0,
+          "pct": null,
+          "is_suppressed": false,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        },
+        {
+          "rounds_label": "2",
+          "count": 0,
+          "pct": null,
+          "is_suppressed": false,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        },
+        {
+          "rounds_label": "3+",
+          "count": 0,
+          "pct": null,
+          "is_suppressed": false,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        }
+      ]
+    },
+    {
+      "sector_group": "Power",
+      "sub_sector": "POWER_GEN_ALL",
+      "clearance_track": "EC",
+      "authority": "All Authorities",
+      "cohort_status": "GRANTED",
+      "total_n": 137,
+      "is_suppressed": false,
+      "buckets": [
+        {
+          "rounds_label": "0",
+          "count": 81,
+          "pct": 59.1,
+          "is_suppressed": false,
+          "median_wall_days": 188.86,
+          "median_gov_days": 139.0,
+          "median_applicant_days": 13.0,
+          "mean_gov_days": 230.34,
+          "mean_applicant_days": 155.04
+        },
+        {
+          "rounds_label": "1",
+          "count": 37,
+          "pct": 27.0,
+          "is_suppressed": false,
+          "median_wall_days": 159.82,
+          "median_gov_days": 140.0,
+          "median_applicant_days": 35.0,
+          "mean_gov_days": 241.04,
+          "mean_applicant_days": 78.06
+        },
+        {
+          "rounds_label": "2",
+          "count": 9,
+          "pct": 6.6,
+          "is_suppressed": true,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        },
+        {
+          "rounds_label": "3+",
+          "count": 10,
+          "pct": 7.3,
+          "is_suppressed": true,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        }
+      ]
+    },
+    {
+      "sector_group": "All_Target_Sectors",
+      "sub_sector": "ALL",
+      "clearance_track": "FC",
+      "authority": "All Authorities",
+      "cohort_status": "GRANTED",
+      "total_n": 1276,
+      "is_suppressed": false,
+      "buckets": [
+        {
+          "rounds_label": "0",
+          "count": 99,
+          "pct": 7.8,
+          "is_suppressed": false,
+          "median_wall_days": 460.0,
+          "median_gov_days": 311.0,
+          "median_applicant_days": 86.0,
+          "mean_gov_days": 389.56,
+          "mean_applicant_days": 229.89
+        },
+        {
+          "rounds_label": "1",
+          "count": 162,
+          "pct": 12.7,
+          "is_suppressed": false,
+          "median_wall_days": 576.4,
+          "median_gov_days": 312.68,
+          "median_applicant_days": 133.23,
+          "mean_gov_days": 428.38,
+          "mean_applicant_days": 309.32
+        },
+        {
+          "rounds_label": "2",
+          "count": 196,
+          "pct": 15.4,
+          "is_suppressed": false,
+          "median_wall_days": 643.11,
+          "median_gov_days": 324.33,
+          "median_applicant_days": 177.07,
+          "mean_gov_days": 429.31,
+          "mean_applicant_days": 331.47
+        },
+        {
+          "rounds_label": "3+",
+          "count": 819,
+          "pct": 64.2,
+          "is_suppressed": false,
+          "median_wall_days": 887.73,
+          "median_gov_days": 458.78,
+          "median_applicant_days": 380.42,
+          "mean_gov_days": 557.58,
+          "mean_applicant_days": 538.64
+        }
+      ]
+    },
+    {
+      "sector_group": "All_Target_Sectors",
+      "sub_sector": "ALL",
+      "clearance_track": "WLC",
+      "authority": "All Authorities",
+      "cohort_status": "GRANTED",
+      "total_n": 448,
+      "is_suppressed": false,
+      "buckets": [
+        {
+          "rounds_label": "0",
+          "count": 431,
+          "pct": 96.2,
+          "is_suppressed": false,
+          "median_wall_days": 545.0,
+          "median_gov_days": 533.0,
+          "median_applicant_days": 0.0,
+          "mean_gov_days": 524.52,
+          "mean_applicant_days": 19.39
+        },
+        {
+          "rounds_label": "1",
+          "count": 17,
+          "pct": 3.8,
+          "is_suppressed": true,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        },
+        {
+          "rounds_label": "2",
+          "count": 0,
+          "pct": 0.0,
+          "is_suppressed": false,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        },
+        {
+          "rounds_label": "3+",
+          "count": 0,
+          "pct": 0.0,
+          "is_suppressed": false,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        }
+      ]
+    },
+    {
+      "sector_group": "All_Target_Sectors",
+      "sub_sector": "ALL",
+      "clearance_track": "ALL",
+      "authority": "All Authorities",
+      "cohort_status": "PENDING_ACTIVE",
+      "total_n": 6032,
+      "is_suppressed": false,
+      "buckets": [
+        {
+          "rounds_label": "0",
+          "count": 1404,
+          "pct": 23.3,
+          "is_suppressed": false,
+          "median_wall_days": 939.63,
+          "median_gov_days": 889.0,
+          "median_applicant_days": 0.0,
+          "mean_gov_days": 909.56,
+          "mean_applicant_days": 18.32
+        },
+        {
+          "rounds_label": "1",
+          "count": 3210,
+          "pct": 53.2,
+          "is_suppressed": false,
+          "median_wall_days": 850.0,
+          "median_gov_days": 123.0,
+          "median_applicant_days": 503.0,
+          "mean_gov_days": 308.32,
+          "mean_applicant_days": 570.47
+        },
+        {
+          "rounds_label": "2",
+          "count": 549,
+          "pct": 9.1,
+          "is_suppressed": false,
+          "median_wall_days": 798.0,
+          "median_gov_days": 185.0,
+          "median_applicant_days": 297.0,
+          "mean_gov_days": 537.01,
+          "mean_applicant_days": 662.11
+        },
+        {
+          "rounds_label": "3+",
+          "count": 869,
+          "pct": 14.4,
+          "is_suppressed": false,
+          "median_wall_days": 2323.0,
+          "median_gov_days": 773.28,
+          "median_applicant_days": 804.75,
+          "mean_gov_days": 1139.96,
+          "mean_applicant_days": 1238.5
+        }
+      ]
+    }
+  ],
+  "ads_rounds_by_stratum": [
+    {
+      "sector_group": "All_Target_Sectors",
+      "sub_sector": "ALL",
+      "clearance_track": "ALL",
+      "authority": "All Authorities",
+      "cohort_status": "GRANTED",
+      "total_n": 6456,
+      "is_suppressed": false,
+      "buckets": [
+        {
+          "rounds_label": "0",
+          "count": 4695,
+          "pct": 72.7,
+          "is_suppressed": false,
+          "median_wall_days": 158.83,
+          "median_gov_days": 133.0,
+          "median_applicant_days": 4.97,
+          "mean_gov_days": 254.83,
+          "mean_applicant_days": 136.01
+        },
+        {
+          "rounds_label": "1",
+          "count": 1072,
+          "pct": 16.6,
+          "is_suppressed": false,
+          "median_wall_days": 188.94,
+          "median_gov_days": 124.0,
+          "median_applicant_days": 32.03,
+          "mean_gov_days": 158.51,
+          "mean_applicant_days": 73.87
+        },
+        {
+          "rounds_label": "2",
+          "count": 373,
+          "pct": 5.8,
+          "is_suppressed": false,
+          "median_wall_days": 273.98,
+          "median_gov_days": 159.0,
+          "median_applicant_days": 68.0,
+          "mean_gov_days": 215.32,
+          "mean_applicant_days": 132.89
+        },
+        {
+          "rounds_label": "3+",
+          "count": 316,
+          "pct": 4.9,
+          "is_suppressed": false,
+          "median_wall_days": 433.42,
+          "median_gov_days": 194.85,
+          "median_applicant_days": 183.76,
+          "mean_gov_days": 247.24,
+          "mean_applicant_days": 342.06
+        }
+      ]
+    },
+    {
+      "sector_group": "All_Target_Sectors",
+      "sub_sector": "ALL",
+      "clearance_track": "EC",
+      "authority": "All Authorities",
+      "cohort_status": "GRANTED",
+      "total_n": 3516,
+      "is_suppressed": false,
+      "buckets": [
+        {
+          "rounds_label": "0",
+          "count": 2035,
+          "pct": 57.9,
+          "is_suppressed": false,
+          "median_wall_days": 106.0,
+          "median_gov_days": 94.0,
+          "median_applicant_days": 0.0,
+          "mean_gov_days": 117.89,
+          "mean_applicant_days": 16.12
+        },
+        {
+          "rounds_label": "1",
+          "count": 878,
+          "pct": 25.0,
+          "is_suppressed": false,
+          "median_wall_days": 195.5,
+          "median_gov_days": 131.92,
+          "median_applicant_days": 32.0,
+          "mean_gov_days": 166.16,
+          "mean_applicant_days": 73.76
+        },
+        {
+          "rounds_label": "2",
+          "count": 317,
+          "pct": 9.0,
+          "is_suppressed": false,
+          "median_wall_days": 279.0,
+          "median_gov_days": 162.62,
+          "median_applicant_days": 70.16,
+          "mean_gov_days": 217.39,
+          "mean_applicant_days": 133.85
+        },
+        {
+          "rounds_label": "3+",
+          "count": 286,
+          "pct": 8.1,
+          "is_suppressed": false,
+          "median_wall_days": 444.1,
+          "median_gov_days": 199.0,
+          "median_applicant_days": 201.78,
+          "mean_gov_days": 254.36,
+          "mean_applicant_days": 356.35
+        }
+      ]
+    },
+    {
+      "sector_group": "All_Target_Sectors",
+      "sub_sector": "ALL",
+      "clearance_track": "EC",
+      "authority": "Central (MoEFCC)",
+      "cohort_status": "GRANTED",
+      "total_n": 3269,
+      "is_suppressed": false,
+      "buckets": [
+        {
+          "rounds_label": "0",
+          "count": 1897,
+          "pct": 58.0,
+          "is_suppressed": false,
+          "median_wall_days": 106.0,
+          "median_gov_days": 93.0,
+          "median_applicant_days": 0.0,
+          "mean_gov_days": 115.93,
+          "mean_applicant_days": 16.66
+        },
+        {
+          "rounds_label": "1",
+          "count": 820,
+          "pct": 25.1,
+          "is_suppressed": false,
+          "median_wall_days": 195.5,
+          "median_gov_days": 131.0,
+          "median_applicant_days": 32.5,
+          "mean_gov_days": 165.07,
+          "mean_applicant_days": 76.45
+        },
+        {
+          "rounds_label": "2",
+          "count": 291,
+          "pct": 8.9,
+          "is_suppressed": false,
+          "median_wall_days": 277.0,
+          "median_gov_days": 157.02,
+          "median_applicant_days": 79.0,
+          "mean_gov_days": 213.43,
+          "mean_applicant_days": 137.4
+        },
+        {
+          "rounds_label": "3+",
+          "count": 261,
+          "pct": 8.0,
+          "is_suppressed": false,
+          "median_wall_days": 445.68,
+          "median_gov_days": 199.0,
+          "median_applicant_days": 210.0,
+          "mean_gov_days": 256.54,
+          "mean_applicant_days": 371.72
+        }
+      ]
+    },
+    {
+      "sector_group": "All_Target_Sectors",
+      "sub_sector": "ALL",
+      "clearance_track": "EC",
+      "authority": "State (SEIAA)",
+      "cohort_status": "GRANTED",
+      "total_n": 247,
+      "is_suppressed": false,
+      "buckets": [
+        {
+          "rounds_label": "0",
+          "count": 138,
+          "pct": 55.9,
+          "is_suppressed": false,
+          "median_wall_days": 117.5,
+          "median_gov_days": 110.05,
+          "median_applicant_days": 0.0,
+          "mean_gov_days": 144.85,
+          "mean_applicant_days": 8.66
+        },
+        {
+          "rounds_label": "1",
+          "count": 58,
+          "pct": 23.5,
+          "is_suppressed": false,
+          "median_wall_days": 190.78,
+          "median_gov_days": 138.82,
+          "median_applicant_days": 19.6,
+          "mean_gov_days": 181.6,
+          "mean_applicant_days": 35.67
+        },
+        {
+          "rounds_label": "2",
+          "count": 26,
+          "pct": 10.5,
+          "is_suppressed": true,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        },
+        {
+          "rounds_label": "3+",
+          "count": 25,
+          "pct": 10.1,
+          "is_suppressed": true,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        }
+      ]
+    },
+    {
+      "sector_group": "Factories",
+      "sub_sector": "FACTORIES_ALL",
+      "clearance_track": "EC",
+      "authority": "All Authorities",
+      "cohort_status": "GRANTED",
+      "total_n": 2729,
+      "is_suppressed": false,
+      "buckets": [
+        {
+          "rounds_label": "0",
+          "count": 1702,
+          "pct": 62.4,
+          "is_suppressed": false,
+          "median_wall_days": 104.0,
+          "median_gov_days": 92.0,
+          "median_applicant_days": 0.75,
+          "mean_gov_days": 115.32,
+          "mean_applicant_days": 15.71
+        },
+        {
+          "rounds_label": "1",
+          "count": 660,
+          "pct": 24.2,
+          "is_suppressed": false,
+          "median_wall_days": 190.01,
+          "median_gov_days": 128.73,
+          "median_applicant_days": 31.2,
+          "mean_gov_days": 165.28,
+          "mean_applicant_days": 69.9
+        },
+        {
+          "rounds_label": "2",
+          "count": 214,
+          "pct": 7.8,
+          "is_suppressed": false,
+          "median_wall_days": 255.88,
+          "median_gov_days": 152.0,
+          "median_applicant_days": 58.45,
+          "mean_gov_days": 190.95,
+          "mean_applicant_days": 116.78
+        },
+        {
+          "rounds_label": "3+",
+          "count": 153,
+          "pct": 5.6,
+          "is_suppressed": false,
+          "median_wall_days": 368.0,
+          "median_gov_days": 167.96,
+          "median_applicant_days": 152.0,
+          "mean_gov_days": 204.65,
+          "mean_applicant_days": 262.16
+        }
+      ]
+    },
+    {
+      "sector_group": "Factories",
+      "sub_sector": "FACTORIES_ALL",
+      "clearance_track": "TOR_BESPOKE",
+      "authority": "All Authorities",
+      "cohort_status": "GRANTED",
+      "total_n": 381,
+      "is_suppressed": false,
+      "buckets": [
+        {
+          "rounds_label": "0",
+          "count": 236,
+          "pct": 61.9,
+          "is_suppressed": false,
+          "median_wall_days": 88.92,
+          "median_gov_days": 76.0,
+          "median_applicant_days": 0.09,
+          "mean_gov_days": 86.5,
+          "mean_applicant_days": 17.54
+        },
+        {
+          "rounds_label": "1",
+          "count": 107,
+          "pct": 28.1,
+          "is_suppressed": false,
+          "median_wall_days": 133.97,
+          "median_gov_days": 91.59,
+          "median_applicant_days": 32.31,
+          "mean_gov_days": 109.1,
+          "mean_applicant_days": 49.7
+        },
+        {
+          "rounds_label": "2",
+          "count": 28,
+          "pct": 7.3,
+          "is_suppressed": true,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        },
+        {
+          "rounds_label": "3+",
+          "count": 10,
+          "pct": 2.6,
+          "is_suppressed": true,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        }
+      ]
+    },
+    {
+      "sector_group": "Mines",
+      "sub_sector": "MINES_MAJOR_ALL",
+      "clearance_track": "EC",
+      "authority": "All Authorities",
+      "cohort_status": "GRANTED",
+      "total_n": 650,
+      "is_suppressed": false,
+      "buckets": [
+        {
+          "rounds_label": "0",
+          "count": 283,
+          "pct": 43.5,
+          "is_suppressed": false,
+          "median_wall_days": 119.0,
+          "median_gov_days": 107.0,
+          "median_applicant_days": 0.0,
+          "mean_gov_days": 130.96,
+          "mean_applicant_days": 15.99
+        },
+        {
+          "rounds_label": "1",
+          "count": 177,
+          "pct": 27.2,
+          "is_suppressed": false,
+          "median_wall_days": 209.0,
+          "median_gov_days": 146.0,
+          "median_applicant_days": 32.0,
+          "mean_gov_days": 168.92,
+          "mean_applicant_days": 79.46
+        },
+        {
+          "rounds_label": "2",
+          "count": 86,
+          "pct": 13.2,
+          "is_suppressed": false,
+          "median_wall_days": 345.0,
+          "median_gov_days": 186.5,
+          "median_applicant_days": 97.48,
+          "mean_gov_days": 219.65,
+          "mean_applicant_days": 171.72
+        },
+        {
+          "rounds_label": "3+",
+          "count": 104,
+          "pct": 16.0,
+          "is_suppressed": false,
+          "median_wall_days": 528.0,
+          "median_gov_days": 253.0,
+          "median_applicant_days": 260.94,
+          "mean_gov_days": 312.15,
+          "mean_applicant_days": 490.21
+        }
+      ]
+    },
+    {
+      "sector_group": "Mines",
+      "sub_sector": "MIN_FORM2_MINOR",
+      "clearance_track": "EC",
+      "authority": "State (SEIAA)",
+      "cohort_status": "GRANTED",
+      "total_n": 0,
+      "is_suppressed": true,
+      "buckets": [
+        {
+          "rounds_label": "0",
+          "count": 0,
+          "pct": null,
+          "is_suppressed": false,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        },
+        {
+          "rounds_label": "1",
+          "count": 0,
+          "pct": null,
+          "is_suppressed": false,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        },
+        {
+          "rounds_label": "2",
+          "count": 0,
+          "pct": null,
+          "is_suppressed": false,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        },
+        {
+          "rounds_label": "3+",
+          "count": 0,
+          "pct": null,
+          "is_suppressed": false,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        }
+      ]
+    },
+    {
+      "sector_group": "Power",
+      "sub_sector": "POWER_GEN_ALL",
+      "clearance_track": "EC",
+      "authority": "All Authorities",
+      "cohort_status": "GRANTED",
+      "total_n": 137,
+      "is_suppressed": false,
+      "buckets": [
+        {
+          "rounds_label": "0",
+          "count": 50,
+          "pct": 36.5,
+          "is_suppressed": false,
+          "median_wall_days": 122.05,
+          "median_gov_days": 103.79,
+          "median_applicant_days": 0.0,
+          "mean_gov_days": 131.28,
+          "mean_applicant_days": 30.87
+        },
+        {
+          "rounds_label": "1",
+          "count": 41,
+          "pct": 29.9,
+          "is_suppressed": false,
+          "median_wall_days": 224.0,
+          "median_gov_days": 133.0,
+          "median_applicant_days": 46.0,
+          "mean_gov_days": 168.37,
+          "mean_applicant_days": 111.23
+        },
+        {
+          "rounds_label": "2",
+          "count": 17,
+          "pct": 12.4,
+          "is_suppressed": true,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        },
+        {
+          "rounds_label": "3+",
+          "count": 29,
+          "pct": 21.2,
+          "is_suppressed": true,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        }
+      ]
+    },
+    {
+      "sector_group": "All_Target_Sectors",
+      "sub_sector": "ALL",
+      "clearance_track": "FC",
+      "authority": "All Authorities",
+      "cohort_status": "GRANTED",
+      "total_n": 1276,
+      "is_suppressed": false,
+      "buckets": [
+        {
+          "rounds_label": "0",
+          "count": 1276,
+          "pct": 100.0,
+          "is_suppressed": false,
+          "median_wall_days": 770.28,
+          "median_gov_days": 408.76,
+          "median_applicant_days": 304.0,
+          "mean_gov_days": 508.44,
+          "mean_applicant_days": 453.75
+        },
+        {
+          "rounds_label": "1",
+          "count": 0,
+          "pct": 0.0,
+          "is_suppressed": false,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        },
+        {
+          "rounds_label": "2",
+          "count": 0,
+          "pct": 0.0,
+          "is_suppressed": false,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        },
+        {
+          "rounds_label": "3+",
+          "count": 0,
+          "pct": 0.0,
+          "is_suppressed": false,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        }
+      ]
+    },
+    {
+      "sector_group": "All_Target_Sectors",
+      "sub_sector": "ALL",
+      "clearance_track": "WLC",
+      "authority": "All Authorities",
+      "cohort_status": "GRANTED",
+      "total_n": 448,
+      "is_suppressed": false,
+      "buckets": [
+        {
+          "rounds_label": "0",
+          "count": 448,
+          "pct": 100.0,
+          "is_suppressed": false,
+          "median_wall_days": 557.5,
+          "median_gov_days": 533.5,
+          "median_applicant_days": 0.0,
+          "mean_gov_days": 530.36,
+          "mean_applicant_days": 28.44
+        },
+        {
+          "rounds_label": "1",
+          "count": 0,
+          "pct": 0.0,
+          "is_suppressed": false,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        },
+        {
+          "rounds_label": "2",
+          "count": 0,
+          "pct": 0.0,
+          "is_suppressed": false,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        },
+        {
+          "rounds_label": "3+",
+          "count": 0,
+          "pct": 0.0,
+          "is_suppressed": false,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        }
+      ]
+    },
+    {
+      "sector_group": "All_Target_Sectors",
+      "sub_sector": "ALL",
+      "clearance_track": "ALL",
+      "authority": "All Authorities",
+      "cohort_status": "PENDING_ACTIVE",
+      "total_n": 6032,
+      "is_suppressed": false,
+      "buckets": [
+        {
+          "rounds_label": "0",
+          "count": 5998,
+          "pct": 99.4,
+          "is_suppressed": false,
+          "median_wall_days": 981.05,
+          "median_gov_days": 304.0,
+          "median_applicant_days": 321.0,
+          "mean_gov_days": 590.32,
+          "mean_applicant_days": 544.61
+        },
+        {
+          "rounds_label": "1",
+          "count": 5,
+          "pct": 0.1,
+          "is_suppressed": true,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        },
+        {
+          "rounds_label": "2",
+          "count": 5,
+          "pct": 0.1,
+          "is_suppressed": true,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        },
+        {
+          "rounds_label": "3+",
+          "count": 24,
+          "pct": 0.4,
+          "is_suppressed": true,
+          "median_wall_days": null,
+          "median_gov_days": null,
+          "median_applicant_days": null,
+          "mean_gov_days": null,
+          "mean_applicant_days": null
+        }
+      ]
+    }
+  ],
+  "marginal_cost_per_query_round": [
+    {
+      "query_type": "EDS",
+      "round_number": 1,
+      "round_label": "Round 1",
+      "occurrences_n": 10650,
+      "is_suppressed": false,
+      "applicant_reply_days": {
+        "n": 10650,
+        "n_weighted": 10650.0,
+        "mean": 286.96,
+        "p25": 9.0,
+        "median": 50.98,
+        "p75": 463.75,
+        "iqr": 454.75,
+        "p90": 1041.38,
+        "p95": 1199.06,
+        "min": 0.0,
+        "max": 4483.0
+      },
+      "subsequent_gov_rescrutiny_days": {
+        "n": 10650,
+        "n_weighted": 10650.0,
+        "mean": 37.09,
+        "p25": 0.0,
+        "median": 6.0,
+        "p75": 27.0,
+        "iqr": 27.0,
+        "p90": 79.8,
+        "p95": 170.0,
+        "min": 0.0,
+        "max": 4133.0
+      },
+      "cycle_total_days": {
+        "n": 10650,
+        "n_weighted": 10650.0,
+        "mean": 324.05,
+        "p25": 33.0,
+        "median": 105.0,
+        "p75": 489.19,
+        "iqr": 456.19,
+        "p90": 1052.0,
+        "p95": 1203.0,
+        "min": 0.0,
+        "max": 4483.0
+      }
+    },
+    {
+      "query_type": "EDS",
+      "round_number": 2,
+      "round_label": "Round 2",
+      "occurrences_n": 4410,
+      "is_suppressed": false,
+      "applicant_reply_days": {
+        "n": 4410,
+        "n_weighted": 4410.0,
+        "mean": 165.87,
+        "p25": 5.0,
+        "median": 21.0,
+        "p75": 89.0,
+        "iqr": 84.0,
+        "p90": 411.11,
+        "p95": 999.71,
+        "min": 0.0,
+        "max": 4318.0
+      },
+      "subsequent_gov_rescrutiny_days": {
+        "n": 4410,
+        "n_weighted": 4410.0,
+        "mean": 46.88,
+        "p25": 1.73,
+        "median": 9.23,
+        "p75": 29.0,
+        "iqr": 27.27,
+        "p90": 69.08,
+        "p95": 120.06,
+        "min": 0.0,
+        "max": 3996.0
+      },
+      "cycle_total_days": {
+        "n": 4410,
+        "n_weighted": 4410.0,
+        "mean": 212.76,
+        "p25": 20.07,
+        "median": 51.11,
+        "p75": 151.75,
+        "iqr": 131.68,
+        "p90": 589.16,
+        "p95": 1073.69,
+        "min": 0.0,
+        "max": 4318.0
+      }
+    },
+    {
+      "query_type": "EDS",
+      "round_number": 3,
+      "round_label": "Round 3+",
+      "occurrences_n": 9419,
+      "is_suppressed": false,
+      "applicant_reply_days": {
+        "n": 9419,
+        "n_weighted": 9419.0,
+        "mean": 153.14,
+        "p25": 4.95,
+        "median": 18.91,
+        "p75": 72.09,
+        "iqr": 67.14,
+        "p90": 308.11,
+        "p95": 858.18,
+        "min": 0.0,
+        "max": 4337.0
+      },
+      "subsequent_gov_rescrutiny_days": {
+        "n": 9419,
+        "n_weighted": 9419.0,
+        "mean": 39.43,
+        "p25": 2.97,
+        "median": 11.11,
+        "p75": 34.0,
+        "iqr": 31.03,
+        "p90": 81.0,
+        "p95": 137.0,
+        "min": 0.0,
+        "max": 3824.0
+      },
+      "cycle_total_days": {
+        "n": 9419,
+        "n_weighted": 9419.0,
+        "mean": 192.57,
+        "p25": 18.92,
+        "median": 49.0,
+        "p75": 133.0,
+        "iqr": 114.08,
+        "p90": 430.44,
+        "p95": 927.11,
+        "min": 0.0,
+        "max": 4337.0
+      }
+    },
+    {
+      "query_type": "ADS",
+      "round_number": 1,
+      "round_label": "Round 1",
+      "occurrences_n": 2062,
+      "is_suppressed": false,
+      "applicant_reply_days": {
+        "n": 2062,
+        "n_weighted": 2062.0,
+        "mean": 124.99,
+        "p25": 5.26,
+        "median": 24.0,
+        "p75": 91.04,
+        "iqr": 85.78,
+        "p90": 370.13,
+        "p95": 867.31,
+        "min": 0.01,
+        "max": 1259.2
+      },
+      "subsequent_gov_rescrutiny_days": {
+        "n": 2062,
+        "n_weighted": 2062.0,
+        "mean": 32.77,
+        "p25": 1.77,
+        "median": 16.0,
+        "p75": 38.12,
+        "iqr": 36.36,
+        "p90": 71.0,
+        "p95": 110.9,
+        "min": 0.0,
+        "max": 2157.0
+      },
+      "cycle_total_days": {
+        "n": 2062,
+        "n_weighted": 2062.0,
+        "mean": 157.77,
+        "p25": 23.83,
+        "median": 63.0,
+        "p75": 149.0,
+        "iqr": 125.17,
+        "p90": 445.96,
+        "p95": 871.07,
+        "min": 0.01,
+        "max": 2275.0
+      }
+    },
+    {
+      "query_type": "ADS",
+      "round_number": 2,
+      "round_label": "Round 2",
+      "occurrences_n": 771,
+      "is_suppressed": false,
+      "applicant_reply_days": {
+        "n": 771,
+        "n_weighted": 771.0,
+        "mean": 104.89,
+        "p25": 4.0,
+        "median": 17.0,
+        "p75": 66.0,
+        "iqr": 62.0,
+        "p90": 321.24,
+        "p95": 644.1,
+        "min": 0.02,
+        "max": 2108.0
+      },
+      "subsequent_gov_rescrutiny_days": {
+        "n": 771,
+        "n_weighted": 771.0,
+        "mean": 25.6,
+        "p25": 1.15,
+        "median": 11.07,
+        "p75": 35.96,
+        "iqr": 34.82,
+        "p90": 59.0,
+        "p95": 83.0,
+        "min": 0.0,
+        "max": 473.0
+      },
+      "cycle_total_days": {
+        "n": 771,
+        "n_weighted": 771.0,
+        "mean": 130.48,
+        "p25": 16.63,
+        "median": 48.77,
+        "p75": 115.88,
+        "iqr": 99.25,
+        "p90": 377.13,
+        "p95": 649.59,
+        "min": 0.06,
+        "max": 2135.0
+      }
+    },
+    {
+      "query_type": "ADS",
+      "round_number": 3,
+      "round_label": "Round 3+",
+      "occurrences_n": 660,
+      "is_suppressed": false,
+      "applicant_reply_days": {
+        "n": 660,
+        "n_weighted": 660.0,
+        "mean": 116.19,
+        "p25": 5.26,
+        "median": 22.0,
+        "p75": 90.25,
+        "iqr": 84.99,
+        "p90": 373.29,
+        "p95": 645.05,
+        "min": 0.01,
+        "max": 1696.0
+      },
+      "subsequent_gov_rescrutiny_days": {
+        "n": 660,
+        "n_weighted": 660.0,
+        "mean": 24.44,
+        "p25": 0.85,
+        "median": 8.16,
+        "p75": 27.0,
+        "iqr": 26.15,
+        "p90": 53.1,
+        "p95": 76.0,
+        "min": 0.0,
+        "max": 1992.0
+      },
+      "cycle_total_days": {
+        "n": 660,
+        "n_weighted": 660.0,
+        "mean": 140.63,
+        "p25": 16.89,
+        "median": 49.0,
+        "p75": 130.0,
+        "iqr": 113.11,
+        "p90": 408.73,
+        "p95": 679.16,
+        "min": 0.02,
+        "max": 2000.0
+      }
+    },
+    {
+      "query_type": "ANY_PROPONENT_QUERY",
+      "round_number": 1,
+      "round_label": "Round 1",
+      "occurrences_n": 11542,
+      "is_suppressed": false,
+      "applicant_reply_days": {
+        "n": 11542,
+        "n_weighted": 11542.0,
+        "mean": 277.1,
+        "p25": 9.0,
+        "median": 48.0,
+        "p75": 432.0,
+        "iqr": 423.0,
+        "p90": 1019.31,
+        "p95": 1194.0,
+        "min": 0.0,
+        "max": 4483.0
+      },
+      "subsequent_gov_rescrutiny_days": {
+        "n": 11542,
+        "n_weighted": 11542.0,
+        "mean": 37.41,
+        "p25": 0.0,
+        "median": 7.0,
+        "p75": 28.92,
+        "iqr": 28.92,
+        "p90": 81.0,
+        "p95": 167.99,
+        "min": 0.0,
+        "max": 4133.0
+      },
+      "cycle_total_days": {
+        "n": 11542,
+        "n_weighted": 11542.0,
+        "mean": 314.5,
+        "p25": 33.06,
+        "median": 101.98,
+        "p75": 471.0,
+        "iqr": 437.94,
+        "p90": 1029.0,
+        "p95": 1196.0,
+        "min": 0.0,
+        "max": 4483.0
+      }
+    },
+    {
+      "query_type": "ANY_PROPONENT_QUERY",
+      "round_number": 2,
+      "round_label": "Round 2",
+      "occurrences_n": 5434,
+      "is_suppressed": false,
+      "applicant_reply_days": {
+        "n": 5434,
+        "n_weighted": 5434.0,
+        "mean": 156.26,
+        "p25": 5.0,
+        "median": 21.0,
+        "p75": 88.2,
+        "iqr": 83.2,
+        "p90": 401.44,
+        "p95": 953.1,
+        "min": 0.0,
+        "max": 4318.0
+      },
+      "subsequent_gov_rescrutiny_days": {
+        "n": 5434,
+        "n_weighted": 5434.0,
+        "mean": 43.6,
+        "p25": 1.79,
+        "median": 10.0,
+        "p75": 30.02,
+        "iqr": 28.23,
+        "p90": 66.0,
+        "p95": 115.43,
+        "min": 0.0,
+        "max": 3996.0
+      },
+      "cycle_total_days": {
+        "n": 5434,
+        "n_weighted": 5434.0,
+        "mean": 199.86,
+        "p25": 20.05,
+        "median": 52.03,
+        "p75": 146.53,
+        "iqr": 126.48,
+        "p90": 521.77,
+        "p95": 1005.06,
+        "min": 0.0,
+        "max": 4318.0
+      }
+    },
+    {
+      "query_type": "ANY_PROPONENT_QUERY",
+      "round_number": 3,
+      "round_label": "Round 3+",
+      "occurrences_n": 10996,
+      "is_suppressed": false,
+      "applicant_reply_days": {
+        "n": 10996,
+        "n_weighted": 10996.0,
+        "mean": 145.32,
+        "p25": 4.55,
+        "median": 18.93,
+        "p75": 73.0,
+        "iqr": 68.45,
+        "p90": 303.65,
+        "p95": 804.72,
+        "min": 0.0,
+        "max": 4337.0
+      },
+      "subsequent_gov_rescrutiny_days": {
+        "n": 10996,
+        "n_weighted": 10996.0,
+        "mean": 37.09,
+        "p25": 2.14,
+        "median": 11.0,
+        "p75": 33.0,
+        "iqr": 30.86,
+        "p90": 76.0,
+        "p95": 128.0,
+        "min": 0.0,
+        "max": 3824.0
+      },
+      "cycle_total_days": {
+        "n": 10996,
+        "n_weighted": 10996.0,
+        "mean": 182.41,
+        "p25": 18.0,
+        "median": 48.24,
+        "p75": 129.89,
+        "iqr": 111.89,
+        "p90": 412.96,
+        "p95": 872.27,
+        "min": 0.0,
+        "max": 4337.0
+      }
+    }
+  ],
+  "intragov_pingpong": {
+    "summary_by_clearance": [
+      {
+        "clearance_track": "FC",
+        "portal": "ALL",
+        "proposals_n": 4222,
+        "proposals_with_intragov_loops_n": 2460,
+        "pct_with_intragov_loops": 58.3,
+        "intragov_days_when_present": {
+          "n": 2428,
+          "n_weighted": 2428.0,
+          "mean": 288.55,
+          "p25": 32.0,
+          "median": 106.03,
+          "p75": 274.1,
+          "iqr": 242.1,
+          "p90": 649.95,
+          "p95": 1362.95,
+          "min": 0.0,
+          "max": 4202.0
+        },
+        "applicant_query_days_all": {
+          "n": 4222,
+          "n_weighted": 4222.0,
+          "mean": 739.69,
+          "p25": 105.0,
+          "median": 504.73,
+          "p75": 1088.99,
+          "iqr": 983.99,
+          "p90": 1560.8,
+          "p95": 2643.75,
+          "min": 0.0,
+          "max": 4483.0
+        }
+      },
+      {
+        "clearance_track": "WLC",
+        "portal": "ALL",
+        "proposals_n": 4830,
+        "proposals_with_intragov_loops_n": 517,
+        "pct_with_intragov_loops": 10.7,
+        "intragov_days_when_present": {
+          "n": 517,
+          "n_weighted": 517.0,
+          "mean": 107.73,
+          "p25": 10.0,
+          "median": 46.0,
+          "p75": 139.0,
+          "iqr": 129.0,
+          "p90": 283.6,
+          "p95": 448.2,
+          "min": 1.0,
+          "max": 952.0
+        },
+        "applicant_query_days_all": {
+          "n": 4830,
+          "n_weighted": 4830.0,
+          "mean": 314.7,
+          "p25": 0.0,
+          "median": 145.0,
+          "p75": 550.0,
+          "iqr": 550.0,
+          "p90": 902.0,
+          "p95": 1101.0,
+          "min": 0.0,
+          "max": 1330.0
+        }
+      },
+      {
+        "clearance_track": "CRZ",
+        "portal": "ALL",
+        "proposals_n": 607,
+        "proposals_with_intragov_loops_n": 4,
+        "pct_with_intragov_loops": 0.7,
+        "intragov_days_when_present": {
+          "n": 0,
+          "n_weighted": 0.0,
+          "mean": null,
+          "p25": null,
+          "median": null,
+          "p75": null,
+          "iqr": null,
+          "p90": null,
+          "p95": null,
+          "min": null,
+          "max": null
+        },
+        "applicant_query_days_all": {
+          "n": 607,
+          "n_weighted": 607.0,
+          "mean": 494.47,
+          "p25": 3.4,
+          "median": 283.11,
+          "p75": 971.82,
+          "iqr": 968.42,
+          "p90": 1206.08,
+          "p95": 1397.19,
+          "min": 0.0,
+          "max": 1517.96
+        }
+      }
+    ],
+    "directed_desk_edges": [
+      {
+        "clearance_track": "FC",
+        "portal": "P1",
+        "from_desk": "Conservator of Forests (CF / CCF)",
+        "to_desk": "Divisional Forest Officer (DFO)",
+        "event_count": 4379,
+        "total_days": 691989.0,
+        "median_days": 17.0,
+        "mean_days": 158.02
+      },
+      {
+        "clearance_track": "FC",
+        "portal": "P1",
+        "from_desk": "State Nodal Officer",
+        "to_desk": "Conservator of Forests (CF / CCF)",
+        "event_count": 3135,
+        "total_days": 650275.0,
+        "median_days": 38.0,
+        "mean_days": 207.42
+      },
+      {
+        "clearance_track": "FC",
+        "portal": "P1",
+        "from_desk": "State Secretary",
+        "to_desk": "State Nodal Officer",
+        "event_count": 1878,
+        "total_days": 491231.0,
+        "median_days": 69.0,
+        "mean_days": 261.57
+      },
+      {
+        "clearance_track": "FC",
+        "portal": "P1",
+        "from_desk": "IRO / Regional Office",
+        "to_desk": "State Secretary",
+        "event_count": 1562,
+        "total_days": 475829.0,
+        "median_days": 86.0,
+        "mean_days": 304.63
+      },
+      {
+        "clearance_track": "FC",
+        "portal": "P1",
+        "from_desk": "MoEFCC HQ",
+        "to_desk": "State Secretary",
+        "event_count": 396,
+        "total_days": 166457.0,
+        "median_days": 121.0,
+        "mean_days": 420.35
+      },
+      {
+        "clearance_track": "FC",
+        "portal": "P2",
+        "from_desk": "Nodal Officer",
+        "to_desk": "DFO",
+        "event_count": 6321,
+        "total_days": 86766.37,
+        "median_days": 3.93,
+        "mean_days": 13.73
+      },
+      {
+        "clearance_track": "FC",
+        "portal": "P1",
+        "from_desk": "MoEFCC HQ",
+        "to_desk": "IRO / Regional Office",
+        "event_count": 61,
+        "total_days": 78216.0,
+        "median_days": 1403.0,
+        "mean_days": 1282.23
+      },
+      {
+        "clearance_track": "FC",
+        "portal": "P2",
+        "from_desk": "State Secretary",
+        "to_desk": "Nodal Officer",
+        "event_count": 3782,
+        "total_days": 36150.71,
+        "median_days": 2.76,
+        "mean_days": 9.56
+      },
+      {
+        "clearance_track": "WLC",
+        "portal": "P2",
+        "from_desk": "Wlc:Ww_Wlc",
+        "to_desk": "Cww_Wlc",
+        "event_count": 107,
+        "total_days": 24996.0,
+        "median_days": 182.0,
+        "mean_days": 233.61
+      },
+      {
+        "clearance_track": "WLC",
+        "portal": "P2",
+        "from_desk": "Wlc:Cww_Wlc",
+        "to_desk": "Ww_Wlc",
+        "event_count": 435,
+        "total_days": 18021.0,
+        "median_days": 20.0,
+        "mean_days": 41.43
+      },
+      {
+        "clearance_track": "FC",
+        "portal": "P2",
+        "from_desk": "Gov",
+        "to_desk": "Gov",
+        "event_count": 978,
+        "total_days": 12992.17,
+        "median_days": 3.0,
+        "mean_days": 13.28
+      },
+      {
+        "clearance_track": "FC",
+        "portal": "P2",
+        "from_desk": "IRO",
+        "to_desk": "State Secretary",
+        "event_count": 1612,
+        "total_days": 12843.5,
+        "median_days": 2.0,
+        "mean_days": 7.97
+      },
+      {
+        "clearance_track": "WLC",
+        "portal": "P2",
+        "from_desk": "Wlc:Ss_Wlc",
+        "to_desk": "Ministry",
+        "event_count": 23,
+        "total_days": 7408.0,
+        "median_days": 309.0,
+        "mean_days": 322.09
+      },
+      {
+        "clearance_track": "WLC",
+        "portal": "P2",
+        "from_desk": "Wlc:Cww_Wlc",
+        "to_desk": "Ss_Wlc",
+        "event_count": 23,
+        "total_days": 7270.0,
+        "median_days": 266.0,
+        "mean_days": 316.09
+      },
+      {
+        "clearance_track": "WLC",
+        "portal": "P2",
+        "from_desk": "Wlc:Ministry",
+        "to_desk": "Ss_Wlc",
+        "event_count": 119,
+        "total_days": 6452.0,
+        "median_days": 28.0,
+        "mean_days": 54.22
+      },
+      {
+        "clearance_track": "FC",
+        "portal": "P1",
+        "from_desk": "MoEFCC HQ",
+        "to_desk": "MoEFCC HQ",
+        "event_count": 20,
+        "total_days": 5776.0,
+        "median_days": 0.0,
+        "mean_days": 288.8
+      },
+      {
+        "clearance_track": "WLC",
+        "portal": "P2",
+        "from_desk": "Wlc:Ss_Wlc",
+        "to_desk": "Cww_Wlc",
+        "event_count": 122,
+        "total_days": 4662.0,
+        "median_days": 14.0,
+        "mean_days": 38.21
+      },
+      {
+        "clearance_track": "FC",
+        "portal": "P2",
+        "from_desk": "RO",
+        "to_desk": "State Secretary",
+        "event_count": 203,
+        "total_days": 1170.48,
+        "median_days": 1.99,
+        "mean_days": 5.77
+      },
+      {
+        "clearance_track": "FC",
+        "portal": "P2",
+        "from_desk": "CF",
+        "to_desk": "DFO",
+        "event_count": 180,
+        "total_days": 1163.51,
+        "median_days": 1.95,
+        "mean_days": 6.46
+      },
+      {
+        "clearance_track": "FC",
+        "portal": "P2",
+        "from_desk": "Ss",
+        "to_desk": "Nodal Officer",
+        "event_count": 50,
+        "total_days": 1028.21,
+        "median_days": 4.92,
+        "mean_days": 20.56
+      },
+      {
+        "clearance_track": "FC",
+        "portal": "P2",
+        "from_desk": "Nodal Officer",
+        "to_desk": "CF",
+        "event_count": 78,
+        "total_days": 296.46,
+        "median_days": 1.81,
+        "mean_days": 3.8
+      },
+      {
+        "clearance_track": "FC",
+        "portal": "P2",
+        "from_desk": "IRO Head",
+        "to_desk": "State Secretary",
+        "event_count": 21,
+        "total_days": 286.81,
+        "median_days": 0.77,
+        "mean_days": 13.66
+      },
+      {
+        "clearance_track": "FC",
+        "portal": "P2",
+        "from_desk": "Ss",
+        "to_desk": "Nodal",
+        "event_count": 5,
+        "total_days": 105.03,
+        "median_days": 1.91,
+        "mean_days": 21.01
+      },
+      {
+        "clearance_track": "FC",
+        "portal": "P2",
+        "from_desk": "Member Secretary",
+        "to_desk": "DFO",
+        "event_count": 9,
+        "total_days": 34.71,
+        "median_days": 0.96,
+        "mean_days": 3.86
+      },
+      {
+        "clearance_track": "FC",
+        "portal": "P2",
+        "from_desk": "Nodal",
+        "to_desk": "DFO",
+        "event_count": 3,
+        "total_days": 16.21,
+        "median_days": 5.98,
+        "mean_days": 5.4
+      },
+      {
+        "clearance_track": "FC",
+        "portal": "P2",
+        "from_desk": "State Secretary",
+        "to_desk": "DFO",
+        "event_count": 1,
+        "total_days": 1.08,
+        "median_days": 1.08,
+        "mean_days": 1.08
+      },
+      {
+        "clearance_track": "FC",
+        "portal": "P2",
+        "from_desk": "IRO Head",
+        "to_desk": "IRO Technical Officer",
+        "event_count": 1,
+        "total_days": 0.05,
+        "median_days": 0.05,
+        "mean_days": 0.05
+      },
+      {
+        "clearance_track": "FC",
+        "portal": "P2",
+        "from_desk": "Nodal",
+        "to_desk": "CF",
+        "event_count": 1,
+        "total_days": 0.0,
+        "median_days": 0.0,
+        "mean_days": 0.0
+      }
+    ],
+    "notable_examples": [
+      {
+        "proposal_no": "FP/MH/MIN/9538/2015",
+        "project_name": "Penganga Opencast Mine",
+        "state": "Maharashtra",
+        "clearance_track": "FC",
+        "portal": "P1",
+        "wall_days": 4314.0,
+        "gov_days": 4295.0,
+        "intragov_query_days": 4202.0,
+        "applicant_days": 19.0,
+        "loop_count": 1,
+        "summary": "4202.0d in inter-departmental queries vs 19.0d with applicant."
+      },
+      {
+        "proposal_no": "FP/JH/MIN/8764/2014",
+        "project_name": "Langraparas Stone Quarry",
+        "state": "Jharkhand",
+        "clearance_track": "FC",
+        "portal": "P1",
+        "wall_days": 4276.0,
+        "gov_days": 4222.0,
+        "intragov_query_days": 3600.0,
+        "applicant_days": 54.0,
+        "loop_count": 3,
+        "summary": "3600.0d in inter-departmental queries vs 54.0d with applicant."
+      },
+      {
+        "proposal_no": "FP/MP/MIN/22903/2016",
+        "project_name": "Modern Mineral Industries",
+        "state": "Madhya Pradesh",
+        "clearance_track": "FC",
+        "portal": "P1",
+        "wall_days": 3631.0,
+        "gov_days": 3629.0,
+        "intragov_query_days": 3599.0,
+        "applicant_days": 2.0,
+        "loop_count": 3,
+        "summary": "3599.0d in inter-departmental queries vs 2.0d with applicant."
+      },
+      {
+        "proposal_no": "FP/MP/MIN/22934/2016",
+        "project_name": "Miragpur Mangenese Ore Mine",
+        "state": "Madhya Pradesh",
+        "clearance_track": "FC",
+        "portal": "P1",
+        "wall_days": 3630.0,
+        "gov_days": 3630.0,
+        "intragov_query_days": 3598.0,
+        "applicant_days": 0.0,
+        "loop_count": 3,
+        "summary": "3598.0d in inter-departmental queries vs 0.0d with applicant."
+      },
+      {
+        "proposal_no": "FP/MP/MIN/22848/2016",
+        "project_name": "ARPAN FERRO ALLOYS",
+        "state": "Madhya Pradesh",
+        "clearance_track": "FC",
+        "portal": "P1",
+        "wall_days": 3634.0,
+        "gov_days": 3633.0,
+        "intragov_query_days": 3594.0,
+        "applicant_days": 1.0,
+        "loop_count": 3,
+        "summary": "3594.0d in inter-departmental queries vs 1.0d with applicant."
+      },
+      {
+        "proposal_no": "FP/MP/MIN/22909/2016",
+        "project_name": "Modern Mineral Industries",
+        "state": "Madhya Pradesh",
+        "clearance_track": "FC",
+        "portal": "P1",
+        "wall_days": 3631.0,
+        "gov_days": 3630.0,
+        "intragov_query_days": 3594.0,
+        "applicant_days": 1.0,
+        "loop_count": 1,
+        "summary": "3594.0d in inter-departmental queries vs 1.0d with applicant."
+      },
+      {
+        "proposal_no": "FP/CG/MIN/22629/2016",
+        "project_name": "IRON ORE MINING IN FAVOUR OF M/S IND SYNERGY LIMITED IN HAHALDDI RANGE, BHANUPRATAPPUR (EAST) FOREST DIVISION",
+        "state": "Chhattisgarh",
+        "clearance_track": "FC",
+        "portal": "P1",
+        "wall_days": 3639.0,
+        "gov_days": 3634.0,
+        "intragov_query_days": 3593.0,
+        "applicant_days": 5.0,
+        "loop_count": 2,
+        "summary": "3593.0d in inter-departmental queries vs 5.0d with applicant."
+      },
+      {
+        "proposal_no": "FP/OR/MIN/22528/2016",
+        "project_name": "Kalaparbat Iron & Manganese ML area of Dr.Sarojini Pradhan",
+        "state": "Odisha",
+        "clearance_track": "FC",
+        "portal": "P1",
+        "wall_days": 3644.0,
+        "gov_days": 3638.0,
+        "intragov_query_days": 3593.0,
+        "applicant_days": 6.0,
+        "loop_count": 2,
+        "summary": "3593.0d in inter-departmental queries vs 6.0d with applicant."
+      },
+      {
+        "proposal_no": "FP/OR/MIN/22458/2016",
+        "project_name": "DIVERSION OF FOREST LAND IN SIDHAMATH RESERVE FOREST IN FAVOUR OF DR. SAROJINI PRADHAN FOR IRON AND MANGANESE ORE MINING",
+        "state": "Odisha",
+        "clearance_track": "FC",
+        "portal": "P1",
+        "wall_days": 3646.0,
+        "gov_days": 3646.0,
+        "intragov_query_days": 3593.0,
+        "applicant_days": 0.0,
+        "loop_count": 2,
+        "summary": "3593.0d in inter-departmental queries vs 0.0d with applicant."
+      },
+      {
+        "proposal_no": "FP/MP/MIN/22964/2016",
+        "project_name": "Grant of Mining Lease for Manganese Ore",
+        "state": "Madhya Pradesh",
+        "clearance_track": "FC",
+        "portal": "P1",
+        "wall_days": 3628.0,
+        "gov_days": 3628.0,
+        "intragov_query_days": 3530.0,
+        "applicant_days": 0.0,
+        "loop_count": 5,
+        "summary": "3530.0d in inter-departmental queries vs 0.0d with applicant."
+      },
+      {
+        "proposal_no": "FP/MP/MIN/22941/2016",
+        "project_name": "Grant of Mining Lease for Manganese Ore",
+        "state": "Madhya Pradesh",
+        "clearance_track": "FC",
+        "portal": "P1",
+        "wall_days": 3630.0,
+        "gov_days": 3630.0,
+        "intragov_query_days": 3527.0,
+        "applicant_days": 0.0,
+        "loop_count": 4,
+        "summary": "3527.0d in inter-departmental queries vs 0.0d with applicant."
+      },
+      {
+        "proposal_no": "FP/KL/VELEC/23308/2016",
+        "project_name": "Mottalmoodu colony electrification under TOTAL ELECTRIFICATION SCHEME of Kerala Govt",
+        "state": "Kerala",
+        "clearance_track": "FC",
+        "portal": "P1",
+        "wall_days": 3609.0,
+        "gov_days": 3584.0,
+        "intragov_query_days": 3495.0,
+        "applicant_days": 25.0,
+        "loop_count": 2,
+        "summary": "3495.0d in inter-departmental queries vs 25.0d with applicant."
+      }
+    ]
+  }
+}

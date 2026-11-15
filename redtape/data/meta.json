@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0.0",
+  "is_seed": false,
+  "stage_label": "Stage B \u2014 Full Production PARIVESH 2.0 & 1.0 Statistical Crunch (P2 filings 2022\u2013mid-2024 + P1 2014\u20132022)",
+  "generated_at_utc": "2026-11-15T17:39:57+00:00",
+  "snapshot_utc": "2026-11-15T13:00:00+00:00",
+  "accessed_on": "2026-11-15",
+  "partition_equation": "wall_days == gov_days + applicant_days + interlock_days",
+  "statistical_methodology": {
+    "p2_completed_duration_filing_window": "filings 2022\u2013mid-2024 (first_submission_utc < 2024-07-01)",
+    "right_censored_years_suppressed": [
+      2025,
+      2026
+    ],
+    "min_reportable_cell_n": 30,
+    "within_stratum_weighting": "unweighted_empirical_1.0 (zero high-weight row amplification)",
+    "p1_partition_handling": "full_stage rows (N=4,165 Central EC timelineA + FC timeline.aspx) used for Gov/Applicant/Interlock & EDS/ADS splits; milestone_only rows (N=5,480 Central ToR + State SEIAA) used strictly for total wall_days & fixed-horizon completion",
+    "form2_minor_mineral_handling": "40,145 P2 Form-2 0-5 ha quarry directory rows isolated from Major Mines and suppressed on duration quantiles (<30 P2 extracted timelines; P1 SEIAA milestone-only)"
+  },
+  "coverage": {
+    "p2_directory_raw_total": 159103,
+    "p2_directory_clean_total": 158944,
+    "p2_hygiene_filtered_total": 159,
+    "p2_hygiene_dummy_state_rows": 135,
+    "p2_hygiene_test_keyword_rows": 24,
+    "p2_timelines_crunched_n": 11855,
+    "p2_zero_step_unobserved_excluded_n": 1941,
+    "p1_timelines_crunched_n": 9645,
+    "p1_full_stage_timelines_n": 4165,
+    "p1_milestone_only_timelines_n": 5480,
+    "total_timelines_crunched_n": 21500,
+    "full_stage_timelines_crunched_n": 16020,
+    "linked_tor_ec_cohorts_universe_n": 10639,
+    "linked_tor_ec_cohorts_crunched_n": 284,
+    "traces_indexed_n": 2150,
+    "trace_shards_count": 12
+  },
+  "directory_volumes_p2_clean": {
+    "ec_tor_total": 120207,
+    "fc_total": 31025,
+    "wlc_total": 5241,
+    "crz_total": 2471,
+    "by_target_sector": {
+      "Factories": {
+        "ec_tor": 9721,
+        "ind_estates_31": 317,
+        "fc": 745,
+        "wlc": 57
+      },
+      "Mines": {
+        "coal_ec_tor": 757,
+        "noncoal_major_ec_tor": 46705,
+        "noncoal_form2_minor_ec_tor": 40145,
+        "fc": 952,
+        "wlc": 417
+      },
+      "Power": {
+        "thermal_ec_tor": 344,
+        "hydro_ec_tor": 481,
+        "fc_grid_gen": 2915,
+        "wlc_grid_gen": 388
+      },
+      "Infrastructure_Other": {
+        "ec_tor": 21737,
+        "fc": 26413,
+        "wlc": 4379,
+        "crz": 2471
+      }
+    }
+  },
+  "statutory_benchmarks": {
+    "EC": {
+      "days": 105,
+      "label": "105 days (60d EAC/SEAC appraisal + 45d authority decision, EIA Notification 2006 Para 7 & 8)"
+    },
+    "TOR_BESPOKE": {
+      "days": 60,
+      "label": "60 days (EIA Notification 2006 Para 7(i) Stage 2 Scoping)"
+    },
+    "TOR_STANDARD_AUTO": {
+      "days": 7,
+      "label": "7 days MS scrutiny for online Standard ToR (MoEFCC OM 06.05.2022)"
+    },
+    "TOR_ALL": {
+      "days": 60,
+      "label": "60 days statutory Scoping cap (7d for Standard ToR scrutiny)"
+    },
+    "FC": {
+      "days": 90,
+      "label": "90 days State forwarding benchmark (60\u2013150d size-tiered under Van Adhiniyam Rules 2023)"
+    },
+    "FC_STAGE1": {
+      "days": 90,
+      "label": "90 days State forwarding benchmark to Central IRO/FAC"
+    },
+    "FC_STAGE2": {
+      "days": 150,
+      "label": "150 days cumulative State + Central Stage-I/II regulator processing benchmark"
+    },
+    "PUBLIC_HEARING_SPCB": {
+      "days": 45,
+      "label": "45 days SPCB Public Consultation (EIA Notification 2006 Appendix IV)"
+    },
+    "SEIAA_STAR_FAST": {
+      "days": 80,
+      "label": "80 net government days SEIAA top-tier threshold (MoEFCC OM 17.01.2022)"
+    }
+  },
+  "sources": [
+    {
+      "id": "parivesh_2_0",
+      "name": "PARIVESH 2.0 (MoEFCC Single Window Hub)",
+      "url": "https://parivesh.nic.in",
+      "scope": "Sept 2022 \u2013 Nov 2026 stage-level millisecond UTC histories (EC, ToR, FC, WLC, CRZ); completed duration headlines restricted to filings 2022\u2013mid-2024",
+      "accessed_on": "2026-11-15"
+    },
+    {
+      "id": "parivesh_1_0_ec",
+      "name": "PARIVESH 1.0 Environmental Clearance Portal",
+      "url": "https://environmentclearance.nic.in",
+      "scope": "July 2014 \u2013 2022 Central MoEFCC full-stage (`timelineA.aspx`) & ToR/State SEIAA milestone timelines",
+      "accessed_on": "2026-11-15"
+    },
+    {
+      "id": "parivesh_1_0_fc",
+      "name": "PARIVESH 1.0 Forest Clearance Portal",
+      "url": "https://forestsclearance.nic.in",
+      "scope": "July 2014 \u2013 2022 Forest Clearance Stage-I/II & Table 10 EDS full-stage histories",
+      "accessed_on": "2026-11-15"
+    }
+  ],
+  "assertions_passed": true
+}

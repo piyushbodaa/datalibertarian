@@ -16,3 +16,15 @@ __pycache__/
 # local credentials, never commit
 .aws
 .cache/
+
+# Red Tape (PARIVESH) bulk extraction & verification scratch/docs
+/data/
+/data/parivesh_probe/
+/data/open_sources/
+/data/p2_bulk/
+/data/p1_bulk/
+/data/crunched/
+/docs/
+/docs/infra-report.md
+/docs/verification/
+
