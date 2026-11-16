@@ -23,6 +23,7 @@ export function InflationCategoryPage() {
 
   return (
     <article>
+      <p className="index-slip mb-5 text-sm">Historical price monitor · September 2026 retail snapshot and July 2026 CPI. <Link to="/inflation">See the current essentials index →</Link></p>
       <p className="kicker">CPI Basket Category</p>
       <h1 className="mt-2 font-display text-3xl font-bold tracking-tight sm:text-4xl">
         {room.label}

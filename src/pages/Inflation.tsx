@@ -1,272 +1,552 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import { BasketPie } from "../components/BasketPie";
-import { CitationChip, CitationFootnote } from "../components/CitationChip";
-import { DivisionBars } from "../components/DivisionBars";
-import { PrintedPaidRow } from "../components/PrintedPaidRow";
-import type { InflationCategory } from "../data/inflation/types";
-import {
-  AS_OF,
-  CPI_COMBINED_YOY,
-  CPI_DEC_2025_INDEX,
-  CPI_FOOD,
-  CPI_HEADLINE,
-  CPI_JUNE_INDEX,
-  CPI_RURAL_YOY,
-  CPI_URBAN_YOY,
-  INFLATION_ITEMS,
-} from "../data/inflation/items";
-import { CPI_DIVISIONS, ROOMS, WEIGHTS_CITE } from "../data/inflation/weights";
-import { formatDay, formatPct, formatPrice, indexChangePct, yearPair } from "../data/inflation/yoy";
+import snapshot from "../data/inflation/private-snapshot.json";
+import { calculateBasket } from "../data/inflation/private-index";
+import { formatDay } from "../data/inflation/yoy";
 
-const FILTER_GROUPS: { id: "all" | "food" | "fuel" | "other"; label: string; cats?: InflationCategory[] }[] = [
-  { id: "all", label: "All items" },
-  { id: "food", label: "Food & Kitchen", cats: ["grains", "pulses", "oils", "veg", "dairy", "sugar"] },
-  { id: "fuel", label: "Fuel & Energy", cats: ["fuel"] },
-  { id: "other", label: "Other", cats: ["other"] },
-];
+const { metadata, rows, official } = snapshot;
+const published = calculateBasket(rows);
+const number = (n: number | null, digits = 2) =>
+  n === null
+    ? "Unavailable"
+    : n.toLocaleString("en-IN", {
+        minimumFractionDigits: digits,
+        maximumFractionDigits: digits,
+      });
+const percent = (n: number | null) =>
+  n === null ? "Unavailable" : `${n > 0 ? "+" : ""}${number(n)}%`;
+const money = (n: number | null) =>
+  n === null ? "Unavailable" : `₹${number(n)}`;
+const signClass = (n: number | null) =>
+  n !== null && n < 0 ? "price-fall" : "price-rise";
+const defaultSpending = () =>
+  Object.fromEntries(rows.map((row) => [row.id, "100"]));
+const categoryNames: Record<string, string> = {
+  grains: "Grains",
+  pulses: "Pulses",
+  oils: "Edible oils",
+  veg: "Vegetables",
+  vegetables: "Vegetables",
+  dairy: "Dairy",
+  sugar: "Sugar & gur",
+  other: "Other essentials",
+};
 
 export function InflationPage() {
-  const [group, setGroup] = useState<"all" | "food" | "fuel" | "other">("all");
-  const [search, setSearch] = useState("");
-
-  const priced = INFLATION_ITEMS.map((item) => {
-    const pair = yearPair(item);
-    if (!pair) return null;
-    return { item, pair };
-  }).filter((r): r is NonNullable<typeof r> => r !== null);
-
-  const visibleItems = useMemo(() => {
-    const cfg = FILTER_GROUPS.find((g) => g.id === group);
-    const q = search.trim().toLowerCase();
-    return INFLATION_ITEMS.filter((item) => {
-      if (cfg?.cats && !cfg.cats.includes(item.category)) return false;
-      if (q && !item.plainLabel.toLowerCase().includes(q) && !item.officialName.toLowerCase().includes(q)) {
-        return false;
-      }
-      return true;
-    });
-  }, [group, search]);
-
-  const mom = indexChangePct(CPI_HEADLINE.index ?? 0, CPI_JUNE_INDEX);
-  const ytd = indexChangePct(CPI_HEADLINE.index ?? 0, CPI_DEC_2025_INDEX);
-  const highDiv = [...CPI_DIVISIONS].sort((a, b) => b.yoyPct - a.yoyPct)[0];
-  const lowDiv = [...CPI_DIVISIONS].sort((a, b) => a.yoyPct - b.yoyPct)[0];
-  const onion = priced.find((r) => r.item.id === "onion");
-  const yoyMax = Math.max(...CPI_COMBINED_YOY.map((m) => m.yoyPct));
+  const [query, setQuery] = useState("");
+  const [category, setCategory] = useState("all");
+  const [sort, setSort] = useState("basket");
+  const [spending, setSpending] =
+    useState<Record<string, string>>(defaultSpending);
+  const [stale, setStale] = useState(false);
+  useEffect(() => {
+    setStale(
+      Date.now() - Date.parse(`${metadata.asOf}T00:00:00+05:30`) >
+        14 * 86400000,
+    );
+  }, []);
+  const personal = useMemo(
+    () =>
+      calculateBasket(
+        rows,
+        Object.fromEntries(
+          Object.entries(spending).map(([id, value]) => [
+            id,
+            value.trim() === "" ? NaN : Number(value),
+          ]),
+        ),
+      ),
+    [spending],
+  );
+  const visible = useMemo(() => {
+    const filtered = rows.filter(
+      (row) =>
+        (category === "all" || row.category === category) &&
+        row.name.toLowerCase().includes(query.trim().toLowerCase()),
+    );
+    if (sort !== "basket")
+      filtered.sort(
+        (a, b) =>
+          (a.current / a.yearAgo - b.current / b.yearAgo) *
+          (sort === "rises" ? -1 : 1),
+      );
+    return filtered;
+  }, [query, category, sort]);
+  const drivers = [...published.contributions]
+    .sort(
+      (a, b) =>
+        Math.abs(b.contributionPp ?? 0) - Math.abs(a.contributionPp ?? 0),
+    )
+    .slice(0, 6);
+  const maxDriver = Math.max(
+    0.01,
+    ...drivers.map((d) => Math.abs(d.contributionPp ?? 0)),
+  );
+  const levels = [
+    { date: metadata.yearAgo, value: 100, label: "Base" },
+    {
+      date: metadata.monthAgo,
+      value:
+        published.monthCost === null || published.baseCost === null
+          ? null
+          : (published.monthCost / published.baseCost) * 100,
+      label: "Previous month",
+    },
+    {
+      date: metadata.asOf,
+      value: published.index,
+      label: "Latest observation",
+    },
+  ];
+  const maxLevel = Math.max(100, ...levels.map((l) => l.value ?? 0)) * 1.05;
 
   return (
-    <article>
-      <p className="kicker">Consumer Prices &amp; Inflation · India</p>
-      <h1 className="mt-2 font-display text-3xl font-bold leading-[1.15] tracking-tight sm:text-4xl">
-        Consumer Prices: Official CPI vs Observed Retail Averages
-      </h1>
-      <p className="mt-3 max-w-2xl text-ink/80">
-        Each item places two cited official series side by side: MoSPI’s published CPI rate
-        (July 2025 → July 2026; parent division where item indices are not released) alongside
-        national retail price averages published by the Price Monitoring Division and PPAC (
-        {formatDay("2025-09-10")} → {formatDay(AS_OF)}). Because the reporting windows are offset by
-        two months, compare patterns rather than treating one figure as an audit of the other.
-        Combined CPI is {formatPct(CPI_HEADLINE.yoyPct)}.
-        <CitationChip citationId={CPI_HEADLINE.citationId} />
-      </p>
+    <article className="inflation-page">
+      <header className="inflation-heading">
+        <div className="flex flex-wrap items-center gap-3">
+          <p className="kicker">DATA LIBERTARIAN · INDIA</p>
+          <span className="index-badge">Experimental index · v1</span>
+        </div>
+        <h1>
+          What does the same
+          <br className="hidden sm:block" /> basket cost now?
+        </h1>
+        <p className="index-intro">
+          The Data Libertarian Essentials Index tracks the cost of a fixed
+          basket of 22 everyday groceries. Every price, weight, and calculation
+          is open to inspection.
+        </p>
+        <noscript>
+          <p className="index-scope mt-4">
+            The calculator and filters need JavaScript. Published figures, the
+            full price table, and downloads remain available.
+          </p>
+        </noscript>
+        <nav aria-label="Inflation page sections" className="index-links">
+          <a href="#index">The index ↓</a>
+          <a href="#basket">All 22 prices ↓</a>
+          <a href="#your-basket">Use your spending ↓</a>
+          <Link to="/inflation/method">Methodology ↗</Link>
+        </nav>
+      </header>
 
-      <div className="mt-6 grid gap-3 sm:grid-cols-3">
-        <section className="carbon-sheet px-5 py-4">
-          <p className="kicker text-rust">12-Month Headline CPI</p>
-          <p className="num mt-1.5 text-3xl font-semibold whitespace-nowrap">{formatPct(CPI_HEADLINE.yoyPct)}</p>
-          <p className="mt-1.5 text-sm text-ink/70">
-            July 2025 → July 2026 Combined. Food (CFPI): {formatPct(CPI_FOOD.yoyPct)}.
-            <CitationChip citationId={CPI_HEADLINE.citationId} />
+      <section id="index" className="index-hero" aria-labelledby="index-title">
+        <div className="index-headline">
+          <p className="kicker" id="index-title">
+            ESSENTIALS BASKET · YEAR-ON-YEAR
           </p>
-        </section>
-        <section className="carbon-sheet px-5 py-4">
-          <p className="kicker">One-Month Change</p>
-          <p className="num mt-1.5 text-3xl font-semibold whitespace-nowrap">{mom !== undefined ? formatPct(mom) : "—"}</p>
-          <p className="mt-1.5 text-sm text-ink/70">
-            Combined index {CPI_JUNE_INDEX} (June) → {CPI_HEADLINE.index} (July).
+          <p className="index-number" data-testid="published-yoy">
+            {percent(published.yoyPct)}
           </p>
-        </section>
-        <section className="carbon-sheet px-5 py-4">
-          <p className="kicker">Since Dec 2025</p>
-          <p className="num mt-1.5 text-3xl font-semibold whitespace-nowrap">{ytd !== undefined ? formatPct(ytd) : "—"}</p>
-          <p className="mt-1.5 text-sm text-ink/70">
-            Combined index {CPI_DEC_2025_INDEX} (Dec 2025) → {CPI_HEADLINE.index} (July).
+          <p className="index-period">
+            {formatDay(metadata.yearAgo)} → {formatDay(metadata.asOf)}
           </p>
-        </section>
-      </div>
-
-      <section className="mt-10">
-        <div className="flex flex-wrap items-end justify-between gap-3">
-          <div>
-            <h2 className="font-display text-2xl font-semibold tracking-tight">Item-by-item price monitor</h2>
-            <p className="mt-1 max-w-2xl text-sm text-ink/70">
-              {INFLATION_ITEMS.length} tracked staples pairing MoSPI index rates with PMD / PPAC retail averages.
-            </p>
-          </div>
-          <div className="flex flex-wrap items-center gap-2">
-            <div className="flex flex-wrap gap-1.5">
-              {FILTER_GROUPS.map((g) => (
-                <button
-                  key={g.id}
-                  type="button"
-                  onClick={() => setGroup(g.id)}
-                  className={`live-tag ${group === g.id ? "border-rust bg-[#EEF2FC] text-rust" : ""}`}
-                >
-                  {g.label}
-                </button>
-              ))}
+          <p className="index-definition">
+            Equal spending on each item at the start, with quantities then held
+            fixed. Independently calculated from Department of Consumer Affairs
+            retail averages.
+          </p>
+          <div className="index-substats">
+            <div>
+              <span>Index level</span>
+              <strong>{number(published.index)}</strong>
+              <small>{formatDay(metadata.yearAgo)} = 100</small>
             </div>
-            <label htmlFor="cpi-item-search" className="sr-only">
-              Filter price items
-            </label>
-            <input
-              id="cpi-item-search"
-              type="search"
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-              placeholder="Filter item…"
-              className="field w-40 py-1 text-sm"
-            />
+            <div>
+              <span>One-month change</span>
+              <strong>{percent(published.momPct)}</strong>
+              <small>
+                {formatDay(metadata.monthAgo)} → {formatDay(metadata.asOf)}
+              </small>
+            </div>
           </div>
         </div>
-        <ul className="mt-5 list-none p-0">
-          {visibleItems.map((item) => (
-            <PrintedPaidRow key={item.id} item={item} />
-          ))}
-          {visibleItems.length === 0 ? (
-            <li className="carbon-sheet p-5 text-sm text-ink/65">No items match “{search}”.</li>
-          ) : null}
-        </ul>
+        <div className="index-cost">
+          <p className="kicker">BUYING THE SAME QUANTITIES</p>
+          <h2>
+            {money(published.baseCost)} then.
+            <br />
+            <span>{money(published.currentCost)} now.</span>
+          </h2>
+          <p>
+            Start with ₹100 of each commodity at the year-ago price. This is a
+            reference basket, not a typical family’s monthly budget.
+          </p>
+          <div className="index-cost-rule" />
+          <dl>
+            <div>
+              <dt>Price pairs available</dt>
+              <dd>{published.coverage.matchedCount} / 22</dd>
+            </div>
+            <div>
+              <dt>Weight per commodity</dt>
+              <dd>{number(100 / rows.length)}%</dd>
+            </div>
+            <div>
+              <dt>Collection</dt>
+              <dd>Government price monitors</dd>
+            </div>
+            <div>
+              <dt>Calculation & publication</dt>
+              <dd>Data Libertarian</dd>
+            </div>
+          </dl>
+        </div>
       </section>
+      <p className="index-datestamp">
+        Dated release: {formatDay(metadata.asOf)} · Daily price snapshots, not
+        monthly averages.{" "}
+        {stale ? (
+          <strong>
+            This release is more than 14 days old; it is not a live reading.
+          </strong>
+        ) : (
+          "The page updates when a new source snapshot is reviewed."
+        )}
+      </p>
+      <aside className="index-scope">
+        <strong>What this measures.</strong> Price change in these 22 groceries
+        across reporting centres. It does not measure rent, healthcare,
+        education, transport, or India’s full cost of living. Equal weights are
+        a design choice: six oils together receive 27.27% of base spending. A
+        different result from CPI is not, by itself, evidence that CPI is wrong.
+      </aside>
 
-      <div className="mt-12">
-        <h2 className="font-display text-2xl font-semibold tracking-tight">Official MoSPI Bulletin Breakdown</h2>
-        <p className="mt-1.5 max-w-2xl text-sm text-ink/70">
-          Headline index divisions, 2024 consumption basket weights, and monthly trajectory.
-        </p>
+      <div className="index-chart-grid">
+        <section className="index-panel" aria-labelledby="drivers-title">
+          <p className="kicker">WHAT MOVED THE BASKET</p>
+          <h2 id="drivers-title">The largest contributors</h2>
+          <p className="index-caption">
+            Six largest contributions by absolute size. Percentage points of the
+            published annual change.
+          </p>
+          <div className="driver-list">
+            {drivers.map((driver) => (
+              <div className="driver-row" key={driver.id}>
+                <div>
+                  <span>{rows.find((row) => row.id === driver.id)?.name}</span>
+                  <strong className={signClass(driver.contributionPp)}>
+                    {driver.contributionPp !== null && driver.contributionPp > 0
+                      ? "+"
+                      : ""}
+                    {number(driver.contributionPp)} pp
+                  </strong>
+                </div>
+                <div className="driver-track" aria-hidden="true">
+                  <span
+                    style={{
+                      left:
+                        (driver.contributionPp ?? 0) < 0
+                          ? `${50 - (Math.abs(driver.contributionPp ?? 0) / maxDriver) * 50}%`
+                          : "50%",
+                      width: `${(Math.abs(driver.contributionPp ?? 0) / maxDriver) * 50}%`,
+                      background:
+                        (driver.contributionPp ?? 0) < 0
+                          ? "#2f6b47"
+                          : "#a13a2f",
+                    }}
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+        <section className="index-panel" aria-labelledby="levels-title">
+          <p className="kicker">ONE BASKET, THREE OBSERVATIONS</p>
+          <h2 id="levels-title">The cost in index points</h2>
+          <p className="index-caption">
+            The same base quantities at each date. These observations do not
+            form a continuous time series.
+          </p>
+          <div className="level-list">
+            {levels.map((level) => (
+              <div key={level.date}>
+                <div className="level-label">
+                  <span>
+                    {formatDay(level.date)} <small>{level.label}</small>
+                  </span>
+                  <strong>{number(level.value)}</strong>
+                </div>
+                <div className="level-track">
+                  <span
+                    style={{
+                      width: `${((level.value ?? 0) / maxLevel) * 100}%`,
+                    }}
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+          <p className="index-caption mt-5">
+            Scale starts at zero. Base = 100.
+          </p>
+        </section>
       </div>
 
-      <DivisionBars />
-
-      <section className="carbon-sheet mt-8 px-5 py-6">
-        <h3 className="font-display text-lg font-semibold">July 2026 Bulletin Highlights</h3>
-        <ul className="mt-3 max-w-2xl list-disc space-y-2.5 pl-5 text-sm text-ink/80">
-          <li>
-            All-India Combined CPI rose {formatPct(CPI_HEADLINE.yoyPct)} year-on-year; rural CPI was{" "}
-            {formatPct(CPI_RURAL_YOY)} and urban CPI {formatPct(CPI_URBAN_YOY)}.
-          </li>
-          <li>
-            Highest division increase: {highDiv.label} ({formatPct(highDiv.yoyPct)}). Lowest:{" "}
-            {lowDiv.label} ({formatPct(lowDiv.yoyPct)}).
-          </li>
-          {onion?.item.official ? (
-            <li>
-              Observed onion retail average moved from {formatPrice(onion.pair.then)} on{" "}
-              {formatDay(onion.pair.then.asOf)} to {formatPrice(onion.pair.now)} on{" "}
-              {formatDay(onion.pair.now.asOf)}, compared to a published July CPI index change of{" "}
-              {formatPct(onion.item.official.yoyPct)}.
-            </li>
+      <section id="basket" className="index-section">
+        <div className="index-section-heading">
+          <div>
+            <p className="kicker">THE EVIDENCE</p>
+            <h2>Every item. Every price.</h2>
+          </div>
+          <a
+            className="index-download"
+            href="/data/inflation/private-index.csv"
+            download
+          >
+            Download the basket CSV ↓
+          </a>
+        </div>
+        <p className="index-caption">
+          All-India average retail prices in rupees per stated unit. Oils are
+          per kilogram; milk is per litre. Changes use unrounded calculations.
+          On a small screen, scroll the table sideways.
+        </p>
+        <div className="index-filters">
+          <label>
+            Find an item
+            <input
+              type="search"
+              className="field"
+              placeholder="Try rice or onion"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+            />
+          </label>
+          <label>
+            Category
+            <select
+              className="field"
+              value={category}
+              onChange={(e) => setCategory(e.target.value)}
+            >
+              <option value="all">All categories</option>
+              {[...new Set(rows.map((row) => row.category))].map((cat) => (
+                <option key={cat} value={cat}>
+                  {categoryNames[cat] ?? cat}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label>
+            Sort by
+            <select
+              className="field"
+              value={sort}
+              onChange={(e) => setSort(e.target.value)}
+            >
+              <option value="basket">Basket order</option>
+              <option value="rises">Largest rises</option>
+              <option value="falls">Largest falls</option>
+            </select>
+          </label>
+        </div>
+        <div
+          className="ledger-scroll"
+          tabIndex={0}
+          role="region"
+          aria-label="Retail prices table, scroll horizontally on small screens"
+        >
+          <table className="index-table">
+            <caption className="sr-only">
+              Published essentials basket: {formatDay(metadata.yearAgo)} to{" "}
+              {formatDay(metadata.asOf)}. Source: Department of Consumer
+              Affairs.
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Commodity / unit</th>
+                <th scope="col">{formatDay(metadata.yearAgo)}</th>
+                <th scope="col">{formatDay(metadata.monthAgo)}</th>
+                <th scope="col">{formatDay(metadata.asOf)}</th>
+                <th scope="col">Annual change</th>
+                <th scope="col">Contribution</th>
+              </tr>
+            </thead>
+            <tbody>
+              {visible.map((row) => {
+                const change = (row.current / row.yearAgo - 1) * 100;
+                return (
+                  <tr key={row.id}>
+                    <th scope="row">
+                      {row.name}
+                      <small>₹ / {row.unit}</small>
+                    </th>
+                    <td>{number(row.yearAgo)}</td>
+                    <td>{number(row.monthAgo)}</td>
+                    <td className="font-semibold">{number(row.current)}</td>
+                    <td className={signClass(change)}>{percent(change)}</td>
+                    <td>{number(change / rows.length)} pp</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+          {visible.length === 0 ? (
+            <p className="p-6" role="status">
+              No commodities match this filter.
+            </p>
           ) : null}
-          <li>Core, regulated, and seasonal sub-splits were not issued in the July press note.</li>
-        </ul>
+        </div>
+        <p className="index-caption mt-3">
+          {visible.length} of {rows.length} commodities shown · Each has{" "}
+          {number(100 / rows.length)}% of base expenditure.{" "}
+          <a href={metadata.sourceUrl} target="_blank" rel="noreferrer">
+            Read the original price report ↗
+          </a>
+        </p>
       </section>
 
-      <BasketPie />
-
-      <section className="carbon-sheet mt-8 p-5">
-        <h3 className="font-display text-lg font-semibold tracking-tight">Rural vs Urban vs Combined</h3>
-        <p className="mt-1 text-sm text-ink/70">
-          Twelve-month CPI rates as of July 2026 (state-level CPI splits are not included in the national note).
+      <section id="your-basket" className="index-section personal-section">
+        <div className="index-section-heading">
+          <div>
+            <p className="kicker">YOUR SPENDING, YOUR WEIGHTS</p>
+            <h2>A different basket changes the answer.</h2>
+          </div>
+        </div>
+        <p className="index-caption max-w-3xl">
+          Enter what you spent on each item in the base period,{" "}
+          {formatDay(metadata.yearAgo)}. We price those same quantities today
+          using the national averages above. Enter zero for items you do not
+          buy. This estimates your grocery basket’s change, not your personal
+          total inflation.
         </p>
-        <ul className="mt-4 space-y-3">
-          {[
-            { label: "Rural", pct: CPI_RURAL_YOY },
-            { label: "Urban", pct: CPI_URBAN_YOY },
-            { label: "Combined", pct: CPI_HEADLINE.yoyPct },
-          ].map((row) => (
-            <li key={row.label}>
-              <div className="flex justify-between text-sm">
-                <span className="font-medium">{row.label}</span>
-                <span className="num font-semibold">{formatPct(row.pct)}</span>
+        <div
+          className="personal-result"
+          role="status"
+          aria-live="polite"
+          aria-atomic="true"
+        >
+          {personal.status === "ok" ? (
+            <>
+              <div>
+                <span>Your basket’s annual change</span>
+                <strong data-testid="personal-yoy">
+                  {percent(personal.yoyPct)}
+                </strong>
               </div>
-              <div className="mt-1 h-2.5 w-full overflow-hidden rounded bg-[#F0F0ED]">
-                <div
-                  className="hatch-carbon h-2.5 rounded"
-                  style={{
-                    width: `${(row.pct / Math.max(CPI_RURAL_YOY, CPI_URBAN_YOY, CPI_HEADLINE.yoyPct)) * 100}%`,
-                  }}
+              <div>
+                <span>Same quantities, repriced</span>
+                <strong>
+                  {money(personal.baseCost)} → {money(personal.currentCost)}
+                </strong>
+              </div>
+            </>
+          ) : (
+            <p>
+              {personal.status === "empty"
+                ? "Enter a positive base-period spend for at least one item."
+                : "Enter a valid non-negative amount for every item. Use 0 to exclude it; blank or missing values cannot be calculated."}
+            </p>
+          )}
+        </div>
+        <details className="spending-editor">
+          <summary>
+            Edit your 22 spending amounts <span>₹ in the base period</span>
+          </summary>
+          <div className="spending-inputs">
+            {rows.map((row) => (
+              <label key={row.id} htmlFor={`spend-${row.id}`}>
+                {row.name}
+                <input
+                  id={`spend-${row.id}`}
+                  className="field"
+                  type="number"
+                  inputMode="decimal"
+                  min="0"
+                  max="100000000"
+                  step="any"
+                  value={spending[row.id]}
+                  onChange={(e) =>
+                    setSpending((old) => ({ ...old, [row.id]: e.target.value }))
+                  }
                 />
-              </div>
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <section className="carbon-sheet mt-8 p-5">
-        <h3 className="font-display text-lg font-semibold tracking-tight">Twelve-month CPI trajectory</h3>
-        <p className="mt-1 text-sm text-ink/70">Monthly Combined CPI progression published in the July 2026 note.</p>
-        <ol className="mt-4 flex items-end gap-2">
-          {CPI_COMBINED_YOY.map((m) => (
-            <li key={m.period} className="flex-1 text-center">
-              <div
-                className="mx-auto w-full rounded-t bg-[var(--zinc)]"
-                style={{ height: `${(m.yoyPct / yoyMax) * 7}rem` }}
-                role="img"
-                aria-label={`${m.period}, ${formatPct(m.yoyPct)}`}
-              />
-              <p className="num mt-1 text-[0.65rem] text-ink/65">{m.period.slice(5)}</p>
-              <p className="num text-[0.7rem] font-medium">{formatPct(m.yoyPct)}</p>
-            </li>
-          ))}
-        </ol>
-      </section>
-
-      <section className="mt-12">
-        <h2 className="font-display text-2xl font-semibold tracking-tight">CPI Basket Categories</h2>
-        <p className="mt-1.5 max-w-2xl text-sm text-ink/70">
-          Inspect each expenditure division and its underlying retail price items. Missing observed prices remain blank rather than imputed.
+              </label>
+            ))}
+          </div>
+          <div className="flex flex-wrap gap-3 pb-5">
+            <button
+              className="live-tag"
+              type="button"
+              onClick={() => setSpending(defaultSpending())}
+            >
+              Reset to ₹100 each
+            </button>
+            <button
+              className="live-tag"
+              type="button"
+              onClick={() =>
+                setSpending(
+                  Object.fromEntries(rows.map((row) => [row.id, "0"])),
+                )
+              }
+            >
+              Set all to zero
+            </button>
+          </div>
+        </details>
+        <p className="index-caption mt-3">
+          Amounts stay in this page and reset on reload. Your changes do not
+          alter the published index.
         </p>
-        <ul className="mt-5 grid gap-3 sm:grid-cols-2">
-          {ROOMS.map((room) => {
-            const div = room.divisionId
-              ? CPI_DIVISIONS.find((d) => d.id === room.divisionId)
-              : undefined;
-            return (
-              <li key={room.id} className="list-none">
-                <Link
-                  to={`/inflation/${room.id}`}
-                  className="docket-door block text-ink no-underline hover:text-rust"
-                >
-                  <p className="font-display text-lg font-semibold">{room.label}</p>
-                  <p className="mt-1 text-sm text-ink/70">{room.blurb}</p>
-                  {div ? (
-                    <p className="num mt-3 text-xs font-medium text-ink/75">
-                      Basket weight {div.weight.toFixed(2)}% · Official CPI {formatPct(div.yoyPct)} YoY
-                    </p>
-                  ) : (
-                    <p className="mt-3 text-xs font-medium text-ink/65">Observed PPAC fuel retail prices →</p>
-                  )}
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
       </section>
 
-      <section className="mt-12 text-sm text-ink/70">
-        <h2 className="font-display text-lg font-semibold text-ink">Primary Sources</h2>
-        <ol className="mt-3 max-w-2xl list-decimal space-y-4 pl-5">
-          <CitationFootnote citationId="pmd-retail-2026-09-10" />
-          <CitationFootnote citationId="ppac-fuel-2026-09-10" />
-          <CitationFootnote citationId={CPI_HEADLINE.citationId} />
-          <CitationFootnote citationId={WEIGHTS_CITE} />
-        </ol>
-        <p className="mt-6">
-          <Link to="/inflation/method">Methodology: how prices &amp; CPI are compiled</Link>
-          {" · "}
-          <a href="/data/inflation-observed.csv">Download all observed prices (CSV)</a>
-        </p>
+      <section className="index-section official-context">
+        <p className="kicker">OFFICIAL SERIES · CONTEXT</p>
+        <h2>How does this relate to CPI?</h2>
+        <div className="official-grid">
+          <div>
+            <span>All-items CPI</span>
+            <strong>{number(official.headlineYoy)}%</strong>
+            <small>October 2026 · year-on-year</small>
+          </div>
+          <div>
+            <span>Consumer Food Price Index</span>
+            <strong>{number(official.foodYoy)}%</strong>
+            <small>October 2026 · year-on-year</small>
+          </div>
+          <p>
+            MoSPI’s monthly indices use a different basket, weighting system,
+            and observation window. Both figures are provisional, on base
+            2024=100. Our 16 November grocery snapshot cannot establish how much
+            CPI overstates or understates inflation.{" "}
+            <a href={official.sourceUrl} target="_blank" rel="noreferrer">
+              Read the official release ↗
+            </a>
+          </p>
+        </div>
+      </section>
+
+      <section className="index-section index-sources">
+        <div>
+          <p className="kicker">OPEN METHODS</p>
+          <h2>Reproduce the result.</h2>
+          <p>
+            Download the prices and fixed weights, inspect the archived source,
+            or follow the formula. The published release is a dated snapshot
+            with an explicit version.
+          </p>
+          <Link className="file-cta" to="/inflation/method">
+            Read the complete methodology →
+          </Link>
+        </div>
+        <div className="source-links">
+          <a href="/data/inflation/private-index.json" download>
+            Data, weights & calculation <span>JSON ↓</span>
+          </a>
+          <a href="/data/inflation/private-index.csv" download>
+            Price and contribution ledger <span>CSV ↓</span>
+          </a>
+          <a href={metadata.sourceArchive} download>
+            Archived price report <span>Source ↓</span>
+          </a>
+          <a href="https://github.com/piyushbodaa/datalibertarian/tree/main/inflation">
+            Collection & revision procedure <span>GitHub ↗</span>
+          </a>
+          <Link to="/inflation/food">
+            Earlier price monitor <span>Sep 2026 archive →</span>
+          </Link>
+        </div>
       </section>
     </article>
   );
