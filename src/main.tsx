@@ -13,3 +13,5 @@ createRoot(document.getElementById("root")!).render(
 );
 
 import "./pages/inflation.css";
+
+import "./pages/cpi.css";

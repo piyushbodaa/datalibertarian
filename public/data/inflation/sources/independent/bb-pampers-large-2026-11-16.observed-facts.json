@@ -1,0 +1,16 @@
+{
+  "sourceUrl": "https://www.bigbasket.com/pd/40141637/pampers-premium-care-diapers-large-44-pcs/",
+  "retrievedOn": "2026-11-16",
+  "evidenceType": "transcribed-facts-from-opened-primary-page",
+  "sourceCrawlReported": "2 weeks ago",
+  "facts": {
+    "product": "Pampers Premium Care Diaper Pants - Large, 9–14 kg, 44 pieces",
+    "offerPriceINR": 764,
+    "quantity": 44,
+    "unit": "piece",
+    "mrpINR": 1499,
+    "taxesIncluded": true,
+    "deliveryLocation": null
+  },
+  "captureNote": "Offer facts transcribed from the opened primary retailer page, including the visible product heading, pack size, price and tax statement. This is a fact sheet, not original HTML or a receipt. Direct HTTP retrieval of other BigBasket pages in this batch returned 403; no access control was bypassed."
+}

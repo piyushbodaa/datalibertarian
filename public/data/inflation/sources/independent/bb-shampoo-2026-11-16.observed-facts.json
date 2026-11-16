@@ -1,0 +1,16 @@
+{
+  "sourceUrl": "https://www.bigbasket.com/pd/40224073/clinic-plus-strength-shine-shampoo-egg-protein-for-strong-shiny-hair-650-ml/",
+  "retrievedOn": "2026-11-16",
+  "evidenceType": "transcribed-facts-from-opened-primary-page",
+  "sourceCrawlReported": "today",
+  "facts": {
+    "product": "Clinic Plus Strength & Shine with Egg Protein shampoo, 650 ml",
+    "offerPriceINR": 572,
+    "quantity": 650,
+    "unit": "ml",
+    "mrpINR": 880,
+    "taxesIncluded": true,
+    "deliveryLocation": null
+  },
+  "captureNote": "Facts manually transcribed from the primary retailer page opened with the web tool. This is not the original HTML or a purchase receipt. Direct HTTP fetch returned 403; no access control was bypassed."
+}

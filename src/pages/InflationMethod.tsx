@@ -1,305 +1,362 @@
 import { Link } from "react-router-dom";
-import snapshot from "../data/inflation/private-snapshot.json";
-import { ROOMS } from "../data/inflation/weights";
-import { formatDay } from "../data/inflation/yoy";
+import basket from "../data/inflation/cpi-basket.json";
+import official from "../data/inflation/cpi-official.json";
+
+const report = "/data/inflation/sources/cpi-2024-expert-report.pdf";
+const specialistItems = [
+  [
+    "Housing",
+    "Separate rural/urban and rented/owner-occupied components; rental equivalence, dwelling room categories, Census category shares and HCES expenditure shares.",
+    "§4.6.8 · pp.64–67",
+  ],
+  [
+    "PDS",
+    "Ration-card category prices and weights by state and sector. Free base-year categories are excluded; specified rules apply when a later price becomes zero.",
+    "§4.6.9 · p.67",
+  ],
+  [
+    "Rail",
+    "Train, class and distance slabs with passenger/revenue weights. A national rail index; Delhi also has an equally weighted metro priced component.",
+    "§4.6.10 · pp.68–71",
+  ],
+  [
+    "Postage and couriers",
+    "Four equally weighted priced components: money order, domestic post, international post and other couriers. National tariffs for India Post; local quotations for other couriers.",
+    "§4.6.11 · p.71",
+  ],
+  [
+    "Streaming",
+    "Specified base subscription plans from six major platforms, linked through geometric mean price relatives.",
+    "§4.6.12 · pp.71–72",
+  ],
+  [
+    "Electricity",
+    "DISCOM bills at 100, 200, 300 and 400 units, including fixed charges; exclude free slabs. Domestic-consumer distribution weights are required.",
+    "§4.6.13 · pp.72–73",
+  ],
+  [
+    "Telecom",
+    "Matched operator plans, tariffs normalized per day of validity, and TRAI operator/area and prepaid/postpaid subscriber shares.",
+    "§4.6.14 · pp.73–74",
+  ],
+  [
+    "Petrol, diesel and LPG",
+    "PPAC reference-month 15th-day PSU outlet prices for unbranded petrol/diesel, and domestic non-subsidised 14.2 kg LPG quotations.",
+    "§4.6.15 · p.75",
+  ],
+];
 
 export function InflationMethodPage() {
-  const { metadata, rows, official } = snapshot;
   return (
-    <article className="max-w-3xl">
-      <p className="kicker">
-        Data Libertarian Essentials Index · Methodology v1
-      </p>
+    <article className="max-w-4xl">
+      <p className="kicker">Full CPI comparison · Methodology</p>
       <h1 className="mt-2 font-display text-3xl font-bold tracking-tight sm:text-4xl">
-        The basket. The arithmetic. The limits.
+        The same basket. A traceable calculation.
       </h1>
       <p className="mt-4 text-lg text-ink/80">
-        An experimental measure of the changing cost of {rows.length} groceries,
-        calculated by Data Libertarian from published retail prices. Every input
-        and weight is open to inspection.
+        We use India’s complete {basket.items.length}-item CPI basket, its
+        published expenditure weights and the 2024 calculation method. An
+        independent headline requires independently collected, comparable prices
+        across the full basket. That price panel is not yet available here.
       </p>
       <div className="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-sm">
-        <Link to="/inflation">← Explore the index</Link>
-        <a href="/data/inflation/private-index.csv" download>
-          Download calculations (CSV)
+        <Link to="/inflation">← Compare the full basket</Link>
+        <a href="/data/inflation/cpi-basket.csv" download>
+          All 358 items (CSV)
         </a>
-        <a href="/data/inflation/private-index.json" download>
-          Download snapshot (JSON)
+        <a href="/data/inflation/cpi-basket.json" download>
+          Basket and weights (JSON)
         </a>
+        <a href={report}>Official methodology (PDF)</a>
       </div>
 
       <section className="carbon-sheet mt-8 p-5 sm:p-6">
         <h2 className="font-display text-xl font-semibold">
-          What this index measures
+          What is measured today
         </h2>
         <p className="mt-3 text-ink/80">
-          It measures how much a fixed grocery basket costs at the Department of
-          Consumer Affairs’ published all-India average retail prices. The
-          calculation is private; the underlying price collection is
-          governmental. This is a limited essentials index, not an estimate of
-          the complete cost of living of every Indian household.
+          The official side displays MoSPI’s item indices and annual changes. We
+          can reproduce its headline from all 358 official item indices and the
+          exact expenditure weights, within the source’s rounding. That checks
+          the aggregation. It does not independently verify the prices collected
+          by MoSPI.
         </p>
         <p className="mt-3 text-ink/80">
-          The current observation is {formatDay(metadata.asOf)}. Its annual
-          comparison uses {formatDay(metadata.yearAgo)}, and its one-month
-          comparison uses {formatDay(metadata.monthAgo)}. These are three
-          point-in-time observations, not monthly averages or a continuous price
-          history.
+          The independent side preserves every item and its weight, and shows
+          where price evidence is missing. It withholds the national result
+          until the required independently compiled panels are available. No
+          result is labelled more accurate without evidence about sampling and
+          measurement errors.
         </p>
       </section>
 
       <section className="mt-10">
         <h2 className="font-display text-2xl font-semibold">
-          A published, fixed basket
+          358 expenditure categories, many price quotations
         </h2>
         <p className="mt-3 text-ink/80">
-          Version 1 uses the original 22 commodities in the Price Monitoring
-          Division’s daily report. Each receives ₹100 of expenditure at the
-          year-earlier prices: ₹2,200 in total, with a base expenditure weight
-          of 1/22 (about 4.55%) per commodity. The quantity of each commodity is
-          the amount that ₹100 would have bought on the base date.
+          CPI 2024 contains 308 goods and 50 services. Its official collection
+          frame covers 1,465 rural markets, 1,395 urban markets and 12 online
+          markets. “Rice”, for example, describes an expenditure category. It
+          does not identify one nationwide brand, quality, pack size, shop or
+          rupee price. Some weighted items contain multiple separately priced
+          products or services.
         </p>
         <p className="mt-3 text-ink/80">
-          Equal expenditure is a transparent design choice, not a claim about an
-          average Indian household. It gives six edible-oil products six
-          separate weights and gives salt the same initial weight as rice. Those
-          choices affect the result. The household calculator lets readers
-          replace these weights with their own base-period grocery spending.
+          Weights come from the Household Consumption Expenditure Survey
+          2023–24. The price base is 2024: twelve monthly observations establish
+          base prices using a geometric mean. Rural and urban weights each sum
+          to 100 within their sector; the combined index uses their official
+          expenditure shares. State-level prices must be aggregated with the
+          corresponding state and sector weights before they represent an
+          all-India item.
         </p>
-        <ul className="mt-4 grid list-disc gap-x-8 gap-y-1 pl-5 text-sm text-ink/80 sm:grid-cols-2">
-          {rows.map((row) => (
-            <li key={row.id}>
-              {row.name} <span className="text-ink/60">(₹/{row.unit})</span>
-            </li>
-          ))}
-        </ul>
-        <p className="mt-4 text-sm text-ink/70">
-          Units follow the source report. Oils are priced per kilogram, milk per
-          litre. We compare the same commodity and unit at each date; we do not
-          add unlike unit prices together.
+        <p className="mt-3 text-sm text-ink/65">
+          Source: Expert Group Report §2.1, pp.7–8; §4.5, pp.46–49; §4.6.3,
+          pp.54–55. Page references on this page use the report’s printed
+          numbers.
         </p>
       </section>
 
       <section className="mt-10">
         <h2 className="font-display text-2xl font-semibold">
-          How to reproduce the number
+          First, compare matched monthly prices
         </h2>
         <p className="mt-3 text-ink/80">
-          Let <i>b</i> be the base-date spending on an item, <i>p₀</i> its base
-          price, and
-          <i> pₜ</i> its current price. Hold the quantity <i>q = b / p₀</i>{" "}
-          constant. Calculate each item’s cost at each date, then add the costs
-          across the basket.
+          At the elementary level, CPI 2024 uses a short Jevons chain. Within a
+          priced item’s state and rural/urban panel, compare the same
+          specification at the same outlet in consecutive months. Take the
+          geometric mean of these price ratios, then multiply the previous
+          month’s index by that movement.
         </p>
         <div className="index-slip mt-4 space-y-3 text-sm sm:text-base">
           <p>
-            <strong>Index</strong> = 100 × current basket cost ÷ base basket
-            cost
+            <strong>Quotation ratio</strong> = current-month price ÷
+            previous-month price
           </p>
           <p>
-            <strong>Annual change (%)</strong> = 100 × (current basket cost ÷
-            base basket cost − 1)
+            <strong>Monthly movement</strong> = geometric mean of the quotation
+            ratios
           </p>
           <p>
-            <strong>One-month change (%)</strong> = 100 × (current basket cost ÷
-            previous-month basket cost − 1)
-          </p>
-          <p>
-            <strong>Item contribution (percentage points)</strong> = base
-            expenditure share × item annual change (%)
+            <strong>Current index</strong> = previous index × monthly movement
           </p>
         </div>
         <p className="mt-3 text-ink/80">
-          This is a fixed-quantity Laspeyres calculation. The index is 100 at
-          the base date. The monthly calculation uses the same year-base
-          quantities; it does not reset the weights to equal expenditure in the
-          previous month. Contributions add to the annual basket change before
-          rounding. We retain full numerical precision in the calculation and
-          round only for display.
+          The calculation retains the outlet, specification, quantity, unit,
+          month and source for each observation. A different pack size, product
+          quality or shop needs an appropriate overlap or replacement treatment.
+          Starting with a newly observed price today does not establish an index
+          on the 2024 base: the earlier anchored chain is also needed.
         </p>
-        <p className="mt-3 text-ink/80">
-          In the personal calculator, enter what you spent on each included item
-          in the base period, not what you spend today. A zero spend excludes an
-          item from your personal basket. Your result still uses national
-          average prices and covers only the selected groceries; it cannot
-          measure your full household inflation or the prices at your particular
-          shops.
+        <p className="mt-3 text-sm text-ink/65">
+          Source: §4.6.1, pp.50–52; §4.6.5, pp.57–59.
         </p>
       </section>
 
       <section className="mt-10">
         <h2 className="font-display text-2xl font-semibold">
-          Missing data and revisions
+          Then, apply the expenditure weights
         </h2>
-        <ul className="mt-3 list-disc space-y-3 pl-5 text-ink/80">
-          <li>
-            A missing, zero, negative, or non-finite price is unavailable, never
-            a free item. If any positive-weight item lacks a valid current or
-            base price, we withhold the aggregate annual result. A missing
-            previous-month price withholds the monthly result.
-          </li>
-          <li>
-            We do not silently drop missing items and redistribute their
-            weights. An all-zero personal basket has no inflation result.
-            Invalid spending inputs must be corrected before a result can be
-            shown.
-          </li>
-          <li>
-            Membership, units, and base weights stay fixed within this version.
-            Changing the basket or base creates a separately identified version;
-            it must not be spliced into this series without an explicit linking
-            method.
-          </li>
-          <li>
-            Each published observation must retain its source, retrieval date,
-            and input snapshot. Corrections require an explanation and a new
-            dated revision while keeping the earlier record available.
-          </li>
-        </ul>
         <p className="mt-3 text-ink/80">
-          The observation date on the dashboard is the date of the prices, not a
-          promise of live updates. A newer release requires a newly checked
-          snapshot. Report errors through the{" "}
-          <Link to="/corrections">corrections page</Link> with the item, date,
-          and supporting source.
+          Higher levels use a weighted arithmetic mean of the child index
+          levels. This is the Young, or Modified Laspeyres, index: the
+          expenditure reference period and price base differ. The rule applies
+          to items, subclasses, classes, groups, divisions, states and the
+          rural/urban combination.
+        </p>
+        <div className="index-slip mt-4 space-y-3 text-sm sm:text-base">
+          <p>
+            <strong>Aggregate index</strong> = sum of (weight × item index) ÷
+            sum of weights
+          </p>
+          <p>
+            <strong>Annual inflation (%)</strong> = 100 × (current aggregate
+            index ÷ year-ago aggregate index − 1)
+          </p>
+        </div>
+        <p className="mt-3 text-ink/80">
+          Annual inflation comes from the two aggregate levels. Averaging the
+          items’ annual inflation rates with the fixed basket weights generally
+          gives a different answer. Missing items also cannot simply be dropped
+          and the remaining weights rescaled into a full-basket result.
+        </p>
+        <p className="mt-3 text-sm text-ink/65">Source: §4.6.2, pp.52–54.</p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="font-display text-2xl font-semibold">
+          Missing prices have explicit rules
+        </h2>
+        <p className="mt-3 text-ink/80">
+          Official CPI imputes temporarily missing quotations; it does not
+          abandon the national index whenever a shop quotation is unavailable.
+          The item’s expenditure weight remains in the basket.
+        </p>
+        <ol className="mt-4 list-decimal space-y-3 pl-5 text-ink/80">
+          <li>
+            Use observed comparable movement within the same elementary panel
+            for a temporarily missing quote.
+          </li>
+          <li>
+            If the whole item is missing, use the prescribed comparable higher
+            aggregate’s movement, with a documented donor.
+          </li>
+          <li>
+            For administered prices, carry the last price forward until an
+            official revision takes effect; specialist rules refine this
+            treatment.
+          </li>
+          <li>
+            Replace permanently unavailable products through matching or
+            overlap. Without an overlap pair, impute the transition and wait for
+            two consecutive observations of the new specification.
+          </li>
+        </ol>
+        <p className="mt-3 text-ink/80">
+          Our calculation exposes observed and imputed counts and requires
+          evidence for each treatment. With no independent starting panel, no
+          anchored prior index and no independent donor movements, filling every
+          blank would not create an independently measured CPI. That is why this
+          project currently withholds its national number. A complete future
+          panel can include documented imputations under the official method.
+        </p>
+        <p className="mt-3 text-sm text-ink/65">
+          Source: §§4.6.4–4.6.6, pp.55–62.
         </p>
       </section>
 
       <section className="mt-10">
         <h2 className="font-display text-2xl font-semibold">
-          What a comparison with CPI can tell us
+          Rent, tariffs and services need additional inputs
         </h2>
         <p className="mt-3 text-ink/80">
-          The official CPI and Consumer Food Price Index are separate reference
-          series. They use different baskets, weights, sampling, and reporting
-          periods. Our daily November observation and the official October
-          monthly release do not cover the same window. A numerical difference
-          cannot establish that CPI is inaccurate, manipulated, or understating
-          the cost of living.
+          The general formulas are implemented. These specialist collection and
+          subweight pipelines still need to be established before the
+          corresponding independent item indices qualify for publication.
         </p>
-        <p className="mt-3 text-ink/80">
-          The official comparator is taken directly from the cited release and
-          retains its provisional status and 2024 base. We do not substitute an
-          official parent-division inflation rate for an individual commodity’s
-          price change in this index.
-        </p>
+        <div className="mt-4 overflow-x-auto">
+          <table className="w-full border-collapse text-left text-sm">
+            <caption className="sr-only">
+              Specialist CPI compilation rules and official report references
+            </caption>
+            <thead>
+              <tr className="border-b border-[var(--rule)]">
+                <th scope="col" className="py-3 pr-4">
+                  Item
+                </th>
+                <th scope="col" className="py-3 pr-4">
+                  Required inputs and treatment
+                </th>
+                <th scope="col" className="py-3">
+                  Report
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {specialistItems.map(([name, treatment, source]) => (
+                <tr
+                  key={name}
+                  className="border-b border-[var(--rule)] align-top"
+                >
+                  <th scope="row" className="py-3 pr-4 font-semibold">
+                    {name}
+                  </th>
+                  <td className="min-w-56 py-3 pr-4 text-ink/80">
+                    {treatment}
+                  </td>
+                  <td className="min-w-28 py-3 text-ink/65">{source}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </section>
 
       <section className="mt-10">
         <h2 className="font-display text-2xl font-semibold">
-          Coverage and uncertainty
-        </h2>
-        <ul className="mt-3 list-disc space-y-3 pl-5 text-ink/80">
-          <li>
-            <strong>Household coverage:</strong> rent, education, healthcare,
-            transport, electricity, clothing, services, and many foods are
-            outside this basket. Even complete data for all 22 items does not
-            mean complete coverage of household spending.
-          </li>
-          <li>
-            <strong>Geography:</strong> all-India commodity averages do not
-            identify the inflation faced in a particular state, village, city,
-            income group, or shop. Changes in which reporting centres contribute
-            can change an average.
-          </li>
-          <li>
-            <strong>Product comparability:</strong> a published commodity
-            average is not a panel of identical brands, pack sizes, quality
-            grades, and shops. This calculation cannot separately identify
-            quality changes, shrinkflation, substitution, or outlet changes.
-          </li>
-          <li>
-            <strong>Timing:</strong> single-day prices can be sensitive to
-            seasonality and temporary supply shocks. There is no seasonal
-            adjustment and no interpolation between the three observed dates.
-          </li>
-          <li>
-            <strong>Statistical uncertainty:</strong> these aggregate source
-            data do not support a sampling confidence interval. Displayed
-            decimal places describe arithmetic precision, not a measured margin
-            of error.
-          </li>
-        </ul>
-      </section>
-
-      <section className="mt-10">
-        <h2 className="font-display text-2xl font-semibold">
-          Towards an independent national index
+          What qualifies as independent coverage
         </h2>
         <p className="mt-3 text-ink/80">
-          A representative private CPI needs independent price collection across
-          rural and urban locations, a documented sampling frame, household
-          expenditure weights, and coverage of major goods and services. The
-          panel must repeatedly price matched products and outlets, record taxes
-          and discounts, handle missing products and quality changes, and
-          publish coverage and revision policies. That collection programme has
-          not yet been established here.
+          Coverage is the share of official expenditure weight supported by
+          eligible, independently compiled item indices. A verified item needs
+          the correct month and year-ago comparison, the 2024 base, complete
+          required state/sector aggregation, specialist subweights where
+          relevant, and an auditable chain of source observations. The headline
+          requires coverage of the full positive-weight basket.
         </p>
         <p className="mt-3 text-ink/80">
-          This release supplies the reproducible calculation and evidence trail
-          for a narrower basket. A national claim should follow validation of
-          the broader panel and weights.
+          A single retailer quote, an official item index, or a daily national
+          commodity average does not satisfy that requirement. Such evidence can
+          be shown separately with its source, location, specification and date.
+          It does not become a completed independent item merely because a price
+          is visible in the table.
+        </p>
+        <p className="mt-3 text-ink/80">
+          The public material obtained here contains the official basket,
+          weights and item indices. We have not obtained a complete
+          outlet-by-specification monthly rupee-price file. An index level of
+          110 is dimensionless; it is not a retail price of ₹110 and cannot be
+          converted into one uniquely. The official dissemination specification
+          describes published indices and inflation rates (§4.7.8, pp.78–79).
         </p>
       </section>
 
       <section className="mt-10 border-t border-[var(--rule)] pt-6 text-sm text-ink/70">
         <h2 className="font-display text-lg font-semibold text-ink">
-          Sources and earlier observations
+          Sources, downloads and earlier work
         </h2>
-        <ol className="mt-3 list-decimal space-y-3 pl-5">
+        <ul className="mt-3 list-disc space-y-3 pl-5">
           <li>
-            <a href={metadata.sourceUrl}>
-              Department of Consumer Affairs: daily retail price report
+            <a href="https://www.mospi.gov.in/uploads/documents/documents/1770882257889-Expert_Group_Report_CPI.pdf">
+              MoSPI Expert Group Report
             </a>
-            . Retrieved {formatDay(metadata.retrievedAt.slice(0, 10))}.{" "}
-            <a href={metadata.sourceArchive} download>
-              Download the archived report
+            {" · "}
+            <a href={report}>Archived PDF</a>
+            {" · "}
+            <a href="/data/inflation/sources/cpi-2024-expert-report.source.json">
+              Source record and checksum
             </a>
-            . The dated input values and source provenance are included in the
-            downloadable snapshot.
           </li>
           <li>
-            <a href={official.sourceUrl}>MoSPI: October 2026 CPI release</a>.
-            Official comparator, published {formatDay(official.releasedAt)}.{" "}
-            <a href={official.sourceArchive} download>
-              Download the archived release
+            <a href={basket.metadata.sourceUrl}>
+              Official Annex 5.3 expenditure weights
             </a>
-            .
+            {" · "}
+            <a href={basket.metadata.sourceArchive} download>
+              Archived workbook
+            </a>
+            {" · "}
+            <a href="/data/inflation/cpi-state-item-weights.json" download>
+              State/sector item weights
+            </a>
           </li>
           <li>
-            The <Link to="/inflation/food">earlier category pages</Link> and{" "}
-            <Link to="/inflation/item/rice">item records</Link> retain the
-            September 2026 retail observations and July 2026 CPI comparisons.
-            They are historical records and are not the inputs to this release.
+            <a href={official.metadata.sourceUrl}>MoSPI CPI 2024 data API</a>
+            {" · "}
+            <a href="/data/inflation/cpi-official.json" download>
+              Published comparison data
+            </a>
+            {" · "}
+            <a href={official.metadata.sourceArchive} download>
+              Archived source responses
+            </a>
           </li>
-        </ol>
-        <nav
-          aria-label="Historical inflation categories"
-          className="mt-5 flex flex-wrap gap-x-4 gap-y-2"
-        >
-          {ROOMS.map((room) => (
-            <Link key={room.id} to={`/inflation/${room.id}`}>
-              {room.label} archive
-            </Link>
-          ))}
-        </nav>
-        <details className="mt-4">
-          <summary className="cursor-pointer font-medium text-ink">
-            Source checksums (SHA-256)
-          </summary>
-          <p className="mt-2">
-            The checksums identify the exact downloaded source files used for
-            this release.
-          </p>
-          <p className="mt-2 break-all">
-            Retail report: <code>{metadata.sourceSha256}</code>
-          </p>
-          <p className="mt-2 break-all">
-            CPI release: <code>{official.sourceSha256}</code>
-          </p>
-        </details>
+          <li>
+            The earlier{" "}
+            <Link to="/inflation/essentials">22-item essentials index</Link>
+            {" and its "}
+            <Link to="/inflation/essentials-method">original methodology</Link>
+            {" remain available as a separate, limited grocery calculation."}
+          </li>
+        </ul>
+        <p className="mt-5">
+          Report a data error through the{" "}
+          <Link to="/corrections">corrections page</Link>, with the item, month
+          and supporting source.
+        </p>
         <p className="mt-6">
-          <Link to="/inflation">Return to the index →</Link>
+          <Link to="/inflation">Return to the full comparison →</Link>
         </p>
       </section>
     </article>

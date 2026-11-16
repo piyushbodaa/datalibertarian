@@ -128,7 +128,7 @@ export function SiteFrame({ children }: { children: ReactNode }) {
       <footer className="mx-auto max-w-[1168px] border-t border-[var(--rule)] px-4 py-6 text-xs text-ink/60 sm:px-6">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <p className="m-0">
-            Source figures from official publications. Derived measures identify their inputs, dates, and methods.
+            Source figures link to their publications. Derived measures identify their inputs, dates, and methods.
           </p>
           <div className="flex flex-wrap items-center gap-4 font-medium">
             <Link to="/sources" className="text-ink/75 no-underline hover:text-rust hover:underline">

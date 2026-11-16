@@ -12,7 +12,7 @@ export function metadataFor(pathname: string, search = "") {
     "/pressreleases": "Pilot index of the top 100 police departments with official press-release archives, latest verified releases, and direct links to PDFs and HTML notes.",
     "/pressreleases/police": "Pilot index of the top 100 police departments with official press-release archives, latest verified releases, and direct links to PDFs and HTML notes.",
     "/pressreleases/police/ap": "Andhra Pradesh police press releases: 26-district state index with Telugu-translated summaries and direct links to official district archives.",
-    "/inflation": "The Data Libertarian Essentials Index: a transparent fixed basket of 22 groceries, source prices, contribution analysis, and your own spending calculator.",
+    "/inflation": "Compare all 358 items in India’s CPI with independently sourced retail and service prices. Exact official weights, rural and urban indices, evidence gaps, and open data.",
   };
   return { title, description: descriptions[pathname] ?? `${title.replace(" — Data Libertarian", "")}: explore figures, accounting scope, and original sources.`, url: `https://datalibertarian.in${pathname === "/" ? "/" : pathname.replace(/\/$/, "")}`, image: "https://datalibertarian.in/social-preview.png" };
 }

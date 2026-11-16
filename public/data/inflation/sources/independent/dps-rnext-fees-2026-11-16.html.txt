@@ -1,0 +1,1513 @@
+<!doctype html>
+<html lang="en-US">
+
+<head><meta charset="utf-8">
+    
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="author" content="beshleyua" />
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="http://www.dpsrnext.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Top School in Ghaziabad Meerut Road & Crossing Republic">
+    <meta property="og:description" content="Delhi Public School Raj Nagar Extension is branch of DPS Indirapuram School.">
+    <meta property="og:image" content="http://www.dpsrnext.com/frontend/images/logo.png">
+    
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="dpsrnext.com">
+    <meta property="twitter:url" content="http://www.dpsrnext.com/">
+    <meta name="twitter:title" content="Top School in Ghaziabad Meerut Road & Crossing Republic">
+    <meta name="twitter:description" content="Delhi Public School Raj Nagar Extension is branch of DPS Indirapuram School.">
+    <meta name="twitter:image" content="http://www.dpsrnext.com/frontend/images/logo.png">
+
+    <meta name="google-site-verification" content="tXZl_dkA1U_iuTXU87XeEItmvYT7OmLc6l8LI6kf_jI" />
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y7HVVNHH7S"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    gtag('config', 'G-Y7HVVNHH7S');
+    </script>
+
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Delhi Public School R. N. Extension",
+    "image": "http://www.dpsrnext.com/frontend/images/logo.png",
+    "@id": "",
+    "url": "http://www.dpsrnext.com/",
+    "telephone": "+91 9205472615",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Village Morta, Meerut Road",
+        "addressLocality": "Ghaziabad",
+        "postalCode": "201003",
+        "addressCountry": "IN"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 28.718592,
+        "longitude": 77.4639428
+    }  
+    }
+    </script>
+    
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="http://fonts.googleapis.com/" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i%2C900%2C900i%7CPlayfair+Display%3A100%2C100i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i%2C900%2C900i%7CMr+De+Haviland&amp;display=swap"
+        type="text/css" media="all" />
+    <!-- CSS STYLES -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://dpsrnext.com/frontend/css/vendors/bootstrap.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://dpsrnext.com/frontend/fonts/font-awesome/css/font-awesome.css" type="text/css"
+        media="all" />
+    <link rel="stylesheet" href="https://dpsrnext.com/frontend/css/vendors/magnific-popup.css" type="text/css"
+        media="all" />
+    <link rel="stylesheet" href="https://dpsrnext.com/frontend/css/vendors/splitting.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://dpsrnext.com/frontend/css/vendors/swiper.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://dpsrnext.com/frontend/css/main.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://dpsrnext.com/frontend/css/custom.css?v=20261103d" type="text/css" media="all" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Delhi Public School</title>   
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <style>
+        .info-section {
+            background-color: #2b2b2b;
+            color: white;
+
+        }
+
+        .info-section .info-box {
+            background: transparent;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .info-section .info-box i {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .info-section .info-box h4 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .info-section .info-box p {
+            font-size: 16px;
+        }
+
+        .p-size {
+            font-size: 14px;
+            text-align: justify;
+        }
+    </style>
+    </head>
+
+<body class="home page ">
+    <div class="container-page">
+        <!-- Preloader -->
+        <!-- Header -->
+ <header class="header"><meta charset="utf-8">
+     <div class="header__builder">
+         <!-- logo -->
+         <div class="logo-image">
+             <a href="https://dpsrnext.com"><img src="https://dpsrnext.com/frontend/images/logo.png" alt="logo" /></a>
+         </div>
+
+         <!-- menu btn -->
+         <a href="#" class="menu-btn full"><span></span></a>
+
+         <style>
+    @media screen and (max-width:600px) {
+        span.char {
+            font-size: 16px;
+        }
+
+    }
+</style>
+<!-- Menu Full Overlay -->
+<div class="menu-full-overlay">
+    
+    <div class="dmenu">
+    <nav class="dmenu-sections" aria-label="Sections">
+                                    <a class="dmenu-sec" href="https://dpsrnext.com"><span>Home</span></a>
+                                                <button type="button" class="dmenu-sec "
+                    data-pane="dmenu-pane-2" aria-controls="dmenu-pane-2"
+                    aria-expanded="false">
+                    <span>About Us</span>
+                    <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M5 3 9 7 5 11" stroke="currentColor" stroke-width="1.8" fill="none"/></svg>
+                </button>
+                                                <button type="button" class="dmenu-sec is-active"
+                    data-pane="dmenu-pane-3" aria-controls="dmenu-pane-3"
+                    aria-expanded="true">
+                    <span>Admission</span>
+                    <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M5 3 9 7 5 11" stroke="currentColor" stroke-width="1.8" fill="none"/></svg>
+                </button>
+                                                <button type="button" class="dmenu-sec "
+                    data-pane="dmenu-pane-4" aria-controls="dmenu-pane-4"
+                    aria-expanded="false">
+                    <span>Our Campus</span>
+                    <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M5 3 9 7 5 11" stroke="currentColor" stroke-width="1.8" fill="none"/></svg>
+                </button>
+                                                <button type="button" class="dmenu-sec "
+                    data-pane="dmenu-pane-5" aria-controls="dmenu-pane-5"
+                    aria-expanded="false">
+                    <span>Student Life</span>
+                    <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M5 3 9 7 5 11" stroke="currentColor" stroke-width="1.8" fill="none"/></svg>
+                </button>
+                                                <button type="button" class="dmenu-sec "
+                    data-pane="dmenu-pane-6" aria-controls="dmenu-pane-6"
+                    aria-expanded="false">
+                    <span>Committees</span>
+                    <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M5 3 9 7 5 11" stroke="currentColor" stroke-width="1.8" fill="none"/></svg>
+                </button>
+                                                <button type="button" class="dmenu-sec "
+                    data-pane="dmenu-pane-7" aria-controls="dmenu-pane-7"
+                    aria-expanded="false">
+                    <span>Academics</span>
+                    <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M5 3 9 7 5 11" stroke="currentColor" stroke-width="1.8" fill="none"/></svg>
+                </button>
+                                                <button type="button" class="dmenu-sec "
+                    data-pane="dmenu-pane-8" aria-controls="dmenu-pane-8"
+                    aria-expanded="false">
+                    <span>CBSE</span>
+                    <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M5 3 9 7 5 11" stroke="currentColor" stroke-width="1.8" fill="none"/></svg>
+                </button>
+                                                <button type="button" class="dmenu-sec "
+                    data-pane="dmenu-pane-9" aria-controls="dmenu-pane-9"
+                    aria-expanded="false">
+                    <span>Gallery</span>
+                    <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M5 3 9 7 5 11" stroke="currentColor" stroke-width="1.8" fill="none"/></svg>
+                </button>
+                                                <a class="dmenu-sec" href="https://dpsrnext.com/career/career"><span>Careers</span></a>
+                                                <button type="button" class="dmenu-sec "
+                    data-pane="dmenu-pane-11" aria-controls="dmenu-pane-11"
+                    aria-expanded="false">
+                    <span>IgniteMUN</span>
+                    <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M5 3 9 7 5 11" stroke="currentColor" stroke-width="1.8" fill="none"/></svg>
+                </button>
+                                                <a class="dmenu-sec" href="https://dpsrnext.com/blogs"><span>Blogs</span></a>
+                                                <a class="dmenu-sec" href="https://dpsrnext.com/contact-us/contact-us"><span>Contact Us</span></a>
+                        </nav>
+
+    <div class="dmenu-links">
+                    <div class="dmenu-pane " id="dmenu-pane-2">
+                <p class="dmenu-title">About Us</p>
+                <ul class="dmenu-grid">
+                                                                                                <li><a href="https://dpsrnext.com/about/about-dps-raj-nagar-extension" >
+                                <span>About DPS R.N. Extension</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/about/affiliation-status" >
+                                <span>Affiliation Status</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/about/mission-and-vision" >
+                                <span>Mission And Vision</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/about/messages-from-the-chairman" >
+                                <span>Message from the Chairman&#039;s Desk</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/about/messages-from-pro-vice-chairperson" >
+                                <span>Message from the Pro Vice Chairperson&#039;s Desk</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/about/messages-from-principal" >
+                                <span>Message from the Principal&#039;s Desk</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                            </ul>
+            </div>
+                    <div class="dmenu-pane is-active" id="dmenu-pane-3">
+                <p class="dmenu-title">Admission</p>
+                <ul class="dmenu-grid">
+                                                                                                <li><a href="https://dpsrnext.com/admission/procedures-and-requirements" >
+                                <span>Procedures and Requirements</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/admission/scholarship-policy" >
+                                <span>Scholarship Policy</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/admission/fee-structure" >
+                                <span>Fee Structure</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                            </ul>
+            </div>
+                    <div class="dmenu-pane " id="dmenu-pane-4">
+                <p class="dmenu-title">Our Campus</p>
+                <ul class="dmenu-grid">
+                                                                                                <li><a href="https://dpsrnext.com/our-campus/infrastructure" >
+                                <span>Infrastructure</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/our-campus/safety-and-security" >
+                                <span>Safety and Security</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/our-campus/transport-facilities-and-guidelines" >
+                                <span>Transport Facilities &amp; Guidelines</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                            </ul>
+            </div>
+                    <div class="dmenu-pane " id="dmenu-pane-5">
+                <p class="dmenu-title">Student Life</p>
+                <ul class="dmenu-grid">
+                                                                                                <li><a href="https://dpsrnext.com/student-life/school-rules" >
+                                <span>School Rules</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/student-life/academic-awards" >
+                                <span>Academic Awards</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/student-life/student-council-junior" >
+                                <span>Student Council Jr.</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/student-life/student-council-senior" >
+                                <span>Student Council Sr.</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/student-life/school-houses" >
+                                <span>School Houses</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/student-life/school-clubs" >
+                                <span>School Clubs</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/student-life/students-awards-and-achievements" >
+                                <span>Student&#039;s Awards and Achievements</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                            </ul>
+            </div>
+                    <div class="dmenu-pane " id="dmenu-pane-6">
+                <p class="dmenu-title">Committees</p>
+                <ul class="dmenu-grid">
+                                                                                                <li><a href="https://dpsrnext.com/committee/school-managing-committee" >
+                                <span>School Managing Committee</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/committee/anti-bullying-committee" >
+                                <span>Anti-Bullying Committee</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/committee/disciplinary-committee" >
+                                <span>Disciplinary Committee</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/committee/pocso-committee" >
+                                <span>POCSO Committee</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/committee/disaster-management-committee" >
+                                <span>Disaster Management Committee</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/committee/transport-inspection-committee" >
+                                <span>Transport Inspection Committee</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/committee/book-selection-committee" >
+                                <span>Book Selection Committee</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/committee/weeding-and-discarding-committee" >
+                                <span>Weeding and Discarding Committee</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/committee/constitution-committee" >
+                                <span>Constitution of Quality Control Committee</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/committee/greenschoolprogram-committee" >
+                                <span>Green School Programme Committee</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/committee/roadsafetyclub-committee" >
+                                <span>Road Safety Club Commitee</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/committee/parentsteacherassocitation-committee" >
+                                <span>Parents Teachers Association Committee</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                            </ul>
+            </div>
+                    <div class="dmenu-pane " id="dmenu-pane-7">
+                <p class="dmenu-title">Academics</p>
+                <ul class="dmenu-grid">
+                                                                                                <li><a href="https://admin.dpsrnext.com/storage/uploads/annual-report-2025-26.pdf" >
+                                <span>Annual Report</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/circular" >
+                                <span>Circular</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://admin.dpsrnext.com/storage/uploads/training-programmes-2025-26.pdf" >
+                                <span>Details of teachers Training</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://admin.dpsrnext.com/storage/uploads/book-list-for-the-academic-session-2026-27-22-01-2026-compressed-1.pdf" >
+                                <span>Book List</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/academics/curriculum" >
+                                <span>Curriculum</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/academics/examination-policy" >
+                                <span>Examination</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/academics/school-calendar" >
+                                <span>School Calendar</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/academics/holiday-list" >
+                                <span>List of Holidays</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/academics/activities-events-competition" >
+                                <span>Activities/Events/Competition</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/academics/activity-planner" >
+                                <span>Activity Planner</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://drive.google.com/file/d/1uV_3rlvAOjFEVaDghuhcneIMFpaI-JwD/view?usp=sharing"  target="_blank" rel="noopener" >
+                                <span>PTM Schedule</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/academics/teachers-list" >
+                                <span>Teachers our Asset</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                            </ul>
+            </div>
+                    <div class="dmenu-pane " id="dmenu-pane-8">
+                <p class="dmenu-title">CBSE</p>
+                <ul class="dmenu-grid">
+                                                                                                <li><a href="https://dpsrnext.com/cbse/affiliation" >
+                                <span>Affiliation / Other Information (OASIS)</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://admin.dpsrnext.com/storage/uploads/tc-sample.pdf"  target="_blank" rel="noopener" >
+                                <span>Transfer Certificate Sample</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/cbse/transfer-certificate" >
+                                <span>Transfer Certificate</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/cbse/cbse-result" >
+                                <span>CBSE Results</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/cbse/declaration-of-textbooks" >
+                                <span>Declaration of Textbooks</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/cbse/fit-india-movement" >
+                                <span>Fit India Movement</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/cbse/mandatory-public-disclosure" >
+                                <span>Mandatory Public Disclosure</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://admin.dpsrnext.com/storage/uploads/self-affidavit-of-school.pdf"  target="_blank" rel="noopener" >
+                                <span>Self Affidavit Of School</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                            </ul>
+            </div>
+                    <div class="dmenu-pane " id="dmenu-pane-9">
+                <p class="dmenu-title">Gallery</p>
+                <ul class="dmenu-grid">
+                                                                                                <li><a href="https://dpsrnext.com/gallery/photo-gallery" >
+                                <span>Photo Gallery</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                            </ul>
+            </div>
+                    <div class="dmenu-pane " id="dmenu-pane-11">
+                <p class="dmenu-title">IgniteMUN</p>
+                <ul class="dmenu-grid">
+                                                                                                <li><a href="https://dpsrnext.com/ignitemun/ignitemun" >
+                                <span>Ignite MUN</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://admin.dpsrnext.com/storage/uploads/committee/1793756576_committee-structure-agenda-compressed.pdf"  target="_blank" rel="noopener" >
+                                <span>Committee Structure &amp; Agenda</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/ignitemun/executive-board-members" >
+                                <span>Executive Board Members</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                                                                                        <li><a href="https://dpsrnext.com/ignitemun/the-secretariat" >
+                                <span>The Secretariat</span><span class="dmenu-arrow" aria-hidden="true">&rarr;</span>
+                            </a></li>
+                                                            </ul>
+            </div>
+            </div>
+
+    <aside class="dmenu-info">
+        <div class="dmenu-card">
+            <p class="dmenu-kicker">Admissions</p>
+            <p class="dmenu-card-title">Registration 2026-27 &amp; 2027-28</p>
+            <div class="dmenu-card-links">
+                <a href="https://dpsr.schoolforschools.ai/student-registrations/create/" target="_blank" rel="noopener">Registration form &rarr;</a>                <a href="https://dpsr.schoolforschools.ai/student-registrations/create/" target="_blank" rel="noopener">Enquiry form &rarr;</a>                <a href="https://dpsrnext.com/admission/procedures-and-requirements">Procedure &amp; requirements &rarr;</a>
+                <a href="https://dpsrnext.com/admission/fee-structure">Fee structure &rarr;</a>
+            </div>
+        </div>
+
+        <div class="dmenu-visit">
+            <p class="dmenu-kicker">Visit us</p>
+            <p>DPS R.N. Extension, Meerut Road, Village Morta, Meerut Road, Ghaziabad, U.P. 201003, Uttar Pradesh</p>
+            <p>Toll Free 1800-2700-575</p>            <p>920 547 2615</p>            <p><a href="mailto:info@dpsrnext.com">info@dpsrnext.com</a></p>
+        </div>
+
+        <div class="dmenu-social">
+            <a href="https://www.instagram.com/dpsrnextension/" target="_blank" rel="noopener">Instagram</a>            <a href="https://www.facebook.com/DPSrajnagarextension" target="_blank" rel="noopener">Facebook</a>            <a href="http://www.youtube.com/@dpsrajnagarextensionghazia6993" target="_blank" rel="noopener">YouTube</a>            <a href="https://www.linkedin.com/company/dps-rn-extension" target="_blank" rel="noopener">LinkedIn</a>        </div>
+    </aside>
+</div>
+
+<script>
+    (function () {
+        var root = document.currentScript.previousElementSibling;
+        if (!root || !root.classList.contains('dmenu')) return;
+        var secs = root.querySelectorAll('button.dmenu-sec');
+        function show(btn) {
+            secs.forEach(function (b) {
+                var on = b === btn;
+                b.classList.toggle('is-active', on);
+                b.setAttribute('aria-expanded', on ? 'true' : 'false');
+                var pane = document.getElementById(b.dataset.pane);
+                if (pane) pane.classList.toggle('is-active', on);
+            });
+        }
+        secs.forEach(function (b) {
+            b.addEventListener('mouseenter', function () { show(b); });
+            b.addEventListener('focus', function () { show(b); });
+            b.addEventListener('click', function (e) { e.preventDefault(); show(b); });
+        });
+        // Esc closes the overlay (same as clicking the X)
+        document.addEventListener('keydown', function (e) {
+            if (e.key !== 'Escape') return;
+            var btn = document.querySelector('.menu-btn.full.active');
+            if (btn) btn.click();
+        });
+    })();
+</script>
+    <div class="menu-full-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-1">
+                    <!-- menu full -->
+                    <div class="menu-full">
+
+                        <ul class="menu-full">
+                                                            <li
+                                    class="menu-item ">
+                                    <a class="splitting-text-anim-2" data-splitting="chars"
+                                        href="https://dpsrnext.com">
+                                        Home
+                                    </a>
+
+                                                                    </li>
+                                                            <li
+                                    class="menu-item menu-item-has-children has-children">
+                                    <a class="splitting-text-anim-2" data-splitting="chars"
+                                        href="javascript:void(0);">
+                                        About Us
+                                    </a>
+
+                                                                            <ul class="sub-menu">
+                                            
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/about/about-dps-raj-nagar-extension">About DPS R.N. Extension</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/about/affiliation-status">Affiliation Status</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/about/mission-and-vision">Mission And Vision</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/about/messages-from-the-chairman">Message from the Chairman&#039;s Desk</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/about/messages-from-pro-vice-chairperson">Message from the Pro Vice Chairperson&#039;s Desk</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/about/messages-from-principal">Message from the Principal&#039;s Desk</a>
+                                                                                                    </li>
+                                            
+                                        </ul>
+                                                                    </li>
+                                                            <li
+                                    class="menu-item menu-item-has-children has-children">
+                                    <a class="splitting-text-anim-2" data-splitting="chars"
+                                        href="javascript:void(0);">
+                                        Admission
+                                    </a>
+
+                                                                            <ul class="sub-menu">
+                                            
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/admission/procedures-and-requirements">Procedures and Requirements</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/admission/scholarship-policy">Scholarship Policy</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/admission/fee-structure">Fee Structure</a>
+                                                                                                    </li>
+                                            
+                                        </ul>
+                                                                    </li>
+                                                            <li
+                                    class="menu-item menu-item-has-children has-children">
+                                    <a class="splitting-text-anim-2" data-splitting="chars"
+                                        href="javascript:void(0);">
+                                        Our Campus
+                                    </a>
+
+                                                                            <ul class="sub-menu">
+                                            
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/our-campus/infrastructure">Infrastructure</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/our-campus/safety-and-security">Safety and Security</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/our-campus/transport-facilities-and-guidelines">Transport Facilities &amp; Guidelines</a>
+                                                                                                    </li>
+                                            
+                                        </ul>
+                                                                    </li>
+                                                            <li
+                                    class="menu-item menu-item-has-children has-children">
+                                    <a class="splitting-text-anim-2" data-splitting="chars"
+                                        href="javascript:void(0);">
+                                        Student Life
+                                    </a>
+
+                                                                            <ul class="sub-menu">
+                                            
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/student-life/school-rules">School Rules</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/student-life/academic-awards">Academic Awards</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/student-life/student-council-junior">Student Council Jr.</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/student-life/student-council-senior">Student Council Sr.</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/student-life/school-houses">School Houses</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/student-life/school-clubs">School Clubs</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/student-life/students-awards-and-achievements">Student&#039;s Awards and Achievements</a>
+                                                                                                    </li>
+                                            
+                                        </ul>
+                                                                    </li>
+                                                            <li
+                                    class="menu-item menu-item-has-children has-children">
+                                    <a class="splitting-text-anim-2" data-splitting="chars"
+                                        href="javascript:void(0);">
+                                        Committees
+                                    </a>
+
+                                                                            <ul class="sub-menu">
+                                            
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/committee/school-managing-committee">School Managing Committee</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/committee/anti-bullying-committee">Anti-Bullying Committee</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/committee/disciplinary-committee">Disciplinary Committee</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/committee/pocso-committee">POCSO Committee</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/committee/disaster-management-committee">Disaster Management Committee</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/committee/transport-inspection-committee">Transport Inspection Committee</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/committee/book-selection-committee">Book Selection Committee</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/committee/weeding-and-discarding-committee">Weeding and Discarding Committee</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/committee/constitution-committee">Constitution of Quality Control Committee</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/committee/greenschoolprogram-committee">Green School Programme Committee</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/committee/roadsafetyclub-committee">Road Safety Club Commitee</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/committee/parentsteacherassocitation-committee">Parents Teachers Association Committee</a>
+                                                                                                    </li>
+                                            
+                                        </ul>
+                                                                    </li>
+                                                            <li
+                                    class="menu-item menu-item-has-children has-children">
+                                    <a class="splitting-text-anim-2" data-splitting="chars"
+                                        href="javascript:void(0);">
+                                        Academics
+                                    </a>
+
+                                                                            <ul class="sub-menu">
+                                            
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://admin.dpsrnext.com/storage/uploads/annual-report-2025-26.pdf">Annual Report</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/circular">Circular</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://admin.dpsrnext.com/storage/uploads/training-programmes-2025-26.pdf">Details of teachers Training</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://admin.dpsrnext.com/storage/uploads/book-list-for-the-academic-session-2026-27-22-01-2026-compressed-1.pdf">Book List</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/academics/curriculum">Curriculum</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/academics/examination-policy">Examination</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/academics/school-calendar">School Calendar</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/academics/holiday-list">List of Holidays</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/academics/activities-events-competition">Activities/Events/Competition</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/academics/activity-planner">Activity Planner</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a href="https://drive.google.com/file/d/1uV_3rlvAOjFEVaDghuhcneIMFpaI-JwD/view?usp=sharing"
+                                                            target="_blank">PTM Schedule</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/academics/teachers-list">Teachers our Asset</a>
+                                                                                                    </li>
+                                            
+                                        </ul>
+                                                                    </li>
+                                                            <li
+                                    class="menu-item menu-item-has-children has-children">
+                                    <a class="splitting-text-anim-2" data-splitting="chars"
+                                        href="javascript:void(0);">
+                                        CBSE
+                                    </a>
+
+                                                                            <ul class="sub-menu">
+                                            
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/cbse/affiliation">Affiliation / Other Information (OASIS)</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a href="https://admin.dpsrnext.com/storage/uploads/tc-sample.pdf"
+                                                            target="_blank">Transfer Certificate Sample</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/cbse/transfer-certificate">Transfer Certificate</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/cbse/cbse-result">CBSE Results</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/cbse/declaration-of-textbooks">Declaration of Textbooks</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/cbse/fit-india-movement">Fit India Movement</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/cbse/mandatory-public-disclosure">Mandatory Public Disclosure</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a href="https://admin.dpsrnext.com/storage/uploads/self-affidavit-of-school.pdf"
+                                                            target="_blank">Self Affidavit Of School</a>
+                                                                                                    </li>
+                                            
+                                        </ul>
+                                                                    </li>
+                                                            <li
+                                    class="menu-item menu-item-has-children has-children">
+                                    <a class="splitting-text-anim-2" data-splitting="chars"
+                                        href="javascript:void(0);">
+                                        Gallery
+                                    </a>
+
+                                                                            <ul class="sub-menu">
+                                            
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/gallery/photo-gallery">Photo Gallery</a>
+                                                                                                    </li>
+                                            
+                                        </ul>
+                                                                    </li>
+                                                            <li
+                                    class="menu-item ">
+                                    <a class="splitting-text-anim-2" data-splitting="chars"
+                                        href="https://dpsrnext.com/career/career">
+                                        Careers
+                                    </a>
+
+                                                                    </li>
+                                                            <li
+                                    class="menu-item menu-item-has-children has-children">
+                                    <a class="splitting-text-anim-2" data-splitting="chars"
+                                        href="javascript:void(0);">
+                                        IgniteMUN
+                                    </a>
+
+                                                                            <ul class="sub-menu">
+                                            
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/ignitemun/ignitemun">Ignite MUN</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a href="https://admin.dpsrnext.com/storage/uploads/committee/1793756576_committee-structure-agenda-compressed.pdf"
+                                                            target="_blank">Committee Structure &amp; Agenda</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/ignitemun/executive-board-members">Executive Board Members</a>
+                                                                                                    </li>
+                                                                                            <li class="menu-item">
+                                                    
+                                                                                                            <a
+                                                            href="https://dpsrnext.com/ignitemun/the-secretariat">The Secretariat</a>
+                                                                                                    </li>
+                                            
+                                        </ul>
+                                                                    </li>
+                                                            <li
+                                    class="menu-item ">
+                                    <a class="splitting-text-anim-2" data-splitting="chars"
+                                        href="https://dpsrnext.com/blogs">
+                                        Blogs
+                                    </a>
+
+                                                                    </li>
+                                                            <li
+                                    class="menu-item ">
+                                    <a class="splitting-text-anim-2" data-splitting="chars"
+                                        href="https://dpsrnext.com/contact-us/contact-us">
+                                        Contact Us
+                                    </a>
+
+                                                                    </li>
+                                                    </ul>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- social -->
+    <div class="menu-social-links">
+        <a href="https://instagram.com/" target="blank" class="scrolla-element-anim-1" title="Instagram">Instagram</a>
+        <a href="https://facebook.com/" target="blank" class="scrolla-element-anim-1" title="Facebook">Facebook</a>
+        <a href="https://twitter.com/" target="blank" class="scrolla-element-anim-1" title="Twitter">Twitter</a>
+        <a href="https://linkedin.com/" target="blank" class="scrolla-element-anim-1" title="Linkedin">Linkedin</a>
+    </div>
+
+</div>
+
+     </div>
+ </header>
+            <!-- Wrapper -->
+    <div class="wrapper bg-white">
+        <div class="header-bg"></div>
+        <div class="page-section position-relative pb-0  animated-sec">
+            <div class="container p-4 m-4">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 class="p-title">Fee Structure</h1>
+                        <img class="vector" style="margin-top: -60px;" src="https://dpsrnext.com/frontend/images/about/vector.png">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="page-section pt-0">
+            <div class="container">
+                <div class="row">
+
+                    
+                                            <div class="col-md-6">
+                            <div class="table-container">
+                                <h2 class="text-dark" style="font-weight: 500;">
+                                    Fee Structure (2026-27)
+                                </h2>
+                                <!-- Admission Fee (One Time) -->
+
+                                                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th style="font-weight: 500;">
+                                                    Admission Fee (One Time)
+                                                </th>
+                                                <th style="font-weight: 500;">
+                                                    Amount
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                                                            <tr>
+                                                    <td>Registration Fee</td>
+                                                    <td>500/-</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>Admission Fee (One Time)</td>
+                                                    <td>25,000/-</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>25% SIBLING CONCESSION ON ADMISSION FEE  (Admission Fee after 25% sibling concession)</td>
+                                                    <td>18,750/-</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>Re-Admission Fee (No sibling concession on Re-Admission Fee)</td>
+                                                    <td>10,000/-</td>
+                                                </tr>
+                                            
+                                        </tbody>
+                                    </table>
+                                
+                                <!-- Tuition Fee (Quarterly) -->
+                                                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th style="font-weight: 500;">
+                                                    Tuition Fee (Quarterly)
+                                                </th>
+                                                <th style="font-weight: 500;">
+                                                    Amount
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                                                                            <tr>
+                                                    <td>NUR, LKG and UKG</td>
+                                                    <td>38,100/-</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>Classes I to XII</td>
+                                                    <td>38,400/-</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>Examination Fee (Classes III to XII)</td>
+                                                    <td>550/-</td>
+                                                </tr>
+                                            
+                                        </tbody>
+                                    </table>
+                                
+                                <!-- Tuition Fee after Concession -->
+                                                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th style="font-weight: 500;">
+                                                    Tuition Fee after Concession
+                                                </th>
+                                                <th style="font-weight: 500;">
+                                                    Amount
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                                                                            <tr>
+                                                    <td>NUR, LKG and UKG (Sibling Concession (25%) on Tuition Fee)</td>
+                                                    <td>28,575/-</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>Classes I to XII (Sibling Concession (25%) on Tuition Fee)</td>
+                                                    <td>28,800/-</td>
+                                                </tr>
+                                                                                    </tbody>
+                                    </table>
+                                                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="table-container">
+                                <h2 class="text-dark" style="font-weight: 500;">
+                                    Transport Fee (2026-27)
+                                </h2>
+                                                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th style="font-weight: 500;">
+                                                    Area Covered
+                                                </th>
+                                                <th style="font-weight: 500;">
+                                                    Amount
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                                                                            <tr>
+                                                    <td>DUHAI, MOTI RESIDENCY, RAJ VILAS, SANCHAR RESIDENCY, NILAYA GREENS, DIYA GREEN CITY, MEADOWS VISTA</td>
+                                                    <td>
+                                                        GZB CITY-A
+                                                        <br />
+                                                        3,800/-
+                                                        (Quarterly 11,400/-)
+                                                    </td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>GOLF LINKS, MEHRAULI, CHAUDHARY MORE, RAKESH MARG, MAHAGUN PURAM, MOHAN NAGAR, PRATAP VIHAR, BHATIA MOR, MALIWARA, KALKA GHADI CHOWK, TURAB NAGAR, MMG HOSPITAL, ADITYA WORLD CITY, CROSSING REPUBLIC, JASMINE GROOVE, DELHI JUICE CORNER, GAUR SIDDHARTHAM, LELLA WATI SCHOOL, WAVE CITY</td>
+                                                    <td>
+                                                        GZB CITY-C
+                                                        <br />
+                                                        4,250/-
+                                                        (Quarterly 12,750/-)
+                                                    </td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>SAHIBABAD, SURYA NAGAR, GAUR CITY, BHOPURA, VASUNDHARA, MODI NAGAR, INDIRAPURAM, VAISHALI</td>
+                                                    <td>
+                                                        GZB CITY-D
+                                                        <br />
+                                                        4,500/-
+                                                        (Quarterly 13,500/-)
+                                                    </td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>VILLA ANANDAM, RAJNAGAR EXTENSION, SANJAY NAGAR, MANSHI VIHAR, 21st MILESTONE, SHASTRI NAGAR, SIHANI CHUNGI, MURAD NAGAR, RAJ 
+NAGAR, GOVINDPURAM, POLICE LINE, KAMLA NEHRU NAGAR, MEERUT ROAD, ASHOK NAGAR, CHIRANJEEV VIHAR, GANDHI NAGAR, NEHRU NAGAR, LOHIA NAGAR, PATEL NAGAR, AVANTIKA, MUKUND NAGAR</td>
+                                                    <td>
+                                                        GZB CITY-B
+                                                        <br />
+                                                        4,000/-
+                                                        (Quarterly 12,000/-)
+                                                    </td>
+                                                </tr>
+                                            
+                                        </tbody>
+                                    </table>
+                                                            </div>
+                        </div>
+                                            <div class="col-md-6">
+                            <div class="table-container">
+                                <h2 class="text-dark" style="font-weight: 500;">
+                                    Fee Structure (2025-26)
+                                </h2>
+                                <!-- Admission Fee (One Time) -->
+
+                                                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th style="font-weight: 500;">
+                                                    Admission Fee (One Time)
+                                                </th>
+                                                <th style="font-weight: 500;">
+                                                    Amount
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                                                            <tr>
+                                                    <td>Registration Fee</td>
+                                                    <td>500/-</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>Admission Fee (One Time)</td>
+                                                    <td>25,000/-</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>25% SIBLING CONCESSION ON ADMISSION FEE (Admission Fee after 25% sibling concession)</td>
+                                                    <td>18,750/-</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>RE-ADMISSION FEE (incase of admission withdrawal/issuance of TC)</td>
+                                                    <td>12,500/-</td>
+                                                </tr>
+                                            
+                                        </tbody>
+                                    </table>
+                                
+                                <!-- Tuition Fee (Quarterly) -->
+                                                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th style="font-weight: 500;">
+                                                    Tuition Fee (Quarterly)
+                                                </th>
+                                                <th style="font-weight: 500;">
+                                                    Amount
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                                                                            <tr>
+                                                    <td>Nur, LKG, UKG</td>
+                                                    <td>35,640/-</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>I to XII</td>
+                                                    <td>35,970/-</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>Examination Fee (III to XII)</td>
+                                                    <td>550/-</td>
+                                                </tr>
+                                            
+                                        </tbody>
+                                    </table>
+                                
+                                <!-- Tuition Fee after Concession -->
+                                                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th style="font-weight: 500;">
+                                                    Tuition Fee after Concession
+                                                </th>
+                                                <th style="font-weight: 500;">
+                                                    Amount
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                                                                            <tr>
+                                                    <td>Nur, LKG, UKG (Quaterly)</td>
+                                                    <td>26,730/-</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>I to XII (Quaterly)</td>
+                                                    <td>26,978/-</td>
+                                                </tr>
+                                                                                    </tbody>
+                                    </table>
+                                                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="table-container">
+                                <h2 class="text-dark" style="font-weight: 500;">
+                                    Transport Fee (2025-26)
+                                </h2>
+                                                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th style="font-weight: 500;">
+                                                    Area Covered
+                                                </th>
+                                                <th style="font-weight: 500;">
+                                                    Amount
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                                                                            <tr>
+                                                    <td>DUHAI, MOTI RESIDENCY, RAJ VILAS, SANCHAR RESIDENCY, NILAYA GREENS, DIYA GREEN CITY, MEADOWS VISTA</td>
+                                                    <td>
+                                                        GZB CITY-A
+                                                        <br />
+                                                        3,700/-
+                                                        (Quarterly 11,100/-)
+                                                    </td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>GOLF LINKS, MEHRAULI, CHAUDHARY MORE, RAKESH MARG, MAHAGUN PURAM , MOHAN NAGAR, PRATAP VIHAR, BHATIA MOR, MALIWARA,KALKA GHADI CHOWK,TURAB NAGAR,MMG HOSPITAL, ADITYA WORLD CITY,CROSSING,JASMINE GROOVE,DELHI JUICE CORNER, GAUR SIDDHARTHAM, LELLA WATI SCHOOL, WAVE CITY</td>
+                                                    <td>
+                                                        GZB CITY-C
+                                                        <br />
+                                                        4,100/-
+                                                        (Quarterly 12,300/-)
+                                                    </td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>SAHIBABAD,SURYA NAGAR, GAUR CITY,BHOPURA, VASUNDHARA,MODI NAGAR,INDIRAPURAM,VAISHALI</td>
+                                                    <td>
+                                                        GZB CITY-D
+                                                        <br />
+                                                        4,350/-
+                                                        (Quarterly 13,050/-)
+                                                    </td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>VILLA ANANDAM, RAJNAGAR EXTENSION, SANJAY NAGAR, MANSHI VIHAR, 21st MILESTONE, SHASTRI NAGAR, SIHANI CHUNGI, MURAD NAGAR, RAJ NAGAR, GOVINDPURAM, POLICE LINE, KAMLA NEHRU NAGAR, MEERUT ROAD, ASHOK NAGAR, CHIRANJEEV VIHAR, GANDHI NAGAR, NEHRU NAGAR, LOHIA NAGAR, PATEL NAGAR, AVANTIKA, MUKUND NAGAR</td>
+                                                    <td>
+                                                        GZB CITY-B
+                                                        <br />
+                                                        3,900/-
+                                                        (Quarterly 11,700/-)
+                                                    </td>
+                                                </tr>
+                                            
+                                        </tbody>
+                                    </table>
+                                                            </div>
+                        </div>
+                                            <div class="col-md-6">
+                            <div class="table-container">
+                                <h2 class="text-dark" style="font-weight: 500;">
+                                    Fee Structure (2024-25)
+                                </h2>
+                                <!-- Admission Fee (One Time) -->
+
+                                                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th style="font-weight: 500;">
+                                                    Admission Fee (One Time)
+                                                </th>
+                                                <th style="font-weight: 500;">
+                                                    Amount
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                                                            <tr>
+                                                    <td>Registration Fee</td>
+                                                    <td>500/-</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>Admission Fee (One Time)</td>
+                                                    <td>20,000/-</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>Sibling Concession 25% on Admission Fee</td>
+                                                    <td>15,000/-</td>
+                                                </tr>
+                                            
+                                        </tbody>
+                                    </table>
+                                
+                                <!-- Tuition Fee (Quarterly) -->
+                                                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th style="font-weight: 500;">
+                                                    Tuition Fee (Quarterly)
+                                                </th>
+                                                <th style="font-weight: 500;">
+                                                    Amount
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                                                                            <tr>
+                                                    <td>Nur, LKG, UKG</td>
+                                                    <td>38,100/-</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>I to XII</td>
+                                                    <td>33,000/-</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>Examination Fee (III to XII)</td>
+                                                    <td>500/-</td>
+                                                </tr>
+                                            
+                                        </tbody>
+                                    </table>
+                                
+                                <!-- Tuition Fee after Concession -->
+                                                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th style="font-weight: 500;">
+                                                    Tuition Fee after Concession
+                                                </th>
+                                                <th style="font-weight: 500;">
+                                                    Amount
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                                                                            <tr>
+                                                    <td>Nur, LKG, UKG (Quaterly)</td>
+                                                    <td>24,525/-</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>I to XII (Quaterly)</td>
+                                                    <td>24,750/-</td>
+                                                </tr>
+                                                                                    </tbody>
+                                    </table>
+                                                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="table-container">
+                                <h2 class="text-dark" style="font-weight: 500;">
+                                    Transport Fee (2024-25)
+                                </h2>
+                                                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th style="font-weight: 500;">
+                                                    Area Covered
+                                                </th>
+                                                <th style="font-weight: 500;">
+                                                    Amount
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                                                                            <tr>
+                                                    <td>DUHAI, MOTI RESIDENCY, RAJ VILAS, SANCHAR RESIDENCY, NILAYA GREENS, DIYA GREEN CITY, MEADOWS VISTA</td>
+                                                    <td>
+                                                        GZB CITY-A
+                                                        <br />
+                                                        3,530/-
+                                                        (Quarterly 10,590/-)
+                                                    </td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>GOLF LINKS, MEHRAULI, CHAUDHARY MORE, RAKESH MARG, MAHAGUN PURAM , MOHAN NAGAR, PRATAP VIHAR, BHATIA MOR, MALIWARA,KALKA GHADI CHOWK,TURAB NAGAR,MMG HOSPITAL, ADITYA WORLD CITY,CROSSING,JASMINE GROOVE,DELHI JUICE CORNER, GAUR SIDDHARTHAM, LELLA WATI SCHOOL, WAVE CITY</td>
+                                                    <td>
+                                                        GZB CITY-C
+                                                        <br />
+                                                        3,900/-
+                                                        (Quarterly 11,700/-)
+                                                    </td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>SAHIBABAD,SURYA NAGAR, GAUR CITY,BHOPURA, VASUNDHARA,MODI NAGAR,INDIRAPURAM,VAISHALI</td>
+                                                    <td>
+                                                        GZB CITY-D
+                                                        <br />
+                                                        4,130/-
+                                                        (Quarterly 12,390/-)
+                                                    </td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>VILLA ANANDAM, RAJNAGAR EXTENSION, SANJAY NAGAR, MANSHI VIHAR, 21st MILESTONE, SHASTRI NAGAR, SIHANI CHUNGI, MURAD NAGAR, RAJ NAGAR, GOVINDPURAM, POLICE LINE, KAMLA NEHRU NAGAR, MEERUT ROAD, ASHOK NAGAR, CHIRANJEEV VIHAR, GANDHI NAGAR, NEHRU NAGAR, LOHIA NAGAR, PATEL NAGAR, AVANTIKA, MUKUND NAGAR</td>
+                                                    <td>
+                                                        GZB CITY-B
+                                                        <br />
+                                                        3,700/-
+                                                        (Quarterly 11,100/-)
+                                                    </td>
+                                                </tr>
+                                            
+                                        </tbody>
+                                    </table>
+                                                            </div>
+                        </div>
+                                    </div>
+
+                <div class="">
+                    <h3 class="text-dark" style="font-weight: 500;">
+                        Instructions
+                    </h3>
+                    <ul class="lh-lg">
+                        <ul><li>Parent are requested to use the <strong>ONLINE</strong> <strong>Mode of Payment</strong> to pay the School Tuition Fees on ERP: <strong>Campus Care App using the URL</strong>&nbsp;<a href="http://www.dpsgzbcampuscare.in"><strong>www.dpsgzbcampuscare.in</strong></a><strong>.</strong></li><li>Parent may also pay the fees through <strong>Debit/Credit Card/Cheque</strong> in favour of <strong>DELHI PUBLIC SCHOOL RAJ NAGAR EXTN</strong> at the School Account Office/School Reception during school hours on all working days.</li><li>The <strong>School Tuition Fee and School Transport Fee</strong> will be collected on <strong>QUARTERLYBASIS</strong> on/before <strong>8th of the first month of every quarter (April/July/October/January).&nbsp;</strong>Monthly mode of payment shall not be considered.</li><li>In case, the School Fee is not paid on/before the due date (i.e. 8th of the first month of every quarter), the following penalties shall be applicable:</li></ul><ol><li><strong>Late Fee of Rs. 10/- per day</strong> shall be charged after the due date&nbsp;(i.e. 8th of the first month of every quarter).</li><li>In case fee is not deposited within <strong>30 Days</strong> from the stipulated date, the <strong>Transport Facility</strong> (if availing) shall be <strong>withdrawn, without any further notification.</strong></li><li>In case fee is not deposited within 45 Days from the stipulated date, the School Authority shall be compelled to <strong>deactivate the DISCOUNT</strong> (on the tuition fee if/as applicable) in the current/existing quarter.</li><li>In case fee is not deposited within <strong>60 Days</strong> from the stipulated date, the name of the child shall be <strong>STRUCK OFF</strong> from <strong>School Rolls, without any further notification.</strong></li><li>The school will not send reminders for payment of School Fee. It is imperative that all parents clear the dues on/before time.</li></ol>
+
+                    </ul>
+                </div>
+                <div class="">
+                    <h3 class="text-dark" style="font-weight: 500;">
+                        Please Note:
+                    </h3>
+                    <ul class="lh-lg">
+                        <ul><li>If the <strong>CHEQUE IS DISHONOURED</strong> for any reason, a <strong>bounce charge of Rs. 300/-</strong> will be imposed on the parent and all the points (a to e) mentioned above will also be applicable.</li><li>&nbsp;<strong>School Transport Fee</strong> shall be paid for <strong>11 MONTHS&nbsp;</strong>from April 2026 to March 2027<strong>.</strong> (Transport Fee for the month of <strong>June 2026&nbsp;</strong>is <strong>exempted</strong>).</li><li>For discontinuing the bus facility, at least one month’s advance notice should reach the School Transport Department before depositing quarterly fee as per the schedule i.e APRIL, JULY, OCTOBER &amp; JANUARY.</li><li>Any fee once paid to the school is <strong>non-refundable and non-transferable</strong> and in case of any request for the Transfer Certificate before the culmination of the ongoing Academic Session, the parents will be liable to pay the school tuition fee and transport fee (if availing) of the current quarter.&nbsp;</li><li>In case of withdrawal of admission for the session 2026-27 if intimated in written on or before 31st March 2026, only 50% of the admission fee will be refunded.</li><li>No application of refund on admission fee will be entertained on/or after 1st April 2026.</li><li>If any application for readmission is received <strong>within 6 months of withdrawal</strong>, Readmission Fee of Rs.12,500/- will be charged.</li></ul><p>&nbsp; &nbsp; &nbsp;We request all parents to adhere to the instructions as stated above to avoid any kind of inconvenience.</p>
+
+                    </ul>
+                </div>
+                <div class="">
+                    <h3 class="text-dark" style="font-weight: 500;">
+                        Parents may contact the Following for queries:
+                    </h3>
+
+                    <ol><li>Accounts Department: Mr. Ashish Kumar (Manager Accounts) | +91 9599681028 | Email: <a href="mailto:accounts@dpsrnext.com"><strong>accounts@dpsrnext.com</strong></a>&nbsp;</li><li>School Office: +91 9205472615/16 | Toll Free No.: 1800 2700 575 | Email: <a href="mailto:info@dpsrnext.com"><strong>info@dpsrnext.com</strong></a></li><li>Admission Department: Mrs. Amandeep Sethi | +91 9958878498 | Email: <a href="mailto:admission@dpsrnext.com"><strong>admission@dpsrnext.com</strong></a></li><li>Transport Department: Mr. Kapil Kumar | +91 9958891414 | Email: <a href="mailto:transport@dpsrnext.com"><strong>transport@dpsrnext.com</strong></a><strong>&nbsp;</strong></li></ol>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://dpsrnext.com/frontend/images/logo.png" alt="">
+                <p class="text-white fs-14 mt-3">The Delhi Public School Society is recognized through its academic
+                    world for its progressive approach and commitment towards excellence. Distinction and diversity
+                    are the twin hallmarks of its philosophy. Today it stands as a citadel of learning and a
+                    harbinger of quality, consciousness committed to develop the young minds.
+                </p>
+            </div>
+            <div class="col-md-3 offset-md-1">
+                <h4 class="text-white">Contact us</h4>
+                <p class="fs-14 text-white mb-3"> <i class="fas fa-map-marker-alt"></i> DPS R.N. Extension, Meerut
+                    Road, Village Morta, Meerut Road, Ghaziabad, U.P. 201003, Uttar Pradesh</p>
+                <p class="fs-14 text-white mb-3"> <i class="fas fa-mobile"></i> Toll Free : 1800-2700-575 </p>
+                <p class="fs-14 text-white mb-3"> <i class="fas fa-phone-alt"></i> Landline : 920 547 2616</p>
+                <p class="fs-14 text-white mb-3"> <i class="fas fa-envelope"></i> info@dpsrnext.com</p>
+            </div>
+            <div class="col-md-3 offset-md-1">
+                <h4 class=" mb-0">Follow us</h4>
+                <ul class="social-icons mt-2 ">
+                    <li> <a href=" https://www.linkedin.com/company/dps-rn-extension" target="_blank"> <i
+                                class="fab fa-linkedin"></i></a></li>
+                    <li> <a href="https://www.facebook.com/DPS-Indirapuram-Meerut-Road-144144882613313/?fref=ts"
+                            target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+
+                    <li><a href="https://www.instagram.com/dpsrnextension/" target="_blank"><i
+                                class="fab fa-instagram-square"></i></a></li>
+
+                    <li> <a href="https://www.youtube.com/channel/UCA8gGyqutNL3_Tqd0qzQ_CA" target="_blank"><i
+                                class="fab fa-youtube"></i></a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="f-bottom text-center px-3">
+        <p class="fs-14  ">COPYRIGHTS 2026 DPS R.N EXTENSION GHAZIABAD. ALL RIGHTS RESERVED. <a href="">
+                PRIVACY POLICY</a> | <a href="">TERMS & CONDITIONS</a> | <a href="">SITEMAP</a></p>
+    </div>
+</footer>
+    <!-- cursor -->
+    <div class="cursor"></div>
+    </div>
+
+    <script src="https://dpsrnext.com/frontend/js/jquery.min.js"></script>
+    <script src="https://dpsrnext.com/frontend/js/bootstrap.js"></script>
+    <script src="https://dpsrnext.com/frontend/js/swiper.js"></script>
+    <script src="https://dpsrnext.com/frontend/js/splitting.min.js"></script>
+    <script src="https://dpsrnext.com/frontend//js/TweenMax.min.js"></script>
+    <script src="https://dpsrnext.com/frontend/js/pixi.min.js"></script>
+    <script src="https://dpsrnext.com/frontend/js/jarallax.min.js"></script>
+    <script src="https://dpsrnext.com/frontend/js/magnific-popup.js"></script>
+    <script src="https://dpsrnext.com/frontend/js/imagesloaded.pkgd.js"></script>
+    <script src="https://dpsrnext.com/frontend/js/isotope.pkgd.js"></script>
+    <script src="https://dpsrnext.com/frontend/js/jquery.scrolla.js"></script>
+    <script src="https://dpsrnext.com/frontend/js/skrollr.js"></script>
+    <script src="https://dpsrnext.com/frontend/js/common.js?v=20261103"></script>
+    <script>
+        (function ($) {
+            var $h = $('.header');
+            function onScroll() { $h.toggleClass('is-scrolled', $(window).scrollTop() > 60); }
+            $(window).on('scroll load', onScroll);
+            onScroll();
+        })(jQuery);
+    </script>
+    <script src="https://dpsrnext.com/frontend/js/swiperslider.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+</body>
+
+</html>

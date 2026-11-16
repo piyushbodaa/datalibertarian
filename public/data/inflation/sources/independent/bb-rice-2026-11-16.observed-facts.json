@@ -1,0 +1,16 @@
+{
+  "sourceUrl": "https://www.bigbasket.com/pd/40203149/bb-popular-red-raw-rice-1-kg/",
+  "retrievedOn": "2026-11-16",
+  "evidenceType": "transcribed-facts-from-opened-primary-page",
+  "sourceCrawlReported": "2 weeks ago",
+  "facts": {
+    "product": "bb Popular red raw rice/akki, 1 kg",
+    "offerPriceINR": 79,
+    "quantity": 1,
+    "unit": "kg",
+    "mrpINR": 80,
+    "taxesIncluded": true,
+    "deliveryLocation": null
+  },
+  "captureNote": "Facts manually transcribed from the primary retailer page opened with the web tool. This is not the original HTML or a purchase receipt. Direct HTTP fetch returned 403; no access control was bypassed."
+}

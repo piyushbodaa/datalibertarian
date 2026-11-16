@@ -78,6 +78,8 @@ const UnionPolicePage = lazy(() =>
 const UpPolicePage = lazy(() => import("./pages/UpPolice").then((m) => ({ default: m.UpPolicePage })));
 const WbPolicePage = lazy(() => import("./pages/WbPolice").then((m) => ({ default: m.WbPolicePage })));
 const InflationPage = lazy(() => import("./pages/Inflation").then((m) => ({ default: m.InflationPage })));
+const InflationEssentialsPage = lazy(() => import("./pages/InflationEssentials").then((m) => ({ default: m.InflationEssentialsPage })));
+const InflationEssentialsMethodPage = lazy(() => import("./pages/InflationEssentialsMethod").then((m) => ({ default: m.InflationEssentialsMethodPage })));
 const InflationMethodPage = lazy(() =>
   import("./pages/InflationMethod").then((m) => ({ default: m.InflationMethodPage })),
 );
@@ -119,6 +121,8 @@ export default function App() {
           <Route path="/" element={<SiteHomeReload />} />
           <Route path="/spending" element={<HomePage />} />
           <Route path="/inflation" element={<InflationPage />} />
+          <Route path="/inflation/essentials" element={<InflationEssentialsPage />} />
+          <Route path="/inflation/essentials-method" element={<InflationEssentialsMethodPage />} />
           <Route path="/inflation/method" element={<InflationMethodPage />} />
           <Route path="/inflation/item/:id" element={<InflationItemPage />} />
           <Route path="/inflation/:category" element={<InflationCategoryPage />} />

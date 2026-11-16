@@ -1,0 +1,16 @@
+{
+  "sourceUrl": "https://www.bigbasket.com/pd/263493/whisper-sanitary-pads-extra-large-plus-ultra-clean-30-pcs/",
+  "retrievedOn": "2026-11-16",
+  "evidenceType": "transcribed-facts-from-opened-primary-page",
+  "sourceCrawlReported": "today on final open",
+  "facts": {
+    "product": "Whisper Ultra Upto No Gap No Leaks Sanitary Pads For Heavy Flow - XL+, 30 pieces",
+    "offerPriceINR": 315,
+    "quantity": 30,
+    "unit": "piece",
+    "mrpINR": 420,
+    "taxesIncluded": true,
+    "deliveryLocation": null
+  },
+  "captureNote": "Offer facts transcribed from the opened primary retailer page, including the visible product heading, pack size, price and tax statement. This is a fact sheet, not original HTML or a receipt. Direct HTTP retrieval of other BigBasket pages in this batch returned 403; no access control was bypassed."
+}

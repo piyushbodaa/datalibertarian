@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <!-- Meta Pixel Code -->
+      <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.naturals.in/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "About Us",
+      "item": "https://www.naturals.in/about-us/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Hair Care",
+      "item": "https://www.naturals.in/services/hair-care/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Skin Care",
+      "item": "https://www.naturals.in/services/skin-care/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Bridal Makeup",
+      "item": "https://www.naturals.in/services/bridal-makeup/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "name": "Grooming",
+      "item": "https://www.naturals.in/services/grooming/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "name": "Franchise",
+      "item": "https://www.naturals.in/franchise/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "name": "Salon Locator",
+      "item": "https://www.naturals.in/salon-locator/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "name": "Blog",
+      "item": "https://www.naturals.in/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "name": "Contact Us",
+      "item": "https://www.naturals.in/contact-us/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Naturals Salon Services",
+  "description": "Naturals Salon — India's best salon chain with 800+ locations, 25 years of expertise, and an outstanding 4.8/5 Google rating. From hair to skincare and bridal beauty, we deliver luxury, hygiene, and professional care.",
+  "itemListElement": [
+    { "@type": "Service", "name": "Haircut for Women" },
+    { "@type": "Service", "name": "Haircut for Men" },
+    { "@type": "Service", "name": "Hair Coloring & Highlights Salon" },
+    { "@type": "Service", "name": "Hair Smoothing & Straightening Services" },
+    { "@type": "Service", "name": "Keratin & Botox Hair Treatment" },
+    { "@type": "Service", "name": "Scalp & Hair Fall Therapy Solutions" },
+    { "@type": "Service", "name": "Best Hair Spa" },
+    { "@type": "Service", "name": "Facials for Glowing Skin" },
+    { "@type": "Service", "name": "Clean-Up & Skin Polishing Treatments" },
+    { "@type": "Service", "name": "Anti-Ageing Skin Treatments" },
+    { "@type": "Service", "name": "Detan Services for Men & Women" },
+    { "@type": "Service", "name": "Skin Rejuvenation & Pigmentation Care" },
+    { "@type": "Service", "name": "Threading & Waxing Services" },
+    { "@type": "Service", "name": "Pedicure & Manicure" },
+    { "@type": "Service", "name": "Men's Facial & Grooming Services" },
+    { "@type": "Service", "name": "Bridal Makeup Artist" },
+    { "@type": "Service", "name": "Party & Reception Makeup Services" }
+  ]
+}
+</script>
+
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '378027574384656');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=378027574384656&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-65H0F99XXY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-65H0F99XXY');
+  </script>
+
+  <meta name="google-site-verification" content="UIQV5SfzJT0F0tsNAvj_vEXAjTq1TtbnmpTT1IiFf6Y" />
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-K53Q247');</script>
+  <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Haircut to Advanced Hair Treatment at Naturals Salon | Hair Care Near You</title>
+    <meta name="description" content="Get the perfect haircut to advanced hair treatments at Naturals Salon. Whether you need a trendy haircut or professional hair care services, simply type 'Naturals Salon near me' to find the best in town!">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../fav_icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../fav_icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../fav_icon/favicon-16x16.png">
+    <link rel="manifest" href="../../fav_icon/site.webmanifest">
+</head>
+
+<body>
+    <!-- WhatsApp chat widget disabled per request
+<script>
+        var url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?18267';
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url;
+        var options = {
+          "enabled": true,
+          "chatButtonSetting": {
+            "backgroundColor": "#00e785",
+            "ctaText": "Book your appoinment",
+            "borderRadius": "25",
+            "marginLeft": "0",
+            "marginRight": "20",
+            "marginBottom": "20",
+            "ctaIconWATI": false,
+            "position": "right"
+          },
+          "brandSetting": {
+            "brandName": "Naturals Salon",
+            "brandSubTitle": "undefined",
+            "brandImg": "https://www.wati.io/wp-content/uploads/2023/04/Wati-logo.svg",
+            "welcomeText": "Hi there!\nHow can I help you?",
+            "messageText": "",
+            "backgroundColor": "#00e785",
+            "ctaText": "Book your appoinment",
+            "borderRadius": "25",
+            "autoShow": false,
+            "phoneNumber": "919092626262"
+          }
+        };
+        s.onload = function () {
+          CreateWhatsappChatWidget(options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+      </script>
+-->
+  <a href="https://appointments.naturals.in/" target="_blank" rel="noopener"
+    style="position:fixed;bottom:20px;right:20px;z-index:99999;background-color:#7e4798;color:#fff;font-family:sans-serif;font-weight:600;font-size:14px;padding:12px 20px;border-radius:25px;text-decoration:none;box-shadow:0 2px 8px rgba(0,0,0,0.25);">Book
+    an Appointment</a>
+  <style>
+    #site-top-banner {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 34px;
+      overflow: hidden;
+      background: linear-gradient(to right, #793385, #4b2157);
+      z-index: 100000;
+      white-space: nowrap;
+    }
+    #site-top-banner .site-top-banner-track {
+      display: inline-flex;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translate(0, -50%);
+      animation: site-banner-run 30s linear infinite;
+    }
+    #site-top-banner .site-top-banner-track span {
+      display: inline-block;
+      padding-right: 60px;
+      color: #fff;
+      font-family: sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    #site-top-banner:hover .site-top-banner-track {
+      animation-play-state: paused;
+    }
+    #site-top-banner span a {
+      color: #fff;
+      font-weight: 700;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    @keyframes site-banner-run {
+      0% { transform: translate(0, -50%); }
+      100% { transform: translate(-50%, -50%); }
+    }
+  </style>
+  <div id="site-top-banner">
+    <div class="site-top-banner-track">
+      <span>Build Your Future with Naturals&nbsp;|&nbsp;World's Fastest Growing Salon Chain&nbsp;|&nbsp;1,000+ Salons in India, UAE, Qatar, Sri Lanka &amp; Singapore&nbsp;|&nbsp;Become a Franchise Partner &rarr; <a href="../../FRANCHISE/index.html#enquiry-now-container">Enquire</a></span>
+      <span>Build Your Future with Naturals&nbsp;|&nbsp;World's Fastest Growing Salon Chain&nbsp;|&nbsp;1,000+ Salons in India, UAE, Qatar, Sri Lanka &amp; Singapore&nbsp;|&nbsp;Become a Franchise Partner &rarr; <a href="../../FRANCHISE/index.html#enquiry-now-container">Enquire</a></span>
+    </div>
+  </div>
+
+
+
+    
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K53Q247" height="0" width="0"
+          style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+    <div class="loader-overlay">
+        <img
+          id="loader-overlay-img"
+          src="./assets/mobile/nat_logo_svg.svg"
+          alt="Loading..."
+    
+        />
+      </div>
+    <div class="hair-services-page-wrapper">
+        <header>
+            <div class="left">
+                <img src="./assets/naturals_header_logo.png" width="300" height="150" alt="logo.png"
+                    onclick="openTab('../../index.html')">
+            </div>
+            <div class="right">
+                <ul>
+                    <!-- <li id="services-hair-head"><a href="">Our Services</a></li> -->
+                    <li id="services-hair-head" class="sub-menu-pricing">
+                        <a href="">Our Services</a>
+                        <ul>
+                            <li><a href="">Haircare</a></li>
+                            <li><a href="../skin/">Skincare</a></li>
+                            <li><a href="../Body/">Bodycare</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../../SALON_LOCATOR/index.html">Salon Locator</a></li>
+                    <li class="sub-menu-pricing">
+                        <a href="">Pricing</a>
+                        <ul>
+                            <li><a href="../../PRICING_WOMEN/index.html">Service For Women</a></li>
+                            <li><a href="../../PRICING_MEN/index.html">Service For Men</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://bridal.naturals.in/" target="_blank">Bridal</a></li>
+                    <li><a href="../../FRANCHISE/index.html">Franchise</a></li>
+                    <li><a href="../../media/">Media</a></li>
+                    <li><a href="../../ABOUT/index.html">About us</a></li>
+                    <li><a href="../../blogs/">Blogs</a></li>
+                    <li><a href="https://naturals.in/contact-us">Contact us</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="header-mob">
+            <div class="menu-container">
+                <button class="menu-toggle" aria-label="Open Menu">&#9776;</button>
+                <div>
+                    <img src="./assets/mobile/naturals_logo.png" alt="loading..." onclick="openTab('../../index.html')">
+                </div>
+            </div>
+            <nav class="side-menu">
+                <button class="close-btn" aria-label="Close Menu">&times;</button>
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li>
+                        <a href="">Our Services</a>
+                        <ul class="sub-menu-pricing-mobile">
+                            <li><a href="">Haircare</a></li>
+                            <li><a href="../skin/">Skincare</a></li>
+                            <li><a href="../Body/">Bodycare</a></li>
+                          </ul>
+                    </li>
+                    <li><a href="../../SALON_LOCATOR/index.html">Salon Locator</a></li>
+                    <li>
+                        <a href="">Pricing</a>
+                        <ul class="sub-menu-pricing-mobile">
+                            <li><a href="../../PRICING_WOMEN/index.html">Services for Women</a></li>
+                            <li> <a href="../../PRICING_MEN/index.html">Services for Men</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://bridal.naturals.in/" target="_blank">Bridal</a></li>
+                    <li><a href="../../FRANCHISE/index.html">Franchise</a></li>
+                    <li><a href="../../media/">Media</a></li>
+                    <li><a href="../../ABOUT/index.html">About us</a></li>
+                    <li><a href="../../blogs/">Blogs</a></li>
+                    <li><a href="https://naturals.in/contact-us">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="ser-f-c">
+            <div class="ser-f-c-left">
+                <h1>Radiant,
+                    Rejuvenating &
+                    Replenishing
+                    Haircare Services</h1>
+                <div class="fir-c-btn">
+                    <button class="fir-c-btn-2" onclick="bannerFirstCont('women')" >
+                        Service for Her
+                    </button>
+                    <button class="fir-c-btn-2" onclick="bannerFirstCont('men')" >
+                        Service for Him
+                    </button>
+                </div>
+            </div>
+            <div class="ser-f-c-right">
+                <div class="ser-f-c-right-women">
+                    <div class="line-1 line">
+                        <div class="str-line"><span></span></div>
+                        <div class="content" onclick="onClickBanner('1')"><h3>HAIR CUTS <br> & <br>STYLING</h3></div>
+                    </div>
+                    <div class="line-2 line">
+                        <div class="str-line"><span></span></div>
+                        <div class="content" onclick="onClickBanner('2')"><h3>HAIR COLOURING <br> & <br> HIGHLIGHTS</h3></div>
+                    </div>
+                    <div class="line-3 line">
+                        <div class="str-line"><span></span></div>
+                        <div class="content" onclick="onClickBanner('3')"><h3>HAIR SPA</h3></div>
+                    </div>
+                    <div class="line-4 line">
+                        <div class="str-line"><span></span></div>
+                        <div class="content" onclick="onClickBanner('4')"><h3>HAIR <br> STRAIGHTENING</h3></div>
+                    </div>
+                    <div class="line-5 line">
+                        <div class="str-line"><span></span></div>
+                        <div class="content" onclick="onClickBanner('5')"><h3>KERATIN <br> SERVICE</h3></div>
+                    </div>
+                    <img src="./assets/services_women.png" alt="">
+                </div>
+                <div class="ser-f-c-right-men">
+                    <div class="line-1 line">
+                        <div class="str-line"><span></span></div>
+                        <div class="content" onclick="onClickBanner('5')"><h3>HAIR SPA</h3></div>
+                    </div>
+                    <div class="line-2 line">
+                        <div class="str-line"><span></span></div>
+                        <div class="content" onclick="onClickBanner('6')"><h3>HAIR <br> STRAIGHTENING <br> OR <br> SMOOTHENING</h3></div>
+                    </div>
+                    <div class="line-3 line">
+                        <div class="str-line"><span></span></div>
+                        <div class="content" onclick="onClickBanner('4')"><h3>HEAD <br> MASSAGE</h3></div>
+                    </div>
+                    <div class="line-4 line">
+                        <div class="str-line"><span></span></div>
+                        <div class="content" onclick="onClickBanner('2')"><h3>BEARD TRIM <br> / SHAVE</h3></div>
+                    </div>
+                    <div class="line-5 line back-rotate">
+                        <div class="str-line"><span></span></div>
+                        <div class="content" onclick="onClickBanner('1')"><h3>HAIR CUTS</h3></div>
+                    </div>
+                    <div class="line-6 line back-rotate">
+                        <div class="str-line"><span></span></div>
+                        <div class="content" onclick="onClickBanner('3')"><h3>HAIR COLOR</h3></div>
+                    </div>
+                    <img src="./assets/services_men.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="ser-s-c cls-1" id="1">
+            <div class="ser-s-c-head">
+                <h1 class="ser-s-c-w">Hair Cuts & Styling</h1>
+                <h1 class="ser-s-c-m">Hair Cuts</h1>
+            </div>
+            <div class="ser-s-c-body">
+                <div class="ser-s-c-left">
+                    <div class="ser-s-c-left-women">
+                        <h3>
+                            Transform your look with the perfect haircut and styling. Whether it's layers, a bob, or a bold new style, our experts ensure your hair complements your face shape and personality.
+                            <br>
+                            <i>Classic Hair Cut: Rs.450 (Rs.400 for Members)</i>
+                        </h3>
+                        <div class="fir-c-btn">
+                            <button class="fir-c-btn-1" onclick="openTab('https://appointments.naturals.in',true)" >
+                                Book Now!
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ser-s-c-left-men">
+                        <h3>
+                            Haircuts starting from Rs.300 - Get the perfect look with our expert stylists at Naturals! Whether you're looking for a sleek style or a fresh cut, we've got you covered. Men's haircuts tailored to your personality and occasion. Be a showstopper with our top-notch hairdressers!
+                        </h3>
+                        <div class="fir-c-btn">
+                            <button class="fir-c-btn-1" onclick="openTab('https://appointments.naturals.in',true)" >
+                                Book Now!
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="ser-s-c-right">
+                    <div class="ser-s-c-right-women second-cont">
+                        <img src="./assets/services_pg_women_2.png" alt="">
+                    </div>
+                    <div class="ser-s-c-right-men">
+                        <img src="./assets/services_pg_men_2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ser-t-c cls-2" id="2">
+            <div class="ser-t-c-head">
+                <h1 class="ser-t-c-w">Hair Colouring & Highlights</h1>
+                <h1 class="ser-t-c-m">Beard Trim / Shave</h1>
+            </div>
+            <div class="ser-t-c-body">
+                <div class="ser-t-c-left">
+                    <div class="ser-t-c-left-women">
+                        <img src="./assets/services_pg_women_3.png" alt="">
+                    </div>
+                    <div class="ser-t-c-left-men">
+                        <img src="./assets/services_pg_men_3.png" alt="">
+                    </div>
+                </div>
+                <div class="ser-t-c-right">
+                    <div class="ser-t-c-right-women">
+                        <h3>
+                            Add vibrancy to your hair with rich, chemical-free colours. Choose from global colouring, streaks, block colours, or creative highlights for a fresh, stunning appearance.
+                            <br>
+                            <i>Root Touch Up: Rs.1000 (Rs.900 for Members)</i>
+                        </h3>
+                        <div class="fir-c-btn">
+                            <button class="fir-c-btn-1" onclick="openTab('https://appointments.naturals.in',true)" >
+                                Book Now!
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ser-t-c-right-men">
+                        <h3>
+                            Keep your beard looking sharp or enjoy a smooth shave with our professional grooming services. Perfect for every gentleman seeking precision and style.
+                            <br>
+                            <i>Shave: Rs.120 (Rs.100 for Members)</i>
+                            <i>Beard Trim: Rs.180 (Rs.150 for Members)</i>
+                        </h3>
+                        <div class="fir-c-btn">
+                            <button class="fir-c-btn-1" onclick="openTab('https://appointments.naturals.in',true)" >
+                                Book Now!
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ser-s-c cls-3" id="3">
+            <div class="ser-s-c-head">
+                <h1 class="ser-s-c-w">Hair Spa</h1>
+                <h1 class="ser-s-c-m">Hair Colour</h1>
+            </div>
+            <div class="ser-s-c-body">
+                <div class="ser-s-c-left">
+                    <div class="ser-s-c-left-women">
+                        <h3>
+                            Pamper your hair with deep nourishment and repair. Naturals Hair Spa enhances softness, shine, and overall hair health, leaving you feeling refreshed.
+                            <br>
+                            <i>Moisturizing Hair Spa: Rs.800 - Rs.900 (Rs.700 - Rs.800 for Members)</i>
+                        </h3>
+                        <div class="fir-c-btn">
+                            <button class="fir-c-btn-1" onclick="openTab('https://appointments.naturals.in',true)" >
+                                Book Now!
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ser-s-c-left-men">
+                        <h3>
+                            Give your hair a shine with our chemical-free, vibrant colours. Choose from natural tones to bold shades for a refreshed, spunky look.
+                            <br>
+                            <i>Prices start from Rs.500</i>
+                        </h3>
+                        <div class="fir-c-btn">
+                            <button class="fir-c-btn-1" onclick="openTab('https://appointments.naturals.in',true)" >
+                                Book Now!
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="ser-s-c-right">
+                    <div class="ser-s-c-right-women fourth-cont">
+                        <img src="./assets/services_pg_women_4.png" alt="">
+                    </div>
+                    <div class="ser-s-c-right-men">
+                        <img src="./assets/services_pg_men_4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ser-t-c cls-4" id="4">
+            <div class="ser-t-c-head">
+                <h1 class="ser-t-c-w">Hair Straightening</h1>
+                <h1 class="ser-t-c-m">Head Massage</h1>
+            </div>
+            <div class="ser-t-c-body">
+                <div class="ser-t-c-left">
+                    <div class="ser-t-c-left-women">
+                        <img src="./assets/services_pg_women_5.png" alt="">
+                    </div>
+                    <div class="ser-t-c-left-men">
+                        <img src="./assets/services_pg_men_5.png" alt="">
+                    </div>
+                </div>
+                <div class="ser-t-c-right">
+                    <div class="ser-t-c-right-women">
+                        <h3>
+                            Straight, silky, and frizz-free hair is just one session away. Our hair straightening services ensure sleek, manageable locks for a polished look.
+                            <br>
+                            <i>Prices start from Rs.5000</i>
+                        </h3>
+                        <div class="fir-c-btn">
+                            <button class="fir-c-btn-1" onclick="openTab('https://appointments.naturals.in',true)" >
+                                Book Now!
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ser-t-c-right-men">
+                        <h3>
+                            Relax your scalp and rejuvenate your hair follicles with our head massage treatments. Designed to encourage hair growth and release tension.
+                            <br>
+                            <i>Rs.600 (Hair Wash Included)</i>
+                        </h3>
+                        <div class="fir-c-btn">
+                            <button class="fir-c-btn-1" onclick="openTab('https://appointments.naturals.in',true)" >
+                                Book Now!
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ser-s-c cls-5" id="5">
+            <div class="ser-s-c-head">
+                <h1 class="ser-s-c-w">Keratin Service</h1>
+                <h1 class="ser-s-c-m">Hair Spa</h1>
+            </div>
+            <div class="ser-s-c-body">
+                <div class="ser-s-c-left">
+                    <div class="ser-s-c-left-women">
+                        <h3>
+                            Repair and restore damaged hair with our keratin treatments. Achieve voluminous, smooth, and healthier-looking hair with long-lasting results.
+                            <br>
+                            <i>Prices start from Rs.5000</i>
+                        </h3>
+                        <div class="fir-c-btn">
+                            <button class="fir-c-btn-1" onclick="openTab('https://appointments.naturals.in',true)" >
+                                Book Now!
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ser-s-c-left-men">
+                        <h3>
+                            Rehydrate, repair, and revitalize your hair with our spa treatments. Naturals Hair Spa is a miracle booster for dry and damaged hair.
+                            <br>
+                            <i>Moisturizing Hair Spa: Rs.800 - Rs.900 (Rs.700 - Rs.800 for Members)</i>
+                        </h3>
+                        <div class="fir-c-btn">
+                            <button class="fir-c-btn-1" onclick="openTab('https://appointments.naturals.in',true)" >
+                                Book Now!
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="ser-s-c-right">
+                    <div class="ser-s-c-right-women">
+                        <img src="./assets/services_pg_women_6.png" alt="">
+                    </div>
+                    <div class="ser-s-c-right-men">
+                        <img src="./assets/services_pg_men_6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ser-t-c cls-6" id="6">
+            <div class="ser-t-c-head">
+                <h1 class="ser-t-c-w">Want to try our services?</h1>
+                <h1 class="ser-t-c-m">Hair Straightening or Smoothening</h1>
+            </div>
+            <div class="ser-t-c-body ">
+                <div class="ser-t-c-left">
+                    <div class="ser-t-c-left-women">
+                        <img src="./assets/services_pg_women_7.png" alt="">
+                    </div>
+                    <div class="ser-t-c-left-men">
+                        <img src="./assets/services_pg_men_7.png" alt="">
+                    </div>
+                </div>
+                <div class="ser-t-c-right jus-cont-f-e">
+                    <div class="ser-t-c-right-women mr-10per">
+                        <h3>
+                            Check out Our Pricing Now!
+                        </h3>
+                        <div class="fir-c-btn">
+                            <button class="fir-c-btn-1" onclick="openTab('../../PRICING_WOMEN/index.html',false)" >
+                                View Prices
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ser-t-c-right-men">
+                        <h3>
+                            Achieve smooth, sleek, and frizz-free hair with our expert straightening and smoothening services. Let your hair shine with elegance.
+                            <br>
+                            <i>Prices start from Rs.4000</i>
+                        </h3>
+                        <div class="fir-c-btn">
+                            <button class="fir-c-btn-1" onclick="openTab('https://appointments.naturals.in',true)" >
+                                Book Now!
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ser-t-c hide-for-women cls-7">
+            <div class="ser-t-c-head">
+                <h1 class="ser-t-c-w">Want to try our services?</h1>
+                <h1 class="ser-t-c-m">Want to try our services?</h1>
+            </div>
+            <div class="ser-t-c-body ">
+                <div class="ser-t-c-left">
+                    <div class="ser-t-c-left-women">
+                        <img src="./assets/services_pg_women_7.png" alt="">
+                    </div>
+                    <div class="ser-t-c-left-men">
+                        <img src="./assets/services_pg_men_8.png" alt="">
+                    </div>
+                </div>
+                <div class="ser-t-c-right jus-cont-f-e">
+                    <div class="ser-t-c-right-women mr-10per">
+                        <h3>
+                            Check out Our Pricing Now!
+                        </h3>
+                        <div class="fir-c-btn">
+                            <button class="fir-c-btn-1" onclick="openTab('https://appointments.naturals.in',true)" >
+                                Book Now!
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ser-t-c-right-men mr-10per">
+                        <h3>
+                            Want to try our Services?
+                        </h3>
+                        <h3>
+                            Check out Our Pricing Now!
+                        </h3>
+                        <div class="fir-c-btn">
+                            <button class="fir-c-btn-1" onclick="openTab('../../PRICING_MEN/index.html',false)" >
+                                View Prices
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-wrapper">
+                <div class="foot-1 foot">
+                    <div>Quick Links</div>
+                    <ul>
+                        <li><a href="../../">Home</a></li>
+                        <li><a href="../../ABOUT/">About Us</a></li>
+                        <li><a href="https://naturals.in/contact-us">Contact Us</a></li>
+                        <li><a href="../../FRANCHISE/">Franchise Opportunities</a></li>
+                        <li><a href="../../blogs/">Blogs</a></li>
+                        <li><a href="../../privacy-policy/">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="foot-2 foot">
+                    <div>Our Services</div>
+                    <ul>
+                        <li><a href="">Hair Care</a></li>
+                        <li><a href="../skin/">Skin Care</a></li>
+                        <li><a href="../Body/">Body Care</a></li>
+                        <li><a href="../../media/">Events</a></li>
+                        <li><a href="../../SALON_LOCATOR/">Locate us</a></li>
+                        <li><a href="https://naturals.in/contact-us">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="foot-3 foot">
+          <div>Contact Us</div>
+          <ul>
+            <li style="display: flex;align-items: center;"><img src="../../social_icons/white/addr.png" alt="">&nbsp;<a href="">Naturals Salon Pvt. Ltd</a></li>
+            <li style="margin-left: 20px;">
+              <a href="" >
+              No. 123 & 124, 3rd Floor, Ispahani Centre,<br>
+              Nungambakkam High Rd, <br>
+              Thousand Lights, Chennai, <br>
+              Tamil Nadu 600034 <br>
+            </a>
+            </li>
+            <li style="margin-top: 5px;" >
+              <img src="../../social_icons/white/store-loc.png" alt="" style="width: 15px;">
+              <a href="">Store Locator</a>
+              <ul style="margin-left:30px;opacity: 0.85;">
+                  <li style="cursor: pointer;" onclick="openTabNEW('https://salons.naturals.in/')">Naturals Salon Locator</li>
+                  <li style="cursor: pointer;" onclick="openTabNEW('https://signature.naturals.in/')">Naturals Signature Salon Locator</li>
+              </ul>
+          </li>
+          </ul>
+        </div>
+        <div class="foot-4 foot">
+          <div>Get in Touch</div>
+          <ul>
+            <li style="display: flex;align-items: center;margin-bottom: 10px;">
+              <img src="../../social_icons/white/whtsapp.png" alt="">
+               &nbsp;&nbsp;
+              <a href="">+91 90926 26262</a>
+            </li>
+            <li style="display: flex;align-items: center;">
+              <img src="../../social_icons/white/mail.png" alt="">
+              &nbsp;&nbsp;
+              <a href="">care@naturals.in</a>
+            </li>
+          </ul>
+          <div style="margin-top:20px;">Our Socials</div>
+          <span>
+            <img src="../../social_icons/white/insta.png" alt="" onclick="openTabNEW('https://www.instagram.com/naturalssalon?igsh=cHZ1Nm51OWwyNTVv')"> &nbsp;
+            <img src="../../social_icons/white/fb.png" alt="" onclick="openTabNEW('https://m.facebook.com/NaturalsSalon/')"> &nbsp;
+            <img src="../../social_icons/white/twt.png" alt="" onclick="openTabNEW('https://x.com/naturals700')"> &nbsp;
+            <img src="../../social_icons/white/linkedIn.png" alt="" onclick="openTabNEW('https://www.linkedin.com/company/naturals-beauty-salon-india-p-ltd/')"> &nbsp;
+            <img src="../../social_icons/white/youtube.png" alt="" onclick="openTabNEW('https://youtube.com/@naturalssalonofficial?si=KIKoQOU2LPFKMEY4')">
+          </span>
+        </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+{
+  "sourceUrl": "https://www.bigbasket.com/pd/306926/amul-homogenised-toned-milk-1-l-carton/",
+  "retrievedOn": "2026-11-16",
+  "evidenceType": "transcribed-facts-from-opened-primary-page",
+  "sourceCrawlReported": "today",
+  "facts": {
+    "product": "Amul Taaza homogenised toned milk, 1 L Tetra Pak",
+    "offerPriceINR": 77,
+    "quantity": 1,
+    "unit": "L",
+    "mrpINR": null,
+    "taxesIncluded": true,
+    "deliveryLocation": null
+  },
+  "captureNote": "Facts manually transcribed from the primary retailer page opened with the web tool. This is not the original HTML or a purchase receipt. Direct HTTP fetch returned 403; no access control was bypassed."
+}

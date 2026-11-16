@@ -1,0 +1,16 @@
+{
+  "sourceUrl": "https://www.bigbasket.com/pd/215595/surf-excel-easy-wash-detergent-powder-5-kg/",
+  "retrievedOn": "2026-11-16",
+  "evidenceType": "transcribed-facts-from-opened-primary-page",
+  "sourceCrawlReported": "today",
+  "facts": {
+    "product": "Surf Excel Easy Wash detergent powder, 5 kg",
+    "offerPriceINR": 705,
+    "quantity": 5,
+    "unit": "kg",
+    "mrpINR": 780,
+    "taxesIncluded": true,
+    "deliveryLocation": null
+  },
+  "captureNote": "Facts manually transcribed from the primary retailer page opened with the web tool. This is not the original HTML or a purchase receipt. Direct HTTP fetch returned 403; no access control was bypassed."
+}
