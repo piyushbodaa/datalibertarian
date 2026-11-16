@@ -10,6 +10,8 @@ const LABELS: Record<string, string> = {
   states: "States",
   municipal: "City",
   gram: "Village",
+  pressreleases: "Press releases",
+  ap: "Andhra Pradesh",
   sources: "Sources & methodology",
   corrections: "Corrections",
   inflation: "Inflation",
@@ -79,7 +81,7 @@ export function crumbsFor(pathname: string): Crumb[] {
   let acc = "";
   for (const part of parts) {
     acc += `/${part}`;
-    if (parts.length > 1 && acc === `/${parts[0]}` && (parts[1] === "police" || parts[1] === "health" || parts[0] === "telangana")) {
+    if (parts.length > 1 && parts[0] !== "pressreleases" && acc === `/${parts[0]}` && (parts[1] === "police" || parts[1] === "health" || parts[0] === "telangana")) {
       crumbs.push({ to: "/states", label: "States" });
       continue;
     }

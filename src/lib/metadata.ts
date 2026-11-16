@@ -9,6 +9,9 @@ export function metadataFor(pathname: string, search = "") {
     "/compare": "Compare government budgets by fiscal year and series. See the source figures and the books behind each median.",
     "/sources": "Read the official sources, extraction dates, accounting definitions, and limitations behind Data Libertarian.",
     "/corrections": "Report a correction with the official source, page, fiscal year, and figure. Learn how source changes are reviewed.",
+    "/pressreleases": "Pilot index of the top 100 police departments with official press-release archives, latest verified releases, and direct links to PDFs and HTML notes.",
+    "/pressreleases/police": "Pilot index of the top 100 police departments with official press-release archives, latest verified releases, and direct links to PDFs and HTML notes.",
+    "/pressreleases/police/ap": "Andhra Pradesh police press releases: 26-district state index with Telugu-translated summaries and direct links to official district archives.",
     "/inflation": "Explore observed prices and inflation measures, with dates, units, and links to the published source documents.",
   };
   return { title, description: descriptions[pathname] ?? `${title.replace(" — Data Libertarian", "")}: explore figures, accounting scope, and original sources.`, url: `https://datalibertarian.in${pathname === "/" ? "/" : pathname.replace(/\/$/, "")}`, image: "https://datalibertarian.in/social-preview.png" };

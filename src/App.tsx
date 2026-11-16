@@ -8,6 +8,12 @@ import { SiteFrame } from "./components/SiteFrame";
 import { HomePage } from "./pages/Home";
 
 const ComparePage = lazy(() => import("./pages/Compare").then((m) => ({ default: m.ComparePage })));
+const PressReleasesPage = lazy(() =>
+  import("./pages/PressReleases").then((m) => ({ default: m.PressReleasesPage })),
+);
+const ApPressReleasesPage = lazy(() =>
+  import("./pages/ApPressReleases").then((m) => ({ default: m.ApPressReleasesPage })),
+);
 const DelhiPolicePage = lazy(() =>
   import("./pages/DelhiPolice").then((m) => ({ default: m.DelhiPolicePage })),
 );
@@ -116,6 +122,9 @@ export default function App() {
           <Route path="/inflation/method" element={<InflationMethodPage />} />
           <Route path="/inflation/item/:id" element={<InflationItemPage />} />
           <Route path="/inflation/:category" element={<InflationCategoryPage />} />
+          <Route path="/pressreleases" element={<Navigate to="/pressreleases/police" replace />} />
+          <Route path="/pressreleases/police" element={<PressReleasesPage />} />
+          <Route path="/pressreleases/police/ap" element={<ApPressReleasesPage />} />
           <Route path="/compare" element={<ComparePage />} />
           <Route path="/search" element={<SearchPage />} />
           <Route path="/trace/:layer/:slug" element={<TracePage />} />

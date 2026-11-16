@@ -72,6 +72,26 @@
       "destination": "/gov/:sub"
     },
     {
+      "source": "/pressreleases/police",
+      "has": [
+        {
+          "type": "host",
+          "value": "gov.datalibertarian.in"
+        }
+      ],
+      "destination": "/pressreleases/police"
+    },
+    {
+      "source": "/pressreleases/police/ap",
+      "has": [
+        {
+          "type": "host",
+          "value": "gov.datalibertarian.in"
+        }
+      ],
+      "destination": "/pressreleases/police/ap"
+    },
+    {
       "source": "/",
       "destination": "/snapshot"
     },
