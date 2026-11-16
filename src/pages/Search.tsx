@@ -128,7 +128,7 @@ export function SearchPage() {
           />
           <button
             type="submit"
-            className="shrink-0 rounded-md bg-rust px-4 py-2 text-sm font-semibold text-white transition hover:bg-[#162C49]"
+            className="shrink-0 rounded-md bg-rust px-4 py-2 text-sm font-semibold text-white transition hover:bg-[#1A40A8]"
           >
             Search
           </button>
