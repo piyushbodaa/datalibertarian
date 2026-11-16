@@ -1,0 +1,243 @@
+{
+  "metadata": {
+    "schemaVersion": 1,
+    "asOf": "2026-11-16",
+    "monthAgo": "2026-10-16",
+    "yearAgo": "2025-11-16",
+    "retrievedAt": "2026-11-16T16:14:07+00:00",
+    "sourceUrl": "https://fcainfoweb.nic.in/Reports/DB/DBprices.aspx",
+    "sourceTitle": "Department of Consumer Affairs — Daily Average Retail Prices of Essential Commodities",
+    "sourceArchive": "/data/inflation/sources/pmd-retail-2026-11-16.html.txt",
+    "sourceSha256": "f363b06cfbdaba8dd93e97ceb5ae56915683cb29571e1ff3e82e212f21ae795c",
+    "geography": "All-India averages reported by PMD",
+    "currency": "INR",
+    "priceCollection": "State Civil Supplies Departments; published by Department of Consumer Affairs",
+    "independentPriceCollection": false,
+    "frequency": "daily snapshot",
+    "membership": "22 traditional PMD essential commodities",
+    "limitations": [
+      "This is a privately calculated food-essentials index using government-collected prices.",
+      "The basket is not a representative measure of total household expenditure or all-India cost of living.",
+      "National averages can change with the mix of reporting centres and varieties; this snapshot cannot hold centres fixed.",
+      "The comparisons use single days, not monthly averages or seasonally adjusted prices.",
+      "Housing, healthcare, education, services and fuel are outside the basket.",
+      "The new broken-rice series and additional commodities are excluded under the fixed 22-item membership rule."
+    ]
+  },
+  "rows": [
+    {
+      "id": "rice",
+      "name": "Rice",
+      "category": "grains",
+      "unit": "kg",
+      "current": 48.88,
+      "monthAgo": 47.4,
+      "yearAgo": 42.05
+    },
+    {
+      "id": "wheat",
+      "name": "Wheat",
+      "category": "grains",
+      "unit": "kg",
+      "current": 33.0,
+      "monthAgo": 32.07,
+      "yearAgo": 31.77
+    },
+    {
+      "id": "atta",
+      "name": "Atta (Wheat)",
+      "category": "grains",
+      "unit": "kg",
+      "current": 38.31,
+      "monthAgo": 37.71,
+      "yearAgo": 37.18
+    },
+    {
+      "id": "gram-dal",
+      "name": "Gram Dal",
+      "category": "pulses",
+      "unit": "kg",
+      "current": 95.66,
+      "monthAgo": 92.03,
+      "yearAgo": 85.04
+    },
+    {
+      "id": "tur-dal",
+      "name": "Tur/Arhar Dal",
+      "category": "pulses",
+      "unit": "kg",
+      "current": 135.78,
+      "monthAgo": 131.06,
+      "yearAgo": 112.94
+    },
+    {
+      "id": "urad-dal",
+      "name": "Urad Dal",
+      "category": "pulses",
+      "unit": "kg",
+      "current": 126.84,
+      "monthAgo": 125.14,
+      "yearAgo": 113.11
+    },
+    {
+      "id": "moong-dal",
+      "name": "Moong Dal",
+      "category": "pulses",
+      "unit": "kg",
+      "current": 115.29,
+      "monthAgo": 113.76,
+      "yearAgo": 109.0
+    },
+    {
+      "id": "masoor-dal",
+      "name": "Masoor Dal",
+      "category": "pulses",
+      "unit": "kg",
+      "current": 91.17,
+      "monthAgo": 90.69,
+      "yearAgo": 87.67
+    },
+    {
+      "id": "groundnut-oil",
+      "name": "Groundnut Oil (Packed)",
+      "category": "oils",
+      "unit": "kg",
+      "current": 211.57,
+      "monthAgo": 210.87,
+      "yearAgo": 187.33
+    },
+    {
+      "id": "mustard-oil",
+      "name": "Mustard Oil (Packed)",
+      "category": "oils",
+      "unit": "kg",
+      "current": 212.58,
+      "monthAgo": 205.3,
+      "yearAgo": 186.94
+    },
+    {
+      "id": "vanaspati",
+      "name": "Vanaspati (Packed)",
+      "category": "oils",
+      "unit": "kg",
+      "current": 170.04,
+      "monthAgo": 169.56,
+      "yearAgo": 154.51
+    },
+    {
+      "id": "soya-oil",
+      "name": "Soya Oil (Packed)",
+      "category": "oils",
+      "unit": "kg",
+      "current": 168.53,
+      "monthAgo": 168.0,
+      "yearAgo": 146.72
+    },
+    {
+      "id": "sunflower-oil",
+      "name": "Sunflower Oil (Packed)",
+      "category": "oils",
+      "unit": "kg",
+      "current": 190.19,
+      "monthAgo": 190.9,
+      "yearAgo": 164.49
+    },
+    {
+      "id": "palm-oil",
+      "name": "Palm Oil (Packed)",
+      "category": "oils",
+      "unit": "kg",
+      "current": 152.58,
+      "monthAgo": 153.99,
+      "yearAgo": 133.49
+    },
+    {
+      "id": "potato",
+      "name": "Potato",
+      "category": "veg",
+      "unit": "kg",
+      "current": 23.29,
+      "monthAgo": 22.65,
+      "yearAgo": 25.93
+    },
+    {
+      "id": "onion",
+      "name": "Onion",
+      "category": "veg",
+      "unit": "kg",
+      "current": 53.49,
+      "monthAgo": 52.7,
+      "yearAgo": 25.12
+    },
+    {
+      "id": "tomato",
+      "name": "Tomato",
+      "category": "veg",
+      "unit": "kg",
+      "current": 37.78,
+      "monthAgo": 40.74,
+      "yearAgo": 40.91
+    },
+    {
+      "id": "sugar",
+      "name": "Sugar",
+      "category": "sugar",
+      "unit": "kg",
+      "current": 60.54,
+      "monthAgo": 57.82,
+      "yearAgo": 46.12
+    },
+    {
+      "id": "gur",
+      "name": "Gur",
+      "category": "sugar",
+      "unit": "kg",
+      "current": 67.58,
+      "monthAgo": 66.41,
+      "yearAgo": 56.27
+    },
+    {
+      "id": "milk",
+      "name": "Milk (₹/ltr)",
+      "category": "dairy",
+      "unit": "litre",
+      "current": 62.32,
+      "monthAgo": 61.44,
+      "yearAgo": 58.35
+    },
+    {
+      "id": "tea",
+      "name": "Tea Loose",
+      "category": "other",
+      "unit": "kg",
+      "current": 274.82,
+      "monthAgo": 274.78,
+      "yearAgo": 263.92
+    },
+    {
+      "id": "salt",
+      "name": "Salt Pack (Iodised)",
+      "category": "other",
+      "unit": "kg",
+      "current": 22.38,
+      "monthAgo": 22.37,
+      "yearAgo": 21.43
+    }
+  ],
+  "official": {
+    "period": "2026-10",
+    "headlineYoy": 6.09,
+    "foodYoy": 8.94,
+    "baseYear": 2024,
+    "status": "provisional",
+    "headlineIndex": 110.05,
+    "foodIndex": 113.23,
+    "releasedAt": "2026-11-12",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2335416&lang=1&reg=3",
+    "sourceTitle": "MoSPI — CPI on base 2024=100 for October 2026",
+    "sourceArchive": "/data/inflation/sources/cpi-october-2026-pib.html.txt",
+    "sourceSha256": "6e66341b30d14de29ceadeeaf33e30eec68ed7becb5de707d4193a3a81fc660f",
+    "retrievedAt": "2026-11-16T16:14:42+00:00",
+    "comparisonNote": "Official rates compare October 2026 with October 2025 monthly indices. The private basket compares 16 November 2026 with 16 November 2025 daily prices. They differ in period, basket, weights and sampling; the gap is not an estimate of CPI error."
+  }
+}
