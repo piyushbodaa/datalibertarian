@@ -1,553 +1,585 @@
-import { useEffect, useMemo, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
-import snapshot from "../data/inflation/private-snapshot.json";
-import { calculateBasket } from "../data/inflation/private-index";
-import { formatDay } from "../data/inflation/yoy";
+import basket from "../data/inflation/cpi-basket.json";
+import official from "../data/inflation/cpi-official.json";
+import observations from "../data/inflation/independent-quotes.json";
+import {
+  auditReplicaCoverage,
+  type IndexSector,
+} from "../data/inflation/cpi-replica";
 
-const { metadata, rows, official } = snapshot;
-const published = calculateBasket(rows);
-const number = (n: number | null, digits = 2) =>
-  n === null
-    ? "Unavailable"
-    : n.toLocaleString("en-IN", {
-        minimumFractionDigits: digits,
-        maximumFractionDigits: digits,
-      });
-const percent = (n: number | null) =>
-  n === null ? "Unavailable" : `${n > 0 ? "+" : ""}${number(n)}%`;
-const money = (n: number | null) =>
-  n === null ? "Unavailable" : `₹${number(n)}`;
-const signClass = (n: number | null) =>
-  n !== null && n < 0 ? "price-fall" : "price-rise";
-const defaultSpending = () =>
-  Object.fromEntries(rows.map((row) => [row.id, "100"]));
-const categoryNames: Record<string, string> = {
-  grains: "Grains",
-  pulses: "Pulses",
-  oils: "Edible oils",
-  veg: "Vegetables",
-  vegetables: "Vegetables",
-  dairy: "Dairy",
-  sugar: "Sugar & gur",
-  other: "Other essentials",
-};
+const pct = (n: number | null, digits = 2) =>
+  n === null ? "Unavailable" : `${n > 0 ? "+" : ""}${n.toFixed(digits)}%`;
+const weight = (n: number) => `${n.toFixed(3)}%`;
+const number = (n: number | null) => (n === null ? "—" : n.toFixed(2));
+const rupees = (n: number) =>
+  `₹${n.toLocaleString("en-IN", { maximumFractionDigits: 2 })}`;
+const sectors: { id: IndexSector; label: string }[] = [
+  { id: "combined", label: "All India" },
+  { id: "rural", label: "Rural" },
+  { id: "urban", label: "Urban" },
+];
+const officialByKey = new Map(
+  official.rows.map((row) => [`${row.sector}:${row.code}`, row]),
+);
+type Quote = (typeof observations.quotes)[number];
+const quotesByItem = new Map<string, Quote[]>();
+for (const quote of observations.quotes)
+  quotesByItem.set(quote.itemCode, [
+    ...(quotesByItem.get(quote.itemCode) ?? []),
+    quote,
+  ]);
+
+function QuoteCard({ quote }: { quote: Quote }) {
+  const comparison = quote.matchedAnnualComparison;
+  return (
+    <div className="cpi-quote">
+      <div className="cpi-quote-price">
+        <strong>{rupees(quote.price)}</strong>
+        <span>
+          for {quote.quantity} {quote.unit}
+        </span>
+      </div>
+      <p className="cpi-product">{quote.productName}</p>
+      <p className="cpi-small">
+        {quote.provider} · {quote.location}
+      </p>
+      <p className="cpi-small">
+        Retrieved {quote.observedAt.slice(0, 10)} · {quote.priceReferencePeriod}
+      </p>
+      <p className="cpi-small">{quote.taxes}</p>
+      <p className="cpi-small">{quote.discounts}</p>
+      <p className="cpi-small">{quote.deliveryCharges}</p>
+      {"sourceFreshness" in quote && (
+        <p className="cpi-small">{quote.sourceFreshness}</p>
+      )}
+      {comparison && (
+        <div className="cpi-provider-comparison">
+          <p className="cpi-label">PROVIDER-LEVEL PRICE CHANGE</p>
+          <strong>
+            {rupees(comparison.previousPrice)} →{" "}
+            {rupees(comparison.currentPrice)}{" "}
+            <span>{pct(comparison.changePct)}</span>
+          </strong>
+          <p>
+            {comparison.previousPeriod} → {comparison.currentPeriod} · per{" "}
+            {comparison.unit}
+          </p>
+          <p>{comparison.interpretation}</p>
+          <p>{comparison.limitations.join(". ")}.</p>
+        </div>
+      )}
+      <div className="cpi-quote-links">
+        <a href={quote.sourceUrl} target="_blank" rel="noreferrer">
+          Price source ↗
+        </a>
+        <a href={quote.sourceArchive}>
+          {quote.evidenceType === "complete-fetched-html"
+            ? "Archived page"
+            : quote.evidenceType === "complete-fetched-pdf"
+              ? "Archived PDF"
+              : "Transcribed source facts"}
+        </a>
+      </div>
+    </div>
+  );
+}
 
 export function InflationPage() {
+  const [sector, setSector] = useState<IndexSector>("combined");
   const [query, setQuery] = useState("");
-  const [category, setCategory] = useState("all");
-  const [sort, setSort] = useState("basket");
-  const [spending, setSpending] =
-    useState<Record<string, string>>(defaultSpending);
-  const [stale, setStale] = useState(false);
-  useEffect(() => {
-    setStale(
-      Date.now() - Date.parse(`${metadata.asOf}T00:00:00+05:30`) >
-        14 * 86400000,
-    );
-  }, []);
-  const personal = useMemo(
-    () =>
-      calculateBasket(
-        rows,
-        Object.fromEntries(
-          Object.entries(spending).map(([id, value]) => [
-            id,
-            value.trim() === "" ? NaN : Number(value),
-          ]),
-        ),
-      ),
-    [spending],
+  const [division, setDivision] = useState("");
+  const [evidenceFilter, setEvidenceFilter] = useState("");
+  const [expanded, setExpanded] = useState(false);
+  const [expansionVersion, setExpansionVersion] = useState(0);
+  const headline = officialByKey.get(`${sector}:general`)!;
+  const audit = auditReplicaCoverage(
+    basket.items,
+    [],
+    official.metadata.period,
+    sector,
   );
-  const visible = useMemo(() => {
-    const filtered = rows.filter(
-      (row) =>
-        (category === "all" || row.category === category) &&
-        row.name.toLowerCase().includes(query.trim().toLowerCase()),
-    );
-    if (sort !== "basket")
-      filtered.sort(
-        (a, b) =>
-          (a.current / a.yearAgo - b.current / b.yearAgo) *
-          (sort === "rises" ? -1 : 1),
-      );
-    return filtered;
-  }, [query, category, sort]);
-  const drivers = [...published.contributions]
-    .sort(
-      (a, b) =>
-        Math.abs(b.contributionPp ?? 0) - Math.abs(a.contributionPp ?? 0),
-    )
-    .slice(0, 6);
-  const maxDriver = Math.max(
-    0.01,
-    ...drivers.map((d) => Math.abs(d.contributionPp ?? 0)),
+  const quotedItems = basket.items.filter((item) =>
+    quotesByItem.has(item.code),
   );
-  const levels = [
-    { date: metadata.yearAgo, value: 100, label: "Base" },
-    {
-      date: metadata.monthAgo,
-      value:
-        published.monthCost === null || published.baseCost === null
-          ? null
-          : (published.monthCost / published.baseCost) * 100,
-      label: "Previous month",
-    },
-    {
-      date: metadata.asOf,
-      value: published.index,
-      label: "Latest observation",
-    },
-  ];
-  const maxLevel = Math.max(100, ...levels.map((l) => l.value ?? 0)) * 1.05;
-
+  const queryText = query.trim().toLowerCase();
+  const shownItems = basket.items.filter(
+    (item) =>
+      (!division || item.division.code === division) &&
+      (!queryText ||
+        `${item.name} ${item.code} ${item.division.name} ${(quotesByItem.get(item.code) ?? []).map((q) => `${q.productName} ${q.provider}`).join(" ")}`
+          .toLowerCase()
+          .includes(queryText)) &&
+      (!evidenceFilter ||
+        (evidenceFilter === "quoted"
+          ? quotesByItem.has(item.code)
+          : !quotesByItem.has(item.code))),
+  );
+  const filtering = Boolean(queryText || division || evidenceFilter);
+  const toggleAll = () => {
+    setExpanded(!expanded);
+    setExpansionVersion(expansionVersion + 1);
+  };
   return (
-    <article className="inflation-page">
-      <header className="inflation-heading">
-        <div className="flex flex-wrap items-center gap-3">
-          <p className="kicker">DATA LIBERTARIAN · INDIA</p>
-          <span className="index-badge">Experimental index · v1</span>
+    <div className="cpi-page">
+      <header className="cpi-intro">
+        <div className="cpi-eyebrow">
+          <span>THE INFLATION AUDIT</span>
+          <span>358 ITEMS · BASE 2024</span>
         </div>
         <h1>
-          What does the same
-          <br className="hidden sm:block" /> basket cost now?
+          One basket.
+          <br />
+          <span>Two price records.</span>
         </h1>
-        <p className="index-intro">
-          The Data Libertarian Essentials Index tracks the cost of a fixed
-          basket of 22 everyday groceries. Every price, weight, and calculation
-          is open to inspection.
+        <p>
+          India’s entire consumer price basket, side by side. The government’s
+          published CPI on the left. Independent retail and service-provider
+          evidence on the right, mapped to the same expenditure categories and
+          weights.
         </p>
-        <noscript>
-          <p className="index-scope mt-4">
-            The calculator and filters need JavaScript. Published figures, the
-            full price table, and downloads remain available.
-          </p>
-        </noscript>
-        <nav aria-label="Inflation page sections" className="index-links">
-          <a href="#index">The index ↓</a>
-          <a href="#basket">All 22 prices ↓</a>
-          <a href="#your-basket">Use your spending ↓</a>
-          <Link to="/inflation/method">Methodology ↗</Link>
-        </nav>
-      </header>
-
-      <section id="index" className="index-hero" aria-labelledby="index-title">
-        <div className="index-headline">
-          <p className="kicker" id="index-title">
-            ESSENTIALS BASKET · YEAR-ON-YEAR
-          </p>
-          <p className="index-number" data-testid="published-yoy">
-            {percent(published.yoyPct)}
-          </p>
-          <p className="index-period">
-            {formatDay(metadata.yearAgo)} → {formatDay(metadata.asOf)}
-          </p>
-          <p className="index-definition">
-            Equal spending on each item at the start, with quantities then held
-            fixed. Independently calculated from Department of Consumer Affairs
-            retail averages.
-          </p>
-          <div className="index-substats">
-            <div>
-              <span>Index level</span>
-              <strong>{number(published.index)}</strong>
-              <small>{formatDay(metadata.yearAgo)} = 100</small>
-            </div>
-            <div>
-              <span>One-month change</span>
-              <strong>{percent(published.momPct)}</strong>
-              <small>
-                {formatDay(metadata.monthAgo)} → {formatDay(metadata.asOf)}
-              </small>
-            </div>
-          </div>
-        </div>
-        <div className="index-cost">
-          <p className="kicker">BUYING THE SAME QUANTITIES</p>
-          <h2>
-            {money(published.baseCost)} then.
-            <br />
-            <span>{money(published.currentCost)} now.</span>
-          </h2>
-          <p>
-            Start with ₹100 of each commodity at the year-ago price. This is a
-            reference basket, not a typical family’s monthly budget.
-          </p>
-          <div className="index-cost-rule" />
-          <dl>
-            <div>
-              <dt>Price pairs available</dt>
-              <dd>{published.coverage.matchedCount} / 22</dd>
-            </div>
-            <div>
-              <dt>Weight per commodity</dt>
-              <dd>{number(100 / rows.length)}%</dd>
-            </div>
-            <div>
-              <dt>Collection</dt>
-              <dd>Government price monitors</dd>
-            </div>
-            <div>
-              <dt>Calculation & publication</dt>
-              <dd>Data Libertarian</dd>
-            </div>
-          </dl>
-        </div>
-      </section>
-      <p className="index-datestamp">
-        Dated release: {formatDay(metadata.asOf)} · Daily price snapshots, not
-        monthly averages.{" "}
-        {stale ? (
-          <strong>
-            This release is more than 14 days old; it is not a live reading.
-          </strong>
-        ) : (
-          "The page updates when a new source snapshot is reviewed."
-        )}
-      </p>
-      <aside className="index-scope">
-        <strong>What this measures.</strong> Price change in these 22 groceries
-        across reporting centres. It does not measure rent, healthcare,
-        education, transport, or India’s full cost of living. Equal weights are
-        a design choice: six oils together receive 27.27% of base spending. A
-        different result from CPI is not, by itself, evidence that CPI is wrong.
-      </aside>
-
-      <div className="index-chart-grid">
-        <section className="index-panel" aria-labelledby="drivers-title">
-          <p className="kicker">WHAT MOVED THE BASKET</p>
-          <h2 id="drivers-title">The largest contributors</h2>
-          <p className="index-caption">
-            Six largest contributions by absolute size. Percentage points of the
-            published annual change.
-          </p>
-          <div className="driver-list">
-            {drivers.map((driver) => (
-              <div className="driver-row" key={driver.id}>
-                <div>
-                  <span>{rows.find((row) => row.id === driver.id)?.name}</span>
-                  <strong className={signClass(driver.contributionPp)}>
-                    {driver.contributionPp !== null && driver.contributionPp > 0
-                      ? "+"
-                      : ""}
-                    {number(driver.contributionPp)} pp
-                  </strong>
-                </div>
-                <div className="driver-track" aria-hidden="true">
-                  <span
-                    style={{
-                      left:
-                        (driver.contributionPp ?? 0) < 0
-                          ? `${50 - (Math.abs(driver.contributionPp ?? 0) / maxDriver) * 50}%`
-                          : "50%",
-                      width: `${(Math.abs(driver.contributionPp ?? 0) / maxDriver) * 50}%`,
-                      background:
-                        (driver.contributionPp ?? 0) < 0
-                          ? "#2f6b47"
-                          : "#a13a2f",
-                    }}
-                  />
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-        <section className="index-panel" aria-labelledby="levels-title">
-          <p className="kicker">ONE BASKET, THREE OBSERVATIONS</p>
-          <h2 id="levels-title">The cost in index points</h2>
-          <p className="index-caption">
-            The same base quantities at each date. These observations do not
-            form a continuous time series.
-          </p>
-          <div className="level-list">
-            {levels.map((level) => (
-              <div key={level.date}>
-                <div className="level-label">
-                  <span>
-                    {formatDay(level.date)} <small>{level.label}</small>
-                  </span>
-                  <strong>{number(level.value)}</strong>
-                </div>
-                <div className="level-track">
-                  <span
-                    style={{
-                      width: `${((level.value ?? 0) / maxLevel) * 100}%`,
-                    }}
-                  />
-                </div>
-              </div>
-            ))}
-          </div>
-          <p className="index-caption mt-5">
-            Scale starts at zero. Base = 100.
-          </p>
-        </section>
-      </div>
-
-      <section id="basket" className="index-section">
-        <div className="index-section-heading">
-          <div>
-            <p className="kicker">THE EVIDENCE</p>
-            <h2>Every item. Every price.</h2>
-          </div>
-          <a
-            className="index-download"
-            href="/data/inflation/private-index.csv"
-            download
-          >
-            Download the basket CSV ↓
+        <div className="cpi-links">
+          <a href="#whole-basket">Explore all 358 items ↓</a>
+          <Link to="/inflation/method">How the index is built</Link>
+          <a href="/data/inflation/cpi-ledger.csv" download>
+            Download the full ledger ↗
           </a>
         </div>
-        <p className="index-caption">
-          All-India average retail prices in rupees per stated unit. Oils are
-          per kilogram; milk is per litre. Changes use unrounded calculations.
-          On a small screen, scroll the table sideways.
-        </p>
-        <div className="index-filters">
-          <label>
-            Find an item
+      </header>
+
+      <div className="cpi-context">
+        <div>
+          <span className="cpi-dot" /> October 2026 vs October 2025{" "}
+          <span className="cpi-muted">· Official release provisional</span>
+        </div>
+        <div className="cpi-sector" role="group" aria-label="CPI sector">
+          {sectors.map((s) => (
+            <button
+              key={s.id}
+              type="button"
+              aria-pressed={sector === s.id}
+              onClick={() => setSector(s.id)}
+            >
+              {s.label}
+            </button>
+          ))}
+        </div>
+      </div>
+      <section
+        className="cpi-comparison"
+        aria-label="Official and independent CPI comparison"
+      >
+        <div className="cpi-half cpi-government">
+          <p className="cpi-label">01 / GOVERNMENT CPI</p>
+          <h2>Published inflation</h2>
+          <div className="cpi-headline-number" data-testid="official-yoy">
+            {pct(headline.yoy)}
+          </div>
+          <p className="cpi-period">
+            Year-on-year · {sector === "combined" ? "Rural + urban" : sector}
+          </p>
+          <div className="cpi-stats">
+            <div>
+              <span>October 2025</span>
+              <strong>{number(headline.previousIndex)}</strong>
+            </div>
+            <div>
+              <span>October 2026</span>
+              <strong>{number(headline.currentIndex)}</strong>
+            </div>
+            <div>
+              <span>Basket items</span>
+              <strong>358</strong>
+            </div>
+          </div>
+          <p className="cpi-panel-note">
+            Index levels, 2024 = 100. All 358 published item indices and the
+            complete official weight structure are available below.
+          </p>
+          <a
+            className="cpi-source-link"
+            href={official.metadata.sourceUrl}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Source: MoSPI CPI database ↗
+          </a>
+        </div>
+        <div className="cpi-half cpi-private">
+          <p className="cpi-label">02 / DATA LIBERTARIAN CPI</p>
+          <h2>Independent replication</h2>
+          <div className="cpi-pending" data-testid="private-result">
+            Not yet
+            <br />
+            measurable<span className="cpi-pending-dot">.</span>
+          </div>
+          <p className="cpi-period">Matched price collection in progress</p>
+          <div className="cpi-stats">
+            <div>
+              <span>Items with price evidence</span>
+              <strong data-testid="quoted-item-count">
+                {quotedItems.length}
+                <small> / 358</small>
+              </strong>
+            </div>
+            <div>
+              <span>Eligible national weight</span>
+              <strong>{audit.annualCoveragePct.toFixed(0)}%</strong>
+            </div>
+          </div>
+          <p className="cpi-panel-note">
+            A shop quote is a starting point. A national index needs matched
+            monthly prices, a 2024 base, and the required state and sector
+            coverage. Missing evidence is never counted as zero inflation.
+          </p>
+          <a className="cpi-source-link" href="#collection-status">
+            See exactly what is collected ↓
+          </a>
+        </div>
+      </section>
+
+      <div className="cpi-reading-note">
+        <strong>Read the two sides correctly.</strong> Government figures are
+        price <em>indices</em>, not rupee prices. Independent quotations show
+        specific products, providers, locations and dates. A different price in
+        one shop does not establish an error in national CPI. Provider quotes
+        were retrieved on 16 November 2026; these are offers and tariffs, not
+        verified purchases. Sector controls change the official series and
+        weights; the independent quote inventory is not yet classified into
+        rural and urban samples.
+      </div>
+
+      <section
+        id="whole-basket"
+        className="cpi-basket-section"
+        aria-labelledby="basket-title"
+      >
+        <div className="cpi-section-title">
+          <div>
+            <p className="cpi-label">THE COMPLETE BASKET</p>
+            <h2 id="basket-title">Every good. Every service.</h2>
+          </div>
+          <p>
+            12 divisions · 308 goods · 50 services
+            <br />
+            HCES 2023–24 expenditure weights
+          </p>
+        </div>
+        <div className="cpi-filters">
+          <label className="cpi-search">
+            Find a basket item
             <input
               type="search"
-              className="field"
-              placeholder="Try rice or onion"
+              placeholder="Rice, rent, tuition, petrol…"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
             />
           </label>
           <label>
-            Category
+            Division
             <select
-              className="field"
-              value={category}
-              onChange={(e) => setCategory(e.target.value)}
+              aria-label="Division"
+              value={division}
+              onChange={(e) => setDivision(e.target.value)}
             >
-              <option value="all">All categories</option>
-              {[...new Set(rows.map((row) => row.category))].map((cat) => (
-                <option key={cat} value={cat}>
-                  {categoryNames[cat] ?? cat}
+              <option value="">All 12 divisions</option>
+              {basket.divisions.map((d) => (
+                <option key={d.code} value={d.code}>
+                  {d.name}
                 </option>
               ))}
             </select>
           </label>
           <label>
-            Sort by
+            Independent evidence
             <select
-              className="field"
-              value={sort}
-              onChange={(e) => setSort(e.target.value)}
+              aria-label="Independent evidence"
+              value={evidenceFilter}
+              onChange={(e) => setEvidenceFilter(e.target.value)}
             >
-              <option value="basket">Basket order</option>
-              <option value="rises">Largest rises</option>
-              <option value="falls">Largest falls</option>
+              <option value="">All items</option>
+              <option value="quoted">Price evidence collected</option>
+              <option value="missing">Price evidence needed</option>
             </select>
           </label>
         </div>
-        <div
-          className="ledger-scroll"
-          tabIndex={0}
-          role="region"
-          aria-label="Retail prices table, scroll horizontally on small screens"
-        >
-          <table className="index-table">
-            <caption className="sr-only">
-              Published essentials basket: {formatDay(metadata.yearAgo)} to{" "}
-              {formatDay(metadata.asOf)}. Source: Department of Consumer
-              Affairs.
-            </caption>
-            <thead>
-              <tr>
-                <th scope="col">Commodity / unit</th>
-                <th scope="col">{formatDay(metadata.yearAgo)}</th>
-                <th scope="col">{formatDay(metadata.monthAgo)}</th>
-                <th scope="col">{formatDay(metadata.asOf)}</th>
-                <th scope="col">Annual change</th>
-                <th scope="col">Contribution</th>
-              </tr>
-            </thead>
-            <tbody>
-              {visible.map((row) => {
-                const change = (row.current / row.yearAgo - 1) * 100;
-                return (
-                  <tr key={row.id}>
-                    <th scope="row">
-                      {row.name}
-                      <small>₹ / {row.unit}</small>
-                    </th>
-                    <td>{number(row.yearAgo)}</td>
-                    <td>{number(row.monthAgo)}</td>
-                    <td className="font-semibold">{number(row.current)}</td>
-                    <td className={signClass(change)}>{percent(change)}</td>
-                    <td>{number(change / rows.length)} pp</td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
-          {visible.length === 0 ? (
-            <p className="p-6" role="status">
-              No commodities match this filter.
-            </p>
-          ) : null}
+        <div className="cpi-ledger-tools">
+          <p role="status">Showing {shownItems.length} of 358 items</p>
+          <button type="button" onClick={toggleAll}>
+            {expanded ? "Collapse all divisions" : "Expand all divisions"}
+          </button>
         </div>
-        <p className="index-caption mt-3">
-          {visible.length} of {rows.length} commodities shown · Each has{" "}
-          {number(100 / rows.length)}% of base expenditure.{" "}
-          <a href={metadata.sourceUrl} target="_blank" rel="noreferrer">
-            Read the original price report ↗
-          </a>
-        </p>
-      </section>
-
-      <section id="your-basket" className="index-section personal-section">
-        <div className="index-section-heading">
-          <div>
-            <p className="kicker">YOUR SPENDING, YOUR WEIGHTS</p>
-            <h2>A different basket changes the answer.</h2>
-          </div>
+        <div className="cpi-column-head" aria-hidden="true">
+          <span>
+            GOVERNMENT CPI <small>October 2025 → October 2026</small>
+          </span>
+          <span>
+            INDEPENDENT PRICE RECORD{" "}
+            <small>Source observations · reference dates vary</small>
+          </span>
         </div>
-        <p className="index-caption max-w-3xl">
-          Enter what you spent on each item in the base period,{" "}
-          {formatDay(metadata.yearAgo)}. We price those same quantities today
-          using the national averages above. Enter zero for items you do not
-          buy. This estimates your grocery basket’s change, not your personal
-          total inflation.
-        </p>
-        <div
-          className="personal-result"
-          role="status"
-          aria-live="polite"
-          aria-atomic="true"
-        >
-          {personal.status === "ok" ? (
-            <>
-              <div>
-                <span>Your basket’s annual change</span>
-                <strong data-testid="personal-yoy">
-                  {percent(personal.yoyPct)}
-                </strong>
-              </div>
-              <div>
-                <span>Same quantities, repriced</span>
-                <strong>
-                  {money(personal.baseCost)} → {money(personal.currentCost)}
-                </strong>
-              </div>
-            </>
-          ) : (
-            <p>
-              {personal.status === "empty"
-                ? "Enter a positive base-period spend for at least one item."
-                : "Enter a valid non-negative amount for every item. Use 0 to exclude it; blank or missing values cannot be calculated."}
-            </p>
-          )}
-        </div>
-        <details className="spending-editor">
-          <summary>
-            Edit your 22 spending amounts <span>₹ in the base period</span>
-          </summary>
-          <div className="spending-inputs">
-            {rows.map((row) => (
-              <label key={row.id} htmlFor={`spend-${row.id}`}>
-                {row.name}
-                <input
-                  id={`spend-${row.id}`}
-                  className="field"
-                  type="number"
-                  inputMode="decimal"
-                  min="0"
-                  max="100000000"
-                  step="any"
-                  value={spending[row.id]}
-                  onChange={(e) =>
-                    setSpending((old) => ({ ...old, [row.id]: e.target.value }))
-                  }
-                />
-              </label>
-            ))}
-          </div>
-          <div className="flex flex-wrap gap-3 pb-5">
-            <button
-              className="live-tag"
-              type="button"
-              onClick={() => setSpending(defaultSpending())}
+        {basket.divisions.map((d) => {
+          const items = shownItems.filter(
+            (item) => item.division.code === d.code,
+          );
+          if (!items.length) return null;
+          const divisionOfficial = officialByKey.get(`${sector}:${d.code}`)!;
+          const divisionQuotedCount = basket.items.filter(
+            (item) =>
+              item.division.code === d.code && quotesByItem.has(item.code),
+          ).length;
+          return (
+            <details
+              className="cpi-division"
+              key={`${d.code}:${expansionVersion}:${queryText}:${division}:${evidenceFilter}`}
+              open={filtering || expanded}
             >
-              Reset to ₹100 each
-            </button>
-            <button
-              className="live-tag"
-              type="button"
-              onClick={() =>
-                setSpending(
-                  Object.fromEntries(rows.map((row) => [row.id, "0"])),
-                )
-              }
-            >
-              Set all to zero
-            </button>
-          </div>
-        </details>
-        <p className="index-caption mt-3">
-          Amounts stay in this page and reset on reload. Your changes do not
-          alter the published index.
+              <summary>
+                <span className="cpi-division-official">
+                  <span className="cpi-division-title">
+                    <span className="cpi-division-code">{d.code}</span>
+                    <span>
+                      <strong>{d.name}</strong>
+                      <small>
+                        {d.itemCount} items · {weight(d.weights[sector])} weight
+                      </small>
+                    </span>
+                  </span>
+                  <span className="cpi-division-rate">
+                    {pct(divisionOfficial.yoy)}
+                    <small>Official annual change</small>
+                  </span>
+                </span>
+                <span className="cpi-division-private">
+                  <strong>
+                    {divisionQuotedCount} <span>/ {d.itemCount}</span>
+                  </strong>
+                  <small>
+                    Items with price evidence · item indices pending
+                  </small>
+                </span>
+                <span className="cpi-expand" aria-hidden="true">
+                  +
+                </span>
+              </summary>
+              <div>
+                {items.map((item) => {
+                  const record = officialByKey.get(`${sector}:${item.code}`)!;
+                  const quotes = quotesByItem.get(item.code) ?? [];
+                  return (
+                    <article
+                      className="cpi-item"
+                      key={item.code}
+                      data-testid="basket-item"
+                      id={`cpi-${item.code}`}
+                    >
+                      <div className="cpi-item-title">
+                        <div>
+                          <span className="cpi-item-code">{item.code}</span>
+                          <h3>{item.name}</h3>
+                        </div>
+                        <span className="cpi-item-weight">
+                          {weight(item.weights[sector])}{" "}
+                          <span>basket weight</span>
+                        </span>
+                      </div>
+                      <div className="cpi-item-halves">
+                        <div className="cpi-official-record">
+                          <p className="cpi-mobile-label">GOVERNMENT CPI</p>
+                          <div className="cpi-index-values">
+                            <span>{number(record.previousIndex)}</span>
+                            <span className="cpi-arrow">→</span>
+                            <strong>{number(record.currentIndex)}</strong>
+                            <span
+                              className={`cpi-change ${record.yoy !== null && record.yoy < 0 ? "negative" : ""}`}
+                            >
+                              {pct(record.yoy)}
+                            </span>
+                          </div>
+                          <p className="cpi-small">
+                            Oct 2025 → Oct 2026 · 2024 = 100
+                          </p>
+                          <p className="cpi-small">
+                            {item.kind === "services" ? "Service" : "Good"} ·{" "}
+                            {item.subclass.name}
+                          </p>
+                          <details className="cpi-record-detail">
+                            <summary>What is behind this number?</summary>
+                            <p>
+                              The published {sector} item index combines prices
+                              across relevant markets. The API does not disclose
+                              individual shop or household price quotations. It
+                              cannot supply a single “official rupee price” for
+                              this item.
+                            </p>
+                            <p>
+                              Reported annual change is retained from the
+                              source; recalculation from rounded indices may
+                              differ slightly.
+                            </p>
+                            <a href="/data/inflation/cpi-official.json">
+                              Inspect official data
+                            </a>
+                          </details>
+                        </div>
+                        <div
+                          className={`cpi-independent-record ${quotes.length ? "has-quotes" : ""}`}
+                        >
+                          <p className="cpi-mobile-label">
+                            INDEPENDENT PRICE RECORD
+                          </p>
+                          {quotes.length ? (
+                            <>
+                              <div className="cpi-evidence-badge">
+                                {quotes.length} sourced{" "}
+                                {quotes.length === 1
+                                  ? "observation"
+                                  : "observations"}{" "}
+                                · national item index pending
+                              </div>
+                              {quotes.map((quote) => (
+                                <QuoteCard key={quote.id} quote={quote} />
+                              ))}
+                            </>
+                          ) : (
+                            <div className="cpi-missing">
+                              <span aria-hidden="true">—</span>
+                              <strong>Price evidence needed</strong>
+                              <p>
+                                No independently verified quotation in this
+                                release. Matched product or service prices,
+                                dates and market coverage are still required.
+                              </p>
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    </article>
+                  );
+                })}
+              </div>
+            </details>
+          );
+        })}
+        {!shownItems.length && (
+          <p className="cpi-empty">No basket items match these filters.</p>
+        )}
+        <p className="cpi-small cpi-weight-note">
+          Weights are displayed to three decimal places; calculations retain
+          source precision. Rural and urban weights are each normalized to 100%.
+          The underlying state-sector contributions and all intermediate basket
+          groups are downloadable.
         </p>
       </section>
 
-      <section className="index-section official-context">
-        <p className="kicker">OFFICIAL SERIES · CONTEXT</p>
-        <h2>How does this relate to CPI?</h2>
-        <div className="official-grid">
-          <div>
-            <span>All-items CPI</span>
-            <strong>{number(official.headlineYoy)}%</strong>
-            <small>October 2026 · year-on-year</small>
-          </div>
-          <div>
-            <span>Consumer Food Price Index</span>
-            <strong>{number(official.foodYoy)}%</strong>
-            <small>October 2026 · year-on-year</small>
-          </div>
-          <p>
-            MoSPI’s monthly indices use a different basket, weighting system,
-            and observation window. Both figures are provisional, on base
-            2024=100. Our 16 November grocery snapshot cannot establish how much
-            CPI overstates or understates inflation.{" "}
-            <a href={official.sourceUrl} target="_blank" rel="noreferrer">
-              Read the official release ↗
-            </a>
-          </p>
-        </div>
-      </section>
-
-      <section className="index-section index-sources">
+      <section id="collection-status" className="cpi-collection">
         <div>
-          <p className="kicker">OPEN METHODS</p>
-          <h2>Reproduce the result.</h2>
+          <p className="cpi-label">THE WORK BEHIND THE NUMBER</p>
+          <h2>
+            Same basket. <br />
+            An auditable price panel.
+          </h2>
           <p>
-            Download the prices and fixed weights, inspect the archived source,
-            or follow the formula. The published release is a dated snapshot
-            with an explicit version.
+            The replica follows the government’s 2024 framework: matched monthly
+            price relatives, Jevons elementary indices, then fixed
+            expenditure-weighted Young aggregation. It does not substitute an
+            equal-weight grocery basket.
           </p>
-          <Link className="file-cta" to="/inflation/method">
-            Read the complete methodology →
+          <Link to="/inflation/method">
+            Read the calculation rules and remaining gaps →
           </Link>
         </div>
-        <div className="source-links">
-          <a href="/data/inflation/private-index.json" download>
-            Data, weights & calculation <span>JSON ↓</span>
+        <ol className="cpi-checklist">
+          <li>
+            <span className="cpi-check">✓</span>
+            <div>
+              <strong>Complete official basket & weights</strong>
+              <p>
+                358 items, 36 states and territories, 23,208 state-sector-item
+                weight records.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span className="cpi-check">✓</span>
+            <div>
+              <strong>Reproduce the published arithmetic</strong>
+              <p>
+                All 358 item indices reproduce each sector’s headline within
+                source rounding. This checks aggregation, not the accuracy of
+                collected prices.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span className="cpi-step">3</span>
+            <div>
+              <strong>Collect independently sourced prices</strong>
+              <p>
+                {observations.quotes.length} observations across{" "}
+                {quotedItems.length} basket items. Provider-specific price
+                evidence, including historical records where available.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span className="cpi-step">4</span>
+            <div>
+              <strong>Complete the matched market panel</strong>
+              <p>
+                Still needed: representative state-sector samples, comparable
+                monthly history anchored to 2024, rent collection and specialist
+                service weights.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span className="cpi-step">5</span>
+            <div>
+              <strong>Publish the independent national result</strong>
+              <p>
+                Withheld until all positive-weight items have eligible,
+                independently compiled indices. A more accurate result must be
+                demonstrated, not assumed.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section className="cpi-downloads">
+        <div>
+          <p className="cpi-label">OPEN BY DESIGN</p>
+          <h2>Take the data apart.</h2>
+          <p>Inspect the source files, weights and every collected price.</p>
+        </div>
+        <div className="cpi-download-grid">
+          <a href="/data/inflation/cpi-ledger.csv" download>
+            Full comparison ledger <span>CSV ↗</span>
           </a>
-          <a href="/data/inflation/private-index.csv" download>
-            Price and contribution ledger <span>CSV ↓</span>
+          <a href="/data/inflation/cpi-basket.json" download>
+            All 358 items & weights <span>JSON ↗</span>
           </a>
-          <a href={metadata.sourceArchive} download>
-            Archived price report <span>Source ↓</span>
+          <a href="/data/inflation/cpi-official.json" download>
+            Official indices · all sectors <span>JSON ↗</span>
           </a>
-          <a href="https://github.com/piyushbodaa/datalibertarian/tree/main/inflation">
-            Collection & revision procedure <span>GitHub ↗</span>
+          <a href="/data/inflation/independent-quotes.json" download>
+            Independent price observations <span>JSON ↗</span>
           </a>
-          <Link to="/inflation/food">
-            Earlier price monitor <span>Sep 2026 archive →</span>
-          </Link>
+          <a href="/data/inflation/cpi-state-item-weights.json" download>
+            State-sector weight ledger <span>JSON ↗</span>
+          </a>
+          <a href="/data/inflation/cpi-collection-template.csv" download>
+            Complete collection template <span>CSV ↗</span>
+          </a>
         </div>
       </section>
-    </article>
+      <p className="cpi-archive-note">
+        Earlier work:{" "}
+        <Link to="/inflation/essentials">22-item essentials experiment</Link>.
+        That limited grocery measure is archived separately and is not the full
+        CPI replica.
+      </p>
+    </div>
   );
 }

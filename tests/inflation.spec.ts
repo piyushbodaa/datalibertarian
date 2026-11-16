@@ -8,7 +8,7 @@ test("published index, filters, and base-period spending calculate consistently"
   page,
   request,
 }) => {
-  await page.goto("/inflation");
+  await page.goto("/inflation/essentials");
   await expect(page.getByTestId("published-yoy")).toHaveText("+14.60%");
   await expect(page.locator(".index-table tbody tr")).toHaveCount(22);
   await page.getByRole("searchbox", { name: "Find an item" }).fill("onion");
@@ -83,7 +83,7 @@ test("inflation works on mobile and renders source-backed content without JavaSc
   browser,
 }) => {
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.goto("/inflation");
+  await page.goto("/inflation/essentials");
   await expect(page.getByTestId("published-yoy")).toBeVisible();
   expect(
     await page.evaluate(
@@ -101,7 +101,7 @@ test("inflation works on mobile and renders source-backed content without JavaSc
   await page.screenshot({ path: "/tmp/inflation-desktop.png", fullPage: true });
   const context = await browser.newContext({ javaScriptEnabled: false });
   const staticPage = await context.newPage();
-  await staticPage.goto("http://127.0.0.1:4173/inflation");
+  await staticPage.goto("http://127.0.0.1:4173/inflation/essentials");
   await expect(staticPage.getByTestId("published-yoy")).toHaveText("+14.60%");
   await expect(staticPage.locator(".index-table tbody tr")).toHaveCount(22);
   await context.close();

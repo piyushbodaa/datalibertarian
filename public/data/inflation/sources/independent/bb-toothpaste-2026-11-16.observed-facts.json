@@ -1,0 +1,16 @@
+{
+  "sourceUrl": "https://www.bigbasket.com/pd/263921/colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti-formula-provides-fresher-breath-200-g/",
+  "retrievedOn": "2026-11-16",
+  "evidenceType": "transcribed-facts-from-opened-primary-page",
+  "sourceCrawlReported": "yesterday",
+  "facts": {
+    "product": "Colgate Strong Teeth Anticavity toothpaste, 200 g",
+    "offerPriceINR": 125,
+    "quantity": 200,
+    "unit": "g",
+    "mrpINR": null,
+    "taxesIncluded": true,
+    "deliveryLocation": null
+  },
+  "captureNote": "Facts manually transcribed from the primary retailer page opened with the web tool. This is not the original HTML or a purchase receipt. Direct HTTP fetch returned 403; no access control was bypassed."
+}

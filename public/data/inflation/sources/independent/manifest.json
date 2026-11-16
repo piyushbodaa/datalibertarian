@@ -1,0 +1,292 @@
+[
+  {
+    "id": "bb-milk",
+    "url": "https://www.bigbasket.com/pd/306926/amul-homogenised-toned-milk-1-l-carton/",
+    "retrievedAt": "2026-11-16",
+    "archive": "/data/inflation/sources/independent/bb-milk-2026-11-16.observed-facts.json",
+    "sha256": "55e31d25fbd3f10a8cad771e4e7e897a621205451ba50e1e82f531caebf0f26d",
+    "bytes": 669,
+    "evidenceType": "transcribed-facts-from-opened-primary-page",
+    "sourceCrawlReported": "today"
+  },
+  {
+    "id": "bb-atta",
+    "url": "https://www.bigbasket.com/pd/204629/aashirvaad-select-atta-5-kg-pouch/",
+    "retrievedAt": "2026-11-16",
+    "archive": "/data/inflation/sources/independent/bb-atta-2026-11-16.observed-facts.json",
+    "sha256": "e58c0de66b42d39a91579980a3e5efa32b8b8da07b863df4c76939ecf14520c7",
+    "bytes": 657,
+    "evidenceType": "transcribed-facts-from-opened-primary-page",
+    "sourceCrawlReported": "today"
+  },
+  {
+    "id": "bb-salt",
+    "url": "https://www.bigbasket.com/pd/241600/tata-salt-iodized-1-kg-pouch/",
+    "retrievedAt": "2026-11-16",
+    "archive": "/data/inflation/sources/independent/bb-salt-2026-11-16.observed-facts.json",
+    "sha256": "ed3c3e307279adb4c9491261808d3eb47292e033e4a0eab599b8da6959469067",
+    "bytes": 668,
+    "evidenceType": "transcribed-facts-from-opened-primary-page",
+    "sourceCrawlReported": "yesterday"
+  },
+  {
+    "id": "bb-rice",
+    "url": "https://www.bigbasket.com/pd/40203149/bb-popular-red-raw-rice-1-kg/",
+    "retrievedAt": "2026-11-16",
+    "archive": "/data/inflation/sources/independent/bb-rice-2026-11-16.observed-facts.json",
+    "sha256": "0d026448f58accc487770eab107aa1bd83a0c5fdbe8075dec255e620cdfcb630",
+    "bytes": 652,
+    "evidenceType": "transcribed-facts-from-opened-primary-page",
+    "sourceCrawlReported": "2 weeks ago"
+  },
+  {
+    "id": "bb-sugar",
+    "url": "https://www.bigbasket.com/pd/40234317/super-saver-sugar-1-kg/",
+    "retrievedAt": "2026-11-16",
+    "archive": "/data/inflation/sources/independent/bb-sugar-2026-11-16.observed-facts.json",
+    "sha256": "dbb0a8feb65fde63e22ab2540b2cb38a5545e1fbd5b567287a1e7785415f675c",
+    "bytes": 634,
+    "evidenceType": "transcribed-facts-from-opened-primary-page",
+    "sourceCrawlReported": "today"
+  },
+  {
+    "id": "bb-detergent",
+    "url": "https://www.bigbasket.com/pd/215595/surf-excel-easy-wash-detergent-powder-5-kg/",
+    "retrievedAt": "2026-11-16",
+    "archive": "/data/inflation/sources/independent/bb-detergent-2026-11-16.observed-facts.json",
+    "sha256": "7be97c7548e870aae5b291d9f177357952409bcc2de8cc4695fb4a9f1524ac0c",
+    "bytes": 669,
+    "evidenceType": "transcribed-facts-from-opened-primary-page",
+    "sourceCrawlReported": "today"
+  },
+  {
+    "id": "bb-toothpaste",
+    "url": "https://www.bigbasket.com/pd/263921/colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti-formula-provides-fresher-breath-200-g/",
+    "retrievedAt": "2026-11-16",
+    "archive": "/data/inflation/sources/independent/bb-toothpaste-2026-11-16.observed-facts.json",
+    "sha256": "51cce69786bd25ee66262bbcc1f02171ef917d1e98e469e19a12af8f0fa5c7c9",
+    "bytes": 737,
+    "evidenceType": "transcribed-facts-from-opened-primary-page",
+    "sourceCrawlReported": "yesterday"
+  },
+  {
+    "id": "bb-shampoo",
+    "url": "https://www.bigbasket.com/pd/40224073/clinic-plus-strength-shine-shampoo-egg-protein-for-strong-shiny-hair-650-ml/",
+    "retrievedAt": "2026-11-16",
+    "archive": "/data/inflation/sources/independent/bb-shampoo-2026-11-16.observed-facts.json",
+    "sha256": "de1bb9cb44647b35bb441122639b8f340168f28ccd896b1097f907bb195d0b13",
+    "bytes": 724,
+    "evidenceType": "transcribed-facts-from-opened-primary-page",
+    "sourceCrawlReported": "today"
+  },
+  {
+    "id": "1mg-dolo",
+    "url": "https://www.1mg.com/drugs/dolo-650-tablet-74467",
+    "retrievedAt": "2026-11-16T16:45:39.752200Z",
+    "archive": "/data/inflation/sources/independent/1mg-dolo-2026-11-16.html.txt",
+    "sha256": "206c67834c0bf64398f35bea8d82ef0ca8f17b55c09453ec30cb08682c65949f",
+    "bytes": 437042,
+    "evidenceType": "complete-fetched-html",
+    "sourceCrawlReported": null
+  },
+  {
+    "id": "ikea-marius",
+    "url": "https://www.ikea.com/in/en/p/marius-stool-white-30184050/",
+    "retrievedAt": "2026-11-16T16:45:38.354518Z",
+    "archive": "/data/inflation/sources/independent/ikea-marius-2026-11-16.html.txt",
+    "sha256": "ad269ec9d618e2f4b502558e97649f613c04a34310362f3614a504e7c96ada91",
+    "bytes": 944451,
+    "evidenceType": "complete-fetched-html",
+    "sourceCrawlReported": null
+  },
+  {
+    "id": "netflix-plans",
+    "url": "https://www.netflix.com/in/title/80029823?source=35",
+    "retrievedAt": "2026-11-16T16:46:49.767481Z",
+    "archive": "/data/inflation/sources/independent/netflix-plans-2026-11-16.html.txt",
+    "sha256": "968457f418833c40b2b021b2b58d08765c786d63802a49d2e4f1668d8d895778",
+    "bytes": 2080703,
+    "evidenceType": "complete-fetched-html",
+    "sourceCrawlReported": null
+  },
+  {
+    "id": "decathlon-men-shirt",
+    "url": "https://www.decathlon.in/p/8667940/men-s-fitness-cotton-t-shirt-100-sportee-white",
+    "retrievedAt": "2026-11-16",
+    "archive": "/data/inflation/sources/independent/decathlon-men-shirt-2026-11-16.html.txt",
+    "sha256": "a9e646b7387af2e2fdac77632abb0a99bd0403e33062900e1cc8330dff8b9084",
+    "bytes": 156415,
+    "evidenceType": "complete-fetched-html",
+    "sourceCrawlReported": null
+  },
+  {
+    "id": "decathlon-women-shirt",
+    "url": "https://www.decathlon.in/p/8888185/short-sleeves-regular-fit-women-s-t-shirt-100-sweet-pink",
+    "retrievedAt": "2026-11-16",
+    "archive": "/data/inflation/sources/independent/decathlon-women-shirt-2026-11-16.html.txt",
+    "sha256": "b18cadb8b3c5bd35327081582489dab2036ec893fb9829f4a315617aab63991c",
+    "bytes": 128050,
+    "evidenceType": "complete-fetched-html",
+    "sourceCrawlReported": null
+  },
+  {
+    "id": "decathlon-football",
+    "url": "https://www.decathlon.in/p/8753528/mini-football-sunny-300",
+    "retrievedAt": "2026-11-16",
+    "archive": "/data/inflation/sources/independent/decathlon-football-2026-11-16.html.txt",
+    "sha256": "2f0519e15321f4b600372c02954a83ead2c4885f8b7f2799bff352747084836f",
+    "bytes": 123966,
+    "evidenceType": "complete-fetched-html",
+    "sourceCrawlReported": null
+  },
+  {
+    "id": "decathlon-bicycle",
+    "url": "https://www.decathlon.in/p/8865743/city-cycle-btwin-my-bike-steel-frame-single-speed-v-brakes-aluminium-rims",
+    "retrievedAt": "2026-11-16",
+    "archive": "/data/inflation/sources/independent/decathlon-bicycle-2026-11-16.html.txt",
+    "sha256": "4e117f1545d753229f8dde400ecebc51e4537d3b4e41826dca0df81352ba2d8b",
+    "bytes": 112656,
+    "evidenceType": "complete-fetched-html",
+    "sourceCrawlReported": null
+  },
+  {
+    "id": "apollo-hyderabad",
+    "url": "https://apollodiagnostics.in/book-a-test/hyderabad",
+    "retrievedAt": "2026-11-16T16:45:41.323329Z",
+    "archive": "/data/inflation/sources/independent/apollo-hyderabad-2026-11-16.html.txt",
+    "sha256": "a0baf5f95b28b5855ab0d2b152adea234c62e020f22bfd000e96dc2edbb1835a",
+    "bytes": 279981,
+    "evidenceType": "complete-fetched-html",
+    "sourceCrawlReported": null
+  },
+  {
+    "id": "dps-rnext-fees",
+    "url": "https://dpsrnext.com/admission/fee-structure",
+    "retrievedAt": "2026-11-16T16:46:46.510071Z",
+    "archive": "/data/inflation/sources/independent/dps-rnext-fees-2026-11-16.html.txt",
+    "sha256": "32ff78afcacf573adc0234ae3a2a40636ab01389b153042363d620e58d221bab",
+    "bytes": 116138,
+    "evidenceType": "complete-fetched-html",
+    "sourceCrawlReported": null
+  },
+  {
+    "id": "jio-tariff-2024",
+    "url": "https://www.ril.com/sites/default/files/2024-06/27062024_MR_Jio_introduces_new_unlimited_plans.pdf",
+    "retrievedAt": "2026-11-16",
+    "archive": "/data/inflation/sources/independent/jio-tariff-2024-2026-11-16.pdf",
+    "sha256": "672e8c8e982bbae2534e67e92b884960a9b077882bbf29a9e0f63ce267dcdcec",
+    "bytes": 295969,
+    "evidenceType": "complete-fetched-pdf",
+    "sourceCrawlReported": null
+  },
+  {
+    "id": "jio-anniversary-2025",
+    "url": "https://jep-asset.akamaized.net/cms/assets/pressrelease/3-september-2025.pdf",
+    "retrievedAt": "2026-11-16",
+    "archive": "/data/inflation/sources/independent/jio-anniversary-2025-2026-11-16.pdf",
+    "sha256": "805743188916be28be4dbf0f78556d4ea0254dcf7c627feeb1b6d0e30f0431d4",
+    "bytes": 340040,
+    "evidenceType": "complete-fetched-pdf",
+    "sourceCrawlReported": null
+  },
+  {
+    "id": "colgate-mrp-2025",
+    "url": "https://www.colgateinvestors.co.in/pdf/revised-price-list-of-cp-india-portfolio.pdf",
+    "retrievedAt": "2026-11-16",
+    "archive": "/data/inflation/sources/independent/colgate-mrp-2025-2026-11-16.pdf",
+    "sha256": "273c3f66eacf13e21b68f881f14bcab382452d8094d75f9a023c364ec71753c9",
+    "bytes": 6650293,
+    "evidenceType": "complete-fetched-pdf",
+    "sourceCrawlReported": null
+  },
+  {
+    "id": "mk-nivea-bodymilk",
+    "url": "https://mkretail.com/product/nivea-nourishing-body-milk-120ml",
+    "retrievedAt": "2026-11-16T16:57:01+00:00",
+    "archive": "/data/inflation/sources/independent/mk-nivea-bodymilk-2026-11-16.html.txt",
+    "sha256": "1dbffe6543c4fedf5c7953ed824c3e305f59416b2521c06101cd4a41766bb361",
+    "bytes": 249565,
+    "evidenceType": "complete-fetched-html",
+    "sourceCrawlReported": null
+  },
+  {
+    "id": "mk-nivea-showergel",
+    "url": "https://mkretail.com/product/nivea-shower-gel-frangipani-oil-125ml",
+    "retrievedAt": "2026-11-16T16:57:01+00:00",
+    "archive": "/data/inflation/sources/independent/mk-nivea-showergel-2026-11-16.html.txt",
+    "sha256": "9a59433cde6a9faa5cea3c82eefdbabe8d10555d8653581f7b38509703246e16",
+    "bytes": 250169,
+    "evidenceType": "complete-fetched-html",
+    "sourceCrawlReported": null
+  },
+  {
+    "id": "naturals-classic-cut",
+    "url": "https://naturals.in/services/Hair/",
+    "retrievedAt": "2026-11-16T16:56:57+00:00",
+    "archive": "/data/inflation/sources/independent/naturals-classic-cut-2026-11-16.html.txt",
+    "sha256": "6c33e4ac493759eaadc83c7d420f2b910eed16a42cc0f341769d416ec6fbeb05",
+    "bytes": 36507,
+    "evidenceType": "complete-fetched-html",
+    "sourceCrawlReported": null
+  },
+  {
+    "id": "taj-tirupati-menu",
+    "url": "https://assets.tajhotels.com/en-in/hotels/taj-tirupati/restaurants/southern-spice-tirupati/southern-spice-tirupati-menu.pdf",
+    "retrievedAt": "2026-11-16T16:56:57+00:00",
+    "archive": "/data/inflation/sources/independent/taj-tirupati-menu-2026-11-16.pdf",
+    "sha256": "fc1dbbe173a7aafa9a2f0e9930acadad5fbb1377a94c242a08dd0998a2b157d5",
+    "bytes": 1489240,
+    "evidenceType": "complete-fetched-pdf",
+    "sourceCrawlReported": null
+  },
+  {
+    "id": "bb-whisper-pads",
+    "url": "https://www.bigbasket.com/pd/263493/whisper-sanitary-pads-extra-large-plus-ultra-clean-30-pcs/",
+    "retrievedAt": "2026-11-16",
+    "archive": "/data/inflation/sources/independent/bb-whisper-pads-2026-11-16.observed-facts.json",
+    "sha256": "a739997332c07b4eba5ef48e5604ef5d47e43f0d9fde2242654d3c5cee101cff",
+    "bytes": 837,
+    "evidenceType": "transcribed-facts-from-opened-primary-page",
+    "sourceCrawlReported": "today on final open"
+  },
+  {
+    "id": "bb-dettol-sanitizer",
+    "url": "https://www.bigbasket.com/pd/40196348/dettol-clinical-strength-antiseptic-hand-sanitizer-liquid-kills-germs-bacteria-500-ml/",
+    "retrievedAt": "2026-11-16",
+    "archive": "/data/inflation/sources/independent/bb-dettol-sanitizer-2026-11-16.observed-facts.json",
+    "sha256": "71304196ee3f39b019f3510ea7fda2a31ec379444183a35229e64a96cab542ff",
+    "bytes": 844,
+    "evidenceType": "transcribed-facts-from-opened-primary-page",
+    "sourceCrawlReported": "today on final open"
+  },
+  {
+    "id": "bb-pampers-large",
+    "url": "https://www.bigbasket.com/pd/40141637/pampers-premium-care-diapers-large-44-pcs/",
+    "retrievedAt": "2026-11-16",
+    "archive": "/data/inflation/sources/independent/bb-pampers-large-2026-11-16.observed-facts.json",
+    "sha256": "ff57118b3f33294742b9859d6a3a00863313301915eb9ecbabd6bd222aaad511",
+    "bytes": 799,
+    "evidenceType": "transcribed-facts-from-opened-primary-page",
+    "sourceCrawlReported": "2 weeks ago"
+  },
+  {
+    "id": "igl-delhi-png",
+    "url": "https://www.iglonline.net/cng-png-prices",
+    "retrievedAt": "2026-11-16",
+    "archive": "/data/inflation/sources/independent/igl-delhi-png-2026-11-16.observed-facts.json",
+    "sha256": "a82c249dc8ec6f998c021609b818c4cdaa818eed47313aae38d4295b96d76678",
+    "bytes": 770,
+    "evidenceType": "transcribed-facts-from-opened-primary-page",
+    "sourceCrawlReported": "today"
+  },
+  {
+    "id": "igl-delhi-cng",
+    "url": "https://www.iglonline.net/cng-png-prices",
+    "retrievedAt": "2026-11-16",
+    "archive": "/data/inflation/sources/independent/igl-delhi-cng-2026-11-16.observed-facts.json",
+    "sha256": "3e767c84c6d0ea2b263dc4495a5a92d5b83fddf64acee32b2a9b154119bde866",
+    "bytes": 782,
+    "evidenceType": "transcribed-facts-from-opened-primary-page",
+    "sourceCrawlReported": "today"
+  }
+]

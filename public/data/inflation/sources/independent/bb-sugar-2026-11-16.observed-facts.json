@@ -1,0 +1,16 @@
+{
+  "sourceUrl": "https://www.bigbasket.com/pd/40234317/super-saver-sugar-1-kg/",
+  "retrievedOn": "2026-11-16",
+  "evidenceType": "transcribed-facts-from-opened-primary-page",
+  "sourceCrawlReported": "today",
+  "facts": {
+    "product": "bb SUPER SAVER sugar, 1 kg",
+    "offerPriceINR": 55,
+    "quantity": 1,
+    "unit": "kg",
+    "mrpINR": null,
+    "taxesIncluded": true,
+    "deliveryLocation": null
+  },
+  "captureNote": "Facts manually transcribed from the primary retailer page opened with the web tool. This is not the original HTML or a purchase receipt. Direct HTTP fetch returned 403; no access control was bypassed."
+}

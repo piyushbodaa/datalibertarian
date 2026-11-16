@@ -1,0 +1,17 @@
+{
+  "title": "Report of the Expert Group on Comprehensive Updation of Consumer Price Index",
+  "publisher": "Ministry of Statistics and Programme Implementation, Government of India",
+  "baseYear": 2024,
+  "sourceUrl": "https://www.mospi.gov.in/uploads/documents/documents/1770882257889-Expert_Group_Report_CPI.pdf",
+  "archiveUrl": "/data/inflation/sources/cpi-2024-expert-report.pdf",
+  "retrievedAt": "2026-11-16T16:41:37+00:00",
+  "sha256": "9d36f63d6f25c111df021d0c264a6f1a77efba78ffe319f36348487b7814d6af",
+  "bytes": 5168687,
+  "pageReferenceNote": "Methodology citations use the report printed page numbers, not PDF viewer positions.",
+  "methodSections": [
+    "4.5",
+    "4.6.1–4.6.15",
+    "4.7.8",
+    "Annexure 5.2"
+  ]
+}

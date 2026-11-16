@@ -1,0 +1,16 @@
+{
+  "sourceUrl": "https://www.bigbasket.com/pd/40196348/dettol-clinical-strength-antiseptic-hand-sanitizer-liquid-kills-germs-bacteria-500-ml/",
+  "retrievedOn": "2026-11-16",
+  "evidenceType": "transcribed-facts-from-opened-primary-page",
+  "sourceCrawlReported": "today on final open",
+  "facts": {
+    "product": "Dettol Clinical Strength Antiseptic Hand Sanitizer, 500 ml",
+    "offerPriceINR": 250,
+    "quantity": 500,
+    "unit": "ml",
+    "mrpINR": null,
+    "taxesIncluded": true,
+    "deliveryLocation": null
+  },
+  "captureNote": "Offer facts transcribed from the opened primary retailer page, including the visible product heading, pack size, price and tax statement. This is a fact sheet, not original HTML or a receipt. Direct HTTP retrieval of other BigBasket pages in this batch returned 403; no access control was bypassed."
+}

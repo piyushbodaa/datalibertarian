@@ -1,0 +1,17 @@
+{
+  "sourceUrl": "https://www.iglonline.net/cng-png-prices",
+  "retrievedOn": "2026-11-16",
+  "evidenceType": "transcribed-facts-from-opened-primary-page",
+  "sourceCrawlReported": "today",
+  "facts": {
+    "product": "Compressed natural gas, NCT of Delhi retail tariff",
+    "offerPriceINR": 86.98,
+    "quantity": 1,
+    "unit": "kg",
+    "mrpINR": null,
+    "taxesIncluded": null,
+    "deliveryLocation": "NCT of Delhi",
+    "tariffEffectiveFrom": "2026-08-29 06:00 India time"
+  },
+  "captureNote": "Tariff, geography, unit and effective date transcribed from the opened gas-provider price table. Direct HTTP fetch returned a JavaScript-only response rather than the price table, so it is not archived as tariff evidence. This fact sheet is not original HTML or a paid bill."
+}
