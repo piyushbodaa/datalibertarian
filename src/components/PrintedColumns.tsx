@@ -59,7 +59,7 @@ export function PrintedColumns({
               <p className="text-xs font-semibold uppercase tracking-wide text-ink/70">{SERIES_LABEL[col.series]}</p>
               <p className="text-xs text-ink/50">{col.fiscalYear}</p>
               <div
-                className="mt-3 flex h-28 items-end overflow-hidden rounded-md bg-slate-100 sm:h-36"
+                className="mt-3 flex h-28 items-end overflow-hidden rounded-md bg-[#F0F0ED] sm:h-36"
                 role="img"
                 aria-label={
                   missing

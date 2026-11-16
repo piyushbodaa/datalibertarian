@@ -31,7 +31,7 @@ export function HeadSplit({
         <CitationChip citationId={run.citationId} />
       </ChartCaption>
       <div
-        className="flex h-8 w-full max-w-3xl overflow-hidden rounded-md bg-slate-100"
+        className="flex h-8 w-full max-w-3xl overflow-hidden rounded-md bg-[#F0F0ED]"
         role="img"
         aria-label={`${runLabel} ${runPct.toFixed(1)} percent. ${capLabel} ${capPct.toFixed(1)} percent.`}
       >

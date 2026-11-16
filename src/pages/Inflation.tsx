@@ -111,7 +111,7 @@ export function InflationPage() {
                   key={g.id}
                   type="button"
                   onClick={() => setGroup(g.id)}
-                  className={`live-tag ${group === g.id ? "border-rust bg-[#EEF2F7] text-rust" : ""}`}
+                  className={`live-tag ${group === g.id ? "border-rust bg-[#EEF2FC] text-rust" : ""}`}
                 >
                   {g.label}
                 </button>
@@ -190,7 +190,7 @@ export function InflationPage() {
                 <span className="font-medium">{row.label}</span>
                 <span className="num font-semibold">{formatPct(row.pct)}</span>
               </div>
-              <div className="mt-1 h-2.5 w-full overflow-hidden rounded bg-slate-100">
+              <div className="mt-1 h-2.5 w-full overflow-hidden rounded bg-[#F0F0ED]">
                 <div
                   className="hatch-carbon h-2.5 rounded"
                   style={{

@@ -96,12 +96,12 @@ function Bar({
 }) {
   if (!money || empty) {
     return (
-      <div className="h-2.5 w-full rounded bg-slate-100 border border-dashed border-slate-300" aria-hidden="true" />
+      <div className="h-2.5 w-full rounded bg-[#F0F0ED] border border-dashed border-[#D3D3CF]" aria-hidden="true" />
     );
   }
   const width = (money.crore / max) * 100;
   return (
-    <div className="h-2.5 w-full overflow-hidden rounded bg-slate-100" role="img" aria-label={formatMoneyShort(money)}>
+    <div className="h-2.5 w-full overflow-hidden rounded bg-[#F0F0ED]" role="img" aria-label={formatMoneyShort(money)}>
       <div className={`${hatch} h-2.5 rounded`} style={{ width: `${width}%` }} />
     </div>
   );

@@ -329,7 +329,7 @@ export function ComparePage() {
               </button>
               <button
                 type="button"
-                className="inline-flex min-h-[42px] items-center gap-1.5 rounded-md bg-rust px-4 py-2 text-xs font-semibold text-white transition hover:bg-[#162C49]"
+                className="inline-flex min-h-[42px] items-center gap-1.5 rounded-md bg-rust px-4 py-2 text-xs font-semibold text-white transition hover:bg-[#1A40A8]"
                 onClick={downloadCsv}
               >
                 CSV
@@ -527,7 +527,7 @@ function MedianTable({
           <button
             key={f.id}
             type="button"
-            className={`live-tag ${f.id === fieldId ? "border-rust bg-[#EEF2F7] text-rust" : "text-ink"}`}
+            className={`live-tag ${f.id === fieldId ? "border-rust bg-[#EEF2FC] text-rust" : "text-ink"}`}
             onClick={() => onField(f.id)}
           >
             {f.label}
@@ -540,7 +540,7 @@ function MedianTable({
             {field?.label} · median of {cell.n}
           </caption>
           <thead>
-            <tr className="border-b border-[var(--rule)] bg-slate-50 text-[0.7rem] uppercase tracking-[0.1em] text-ink/55">
+            <tr className="border-b border-[var(--rule)] bg-[#F7F7F5] text-[0.7rem] uppercase tracking-[0.1em] text-ink/55">
               <th className="px-4 py-2.5 font-semibold">Book</th>
               <th className="px-4 py-2.5 font-semibold">Value</th>
               <th className="px-4 py-2.5 font-semibold">Citation</th>
@@ -551,7 +551,7 @@ function MedianTable({
               const mark =
                 cell.midSlugs.includes(p.slug) || p.slug === leftSlug || p.slug === rightSlug;
               return (
-                <tr key={p.slug} className={mark ? "bg-[#EEF2F7]/65 font-medium" : undefined}>
+                <tr key={p.slug} className={mark ? "bg-[#EEF2FC]/65 font-medium" : undefined}>
                   <td className="px-4 py-2.5">
                     <Link to={p.href}>{p.label}</Link>
                     {cell.midSlugs.includes(p.slug) ? (

@@ -4,23 +4,24 @@
 
 :root {
   color-scheme: light;
-  --paper: #F8FAFC;
-  --paper-deep: #F1F5F9;
+  /* Same values as the --dl-* tokens in public/site-nav.css. */
+  --paper: #FFFFFF;
+  --paper-deep: #F7F7F5;
   --surface: #FFFFFF;
-  --ink: #0F172A;
-  --ink-soft: #334155;
-  --ink-faint: #64748B;
-  --carbon: #334155;
-  --rule: #E2E8F0;
-  --rule-strong: #CBD5E1;
-  --rust: #1E3A5F;
-  --rust-soft: #EEF2F7;
-  --crimson: #B91C1C;
-  --crimson-soft: #FEF2F2;
-  --zinc: #0F766E;
-  --zinc-soft: #F0FDFA;
-  --ochre: #B45309;
-  --ochre-soft: #FFFBEB;
+  --ink: #16181D;
+  --ink-soft: #4A4F59;
+  --ink-faint: #6B7079;
+  --carbon: #4A4F59;
+  --rule: #E6E6E3;
+  --rule-strong: #D3D3CF;
+  --rust: #1F4FD1;
+  --rust-soft: #EEF2FC;
+  --crimson: #A13A2F;
+  --crimson-soft: #FBF1EF;
+  --zinc: #2F6B47;
+  --zinc-soft: #EFF6F1;
+  --ochre: #7A5A1E;
+  --ochre-soft: #FAF5E9;
   --focus: var(--rust);
 }
 
@@ -58,7 +59,7 @@
   }
 
   a:hover {
-    color: #162C49;
+    color: #1A40A8;
   }
 
   :focus-visible {
@@ -73,28 +74,32 @@
   }
 }
 
-/* Tabular monospace figures */
+/* Figures: the text face with tabular digits, as on the rest of the site */
 .num {
-  font-family: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  font-family: inherit;
   font-variant-numeric: tabular-nums;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
 }
 
 .num-hero {
-  font-size: clamp(1.75rem, 6vw, 3.5rem);
-  font-weight: 600;
-  line-height: 1.08;
+  font-size: clamp(1.75rem, 3.2vw + 0.75rem, 3rem);
+  font-weight: 700;
+  line-height: 1.1;
   letter-spacing: -0.03em;
   overflow-wrap: anywhere;
+}
+
+/* Tailwind's font-mono on a figure would bring the monospace back. */
+.num.font-mono {
+  font-family: inherit;
 }
 
 /* Section kickers */
 .kicker {
   margin: 0;
-  font-size: 0.72rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.4;
   color: var(--ink-faint);
 }
 
@@ -142,7 +147,7 @@
 }
 
 .file-cta:hover {
-  color: #162C49;
+  color: #1A40A8;
 }
 
 .file-cta-notch {
@@ -167,41 +172,34 @@
 }
 
 .hatch-carbon {
-  background-color: #1E3A5F;
+  background-color: #1F4FD1;
 }
 
 .hatch-ochre {
-  background-color: #D97706;
+  background-color: #C98A1B;
 }
 
 .hatch-rust {
-  background-color: #0F766E;
+  background-color: #2F6B47;
 }
 
 .hatch-zinc {
-  background-color: #CBD5E1;
+  background-color: #DCDCD8;
 }
 
 /* Primary data cards */
 .carbon-sheet {
   background: var(--surface);
   border: 1px solid var(--rule);
-  border-radius: 8px;
-  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.03);
+  border-radius: 12px;
 }
 
 .index-slip,
 .slip {
-  background: var(--surface);
+  background: var(--paper-deep);
   border: 1px solid var(--rule);
-  border-left: 3px solid var(--zinc);
-  border-radius: 8px;
+  border-radius: 10px;
   padding: 1rem 1.15rem;
-  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.03);
-}
-
-.index-slip .kicker {
-  color: var(--zinc);
 }
 
 .docket-slip {
@@ -241,8 +239,7 @@
   display: block;
   background: var(--surface);
   border: 1px solid var(--rule);
-  border-left: 3px solid var(--rust);
-  border-radius: 8px;
+  border-radius: 12px;
   padding: 1.15rem 1.25rem;
   text-decoration: none;
   color: inherit;
@@ -252,31 +249,9 @@
 
 .docket-door:hover {
   border-color: var(--rust);
-  box-shadow: 0 8px 22px -12px rgba(15, 23, 42, 0.14);
-  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(22, 24, 29, 0.04), 0 8px 24px -12px rgba(22, 24, 29, 0.12);
   color: inherit;
   text-decoration: none;
-}
-
-.docket-door.empty,
-.docket-door.bone {
-  border-left-color: var(--rule-strong);
-}
-
-.docket-door.layer-union {
-  border-left-color: var(--rust);
-}
-
-.docket-door.layer-state {
-  border-left-color: var(--zinc);
-}
-
-.docket-door.layer-municipal {
-  border-left-color: var(--ochre);
-}
-
-.docket-door.layer-gram {
-  border-left-color: #475569;
 }
 
 .docket-door.bone {
@@ -308,7 +283,7 @@
 
 .field:focus {
   border-color: var(--rust);
-  box-shadow: 0 0 0 3px rgba(30, 58, 95, 0.12);
+  box-shadow: 0 0 0 3px var(--rust-soft);
   outline: none;
 }
 

@@ -95,35 +95,17 @@ export function SiteFrame({ children }: { children: ReactNode }) {
         Skip to content
       </a>
 
-      <header className="site-header">
-        <div className="mx-auto flex max-w-[1140px] flex-wrap items-center justify-between gap-2 px-4 py-2 sm:px-6">
-          <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-ink/55">
-            <span className="inline-block h-2 w-2 rounded-full bg-rust" aria-hidden="true" />
-            <span>Public Money &amp; Prices</span>
-          </div>
-          <nav aria-label="Public Money sections" className="flex flex-wrap items-center gap-1">
-            {NAV.map((item) => {
-              const active = item.match(location.pathname);
-              return (
-                <Link
-                  key={item.to}
-                  to={item.to}
-                  aria-current={active ? "page" : undefined}
-                  className={
-                    active
-                      ? "rounded-md bg-[#EEF2F7] px-2.5 py-1 text-xs font-semibold text-rust no-underline"
-                      : "rounded-md px-2.5 py-1 text-xs font-medium text-ink/70 no-underline transition hover:bg-slate-100 hover:text-ink"
-                  }
-                >
-                  {item.label}
-                </Link>
-              );
-            })}
-          </nav>
+      <nav className="dl-subnav" aria-label="Public Money sections">
+        <div className="dl-subnav-in">
+          {NAV.map((item) => (
+            <Link key={item.to} to={item.to} aria-current={item.match(location.pathname) ? "page" : undefined}>
+              {item.label}
+            </Link>
+          ))}
         </div>
-      </header>
+      </nav>
 
-      <main id="main" className="mx-auto max-w-[1140px] px-4 py-8 sm:px-6 sm:py-10">
+      <main id="main" className="mx-auto max-w-[1168px] px-4 py-8 sm:px-6 sm:py-10">
         {crumbs.length > 1 ? (
           <nav aria-label="Breadcrumb">
             <ol className="crumb-nav">
@@ -143,7 +125,7 @@ export function SiteFrame({ children }: { children: ReactNode }) {
         {children}
       </main>
 
-      <footer className="mx-auto max-w-[1140px] border-t border-[var(--rule)] px-4 py-6 text-xs text-ink/60 sm:px-6">
+      <footer className="mx-auto max-w-[1168px] border-t border-[var(--rule)] px-4 py-6 text-xs text-ink/60 sm:px-6">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <p className="m-0">
             Figures quoted directly from official Union &amp; State Annual Financial Statements, Demand books, and MoSPI CPI bulletins.

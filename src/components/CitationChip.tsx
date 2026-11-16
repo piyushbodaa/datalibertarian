@@ -39,7 +39,7 @@ export function CitationChip({ citationId, compact }: Props) {
         target.focus({ preventScroll: true });
       }}
       data-citation-id={c.id}
-      className={`citation-chip ml-1 inline-flex items-baseline gap-0.5 rounded bg-slate-100 px-1 py-0.5 align-super text-[0.65rem] font-semibold uppercase tracking-[0.06em] no-underline transition hover:bg-[#EEF2F7] ${
+      className={`citation-chip ml-1 inline-flex items-baseline gap-0.5 rounded bg-[#F7F7F5] px-1 py-0.5 align-super text-[0.68rem] font-medium no-underline transition hover:bg-[#EEF2FC] ${
         isMedian
           ? "citation-chip-median text-ochre hover:text-ink"
           : isIndex

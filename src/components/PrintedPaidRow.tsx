@@ -26,7 +26,7 @@ export function PrintedPaidRow({ item }: { item: InflationItem }) {
         </Link>
       </div>
       <div className="mt-3 grid gap-4 lg:grid-cols-2">
-        <div className="rounded-lg border border-[var(--rule)] border-l-4 border-l-[var(--rust)] bg-slate-50/70 px-4 py-3.5">
+        <div className="rounded-lg border border-[var(--rule)] border-l-4 border-l-[var(--rust)] bg-[#F7F7F5]/70 px-4 py-3.5">
           <p className="kicker text-rust">Official MoSPI CPI</p>
           <p className="num mt-1.5 text-3xl font-semibold whitespace-nowrap">{formatPct(gov.yoyPct)}</p>
           <p className="mt-1.5 text-sm text-ink/75">

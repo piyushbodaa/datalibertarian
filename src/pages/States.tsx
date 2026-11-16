@@ -263,7 +263,7 @@ export function StatesPage() {
                 >
                   {row.name}
                 </Link>
-                <div className="hidden h-2.5 w-full overflow-hidden rounded-full bg-slate-100 sm:block" aria-hidden="true">
+                <div className="hidden h-2.5 w-full overflow-hidden rounded-full bg-[#F0F0ED] sm:block" aria-hidden="true">
                   <div
                     className="h-full rounded-full bg-rust/80"
                     style={{ width: `${pct}%` }}
@@ -338,7 +338,7 @@ function Section({ title, rows }: { title: string; rows: typeof jurisdictions })
               {j.name}
             </Link>
             {j.tier === "gold" ? (
-              <span className="rounded-full bg-[#EEF2F7] px-2 py-0.5 text-xs font-semibold text-rust">
+              <span className="rounded-full bg-[#EEF2FC] px-2 py-0.5 text-xs font-semibold text-rust">
                 Official book
               </span>
             ) : (
