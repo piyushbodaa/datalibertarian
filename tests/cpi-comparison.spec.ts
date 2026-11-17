@@ -7,6 +7,26 @@ const distinctItems = new Set(
   evidence.quotes.map((q: { itemCode: string }) => q.itemCode),
 ).size;
 
+test("sanitized retailer evidence keeps prices, provenance and honest labels", async ({ page, request }) => {
+  await page.goto("/inflation");
+  await page.getByRole("searchbox", { name: "Find a basket item" }).fill("IKEA");
+  await expect(page.getByRole("link", { name: "Archived page (keys redacted)", exact: true })).toHaveCount(1);
+  const downloaded = await (await request.get("/data/inflation/independent-quotes.json")).json();
+  const sources = downloaded.sources.filter((source: { evidenceType: string }) => source.evidenceType === "sanitized-fetched-html");
+  expect(sources).toHaveLength(3);
+  for (const source of sources) {
+    const response = await request.get(source.archive);
+    expect(response.ok()).toBe(true);
+    const body = await response.text();
+    expect(/AIza[0-9A-Za-z_-]{35}/.test(body)).toBe(false);
+    expect(body).toContain("[REDACTED_GOOGLE_API_KEY]");
+    expect(source.sanitization.originalSha256).not.toBe(source.sha256);
+  }
+  expect(downloaded.quotes.map((quote: { price: number }) => quote.price)).toEqual(
+    evidence.quotes.map((quote: { price: number }) => quote.price),
+  );
+});
+
 test("full CPI comparison preserves all items, sector weights, prices and incomplete evidence", async ({
   page,
   request,

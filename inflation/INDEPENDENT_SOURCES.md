@@ -60,7 +60,9 @@ These are **provider-level academic-year tariff changes**. They are not estimate
 
 ## Evidence captured and rejected
 
-Complete HTTP response bytes were retained for Tata 1mg, IKEA, Netflix, Decathlon, Apollo Diagnostics, the DPS fee table, MK Retail and Naturals. HTML is saved with `.html.txt` so the public evidence link is inert text. The Taj restaurant menu is retained as its original image-only PDF; its prices and serving sizes were visually checked on pages 2 and 3. The SHA-256 value covers the stored bytes.
+HTML captures are saved with `.html.txt` so the public evidence link is inert text. The IKEA and two MK Retail captures are sanitized copies: embedded Google API key candidates have been replaced with a redaction marker. Their source records retain the original response hash and size, the transformation name and redaction count; the current SHA-256 and byte count cover the sanitized public bytes. Prices and other visible source text are unchanged. These three files are labelled `sanitized-fetched-html`, not complete original responses. The other HTML captures retain their original response bytes. The Taj restaurant menu is retained as its original image-only PDF; its prices and serving sizes were visually checked on pages 2 and 3.
+
+Use the [evidence capture and publication checks](EVIDENCE_SAFETY.md) for future captures. An inert text extension prevents script execution; it does not conceal embedded credentials. Sanitizing a current copy does not revoke a key or erase historical commits and previously deployed copies.
 
 BigBasket returned HTTP 403 to the direct download. Its primary product pages were readable through the web tool. Its eleven archived `.observed-facts.json` files explicitly contain **transcribed facts from those opened pages**, not original HTML or receipts. IGL's two tariff observations are also explicitly transcribed: its direct HTTP response did not contain the tariff table read through the web tool. These hashes authenticate the fact sheets only. No access control was bypassed. Retail delivery locations were not inferred from corporate addresses and remain unknown where a locality was not verified.
 
@@ -100,7 +102,7 @@ The independent engine should accept an item only after its required matched obs
 1. Verify every evidence file against `manifest.json`.
 2. Check every `itemCode` against `cpi-basket.json`; keep classification changes reviewable.
 3. Confirm the displayed price and exact pack/plan/service at the linked provider before a new collection date is recorded.
-4. Retain the original observation and archive; add a new dated record rather than overwriting past prices.
+4. Retain the original observation and provenance; add a new dated record rather than overwriting past prices. Keep unsanitized downloads outside publication inputs. Record any necessary redaction with original and published hashes.
 5. Only compare the same outlet, location, specification, tax treatment and discount eligibility. Record substitutions explicitly.
 6. Keep provider tariff changes, quoted-item coverage and national-index eligibility as separate measures.
 

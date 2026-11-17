@@ -8,6 +8,7 @@ import json
 import math
 from pathlib import Path
 import urllib.request
+from evidence_safety import require_safe
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = 'https://api.mospi.gov.in/api/cpi/getCPIData?base_year=2024&series=Current&year=2026,2025&month_code=10&state_code=1&sector_code=1,2,3&limit=100'
@@ -16,6 +17,7 @@ ARCHIVE = ROOT / 'public/data/inflation/sources/cpi-official-october-2026-api.js
 def fetch(page):
     url = SOURCE + f'&page={page}'
     raw = urllib.request.urlopen(url, timeout=50).read()
+    require_safe(raw)
     data = json.loads(raw)
     if not data.get('statusCode') or not data.get('data'):
         raise ValueError(f'API returned no data for page {page}: {data.get("msg")}')

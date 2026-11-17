@@ -1,5 +1,6 @@
 /** Export the full official basket and independent evidence without inventing an index. */
 import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { execFileSync } from "node:child_process";
 import { auditReplicaCoverage, type IndexSector } from "../src/data/inflation/cpi-replica";
 
 type Label = { code: string; name: string };
@@ -35,6 +36,9 @@ type Quote = {
   matchedAnnualComparison: unknown | null;
 };
 
+// Also protect direct invocation outside the npm build pipeline.
+execFileSync("python3", ["inflation/check_public_secrets.py"], { stdio: "inherit" });
+execFileSync("python3", ["inflation/verify_independent.py"], { stdio: "inherit" });
 const basket = JSON.parse(await readFile("src/data/inflation/cpi-basket.json", "utf8"));
 const official = JSON.parse(await readFile("src/data/inflation/cpi-official.json", "utf8"));
 const independent = JSON.parse(await readFile("src/data/inflation/independent-quotes.json", "utf8"));
