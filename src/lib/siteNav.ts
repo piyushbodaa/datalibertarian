@@ -39,6 +39,7 @@ export const SITE_NAV: NavGroup[] = [
       { href: "/psu", name: "PSUs", what: "Businesses the government owns" },
       { href: "/education", name: "Education", what: "Schools and students, from UDISE+" },
       { href: "/gov", name: "Gov.in Directory", what: "Official .gov.in websites" },
+      { href: "/source", name: "Data sources", what: "Where the government publishes all-India data" },
     ],
   },
   {

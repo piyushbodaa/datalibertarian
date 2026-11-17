@@ -13,6 +13,7 @@ const LABELS: Record<string, string> = {
   pressreleases: "Press releases",
   ap: "Andhra Pradesh",
   sources: "Sources & methodology",
+  source: "Government data sources",
   corrections: "Corrections",
   inflation: "Inflation",
   method: "Method",
