@@ -57,6 +57,7 @@ const StateHealthPage = lazy(() => import("./pages/StateHealth").then((m) => ({ 
 const PolicePage = lazy(() => import("./pages/Police").then((m) => ({ default: m.PolicePage })));
 const TnPolicePage = lazy(() => import("./pages/TnPolice").then((m) => ({ default: m.TnPolicePage })));
 const SourcesPage = lazy(() => import("./pages/Sources").then((m) => ({ default: m.SourcesPage })));
+const SourcePage = lazy(() => import("./pages/Source").then((m) => ({ default: m.SourcePage })));
 const StatesPage = lazy(() => import("./pages/States").then((m) => ({ default: m.StatesPage })));
 const TgCommissioneratePage = lazy(() =>
   import("./pages/TgCommissionerate").then((m) => ({ default: m.TgCommissioneratePage })),
@@ -141,6 +142,7 @@ export default function App() {
           <Route path="/municipal/:slug" element={<MunicipalBodyPage />} />
           <Route path="/gram" element={<GramPage />} />
           <Route path="/sources" element={<SourcesPage />} />
+          <Route path="/source" element={<SourcePage />} />
           <Route path="/maharashtra/police" element={<PolicePage />} />
           <Route path="/uttar-pradesh/police" element={<UpPolicePage />} />
           <Route path="/telangana/police" element={<TgPolicePage />} />

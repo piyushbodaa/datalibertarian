@@ -8,6 +8,7 @@ export function metadataFor(pathname: string, search = "") {
     "/states": "Explore state police budgets from official government books, with clear coverage and links to the original sources.",
     "/compare": "Compare government budgets by fiscal year and series. See the source figures and the books behind each median.",
     "/sources": "Read the official sources, extraction dates, accounting definitions, and limitations behind Data Libertarian.",
+    "/source": "A directory of Indian government websites that publish all-India data, by subject: the organisation, the exact link to each dataset, and what the data holds.",
     "/corrections": "Report a correction with the official source, page, fiscal year, and figure. Learn how source changes are reviewed.",
     "/pressreleases": "Pilot index of the top 100 police departments with official press-release archives, latest verified releases, and direct links to PDFs and HTML notes.",
     "/pressreleases/police": "Pilot index of the top 100 police departments with official press-release archives, latest verified releases, and direct links to PDFs and HTML notes.",
