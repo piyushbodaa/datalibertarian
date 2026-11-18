@@ -8,6 +8,7 @@ import json
 from pathlib import Path
 import re
 import urllib.request
+from evidence_safety import require_safe
 
 SOURCE_URL = 'https://fcainfoweb.nic.in/Reports/DB/DBprices.aspx'
 # Fixed membership, independent of the direction of observed price changes.
@@ -121,6 +122,8 @@ def main():
     if args.input and not args.retrieved_at:
         ap.error('--retrieved-at is required when reading an archived input')
     raw = args.input.read_bytes() if args.input else urllib.request.urlopen(SOURCE_URL, timeout=45).read()
+    # Official captures retain exact bytes. Reject unsafe input before parsing/writing.
+    require_safe(raw)
     retrieved = args.retrieved_at or dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')
     candidate = extract(raw, retrieved, '')
     name = f"pmd-retail-{candidate['metadata']['asOf']}.html.txt"
