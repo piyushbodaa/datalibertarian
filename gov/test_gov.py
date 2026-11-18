@@ -6,13 +6,35 @@ import os
 import re
 import tempfile
 import unittest
+import urllib.error
+import urllib.request
+from unittest.mock import patch
 from urllib.parse import urlparse
 
 import build as gov_build
+import harvest
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(HERE, "data", "snapshot.json")
 GOV_IN_RE = re.compile(r"^[a-z0-9](?:[a-z0-9-]*[a-z0-9])?(?:\.[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)*\.gov\.in$")
+
+
+class EvidenceTransportTests(unittest.TestCase):
+    def test_http_sources_are_requested_over_https(self):
+        with patch("urllib.request.build_opener") as build_opener:
+            harvest.open_evidence("http://example.gov.in/directory", timeout=8)
+        req = build_opener.return_value.open.call_args.args[0]
+        self.assertEqual(req.full_url, "https://example.gov.in/directory")
+        self.assertIsInstance(build_opener.call_args.args[0], harvest.HttpsRedirectHandler)
+
+    def test_redirects_require_https(self):
+        handler = harvest.HttpsRedirectHandler()
+        req = urllib.request.Request("https://example.gov.in")
+        location = "https://www.example.gov.in/"
+        redirected = handler.redirect_request(req, None, 302, "Found", {}, location)
+        self.assertEqual(redirected.full_url, location)
+        with self.assertRaises(urllib.error.URLError):
+            handler.redirect_request(req, None, 302, "Found", {}, "http://example.gov.in/")
 
 
 class GovSnapshotTests(unittest.TestCase):
