@@ -30,7 +30,6 @@ import json
 import os
 import re
 import socket
-import ssl
 import sys
 import time
 import urllib.error
@@ -40,13 +39,12 @@ import urllib.request
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 CACHE_DIR = os.path.join(ROOT, ".cache", "gov")
-IGOD_CACHE = os.path.join(CACHE_DIR, "igod")
-EXT_CACHE = os.path.join(CACHE_DIR, "ext")
-ONEHOP_CACHE_PATH = os.path.join(CACHE_DIR, "onehop_v1.json")
+IGOD_CACHE = os.path.join(CACHE_DIR, "igod_https_v1")
+EXT_CACHE = os.path.join(CACHE_DIR, "ext_https_v1")
+ONEHOP_CACHE_PATH = os.path.join(CACHE_DIR, "onehop_https_v1.json")
 DNS_CACHE_PATH = os.path.join(CACHE_DIR, "dns_cache_v2.json")
 OUT_PATH = os.path.join(HERE, "data", "snapshot.json")
 
-SSL_UNVERIFIED = ssl._create_unverified_context()
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; DataLibertarianGovDirectory/1.0; +https://datalibertarian.in/gov)"}
 
 # Exact jurisdiction names from src/data/states.ts
@@ -452,7 +450,23 @@ def ensure_dirs():
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
 
 
-def fetch_cached(url: str, cache_dir: str, unverified_ssl: bool = False, refresh: bool = False) -> str:
+class HttpsRedirectHandler(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        if urllib.parse.urlsplit(newurl).scheme != "https":
+            raise urllib.error.URLError("Refusing an insecure evidence redirect")
+        return super().redirect_request(req, fp, code, msg, headers, newurl)
+
+
+def open_evidence(url: str, timeout: int):
+    parts = urllib.parse.urlsplit(url)
+    if parts.scheme not in ("http", "https") or not parts.hostname:
+        raise ValueError("Expected a web URL for evidence")
+    # Some directory records still advertise HTTP. Fetch the secure version.
+    req = urllib.request.Request(parts._replace(scheme="https").geturl(), headers=HEADERS)
+    return urllib.request.build_opener(HttpsRedirectHandler()).open(req, timeout=timeout)
+
+
+def fetch_cached(url: str, cache_dir: str, refresh: bool = False) -> str:
     key = hashlib.sha1(url.encode("utf-8")).hexdigest()
     path = os.path.join(cache_dir, key + ".txt")
     if not refresh and os.path.exists(path):
@@ -461,9 +475,7 @@ def fetch_cached(url: str, cache_dir: str, unverified_ssl: bool = False, refresh
     last_err = None
     for attempt in range(3):
         try:
-            req = urllib.request.Request(url, headers=HEADERS)
-            ctx = SSL_UNVERIFIED if unverified_ssl else None
-            with urllib.request.urlopen(req, context=ctx, timeout=20) as resp:
+            with open_evidence(url, timeout=20) as resp:
                 body = resp.read().decode("utf-8", "ignore")
             with open(path, "w", encoding="utf-8") as f:
                 f.write(body)
@@ -476,7 +488,7 @@ def fetch_cached(url: str, cache_dir: str, unverified_ssl: bool = False, refresh
 
 def fetch_igod(path: str, refresh: bool = False) -> str:
     url = path if path.startswith("http") else "https://igod.gov.in/" + path.lstrip("/")
-    return fetch_cached(url, IGOD_CACHE, unverified_ssl=True, refresh=refresh)
+    return fetch_cached(url, IGOD_CACHE, refresh=refresh)
 
 
 def clean_text(s: str) -> str:
@@ -1037,9 +1049,8 @@ def load_tranco_gov_in(refresh: bool = False) -> tuple[str, dict[str, int]]:
         return list_id, data
 
     dl_url = f"https://tranco-list.eu/download/{list_id}/full"
-    req = urllib.request.Request(dl_url, headers=HEADERS)
     ranks: dict[str, int] = {}
-    with urllib.request.urlopen(req, timeout=45) as resp:
+    with open_evidence(dl_url, timeout=45) as resp:
         for line in resp:
             s = line.decode("ascii", "ignore").strip()
             if s.endswith(".gov.in") and "," in s:
@@ -1213,8 +1224,7 @@ def discover_onehop_and_redirects(
         redir = None
         init_dom, init_host, _ = normalize_url_and_host(u)
         try:
-            req = urllib.request.Request(u, headers=HEADERS)
-            with urllib.request.urlopen(req, context=SSL_UNVERIFIED, timeout=8) as resp:
+            with open_evidence(u, timeout=8) as resp:
                 fin_u = resp.geturl()
                 body = resp.read(350_000).decode("utf-8", "ignore")
             fin_dom, fin_host, fin_clean = normalize_url_and_host(fin_u)
@@ -1310,18 +1320,14 @@ def discover_onehop_and_redirects(
 
     def verify_http_candidate(item):
         h, d_name, st_name = item
-        for scheme in ("https://", "http://"):
-            try:
-                req = urllib.request.Request(f"{scheme}{h}", headers=HEADERS)
-                with urllib.request.urlopen(req, context=SSL_UNVERIFIED, timeout=8) as resp:
-                    if resp.status != 200:
-                        continue
-                    body = resp.read(200_000).decode("utf-8", "ignore")
-                title = _good_page_title(body)
-                if title:
-                    return h, d_name, st_name, resp.geturl(), title
-            except Exception:
-                continue
+        try:
+            with open_evidence(f"https://{h}", timeout=8) as resp:
+                if resp.status == 200:
+                    title = _good_page_title(resp.read(200_000).decode("utf-8", "ignore"))
+                    if title:
+                        return h, d_name, st_name, resp.geturl(), title
+        except Exception:
+            pass
         return h, d_name, st_name, None, None
 
     print(f"    HTTP-verifying {len(resolving_dists)} resolving IGOD E042 district candidates...")
@@ -1348,8 +1354,7 @@ def discover_onehop_and_redirects(
     def fetch_title(d: str):
         u = discovered[d]["url"]
         try:
-            req = urllib.request.Request(u, headers=HEADERS)
-            with urllib.request.urlopen(req, context=SSL_UNVERIFIED, timeout=7) as resp:
+            with open_evidence(u, timeout=7) as resp:
                 body = resp.read(150_000).decode("utf-8", "ignore")
             return d, _good_page_title(body)
         except Exception:
