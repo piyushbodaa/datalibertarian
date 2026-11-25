@@ -173,7 +173,7 @@ a{color:inherit}
 .sec-head h2{font:700 24px/1.2 var(--sans);letter-spacing:-.015em;margin:6px 0 0}
 .sec-head p{margin:0;color:var(--dim);font-size:13.5px;max-width:38em}
 .fig{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:20px 22px 18px;margin-top:20px;box-shadow:0 1px 2px rgba(15,23,42,.03)}
-.fig h3{font:600 17px/1.3 var(--sans);margin:0}
+.fig h2,.fig h3{font:600 17px/1.3 var(--sans);margin:0}
 .fig .cap{font-size:13px;color:var(--dim);margin:4px 0 0}
 .legend{display:flex;flex-wrap:wrap;gap:6px 18px;margin:14px 0 6px;font-size:12.5px;color:var(--ink-2)}
 .legend span{display:inline-flex;align-items:center;gap:6px}
@@ -486,6 +486,11 @@ def build_main_hub(snap: dict) -> str:
       <a class="btn" href="/gov/gov-in-websites.csv" download>Download CSV</a>
     </div>
     <div class="tiles">{tiles_html}</div>
+    <aside class="fig" aria-labelledby="audit-title">
+      <h2 id="audit-title">Help audit government websites</h2>
+      <p class="cap">Can residents find an office address or an official email? Contribute your computer&rsquo;s processing time to one of 100 AI Watchdogs India tasks checking what the sites in this directory publish against India&rsquo;s government website guidelines.</p>
+      <div class="cta"><a class="btn solid" href="https://aiwatchdogs.in/projects/gov-in-public-information">Contribute compute on AI Watchdogs</a></div>
+    </aside>
   </div>
 </section>"""
 
