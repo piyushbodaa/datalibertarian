@@ -74,11 +74,13 @@ function QuoteCard({ quote }: { quote: Quote }) {
           Price source ↗
         </a>
         <a href={quote.sourceArchive}>
-          {quote.evidenceType === "complete-fetched-html"
-            ? "Archived page"
-            : quote.evidenceType === "complete-fetched-pdf"
-              ? "Archived PDF"
-              : "Transcribed source facts"}
+          {quote.evidenceType === "sanitized-fetched-html"
+            ? "Archived page (keys redacted)"
+            : quote.evidenceType === "complete-fetched-html"
+              ? "Archived page"
+              : quote.evidenceType === "complete-fetched-pdf"
+                ? "Archived PDF"
+                : "Transcribed source facts"}
         </a>
       </div>
     </div>

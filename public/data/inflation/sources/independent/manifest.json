@@ -94,10 +94,16 @@
     "url": "https://www.ikea.com/in/en/p/marius-stool-white-30184050/",
     "retrievedAt": "2026-11-16T16:45:38.354518Z",
     "archive": "/data/inflation/sources/independent/ikea-marius-2026-11-16.html.txt",
-    "sha256": "ad269ec9d618e2f4b502558e97649f613c04a34310362f3614a504e7c96ada91",
-    "bytes": 944451,
-    "evidenceType": "complete-fetched-html",
-    "sourceCrawlReported": null
+    "sha256": "f6e56de7d63032594869486071960464b51eeef8d8a058e24be38eef6b79517d",
+    "bytes": 944437,
+    "evidenceType": "sanitized-fetched-html",
+    "sourceCrawlReported": null,
+    "sanitization": {
+      "originalSha256": "ad269ec9d618e2f4b502558e97649f613c04a34310362f3614a504e7c96ada91",
+      "originalBytes": 944451,
+      "method": "google-api-key-redaction-v1",
+      "redactions": 1
+    }
   },
   {
     "id": "netflix-plans",
@@ -204,20 +210,32 @@
     "url": "https://mkretail.com/product/nivea-nourishing-body-milk-120ml",
     "retrievedAt": "2026-11-16T16:57:01+00:00",
     "archive": "/data/inflation/sources/independent/mk-nivea-bodymilk-2026-11-16.html.txt",
-    "sha256": "1dbffe6543c4fedf5c7953ed824c3e305f59416b2521c06101cd4a41766bb361",
-    "bytes": 249565,
-    "evidenceType": "complete-fetched-html",
-    "sourceCrawlReported": null
+    "sha256": "dc6636ff0c583a5c80921c29caa7e4c7f685bc08a2799edea5af384039d462ff",
+    "bytes": 249551,
+    "evidenceType": "sanitized-fetched-html",
+    "sourceCrawlReported": null,
+    "sanitization": {
+      "originalSha256": "1dbffe6543c4fedf5c7953ed824c3e305f59416b2521c06101cd4a41766bb361",
+      "originalBytes": 249565,
+      "method": "google-api-key-redaction-v1",
+      "redactions": 1
+    }
   },
   {
     "id": "mk-nivea-showergel",
     "url": "https://mkretail.com/product/nivea-shower-gel-frangipani-oil-125ml",
     "retrievedAt": "2026-11-16T16:57:01+00:00",
     "archive": "/data/inflation/sources/independent/mk-nivea-showergel-2026-11-16.html.txt",
-    "sha256": "9a59433cde6a9faa5cea3c82eefdbabe8d10555d8653581f7b38509703246e16",
-    "bytes": 250169,
-    "evidenceType": "complete-fetched-html",
-    "sourceCrawlReported": null
+    "sha256": "6a1962f77a29531f612084470262e51efe03596db119e047d4c257d9458587b0",
+    "bytes": 250155,
+    "evidenceType": "sanitized-fetched-html",
+    "sourceCrawlReported": null,
+    "sanitization": {
+      "originalSha256": "9a59433cde6a9faa5cea3c82eefdbabe8d10555d8653581f7b38509703246e16",
+      "originalBytes": 250169,
+      "method": "google-api-key-redaction-v1",
+      "redactions": 1
+    }
   },
   {
     "id": "naturals-classic-cut",

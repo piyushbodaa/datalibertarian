@@ -12,11 +12,13 @@ import math
 from pathlib import Path
 import re
 from urllib.parse import urlparse
+from evidence_safety import MARKER, METHOD, require_safe
 
 ROOT = Path(__file__).resolve().parents[1]
 ARCHIVE_PREFIX = '/data/inflation/sources/independent/'
 EVIDENCE_TYPES = {
     'complete-fetched-html',
+    'sanitized-fetched-html',
     'complete-fetched-pdf',
     'transcribed-facts-from-opened-primary-page',
 }
@@ -185,12 +187,25 @@ def verify_archive(source, root):
     require(path.is_relative_to(directory), 'Independent archive escapes evidence directory')
     require(re.fullmatch(r'[0-9a-f]{64}', source.get('sha256', '')) is not None, 'Independent archive: malformed SHA-256')
     raw = path.read_bytes()
+    require_safe(raw)
     require(len(raw) == source['bytes'], f'Independent archive size mismatch: {path.name}')
     require(sha256(raw).hexdigest() == source['sha256'], f'Independent archive checksum mismatch: {path.name}')
     kind = source['evidenceType']
     require(kind in EVIDENCE_TYPES, f'Unknown independent evidence type: {kind}')
-    if kind == 'complete-fetched-html':
+    if kind in ('complete-fetched-html', 'sanitized-fetched-html'):
         require(path.name.endswith('.html.txt') and b'<html' in raw.lower(), 'Raw HTML evidence has wrong format or unsafe extension')
+        if kind == 'sanitized-fetched-html':
+            record = source.get('sanitization', {})
+            require(record.get('method') == METHOD, 'Sanitized evidence needs a known transformation')
+            require(re.fullmatch(r'[0-9a-f]{64}', record.get('originalSha256', '')) is not None
+                    and record['originalSha256'] != source['sha256'], 'Sanitized evidence needs the original response hash')
+            require(type(record.get('originalBytes')) is int and record['originalBytes'] > 0,
+                    'Sanitized evidence needs the original response size')
+            require(type(record.get('redactions')) is int and record['redactions'] > 0
+                    and raw.count(MARKER) == record['redactions'], 'Sanitized evidence redaction count mismatch')
+        else:
+            require(not source.get('sanitization') and MARKER not in raw,
+                    'Sanitized evidence must not be labelled as a complete response')
     elif kind == 'complete-fetched-pdf':
         require(path.suffix == '.pdf' and raw.startswith(b'%PDF'), 'PDF evidence has wrong format')
     else:
